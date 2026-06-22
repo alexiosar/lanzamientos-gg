@@ -1,0 +1,80 @@
+const JUEGOS = [
+  {
+    id: "doom-dark-ages",
+    titulo: "DOOM: THE DARK AGES",
+    fecha: "2025-07-15",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["FPS", "ACCION"],
+    desarrollador: "ID SOFTWARE",
+    descripcion: "PRECUELA DE DOOM (2016). EL DOOM SLAYER SE ENFRENTA A LOS EJERCITOS DEL INFIERNO EN LA EDAD MEDIA. COMBATE CUERPO A CUERPO, ESCUDO Y ARMAS DEVASTADORAS. EL CAPITULO MAS AMBICIOSO DE LA SAGA HASTA LA FECHA.",
+    trailer: "https://www.youtube.com/embed/FkklG9MA0vM",
+    gamepass: true,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "mario-kart-world",
+    titulo: "MARIO KART WORLD",
+    fecha: "2025-07-05",
+    plataformas: ["SWITCH2"],
+    genero: ["CARRERAS", "MULTIJUGADOR"],
+    desarrollador: "NINTENDO",
+    descripcion: "LA ENTREGA MAS GRANDE DE MARIO KART. MUNDO ABIERTO, 32 CORREDORES EN PANTALLA, NUEVOS ITEMS Y CIRCUITOS MASIVOS. LANZAMIENTO EXCLUSIVO DE SWITCH 2 CON MULTIJUGADOR ONLINE MEJORADO.",
+    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "split-fiction",
+    titulo: "SPLIT FICTION",
+    fecha: "2025-07-18",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["COOPERATIVO", "AVENTURA"],
+    desarrollador: "HAZELIGHT STUDIOS",
+    descripcion: "DEL CREADOR DE IT TAKES TWO. AVENTURA COOPERATIVA PARA DOS JUGADORES CON MUNDOS QUE MEZCLAN SCI-FI Y FANTASIA. REQUIERE DOS COPIAS O FRIEND PASS. HISTORIA ORIGINAL Y MECANICAS QUE CAMBIAN CONSTANTEMENTE.",
+    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    gamepass: true,
+    psplus: false,
+    nuevo: false
+  },
+  {
+    id: "elden-ring-nightreign",
+    titulo: "ELDEN RING: NIGHTREIGN",
+    fecha: "2025-08-02",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["RPG", "ACCION", "COOPERATIVO"],
+    desarrollador: "FROMSOFTWARE",
+    descripcion: "EXPANSION STANDALONE DE ELDEN RING ENFOCADA EN COOPERATIVO PARA TRES JUGADORES. SESIONES DE 40 MINUTOS CON MAPAS ROGUELIKE. NUEVOS JEFES, CLASES Y UN MUNDO EN CONSTANTE CAMBIO.",
+    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    gamepass: false,
+    psplus: false,
+    nuevo: false
+  },
+  {
+    id: "metroid-prime-4",
+    titulo: "METROID PRIME 4: BEYOND",
+    fecha: "2025-08-14",
+    plataformas: ["SWITCH2"],
+    genero: ["ACCION", "AVENTURA"],
+    desarrollador: "RETRO STUDIOS",
+    descripcion: "REGRESO DE SAMUS ARAN EN LA CUARTA ENTREGA DE LA SAGA PRIME. DISPAROS EN PRIMERA PERSONA, EXPLORACION DE MUNDOS ALIENIGENAS Y NARRATIVA ENVOLVENTE. EXCLUSIVO DE NINTENDO SWITCH 2.",
+    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    gamepass: false,
+    psplus: false,
+    nuevo: false
+  },
+  {
+    id: "gta-vi",
+    titulo: "GRAND THEFT AUTO VI",
+    fecha: "2025-09-26",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["MUNDO ABIERTO", "ACCION"],
+    desarrollador: "ROCKSTAR GAMES",
+    descripcion: "EL JUEGO MAS ESPERADO DE LA DECADA. AMBIENTADO EN VICE CITY Y ALREDEDORES, CON DOS PROTAGONISTAS: JASON Y LUCIA. MAPA MAS GRANDE DE LA HISTORIA DE LA SAGA Y GRAFICOS GENERACIONALES.",
+    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    gamepass: false,
+    psplus: false,
+    nuevo: false
+  }
+];

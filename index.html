@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calendario de lanzamientos de videojuegos para PS5, Xbox y Nintendo Switch 2 en español. Fechas, trailers y fichas completas.">
+  <title>LANZAMIENTOS.GG — Calendario de Videojuegos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor">
+      <a href="index.html" class="site-logo">LANZAMIENTOS.GG</a>
+      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
+      <nav class="nav">
+        <a href="index.html" class="activo">INICIO</a>
+        <a href="index.html?plat=PS5">PS5</a>
+        <a href="index.html?plat=XBOX">XBOX</a>
+        <a href="index.html?plat=SWITCH2">SWITCH 2</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+
+    <div class="filtros">
+      <div class="filtros-label">FILTRAR POR PLATAFORMA:</div>
+      <div class="filtros-botones">
+        <button class="filtro-btn activo" data-plat="TODAS" onclick="activarFiltro('TODAS')">TODAS</button>
+        <button class="filtro-btn" data-plat="PS5"     onclick="activarFiltro('PS5')">PS5</button>
+        <button class="filtro-btn" data-plat="XBOX"    onclick="activarFiltro('XBOX')">XBOX</button>
+        <button class="filtro-btn" data-plat="SWITCH2" onclick="activarFiltro('SWITCH2')">SWITCH 2</button>
+      </div>
+    </div>
+
+    <div id="calendario"></div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
+      <span>LANZAMIENTOS.GG &copy; 2025</span>
+      <span>DATOS: IGDB.COM <span class="cursor"></span></span>
+    </div>
+  </footer>
+
+  <!-- MODAL TRAILER -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-contenido">
+      <div class="modal-header">
+        <span class="modal-titulo" id="modal-titulo"></span>
+        <span class="modal-cerrar" onclick="cerrarTrailer()">[ X ] CERRAR</span>
+      </div>
+      <div class="modal-video">
+        <iframe id="modal-iframe" src="" allowfullscreen allow="autoplay"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="datos/juegos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
