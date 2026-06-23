@@ -57,7 +57,7 @@ const JUEGOS = [
     fecha: "2026-06-24",
     plataformas: ["SWITCH2", "PS5"],
     genero: ["INDIE", "RPG"],
-    desarrollador: "FANGAMER,
+    desarrollador: "FANGAMER",
     descripcion: "¡Sumérgete en la historia paralela de UNDERTALE! Lucha o perdona en batallas llenas de acción mientras exploras un mundo misterioso junto a un entrañable elenco de personajes nuevos y conocidos.",
     trailer: "https://youtube.com/embed/n5y22LUfetA",
     gamepass: false,
