@@ -1,18 +1,5 @@
 const JUEGOS = [
   {
-    id: "doom-dark-ages",
-    titulo: "DOOM: THE DARK AGES",
-    fecha: "2025-07-15",
-    plataformas: ["PS5", "XBOX"],
-    genero: ["FPS", "ACCION"],
-    desarrollador: "ID SOFTWARE",
-    descripcion: "PRECUELA DE DOOM (2016). EL DOOM SLAYER SE ENFRENTA A LOS EJERCITOS DEL INFIERNO EN LA EDAD MEDIA. COMBATE CUERPO A CUERPO, ESCUDO Y ARMAS DEVASTADORAS. EL CAPITULO MAS AMBICIOSO DE LA SAGA HASTA LA FECHA.",
-    trailer: "https://www.youtube.com/embed/FkklG9MA0vM",
-    gamepass: true,
-    psplus: false,
-    nuevo: true
-  },
-  {
     id: "split-fiction",
     titulo: "SPLIT FICTION",
     fecha: "2025-07-18",
