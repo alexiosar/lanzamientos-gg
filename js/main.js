@@ -127,7 +127,7 @@ function renderCalendario() {
             <div class="ficha-tags">${tagsHtml}</div>
             <div class="ficha-acciones">
               <button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>
-              <a href="juegos/${j.id}.html" class="btn-trailer">+ INFO</a>
+              <a href="juegos/juego.html?id=${j.id}" class="btn-trailer">+ INFO</a>
             </div>
           </div>
         `;
