@@ -208,6 +208,16 @@ document.addEventListener("keydown", e => {
 
 // ── INIT ──
 document.addEventListener("DOMContentLoaded", () => {
+  // leer plataforma de la URL si viene con ?plat=PS5
+  const params = new URLSearchParams(window.location.search);
+  const platURL = params.get("plat");
+  if (platURL && ["PS5","XBOX","SWITCH2"].includes(platURL)) {
+    filtroActivo = platURL;
+    document.querySelectorAll(".filtro-btn").forEach(b => {
+      b.classList.toggle("activo", b.dataset.plat === platURL);
+    });
+  }
+
   renderCalendario();
 
   document.getElementById("modal-overlay").addEventListener("click", function(e) {
