@@ -2,7 +2,7 @@ const JUEGOS = [
   {
     id: "the-necromancers-tale",
     titulo: "THE NECROMANCER'S TALE",
-    fecha: "2026-09-24",
+    fecha: "2026-06-24",
     plataformas: ["PS5", "XBOX", "SWITCH2"],
     genero: ["RPG", "ISOMETRICO", "GOTICO"],
     desarrollador: "PSYCHIC SOFTWARE",
