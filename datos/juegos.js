@@ -13,7 +13,7 @@ const JUEGOS = [
     nuevo: true
   },
   {
-  id: "deltarune-chapter-5",
+    id: "deltarune-chapter-5",
     titulo: "DELTARUNE: CHAPTER 5",
     fecha: "2026-06-24",
     plataformas: ["SWITCH2", "PS5"],
