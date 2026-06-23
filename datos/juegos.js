@@ -102,5 +102,83 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     nuevo: true
+  },
+  {
+    id: "monopoly-star-wars-heroes-vs-villains",
+    titulo: "MONOPOLY: STAR WARS HEROES VS VILLAINS",
+    fecha: "2026-06-30",
+    plataformas: ["XBOX", "SWITCH2", "PS5"],
+    genero: ["TABLERO"],
+    desarrollador: "BEHAVIOUR INTERACTIVE",
+    descripcion: "Monopoly: Star Wars Heroes vs. Villains, una versión dinámica y multijugador del juego de mesa familiar favorito de Hasbro, ofrece una experiencia de juego reinventada con momentos cinematográficos, casillas temáticas y elementos dinámicos que hacen que cada partida sea única. Forma equipos con los icónicos héroes y villanos de Star Wars, cada uno con habilidades únicas que pueden influir en la estrategia y cambiar el rumbo del juego a tu favor con cada tirada de dados. El trabajo en equipo y las combinaciones de héroes son clave para la victoria.",
+    trailer: "https://youtube.com/embed/VUdjBlPP1I",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "momento",
+    titulo: "MOMENTO",
+    fecha: "2026-06-30",
+    plataformas: ["XBOX", "SWITCH2", "PS5"],
+    genero: ["PUZZLE", "INDIE", "RELAX"],
+    desarrollador: "FAT ALIEN CAT",
+    descripcion: "Momento es un juego de decoración de habitaciones acogedor con un toque especial: ¡los objetos que elijas alterarán el curso de la historia! Decora tu habitación, elige los objetos que son importantes para ti y descubre cómo estas elecciones influyen a lo largo de tu vida. Empieza en la infancia, seleccionando juguetes que representen tus sueños para el futuro. Sigue esos sueños hasta la edad adulta, explorando escenarios y temas muy diversos. Descubre historias de desamor, asombro y amor, y aprende el significado de los tesoros sentimentales que te acompañarán. Presta mucha atención algunos objetos pueden esconder más de lo que parecen a simple vista. Explora un mundo deliciosamente táctil, enciende luces, hojea libros, acaricia adorables animales y mucho más. Colecciona objetos y muebles en el modo historia para jugar con ellos en el infinito modo creativo. Al final, regresa al principio para descubrir nuevos finales, giros inesperados en el camino y explorar una historia en constante evolución de amor y pérdida.",
+    trailer: "https://youtube.com/embed/X1_HJSks2CQ",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "rv-there-yet",
+    titulo: "RV THERE YET?",
+    fecha: "2026-06-30",
+    plataformas: ["XBOX"],
+    genero: ["AVENTURA", "ACCION", "INDIE", "COOP"],
+    desarrollador: "NUGGETS ENTERTAINMENT",
+    descripcion: "Tú y tus amigos regresan a casa después de unas relajantes vacaciones, pero se ven obligados a tomar una ruta alternativa. Conduzcan su autocaravana por el interior del país y encuentren la salida a la Ruta 65. No todos los que entran al Valle de Mabutts salen con vida. Así que asegúrense de tener siempre a mano hamburguesas, antídotos y el clásico EpiPens. Dominen el cabrestante basado en la física y gánense el derecho a ser el comandante principal del control remoto. Con un cabrestante delantero y otro trasero, su autocaravana está especialmente equipada para pasar por encima, por debajo o a través de la mayoría de los baches.",
+    trailer: "https://youtube.com/embed/H7mXFwVNX6Y",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "deathbulge-battle-of-the-bands",
+    titulo: "DEATHBULGE BATTLE OF THE BANDS",
+    fecha: "2026-06-30",
+    plataformas: ["XBOX", "PS5"],
+    genero: ["RPG", "INDIE", "MUSICA"],
+    desarrollador: "DEATHBULGE",
+    descripcion: "Un juego de rol con temática musical que combina elementos macabros y sádicos. La historia gira en torno a una batalla musical a muerte, donde los participantes pueden atacar y ser atacados con música.",
+    trailer: "https://youtube.com/embed/atVHSKXhv30",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "high-on-life-2",
+    titulo: "HIGH ON LIFE 2",
+    fecha: "2026-07-01",
+    plataformas: ["XBOX", "PS5", "SWITCH2"],
+    genero: ["AVENTURA", "ACCION", "MUNDO ABIERTO", "SHOOTER", "FPS"],
+    desarrollador: "SQUANCH GAMES",
+    descripcion: "Lo has conseguido. Has desmantelado un cártel intergaláctico, rescatado a la humanidad del borde de la extinción y cazado recompensas peligrosas hasta los confines de la galaxia. La caza de recompensas te ha traído fortuna, fama y amor; pero cuando una figura misteriosa de tu pasado reaparece y pone precio a la cabeza de tu hermana, tu cómoda vida se ve sumida en el caos. ¿Tienes lo que se necesita para arriesgarlo todo y acabar con una conspiración intergaláctica que amenaza una vez más a tu especie favorita (los humanos)? High On Life REGRESA mientras tú y tu querido y peculiar equipo de inadaptados alienígenas disparan, apuñalan y patinan a través de mundos hermosos y peligrosos por toda la galaxia para volar por los aires al MALVADO conglomerado farmacéutico empeñado en poner precio a la VIDA HUMANA.",
+    trailer: "https://youtube.com/embed/UubdWIkj8Wc",
+    gamepass: false,
+    psplus: false,
+    nuevo: false
+  },
+  {
+    id: "rhythm-heaven-groove",
+    titulo: "RHYTHM HEAVEN GROOVE",
+    fecha: "2026-07-02",
+    plataformas: ["SWITCH2"],
+    genero: ["MUSIC"],
+    desarrollador: "NINTENDO",
+    descripcion: "¡Déjate llevar por el ritmo con la última entrega de la serie Rhythm Heaven, Rhythm Heaven Groove!.",
+    trailer: "https://youtube.com/embed/ZdMwqKiSeEE",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
   }
 ];
