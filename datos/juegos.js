@@ -77,6 +77,19 @@ const JUEGOS = [
     psplus: false,
     nuevo: true
   },
+   {
+    id: "flesh-made-fear",
+    titulo: "FLESH MADE FEAR",
+    fecha: "2026-06-25",
+    plataformas: ["PS5"],
+    genero: ["HORROR", "ACCION", "INDIE", "SHOOTER"],
+    desarrollador: "TAINTED PACT",
+    descripcion: "Flesh Made Fear rinde homenaje al survival horror de la era de PSX que definió a una generación. Inspirándose en la trilogía original de Resident Evil, combina magistralmente puzles complejos, combates trepidantes y una atmósfera opresiva. Pero no se trata solo de un guiño nostálgico, sino de una audaz evolución. Controles modernizados, cinemáticas inmersivas y una historia apasionante que te mantendrán en vilo hasta el último momento. Ponte en la piel de un agente de élite del Pelotón de Intervención Reaper (R.I.P.), un grupo de operaciones encubiertas desplegado para neutralizar a Victor The Dripper Ripper, un brillante pero perturbado exagente de la CIA. Sus siniestros experimentos han convertido un pueblo remoto y desolado en una pesadilla plagada de monstruos grotescos y esclavos controlados mentalmente.",
+    trailer: "https://youtube.com/embed/etHXbBKo41E",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
   {
     id: "namco-legendary-mountains",
     titulo: "NAMCO LEGENDARY MOUNTAINS",
