@@ -52,6 +52,19 @@ const JUEGOS = [
     nuevo: false
   },
   {
+  id: "deltarune-chapter-5",
+    titulo: "DELTARUNE: CHAPTER 5",
+    fecha: "2026-06-24",
+    plataformas: ["SWITCH2", "PS5"],
+    genero: ["INDIE", "RPG"],
+    desarrollador: "FANGAMER,
+    descripcion: "¡Sumérgete en la historia paralela de UNDERTALE! Lucha o perdona en batallas llenas de acción mientras exploras un mundo misterioso junto a un entrañable elenco de personajes nuevos y conocidos.",
+    trailer: "https://youtube.com/embed/n5y22LUfetA",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },     
+  {
     id: "star-fox",
     titulo: "STAR FOX",
     fecha: "2026-06-25",
