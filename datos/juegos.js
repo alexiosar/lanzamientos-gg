@@ -13,19 +13,6 @@ const JUEGOS = [
     nuevo: true
   },
   {
-    id: "mario-kart-world",
-    titulo: "MARIO KART WORLD",
-    fecha: "2025-07-05",
-    plataformas: ["SWITCH2"],
-    genero: ["CARRERAS", "MULTIJUGADOR"],
-    desarrollador: "NINTENDO",
-    descripcion: "LA ENTREGA MAS GRANDE DE MARIO KART. MUNDO ABIERTO, 32 CORREDORES EN PANTALLA, NUEVOS ITEMS Y CIRCUITOS MASIVOS. LANZAMIENTO EXCLUSIVO DE SWITCH 2 CON MULTIJUGADOR ONLINE MEJORADO.",
-    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    gamepass: false,
-    psplus: false,
-    nuevo: true
-  },
-  {
     id: "split-fiction",
     titulo: "SPLIT FICTION",
     fecha: "2025-07-18",
