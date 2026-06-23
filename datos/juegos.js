@@ -1,7 +1,7 @@
 const JUEGOS = [
   {
     id: "the-necromancers-tale",
-    titulo: "THE NECROMANCER`S TALE",
+    titulo: "THE NECROMANCER'S TALE",
     fecha: "2026-09-24",
     plataformas: ["PS5", "XBOX", "SWITCH2"],
     genero: ["RPG", "ISOMETRICO", "GOTICO"],
@@ -58,7 +58,7 @@ const JUEGOS = [
     plataformas: ["XBOX"],
     genero: ["AVENTURA", "ACCION"],
     desarrollador: "ODENCAT",
-    descripcion: "Acabas de mudarte a tu nuevo hogar y estás emocionado por instalarte… ¡cuando de repente te conviertes en un ratón! Por suerte, pronto conoces a otro roedor que sabe cómo ayudarte. Te pide que lo llames "Jefe" y te explica que solo hay una forma de romper la maldición: ¡librando a todos los habitantes del edificio de los fantasmas que los atormentan! En cada apartamento encontrarás un fantasma diferente, pero no será fácil encontrarlos. Parece que se alimentan de emociones negativas, así que para desenmascararlos, tendrás que investigar a fondo para descubrir las mayores inseguridades de cada residente. ¡Pero no te dejes atrapar!.",
+    descripcion: "Acabas de mudarte a tu nuevo hogar y estás emocionado por instalarte… ¡cuando de repente te conviertes en un ratón! Por suerte, pronto conoces a otro roedor que sabe cómo ayudarte. Te pide que lo llames Jefe y te explica que solo hay una forma de romper la maldición: ¡librando a todos los habitantes del edificio de los fantasmas que los atormentan! En cada apartamento encontrarás un fantasma diferente, pero no será fácil encontrarlos. Parece que se alimentan de emociones negativas, así que para desenmascararlos, tendrás que investigar a fondo para descubrir las mayores inseguridades de cada residente. ¡Pero no te dejes atrapar!.",
     trailer: "https://youtube.com/embed/65rMZHqf0VE",
     gamepass: false,
     psplus: false,
