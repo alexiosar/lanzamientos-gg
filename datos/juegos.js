@@ -76,5 +76,18 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     nuevo: true
+  },
+  {
+    id: "namco-legendary-mountains",
+    titulo: "NAMCO LEGENDARY MOUNTAINS",
+    fecha: "2026-06-25",
+    plataformas: ["SWITCH2"],
+    genero: ["PUZZLE"],
+    desarrollador: "BEXIDE",
+    descripcion: "¡Los clásicos arcade de Namco renacen como un puzle 3D! ¡Las leyendas de los 80 regresan con un nuevo estilo! El pixel art clásico se une al 3D: ¡Los icónicos personajes de Namco renacen como vóxeles! ¡El mundo de los legendarios juegos arcade regresa como un puzle 3D! Lanza, apila y fusiona esos vóxeles: ¡busca la máxima puntuación!.",
+    trailer: "https://youtube.com/embed/Zx4ejRlUjq0",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
   }
 ];
