@@ -1,55 +1,16 @@
 const JUEGOS = [
   {
-    id: "split-fiction",
-    titulo: "SPLIT FICTION",
-    fecha: "2025-07-18",
-    plataformas: ["PS5", "XBOX"],
-    genero: ["COOPERATIVO", "AVENTURA"],
-    desarrollador: "HAZELIGHT STUDIOS",
-    descripcion: "DEL CREADOR DE IT TAKES TWO. AVENTURA COOPERATIVA PARA DOS JUGADORES CON MUNDOS QUE MEZCLAN SCI-FI Y FANTASIA. REQUIERE DOS COPIAS O FRIEND PASS. HISTORIA ORIGINAL Y MECANICAS QUE CAMBIAN CONSTANTEMENTE.",
-    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    gamepass: true,
-    psplus: false,
-    nuevo: false
-  },
-  {
-    id: "elden-ring-nightreign",
-    titulo: "ELDEN RING: NIGHTREIGN",
-    fecha: "2025-08-02",
-    plataformas: ["PS5", "XBOX"],
-    genero: ["RPG", "ACCION", "COOPERATIVO"],
-    desarrollador: "FROMSOFTWARE",
-    descripcion: "EXPANSION STANDALONE DE ELDEN RING ENFOCADA EN COOPERATIVO PARA TRES JUGADORES. SESIONES DE 40 MINUTOS CON MAPAS ROGUELIKE. NUEVOS JEFES, CLASES Y UN MUNDO EN CONSTANTE CAMBIO.",
-    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    id: "the-necromancers-tale",
+    titulo: "THE NECROMANCER`S TALE",
+    fecha: "2026-09-24",
+    plataformas: ["PS5", "XBOX", "SWITCH2"],
+    genero: ["RPG", "ISOMETRICO", "GOTICO"],
+    desarrollador: "PSYCHIC SOFTWARE",
+    descripcion: "The Necromancer's Tale es un RPG narrativo con vista cenital donde encarnas a un noble menor del siglo XVIII, adentrándote en las Artes Oscuras de la Nigromancia en busca de conocimiento y venganza. Un gran poder te espera... junto con lo extraño, lo morboso y un descenso gradual a la locura. Ante ti yace un gran libro de hechizos, repleto de poderosos ritos de muerte y reanimación. ¿Podrás descifrar sus páginas y dominar sus rituales arcanos sin perder la cordura ni ser ahorcado por los habitantes del pueblo? Tu progreso requerirá gran determinación, astucia y discreción. The Necromancer's Tale es un juego con una rica historia, con 400.000 palabras de narrativa y trasfondo, en el que conversarás con más de 180 personajes, cada uno con su propio retrato. Investigarás, negociarás, coaccionarás y halagarás para avanzar en tus objetivos. El sistema de confianza del juego implica que tus decisiones, incluso en las conversaciones, realmente importan. Si la confianza de los habitantes del pueblo cae demasiado bajo, tus decisiones se verán afectadas; si cae aún más bajo, seguramente serás juzgado en un tribunal y ahorcado, o linchado por una turba enfurecida.",
+    trailer: "https://www.youtube.com/embed/rticbJlXbLw",
     gamepass: false,
     psplus: false,
-    nuevo: false
-  },
-  {
-    id: "metroid-prime-4",
-    titulo: "METROID PRIME 4: BEYOND",
-    fecha: "2025-08-14",
-    plataformas: ["SWITCH2"],
-    genero: ["ACCION", "AVENTURA"],
-    desarrollador: "RETRO STUDIOS",
-    descripcion: "REGRESO DE SAMUS ARAN EN LA CUARTA ENTREGA DE LA SAGA PRIME. DISPAROS EN PRIMERA PERSONA, EXPLORACION DE MUNDOS ALIENIGENAS Y NARRATIVA ENVOLVENTE. EXCLUSIVO DE NINTENDO SWITCH 2.",
-    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    gamepass: false,
-    psplus: false,
-    nuevo: false
-  },
-  {
-    id: "gta-vi",
-    titulo: "GRAND THEFT AUTO VI",
-    fecha: "2025-09-26",
-    plataformas: ["PS5", "XBOX"],
-    genero: ["MUNDO ABIERTO", "ACCION"],
-    desarrollador: "ROCKSTAR GAMES",
-    descripcion: "EL JUEGO MAS ESPERADO DE LA DECADA. AMBIENTADO EN VICE CITY Y ALREDEDORES, CON DOS PROTAGONISTAS: JASON Y LUCIA. MAPA MAS GRANDE DE LA HISTORIA DE LA SAGA Y GRAFICOS GENERACIONALES.",
-    trailer: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    gamepass: false,
-    psplus: false,
-    nuevo: false
+    nuevo: true
   },
   {
   id: "deltarune-chapter-5",
@@ -60,6 +21,19 @@ const JUEGOS = [
     desarrollador: "FANGAMER",
     descripcion: "¡Sumérgete en la historia paralela de UNDERTALE! Lucha o perdona en batallas llenas de acción mientras exploras un mundo misterioso junto a un entrañable elenco de personajes nuevos y conocidos.",
     trailer: "https://youtube.com/embed/n5y22LUfetA",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },     
+  {
+    id: "house-flipper-remastered-collection",
+    titulo: "HOUSE FLIPPER REMASTERED COLLECTION",
+    fecha: "2026-06-24",
+    plataformas: ["XBOX", "PS5"],
+    genero: ["INDIE", "SIMULACION"],
+    desarrollador: "FROZEN WAY",
+    descripcion: "¡Adivina quién ha vuelto, y más brillante que nunca! House Flipper Remastered Collection te permite convertirte en un equipo de renovación unipersonal. ¡Limpia, construye, decora y vende para obtener ganancias! Ahora con mejores gráficos, voces en off, todas las expansiones en una sola caja de herramientas y algunas novedades más entrañables. ¡Es hora de renovar!.",
+    trailer: "https://youtube.com/embed/1cDEhGmiSSc",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -76,8 +50,21 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     nuevo: true
+  },  
+  {
+    id: "mousebusters",
+    titulo: "MOUSEBUSTERS",
+    fecha: "2026-06-25",
+    plataformas: ["XBOX"],
+    genero: ["AVENTURA", "ACCION"],
+    desarrollador: "ODENCAT",
+    descripcion: "Acabas de mudarte a tu nuevo hogar y estás emocionado por instalarte… ¡cuando de repente te conviertes en un ratón! Por suerte, pronto conoces a otro roedor que sabe cómo ayudarte. Te pide que lo llames "Jefe" y te explica que solo hay una forma de romper la maldición: ¡librando a todos los habitantes del edificio de los fantasmas que los atormentan! En cada apartamento encontrarás un fantasma diferente, pero no será fácil encontrarlos. Parece que se alimentan de emociones negativas, así que para desenmascararlos, tendrás que investigar a fondo para descubrir las mayores inseguridades de cada residente. ¡Pero no te dejes atrapar!.",
+    trailer: "https://youtube.com/embed/65rMZHqf0VE",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
   },
-   {
+  {
     id: "flesh-made-fear",
     titulo: "FLESH MADE FEAR",
     fecha: "2026-06-25",
