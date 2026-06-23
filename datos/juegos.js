@@ -91,6 +91,19 @@ const JUEGOS = [
     nuevo: true
   },
   {
+    id: "gecko-gods",
+    titulo: "GECKO GODS",
+    fecha: "2026-06-25",
+    plataformas: ["SWITCH2", "PS5"],
+    genero: ["AVENTURA", "ACCION", "INDIE", "PLATAFORMA"],
+    desarrollador: "INRESIN",
+    descripcion: "Gecko Gods te permite controlar a un gecko curioso y adorable con el que escalarás ruinas bañadas por el sol, te abrirás paso por cuevas exuberantes y descubrirás los vestigios de una civilización perdida. Cada camino que tomes te invita a explorar mientras navegas entre islas en tu diminuto barco, cada una con sus propios secretos por descubrir.",
+    trailer: "https://youtube.com/embed/Vw2I2y6B2vM",
+    gamepass: false,
+    psplus: false,
+    nuevo: false
+  },
+  {
     id: "namco-legendary-mountains",
     titulo: "NAMCO LEGENDARY MOUNTAINS",
     fecha: "2026-06-25",
