@@ -76,5 +76,18 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     nuevo: false
+  },
+  {
+    id: "star-fox",
+    titulo: "STAR FOX",
+    fecha: "2026-06-25",
+    plataformas: ["SWITCH2"],
+    genero: ["AVENTURA", "ACCION", "SHOOTER"],
+    desarrollador: "NINTENDO",
+    descripcion: "Star Fox es una aventura llena de acción basada en Star Fox 64 para Nintendo 64. Experimenta nuevos modos de juego (y redescubre los clásicos) mientras te embarcas en una peligrosa misión para salvar el Sistema Lylat, que ahora puedes explorar con mayor detalle gracias a una renovación visual completa del juego. El científico maniático Andross busca el control del sistema estelar Lylat, y solo Fox McCloud y el equipo Star Fox se interponen en su camino. Pilota tu Arwing y recorre el sistema luchando contra fuerzas enemigas y realizando emocionantes maniobras aéreas, como giros y volteretas, para despistar a los enemigos. Encuentra rutas alternativas a través del Sistema Lylat en múltiples partidas, asumiendo nuevas misiones y desafíos variados. Además, únete a tus amigos en el nuevo modo multijugador de batalla de cuatro contra cuatro. Star Fox es una versión cinematográfica del juego Star Fox 64, con diseños de personajes renovados, un aspecto renovado para cada nivel, además de escenas cinemáticas detalladas, diálogos con voces completas y una banda sonora orquestal impresionante. El juego también incluye controles de ratón para los Joy-Con 2 y una nueva función GameChat que te permite ponerte a los mandos de tus personajes favoritos del universo Star Fox.",
+    trailer: "https://youtube.com/embed/cWJR_d9gBZ4",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
   }
 ];
