@@ -18,7 +18,12 @@
         <a href="index.html?plat=PS5">PS5</a>
         <a href="index.html?plat=XBOX">XBOX</a>
         <a href="index.html?plat=SWITCH2">SWITCH 2</a>
+        <a href="index.html?plat=SWITCH">SWITCH</a>
+        <a href="index.html?plat=PS4">PS4</a>
       </nav>
+      <div style="text-align:center; margin-top:0.75rem;">
+        <button class="btn-tema" onclick="toggleTema()" id="btn-tema">☀ TEMA CLARO</button>
+      </div>
     </div>
   </header>
 
@@ -27,11 +32,19 @@
     <div class="filtros">
       <div class="filtros-label">FILTRAR POR PLATAFORMA:</div>
       <div class="filtros-botones">
-        <button class="filtro-btn activo" data-plat="TODAS" onclick="activarFiltro('TODAS')">TODAS</button>
-        <button class="filtro-btn" data-plat="PS5"     onclick="activarFiltro('PS5')">PS5</button>
-        <button class="filtro-btn" data-plat="XBOX"    onclick="activarFiltro('XBOX')">XBOX</button>
-        <button class="filtro-btn" data-plat="SWITCH2" onclick="activarFiltro('SWITCH2')">SWITCH 2</button>
+        <button class="filtro-btn filtro-btn-plat activo" data-plat="TODAS"   onclick="activarFiltro('TODAS')">TODAS</button>
+        <button class="filtro-btn filtro-btn-plat"        data-plat="PS5"     onclick="activarFiltro('PS5')">PS5</button>
+        <button class="filtro-btn filtro-btn-plat"        data-plat="PS4"     onclick="activarFiltro('PS4')">PS4</button>
+        <button class="filtro-btn filtro-btn-plat"        data-plat="XBOX"    onclick="activarFiltro('XBOX')">XBOX</button>
+        <button class="filtro-btn filtro-btn-plat"        data-plat="SWITCH2" onclick="activarFiltro('SWITCH2')">SWITCH 2</button>
+        <button class="filtro-btn filtro-btn-plat"        data-plat="SWITCH"  onclick="activarFiltro('SWITCH')">SWITCH</button>
       </div>
+    </div>
+
+        <!-- FILTRO GÉNERO (se genera automáticamente desde juegos.js) -->
+    <div class="filtros" style="margin-top:0.75rem;">
+      <div class="filtros-label">FILTRAR POR GÉNERO:</div>
+      <div class="filtros-botones" id="filtros-genero"></div>
     </div>
 
     <div id="calendario"></div>
@@ -60,5 +73,20 @@
 
   <script src="datos/juegos.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    function toggleTema() {
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☾ TEMA OSCURO" : "☀ TEMA CLARO";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }
+
+  // recordar preferencia del usuario
+    if (localStorage.getItem("tema") === "claro") {
+      document.documentElement.classList.add("tema-claro");
+      document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("btn-tema").textContent = "☾ TEMA OSCURO";
+      });
+    }
+  </script>
 </body>
 </html>

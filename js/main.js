@@ -1,5 +1,6 @@
 // ── ESTADO ──
 let filtroActivo = "TODAS";
+let filtroGenero = "TODOS";
 
 // ── HELPERS ──
 const MESES_ES = [
@@ -14,9 +15,11 @@ function parseFecha(str) {
 }
 
 function plataformaClass(p) {
-  if (p === "PS5")    return "plat-PS5";
-  if (p === "XBOX")   return "plat-XBOX";
+  if (p === "PS5")     return "plat-PS5";
+  if (p === "PS4")     return "plat-PS4";
+  if (p === "XBOX")    return "plat-XBOX";
   if (p === "SWITCH2") return "plat-SWITCH2";
+  if (p === "SWITCH")  return "plat-SWITCH";
   return "plat-MULTI";
 }
 
@@ -25,21 +28,73 @@ function plataformaLabel(p) {
   return p;
 }
 
-// ── FILTROS ──
+// ── HOY ──
+function getMesKeyHoy() {
+  const hoy = new Date();
+  return `${hoy.getFullYear()}-${String(hoy.getMonth() + 1).padStart(2, "0")}`;
+}
+
+function getDiaKeyHoy() {
+  const hoy = new Date();
+  return `${hoy.getFullYear()}-${String(hoy.getMonth() + 1).padStart(2, "0")}-${String(hoy.getDate()).padStart(2, "0")}`;
+}
+
+function esHoy(diaKey) {
+  return diaKey === getDiaKeyHoy();
+}
+
+// encuentra el día más próximo a hoy dentro de un mes
+function diaProximo(diasOrdenados) {
+  const hoy = getDiaKeyHoy();
+  // primero busca exacto
+  if (diasOrdenados.includes(hoy)) return hoy;
+  // si no, el más cercano hacia adelante
+  const futuro = diasOrdenados.filter(d => d >= hoy);
+  if (futuro.length) return futuro[0];
+  // si no hay futuro, el último del mes
+  return diasOrdenados[diasOrdenados.length - 1];
+}
+
+// ── FILTROS PLATAFORMA ──
 function activarFiltro(plataforma) {
   filtroActivo = plataforma;
-  document.querySelectorAll(".filtro-btn").forEach(b => {
+  document.querySelectorAll(".filtro-btn-plat").forEach(b => {
     b.classList.toggle("activo", b.dataset.plat === plataforma);
   });
   renderCalendario();
 }
 
-// ── RENDER ──
-function juegosFiltrados() {
-  if (filtroActivo === "TODAS") return JUEGOS;
-  return JUEGOS.filter(j => j.plataformas.includes(filtroActivo));
+// ── FILTRO GÉNERO ──
+function generarFiltrosGenero() {
+  const generos = new Set();
+  JUEGOS.forEach(j => j.genero.forEach(g => generos.add(g)));
+ 
+  const contenedor = document.getElementById("filtros-genero");
+  contenedor.innerHTML = ["TODOS", ...Array.from(generos).sort()].map(g => `
+    <button class="filtro-btn ${g === 'TODOS' ? 'activo' : ''}"
+            data-gen="${g}"
+            onclick="activarFiltroGenero('${g}')">${g}</button>
+  `).join("");
+}
+ 
+ function activarFiltroGenero(genero) {
+  filtroGenero = genero;
+  document.querySelectorAll("#filtros-genero .filtro-btn").forEach(b => {
+    b.classList.toggle("activo", b.dataset.gen === genero);
+  });
+  renderCalendario();
 }
 
+// ── JUEGOS FILTRADOS ──
+function juegosFiltrados() {
+  return JUEGOS.filter(j => {
+    const porPlat = filtroActivo === "TODAS" || j.plataformas.includes(filtroActivo);
+    const porGen  = filtroGenero === "TODOS"  || j.genero.includes(filtroGenero);
+    return porPlat && porGen;
+  });
+}
+
+// ── RENDER ──
 function agruparPorMesYDia(juegos) {
   const mapa = {};
   juegos.forEach(j => {
@@ -58,25 +113,41 @@ function renderCalendario() {
   const juegos = juegosFiltrados();
 
   if (juegos.length === 0) {
-    contenedor.innerHTML = `<div class="sin-resultados">// NO HAY JUEGOS PARA ESTA PLATAFORMA AUN</div>`;
+    contenedor.innerHTML = `<div class="sin-resultados">// NO HAY JUEGOS PARA ESTE FILTRO</div>`;
     return;
   }
 
   const agrupado = agruparPorMesYDia(juegos);
   const mesesOrdenados = Object.keys(agrupado).sort();
+  const mesKeyHoy = getMesKeyHoy();
 
   contenedor.innerHTML = mesesOrdenados.map((mesKey, idx) => {
     const [year, month] = mesKey.split("-").map(Number);
     const nombreMes = `${MESES_ES[month - 1]} ${year}`;
     const diasOrdenados = Object.keys(agrupado[mesKey]).sort();
     const totalJuegos = diasOrdenados.reduce((acc, d) => acc + agrupado[mesKey][d].length, 0);
-    const abierto = idx === 0;
+    
+    // abrir solo el mes actual, cerrar el resto
+    const abierto = mesKey === mesKeyHoy;
+
+    // abrir al que hacer scroll dentro del mes actual
+    const diaFoco = abierto ? diaProximo(diasOrdenados) : null;
 
     const diasHtml = diasOrdenados.map(diaKey => {
       const fecha = parseFecha(diaKey);
       const diaNombre = DIAS_ES[fecha.getDay()];
       const diaNum = String(fecha.getDate()).padStart(2, "0");
       const mesNom = MESES_ES[fecha.getMonth()].slice(0, 3);
+      const esDiaHoy = esHoy(diaKey);
+      const esDiaFoco = diaKey === diaFoco;
+
+      // indicador HOY o PROXIMO
+      let indicador = "";
+      if (esDiaHoy) {
+        indicador = `<span class="dia-hoy">[ HOY ]</span>`;
+      } else if (esDiaFoco && !esDiaHoy) {
+        indicador = `<span class="dia-proximo">[ PRÓXIMO ]</span>`;
+      }
 
       const juegosHtml = agrupado[mesKey][diaKey].map(j => {
         const platsHtml = j.plataformas.map(p =>
@@ -134,8 +205,10 @@ function renderCalendario() {
       }).join("");
 
       return `
-        <div class="dia">
-          <div class="dia-label">${diaNombre} <span>${diaNum} ${mesNom}</span></div>
+        <div class="dia ${esDiaFoco ? 'dia-foco' : ''}" id="dia-${diaKey}">
+          <div class="dia-label ${esDiaHoy ? 'dia-label-hoy' : ''}">
+            ${diaNombre} <span>${diaNum} ${mesNom}</span> ${indicador}
+          </div>
           ${juegosHtml}
         </div>
       `;
@@ -154,6 +227,16 @@ function renderCalendario() {
       </div>
     `;
   }).join("");
+
+  // scroll al día foco del mes actual
+  if (agrupado[mesKeyHoy]) {
+    const diasDelMes = Object.keys(agrupado[mesKeyHoy]).sort();
+    const diaFoco = diaProximo(diasDelMes);
+    setTimeout(() => {
+      const el = document.getElementById(`dia-${diaFoco}`);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 100);
+  }
 }
 
 // ── TOGGLE MES ──
@@ -211,13 +294,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // leer plataforma de la URL si viene con ?plat=PS5
   const params = new URLSearchParams(window.location.search);
   const platURL = params.get("plat");
-  if (platURL && ["PS5","XBOX","SWITCH2"].includes(platURL)) {
+  if (platURL && ["PS5","PS4","XBOX","SWITCH2","SWITCH"].includes(platURL)) {
     filtroActivo = platURL;
-    document.querySelectorAll(".filtro-btn").forEach(b => {
+    document.querySelectorAll(".filtro-btn-plat").forEach(b => {
       b.classList.toggle("activo", b.dataset.plat === platURL);
     });
   }
-
+  generarFiltrosGenero();
   renderCalendario();
 
   document.getElementById("modal-overlay").addEventListener("click", function(e) {

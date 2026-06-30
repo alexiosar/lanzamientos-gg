@@ -10,7 +10,7 @@ const JUEGOS = [
     trailer: "https://www.youtube.com/embed/rticbJlXbLw",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    nuevo: false
   },
   {
     id: "deltarune-chapter-5",
@@ -23,7 +23,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/n5y22LUfetA",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    nuevo: false
   },     
   {
     id: "house-flipper-remastered-collection",
@@ -36,7 +36,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/1cDEhGmiSSc",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    nuevo: false
   },     
   {
     id: "star-fox",
@@ -49,7 +49,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/cWJR_d9gBZ4",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    nuevo: false
   },  
   {
     id: "mousebusters",
@@ -62,7 +62,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/65rMZHqf0VE",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    nuevo: false
   },
   {
     id: "flesh-made-fear",
@@ -75,13 +75,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/etHXbBKo41E",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    nuevo: false
   },
   {
     id: "gecko-gods",
     titulo: "GECKO GODS",
     fecha: "2026-06-25",
-    plataformas: ["SWITCH2", "PS5"],
+    plataformas: ["PS5", "SWITCH2"],
     genero: ["AVENTURA", "ACCION", "INDIE", "PLATAFORMA"],
     desarrollador: "INRESIN",
     descripcion: "Gecko Gods te permite controlar a un gecko curioso y adorable con el que escalarás ruinas bañadas por el sol, te abrirás paso por cuevas exuberantes y descubrirás los vestigios de una civilización perdida. Cada camino que tomes te invita a explorar mientras navegas entre islas en tu diminuto barco, cada una con sus propios secretos por descubrir.",
@@ -101,7 +101,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Zx4ejRlUjq0",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    nuevo: false
   },
   {
     id: "monopoly-star-wars-heroes-vs-villains",
@@ -177,6 +177,84 @@ const JUEGOS = [
     desarrollador: "NINTENDO",
     descripcion: "¡Déjate llevar por el ritmo con la última entrega de la serie Rhythm Heaven, Rhythm Heaven Groove!.",
     trailer: "https://youtube.com/embed/ZdMwqKiSeEE",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "hyperwired",
+    titulo: "HYPERWIRED",
+    fecha: "2026-07-02",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["ACCION", "ARCADE", "SHOOTER", "ROGUELIKE"],
+    desarrollador: "SIDRALGAMES",
+    descripcion: "En una galaxia sumida en la oscuridad, tu cable es tu mejor arma. HYPERWIRED reinventa el shooter de vista cenital con su mecánica de conexión. Debes conectar físicamente tu nave a tomas de corriente para recargarla. Mientras estás conectado, obtienes una potencia de fuego masiva, pero tu movimiento está limitado por la longitud del cable, lo que te obliga a mantener un equilibrio constante entre riesgo y recompensa: mantenerte con energía y sobrevivir a las hordas enemigas. Cada partida es un nuevo desafío. Explora sectores generados proceduralmente, domina un sistema de cámara lenta recargable y enfréntate a jefes gigantescos al final de cada galaxia. Crea tu configuración perfecta con más de 250 combinaciones de modificadores de balas y más de 40 mejoras, elige entre más de 10 naves distintas con atributos únicos y rescata a pilotos varados para formar un ejército de apoyo.",
+    trailer: "https://youtube.com/embed/Zs-2lGGapeU",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "scholar-adventure-mystery-of-silence",
+    titulo: "SCHOLAR ADVENTURE: MYSTERY OF SILENCE",
+    fecha: "2026-07-03",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["AVENTURA", "POINT AND CLICK", "INDIE"],
+    desarrollador: "DEVILISHGAMES",
+    descripcion: "William es un joven escritor en busca de su primer éxito literario. Viaja a una abadía remota, envuelta en un voto de silencio. Entre gruesos muros de piedra y secretos inconfesables, William se sumerge poco a poco en la vida de la abadía y sus silenciosos habitantes. Lo que comienza como una búsqueda de inspiración pronto se torna misterioso, llevando a William a descubrir no solo una historia que contar, sino un secreto que nunca debió ser revelado. Scholar Adventure: Mystery of Silence es una aventura gráfica clásica de los 90 con gráficos pixelados oscuros y detallados, puzles ambientales y una narrativa profunda con toques de humor negro. Explora la abadía, resuelve misterios usando los objetos que encuentres por el camino y descubre los secretos ocultos entre sus muros silenciosos.",
+    trailer: "https://youtube.com/embed/jzGaNwxPVIY",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "moonlight-peaks",
+    titulo: "MOONLIGHT PEAKS",
+    fecha: "2026-07-07",
+    plataformas: ["SWITCH2"],
+    genero: ["AVENTURA", "RPG", "VAMPIROS"],
+    desarrollador: "LITTLE CHICKEN",
+    descripcion: "¡Vive la vida de un vampiro en el mágico pueblo de Moonlight Peaks! En este conmovedor simulador de vida, te propones demostrarle a tu escéptico padre, el Conde Drácula, que una vida de compasión es posible, incluso para los no muertos. Hazte amigo de los hombres lobo, brujas y sirenas locales, y encuentra tu amor eterno en el mundo de las citas sobrenaturales. Desbloquea poderes ancestrales, prepara pociones y lanza hechizos mientras abrazas la vida inmortal de un vampiro. ¡Desvela los misterios de las siete familias y sal de la sombra de tu padre, mientras creas tu propio legado! En Moonlight Peaks, las citas de vampiros están llenas de opciones. Desde hombres lobo hasta humanos desprevenidos, encuentra a tu pareja ideal entre una multitud diversa. ¡Cultiva tu granja con cosechas y flores malditas! Como vampiro, tu principal fuente de sustento son los alimentos malditos, por lo que cultivar y maldecir cosechas como calabazas y belladona será un aspecto vital del juego.",
+    trailer: "https://youtube.com/embed/VL_15TiRRAM",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "the-caribou-trail",
+    titulo: "THE CARIBOU TRAIL",
+    fecha: "2026-07-07",
+    plataformas: ["PS5"],
+    genero: ["AVENTURA", "ACCION"],
+    desarrollador: "UBISOFT",
+    descripcion: "Gallipoli, 1915. Lejos de casa, Fisher abandona su tranquilo pueblo portuario en Terranova para unirse al esfuerzo bélico británico con sus amigos. Esperan una aventura efímera llena de historias para contar a casa. Lo que les aguarda no es gloria, sino suciedad, pérdidas… y un toque de locura. Los gestos silenciosos que mantienen unido a un regimiento, las decisiones imposibles, el peso de la supervivencia y… bueno, guisos dudosos que nadie en casa se atrevería a llamar comestibles. El Sendero del Caribú es una experiencia narrativa visceral en primera persona sobre un grupo de amigos enviados a algunas de las misiones más insólitas de la Primera Guerra Mundial. Inspirada en testimonios reales, El Sendero del Caribú combina historia y ficción para retratar un frente poco explorado de la Primera Guerra Mundial: Gallipoli, desde el desembarco hasta la evacuación final.",
+    trailer: "https://youtube.com/embed/kX0dCc5524Y",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "assassins-creed-black-flag-resynced",
+    titulo: "ASSASSINS CREED BLACK FLAG RESYNCED",
+    fecha: "2026-07-09",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["AVENTURA", "ACCION", "WWI", "SIMULACION"],
+    desarrollador: "UNRELIABLE NARRATORS",
+    descripcion: "Infunde terror en tus enemigos abordando y hundiendo navíos como Edward Kenway, capitán del Jackdaw. Ya sea mezclándote entre la multitud o liderando asaltos audaces, alterna entre eliminaciones sigilosas y feroces peleas mientras manejas con destreza espadas, pistolas y la Hoja Oculta. Con un elenco de leyendas piratas históricas a tu lado, desafía a imperios en medio del antiguo conflicto entre Asesinos y Templarios. Reconstruida desde cero y con el motor Anvil más reciente, regresa la icónica aventura pirata en solitario.",
+    trailer: "https://youtube.com/embed/U9EmVkQ5v54",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "echoes-of-aincrad",
+    titulo: "ECHOES OF AINCRAD",
+    fecha: "2026-07-09",
+    plataformas: ["PS5", "XBOX", "SWITCH", "PS4"],
+    genero: ["AVENTURA", "ACCION", "RPG", "HACK AND SLASH", "ANIME"],
+    desarrollador: "GAME STUDIO",
+    descripcion: "Adéntrate en el castillo flotante de Aincrad, un mundo de belleza sobrecogedora y peligros donde cada batalla podría ser la última. Entra en un mundo misterioso y vibrante y forja tu destino. Crea a tu héroe, elige tu equipo y domina el combate con tus habilidades especiales y reflejos. Crea sinergia con tu compañero, sube de nivel y desbloquea poderosas habilidades a medida que tu horizonte se expande con cada victoria. ¿Te alzarás y reclamarás tu destino o sucumbirás ante enemigos más fuertes de lo que imaginabas? Esto no es solo un juego; es una batalla por la supervivencia. ¡Empuña tu arma, forja tu leyenda y embárcate en una aventura que pondrá en riesgo tu vida.",
+    trailer: "https://youtube.com/embed/WBW_qjic47E",
     gamepass: false,
     psplus: false,
     nuevo: true

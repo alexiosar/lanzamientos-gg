@@ -11,6 +11,8 @@
   --xbox: #44cc44;
   --switch: #ff4444;
   --multi: #aaaaaa;
+  --ps4: #3355cc;
+  --switch-old: #ff8844;
   --gris-1: #111111;
   --gris-2: #222222;
   --gris-3: #333333;
@@ -20,6 +22,21 @@
   --gris-7: #999999;
   --amarillo: #ffcc00;
   --font: 'Share Tech Mono', monospace;
+}
+
+/* TEMA CLARO */
+:root.tema-claro {
+  --negro: #f0f0f0;
+  --blanco: #111111;
+  --acento: #3333cc;
+  --acento-dim: #5555aa;
+  --gris-1: #e0e0e0;
+  --gris-2: #cccccc;
+  --gris-3: #bbbbbb;
+  --gris-4: #999999;
+  --gris-5: #777777;
+  --gris-6: #555555;
+  --gris-7: #333333;
 }
 
 html { scroll-behavior: smooth; }
@@ -85,6 +102,24 @@ a:hover { color: var(--blanco); }
 
 .nav a:hover,
 .nav a.activo { color: var(--blanco); }
+
+/* ── TOGGLE TEMA ── */
+.btn-tema {
+  background: none;
+  border: 1px solid var(--gris-4);
+  color: var(--gris-6);
+  font-family: var(--font);
+  font-size: 11px;
+  padding: 3px 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.btn-tema:hover {
+  border-color: var(--acento);
+  color: var(--acento);
+}
 
 /* ── FILTROS ── */
 .filtros {
@@ -238,10 +273,12 @@ a:hover { color: var(--blanco); }
   border: 1px solid;
 }
 
-.plat-PS5    { border-color: var(--ps5);    color: var(--ps5); }
-.plat-XBOX   { border-color: var(--xbox);   color: var(--xbox); }
+.plat-PS5     { border-color: var(--ps5);    color: var(--ps5); }
+.plat-PS4     { border-color: var(--ps4);    color: var(--ps4); }
+.plat-XBOX    { border-color: var(--xbox);   color: var(--xbox); }
 .plat-SWITCH2 { border-color: var(--switch); color: var(--switch); }
-.plat-MULTI  { border-color: var(--multi);  color: var(--multi); }
+.plat-SWITCH  { border-color: var(--switch-old); color: var(--switch-old); }
+.plat-MULTI   { border-color: var(--multi);  color: var(--multi); }
 
 .juego-nuevo {
   font-size: 10px;
@@ -456,6 +493,28 @@ a:hover { color: var(--blanco); }
   padding: 1rem;
   border: 1px dashed var(--gris-3);
   text-align: center;
+}
+
+/* ── HOY / PRÓXIMO ── */
+.dia-label-hoy {
+  color: var(--acento) !important;
+}
+
+.dia-hoy {
+  color: var(--amarillo);
+  font-size: 10px;
+  letter-spacing: 1px;
+  animation: parpadeo 1.2s step-end infinite;
+}
+
+.dia-proximo {
+  color: var(--acento);
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.dia-foco {
+  border-left-color: var(--acento) !important;
 }
 
 /* ── RESPONSIVE ── */

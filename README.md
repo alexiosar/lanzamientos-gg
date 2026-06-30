@@ -1,1 +1,3 @@
-CAMBIAR EL ORDEN DE LAS PLATAFORMAS A GECKO PORQUE PRIMERO VA PS5 Y LUEGO SWITCH YA QUE EL LANZAMIENTO ES EN ESTE ULTIMO
+Fijar la fecha del  dia y que el desplegable sea el del dia y los otros no (done)
+Cambiar el tema, es decir blanco y negro y negro y blanco (done) - revisar para mejorar
+Agregarle mas información a la ficha del juego por ejemplo el ranking de metacritic
