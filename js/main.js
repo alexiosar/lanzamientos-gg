@@ -1,6 +1,7 @@
 // ── ESTADO ──
 let filtroActivo = "TODAS";
 let filtroGenero = "TODOS";
+let filtroTexto = "";
 
 // ── HELPERS ──
 const MESES_ES = [
@@ -26,6 +27,12 @@ function plataformaClass(p) {
 function plataformaLabel(p) {
   if (p === "SWITCH2") return "SWITCH 2";
   return p;
+}
+
+function claseMetacritic(n) {
+  if (n >= 75) return "meta-alto";
+  if (n >= 50) return "meta-medio";
+  return "meta-bajo";
 }
 
 // ── HOY ──
@@ -85,12 +92,19 @@ function generarFiltrosGenero() {
   renderCalendario();
 }
 
+// ── BUSCADOR ──
+function buscarJuego(texto) {
+  filtroTexto = texto.trim().toLowerCase();
+  renderCalendario();
+}
+
 // ── JUEGOS FILTRADOS ──
 function juegosFiltrados() {
   return JUEGOS.filter(j => {
-    const porPlat = filtroActivo === "TODAS" || j.plataformas.includes(filtroActivo);
-    const porGen  = filtroGenero === "TODOS"  || j.genero.includes(filtroGenero);
-    return porPlat && porGen;
+    const porPlat  = filtroActivo === "TODAS" || j.plataformas.includes(filtroActivo);
+    const porGen   = filtroGenero === "TODOS"  || j.genero.includes(filtroGenero);
+    const porTexto = filtroTexto === "" || j.titulo.toLowerCase().includes(filtroTexto);
+    return porPlat && porGen && porTexto;
   });
 }
 
@@ -121,14 +135,19 @@ function renderCalendario() {
   const mesesOrdenados = Object.keys(agrupado).sort();
   const mesKeyHoy = getMesKeyHoy();
 
+  // el día PRÓXIMO es el primer día con lanzamientos posterior a hoy (en cualquier mes)
+  const hoyKey = getDiaKeyHoy();
+  const todosLosDias = mesesOrdenados.flatMap(m => Object.keys(agrupado[m])).sort();
+  const proximoKey = todosLosDias.find(d => d > hoyKey) || null;
+
   contenedor.innerHTML = mesesOrdenados.map((mesKey, idx) => {
     const [year, month] = mesKey.split("-").map(Number);
     const nombreMes = `${MESES_ES[month - 1]} ${year}`;
     const diasOrdenados = Object.keys(agrupado[mesKey]).sort();
     const totalJuegos = diasOrdenados.reduce((acc, d) => acc + agrupado[mesKey][d].length, 0);
     
-    // abrir solo el mes actual, cerrar el resto
-    const abierto = mesKey === mesKeyHoy;
+    // abrir solo el mes actual, cerrar el resto (si hay búsqueda, abrir todos)
+    const abierto = mesKey === mesKeyHoy || filtroTexto !== "";
 
     // abrir al que hacer scroll dentro del mes actual
     const diaFoco = abierto ? diaProximo(diasOrdenados) : null;
@@ -141,12 +160,14 @@ function renderCalendario() {
       const esDiaHoy = esHoy(diaKey);
       const esDiaFoco = diaKey === diaFoco;
 
-      // indicador HOY o PROXIMO
+      // indicador HOY, PROXIMO o YA DISPONIBLE
       let indicador = "";
       if (esDiaHoy) {
         indicador = `<span class="dia-hoy">[ HOY ]</span>`;
-      } else if (esDiaFoco && !esDiaHoy) {
+      } else if (diaKey === proximoKey) {
         indicador = `<span class="dia-proximo">[ PRÓXIMO ]</span>`;
+      } else if (diaKey < hoyKey) {
+        indicador = `<span class="dia-disponible">[ YA DISPONIBLE ]</span>`;
       }
 
       const juegosHtml = agrupado[mesKey][diaKey].map(j => {
@@ -193,6 +214,11 @@ function renderCalendario() {
                 <span class="ficha-campo-label">DESARROLLADOR</span>
                 <span class="ficha-campo-valor">${j.desarrollador}</span>
               </div>
+              ${j.metacritic ? `
+              <div>
+                <span class="ficha-campo-label">METACRITIC</span>
+                <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
+              </div>` : ""}
             </div>
             <p class="ficha-descripcion">${j.descripcion}</p>
             <div class="ficha-tags">${tagsHtml}</div>

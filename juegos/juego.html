@@ -30,6 +30,7 @@
 
   <header class="site-header">
     <div class="contenedor">
+      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
       <a href="../index.html" class="site-logo">LANZAMIENTOS.GG</a>
       <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
       <nav class="nav">
@@ -37,6 +38,8 @@
         <a href="../index.html?plat=PS5">PS5</a>
         <a href="../index.html?plat=XBOX">XBOX</a>
         <a href="../index.html?plat=SWITCH2">SWITCH 2</a>
+        <a href="../index.html?plat=SWITCH">SWITCH</a>
+        <a href="../index.html?plat=PS4">PS4</a>
       </nav>
     </div>
   </header>
@@ -56,6 +59,20 @@
 
   <script src="../datos/juegos.js"></script>
   <script>
+    // el ícono muestra el tema actual: ☾ oscuro, ☀ claro
+    function toggleTema() {
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }
+
+    // recordar preferencia del usuario
+    if (localStorage.getItem("tema") === "claro") {
+      document.documentElement.classList.add("tema-claro");
+      document.getElementById("btn-tema").textContent = "☀";
+    }
+  </script>
+  <script>
     const MESES_ES = [
       "ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO",
       "JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE"
@@ -63,13 +80,21 @@
 
     function plataformaClass(p) {
       if (p === "PS5")     return "plat-PS5";
+      if (p === "PS4")     return "plat-PS4";
       if (p === "XBOX")    return "plat-XBOX";
       if (p === "SWITCH2") return "plat-SWITCH2";
+      if (p === "SWITCH")  return "plat-SWITCH";
       return "plat-MULTI";
     }
 
     function plataformaLabel(p) {
       return p === "SWITCH2" ? "SWITCH 2" : p;
+    }
+
+    function claseMetacritic(n) {
+      if (n >= 75) return "meta-alto";
+      if (n >= 50) return "meta-medio";
+      return "meta-bajo";
     }
 
     function renderError() {
@@ -159,6 +184,11 @@
               <span class="ficha-campo-label">INCLUIDO EN</span>
               ${incluidoHtml}
             </div>
+            ${j.metacritic ? `
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
+            </div>` : ""}
           </div>
         </div>
 

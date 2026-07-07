@@ -30,6 +30,13 @@
   --blanco: #111111;
   --acento: #3333cc;
   --acento-dim: #5555aa;
+  --ps5: #2f55d4;
+  --xbox: #1e8a1e;
+  --switch: #cc2222;
+  --multi: #666666;
+  --ps4: #2a44aa;
+  --switch-old: #b35510;
+  --amarillo: #9a6d00;
   --gris-1: #e0e0e0;
   --gris-2: #cccccc;
   --gris-3: #bbbbbb;
@@ -62,6 +69,7 @@ a:hover { color: var(--blanco); }
 
 /* ── HEADER ── */
 .site-header {
+  position: relative;
   border-bottom: 1px solid var(--gris-3);
   padding: 1.5rem 0 1rem;
   margin-bottom: 1.5rem;
@@ -105,13 +113,18 @@ a:hover { color: var(--blanco); }
 
 /* ── TOGGLE TEMA ── */
 .btn-tema {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.5rem;
+  width: 32px;
+  height: 32px;
   background: none;
   border: 1px solid var(--gris-4);
   color: var(--gris-6);
   font-family: var(--font);
-  font-size: 11px;
-  padding: 3px 10px;
-  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1;
+  padding: 0;
   cursor: pointer;
   transition: all 0.1s;
 }
@@ -495,20 +508,62 @@ a:hover { color: var(--blanco); }
   text-align: center;
 }
 
+/* ── BUSCADOR ── */
+.buscador {
+  width: 100%;
+  max-width: 320px;
+  background: none;
+  border: 1px solid var(--gris-4);
+  color: var(--blanco);
+  font-family: var(--font);
+  font-size: 12px;
+  padding: 5px 12px;
+  letter-spacing: 1px;
+  transition: border-color 0.1s;
+}
+
+.buscador::placeholder {
+  color: var(--gris-5);
+}
+
+.buscador:focus {
+  outline: none;
+  border-color: var(--acento);
+}
+
+/* ── METACRITIC ── */
+.badge-metacritic {
+  display: inline-block;
+  font-size: 12px;
+  padding: 1px 8px;
+  letter-spacing: 1px;
+  border: 1px solid;
+}
+
+.meta-alto  { border-color: var(--xbox);       color: var(--xbox); }
+.meta-medio { border-color: var(--amarillo);   color: var(--amarillo); }
+.meta-bajo  { border-color: var(--switch);     color: var(--switch); }
+
 /* ── HOY / PRÓXIMO ── */
 .dia-label-hoy {
   color: var(--acento) !important;
 }
 
-.dia-hoy {
+.dia-label .dia-hoy {
   color: var(--amarillo);
   font-size: 10px;
   letter-spacing: 1px;
   animation: parpadeo 1.2s step-end infinite;
 }
 
-.dia-proximo {
+.dia-label .dia-proximo {
   color: var(--acento);
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.dia-label .dia-disponible {
+  color: var(--xbox);
   font-size: 10px;
   letter-spacing: 1px;
 }
