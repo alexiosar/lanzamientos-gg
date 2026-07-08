@@ -175,7 +175,8 @@ function renderCalendario() {
           `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`
         ).join("");
 
-        const nuevoHtml = j.nuevo ? `<span class="juego-nuevo">★ NUEVO</span>` : "";
+        // ★ NUEVO solo para lanzamientos de hoy en adelante (no para los ya disponibles)
+        const nuevoHtml = (j.nuevo && diaKey >= hoyKey) ? `<span class="juego-nuevo">★ NUEVO</span>` : "";
 
         const tagsHtml = [
           ...j.genero.map(g => `<span class="tag">${g}</span>`),
