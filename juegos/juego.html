@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LANZAMIENTOS.GG</title>
+  <title>LANZAMIENTOS.LAT</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
     .ficha-page        { padding: 2rem 0; }
@@ -16,6 +16,10 @@
     .seccion-titulo    { font-size: 11px; color: var(--gris-5); letter-spacing: 3px; margin-bottom: 0.75rem; }
     .descripcion-page  { color: var(--gris-7); font-size: 13px; line-height: 2; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .meta-grid         { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
+    .juego-hero-info   { flex: 1; min-width: 260px; }
+    .portada-page      { width: 160px; flex-shrink: 0; border: 1px solid var(--gris-3); display: block; }
+    .portada-page.apaisada { width: 280px; max-width: 100%; }
     .video-wrapper     { position: relative; padding-bottom: 56.25%; height: 0; border: 1px solid var(--gris-3); background: var(--negro); }
     .video-wrapper iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
     .volver            { display: inline-block; font-size: 11px; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
@@ -31,7 +35,7 @@
   <header class="site-header">
     <div class="contenedor">
       <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
-      <a href="../index.html" class="site-logo">LANZAMIENTOS.GG</a>
+      <a href="../index.html" class="site-logo">LANZAMIENTOS.LAT</a>
       <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
       <nav class="nav">
         <a href="../index.html">INICIO</a>
@@ -52,7 +56,7 @@
 
   <footer class="site-footer">
     <div class="contenedor" style="display:flex;justify-content:space-between;width:100%;flex-wrap:wrap;gap:.5rem;">
-      <span>LANZAMIENTOS.GG &copy; 2025</span>
+      <span>LANZAMIENTOS.LAT &copy; 2025</span>
       <span>DATOS: IGDB.COM <span class="cursor"></span></span>
     </div>
   </footer>
@@ -104,7 +108,7 @@
           <br>
           <a href="../index.html">◀ VOLVER AL CALENDARIO</a>
         </div>`;
-      document.title = "JUEGO NO ENCONTRADO — LANZAMIENTOS.GG";
+      document.title = "JUEGO NO ENCONTRADO — LANZAMIENTOS.LAT";
     }
 
     function renderJuego(j) {
@@ -143,7 +147,7 @@
            </div>`
         : "";
 
-      document.title = `${j.titulo} — LANZAMIENTOS.GG`;
+      document.title = `${j.titulo} — LANZAMIENTOS.LAT`;
       document.querySelector('meta[name="description"]')?.setAttribute("content",
         `${j.titulo} — fecha de lanzamiento, plataformas y trailer. ${j.descripcion.slice(0, 120)}...`
       ) || (() => {
@@ -152,6 +156,10 @@
         m.content = `${j.titulo} — fecha de lanzamiento, plataformas y trailer.`;
         document.head.appendChild(m);
       })();
+
+      const portadaHtml = j.imagen
+        ? `<img class="portada-page" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" onerror="this.remove()" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add('apaisada')">`
+        : "";
 
       document.getElementById("contenido").innerHTML = `
         <a href="../index.html" class="volver">◀ VOLVER AL CALENDARIO</a>
@@ -162,6 +170,9 @@
           ${j.titulo}
         </div>
 
+        <div class="juego-hero">
+          ${portadaHtml}
+          <div class="juego-hero-info">
         <h1 class="juego-titulo-page">${j.titulo}</h1>
         <p class="juego-dev-page">${j.desarrollador}</p>
 
@@ -189,6 +200,8 @@
               <span class="ficha-campo-label">METACRITIC</span>
               <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
             </div>` : ""}
+          </div>
+        </div>
           </div>
         </div>
 

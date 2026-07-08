@@ -186,6 +186,10 @@ function renderCalendario() {
 
         const platsMetaHtml = j.plataformas.map(p => plataformaLabel(p)).join(" / ");
 
+        const portadaHtml = j.imagen
+          ? `<img class="ficha-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" onerror="this.remove()" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add('apaisada')">`
+          : "";
+
         return `
           <div class="juego-fila" id="fila-${j.id}" onclick="toggleFicha('${j.id}')">
             <span class="juego-nombre">${j.titulo}</span>
@@ -197,30 +201,35 @@ function renderCalendario() {
               <span class="ficha-titulo">${j.titulo}</span>
               <span class="ficha-cerrar" onclick="cerrarFicha('${j.id}')">[ CERRAR ]</span>
             </div>
-            <div class="ficha-meta">
-              <div>
-                <span class="ficha-campo-label">FECHA</span>
-                <span class="ficha-campo-valor">${diaNum} ${MESES_ES[fecha.getMonth()]} ${year}</span>
+            <div class="ficha-cuerpo">
+              ${portadaHtml}
+              <div class="ficha-info">
+                <div class="ficha-meta">
+                  <div>
+                    <span class="ficha-campo-label">FECHA</span>
+                    <span class="ficha-campo-valor">${diaNum} ${MESES_ES[fecha.getMonth()]} ${year}</span>
+                  </div>
+                  <div>
+                    <span class="ficha-campo-label">PLATAFORMAS</span>
+                    <span class="ficha-campo-valor">${platsMetaHtml}</span>
+                  </div>
+                  <div>
+                    <span class="ficha-campo-label">GÉNERO</span>
+                    <span class="ficha-campo-valor">${j.genero.join(" / ")}</span>
+                  </div>
+                  <div>
+                    <span class="ficha-campo-label">DESARROLLADOR</span>
+                    <span class="ficha-campo-valor">${j.desarrollador}</span>
+                  </div>
+                  ${j.metacritic ? `
+                  <div>
+                    <span class="ficha-campo-label">METACRITIC</span>
+                    <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
+                  </div>` : ""}
+                </div>
+                <p class="ficha-descripcion">${j.descripcion}</p>
               </div>
-              <div>
-                <span class="ficha-campo-label">PLATAFORMAS</span>
-                <span class="ficha-campo-valor">${platsMetaHtml}</span>
-              </div>
-              <div>
-                <span class="ficha-campo-label">GÉNERO</span>
-                <span class="ficha-campo-valor">${j.genero.join(" / ")}</span>
-              </div>
-              <div>
-                <span class="ficha-campo-label">DESARROLLADOR</span>
-                <span class="ficha-campo-valor">${j.desarrollador}</span>
-              </div>
-              ${j.metacritic ? `
-              <div>
-                <span class="ficha-campo-label">METACRITIC</span>
-                <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
-              </div>` : ""}
             </div>
-            <p class="ficha-descripcion">${j.descripcion}</p>
             <div class="ficha-tags">${tagsHtml}</div>
             <div class="ficha-acciones">
               <button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>

@@ -9,6 +9,7 @@ const JUEGOS = [
     descripcion: "The Necromancer's Tale es un RPG narrativo con vista cenital donde encarnas a un noble menor del siglo XVIII, adentrándote en las Artes Oscuras de la Nigromancia en busca de conocimiento y venganza. Un gran poder te espera... junto con lo extraño, lo morboso y un descenso gradual a la locura. Ante ti yace un gran libro de hechizos, repleto de poderosos ritos de muerte y reanimación. ¿Podrás descifrar sus páginas y dominar sus rituales arcanos sin perder la cordura ni ser ahorcado por los habitantes del pueblo? Tu progreso requerirá gran determinación, astucia y discreción. The Necromancer's Tale es un juego con una rica historia, con 400.000 palabras de narrativa y trasfondo, en el que conversarás con más de 180 personajes, cada uno con su propio retrato. Investigarás, negociarás, coaccionarás y halagarás para avanzar en tus objetivos. El sistema de confianza del juego implica que tus decisiones, incluso en las conversaciones, realmente importan. Si la confianza de los habitantes del pueblo cae demasiado bajo, tus decisiones se verán afectadas; si cae aún más bajo, seguramente serás juzgado en un tribunal y ahorcado, o linchado por una turba enfurecida.",
     trailer: "https://www.youtube.com/embed/rticbJlXbLw",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1315320/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -23,6 +24,7 @@ const JUEGOS = [
     descripcion: "¡Sumérgete en la historia paralela de UNDERTALE! Lucha o perdona en batallas llenas de acción mientras exploras un mundo misterioso junto a un entrañable elenco de personajes nuevos y conocidos.",
     trailer: "https://youtube.com/embed/n5y22LUfetA",
     metacritic: 86,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -37,6 +39,7 @@ const JUEGOS = [
     descripcion: "¡Adivina quién ha vuelto, y más brillante que nunca! House Flipper Remastered Collection te permite convertirte en un equipo de renovación unipersonal. ¡Limpia, construye, decora y vende para obtener ganancias! Ahora con mejores gráficos, voces en off, todas las expansiones en una sola caja de herramientas y algunas novedades más entrañables. ¡Es hora de renovar!.",
     trailer: "https://youtube.com/embed/1cDEhGmiSSc",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710840/ae87c307d7baa9b80c977fab7f331689bbe7eb9f/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -51,6 +54,7 @@ const JUEGOS = [
     descripcion: "Star Fox es una aventura llena de acción basada en Star Fox 64 para Nintendo 64. Experimenta nuevos modos de juego (y redescubre los clásicos) mientras te embarcas en una peligrosa misión para salvar el Sistema Lylat, que ahora puedes explorar con mayor detalle gracias a una renovación visual completa del juego. El científico maniático Andross busca el control del sistema estelar Lylat, y solo Fox McCloud y el equipo Star Fox se interponen en su camino. Pilota tu Arwing y recorre el sistema luchando contra fuerzas enemigas y realizando emocionantes maniobras aéreas, como giros y volteretas, para despistar a los enemigos. Encuentra rutas alternativas a través del Sistema Lylat en múltiples partidas, asumiendo nuevas misiones y desafíos variados. Además, únete a tus amigos en el nuevo modo multijugador de batalla de cuatro contra cuatro. Star Fox es una versión cinematográfica del juego Star Fox 64, con diseños de personajes renovados, un aspecto renovado para cada nivel, además de escenas cinemáticas detalladas, diálogos con voces completas y una banda sonora orquestal impresionante. El juego también incluye controles de ratón para los Joy-Con 2 y una nueva función GameChat que te permite ponerte a los mandos de tus personajes favoritos del universo Star Fox.",
     trailer: "https://youtube.com/embed/cWJR_d9gBZ4",
     metacritic: 82,
+    imagen: null,
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -65,6 +69,7 @@ const JUEGOS = [
     descripcion: "Acabas de mudarte a tu nuevo hogar y estás emocionado por instalarte… ¡cuando de repente te conviertes en un ratón! Por suerte, pronto conoces a otro roedor que sabe cómo ayudarte. Te pide que lo llames Jefe y te explica que solo hay una forma de romper la maldición: ¡librando a todos los habitantes del edificio de los fantasmas que los atormentan! En cada apartamento encontrarás un fantasma diferente, pero no será fácil encontrarlos. Parece que se alimentan de emociones negativas, así que para desenmascararlos, tendrás que investigar a fondo para descubrir las mayores inseguridades de cada residente. ¡Pero no te dejes atrapar!.",
     trailer: "https://youtube.com/embed/65rMZHqf0VE",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2823200/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -79,6 +84,7 @@ const JUEGOS = [
     descripcion: "Flesh Made Fear rinde homenaje al survival horror de la era de PSX que definió a una generación. Inspirándose en la trilogía original de Resident Evil, combina magistralmente puzles complejos, combates trepidantes y una atmósfera opresiva. Pero no se trata solo de un guiño nostálgico, sino de una audaz evolución. Controles modernizados, cinemáticas inmersivas y una historia apasionante que te mantendrán en vilo hasta el último momento. Ponte en la piel de un agente de élite del Pelotón de Intervención Reaper (R.I.P.), un grupo de operaciones encubiertas desplegado para neutralizar a Victor The Dripper Ripper, un brillante pero perturbado exagente de la CIA. Sus siniestros experimentos han convertido un pueblo remoto y desolado en una pesadilla plagada de monstruos grotescos y esclavos controlados mentalmente.",
     trailer: "https://youtube.com/embed/etHXbBKo41E",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3316350/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -93,6 +99,7 @@ const JUEGOS = [
     descripcion: "Gecko Gods te permite controlar a un gecko curioso y adorable con el que escalarás ruinas bañadas por el sol, te abrirás paso por cuevas exuberantes y descubrirás los vestigios de una civilización perdida. Cada camino que tomes te invita a explorar mientras navegas entre islas en tu diminuto barco, cada una con sus propios secretos por descubrir.",
     trailer: "https://youtube.com/embed/Vw2I2y6B2vM",
     metacritic: 73,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1290760/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -107,6 +114,7 @@ const JUEGOS = [
     descripcion: "¡Los clásicos arcade de Namco renacen como un puzle 3D! ¡Las leyendas de los 80 regresan con un nuevo estilo! El pixel art clásico se une al 3D: ¡Los icónicos personajes de Namco renacen como vóxeles! ¡El mundo de los legendarios juegos arcade regresa como un puzle 3D! Lanza, apila y fusiona esos vóxeles: ¡busca la máxima puntuación!.",
     trailer: "https://youtube.com/embed/Zx4ejRlUjq0",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459850/1072308d8e6a4ca6ec2d4de98a820553beb23e4b/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -121,6 +129,7 @@ const JUEGOS = [
     descripcion: "Monopoly: Star Wars Heroes vs. Villains, una versión dinámica y multijugador del juego de mesa familiar favorito de Hasbro, ofrece una experiencia de juego reinventada con momentos cinematográficos, casillas temáticas y elementos dinámicos que hacen que cada partida sea única. Forma equipos con los icónicos héroes y villanos de Star Wars, cada uno con habilidades únicas que pueden influir en la estrategia y cambiar el rumbo del juego a tu favor con cada tirada de dados. El trabajo en equipo y las combinaciones de héroes son clave para la victoria.",
     trailer: "https://youtube.com/embed/VUdjBlPP1I",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936610/4c994dffe6840c2ee0e653afe281685ae85db64c/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -135,6 +144,7 @@ const JUEGOS = [
     descripcion: "Momento es un juego de decoración de habitaciones acogedor con un toque especial: ¡los objetos que elijas alterarán el curso de la historia! Decora tu habitación, elige los objetos que son importantes para ti y descubre cómo estas elecciones influyen a lo largo de tu vida. Empieza en la infancia, seleccionando juguetes que representen tus sueños para el futuro. Sigue esos sueños hasta la edad adulta, explorando escenarios y temas muy diversos. Descubre historias de desamor, asombro y amor, y aprende el significado de los tesoros sentimentales que te acompañarán. Presta mucha atención algunos objetos pueden esconder más de lo que parecen a simple vista. Explora un mundo deliciosamente táctil, enciende luces, hojea libros, acaricia adorables animales y mucho más. Colecciona objetos y muebles en el modo historia para jugar con ellos en el infinito modo creativo. Al final, regresa al principio para descubrir nuevos finales, giros inesperados en el camino y explorar una historia en constante evolución de amor y pérdida.",
     trailer: "https://youtube.com/embed/X1_HJSks2CQ",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2474770/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -149,6 +159,7 @@ const JUEGOS = [
     descripcion: "Tú y tus amigos regresan a casa después de unas relajantes vacaciones, pero se ven obligados a tomar una ruta alternativa. Conduzcan su autocaravana por el interior del país y encuentren la salida a la Ruta 65. No todos los que entran al Valle de Mabutts salen con vida. Así que asegúrense de tener siempre a mano hamburguesas, antídotos y el clásico EpiPens. Dominen el cabrestante basado en la física y gánense el derecho a ser el comandante principal del control remoto. Con un cabrestante delantero y otro trasero, su autocaravana está especialmente equipada para pasar por encima, por debajo o a través de la mayoría de los baches.",
     trailer: "https://youtube.com/embed/H7mXFwVNX6Y",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -163,6 +174,7 @@ const JUEGOS = [
     descripcion: "Un juego de rol con temática musical que combina elementos macabros y sádicos. La historia gira en torno a una batalla musical a muerte, donde los participantes pueden atacar y ser atacados con música.",
     trailer: "https://youtube.com/embed/atVHSKXhv30",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1083790/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -177,6 +189,7 @@ const JUEGOS = [
     descripcion: "Lo has conseguido. Has desmantelado un cártel intergaláctico, rescatado a la humanidad del borde de la extinción y cazado recompensas peligrosas hasta los confines de la galaxia. La caza de recompensas te ha traído fortuna, fama y amor; pero cuando una figura misteriosa de tu pasado reaparece y pone precio a la cabeza de tu hermana, tu cómoda vida se ve sumida en el caos. ¿Tienes lo que se necesita para arriesgarlo todo y acabar con una conspiración intergaláctica que amenaza una vez más a tu especie favorita (los humanos)? High On Life REGRESA mientras tú y tu querido y peculiar equipo de inadaptados alienígenas disparan, apuñalan y patinan a través de mundos hermosos y peligrosos por toda la galaxia para volar por los aires al MALVADO conglomerado farmacéutico empeñado en poner precio a la VIDA HUMANA.",
     trailer: "https://youtube.com/embed/UubdWIkj8Wc",
     metacritic: 78,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2069250/d00d793580786f12bc3dd55d179447bdf046c69e/header_alt_assets_0.jpg",
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -191,6 +204,7 @@ const JUEGOS = [
     descripcion: "¡Déjate llevar por el ritmo con la última entrega de la serie Rhythm Heaven, Rhythm Heaven Groove!.",
     trailer: "https://youtube.com/embed/ZdMwqKiSeEE",
     metacritic: 82,
+    imagen: null,
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -205,6 +219,7 @@ const JUEGOS = [
     descripcion: "En una galaxia sumida en la oscuridad, tu cable es tu mejor arma. HYPERWIRED reinventa el shooter de vista cenital con su mecánica de conexión. Debes conectar físicamente tu nave a tomas de corriente para recargarla. Mientras estás conectado, obtienes una potencia de fuego masiva, pero tu movimiento está limitado por la longitud del cable, lo que te obliga a mantener un equilibrio constante entre riesgo y recompensa: mantenerte con energía y sobrevivir a las hordas enemigas. Cada partida es un nuevo desafío. Explora sectores generados proceduralmente, domina un sistema de cámara lenta recargable y enfréntate a jefes gigantescos al final de cada galaxia. Crea tu configuración perfecta con más de 250 combinaciones de modificadores de balas y más de 40 mejoras, elige entre más de 10 naves distintas con atributos únicos y rescata a pilotos varados para formar un ejército de apoyo.",
     trailer: "https://youtube.com/embed/Zs-2lGGapeU",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234850/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -219,6 +234,7 @@ const JUEGOS = [
     descripcion: "William es un joven escritor en busca de su primer éxito literario. Viaja a una abadía remota, envuelta en un voto de silencio. Entre gruesos muros de piedra y secretos inconfesables, William se sumerge poco a poco en la vida de la abadía y sus silenciosos habitantes. Lo que comienza como una búsqueda de inspiración pronto se torna misterioso, llevando a William a descubrir no solo una historia que contar, sino un secreto que nunca debió ser revelado. Scholar Adventure: Mystery of Silence es una aventura gráfica clásica de los 90 con gráficos pixelados oscuros y detallados, puzles ambientales y una narrativa profunda con toques de humor negro. Explora la abadía, resuelve misterios usando los objetos que encuentres por el camino y descubre los secretos ocultos entre sus muros silenciosos.",
     trailer: "https://youtube.com/embed/jzGaNwxPVIY",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929410/650a0f58008e796765863b4f669b220112e15ad4/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -233,6 +249,7 @@ const JUEGOS = [
     descripcion: "¡Vive la vida de un vampiro en el mágico pueblo de Moonlight Peaks! En este conmovedor simulador de vida, te propones demostrarle a tu escéptico padre, el Conde Drácula, que una vida de compasión es posible, incluso para los no muertos. Hazte amigo de los hombres lobo, brujas y sirenas locales, y encuentra tu amor eterno en el mundo de las citas sobrenaturales. Desbloquea poderes ancestrales, prepara pociones y lanza hechizos mientras abrazas la vida inmortal de un vampiro. ¡Desvela los misterios de las siete familias y sal de la sombra de tu padre, mientras creas tu propio legado! En Moonlight Peaks, las citas de vampiros están llenas de opciones. Desde hombres lobo hasta humanos desprevenidos, encuentra a tu pareja ideal entre una multitud diversa. ¡Cultiva tu granja con cosechas y flores malditas! Como vampiro, tu principal fuente de sustento son los alimentos malditos, por lo que cultivar y maldecir cosechas como calabazas y belladona será un aspecto vital del juego.",
     trailer: "https://youtube.com/embed/VL_15TiRRAM",
     metacritic: 80,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -247,6 +264,7 @@ const JUEGOS = [
     descripcion: "Gallipoli, 1915. Lejos de casa, Fisher abandona su tranquilo pueblo portuario en Terranova para unirse al esfuerzo bélico británico con sus amigos. Esperan una aventura efímera llena de historias para contar a casa. Lo que les aguarda no es gloria, sino suciedad, pérdidas… y un toque de locura. Los gestos silenciosos que mantienen unido a un regimiento, las decisiones imposibles, el peso de la supervivencia y… bueno, guisos dudosos que nadie en casa se atrevería a llamar comestibles. El Sendero del Caribú es una experiencia narrativa visceral en primera persona sobre un grupo de amigos enviados a algunas de las misiones más insólitas de la Primera Guerra Mundial. Inspirada en testimonios reales, El Sendero del Caribú combina historia y ficción para retratar un frente poco explorado de la Primera Guerra Mundial: Gallipoli, desde el desembarco hasta la evacuación final.",
     trailer: "https://youtube.com/embed/kX0dCc5524Y",
     metacritic: 76,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065030/42250e3fa39c282922ae9452bf751560120bda58/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -261,6 +279,7 @@ const JUEGOS = [
     descripcion: "Escape the Backrooms te sumerge en el fenómeno de creepypasta del mismo nombre: un laberinto interminable de pasillos vacíos, empapelados amarillentos y una iluminación fluorescente que jamás parpadea del todo. Explorás, en solitario o junto a otros jugadores, niveles inspirados en los distintos 'niveles' del mito de los Backrooms, cada uno con su propia estética y sus propias amenazas acechando entre las sombras. La tensión no viene de la acción frenética sino de la sensación de estar perdido en un espacio que no debería existir: hay que resolver acertijos ambientales, encontrar objetos y esquivar a criaturas que persiguen cualquier sonido, mientras la certeza de haber encontrado la salida correcta nunca termina de llegar.",
     trailer: "https://youtube.com/embed/ib-Nepqh19Y",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -275,6 +294,7 @@ const JUEGOS = [
     descripcion: "Honeyglow Woods es el nuevo Pack de Aventura para Disney Dreamlight Valley, pensado tanto para quienes recién llegan al Valle como para los jugadores de siempre. En este bosque escondido, cubierto de miel y recuerdos, te reencontrás con Winnie the Pooh y su optimismo inquebrantable, con Piglet dispuesto a enfrentar sus miedos, y con Eeyore, que acepta la melancolía del lugar aunque agradecería un poco de compañía. La expansión suma cuatro zonas nuevas para explorar y decorar, resolver los enigmas del misterioso Árbol Everoak, entablar amistad con tres personajes icónicos del Bosque de los Cien Acres y sumergirte en la apicultura: cultivá flores y panales que desbloquean decenas de nuevas recetas de crafteo, mientras revivís el simple placer de jugar a las carreritas de palitos en el río.",
     trailer: "https://youtube.com/embed/VOHoLi-zv1Y",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4376930/c24c762017ce3bfb20c82dad2abc4c2076688664/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -289,6 +309,7 @@ const JUEGOS = [
     descripcion: "Infunde terror en tus enemigos abordando y hundiendo navíos como Edward Kenway, capitán del Jackdaw. Ya sea mezclándote entre la multitud o liderando asaltos audaces, alterna entre eliminaciones sigilosas y feroces peleas mientras manejas con destreza espadas, pistolas y la Hoja Oculta. Con un elenco de leyendas piratas históricas a tu lado, desafía a imperios en medio del antiguo conflicto entre Asesinos y Templarios. Reconstruida desde cero y con el motor Anvil más reciente, regresa la icónica aventura pirata en solitario.",
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -303,6 +324,7 @@ const JUEGOS = [
     descripcion: "Adéntrate en el castillo flotante de Aincrad, un mundo de belleza sobrecogedora y peligros donde cada batalla podría ser la última. Entra en un mundo misterioso y vibrante y forja tu destino. Crea a tu héroe, elige tu equipo y domina el combate con tus habilidades especiales y reflejos. Crea sinergia con tu compañero, sube de nivel y desbloquea poderosas habilidades a medida que tu horizonte se expande con cada victoria. ¿Te alzarás y reclamarás tu destino o sucumbirás ante enemigos más fuertes de lo que imaginabas? Esto no es solo un juego; es una batalla por la supervivencia. ¡Empuña tu arma, forja tu leyenda y embárcate en una aventura que pondrá en riesgo tu vida.",
     trailer: "https://youtube.com/embed/WBW_qjic47E",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/25fb6350451b21ca824562c8d1eebe89091347cc/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -317,6 +339,7 @@ const JUEGOS = [
     descripcion: "Endless Ragnarok expande Granblue Fantasy: Relink con nuevo contenido tanto para el modo historia como para el cooperativo online, profundizando el célebre sistema de combate dinámico y el elenco de personajes versátiles que hicieron popular al juego original. Trae nuevas misiones, escenarios y modos de juego pensados para exprimir al máximo el compañerismo entre los tripulantes del cielo, refinando y ampliando la fórmula de acción y rol para ofrecer una aventura sin fin tanto a los capitanes veteranos como a quienes se suban por primera vez a esta travesía por el Reino Celestial.",
     trailer: "https://youtube.com/embed/3v--EoDTB5A",
     metacritic: null,
+    imagen: null,
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -331,6 +354,7 @@ const JUEGOS = [
     descripcion: "El clásico de patio trasero vuelve reinventado con nuevos modos de juego, formas de jugar y logros para desbloquear. Esta versión combina la esencia arcade y el carisma que hicieron legendario al Backyard Baseball original con mejoras propias de la era actual: 11 estadios remasterizados, 24 equipos originales para elegir y 6 modos de juego distintos, todo protagonizado por un plantel de 30 queridos personajes del universo Backyard.",
     trailer: "https://youtube.com/embed/8-Lnz5UQX4c",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935020/10ae84de59688050a1140103c1ecdbf987d8aeea/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -345,6 +369,7 @@ const JUEGOS = [
     descripcion: "Ambientada en el vasto Reino Celestial, Granblue Fantasy: Relink te pone en la piel de un capitán navegante de los cielos que, junto al espíritu del dragón Vyrn y la enigmática Lyria, forma una tripulación de nobles y forajidos rumbo a Estalucia, una isla envuelta en leyendas en el confín del horizonte. En el Dominio de Zegagrande, formidables bestias primordiales custodian las islas mientras se susurra sobre la clandestina Iglesia de Avia. Esta versión trae por primera vez a Switch 2 el sistema de combate dinámico y el elenco de personajes que consagraron al juego desde su estreno original, ahora con la posibilidad de vivir la aventura también en modo portátil.",
     trailer: "https://youtube.com/embed/CSLN1rqXs1k",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -359,6 +384,7 @@ const JUEGOS = [
     descripcion: "Esta colección reúne por primera vez los dos plataformeros de acción en 2D Gunvolt Chronicles: Luminous Avenger iX (2019) y su secuela Luminous Avenger iX 2 (2022), junto con todo el contenido descargable publicado originalmente para ambos. Como novedad exclusiva de esta edición, el modo Batalla Interminable te deja configurar tus propias reglas y enfrentarte a una oleada infinita de jefes aleatorios para poner a prueba tus reflejos. Ambos títulos además reciben ajustes de balance que vuelven el gameplay más ágil y accesible, tanto para quienes los jugaron en su momento como para quienes se suban por primera vez a la acción.",
     trailer: "https://youtube.com/embed/gvB2DzQ24Q4",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282450/085d9a38c8482abfbbe1272818d50088b7cd644a/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -373,6 +399,7 @@ const JUEGOS = [
     descripcion: "EA Sports College Football 27 te mete de lleno en la era moderna del fútbol americano universitario, donde la ambición personal se cruza con el orgullo por los colores del programa. Armá tu propio proyecto deportivo con el nuevo Dynasty Blueprint, asumí nuevas posiciones con una personalización más profunda en el modo Road to Glory, y divertite con las mascotas de cada universidad en Mascot Mashup, todo envuelto en la pompa y las tradiciones que hacen del día de partido una fiesta universitaria.",
     trailer: "https://youtube.com/embed/a-JpwwMa5aM",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/1c628b40d5aa8dcf26e0ac9d394f0fbe1b8dc879/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -387,6 +414,7 @@ const JUEGOS = [
     descripcion: "Forward to the Sky es una aventura de acción en tercera persona ambientada en las ruinas de una torre celestial. Tu objetivo es recolectar los fragmentos de cristal esparcidos por sus distintos niveles para reconstruir, poco a poco, la historia de la torre y de la princesa que busca alcanzar la cima. Con plataformeo, combate ligero y una estética que recuerda a los cuentos de hadas, cada fragmento recuperado revela un poco más del misterio que envuelve al lugar, hasta que todo se termina de revelar cuando por fin se llega a la cúspide.",
     trailer: "https://youtube.com/embed/CaN4PR3KGC8",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333250/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -401,6 +429,7 @@ const JUEGOS = [
     descripcion: "Digimon Story: Time Stranger es un RPG con elementos de crianza de criaturas que explora el vínculo profundo entre los humanos y los Digimon, en una historia que busca desentrañar el misterio detrás del colapso del mundo. La aventura te lleva tanto por el mundo humano como por el Mundo Digital, reclutando y entrenando un plantel variado de Digimon para enfrentarte a batallas por turnos. En tu misión por descubrir qué provocó el colapso, los encuentros casuales con personajes únicos irán moldeando tu viaje a través del tiempo y de mundos paralelos, con el poder de cambiar el destino mismo. Esta edición trae por primera vez la experiencia a Switch y Switch 2.",
     trailer: "https://youtube.com/embed/fJnpfLErDDQ",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -415,6 +444,7 @@ const JUEGOS = [
     descripcion: "¿Alguna vez te preguntaste cómo sería detener el tiempo? Ascend to ZERO es un roguelike centrado en el control temporal, en el que podés usar tu habilidad especial para congelar el tiempo y abrirte paso a los golpes por niveles generados proceduralmente, subiendo cada vez más alto contra oleadas de enemigos.",
     trailer: "https://youtube.com/embed/OYNqetlubUw",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2697940/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -429,6 +459,7 @@ const JUEGOS = [
     descripcion: "En Forensics: Crime Scene Detective sos la autoridad científica que les da a los investigadores los hechos concretos. Tu trabajo empieza cuando las sirenas se apagan y el silencio se instala sobre la escena del crimen. Con cabeza fría y ojo entrenado, entrás a departamentos, bares y sótanos donde ocurrió (o se dice que ocurrió) algo inimaginable. Con herramientas profesionales buscás lo que otros pasan por alto: una huella sutil en una copa de vino, un mensaje borrado en un celular, una mancha de sangre diminuta que pone en duda una declaración. Asegurar la evidencia es solo el comienzo: en el laboratorio comparás perfiles de ADN, reconstruís trayectorias de disparos, desencriptás dispositivos digitales y armás el rompecabezas completo. Tus análisis pueden incriminar culpables o exonerar inocentes, porque no toda escena sangrienta es un asesinato y no todo lo obvio es la verdad.",
     trailer: "https://youtube.com/embed/dc1UqJN2W-I",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3765010/898a2e973e596586efd395516404834099b96e9d/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -443,6 +474,7 @@ const JUEGOS = [
     descripcion: "Jan, el científico, despierta con todo lo que construyó, descubrió y creó a su disposición. En esta expansión de The Alters, tenés que forjar un equipo de Alters especializados (versiones alternativas de vos mismo, cada una con sus propias habilidades y su propia historia) para resolver el enigma del Oasis antes de que se acabe el tiempo... y el sol.",
     trailer: "https://youtube.com/embed/LJ-uk8v76TE",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3237520/e817a332b4247486e43005e12413aa9f4d377003/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -457,6 +489,7 @@ const JUEGOS = [
     descripcion: "Metete en un futuro donde la felicidad es curada por una inteligencia artificial, en esta aventura de puzles de ritmo tranquilo. El Proyecto Utopía fue creado con el objetivo de maximizar la felicidad y el confort humano, y como el nuevo Facilitador residente de D-topia, tu trabajo es resolver los problemas que surjan en la comunidad. Vas a enfrentar ingeniosos acertijos lógicos para solucionar desperfectos mecánicos y mantener las instalaciones funcionando, mientras conocés a los vecinos, cada uno con su propia historia y sus propias luchas personales. Pero, ¿qué pasa cuando los problemas van más allá de lo mecánico? ¿Cómo van a impactar tus decisiones en el bienestar de los residentes y en el futuro de la humanidad? En un mundo de felicidad curada, ¿qué significa encontrarle un propósito a la vida?",
     trailer: "https://youtube.com/embed/Vn6QOhRwxbY",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895460/c007e8aca1b123534981f690f3ea36e0afba77ba/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -471,6 +504,7 @@ const JUEGOS = [
     descripcion: "En el siglo XIX, un capítulo sombrío de la historia brasileña se desató en el sertón: el asentamiento de Canudos se había convertido en un santuario para miles de personas en busca de refugio, pero cuando desafiaron al recién formado Ejército Republicano, su resistencia fue aplastada con una fuerza devastadora. Jugás como Pajeú, un guerrero que se ganó su libertad en batalla, luchando por rescatar el alma de El Consejero, su mentor y líder espiritual de Canudos. Con cada descenso el tiempo se distorsiona y tus poderes crecen mientras te enfrentás a horrores cada vez más fuertes al mando de las fuerzas oscuras que le arrebataron la cabeza a El Consejero y atraparon su alma.",
     trailer: "https://youtube.com/embed/ji-sO68H1-8",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782460/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -485,6 +519,7 @@ const JUEGOS = [
     descripcion: "Hacé trucos, girá y deslizate con tu tren en un recorrido acelerado y descontrolado por una colorida distopía japonesa. Superá a las bandas rivales, destruí a una corporación turbia y recuperá las vías usando solo habilidad, velocidad y estilo. Subite a bordo de tu tren personalizado que desafía la gravedad y embarcate en una alocada misión para derrotar a la siniestra corporación Miraido, junto a un pintoresco grupo de marginados.",
     trailer: "https://youtube.com/embed/1MUuSW4g0Bc",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/9e82089d034705eaa84ecb130d04ed1084ce574c/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -499,6 +534,7 @@ const JUEGOS = [
     descripcion: "Unite a un equipo de exploradores en busca de un tesoro. A bordo de tu galeón, preparate para cada misión eligiendo armas y equipamiento antes de partir rumbo a la aventura en una jungla maldita. Cuanto más avances, mayor será el peligro que enfrentes antes de llegar a las puertas de un legendario mundo subterráneo donde te esperan riquezas inimaginables. The Mound está inspirado en los relatos de H.P. Lovecraft, con sus atmósferas opresivas e impredecibles: acá las fuerzas sobrenaturales no solo te persiguen, sino que distorsionan tu percepción de cada situación para desestabilizarte. Frente a criaturas diabólicas y fenómenos inexplicables, el límite entre la realidad y la ilusión se desdibuja, sembrando la duda y la paranoia entre tu grupo. En The Mound, sobrevivir depende de la comunicación y de ayudarse mutuamente, pero a medida que la locura avanza, las alucinaciones se intensifican. ¿Todavía podés confiar en tu percepción? ¿Realmente tenés tiempo para evaluar la situación? Una mala decisión, un disparo mal dado, y la misión puede convertirse en un desastre.",
     trailer: "https://youtube.com/embed/2hXCNX34lNg",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -513,6 +549,7 @@ const JUEGOS = [
     descripcion: "Teeto tiene un talento especial: puede absorber todo tipo de objetos y transformarlos en formas completamente nuevas. Con la mochila potenciada por Vionite de Nory, desbloqueás habilidades únicas para burlar enemigos, resolver acertijos y descubrir secretos escondidos. Combiná objetos, sé creativo y descubrí qué extraños poderes vas a desatar. La vida es mejor con un compañero, y salvar el mundo también: sumate con un amigo al modo cooperativo en pantalla dividida, donde vas a absorber, transformar y explorar juntos, resolviendo acertijos y ayudándose mutuamente en esta alocada aventura.",
     trailer: "https://youtube.com/embed/olYY9vIUIrI",
     metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2783370/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true

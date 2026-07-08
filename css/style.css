@@ -336,6 +336,30 @@ a:hover { color: var(--blanco); }
 
 .ficha-cerrar:hover { color: var(--blanco); }
 
+.ficha-cuerpo {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.ficha-portada {
+  width: 120px;
+  flex-shrink: 0;
+  border: 1px solid var(--gris-3);
+  display: block;
+}
+
+/* imagenes horizontales (header de Steam) se muestran mas anchas */
+.ficha-portada.apaisada {
+  width: 230px;
+  max-width: 100%;
+}
+
+.ficha-info {
+  flex: 1;
+  min-width: 0;
+}
+
 .ficha-meta {
   display: flex;
   gap: 2rem;
@@ -579,4 +603,6 @@ a:hover { color: var(--blanco); }
   .ficha-meta { gap: 1rem; }
   .ficha-titulo { font-size: 13px; }
   .juego-nombre { font-size: 12px; }
+  .ficha-cuerpo { flex-direction: column; }
+  .ficha-portada { width: 100px; }
 }
