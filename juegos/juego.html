@@ -16,6 +16,11 @@
     .seccion-titulo    { font-size: 11px; color: var(--gris-5); letter-spacing: 3px; margin-bottom: 0.75rem; }
     .descripcion-page  { color: var(--gris-7); font-size: 13px; line-height: 2; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .meta-grid         { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .noticia           { margin-bottom: 1rem; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
+    .noticia-linea     { margin-bottom: 0.25rem; }
+    .noticia-fecha     { color: var(--acento); font-size: 11px; letter-spacing: 1px; margin-right: 0.5rem; }
+    .noticia-titulo    { color: var(--blanco); font-size: 12px; letter-spacing: 1px; }
+    .noticia-texto     { color: var(--gris-7); font-size: 12px; line-height: 1.8; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     .portada-page      { width: 160px; flex-shrink: 0; border: 1px solid var(--gris-3); display: block; }
@@ -161,6 +166,21 @@
         ? `<img class="portada-page" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" onerror="this.remove()" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add('apaisada')">`
         : "";
 
+      const noticiasHtml = (j.noticias && j.noticias.length)
+        ? `<div class="seccion">
+             <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+             ${j.noticias.map(n => `
+               <div class="noticia">
+                 <div class="noticia-linea">
+                   <span class="noticia-fecha">${n.fecha}</span>
+                   <span class="noticia-titulo">▸ ${n.titulo}</span>
+                 </div>
+                 <p class="noticia-texto">${n.texto}</p>
+               </div>
+             `).join("")}
+           </div>`
+        : "";
+
       document.getElementById("contenido").innerHTML = `
         <a href="../index.html" class="volver">◀ VOLVER AL CALENDARIO</a>
 
@@ -204,6 +224,8 @@
         </div>
           </div>
         </div>
+
+        ${noticiasHtml}
 
         <div class="seccion">
           <div class="seccion-titulo">DESCRIPCIÓN</div>

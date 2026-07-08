@@ -10,6 +10,13 @@ const JUEGOS = [
     trailer: "https://www.youtube.com/embed/rticbJlXbLw",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1315320/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-06-24",
+        titulo: "LLEGA A CONSOLAS TRAS SU PASO POR PC",
+        texto: "La versión de PC promedia 75 en OpenCritic: elogios a la escritura y al sistema de confianza con los aldeanos, con un combate algo tosco como principal reparo."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -25,10 +32,22 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/n5y22LUfetA",
     metacritic: 86,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-01",
+        titulo: "EL CAPÍTULO 6 YA TIENE FECHA: 2027",
+        texto: "Toby Fox confirmó que el Capítulo 6 de Deltarune llegará en 2027, mientras el Capítulo 5 alcanza un nuevo pico de jugadores simultáneos en Steam."
+      },
+      {
+        fecha: "2026-06-24",
+        titulo: "LANZAMIENTO CON 86 EN METACRITIC",
+        texto: "La crítica recibió el Capítulo 5 como el mejor de la saga hasta la fecha, destacando el desarrollo de personajes y las novedades jugables."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: false
-  },     
+  },
   {
     id: "house-flipper-remastered-collection",
     titulo: "HOUSE FLIPPER REMASTERED COLLECTION",
@@ -54,7 +73,14 @@ const JUEGOS = [
     descripcion: "Star Fox es una aventura llena de acción basada en Star Fox 64 para Nintendo 64. Experimenta nuevos modos de juego (y redescubre los clásicos) mientras te embarcas en una peligrosa misión para salvar el Sistema Lylat, que ahora puedes explorar con mayor detalle gracias a una renovación visual completa del juego. El científico maniático Andross busca el control del sistema estelar Lylat, y solo Fox McCloud y el equipo Star Fox se interponen en su camino. Pilota tu Arwing y recorre el sistema luchando contra fuerzas enemigas y realizando emocionantes maniobras aéreas, como giros y volteretas, para despistar a los enemigos. Encuentra rutas alternativas a través del Sistema Lylat en múltiples partidas, asumiendo nuevas misiones y desafíos variados. Además, únete a tus amigos en el nuevo modo multijugador de batalla de cuatro contra cuatro. Star Fox es una versión cinematográfica del juego Star Fox 64, con diseños de personajes renovados, un aspecto renovado para cada nivel, además de escenas cinemáticas detalladas, diálogos con voces completas y una banda sonora orquestal impresionante. El juego también incluye controles de ratón para los Joy-Con 2 y una nueva función GameChat que te permite ponerte a los mandos de tus personajes favoritos del universo Star Fox.",
     trailer: "https://youtube.com/embed/cWJR_d9gBZ4",
     metacritic: 82,
-    imagen: null,
+    imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starfox/1x1_Starfox_image500w.jpg",
+    noticias: [
+      {
+        fecha: "2026-06-24",
+        titulo: "DEBUT CON 82 EN METACRITIC",
+        texto: "El remake debutó con 82 sobre 25 reseñas, el segundo mejor puntaje en los 33 años de la saga, solo por detrás del 88 de Star Fox 64."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -100,6 +126,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Vw2I2y6B2vM",
     metacritic: 73,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1290760/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-06-25",
+        titulo: "ENCANTO CON PEROS: 69-73 EN METACRITIC",
+        texto: "La crítica elogia la atmósfera relajada y los puzles del gecko, pero señala problemas de rendimiento y una cámara errática que empañan la aventura."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -130,6 +163,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/VUdjBlPP1I",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936610/4c994dffe6840c2ee0e653afe281685ae85db64c/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-01",
+        titulo: "RECEPCIÓN MIXTA EN SU DEBUT",
+        texto: "Promedia 71 en OpenCritic sobre 17 reseñas. Elogian el giro en equipo a la fórmula clásica, pero cuestionan la profundidad de un único modo de juego frente a su precio de 30 dólares."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -190,6 +230,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/UubdWIkj8Wc",
     metacritic: 78,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2069250/d00d793580786f12bc3dd55d179447bdf046c69e/header_alt_assets_0.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-01",
+        titulo: "LA SECUELA CONVENCE: 78 EN METACRITIC",
+        texto: "Las primeras críticas la describen como más ruidosa, más rara y mejor que la original. El puntaje de usuarios quedó en 6.2, más dividido."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: false
@@ -204,7 +251,14 @@ const JUEGOS = [
     descripcion: "¡Déjate llevar por el ritmo con la última entrega de la serie Rhythm Heaven, Rhythm Heaven Groove!.",
     trailer: "https://youtube.com/embed/ZdMwqKiSeEE",
     metacritic: 82,
-    imagen: null,
+    imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/rhythmparadisegroove/1x1_NSwitch_RythmParadiseGroove_image500w.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-02",
+        titulo: "82 EN METACRITIC, FIEL A LA SAGA",
+        texto: "Con más de 50 reseñas, el puntaje quedó en línea con todas las entregas anteriores de Rhythm Heaven. En Europa se llama Rhythm Paradise Groove."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -250,6 +304,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/VL_15TiRRAM",
     metacritic: 80,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-07",
+        titulo: "LANZAMIENTO CON 90% DE RESEÑAS POSITIVAS",
+        texto: "El simulador de granja vampírica llegó a cinco plataformas con recepción muy positiva: alrededor de 80 en Metacritic en Switch y 90% de reseñas positivas en PC."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -265,6 +326,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/kX0dCc5524Y",
     metacritic: 76,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065030/42250e3fa39c282922ae9452bf751560120bda58/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-07",
+        titulo: "LA CRÍTICA LO ELOGIA COMO DOCUMENTO HISTÓRICO",
+        texto: "Llega a PS5 con 76 en Metacritic (PC) y 90% de reseñas positivas en Steam. Los críticos destacan su retrato de Gallipoli, aunque avisan: es una experiencia narrativa pausada, no un juego de acción."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -280,6 +348,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/ib-Nepqh19Y",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-07",
+        titulo: "CRÍTICAS MIXTAS PARA LA VERSIÓN DE CONSOLA",
+        texto: "El fenómeno cooperativo de los Backrooms desembarca en consolas con recepción dividida: GameSpot le dio un 6/10, elogiando el multijugador pero señalando repetición en el diseño."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -310,6 +385,18 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-07",
+        titulo: "PRECARGA DISPONIBLE ANTES DEL ESTRENO",
+        texto: "La precarga ya está activa en la mayoría de las regiones de cara al lanzamiento del 9 de julio."
+      },
+      {
+        fecha: "2026-04-23",
+        titulo: "NUEVAS HISTORIAS Y EL REGRESO DE MATT RYAN",
+        texto: "El remake suma misiones dedicadas a Barbanegra y Stede Bonnet, con Matt Ryan retomando la voz de Edward Kenway. Reconstruido en Anvil con ray tracing, destrucción de entornos y clima dinámico."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -339,7 +426,7 @@ const JUEGOS = [
     descripcion: "Endless Ragnarok expande Granblue Fantasy: Relink con nuevo contenido tanto para el modo historia como para el cooperativo online, profundizando el célebre sistema de combate dinámico y el elenco de personajes versátiles que hicieron popular al juego original. Trae nuevas misiones, escenarios y modos de juego pensados para exprimir al máximo el compañerismo entre los tripulantes del cielo, refinando y ampliando la fórmula de acción y rol para ofrecer una aventura sin fin tanto a los capitanes veteranos como a quienes se suban por primera vez a esta travesía por el Reino Celestial.",
     trailer: "https://youtube.com/embed/3v--EoDTB5A",
     metacritic: null,
-    imagen: null,
+    imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/granbluefantasyrelinkendlessragnarok/1x1_GranblueFantasyRelinkEndlessRagnarok_image500w.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -430,6 +517,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/fJnpfLErDDQ",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-06-10",
+        titulo: "DEMO DISPONIBLE CON TRANSFERENCIA DE GUARDADO",
+        texto: "Ya se puede probar gratis en Switch y Switch 2 antes del estreno, con guardado transferible al juego completo. En Switch 2 ofrece modo calidad (4K HDR) o rendimiento (60 FPS). El juego superó el millón de copias en las demás plataformas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
