@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#000000"/>
+  <rect x="2" y="2" width="60" height="60" fill="none" stroke="#333333" stroke-width="2"/>
+  <text x="10" y="46" font-family="Menlo, Consolas, monospace" font-size="38" fill="#ffffff">L</text>
+  <text x="34" y="46" font-family="Menlo, Consolas, monospace" font-size="38" fill="#a0a0ff">▸</text>
+</svg>

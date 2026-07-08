@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LANZAMIENTOS.LAT</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- Open Graph genérico (los scrapers de redes no ejecutan JS, ven siempre esto) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LANZAMIENTOS.LAT">
+  <meta property="og:title" content="LANZAMIENTOS.LAT — Calendario de Videojuegos">
+  <meta property="og:description" content="Fichas de videojuegos: fecha de lanzamiento, plataformas, puntajes, noticias y trailer.">
+  <meta property="og:image" content="https://lanzamientos.lat/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
   <link rel="stylesheet" href="../css/style.css">
   <style>
     .ficha-page        { padding: 2rem 0; }
@@ -153,6 +163,25 @@
         : "";
 
       document.title = `${j.titulo} — LANZAMIENTOS.LAT`;
+
+      // datos estructurados del juego para Google
+      const datosEstructurados = {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": j.titulo,
+        "url": `https://lanzamientos.lat/juegos/juego.html?id=${j.id}`,
+        "description": j.descripcion.slice(0, 300),
+        "datePublished": j.fecha,
+        "gamePlatform": j.plataformas.map(plataformaLabel),
+        "genre": j.genero,
+        "inLanguage": "es",
+        "author": { "@type": "Organization", "name": j.desarrollador }
+      };
+      if (j.imagen) datosEstructurados.image = j.imagen;
+      const ldScript = document.createElement("script");
+      ldScript.type = "application/ld+json";
+      ldScript.textContent = JSON.stringify(datosEstructurados);
+      document.head.appendChild(ldScript);
       document.querySelector('meta[name="description"]')?.setAttribute("content",
         `${j.titulo} — fecha de lanzamiento, plataformas y trailer. ${j.descripcion.slice(0, 120)}...`
       ) || (() => {
