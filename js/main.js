@@ -2,6 +2,7 @@
 let filtroActivo = "TODAS";
 let filtroGenero = "TODOS";
 let filtroTexto = "";
+let vistaActiva = "calendario";
 
 // ── HELPERS ──
 const MESES_ES = [
@@ -33,6 +34,20 @@ function claseMetacritic(n) {
   if (n >= 75) return "meta-alto";
   if (n >= 50) return "meta-medio";
   return "meta-bajo";
+}
+
+// días entre hoy y una fecha (positivo = futuro)
+function diasHasta(fechaStr) {
+  const hoy = parseFecha(getDiaKeyHoy());
+  return Math.round((parseFecha(fechaStr) - hoy) / 86400000);
+}
+
+function cuentaRegresivaHtml(fechaStr) {
+  const dias = diasHasta(fechaStr);
+  if (dias === 0) return `<span class="cuenta-regresiva regresiva-hoy">▸ ¡SALE HOY!</span>`;
+  if (dias === 1) return `<span class="cuenta-regresiva">▸ FALTA 1 DÍA</span>`;
+  if (dias > 1)   return `<span class="cuenta-regresiva">▸ FALTAN ${dias} DÍAS</span>`;
+  return "";
 }
 
 // ── HOY ──
@@ -98,6 +113,48 @@ function buscarJuego(texto) {
   renderCalendario();
 }
 
+// ── VISTA (calendario / ranking) ──
+function cambiarVista(vista) {
+  vistaActiva = vista;
+  document.querySelectorAll(".vista-btn").forEach(b => {
+    b.classList.toggle("activo", b.dataset.vista === vista);
+  });
+  renderCalendario();
+}
+
+// ── RANKING POR METACRITIC ──
+function renderRanking(juegos) {
+  const conPuntaje = juegos
+    .filter(j => j.metacritic)
+    .sort((a, b) => b.metacritic - a.metacritic);
+
+  if (conPuntaje.length === 0) {
+    return `<div class="sin-resultados">// NINGÚN JUEGO CON PUNTAJE PARA ESTE FILTRO</div>`;
+  }
+
+  const filas = conPuntaje.map((j, i) => {
+    const fecha = parseFecha(j.fecha);
+    const fechaStr = `${String(fecha.getDate()).padStart(2, "0")} ${MESES_ES[fecha.getMonth()].slice(0, 3)}`;
+    const platsHtml = j.plataformas.map(p =>
+      `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`
+    ).join("");
+    return `
+      <a class="ranking-fila" href="juegos/juego.html?id=${j.id}">
+        <span class="ranking-pos">#${String(i + 1).padStart(2, "0")}</span>
+        <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
+        <span class="juego-nombre">${j.titulo}</span>
+        <span class="ranking-fecha">${fechaStr}</span>
+        <div class="plataformas">${platsHtml}</div>
+      </a>`;
+  }).join("");
+
+  return `
+    <div class="ranking">
+      <div class="ranking-header">★ MEJOR PUNTUADOS <span class="mes-contador">[ PUNTAJE METACRITIC ]</span></div>
+      ${filas}
+    </div>`;
+}
+
 // ── JUEGOS FILTRADOS ──
 function juegosFiltrados() {
   return JUEGOS.filter(j => {
@@ -128,6 +185,11 @@ function renderCalendario() {
 
   if (juegos.length === 0) {
     contenedor.innerHTML = `<div class="sin-resultados">// NO HAY JUEGOS PARA ESTE FILTRO</div>`;
+    return;
+  }
+
+  if (vistaActiva === "ranking") {
+    contenedor.innerHTML = renderRanking(juegos);
     return;
   }
 
@@ -209,6 +271,7 @@ function renderCalendario() {
                   <div>
                     <span class="ficha-campo-label">FECHA</span>
                     <span class="ficha-campo-valor">${diaNum} ${MESES_ES[fecha.getMonth()]} ${year}</span>
+                    ${cuentaRegresivaHtml(j.fecha)}
                   </div>
                   <div>
                     <span class="ficha-campo-label">PLATAFORMAS</span>
@@ -233,7 +296,7 @@ function renderCalendario() {
             </div>
             <div class="ficha-tags">${tagsHtml}</div>
             <div class="ficha-acciones">
-              <button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>
+              ${j.trailer ? `<button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>` : ""}
               <a href="juegos/juego.html?id=${j.id}" class="btn-trailer">+ INFO</a>
             </div>
           </div>

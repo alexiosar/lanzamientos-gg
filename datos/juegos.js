@@ -8,7 +8,7 @@ const JUEGOS = [
     desarrollador: "PSYCHIC SOFTWARE",
     descripcion: "The Necromancer's Tale es un RPG narrativo con vista cenital donde encarnas a un noble menor del siglo XVIII, adentrándote en las Artes Oscuras de la Nigromancia en busca de conocimiento y venganza. Un gran poder te espera... junto con lo extraño, lo morboso y un descenso gradual a la locura. Ante ti yace un gran libro de hechizos, repleto de poderosos ritos de muerte y reanimación. ¿Podrás descifrar sus páginas y dominar sus rituales arcanos sin perder la cordura ni ser ahorcado por los habitantes del pueblo? Tu progreso requerirá gran determinación, astucia y discreción. The Necromancer's Tale es un juego con una rica historia, con 400.000 palabras de narrativa y trasfondo, en el que conversarás con más de 180 personajes, cada uno con su propio retrato. Investigarás, negociarás, coaccionarás y halagarás para avanzar en tus objetivos. El sistema de confianza del juego implica que tus decisiones, incluso en las conversaciones, realmente importan. Si la confianza de los habitantes del pueblo cae demasiado bajo, tus decisiones se verán afectadas; si cae aún más bajo, seguramente serás juzgado en un tribunal y ahorcado, o linchado por una turba enfurecida.",
     trailer: "https://www.youtube.com/embed/rticbJlXbLw",
-    metacritic: null,
+    metacritic: 77,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1315320/library_600x900.jpg",
     noticias: [
       {
@@ -161,13 +161,13 @@ const JUEGOS = [
     desarrollador: "BEHAVIOUR INTERACTIVE",
     descripcion: "Monopoly: Star Wars Heroes vs. Villains, una versión dinámica y multijugador del juego de mesa familiar favorito de Hasbro, ofrece una experiencia de juego reinventada con momentos cinematográficos, casillas temáticas y elementos dinámicos que hacen que cada partida sea única. Forma equipos con los icónicos héroes y villanos de Star Wars, cada uno con habilidades únicas que pueden influir en la estrategia y cambiar el rumbo del juego a tu favor con cada tirada de dados. El trabajo en equipo y las combinaciones de héroes son clave para la victoria.",
     trailer: "https://youtube.com/embed/VUdjBlPP1I",
-    metacritic: null,
+    metacritic: 68,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936610/4c994dffe6840c2ee0e653afe281685ae85db64c/header.jpg",
     noticias: [
       {
         fecha: "2026-07-01",
         titulo: "RECEPCIÓN MIXTA EN SU DEBUT",
-        texto: "Promedia 71 en OpenCritic sobre 17 reseñas. Elogian el giro en equipo a la fórmula clásica, pero cuestionan la profundidad de un único modo de juego frente a su precio de 30 dólares."
+        texto: "Debutó con 68 en Metacritic. Elogian el giro en equipo a la fórmula clásica, pero cuestionan la profundidad de un único modo de juego frente a su precio de 30 dólares."
       }
     ],
     gamepass: false,
@@ -183,7 +183,7 @@ const JUEGOS = [
     desarrollador: "FAT ALIEN CAT",
     descripcion: "Momento es un juego de decoración de habitaciones acogedor con un toque especial: ¡los objetos que elijas alterarán el curso de la historia! Decora tu habitación, elige los objetos que son importantes para ti y descubre cómo estas elecciones influyen a lo largo de tu vida. Empieza en la infancia, seleccionando juguetes que representen tus sueños para el futuro. Sigue esos sueños hasta la edad adulta, explorando escenarios y temas muy diversos. Descubre historias de desamor, asombro y amor, y aprende el significado de los tesoros sentimentales que te acompañarán. Presta mucha atención algunos objetos pueden esconder más de lo que parecen a simple vista. Explora un mundo deliciosamente táctil, enciende luces, hojea libros, acaricia adorables animales y mucho más. Colecciona objetos y muebles en el modo historia para jugar con ellos en el infinito modo creativo. Al final, regresa al principio para descubrir nuevos finales, giros inesperados en el camino y explorar una historia en constante evolución de amor y pérdida.",
     trailer: "https://youtube.com/embed/X1_HJSks2CQ",
-    metacritic: null,
+    metacritic: 78,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2474770/library_600x900.jpg",
     gamepass: false,
     psplus: false,
@@ -198,7 +198,7 @@ const JUEGOS = [
     desarrollador: "NUGGETS ENTERTAINMENT",
     descripcion: "Tú y tus amigos regresan a casa después de unas relajantes vacaciones, pero se ven obligados a tomar una ruta alternativa. Conduzcan su autocaravana por el interior del país y encuentren la salida a la Ruta 65. No todos los que entran al Valle de Mabutts salen con vida. Así que asegúrense de tener siempre a mano hamburguesas, antídotos y el clásico EpiPens. Dominen el cabrestante basado en la física y gánense el derecho a ser el comandante principal del control remoto. Con un cabrestante delantero y otro trasero, su autocaravana está especialmente equipada para pasar por encima, por debajo o a través de la mayoría de los baches.",
     trailer: "https://youtube.com/embed/H7mXFwVNX6Y",
-    metacritic: null,
+    metacritic: 72,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg",
     gamepass: false,
     psplus: false,
@@ -294,6 +294,36 @@ const JUEGOS = [
     nuevo: true
   },
   {
+    id: "botany-manor",
+    titulo: "BOTANY MANOR",
+    fecha: "2026-07-03",
+    plataformas: ["SWITCH2"],
+    genero: ["PUZZLE", "AVENTURA", "RELAX", "INDIE"],
+    desarrollador: "BALLOON STUDIOS",
+    descripcion: "Bienvenido a Botany Manor, una casa señorial en la Inglaterra del siglo XIX. Encarnás a Arabella Greene, una botánica retirada que explora su casa y jardines, llenos de investigaciones, para descubrir el hábitat ideal de plantas olvidadas. Cultivá cada planta y descubrí las misteriosas cualidades que esconden. Esta edición trae el aclamado juego de puzles a Switch 2.",
+    trailer: "https://youtube.com/embed/KFr4j_Oqy14",
+    metacritic: 82,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1425350/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "wall-world-2",
+    titulo: "WALL WORLD 2",
+    fecha: "2026-07-06",
+    plataformas: ["XBOX"],
+    genero: ["ACCION", "ROGUELIKE", "ESTRATEGIA", "INDIE"],
+    desarrollador: "ALAWAR",
+    descripcion: "La increíble aventura del misterioso Muro continúa. Adéntrate en el muro con tu robospider: encuentra artefactos y tecnologías, mejora tu exotraje y araña, lucha contra los monstruos de las profundidades y llega hasta el fondo.",
+    trailer: "https://youtube.com/embed/PWsHA1R1Fl8",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3467710/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
     id: "moonlight-peaks",
     titulo: "MOONLIGHT PEAKS",
     fecha: "2026-07-07",
@@ -360,6 +390,21 @@ const JUEGOS = [
     nuevo: true
   },
   {
+    id: "doom-the-dark-ages-revelations",
+    titulo: "DOOM: THE DARK AGES | REVELATIONS",
+    fecha: "2026-07-07",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["ACCION", "FPS", "SHOOTER"],
+    desarrollador: "ID SOFTWARE",
+    descripcion: "EL INFIERNO SE CONGELA en DOOM: The Dark Ages | Revelations. El Slayer solo podrá salir de un brutal purgatorio encontrando nuevas fuerzas. Con niveles inéditos, nuevos demonios y la letal lanza de cadenas, también disponible en el Desgarratorio 3.0, esta expansión de la campaña abre una nueva dimensión de combate.",
+    trailer: "https://youtube.com/embed/nL_JF1ZNllI",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469450/d6c6747deb3a3d20418c1f7a5b2de2304442badf/header.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
     id: "disney-dreamlight-valley-honeyglow-woods",
     titulo: "DISNEY DREAMLIGHT VALLEY: HONEYGLOW WOODS",
     fecha: "2026-07-08",
@@ -375,6 +420,21 @@ const JUEGOS = [
     nuevo: true
   },
   {
+    id: "buckshot-roulette",
+    titulo: "BUCKSHOT ROULETTE",
+    fecha: "2026-07-08",
+    plataformas: ["XBOX"],
+    genero: ["ACCION", "HORROR", "INDIE", "SIMULACION"],
+    desarrollador: "MIKE KLUBNIKA",
+    descripcion: "Juega a la ruleta rusa con un arma del calibre 12. Cuatro entran. Uno sale. Apuesta tu vida para tirar los dados. Buena suerte. El fenómeno indie de terror llega a consolas Xbox con modo multijugador para hasta 4 jugadores.",
+    trailer: "https://youtube.com/embed/epucEJY8Auo",
+    metacritic: 85,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835570/library_600x900.jpg",
+    gamepass: true,
+    psplus: false,
+    nuevo: true
+  },
+  {
     id: "assassins-creed-black-flag-resynced",
     titulo: "ASSASSINS CREED BLACK FLAG RESYNCED",
     fecha: "2026-07-09",
@@ -383,9 +443,14 @@ const JUEGOS = [
     desarrollador: "UBISOFT",
     descripcion: "Infunde terror en tus enemigos abordando y hundiendo navíos como Edward Kenway, capitán del Jackdaw. Ya sea mezclándote entre la multitud o liderando asaltos audaces, alterna entre eliminaciones sigilosas y feroces peleas mientras manejas con destreza espadas, pistolas y la Hoja Oculta. Con un elenco de leyendas piratas históricas a tu lado, desafía a imperios en medio del antiguo conflicto entre Asesinos y Templarios. Reconstruida desde cero y con el motor Anvil más reciente, regresa la icónica aventura pirata en solitario.",
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
-    metacritic: null,
+    metacritic: 84,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg",
     noticias: [
+      {
+        fecha: "2026-07-09",
+        titulo: "DEBUT CON 84 EN METACRITIC",
+        texto: "El remake pirata llegó con excelentes críticas: 84 de Metascore, uno de los mejores puntajes del año para Ubisoft."
+      },
       {
         fecha: "2026-07-07",
         titulo: "PRECARGA DISPONIBLE ANTES DEL ESTRENO",
@@ -410,8 +475,15 @@ const JUEGOS = [
     desarrollador: "GAME STUDIO",
     descripcion: "Adéntrate en el castillo flotante de Aincrad, un mundo de belleza sobrecogedora y peligros donde cada batalla podría ser la última. Entra en un mundo misterioso y vibrante y forja tu destino. Crea a tu héroe, elige tu equipo y domina el combate con tus habilidades especiales y reflejos. Crea sinergia con tu compañero, sube de nivel y desbloquea poderosas habilidades a medida que tu horizonte se expande con cada victoria. ¿Te alzarás y reclamarás tu destino o sucumbirás ante enemigos más fuertes de lo que imaginabas? Esto no es solo un juego; es una batalla por la supervivencia. ¡Empuña tu arma, forja tu leyenda y embárcate en una aventura que pondrá en riesgo tu vida.",
     trailer: "https://youtube.com/embed/WBW_qjic47E",
-    metacritic: null,
+    metacritic: 64,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/25fb6350451b21ca824562c8d1eebe89091347cc/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-09",
+        titulo: "DEBUT FLOJO: 64 EN METACRITIC",
+        texto: "La adaptación de Sword Art Online divide a la crítica: es el puntaje más bajo entre los lanzamientos del mes en el calendario."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -425,8 +497,15 @@ const JUEGOS = [
     desarrollador: "CYGAMES",
     descripcion: "Endless Ragnarok expande Granblue Fantasy: Relink con nuevo contenido tanto para el modo historia como para el cooperativo online, profundizando el célebre sistema de combate dinámico y el elenco de personajes versátiles que hicieron popular al juego original. Trae nuevas misiones, escenarios y modos de juego pensados para exprimir al máximo el compañerismo entre los tripulantes del cielo, refinando y ampliando la fórmula de acción y rol para ofrecer una aventura sin fin tanto a los capitanes veteranos como a quienes se suban por primera vez a esta travesía por el Reino Celestial.",
     trailer: "https://youtube.com/embed/3v--EoDTB5A",
-    metacritic: null,
+    metacritic: 83,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/granbluefantasyrelinkendlessragnarok/1x1_GranblueFantasyRelinkEndlessRagnarok_image500w.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-09",
+        titulo: "GRAN DEBUT: 83 EN METACRITIC",
+        texto: "La expansión llegó con críticas excelentes, entre los mejores puntajes de la semana."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -487,6 +566,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/a-JpwwMa5aM",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/1c628b40d5aa8dcf26e0ac9d394f0fbe1b8dc879/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-09",
+        titulo: "LANZAMIENTO MUNDIAL CON POLÉMICA",
+        texto: "Los jugadores lo consideran la entrega que mejor se juega de la serie, con defensa más profunda y 31 playbooks. Pero el estreno vino con backlash: microtransacciones en los modos offline que esconden funciones detrás de pagos."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -507,6 +593,36 @@ const JUEGOS = [
     nuevo: true
   },
   {
+    id: "viking-frontiers",
+    titulo: "VIKING FRONTIERS",
+    fecha: "2026-07-09",
+    plataformas: ["XBOX", "PS5"],
+    genero: ["SUPERVIVENCIA", "ESTRATEGIA", "SIMULACION", "RPG"],
+    desarrollador: "BLUM ENTERTAINMENT",
+    descripcion: "La supervivencia de tu gente: eso es lo único que importa. Conviértete en el líder de un asentamiento vikingo y guíalo hacia la seguridad y la gloria. Reúne, construye, fabrica, caza, saquea y sigue a tus dioses para soportar las dificultades de la naturaleza y salvar a tu clan de la destrucción.",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304430/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "rhapsody-a-musical-adventure",
+    titulo: "RHAPSODY: A MUSICAL ADVENTURE",
+    fecha: "2026-07-09",
+    plataformas: ["SWITCH2", "PS5"],
+    genero: ["RPG", "MUSICA", "POR TURNOS"],
+    desarrollador: "NIPPON ICHI SOFTWARE",
+    descripcion: "El clásico RPG musical de Nippon Ichi que sentó las bases de la saga Disgaea regresa en una nueva edición para consolas actuales. Acompañá a Cornet, una joven capaz de hablar con las marionetas, en una aventura por turnos llena de canciones, humor y corazón.",
+    trailer: null,
+    metacritic: 67,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866430/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
     id: "digimon-story-time-stranger",
     titulo: "DIGIMON STORY: TIME STRANGER",
     fecha: "2026-07-10",
@@ -515,7 +631,7 @@ const JUEGOS = [
     desarrollador: "BANDAI NAMCO ENTERTAINMENT",
     descripcion: "Digimon Story: Time Stranger es un RPG con elementos de crianza de criaturas que explora el vínculo profundo entre los humanos y los Digimon, en una historia que busca desentrañar el misterio detrás del colapso del mundo. La aventura te lleva tanto por el mundo humano como por el Mundo Digital, reclutando y entrenando un plantel variado de Digimon para enfrentarte a batallas por turnos. En tu misión por descubrir qué provocó el colapso, los encuentros casuales con personajes únicos irán moldeando tu viaje a través del tiempo y de mundos paralelos, con el poder de cambiar el destino mismo. Esta edición trae por primera vez la experiencia a Switch y Switch 2.",
     trailer: "https://youtube.com/embed/fJnpfLErDDQ",
-    metacritic: null,
+    metacritic: 79,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/library_600x900.jpg",
     noticias: [
       {
@@ -525,6 +641,33 @@ const JUEGOS = [
       }
     ],
     gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "palworld",
+    titulo: "PALWORLD",
+    fecha: "2026-07-10",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["ACCION", "AVENTURA", "MUNDO ABIERTO", "SUPERVIVENCIA"],
+    desarrollador: "POCKETPAIR",
+    descripcion: "Este es un juego multijugador de supervivencia en mundo abierto inmenso y original, en el que tendrás que hacerte con unas misteriosas criaturas llamadas Pals, capaces de combatir, construir, cultivar y trabajar en fábricas. La versión 1.0 marca su salida definitiva del acceso anticipado.",
+    trailer: "https://youtube.com/embed/M84RSkUXe0U",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-09",
+        titulo: "LA 1.0 ES GRATIS Y CONSERVA TUS PARTIDAS",
+        texto: "Pocketpair la llama su actualización más grande: sistema de vuelo, Pals que empuñan armas y una región de endgame alrededor del Árbol del Mundo. Los mundos existentes se conservan, aunque recomiendan empezar personaje nuevo."
+      },
+      {
+        fecha: "2026-07-07",
+        titulo: "LA VERSIÓN 1.0 LLEGA DAY ONE A GAME PASS",
+        texto: "Xbox confirmó que Palworld 1.0 estará disponible en Game Pass desde su lanzamiento el 10 de julio, marcando la salida del acceso anticipado."
+      }
+    ],
+    gamepass: true,
     psplus: false,
     nuevo: true
   },
@@ -629,6 +772,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/2hXCNX34lNg",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-07",
+        titulo: "SU DEMO SUPERÓ LOS 200.000 JUGADORES",
+        texto: "El cooperativo lovecraftiano de ACE Team llega el 15 de julio a 29,99 dólares con crossplay y chat de voz espacial, tras un paso arrasador por el Steam Next Fest."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -644,6 +794,201 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/olYY9vIUIrI",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2783370/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "moss-the-forgotten-relic",
+    titulo: "MOSS: THE FORGOTTEN RELIC",
+    fecha: "2026-07-16",
+    plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH"],
+    genero: ["AVENTURA", "ACCION", "INDIE", "PLATAFORMA", "PUZZLE"],
+    desarrollador: "POLYARC",
+    descripcion: "Moss: The Forgotten Relic es una aventura atmosférica cargada de emoción ambientada en las páginas de un libro de cuentos viviente, rebosante de mitos y magia ancestral. Guía a Quill, una pequeña pero decidida heroína, en una conmovedora aventura de desafíos, coraje y conexión. Es la primera entrega de la saga —nacida en realidad virtual— reconstruida desde cero para jugarse en consolas sin visor.",
+    trailer: "https://youtube.com/embed/2vh0B3MgluM",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3914860/0559b495ccbdcca5ff81fdd0b3e06db05c3c3a8e/header.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "puppergeist",
+    titulo: "PUPPERGEIST",
+    fecha: "2026-07-16",
+    plataformas: ["XBOX", "SWITCH"],
+    genero: ["MUSICA", "AVENTURA", "INDIE"],
+    desarrollador: "SERENITY FORGE",
+    descripcion: "Viaja a través del Inframundo Canino en esta conmovedora mezcla de ritmo y novela visual. ¡Reúnete con tu cachorro perdido conectando con las almas de otros perros, descubriendo sus historias y animando su espíritu con juegos rítmicos llenos de encanto y desafíos lúdicos! Su banda sonora reúne a los creadores de la música de To the Moon y Friday Night Funkin'.",
+    trailer: "https://youtube.com/embed/mGQ_sVCc1_c",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029740/61bd4edcfe96b8f158100a92fb2b11d9778fd24a/header.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "the-mermaid-mask",
+    titulo: "THE MERMAID MASK",
+    fecha: "2026-07-16",
+    plataformas: ["PS5", "SWITCH2", "SWITCH"],
+    genero: ["AVENTURA", "POINT AND CLICK", "INDIE"],
+    desarrollador: "SFB GAMES",
+    descripcion: "Un asesinato imposible en un cuarto cerrado: el cuerpo inerte del Capitán Mortuga yace ante un caldero en un extraño submarino lleno de sospechosos. Una aventura de apuntar y clic hecha a mano, plagada de humor y rompecabezas, protagonizada por el Detective Grimoire y su compañera Sally. Resuelve este misterio de los creadores de Tangle Tower y Crow Country.",
+    trailer: "https://youtube.com/embed/ljJMXZUEiT8",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1696770/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "culdcept-begins",
+    titulo: "CULDCEPT BEGINS",
+    fecha: "2026-07-16",
+    plataformas: ["SWITCH2", "SWITCH"],
+    genero: ["TABLERO", "ESTRATEGIA", "CARTAS"],
+    desarrollador: "NEOS CORPORATION",
+    descripcion: "Un clásico de culto que fusiona los juegos de mesa y de cartas: Culdcept ofrece un sistema único e innovador que cautiva a sus fans desde su debut. Los jugadores se convierten en Cepters y empuñan cartas en intensas batallas donde chocan la suerte y la estrategia. Después de diez años, una historia completamente nueva comienza otra vez.",
+    trailer: "https://youtube.com/embed/3Z_IUAkzHyA",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3322630/1af09cd578c01c35fa6ffe1bb9747d7ed43308dc/header.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "go-go-town",
+    titulo: "GO-GO TOWN!",
+    fecha: "2026-07-16",
+    plataformas: ["SWITCH2", "SWITCH"],
+    genero: ["SIMULACION", "RELAX", "COOP", "INDIE"],
+    desarrollador: "PRIDEFUL SLOTH",
+    descripcion: "Ponte en la piel de un alcalde muy activo y crea tu ciudad desde cero. Planifica barrios, automatiza la logística y haz crecer tu comunidad mientras haces malabares con obreros, infraestructuras y el caos cotidiano de construir la ciudad de tus sueños. Juega en solitario para controlarlo todo o trae amigos para locura cooperativa. La versión 1.0 debuta en Switch y Switch 2 tras su paso por acceso anticipado.",
+    trailer: "https://youtube.com/embed/ah9Ww_xh0Ts",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "ratatan",
+    titulo: "RATATAN",
+    fecha: "2026-07-16",
+    plataformas: ["SWITCH"],
+    genero: ["MUSICA", "ACCION", "ROGUELIKE", "COOP"],
+    desarrollador: "RATATA ARTS",
+    descripcion: "Ratatan es un juego de acción roguelike rítmico que combina juegos de ritmo y acción de desplazamiento lateral con un modo cooperativo en línea para hasta 4 jugadores. Se desarrolla una intensa batalla con más de 100 personajes luchando en un combate descomunal. De los creadores de Patapon, sale del acceso anticipado y debuta en consolas.",
+    trailer: "https://youtube.com/embed/fUUb7-0DWe8",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "heave-ho-2",
+    titulo: "HEAVE HO 2",
+    fecha: "2026-07-16",
+    plataformas: ["SWITCH", "SWITCH2"],
+    genero: ["COOP", "INDIE", "PLATAFORMA"],
+    desarrollador: "LE CARTEL STUDIO",
+    descripcion: "¡Aquí llega Heave Ho 2, ahora en línea! La divertidísima secuela llega con una novedad, ¡y es que da igual dónde estén tus colegas! Agárrate a lo que puedas y cruza la línea de meta balanceándote.",
+    trailer: "https://youtube.com/embed/57nbZWfS8TQ",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2802740/829d9cf1b2dc94d98d2df66cf91ecec316e55802/header.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "geppy-x",
+    titulo: "70S-STYLE ROBOT ANIME GEPPY-X",
+    fecha: "2026-07-16",
+    plataformas: ["PS4", "XBOX"],
+    genero: ["SHOOTER", "ARCADE", "ANIME"],
+    desarrollador: "IMPLICIT CONVERSION",
+    descripcion: "Regresa Geppy-X: The Super Boosted Armor, el shoot'em up japonés que homenajea al anime de robots gigantes de los años 70, estructurado en episodios como una serie animada de la época. Un clásico de culto de Sega Saturn que llega por primera vez a consolas modernas.",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4571460/b270d93c70213ead93eb8be7c1431646709cd298/header_spanish.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "k-pop-idol-stories-road-to-debut",
+    titulo: "K-POP IDOL STORIES: ROAD TO DEBUT",
+    fecha: "2026-07-16",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["SIMULACION", "MUSICA", "INDIE"],
+    desarrollador: "WISAGENI STUDIO",
+    descripcion: "¡La fusión definitiva entre el K-pop y la simulación! Hazte cargo del grupo de idols de tus sueños: recluta a los talentos, programa sus actividades, elige su vestuario, planifica sus publicaciones y organiza el lanzamiento del álbum perfecto. ¿Conseguirán debutar?",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1662160/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "farlands",
+    titulo: "FARLANDS",
+    fecha: "2026-07-16",
+    plataformas: ["SWITCH", "PS5", "PS4"],
+    genero: ["SIMULACION", "RPG", "RELAX", "INDIE"],
+    desarrollador: "JANDUSOFT",
+    descripcion: "¡Enhorabuena, has comprado tu propio planeta! Una roca agrícola en el extrarradio que, por alguna razón, estaba casi regalada. Ha llegado el momento de dejar la frenética y estresante vida de la superpoblada metrópolis en pos de una vida más rural y gratificante.",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2252680/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "wreck-runners",
+    titulo: "WRECK RUNNERS",
+    fecha: "2026-07-16",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["COOP", "HORROR", "ACCION", "INDIE"],
+    desarrollador: "DISRUPTIVE GAMES",
+    descripcion: "En el Triángulo de las Bermudas nadie sobrevive solo. Seguid juntos e intentad no reíros —ni gritar— cuando las leyes de la naturaleza se vuelvan contra vosotros. Wreck Runners es un cooperativo para 4 jugadores con horror de extracción, caos físico y cooperación en torno a un único vehículo.",
+    trailer: "https://youtube.com/embed/UIoMzMEyctg",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1473960/4114e1a3adf72ebae7b43570460c78aff2cea473/header.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "looking-for-fael",
+    titulo: "LOOKING FOR FAEL",
+    fecha: "2026-07-16",
+    plataformas: ["PS5", "XBOX", "SWITCH"],
+    genero: ["AVENTURA", "INDIE", "PUZZLE"],
+    desarrollador: "SWING SWING SUBMARINE",
+    descripcion: "Hola, soy Fael... Escucha, esto va a sonar extraño, pero... creo que estoy perdido en el apartamento. Ahora mismo no sé dónde estoy. ¿Puedes venir a ayudarme? Una aventura narrativa e intimista sobre la búsqueda de un amigo.",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2521170/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "mavrix",
+    titulo: "MAVRIX BY MATT JONES",
+    fecha: "2026-07-16",
+    plataformas: ["XBOX"],
+    genero: ["DEPORTES", "SIMULACION", "ARCADE"],
+    desarrollador: "THIRD KIND GAMES",
+    descripcion: "Lo último en el mundo del MTB. Diseñado por ciclistas, para ciclistas. Domina los mandos de doble stick de MAVRIX para realizar trucos descomunales con tus amigos o compite en las clasificaciones mundiales. Supera desafíos y consigue contratos de patrocinio con marcas reales. ¿Estás preparado?",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2926900/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true

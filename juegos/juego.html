@@ -231,6 +231,14 @@
             <div>
               <span class="ficha-campo-label">FECHA DE LANZAMIENTO</span>
               <span class="ficha-campo-valor">${fechaStr}</span>
+              ${(() => {
+                const hoy = new Date(); hoy.setHours(0,0,0,0);
+                const dias = Math.round((fecha - hoy) / 86400000);
+                if (dias === 0) return `<span class="cuenta-regresiva regresiva-hoy">▸ ¡SALE HOY!</span>`;
+                if (dias === 1) return `<span class="cuenta-regresiva">▸ FALTA 1 DÍA</span>`;
+                if (dias > 1)   return `<span class="cuenta-regresiva">▸ FALTAN ${dias} DÍAS</span>`;
+                return "";
+              })()}
             </div>
             <div>
               <span class="ficha-campo-label">PLATAFORMAS</span>
