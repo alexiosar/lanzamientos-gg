@@ -77,12 +77,25 @@ function diaProximo(diasOrdenados) {
   return diasOrdenados[diasOrdenados.length - 1];
 }
 
+// ── URL COMPARTIBLE ──
+// refleja los filtros activos en la URL (sin recargar) para poder compartir el link
+function actualizarURL() {
+  const params = new URLSearchParams();
+  if (filtroActivo !== "TODAS")     params.set("plat", filtroActivo);
+  if (filtroGenero !== "TODOS")     params.set("gen", filtroGenero);
+  if (filtroTexto !== "")           params.set("q", filtroTexto);
+  if (vistaActiva !== "calendario") params.set("vista", vistaActiva);
+  const qs = params.toString();
+  history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
+}
+
 // ── FILTROS PLATAFORMA ──
 function activarFiltro(plataforma) {
   filtroActivo = plataforma;
   document.querySelectorAll(".filtro-btn-plat").forEach(b => {
     b.classList.toggle("activo", b.dataset.plat === plataforma);
   });
+  actualizarURL();
   renderCalendario();
 }
 
@@ -93,23 +106,25 @@ function generarFiltrosGenero() {
  
   const contenedor = document.getElementById("filtros-genero");
   contenedor.innerHTML = ["TODOS", ...Array.from(generos).sort()].map(g => `
-    <button class="filtro-btn ${g === 'TODOS' ? 'activo' : ''}"
+    <button class="filtro-btn ${g === filtroGenero ? 'activo' : ''}"
             data-gen="${g}"
             onclick="activarFiltroGenero('${g}')">${g}</button>
   `).join("");
 }
- 
+
  function activarFiltroGenero(genero) {
   filtroGenero = genero;
   document.querySelectorAll("#filtros-genero .filtro-btn").forEach(b => {
     b.classList.toggle("activo", b.dataset.gen === genero);
   });
+  actualizarURL();
   renderCalendario();
 }
 
 // ── BUSCADOR ──
 function buscarJuego(texto) {
   filtroTexto = texto.trim().toLowerCase();
+  actualizarURL();
   renderCalendario();
 }
 
@@ -119,6 +134,7 @@ function cambiarVista(vista) {
   document.querySelectorAll(".vista-btn").forEach(b => {
     b.classList.toggle("activo", b.dataset.vista === vista);
   });
+  actualizarURL();
   renderCalendario();
 }
 
@@ -416,8 +432,9 @@ document.addEventListener("keydown", e => {
 
 // ── INIT ──
 document.addEventListener("DOMContentLoaded", () => {
-  // leer plataforma de la URL si viene con ?plat=PS5
+  // leer filtros combinables de la URL: ?plat=PS5&gen=RPG&q=texto&vista=ranking
   const params = new URLSearchParams(window.location.search);
+
   const platURL = params.get("plat");
   if (platURL && ["PS5","PS4","XBOX","SWITCH2","SWITCH"].includes(platURL)) {
     filtroActivo = platURL;
@@ -425,6 +442,26 @@ document.addEventListener("DOMContentLoaded", () => {
       b.classList.toggle("activo", b.dataset.plat === platURL);
     });
   }
+
+  const genURL = (params.get("gen") || "").toUpperCase();
+  if (genURL && JUEGOS.some(j => j.genero.includes(genURL))) {
+    filtroGenero = genURL;
+  }
+
+  const qURL = params.get("q");
+  if (qURL) {
+    filtroTexto = qURL.trim().toLowerCase();
+    const buscador = document.getElementById("buscador");
+    if (buscador) buscador.value = qURL;
+  }
+
+  if (params.get("vista") === "ranking") {
+    vistaActiva = "ranking";
+    document.querySelectorAll(".vista-btn").forEach(b => {
+      b.classList.toggle("activo", b.dataset.vista === "ranking");
+    });
+  }
+
   generarFiltrosGenero();
   renderCalendario();
 

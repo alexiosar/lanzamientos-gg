@@ -103,7 +103,11 @@ Luego commit y deploy. No hace falta si solo se editan campos de juegos existent
 - **Indicadores por día**: `[ HOY ]` (amarillo, parpadea), `[ PRÓXIMO ]` (el primer día
   con lanzamientos después de hoy) y `[ YA DISPONIBLE ]` (verde, días pasados).
 - **Filtros por plataforma y género** (los de género se generan automáticamente desde los
-  datos). La plataforma también se puede fijar por URL: `index.html?plat=PS5`.
+  datos).
+- **URLs compartibles**: todos los filtros se reflejan en la URL y se pueden combinar —
+  `?plat=PS5&gen=RPG&q=texto&vista=ranking`. Al cambiar un filtro la URL se actualiza sola
+  (sin recargar), así cualquier vista se comparte copiando la barra de direcciones. Los
+  parámetros inválidos se ignoran sin romper nada.
 - **Buscador por nombre**: filtra en vivo y abre todos los meses mientras se busca.
 - **Vista ★ RANKING**: selector "VISTA" arriba de los filtros; lista los juegos con puntaje
   de Metacritic ordenados de mejor a peor. Respeta los filtros de plataforma/género y el
@@ -165,7 +169,6 @@ y abrir http://localhost:8080
   Mistfall Hunter (29), Xenoblade Chronicles 2 Switch 2 (30), The Relic: First Guardian (31).
 - Noticias en más juegos (hoy tienen 21 de 85).
 - Botón "agendar" (.ics) por juego.
-- Filtros combinables en la URL (`?plat=PS5&gen=RPG`) para links compartibles.
 - Accesibilidad: tamaño de fuente base, objetivos táctiles, `prefers-reduced-motion`.
 - Sección de noticias general (`/noticias.html`) agregando las noticias de todos los juegos.
 - Analytics de Cloudflare (gratis, sin cookies) y PWA instalable (manifest.json).
