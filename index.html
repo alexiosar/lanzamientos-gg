@@ -91,8 +91,8 @@
 
   <footer class="site-footer">
     <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
-      <span>LANZAMIENTOS.LAT &copy; 2025</span>
-      <span>DATOS: IGDB.COM <span class="cursor"></span></span>
+      <span>LANZAMIENTOS.LAT &copy; 2026</span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC <span class="cursor"></span></span>
     </div>
   </footer>
 
@@ -119,13 +119,23 @@
       localStorage.setItem("tema", claro ? "claro" : "oscuro");
     }
 
-  // recordar preferencia del usuario
-    if (localStorage.getItem("tema") === "claro") {
-      document.documentElement.classList.add("tema-claro");
-      document.addEventListener("DOMContentLoaded", () => {
-        document.getElementById("btn-tema").textContent = "☀";
+    function aplicarTema(claro) {
+      document.documentElement.classList.toggle("tema-claro", claro);
+      const btn = document.getElementById("btn-tema");
+      if (btn) btn.textContent = claro ? "☀" : "☾";
+      else document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
       });
     }
+
+    // sin preferencia guardada se sigue al sistema (cambia solo de día/noche);
+    // si el usuario tocó el botón alguna vez, su elección manda
+    const temaGuardado = localStorage.getItem("tema");
+    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
+    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
+    sistemaClaro.addEventListener("change", e => {
+      if (!localStorage.getItem("tema")) aplicarTema(e.matches);
+    });
   </script>
 </body>
 </html>

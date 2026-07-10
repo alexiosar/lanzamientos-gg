@@ -24,9 +24,9 @@
   --font: 'Share Tech Mono', monospace;
 }
 
-/* TEMA CLARO */
+/* TEMA CLARO (blanco puro, estilo X) */
 :root.tema-claro {
-  --negro: #f0f0f0;
+  --negro: #ffffff;
   --blanco: #111111;
   --acento: #3333cc;
   --acento-dim: #5555aa;
@@ -37,12 +37,12 @@
   --ps4: #2a44aa;
   --switch-old: #b35510;
   --amarillo: #9a6d00;
-  --gris-1: #e0e0e0;
-  --gris-2: #cccccc;
-  --gris-3: #bbbbbb;
-  --gris-4: #999999;
-  --gris-5: #777777;
-  --gris-6: #555555;
+  --gris-1: #f7f7f7;
+  --gris-2: #eaeaea;
+  --gris-3: #d8d8d8;
+  --gris-4: #b0b0b0;
+  --gris-5: #8a8a8a;
+  --gris-6: #666666;
   --gris-7: #333333;
 }
 

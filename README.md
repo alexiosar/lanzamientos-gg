@@ -110,9 +110,11 @@ Luego commit y deploy. No hace falta si solo se editan campos de juegos existent
 - **Ficha individual** (`juegos/juego.html?id=...`): igual que la desplegable más la sección
   **ÚLTIMAS NOVEDADES** (noticias del juego) y el trailer embebido.
 - **Badge de Metacritic** con color según puntaje: verde ≥ 75, amarillo 50–74, rojo < 50.
-- **Tema oscuro/claro**: botón ☾/☀ en la esquina superior derecha. La preferencia se guarda
-  en localStorage y aplica en todas las páginas. El tema claro tiene su propia paleta de
-  acentos (colores oscurecidos para que se lean sobre fondo claro).
+- **Tema oscuro/claro**: botón ☾/☀ en la esquina superior derecha. Si el usuario nunca tocó
+  el botón, el sitio sigue el modo del sistema operativo (como X: cambia solo de día/noche
+  si el sistema tiene apariencia automática); al tocar el botón, esa elección se guarda en
+  localStorage y manda sobre el sistema. El tema claro es blanco puro con su propia paleta
+  de acentos oscurecidos para mantener el contraste.
 - **★ NUEVO**: marca juegos recién agregados al calendario, pero solo se muestra si el juego
   todavía no salió (en los ya disponibles se apaga sola).
 
