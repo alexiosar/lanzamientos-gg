@@ -506,6 +506,15 @@ a:hover { color: var(--blanco); }
   gap: 0.5rem;
 }
 
+.footer-links a {
+  color: var(--gris-4);
+  letter-spacing: 1px;
+}
+
+.footer-links a:hover {
+  color: var(--acento);
+}
+
 .cursor {
   display: inline-block;
   width: 9px;
@@ -553,6 +562,46 @@ a:hover { color: var(--blanco); }
 .buscador:focus {
   outline: none;
   border-color: var(--acento);
+}
+
+/* ── PRÓXIMOS 7 DÍAS ── */
+.proximos {
+  border: 1px solid var(--gris-3);
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.proximos-header {
+  color: var(--amarillo);
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 0.75rem;
+}
+
+.proximos-fila {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 4px 0.5rem;
+  border-left: 2px solid transparent;
+  transition: all 0.1s;
+  flex-wrap: wrap;
+  color: inherit;
+}
+
+.proximos-fila:hover {
+  border-left-color: var(--acento);
+  background: rgba(160, 160, 255, 0.05);
+  color: inherit;
+}
+
+.proximos-fila:hover .juego-nombre { color: var(--acento); }
+
+.proximos-dia {
+  color: var(--gris-5);
+  font-size: 10px;
+  letter-spacing: 1px;
+  min-width: 52px;
 }
 
 /* ── CUENTA REGRESIVA ── */

@@ -8,6 +8,24 @@
   </url>
 
   <url>
+    <loc>https://lanzamientos.lat/acerca.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/privacidad.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/terminos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
     <loc>https://lanzamientos.lat/juegos/juego.html?id=the-necromancers-tale</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

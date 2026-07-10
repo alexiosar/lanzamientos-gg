@@ -1019,6 +1019,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: null,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
+noticias: [
+      {
+        fecha: "2026-07-10",
+        titulo: "LAS PREVIEWS FINALES SON MUY POSITIVAS",
+        texto: "Tras el Splatoon Raiders Direct, la prensa elogia el spin-off: shooter de plataformas en tercera persona con estructura roguelite, caza de tesoros junto al trío Deep Cut y cooperativo para hasta 4 jugadores. Varios críticos creen que la saga por fin encontró su potencial para un jugador."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1184,6 +1191,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
+noticias: [
+      {
+        fecha: "2026-06-07",
+        titulo: "TRES MISIONES NUEVAS Y DEMO DE 28 MINUTOS",
+        texto: "En el Xbox Games Showcase se presentó la operación METEORITE: tres misiones inéditas ambientadas un año antes de Combat Evolved, protagonizadas por el Jefe Maestro y el sargento Johnson, junto a una demo extensa del clásico Assault on the Control Room."
+      }
+    ],
     gamepass: true,
     psplus: false,
     nuevo: true
@@ -1214,6 +1228,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/bc1exw4vjtM",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-10",
+        titulo: "DAY ONE EN GAME PASS, SIN PS PLUS",
+        texto: "El RPG de extracción de Bellring Games llega día uno a Game Pass, con crossplay y cooperativo. En PS5 no estará incluido en PS Plus al lanzamiento."
+      }
+    ],
     gamepass: true,
     psplus: false,
     nuevo: true
@@ -1259,6 +1280,13 @@ const JUEGOS = [
     trailer: null,
     metacritic: null,
     imagen: "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_XenobladeChronicles2_image500w.jpg",
+noticias: [
+      {
+        fecha: "2026-07-10",
+        titulo: "4K, 60 FPS Y UN BLADE NUEVO EN SWITCH 2",
+        texto: "La edición de Switch 2 corre a 4K en TV y Full HD en portátil, a 60 cuadros por segundo. Suma un Blade raro nuevo con misión propia, un modo de batalla de acción para comandar Blades directamente y equipamiento exclusivo para Pyra y Mythra. La edición física llega el 1 de octubre."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true

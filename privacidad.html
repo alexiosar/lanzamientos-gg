@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Política de privacidad de LANZAMIENTOS.LAT.">
+  <title>PRIVACIDAD — LANZAMIENTOS.LAT</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .pagina-texto   { max-width: 720px; margin: 0 auto; padding: 1rem 0 2rem; }
+    .pagina-titulo  { font-size: 20px; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.5rem; }
+    .actualizado    { font-size: 11px; color: var(--gris-5); letter-spacing: 1px; margin-bottom: 1.5rem; }
+    .seccion        { margin-bottom: 2rem; border-top: 1px solid var(--gris-2); padding-top: 1rem; }
+    .seccion-titulo { font-size: 11px; color: var(--gris-5); letter-spacing: 3px; margin-bottom: 0.75rem; }
+    .seccion p      { color: var(--gris-7); font-size: 13px; line-height: 1.9; margin-bottom: 0.75rem; }
+    .volver         { display: inline-block; font-size: 11px; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .volver:hover   { color: var(--acento); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor">
+      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
+      <a href="index.html" class="site-logo">LANZAMIENTOS.LAT</a>
+      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
+      <nav class="nav">
+        <a href="index.html">INICIO</a>
+        <a href="index.html?plat=PS5">PS5</a>
+        <a href="index.html?plat=XBOX">XBOX</a>
+        <a href="index.html?plat=SWITCH2">SWITCH 2</a>
+        <a href="index.html?plat=SWITCH">SWITCH</a>
+        <a href="index.html?plat=PS4">PS4</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <div class="pagina-texto">
+      <a href="index.html" class="volver">◀ VOLVER AL CALENDARIO</a>
+      <h1 class="pagina-titulo">POLÍTICA DE PRIVACIDAD</h1>
+      <div class="actualizado">ÚLTIMA ACTUALIZACIÓN: 10 JULIO 2026</div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">LO ESENCIAL</div>
+        <p>LANZAMIENTOS.LAT no pide registro, no tiene cuentas de usuario, no recopila datos personales, no usa cookies propias y no muestra publicidad. Podés navegar todo el sitio sin entregar ningún dato.</p>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">PREFERENCIA DE TEMA</div>
+        <p>Si elegís el tema claro u oscuro con el botón del sitio, esa preferencia se guarda en el almacenamiento local (localStorage) de tu navegador. Ese dato nunca sale de tu dispositivo y podés borrarlo limpiando los datos de navegación.</p>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">CONTENIDO DE TERCEROS</div>
+        <p>Los trailers están embebidos desde YouTube: al reproducir un video, YouTube (Google) puede establecer cookies y recopilar datos según su propia política de privacidad.</p>
+        <p>Las carátulas de los juegos se cargan desde los servidores de Steam (Valve) y Nintendo. Al cargarse una imagen, esos servidores reciben tu dirección IP, como ocurre con cualquier contenido servido desde internet.</p>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">ALOJAMIENTO</div>
+        <p>El sitio está alojado en Cloudflare, que puede registrar datos técnicos (como direcciones IP) en sus registros de servidor para operar y proteger el servicio, según su propia política de privacidad.</p>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">CAMBIOS</div>
+        <p>Si esta política cambia (por ejemplo, si algún día se incorporan estadísticas de visitas o publicidad), se actualizará esta página y la fecha de arriba.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
+      <span>LANZAMIENTOS.LAT &copy; 2026</span>
+      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC <span class="cursor"></span></span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTema() {
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }
+    function aplicarTema(claro) {
+      document.documentElement.classList.toggle("tema-claro", claro);
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+    }
+    const temaGuardado = localStorage.getItem("tema");
+    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
+    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
+    sistemaClaro.addEventListener("change", e => {
+      if (!localStorage.getItem("tema")) aplicarTema(e.matches);
+    });
+  </script>
+</body>
+</html>

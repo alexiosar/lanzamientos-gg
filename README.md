@@ -4,6 +4,7 @@ Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switc
 Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de build.
 
 **Dominio:** https://lanzamientos.lat
+**Contacto:** contacto@lanzamientos.lat (Email Routing de Cloudflare, reenvía a la casilla personal)
 
 ## Estructura del proyecto
 
@@ -13,6 +14,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── js/main.js                  Lógica del calendario: filtros, buscador, fichas, modal
 ├── datos/juegos.js             Base de datos: array JUEGOS con todos los lanzamientos
 ├── juegos/juego.html           Plantilla de ficha individual (+INFO), lee ?id= de la URL
+├── acerca.html                 Página "Acerca de" (qué es el sitio, fuentes, independencia)
+├── privacidad.html             Política de privacidad
+├── terminos.html               Términos de uso
 ├── scripts/generar-sitemap.py  Regenera sitemap.xml a partir de juegos.js
 ├── sitemap.xml                 Mapa del sitio para Google (generado, no editar a mano)
 ├── robots.txt                  Permite indexación y declara el sitemap
@@ -94,6 +98,8 @@ Luego commit y deploy. No hace falta si solo se editan campos de juegos existent
 
 - **Calendario agrupado por mes y día**, con desplegables. Se abre solo el mes actual
   y hace scroll automático al día de hoy (o al más próximo).
+- **Bloque "Próximos 7 días"** arriba del calendario: lista los lanzamientos de la semana
+  que viene (respeta los filtros; se oculta si no hay ninguno o en la vista ranking).
 - **Indicadores por día**: `[ HOY ]` (amarillo, parpadea), `[ PRÓXIMO ]` (el primer día
   con lanzamientos después de hoy) y `[ YA DISPONIBLE ]` (verde, días pasados).
 - **Filtros por plataforma y género** (los de género se generan automáticamente desde los
@@ -157,9 +163,8 @@ y abrir http://localhost:8080
 - eBaseball PRO SPIRIT 2026 (16 jul, PS5) quedó sin cargar: no tiene ficha en Steam.
 - Cargar la semana del 20 de julio: Splatoon Raiders (23), Halo: Campaign Evolved (28),
   Mistfall Hunter (29), Xenoblade Chronicles 2 Switch 2 (30), The Relic: First Guardian (31).
-- Noticias en más juegos (hoy tienen ~13 de 57).
-- Botón "agendar" (.ics) por juego y cuenta regresiva en las fichas.
-- Bloque destacado "Próximos 7 días" arriba del calendario.
+- Noticias en más juegos (hoy tienen 21 de 85).
+- Botón "agendar" (.ics) por juego.
 - Filtros combinables en la URL (`?plat=PS5&gen=RPG`) para links compartibles.
 - Accesibilidad: tamaño de fuente base, objetivos táctiles, `prefers-reduced-motion`.
 - Sección de noticias general (`/noticias.html`) agregando las noticias de todos los juegos.

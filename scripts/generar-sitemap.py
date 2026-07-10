@@ -22,6 +22,14 @@ urls = [f"""  <url>
     <priority>1.0</priority>
   </url>"""]
 
+# páginas estáticas
+for pagina in ["acerca.html", "privacidad.html", "terminos.html"]:
+    urls.append(f"""  <url>
+    <loc>{DOMINIO}/{pagina}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>""")
+
 for i in ids:
     urls.append(f"""  <url>
     <loc>{DOMINIO}/juegos/juego.html?id={i}</loc>

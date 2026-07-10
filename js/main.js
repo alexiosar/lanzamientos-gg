@@ -202,7 +202,33 @@ function renderCalendario() {
   const todosLosDias = mesesOrdenados.flatMap(m => Object.keys(agrupado[m])).sort();
   const proximoKey = todosLosDias.find(d => d > hoyKey) || null;
 
-  contenedor.innerHTML = mesesOrdenados.map((mesKey, idx) => {
+  // bloque PRÓXIMOS 7 DÍAS (lanzamientos entre mañana y dentro de una semana)
+  const en7 = parseFecha(hoyKey);
+  en7.setDate(en7.getDate() + 7);
+  const limite7 = `${en7.getFullYear()}-${String(en7.getMonth() + 1).padStart(2, "0")}-${String(en7.getDate()).padStart(2, "0")}`;
+  const proximos7 = juegos
+    .filter(j => j.fecha > hoyKey && j.fecha <= limite7)
+    .sort((a, b) => a.fecha.localeCompare(b.fecha));
+
+  const proximosHtml = proximos7.length ? `
+    <div class="proximos">
+      <div class="proximos-header">▸ PRÓXIMOS 7 DÍAS</div>
+      ${proximos7.map(j => {
+        const f = parseFecha(j.fecha);
+        const dia = `${DIAS_ES[f.getDay()]} ${String(f.getDate()).padStart(2, "0")}`;
+        const plats = j.plataformas.map(p =>
+          `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`
+        ).join("");
+        return `
+        <a class="proximos-fila" href="juegos/juego.html?id=${j.id}">
+          <span class="proximos-dia">${dia}</span>
+          <span class="juego-nombre">${j.titulo}</span>
+          <div class="plataformas">${plats}</div>
+        </a>`;
+      }).join("")}
+    </div>` : "";
+
+  contenedor.innerHTML = proximosHtml + mesesOrdenados.map((mesKey, idx) => {
     const [year, month] = mesKey.split("-").map(Number);
     const nombreMes = `${MESES_ES[month - 1]} ${year}`;
     const diasOrdenados = Object.keys(agrupado[mesKey]).sort();
