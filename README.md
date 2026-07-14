@@ -67,6 +67,11 @@ si están en `null` o ausentes — no rompen nada.
   (`store.steampowered.com/api/appdetails?appids=NUMERO&l=spanish`).
 - **Carátulas**: CDN de Steam (ver abajo) o, para exclusivos de Nintendo, la API de búsqueda
   de la eShop europea (`searching.nintendo-europe.com`, campo `image_url_sq_s`).
+- **Trailers**: búsqueda en YouTube (`youtube.com/results?search_query=NOMBRE+official+trailer`
+  responde a peticiones con User-Agent de navegador; el primer resultado está en el JSON
+  embebido como `videoRenderer`). Validar siempre que el título del video corresponda al
+  juego antes de cargar el ID. Los videos de Steam ya no sirven: son streaming DASH/HLS,
+  no reproducibles en un iframe.
 - **Puntajes**: Metacritic (solo puntajes reales de Metacritic, no OpenCritic). Las páginas
   `metacritic.com/game/SLUG/` responden a peticiones con User-Agent de navegador; el
   Metascore está en el campo `"ratingValue"` del JSON-LD embebido. Los indies chicos suelen
@@ -115,6 +120,11 @@ Luego commit y deploy. No hace falta si solo se editan campos de juegos existent
 - **Cuenta regresiva**: en las fichas de juegos futuros, debajo de la fecha
   (`▸ FALTAN X DÍAS`, `▸ FALTA 1 DÍA`, `▸ ¡SALE HOY!` parpadeante). Se oculta en los
   ya lanzados. Funciona en la ficha desplegable y en la página +INFO.
+- **Botón ◷ AGENDAR**: en juegos futuros, descarga un archivo .ics (evento de día completo)
+  para agendar el lanzamiento en Google Calendar / Apple Calendar / Outlook. Se genera
+  en el navegador, sin backend. Desaparece cuando el juego ya salió.
+- **PWA instalable**: `manifest.json` + íconos (192/512). En el celular se puede "Agregar
+  a la pantalla de inicio" y el sitio abre como app, a pantalla completa y con su ícono.
 - **Ficha desplegable** al hacer clic en un juego: carátula, datos, Metacritic, descripción,
   tags, trailer en modal y link a la ficha completa.
 - **Ficha individual** (`juegos/juego.html?id=...`): igual que la desplegable más la sección
@@ -167,10 +177,10 @@ y abrir http://localhost:8080
 - eBaseball PRO SPIRIT 2026 (16 jul, PS5) quedó sin cargar: no tiene ficha en Steam.
 - Cargar la semana del 20 de julio: Splatoon Raiders (23), Halo: Campaign Evolved (28),
   Mistfall Hunter (29), Xenoblade Chronicles 2 Switch 2 (30), The Relic: First Guardian (31).
-- Noticias en más juegos (hoy tienen 21 de 85).
-- Botón "agendar" (.ics) por juego.
+- Noticias en más juegos (hoy tienen 22 de 126).
+- Analytics de Cloudflare (descartado por ahora: con Search Console alcanza; retomar si
+  hace falta medir visitas totales, no solo tráfico desde Google).
 - Accesibilidad: tamaño de fuente base, objetivos táctiles, `prefers-reduced-motion`.
 - Sección de noticias general (`/noticias.html`) agregando las noticias de todos los juegos.
-- Analytics de Cloudflare (gratis, sin cookies) y PWA instalable (manifest.json).
 - Si algún día se cargan datos desde una API externa: escapar HTML antes de inyectar
   con `innerHTML` (hoy no hace falta porque los datos son propios).

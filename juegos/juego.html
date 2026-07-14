@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LANZAMIENTOS.LAT</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <link rel="apple-touch-icon" href="/icon-192.png">
 
   <!-- Open Graph genérico (los scrapers de redes no ejecutan JS, ven siempre esto) -->
   <meta property="og:type" content="website">
@@ -123,6 +126,40 @@
       if (n >= 75) return "meta-alto";
       if (n >= 50) return "meta-medio";
       return "meta-bajo";
+    }
+
+    // genera un evento de calendario (.ics) de día completo y lo descarga
+    function agendarJuego(id) {
+      const j = JUEGOS.find(x => x.id === id);
+      if (!j) return;
+      const [y, m, d] = j.fecha.split("-").map(Number);
+      const inicio = j.fecha.replace(/-/g, "");
+      const fin = new Date(y, m - 1, d + 1);
+      const finStr = `${fin.getFullYear()}${String(fin.getMonth() + 1).padStart(2, "0")}${String(fin.getDate()).padStart(2, "0")}`;
+      const ahora = new Date().toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+      const esc = t => t.replace(/\\/g, "\\\\").replace(/[,;]/g, s => "\\" + s);
+      const etiqueta = p => p === "SWITCH2" ? "SWITCH 2" : p;
+      const ics = [
+        "BEGIN:VCALENDAR", "VERSION:2.0",
+        "PRODID:-//lanzamientos.lat//Calendario de Videojuegos//ES",
+        "BEGIN:VEVENT",
+        `UID:${j.id}@lanzamientos.lat`,
+        `DTSTAMP:${ahora}`,
+        `DTSTART;VALUE=DATE:${inicio}`,
+        `DTEND;VALUE=DATE:${finStr}`,
+        `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/juego.html?id=${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/juego.html?id=${j.id}`,
+        "END:VEVENT", "END:VCALENDAR"
+      ].join("\r\n");
+      const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `${j.id}.ics`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(a.href);
     }
 
     function renderError() {
@@ -267,6 +304,8 @@
               <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
             </div>` : ""}
           </div>
+          ${(() => { const hoy = new Date(); hoy.setHours(0,0,0,0); return (fecha - hoy) > 0
+            ? `<div style="margin-top:1rem;"><button class="btn-trailer" onclick="agendarJuego('${j.id}')">◷ AGENDAR LANZAMIENTO</button></div>` : ""; })()}
         </div>
           </div>
         </div>

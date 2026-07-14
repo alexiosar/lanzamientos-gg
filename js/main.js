@@ -42,6 +42,46 @@ function diasHasta(fechaStr) {
   return Math.round((parseFecha(fechaStr) - hoy) / 86400000);
 }
 
+// ── AGENDAR (.ics) ──
+// genera un evento de calendario de día completo y lo descarga
+function agendarJuego(id, e) {
+  if (e) e.stopPropagation();
+  const j = JUEGOS.find(x => x.id === id);
+  if (!j) return;
+
+  const inicio = j.fecha.replace(/-/g, "");
+  const fin = parseFecha(j.fecha);
+  fin.setDate(fin.getDate() + 1);
+  const finStr = `${fin.getFullYear()}${String(fin.getMonth() + 1).padStart(2, "0")}${String(fin.getDate()).padStart(2, "0")}`;
+  const ahora = new Date().toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+  const esc = t => t.replace(/\\/g, "\\\\").replace(/[,;]/g, m => "\\" + m);
+
+  const ics = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//lanzamientos.lat//Calendario de Videojuegos//ES",
+    "BEGIN:VEVENT",
+    `UID:${j.id}@lanzamientos.lat`,
+    `DTSTAMP:${ahora}`,
+    `DTSTART;VALUE=DATE:${inicio}`,
+    `DTEND;VALUE=DATE:${finStr}`,
+    `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
+    `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(plataformaLabel).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/juego.html?id=${j.id}`)}`,
+    `URL:https://lanzamientos.lat/juegos/juego.html?id=${j.id}`,
+    "END:VEVENT",
+    "END:VCALENDAR"
+  ].join("\r\n");
+
+  const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `${j.id}.ics`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(a.href);
+}
+
 function cuentaRegresivaHtml(fechaStr) {
   const dias = diasHasta(fechaStr);
   if (dias === 0) return `<span class="cuenta-regresiva regresiva-hoy">▸ ¡SALE HOY!</span>`;
@@ -339,6 +379,7 @@ function renderCalendario() {
             <div class="ficha-tags">${tagsHtml}</div>
             <div class="ficha-acciones">
               ${j.trailer ? `<button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>` : ""}
+              ${diasHasta(j.fecha) > 0 ? `<button class="btn-trailer" onclick="agendarJuego('${j.id}', event)">◷ AGENDAR</button>` : ""}
               <a href="juegos/juego.html?id=${j.id}" class="btn-trailer">+ INFO</a>
             </div>
           </div>
@@ -416,7 +457,9 @@ function abrirTrailer(id, e) {
   const juego = JUEGOS.find(j => j.id === id);
   if (!juego) return;
   document.getElementById("modal-titulo").textContent = juego.titulo;
-  document.getElementById("modal-iframe").src = juego.trailer + "?autoplay=1";
+  // autoplay solo aplica a embeds de YouTube; los videos de Steam (mp4) se cargan directo
+  const esYoutube = juego.trailer.includes("youtube");
+  document.getElementById("modal-iframe").src = esYoutube ? juego.trailer + "?autoplay=1" : juego.trailer;
   document.getElementById("modal-overlay").classList.add("visible");
 }
 
