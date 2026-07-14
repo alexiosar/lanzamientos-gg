@@ -125,6 +125,12 @@ Luego commit y deploy. No hace falta si solo se editan campos de juegos existent
   en el navegador, sin backend. Desaparece cuando el juego ya salió.
 - **PWA instalable**: `manifest.json` + íconos (192/512). En el celular se puede "Agregar
   a la pantalla de inicio" y el sitio abre como app, a pantalla completa y con su ícono.
+- **Accesibilidad**: tipografía en unidades relativas (base 14px, mínimo 11px — escala si
+  el usuario agranda la letra del navegador); navegación completa por teclado (Tab llega a
+  filas de juegos y meses, Enter/Espacio los abre, Escape cierra el modal, foco visible);
+  se respeta "reducir movimiento" del sistema (sin parpadeos); botones más grandes en móvil.
+- **Analytics**: Cloudflare Web Analytics activado desde el panel (inyección automática,
+  sin cookies). Métricas de visitas en Cloudflare → Analytics & Logs → Web Analytics.
 - **Ficha desplegable** al hacer clic en un juego: carátula, datos, Metacritic, descripción,
   tags, trailer en modal y link a la ficha completa.
 - **Ficha individual** (`juegos/juego.html?id=...`): igual que la desplegable más la sección
@@ -178,9 +184,8 @@ y abrir http://localhost:8080
 - Cargar la semana del 20 de julio: Splatoon Raiders (23), Halo: Campaign Evolved (28),
   Mistfall Hunter (29), Xenoblade Chronicles 2 Switch 2 (30), The Relic: First Guardian (31).
 - Noticias en más juegos (hoy tienen 22 de 126).
-- Analytics de Cloudflare (descartado por ahora: con Search Console alcanza; retomar si
-  hace falta medir visitas totales, no solo tráfico desde Google).
-- Accesibilidad: tamaño de fuente base, objetivos táctiles, `prefers-reduced-motion`.
-- Sección de noticias general (`/noticias.html`) agregando las noticias de todos los juegos.
+- Novedades en la portada: bloque "Últimas novedades" con las 4-5 noticias más recientes,
+  debajo de "Próximos 7 días" (versión chica y sin riesgo de la idea de `/noticias.html`;
+  la página completa + RSS solo si el sitio crece y las noticias se cargan seguido).
 - Si algún día se cargan datos desde una API externa: escapar HTML antes de inyectar
   con `innerHTML` (hoy no hace falta porque los datos son propios).

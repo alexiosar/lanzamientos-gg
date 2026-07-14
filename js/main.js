@@ -336,7 +336,7 @@ function renderCalendario() {
           : "";
 
         return `
-          <div class="juego-fila" id="fila-${j.id}" onclick="toggleFicha('${j.id}')">
+          <div class="juego-fila" id="fila-${j.id}" tabindex="0" role="button" aria-label="Ver ficha de ${j.titulo}" onclick="toggleFicha('${j.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFicha('${j.id}');}">
             <span class="juego-nombre">${j.titulo}</span>
             <div class="plataformas">${platsHtml}</div>
             ${nuevoHtml}
@@ -398,7 +398,7 @@ function renderCalendario() {
 
     return `
       <div class="mes" id="mes-${mesKey}">
-        <div class="mes-header" onclick="toggleMes('${mesKey}')">
+        <div class="mes-header" tabindex="0" role="button" aria-expanded="${abierto}" onclick="toggleMes('${mesKey}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleMes('${mesKey}');}">
           <span class="mes-arrow ${abierto ? 'abierto' : ''}" id="arrow-${mesKey}">▶</span>
           ${nombreMes}
           <span class="mes-contador">[ ${totalJuegos} JUEGO${totalJuegos !== 1 ? "S" : ""} ]</span>
@@ -427,6 +427,8 @@ function toggleMes(mesKey) {
   const arrow = document.getElementById(`arrow-${mesKey}`);
   const abierto = contenido.classList.toggle("visible");
   arrow.classList.toggle("abierto", abierto);
+  const header = document.querySelector(`#mes-${CSS.escape(mesKey)} .mes-header`);
+  if (header) header.setAttribute("aria-expanded", abierto);
 }
 
 // ── TOGGLE FICHA ──
@@ -510,5 +512,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("modal-overlay").addEventListener("click", function(e) {
     if (e.target === this) cerrarTrailer();
+  });
+
+  // cerrar el modal del trailer con Escape
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") cerrarTrailer();
   });
 });

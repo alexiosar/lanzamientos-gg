@@ -52,7 +52,7 @@ body {
   background: var(--negro);
   color: var(--blanco);
   font-family: var(--font);
-  font-size: 13px;
+  font-size: 0.875rem; /* 14px con la config por defecto; escala si el usuario agranda la letra */
   line-height: 1.6;
   min-height: 100vh;
 }
@@ -77,7 +77,7 @@ a:hover { color: var(--blanco); }
 
 .site-logo {
   display: block;
-  font-size: 26px;
+  font-size: 1.625rem;
   color: var(--blanco);
   letter-spacing: 5px;
   text-align: center;
@@ -88,7 +88,7 @@ a:hover { color: var(--blanco); }
   display: block;
   text-align: center;
   color: var(--acento-dim);
-  font-size: 11px;
+  font-size: 0.6875rem;
   letter-spacing: 2px;
   margin-bottom: 1rem;
 }
@@ -103,7 +103,7 @@ a:hover { color: var(--blanco); }
 
 .nav a {
   color: var(--acento);
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 1px;
   transition: color 0.1s;
 }
@@ -122,7 +122,7 @@ a:hover { color: var(--blanco); }
   border: 1px solid var(--gris-4);
   color: var(--gris-6);
   font-family: var(--font);
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1;
   padding: 0;
   cursor: pointer;
@@ -140,7 +140,7 @@ a:hover { color: var(--blanco); }
 }
 
 .filtros-label {
-  font-size: 11px;
+  font-size: 0.6875rem;
   color: var(--gris-5);
   letter-spacing: 2px;
   margin-bottom: 0.5rem;
@@ -157,7 +157,7 @@ a:hover { color: var(--blanco); }
   background: none;
   color: var(--gris-6);
   font-family: var(--font);
-  font-size: 11px;
+  font-size: 0.6875rem;
   padding: 3px 12px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -184,7 +184,7 @@ a:hover { color: var(--blanco); }
   align-items: center;
   gap: 0.75rem;
   color: var(--acento);
-  font-size: 14px;
+  font-size: 0.875rem;
   letter-spacing: 3px;
   margin-bottom: 1rem;
   cursor: pointer;
@@ -197,7 +197,7 @@ a:hover { color: var(--blanco); }
 .mes-header:hover { color: var(--blanco); }
 
 .mes-arrow {
-  font-size: 10px;
+  font-size: 0.6875rem;
   transition: transform 0.2s;
   display: inline-block;
 }
@@ -205,7 +205,7 @@ a:hover { color: var(--blanco); }
 .mes-arrow.abierto { transform: rotate(90deg); }
 
 .mes-contador {
-  font-size: 10px;
+  font-size: 0.6875rem;
   color: var(--gris-5);
   letter-spacing: 1px;
   margin-left: auto;
@@ -227,7 +227,7 @@ a:hover { color: var(--blanco); }
 }
 
 .dia-label {
-  font-size: 11px;
+  font-size: 0.6875rem;
   color: var(--gris-5);
   letter-spacing: 2px;
   margin-bottom: 0.5rem;
@@ -262,7 +262,7 @@ a:hover { color: var(--blanco); }
 
 .juego-nombre {
   color: var(--blanco);
-  font-size: 13px;
+  font-size: 0.8125rem;
   letter-spacing: 1px;
   flex: 1;
   min-width: 160px;
@@ -280,7 +280,7 @@ a:hover { color: var(--blanco); }
 }
 
 .plat {
-  font-size: 10px;
+  font-size: 0.6875rem;
   padding: 1px 7px;
   letter-spacing: 1px;
   border: 1px solid;
@@ -294,7 +294,7 @@ a:hover { color: var(--blanco); }
 .plat-MULTI   { border-color: var(--multi);  color: var(--multi); }
 
 .juego-nuevo {
-  font-size: 10px;
+  font-size: 0.6875rem;
   color: var(--amarillo);
   letter-spacing: 1px;
   animation: parpadeo 1.2s step-end infinite;
@@ -321,13 +321,13 @@ a:hover { color: var(--blanco); }
 
 .ficha-titulo {
   color: var(--blanco);
-  font-size: 15px;
+  font-size: 0.9375rem;
   letter-spacing: 2px;
 }
 
 .ficha-cerrar {
   color: var(--gris-5);
-  font-size: 11px;
+  font-size: 0.6875rem;
   cursor: pointer;
   letter-spacing: 1px;
   white-space: nowrap;
@@ -370,7 +370,7 @@ a:hover { color: var(--blanco); }
 }
 
 .ficha-campo-label {
-  font-size: 10px;
+  font-size: 0.6875rem;
   color: var(--gris-5);
   letter-spacing: 2px;
   display: block;
@@ -378,14 +378,14 @@ a:hover { color: var(--blanco); }
 }
 
 .ficha-campo-valor {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--acento);
   letter-spacing: 1px;
 }
 
 .ficha-descripcion {
   color: var(--gris-7);
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.9;
   margin-bottom: 1rem;
   border-left: 2px solid var(--gris-3);
@@ -402,7 +402,7 @@ a:hover { color: var(--blanco); }
 .tag {
   border: 1px solid var(--gris-4);
   color: var(--gris-6);
-  font-size: 10px;
+  font-size: 0.6875rem;
   padding: 2px 8px;
   letter-spacing: 1px;
 }
@@ -422,7 +422,7 @@ a:hover { color: var(--blanco); }
   color: var(--acento);
   background: none;
   font-family: var(--font);
-  font-size: 11px;
+  font-size: 0.6875rem;
   padding: 5px 16px;
   cursor: pointer;
   letter-spacing: 2px;
@@ -463,13 +463,13 @@ a:hover { color: var(--blanco); }
 
 .modal-titulo {
   color: var(--acento);
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 2px;
 }
 
 .modal-cerrar {
   color: var(--gris-5);
-  font-size: 12px;
+  font-size: 0.75rem;
   cursor: pointer;
   letter-spacing: 1px;
 }
@@ -500,7 +500,7 @@ a:hover { color: var(--blanco); }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 11px;
+  font-size: 0.6875rem;
   color: var(--gris-4);
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -531,10 +531,33 @@ a:hover { color: var(--blanco); }
   50%       { opacity: 0; }
 }
 
+/* ── ACCESIBILIDAD ── */
+/* foco visible para navegación por teclado */
+.juego-fila:focus-visible,
+.mes-header:focus-visible,
+.filtro-btn:focus-visible,
+.btn-trailer:focus-visible,
+.btn-tema:focus-visible,
+.buscador:focus-visible,
+.ranking-fila:focus-visible,
+.proximos-fila:focus-visible {
+  outline: 2px solid var(--acento);
+  outline-offset: 2px;
+}
+
+/* respetar "reducir movimiento" del sistema: sin parpadeos ni animaciones */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  html { scroll-behavior: auto; }
+}
+
 /* ── VACIO ── */
 .sin-resultados {
   color: var(--gris-5);
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 1px;
   padding: 1rem;
   border: 1px dashed var(--gris-3);
@@ -549,7 +572,7 @@ a:hover { color: var(--blanco); }
   border: 1px solid var(--gris-4);
   color: var(--blanco);
   font-family: var(--font);
-  font-size: 12px;
+  font-size: 0.75rem;
   padding: 5px 12px;
   letter-spacing: 1px;
   transition: border-color 0.1s;
@@ -573,7 +596,7 @@ a:hover { color: var(--blanco); }
 
 .proximos-header {
   color: var(--amarillo);
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 3px;
   margin-bottom: 0.75rem;
 }
@@ -599,7 +622,7 @@ a:hover { color: var(--blanco); }
 
 .proximos-dia {
   color: var(--gris-5);
-  font-size: 10px;
+  font-size: 0.6875rem;
   letter-spacing: 1px;
   min-width: 52px;
 }
@@ -608,7 +631,7 @@ a:hover { color: var(--blanco); }
 .cuenta-regresiva {
   display: block;
   color: var(--amarillo);
-  font-size: 10px;
+  font-size: 0.6875rem;
   letter-spacing: 1px;
   margin-top: 3px;
 }
@@ -623,7 +646,7 @@ a:hover { color: var(--blanco); }
   align-items: center;
   gap: 0.75rem;
   color: var(--acento);
-  font-size: 14px;
+  font-size: 0.875rem;
   letter-spacing: 3px;
   margin-bottom: 1rem;
   border-bottom: 1px solid var(--gris-2);
@@ -652,21 +675,21 @@ a:hover { color: var(--blanco); }
 
 .ranking-pos {
   color: var(--acento-dim);
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 1px;
   min-width: 34px;
 }
 
 .ranking-fecha {
   color: var(--gris-5);
-  font-size: 10px;
+  font-size: 0.6875rem;
   letter-spacing: 1px;
 }
 
 /* ── METACRITIC ── */
 .badge-metacritic {
   display: inline-block;
-  font-size: 12px;
+  font-size: 0.75rem;
   padding: 1px 8px;
   letter-spacing: 1px;
   border: 1px solid;
@@ -683,20 +706,20 @@ a:hover { color: var(--blanco); }
 
 .dia-label .dia-hoy {
   color: var(--amarillo);
-  font-size: 10px;
+  font-size: 0.6875rem;
   letter-spacing: 1px;
   animation: parpadeo 1.2s step-end infinite;
 }
 
 .dia-label .dia-proximo {
   color: var(--acento);
-  font-size: 10px;
+  font-size: 0.6875rem;
   letter-spacing: 1px;
 }
 
 .dia-label .dia-disponible {
   color: var(--xbox);
-  font-size: 10px;
+  font-size: 0.6875rem;
   letter-spacing: 1px;
 }
 
@@ -706,11 +729,19 @@ a:hover { color: var(--blanco); }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 600px) {
-  .site-logo { font-size: 18px; letter-spacing: 3px; }
+  .site-logo { font-size: 1.125rem; letter-spacing: 3px; }
   .nav { gap: 1rem; }
   .ficha-meta { gap: 1rem; }
-  .ficha-titulo { font-size: 13px; }
-  .juego-nombre { font-size: 12px; }
+  .ficha-titulo { font-size: 0.8125rem; }
+  .juego-nombre { font-size: 0.75rem; }
   .ficha-cuerpo { flex-direction: column; }
   .ficha-portada { width: 100px; }
+
+  /* objetivos táctiles más grandes en pantallas chicas */
+  .filtro-btn { padding: 10px 14px; }
+  .btn-trailer { padding: 10px 16px; }
+  .btn-tema { width: 40px; height: 40px; }
+  .juego-fila { padding-top: 10px; padding-bottom: 10px; }
+  .buscador { padding: 10px 12px; }
+  .nav a { padding: 6px 2px; display: inline-block; }
 }

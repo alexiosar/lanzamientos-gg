@@ -140,6 +140,11 @@
     sistemaClaro.addEventListener("change", e => {
       if (!localStorage.getItem("tema")) aplicarTema(e.matches);
     });
+
+    // service worker de la PWA (solo red, sin caché): habilita la instalación en Android
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js");
+    }
   </script>
 </body>
 </html>

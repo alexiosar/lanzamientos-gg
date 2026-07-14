@@ -682,6 +682,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/OYNqetlubUw",
     metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2697940/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-13",
+        titulo: "DEBUT CON 82 EN METACRITIC",
+        texto: "El roguelike de control temporal sorprendió a la crítica en su estreno en Xbox."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -712,6 +719,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/LJ-uk8v76TE",
     metacritic: 76,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3237520/e817a332b4247486e43005e12413aa9f4d377003/header.jpg",
+noticias: [
+      {
+        fecha: "2026-07-13",
+        titulo: "LA EXPANSIÓN DEBUTA CON 76",
+        texto: "Last Variable extiende The Alters con buena recepción: 76 en Metacritic para el regreso de Jan y sus versiones alternativas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -742,6 +756,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/ji-sO68H1-8",
     metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782460/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-14",
+        titulo: "DEBUT CON 82 EN METACRITIC",
+        texto: "El roguelike brasileño ambientado en la guerra de Canudos llegó a consolas con excelentes críticas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -757,7 +778,14 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/1MUuSW4g0Bc",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/9e82089d034705eaa84ecb130d04ed1084ce574c/header.jpg",
-    gamepass: false,
+noticias: [
+      {
+        fecha: "2026-07-14",
+        titulo: "DAY ONE EN GAME PASS Y DEMO DISPONIBLE",
+        texto: "El plataformero de trenes llega el 15 de julio a Game Pass desde el día uno, con demo gratuita en la eShop (cuatro niveles). Lo dirige David Jaumandreu (Ninja Gaiden: Ragebound) y la banda sonora es de Tee Lopes (Sonic Mania). Trae skins de trenes de creadores invitados."
+      }
+    ],
+    gamepass: true,
     psplus: false,
     nuevo: true
   },
