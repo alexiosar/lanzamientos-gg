@@ -66,8 +66,8 @@ function agendarJuego(id, e) {
     `DTSTART;VALUE=DATE:${inicio}`,
     `DTEND;VALUE=DATE:${finStr}`,
     `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-    `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(plataformaLabel).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/juego.html?id=${j.id}`)}`,
-    `URL:https://lanzamientos.lat/juegos/juego.html?id=${j.id}`,
+    `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(plataformaLabel).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
+    `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
     "END:VEVENT",
     "END:VCALENDAR"
   ].join("\r\n");
@@ -195,7 +195,7 @@ function renderRanking(juegos) {
       `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`
     ).join("");
     return `
-      <a class="ranking-fila" href="juegos/juego.html?id=${j.id}">
+      <a class="ranking-fila" href="juegos/${j.id}.html">
         <span class="ranking-pos">#${String(i + 1).padStart(2, "0")}</span>
         <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
         <span class="juego-nombre">${j.titulo}</span>
@@ -276,7 +276,7 @@ function renderCalendario() {
           `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`
         ).join("");
         return `
-        <a class="proximos-fila" href="juegos/juego.html?id=${j.id}">
+        <a class="proximos-fila" href="juegos/${j.id}.html">
           <span class="proximos-dia">${dia}</span>
           <span class="juego-nombre">${j.titulo}</span>
           <div class="plataformas">${plats}</div>
@@ -354,6 +354,7 @@ function renderCalendario() {
                     <span class="ficha-campo-label">FECHA</span>
                     <span class="ficha-campo-valor">${diaNum} ${MESES_ES[fecha.getMonth()]} ${year}</span>
                     ${cuentaRegresivaHtml(j.fecha)}
+                    ${j.relanzamiento ? `<span class="relanzamiento">↺ ${j.relanzamiento}</span>` : ""}
                   </div>
                   <div>
                     <span class="ficha-campo-label">PLATAFORMAS</span>
@@ -380,7 +381,7 @@ function renderCalendario() {
             <div class="ficha-acciones">
               ${j.trailer ? `<button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>` : ""}
               ${diasHasta(j.fecha) > 0 ? `<button class="btn-trailer" onclick="agendarJuego('${j.id}', event)">◷ AGENDAR</button>` : ""}
-              <a href="juegos/juego.html?id=${j.id}" class="btn-trailer">+ INFO</a>
+              <a href="juegos/${j.id}.html" class="btn-trailer">+ INFO</a>
             </div>
           </div>
         `;

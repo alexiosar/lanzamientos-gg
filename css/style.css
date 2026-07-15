@@ -640,6 +640,16 @@ a:hover { color: var(--blanco); }
   animation: parpadeo 1.2s step-end infinite;
 }
 
+/* nota de relanzamiento/port: aclara dónde ya está disponible el juego */
+.relanzamiento {
+  display: block;
+  color: var(--gris-5);
+  font-size: 0.6875rem;
+  letter-spacing: 1px;
+  margin-top: 3px;
+  max-width: 260px;
+}
+
 /* ── RANKING ── */
 .ranking-header {
   display: flex;

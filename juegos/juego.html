@@ -290,6 +290,7 @@
                 if (dias > 1)   return `<span class="cuenta-regresiva">▸ FALTAN ${dias} DÍAS</span>`;
                 return "";
               })()}
+              ${j.relanzamiento ? `<span class="relanzamiento">↺ ${j.relanzamiento}</span>` : ""}
             </div>
             <div>
               <span class="ficha-campo-label">PLATAFORMAS</span>

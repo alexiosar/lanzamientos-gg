@@ -13,7 +13,10 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── css/style.css               Todos los estilos (temas oscuro y claro)
 ├── js/main.js                  Lógica del calendario: filtros, buscador, fichas, modal
 ├── datos/juegos.js             Base de datos: array JUEGOS con todos los lanzamientos
-├── juegos/juego.html           Plantilla de ficha individual (+INFO), lee ?id= de la URL
+├── juegos/{id}.html            Fichas estáticas pre-generadas (una por juego, NO editar
+│                               a mano: se regeneran con scripts/generar-fichas.py)
+├── juegos/juego.html           Ficha dinámica (?id=) — solo fallback para links viejos
+├── scripts/generar-fichas.py   Regenera las fichas estáticas desde juegos.js
 ├── acerca.html                 Página "Acerca de" (qué es el sitio, fuentes, independencia)
 ├── privacidad.html             Política de privacidad
 ├── terminos.html               Términos de uso
@@ -34,6 +37,8 @@ Editar `datos/juegos.js` y agregar un objeto al array `JUEGOS`:
   id: "nombre-del-juego",        // único, en minúsculas con guiones (se usa en la URL)
   titulo: "NOMBRE DEL JUEGO",    // en mayúsculas
   fecha: "2026-07-15",           // formato AAAA-MM-DD
+  relanzamiento: null,           // opcional: para ports/re-lanzamientos, aclara dónde ya
+                                 // está el juego, ej: "En PC desde 2024" (se muestra ↺ bajo la fecha)
   plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH", "PS4"],  // las que correspondan
   genero: ["ACCION", "RPG"],     // los filtros de género se generan solos
   desarrollador: "ESTUDIO",
@@ -89,15 +94,18 @@ si están en `null` o ausentes — no rompen nada.
 - El sitio detecta solo la orientación: las verticales se muestran a 120px y las
   horizontales más anchas (230px) para que no queden diminutas.
 
-### Después de agregar o quitar juegos
+### Después de CUALQUIER cambio en datos/juegos.js
 
-Regenerar el sitemap (necesario para el SEO):
+Regenerar las fichas estáticas y el sitemap:
 
 ```
+python3 scripts/generar-fichas.py
 python3 scripts/generar-sitemap.py
 ```
 
-Luego commit y deploy. No hace falta si solo se editan campos de juegos existentes.
+Luego commit y deploy. Las fichas estáticas (`juegos/{id}.html`) contienen los datos
+renderizados, así que **cualquier** edición de datos (noticias, puntajes, trailers)
+requiere regenerarlas. El generador también borra las fichas de juegos eliminados.
 
 ## Funcionalidades
 
@@ -149,10 +157,9 @@ Luego commit y deploy. No hace falta si solo se editan campos de juegos existent
 - Meta de verificación de Google Search Console en el `<head>` de `index.html`.
 - `sitemap.xml` con la portada + una URL por juego (regenerar con el script, ver arriba).
 - `robots.txt` que permite indexar todo y apunta al sitemap.
-- **Open Graph**: al compartir el link en WhatsApp/X/Discord aparece la tarjeta con
-  `og-image.png`. Limitación: los links a fichas individuales muestran la tarjeta genérica
-  del sitio (los scrapers de redes no ejecutan JavaScript); tarjetas por juego requerirían
-  un Worker de Cloudflare.
+- **Open Graph**: al compartir la portada aparece la tarjeta con `og-image.png`; al
+  compartir una ficha (`/juegos/{id}.html`) aparece **la carátula y datos de ese juego**
+  (las fichas son HTML estático pre-generado, los scrapers no necesitan ejecutar JS).
 - **Datos estructurados (JSON-LD)**: la portada declara `WebSite` y cada ficha inyecta
   `VideoGame` (nombre, fecha, plataformas, desarrollador, imagen) para que Google entienda
   el contenido. Ojo: el test de rich results de Google muestra "0 elementos" porque

@@ -32,7 +32,7 @@ for pagina in ["acerca.html", "privacidad.html", "terminos.html"]:
 
 for i in ids:
     urls.append(f"""  <url>
-    <loc>{DOMINIO}/juegos/juego.html?id={i}</loc>
+    <loc>{DOMINIO}/juegos/{i}.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>""")
