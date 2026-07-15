@@ -39,6 +39,8 @@ Editar `datos/juegos.js` y agregar un objeto al array `JUEGOS`:
   fecha: "2026-07-15",           // formato AAAA-MM-DD
   relanzamiento: null,           // opcional: para ports/re-lanzamientos, aclara dónde ya
                                  // está el juego, ej: "En PC desde 2024" (se muestra ↺ bajo la fecha)
+  duracion: null,                // opcional: horas según HowLongToBeat,
+                                 // ej: "28,5 h (historia) · 58,5 h (completo)"
   plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH", "PS4"],  // las que correspondan
   genero: ["ACCION", "RPG"],     // los filtros de género se generan solos
   desarrollador: "ESTUDIO",
@@ -77,6 +79,13 @@ si están en `null` o ausentes — no rompen nada.
   embebido como `videoRenderer`). Validar siempre que el título del video corresponda al
   juego antes de cargar el ID. Los videos de Steam ya no sirven: son streaming DASH/HLS,
   no reproducibles en un iframe.
+- **Duración**: HowLongToBeat (howlongtobeat.com). Su buscador bloquea bots (el endpoint
+  interno rota y los buscadores externos limitan las consultas en lote), así que la carga
+  es manual: buscar el juego en el sitio, tomar "Main Story" y "Completionist" y cargar el
+  campo `duracion`. Las páginas de juego (`howlongtobeat.com/game/ID`) sí responden a
+  peticiones con User-Agent de navegador: los datos están en el JSON `__NEXT_DATA__`
+  (campos `comp_main` / `comp_100`, en segundos). Solo tiene sentido para juegos ya
+  jugados en alguna plataforma (lanzados o ports); los estrenos nuevos no tienen datos.
 - **Puntajes**: Metacritic (solo puntajes reales de Metacritic, no OpenCritic). Las páginas
   `metacritic.com/game/SLUG/` responden a peticiones con User-Agent de navegador; el
   Metascore está en el campo `"ratingValue"` del JSON-LD embebido. Los indies chicos suelen

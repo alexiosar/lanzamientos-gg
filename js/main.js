@@ -364,6 +364,11 @@ function renderCalendario() {
                     <span class="ficha-campo-label">GÉNERO</span>
                     <span class="ficha-campo-valor">${j.genero.join(" / ")}</span>
                   </div>
+                  ${j.duracion ? `
+                  <div>
+                    <span class="ficha-campo-label">DURACIÓN</span>
+                    <span class="ficha-campo-valor">${j.duracion}</span>
+                  </div>` : ""}
                   <div>
                     <span class="ficha-campo-label">DESARROLLADOR</span>
                     <span class="ficha-campo-valor">${j.desarrollador}</span>

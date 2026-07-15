@@ -76,7 +76,7 @@
     <div class="contenedor" style="display:flex;justify-content:space-between;width:100%;flex-wrap:wrap;gap:.5rem;">
       <span>LANZAMIENTOS.LAT &copy; 2026</span>
       <span class="footer-links"><a href="../acerca.html">ACERCA DE</a> · <a href="../privacidad.html">PRIVACIDAD</a> · <a href="../terminos.html">TÉRMINOS</a></span>
-      <span>DATOS: STEAM · NINTENDO · METACRITIC <span class="cursor"></span></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
     </div>
   </footer>
 
@@ -300,6 +300,11 @@
               <span class="ficha-campo-label">GÉNERO</span>
               <span class="ficha-campo-valor">${j.genero.join(" / ")}</span>
             </div>
+            ${j.duracion ? `
+            <div>
+              <span class="ficha-campo-label">DURACIÓN</span>
+              <span class="ficha-campo-valor">${j.duracion}</span>
+            </div>` : ""}
             <div>
               <span class="ficha-campo-label">INCLUIDO EN</span>
               ${incluidoHtml}

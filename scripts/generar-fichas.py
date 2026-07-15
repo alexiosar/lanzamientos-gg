@@ -220,7 +220,11 @@ def generar(j):
               <div>
                 <span class="ficha-campo-label">GÉNERO</span>
                 <span class="ficha-campo-valor">{e(" / ".join(j["genero"]))}</span>
-              </div>
+              </div>{f'''
+              <div>
+                <span class="ficha-campo-label">DURACIÓN</span>
+                <span class="ficha-campo-valor">{e(j["duracion"])}</span>
+              </div>''' if j.get("duracion") else ""}
               <div>
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 {incluido}
@@ -250,7 +254,7 @@ def generar(j):
     <div class="contenedor" style="display:flex;justify-content:space-between;width:100%;flex-wrap:wrap;gap:.5rem;">
       <span>LANZAMIENTOS.LAT &copy; 2026</span>
       <span class="footer-links"><a href="../acerca.html">ACERCA DE</a> · <a href="../privacidad.html">PRIVACIDAD</a> · <a href="../terminos.html">TÉRMINOS</a></span>
-      <span>DATOS: STEAM · NINTENDO · METACRITIC <span class="cursor"></span></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
     </div>
   </footer>
 
