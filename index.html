@@ -55,41 +55,47 @@
     </div>
   </header>
 
-  <main class="contenedor">
+  <main class="contenedor contenedor-ancho">
+    <div class="layout">
 
-    <div class="filtros">
-      <div class="filtros-label">BUSCAR JUEGO:</div>
-      <input type="text" id="buscador" class="buscador" placeholder="ESCRIBE UN NOMBRE..." oninput="buscarJuego(this.value)" autocomplete="off">
-    </div>
-
-    <div class="filtros">
-      <div class="filtros-label">VISTA:</div>
-      <div class="filtros-botones">
-        <button class="filtro-btn vista-btn activo" data-vista="calendario" onclick="cambiarVista('calendario')">CALENDARIO</button>
-        <button class="filtro-btn vista-btn" data-vista="ranking" onclick="cambiarVista('ranking')">★ RANKING</button>
+      <div class="col-principal">
+        <div id="calendario"></div>
       </div>
-    </div>
 
-    <div class="filtros">
-      <div class="filtros-label">FILTRAR POR PLATAFORMA:</div>
-      <div class="filtros-botones">
-        <button class="filtro-btn filtro-btn-plat activo" data-plat="TODAS"   onclick="activarFiltro('TODAS')">TODAS</button>
-        <button class="filtro-btn filtro-btn-plat"        data-plat="PS5"     onclick="activarFiltro('PS5')">PS5</button>
-        <button class="filtro-btn filtro-btn-plat"        data-plat="PS4"     onclick="activarFiltro('PS4')">PS4</button>
-        <button class="filtro-btn filtro-btn-plat"        data-plat="XBOX"    onclick="activarFiltro('XBOX')">XBOX</button>
-        <button class="filtro-btn filtro-btn-plat"        data-plat="SWITCH2" onclick="activarFiltro('SWITCH2')">SWITCH 2</button>
-        <button class="filtro-btn filtro-btn-plat"        data-plat="SWITCH"  onclick="activarFiltro('SWITCH')">SWITCH</button>
-      </div>
-    </div>
+      <aside class="sidebar" aria-label="Filtros">
+        <div class="filtros">
+          <div class="filtros-label">BUSCAR JUEGO:</div>
+          <input type="text" id="buscador" class="buscador" placeholder="ESCRIBE UN NOMBRE..." oninput="buscarJuego(this.value)" autocomplete="off">
+        </div>
+
+        <div class="filtros">
+          <div class="filtros-label">VISTA:</div>
+          <div class="filtros-botones">
+            <button class="filtro-btn vista-btn activo" data-vista="calendario" onclick="cambiarVista('calendario')">CALENDARIO</button>
+            <button class="filtro-btn vista-btn" data-vista="ranking" onclick="cambiarVista('ranking')">★ RANKING</button>
+          </div>
+        </div>
+
+        <div class="filtros">
+          <div class="filtros-label">FILTRAR POR PLATAFORMA:</div>
+          <div class="filtros-botones">
+            <button class="filtro-btn filtro-btn-plat activo" data-plat="TODAS"   onclick="activarFiltro('TODAS')">TODAS</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="PS5"     onclick="activarFiltro('PS5')">PS5</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="PS4"     onclick="activarFiltro('PS4')">PS4</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="XBOX"    onclick="activarFiltro('XBOX')">XBOX</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="SWITCH2" onclick="activarFiltro('SWITCH2')">SWITCH 2</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="SWITCH"  onclick="activarFiltro('SWITCH')">SWITCH</button>
+          </div>
+        </div>
 
         <!-- FILTRO GÉNERO (se genera automáticamente desde juegos.js) -->
-    <div class="filtros" style="margin-top:0.75rem;">
-      <div class="filtros-label">FILTRAR POR GÉNERO:</div>
-      <div class="filtros-botones" id="filtros-genero"></div>
+        <div class="filtros">
+          <div class="filtros-label">FILTRAR POR GÉNERO:</div>
+          <div class="filtros-botones" id="filtros-genero"></div>
+        </div>
+      </aside>
+
     </div>
-
-    <div id="calendario"></div>
-
   </main>
 
   <footer class="site-footer">

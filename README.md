@@ -120,6 +120,9 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
 
 - **Calendario agrupado por mes y día**, con desplegables. Se abre solo el mes actual
   y hace scroll automático al día de hoy (o al más próximo).
+- **Layout de dos columnas** (desktop): calendario a la izquierda, filtros en una barra
+  lateral derecha fija (sticky) que acompaña el scroll. En pantallas de menos de 900px
+  vuelve a una columna con los filtros arriba.
 - **Bloque "Próximos 7 días"** arriba del calendario: lista los lanzamientos de la semana
   que viene (respeta los filtros; se oculta si no hay ninguno o en la vista ranking).
 - **Indicadores por día**: `[ HOY ]` (amarillo, parpadea), `[ PRÓXIMO ]` (el primer día
@@ -181,6 +184,30 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
 Cloudflare (Wrangler) con `wrangler.jsonc`: sube toda la carpeta como assets estáticos.
 Pendiente evaluar un `.assetsignore` para excluir del deploy los archivos que no son del
 sitio (`scripts/`, `README.md`, el propio `wrangler.jsonc`).
+
+## Mantenimiento
+
+El sitio se mantiene con tres rutinas. En una sesión de Claude alcanza con decir
+"rutina diaria", "rutina semanal" o "rutina mensual" — los métodos están documentados
+en este archivo y en la sección "Fuentes de datos habituales".
+
+**Diaria (o día por medio, ~10 min):**
+1. `python3 scripts/actualizar.py` — refresca puntajes de Metacritic, regenera fichas y
+   sitemap, y reporta: debuts con puntaje, lanzamientos de hoy/mañana (candidatos a
+   noticias) y faltantes. Este paso no necesita a Claude.
+2. Cargar noticias de los lanzamientos del día y eventos (debuts, Game Pass, betas).
+3. Commit y deploy.
+
+**Semanal:**
+4. Barrido de releases.com del mes en curso y el siguiente (con Claude + extensión de
+   Chrome): juegos nuevos Y verificación de fechas ya cargadas (las fechas cambian).
+5. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
+
+**Mensual (fin de mes):**
+6. Cargar el mes siguiente completo desde releases.com.
+7. Duraciones (HLTB) de los ports del mes nuevo.
+8. Evaluar archivo/limpieza de meses viejos del calendario.
+9. Repasar la sección "Pendientes / ideas" de este archivo.
 
 ## Desarrollo local
 

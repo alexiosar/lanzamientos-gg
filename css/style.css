@@ -134,6 +134,46 @@ a:hover { color: var(--blanco); }
   color: var(--acento);
 }
 
+/* ── LAYOUT DE DOS COLUMNAS (calendario + filtros a la derecha) ── */
+.contenedor-ancho {
+  max-width: 1180px;
+}
+
+.layout {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.col-principal {
+  flex: 1;
+  min-width: 0;
+}
+
+.sidebar {
+  width: 270px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  border-left: 1px solid var(--gris-2);
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .layout { flex-direction: column; gap: 0; }
+  .sidebar {
+    order: -1;              /* filtros arriba en móvil, como antes */
+    position: static;
+    width: 100%;
+    max-height: none;
+    overflow: visible;
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
 /* ── FILTROS ── */
 .filtros {
   margin-bottom: 1.5rem;
