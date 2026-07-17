@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Archivo de lanzamientos de videojuegos de meses anteriores: fechas, puntajes y fichas completas.">
+  <title>ARCHIVO — LANZAMIENTOS.LAT</title>
+  <link rel="canonical" href="https://lanzamientos.lat/archivo.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .pagina-titulo { font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }
+    .pagina-sub    { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 2rem; }
+    .volver        { display: inline-block; font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .volver:hover  { color: var(--acento); }
+  </style>
+</head>
+<body data-archivo="1">
+
+  <header class="site-header">
+    <div class="contenedor">
+      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
+      <a href="index.html" class="site-logo">LANZAMIENTOS.LAT</a>
+      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
+      <nav class="nav">
+        <a href="index.html">INICIO</a>
+        <a href="ps5.html">PS5</a>
+        <a href="xbox.html">XBOX</a>
+        <a href="switch-2.html">SWITCH 2</a>
+        <a href="switch.html">SWITCH</a>
+        <a href="ps4.html">PS4</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <a href="index.html" class="volver">◀ VOLVER AL CALENDARIO</a>
+    <h1 class="pagina-titulo">ARCHIVO</h1>
+    <p class="pagina-sub">LANZAMIENTOS DE MESES ANTERIORES — TODOS YA DISPONIBLES</p>
+    <div id="calendario"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
+      <span>LANZAMIENTOS.LAT &copy; 2026</span>
+      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
+    </div>
+  </footer>
+
+  <!-- MODAL TRAILER -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-contenido">
+      <div class="modal-header">
+        <span class="modal-titulo" id="modal-titulo"></span>
+        <span class="modal-cerrar" onclick="cerrarTrailer()">[ X ] CERRAR</span>
+      </div>
+      <div class="modal-video">
+        <iframe id="modal-iframe" src="" allowfullscreen allow="autoplay"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="datos/juegos.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function toggleTema() {
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }
+    function aplicarTema(claro) {
+      document.documentElement.classList.toggle("tema-claro", claro);
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+    }
+    const temaGuardado = localStorage.getItem("tema");
+    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
+    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
+    sistemaClaro.addEventListener("change", e => {
+      if (!localStorage.getItem("tema")) aplicarTema(e.matches);
+    });
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");
+  </script>
+</body>
+</html>

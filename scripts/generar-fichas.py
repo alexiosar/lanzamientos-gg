@@ -42,6 +42,11 @@ def plat_label(p):
     return "SWITCH 2" if p == "SWITCH2" else p
 
 
+def plat_slug(p):
+    return {"PS5": "ps5.html", "PS4": "ps4.html", "XBOX": "xbox.html",
+            "SWITCH2": "switch-2.html", "SWITCH": "switch.html"}.get(p, "index.html")
+
+
 def meta_clase(n):
     return "meta-alto" if n >= 75 else ("meta-medio" if n >= 50 else "meta-bajo")
 
@@ -179,11 +184,11 @@ def generar(j):
       <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
       <nav class="nav">
         <a href="../index.html">INICIO</a>
-        <a href="../index.html?plat=PS5">PS5</a>
-        <a href="../index.html?plat=XBOX">XBOX</a>
-        <a href="../index.html?plat=SWITCH2">SWITCH 2</a>
-        <a href="../index.html?plat=SWITCH">SWITCH</a>
-        <a href="../index.html?plat=PS4">PS4</a>
+        <a href="../ps5.html">PS5</a>
+        <a href="../xbox.html">XBOX</a>
+        <a href="../switch-2.html">SWITCH 2</a>
+        <a href="../switch.html">SWITCH</a>
+        <a href="../ps4.html">PS4</a>
       </nav>
     </div>
   </header>
@@ -194,7 +199,7 @@ def generar(j):
 
       <div class="breadcrumb">
         <a href="../index.html">INICIO</a> &gt;
-        <a href="../index.html?plat={j["plataformas"][0]}">{plat_label(j["plataformas"][0])}</a> &gt;
+        <a href="../{plat_slug(j["plataformas"][0])}">{plat_label(j["plataformas"][0])}</a> &gt;
         {e(j["titulo"])}
       </div>
 
@@ -230,8 +235,9 @@ def generar(j):
                 {incluido}
               </div>{metacritic_html}
             </div>
-            <div style="margin-top:1rem;">
+            <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('{gid}')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
+              <button class="btn-trailer" id="btn-compartir" onclick="compartirJuego('{gid}')">⇗ COMPARTIR</button>
             </div>
           </div>
         </div>
@@ -289,6 +295,22 @@ def generar(j):
       else el.remove();
       if (dias > 0) document.getElementById("btn-agendar").style.display = "";
     }})();
+
+    function compartirJuego(id) {{
+      const j = JUEGOS.find(x => x.id === id);
+      if (!j) return;
+      const url = `https://lanzamientos.lat/juegos/${{id}}.html`;
+      if (navigator.share) {{
+        navigator.share({{ title: `${{j.titulo}} — LANZAMIENTOS.LAT`, url }}).catch(() => {{}});
+      }} else {{
+        navigator.clipboard.writeText(url).then(() => {{
+          const b = document.getElementById("btn-compartir");
+          const original = b.textContent;
+          b.textContent = "✓ LINK COPIADO";
+          setTimeout(() => {{ b.textContent = original; }}, 1600);
+        }});
+      }}
+    }}
 
     function agendarJuego(id) {{
       const j = JUEGOS.find(x => x.id === id);

@@ -919,8 +919,15 @@ noticias: [
     desarrollador: "NEOS CORPORATION",
     descripcion: "Un clásico de culto que fusiona los juegos de mesa y de cartas: Culdcept ofrece un sistema único e innovador que cautiva a sus fans desde su debut. Los jugadores se convierten en Cepters y empuñan cartas en intensas batallas donde chocan la suerte y la estrategia. Después de diez años, una historia completamente nueva comienza otra vez.",
     trailer: "https://youtube.com/embed/3Z_IUAkzHyA",
-    metacritic: null,
+    metacritic: 78,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3322630/1af09cd578c01c35fa6ffe1bb9747d7ed43308dc/header.jpg",
+noticias: [
+      {
+        fecha: "2026-07-17",
+        titulo: "DEBUT CON 78 EN METACRITIC",
+        texto: "El regreso de la saga que mezcla tablero y cartas fue bien recibido en su estreno tras diez años de ausencia."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -966,8 +973,15 @@ noticias: [
     desarrollador: "LE CARTEL STUDIO",
     descripcion: "¡Aquí llega Heave Ho 2, ahora en línea! La divertidísima secuela llega con una novedad, ¡y es que da igual dónde estén tus colegas! Agárrate a lo que puedas y cruza la línea de meta balanceándote.",
     trailer: "https://youtube.com/embed/57nbZWfS8TQ",
-    metacritic: null,
+    metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2802740/829d9cf1b2dc94d98d2df66cf91ecec316e55802/header.jpg",
+noticias: [
+      {
+        fecha: "2026-07-17",
+        titulo: "DEBUT CON 82 EN METACRITIC",
+        texto: "La secuela cooperativa de agarrarse y balancearse conquistó a la crítica: el multijugador online, la novedad de esta entrega, es lo más celebrado."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true

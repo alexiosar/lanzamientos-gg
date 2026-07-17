@@ -4,6 +4,9 @@ let filtroGenero = "TODOS";
 let filtroTexto = "";
 let vistaActiva = "calendario";
 
+// archivo.html declara data-archivo en el body: muestra solo meses pasados
+const MODO_ARCHIVO = !!(document.body && document.body.dataset.archivo);
+
 // ── HELPERS ──
 const MESES_ES = [
   "ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO",
@@ -141,10 +144,14 @@ function activarFiltro(plataforma) {
 
 // ── FILTRO GÉNERO ──
 function generarFiltrosGenero() {
-  const generos = new Set();
-  JUEGOS.forEach(j => j.genero.forEach(g => generos.add(g)));
- 
   const contenedor = document.getElementById("filtros-genero");
+  if (!contenedor) return; // archivo.html no tiene filtros
+  // solo géneros de juegos visibles en la portada (mes actual en adelante),
+  // para no ofrecer filtros que quedarían vacíos por el archivo
+  const mesActual = getMesKeyHoy();
+  const generos = new Set();
+  JUEGOS.filter(j => j.fecha.slice(0, 7) >= mesActual)
+        .forEach(j => j.genero.forEach(g => generos.add(g)));
   contenedor.innerHTML = ["TODOS", ...Array.from(generos).sort()].map(g => `
     <button class="filtro-btn ${g === filtroGenero ? 'activo' : ''}"
             data-gen="${g}"
@@ -216,9 +223,32 @@ function juegosFiltrados() {
   return JUEGOS.filter(j => {
     const porPlat  = filtroActivo === "TODAS" || j.plataformas.includes(filtroActivo);
     const porGen   = filtroGenero === "TODOS"  || j.genero.includes(filtroGenero);
-    const porTexto = filtroTexto === "" || j.titulo.toLowerCase().includes(filtroTexto);
+    // busca en título, desarrollador y géneros
+    const pajar = `${j.titulo} ${j.desarrollador} ${j.genero.join(" ")}`.toLowerCase();
+    const porTexto = filtroTexto === "" || pajar.includes(filtroTexto);
     return porPlat && porGen && porTexto;
   });
+}
+
+// ── COMPARTIR ──
+// en el celular abre el menú nativo; en desktop copia el link al portapapeles
+function compartirJuego(id, e) {
+  if (e) e.stopPropagation();
+  const j = JUEGOS.find(x => x.id === id);
+  if (!j) return;
+  const url = `https://lanzamientos.lat/juegos/${j.id}.html`;
+  if (navigator.share) {
+    navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(url).then(() => {
+      const btn = e && e.target;
+      if (btn) {
+        const original = btn.textContent;
+        btn.textContent = "✓ LINK COPIADO";
+        setTimeout(() => { btn.textContent = original; }, 1600);
+      }
+    });
+  }
 }
 
 // ── RENDER ──
@@ -237,15 +267,24 @@ function agruparPorMesYDia(juegos) {
 
 function renderCalendario() {
   const contenedor = document.getElementById("calendario");
-  const juegos = juegosFiltrados();
+  let juegos = juegosFiltrados();
 
-  if (juegos.length === 0) {
-    contenedor.innerHTML = `<div class="sin-resultados">// NO HAY JUEGOS PARA ESTE FILTRO</div>`;
+  // el ranking siempre considera todos los meses (incluido el archivo)
+  if (vistaActiva === "ranking") {
+    contenedor.innerHTML = juegos.length
+      ? renderRanking(juegos)
+      : `<div class="sin-resultados">// NO HAY JUEGOS PARA ESTE FILTRO</div>`;
     return;
   }
 
-  if (vistaActiva === "ranking") {
-    contenedor.innerHTML = renderRanking(juegos);
+  // portada: mes actual en adelante; archivo: solo meses anteriores
+  const mesActual = getMesKeyHoy();
+  juegos = juegos.filter(j => MODO_ARCHIVO ? j.fecha.slice(0, 7) < mesActual : j.fecha.slice(0, 7) >= mesActual);
+
+  if (juegos.length === 0) {
+    const hayEnArchivo = !MODO_ARCHIVO && juegosFiltrados().some(j => j.fecha.slice(0, 7) < mesActual);
+    contenedor.innerHTML = `<div class="sin-resultados">// NO HAY JUEGOS PRÓXIMOS PARA ESTE FILTRO${
+      hayEnArchivo ? ` — <a href="archivo.html${window.location.search}">BUSCAR EN EL ARCHIVO →</a>` : ""}</div>`;
     return;
   }
 
@@ -284,14 +323,23 @@ function renderCalendario() {
       }).join("")}
     </div>` : "";
 
-  contenedor.innerHTML = proximosHtml + mesesOrdenados.map((mesKey, idx) => {
+  // link al archivo (solo en la portada, si hay meses pasados)
+  const hayArchivo = !MODO_ARCHIVO && JUEGOS.some(j => j.fecha.slice(0, 7) < mesActual);
+  const archivoHtml = hayArchivo
+    ? `<a class="link-archivo" href="archivo.html">≡ LANZAMIENTOS DE MESES ANTERIORES → VER ARCHIVO</a>`
+    : "";
+
+  contenedor.innerHTML = proximosHtml + archivoHtml + mesesOrdenados.map((mesKey, idx) => {
     const [year, month] = mesKey.split("-").map(Number);
     const nombreMes = `${MESES_ES[month - 1]} ${year}`;
     const diasOrdenados = Object.keys(agrupado[mesKey]).sort();
     const totalJuegos = diasOrdenados.reduce((acc, d) => acc + agrupado[mesKey][d].length, 0);
     
-    // abrir solo el mes actual, cerrar el resto (si hay búsqueda, abrir todos)
-    const abierto = mesKey === mesKeyHoy || filtroTexto !== "";
+    // abrir solo el mes actual, cerrar el resto (si hay búsqueda, abrir todos);
+    // en el archivo se abre el mes más reciente
+    const abierto = MODO_ARCHIVO
+      ? mesKey === mesesOrdenados[mesesOrdenados.length - 1] || filtroTexto !== ""
+      : mesKey === mesKeyHoy || filtroTexto !== "";
 
     // abrir al que hacer scroll dentro del mes actual
     const diaFoco = abierto ? diaProximo(diasOrdenados) : null;
@@ -386,6 +434,7 @@ function renderCalendario() {
             <div class="ficha-acciones">
               ${j.trailer ? `<button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>` : ""}
               ${diasHasta(j.fecha) > 0 ? `<button class="btn-trailer" onclick="agendarJuego('${j.id}', event)">◷ AGENDAR</button>` : ""}
+              <button class="btn-trailer" onclick="compartirJuego('${j.id}', event)">⇗ COMPARTIR</button>
               <a href="juegos/${j.id}.html" class="btn-trailer">+ INFO</a>
             </div>
           </div>
@@ -516,7 +565,8 @@ document.addEventListener("DOMContentLoaded", () => {
   generarFiltrosGenero();
   renderCalendario();
 
-  document.getElementById("modal-overlay").addEventListener("click", function(e) {
+  const overlay = document.getElementById("modal-overlay");
+  if (overlay) overlay.addEventListener("click", function(e) {
     if (e.target === this) cerrarTrailer();
   });
 

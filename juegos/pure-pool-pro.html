@@ -60,11 +60,11 @@
       <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
       <nav class="nav">
         <a href="../index.html">INICIO</a>
-        <a href="../index.html?plat=PS5">PS5</a>
-        <a href="../index.html?plat=XBOX">XBOX</a>
-        <a href="../index.html?plat=SWITCH2">SWITCH 2</a>
-        <a href="../index.html?plat=SWITCH">SWITCH</a>
-        <a href="../index.html?plat=PS4">PS4</a>
+        <a href="../ps5.html">PS5</a>
+        <a href="../xbox.html">XBOX</a>
+        <a href="../switch-2.html">SWITCH 2</a>
+        <a href="../switch.html">SWITCH</a>
+        <a href="../ps4.html">PS4</a>
       </nav>
     </div>
   </header>
@@ -75,7 +75,7 @@
 
       <div class="breadcrumb">
         <a href="../index.html">INICIO</a> &gt;
-        <a href="../index.html?plat=XBOX">XBOX</a> &gt;
+        <a href="../xbox.html">XBOX</a> &gt;
         PURE POOL PRO
       </div>
 
@@ -106,8 +106,9 @@
                 <span class="ficha-campo-valor">—</span>
               </div>
             </div>
-            <div style="margin-top:1rem;">
+            <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('pure-pool-pro')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
+              <button class="btn-trailer" id="btn-compartir" onclick="compartirJuego('pure-pool-pro')">⇗ COMPARTIR</button>
             </div>
           </div>
         </div>
@@ -171,6 +172,22 @@
       else el.remove();
       if (dias > 0) document.getElementById("btn-agendar").style.display = "";
     })();
+
+    function compartirJuego(id) {
+      const j = JUEGOS.find(x => x.id === id);
+      if (!j) return;
+      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      if (navigator.share) {
+        navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
+      } else {
+        navigator.clipboard.writeText(url).then(() => {
+          const b = document.getElementById("btn-compartir");
+          const original = b.textContent;
+          b.textContent = "✓ LINK COPIADO";
+          setTimeout(() => { b.textContent = original; }, 1600);
+        });
+      }
+    }
 
     function agendarJuego(id) {
       const j = JUEGOS.find(x => x.id === id);

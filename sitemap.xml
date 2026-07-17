@@ -8,6 +8,36 @@
   </url>
 
   <url>
+    <loc>https://lanzamientos.lat/ps5.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/ps4.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/xbox.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/switch-2.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/switch.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://lanzamientos.lat/acerca.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -21,6 +51,12 @@
 
   <url>
     <loc>https://lanzamientos.lat/terminos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/archivo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>

@@ -133,7 +133,23 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
   `?plat=PS5&gen=RPG&q=texto&vista=ranking`. Al cambiar un filtro la URL se actualiza sola
   (sin recargar), así cualquier vista se comparte copiando la barra de direcciones. Los
   parámetros inválidos se ignoran sin romper nada.
-- **Buscador por nombre**: filtra en vivo y abre todos los meses mientras se busca.
+- **Buscador**: filtra en vivo por título, desarrollador o género (es texto libre, no hay
+  botones por estudio), y abre todos los meses mientras se busca.
+- **Páginas por plataforma** (`ps5.html`, `ps4.html`, `xbox.html`, `switch-2.html`,
+  `switch.html`): listados estáticos pre-renderizados por plataforma, indexables por Google
+  para búsquedas tipo "lanzamientos PS5". El menú del sitio apunta a ellas; cada una linkea
+  al calendario interactivo. Se regeneran con `scripts/generar-plataformas.py` (la rutina
+  diaria lo hace sola).
+- **Filtros conscientes del archivo**: los botones de género solo se generan con juegos
+  visibles en la portada; si un filtro/búsqueda no tiene resultados próximos pero sí
+  archivados, el mensaje ofrece "BUSCAR EN EL ARCHIVO →" conservando el filtro.
+- **Archivo automático** (`archivo.html`): la portada muestra solo el mes actual en
+  adelante; los meses pasados se mueven solos al archivo (link punteado arriba del
+  calendario). No requiere mantenimiento: es un filtro por fecha, no hay que mover datos.
+  El ranking sigue considerando todos los juegos, archivados incluidos.
+- **Botón ⇗ COMPARTIR** en todas las fichas: menú nativo del celular (WhatsApp, X, etc.)
+  o copia del link en desktop, siempre apuntando a la ficha estática (con su carátula
+  en la tarjeta social).
 - **Vista ★ RANKING**: selector "VISTA" arriba de los filtros; lista los juegos con puntaje
   de Metacritic ordenados de mejor a peor. Respeta los filtros de plataforma/género y el
   buscador. Crece solo a medida que se cargan puntajes.
@@ -227,8 +243,7 @@ y abrir http://localhost:8080
 - Cargar la semana del 20 de julio: Splatoon Raiders (23), Halo: Campaign Evolved (28),
   Mistfall Hunter (29), Xenoblade Chronicles 2 Switch 2 (30), The Relic: First Guardian (31).
 - Noticias en más juegos (hoy tienen 22 de 126).
-- Novedades en la portada: bloque "Últimas novedades" con las 4-5 noticias más recientes,
-  debajo de "Próximos 7 días" (versión chica y sin riesgo de la idea de `/noticias.html`;
-  la página completa + RSS solo si el sitio crece y las noticias se cargan seguido).
+- Noticias en portada: descartado el bloque (empuja el calendario hacia abajo — decisión
+  jul 2026). La página `/noticias.html` completa + RSS quedan para si el sitio crece.
 - Si algún día se cargan datos desde una API externa: escapar HTML antes de inyectar
   con `innerHTML` (hoy no hace falta porque los datos son propios).

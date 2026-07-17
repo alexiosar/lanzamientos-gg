@@ -60,11 +60,11 @@
       <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
       <nav class="nav">
         <a href="../index.html">INICIO</a>
-        <a href="../index.html?plat=PS5">PS5</a>
-        <a href="../index.html?plat=XBOX">XBOX</a>
-        <a href="../index.html?plat=SWITCH2">SWITCH 2</a>
-        <a href="../index.html?plat=SWITCH">SWITCH</a>
-        <a href="../index.html?plat=PS4">PS4</a>
+        <a href="../ps5.html">PS5</a>
+        <a href="../xbox.html">XBOX</a>
+        <a href="../switch-2.html">SWITCH 2</a>
+        <a href="../switch.html">SWITCH</a>
+        <a href="../ps4.html">PS4</a>
       </nav>
     </div>
   </header>
@@ -75,7 +75,7 @@
 
       <div class="breadcrumb">
         <a href="../index.html">INICIO</a> &gt;
-        <a href="../index.html?plat=SWITCH2">SWITCH 2</a> &gt;
+        <a href="../switch-2.html">SWITCH 2</a> &gt;
         CULDCEPT BEGINS
       </div>
 
@@ -105,14 +105,29 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto">78</span>
             </div>
-            <div style="margin-top:1rem;">
+            </div>
+            <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('culdcept-begins')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
+              <button class="btn-trailer" id="btn-compartir" onclick="compartirJuego('culdcept-begins')">⇗ COMPARTIR</button>
             </div>
           </div>
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-07-17</span>
+            <span class="noticia-titulo">▸ DEBUT CON 78 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">El regreso de la saga que mezcla tablero y cartas fue bien recibido en su estreno tras diez años de ausencia.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Un clásico de culto que fusiona los juegos de mesa y de cartas: Culdcept ofrece un sistema único e innovador que cautiva a sus fans desde su debut. Los jugadores se convierten en Cepters y empuñan cartas en intensas batallas donde chocan la suerte y la estrategia. Después de diez años, una historia completamente nueva comienza otra vez.</p>
@@ -171,6 +186,22 @@
       else el.remove();
       if (dias > 0) document.getElementById("btn-agendar").style.display = "";
     })();
+
+    function compartirJuego(id) {
+      const j = JUEGOS.find(x => x.id === id);
+      if (!j) return;
+      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      if (navigator.share) {
+        navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
+      } else {
+        navigator.clipboard.writeText(url).then(() => {
+          const b = document.getElementById("btn-compartir");
+          const original = b.textContent;
+          b.textContent = "✓ LINK COPIADO";
+          setTimeout(() => { b.textContent = original; }, 1600);
+        });
+      }
+    }
 
     function agendarJuego(id) {
       const j = JUEGOS.find(x => x.id === id);

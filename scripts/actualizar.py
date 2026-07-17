@@ -83,7 +83,7 @@ def main():
 
     # 2) Regenerar
     print("\n── Regenerando fichas y sitemap ──")
-    for script in ["generar-fichas.py", "generar-sitemap.py"]:
+    for script in ["generar-fichas.py", "generar-plataformas.py", "generar-sitemap.py"]:
         r = subprocess.run(["python3", str(RAIZ / "scripts" / script)], capture_output=True, text=True)
         print(" ", r.stdout.strip() or r.stderr.strip())
 
