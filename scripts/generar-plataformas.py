@@ -88,7 +88,10 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
             plats = "".join(f'<span class="plat {plat_class(p)}">{plat_label(p)}</span>'
                             for p in j["plataformas"] if p != clave)
             mc = f'<span class="badge-metacritic {meta_clase(j["metacritic"])}" style="font-size:0.6875rem;">{j["metacritic"]}</span>' if j.get("metacritic") else ""
+            mini = (f'<img class="mini-portada" src="{e(j["imagen"])}" alt="" loading="lazy" decoding="async">'
+                    if j.get("imagen") else '<span class="mini-portada"></span>')
             cuerpo.append(f'''<a class="fila-plat" href="juegos/{j["id"]}.html">
+        {mini}
         <span class="juego-nombre">{e(j["titulo"])}</span>
         {mc}
         <div class="plataformas">{plats}</div>

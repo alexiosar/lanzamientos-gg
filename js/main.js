@@ -85,6 +85,13 @@ function agendarJuego(id, e) {
   URL.revokeObjectURL(a.href);
 }
 
+// miniatura de carátula para filas de listas (cuadrada, carga diferida)
+function miniaturaHtml(j) {
+  return j.imagen
+    ? `<img class="mini-portada" src="${j.imagen}" alt="" loading="lazy" decoding="async" onerror="this.classList.add('mini-vacia');this.removeAttribute('src')">`
+    : `<span class="mini-portada mini-vacia"></span>`;
+}
+
 function cuentaRegresivaHtml(fechaStr) {
   const dias = diasHasta(fechaStr);
   if (dias === 0) return `<span class="cuenta-regresiva regresiva-hoy">▸ ¡SALE HOY!</span>`;
@@ -204,6 +211,7 @@ function renderRanking(juegos) {
     return `
       <a class="ranking-fila" href="juegos/${j.id}.html">
         <span class="ranking-pos">#${String(i + 1).padStart(2, "0")}</span>
+        ${miniaturaHtml(j)}
         <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
         <span class="juego-nombre">${j.titulo}</span>
         <span class="ranking-fecha">${fechaStr}</span>
@@ -297,6 +305,28 @@ function renderCalendario() {
   const todosLosDias = mesesOrdenados.flatMap(m => Object.keys(agrupado[m])).sort();
   const proximoKey = todosLosDias.find(d => d > hoyKey) || null;
 
+  // juego DESTACADO: el próximo lanzamiento notable (con noticias); si no hay, el próximo con carátula.
+  // solo en la portada y sin filtros activos
+  let destacadoHtml = "";
+  const sinFiltros = filtroActivo === "TODAS" && filtroGenero === "TODOS" && filtroTexto === "";
+  if (!MODO_ARCHIVO && sinFiltros) {
+    const futuros = JUEGOS.filter(j => j.fecha > hoyKey).sort((a, b) => a.fecha.localeCompare(b.fecha));
+    const dest = futuros.find(j => j.noticias && j.imagen) || futuros.find(j => j.imagen);
+    if (dest) {
+      const f = parseFecha(dest.fecha);
+      destacadoHtml = `
+      <a class="destacado" href="juegos/${dest.id}.html">
+        <img class="destacado-portada" src="${dest.imagen}" alt="Portada de ${dest.titulo}" onerror="this.remove()">
+        <div class="destacado-info">
+          <span class="destacado-tag">▸ PRÓXIMO DESTACADO</span>
+          <span class="destacado-titulo">${dest.titulo}</span>
+          <span class="destacado-meta">${DIAS_ES[f.getDay()]} ${String(f.getDate()).padStart(2, "0")} ${MESES_ES[f.getMonth()].slice(0, 3)} · ${dest.plataformas.map(plataformaLabel).join(" / ")}</span>
+          ${cuentaRegresivaHtml(dest.fecha)}
+        </div>
+      </a>`;
+    }
+  }
+
   // bloque PRÓXIMOS 7 DÍAS (lanzamientos entre mañana y dentro de una semana)
   const en7 = parseFecha(hoyKey);
   en7.setDate(en7.getDate() + 7);
@@ -316,6 +346,7 @@ function renderCalendario() {
         ).join("");
         return `
         <a class="proximos-fila" href="juegos/${j.id}.html">
+          ${miniaturaHtml(j)}
           <span class="proximos-dia">${dia}</span>
           <span class="juego-nombre">${j.titulo}</span>
           <div class="plataformas">${plats}</div>
@@ -329,7 +360,7 @@ function renderCalendario() {
     ? `<a class="link-archivo" href="archivo.html">≡ LANZAMIENTOS DE MESES ANTERIORES → VER ARCHIVO</a>`
     : "";
 
-  contenedor.innerHTML = proximosHtml + archivoHtml + mesesOrdenados.map((mesKey, idx) => {
+  contenedor.innerHTML = destacadoHtml + proximosHtml + archivoHtml + mesesOrdenados.map((mesKey, idx) => {
     const [year, month] = mesKey.split("-").map(Number);
     const nombreMes = `${MESES_ES[month - 1]} ${year}`;
     const diasOrdenados = Object.keys(agrupado[mesKey]).sort();
@@ -385,6 +416,7 @@ function renderCalendario() {
 
         return `
           <div class="juego-fila" id="fila-${j.id}" tabindex="0" role="button" aria-label="Ver ficha de ${j.titulo}" onclick="toggleFicha('${j.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFicha('${j.id}');}">
+            ${miniaturaHtml(j)}
             <span class="juego-nombre">${j.titulo}</span>
             <div class="plataformas">${platsHtml}</div>
             ${nuevoHtml}

@@ -123,6 +123,12 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
 - **Layout de dos columnas** (desktop): calendario a la izquierda, filtros en una barra
   lateral derecha fija (sticky) que acompaña el scroll. En pantallas de menos de 900px
   vuelve a una columna con los filtros arriba.
+- **Miniaturas de carátula** (40px) en todas las listas: calendario, ranking, próximos
+  7 días y páginas de plataforma. Con `loading="lazy"` solo cargan las visibles
+  (~25 de 160 al abrir), así el peso inicial casi no cambia.
+- **Juego destacado** en la portada: banner con el próximo lanzamiento notable (se elige
+  solo: el futuro más cercano con noticias; si no hay, el más cercano con carátula), con
+  carátula, fecha y cuenta regresiva. Se oculta al filtrar o buscar.
 - **Bloque "Próximos 7 días"** arriba del calendario: lista los lanzamientos de la semana
   que viene (respeta los filtros; se oculta si no hay ninguno o en la vista ranking).
 - **Indicadores por día**: `[ HOY ]` (amarillo, parpadea), `[ PRÓXIMO ]` (el primer día

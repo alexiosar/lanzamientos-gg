@@ -627,6 +627,71 @@ a:hover { color: var(--blanco); }
   border-color: var(--acento);
 }
 
+/* ── MINIATURAS EN LISTAS ── */
+.mini-portada {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 1px solid var(--gris-3);
+  background: var(--gris-1);
+  flex-shrink: 0;
+  display: block;
+}
+
+/* ── JUEGO DESTACADO ── */
+.destacado {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  border: 1px solid var(--gris-3);
+  border-left: 3px solid var(--acento);
+  background: var(--gris-1);
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+  color: inherit;
+  transition: border-color 0.1s;
+}
+
+.destacado:hover {
+  border-color: var(--acento);
+  color: inherit;
+}
+
+.destacado-portada {
+  width: 64px;
+  height: 88px;
+  object-fit: cover;
+  border: 1px solid var(--gris-3);
+  flex-shrink: 0;
+}
+
+.destacado-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.destacado-tag {
+  color: var(--acento);
+  font-size: 0.6875rem;
+  letter-spacing: 2px;
+}
+
+.destacado-titulo {
+  color: var(--blanco);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.destacado:hover .destacado-titulo { color: var(--acento); }
+
+.destacado-meta {
+  color: var(--gris-6);
+  font-size: 0.6875rem;
+  letter-spacing: 1px;
+}
+
 /* ── LINK AL ARCHIVO ── */
 .link-archivo {
   display: block;
