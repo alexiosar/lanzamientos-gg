@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="THE NECROMANCER&#x27;S TALE — fecha de lanzamiento, plataformas, puntaje y trailer. The Necromancer&#x27;s Tale es un RPG narrativo con vista cenital donde encarnas a un noble menor del siglo XVIII, adentrándote en las Artes Oscuras de la…">
   <title>THE NECROMANCER&#x27;S TALE — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/the-necromancers-tale.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/the-necromancers-tale">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="THE NECROMANCER&#x27;S TALE — 24 JUNIO 2026">
   <meta property="og:description" content="The Necromancer&#x27;s Tale es un RPG narrativo con vista cenital donde encarnas a un noble menor del siglo XVIII, adentrándote en las Artes Oscuras de la…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/the-necromancers-tale.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/the-necromancers-tale">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1315320/library_600x900.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "THE NECROMANCER'S TALE", "url": "https://lanzamientos.lat/juegos/the-necromancers-tale.html", "description": "The Necromancer's Tale es un RPG narrativo con vista cenital donde encarnas a un noble menor del siglo XVIII, adentrándote en las Artes Oscuras de la Nigromancia en busca de conocimiento y venganza. Un gran poder te espera... junto con lo extraño, lo morboso y un descenso gradual a la locura. Ante t", "datePublished": "2026-06-24", "gamePlatform": ["PS5", "XBOX", "SWITCH 2"], "genre": ["RPG", "ISOMETRICO", "GOTICO"], "inLanguage": "es", "author": {"@type": "Organization", "name": "PSYCHIC SOFTWARE"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1315320/library_600x900.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "THE NECROMANCER'S TALE", "url": "https://lanzamientos.lat/juegos/the-necromancers-tale", "description": "The Necromancer's Tale es un RPG narrativo con vista cenital donde encarnas a un noble menor del siglo XVIII, adentrándote en las Artes Oscuras de la Nigromancia en busca de conocimiento y venganza. Un gran poder te espera... junto con lo extraño, lo morboso y un descenso gradual a la locura. Ante t", "datePublished": "2026-06-24", "gamePlatform": ["PS5", "XBOX", "SWITCH 2"], "genre": ["RPG", "ISOMETRICO", "GOTICO"], "inLanguage": "es", "author": {"@type": "Organization", "name": "PSYCHIC SOFTWARE"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1315320/library_600x900.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -190,7 +190,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -222,8 +222,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

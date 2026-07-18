@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="70S-STYLE ROBOT ANIME GEPPY-X — fecha de lanzamiento, plataformas, puntaje y trailer. Regresa Geppy-X: The Super Boosted Armor, el shoot&#x27;em up japonés que homenajea al anime de robots gigantes de los años 70, estructurado en episodios…">
   <title>70S-STYLE ROBOT ANIME GEPPY-X — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/geppy-x.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/geppy-x">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="70S-STYLE ROBOT ANIME GEPPY-X — 16 JULIO 2026">
   <meta property="og:description" content="Regresa Geppy-X: The Super Boosted Armor, el shoot&#x27;em up japonés que homenajea al anime de robots gigantes de los años 70, estructurado en episodios…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/geppy-x.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/geppy-x">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4571460/b270d93c70213ead93eb8be7c1431646709cd298/header_spanish.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "70S-STYLE ROBOT ANIME GEPPY-X", "url": "https://lanzamientos.lat/juegos/geppy-x.html", "description": "Regresa Geppy-X: The Super Boosted Armor, el shoot'em up japonés que homenajea al anime de robots gigantes de los años 70, estructurado en episodios como una serie animada de la época. Un clásico de culto de Sega Saturn que llega por primera vez a consolas modernas.", "datePublished": "2026-07-16", "gamePlatform": ["PS4", "XBOX"], "genre": ["SHOOTER", "ARCADE", "ANIME"], "inLanguage": "es", "author": {"@type": "Organization", "name": "IMPLICIT CONVERSION"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4571460/b270d93c70213ead93eb8be7c1431646709cd298/header_spanish.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "70S-STYLE ROBOT ANIME GEPPY-X", "url": "https://lanzamientos.lat/juegos/geppy-x", "description": "Regresa Geppy-X: The Super Boosted Armor, el shoot'em up japonés que homenajea al anime de robots gigantes de los años 70, estructurado en episodios como una serie animada de la época. Un clásico de culto de Sega Saturn que llega por primera vez a consolas modernas.", "datePublished": "2026-07-16", "gamePlatform": ["PS4", "XBOX"], "genre": ["SHOOTER", "ARCADE", "ANIME"], "inLanguage": "es", "author": {"@type": "Organization", "name": "IMPLICIT CONVERSION"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4571460/b270d93c70213ead93eb8be7c1431646709cd298/header_spanish.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -176,7 +176,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -208,8 +208,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="HELL CLOCK — fecha de lanzamiento, plataformas, puntaje y trailer. En el siglo XIX, un capítulo sombrío de la historia brasileña se desató en el sertón: el asentamiento de Canudos se había convertido en un santuario…">
   <title>HELL CLOCK — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/hell-clock.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/hell-clock">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="HELL CLOCK — 14 JULIO 2026">
   <meta property="og:description" content="En el siglo XIX, un capítulo sombrío de la historia brasileña se desató en el sertón: el asentamiento de Canudos se había convertido en un santuario…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/hell-clock.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/hell-clock">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782460/library_600x900.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "HELL CLOCK", "url": "https://lanzamientos.lat/juegos/hell-clock.html", "description": "En el siglo XIX, un capítulo sombrío de la historia brasileña se desató en el sertón: el asentamiento de Canudos se había convertido en un santuario para miles de personas en busca de refugio, pero cuando desafiaron al recién formado Ejército Republicano, su resistencia fue aplastada con una fuerza ", "datePublished": "2026-07-14", "gamePlatform": ["XBOX", "PS5"], "genre": ["ACCION", "RPG", "ROGUELIKE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "ROGUE SNAIL"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782460/library_600x900.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "HELL CLOCK", "url": "https://lanzamientos.lat/juegos/hell-clock", "description": "En el siglo XIX, un capítulo sombrío de la historia brasileña se desató en el sertón: el asentamiento de Canudos se había convertido en un santuario para miles de personas en busca de refugio, pero cuando desafiaron al recién formado Ejército Republicano, su resistencia fue aplastada con una fuerza ", "datePublished": "2026-07-14", "gamePlatform": ["XBOX", "PS5"], "genre": ["ACCION", "RPG", "ROGUELIKE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "ROGUE SNAIL"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782460/library_600x900.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -190,7 +190,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -222,8 +222,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

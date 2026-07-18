@@ -55,7 +55,7 @@ def generar(j):
     gid = j["id"]
     y, m, d = map(int, j["fecha"].split("-"))
     fecha_str = f"{d:02d} {MESES_ES[m-1]} {y}"
-    url = f"{DOMINIO}/juegos/{gid}.html"
+    url = f"{DOMINIO}/juegos/{gid}"
     desc_corta = j["descripcion"][:150].rsplit(" ", 1)[0] + "…"
     og_imagen = j.get("imagen") or f"{DOMINIO}/og-image.png"
 
@@ -299,7 +299,7 @@ def generar(j):
     function compartirJuego(id) {{
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${{id}}.html`;
+      const url = `https://lanzamientos.lat/juegos/${{id}}`;
       if (navigator.share) {{
         navigator.share({{ title: `${{j.titulo}} — LANZAMIENTOS.LAT`, url }}).catch(() => {{}});
       }} else {{
@@ -331,8 +331,8 @@ def generar(j):
         `DTSTART;VALUE=DATE:${{inicio}}`,
         `DTEND;VALUE=DATE:${{finStr}}`,
         `SUMMARY:${{esc("🎮 Sale " + j.titulo)}}`,
-        `DESCRIPTION:${{esc(`Lanzamiento en ${{j.plataformas.map(etiqueta).join(" / ")}}. Ficha: https://lanzamientos.lat/juegos/${{j.id}}.html`)}}`,
-        `URL:https://lanzamientos.lat/juegos/${{j.id}}.html`,
+        `DESCRIPTION:${{esc(`Lanzamiento en ${{j.plataformas.map(etiqueta).join(" / ")}}. Ficha: https://lanzamientos.lat/juegos/${{j.id}}`)}}`,
+        `URL:https://lanzamientos.lat/juegos/${{j.id}}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\\r\\n");
       const blob = new Blob([ics], {{ type: "text/calendar;charset=utf-8" }});

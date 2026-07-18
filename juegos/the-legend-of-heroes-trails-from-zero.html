@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="THE LEGEND OF HEROES: TRAILS FROM ZERO — fecha de lanzamiento, plataformas, puntaje y trailer. Cuando Lloyd Bannings es asignado a la Sección de Apoyo Especial de Crossbell, él y sus nuevos compañeros deberán ganarse la confianza de una ciudad…">
   <title>THE LEGEND OF HEROES: TRAILS FROM ZERO — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/the-legend-of-heroes-trails-from-zero.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/the-legend-of-heroes-trails-from-zero">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="THE LEGEND OF HEROES: TRAILS FROM ZERO — 10 SEPTIEMBRE 2026">
   <meta property="og:description" content="Cuando Lloyd Bannings es asignado a la Sección de Apoyo Especial de Crossbell, él y sus nuevos compañeros deberán ganarse la confianza de una ciudad…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/the-legend-of-heroes-trails-from-zero.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/the-legend-of-heroes-trails-from-zero">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1668510/library_600x900.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "THE LEGEND OF HEROES: TRAILS FROM ZERO", "url": "https://lanzamientos.lat/juegos/the-legend-of-heroes-trails-from-zero.html", "description": "Cuando Lloyd Bannings es asignado a la Sección de Apoyo Especial de Crossbell, él y sus nuevos compañeros deberán ganarse la confianza de una ciudad atrapada entre dos superpotencias, resolviendo casos mientras una sombra crece bajo la superficie.", "datePublished": "2026-09-10", "gamePlatform": ["SWITCH 2", "PS5"], "genre": ["RPG", "POR TURNOS"], "inLanguage": "es", "author": {"@type": "Organization", "name": "NIHON FALCOM"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1668510/library_600x900.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "THE LEGEND OF HEROES: TRAILS FROM ZERO", "url": "https://lanzamientos.lat/juegos/the-legend-of-heroes-trails-from-zero", "description": "Cuando Lloyd Bannings es asignado a la Sección de Apoyo Especial de Crossbell, él y sus nuevos compañeros deberán ganarse la confianza de una ciudad atrapada entre dos superpotencias, resolviendo casos mientras una sombra crece bajo la superficie.", "datePublished": "2026-09-10", "gamePlatform": ["SWITCH 2", "PS5"], "genre": ["RPG", "POR TURNOS"], "inLanguage": "es", "author": {"@type": "Organization", "name": "NIHON FALCOM"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1668510/library_600x900.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -177,7 +177,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -209,8 +209,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

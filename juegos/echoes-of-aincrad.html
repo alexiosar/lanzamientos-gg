@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="ECHOES OF AINCRAD — fecha de lanzamiento, plataformas, puntaje y trailer. Adéntrate en el castillo flotante de Aincrad, un mundo de belleza sobrecogedora y peligros donde cada batalla podría ser la última. Entra en un mundo…">
   <title>ECHOES OF AINCRAD — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/echoes-of-aincrad.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/echoes-of-aincrad">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="ECHOES OF AINCRAD — 09 JULIO 2026">
   <meta property="og:description" content="Adéntrate en el castillo flotante de Aincrad, un mundo de belleza sobrecogedora y peligros donde cada batalla podría ser la última. Entra en un mundo…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/echoes-of-aincrad.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/echoes-of-aincrad">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/25fb6350451b21ca824562c8d1eebe89091347cc/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "ECHOES OF AINCRAD", "url": "https://lanzamientos.lat/juegos/echoes-of-aincrad.html", "description": "Adéntrate en el castillo flotante de Aincrad, un mundo de belleza sobrecogedora y peligros donde cada batalla podría ser la última. Entra en un mundo misterioso y vibrante y forja tu destino. Crea a tu héroe, elige tu equipo y domina el combate con tus habilidades especiales y reflejos. Crea sinergi", "datePublished": "2026-07-09", "gamePlatform": ["PS5", "XBOX", "SWITCH", "PS4"], "genre": ["AVENTURA", "ACCION", "RPG", "HACK AND SLASH", "ANIME"], "inLanguage": "es", "author": {"@type": "Organization", "name": "GAME STUDIO"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/25fb6350451b21ca824562c8d1eebe89091347cc/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "ECHOES OF AINCRAD", "url": "https://lanzamientos.lat/juegos/echoes-of-aincrad", "description": "Adéntrate en el castillo flotante de Aincrad, un mundo de belleza sobrecogedora y peligros donde cada batalla podría ser la última. Entra en un mundo misterioso y vibrante y forja tu destino. Crea a tu héroe, elige tu equipo y domina el combate con tus habilidades especiales y reflejos. Crea sinergi", "datePublished": "2026-07-09", "gamePlatform": ["PS5", "XBOX", "SWITCH", "PS4"], "genre": ["AVENTURA", "ACCION", "RPG", "HACK AND SLASH", "ANIME"], "inLanguage": "es", "author": {"@type": "Organization", "name": "GAME STUDIO"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/25fb6350451b21ca824562c8d1eebe89091347cc/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -190,7 +190,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -222,8 +222,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

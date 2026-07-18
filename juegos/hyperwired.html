@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="HYPERWIRED — fecha de lanzamiento, plataformas, puntaje y trailer. En una galaxia sumida en la oscuridad, tu cable es tu mejor arma. HYPERWIRED reinventa el shooter de vista cenital con su mecánica de conexión. Debes…">
   <title>HYPERWIRED — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/hyperwired.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/hyperwired">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="HYPERWIRED — 02 JULIO 2026">
   <meta property="og:description" content="En una galaxia sumida en la oscuridad, tu cable es tu mejor arma. HYPERWIRED reinventa el shooter de vista cenital con su mecánica de conexión. Debes…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/hyperwired.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/hyperwired">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234850/library_600x900.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "HYPERWIRED", "url": "https://lanzamientos.lat/juegos/hyperwired.html", "description": "En una galaxia sumida en la oscuridad, tu cable es tu mejor arma. HYPERWIRED reinventa el shooter de vista cenital con su mecánica de conexión. Debes conectar físicamente tu nave a tomas de corriente para recargarla. Mientras estás conectado, obtienes una potencia de fuego masiva, pero tu movimiento", "datePublished": "2026-07-02", "gamePlatform": ["PS5", "XBOX"], "genre": ["ACCION", "ARCADE", "SHOOTER", "ROGUELIKE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "SIDRALGAMES"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234850/library_600x900.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "HYPERWIRED", "url": "https://lanzamientos.lat/juegos/hyperwired", "description": "En una galaxia sumida en la oscuridad, tu cable es tu mejor arma. HYPERWIRED reinventa el shooter de vista cenital con su mecánica de conexión. Debes conectar físicamente tu nave a tomas de corriente para recargarla. Mientras estás conectado, obtienes una potencia de fuego masiva, pero tu movimiento", "datePublished": "2026-07-02", "gamePlatform": ["PS5", "XBOX"], "genre": ["ACCION", "ARCADE", "SHOOTER", "ROGUELIKE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "SIDRALGAMES"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234850/library_600x900.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -176,7 +176,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -208,8 +208,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

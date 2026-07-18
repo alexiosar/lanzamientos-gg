@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="RESONANCE: A PLAGUE TALE LEGACY — fecha de lanzamiento, plataformas, puntaje y trailer. Ponte en la piel de Sofía y vive la historia previa a la del galardonado A Plague Tale. Dirígete a la Isla del Minotauro, supera a tus enemigos,…">
   <title>RESONANCE: A PLAGUE TALE LEGACY — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="RESONANCE: A PLAGUE TALE LEGACY — 27 AGOSTO 2026">
   <meta property="og:description" content="Ponte en la piel de Sofía y vive la historia previa a la del galardonado A Plague Tale. Dirígete a la Isla del Minotauro, supera a tus enemigos,…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2713000/fd497979801c646561040243e1aa64a73d11f13a/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "RESONANCE: A PLAGUE TALE LEGACY", "url": "https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy.html", "description": "Ponte en la piel de Sofía y vive la historia previa a la del galardonado A Plague Tale. Dirígete a la Isla del Minotauro, supera a tus enemigos, descubre antiguos secretos y enfréntate a una criatura mítica en el corazón de una terrible maldición.", "datePublished": "2026-08-27", "gamePlatform": ["PS5", "XBOX"], "genre": ["AVENTURA", "ACCION"], "inLanguage": "es", "author": {"@type": "Organization", "name": "ASOBO STUDIO"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2713000/fd497979801c646561040243e1aa64a73d11f13a/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "RESONANCE: A PLAGUE TALE LEGACY", "url": "https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy", "description": "Ponte en la piel de Sofía y vive la historia previa a la del galardonado A Plague Tale. Dirígete a la Isla del Minotauro, supera a tus enemigos, descubre antiguos secretos y enfréntate a una criatura mítica en el corazón de una terrible maldición.", "datePublished": "2026-08-27", "gamePlatform": ["PS5", "XBOX"], "genre": ["AVENTURA", "ACCION"], "inLanguage": "es", "author": {"@type": "Organization", "name": "ASOBO STUDIO"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2713000/fd497979801c646561040243e1aa64a73d11f13a/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -186,7 +186,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -218,8 +218,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

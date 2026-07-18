@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="MARVEL TŌKON: FIGHTING SOULS — fecha de lanzamiento, plataformas, puntaje y trailer. Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel…">
   <title>MARVEL TŌKON: FIGHTING SOULS — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="MARVEL TŌKON: FIGHTING SOULS — 06 AGOSTO 2026">
   <meta property="og:description" content="Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "MARVEL TŌKON: FIGHTING SOULS", "url": "https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls.html", "description": "Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel Games.", "datePublished": "2026-08-06", "gamePlatform": ["PS5"], "genre": ["LUCHA", "ACCION", "ANIME"], "inLanguage": "es", "author": {"@type": "Organization", "name": "ARC SYSTEM WORKS CO., LTD"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "MARVEL TŌKON: FIGHTING SOULS", "url": "https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls", "description": "Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel Games.", "datePublished": "2026-08-06", "gamePlatform": ["PS5"], "genre": ["LUCHA", "ACCION", "ANIME"], "inLanguage": "es", "author": {"@type": "Organization", "name": "ARC SYSTEM WORKS CO., LTD"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -186,7 +186,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -218,8 +218,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

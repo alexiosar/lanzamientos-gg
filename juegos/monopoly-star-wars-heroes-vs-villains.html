@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="MONOPOLY: STAR WARS HEROES VS VILLAINS — fecha de lanzamiento, plataformas, puntaje y trailer. Monopoly: Star Wars Heroes vs. Villains, una versión dinámica y multijugador del juego de mesa familiar favorito de Hasbro, ofrece una experiencia de…">
   <title>MONOPOLY: STAR WARS HEROES VS VILLAINS — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/monopoly-star-wars-heroes-vs-villains.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/monopoly-star-wars-heroes-vs-villains">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="MONOPOLY: STAR WARS HEROES VS VILLAINS — 30 JUNIO 2026">
   <meta property="og:description" content="Monopoly: Star Wars Heroes vs. Villains, una versión dinámica y multijugador del juego de mesa familiar favorito de Hasbro, ofrece una experiencia de…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/monopoly-star-wars-heroes-vs-villains.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/monopoly-star-wars-heroes-vs-villains">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936610/4c994dffe6840c2ee0e653afe281685ae85db64c/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "MONOPOLY: STAR WARS HEROES VS VILLAINS", "url": "https://lanzamientos.lat/juegos/monopoly-star-wars-heroes-vs-villains.html", "description": "Monopoly: Star Wars Heroes vs. Villains, una versión dinámica y multijugador del juego de mesa familiar favorito de Hasbro, ofrece una experiencia de juego reinventada con momentos cinematográficos, casillas temáticas y elementos dinámicos que hacen que cada partida sea única. Forma equipos con los ", "datePublished": "2026-06-30", "gamePlatform": ["XBOX", "SWITCH 2", "PS5"], "genre": ["TABLERO"], "inLanguage": "es", "author": {"@type": "Organization", "name": "BEHAVIOUR INTERACTIVE"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936610/4c994dffe6840c2ee0e653afe281685ae85db64c/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "MONOPOLY: STAR WARS HEROES VS VILLAINS", "url": "https://lanzamientos.lat/juegos/monopoly-star-wars-heroes-vs-villains", "description": "Monopoly: Star Wars Heroes vs. Villains, una versión dinámica y multijugador del juego de mesa familiar favorito de Hasbro, ofrece una experiencia de juego reinventada con momentos cinematográficos, casillas temáticas y elementos dinámicos que hacen que cada partida sea única. Forma equipos con los ", "datePublished": "2026-06-30", "gamePlatform": ["XBOX", "SWITCH 2", "PS5"], "genre": ["TABLERO"], "inLanguage": "es", "author": {"@type": "Organization", "name": "BEHAVIOUR INTERACTIVE"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936610/4c994dffe6840c2ee0e653afe281685ae85db64c/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -190,7 +190,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -222,8 +222,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="CULTIC — fecha de lanzamiento, plataformas, puntaje y trailer. La muerte es solo el principio. Salí de tu tumba, equipate y abrite paso a los tiros entre las filas de un culto sanguinario en este shooter retro…">
   <title>CULTIC — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/cultic.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/cultic">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="CULTIC — 23 JULIO 2026">
   <meta property="og:description" content="La muerte es solo el principio. Salí de tu tumba, equipate y abrite paso a los tiros entre las filas de un culto sanguinario en este shooter retro…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/cultic.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/cultic">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1684930/library_600x900.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "CULTIC", "url": "https://lanzamientos.lat/juegos/cultic.html", "description": "La muerte es solo el principio. Salí de tu tumba, equipate y abrite paso a los tiros entre las filas de un culto sanguinario en este shooter retro inspirado en los clásicos de los 90. El aclamado FPS de estética old-school llega por fin a consolas.", "datePublished": "2026-07-23", "gamePlatform": ["PS5", "XBOX", "PS4"], "genre": ["SHOOTER", "FPS", "HORROR", "INDIE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "JASOZZ GAMES"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1684930/library_600x900.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "CULTIC", "url": "https://lanzamientos.lat/juegos/cultic", "description": "La muerte es solo el principio. Salí de tu tumba, equipate y abrite paso a los tiros entre las filas de un culto sanguinario en este shooter retro inspirado en los clásicos de los 90. El aclamado FPS de estética old-school llega por fin a consolas.", "datePublished": "2026-07-23", "gamePlatform": ["PS5", "XBOX", "PS4"], "genre": ["SHOOTER", "FPS", "HORROR", "INDIE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "JASOZZ GAMES"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1684930/library_600x900.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -181,7 +181,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -213,8 +213,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

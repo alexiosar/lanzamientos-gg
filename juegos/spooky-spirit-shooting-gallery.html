@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="SPOOKY SPIRIT SHOOTING GALLERY — fecha de lanzamiento, plataformas, puntaje y trailer. Galería de tiro arcade con fantasmas y yokais: apuntá y dispará a los espíritus traviesos en escenarios encantados. La edición de Switch 2 llega con…">
   <title>SPOOKY SPIRIT SHOOTING GALLERY — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/spooky-spirit-shooting-gallery.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/spooky-spirit-shooting-gallery">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="SPOOKY SPIRIT SHOOTING GALLERY — 06 AGOSTO 2026">
   <meta property="og:description" content="Galería de tiro arcade con fantasmas y yokais: apuntá y dispará a los espíritus traviesos en escenarios encantados. La edición de Switch 2 llega con…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/spooky-spirit-shooting-gallery.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/spooky-spirit-shooting-gallery">
   <meta property="og:image" content="https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_SpookySpiritShootingGallery_image500w.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "SPOOKY SPIRIT SHOOTING GALLERY", "url": "https://lanzamientos.lat/juegos/spooky-spirit-shooting-gallery.html", "description": "Galería de tiro arcade con fantasmas y yokais: apuntá y dispará a los espíritus traviesos en escenarios encantados. La edición de Switch 2 llega con controles de puntero mejorados.", "datePublished": "2026-08-06", "gamePlatform": ["SWITCH 2"], "genre": ["ARCADE", "SHOOTER", "CASUAL"], "inLanguage": "es", "author": {"@type": "Organization", "name": "FORTYFIVE"}, "image": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_SpookySpiritShootingGallery_image500w.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "SPOOKY SPIRIT SHOOTING GALLERY", "url": "https://lanzamientos.lat/juegos/spooky-spirit-shooting-gallery", "description": "Galería de tiro arcade con fantasmas y yokais: apuntá y dispará a los espíritus traviesos en escenarios encantados. La edición de Switch 2 llega con controles de puntero mejorados.", "datePublished": "2026-08-06", "gamePlatform": ["SWITCH 2"], "genre": ["ARCADE", "SHOOTER", "CASUAL"], "inLanguage": "es", "author": {"@type": "Organization", "name": "FORTYFIVE"}, "image": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_SpookySpiritShootingGallery_image500w.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -177,7 +177,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -209,8 +209,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

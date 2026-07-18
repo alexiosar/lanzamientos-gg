@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="AGGELOS 2 — fecha de lanzamiento, plataformas, puntaje y trailer. Los dioses de la luz están a punto de perder la gran batalla contra el Ejército de la Oscuridad, y el Aggelos debe aprender a aceptar su lado oscuro.…">
   <title>AGGELOS 2 — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/aggelos-2.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/aggelos-2">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="AGGELOS 2 — 27 AGOSTO 2026">
   <meta property="og:description" content="Los dioses de la luz están a punto de perder la gran batalla contra el Ejército de la Oscuridad, y el Aggelos debe aprender a aceptar su lado oscuro.…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/aggelos-2.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/aggelos-2">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864290/7232956a2bf056785a2e5ebf6685407da00361a9/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "AGGELOS 2", "url": "https://lanzamientos.lat/juegos/aggelos-2.html", "description": "Los dioses de la luz están a punto de perder la gran batalla contra el Ejército de la Oscuridad, y el Aggelos debe aprender a aceptar su lado oscuro. Explora dos reinos opuestos repletos de secretos, puzles e intensos combates 2D en este juego de plataformas y acción.", "datePublished": "2026-08-27", "gamePlatform": ["SWITCH 2", "XBOX"], "genre": ["AVENTURA", "PLATAFORMA", "RETRO"], "inLanguage": "es", "author": {"@type": "Organization", "name": "WONDERBOY BOBI"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864290/7232956a2bf056785a2e5ebf6685407da00361a9/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "AGGELOS 2", "url": "https://lanzamientos.lat/juegos/aggelos-2", "description": "Los dioses de la luz están a punto de perder la gran batalla contra el Ejército de la Oscuridad, y el Aggelos debe aprender a aceptar su lado oscuro. Explora dos reinos opuestos repletos de secretos, puzles e intensos combates 2D en este juego de plataformas y acción.", "datePublished": "2026-08-27", "gamePlatform": ["SWITCH 2", "XBOX"], "genre": ["AVENTURA", "PLATAFORMA", "RETRO"], "inLanguage": "es", "author": {"@type": "Organization", "name": "WONDERBOY BOBI"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864290/7232956a2bf056785a2e5ebf6685407da00361a9/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -176,7 +176,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -208,8 +208,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

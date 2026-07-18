@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="GUNVOLT CHRONICLES: LUMINOUS AVENGER IX 1+2 DUAL COLLECTION — fecha de lanzamiento, plataformas, puntaje y trailer. Esta colección reúne por primera vez los dos plataformeros de acción en 2D Gunvolt Chronicles: Luminous Avenger iX (2019) y su secuela Luminous…">
   <title>GUNVOLT CHRONICLES: LUMINOUS AVENGER IX 1+2 DUAL COLLECTION — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="GUNVOLT CHRONICLES: LUMINOUS AVENGER IX 1+2 DUAL COLLECTION — 09 JULIO 2026">
   <meta property="og:description" content="Esta colección reúne por primera vez los dos plataformeros de acción en 2D Gunvolt Chronicles: Luminous Avenger iX (2019) y su secuela Luminous…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282450/085d9a38c8482abfbbe1272818d50088b7cd644a/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "GUNVOLT CHRONICLES: LUMINOUS AVENGER IX 1+2 DUAL COLLECTION", "url": "https://lanzamientos.lat/juegos/gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection.html", "description": "Esta colección reúne por primera vez los dos plataformeros de acción en 2D Gunvolt Chronicles: Luminous Avenger iX (2019) y su secuela Luminous Avenger iX 2 (2022), junto con todo el contenido descargable publicado originalmente para ambos. Como novedad exclusiva de esta edición, el modo Batalla Int", "datePublished": "2026-07-09", "gamePlatform": ["SWITCH 2", "SWITCH", "PS5"], "genre": ["ACCION", "PLATAFORMA", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "INTI CREATES"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282450/085d9a38c8482abfbbe1272818d50088b7cd644a/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "GUNVOLT CHRONICLES: LUMINOUS AVENGER IX 1+2 DUAL COLLECTION", "url": "https://lanzamientos.lat/juegos/gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection", "description": "Esta colección reúne por primera vez los dos plataformeros de acción en 2D Gunvolt Chronicles: Luminous Avenger iX (2019) y su secuela Luminous Avenger iX 2 (2022), junto con todo el contenido descargable publicado originalmente para ambos. Como novedad exclusiva de esta edición, el modo Batalla Int", "datePublished": "2026-07-09", "gamePlatform": ["SWITCH 2", "SWITCH", "PS5"], "genre": ["ACCION", "PLATAFORMA", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "INTI CREATES"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282450/085d9a38c8482abfbbe1272818d50088b7cd644a/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -176,7 +176,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -208,8 +208,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

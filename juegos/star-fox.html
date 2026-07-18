@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="STAR FOX — fecha de lanzamiento, plataformas, puntaje y trailer. Star Fox es una aventura llena de acción basada en Star Fox 64 para Nintendo 64. Experimenta nuevos modos de juego (y redescubre los clásicos)…">
   <title>STAR FOX — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/star-fox.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/star-fox">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="STAR FOX — 25 JUNIO 2026">
   <meta property="og:description" content="Star Fox es una aventura llena de acción basada en Star Fox 64 para Nintendo 64. Experimenta nuevos modos de juego (y redescubre los clásicos)…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/star-fox.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/star-fox">
   <meta property="og:image" content="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starfox/1x1_Starfox_image500w.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "STAR FOX", "url": "https://lanzamientos.lat/juegos/star-fox.html", "description": "Star Fox es una aventura llena de acción basada en Star Fox 64 para Nintendo 64. Experimenta nuevos modos de juego (y redescubre los clásicos) mientras te embarcas en una peligrosa misión para salvar el Sistema Lylat, que ahora puedes explorar con mayor detalle gracias a una renovación visual comple", "datePublished": "2026-06-25", "gamePlatform": ["SWITCH 2"], "genre": ["AVENTURA", "ACCION", "SHOOTER"], "inLanguage": "es", "author": {"@type": "Organization", "name": "NINTENDO"}, "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starfox/1x1_Starfox_image500w.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "STAR FOX", "url": "https://lanzamientos.lat/juegos/star-fox", "description": "Star Fox es una aventura llena de acción basada en Star Fox 64 para Nintendo 64. Experimenta nuevos modos de juego (y redescubre los clásicos) mientras te embarcas en una peligrosa misión para salvar el Sistema Lylat, que ahora puedes explorar con mayor detalle gracias a una renovación visual comple", "datePublished": "2026-06-25", "gamePlatform": ["SWITCH 2"], "genre": ["AVENTURA", "ACCION", "SHOOTER"], "inLanguage": "es", "author": {"@type": "Organization", "name": "NINTENDO"}, "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starfox/1x1_Starfox_image500w.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -190,7 +190,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -222,8 +222,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

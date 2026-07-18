@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="DOOM: THE DARK AGES | REVELATIONS — fecha de lanzamiento, plataformas, puntaje y trailer. EL INFIERNO SE CONGELA en DOOM: The Dark Ages | Revelations. El Slayer solo podrá salir de un brutal purgatorio encontrando nuevas fuerzas. Con…">
   <title>DOOM: THE DARK AGES | REVELATIONS — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/doom-the-dark-ages-revelations.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/doom-the-dark-ages-revelations">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="DOOM: THE DARK AGES | REVELATIONS — 07 JULIO 2026">
   <meta property="og:description" content="EL INFIERNO SE CONGELA en DOOM: The Dark Ages | Revelations. El Slayer solo podrá salir de un brutal purgatorio encontrando nuevas fuerzas. Con…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/doom-the-dark-ages-revelations.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/doom-the-dark-ages-revelations">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469450/d6c6747deb3a3d20418c1f7a5b2de2304442badf/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "DOOM: THE DARK AGES | REVELATIONS", "url": "https://lanzamientos.lat/juegos/doom-the-dark-ages-revelations.html", "description": "EL INFIERNO SE CONGELA en DOOM: The Dark Ages | Revelations. El Slayer solo podrá salir de un brutal purgatorio encontrando nuevas fuerzas. Con niveles inéditos, nuevos demonios y la letal lanza de cadenas, también disponible en el Desgarratorio 3.0, esta expansión de la campaña abre una nueva dimen", "datePublished": "2026-07-07", "gamePlatform": ["PS5", "XBOX"], "genre": ["ACCION", "FPS", "SHOOTER"], "inLanguage": "es", "author": {"@type": "Organization", "name": "ID SOFTWARE"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469450/d6c6747deb3a3d20418c1f7a5b2de2304442badf/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "DOOM: THE DARK AGES | REVELATIONS", "url": "https://lanzamientos.lat/juegos/doom-the-dark-ages-revelations", "description": "EL INFIERNO SE CONGELA en DOOM: The Dark Ages | Revelations. El Slayer solo podrá salir de un brutal purgatorio encontrando nuevas fuerzas. Con niveles inéditos, nuevos demonios y la letal lanza de cadenas, también disponible en el Desgarratorio 3.0, esta expansión de la campaña abre una nueva dimen", "datePublished": "2026-07-07", "gamePlatform": ["PS5", "XBOX"], "genre": ["ACCION", "FPS", "SHOOTER"], "inLanguage": "es", "author": {"@type": "Organization", "name": "ID SOFTWARE"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469450/d6c6747deb3a3d20418c1f7a5b2de2304442badf/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -180,7 +180,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -212,8 +212,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

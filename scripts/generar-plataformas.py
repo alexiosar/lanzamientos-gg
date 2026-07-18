@@ -107,7 +107,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{e(descripcion)}">
   <title>Lanzamientos de {largo} {anio} — Calendario en Español | LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="{DOMINIO}/{archivo}">
+  <link rel="canonical" href="{DOMINIO}/{archivo.replace(".html", "")}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -116,7 +116,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="Lanzamientos de {largo} {anio} — Calendario en Español">
   <meta property="og:description" content="{e(descripcion)}">
-  <meta property="og:url" content="{DOMINIO}/{archivo}">
+  <meta property="og:url" content="{DOMINIO}/{archivo.replace(".html", "")}">
   <meta property="og:image" content="{DOMINIO}/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="css/style.css">

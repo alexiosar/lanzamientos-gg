@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="MOSS: THE FORGOTTEN RELIC — fecha de lanzamiento, plataformas, puntaje y trailer. Moss: The Forgotten Relic es una aventura atmosférica cargada de emoción ambientada en las páginas de un libro de cuentos viviente, rebosante de…">
   <title>MOSS: THE FORGOTTEN RELIC — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/moss-the-forgotten-relic.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/moss-the-forgotten-relic">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="MOSS: THE FORGOTTEN RELIC — 16 JULIO 2026">
   <meta property="og:description" content="Moss: The Forgotten Relic es una aventura atmosférica cargada de emoción ambientada en las páginas de un libro de cuentos viviente, rebosante de…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/moss-the-forgotten-relic.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/moss-the-forgotten-relic">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3914860/0559b495ccbdcca5ff81fdd0b3e06db05c3c3a8e/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "MOSS: THE FORGOTTEN RELIC", "url": "https://lanzamientos.lat/juegos/moss-the-forgotten-relic.html", "description": "Moss: The Forgotten Relic es una aventura atmosférica cargada de emoción ambientada en las páginas de un libro de cuentos viviente, rebosante de mitos y magia ancestral. Guía a Quill, una pequeña pero decidida heroína, en una conmovedora aventura de desafíos, coraje y conexión. Es la primera entrega", "datePublished": "2026-07-16", "gamePlatform": ["PS5", "XBOX", "SWITCH 2", "SWITCH"], "genre": ["AVENTURA", "ACCION", "INDIE", "PLATAFORMA", "PUZZLE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "POLYARC"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3914860/0559b495ccbdcca5ff81fdd0b3e06db05c3c3a8e/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "MOSS: THE FORGOTTEN RELIC", "url": "https://lanzamientos.lat/juegos/moss-the-forgotten-relic", "description": "Moss: The Forgotten Relic es una aventura atmosférica cargada de emoción ambientada en las páginas de un libro de cuentos viviente, rebosante de mitos y magia ancestral. Guía a Quill, una pequeña pero decidida heroína, en una conmovedora aventura de desafíos, coraje y conexión. Es la primera entrega", "datePublished": "2026-07-16", "gamePlatform": ["PS5", "XBOX", "SWITCH 2", "SWITCH"], "genre": ["AVENTURA", "ACCION", "INDIE", "PLATAFORMA", "PUZZLE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "POLYARC"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3914860/0559b495ccbdcca5ff81fdd0b3e06db05c3c3a8e/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -180,7 +180,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -212,8 +212,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

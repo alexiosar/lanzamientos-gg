@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="KALANORO — fecha de lanzamiento, plataformas, puntaje y trailer. ¡Crea un grupo de música con lémures locos y salva a tu isla de una bruja malvada en Kalanoro, una oda al folclore de Madagascar y a su espectacular…">
   <title>KALANORO — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/kalanoro.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/kalanoro">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="KALANORO — 27 AGOSTO 2026">
   <meta property="og:description" content="¡Crea un grupo de música con lémures locos y salva a tu isla de una bruja malvada en Kalanoro, una oda al folclore de Madagascar y a su espectacular…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/kalanoro.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/kalanoro">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/e344d3d0514147e82f1fee043f7439523feffba6/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "KALANORO", "url": "https://lanzamientos.lat/juegos/kalanoro.html", "description": "¡Crea un grupo de música con lémures locos y salva a tu isla de una bruja malvada en Kalanoro, una oda al folclore de Madagascar y a su espectacular arte! Únete a este viaje para descubrir el colorido mundo de Lemuria, rescatar a lémures artistas y derrotar a la bruja Raneny gracias a la música.", "datePublished": "2026-08-27", "gamePlatform": ["PS5", "XBOX"], "genre": ["ACCION", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "RED RAKETA STUDIO"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/e344d3d0514147e82f1fee043f7439523feffba6/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "KALANORO", "url": "https://lanzamientos.lat/juegos/kalanoro", "description": "¡Crea un grupo de música con lémures locos y salva a tu isla de una bruja malvada en Kalanoro, una oda al folclore de Madagascar y a su espectacular arte! Únete a este viaje para descubrir el colorido mundo de Lemuria, rescatar a lémures artistas y derrotar a la bruja Raneny gracias a la música.", "datePublished": "2026-08-27", "gamePlatform": ["PS5", "XBOX"], "genre": ["ACCION", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "RED RAKETA STUDIO"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/e344d3d0514147e82f1fee043f7439523feffba6/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -176,7 +176,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -208,8 +208,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

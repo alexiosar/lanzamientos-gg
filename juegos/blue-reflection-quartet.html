@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="BLUE REFLECTION QUARTET — fecha de lanzamiento, plataformas, puntaje y trailer. El cosmos converge, formando una luz. Vive las emotivas historias de las mágicas Reflectors y los vínculos que forman. ¡Toda la serie BLUE REFLECTION…">
   <title>BLUE REFLECTION QUARTET — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/blue-reflection-quartet.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/blue-reflection-quartet">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="BLUE REFLECTION QUARTET — 30 JULIO 2026">
   <meta property="og:description" content="El cosmos converge, formando una luz. Vive las emotivas historias de las mágicas Reflectors y los vínculos que forman. ¡Toda la serie BLUE REFLECTION…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/blue-reflection-quartet.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/blue-reflection-quartet">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3825390/9a5bc55299ab11f82ef6187b9d9fd452d7cad8ed/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "BLUE REFLECTION QUARTET", "url": "https://lanzamientos.lat/juegos/blue-reflection-quartet.html", "description": "El cosmos converge, formando una luz. Vive las emotivas historias de las mágicas Reflectors y los vínculos que forman. ¡Toda la serie BLUE REFLECTION en un sitio!", "datePublished": "2026-07-30", "gamePlatform": ["SWITCH", "PS5", "SWITCH 2"], "genre": ["RPG", "ANIME", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "KOEI TECMO GAMES CO., LTD."}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3825390/9a5bc55299ab11f82ef6187b9d9fd452d7cad8ed/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "BLUE REFLECTION QUARTET", "url": "https://lanzamientos.lat/juegos/blue-reflection-quartet", "description": "El cosmos converge, formando una luz. Vive las emotivas historias de las mágicas Reflectors y los vínculos que forman. ¡Toda la serie BLUE REFLECTION en un sitio!", "datePublished": "2026-07-30", "gamePlatform": ["SWITCH", "PS5", "SWITCH 2"], "genre": ["RPG", "ANIME", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "KOEI TECMO GAMES CO., LTD."}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3825390/9a5bc55299ab11f82ef6187b9d9fd452d7cad8ed/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -176,7 +176,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -208,8 +208,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

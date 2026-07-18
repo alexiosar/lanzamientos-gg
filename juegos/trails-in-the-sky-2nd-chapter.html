@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="TRAILS IN THE SKY 2ND CHAPTER — fecha de lanzamiento, plataformas, puntaje y trailer. ¡Descubre el interesantísimo segundo capítulo de la legendaria saga Trails de Nihon Falcom! Estelle Bright emprende un nuevo viaje por Liberl para…">
   <title>TRAILS IN THE SKY 2ND CHAPTER — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="TRAILS IN THE SKY 2ND CHAPTER — 17 SEPTIEMBRE 2026">
   <meta property="og:description" content="¡Descubre el interesantísimo segundo capítulo de la legendaria saga Trails de Nihon Falcom! Estelle Bright emprende un nuevo viaje por Liberl para…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4225980/4d0a1769f70fbdd8d1d84d0ce06c21bb5c2d0790/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "TRAILS IN THE SKY 2ND CHAPTER", "url": "https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter.html", "description": "¡Descubre el interesantísimo segundo capítulo de la legendaria saga Trails de Nihon Falcom! Estelle Bright emprende un nuevo viaje por Liberl para descubrir la verdad que se oculta tras la desaparición de Joshua y derrotar a la siniestra organización Uroboros.", "datePublished": "2026-09-17", "gamePlatform": ["SWITCH 2", "SWITCH", "PS5"], "genre": ["RPG", "POR TURNOS"], "inLanguage": "es", "author": {"@type": "Organization", "name": "NIHON FALCOM"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4225980/4d0a1769f70fbdd8d1d84d0ce06c21bb5c2d0790/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "TRAILS IN THE SKY 2ND CHAPTER", "url": "https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter", "description": "¡Descubre el interesantísimo segundo capítulo de la legendaria saga Trails de Nihon Falcom! Estelle Bright emprende un nuevo viaje por Liberl para descubrir la verdad que se oculta tras la desaparición de Joshua y derrotar a la siniestra organización Uroboros.", "datePublished": "2026-09-17", "gamePlatform": ["SWITCH 2", "SWITCH", "PS5"], "genre": ["RPG", "POR TURNOS"], "inLanguage": "es", "author": {"@type": "Organization", "name": "NIHON FALCOM"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4225980/4d0a1769f70fbdd8d1d84d0ce06c21bb5c2d0790/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -176,7 +176,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -208,8 +208,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

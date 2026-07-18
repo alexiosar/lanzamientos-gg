@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="BACKYARD BASEBALL — fecha de lanzamiento, plataformas, puntaje y trailer. El clásico de patio trasero vuelve reinventado con nuevos modos de juego, formas de jugar y logros para desbloquear. Esta versión combina la esencia…">
   <title>BACKYARD BASEBALL — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/backyard-baseball.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/backyard-baseball">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="BACKYARD BASEBALL — 09 JULIO 2026">
   <meta property="og:description" content="El clásico de patio trasero vuelve reinventado con nuevos modos de juego, formas de jugar y logros para desbloquear. Esta versión combina la esencia…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/backyard-baseball.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/backyard-baseball">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935020/10ae84de59688050a1140103c1ecdbf987d8aeea/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "BACKYARD BASEBALL", "url": "https://lanzamientos.lat/juegos/backyard-baseball.html", "description": "El clásico de patio trasero vuelve reinventado con nuevos modos de juego, formas de jugar y logros para desbloquear. Esta versión combina la esencia arcade y el carisma que hicieron legendario al Backyard Baseball original con mejoras propias de la era actual: 11 estadios remasterizados, 24 equipos ", "datePublished": "2026-07-09", "gamePlatform": ["XBOX", "SWITCH", "PS5"], "genre": ["DEPORTES", "INDIE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "MEGA CAT STUDIOS"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935020/10ae84de59688050a1140103c1ecdbf987d8aeea/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "BACKYARD BASEBALL", "url": "https://lanzamientos.lat/juegos/backyard-baseball", "description": "El clásico de patio trasero vuelve reinventado con nuevos modos de juego, formas de jugar y logros para desbloquear. Esta versión combina la esencia arcade y el carisma que hicieron legendario al Backyard Baseball original con mejoras propias de la era actual: 11 estadios remasterizados, 24 equipos ", "datePublished": "2026-07-09", "gamePlatform": ["XBOX", "SWITCH", "PS5"], "genre": ["DEPORTES", "INDIE"], "inLanguage": "es", "author": {"@type": "Organization", "name": "MEGA CAT STUDIOS"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935020/10ae84de59688050a1140103c1ecdbf987d8aeea/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -176,7 +176,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -208,8 +208,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

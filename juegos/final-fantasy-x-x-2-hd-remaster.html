@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="FINAL FANTASY X/X-2 HD REMASTER — fecha de lanzamiento, plataformas, puntaje y trailer. Las aventuras de Tidus y Yuna en Spira llegan a Switch 2: la remasterización en HD de dos de los RPG más queridos de Square Enix, ahora con mejoras…">
   <title>FINAL FANTASY X/X-2 HD REMASTER — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/final-fantasy-x-x-2-hd-remaster.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/final-fantasy-x-x-2-hd-remaster">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="FINAL FANTASY X/X-2 HD REMASTER — 23 JULIO 2026">
   <meta property="og:description" content="Las aventuras de Tidus y Yuna en Spira llegan a Switch 2: la remasterización en HD de dos de los RPG más queridos de Square Enix, ahora con mejoras…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/final-fantasy-x-x-2-hd-remaster.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/final-fantasy-x-x-2-hd-remaster">
   <meta property="og:image" content="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxx2hdremaster/1x1_FinalFantasyXX2HDRemaster_image500w.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "FINAL FANTASY X/X-2 HD REMASTER", "url": "https://lanzamientos.lat/juegos/final-fantasy-x-x-2-hd-remaster.html", "description": "Las aventuras de Tidus y Yuna en Spira llegan a Switch 2: la remasterización en HD de dos de los RPG más queridos de Square Enix, ahora con mejoras para la nueva consola.", "datePublished": "2026-07-23", "gamePlatform": ["SWITCH 2"], "genre": ["RPG", "POR TURNOS", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "SQUARE ENIX"}, "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxx2hdremaster/1x1_FinalFantasyXX2HDRemaster_image500w.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "FINAL FANTASY X/X-2 HD REMASTER", "url": "https://lanzamientos.lat/juegos/final-fantasy-x-x-2-hd-remaster", "description": "Las aventuras de Tidus y Yuna en Spira llegan a Switch 2: la remasterización en HD de dos de los RPG más queridos de Square Enix, ahora con mejoras para la nueva consola.", "datePublished": "2026-07-23", "gamePlatform": ["SWITCH 2"], "genre": ["RPG", "POR TURNOS", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "SQUARE ENIX"}, "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxx2hdremaster/1x1_FinalFantasyXX2HDRemaster_image500w.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -181,7 +181,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -213,8 +213,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

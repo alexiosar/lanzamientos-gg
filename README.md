@@ -201,6 +201,16 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
   Para ver los datos detectados usar validator.schema.org con la URL de la portada.
 - Tras un deploy con juegos nuevos: Search Console → Sitemaps → enviar `sitemap.xml`.
 
+## URLs limpias (importante)
+
+Cloudflare redirige automáticamente las URLs `.html` a versiones sin extensión
+(`/ps5.html` → 307 → `/ps5`). Por eso **todo lo que ve Google usa URLs limpias**:
+sitemap, canonicals, og:url, JSON-LD y los links de compartir/agendar. Los links
+internos relativos del sitio sí usan `.html` (para que funcionen en el servidor de
+desarrollo local, que no redirige); en producción Cloudflare los resuelve con una
+redirección invisible. No volver a poner URLs `.html` en el sitemap ni en canonicals:
+generan el aviso "Página con redirección" en Search Console.
+
 ## Deploy
 
 Cloudflare (Wrangler) con `wrangler.jsonc`: sube toda la carpeta como assets estáticos.

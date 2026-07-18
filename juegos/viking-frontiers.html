@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="VIKING FRONTIERS — fecha de lanzamiento, plataformas, puntaje y trailer. La supervivencia de tu gente: eso es lo único que importa. Conviértete en el líder de un asentamiento vikingo y guíalo hacia la seguridad y la…">
   <title>VIKING FRONTIERS — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/viking-frontiers.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/viking-frontiers">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="VIKING FRONTIERS — 09 JULIO 2026">
   <meta property="og:description" content="La supervivencia de tu gente: eso es lo único que importa. Conviértete en el líder de un asentamiento vikingo y guíalo hacia la seguridad y la…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/viking-frontiers.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/viking-frontiers">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304430/library_600x900.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "VIKING FRONTIERS", "url": "https://lanzamientos.lat/juegos/viking-frontiers.html", "description": "La supervivencia de tu gente: eso es lo único que importa. Conviértete en el líder de un asentamiento vikingo y guíalo hacia la seguridad y la gloria. Reúne, construye, fabrica, caza, saquea y sigue a tus dioses para soportar las dificultades de la naturaleza y salvar a tu clan de la destrucción.", "datePublished": "2026-07-09", "gamePlatform": ["XBOX", "PS5"], "genre": ["SUPERVIVENCIA", "ESTRATEGIA", "SIMULACION", "RPG"], "inLanguage": "es", "author": {"@type": "Organization", "name": "BLUM ENTERTAINMENT"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304430/library_600x900.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "VIKING FRONTIERS", "url": "https://lanzamientos.lat/juegos/viking-frontiers", "description": "La supervivencia de tu gente: eso es lo único que importa. Conviértete en el líder de un asentamiento vikingo y guíalo hacia la seguridad y la gloria. Reúne, construye, fabrica, caza, saquea y sigue a tus dioses para soportar las dificultades de la naturaleza y salvar a tu clan de la destrucción.", "datePublished": "2026-07-09", "gamePlatform": ["XBOX", "PS5"], "genre": ["SUPERVIVENCIA", "ESTRATEGIA", "SIMULACION", "RPG"], "inLanguage": "es", "author": {"@type": "Organization", "name": "BLUM ENTERTAINMENT"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304430/library_600x900.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -177,7 +177,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -209,8 +209,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

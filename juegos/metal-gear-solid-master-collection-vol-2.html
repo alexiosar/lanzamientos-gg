@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="METAL GEAR SOLID: MASTER COLLECTION VOL. 2 — fecha de lanzamiento, plataformas, puntaje y trailer. Esta segunda entrega de la colección incluye &amp;quot;Metal Gear Solid 4: Guns of the Patriots&amp;quot; y &amp;quot;Metal Gear Solid: Peace Walker (HD…">
   <title>METAL GEAR SOLID: MASTER COLLECTION VOL. 2 — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="METAL GEAR SOLID: MASTER COLLECTION VOL. 2 — 27 AGOSTO 2026">
   <meta property="og:description" content="Esta segunda entrega de la colección incluye &amp;quot;Metal Gear Solid 4: Guns of the Patriots&amp;quot; y &amp;quot;Metal Gear Solid: Peace Walker (HD…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859630/31d5f5ef4a143bf915429e307f37cab6e2939678/header.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "METAL GEAR SOLID: MASTER COLLECTION VOL. 2", "url": "https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2.html", "description": "Esta segunda entrega de la colección incluye &quot;Metal Gear Solid 4: Guns of the Patriots&quot; y &quot;Metal Gear Solid: Peace Walker (HD Collection version)&quot;, así como una banda sonora digital y &quot;Metal Gear: Ghost Babel&quot; como contenido extra.", "datePublished": "2026-08-27", "gamePlatform": ["XBOX", "SWITCH"], "genre": ["ACCION", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "KONAMI"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859630/31d5f5ef4a143bf915429e307f37cab6e2939678/header.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "METAL GEAR SOLID: MASTER COLLECTION VOL. 2", "url": "https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2", "description": "Esta segunda entrega de la colección incluye &quot;Metal Gear Solid 4: Guns of the Patriots&quot; y &quot;Metal Gear Solid: Peace Walker (HD Collection version)&quot;, así como una banda sonora digital y &quot;Metal Gear: Ghost Babel&quot; como contenido extra.", "datePublished": "2026-08-27", "gamePlatform": ["XBOX", "SWITCH"], "genre": ["ACCION", "AVENTURA"], "inLanguage": "es", "author": {"@type": "Organization", "name": "KONAMI"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859630/31d5f5ef4a143bf915429e307f37cab6e2939678/header.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -176,7 +176,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -208,8 +208,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

@@ -23,7 +23,7 @@ urls = [f"""  <url>
   </url>"""]
 
 # páginas de plataforma (SEO: "lanzamientos ps5", etc.)
-for pagina in ["ps5.html", "ps4.html", "xbox.html", "switch-2.html", "switch.html"]:
+for pagina in ["ps5", "ps4", "xbox", "switch-2", "switch"]:
     urls.append(f"""  <url>
     <loc>{DOMINIO}/{pagina}</loc>
     <changefreq>daily</changefreq>
@@ -31,7 +31,7 @@ for pagina in ["ps5.html", "ps4.html", "xbox.html", "switch-2.html", "switch.htm
   </url>""")
 
 # páginas estáticas
-for pagina in ["acerca.html", "privacidad.html", "terminos.html", "archivo.html"]:
+for pagina in ["acerca", "privacidad", "terminos", "archivo"]:
     urls.append(f"""  <url>
     <loc>{DOMINIO}/{pagina}</loc>
     <changefreq>monthly</changefreq>
@@ -40,7 +40,7 @@ for pagina in ["acerca.html", "privacidad.html", "terminos.html", "archivo.html"
 
 for i in ids:
     urls.append(f"""  <url>
-    <loc>{DOMINIO}/juegos/{i}.html</loc>
+    <loc>{DOMINIO}/juegos/{i}</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>""")

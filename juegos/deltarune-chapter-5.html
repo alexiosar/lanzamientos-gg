@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="DELTARUNE: CHAPTER 5 — fecha de lanzamiento, plataformas, puntaje y trailer. ¡Sumérgete en la historia paralela de UNDERTALE! Lucha o perdona en batallas llenas de acción mientras exploras un mundo misterioso junto a un…">
   <title>DELTARUNE: CHAPTER 5 — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/deltarune-chapter-5.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/deltarune-chapter-5">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="DELTARUNE: CHAPTER 5 — 24 JUNIO 2026">
   <meta property="og:description" content="¡Sumérgete en la historia paralela de UNDERTALE! Lucha o perdona en batallas llenas de acción mientras exploras un mundo misterioso junto a un…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/deltarune-chapter-5.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/deltarune-chapter-5">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/library_600x900.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "DELTARUNE: CHAPTER 5", "url": "https://lanzamientos.lat/juegos/deltarune-chapter-5.html", "description": "¡Sumérgete en la historia paralela de UNDERTALE! Lucha o perdona en batallas llenas de acción mientras exploras un mundo misterioso junto a un entrañable elenco de personajes nuevos y conocidos.", "datePublished": "2026-06-24", "gamePlatform": ["SWITCH 2", "PS5"], "genre": ["INDIE", "RPG"], "inLanguage": "es", "author": {"@type": "Organization", "name": "FANGAMER"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/library_600x900.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "DELTARUNE: CHAPTER 5", "url": "https://lanzamientos.lat/juegos/deltarune-chapter-5", "description": "¡Sumérgete en la historia paralela de UNDERTALE! Lucha o perdona en batallas llenas de acción mientras exploras un mundo misterioso junto a un entrañable elenco de personajes nuevos y conocidos.", "datePublished": "2026-06-24", "gamePlatform": ["SWITCH 2", "PS5"], "genre": ["INDIE", "RPG"], "inLanguage": "es", "author": {"@type": "Organization", "name": "FANGAMER"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1671210/library_600x900.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -197,7 +197,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -229,8 +229,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });

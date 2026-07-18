@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="PANZER KNIGHTS: COMMANDER&#x27;S EDITION — fecha de lanzamiento, plataformas, puntaje y trailer. Lidera un pelotón alemán de pánzers en la II Guerra Mundial en esta intensa simulación de tanques de inspiración anime. Reúne una tripulación de…">
   <title>PANZER KNIGHTS: COMMANDER&#x27;S EDITION — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="https://lanzamientos.lat/juegos/panzer-knights-commanders-edition.html">
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/panzer-knights-commanders-edition">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -15,12 +15,12 @@
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="PANZER KNIGHTS: COMMANDER&#x27;S EDITION — 13 AGOSTO 2026">
   <meta property="og:description" content="Lidera un pelotón alemán de pánzers en la II Guerra Mundial en esta intensa simulación de tanques de inspiración anime. Reúne una tripulación de…">
-  <meta property="og:url" content="https://lanzamientos.lat/juegos/panzer-knights-commanders-edition.html">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/panzer-knights-commanders-edition">
   <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1416230/library_600x900.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary_large_image">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "PANZER KNIGHTS: COMMANDER'S EDITION", "url": "https://lanzamientos.lat/juegos/panzer-knights-commanders-edition.html", "description": "Lidera un pelotón alemán de pánzers en la II Guerra Mundial en esta intensa simulación de tanques de inspiración anime. Reúne una tripulación de élite, despliega tanques legendarios y sobrevive a enfrentamientos en los que la astucia y la habilidad deciden al vencedor. La Commander's Edition trae el", "datePublished": "2026-08-13", "gamePlatform": ["PS5", "XBOX"], "genre": ["ACCION", "SIMULACION", "WWII"], "inLanguage": "es", "author": {"@type": "Organization", "name": "樂磚JOY BRICK"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1416230/library_600x900.jpg"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "PANZER KNIGHTS: COMMANDER'S EDITION", "url": "https://lanzamientos.lat/juegos/panzer-knights-commanders-edition", "description": "Lidera un pelotón alemán de pánzers en la II Guerra Mundial en esta intensa simulación de tanques de inspiración anime. Reúne una tripulación de élite, despliega tanques legendarios y sobrevive a enfrentamientos en los que la astucia y la habilidad deciden al vencedor. La Commander's Edition trae el", "datePublished": "2026-08-13", "gamePlatform": ["PS5", "XBOX"], "genre": ["ACCION", "SIMULACION", "WWII"], "inLanguage": "es", "author": {"@type": "Organization", "name": "樂磚JOY BRICK"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1416230/library_600x900.jpg"}</script>
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
@@ -177,7 +177,7 @@
     function compartirJuego(id) {
       const j = JUEGOS.find(x => x.id === id);
       if (!j) return;
-      const url = `https://lanzamientos.lat/juegos/${id}.html`;
+      const url = `https://lanzamientos.lat/juegos/${id}`;
       if (navigator.share) {
         navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
       } else {
@@ -209,8 +209,8 @@
         `DTSTART;VALUE=DATE:${inicio}`,
         `DTEND;VALUE=DATE:${finStr}`,
         `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}.html`)}`,
-        `URL:https://lanzamientos.lat/juegos/${j.id}.html`,
+        `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(etiqueta).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
+        `URL:https://lanzamientos.lat/juegos/${j.id}`,
         "END:VEVENT", "END:VCALENDAR"
       ].join("\r\n");
       const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
