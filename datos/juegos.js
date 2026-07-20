@@ -1107,6 +1107,11 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
 noticias: [
       {
+        fecha: "2026-07-20",
+        titulo: "#1 EN LA ESHOP ANTES DE SALIR",
+        texto: "Con las precargas abiertas, el spin-off ya lidera la tabla de ventas de la eShop de Switch 2 a tres días del lanzamiento. La prensa lo compara con un looter-shooter estilo Destiny, pero de tinta."
+      },
+      {
         fecha: "2026-07-10",
         titulo: "LAS PREVIEWS FINALES SON MUY POSITIVAS",
         texto: "Tras el Splatoon Raiders Direct, la prensa elogia el spin-off: shooter de plataformas en tercera persona con estructura roguelite, caza de tesoros junto al trío Deep Cut y cooperativo para hasta 4 jugadores. Varios críticos creen que la saga por fin encontró su potencial para un jugador."
