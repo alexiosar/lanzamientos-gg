@@ -525,8 +525,15 @@ const JUEGOS = [
     desarrollador: "MEGA CAT STUDIOS",
     descripcion: "El clásico de patio trasero vuelve reinventado con nuevos modos de juego, formas de jugar y logros para desbloquear. Esta versión combina la esencia arcade y el carisma que hicieron legendario al Backyard Baseball original con mejoras propias de la era actual: 11 estadios remasterizados, 24 equipos originales para elegir y 6 modos de juego distintos, todo protagonizado por un plantel de 30 queridos personajes del universo Backyard.",
     trailer: "https://youtube.com/embed/8-Lnz5UQX4c",
-    metacritic: null,
+    metacritic: 57,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935020/10ae84de59688050a1140103c1ecdbf987d8aeea/header.jpg",
+noticias: [
+      {
+        fecha: "2026-07-21",
+        titulo: "LA CRÍTICA NO PERDONA: 57 EN METACRITIC",
+        texto: "El regreso del clásico de béisbol de patio se quedó corto: es el puntaje más bajo del calendario, con reparos a la falta de contenido frente al original."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -883,7 +890,7 @@ noticias: [
   {
     id: "puppergeist",
     titulo: "PUPPERGEIST",
-    fecha: "2026-07-16",
+    fecha: "2026-08-20",
     plataformas: ["XBOX", "SWITCH"],
     genero: ["MUSICA", "AVENTURA", "INDIE"],
     desarrollador: "SERENITY FORGE",
@@ -891,6 +898,13 @@ noticias: [
     trailer: "https://youtube.com/embed/mGQ_sVCc1_c",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029740/61bd4edcfe96b8f158100a92fb2b11d9778fd24a/header.jpg",
+noticias: [
+      {
+        fecha: "2026-07-21",
+        titulo: "RETRASADO AL 20 DE AGOSTO",
+        texto: "La novela visual rítmica del inframundo canino movió su lanzamiento del 16 de julio al 20 de agosto."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1088,8 +1102,15 @@ noticias: [
     desarrollador: "MIJU GAMES",
     descripcion: "Un juego de supervivencia espacial y terraformación, diseñado para entre 1 y 10 jugadores. Altera el ecosistema de un planeta inhóspito para que sea habitable para la humanidad. Sobrevive, obtén recursos y monta tu base. Luego, genera oxígeno, calor y presión para crear una nueva biosfera.",
     trailer: "https://youtube.com/embed/2AxSBrHMMt0",
-    metacritic: null,
+    metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-21",
+        titulo: "LLEGA A CONSOLAS CON 81 EN METACRITIC",
+        texto: "El simulador de terraformación debutó hoy en PS5 y Xbox con excelentes críticas: la versión de consola mantiene el nivel del aclamado original de PC."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1625,15 +1646,22 @@ noticias: [
   {
     id: "the-king-is-watching",
     titulo: "THE KING IS WATCHING",
-    fecha: "2026-07-21",
+    fecha: "2026-07-29",
     relanzamiento: "En PC desde 2025",
     plataformas: ["PS5", "XBOX", "SWITCH"],
     genero: ["INDIE", "ESTRATEGIA"],
     desarrollador: "HYPNOHEAD",
     descripcion: "The King is Watching es un constructor de reinos roguelite. ¡Gobierna con el poder de tu mirada real! Decide entre generar recursos, entrenar ejércitos o dividir tus esfuerzos entre ambos para adaptarte a los eventos de cada partida.",
     trailer: "https://youtube.com/embed/CZXjQRcu2B8",
-    metacritic: null,
+    metacritic: 80,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753900/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-21",
+        titulo: "SU DEBUT EN CONSOLAS SE MOVIÓ AL 29",
+        texto: "El port a PS5, Xbox y Switch se retrasó una semana, del 21 al 29 de julio. El original de PC promedia 80 en Metacritic."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1898,7 +1926,7 @@ noticias: [
     id: "defender-of-the-crown-the-legend-returns",
     titulo: "DEFENDER OF THE CROWN: THE LEGEND RETURNS",
     fecha: "2026-08-13",
-    plataformas: ["XBOX", "PS5"],
+    plataformas: ["XBOX", "PS5", "SWITCH"],
     genero: ["ESTRATEGIA", "RETRO"],
     desarrollador: "BLACK TOWER BASEMENT",
     descripcion: "Defender of the Crown ha vuelto, mejorado para una nueva generación de caballeros. Conquista territorios, recluta ejércitos, asalta castillos, influye en el equilibrio del poder y supera a los señores rivales para unir al reino bajo tu estandarte.",
@@ -2347,7 +2375,7 @@ noticias: [
     descripcion: "La línea Saturn Tribute de City Connection rescata el Culdcept original de Sega Saturn: el clásico que fusionó los juegos de mesa y de cartas, con las comodidades modernas de las reediciones del estudio (rebobinado, guardado rápido y opciones de dificultad).",
     trailer: "https://youtube.com/embed/dCRqeEyaQCo",
     metacritic: null,
-    imagen: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3825600/058ef0f166d563386455044c10c2bba3a5dc9842/header.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -2501,7 +2529,7 @@ noticias: [
     descripcion: "La nueva entrega de la legendaria saga de estrategia táctica de Intelligent Systems, primera pensada para Switch 2: batallas por turnos en cuadrícula, unidades irremplazables y los vínculos entre personajes que definen a Fire Emblem.",
     trailer: "https://youtube.com/embed/Rl5_C4sc5zk",
     metacritic: null,
-    imagen: null,
+    imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fireemblemfortunesweave/1x1_NSwitch2_FireEmblemFortunesWeave_image500w.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -2576,7 +2604,7 @@ noticias: [
     descripcion: "TT Games vuelve a Gotham: una nueva aventura LEGO protagonizada por Batman que repasa el legado del Caballero Oscuro, con el humor y el cooperativo característicos de la saga.",
     trailer: "https://youtube.com/embed/DfJaUpW_P00",
     metacritic: null,
-    imagen: null,
+    imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/legobatmanlegacyofthedarkknight/1x1_LegoBatmanLegacyOfTheDarkKnight_image500w.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -2808,6 +2836,162 @@ noticias: [
     trailer: "https://youtube.com/embed/O5iMN1eKccY",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2769080/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "star-ocean-the-second-story-r",
+    titulo: "STAR OCEAN: THE SECOND STORY R",
+    fecha: "2026-07-16",
+    relanzamiento: "En PS5, PS4, Switch y PC desde 2023 — esta fecha corresponde a la edición de Switch 2",
+    plataformas: ["SWITCH2"],
+    genero: ["RPG", "ACCION", "AVENTURA"],
+    desarrollador: "SQUARE ENIX",
+    descripcion: "En este RPG de fantasía y ciencia ficción podrás elegir entre Claude y Rena, jugar desde sus puntos de vista y vivir su historia con el elegante remake 2.5D del clásico de PlayStation.",
+    trailer: "https://youtube.com/embed/9hSoFKn8cTk",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2238900/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "quarantine-zone-the-last-check",
+    titulo: "QUARANTINE ZONE: THE LAST CHECK",
+    fecha: "2026-07-16",
+    relanzamiento: "En PC desde enero de 2026",
+    plataformas: ["XBOX"],
+    genero: ["SIMULACION", "ESTRATEGIA", "HORROR"],
+    desarrollador: "BRIGADA GAMES",
+    descripcion: "Toma el mando del puesto de control de una ciudad en decadencia. Criba a los supervivientes, raciona recursos y decidí quién entra y quién queda afuera cuando cada elección puede costar vidas.",
+    trailer: "https://youtube.com/embed/izrs0wg_30Y",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "console-archives-hercules-no-eikou-ii",
+    titulo: "CONSOLE ARCHIVES: HERCULES NO EIKOU II",
+    fecha: "2026-07-16",
+    plataformas: ["SWITCH2", "PS5"],
+    genero: ["RPG", "POR TURNOS", "RETRO"],
+    desarrollador: "CONSOLE ARCHIVES",
+    descripcion: "La línea Console Archives reedita Hercules no Eikou II: Taitan no Metsubou, clásico RPG japonés de NES (1991) de la saga conocida como Glory of Heracles, en consolas actuales.",
+    trailer: "https://youtube.com/embed/YGd4xO3sgeg",
+    metacritic: null,
+    imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesherculesnoeikouiitaitannometsubou/1x1_ConsoleArchivesHerculesNoEikouIITaitanNoMetsubou_image500w.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "the-life-and-suffering-of-sir-brante",
+    titulo: "THE LIFE AND SUFFERING OF SIR BRANTE",
+    fecha: "2026-07-21",
+    relanzamiento: "En PC desde 2021",
+    plataformas: ["SWITCH", "SWITCH2"],
+    genero: ["RPG", "NOVELA VISUAL", "AVENTURA"],
+    desarrollador: "SEVER",
+    descripcion: "Un RPG narrativo en un mundo crudo en el que el futuro de las personas se determina en el momento de su nacimiento. Viví la vida entera de Sir Brante, decisión a decisión, y desafiá el destino que los dioses le asignaron.",
+    trailer: "https://youtube.com/embed/C6w_31mWz8A",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272160/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "dispatch",
+    titulo: "DISPATCH",
+    fecha: "2026-07-29",
+    relanzamiento: "En PS5 y PC desde 2025",
+    plataformas: ["XBOX"],
+    genero: ["AVENTURA", "INDIE"],
+    desarrollador: "ADHOC STUDIO",
+    descripcion: "Dispatch es una comedia de oficina sobre superhéroes donde las decisiones importan. Gestioná un equipo de héroes venidos a menos desde tu escritorio de despachante y decidí quién responde cada emergencia.",
+    trailer: "https://youtube.com/embed/jK0cGKMDMPE",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "volcano-princess",
+    titulo: "VOLCANO PRINCESS",
+    fecha: "2026-07-30",
+    relanzamiento: "En PC desde 2023",
+    plataformas: ["PS5"],
+    genero: ["SIMULACION", "RPG", "CASUAL"],
+    desarrollador: "EGG HATCHER",
+    descripcion: "Preparás a la próxima monarca del Reino Volcánico: descubrí sus pasatiempos, entrenala para el combate y hacete amiga de los ciudadanos que algún día gobernará, en este querido simulador de crianza.",
+    trailer: "https://youtube.com/embed/4WLyF94hjd0",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669980/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "neko-odyssey",
+    titulo: "NEKO ODYSSEY",
+    fecha: "2026-07-30",
+    relanzamiento: "En PC desde 2024",
+    plataformas: ["SWITCH"],
+    genero: ["CASUAL", "AVENTURA"],
+    desarrollador: "SECRET CHARACTER",
+    descripcion: "Neko Odyssey: imperdible para los entusiastas de los gatos. Esta aventura casual gira en torno a fotografiar y conocer a los michis del barrio, cada uno con su personalidad.",
+    trailer: "https://youtube.com/embed/Tke32alC0BQ",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2476350/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "obakeidoro-2-chase-seek",
+    titulo: "OBAKEIDORO 2: CHASE & SEEK",
+    fecha: "2026-08-06",
+    plataformas: ["SWITCH", "SWITCH2"],
+    genero: ["CASUAL", "MULTIJUGADOR", "COOP"],
+    desarrollador: "FREE STYLE",
+    descripcion: "La secuela del party game japonés de las escondidas fantasmales: humanos contra fantasmas en partidas rápidas de perseguir y esconderse, ideal para jugar en familia, ahora también en Switch 2.",
+    trailer: "https://youtube.com/embed/o_WctWhM5VA",
+    metacritic: null,
+    imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/obakeidoro2chaseseek_1/1x1_Obakeidoro2ChaseSeek_image500w.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "skatesterre",
+    titulo: "SKATESTERRE",
+    fecha: "2026-08-13",
+    plataformas: ["XBOX", "SWITCH2", "PS5"],
+    genero: ["DEPORTES", "ARCADE", "INDIE"],
+    desarrollador: "GOON SQUAD",
+    descripcion: "¡Flips, grabs y grinds como en 1999! Skatesterre es un juego de skate arcade veloz inspirado en la era dorada del género, con combos exagerados y estética noventosa.",
+    trailer: "https://youtube.com/embed/pAiVQQizsMA",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224220/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
+    id: "lady-death-demonicron",
+    titulo: "LADY DEATH DEMONICRON",
+    fecha: "2026-08-31",
+    plataformas: ["PS4", "PS5"],
+    genero: ["ACCION", "HACK AND SLASH", "COOP"],
+    desarrollador: "ART OF PLAY INTERACTIVE",
+    descripcion: "Hack and slash cooperativo de scroll lateral basado en el cómic Lady Death: 15 niveles de espadazos, magia y demonios para rebanar solo o de a dos.",
+    trailer: "https://youtube.com/embed/N5RWg98FPpA",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954890/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
