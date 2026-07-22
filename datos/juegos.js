@@ -2850,8 +2850,15 @@ noticias: [
     desarrollador: "SQUARE ENIX",
     descripcion: "En este RPG de fantasía y ciencia ficción podrás elegir entre Claude y Rena, jugar desde sus puntos de vista y vivir su historia con el elegante remake 2.5D del clásico de PlayStation.",
     trailer: "https://youtube.com/embed/9hSoFKn8cTk",
-    metacritic: null,
+    metacritic: 86,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2238900/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-22",
+        titulo: "EXCELENTE DEBUT EN SWITCH 2: 86",
+        texto: "El remake del clásico de PlayStation llega a Switch 2 con uno de los mejores puntajes del mes: la crítica celebra el pulido apartado visual 2.5D y la fidelidad al original."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -2866,8 +2873,15 @@ noticias: [
     desarrollador: "BRIGADA GAMES",
     descripcion: "Toma el mando del puesto de control de una ciudad en decadencia. Criba a los supervivientes, raciona recursos y decidí quién entra y quién queda afuera cuando cada elección puede costar vidas.",
     trailer: "https://youtube.com/embed/izrs0wg_30Y",
-    metacritic: null,
+    metacritic: 67,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-22",
+        titulo: "DEBUT DISCRETO EN XBOX: 67",
+        texto: "El simulador de puesto de control fronterizo tuvo una recepción tibia en su llegada a consola."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -2897,8 +2911,15 @@ noticias: [
     desarrollador: "SEVER",
     descripcion: "Un RPG narrativo en un mundo crudo en el que el futuro de las personas se determina en el momento de su nacimiento. Viví la vida entera de Sir Brante, decisión a decisión, y desafiá el destino que los dioses le asignaron.",
     trailer: "https://youtube.com/embed/C6w_31mWz8A",
-    metacritic: null,
+    metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272160/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-22",
+        titulo: "LLEGA A SWITCH CON 82 EN METACRITIC",
+        texto: "El aclamado RPG narrativo desembarca en consolas Nintendo manteniendo el nivel del original de PC."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
