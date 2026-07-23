@@ -1124,9 +1124,14 @@ noticias: [
     desarrollador: "NINTENDO",
     descripcion: "El primer spin-off en la historia de Splatoon, exclusivo de Switch 2. Una aventura de acción para un jugador en la que recorrés las Islas Spiralite junto al trío Deep Cut, resolviendo misterios y enfrentando enemigos con la clásica mecánica de tinta de la saga.",
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
-    metacritic: null,
+    metacritic: 81,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
 noticias: [
+      {
+        fecha: "2026-07-23",
+        titulo: "DEBUTA CON 81, A LA ALTURA DE LA SAGA",
+        texto: "El primer spin-off de Splatoon salió con 81 sobre 66 reseñas, en línea con las entregas principales (Splatoon 1 sacó 81, y el 2 y el 3 un 83). La crítica destaca la sorprendente cantidad de contenido post-campaña."
+      },
       {
         fecha: "2026-07-20",
         titulo: "#1 EN LA ESHOP ANTES DE SALIR",
@@ -1151,8 +1156,15 @@ noticias: [
     desarrollador: "GAMEPLAY GROUP INTERNATIONAL",
     descripcion: "Domina los elementos y enfréntate en épicos combates con personajes legendarios en Avatar Legends: The Fighting Game. Con una animación 2D dibujada a mano que se mantiene fiel a las raíces de la serie, este título te invita a descubrir el mundo de Avatar de innumerables formas.",
     trailer: "https://youtube.com/embed/qC0WcvBOt_c",
-    metacritic: null,
+    metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg",
+noticias: [
+      {
+        fecha: "2026-07-23",
+        titulo: "SÓLIDO DEBUT: 81 EN METACRITIC",
+        texto: "El juego de lucha basado en Avatar sorprendió a la crítica con su rollback netcode y su fidelidad a la serie animada."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1183,8 +1195,15 @@ noticias: [
     desarrollador: "NIPPON ICHI SOFTWARE, INC.",
     descripcion: "¡Haz un Magicambio a la acción en esta nueva vuelta de tuerca a la franquicia Disgaea! Ha llegado la hora de librar tus propias batallas con un combate dinámico y lleno de acción.",
     trailer: "https://youtube.com/embed/Fadyest5qKQ",
-    metacritic: null,
+    metacritic: 62,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402250/50b8ab932e9c3b8187a7e96034021bfddb51ee51/header.jpg",
+noticias: [
+      {
+        fecha: "2026-07-23",
+        titulo: "RECEPCIÓN MIXTA: 62 EN METACRITIC",
+        texto: "El nuevo giro a la franquicia Disgaea dividió a la crítica en su estreno."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1198,8 +1217,15 @@ noticias: [
     desarrollador: "LOBO SAGAZ STUDIO",
     descripcion: "Un juego implacable con combates rápidos. Enfréntate a desafiantes jefes en el orden que prefieras, adquiere sus poderes únicos y forja tu propio camino hacia la victoria.",
     trailer: "https://youtube.com/embed/UQGOI3xVxh8",
-    metacritic: null,
+    metacritic: 80,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2191280/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-23",
+        titulo: "BUEN DEBUT PARA EL HACK AND SLASH: 80",
+        texto: "El frenético juego de acción llegó a PlayStation con buenas críticas por su combate rápido y sus jefes desafiantes."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1215,8 +1241,15 @@ noticias: [
     desarrollador: "SQUARE ENIX",
     descripcion: "Las aventuras de Tidus y Yuna en Spira llegan a Switch 2: la remasterización en HD de dos de los RPG más queridos de Square Enix, ahora con mejoras para la nueva consola.",
     trailer: "https://youtube.com/embed/jsdxLwqUH6g",
-    metacritic: null,
+    metacritic: 85,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxx2hdremaster/1x1_FinalFantasyXX2HDRemaster_image500w.jpg",
+noticias: [
+      {
+        fecha: "2026-07-23",
+        titulo: "LOS CLÁSICOS DE SPIRA BRILLAN EN SWITCH 2: 85",
+        texto: "La remasterización de dos de los RPG más queridos de Square Enix llega a Switch 2 con excelente recepción."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
