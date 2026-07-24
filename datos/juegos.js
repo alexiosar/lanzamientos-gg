@@ -1024,8 +1024,15 @@ noticias: [
     desarrollador: "WISAGENI STUDIO",
     descripcion: "¡La fusión definitiva entre el K-pop y la simulación! Hazte cargo del grupo de idols de tus sueños: recluta a los talentos, programa sus actividades, elige su vestuario, planifica sus publicaciones y organiza el lanzamiento del álbum perfecto. ¿Conseguirán debutar?",
     trailer: "https://youtube.com/embed/E2DDuGJdiK4",
-    metacritic: null,
+    metacritic: 58,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1662160/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-24",
+        titulo: "DEBUT FLOJO: 58 EN METACRITIC",
+        texto: "El simulador de manager de K-pop tuvo una recepción tibia de la crítica en su llegada a consolas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
