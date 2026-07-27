@@ -643,6 +643,21 @@ a:hover { color: var(--blanco); }
   border-color: var(--acento);
 }
 
+/* ── JUEGOS SIN FECHA CONFIRMADA ── */
+.dia-estimado {
+  border-left-style: dashed;
+  margin-top: 1.5rem;
+}
+
+.dia-estimado .dia-label {
+  color: var(--gris-5);
+}
+
+.dia-estimado-tag {
+  color: var(--gris-6);
+  letter-spacing: 1px;
+}
+
 /* ── MINIATURAS EN LISTAS ── */
 .mini-portada {
   width: 40px;
@@ -799,6 +814,13 @@ a:hover { color: var(--blanco); }
   margin-bottom: 1rem;
   border-bottom: 1px solid var(--gris-2);
   padding-bottom: 0.5rem;
+}
+
+.ranking-periodos {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
 }
 
 .ranking-fila {

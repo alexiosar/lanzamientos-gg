@@ -23,6 +23,8 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/generar-sitemap.py  Regenera sitemap.xml a partir de juegos.js
 ├── sitemap.xml                 Mapa del sitio para Google (generado, no editar a mano)
 ├── robots.txt                  Permite indexación y declara el sitemap
+├── 404.html                    Página de error propia (Cloudflare la sirve automáticamente
+│                               para rutas inexistentes; sugiere juegos parecidos al slug)
 ├── favicon.svg                 Ícono del sitio (pestañas y favoritos)
 ├── og-image.png                Imagen que aparece al compartir el link en redes (1200x630)
 └── wrangler.jsonc              Configuración de deploy en Cloudflare (assets estáticos)
@@ -41,6 +43,10 @@ Editar `datos/juegos.js` y agregar un objeto al array `JUEGOS`:
                                  // está el juego, ej: "En PC desde 2024" (se muestra ↺ bajo la fecha)
   duracion: null,                // opcional: horas según HowLongToBeat,
                                  // ej: "28,5 h (historia) · 58,5 h (completo)"
+  estimado: true,                // opcional: juego anunciado sin día confirmado.
+  fechaEstimada: "OCTUBRE 2026", // `fecha` debe ser el ÚLTIMO día del mes (ancla de orden);
+                                 // se muestra en un bloque "SIN FECHA CONFIRMADA" al final
+                                 // del mes, sin cuenta regresiva ni botón de agendar.
   plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH", "PS4"],  // las que correspondan
   genero: ["ACCION", "RPG"],     // los filtros de género se generan solos
   desarrollador: "ESTUDIO",
@@ -129,6 +135,11 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
 - **Juego destacado** en la portada: banner con el próximo lanzamiento notable (se elige
   solo: el futuro más cercano con noticias; si no hay, el más cercano con carátula), con
   carátula, fecha y cuenta regresiva. Se oculta al filtrar o buscar.
+- **Juegos sin fecha confirmada**: los anunciados para un mes o trimestre sin día exacto
+  aparecen en un bloque "SIN FECHA CONFIRMADA" al final de su mes (borde punteado), con la
+  ventana anunciada. No aparecen en "Próximos 7 días" ni como destacado, y sus fichas no
+  ofrecen cuenta regresiva ni agendar. Cuando se confirme la fecha: poner el día real en
+  `fecha` y borrar `estimado`/`fechaEstimada`.
 - **Bloque "Próximos 7 días"** arriba del calendario: lista los lanzamientos de la semana
   que viene (respeta los filtros; se oculta si no hay ninguno o en la vista ranking).
 - **Indicadores por día**: `[ HOY ]` (amarillo, parpadea), `[ PRÓXIMO ]` (el primer día
@@ -158,7 +169,8 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
   en la tarjeta social).
 - **Vista ★ RANKING**: selector "VISTA" arriba de los filtros; lista los juegos con puntaje
   de Metacritic ordenados de mejor a peor. Respeta los filtros de plataforma/género y el
-  buscador. Crece solo a medida que se cargan puntajes.
+  buscador, y tiene su propio selector de período (TODO EL CALENDARIO / ESTE MES /
+  ÚLTIMOS 30 DÍAS). Crece solo a medida que se cargan puntajes.
 - **Cuenta regresiva**: en las fichas de juegos futuros, debajo de la fecha
   (`▸ FALTAN X DÍAS`, `▸ FALTA 1 DÍA`, `▸ ¡SALE HOY!` parpadeante). Se oculta en los
   ya lanzados. Funciona en la ficha desplegable y en la página +INFO.

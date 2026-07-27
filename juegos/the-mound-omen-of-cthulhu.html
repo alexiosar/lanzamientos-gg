@@ -184,6 +184,7 @@
     // cuenta regresiva y botón agendar, calculados al cargar (no se congelan al generar)
     (function () {
       const el = document.getElementById("regresiva");
+      if (!el) return;  // fichas con fecha estimada no tienen cuenta regresiva
       const [y, m, d] = el.dataset.fecha.split("-").map(Number);
       const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
       const dias = Math.round((new Date(y, m - 1, d) - hoy) / 864e5);

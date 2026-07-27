@@ -82,9 +82,12 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
         for j in meses[mes_key]:
             yy, mm, dd = map(int, j["fecha"].split("-"))
             f = datetime.date(yy, mm, dd)
-            if j["fecha"] != dia_previo:
-                cuerpo.append(f'<div class="dia-label" style="margin-top:0.75rem;">{DIAS_ES[(f.weekday()+1) % 7]} <span>{dd:02d} {MESES_ES[mm-1][:3]}</span></div>')
-                dia_previo = j["fecha"]
+            clave_dia = "estimado" if j.get("estimado") else j["fecha"]
+            if clave_dia != dia_previo:
+                etiqueta = ('SIN FECHA CONFIRMADA' if j.get("estimado")
+                            else f'{DIAS_ES[(f.weekday()+1) % 7]} <span>{dd:02d} {MESES_ES[mm-1][:3]}</span>')
+                cuerpo.append(f'<div class="dia-label" style="margin-top:0.75rem;">{etiqueta}</div>')
+                dia_previo = clave_dia
             plats = "".join(f'<span class="plat {plat_class(p)}">{plat_label(p)}</span>'
                             for p in j["plataformas"] if p != clave)
             mc = f'<span class="badge-metacritic {meta_clase(j["metacritic"])}" style="font-size:0.6875rem;">{j["metacritic"]}</span>' if j.get("metacritic") else ""

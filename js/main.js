@@ -3,6 +3,7 @@ let filtroActivo = "TODAS";
 let filtroGenero = "TODOS";
 let filtroTexto = "";
 let vistaActiva = "calendario";
+let rankingPeriodo = "todo"; // todo | mes | 30dias
 
 // archivo.html declara data-archivo en el body: muestra solo meses pasados
 const MODO_ARCHIVO = !!(document.body && document.body.dataset.archivo);
@@ -193,13 +194,35 @@ function cambiarVista(vista) {
 }
 
 // ── RANKING POR METACRITIC ──
+function cambiarPeriodoRanking(periodo) {
+  rankingPeriodo = periodo;
+  renderCalendario();
+}
+
 function renderRanking(juegos) {
+  const hoy = getDiaKeyHoy();
+  const hace30 = parseFecha(hoy);
+  hace30.setDate(hace30.getDate() - 30);
+  const limite30 = `${hace30.getFullYear()}-${String(hace30.getMonth() + 1).padStart(2, "0")}-${String(hace30.getDate()).padStart(2, "0")}`;
+
+  const enPeriodo = j =>
+    rankingPeriodo === "mes"    ? j.fecha.slice(0, 7) === getMesKeyHoy() :
+    rankingPeriodo === "30dias" ? j.fecha >= limite30 && j.fecha <= hoy :
+    true;
+
   const conPuntaje = juegos
-    .filter(j => j.metacritic)
+    .filter(j => j.metacritic && enPeriodo(j))
     .sort((a, b) => b.metacritic - a.metacritic);
 
+  const selectorHtml = `
+    <div class="ranking-periodos">
+      ${[["todo", "TODO EL CALENDARIO"], ["mes", "ESTE MES"], ["30dias", "ÚLTIMOS 30 DÍAS"]].map(([clave, label]) =>
+        `<button class="filtro-btn ${rankingPeriodo === clave ? "activo" : ""}" onclick="cambiarPeriodoRanking('${clave}')">${label}</button>`
+      ).join("")}
+    </div>`;
+
   if (conPuntaje.length === 0) {
-    return `<div class="sin-resultados">// NINGÚN JUEGO CON PUNTAJE PARA ESTE FILTRO</div>`;
+    return selectorHtml + `<div class="sin-resultados">// NINGÚN JUEGO CON PUNTAJE PARA ESTE FILTRO</div>`;
   }
 
   const filas = conPuntaje.map((j, i) => {
@@ -219,11 +242,84 @@ function renderRanking(juegos) {
       </a>`;
   }).join("");
 
-  return `
+  return selectorHtml + `
     <div class="ranking">
-      <div class="ranking-header">★ MEJOR PUNTUADOS <span class="mes-contador">[ PUNTAJE METACRITIC ]</span></div>
+      <div class="ranking-header">★ MEJOR PUNTUADOS <span class="mes-contador">[ ${conPuntaje.length} JUEGO${conPuntaje.length !== 1 ? "S" : ""} · METACRITIC ]</span></div>
       ${filas}
     </div>`;
+}
+
+// ── FICHA DESPLEGABLE ──
+// se usa tanto en los días del calendario como en el bloque de fechas estimadas
+function fichaHtml(j) {
+  const f = parseFecha(j.fecha);
+  const tagsHtml = [
+    ...j.genero.map(g => `<span class="tag">${g}</span>`),
+    ...j.plataformas.map(p => `<span class="plat ${plataformaClass(p)}" style="font-size:0.6875rem;padding:2px 7px;">${plataformaLabel(p)}</span>`),
+    j.gamepass ? `<span class="tag tag-gamepass">GAME PASS</span>` : "",
+    j.psplus   ? `<span class="tag tag-psplus">PS PLUS</span>` : ""
+  ].filter(Boolean).join("");
+
+  const portadaHtml = j.imagen
+    ? `<img class="ficha-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" onerror="this.remove()" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add('apaisada')">`
+    : "";
+
+  // los estimados muestran el mes anunciado, sin cuenta regresiva ni botón de agendar
+  const fechaHtml = j.estimado
+    ? `<span class="ficha-campo-valor">${j.fechaEstimada || MESES_ES[f.getMonth()] + " " + f.getFullYear()}</span>
+       <span class="relanzamiento">◔ FECHA EXACTA SIN CONFIRMAR</span>`
+    : `<span class="ficha-campo-valor">${String(f.getDate()).padStart(2, "0")} ${MESES_ES[f.getMonth()]} ${f.getFullYear()}</span>
+       ${cuentaRegresivaHtml(j.fecha)}`;
+
+  return `
+          <div class="juego-ficha" id="ficha-${j.id}">
+            <div class="ficha-header">
+              <span class="ficha-titulo">${j.titulo}</span>
+              <span class="ficha-cerrar" onclick="cerrarFicha('${j.id}')">[ CERRAR ]</span>
+            </div>
+            <div class="ficha-cuerpo">
+              ${portadaHtml}
+              <div class="ficha-info">
+                <div class="ficha-meta">
+                  <div>
+                    <span class="ficha-campo-label">FECHA</span>
+                    ${fechaHtml}
+                    ${j.relanzamiento ? `<span class="relanzamiento">↺ ${j.relanzamiento}</span>` : ""}
+                  </div>
+                  <div>
+                    <span class="ficha-campo-label">PLATAFORMAS</span>
+                    <span class="ficha-campo-valor">${j.plataformas.map(plataformaLabel).join(" / ")}</span>
+                  </div>
+                  <div>
+                    <span class="ficha-campo-label">GÉNERO</span>
+                    <span class="ficha-campo-valor">${j.genero.join(" / ")}</span>
+                  </div>
+                  ${j.duracion ? `
+                  <div>
+                    <span class="ficha-campo-label">DURACIÓN</span>
+                    <span class="ficha-campo-valor">${j.duracion}</span>
+                  </div>` : ""}
+                  <div>
+                    <span class="ficha-campo-label">DESARROLLADOR</span>
+                    <span class="ficha-campo-valor">${j.desarrollador}</span>
+                  </div>
+                  ${j.metacritic ? `
+                  <div>
+                    <span class="ficha-campo-label">METACRITIC</span>
+                    <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
+                  </div>` : ""}
+                </div>
+                <p class="ficha-descripcion">${j.descripcion}</p>
+              </div>
+            </div>
+            <div class="ficha-tags">${tagsHtml}</div>
+            <div class="ficha-acciones">
+              ${j.trailer ? `<button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>` : ""}
+              ${!j.estimado && diasHasta(j.fecha) > 0 ? `<button class="btn-trailer" onclick="agendarJuego('${j.id}', event)">◷ AGENDAR</button>` : ""}
+              <button class="btn-trailer" onclick="compartirJuego('${j.id}', event)">⇗ COMPARTIR</button>
+              <a href="juegos/${j.id}.html" class="btn-trailer">+ INFO</a>
+            </div>
+          </div>`;
 }
 
 // ── JUEGOS FILTRADOS ──
@@ -296,7 +392,16 @@ function renderCalendario() {
     return;
   }
 
-  const agrupado = agruparPorMesYDia(juegos);
+  // los juegos sin fecha confirmada van a un bloque aparte al final de su mes
+  const estimadosPorMes = {};
+  juegos.filter(j => j.estimado).forEach(j => {
+    const mk = j.fecha.slice(0, 7);
+    (estimadosPorMes[mk] = estimadosPorMes[mk] || []).push(j);
+  });
+
+  const agrupado = agruparPorMesYDia(juegos.filter(j => !j.estimado));
+  // meses que solo tienen juegos estimados también deben aparecer
+  Object.keys(estimadosPorMes).forEach(mk => { agrupado[mk] = agrupado[mk] || {}; });
   const mesesOrdenados = Object.keys(agrupado).sort();
   const mesKeyHoy = getMesKeyHoy();
 
@@ -310,7 +415,7 @@ function renderCalendario() {
   let destacadoHtml = "";
   const sinFiltros = filtroActivo === "TODAS" && filtroGenero === "TODOS" && filtroTexto === "";
   if (!MODO_ARCHIVO && sinFiltros) {
-    const futuros = JUEGOS.filter(j => j.fecha > hoyKey).sort((a, b) => a.fecha.localeCompare(b.fecha));
+    const futuros = JUEGOS.filter(j => !j.estimado && j.fecha > hoyKey).sort((a, b) => a.fecha.localeCompare(b.fecha));
     const dest = futuros.find(j => j.noticias && j.imagen) || futuros.find(j => j.imagen);
     if (dest) {
       const f = parseFecha(dest.fecha);
@@ -332,7 +437,7 @@ function renderCalendario() {
   en7.setDate(en7.getDate() + 7);
   const limite7 = `${en7.getFullYear()}-${String(en7.getMonth() + 1).padStart(2, "0")}-${String(en7.getDate()).padStart(2, "0")}`;
   const proximos7 = juegos
-    .filter(j => j.fecha > hoyKey && j.fecha <= limite7)
+    .filter(j => !j.estimado && j.fecha > hoyKey && j.fecha <= limite7)
     .sort((a, b) => a.fecha.localeCompare(b.fecha));
 
   const proximosHtml = proximos7.length ? `
@@ -401,19 +506,6 @@ function renderCalendario() {
         // ★ NUEVO solo para lanzamientos de hoy en adelante (no para los ya disponibles)
         const nuevoHtml = (j.nuevo && diaKey >= hoyKey) ? `<span class="juego-nuevo">★ NUEVO</span>` : "";
 
-        const tagsHtml = [
-          ...j.genero.map(g => `<span class="tag">${g}</span>`),
-          ...j.plataformas.map(p => `<span class="plat ${plataformaClass(p)}" style="font-size:10px;padding:2px 7px;">${plataformaLabel(p)}</span>`),
-          j.gamepass ? `<span class="tag tag-gamepass">GAME PASS</span>` : "",
-          j.psplus   ? `<span class="tag tag-psplus">PS PLUS</span>` : ""
-        ].filter(Boolean).join("");
-
-        const platsMetaHtml = j.plataformas.map(p => plataformaLabel(p)).join(" / ");
-
-        const portadaHtml = j.imagen
-          ? `<img class="ficha-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" onerror="this.remove()" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add('apaisada')">`
-          : "";
-
         return `
           <div class="juego-fila" id="fila-${j.id}" tabindex="0" role="button" aria-label="Ver ficha de ${j.titulo}" onclick="toggleFicha('${j.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFicha('${j.id}');}">
             ${miniaturaHtml(j)}
@@ -421,55 +513,7 @@ function renderCalendario() {
             <div class="plataformas">${platsHtml}</div>
             ${nuevoHtml}
           </div>
-          <div class="juego-ficha" id="ficha-${j.id}">
-            <div class="ficha-header">
-              <span class="ficha-titulo">${j.titulo}</span>
-              <span class="ficha-cerrar" onclick="cerrarFicha('${j.id}')">[ CERRAR ]</span>
-            </div>
-            <div class="ficha-cuerpo">
-              ${portadaHtml}
-              <div class="ficha-info">
-                <div class="ficha-meta">
-                  <div>
-                    <span class="ficha-campo-label">FECHA</span>
-                    <span class="ficha-campo-valor">${diaNum} ${MESES_ES[fecha.getMonth()]} ${year}</span>
-                    ${cuentaRegresivaHtml(j.fecha)}
-                    ${j.relanzamiento ? `<span class="relanzamiento">↺ ${j.relanzamiento}</span>` : ""}
-                  </div>
-                  <div>
-                    <span class="ficha-campo-label">PLATAFORMAS</span>
-                    <span class="ficha-campo-valor">${platsMetaHtml}</span>
-                  </div>
-                  <div>
-                    <span class="ficha-campo-label">GÉNERO</span>
-                    <span class="ficha-campo-valor">${j.genero.join(" / ")}</span>
-                  </div>
-                  ${j.duracion ? `
-                  <div>
-                    <span class="ficha-campo-label">DURACIÓN</span>
-                    <span class="ficha-campo-valor">${j.duracion}</span>
-                  </div>` : ""}
-                  <div>
-                    <span class="ficha-campo-label">DESARROLLADOR</span>
-                    <span class="ficha-campo-valor">${j.desarrollador}</span>
-                  </div>
-                  ${j.metacritic ? `
-                  <div>
-                    <span class="ficha-campo-label">METACRITIC</span>
-                    <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
-                  </div>` : ""}
-                </div>
-                <p class="ficha-descripcion">${j.descripcion}</p>
-              </div>
-            </div>
-            <div class="ficha-tags">${tagsHtml}</div>
-            <div class="ficha-acciones">
-              ${j.trailer ? `<button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>` : ""}
-              ${diasHasta(j.fecha) > 0 ? `<button class="btn-trailer" onclick="agendarJuego('${j.id}', event)">◷ AGENDAR</button>` : ""}
-              <button class="btn-trailer" onclick="compartirJuego('${j.id}', event)">⇗ COMPARTIR</button>
-              <a href="juegos/${j.id}.html" class="btn-trailer">+ INFO</a>
-            </div>
-          </div>
+          ${fichaHtml(j)}
         `;
       }).join("");
 
@@ -483,15 +527,35 @@ function renderCalendario() {
       `;
     }).join("");
 
+    // bloque de juegos anunciados para el mes pero sin día confirmado
+    const estimados = estimadosPorMes[mesKey] || [];
+    const estimadosHtml = estimados.length ? `
+          <div class="dia dia-estimado">
+            <div class="dia-label">SIN FECHA CONFIRMADA <span class="dia-estimado-tag">[ ${estimados[0].fechaEstimada || nombreMes} ]</span></div>
+            ${estimados.map(j => {
+              const plats = j.plataformas.map(p =>
+                `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`
+              ).join("");
+              return `
+            <div class="juego-fila" id="fila-${j.id}" tabindex="0" role="button" aria-label="Ver ficha de ${j.titulo}" onclick="toggleFicha('${j.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFicha('${j.id}');}">
+              ${miniaturaHtml(j)}
+              <span class="juego-nombre">${j.titulo}</span>
+              ${j.nuevo ? `<span class="juego-nuevo">★ NUEVO</span>` : ""}
+              <div class="plataformas">${plats}</div>
+            </div>
+            ${fichaHtml(j)}`;
+            }).join("")}
+          </div>` : "";
+
     return `
       <div class="mes" id="mes-${mesKey}">
         <div class="mes-header" tabindex="0" role="button" aria-expanded="${abierto}" onclick="toggleMes('${mesKey}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleMes('${mesKey}');}">
           <span class="mes-arrow ${abierto ? 'abierto' : ''}" id="arrow-${mesKey}">▶</span>
           ${nombreMes}
-          <span class="mes-contador">[ ${totalJuegos} JUEGO${totalJuegos !== 1 ? "S" : ""} ]</span>
+          <span class="mes-contador">[ ${totalJuegos + estimados.length} JUEGO${(totalJuegos + estimados.length) !== 1 ? "S" : ""} ]</span>
         </div>
         <div class="mes-contenido ${abierto ? 'visible' : ''}" id="contenido-${mesKey}">
-          ${diasHtml}
+          ${diasHtml}${estimadosHtml}
         </div>
       </div>
     `;

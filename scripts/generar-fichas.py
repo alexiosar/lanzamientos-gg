@@ -54,7 +54,8 @@ def meta_clase(n):
 def generar(j):
     gid = j["id"]
     y, m, d = map(int, j["fecha"].split("-"))
-    fecha_str = f"{d:02d} {MESES_ES[m-1]} {y}"
+    estimado = bool(j.get("estimado"))
+    fecha_str = (j.get("fechaEstimada") or f"{MESES_ES[m-1]} {y}") if estimado else f"{d:02d} {MESES_ES[m-1]} {y}"
     url = f"{DOMINIO}/juegos/{gid}"
     desc_corta = j["descripcion"][:150].rsplit(" ", 1)[0] + "…"
     og_imagen = j.get("imagen") or f"{DOMINIO}/og-image.png"
@@ -213,9 +214,9 @@ def generar(j):
             <div class="seccion-titulo">DATOS</div>
             <div class="meta-grid">
               <div>
-                <span class="ficha-campo-label">FECHA DE LANZAMIENTO</span>
+                <span class="ficha-campo-label">{"FECHA ESTIMADA" if estimado else "FECHA DE LANZAMIENTO"}</span>
                 <span class="ficha-campo-valor">{fecha_str}</span>
-                <span class="cuenta-regresiva" id="regresiva" data-fecha="{j["fecha"]}"></span>{f'''
+                {'<span class="relanzamiento">◔ FECHA EXACTA SIN CONFIRMAR</span>' if estimado else f'<span class="cuenta-regresiva" id="regresiva" data-fecha="{j["fecha"]}"></span>'}{f'''
                 <span class="relanzamiento">↺ {e(j["relanzamiento"])}</span>''' if j.get("relanzamiento") else ""}
               </div>
               <div>
@@ -236,7 +237,7 @@ def generar(j):
               </div>{metacritic_html}
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
-              <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('{gid}')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
+              {'' if estimado else f'''<button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('{gid}')" style="display:none">◷ AGENDAR LANZAMIENTO</button>'''}
               <button class="btn-trailer" id="btn-compartir" onclick="compartirJuego('{gid}')">⇗ COMPARTIR</button>
             </div>
           </div>
@@ -286,6 +287,7 @@ def generar(j):
     // cuenta regresiva y botón agendar, calculados al cargar (no se congelan al generar)
     (function () {{
       const el = document.getElementById("regresiva");
+      if (!el) return;  // fichas con fecha estimada no tienen cuenta regresiva
       const [y, m, d] = el.dataset.fecha.split("-").map(Number);
       const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
       const dias = Math.round((new Date(y, m - 1, d) - hoy) / 864e5);
