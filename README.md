@@ -178,6 +178,10 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
 - **Ficha individual** (`juegos/juego.html?id=...`): igual que la desplegable más la sección
   **ÚLTIMAS NOVEDADES** (noticias del juego) y el trailer embebido.
 - **Badge de Metacritic** con color según puntaje: verde ≥ 75, amarillo 50–74, rojo < 50.
+- **Tipografía**: Space Mono (monoespaciada con negrita real). La negrita (700) jerarquiza
+  nombres de juego, encabezados de mes y títulos; la metadata (fechas, plataformas, labels)
+  va en peso normal (400). Toda la jerarquía vive en css/style.css, así que las fichas y
+  páginas generadas la heredan sin regenerar.
 - **Tema oscuro/claro**: botón ☾/☀ en la esquina superior derecha. Si el usuario nunca tocó
   el botón, el sitio sigue el modo del sistema operativo (como X: cambia solo de día/noche
   si el sistema tiene apariencia automática); al tocar el botón, esa elección se guarda en

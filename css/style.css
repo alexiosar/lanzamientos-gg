@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -21,7 +21,24 @@
   --gris-6: #777777;
   --gris-7: #999999;
   --amarillo: #ffcc00;
-  --font: 'Share Tech Mono', monospace;
+  --font: 'Space Mono', monospace;
+}
+
+/* ── JERARQUÍA TIPOGRÁFICA ──
+   Space Mono tiene negrita real: la usamos para que los nombres y encabezados
+   manden sobre la metadata (fechas, plataformas, labels), que va en peso normal. */
+.site-logo,
+.mes-header,
+.juego-nombre,
+.juego-fila.abierto .juego-nombre,
+.destacado-titulo,
+.proximos-header,
+.ranking-header,
+.ficha-titulo,
+.juego-titulo-page,
+.pagina-titulo,
+.mes-titulo {
+  font-weight: 700;
 }
 
 /* TEMA CLARO (blanco puro, estilo X) */

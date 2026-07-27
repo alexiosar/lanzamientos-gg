@@ -866,8 +866,15 @@ noticias: [
     desarrollador: "EAT PANT GAMES",
     descripcion: "Teeto tiene un talento especial: puede absorber todo tipo de objetos y transformarlos en formas completamente nuevas. Con la mochila potenciada por Vionite de Nory, desbloqueás habilidades únicas para burlar enemigos, resolver acertijos y descubrir secretos escondidos. Combiná objetos, sé creativo y descubrí qué extraños poderes vas a desatar. La vida es mejor con un compañero, y salvar el mundo también: sumate con un amigo al modo cooperativo en pantalla dividida, donde vas a absorber, transformar y explorar juntos, resolviendo acertijos y ayudándose mutuamente en esta alocada aventura.",
     trailer: "https://youtube.com/embed/olYY9vIUIrI",
-    metacritic: null,
+    metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2783370/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-27",
+        titulo: "SÓLIDO DEBUT: 81 EN METACRITIC",
+        texto: "El plataformas cooperativo de absorber y transformar objetos conquistó a la crítica con su creatividad y su modo a pantalla dividida."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1331,8 +1338,15 @@ noticias: [
     desarrollador: "FAR FROM HOME",
     descripcion: "Un juego de supervivencia en primera persona, ambientado en una Tierra posapocalíptica y baldía. Juega en solitario o con hasta 3 amigos y construid, mejorad y pilotad una aeronave de tecnología punta. Recolectad, fabricad y arriesgaos en la superficie mientras buscáis una cura para la humanidad.",
     trailer: "https://youtube.com/embed/SvV9OeZHESc",
-    metacritic: null,
+    metacritic: 66,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1641960/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-27",
+        titulo: "LLEGA A XBOX CON 66 EN METACRITIC",
+        texto: "El survival en primera persona sobre una Tierra posapocalíptica debutó en consola con recepción moderada."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
