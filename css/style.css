@@ -172,8 +172,7 @@ a:hover { color: var(--blanco); }
   flex-shrink: 0;
   position: sticky;
   top: 1rem;
-  max-height: calc(100vh - 2rem);
-  overflow-y: auto;
+  align-self: flex-start;
   border-left: 1px solid var(--gris-2);
   padding-left: 1.5rem;
 }
