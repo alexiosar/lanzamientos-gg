@@ -1303,4 +1303,46 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://lanzamientos.lat/juegos/soma</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/gothic-classic</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/bokura</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/parkasaurus</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/pro-jank-footy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/yet-another-zombie-survivors</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/aliens-fireteam-elite-2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
