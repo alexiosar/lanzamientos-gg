@@ -23,8 +23,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/generar-sitemap.py  Regenera sitemap.xml a partir de juegos.js
 ├── sitemap.xml                 Mapa del sitio para Google (generado, no editar a mano)
 ├── robots.txt                  Permite indexación y declara el sitemap
-├── 404.html                    Página de error propia (Cloudflare la sirve automáticamente
-│                               para rutas inexistentes; sugiere juegos parecidos al slug)
+├── 404.html                    Página de error propia (sugiere juegos parecidos al slug).
+│                               Requiere "not_found_handling": "404-page" en wrangler.jsonc:
+│                               sin eso Cloudflare devuelve un 404 vacío.
 ├── favicon.svg                 Ícono del sitio (pestañas y favoritos)
 ├── og-image.png                Imagen que aparece al compartir el link en redes (1200x630)
 └── wrangler.jsonc              Configuración de deploy en Cloudflare (assets estáticos)
@@ -216,6 +217,15 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
   `VideoGame` no genera resultados enriquecidos específicos — es normal, no es un error.
   Para ver los datos detectados usar validator.schema.org con la URL de la portada.
 - Tras un deploy con juegos nuevos: Search Console → Sitemaps → enviar `sitemap.xml`.
+
+## Nunca dejar URLs con `${...}` en el JavaScript
+
+Googlebot escanea el código JS en busca de enlaces y **rastrea literales sin evaluar**.
+Un `href="/juegos/${j.id}"` dentro de una plantilla, o un `"https://lanzamientos.lat/juegos/${id}"`
+en una función, termina generando 404 reales en Search Console
+(pasó en julio 2026 con `/juegos/$%7BplataformaSlug(j.plataformas[0])%7D`).
+Regla: construir las URLs por concatenación (`location.origin + "/juegos/" + id`) o dentro
+de una interpolación completa (`${"/juegos/" + j.id}`), nunca como texto plano con `${}` adentro.
 
 ## URLs limpias (importante)
 

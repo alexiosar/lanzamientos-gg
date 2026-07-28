@@ -70,8 +70,8 @@ function agendarJuego(id, e) {
     `DTSTART;VALUE=DATE:${inicio}`,
     `DTEND;VALUE=DATE:${finStr}`,
     `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
-    `DESCRIPTION:${esc(`Lanzamiento en ${j.plataformas.map(plataformaLabel).join(" / ")}. Ficha: https://lanzamientos.lat/juegos/${j.id}`)}`,
-    `URL:https://lanzamientos.lat/juegos/${j.id}`,
+    `DESCRIPTION:${esc("Lanzamiento en " + j.plataformas.map(plataformaLabel).join(" / ") + ". Ficha: " + location.origin + "/juegos/" + j.id)}`,
+    `URL:${location.origin}/juegos/${j.id}`,
     "END:VEVENT",
     "END:VCALENDAR"
   ].join("\r\n");
@@ -340,7 +340,7 @@ function compartirJuego(id, e) {
   if (e) e.stopPropagation();
   const j = JUEGOS.find(x => x.id === id);
   if (!j) return;
-  const url = `https://lanzamientos.lat/juegos/${j.id}`;
+  const url = location.origin + "/juegos/" + j.id;
   if (navigator.share) {
     navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
   } else {

@@ -643,6 +643,22 @@ a:hover { color: var(--blanco); }
   border-color: var(--acento);
 }
 
+/* ── TÍTULO DE LA PORTADA ── */
+.pagina-h1 {
+  font-size: 0.875rem;
+  color: var(--blanco);
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.pagina-h1-sub {
+  font-size: 0.6875rem;
+  color: var(--gris-5);
+  letter-spacing: 1px;
+  margin-bottom: 1.75rem;
+}
+
 /* ── JUEGOS SIN FECHA CONFIRMADA ── */
 .dia-estimado {
   border-left-style: dashed;

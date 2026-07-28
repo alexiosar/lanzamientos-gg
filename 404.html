@@ -125,7 +125,7 @@
         const img = j.imagen
           ? `<img class="mini-portada" src="${j.imagen}" alt="" loading="lazy">`
           : `<span class="mini-portada"></span>`;
-        return `<a class="proximos-fila" href="/juegos/${j.id}">
+        return `<a class="proximos-fila" href="${"/juegos/" + j.id}">
                   ${img}
                   <span class="proximos-dia">${fecha}</span>
                   <span class="juego-nombre">${j.titulo}</span>

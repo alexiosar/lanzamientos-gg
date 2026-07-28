@@ -2,6 +2,8 @@
   "name": "lanzamientos-gg",
   "compatibility_date": "2026-07-07",
   "assets": {
-    "directory": "."
+    "directory": ".",
+    // sirve nuestra 404.html en vez de un 404 vacío para rutas inexistentes
+    "not_found_handling": "404-page"
   }
 }
