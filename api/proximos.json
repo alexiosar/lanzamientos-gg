@@ -1,0 +1,1536 @@
+{
+ "sitio": "LANZAMIENTOS.LAT",
+ "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
+ "url": "https://lanzamientos.lat",
+ "generado": "2026-07-28T13:57:06+00:00",
+ "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
+ "contacto": "contacto@lanzamientos.lat",
+ "desde": "2026-07-28",
+ "hasta": "2026-08-27",
+ "total": 63,
+ "juegos": [
+  {
+   "id": "halo-campaign-evolved",
+   "titulo": "HALO: CAMPAIGN EVOLVED",
+   "fecha": "2026-07-28",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "SHOOTER",
+    "ACCION"
+   ],
+   "desarrollador": "HALO STUDIOS",
+   "descripcion": "El remake completo de la campaña de Halo: Combat Evolved, reconstruido con gráficos actuales, cinemáticas mejoradas y tres misiones nuevas protagonizadas por el Jefe Maestro y el sargento Johnson. Por primera vez en la historia, Halo llega a una consola PlayStation. Incluye cooperativo de campaña con crossplay.",
+   "trailer": "https://youtube.com/embed/HhsxGagHirw",
+   "metacritic": 82,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/halo-campaign-evolved",
+   "noticias": [
+    {
+     "fecha": "2026-07-28",
+     "titulo": "MASTER CHIEF DEBUTA EN PLAYSTATION CON 82",
+     "texto": "El remake llegó con buenas críticas y un hito histórico: la primera vez de Halo en una consola PlayStation. El 88% de los críticos lo recomienda, aunque señalan problemas de rendimiento en PS5 base y la ausencia de multijugador competitivo."
+    },
+    {
+     "fecha": "2026-06-07",
+     "titulo": "TRES MISIONES NUEVAS Y DEMO DE 28 MINUTOS",
+     "texto": "En el Xbox Games Showcase se presentó la operación METEORITE: tres misiones inéditas ambientadas un año antes de Combat Evolved, protagonizadas por el Jefe Maestro y el sargento Johnson, junto a una demo extensa del clásico Assault on the Control Room."
+    }
+   ]
+  },
+  {
+   "id": "go-north",
+   "titulo": "GO NORTH",
+   "fecha": "2026-07-28",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "GAZUNTYPE",
+   "descripcion": "Explorá hermosos laberintos, descubrí objetos únicos y ayudá a otros exploradores a completar misiones secundarias insólitas en esta aventura tranquila de exploración.",
+   "trailer": "https://youtube.com/embed/dkZgVioEGIM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041730/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/go-north"
+  },
+  {
+   "id": "gothic-classic",
+   "titulo": "GOTHIC CLASSIC",
+   "fecha": "2026-07-28",
+   "relanzamiento": "Reedición del clásico RPG de 2001",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "PIRANHA BYTES",
+   "descripcion": "La guerra asola el reino de Myrtana: hordas de orcos invadieron el territorio humano. Encarcelado en la colonia penal minera, sos un prisionero más bajo una barrera mágica de la que nadie escapa. El RPG de culto de Piranha Bytes regresa a consolas.",
+   "trailer": "https://youtube.com/embed/XpqfRsJ_--A",
+   "metacritic": 81,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65540/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/gothic-classic",
+   "noticias": [
+    {
+     "fecha": "2026-07-28",
+     "titulo": "EL RPG DE CULTO REGRESA CON 81",
+     "texto": "La reedición del clásico de Piranha Bytes de 2001 llegó hoy a consolas con buena recepción de la crítica."
+    }
+   ]
+  },
+  {
+   "id": "mistfall-hunter",
+   "titulo": "MISTFALL HUNTER",
+   "fecha": "2026-07-29",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "SUPERVIVENCIA"
+   ],
+   "desarrollador": "BELLRING GAMES",
+   "descripcion": "Mistfall Hunter es un juego de acción y rol de extracción JcJcE en tercera persona. ¡Vive la emoción del combate al combinar las habilidades, talentos y equipamiento de cada clase! Ya juegues en solitario o en equipo, una cosa está clara: para llevártelo todo, tendrás que luchar. Buena suerte.",
+   "trailer": "https://youtube.com/embed/bc1exw4vjtM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/library_600x900.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/mistfall-hunter",
+   "noticias": [
+    {
+     "fecha": "2026-07-10",
+     "titulo": "DAY ONE EN GAME PASS, SIN PS PLUS",
+     "texto": "El RPG de extracción de Bellring Games llega día uno a Game Pass, con crossplay y cooperativo. En PS5 no estará incluido en PS Plus al lanzamiento."
+    }
+   ]
+  },
+  {
+   "id": "bloodrayne-definitive-collection",
+   "titulo": "BLOODRAYNE: DEFINITIVE COLLECTION",
+   "fecha": "2026-07-29",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "HACK AND SLASH",
+    "VAMPIROS"
+   ],
+   "desarrollador": "TERMINAL REALITY",
+   "descripcion": "La dhampir Rayne regresa: una colección que reúne los clásicos de la saga BloodRayne en una edición definitiva para consolas actuales, disponible en formato digital y físico.",
+   "trailer": "https://youtube.com/embed/J2xriwzY09E",
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/bloodrayne-definitive-collection"
+  },
+  {
+   "id": "truck-kun-is-supporting-me-from-another-world",
+   "titulo": "TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!",
+   "fecha": "2026-07-29",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "ANIME",
+    "INDIE"
+   ],
+   "desarrollador": "STRANGE SCAFFOLD",
+   "descripcion": "Tienes un camión mágico y ahora le debes tu alma a la elfa de isekai mazada que vive en tu cabeza. ¡Ponte en la piel de Truck-kun y atropella peatones, entrega pedidos y derrota al rey esqueleto en dos mundos diferentes en este juego de conducción caótica basado en reintentar partidas!",
+   "trailer": "https://youtube.com/embed/Iujy19OLvuc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/e420ddf6b182eb2a7f68803fe8334fdf03f0a7ce/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/truck-kun-is-supporting-me-from-another-world"
+  },
+  {
+   "id": "the-king-is-watching",
+   "titulo": "THE KING IS WATCHING",
+   "fecha": "2026-07-29",
+   "relanzamiento": "En PC desde 2025",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "INDIE",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "HYPNOHEAD",
+   "descripcion": "The King is Watching es un constructor de reinos roguelite. ¡Gobierna con el poder de tu mirada real! Decide entre generar recursos, entrenar ejércitos o dividir tus esfuerzos entre ambos para adaptarte a los eventos de cada partida.",
+   "trailer": "https://youtube.com/embed/CZXjQRcu2B8",
+   "metacritic": 80,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753900/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/the-king-is-watching",
+   "noticias": [
+    {
+     "fecha": "2026-07-21",
+     "titulo": "SU DEBUT EN CONSOLAS SE MOVIÓ AL 29",
+     "texto": "El port a PS5, Xbox y Switch se retrasó una semana, del 21 al 29 de julio. El original de PC promedia 80 en Metacritic."
+    }
+   ]
+  },
+  {
+   "id": "dispatch",
+   "titulo": "DISPATCH",
+   "fecha": "2026-07-29",
+   "relanzamiento": "En PS5 y PC desde 2025",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "ADHOC STUDIO",
+   "descripcion": "Dispatch es una comedia de oficina sobre superhéroes donde las decisiones importan. Gestioná un equipo de héroes venidos a menos desde tu escritorio de despachante y decidí quién responde cada emergencia.",
+   "trailer": "https://youtube.com/embed/jK0cGKMDMPE",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/dispatch"
+  },
+  {
+   "id": "bokura",
+   "titulo": "BOKURA",
+   "fecha": "2026-07-29",
+   "relanzamiento": "En PC y Switch desde 2023 — esta fecha corresponde a la edición de Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "KODANSHA",
+   "descripcion": "¿Vos y yo estamos viendo el mundo de la misma manera? Una aventura de puzles exclusivamente para dos jugadores: cada uno ve una versión distinta del mundo y deben cooperar y comunicarse para avanzar en un viaje de escape.",
+   "trailer": "https://youtube.com/embed/25mkGli1e0A",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/bokura/1x1_Bokura_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/bokura"
+  },
+  {
+   "id": "xenoblade-chronicles-2",
+   "titulo": "XENOBLADE CHRONICLES 2",
+   "fecha": "2026-07-30",
+   "relanzamiento": "En Switch desde 2017 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 64 h (historia) · 250 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "AVENTURA",
+    "MUNDO ABIERTO",
+    "ANIME"
+   ],
+   "desarrollador": "MONOLITH SOFT",
+   "descripcion": "El aclamado RPG de Monolith Soft llega a Switch 2 en una edición mejorada. Acompañá a Rex y a Pyra en la búsqueda del Elíseo a través de un mundo de titanes vivientes, con mejoras gráficas y de rendimiento para la nueva consola.",
+   "trailer": "https://youtube.com/embed/Xjpao-nD5YU",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_XenobladeChronicles2_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/xenoblade-chronicles-2",
+   "noticias": [
+    {
+     "fecha": "2026-07-10",
+     "titulo": "4K, 60 FPS Y UN BLADE NUEVO EN SWITCH 2",
+     "texto": "La edición de Switch 2 corre a 4K en TV y Full HD en portátil, a 60 cuadros por segundo. Suma un Blade raro nuevo con misión propia, un modo de batalla de acción para comandar Blades directamente y equipamiento exclusivo para Pyra y Mythra. La edición física llega el 1 de octubre."
+    }
+   ]
+  },
+  {
+   "id": "kusan-city-of-wolves",
+   "titulo": "KUSAN: CITY OF WOLVES",
+   "fecha": "2026-07-30",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "SHOOTER",
+    "INDIE"
+   ],
+   "desarrollador": "CIRCLEFROMDOT",
+   "descripcion": "Kusan: City of Wolves es un trepidante juego de disparos extremo en perspectiva cenital ambientado en una brutal jungla urbana gobernada por las armas y la corrupción.",
+   "trailer": "https://youtube.com/embed/uZ1hyKQOyJs",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1714510/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/kusan-city-of-wolves"
+  },
+  {
+   "id": "blue-reflection-quartet",
+   "titulo": "BLUE REFLECTION QUARTET",
+   "fecha": "2026-07-30",
+   "plataformas": [
+    "SWITCH",
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "ANIME",
+    "AVENTURA"
+   ],
+   "desarrollador": "KOEI TECMO GAMES CO., LTD.",
+   "descripcion": "El cosmos converge, formando una luz. Vive las emotivas historias de las mágicas Reflectors y los vínculos que forman. ¡Toda la serie BLUE REFLECTION en un sitio!",
+   "trailer": "https://youtube.com/embed/cgJHujvxg0s",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3825390/9a5bc55299ab11f82ef6187b9d9fd452d7cad8ed/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/blue-reflection-quartet"
+  },
+  {
+   "id": "truxton-extreme",
+   "titulo": "TRUXTON EXTREME",
+   "fecha": "2026-07-30",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SHOOTER",
+    "ARCADE"
+   ],
+   "desarrollador": "TATSUJIN",
+   "descripcion": "Acaba con hordas de invasores alienígenas usando tu disparo potente, rayo Truxton, láser trueno y disparo guiado, y no te olvides de respirar mientras combates contra gigantescos jefes en la batalla definitiva por la supervivencia de la humanidad.",
+   "trailer": "https://youtube.com/embed/HHKHAeqwXdc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3323490/e2a9d117851ffcd8194af97195c9757b3d342d61/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/truxton-extreme"
+  },
+  {
+   "id": "voidtrain",
+   "titulo": "VOIDTRAIN",
+   "fecha": "2026-07-30",
+   "relanzamiento": "En PC desde 2025",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "SUPERVIVENCIA",
+    "AVENTURA",
+    "COOP"
+   ],
+   "desarrollador": "HYPETRAIN DIGITAL",
+   "descripcion": "¡Hazte miembro de la tripulación de un tren interdimensional! Descubre un mundo lleno de seres misteriosos, nuevos lugares y enemigos desconocidos. Mejora tu tren, busca materiales y crea armas mejores. Juega en solitario o en modo cooperativo en línea con hasta 4 personas.",
+   "trailer": "https://youtube.com/embed/vUsSwUo2IrY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/voidtrain"
+  },
+  {
+   "id": "leafy-corner",
+   "titulo": "LEAFY CORNER",
+   "fecha": "2026-07-30",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "RELAX",
+    "SIMULACION",
+    "INDIE"
+   ],
+   "desarrollador": "FIRELINE GAMES",
+   "descripcion": "¡Lleva las riendas de una pequeña tienda botánica en este relajante videojuego! Encárgate del crecimiento, la venta y el cuidado de una gran variedad de plantas y ayuda a los clientes con sus encargos para escoger la planta de sus sueños. También podrás decorar tu negocio de un sinfín de maneras.",
+   "trailer": "https://youtube.com/embed/zOi4PqrXiO8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/4e08cdccd8ae01e0e275c139e1b807e7baa5caf5/header_alt_assets_1.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/leafy-corner"
+  },
+  {
+   "id": "shard-squad",
+   "titulo": "SHARD SQUAD",
+   "fecha": "2026-07-30",
+   "relanzamiento": "En PC desde 2025",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "ESTRATEGIA",
+    "INDIE"
+   ],
+   "desarrollador": "THE ROOT STUDIOS",
+   "descripcion": "Forma un escuadrón de criaturas elementales y enfréntate a hordas de enemigos desafiantes. ¡Elige tus Fragmentos según sus sinergias para obtener nuevas habilidades y equipa reliquias que harán que los vientos soplen a tu favor! ¡Sobrevive en distintos entornos y salva tus tierras!",
+   "trailer": "https://youtube.com/embed/l2gLokNpTIY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3363560/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/shard-squad"
+  },
+  {
+   "id": "dungeon-antiqua",
+   "titulo": "DUNGEON ANTIQUA",
+   "fecha": "2026-07-30",
+   "relanzamiento": "En PC desde 2024",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "INDIE"
+   ],
+   "desarrollador": "SHIROMOFU FACTORY",
+   "descripcion": "Un RPG sencillo inspirado en los Wizardry y Final Fantasy de los años 80 y 90: mazmorras, combate por turnos y estética retro para los nostálgicos del género clásico.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198540/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/dungeon-antiqua"
+  },
+  {
+   "id": "verho-curse-of-faces",
+   "titulo": "VERHO: CURSE OF FACES",
+   "fecha": "2026-07-30",
+   "relanzamiento": "En PC desde 2025",
+   "plataformas": [
+    "SWITCH",
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "AVENTURA",
+    "GOTICO"
+   ],
+   "desarrollador": "KASUR GAMES",
+   "descripcion": "Verho es un RPG inspirado en la saga King’s Field. Transcurre tras la catastrófica Era de la Soledad, donde las máscaras son la única protección frente a la maldición de las caras. Viaja a Yariv, encuentra el origen de la maldición y enfréntate a numerosos peligros.",
+   "trailer": "https://youtube.com/embed/iS6pZ1KCJ5I",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017330/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/verho-curse-of-faces"
+  },
+  {
+   "id": "jurassic-world-evolution-2",
+   "titulo": "JURASSIC WORLD EVOLUTION 2",
+   "fecha": "2026-07-30",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2021",
+   "duracion": "≈ 5,5 h (campaña) · 30 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "FRONTIER DEVELOPMENTS",
+   "descripcion": "Jurassic World Evolution 2 es la esperada secuela de Jurassic World Evolution, el éxito de Frontier de 2018. Construí y administrá tu propio parque de dinosaurios, con herramientas de gestión más profundas, nuevas especies y modos de juego basados en las películas. Esta edición lleva el simulador a Switch 2 por primera vez.",
+   "trailer": "https://youtube.com/embed/G4usXflcYzI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244460/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/jurassic-world-evolution-2"
+  },
+  {
+   "id": "volcano-princess",
+   "titulo": "VOLCANO PRINCESS",
+   "fecha": "2026-07-30",
+   "relanzamiento": "En PC desde 2023",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RPG",
+    "CASUAL"
+   ],
+   "desarrollador": "EGG HATCHER",
+   "descripcion": "Preparás a la próxima monarca del Reino Volcánico: descubrí sus pasatiempos, entrenala para el combate y hacete amiga de los ciudadanos que algún día gobernará, en este querido simulador de crianza.",
+   "trailer": "https://youtube.com/embed/4WLyF94hjd0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669980/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/volcano-princess"
+  },
+  {
+   "id": "neko-odyssey",
+   "titulo": "NEKO ODYSSEY",
+   "fecha": "2026-07-30",
+   "relanzamiento": "En PC desde 2024",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "CASUAL",
+    "AVENTURA"
+   ],
+   "desarrollador": "SECRET CHARACTER",
+   "descripcion": "Neko Odyssey: imperdible para los entusiastas de los gatos. Esta aventura casual gira en torno a fotografiar y conocer a los michis del barrio, cada uno con su personalidad.",
+   "trailer": "https://youtube.com/embed/Tke32alC0BQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2476350/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/neko-odyssey"
+  },
+  {
+   "id": "the-relic-first-guardian",
+   "titulo": "THE RELIC: FIRST GUARDIAN",
+   "fecha": "2026-07-31",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "AVENTURA"
+   ],
+   "desarrollador": "PROJECT CLOUD GAMES",
+   "descripcion": "Embárcate en una aventura heroica en este RPG de acción inspirado en el folclore coreano.",
+   "trailer": "https://youtube.com/embed/9BZUDAXO7fk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/the-relic-first-guardian"
+  },
+  {
+   "id": "paw-patrol-dino-world",
+   "titulo": "PAW PATROL: DINO WORLD",
+   "fecha": "2026-07-31",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "PS4"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ACCION",
+    "COOP"
+   ],
+   "desarrollador": "3DCLOUDS",
+   "descripcion": "Únete a la Patrulla Canina y a Rex en misiones colosales por la Isla Dino. Crea conjuntos prehistóricos, juega minijuegos con amigos ¡y mucho más!",
+   "trailer": "https://youtube.com/embed/2ccwZwR0pv0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3525790/2697199371a6effb9498ba1ee1017c4287dc563b/header_spanish.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/paw-patrol-dino-world"
+  },
+  {
+   "id": "beast-of-reincarnation",
+   "titulo": "BEAST OF REINCARNATION",
+   "fecha": "2026-08-04",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG"
+   ],
+   "desarrollador": "GAME FREAK INC.",
+   "descripcion": "En un Japón posapocalíptico, la última esperanza de la humanidad está en manos de Emma y Koo, su compañero peludo. Vive una intensa aventura en «Beast of Reincarnation», un RPG de acción con combates técnicos y exigentes, protagonizado por una chica y su perro. ¿Qué habrá al final del camino? El primer gran RPG de acción de Game Freak, los creadores de Pokémon.",
+   "trailer": "https://youtube.com/embed/3dw0ePZ8GLc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/beast-of-reincarnation"
+  },
+  {
+   "id": "big-walk",
+   "titulo": "BIG WALK",
+   "fecha": "2026-08-04",
+   "plataformas": [
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "HOUSE HOUSE",
+   "descripcion": "Pasa el rato con tus amigos y perdeos en un mundo enorme. Una caminata cooperativa en línea de los creadores de Untitled Goose Game. De los creadores de Untitled Goose Game.",
+   "trailer": "https://youtube.com/embed/xfzapBQssa0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/big-walk"
+  },
+  {
+   "id": "kynseed",
+   "titulo": "KYNSEED",
+   "fecha": "2026-08-04",
+   "relanzamiento": "En PC desde 2022",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE",
+    "RPG",
+    "SIMULACION"
+   ],
+   "desarrollador": "PIXELCOUNT STUDIOS",
+   "descripcion": "Viví una vida entera de aventuras en un hermoso mundo de creatividad e intriga. Un sandbox de simulación de vida creado por ex desarrolladores de Fable, donde tu personaje envejece, forma familia y su legado continúa con sus descendientes.",
+   "trailer": "https://youtube.com/embed/H-VIZ65gxKU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/kynseed"
+  },
+  {
+   "id": "final-fantasy-xiv-online",
+   "titulo": "FINAL FANTASY XIV ONLINE",
+   "fecha": "2026-08-04",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2013 — esta fecha corresponde a la edición de Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "MULTIJUGADOR",
+    "AVENTURA"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "El MMORPG de Square Enix llega a Switch 2. La prueba gratuita incluye cuatro expansiones galardonadas: sumate a Eorzea, elegí entre decenas de clases y viví una de las historias más aclamadas del género.",
+   "trailer": "https://youtube.com/embed/2XbxPsWFyU8",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxivonline/1x1_FinalFantasyXIVOnline_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/final-fantasy-xiv-online"
+  },
+  {
+   "id": "parkasaurus",
+   "titulo": "PARKASAURUS",
+   "fecha": "2026-08-05",
+   "relanzamiento": "En PC desde 2020 — debut en consolas",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA",
+    "INDIE"
+   ],
+   "desarrollador": "WASHBEAR STUDIO",
+   "descripcion": "Parkasaurus te reta a construir tu propio parque temático de dinosaurios. Diseñá hábitats, cuidá a tus criaturas prehistóricas y equilibrá las finanzas en este simulador de gestión con encanto artesanal.",
+   "trailer": "https://youtube.com/embed/cQ64tNYdRHI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/591460/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/parkasaurus"
+  },
+  {
+   "id": "marvel-tokon-fighting-souls",
+   "titulo": "MARVEL TŌKON: FIGHTING SOULS",
+   "fecha": "2026-08-06",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "LUCHA",
+    "ACCION",
+    "ANIME"
+   ],
+   "desarrollador": "ARC SYSTEM WORKS CO., LTD",
+   "descripcion": "Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel Games.",
+   "trailer": "https://youtube.com/embed/cen2Lbmmo_Q",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls",
+   "noticias": [
+    {
+     "fecha": "2026-07-10",
+     "titulo": "BETA ABIERTA DEL 24 AL 26 DE JULIO",
+     "texto": "El fighting 4v4 de Arc System Works y PlayStation tendrá beta abierta en PS5 y PC con Blade como personaje jugable. Al lanzamiento contará con 20 luchadores, crossplay y estética anime en 4K."
+    }
+   ]
+  },
+  {
+   "id": "lies-of-p-switch-2",
+   "titulo": "LIES OF P",
+   "fecha": "2026-08-06",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2023 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "28,5 h (historia) · 58,5 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "GOTICO"
+   ],
+   "desarrollador": "NEOWIZ",
+   "descripcion": "Lies of P es un soulslike trepidante que toma la conocida historia de Pinocho, le da la vuelta y la ubica en una belle époque elegante y oscura. Esta edición lleva el aclamado soulslike a Switch 2 por primera vez.",
+   "trailer": "https://youtube.com/embed/kXZoKdr-xeo",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/lies-of-p-switch-2"
+  },
+  {
+   "id": "monsters-are-coming",
+   "titulo": "MONSTERS ARE COMING!",
+   "fecha": "2026-08-06",
+   "relanzamiento": "En PC desde 2025",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "INDIE",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "LUDOGRAM",
+   "descripcion": "¡Que vienen los monstruos! En este juego de supervivencia y torres tipo roguelite, debes proteger a una ciudad itinerante de las hordas que la amenazan. Reúne recursos, refuerza defensas, aumenta tu potencial y progresa. ¿Llegarás al Arco a tiempo?",
+   "trailer": "https://youtube.com/embed/P33pMKtwmLE",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2934220/4cb4bcd77b5844de95aebf6c74cc066b0220f2f4/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/monsters-are-coming"
+  },
+  {
+   "id": "route16r",
+   "titulo": "ROUTE16R",
+   "fecha": "2026-08-06",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION"
+   ],
+   "desarrollador": "WIT ONE",
+   "descripcion": "¡La obra maestra de NES⁉️ «ROUTE-16 TURBO» renace y revive después de más de 40 años! ¡Vuelve con la jugabilidad original intacta, gráficos completamente renovados y nuevas características añadidas!",
+   "trailer": "https://youtube.com/embed/rbmSbqTq4b0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4307330/58a63a96dbcbaff8701765d3e26e1a1dce96b902/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/route16r"
+  },
+  {
+   "id": "spooky-spirit-shooting-gallery",
+   "titulo": "SPOOKY SPIRIT SHOOTING GALLERY",
+   "fecha": "2026-08-06",
+   "relanzamiento": "En Switch desde 2023",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ARCADE",
+    "SHOOTER",
+    "CASUAL"
+   ],
+   "desarrollador": "FORTYFIVE",
+   "descripcion": "Galería de tiro arcade con fantasmas y yokais: apuntá y dispará a los espíritus traviesos en escenarios encantados. La edición de Switch 2 llega con controles de puntero mejorados.",
+   "trailer": "https://youtube.com/embed/k-bgGSJdQ4E",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_SpookySpiritShootingGallery_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/spooky-spirit-shooting-gallery"
+  },
+  {
+   "id": "montabi",
+   "titulo": "MONTABI",
+   "fecha": "2026-08-06",
+   "plataformas": [
+    "SWITCH",
+    "XBOX"
+   ],
+   "genero": [
+    "INDIE",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "MANKIBO",
+   "descripcion": "¡Doma, colecciona, combate! Reúne un equipo imparable de Montabi únicos en este juego de construcción de mazos «roguelike» y captura de criaturas. ¡Domina sus alucinantes habilidades, encuentra sinergias entre sus puntos fuertes estratégicos y salva la ciudad en combates tácticos por turnos!",
+   "trailer": "https://youtube.com/embed/OOb-IKKkJBE",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141630/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/montabi"
+  },
+  {
+   "id": "obakeidoro-2-chase-seek",
+   "titulo": "OBAKEIDORO 2: CHASE & SEEK",
+   "fecha": "2026-08-06",
+   "plataformas": [
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "CASUAL",
+    "MULTIJUGADOR",
+    "COOP"
+   ],
+   "desarrollador": "FREE STYLE",
+   "descripcion": "La secuela del party game japonés de las escondidas fantasmales: humanos contra fantasmas en partidas rápidas de perseguir y esconderse, ideal para jugar en familia, ahora también en Switch 2.",
+   "trailer": "https://youtube.com/embed/o_WctWhM5VA",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/obakeidoro2chaseseek_1/1x1_Obakeidoro2ChaseSeek_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/obakeidoro-2-chase-seek"
+  },
+  {
+   "id": "the-elder-scrolls-iv-oblivion-remastered",
+   "titulo": "THE ELDER SCROLLS IV: OBLIVION REMASTERED",
+   "fecha": "2026-08-11",
+   "relanzamiento": "En PS5, Xbox y PC desde 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 25 h (historia) · 100+ h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "MUNDO ABIERTO",
+    "AVENTURA"
+   ],
+   "desarrollador": "BETHESDA GAME STUDIOS",
+   "descripcion": "Explora Cyrodiil como nunca con unos gráficos impresionantes y una jugabilidad mejorada en The Elder Scrolls IV: Oblivion™ Remastered. Esta edición lleva el remaster a Switch 2 por primera vez.",
+   "trailer": "https://youtube.com/embed/wFJ3PZuAjK4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/the-elder-scrolls-iv-oblivion-remastered"
+  },
+  {
+   "id": "grounded-2",
+   "titulo": "GROUNDED 2",
+   "fecha": "2026-08-11",
+   "relanzamiento": "En Xbox y PC desde 2025 — debut en PlayStation",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "SUPERVIVENCIA",
+    "AVENTURA",
+    "COOP"
+   ],
+   "desarrollador": "OBSIDIAN ENTERTAINMENT",
+   "descripcion": "Hace dos años, encogiste al tamaño de una hormiga. Ahora, ha vuelto a ocurrir, pero ya nada es igual... Debut del juego de Obsidian en PlayStation 5.",
+   "trailer": "https://youtube.com/embed/63fCwf6GfMM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/c4fc47c7e6ece14e438f0957d066dc9ab2a3412a/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/grounded-2"
+  },
+  {
+   "id": "pro-jank-footy",
+   "titulo": "PRO JANK FOOTY",
+   "fecha": "2026-08-12",
+   "plataformas": [
+    "SWITCH2",
+    "XBOX"
+   ],
+   "genero": [
+    "DEPORTES",
+    "ARCADE",
+    "INDIE"
+   ],
+   "desarrollador": "POWERBOMB GAMES",
+   "descripcion": "Pro Jank Footy es un juego arcade de comedia deportiva con física exagerada. Meté goles como puedas —volando, chocando o a los tropezones— en partidos caóticos para jugar con amigos.",
+   "trailer": "https://youtube.com/embed/U-mqKi-G9HI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/pro-jank-footy"
+  },
+  {
+   "id": "duskfade",
+   "titulo": "DUSKFADE",
+   "fecha": "2026-08-13",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "WEIRD BELUGA",
+   "descripcion": "Rompe las cadenas del tiempo saltando y blandiendo tu espada en un mundo de fantasía en este homenaje a los clásicos de plataformas 3D de acción. Zirian, acompañado de su Cuco mecánico, debe salvar a su hermana de una misteriosa Torre del reloj que ha sumido la tierra en una noche eterna.",
+   "trailer": "https://youtube.com/embed/6Mq_adllBHg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/f17f8f31c30ca7f8603b125502e00c0c542c6677/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/duskfade"
+  },
+  {
+   "id": "hell-let-loose-vietnam",
+   "titulo": "HELL LET LOOSE: VIETNAM",
+   "fecha": "2026-08-13",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "SHOOTER",
+    "COOP"
+   ],
+   "desarrollador": "EXPRESSION GAMES",
+   "descripcion": "Adéntrate en el fragor de la batalla en Hell Let Loose: Vietnam. Juega un papel decisivo en uno de los conflictos más históricos con extensas batallas de 50 vs. 50 en las que el trabajo en equipo, las tácticas y un arsenal de armas destructivas se combinan para que la batalla progrese en tu favor.",
+   "trailer": "https://youtube.com/embed/8zdQFX0Li8Q",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/2e52f99e70e827b57a2205469dc5d529e8e0490a/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/hell-let-loose-vietnam"
+  },
+  {
+   "id": "rivage",
+   "titulo": "RIVAGE",
+   "fecha": "2026-08-13",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "EXNILO STUDIO",
+   "descripcion": "Rivage es un juego de aventuras y puzles que transcurre en ARES, una estación espacial atrapada en un extraño fenómeno. Cuando Miranda despierta y se da cuenta de que su tripulación ha desaparecido, trata de averiguar su paradero explorando los alrededores y resolviendo intrincados puzles.",
+   "trailer": "https://youtube.com/embed/6_2nregu6xg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094660/25ca531e261b1217387bbf4a039623002f233287/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/rivage"
+  },
+  {
+   "id": "wild-blue-skies",
+   "titulo": "WILD BLUE SKIES",
+   "fecha": "2026-08-13",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "CHUHAI LABS",
+   "descripcion": "Wild Blue Skies reimagina las aventuras sobre raíles clásicas de los 90: un shooter aéreo colorido con espíritu arcade y jefes espectaculares.",
+   "trailer": "https://youtube.com/embed/azfptYj4GHQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1921490/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/wild-blue-skies"
+  },
+  {
+   "id": "defender-of-the-crown-the-legend-returns",
+   "titulo": "DEFENDER OF THE CROWN: THE LEGEND RETURNS",
+   "fecha": "2026-08-13",
+   "plataformas": [
+    "XBOX",
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "RETRO"
+   ],
+   "desarrollador": "BLACK TOWER BASEMENT",
+   "descripcion": "Defender of the Crown ha vuelto, mejorado para una nueva generación de caballeros. Conquista territorios, recluta ejércitos, asalta castillos, influye en el equilibrio del poder y supera a los señores rivales para unir al reino bajo tu estandarte.",
+   "trailer": "https://youtube.com/embed/dF999OSFcOg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4208140/131479ec2e41016e6baf82b98c2106abc562c095/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/defender-of-the-crown-the-legend-returns"
+  },
+  {
+   "id": "panzer-knights-commanders-edition",
+   "titulo": "PANZER KNIGHTS: COMMANDER'S EDITION",
+   "fecha": "2026-08-13",
+   "relanzamiento": "En PC desde 2021",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "SIMULACION",
+    "WWII"
+   ],
+   "desarrollador": "樂磚JOY BRICK",
+   "descripcion": "Lidera un pelotón alemán de pánzers en la II Guerra Mundial en esta intensa simulación de tanques de inspiración anime. Reúne una tripulación de élite, despliega tanques legendarios y sobrevive a enfrentamientos en los que la astucia y la habilidad deciden al vencedor. La Commander's Edition trae el juego a consolas.",
+   "trailer": "https://youtube.com/embed/f_mO3Gn8pM0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1416230/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/panzer-knights-commanders-edition"
+  },
+  {
+   "id": "tower-dominion",
+   "titulo": "TOWER DOMINION",
+   "fecha": "2026-08-13",
+   "relanzamiento": "En PC desde 2025",
+   "plataformas": [
+    "SWITCH",
+    "PS5",
+    "PS4",
+    "XBOX"
+   ],
+   "genero": [
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "PARALLEL 45 GAMES",
+   "descripcion": "¡Construye el mapa mientras defiendes tu fortaleza de una invasión alienígena en este emocionante juego de tower defense roguelike! Elige entre 30 héroes, sobrevive las olas enemigas y mejora una variedad de torres destructivas para mantener la línea de defensa.",
+   "trailer": "https://youtube.com/embed/FbO0ffQIaLk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226530/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/tower-dominion"
+  },
+  {
+   "id": "skatesterre",
+   "titulo": "SKATESTERRE",
+   "fecha": "2026-08-13",
+   "plataformas": [
+    "XBOX",
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "DEPORTES",
+    "ARCADE",
+    "INDIE"
+   ],
+   "desarrollador": "GOON SQUAD",
+   "descripcion": "¡Flips, grabs y grinds como en 1999! Skatesterre es un juego de skate arcade veloz inspirado en la era dorada del género, con combos exagerados y estética noventosa.",
+   "trailer": "https://youtube.com/embed/pAiVQQizsMA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224220/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/skatesterre"
+  },
+  {
+   "id": "mafia-the-old-country-man-of-honor",
+   "titulo": "MAFIA: THE OLD COUNTRY - MAN OF HONOR",
+   "fecha": "2026-08-14",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "HANGAR 13",
+   "descripcion": "Ponte en la piel de Enzo Favara y trabaja con Ennio Salieri, un temido y respetado mafioso, mientras salda cuentas pendientes. La expansión Hombre de Honor para Mafia: El Viejo Continente incluye dos nuevos capítulos descargables adicionales para el modo Free Ride.",
+   "trailer": "https://youtube.com/embed/rh9_zPBYDIY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4492700/590a6171df42da28880a583d61ffdc6482783caf/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/mafia-the-old-country-man-of-honor"
+  },
+  {
+   "id": "the-sinking-city-2",
+   "titulo": "THE SINKING CITY 2",
+   "fecha": "2026-08-18",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "HORROR",
+    "AVENTURA",
+    "ACCION"
+   ],
+   "desarrollador": "FROGWARES",
+   "descripcion": "The Sinking City 2 se ambienta en los Felices años veinte en este juego de horror y supervivencia cargado de terrores lovecraftianos. Desafía a una deidad sobrenatural y explora los callejones inundados de Arkham mientras te acechan los muertos y sopesas una sola vida frente a toda una ciudad.",
+   "trailer": "https://youtube.com/embed/2q-pfSpS_J4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/the-sinking-city-2"
+  },
+  {
+   "id": "no-case-should-remain-unsolved",
+   "titulo": "NO CASE SHOULD REMAIN UNSOLVED",
+   "fecha": "2026-08-19",
+   "relanzamiento": "En PC desde 2024",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "SOMI",
+   "descripcion": "Veinte años después de que la inspectora de policía Jeon Gyeong se haya jubilado, una joven policía la visita porque quiere indagar con ella acerca del caso de Seowon. Una cosa queda clara según se destapan los recuerdos: toda la gente alrededor de Seowon mentía.",
+   "trailer": "https://youtube.com/embed/wKP2fMm-QDM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676840/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/no-case-should-remain-unsolved"
+  },
+  {
+   "id": "puppergeist",
+   "titulo": "PUPPERGEIST",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "MUSICA",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "SERENITY FORGE",
+   "descripcion": "Viaja a través del Inframundo Canino en esta conmovedora mezcla de ritmo y novela visual. ¡Reúnete con tu cachorro perdido conectando con las almas de otros perros, descubriendo sus historias y animando su espíritu con juegos rítmicos llenos de encanto y desafíos lúdicos! Su banda sonora reúne a los creadores de la música de To the Moon y Friday Night Funkin'.",
+   "trailer": "https://youtube.com/embed/mGQ_sVCc1_c",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029740/61bd4edcfe96b8f158100a92fb2b11d9778fd24a/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/puppergeist",
+   "noticias": [
+    {
+     "fecha": "2026-07-21",
+     "titulo": "RETRASADO AL 20 DE AGOSTO",
+     "texto": "La novela visual rítmica del inframundo canino movió su lanzamiento del 16 de julio al 20 de agosto."
+    }
+   ]
+  },
+  {
+   "id": "mortal-shell-2",
+   "titulo": "MORTAL SHELL II",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG"
+   ],
+   "desarrollador": "COLD SYMMETRY",
+   "descripcion": "Su carne es tu arma. Mortal Shell II es la secuela independiente de un RPG de acción con peleas despiadadas y llenas de adrenalina. Posee guerreros excepcionales, derroca dioses falsos y redime un mundo en destrucción.",
+   "trailer": "https://youtube.com/embed/KJWAUJhInH0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/379616e6d986dc4b75d0d5ace6ec99b7c5184fef/header_alt_assets_1_spanish.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/mortal-shell-2",
+   "noticias": [
+    {
+     "fecha": "2026-07-10",
+     "titulo": "PRECIO CONFIRMADO: 50 DÓLARES",
+     "texto": "El soulslike de Cold Symmetry confirmó precio, mundo abierto y acceso anticipado de 3 días para quienes reserven. No estará en Game Pass al lanzamiento, a diferencia del primero."
+    }
+   ]
+  },
+  {
+   "id": "steins-gate-reboot",
+   "titulo": "STEINS;GATE RE:BOOT",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ANIME",
+    "NOVELA VISUAL"
+   ],
+   "desarrollador": "MAGES. INC.",
+   "descripcion": "¡STEINS;GATE está de vuelta, renovado para la era moderna! La novela visual de viajes en el tiempo aclamada por la crítica regresa con gráficos completamente actualizados.",
+   "trailer": "https://youtube.com/embed/2X-X5C4jG0A",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012810/07418d40a3fdd2f403bfa506f50051f4254fa02a/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/steins-gate-reboot"
+  },
+  {
+   "id": "the-witchs-bakery",
+   "titulo": "THE WITCH'S BAKERY",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "PS5",
+    "SWITCH",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE",
+    "RPG",
+    "SIMULACION"
+   ],
+   "desarrollador": "SUNNY LAB",
+   "descripcion": "¡The Witch's Bakery es un juego de rol y aventuras en 2D donde vivirás una vida mágica siendo una bruja panadera en París! ¡Gestiona tu tienda, visita calles icónicas y sana los corazones de la gente con tus cruasanes! 🥐",
+   "trailer": "https://youtube.com/embed/52DNO516s34",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/the-witchs-bakery"
+  },
+  {
+   "id": "yet-another-zombie-survivors",
+   "titulo": "YET ANOTHER ZOMBIE SURVIVORS",
+   "fecha": "2026-08-20",
+   "relanzamiento": "En PC desde 2023 — debut en consolas",
+   "plataformas": [
+    "PS5",
+    "PS4"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "AWESOME GAMES STUDIO",
+   "descripcion": "¡La horda se acerca, pero estás listo para luchar! Reuní a tu escuadrón, elegí sus mejoras y sobreviví a oleadas interminables de zombis en este frenético survivor roguelite de acción.",
+   "trailer": "https://youtube.com/embed/foG7tODmFks",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/yet-another-zombie-survivors"
+  },
+  {
+   "id": "once-human",
+   "titulo": "ONCE HUMAN",
+   "fecha": "2026-08-25",
+   "relanzamiento": "En PC desde 2024",
+   "duracion": "≈ 30–40 h (historia)",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SUPERVIVENCIA",
+    "MUNDO ABIERTO",
+    "HORROR"
+   ],
+   "desarrollador": "STARRY STUDIO",
+   "descripcion": "Once Human es un juego de supervivencia ambientado en un extraño mundo posapocalíptico: recolectá recursos, construí tu refugio y enfrentá criaturas deformadas por una contaminación sobrenatural, en solitario o con amigos. El fenómeno de supervivencia llega por fin a consolas.",
+   "trailer": "https://youtube.com/embed/XXpfbP9Ml_4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2139460/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/once-human"
+  },
+  {
+   "id": "apidya-special",
+   "titulo": "APIDYA' SPECIAL",
+   "fecha": "2026-08-25",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "SHOOTER",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "TEAM APIDYA",
+   "descripcion": "Apidya regresa en un remake auténtico de píxeles a 24 bits: el shoot'em up de culto de Amiga vuelve reconstruido desde cero para consolas modernas.",
+   "trailer": "https://youtube.com/embed/ZUP-wVaUxpU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3956980/dfa0188de0188d3bca2a64bc9def2acd04990bd6/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/apidya-special"
+  },
+  {
+   "id": "aliens-fireteam-elite-2",
+   "titulo": "ALIENS: FIRETEAM ELITE 2",
+   "fecha": "2026-08-25",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SHOOTER",
+    "ACCION",
+    "COOP"
+   ],
+   "desarrollador": "COLD IRON STUDIOS",
+   "descripcion": "Esto no es una misión de rescate: es una lucha por la supervivencia. Los xenomorfos acechan en los rincones más oscuros en este shooter cooperativo en tercera persona para tres jugadores, secuela del aclamado Aliens: Fireteam Elite.",
+   "trailer": "https://youtube.com/embed/bISGUJn3sSk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/aliens-fireteam-elite-2"
+  },
+  {
+   "id": "brigandine-abyss",
+   "titulo": "BRIGANDINE: ABYSS",
+   "fecha": "2026-08-26",
+   "plataformas": [
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "RPG",
+    "POR TURNOS"
+   ],
+   "desarrollador": "ADGLOBE",
+   "descripcion": "Elegí una de seis facciones para enfrentar al Imperio Abyssloa. Comandá tus tropas y monstruos en batallas estratégicas por turnos, en la nueva entrega de la saga táctica Brigandine.",
+   "trailer": "https://youtube.com/embed/5z0L0ba4r8k",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211430/f31f9d5047355f830df9dfb1031847fc83cd0e52/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/brigandine-abyss"
+  },
+  {
+   "id": "resonance-a-plague-tale-legacy",
+   "titulo": "RESONANCE: A PLAGUE TALE LEGACY",
+   "fecha": "2026-08-27",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ACCION"
+   ],
+   "desarrollador": "ASOBO STUDIO",
+   "descripcion": "Ponte en la piel de Sofía y vive la historia previa a la del galardonado A Plague Tale. Dirígete a la Isla del Minotauro, supera a tus enemigos, descubre antiguos secretos y enfréntate a una criatura mítica en el corazón de una terrible maldición.",
+   "trailer": "https://youtube.com/embed/6lCzpRkoFjw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2713000/fd497979801c646561040243e1aa64a73d11f13a/header.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy",
+   "noticias": [
+    {
+     "fecha": "2026-07-10",
+     "titulo": "YA ES GOLD Y LAS PREVIEWS ENTUSIASMAN",
+     "texto": "El desarrollo está terminado de cara al 27 de agosto, y llega day one a Game Pass. La prensa que lo probó destaca el giro hacia la acción: encarnás a Sophia, la contrabandista, 15 años antes de Requiem. Lo comparan con lo que la trilogía moderna de Tomb Raider fue para su saga."
+    }
+   ]
+  },
+  {
+   "id": "star-wars-zero-company",
+   "titulo": "STAR WARS ZERO COMPANY",
+   "fecha": "2026-08-27",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "POR TURNOS"
+   ],
+   "desarrollador": "BIT REACTOR",
+   "descripcion": "Dirige un escuadrón de élite a lo largo de una auténtica y apasionante historia en STAR WARS Zero Company™, un juego táctico por turnos para un jugador ambientado en el ocaso de las Guerras Clon.",
+   "trailer": "https://youtube.com/embed/ksOBF-T5LrA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/2c7d5dad080c4888faaa03c4a955136c50f5bfae/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/star-wars-zero-company"
+  },
+  {
+   "id": "metal-gear-solid-master-collection-vol-2",
+   "titulo": "METAL GEAR SOLID: MASTER COLLECTION VOL. 2",
+   "fecha": "2026-08-27",
+   "plataformas": [
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "KONAMI",
+   "descripcion": "Esta segunda entrega de la colección incluye &quot;Metal Gear Solid 4: Guns of the Patriots&quot; y &quot;Metal Gear Solid: Peace Walker (HD Collection version)&quot;, así como una banda sonora digital y &quot;Metal Gear: Ghost Babel&quot; como contenido extra.",
+   "trailer": "https://youtube.com/embed/a3AujdsJvjI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859630/31d5f5ef4a143bf915429e307f37cab6e2939678/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2"
+  },
+  {
+   "id": "aggelos-2",
+   "titulo": "AGGELOS 2",
+   "fecha": "2026-08-27",
+   "plataformas": [
+    "SWITCH2",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PLATAFORMA",
+    "RETRO"
+   ],
+   "desarrollador": "WONDERBOY BOBI",
+   "descripcion": "Los dioses de la luz están a punto de perder la gran batalla contra el Ejército de la Oscuridad, y el Aggelos debe aprender a aceptar su lado oscuro. Explora dos reinos opuestos repletos de secretos, puzles e intensos combates 2D en este juego de plataformas y acción.",
+   "trailer": "https://youtube.com/embed/ahz0YZw2NCc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864290/7232956a2bf056785a2e5ebf6685407da00361a9/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/aggelos-2"
+  },
+  {
+   "id": "kalanoro",
+   "titulo": "KALANORO",
+   "fecha": "2026-08-27",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "RED RAKETA STUDIO",
+   "descripcion": "¡Crea un grupo de música con lémures locos y salva a tu isla de una bruja malvada en Kalanoro, una oda al folclore de Madagascar y a su espectacular arte! Únete a este viaje para descubrir el colorido mundo de Lemuria, rescatar a lémures artistas y derrotar a la bruja Raneny gracias a la música.",
+   "trailer": "https://youtube.com/embed/Bg_sHaq1u3I",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/e344d3d0514147e82f1fee043f7439523feffba6/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/kalanoro"
+  }
+ ]
+}

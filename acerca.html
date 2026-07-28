@@ -6,6 +6,7 @@
   <meta name="description" content="Qué es LANZAMIENTOS.LAT: un calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.">
   <title>ACERCA DE — LANZAMIENTOS.LAT</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
   <link rel="stylesheet" href="css/style.css">
   <style>
     .pagina-texto   { max-width: 720px; margin: 0 auto; padding: 1rem 0 2rem; }
@@ -57,6 +58,17 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">DATOS ABIERTOS Y RSS</div>
+        <p>El calendario está disponible en formato JSON para que puedas usarlo en tus propios proyectos —bots, widgets, extensiones o lo que se te ocurra— sin registro ni clave de acceso:</p>
+        <p>
+          ▸ <a href="/api/juegos.json">/api/juegos.json</a> — el calendario completo.<br>
+          ▸ <a href="/api/proximos.json">/api/proximos.json</a> — solo los lanzamientos de los próximos 30 días.
+        </p>
+        <p>Uso libre citando la fuente con un enlace a lanzamientos.lat. Los datos se actualizan a diario y las respuestas permiten peticiones desde cualquier origen (CORS abierto). Si armás algo con ellos, contanos: nos encantaría verlo.</p>
+        <p>También podés seguir las novedades por <a href="/rss.xml">RSS</a> desde tu lector de feeds favorito.</p>
+      </div>
+
+      <div class="seccion">
         <div class="seccion-titulo">CONTACTO</div>
         <p>¿Encontraste un error, falta un juego o querés proponer algo? Escribinos a <a href="mailto:contacto@lanzamientos.lat">contacto@lanzamientos.lat</a>.</p>
       </div>
@@ -66,7 +78,7 @@
   <footer class="site-footer">
     <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
       <span>LANZAMIENTOS.LAT &copy; 2026</span>
-      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a></span>
+      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
       <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
     </div>
   </footer>

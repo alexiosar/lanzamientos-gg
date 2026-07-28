@@ -122,6 +122,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
   <meta property="og:url" content="{DOMINIO}/{archivo.replace(".html", "")}">
   <meta property="og:image" content="{DOMINIO}/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
   <link rel="stylesheet" href="css/style.css">
   <style>
     .pagina-titulo {{ font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }}
@@ -157,7 +158,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
   <footer class="site-footer">
     <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
       <span>LANZAMIENTOS.LAT &copy; {anio}</span>
-      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a></span>
+      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
       <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
     </div>
   </footer>

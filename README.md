@@ -20,6 +20,11 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── acerca.html                 Página "Acerca de" (qué es el sitio, fuentes, independencia)
 ├── privacidad.html             Política de privacidad
 ├── terminos.html               Términos de uso
+├── scripts/generar-feeds.py    Regenera rss.xml y la API pública (api/*.json)
+├── rss.xml                     Feed de novedades (generado, no editar a mano)
+├── api/juegos.json             API pública: calendario completo (generada)
+├── api/proximos.json           API pública: próximos 30 días (generada)
+├── _headers                    CORS abierto para /api/* (Cloudflare)
 ├── scripts/generar-sitemap.py  Regenera sitemap.xml a partir de juegos.js
 ├── sitemap.xml                 Mapa del sitio para Google (generado, no editar a mano)
 ├── robots.txt                  Permite indexación y declara el sitemap
@@ -206,6 +211,19 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
   de acentos oscurecidos para mantener el contraste.
 - **★ NUEVO**: marca juegos recién agregados al calendario, pero solo se muestra si el juego
   todavía no salió (en los ya disponibles se apaga sola).
+
+## Difusión: RSS y datos abiertos
+
+Sin redes sociales, la estrategia es que otros encuentren y enlacen el sitio:
+
+- **RSS** (`/rss.xml`): las últimas 40 noticias del calendario, para lectores de feeds,
+  agregadores y bots. Enlazado con autodiscovery en el `<head>` de todas las páginas y
+  desde el footer.
+- **API pública** (`/api/juegos.json` y `/api/proximos.json`): el calendario en JSON, con
+  CORS abierto, sin registro ni clave. Documentada en "Acerca de" con licencia de uso libre
+  citando la fuente. La apuesta: si alguien construye algo con estos datos, enlaza al sitio,
+  y esos enlaces son lo que falta para ganar autoridad en Google.
+- Ambos se regeneran con `scripts/generar-feeds.py` (incluido en la rutina diaria).
 
 ## SEO y redes
 

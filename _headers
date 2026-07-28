@@ -1,0 +1,8 @@
+# La API es pública: permitir su uso desde cualquier origen.
+/api/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=1800
+
+/rss.xml
+  Content-Type: application/rss+xml; charset=utf-8
+  Cache-Control: public, max-age=1800
