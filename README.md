@@ -114,6 +114,14 @@ si están en `null` o ausentes — no rompen nada.
 - Sirve cualquier URL de imagen o un archivo local del proyecto.
 - El sitio detecta solo la orientación: las verticales se muestran a 120px y las
   horizontales más anchas (230px) para que no queden diminutas.
+- **Preferir siempre `library_600x900`.** Hoy 114 juegos la tienen, 107 usan la cápsula
+  horizontal de Steam y 19 la cuadrada de la eShop. La vertical es la única que llena el
+  marco 3/4 de la vista grilla sin recorte. Ojo: para los juegos que hoy usan `header.jpg`
+  la vertical directamente no existe (probadas las 107, dan 404), así que no vale la pena
+  reintentarlas en masa — sí conviene chequearla al cargar un juego nuevo.
+- En la vista grilla las carátulas horizontales y cuadradas quedan recortadas al centro por
+  el `object-fit: cover` del marco 3/4. Se probó mostrarlas enteras sobre un fondo difuminado
+  (julio 2026) y **se descartó**: no gustó el resultado. La grilla queda con recorte.
 
 ### Después de CUALQUIER cambio en datos/juegos.js
 
