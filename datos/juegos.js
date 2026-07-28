@@ -1194,8 +1194,15 @@ noticias: [
     desarrollador: "JASOZZ GAMES",
     descripcion: "La muerte es solo el principio. Salí de tu tumba, equipate y abrite paso a los tiros entre las filas de un culto sanguinario en este shooter retro inspirado en los clásicos de los 90. El aclamado FPS de estética old-school llega por fin a consolas.",
     trailer: "https://youtube.com/embed/yqhM9qeBbA0",
-    metacritic: null,
+    metacritic: 80,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1684930/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-28",
+        titulo: "DEBUT EN CONSOLAS CON 80",
+        texto: "El shooter retro inspirado en los clásicos de los 90 mantuvo el nivel del aclamado original de PC en su llegada a consolas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1360,9 +1367,14 @@ noticias: [
     desarrollador: "HALO STUDIOS",
     descripcion: "El remake completo de la campaña de Halo: Combat Evolved, reconstruido con gráficos actuales, cinemáticas mejoradas y tres misiones nuevas protagonizadas por el Jefe Maestro y el sargento Johnson. Por primera vez en la historia, Halo llega a una consola PlayStation. Incluye cooperativo de campaña con crossplay.",
     trailer: "https://youtube.com/embed/HhsxGagHirw",
-    metacritic: null,
+    metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
 noticias: [
+      {
+        fecha: "2026-07-28",
+        titulo: "MASTER CHIEF DEBUTA EN PLAYSTATION CON 82",
+        texto: "El remake llegó con buenas críticas y un hito histórico: la primera vez de Halo en una consola PlayStation. El 88% de los críticos lo recomienda, aunque señalan problemas de rendimiento en PS5 base y la ausencia de multijugador competitivo."
+      },
       {
         fecha: "2026-06-07",
         titulo: "TRES MISIONES NUEVAS Y DEMO DE 28 MINUTOS",
@@ -3545,8 +3557,15 @@ noticias: [
     desarrollador: "FRICTIONAL GAMES",
     descripcion: "De los creadores de Amnesia: The Dark Descent llega SOMA, un survival horror de ciencia ficción ambientado bajo las profundidades del océano, donde la línea entre lo humano y lo artificial se desdibuja.",
     trailer: "https://youtube.com/embed/BZTfi1jv-EE",
-    metacritic: null,
+    metacritic: 84,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282140/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-28",
+        titulo: "EL TERROR DE FRICTIONAL BRILLA EN SWITCH 2: 84",
+        texto: "El survival horror submarino llega a la consola de Nintendo con el mejor puntaje de los estrenos de la semana."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -3561,8 +3580,15 @@ noticias: [
     desarrollador: "PIRANHA BYTES",
     descripcion: "La guerra asola el reino de Myrtana: hordas de orcos invadieron el territorio humano. Encarcelado en la colonia penal minera, sos un prisionero más bajo una barrera mágica de la que nadie escapa. El RPG de culto de Piranha Bytes regresa a consolas.",
     trailer: "https://youtube.com/embed/XpqfRsJ_--A",
-    metacritic: null,
+    metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65540/library_600x900.jpg",
+noticias: [
+      {
+        fecha: "2026-07-28",
+        titulo: "EL RPG DE CULTO REGRESA CON 81",
+        texto: "La reedición del clásico de Piranha Bytes de 2001 llegó hoy a consolas con buena recepción de la crítica."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true

@@ -148,7 +148,7 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
 - **Filtros por plataforma y género** (los de género se generan automáticamente desde los
   datos).
 - **URLs compartibles**: todos los filtros se reflejan en la URL y se pueden combinar —
-  `?plat=PS5&gen=RPG&q=texto&vista=ranking`. Al cambiar un filtro la URL se actualiza sola
+  `?plat=PS5&gen=RPG&q=texto&vista=grilla|ranking`. Al cambiar un filtro la URL se actualiza sola
   (sin recargar), así cualquier vista se comparte copiando la barra de direcciones. Los
   parámetros inválidos se ignoran sin romper nada.
 - **Buscador**: filtra en vivo por título, desarrollador o género (es texto libre, no hay
@@ -168,6 +168,10 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
 - **Botón ⇗ COMPARTIR** en todas las fichas: menú nativo del celular (WhatsApp, X, etc.)
   o copia del link en desktop, siempre apuntando a la ficha estática (con su carátula
   en la tarjeta social).
+- **Vista ⊞ GRILLA**: mosaico de carátulas grandes ordenado por fecha, con el puntaje de
+  Metacritic sobre la portada y una franja "HOY" en los que salen hoy. Respeta filtros,
+  búsqueda y el archivo (mismo conjunto que el calendario). Columnas automáticas: ~5 en
+  desktop, 2 en móvil.
 - **Vista ★ RANKING**: selector "VISTA" arriba de los filtros; lista los juegos con puntaje
   de Metacritic ordenados de mejor a peor. Respeta los filtros de plataforma/género y el
   buscador, y tiene su propio selector de período (TODO EL CALENDARIO / ESTE MES /

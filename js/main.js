@@ -322,6 +322,45 @@ function fichaHtml(j) {
           </div>`;
 }
 
+// ── VISTA GRILLA ──
+// mosaico de carátulas ordenado por fecha
+function renderGrilla(juegos) {
+  const hoyKey = getDiaKeyHoy();
+  const orden = [...juegos].sort((a, b) => a.fecha.localeCompare(b.fecha));
+
+  const tarjetas = orden.map(j => {
+    const f = parseFecha(j.fecha);
+    const fechaCorta = j.estimado
+      ? (j.fechaEstimada || `${MESES_ES[f.getMonth()]} ${f.getFullYear()}`)
+      : `${DIAS_ES[f.getDay()]} ${String(f.getDate()).padStart(2, "0")} ${MESES_ES[f.getMonth()].slice(0, 3)}`;
+
+    const portada = j.imagen
+      ? `<img class="grilla-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" decoding="async" onerror="this.classList.add('grilla-vacia');this.removeAttribute('src')">`
+      : `<span class="grilla-portada grilla-vacia"></span>`;
+
+    const badge = j.metacritic
+      ? `<span class="grilla-nota badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>`
+      : "";
+
+    const hoyTag = j.fecha === hoyKey ? `<span class="grilla-hoy">HOY</span>` : "";
+
+    return `
+      <a class="grilla-item" href="juegos/${j.id}.html">
+        <div class="grilla-marco">
+          ${portada}
+          ${badge}
+          ${hoyTag}
+        </div>
+        <span class="grilla-fecha">${fechaCorta}</span>
+        <span class="grilla-titulo">${j.titulo}</span>
+        <div class="plataformas">${j.plataformas.map(p =>
+          `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`).join("")}</div>
+      </a>`;
+  }).join("");
+
+  return `<div class="grilla">${tarjetas}</div>`;
+}
+
 // ── JUEGOS FILTRADOS ──
 function juegosFiltrados() {
   return JUEGOS.filter(j => {
@@ -389,6 +428,11 @@ function renderCalendario() {
     const hayEnArchivo = !MODO_ARCHIVO && juegosFiltrados().some(j => j.fecha.slice(0, 7) < mesActual);
     contenedor.innerHTML = `<div class="sin-resultados">// NO HAY JUEGOS PRÓXIMOS PARA ESTE FILTRO${
       hayEnArchivo ? ` — <a href="archivo.html${window.location.search}">BUSCAR EN EL ARCHIVO →</a>` : ""}</div>`;
+    return;
+  }
+
+  if (vistaActiva === "grilla") {
+    contenedor.innerHTML = renderGrilla(juegos);
     return;
   }
 
@@ -651,10 +695,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (buscador) buscador.value = qURL;
   }
 
-  if (params.get("vista") === "ranking") {
-    vistaActiva = "ranking";
+  const vistaURL = params.get("vista");
+  if (vistaURL === "ranking" || vistaURL === "grilla") {
+    vistaActiva = vistaURL;
     document.querySelectorAll(".vista-btn").forEach(b => {
-      b.classList.toggle("activo", b.dataset.vista === "ranking");
+      b.classList.toggle("activo", b.dataset.vista === vistaURL);
     });
   }
 
