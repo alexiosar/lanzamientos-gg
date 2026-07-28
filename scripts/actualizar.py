@@ -53,6 +53,7 @@ def main():
             "sin_trailer": "trailer: null" in cuerpo,
             "sin_imagen": "imagen: null" in cuerpo,
             "sin_duracion": "duracion:" not in cuerpo,
+            "sin_noticias": "noticias:" not in cuerpo,
             "relanzamiento": "relanzamiento:" in cuerpo,
         })
 
@@ -96,11 +97,29 @@ def main():
     if aplicados:
         print(f"  Debuts en Metacritic para noticia: {', '.join(f'{g} ({s})' for g, s in aplicados.items())}")
 
-    print("\n── Faltantes (para cuando haya tiempo) ──")
+    # Faltantes que se resuelven en la rutina SEMANAL (paso 6)
+    print("\n── Backlog semanal: carátulas y trailers ──")
     print(f"  Sin trailer: {', '.join(j['id'] for j in juegos if j['sin_trailer']) or '(ninguno)'}")
     print(f"  Sin carátula: {', '.join(j['id'] for j in juegos if j['sin_imagen']) or '(ninguna)'}")
+
+    # Faltantes que se resuelven en la rutina MENSUAL (pasos 10 y 11)
+    print("\n── Backlog mensual: duraciones (cargar ~15 por mes) ──")
     ports_sin_duracion = [j["id"] for j in juegos if j["relanzamiento"] and j["sin_duracion"]]
-    print(f"  Ports sin duración: {len(ports_sin_duracion)} ({', '.join(ports_sin_duracion[:6])}{'…' if len(ports_sin_duracion) > 6 else ''})")
+    print(f"  Ports sin duración: {len(ports_sin_duracion)}")
+    for gid in ports_sin_duracion[:15]:
+        print(f"    · {gid}")
+    if len(ports_sin_duracion) > 15:
+        print(f"    … y {len(ports_sin_duracion) - 15} más")
+
+    print("\n── Backlog mensual: noticias (los mejor puntuados sin noticias) ──")
+    sin_noticias = sorted(
+        (j for j in juegos if j["sin_noticias"] and j["metacritic"] != "null"),
+        key=lambda j: int(j["metacritic"]), reverse=True)
+    print(f"  Juegos con noticias: {sum(1 for j in juegos if not j['sin_noticias'])} de {len(juegos)}")
+    for j in sin_noticias[:10]:
+        print(f"    · {j['metacritic']}  {j['id']}")
+    if not sin_noticias:
+        print("    (ninguno)")
 
     print("\n═══ Siguiente paso: noticias (si hay), commit y deploy ═══")
 

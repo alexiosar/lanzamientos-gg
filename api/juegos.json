@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-07-28T13:57:06+00:00",
+ "generado": "2026-07-28T19:31:21+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 226,
+ "total": 246,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -2746,6 +2746,7 @@
    "titulo": "GROUNDED 2",
    "fecha": "2026-08-11",
    "relanzamiento": "En Xbox y PC desde 2025 — debut en PlayStation",
+   "duracion": "≈ 20 h (historia)",
    "plataformas": [
     "PS5"
    ],
@@ -4010,7 +4011,7 @@
   {
    "id": "hot-wheels-infinite-rush",
    "titulo": "HOT WHEELS INFINITE RUSH",
-   "fecha": "2026-09-24",
+   "fecha": "2026-09-10",
    "plataformas": [
     "SWITCH2",
     "XBOX",
@@ -4217,6 +4218,378 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/kong-survivor-instinct"
+  },
+  {
+   "id": "bioeden",
+   "titulo": "BIOEDEN",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA",
+    "RELAX"
+   ],
+   "desarrollador": "BROKEN ARMS GAMES",
+   "descripcion": "Un juego de gestión solarpunk en el que sos el custodio de un planeta que espera ser sanado. Diseñás el bioma justo para cada especie, encadenás ecosistemas que se sostienen solos y usás ese equilibrio para devolver a la vida a animales extinguidos, un rincón del mundo por vez.",
+   "trailer": "https://youtube.com/embed/NhM61qhnIEM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265840/81615550cc55212146a1ee944f49b9c8eaf354b8/header_alt_assets_2.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/bioeden"
+  },
+  {
+   "id": "star-racer",
+   "titulo": "STAR RACER",
+   "fecha": "2026-09-03",
+   "relanzamiento": "En PC desde julio de 2025 — esta fecha corresponde a la edición de Switch",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "ACCION",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "WHATNOT GAMES",
+   "descripcion": "Un combat racer de estética retro que mezcla velocidad antigravedad y armamento pesado. Circuitos llenos de saltos, atajos y trampas, carreras especiales con reglas disparatadas, multijugador local y un editor para armar tus propias pistas. La banda sonora es de Grant Kirkhope.",
+   "trailer": "https://youtube.com/embed/_p-3-7qNgkU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2626120/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/star-racer"
+  },
+  {
+   "id": "hashire-hebereke-ex",
+   "titulo": "HASHIRE HEBEREKE: EX",
+   "fecha": "2026-09-03",
+   "relanzamiento": "Remake del Hashire Hebereke de Super Famicom (1994)",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "CRT GAMES",
+   "descripcion": "Remake del clásico de Sunsoft para Super Famicom. Elegís entre un elenco de personajes tan raros como adorables y corrés por circuitos repletos de ítems y obstáculos, con el caos del multijugador intacto y una capa gráfica puesta al día.",
+   "trailer": "https://youtube.com/embed/rVcuhl8Tuv4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948110/4cfdcb8418f4df2fe83bf8986ea4cb5284886826/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/hashire-hebereke-ex"
+  },
+  {
+   "id": "nba-2k27",
+   "titulo": "NBA 2K27",
+   "fecha": "2026-09-04",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "DEPORTES",
+    "SIMULACION"
+   ],
+   "desarrollador": "VISUAL CONCEPTS",
+   "descripcion": "La entrega anual de la NBA vuelve con Mi CARRERA, MyTEAM y Mi NBA como pilares. Victor Wembanyama ocupa la portada estándar, Caitlin Clark la deluxe y Derrick Rose la ultra. Es la primera edición de la serie que deja atrás PS4 y Xbox One.",
+   "trailer": "https://youtube.com/embed/x3VbMlmerXg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/nba-2k27"
+  },
+  {
+   "id": "ova-magica",
+   "titulo": "OVA MAGICA",
+   "fecha": "2026-09-08",
+   "relanzamiento": "En PC desde mayo de 2026 — esta fecha corresponde a las ediciones de consola",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "SIMULACION",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "CLAUDIATHEDEV",
+   "descripcion": "Dejás atrás el estrés de la ciudad para empezar de nuevo en Pueblo Trébol: cultivás, hacés amigos y explorás acompañado de blobs, unas criaturas que podés criar, combinar y llevar al combate. Podés apuntar al romance o a convertirte en el mejor entrenador del pueblo.",
+   "trailer": "https://youtube.com/embed/nPSI0okfs5E",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299170/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/ova-magica"
+  },
+  {
+   "id": "roman-sands-rebuild",
+   "titulo": "ROMAN SANDS RE:BUILD",
+   "fecha": "2026-09-16",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "SIMULACION",
+    "INDIE"
+   ],
+   "desarrollador": "ARBITRARY METRIC",
+   "descripcion": "Una aventura que alterna entre un resort de lujo varado al borde del colapso ecológico y una instalación secreta que nadie quiere nombrar. Atendés a los huéspedes de día, atás cabos de noche y tratás de encontrar la salida antes de que el mundo termine de apagarse.",
+   "trailer": "https://youtube.com/embed/zTZ6iqsltLM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231460/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/roman-sands-rebuild"
+  },
+  {
+   "id": "two-point-hospital-full-health-collection",
+   "titulo": "TWO POINT HOSPITAL: FULL HEALTH COLLECTION",
+   "fecha": "2026-09-16",
+   "relanzamiento": "El juego original salió en 2018 en PC y en 2020 en consolas — esta edición reúne el juego base y sus catorce contenidos descargables",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA",
+    "CASUAL"
+   ],
+   "desarrollador": "TWO POINT STUDIOS",
+   "descripcion": "El paquete completo del simulador de hospitales de Two Point Studios: el juego base más los catorce contenidos descargables publicados hasta ahora. Diseñás clínicas absurdas, curás enfermedades imposibles y lidiás con un personal que rara vez colabora.",
+   "trailer": "https://youtube.com/embed/JSkvu2ZwKbA",
+   "metacritic": 83,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/two-point-hospital-full-health-collection"
+  },
+  {
+   "id": "sniper-dan",
+   "titulo": "SNIPER DAN",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "PUZZLE",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "DENKI",
+   "descripcion": "Dan es el manitas del condado Torpeza y resuelve los problemas del vecindario con un rifle de francotirador. Es un juego de objetos ocultos en tres dimensiones: escaneás la escena, encontrás el desastre en curso y lo arreglás de un disparo. Nadie sale herido.",
+   "trailer": "https://youtube.com/embed/Lf4xbBrdTQY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2841650/9eea1ad77a3e0e9c474a24d867a72a03b71d4dd6/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/sniper-dan"
+  },
+  {
+   "id": "artis-impact",
+   "titulo": "ARTIS IMPACT",
+   "fecha": "2026-09-17",
+   "relanzamiento": "En PC desde agosto de 2025 — esta fecha corresponde a la edición de Switch",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "MAS",
+   "descripcion": "Un JRPG en pixel art con combates clásicos por turnos donde acompañás a Akane y a Bot, su compañero de inteligencia artificial, mientras desentrañan los misterios de un mundo que parece haber olvidado su propia historia.",
+   "trailer": "https://youtube.com/embed/NorI-ReqhVE",
+   "metacritic": 72,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1864000/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/artis-impact"
+  },
+  {
+   "id": "maestro",
+   "titulo": "MAESTRO",
+   "fecha": "2026-09-17",
+   "relanzamiento": "En realidad virtual desde octubre de 2024 — esta versión se juega con el movimiento de los Joy-Con",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "MUSICA",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "DOUBLE JACK",
+   "descripcion": "Dirigís una orquesta sinfónica desde el podio de una ópera parisina: una mano lleva la batuta y marca el tempo, la otra da las entradas y maneja los matices. Más de treinta y cinco piezas entre clásicos del repertorio y bandas sonoras conocidas, sin necesidad de saber música.",
+   "trailer": "https://youtube.com/embed/SWgNeWbNkZ8",
+   "metacritic": 93,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701700/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/maestro"
+  },
+  {
+   "id": "qliphah-in-providences-shadow",
+   "titulo": "QLIPHAH IN PROVIDENCE'S SHADOW",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "ANIME"
+   ],
+   "desarrollador": "UNITEPLUS",
+   "descripcion": "En un Tokio arrasado por lo que llaman el Colapso del Mundo, el repartidor Souma Hoshigami sobrevive al ataque de una Aberración y queda a mitad de camino entre lo humano y lo otro. Un RPG táctico donde se manipula la línea temporal y cada contraataque se decide en tiempo real.",
+   "trailer": "https://youtube.com/embed/6VDZdFLx9tc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3882410/745b2097fe9e77528e290ff60e34e2afafdcf3d6/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/qliphah-in-providences-shadow"
+  },
+  {
+   "id": "ea-sports-fc-27",
+   "titulo": "EA SPORTS FC 27",
+   "fecha": "2026-09-25",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "DEPORTES",
+    "SIMULACION"
+   ],
+   "desarrollador": "EA CANADA",
+   "descripcion": "La nueva edición del simulador de fútbol de EA suma The Grounds, un espacio donde la calle y el estadio se cruzan, y promete más control en todos los modos. Mbappé y Bellingham comparten la portada. Acceso anticipado desde el 18 de septiembre con las ediciones Ultimate.",
+   "trailer": "https://youtube.com/embed/MOclJJ7IpSY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/05d419a45653a1299ce46d13dbff4533fa076c1c/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/ea-sports-fc-27"
+  },
+  {
+   "id": "crimson-moon",
+   "titulo": "CRIMSON MOON",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "SEPTIEMBRE 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG",
+    "GOTICO"
+   ],
+   "desarrollador": "PROBABLYMONSTERS",
+   "descripcion": "Un RPG de acción y aventura de tono gótico, habitado por ángeles violentos y dioses muertos. Es el primer juego del estudio fundado por veteranos de Bungie y Sucker Punch, y todavía no tiene día exacto de salida.",
+   "trailer": "https://youtube.com/embed/d0lXLkqcOKw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317690/c916d5a4804f2599a82f093191ccf8abc0e4a840/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/crimson-moon"
+  },
+  {
+   "id": "kernel-hearts",
+   "titulo": "KERNEL HEARTS",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "SEPTIEMBRE 2026",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "ROGUELIKE",
+    "COOP",
+    "ANIME"
+   ],
+   "desarrollador": "EPHEMERA GAMES",
+   "descripcion": "Un RPG de acción roguelike cooperativo para hasta cuatro jugadoras: cuatro chicas mágicas se proponen salvar un mundo que se ahoga en cenizas, eliminando ángeles por el camino. Reunís aliadas, encadenás poderes y vas por Dios.",
+   "trailer": "https://youtube.com/embed/8mdQRFmarws",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/kernel-hearts"
+  },
+  {
+   "id": "rogue-reigns",
+   "titulo": "ROGUE REIGNS",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "SEPTIEMBRE 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "ROGUELIKE",
+    "CARTAS",
+    "INDIE"
+   ],
+   "desarrollador": "VENN STUDIOS",
+   "descripcion": "Un deckbuilder roguelike de fantasía oscura sobre la confianza y el sacrificio. Conducís a un grupo de antihéroes egoístas por un mundo donde la muerte dejó de existir, pero algo los sigue cazando: forjás sinergias que los unen o rivalidades que los rompen.",
+   "trailer": "https://youtube.com/embed/-3RypP7ReQ0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3942630/a5493f4fd7553fec47d4067cb55f7720898aa7e3/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/rogue-reigns"
   },
   {
    "id": "star-ocean-the-second-story-r",
@@ -4786,6 +5159,7 @@
    "titulo": "DRAGON'S DOGMA 2: DARK ARISEN",
    "fecha": "2026-10-09",
    "relanzamiento": "Dragon's Dogma 2 base en PS5, Xbox y PC desde 2024; esta edición Dark Arisen suma contenido nuevo",
+   "duracion": "≈ 37 h (historia) · 110 h (completo)",
    "plataformas": [
     "PS5",
     "SWITCH2"
@@ -5617,6 +5991,123 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/dayz-badlands"
+  },
+  {
+   "id": "grand-theft-auto-vi",
+   "titulo": "GRAND THEFT AUTO VI",
+   "fecha": "2026-11-19",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "ROCKSTAR GAMES",
+   "descripcion": "El regreso de Rockstar a Vice City: Lucia y su compañero protagonizan la nueva entrega de la saga más influyente del mundo abierto, en un estado de Leonida inspirado en la Florida moderna. Tras dos retrasos, Rockstar confirmó el 19 de noviembre como fecha definitiva, exclusivo de PS5 y Xbox Series X|S en su estreno (la versión de PC todavía no fue anunciada).",
+   "trailer": "https://youtube.com/embed/QdBZY2fkU-0",
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi"
+  },
+  {
+   "id": "metaphor-refantazio",
+   "titulo": "METAPHOR: REFANTAZIO",
+   "fecha": "2026-11-12",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2024 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 60 h (historia) · 100 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "AVENTURA"
+   ],
+   "desarrollador": "ATLUS",
+   "descripcion": "Tras su asesinato y por voluntad del difunto rey, el próximo monarca ha de ser elegido por el pueblo. Forja vínculos y conquista un reino dividido en este galardonado juego de rol y fantasía con combates de acción y por turnos, personalización del grupo con arquetipos y horas de exploración.",
+   "trailer": "https://youtube.com/embed/SjbgJaYi4NE",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/metaphor-refantazio"
+  },
+  {
+   "id": "godzilla-destroy-all-monsters-melee-remastered",
+   "titulo": "GODZILLA: DESTROY ALL MONSTERS MELEE REMASTERED",
+   "fecha": "2026-11-03",
+   "relanzamiento": "Remaster del clásico de GameCube y Xbox (2002)",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "LUCHA",
+    "ACCION"
+   ],
+   "desarrollador": "PIPEWORKS STUDIOS",
+   "descripcion": "Regresa el juego de Godzilla definitivo de combates en arenas, completamente remasterizado. Elige tu monstruo y lucha con una amplia variedad de ataques brutales en ciudades recreadas y otras ubicaciones. Enfréntate a amigos y enemigos en modo cooperativo local o en el nuevo multijugador en línea.",
+   "trailer": "https://youtube.com/embed/8N9QN4X1pIk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251460/80c3cf07d56568b2aa1875d6c23b0fafb7b2eb11/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/godzilla-destroy-all-monsters-melee-remastered"
+  },
+  {
+   "id": "hasbro-games-junior-collection",
+   "titulo": "HASBRO GAMES JUNIOR COLLECTION",
+   "fecha": "2026-11-06",
+   "plataformas": [
+    "XBOX",
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "TABLERO",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "CASUAL BROTHERS",
+   "descripcion": "¡Tres juegos de mesa clásicos para una noche de aventuras familiar!",
+   "trailer": "https://youtube.com/embed/OhYII4UeVzY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4124830/6e17603906fa26e24d4f859f781803d68d7769a8/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/hasbro-games-junior-collection"
+  },
+  {
+   "id": "barbie-rewind",
+   "titulo": "BARBIE REWIND",
+   "fecha": "2026-11-12",
+   "plataformas": [
+    "XBOX",
+    "PS4"
+   ],
+   "genero": [
+    "CASUAL",
+    "AVENTURA",
+    "RETRO"
+   ],
+   "desarrollador": "DIGITAL ECLIPSE",
+   "descripcion": "Decora la DreamHouse™ con objetos históricos de Barbie y juega a sus juegos clásicos. En Barbie™ Rewind, Barbie te invita a su mundo cálido y creativo, y te encarga personalizar su DreamHouse. También te ha dejado su colección de juegos y podrás volver a jugar a tus videojuegos de Barbie favoritos.",
+   "trailer": "https://youtube.com/embed/zBymaS2mCaI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4082030/58beeb27ced499b9010c24cbc8c6ee0c24e67cad/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/barbie-rewind"
   }
  ]
 }

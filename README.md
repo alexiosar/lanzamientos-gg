@@ -279,15 +279,55 @@ en este archivo y en la sección "Fuentes de datos habituales".
 3. Commit y deploy.
 
 **Semanal:**
-4. Barrido de releases.com del mes en curso y el siguiente (con Claude + extensión de
-   Chrome): juegos nuevos Y verificación de fechas ya cargadas (las fechas cambian).
+4. Barrido de releases.com de **todos los meses ya cargados en el calendario** (con Claude +
+   extensión de Chrome), no solo del mes en curso y el siguiente. releases.com sigue sumando
+   juegos a meses futuros después de que los cargamos, así que un mes barrido una vez queda
+   desactualizado en pocas semanas. Hay que buscar dos cosas:
+   - juegos nuevos que no estén en `datos/juegos.js`;
+   - cambios de fecha y de plataformas de los que ya están (las fechas se adelantan y se
+     atrasan; ej. Hot Wheels Infinite Rush pasó del 24 al 10 de septiembre).
+
+   URLs del barrido: `https://www.releases.com/calendar/games?at=2026-Sep-01` y variantes
+   (`-Sep-09`, `-Sep-18`, `-Sep-26`…). Cada carga muestra ~10 días, así que hacen falta 3 o 4
+   por mes. Al final de cada mes aparecen los bloques "Estimated <mes>" y "Estimated Q<n>":
+   esos van con `estimado: true` y `fechaEstimada`.
 5. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
+6. **Backlog de carátulas y trailers:** reintentar los que `actualizar.py` lista bajo
+   "Faltantes". Suelen ser juegos que todavía no tenían ficha en Steam ni en la eShop cuando
+   se cargaron; a medida que las tiendas publican assets, aparecen. Es un minuto de trabajo.
+7. Regenerar todo (`generar-fichas`, `generar-plataformas`, `generar-feeds`, `generar-sitemap`)
+   y verificar que las carátulas y los trailers nuevos devuelvan HTTP 200 antes del deploy.
 
 **Mensual (fin de mes):**
-6. Cargar el mes siguiente completo desde releases.com.
-7. Duraciones (HLTB) de los ports del mes nuevo.
-8. Evaluar archivo/limpieza de meses viejos del calendario.
-9. Repasar la sección "Pendientes / ideas" de este archivo.
+8. Cargar el mes siguiente completo desde releases.com (el que todavía no existe en el
+   calendario). A partir de ahí ese mes entra en el barrido semanal del punto 4.
+9. Duraciones (HLTB) de los ports del mes nuevo.
+10. **Backlog de duraciones:** cargar HLTB de ~15 ports viejos que no tengan `duracion`.
+    `actualizar.py` los cuenta al final del reporte. Sin este paso el backlog no lo toca
+    ninguna rutina: el punto 9 solo cubre el mes que se acaba de cargar.
+11. **Backlog de noticias:** buscar noticias para los ~10 juegos mejor puntuados que no
+    tengan el campo `noticias`. Se prioriza por puntaje porque son los que aparecen en el
+    ranking y concentran las visitas. La diaria solo cubre lanzamientos de hoy/mañana, así
+    que sin este paso los juegos viejos se quedan en cero para siempre.
+12. Evaluar archivo/limpieza de meses viejos del calendario.
+13. Repasar la sección "Pendientes / ideas" de este archivo.
+
+**Cuál usar si falta un juego de un mes ya cargado:** la semanal. La mensual solo estrena
+meses nuevos; la semanal es la que vuelve sobre lo ya cargado y tapa los huecos.
+
+**Cobertura por campo — qué rutina mantiene qué:**
+
+| Campo | Juegos nuevos | Backlog |
+|---|---|---|
+| Metacritic / ranking | Diaria (automática) | Diaria (automática) |
+| Carátulas y trailers | Semanal, paso 5 | Semanal, paso 6 |
+| Duración (HLTB) | Mensual, paso 9 | Mensual, paso 10 |
+| Noticias | Diaria, paso 2 | Mensual, paso 11 |
+| Descripciones | Semanal / Mensual, al cargar | — (se revisan solo si se detecta algo raro) |
+
+Metacritic es el único campo 100% automático: `actualizar.py` barre toda la base cada día
+buscando puntaje para cualquier juego ya lanzado con `metacritic: null`. Los demás dependen
+de que las rutinas se corran.
 
 ## Desarrollo local
 
@@ -301,13 +341,21 @@ y abrir http://localhost:8080
 
 ## Pendientes / ideas
 
-- Trailers faltantes en 7 juegos chicos del 16 de julio (Viking Frontiers, Rhapsody,
-  Geppy-X, K-pop Idol Stories, Farlands, Looking For Fael, MAVRIX).
-- eBaseball PRO SPIRIT 2026 (16 jul, PS5) quedó sin cargar: no tiene ficha en Steam.
-- Cargar la semana del 20 de julio: Splatoon Raiders (23), Halo: Campaign Evolved (28),
-  Mistfall Hunter (29), Xenoblade Chronicles 2 Switch 2 (30), The Relic: First Guardian (31).
-- Noticias en más juegos (hoy tienen 22 de 126).
-- Noticias en portada: descartado el bloque (empuja el calendario hacia abajo — decisión
-  jul 2026). La página `/noticias.html` completa + RSS quedan para si el sitio crece.
+- Carátulas faltantes (5): GTA VI (no está en Steam ni eShop), Marvel's Wolverine, Halloween,
+  Harvest Moon: Echoes of Teradea, BloodRayne, Flying Fire Shark. Reintentar en las semanales
+  a medida que las tiendas publiquen assets.
+- Trailers faltantes (2): Dungeon Antiqua y Mamon King (indies sin trailer propio en YouTube).
+- Duraciones (HLTB): ~75 ports sin cargar. Se van sumando de a poco en las mensuales.
+- Noticias en más juegos (hoy tienen 47 de 246).
+- Samson: A Tyndalston Story (estimado septiembre 2026, PS5/Xbox): no está en Steam ni en la
+  eShop, así que no hay carátula ni descripción de origen. Queda fuera hasta conseguir assets.
+- Bloque "Estimated Q3" de releases.com: quedan ~25 juegos de consola sin cargar (Aniimo,
+  He-Man, Endurance Motorsport Series, Woodo, Vampire Survivors: Legacy of the Bloodmoon,
+  Danger Mouse, Ember & Blade, LIFTED, Super Battle Golf, Banchou Tactics…). Son fechas sin
+  confirmar; cargarlos con `estimado: true` cuando haya tiempo.
+- Difusión (idea pendiente del usuario): mails a medios y creadores en español desde
+  contacto@lanzamientos.lat, y listados en directorios/GitHub. Sin redes sociales.
+- Página `/noticias.html` completa: solo si el sitio crece y las noticias se cargan seguido.
+  El bloque de novedades en portada quedó descartado (empuja el calendario hacia abajo).
 - Si algún día se cargan datos desde una API externa: escapar HTML antes de inyectar
   con `innerHTML` (hoy no hace falta porque los datos son propios).

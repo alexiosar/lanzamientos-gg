@@ -210,8 +210,11 @@ function renderRanking(juegos) {
     rankingPeriodo === "30dias" ? j.fecha >= limite30 && j.fecha <= hoy :
     true;
 
+  // Solo juegos ya lanzados: algunos ports traen el puntaje del original y sin este
+  // filtro encabezarían el ranking sin haber salido todavía (el puntaje sí se muestra
+  // en la ficha del juego, que es donde tiene sentido).
   const conPuntaje = juegos
-    .filter(j => j.metacritic && enPeriodo(j))
+    .filter(j => j.metacritic && j.fecha <= hoy && enPeriodo(j))
     .sort((a, b) => b.metacritic - a.metacritic);
 
   const selectorHtml = `
