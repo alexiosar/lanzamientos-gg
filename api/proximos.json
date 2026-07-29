@@ -2,101 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-07-28T19:31:21+00:00",
+ "generado": "2026-07-29T13:03:31+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-07-28",
- "hasta": "2026-08-27",
- "total": 63,
+ "desde": "2026-07-29",
+ "hasta": "2026-08-28",
+ "total": 62,
  "juegos": [
-  {
-   "id": "halo-campaign-evolved",
-   "titulo": "HALO: CAMPAIGN EVOLVED",
-   "fecha": "2026-07-28",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "FPS",
-    "SHOOTER",
-    "ACCION"
-   ],
-   "desarrollador": "HALO STUDIOS",
-   "descripcion": "El remake completo de la campaña de Halo: Combat Evolved, reconstruido con gráficos actuales, cinemáticas mejoradas y tres misiones nuevas protagonizadas por el Jefe Maestro y el sargento Johnson. Por primera vez en la historia, Halo llega a una consola PlayStation. Incluye cooperativo de campaña con crossplay.",
-   "trailer": "https://youtube.com/embed/HhsxGagHirw",
-   "metacritic": 82,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/halo-campaign-evolved",
-   "noticias": [
-    {
-     "fecha": "2026-07-28",
-     "titulo": "MASTER CHIEF DEBUTA EN PLAYSTATION CON 82",
-     "texto": "El remake llegó con buenas críticas y un hito histórico: la primera vez de Halo en una consola PlayStation. El 88% de los críticos lo recomienda, aunque señalan problemas de rendimiento en PS5 base y la ausencia de multijugador competitivo."
-    },
-    {
-     "fecha": "2026-06-07",
-     "titulo": "TRES MISIONES NUEVAS Y DEMO DE 28 MINUTOS",
-     "texto": "En el Xbox Games Showcase se presentó la operación METEORITE: tres misiones inéditas ambientadas un año antes de Combat Evolved, protagonizadas por el Jefe Maestro y el sargento Johnson, junto a una demo extensa del clásico Assault on the Control Room."
-    }
-   ]
-  },
-  {
-   "id": "go-north",
-   "titulo": "GO NORTH",
-   "fecha": "2026-07-28",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "PUZZLE",
-    "INDIE"
-   ],
-   "desarrollador": "GAZUNTYPE",
-   "descripcion": "Explorá hermosos laberintos, descubrí objetos únicos y ayudá a otros exploradores a completar misiones secundarias insólitas en esta aventura tranquila de exploración.",
-   "trailer": "https://youtube.com/embed/dkZgVioEGIM",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041730/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/go-north"
-  },
-  {
-   "id": "gothic-classic",
-   "titulo": "GOTHIC CLASSIC",
-   "fecha": "2026-07-28",
-   "relanzamiento": "Reedición del clásico RPG de 2001",
-   "plataformas": [
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "RPG",
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "PIRANHA BYTES",
-   "descripcion": "La guerra asola el reino de Myrtana: hordas de orcos invadieron el territorio humano. Encarcelado en la colonia penal minera, sos un prisionero más bajo una barrera mágica de la que nadie escapa. El RPG de culto de Piranha Bytes regresa a consolas.",
-   "trailer": "https://youtube.com/embed/XpqfRsJ_--A",
-   "metacritic": 81,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65540/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/gothic-classic",
-   "noticias": [
-    {
-     "fecha": "2026-07-28",
-     "titulo": "EL RPG DE CULTO REGRESA CON 81",
-     "texto": "La reedición del clásico de Piranha Bytes de 2001 llegó hoy a consolas con buena recepción de la crítica."
-    }
-   ]
-  },
   {
    "id": "mistfall-hunter",
    "titulo": "MISTFALL HUNTER",
@@ -148,7 +60,14 @@
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/bloodrayne-definitive-collection"
+   "url": "https://lanzamientos.lat/juegos/bloodrayne-definitive-collection",
+   "noticias": [
+    {
+     "fecha": "2026-07-29",
+     "titulo": "YA DISPONIBLE EN PS5 Y SWITCH",
+     "texto": "La colección reúne BloodRayne: ReVamped, BloodRayne 2: ReVamped y BloodRayne Betrayal: Fresh Bites. Sale en digital y también en físico a través de Strictly Limited Games, con una edición limitada y una deluxe que suma la banda sonora en CD, un libro de arte de 80 páginas y un póster."
+    }
+   ]
   },
   {
    "id": "truck-kun-is-supporting-me-from-another-world",
@@ -170,7 +89,14 @@
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/truck-kun-is-supporting-me-from-another-world"
+   "url": "https://lanzamientos.lat/juegos/truck-kun-is-supporting-me-from-another-world",
+   "noticias": [
+    {
+     "fecha": "2026-07-29",
+     "titulo": "YA DISPONIBLE EN XBOX",
+     "texto": "Estreno simultáneo en Xbox Series y PC, publicado por Frosty Pop. Manejás el camión que isekaiza a Carissa, una oficinista que despierta convertida en elfa heroica en Talinfold: cada atropello y cada entrega que hacés en el mundo real la potencian del otro lado."
+    }
+   ]
   },
   {
    "id": "the-king-is-watching",
@@ -218,12 +144,19 @@
    "desarrollador": "ADHOC STUDIO",
    "descripcion": "Dispatch es una comedia de oficina sobre superhéroes donde las decisiones importan. Gestioná un equipo de héroes venidos a menos desde tu escritorio de despachante y decidí quién responde cada emergencia.",
    "trailer": "https://youtube.com/embed/jK0cGKMDMPE",
-   "metacritic": null,
+   "metacritic": 87,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/dispatch"
+   "url": "https://lanzamientos.lat/juegos/dispatch",
+   "noticias": [
+    {
+     "fecha": "2026-07-29",
+     "titulo": "LLEGA A XBOX CON 87 EN METACRITIC",
+     "texto": "Cierra su recorrido por plataformas: después de salir en PS5 y PC en 2025 y de pasar por Switch 2, hoy debuta en Xbox Series con soporte completo de Xbox Play Anywhere, así que una sola compra vale para consola y PC con los guardados sincronizados. Acumula 87 en Metacritic sobre 70 análisis. No entra en Game Pass."
+    }
+   ]
   },
   {
    "id": "bokura",
@@ -247,7 +180,14 @@
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/bokura"
+   "url": "https://lanzamientos.lat/juegos/bokura",
+   "noticias": [
+    {
+     "fecha": "2026-07-29",
+     "titulo": "LA EDICIÓN DE SWITCH 2 USA EL GAMECHAT",
+     "texto": "La versión de Switch 2 sale en digital a 4,99 dólares y aprovecha el GameChat de la consola para que los dos jugadores se coordinen mientras cada uno ve un mundo distinto: uno de naturaleza, el otro de máquinas. El original de Steam es de 2023."
+    }
+   ]
   },
   {
    "id": "xenoblade-chronicles-2",
@@ -1532,6 +1472,53 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/kalanoro"
+  },
+  {
+   "id": "elden-ring-switch-2",
+   "titulo": "ELDEN RING",
+   "fecha": "2026-08-28",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2022 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "60 h (historia) · 136 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "MUNDO ABIERTO",
+    "ACCION"
+   ],
+   "desarrollador": "FROMSOFTWARE, INC.",
+   "descripcion": "EL NUEVO JUEGO DE ROL Y ACCIÓN DE AMBIENTACIÓN FANTÁSTICA. Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias. La edición Tarnished de Switch 2 lleva la obra de FromSoftware a la portátil de Nintendo.",
+   "trailer": "https://youtube.com/embed/AKXiKBnzpBQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/elden-ring-switch-2"
+  },
+  {
+   "id": "captain-tsubasa-2-world-fighters",
+   "titulo": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+   "fecha": "2026-08-28",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "DEPORTES",
+    "ANIME",
+    "ACCION"
+   ],
+   "desarrollador": "TAMSOFT CORPORATION",
+   "descripcion": "¡Ya está aquí el nuevo capítulo de la cautivadora aventura de Tsubasa! Disfruta de una acción futbolística espectacular con 110 personajes disponibles y nuevos supermovimientos alucinantes. Desafía a amigos en el campo o apoya a Tsubasa en su viaje. ¡El balón es tu amigo!",
+   "trailer": "https://youtube.com/embed/S8ESe_ZsDsQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172910/714df3514b1166414caef8c31b092f5786e8245d/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/captain-tsubasa-2-world-fighters"
   }
  ]
 }

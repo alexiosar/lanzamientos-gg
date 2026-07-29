@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-07-28T19:31:21+00:00",
+ "generado": "2026-07-29T13:03:31+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 246,
@@ -2047,7 +2047,14 @@
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/bloodrayne-definitive-collection"
+   "url": "https://lanzamientos.lat/juegos/bloodrayne-definitive-collection",
+   "noticias": [
+    {
+     "fecha": "2026-07-29",
+     "titulo": "YA DISPONIBLE EN PS5 Y SWITCH",
+     "texto": "La colección reúne BloodRayne: ReVamped, BloodRayne 2: ReVamped y BloodRayne Betrayal: Fresh Bites. Sale en digital y también en físico a través de Strictly Limited Games, con una edición limitada y una deluxe que suma la banda sonora en CD, un libro de arte de 80 páginas y un póster."
+    }
+   ]
   },
   {
    "id": "truck-kun-is-supporting-me-from-another-world",
@@ -2069,7 +2076,14 @@
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/truck-kun-is-supporting-me-from-another-world"
+   "url": "https://lanzamientos.lat/juegos/truck-kun-is-supporting-me-from-another-world",
+   "noticias": [
+    {
+     "fecha": "2026-07-29",
+     "titulo": "YA DISPONIBLE EN XBOX",
+     "texto": "Estreno simultáneo en Xbox Series y PC, publicado por Frosty Pop. Manejás el camión que isekaiza a Carissa, una oficinista que despierta convertida en elfa heroica en Talinfold: cada atropello y cada entrega que hacés en el mundo real la potencian del otro lado."
+    }
+   ]
   },
   {
    "id": "xenoblade-chronicles-2",
@@ -4720,12 +4734,19 @@
    "desarrollador": "ADHOC STUDIO",
    "descripcion": "Dispatch es una comedia de oficina sobre superhéroes donde las decisiones importan. Gestioná un equipo de héroes venidos a menos desde tu escritorio de despachante y decidí quién responde cada emergencia.",
    "trailer": "https://youtube.com/embed/jK0cGKMDMPE",
-   "metacritic": null,
+   "metacritic": 87,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/dispatch"
+   "url": "https://lanzamientos.lat/juegos/dispatch",
+   "noticias": [
+    {
+     "fecha": "2026-07-29",
+     "titulo": "LLEGA A XBOX CON 87 EN METACRITIC",
+     "texto": "Cierra su recorrido por plataformas: después de salir en PS5 y PC en 2025 y de pasar por Switch 2, hoy debuta en Xbox Series con soporte completo de Xbox Play Anywhere, así que una sola compra vale para consola y PC con los guardados sincronizados. Acumula 87 en Metacritic sobre 70 análisis. No entra en Game Pass."
+    }
+   ]
   },
   {
    "id": "volcano-princess",
@@ -5600,7 +5621,14 @@
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/bokura"
+   "url": "https://lanzamientos.lat/juegos/bokura",
+   "noticias": [
+    {
+     "fecha": "2026-07-29",
+     "titulo": "LA EDICIÓN DE SWITCH 2 USA EL GAMECHAT",
+     "texto": "La versión de Switch 2 sale en digital a 4,99 dólares y aprovecha el GameChat de la consola para que los dos jugadores se coordinen mientras cada uno ve un mundo distinto: uno de naturaleza, el otro de máquinas. El original de Steam es de 2023."
+    }
+   ]
   },
   {
    "id": "parkasaurus",

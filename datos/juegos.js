@@ -1433,6 +1433,13 @@ noticias: [
     trailer: "https://youtube.com/embed/J2xriwzY09E",
     metacritic: null,
     imagen: null,
+    noticias: [
+      {
+        fecha: "2026-07-29",
+        titulo: "YA DISPONIBLE EN PS5 Y SWITCH",
+        texto: "La colección reúne BloodRayne: ReVamped, BloodRayne 2: ReVamped y BloodRayne Betrayal: Fresh Bites. Sale en digital y también en físico a través de Strictly Limited Games, con una edición limitada y una deluxe que suma la banda sonora en CD, un libro de arte de 80 páginas y un póster."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1448,6 +1455,13 @@ noticias: [
     trailer: "https://youtube.com/embed/Iujy19OLvuc",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/e420ddf6b182eb2a7f68803fe8334fdf03f0a7ce/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-29",
+        titulo: "YA DISPONIBLE EN XBOX",
+        texto: "Estreno simultáneo en Xbox Series y PC, publicado por Frosty Pop. Manejás el camión que isekaiza a Carissa, una oficinista que despierta convertida en elfa heroica en Talinfold: cada atropello y cada entrega que hacés en el mundo real la potencian del otro lado."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -3238,8 +3252,15 @@ noticias: [
     desarrollador: "ADHOC STUDIO",
     descripcion: "Dispatch es una comedia de oficina sobre superhéroes donde las decisiones importan. Gestioná un equipo de héroes venidos a menos desde tu escritorio de despachante y decidí quién responde cada emergencia.",
     trailer: "https://youtube.com/embed/jK0cGKMDMPE",
-    metacritic: null,
+    metacritic: 87,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-29",
+        titulo: "LLEGA A XBOX CON 87 EN METACRITIC",
+        texto: "Cierra su recorrido por plataformas: después de salir en PS5 y PC en 2025 y de pasar por Switch 2, hoy debuta en Xbox Series con soporte completo de Xbox Play Anywhere, así que una sola compra vale para consola y PC con los guardados sincronizados. Acumula 87 en Metacritic sobre 70 análisis. No entra en Game Pass."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -3844,6 +3865,13 @@ noticias: [
     trailer: "https://youtube.com/embed/25mkGli1e0A",
     metacritic: null,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/bokura/1x1_Bokura_image500w.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-29",
+        titulo: "LA EDICIÓN DE SWITCH 2 USA EL GAMECHAT",
+        texto: "La versión de Switch 2 sale en digital a 4,99 dólares y aprovecha el GameChat de la consola para que los dos jugadores se coordinen mientras cada uno ve un mundo distinto: uno de naturaleza, el otro de máquinas. El original de Steam es de 2023."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
