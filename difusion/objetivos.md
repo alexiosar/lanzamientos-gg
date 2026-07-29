@@ -114,7 +114,7 @@ al dominio. Estos sí:
 
 | Directorio | Estado | Nota |
 |---|---|---|
-| public-apis (GitHub) | pendiente | Todo preparado en `difusion/public-apis-pr.md`. Es el de más peso. |
+| public-apis (GitHub) | [PR #6717](https://github.com/public-apis/public-apis/pull/6717) abierto 29/07/2026 | Esperando que la moderación apruebe la validación automática. |
 | APIs.guru | pendiente | Requiere una especificación OpenAPI. Habría que escribirla. |
 | Catálogo público de Postman | pendiente | Se publica una colección con los dos endpoints. |
 | Directorios de datos abiertos en español | pendiente | Buscar los de cada país. |
@@ -123,16 +123,21 @@ al dominio. Estos sí:
 
 ## 5. Orden sugerido para las primeras dos semanas
 
-1. Publicar el hilo de presentación y fijarlo. **Antes**, tener avatar, portada y bio puestos:
-   un perfil vacío que postea un enlace parece spam.
-2. Seguir las 18 cuentas de la sección 2. Sin escribirles nada todavía.
-3. Escribirle a `@fran.pw` para entrar a su feed.
+1. ~~Publicar el hilo de presentación y fijarlo.~~ Hecho el 29/07/2026.
+2. ~~Seguir las 18 cuentas de la sección 2.~~ Hecho el 29/07/2026.
+3. Escribirle a `@fran.pw` para entrar a su feed. **Pospuesto al 29/08/2026 a propósito**:
+   ver la nota al pie de esta sección.
 4. Hacer el PR a public-apis.
 5. Postear todos los días con `scripts/post-diario.py`, sin faltar. En X, el enlace va en
    respuesta al propio posteo.
 6. Una respuesta útil por día en algún hilo ajeno. Una sola, pero buena.
 7. Recién en la semana 3, cuando el perfil tenga historial, escribirle a `@ediciondeluxe.com`
    y a `@devuego.es`.
+
+**Por qué el punto 3 se pospuso al 29/08/2026:** al 29/07 la cuenta tenía 3 posteos y 0
+seguidores. Para el dueño de un feed, sumar una cuenta tiene un costo: si se apaga en dos
+semanas, le queda un hueco en el feed. Con un mes de posteos diarios encima, el pedido deja
+de necesitar argumentos. La única condición es no faltar ningún día hasta entonces.
 
 **Expectativa realista:** unos cientos de seguidores en tres meses es un buen resultado. Lo
 que no se puede es cortar la constancia: una cuenta que postea seis meses seguidos termina en
@@ -147,3 +152,7 @@ Anotar acá lo que se va haciendo, para no repetir trabajo ni perder el rastro.
 | Fecha | Acción | Resultado |
 |---|---|---|
 | 29/07/2026 | Cuentas creadas en X y Bluesky, handle `@lanzamientos.lat` verificado por DNS | ✓ |
+| 29/07/2026 | Hilo de presentación publicado y fijado (3 posteos) | ✓ |
+| 29/07/2026 | Seguidas las cuentas de la sección 2 y los dueños de feeds | ✓ |
+| 29/07/2026 | PR #6717 a public-apis abierto | esperando revisión |
+| 29/08/2026 | **Pendiente:** escribirle a `@fran.pw` para entrar a su feed | — |
