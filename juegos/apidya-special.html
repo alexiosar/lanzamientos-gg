@@ -50,6 +50,17 @@
     .volver:hover      { color: var(--acento); }
     .badge-gamepass    { color: var(--xbox); }
     .badge-psplus      { color: var(--ps5); }
+    /* Juegos relacionados: la ficha ya no es un callejón sin salida */
+    .rel-grid          { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 0.75rem; }
+    .rel-item          { display: flex; gap: 0.6rem; align-items: center; padding: 5px; border: 1px solid transparent; color: inherit; min-width: 0; }
+    .rel-item:hover    { border-color: var(--acento); background: rgba(160,160,255,0.05); }
+    .rel-item:hover .rel-titulo { color: var(--acento); }
+    .rel-portada       { width: 44px; height: 44px; object-fit: cover; border: 1px solid var(--gris-3); background: var(--gris-1); flex-shrink: 0; display: block; }
+    .rel-info          { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+    .rel-titulo        { color: var(--blanco); font-size: 0.75rem; letter-spacing: 0.5px; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
+    .rel-fecha         { color: var(--gris-5); font-size: 0.6875rem; letter-spacing: 1px; }
+    .rel-info .plataformas { gap: 0.25rem; }
+    .rel-info .plat    { font-size: 0.625rem; padding: 0 4px; }
   </style>
 </head>
 <body>
@@ -129,6 +140,112 @@
         <div class="seccion-titulo">TRAILER OFICIAL</div>
         <div class="video-wrapper">
           <iframe src="https://youtube.com/embed/ZUP-wVaUxpU" title="Trailer de APIDYA&#x27; SPECIAL" allowfullscreen allow="autoplay" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">JUEGOS RELACIONADOS</div>
+        <div class="rel-grid">
+          <a class="rel-item" href="flying-fire-shark-toaplan-arcade-garage.html">
+            <span class="rel-portada"></span>
+            <span class="rel-info">
+              <span class="rel-titulo">FLYING FIRE SHARK!!!: TOAPLAN ARCADE GARAGE</span>
+              <span class="rel-fecha">29 AGO</span>
+              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-PS4">PS4</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="touhou-koumakyou-new-classic.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4659620/e1fc78d7ff003b772b8637de6440c541c25fa0b9/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">TOUHOU KOUMAKYOU: NEW CLASSIC</span>
+              <span class="rel-fecha">10 SEP</span>
+              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="star-racer.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2626120/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">STAR RACER</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="hashire-hebereke-ex.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948110/4cfdcb8418f4df2fe83bf8986ea4cb5284886826/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">HASHIRE HEBEREKE: EX</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="truxton-extreme.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3323490/e2a9d117851ffcd8194af97195c9757b3d342d61/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">TRUXTON EXTREME</span>
+              <span class="rel-fecha">30 JUL</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="hyperwired.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234850/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">HYPERWIRED</span>
+              <span class="rel-fecha">02 JUL</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">MÁS LANZAMIENTOS DE AGOSTO 2026</div>
+        <div class="rel-grid">
+          <a class="rel-item" href="beast-of-reincarnation.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">BEAST OF REINCARNATION</span>
+              <span class="rel-fecha">04 AGO</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="big-walk.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">BIG WALK</span>
+              <span class="rel-fecha">04 AGO</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="final-fantasy-xiv-online.html">
+            <img class="rel-portada" src="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxivonline/1x1_FinalFantasyXIVOnline_image500w.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">FINAL FANTASY XIV ONLINE</span>
+              <span class="rel-fecha">04 AGO</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="kynseed.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">KYNSEED</span>
+              <span class="rel-fecha">04 AGO</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="parkasaurus.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/591460/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">PARKASAURUS</span>
+              <span class="rel-fecha">05 AGO</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="lies-of-p-switch-2.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">LIES OF P</span>
+              <span class="rel-fecha">06 AGO</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
         </div>
       </div>
     </div>

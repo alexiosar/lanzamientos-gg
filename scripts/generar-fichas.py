@@ -10,6 +10,7 @@ Uso (desde la raíz del proyecto):
 
 Correr después de cada cambio en datos/juegos.js (junto con generar-sitemap.py).
 """
+import datetime
 import html as html_mod
 import json
 import re
@@ -51,7 +52,81 @@ def meta_clase(n):
     return "meta-alto" if n >= 75 else ("meta-medio" if n >= 50 else "meta-bajo")
 
 
-def generar(j):
+def _fecha(j):
+    return datetime.date(*map(int, j["fecha"].split("-")))
+
+
+def relacionados(j, juegos, n=6):
+    """Juegos parecidos: comparten género y, ojalá, plataforma y fecha cercana.
+
+    Existe para que la ficha no sea un callejón sin salida: hasta ahora la única
+    salida era volver al calendario.
+    """
+    gen, plat, hoy = set(j["genero"]), set(j["plataformas"]), _fecha(j)
+    puntuados = []
+    for o in juegos:
+        if o["id"] == j["id"]:
+            continue
+        coinc_gen = len(gen & set(o["genero"]))
+        if not coinc_gen:
+            continue
+        dias = abs((_fecha(o) - hoy).days)
+        score = coinc_gen * 10 + len(plat & set(o["plataformas"])) * 3 - min(dias, 400) / 120
+        if o.get("imagen"):
+            score += 1          # con carátula la fila se ve mejor
+        puntuados.append((score, o["fecha"], o))
+    puntuados.sort(key=lambda t: (-t[0], t[1]))
+    elegidos = [o for _, _, o in puntuados[:n]]
+
+    # Si comparte género con muy pocos, completar con juegos de la misma plataforma
+    if len(elegidos) < n:
+        ya = {o["id"] for o in elegidos} | {j["id"]}
+        resto = [o for o in juegos if o["id"] not in ya and plat & set(o["plataformas"])]
+        resto.sort(key=lambda o: abs((_fecha(o) - hoy).days))
+        elegidos += resto[:n - len(elegidos)]
+    return elegidos
+
+
+def mismo_mes(j, juegos, excluir, n=6):
+    """Otros lanzamientos del mismo mes, para saltar de una fecha a la de al lado."""
+    mes = j["fecha"][:7]
+    otros = [o for o in juegos
+             if o["id"] != j["id"] and o["id"] not in excluir and o["fecha"][:7] == mes]
+    otros.sort(key=lambda o: (o["fecha"], o["titulo"]))
+    return otros[:n]
+
+
+def tarjeta_rel(o):
+    y, m, d = map(int, o["fecha"].split("-"))
+    fecha = (o.get("fechaEstimada") or MESES_ES[m - 1]) if o.get("estimado") \
+        else f"{d:02d} {MESES_ES[m - 1][:3]}"
+    portada = (f'<img class="rel-portada" src="{e(o["imagen"])}" alt="" loading="lazy" '
+               f'onerror="this.remove()">') if o.get("imagen") else '<span class="rel-portada"></span>'
+    plats = "".join(f'<span class="plat {plat_class(p)}">{plat_label(p)}</span>'
+                    for p in o["plataformas"][:3])
+    return f'''
+          <a class="rel-item" href="{o["id"]}.html">
+            {portada}
+            <span class="rel-info">
+              <span class="rel-titulo">{e(o["titulo"])}</span>
+              <span class="rel-fecha">{fecha}</span>
+              <span class="plataformas">{plats}</span>
+            </span>
+          </a>'''
+
+
+def bloque_rel(titulo, items):
+    if not items:
+        return ""
+    return f'''
+      <div class="seccion">
+        <div class="seccion-titulo">{titulo}</div>
+        <div class="rel-grid">{"".join(tarjeta_rel(o) for o in items)}
+        </div>
+      </div>'''
+
+
+def generar(j, juegos):
     gid = j["id"]
     y, m, d = map(int, j["fecha"].split("-"))
     estimado = bool(j.get("estimado"))
@@ -107,6 +182,11 @@ def generar(j):
           <iframe src="{e(j["trailer"])}" title="Trailer de {e(j["titulo"])}" allowfullscreen allow="autoplay" loading="lazy"></iframe>
         </div>
       </div>'''
+
+    rel = relacionados(j, juegos)
+    mes_titulo = f"MÁS LANZAMIENTOS DE {MESES_ES[m-1]} {y}"
+    rel_html = bloque_rel("JUEGOS RELACIONADOS", rel) + \
+        bloque_rel(mes_titulo, mismo_mes(j, juegos, {o["id"] for o in rel}))
 
     datos_ld = {
         "@context": "https://schema.org",
@@ -175,6 +255,17 @@ def generar(j):
     .volver:hover      {{ color: var(--acento); }}
     .badge-gamepass    {{ color: var(--xbox); }}
     .badge-psplus      {{ color: var(--ps5); }}
+    /* Juegos relacionados: la ficha ya no es un callejón sin salida */
+    .rel-grid          {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 0.75rem; }}
+    .rel-item          {{ display: flex; gap: 0.6rem; align-items: center; padding: 5px; border: 1px solid transparent; color: inherit; min-width: 0; }}
+    .rel-item:hover    {{ border-color: var(--acento); background: rgba(160,160,255,0.05); }}
+    .rel-item:hover .rel-titulo {{ color: var(--acento); }}
+    .rel-portada       {{ width: 44px; height: 44px; object-fit: cover; border: 1px solid var(--gris-3); background: var(--gris-1); flex-shrink: 0; display: block; }}
+    .rel-info          {{ display: flex; flex-direction: column; gap: 2px; min-width: 0; }}
+    .rel-titulo        {{ color: var(--blanco); font-size: 0.75rem; letter-spacing: 0.5px; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }}
+    .rel-fecha         {{ color: var(--gris-5); font-size: 0.6875rem; letter-spacing: 1px; }}
+    .rel-info .plataformas {{ gap: 0.25rem; }}
+    .rel-info .plat    {{ font-size: 0.625rem; padding: 0 4px; }}
   </style>
 </head>
 <body>
@@ -254,7 +345,7 @@ def generar(j):
         <div class="seccion-titulo">TAGS</div>
         <div class="ficha-tags">{tags_html}</div>
       </div>
-{trailer_html}
+{trailer_html}{rel_html}
     </div>
   </main>
 
@@ -358,7 +449,7 @@ def main():
     destino = RAIZ / "juegos"
     generadas = 0
     for j in juegos:
-        (destino / f'{j["id"]}.html').write_text(generar(j), encoding="utf-8")
+        (destino / f'{j["id"]}.html').write_text(generar(j, juegos), encoding="utf-8")
         generadas += 1
     # limpiar fichas de juegos que ya no existen
     ids = {j["id"] for j in juegos}

@@ -50,6 +50,17 @@
     .volver:hover      { color: var(--acento); }
     .badge-gamepass    { color: var(--xbox); }
     .badge-psplus      { color: var(--ps5); }
+    /* Juegos relacionados: la ficha ya no es un callejón sin salida */
+    .rel-grid          { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 0.75rem; }
+    .rel-item          { display: flex; gap: 0.6rem; align-items: center; padding: 5px; border: 1px solid transparent; color: inherit; min-width: 0; }
+    .rel-item:hover    { border-color: var(--acento); background: rgba(160,160,255,0.05); }
+    .rel-item:hover .rel-titulo { color: var(--acento); }
+    .rel-portada       { width: 44px; height: 44px; object-fit: cover; border: 1px solid var(--gris-3); background: var(--gris-1); flex-shrink: 0; display: block; }
+    .rel-info          { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+    .rel-titulo        { color: var(--blanco); font-size: 0.75rem; letter-spacing: 0.5px; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
+    .rel-fecha         { color: var(--gris-5); font-size: 0.6875rem; letter-spacing: 1px; }
+    .rel-info .plataformas { gap: 0.25rem; }
+    .rel-info .plat    { font-size: 0.625rem; padding: 0 4px; }
   </style>
 </head>
 <body>
@@ -129,6 +140,112 @@
         <div class="seccion-titulo">TRAILER OFICIAL</div>
         <div class="video-wrapper">
           <iframe src="https://youtube.com/embed/ElI1_NgeDxU" title="Trailer de MY HERO ACADEMIA: ALL&#x27;S JUSTICE" allowfullscreen allow="autoplay" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">JUEGOS RELACIONADOS</div>
+        <div class="rel-grid">
+          <a class="rel-item" href="avatar-legends-the-fighting-game.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">AVATAR LEGENDS: THE FIGHTING GAME</span>
+              <span class="rel-fecha">23 JUL</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="marvel-tokon-fighting-souls.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">MARVEL TŌKON: FIGHTING SOULS</span>
+              <span class="rel-fecha">06 AGO</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="kernel-hearts.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">KERNEL HEARTS</span>
+              <span class="rel-fecha">SEPTIEMBRE 2026</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="kyoto-xanadu.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4449410/242441aa29ff46770ca930f90e758a5f89e8ec04/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">KYOTO XANADU</span>
+              <span class="rel-fecha">TERCER TRIMESTRE 2026</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="captain-tsubasa-2-world-fighters.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172910/714df3514b1166414caef8c31b092f5786e8245d/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">CAPTAIN TSUBASA 2: WORLD FIGHTERS</span>
+              <span class="rel-fecha">28 AGO</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="solo-leveling-arise-overdrive.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2373990/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">SOLO LEVELING: ARISE OVERDRIVE</span>
+              <span class="rel-fecha">TERCER TRIMESTRE 2026</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">MÁS LANZAMIENTOS DE SEPTIEMBRE 2026</div>
+        <div class="rel-grid">
+          <a class="rel-item" href="bioeden.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265840/81615550cc55212146a1ee944f49b9c8eaf354b8/header_alt_assets_2.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">BIOEDEN</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="hashire-hebereke-ex.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948110/4cfdcb8418f4df2fe83bf8986ea4cb5284886826/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">HASHIRE HEBEREKE: EX</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="marsupilami-2-salsa-palombia.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3650170/a19c8f25ba08f13fc2088f6106365189fb0158e8/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">MARSUPILAMI 2 - SALSA PALOMBIA</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="orbitals.html">
+            <img class="rel-portada" src="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/orbitals/1x1_Orbitals_new_image500w.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">ORBITALS</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="star-racer.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2626120/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">STAR RACER</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="the-blood-of-dawnwalker.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/a7062f3b59d491c2678e3fd7ce2672858e480641/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">THE BLOOD OF DAWNWALKER</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
         </div>
       </div>
     </div>

@@ -207,6 +207,12 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
   tags, trailer en modal y link a la ficha completa.
 - **Ficha individual** (`juegos/juego.html?id=...`): igual que la desplegable más la sección
   **ÚLTIMAS NOVEDADES** (noticias del juego) y el trailer embebido.
+- **Juegos relacionados** al pie de cada ficha: dos bloques de hasta 6 juegos cada uno,
+  **JUEGOS RELACIONADOS** (elegidos por géneros compartidos, con bonus por plataforma en
+  común y fecha cercana) y **MÁS LANZAMIENTOS DE `<MES>`**. Los arma `generar-fichas.py`
+  con las funciones `relacionados()` y `mismo_mes()`. Existe porque hasta julio de 2026
+  cada ficha era un callejón sin salida: 247 páginas con cero enlaces entre sí, y la única
+  salida era volver al calendario. Ahora cada ficha ofrece 12 caminos.
 - **Badge de Metacritic** con color según puntaje: verde ≥ 75, amarillo 50–74, rojo < 50.
 - **Tipografía**: Space Mono (monoespaciada con negrita real). La negrita (700) jerarquiza
   nombres de juego, encabezados de mes y títulos; la metadata (fechas, plataformas, labels)

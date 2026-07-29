@@ -50,6 +50,17 @@
     .volver:hover      { color: var(--acento); }
     .badge-gamepass    { color: var(--xbox); }
     .badge-psplus      { color: var(--ps5); }
+    /* Juegos relacionados: la ficha ya no es un callejón sin salida */
+    .rel-grid          { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 0.75rem; }
+    .rel-item          { display: flex; gap: 0.6rem; align-items: center; padding: 5px; border: 1px solid transparent; color: inherit; min-width: 0; }
+    .rel-item:hover    { border-color: var(--acento); background: rgba(160,160,255,0.05); }
+    .rel-item:hover .rel-titulo { color: var(--acento); }
+    .rel-portada       { width: 44px; height: 44px; object-fit: cover; border: 1px solid var(--gris-3); background: var(--gris-1); flex-shrink: 0; display: block; }
+    .rel-info          { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+    .rel-titulo        { color: var(--blanco); font-size: 0.75rem; letter-spacing: 0.5px; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
+    .rel-fecha         { color: var(--gris-5); font-size: 0.6875rem; letter-spacing: 1px; }
+    .rel-info .plataformas { gap: 0.25rem; }
+    .rel-info .plat    { font-size: 0.625rem; padding: 0 4px; }
   </style>
 </head>
 <body>
@@ -130,6 +141,112 @@
         <div class="seccion-titulo">TRAILER OFICIAL</div>
         <div class="video-wrapper">
           <iframe src="https://youtube.com/embed/HxXgHF91Hxk" title="Trailer de BACK TO THE DAWN" allowfullscreen allow="autoplay" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">JUEGOS RELACIONADOS</div>
+        <div class="rel-grid">
+          <a class="rel-item" href="the-witchs-bakery.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">THE WITCH&#x27;S BAKERY</span>
+              <span class="rel-fecha">20 AGO</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="kynseed.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">KYNSEED</span>
+              <span class="rel-fecha">04 AGO</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="mamon-king.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030290/c056fd9a3f833519ceee832f44db6de1ece49693/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">MAMON KING</span>
+              <span class="rel-fecha">08 OCT</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="viractal.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909580/3be0683f48f4db94e0f0ae6b74ab7ad22f3e57a1/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">VIRACTAL: WILL YOU TRUST YOUR PARTY?</span>
+              <span class="rel-fecha">30 SEP</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="beholder-conductor.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825530/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">BEHOLDER: CONDUCTOR</span>
+              <span class="rel-fecha">14 JUL</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="enshrouded.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">ENSHROUDED</span>
+              <span class="rel-fecha">15 OCT</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">MÁS LANZAMIENTOS DE OCTUBRE 2026</div>
+        <div class="rel-grid">
+          <a class="rel-item" href="dynasty-warriors-3-complete-edition-remastered.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841510/3e4981c87cb8674a9668424e3560d1144d736ed5/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED</span>
+              <span class="rel-fecha">01 OCT</span>
+              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="octopath-traveler-i-ii-bundle.html">
+            <img class="rel-portada" src="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/octopathtraveleroctopathtraveleriibundle/1x1_OctopathTravelerOctopathTravelerIIBundle_image500w.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">OCTOPATH TRAVELER I + II BUNDLE</span>
+              <span class="rel-fecha">01 OCT</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="rayman-legends-retold.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084710/4fc23980ce04f33d7dc91bf38d74591ec00015cb/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">RAYMAN LEGENDS RETOLD</span>
+              <span class="rel-fecha">01 OCT</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="ace-combat-8-wings-of-theve.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">ACE COMBAT 8: WINGS OF THEVE</span>
+              <span class="rel-fecha">02 OCT</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="disney-epic-mickey-rebrushed.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1522160/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">DISNEY EPIC MICKEY: REBRUSHED</span>
+              <span class="rel-fecha">06 OCT</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="gears-of-war-e-day.html">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">GEARS OF WAR: E-DAY</span>
+              <span class="rel-fecha">06 OCT</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
         </div>
       </div>
     </div>
