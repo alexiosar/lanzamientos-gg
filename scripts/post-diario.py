@@ -83,19 +83,21 @@ def titulo(j):
     return " ".join(salida)
 
 
-def armar_lista(cabecera, lineas, pie, resumen):
-    """Mete todas las líneas que entren en el límite más chico (X, 280) y resume el resto.
+def armar_lista(cabecera, lineas, link, resumen):
+    """Mete todas las líneas que entren y resume el resto.
 
-    Se calcula sobre el texto COMPLETO —no sólo sobre las líneas— porque si no, el
-    encabezado, el link y las etiquetas hacen que el posteo se pase sin avisar.
+    Se mide sobre el texto COMPLETO de CADA red —no sólo sobre las líneas— porque si no,
+    el encabezado, el link y las etiquetas hacen que el posteo se pase sin avisar.
     """
-    limite = min(LIMITES.values())
+    def entra(cuerpo):
+        return all(len(version(cuerpo, link, r)) <= LIMITES[r] for r in LIMITES)
+
     for usar in range(len(lineas), 0, -1):
         sobran = len(lineas) - usar
-        texto = cabecera + "\n".join(lineas[:usar]) + (resumen(sobran) if sobran else "") + pie
-        if len(texto) <= limite:
-            return texto
-    return cabecera + resumen(len(lineas)) + pie
+        cuerpo = cabecera + "\n".join(lineas[:usar]) + (resumen(sobran) if sobran else "")
+        if entra(cuerpo):
+            return {"cuerpo": cuerpo, "link": link}
+    return {"cuerpo": cabecera + resumen(len(lineas)), "link": link}
 
 
 def url(j):
@@ -107,16 +109,29 @@ def fecha_larga(f):
     return f"{d} de {MESES_ES[m-1]}"
 
 
-def mostrar(nombre, texto):
+def version(cuerpo, link, red):
+    """X penaliza el alcance de los posteos con enlaces externos, sobre todo en cuentas
+    nuevas. Ahí el link va aparte, en una respuesta al propio posteo. En Bluesky no hay
+    penalización, así que va todo junto."""
+    if red == "Bluesky":
+        return f"{cuerpo}\n\n👉 {link}\n\n{TAGS}"
+    return f"{cuerpo}\n\n{TAGS}"
+
+
+def mostrar(nombre, opcion):
+    cuerpo, link = opcion["cuerpo"], opcion["link"]
     print(f"\n▸ OPCIÓN {nombre}")
-    print("─" * 62)
-    print(texto)
-    print("─" * 62)
-    marcas = []
-    for red, limite in LIMITES.items():
-        n = len(texto)
-        marcas.append(f"{red}: {n}/{limite} {'✓' if n <= limite else '✗ SE PASA'}")
-    print("  " + "  |  ".join(marcas))
+    for red in ("Bluesky", "X"):
+        texto = version(cuerpo, link, red)
+        n, limite = len(texto), LIMITES[red]
+        print(f"\n  ── {red} ──  [{n}/{limite} {'✓' if n <= limite else '✗ SE PASA'}]")
+        print("  " + "─" * 60)
+        for linea in texto.split("\n"):
+            print("  " + linea)
+        if red == "X":
+            print("  " + "─" * 60)
+            print("  ↳ y como RESPUESTA a tu propio posteo:")
+            print(f"     {link}")
 
 
 def opcion_hoy(hoy, juegos):
@@ -126,15 +141,14 @@ def opcion_hoy(hoy, juegos):
     if len(dia) == 1:
         j = dia[0]
         mc = f"\nPuntaje: {j['metacritic']} en Metacritic" if j.get("metacritic") else ""
-        return (f"🎮 Hoy sale {titulo(j)}\n\n"
-                f"Plataformas: {plats(j)}{mc}\n\n"
-                f"Ficha completa 👉 {url(j)}\n\n{TAGS}")
+        return {"cuerpo": f"🎮 Hoy sale {titulo(j)}\n\nPlataformas: {plats(j)}{mc}",
+                "link": url(j)}
 
     # Con varios, entran los que quepan y el resto se resume
     return armar_lista(
         cabecera=f"🎮 Lanzamientos de HOY ({fecha_larga(hoy)})\n\n",
         lineas=[f"▸ {titulo(j)} — {plats(j, 3)}" for j in dia],
-        pie=f"\n\nCalendario completo 👉 {SITIO}\n\n{TAGS}",
+        link=SITIO,
         resumen=lambda n: f"\n…y {n} más")
 
 
@@ -153,7 +167,7 @@ def opcion_semana(hoy, juegos):
     return armar_lista(
         cabecera="📅 Lo que sale esta semana\n\n",
         lineas=lineas,
-        pie=f"\n\nTodo el calendario 👉 {SITIO}\n\n{TAGS}",
+        link=SITIO,
         resumen=lambda n: f"\n…y {n} más esta semana")
 
 
@@ -162,7 +176,8 @@ def opcion_regresiva(hoy, juegos, gid=None):
     if gid:
         j = next((x for x in juegos if x["id"] == gid), None)
         if not j:
-            return f"(no existe ningún juego con id '{gid}')"
+            print(f"  (no existe ningún juego con id '{gid}')")
+            return None
     else:
         # sin argumento: el próximo lanzamiento con noticias cargadas, que es
         # el mismo criterio de "destacado" que usa la portada
@@ -176,9 +191,9 @@ def opcion_regresiva(hoy, juegos, gid=None):
     if dias <= 0:
         return None
     cuanto = "Falta 1 día" if dias == 1 else f"Faltan {dias} días"
-    return (f"⏳ {cuanto} para {titulo(j)}\n\n"
-            f"Sale el {fecha_larga(j['fecha'])} en {plats(j)}\n\n"
-            f"Ficha y cuenta regresiva 👉 {url(j)}\n\n{TAGS}")
+    return {"cuerpo": f"⏳ {cuanto} para {titulo(j)}\n\n"
+                      f"Sale el {fecha_larga(j['fecha'])} en {plats(j)}",
+            "link": url(j)}
 
 
 def main():
@@ -192,7 +207,8 @@ def main():
     hoy = args.fecha
 
     print(f"═══ POSTEO DEL DÍA — {hoy} ═══")
-    print("Copiar y pegar en X y en Bluesky (el mismo texto sirve para las dos).")
+    print("Cada opción viene en dos versiones: Bluesky lleva el link adentro; en X va")
+    print("aparte, en una respuesta, porque los enlaces le bajan el alcance al posteo.")
 
     opciones = [
         ("A · LANZAMIENTOS DE HOY", opcion_hoy(hoy, juegos)),
@@ -200,9 +216,9 @@ def main():
         ("C · CUENTA REGRESIVA", opcion_regresiva(hoy, juegos, args.regresiva)),
     ]
     vacias = 0
-    for nombre, texto in opciones:
-        if texto:
-            mostrar(nombre, texto)
+    for nombre, opcion in opciones:
+        if opcion:
+            mostrar(nombre, opcion)
         else:
             vacias += 1
             print(f"\n▸ OPCIÓN {nombre}: (nada para hoy)")
