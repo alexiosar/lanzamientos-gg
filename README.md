@@ -27,6 +27,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── _headers                    CORS abierto para /api/* (Cloudflare)
 ├── api.html                    Documentación de la API pública (enlace canónico: /api)
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
+├── scripts/generar-imagenes-redes.py  Regenera el avatar y la portada de los perfiles
+├── redes/avatar.png            Avatar de @lanzamientoslat (400x400, generado)
+├── redes/portada.png           Portada de los perfiles (1500x500, generada)
 ├── difusion/                   Material de difusión (PR a directorios, textos). No es del sitio.
 ├── scripts/generar-sitemap.py  Regenera sitemap.xml a partir de juegos.js
 ├── sitemap.xml                 Mapa del sitio para Google (generado, no editar a mano)
