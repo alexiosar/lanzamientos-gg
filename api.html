@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="API pública y gratuita del calendario de lanzamientos de videojuegos en español: JSON con CORS abierto, sin registro ni clave de acceso.">
+  <title>API PÚBLICA — LANZAMIENTOS.LAT</title>
+  <link rel="canonical" href="https://lanzamientos.lat/api">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .pagina-texto   { max-width: 760px; margin: 0 auto; padding: 1rem 0 2rem; }
+    .pagina-titulo  { font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.5rem; }
+    .bajada         { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; margin-bottom: 1.5rem; }
+    .seccion        { margin-bottom: 2rem; border-top: 1px solid var(--gris-2); padding-top: 1rem; }
+    .seccion-titulo { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 3px; margin-bottom: 0.75rem; }
+    .seccion p      { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; margin-bottom: 0.75rem; }
+    .volver         { display: inline-block; font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .volver:hover   { color: var(--acento); }
+    .endpoint       { border-left: 2px solid var(--acento-dim); padding-left: 1rem; margin-bottom: 1.25rem; }
+    .endpoint code  { color: var(--acento); font-size: 0.8125rem; }
+    pre             { background: var(--gris-1); border: 1px solid var(--gris-2); padding: 0.75rem 1rem; overflow-x: auto; font-size: 0.75rem; line-height: 1.7; color: var(--gris-7); margin-bottom: 0.75rem; }
+    pre code        { color: inherit; }
+    table           { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
+    th, td          { text-align: left; padding: 5px 10px 5px 0; border-bottom: 1px solid var(--gris-2); vertical-align: top; }
+    th              { color: var(--gris-5); letter-spacing: 1px; font-weight: 400; }
+    td              { color: var(--gris-7); }
+    td code         { color: var(--acento); }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor">
+      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
+      <a href="index.html" class="site-logo">LANZAMIENTOS.LAT</a>
+      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
+      <nav class="nav">
+        <a href="index.html">INICIO</a>
+        <a href="ps5.html">PS5</a>
+        <a href="xbox.html">XBOX</a>
+        <a href="switch-2.html">SWITCH 2</a>
+        <a href="switch.html">SWITCH</a>
+        <a href="ps4.html">PS4</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <div class="pagina-texto">
+      <a href="index.html" class="volver">◀ VOLVER AL CALENDARIO</a>
+      <h1 class="pagina-titulo">API PÚBLICA</h1>
+      <p class="bajada">El calendario completo de lanzamientos de videojuegos en español, en JSON.
+        Sin registro, sin clave de acceso, sin límite de peticiones y con CORS abierto, así que
+        podés consumirla directamente desde el navegador. Se actualiza todos los días.</p>
+
+      <div class="seccion">
+        <div class="seccion-titulo">ENDPOINTS</div>
+
+        <div class="endpoint">
+          <p><code>GET https://lanzamientos.lat/api/juegos.json</code></p>
+          <p>El calendario completo: todos los juegos cargados, pasados y futuros.</p>
+        </div>
+
+        <div class="endpoint">
+          <p><code>GET https://lanzamientos.lat/api/proximos.json</code></p>
+          <p>Solo los lanzamientos de los próximos 30 días. Mismo formato, mucho más liviano.</p>
+        </div>
+
+        <div class="endpoint">
+          <p><code>GET https://lanzamientos.lat/rss.xml</code></p>
+          <p>Las últimas novedades del calendario en formato RSS 2.0.</p>
+        </div>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">EJEMPLO</div>
+<pre><code>fetch("https://lanzamientos.lat/api/proximos.json")
+  .then(r =&gt; r.json())
+  .then(d =&gt; {
+    d.juegos.forEach(j =&gt; {
+      console.log(j.fecha, j.titulo, j.plataformas.join("/"));
+    });
+  });</code></pre>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">RESPUESTA</div>
+        <p>La raíz es un objeto con metadatos y un array <code>juegos</code>:</p>
+<pre><code>{
+  "sitio": "LANZAMIENTOS.LAT",
+  "descripcion": "Calendario de lanzamientos de videojuegos en español",
+  "url": "https://lanzamientos.lat",
+  "generado": "2026-07-29",
+  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
+  "contacto": "contacto@lanzamientos.lat",
+  "juegos": [ ... ]
+}</code></pre>
+        <p><code>proximos.json</code> agrega además <code>desde</code> y <code>hasta</code>
+          (el rango de fechas que cubre) y <code>total</code> (la cantidad de juegos que
+          devuelve).</p>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">CAMPOS DE CADA JUEGO</div>
+        <table>
+          <tr><th>CAMPO</th><th>TIPO</th><th>DESCRIPCIÓN</th></tr>
+          <tr><td><code>id</code></td><td>string</td><td>Identificador único, también usado en la URL de la ficha</td></tr>
+          <tr><td><code>titulo</code></td><td>string</td><td>Nombre del juego</td></tr>
+          <tr><td><code>fecha</code></td><td>string</td><td>Fecha de lanzamiento en formato <code>AAAA-MM-DD</code></td></tr>
+          <tr><td><code>estimado</code></td><td>boolean</td><td>Presente y <code>true</code> si el día exacto no está confirmado</td></tr>
+          <tr><td><code>fechaEstimada</code></td><td>string</td><td>Período anunciado, por ejemplo <code>SEPTIEMBRE 2026</code></td></tr>
+          <tr><td><code>relanzamiento</code></td><td>string</td><td>Presente si es un port, remaster o reedición, explicando de qué</td></tr>
+          <tr><td><code>plataformas</code></td><td>array</td><td><code>PS5</code>, <code>PS4</code>, <code>XBOX</code>, <code>SWITCH2</code>, <code>SWITCH</code></td></tr>
+          <tr><td><code>genero</code></td><td>array</td><td>Géneros en español, en mayúsculas</td></tr>
+          <tr><td><code>desarrollador</code></td><td>string</td><td>Estudio o editora</td></tr>
+          <tr><td><code>descripcion</code></td><td>string</td><td>Descripción en español</td></tr>
+          <tr><td><code>trailer</code></td><td>string</td><td>URL embebible de YouTube, o <code>null</code></td></tr>
+          <tr><td><code>metacritic</code></td><td>number</td><td>Puntaje de Metacritic, o <code>null</code> si no tiene</td></tr>
+          <tr><td><code>imagen</code></td><td>string</td><td>URL de la carátula, o <code>null</code></td></tr>
+          <tr><td><code>duracion</code></td><td>string</td><td>Duración estimada, cuando se conoce</td></tr>
+          <tr><td><code>gamepass</code></td><td>boolean</td><td>Si sale incluido en Xbox Game Pass</td></tr>
+          <tr><td><code>psplus</code></td><td>boolean</td><td>Si sale incluido en PlayStation Plus</td></tr>
+          <tr><td><code>noticias</code></td><td>array</td><td>Novedades del juego, con <code>fecha</code>, <code>titulo</code> y <code>texto</code></td></tr>
+          <tr><td><code>url</code></td><td>string</td><td>Enlace a la ficha del juego en el sitio</td></tr>
+        </table>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">LICENCIA Y LÍMITES</div>
+        <p>Uso libre, incluso comercial, citando la fuente con un enlace a lanzamientos.lat.
+          No hay límite de peticiones, pero los archivos son estáticos y se regeneran una vez
+          por día: no tiene sentido consultarlos más seguido que eso.</p>
+        <p>Las fechas las anuncian las editoras y pueden cambiar sin aviso. Los datos se
+          elaboran manualmente a partir de fuentes públicas y se ofrecen sin garantías.</p>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">CONTACTO</div>
+        <p>¿Armaste algo con estos datos, encontraste un error o necesitás otro endpoint?
+          Escribinos a <a href="mailto:contacto@lanzamientos.lat">contacto@lanzamientos.lat</a>.
+          Nos encantaría ver qué construiste.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
+      <span>LANZAMIENTOS.LAT &copy; 2026</span>
+      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="api.html">API</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTema() {
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }
+    function aplicarTema(claro) {
+      document.documentElement.classList.toggle("tema-claro", claro);
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+    }
+    const temaGuardado = localStorage.getItem("tema");
+    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
+    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
+    sistemaClaro.addEventListener("change", e => {
+      if (!localStorage.getItem("tema")) aplicarTema(e.matches);
+    });
+  </script>
+</body>
+</html>

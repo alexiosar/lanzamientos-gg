@@ -31,7 +31,7 @@ for pagina in ["ps5", "ps4", "xbox", "switch-2", "switch"]:
   </url>""")
 
 # páginas estáticas
-for pagina in ["acerca", "privacidad", "terminos", "archivo"]:
+for pagina in ["acerca", "api", "privacidad", "terminos", "archivo"]:
     urls.append(f"""  <url>
     <loc>{DOMINIO}/{pagina}</loc>
     <changefreq>monthly</changefreq>

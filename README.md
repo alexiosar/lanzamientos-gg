@@ -25,6 +25,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── api/juegos.json             API pública: calendario completo (generada)
 ├── api/proximos.json           API pública: próximos 30 días (generada)
 ├── _headers                    CORS abierto para /api/* (Cloudflare)
+├── api.html                    Documentación de la API pública (enlace canónico: /api)
+├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
+├── difusion/                   Material de difusión (PR a directorios, textos). No es del sitio.
 ├── scripts/generar-sitemap.py  Regenera sitemap.xml a partir de juegos.js
 ├── sitemap.xml                 Mapa del sitio para Google (generado, no editar a mano)
 ├── robots.txt                  Permite indexación y declara el sitemap
@@ -290,10 +293,14 @@ en este archivo y en la sección "Fuentes de datos habituales".
    sitemap, y reporta: debuts con puntaje, lanzamientos de hoy/mañana (candidatos a
    noticias) y faltantes. Este paso no necesita a Claude.
 2. Cargar noticias de los lanzamientos del día y eventos (debuts, Game Pass, betas).
-3. Commit y deploy.
+3. `python3 scripts/post-diario.py` — imprime tres opciones de posteo para X y Bluesky
+   (lanzamientos del día, lo que viene en la semana, cuenta regresiva) con el conteo de
+   caracteres de cada red. No publica nada: se elige una, se copia y se pega. Correrlo
+   **después** de cargar las noticias, así el texto sale con los datos del día.
+4. Commit y deploy.
 
 **Semanal:**
-4. Barrido de releases.com de **todos los meses ya cargados en el calendario** (con Claude +
+5. Barrido de releases.com de **todos los meses ya cargados en el calendario** (con Claude +
    extensión de Chrome), no solo del mes en curso y el siguiente. releases.com sigue sumando
    juegos a meses futuros después de que los cargamos, así que un mes barrido una vez queda
    desactualizado en pocas semanas. Hay que buscar dos cosas:
@@ -305,26 +312,26 @@ en este archivo y en la sección "Fuentes de datos habituales".
    (`-Sep-09`, `-Sep-18`, `-Sep-26`…). Cada carga muestra ~10 días, así que hacen falta 3 o 4
    por mes. Al final de cada mes aparecen los bloques "Estimated <mes>" y "Estimated Q<n>":
    esos van con `estimado: true` y `fechaEstimada`.
-5. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
-6. **Backlog de carátulas y trailers:** reintentar los que `actualizar.py` lista bajo
+6. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
+7. **Backlog de carátulas y trailers:** reintentar los que `actualizar.py` lista bajo
    "Faltantes". Suelen ser juegos que todavía no tenían ficha en Steam ni en la eShop cuando
    se cargaron; a medida que las tiendas publican assets, aparecen. Es un minuto de trabajo.
-7. Regenerar todo (`generar-fichas`, `generar-plataformas`, `generar-feeds`, `generar-sitemap`)
+8. Regenerar todo (`generar-fichas`, `generar-plataformas`, `generar-feeds`, `generar-sitemap`)
    y verificar que las carátulas y los trailers nuevos devuelvan HTTP 200 antes del deploy.
 
 **Mensual (fin de mes):**
-8. Cargar el mes siguiente completo desde releases.com (el que todavía no existe en el
-   calendario). A partir de ahí ese mes entra en el barrido semanal del punto 4.
-9. Duraciones (HLTB) de los ports del mes nuevo.
-10. **Backlog de duraciones:** cargar HLTB de ~15 ports viejos que no tengan `duracion`.
+9. Cargar el mes siguiente completo desde releases.com (el que todavía no existe en el
+   calendario). A partir de ahí ese mes entra en el barrido semanal del punto 5.
+10. Duraciones (HLTB) de los ports del mes nuevo.
+11. **Backlog de duraciones:** cargar HLTB de ~15 ports viejos que no tengan `duracion`.
     `actualizar.py` los cuenta al final del reporte. Sin este paso el backlog no lo toca
     ninguna rutina: el punto 9 solo cubre el mes que se acaba de cargar.
-11. **Backlog de noticias:** buscar noticias para los ~10 juegos mejor puntuados que no
+12. **Backlog de noticias:** buscar noticias para los ~10 juegos mejor puntuados que no
     tengan el campo `noticias`. Se prioriza por puntaje porque son los que aparecen en el
     ranking y concentran las visitas. La diaria solo cubre lanzamientos de hoy/mañana, así
     que sin este paso los juegos viejos se quedan en cero para siempre.
-12. Evaluar archivo/limpieza de meses viejos del calendario.
-13. Repasar la sección "Pendientes / ideas" de este archivo.
+13. Evaluar archivo/limpieza de meses viejos del calendario.
+14. Repasar la sección "Pendientes / ideas" de este archivo.
 
 **Cuál usar si falta un juego de un mes ya cargado:** la semanal. La mensual solo estrena
 meses nuevos; la semanal es la que vuelve sobre lo ya cargado y tapa los huecos.
