@@ -19,6 +19,7 @@ import argparse
 import datetime
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -58,13 +59,20 @@ def plats(j, maximo=4):
     return "/".join(ps[:maximo]) + ("+" if len(ps) > maximo else "")
 
 
+def _sin_diacriticos(t):
+    """TŌKON -> TOKON. Sin esto, la Ō no cuenta como vocal y el título se toma por
+    sigla: 'Marvel Tōkon' terminaba escrito 'Marvel TŌKon'."""
+    return "".join(c for c in unicodedata.normalize("NFD", t)
+                   if unicodedata.category(c) != "Mn")
+
+
 def titulo(j):
     """Los títulos están en MAYÚSCULAS en la base; en redes gritan demasiado."""
     palabras = j["titulo"].split()
     salida = []
     for i, p in enumerate(palabras):
         nucleo = p.strip(":()!?¡¿,.-'’")
-        limpio = re.sub(r"[^A-Za-z0-9]", "", nucleo)
+        limpio = re.sub(r"[^A-Za-z0-9]", "", _sin_diacriticos(nucleo))
         if not limpio:
             salida.append(p)
         elif ROMANOS.match(limpio) and limpio.upper() in {"II", "III", "IV", "VI", "VII",
@@ -78,8 +86,9 @@ def titulo(j):
                 or (re.search(r"\d", limpio) and len(limpio) <= 5):
             salida.append(p.upper())          # EA SPORTS FC 27, NBA 2K27, X/X-2 HD
         else:
-            # capitaliza cada tramo: RE:BUILD -> Re:Build, no Re:build
-            salida.append(re.sub(r"[A-Za-z0-9]+", lambda m: m.group(0).capitalize(), p))
+            # capitaliza cada tramo: RE:BUILD -> Re:Build, no Re:build. El patrón es \w
+            # y no [A-Za-z] para que TŌKON quede "Tōkon" y no "TŌKon".
+            salida.append(re.sub(r"\w+", lambda m: m.group(0).capitalize(), p))
     return " ".join(salida)
 
 

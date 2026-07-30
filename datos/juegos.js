@@ -1284,7 +1284,7 @@ noticias: [
     desarrollador: "BADASS MONGOOSE",
     descripcion: "Viaja al mundo olvidado de Helix, donde antiguos poderes despiertan en ti. Combina tus habilidades para desentrañar los misterios de una civilización perdida. Desciende a las profundidades, desafía tu mente con complejos acertijos y regresa a la luz de un nuevo día.",
     trailer: "https://youtube.com/embed/PX7mrM-ZQ_8",
-    metacritic: null,
+    metacritic: 72,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2736370/library_600x900.jpg",
     gamepass: false,
     psplus: false,
@@ -1453,9 +1453,14 @@ noticias: [
     desarrollador: "STRANGE SCAFFOLD",
     descripcion: "Tienes un camión mágico y ahora le debes tu alma a la elfa de isekai mazada que vive en tu cabeza. ¡Ponte en la piel de Truck-kun y atropella peatones, entrega pedidos y derrota al rey esqueleto en dos mundos diferentes en este juego de conducción caótica basado en reintentar partidas!",
     trailer: "https://youtube.com/embed/Iujy19OLvuc",
-    metacritic: null,
+    metacritic: 68,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/e420ddf6b182eb2a7f68803fe8334fdf03f0a7ce/header.jpg",
     noticias: [
+      {
+        fecha: "2026-07-30",
+        titulo: "DEBUTA CON 68 EN METACRITIC",
+        texto: "Un día después de su estreno ya tiene puntaje: 68 en Metacritic."
+      },
       {
         fecha: "2026-07-29",
         titulo: "YA DISPONIBLE EN XBOX",
@@ -1477,7 +1482,7 @@ noticias: [
     desarrollador: "MONOLITH SOFT",
     descripcion: "El aclamado RPG de Monolith Soft llega a Switch 2 en una edición mejorada. Acompañá a Rex y a Pyra en la búsqueda del Elíseo a través de un mundo de titanes vivientes, con mejoras gráficas y de rendimiento para la nueva consola.",
     trailer: "https://youtube.com/embed/Xjpao-nD5YU",
-    metacritic: null,
+    metacritic: 83,
     imagen: "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_XenobladeChronicles2_image500w.jpg",
 noticias: [
       {
@@ -1494,13 +1499,20 @@ noticias: [
     id: "kusan-city-of-wolves",
     titulo: "KUSAN: CITY OF WOLVES",
     fecha: "2026-07-30",
-    plataformas: ["XBOX", "PS5"],
+    plataformas: ["XBOX", "PS5", "SWITCH"],
     genero: ["ACCION", "SHOOTER", "INDIE"],
     desarrollador: "CIRCLEFROMDOT",
     descripcion: "Kusan: City of Wolves es un trepidante juego de disparos extremo en perspectiva cenital ambientado en una brutal jungla urbana gobernada por las armas y la corrupción.",
     trailer: "https://youtube.com/embed/uZ1hyKQOyJs",
-    metacritic: null,
+    metacritic: 84,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1714510/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-30",
+        titulo: "EL MEJOR PUNTUADO DEL DÍA: 84 EN METACRITIC",
+        texto: "Debuta con 84 en Metacritic y 82 en OpenCritic sobre doce análisis, el puntaje más alto de los doce lanzamientos de hoy. Es un juego de acción cenital en pixel art con la historia contada en viñetas de novela gráfica. La crítica destaca lo visceral del combate y el diseño sonoro, y avisa que no perdona errores y que la variedad es limitada."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1524,13 +1536,20 @@ noticias: [
     id: "truxton-extreme",
     titulo: "TRUXTON EXTREME",
     fecha: "2026-07-30",
-    plataformas: ["PS5", "XBOX"],
+    plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH"],
     genero: ["SHOOTER", "ARCADE"],
     desarrollador: "TATSUJIN",
     descripcion: "Acaba con hordas de invasores alienígenas usando tu disparo potente, rayo Truxton, láser trueno y disparo guiado, y no te olvides de respirar mientras combates contra gigantescos jefes en la batalla definitiva por la supervivencia de la humanidad.",
     trailer: "https://youtube.com/embed/HHKHAeqwXdc",
-    metacritic: null,
+    metacritic: 76,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3323490/e2a9d117851ffcd8194af97195c9757b3d342d61/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-30",
+        titulo: "LA SAGA VUELVE 38 AÑOS DESPUÉS",
+        texto: "Primera entrega nueva de Truxton desde 1988, desarrollada por Tatsujin, el estudio de Masahiro Yuge, uno de los fundadores de Toaplan. Conserva el diseño del original pero pasa a gráficos en 3D, y Yuge firma la banda sonora mezclando temas clásicos reimaginados con material nuevo. Debuta con 76 en Metacritic."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1545,8 +1564,15 @@ noticias: [
     desarrollador: "HYPETRAIN DIGITAL",
     descripcion: "¡Hazte miembro de la tripulación de un tren interdimensional! Descubre un mundo lleno de seres misteriosos, nuevos lugares y enemigos desconocidos. Mejora tu tren, busca materiales y crea armas mejores. Juega en solitario o en modo cooperativo en línea con hasta 4 personas.",
     trailer: "https://youtube.com/embed/vUsSwUo2IrY",
-    metacritic: null,
+    metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-30",
+        titulo: "LLEGA A PS5 CON JUEGO CRUZADO",
+        texto: "La versión de PS5 sale con juego cruzado completo, así que se puede jugar en cooperativo de hasta cuatro personas con quienes estén en PC o en Xbox. Armás tu tren desde una vagoneta vacía hasta una locomotora con varios vagones, y lo llenás de talleres, almacenaje y hasta mesas de juego. El original de PC promedia 82 en Metacritic."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1616,7 +1642,7 @@ noticias: [
   },
   {
     id: "jurassic-world-evolution-2",
-    titulo: "JURASSIC WORLD EVOLUTION 2",
+    titulo: "JURASSIC WORLD EVOLUTION 2: COMPLETE EDITION",
     fecha: "2026-07-30",
     relanzamiento: "En PS5, PS4, Xbox y PC desde 2021",
     duracion: "≈ 5,5 h (campaña) · 30 h (completo)",
@@ -1625,8 +1651,15 @@ noticias: [
     desarrollador: "FRONTIER DEVELOPMENTS",
     descripcion: "Jurassic World Evolution 2 es la esperada secuela de Jurassic World Evolution, el éxito de Frontier de 2018. Construí y administrá tu propio parque de dinosaurios, con herramientas de gestión más profundas, nuevas especies y modos de juego basados en las películas. Esta edición lleva el simulador a Switch 2 por primera vez.",
     trailer: "https://youtube.com/embed/G4usXflcYzI",
-    metacritic: null,
+    metacritic: 78,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244460/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-30",
+        titulo: "LA SAGA LLEGA POR PRIMERA VEZ A NINTENDO",
+        texto: "La Complete Edition reúne el juego base y todos los contenidos descargables publicados desde 2021, incluida la expansión Dominion Biosyn: todos los dinosaurios, una campaña extra y el resto de los añadidos. Es la primera vez que la saga aparece en una consola de Nintendo. Solo en digital, a 59,99 dólares. El original promedia 78 en Metacritic."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true

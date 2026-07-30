@@ -2,193 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-07-29T14:19:01+00:00",
+ "generado": "2026-07-30T13:14:15+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-07-29",
- "hasta": "2026-08-28",
- "total": 62,
+ "desde": "2026-07-30",
+ "hasta": "2026-08-29",
+ "total": 57,
  "juegos": [
-  {
-   "id": "mistfall-hunter",
-   "titulo": "MISTFALL HUNTER",
-   "fecha": "2026-07-29",
-   "plataformas": [
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG",
-    "SUPERVIVENCIA"
-   ],
-   "desarrollador": "BELLRING GAMES",
-   "descripcion": "Mistfall Hunter es un juego de acción y rol de extracción JcJcE en tercera persona. ¡Vive la emoción del combate al combinar las habilidades, talentos y equipamiento de cada clase! Ya juegues en solitario o en equipo, una cosa está clara: para llevártelo todo, tendrás que luchar. Buena suerte.",
-   "trailer": "https://youtube.com/embed/bc1exw4vjtM",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/library_600x900.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/mistfall-hunter",
-   "noticias": [
-    {
-     "fecha": "2026-07-10",
-     "titulo": "DAY ONE EN GAME PASS, SIN PS PLUS",
-     "texto": "El RPG de extracción de Bellring Games llega día uno a Game Pass, con crossplay y cooperativo. En PS5 no estará incluido en PS Plus al lanzamiento."
-    }
-   ]
-  },
-  {
-   "id": "bloodrayne-definitive-collection",
-   "titulo": "BLOODRAYNE: DEFINITIVE COLLECTION",
-   "fecha": "2026-07-29",
-   "plataformas": [
-    "PS5",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "HACK AND SLASH",
-    "VAMPIROS"
-   ],
-   "desarrollador": "TERMINAL REALITY",
-   "descripcion": "La dhampir Rayne regresa: una colección que reúne los clásicos de la saga BloodRayne en una edición definitiva para consolas actuales, disponible en formato digital y físico.",
-   "trailer": "https://youtube.com/embed/J2xriwzY09E",
-   "metacritic": null,
-   "imagen": null,
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/bloodrayne-definitive-collection",
-   "noticias": [
-    {
-     "fecha": "2026-07-29",
-     "titulo": "YA DISPONIBLE EN PS5 Y SWITCH",
-     "texto": "La colección reúne BloodRayne: ReVamped, BloodRayne 2: ReVamped y BloodRayne Betrayal: Fresh Bites. Sale en digital y también en físico a través de Strictly Limited Games, con una edición limitada y una deluxe que suma la banda sonora en CD, un libro de arte de 80 páginas y un póster."
-    }
-   ]
-  },
-  {
-   "id": "truck-kun-is-supporting-me-from-another-world",
-   "titulo": "TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!",
-   "fecha": "2026-07-29",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "ANIME",
-    "INDIE"
-   ],
-   "desarrollador": "STRANGE SCAFFOLD",
-   "descripcion": "Tienes un camión mágico y ahora le debes tu alma a la elfa de isekai mazada que vive en tu cabeza. ¡Ponte en la piel de Truck-kun y atropella peatones, entrega pedidos y derrota al rey esqueleto en dos mundos diferentes en este juego de conducción caótica basado en reintentar partidas!",
-   "trailer": "https://youtube.com/embed/Iujy19OLvuc",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/e420ddf6b182eb2a7f68803fe8334fdf03f0a7ce/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/truck-kun-is-supporting-me-from-another-world",
-   "noticias": [
-    {
-     "fecha": "2026-07-29",
-     "titulo": "YA DISPONIBLE EN XBOX",
-     "texto": "Estreno simultáneo en Xbox Series y PC, publicado por Frosty Pop. Manejás el camión que isekaiza a Carissa, una oficinista que despierta convertida en elfa heroica en Talinfold: cada atropello y cada entrega que hacés en el mundo real la potencian del otro lado."
-    }
-   ]
-  },
-  {
-   "id": "the-king-is-watching",
-   "titulo": "THE KING IS WATCHING",
-   "fecha": "2026-07-29",
-   "relanzamiento": "En PC desde 2025",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "INDIE",
-    "ESTRATEGIA"
-   ],
-   "desarrollador": "HYPNOHEAD",
-   "descripcion": "The King is Watching es un constructor de reinos roguelite. ¡Gobierna con el poder de tu mirada real! Decide entre generar recursos, entrenar ejércitos o dividir tus esfuerzos entre ambos para adaptarte a los eventos de cada partida.",
-   "trailer": "https://youtube.com/embed/CZXjQRcu2B8",
-   "metacritic": 80,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753900/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/the-king-is-watching",
-   "noticias": [
-    {
-     "fecha": "2026-07-21",
-     "titulo": "SU DEBUT EN CONSOLAS SE MOVIÓ AL 29",
-     "texto": "El port a PS5, Xbox y Switch se retrasó una semana, del 21 al 29 de julio. El original de PC promedia 80 en Metacritic."
-    }
-   ]
-  },
-  {
-   "id": "dispatch",
-   "titulo": "DISPATCH",
-   "fecha": "2026-07-29",
-   "relanzamiento": "En PS5 y PC desde 2025",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "ADHOC STUDIO",
-   "descripcion": "Dispatch es una comedia de oficina sobre superhéroes donde las decisiones importan. Gestioná un equipo de héroes venidos a menos desde tu escritorio de despachante y decidí quién responde cada emergencia.",
-   "trailer": "https://youtube.com/embed/jK0cGKMDMPE",
-   "metacritic": 87,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/dispatch",
-   "noticias": [
-    {
-     "fecha": "2026-07-29",
-     "titulo": "LLEGA A XBOX CON 87 EN METACRITIC",
-     "texto": "Cierra su recorrido por plataformas: después de salir en PS5 y PC en 2025 y de pasar por Switch 2, hoy debuta en Xbox Series con soporte completo de Xbox Play Anywhere, así que una sola compra vale para consola y PC con los guardados sincronizados. Acumula 87 en Metacritic sobre 70 análisis. No entra en Game Pass."
-    }
-   ]
-  },
-  {
-   "id": "bokura",
-   "titulo": "BOKURA",
-   "fecha": "2026-07-29",
-   "relanzamiento": "En PC y Switch desde 2023 — esta fecha corresponde a la edición de Switch 2",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "PUZZLE",
-    "COOP",
-    "INDIE"
-   ],
-   "desarrollador": "KODANSHA",
-   "descripcion": "¿Vos y yo estamos viendo el mundo de la misma manera? Una aventura de puzles exclusivamente para dos jugadores: cada uno ve una versión distinta del mundo y deben cooperar y comunicarse para avanzar en un viaje de escape.",
-   "trailer": "https://youtube.com/embed/25mkGli1e0A",
-   "metacritic": null,
-   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/bokura/1x1_Bokura_image500w.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/bokura",
-   "noticias": [
-    {
-     "fecha": "2026-07-29",
-     "titulo": "LA EDICIÓN DE SWITCH 2 USA EL GAMECHAT",
-     "texto": "La versión de Switch 2 sale en digital a 4,99 dólares y aprovecha el GameChat de la consola para que los dos jugadores se coordinen mientras cada uno ve un mundo distinto: uno de naturaleza, el otro de máquinas. El original de Steam es de 2023."
-    }
-   ]
-  },
   {
    "id": "xenoblade-chronicles-2",
    "titulo": "XENOBLADE CHRONICLES 2",
@@ -207,7 +27,7 @@
    "desarrollador": "MONOLITH SOFT",
    "descripcion": "El aclamado RPG de Monolith Soft llega a Switch 2 en una edición mejorada. Acompañá a Rex y a Pyra en la búsqueda del Elíseo a través de un mundo de titanes vivientes, con mejoras gráficas y de rendimiento para la nueva consola.",
    "trailer": "https://youtube.com/embed/Xjpao-nD5YU",
-   "metacritic": null,
+   "metacritic": 83,
    "imagen": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_XenobladeChronicles2_image500w.jpg",
    "gamepass": false,
    "psplus": false,
@@ -227,7 +47,8 @@
    "fecha": "2026-07-30",
    "plataformas": [
     "XBOX",
-    "PS5"
+    "PS5",
+    "SWITCH"
    ],
    "genero": [
     "ACCION",
@@ -237,12 +58,19 @@
    "desarrollador": "CIRCLEFROMDOT",
    "descripcion": "Kusan: City of Wolves es un trepidante juego de disparos extremo en perspectiva cenital ambientado en una brutal jungla urbana gobernada por las armas y la corrupción.",
    "trailer": "https://youtube.com/embed/uZ1hyKQOyJs",
-   "metacritic": null,
+   "metacritic": 84,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1714510/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/kusan-city-of-wolves"
+   "url": "https://lanzamientos.lat/juegos/kusan-city-of-wolves",
+   "noticias": [
+    {
+     "fecha": "2026-07-30",
+     "titulo": "EL MEJOR PUNTUADO DEL DÍA: 84 EN METACRITIC",
+     "texto": "Debuta con 84 en Metacritic y 82 en OpenCritic sobre doce análisis, el puntaje más alto de los doce lanzamientos de hoy. Es un juego de acción cenital en pixel art con la historia contada en viñetas de novela gráfica. La crítica destaca lo visceral del combate y el diseño sonoro, y avisa que no perdona errores y que la variedad es limitada."
+    }
+   ]
   },
   {
    "id": "blue-reflection-quartet",
@@ -274,7 +102,9 @@
    "fecha": "2026-07-30",
    "plataformas": [
     "PS5",
-    "XBOX"
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
    ],
    "genero": [
     "SHOOTER",
@@ -283,12 +113,19 @@
    "desarrollador": "TATSUJIN",
    "descripcion": "Acaba con hordas de invasores alienígenas usando tu disparo potente, rayo Truxton, láser trueno y disparo guiado, y no te olvides de respirar mientras combates contra gigantescos jefes en la batalla definitiva por la supervivencia de la humanidad.",
    "trailer": "https://youtube.com/embed/HHKHAeqwXdc",
-   "metacritic": null,
+   "metacritic": 76,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3323490/e2a9d117851ffcd8194af97195c9757b3d342d61/header.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/truxton-extreme"
+   "url": "https://lanzamientos.lat/juegos/truxton-extreme",
+   "noticias": [
+    {
+     "fecha": "2026-07-30",
+     "titulo": "LA SAGA VUELVE 38 AÑOS DESPUÉS",
+     "texto": "Primera entrega nueva de Truxton desde 1988, desarrollada por Tatsujin, el estudio de Masahiro Yuge, uno de los fundadores de Toaplan. Conserva el diseño del original pero pasa a gráficos en 3D, y Yuge firma la banda sonora mezclando temas clásicos reimaginados con material nuevo. Debuta con 76 en Metacritic."
+    }
+   ]
   },
   {
    "id": "voidtrain",
@@ -306,12 +143,19 @@
    "desarrollador": "HYPETRAIN DIGITAL",
    "descripcion": "¡Hazte miembro de la tripulación de un tren interdimensional! Descubre un mundo lleno de seres misteriosos, nuevos lugares y enemigos desconocidos. Mejora tu tren, busca materiales y crea armas mejores. Juega en solitario o en modo cooperativo en línea con hasta 4 personas.",
    "trailer": "https://youtube.com/embed/vUsSwUo2IrY",
-   "metacritic": null,
+   "metacritic": 82,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/voidtrain"
+   "url": "https://lanzamientos.lat/juegos/voidtrain",
+   "noticias": [
+    {
+     "fecha": "2026-07-30",
+     "titulo": "LLEGA A PS5 CON JUEGO CRUZADO",
+     "texto": "La versión de PS5 sale con juego cruzado completo, así que se puede jugar en cooperativo de hasta cuatro personas con quienes estén en PC o en Xbox. Armás tu tren desde una vagoneta vacía hasta una locomotora con varios vagones, y lo llenás de talleres, almacenaje y hasta mesas de juego. El original de PC promedia 82 en Metacritic."
+    }
+   ]
   },
   {
    "id": "leafy-corner",
@@ -412,7 +256,7 @@
   },
   {
    "id": "jurassic-world-evolution-2",
-   "titulo": "JURASSIC WORLD EVOLUTION 2",
+   "titulo": "JURASSIC WORLD EVOLUTION 2: COMPLETE EDITION",
    "fecha": "2026-07-30",
    "relanzamiento": "En PS5, PS4, Xbox y PC desde 2021",
    "duracion": "≈ 5,5 h (campaña) · 30 h (completo)",
@@ -426,12 +270,19 @@
    "desarrollador": "FRONTIER DEVELOPMENTS",
    "descripcion": "Jurassic World Evolution 2 es la esperada secuela de Jurassic World Evolution, el éxito de Frontier de 2018. Construí y administrá tu propio parque de dinosaurios, con herramientas de gestión más profundas, nuevas especies y modos de juego basados en las películas. Esta edición lleva el simulador a Switch 2 por primera vez.",
    "trailer": "https://youtube.com/embed/G4usXflcYzI",
-   "metacritic": null,
+   "metacritic": 78,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244460/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/jurassic-world-evolution-2"
+   "url": "https://lanzamientos.lat/juegos/jurassic-world-evolution-2",
+   "noticias": [
+    {
+     "fecha": "2026-07-30",
+     "titulo": "LA SAGA LLEGA POR PRIMERA VEZ A NINTENDO",
+     "texto": "La Complete Edition reúne el juego base y todos los contenidos descargables publicados desde 2021, incluida la expansión Dominion Biosyn: todos los dinosaurios, una campaña extra y el resto de los añadidos. Es la primera vez que la saga aparece en una consola de Nintendo. Solo en digital, a 59,99 dólares. El original promedia 78 en Metacritic."
+    }
+   ]
   },
   {
    "id": "volcano-princess",
@@ -1519,6 +1370,29 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/captain-tsubasa-2-world-fighters"
+  },
+  {
+   "id": "flying-fire-shark-toaplan-arcade-garage",
+   "titulo": "FLYING FIRE SHARK!!!: TOAPLAN ARCADE GARAGE",
+   "fecha": "2026-08-29",
+   "plataformas": [
+    "SWITCH",
+    "PS4"
+   ],
+   "genero": [
+    "SHOOTER",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "M2",
+   "descripcion": "Nueva entrega de la línea Toaplan Arcade Garage de M2: el shoot'em up clásico Fire Shark (Same! Same! Same!) vuelve con los agregados, opciones y modos de práctica que caracterizan a las remasterizaciones arcade del estudio.",
+   "trailer": "https://youtube.com/embed/8RtI7cfYeko",
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/flying-fire-shark-toaplan-arcade-garage"
   }
  ]
 }
