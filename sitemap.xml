@@ -1340,6 +1340,12 @@
   </url>
 
   <url>
+    <loc>https://lanzamientos.lat/juegos/tormented-souls-2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://lanzamientos.lat/juegos/toy-story-3-complete-edition</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

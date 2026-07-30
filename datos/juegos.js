@@ -3734,6 +3734,23 @@ noticias: [
     nuevo: true
   },
   {
+    id: "tormented-souls-2",
+    titulo: "TORMENTED SOULS 2",
+    fecha: "2026-10-15",
+    relanzamiento: "En PS5, Xbox y PC desde octubre de 2025 — esta fecha corresponde a la edición de Switch 2",
+    duracion: "≈ 13 h (historia) · 20 h (completo)",
+    plataformas: ["SWITCH2"],
+    genero: ["HORROR", "AVENTURA", "ACCION", "SUPERVIVENCIA"],
+    desarrollador: "DUAL EFFECT",
+    descripcion: "Vuelve Caroline Walker en la secuela de este clásico del terror y la supervivencia. Explorás los restos decadentes de Villa Hess, usás armas improvisadas contra criaturas aterradoras y alterás la realidad para intentar salvar a quien todavía se pueda. La edición de Switch 2 sale en digital y en físico, en formato Game-Key Card.",
+    trailer: "https://youtube.com/embed/fXKi0lyGox0",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2464280/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    nuevo: true
+  },
+  {
     id: "toy-story-3-complete-edition",
     titulo: "TOY STORY 3: COMPLETE EDITION",
     fecha: "2026-10-15",
