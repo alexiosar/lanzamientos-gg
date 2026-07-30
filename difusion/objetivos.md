@@ -23,13 +23,17 @@ no confundirlos:
 
 | Feed | ♥ | Cómo se entra |
 |---|---|---|
-| ¡Feed de Videojuegos! 🎮 — `@frankfighter.bsky.social` | 148 | Palabra clave. **Los posteos diarios ya entran solos.** |
+| [¡Feed de Videojuegos! 🎮](https://bsky.app/profile/frankfighter.bsky.social/feed/Videojuegos) | 148 | Palabra clave. **Los posteos diarios entran solos** — confirmado el 30/07/2026. |
+| [Videojuegos](https://bsky.app/profile/fran.pw/feed/aaac2jb73inf2) — `@fran.pw` | 113 | Lista de autores, España y LATAM. **Hay que pedir que te sumen.** |
 | Gamer Sky Club — `@chaoticbutterfly.bsky.social` | 144 | Etiqueta `#gamerskyclub`. Público mayormente en inglés. |
-| Videojuegos — `@fran.pw` | 113 | Lista de autores, España y LATAM. **Hay que pedir que te sumen.** |
-| Gaming con Ñ — `@kimigamingcorner.bsky.social` | 22 | Feed de gaming en español. |
-| Eventos de Videojuegos — `@marthisuy.bsky.social` | 11 | Cubre conferencias y eventos. Útil en Game Awards, Directs, etc. |
-| Noticias Videojuegos 🎮 — `@librarytow.bsky.social` | 11 | Noticias en español. |
-| Juegos Xbox (Español) — `@inxp.bsky.social` | 4 | Nicho, solo Xbox. |
+| [Gaming con Ñ](https://bsky.app/profile/kimigamingcorner.bsky.social/feed/Gaming-ES) | 22 | Feed de gaming en español. |
+| [Eventos de Videojuegos](https://bsky.app/profile/marthisuy.bsky.social/feed/aaaaoezklqoyc) | 11 | Cubre conferencias y eventos. Útil en Game Awards, Directs, etc. |
+| [Noticias Videojuegos 🎮](https://bsky.app/profile/librarytow.bsky.social/feed/aaakc7nccmre2) | 11 | Noticias en español. |
+| [Juegos Xbox (Español)](https://bsky.app/profile/inxp.bsky.social/feed/aaaerwoalzifm) | 4 | Nicho, solo Xbox. |
+
+Para tenerlos a mano: abrir el enlace y tocar la **chincheta**, así el feed queda fijado como
+pestaña arriba del inicio. Son además el mejor lugar para encontrar a alguien preguntando
+cuándo sale un juego, que es donde el calendario se vende solo.
 
 **Lo primero que hay que hacer acá:** escribirle a `@fran.pw` pidiendo que sume
 `@lanzamientos.lat` a su feed. Es el feed en español más grande que funciona por lista de
