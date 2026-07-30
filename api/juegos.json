@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-07-30T13:14:15+00:00",
+ "generado": "2026-07-30T14:07:30+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 246,
+ "total": 255,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -299,6 +299,7 @@
    "titulo": "DEATHBULGE BATTLE OF THE BANDS",
    "fecha": "2026-06-30",
    "relanzamiento": "En PC desde 2023",
+   "duracion": "≈ 17 h (historia) · 25 h (completo)",
    "plataformas": [
     "XBOX",
     "PS5"
@@ -455,6 +456,7 @@
    "titulo": "WALL WORLD 2",
    "fecha": "2026-07-06",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 19 h (historia) · 45 h (completo)",
    "plataformas": [
     "XBOX"
    ],
@@ -537,6 +539,7 @@
    "titulo": "ESCAPE THE BACKROOMS",
    "fecha": "2026-07-07",
    "relanzamiento": "En PC desde 2022",
+   "duracion": "≈ 9 h (historia) · 15 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -618,6 +621,7 @@
    "titulo": "BUCKSHOT ROULETTE",
    "fecha": "2026-07-08",
    "relanzamiento": "En PC desde 2024",
+   "duracion": "≈ 0,5 h (historia) · 9,6 h (completo)",
    "plataformas": [
     "XBOX"
    ],
@@ -852,6 +856,7 @@
    "titulo": "FORWARD TO THE SKY",
    "fecha": "2026-07-09",
    "relanzamiento": "En PC desde 2015",
+   "duracion": "≈ 1,4 h (historia) · 2,2 h (completo)",
    "plataformas": [
     "PS5",
     "PS4"
@@ -902,6 +907,7 @@
    "titulo": "RHAPSODY: A MUSICAL ADVENTURE",
    "fecha": "2026-07-09",
    "relanzamiento": "Remaster en Switch y PC desde 2022 (original de PS1, 2000)",
+   "duracion": "≈ 9,8 h (historia) · 14 h (completo)",
    "plataformas": [
     "SWITCH2",
     "PS5"
@@ -926,6 +932,7 @@
    "titulo": "DIGIMON STORY: TIME STRANGER",
    "fecha": "2026-07-10",
    "relanzamiento": "En PS5, Xbox y PC desde 2025",
+   "duracion": "≈ 42 h (historia) · 74 h (completo)",
    "plataformas": [
     "SWITCH",
     "SWITCH2"
@@ -1370,6 +1377,7 @@
    "titulo": "GO-GO TOWN!",
    "fecha": "2026-07-16",
    "relanzamiento": "En PC (acceso anticipado) desde 2024",
+   "duracion": "≈ 14 h (historia) · 26 h (completo)",
    "plataformas": [
     "SWITCH2",
     "SWITCH"
@@ -1395,6 +1403,7 @@
    "titulo": "RATATAN",
    "fecha": "2026-07-16",
    "relanzamiento": "En PC (acceso anticipado) desde 2025",
+   "duracion": "≈ 9 h (historia)",
    "plataformas": [
     "SWITCH"
    ],
@@ -1599,6 +1608,7 @@
    "titulo": "THE PLANET CRAFTER",
    "fecha": "2026-07-21",
    "relanzamiento": "En PC desde 2024",
+   "duracion": "≈ 35 h (historia) · 58 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -1871,6 +1881,7 @@
    "titulo": "YOG-SOTHOTH'S YARD",
    "fecha": "2026-07-23",
    "relanzamiento": "En PC desde 2023",
+   "duracion": "≈ 35 h (historia) · 65 h (completo)",
    "plataformas": [
     "SWITCH"
    ],
@@ -2213,6 +2224,7 @@
    "titulo": "VOIDTRAIN",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 19 h (historia) · 27 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -2266,6 +2278,7 @@
    "titulo": "SHARD SQUAD",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 4,8 h (historia) · 41 h (completo)",
    "plataformas": [
     "PS5",
     "SWITCH"
@@ -2290,6 +2303,7 @@
    "titulo": "DUNGEON ANTIQUA",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2024",
+   "duracion": "≈ 3,9 h (historia)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -2315,6 +2329,7 @@
    "titulo": "VERHO: CURSE OF FACES",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 13 h (historia) · 23 h (completo)",
    "plataformas": [
     "SWITCH",
     "XBOX",
@@ -2458,6 +2473,7 @@
    "titulo": "BEHOLDER: CONDUCTOR",
    "fecha": "2026-07-14",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 4,7 h (historia) · 12 h (completo)",
    "plataformas": [
     "XBOX"
    ],
@@ -2482,6 +2498,7 @@
    "titulo": "OUTLAWS + HANDFUL OF MISSIONS: REMASTER",
    "fecha": "2026-07-16",
    "relanzamiento": "Remaster en PC desde 2025 (original de 1997)",
+   "duracion": "≈ 5 h (historia) · 13 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -2505,6 +2522,7 @@
    "titulo": "THE KING IS WATCHING",
    "fecha": "2026-07-29",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 4,5 h (historia) · 77 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -2605,6 +2623,7 @@
    "titulo": "KYNSEED",
    "fecha": "2026-08-04",
    "relanzamiento": "En PC desde 2022",
+   "duracion": "≈ 30 h (historia)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -2957,6 +2976,7 @@
    "titulo": "TOWER DOMINION",
    "fecha": "2026-08-13",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 2,6 h (historia) · 35 h (completo)",
    "plataformas": [
     "SWITCH",
     "PS5",
@@ -3026,6 +3046,7 @@
    "titulo": "NO CASE SHOULD REMAIN UNSOLVED",
    "fecha": "2026-08-19",
    "relanzamiento": "En PC desde 2024",
+   "duracion": "≈ 2,7 h (historia) · 3 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -3450,6 +3471,7 @@
    "titulo": "WO LONG: FALLEN DYNASTY",
    "fecha": "2026-09-03",
    "relanzamiento": "En PS5, PS4, Xbox y PC desde 2023 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 25 h (historia) · 47 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -3630,6 +3652,7 @@
    "titulo": "THE LEGEND OF HEROES: TRAILS FROM ZERO",
    "fecha": "2026-09-10",
    "relanzamiento": "En PS4, Switch y PC desde 2022",
+   "duracion": "≈ 38 h (historia) · 79 h (completo)",
    "plataformas": [
     "SWITCH2",
     "PS5"
@@ -3653,6 +3676,7 @@
    "titulo": "THE LEGEND OF HEROES: TRAILS TO AZURE",
    "fecha": "2026-09-10",
    "relanzamiento": "En PS4, Switch y PC desde 2023",
+   "duracion": "≈ 43 h (historia) · 99 h (completo)",
    "plataformas": [
     "PS5",
     "SWITCH2"
@@ -3742,6 +3766,7 @@
    "titulo": "RUNESCAPE: DRAGONWILDS",
    "fecha": "2026-09-15",
    "relanzamiento": "En PC (acceso anticipado) desde 2025",
+   "duracion": "≈ 20 h (historia)",
    "plataformas": [
     "SWITCH2",
     "PS5",
@@ -3767,6 +3792,7 @@
    "titulo": "DESTROY ALL HUMANS! 2 - REPROBED",
    "fecha": "2026-09-15",
    "relanzamiento": "En PS5, Xbox y PC desde 2022 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 11 h (historia) · 25 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -3924,6 +3950,7 @@
    "titulo": "MOOMINTROLL: WINTER'S WARMTH",
    "fecha": "2026-09-18",
    "relanzamiento": "En PC desde abril de 2026",
+   "duracion": "≈ 4,4 h (historia) · 11 h (completo)",
    "plataformas": [
     "PS5",
     "SWITCH",
@@ -3995,6 +4022,7 @@
    "titulo": "DUNE: AWAKENING",
    "fecha": "2026-09-22",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 59 h (historia) · 266 h (completo)",
    "plataformas": [
     "XBOX",
     "PS5"
@@ -4110,6 +4138,7 @@
    "titulo": "DRAGON QUEST XI: ECHOES OF AN ELUSIVE AGE",
    "fecha": "2026-09-24",
    "relanzamiento": "Definitive Edition en Switch, PS4, Xbox y PC desde 2020 (original de 2017) — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 57 h (historia) · 122 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -4156,6 +4185,7 @@
    "titulo": "SHINOBI: ART OF VENGEANCE",
    "fecha": "2026-09-24",
    "relanzamiento": "En PS5, PS4, Xbox, Switch y PC desde 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 9,7 h (historia) · 18 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -4252,6 +4282,7 @@
    "titulo": "KONG: SURVIVOR INSTINCT",
    "fecha": "2026-09-30",
    "relanzamiento": "En PS5, Xbox y PC desde 2024",
+   "duracion": "≈ 6,4 h (historia) · 6,9 h (completo)",
    "plataformas": [
     "SWITCH"
    ],
@@ -4298,6 +4329,7 @@
    "titulo": "STAR RACER",
    "fecha": "2026-09-03",
    "relanzamiento": "En PC desde julio de 2025 — esta fecha corresponde a la edición de Switch",
+   "duracion": "≈ 2 h (historia)",
    "plataformas": [
     "SWITCH"
    ],
@@ -4322,6 +4354,7 @@
    "titulo": "HASHIRE HEBEREKE: EX",
    "fecha": "2026-09-03",
    "relanzamiento": "Remake del Hashire Hebereke de Super Famicom (1994)",
+   "duracion": "≈ 1,2 h (historia)",
    "plataformas": [
     "SWITCH"
    ],
@@ -4470,6 +4503,7 @@
    "titulo": "ARTIS IMPACT",
    "fecha": "2026-09-17",
    "relanzamiento": "En PC desde agosto de 2025 — esta fecha corresponde a la edición de Switch",
+   "duracion": "≈ 7,6 h (historia) · 23 h (completo)",
    "plataformas": [
     "SWITCH"
    ],
@@ -4494,6 +4528,7 @@
    "titulo": "MAESTRO",
    "fecha": "2026-09-17",
    "relanzamiento": "En realidad virtual desde octubre de 2024 — esta versión se juega con el movimiento de los Joy-Con",
+   "duracion": "≈ 2,5 h (historia) · 4,5 h (completo)",
    "plataformas": [
     "SWITCH2",
     "SWITCH"
@@ -4646,6 +4681,7 @@
    "titulo": "STAR OCEAN: THE SECOND STORY R",
    "fecha": "2026-07-16",
    "relanzamiento": "En PS5, PS4, Switch y PC desde 2023 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 26 h (historia) · 61 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -4676,6 +4712,7 @@
    "titulo": "QUARANTINE ZONE: THE LAST CHECK",
    "fecha": "2026-07-16",
    "relanzamiento": "En PC desde enero de 2026",
+   "duracion": "≈ 9,4 h (historia) · 16 h (completo)",
    "plataformas": [
     "XBOX"
    ],
@@ -4729,6 +4766,7 @@
    "titulo": "THE LIFE AND SUFFERING OF SIR BRANTE",
    "fecha": "2026-07-21",
    "relanzamiento": "En PC desde 2021",
+   "duracion": "≈ 9,6 h (historia) · 36 h (completo)",
    "plataformas": [
     "SWITCH",
     "SWITCH2"
@@ -4760,6 +4798,7 @@
    "titulo": "DISPATCH",
    "fecha": "2026-07-29",
    "relanzamiento": "En PS5 y PC desde 2025",
+   "duracion": "≈ 8,6 h (historia) · 20 h (completo)",
    "plataformas": [
     "XBOX"
    ],
@@ -4789,6 +4828,7 @@
    "titulo": "VOLCANO PRINCESS",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2023",
+   "duracion": "≈ 9,1 h (historia) · 51 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -5042,6 +5082,7 @@
    "titulo": "DISNEY EPIC MICKEY: REBRUSHED",
    "fecha": "2026-10-06",
    "relanzamiento": "En Switch, PS5, Xbox y PC desde 2024 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 10 h (historia) · 24 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -5107,6 +5148,7 @@
    "titulo": "HELL IS US",
    "fecha": "2026-10-08",
    "relanzamiento": "En PS5, Xbox y PC desde septiembre de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 22 h (historia) · 34 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -5129,6 +5171,7 @@
    "titulo": "EARTH DEFENSE FORCE 5",
    "fecha": "2026-10-08",
    "relanzamiento": "En PS4 y PC desde 2019 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 30 h (historia) · 152 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -5150,6 +5193,7 @@
    "titulo": "THE CREW MOTORFEST",
    "fecha": "2026-10-08",
    "relanzamiento": "En PS5, PS4, Xbox y PC desde 2023 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 22 h (historia) · 44 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -5171,6 +5215,7 @@
    "titulo": "ONCE UPON A KATAMARI",
    "fecha": "2026-10-08",
    "relanzamiento": "En Switch, PS4/5, Xbox y PC desde octubre de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 7,3 h (historia) · 21 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -5286,6 +5331,7 @@
    "titulo": "SPONGEBOB SQUAREPANTS: TITANS OF THE TIDE",
    "fecha": "2026-10-13",
    "relanzamiento": "En PC, PS5 y Xbox desde noviembre de 2025",
+   "duracion": "≈ 5,8 h (historia) · 15 h (completo)",
    "plataformas": [
     "SWITCH"
    ],
@@ -5330,6 +5376,7 @@
    "titulo": "ENSHROUDED",
    "fecha": "2026-10-15",
    "relanzamiento": "En PC desde 2024 — debut en consola",
+   "duracion": "≈ 48 h (historia) · 78 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -5489,6 +5536,7 @@
    "titulo": "BACK TO THE DAWN",
    "fecha": "2026-10-22",
    "relanzamiento": "En PC desde julio de 2025 — debut en consola",
+   "duracion": "≈ 18 h (historia) · 65 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -5512,7 +5560,7 @@
   {
    "id": "one-piece-grand-gourmet",
    "titulo": "ONE PIECE: GRAND GOURMET",
-   "fecha": "2026-10-22",
+   "fecha": "2026-10-23",
    "plataformas": [
     "SWITCH2"
    ],
@@ -5578,6 +5626,7 @@
    "titulo": "SOMA",
    "fecha": "2026-07-23",
    "relanzamiento": "En PC desde 2015 y otras consolas — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 9,1 h (historia) · 11 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -5640,6 +5689,7 @@
    "titulo": "BOKURA",
    "fecha": "2026-07-29",
    "relanzamiento": "En PC y Switch desde 2023 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 4,8 h (historia) · 7,6 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -5671,6 +5721,7 @@
    "titulo": "PARKASAURUS",
    "fecha": "2026-08-05",
    "relanzamiento": "En PC desde 2020 — debut en consolas",
+   "duracion": "≈ 19 h (historia) · 70 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -5719,6 +5770,7 @@
    "titulo": "YET ANOTHER ZOMBIE SURVIVORS",
    "fecha": "2026-08-20",
    "relanzamiento": "En PC desde 2023 — debut en consolas",
+   "duracion": "≈ 3,7 h (historia) · 30 h (completo)",
    "plataformas": [
     "PS5",
     "PS4"
@@ -5912,6 +5964,7 @@
    "estimado": true,
    "fechaEstimada": "TERCER TRIMESTRE 2026",
    "relanzamiento": "En PC desde 2022",
+   "duracion": "≈ 8,7 h (historia) · 37 h (completo)",
    "plataformas": [
     "SWITCH",
     "PS5",
@@ -5964,6 +6017,7 @@
    "estimado": true,
    "fechaEstimada": "OCTUBRE 2026",
    "relanzamiento": "En PC (acceso anticipado) desde 2024",
+   "duracion": "≈ 21 h (historia) · 43 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -6078,6 +6132,226 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi"
+  },
+  {
+   "id": "call-of-duty-modern-warfare-4",
+   "titulo": "CALL OF DUTY: MODERN WARFARE 4",
+   "fecha": "2026-10-23",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SHOOTER",
+    "FPS",
+    "ACCION",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "INFINITY WARD",
+   "descripcion": "La guerra estalla en la península de Corea cuando Corea del Norte lanza una invasión a gran escala que amenaza con desestabilizar el mundo. La campaña te pone en la piel del soldado Park mientras el capitán Price actúa por fuera de los canales oficiales. El multijugador estrena Ballistic Authority, un sistema que busca un tiroteo más realista, y vuelve el modo DMZ.",
+   "trailer": "https://youtube.com/embed/jLbst85USN8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/call-of-duty-modern-warfare-4"
+  },
+  {
+   "id": "steins-gate-reboot-consolas",
+   "titulo": "STEINS;GATE RE:BOOT",
+   "fecha": "2026-10-29",
+   "relanzamiento": "En Xbox y PC desde el 20 de agosto de 2026 — esta fecha corresponde a las ediciones de PS5, PS4, Switch 2 y Switch",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ANIME",
+    "NOVELA VISUAL"
+   ],
+   "desarrollador": "MAGES. INC.",
+   "descripcion": "¡STEINS;GATE está de vuelta, renovado para la era moderna! La novela visual de viajes en el tiempo aclamada por la crítica regresa con gráficos completamente actualizados. Parte del guion de Steins;Gate Elite, con el ritmo narrativo reajustado y una línea de mundo y un final completamente nuevos. Las ediciones de PS5, Switch 2 y Switch salen en digital y en físico.",
+   "trailer": "https://youtube.com/embed/2X-X5C4jG0A",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012810/07418d40a3fdd2f403bfa506f50051f4254fa02a/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/steins-gate-reboot-consolas"
+  },
+  {
+   "id": "cotton-reboot",
+   "titulo": "COTTON REBOOT!",
+   "fecha": "2026-10-22",
+   "relanzamiento": "En Switch, PS4 y PC desde 2021 — esta fecha corresponde a las ediciones de Switch 2 y PS5",
+   "plataformas": [
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "ARCADE",
+    "SHOOTER",
+    "RETRO"
+   ],
+   "desarrollador": "ROCKET-ENGINE",
+   "descripcion": "Remasterización completa de Cotton: Fantastic Night Dreams, el juego que inauguró el subgénero de las brujas voladoras hace más de treinta años. Conserva el diseño original y le suma un apartado visual puesto al día y modos nuevos. Sale en digital y en físico.",
+   "trailer": "https://youtube.com/embed/gNh21pIs2pA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1656820/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/cotton-reboot"
+  },
+  {
+   "id": "hello-kitty-party-land",
+   "titulo": "HELLO KITTY PARTY LAND",
+   "fecha": "2026-10-29",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "CASUAL",
+    "MULTIJUGADOR",
+    "COOP"
+   ],
+   "desarrollador": "SANRIO",
+   "descripcion": "Un parque de atracciones lleno de minijuegos con Hello Kitty y el resto de los personajes de Sanrio, pensado para jugar en compañía y sin complicaciones.",
+   "trailer": "https://youtube.com/embed/IUhxPbhtDEU",
+   "metacritic": null,
+   "imagen": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/rxvnwbdxlwjo5sjwjmzu",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/hello-kitty-party-land"
+  },
+  {
+   "id": "the-cat-in-the-hat-rainy-day-mayhem",
+   "titulo": "THE CAT IN THE HAT: RAINY DAY MAYHEM",
+   "fecha": "2026-10-30",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "CASUAL",
+    "MULTIJUGADOR",
+    "COOP"
+   ],
+   "desarrollador": "CASUAL BROTHERS",
+   "descripcion": "El Gato Garabato una vez dijo que divertirse es divertido. Jugás con él y con el resto de los personajes en dieciocho minijuegos, o lo perseguís por toda la casa. Solo o acompañado, la casa termina patas para arriba.",
+   "trailer": "https://youtube.com/embed/5QlWDB_x9fI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3465710/e957091eca3f2f41bdf684efca72d0257a57555b/header_spanish.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/the-cat-in-the-hat-rainy-day-mayhem"
+  },
+  {
+   "id": "goodboy-galaxy",
+   "titulo": "GOODBOY GALAXY",
+   "fecha": "2026-10-30",
+   "relanzamiento": "En PC desde octubre de 2024 — esta fecha corresponde a la edición de Switch",
+   "duracion": "≈ 13 h (historia) · 20 h (completo)",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "GOODBOY GALAXY LTD.",
+   "descripcion": "Un juego de plataformas de ciencia ficción con mucho color donde ayudás a Maxwell, un perro, a explorar mundos desconocidos, hacer amigos raros y enfrentarse a fuerzas misteriosas saltando, disparando y hablando con todo el que se cruce.",
+   "trailer": "https://youtube.com/embed/ohdlL1KNNCc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2705890/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/goodboy-galaxy"
+  },
+  {
+   "id": "xenoblade-chronicles-3-switch-2",
+   "titulo": "XENOBLADE CHRONICLES 3 — NINTENDO SWITCH 2 EDITION",
+   "fecha": "2026-12-03",
+   "relanzamiento": "En Switch desde 2022 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 62 h (historia) · 174 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "AVENTURA",
+    "ACCION",
+    "ANIME"
+   ],
+   "desarrollador": "MONOLITH SOFT",
+   "descripcion": "La edición de Switch 2 del tercer Xenoblade suma resolución 4K y hasta 60 imágenes por segundo, y trae contenido nuevo: un héroe con su misión, escenas con voces que antes no las tenían y un modo roguelike en el que el grupo aguanta oleadas de enemigos. Quien tenga la versión de Switch puede comprar el pack de mejora.",
+   "trailer": "https://youtube.com/embed/vTaD8maruNs",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechronicles3nintendoswitch2edition/1x1_XenobladeChronicles3_NS2Edition_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/xenoblade-chronicles-3-switch-2"
+  },
+  {
+   "id": "dragon-quest-monsters-the-withered-world",
+   "titulo": "DRAGON QUEST MONSTERS: EL REINO MARCHITO",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "AVENTURA",
+    "POR TURNOS",
+    "ANIME"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "Reclutá, criá, emparejá y combatí con monstruos de todo tipo en esta nueva entrega de la saga. La historia acompaña a dos aventureras, Bianca y Nera, después de convertirse en domadoras de monstruos.",
+   "trailer": "https://youtube.com/embed/NWngPjqMKUk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681610/b9aef398ba1695e8a4873626419524b2c37d6c0f/header_spanish.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/dragon-quest-monsters-the-withered-world"
+  },
+  {
+   "id": "sombras-negative-frames",
+   "titulo": "SOMBRAS: NEGATIVE FRAMES",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "HORROR",
+    "INDIE"
+   ],
+   "desarrollador": "MABOROSHI ARTWORKS",
+   "descripcion": "Un juego narrativo en primera persona construido alrededor de la fotografía. Acompañás a Shiomi, estudiante de fotografía, mientras es arrastrada a un reflejo oscuro de su propio barrio en el Japón de principios de los años dos mil.",
+   "trailer": "https://youtube.com/embed/Tcd3gF2jAVM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4553370/7ed7b71347ff7c568456fdea0afb29c92c2ec6b5/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/sombras-negative-frames"
   },
   {
    "id": "metaphor-refantazio",

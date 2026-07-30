@@ -155,4 +155,5 @@ Anotar acá lo que se va haciendo, para no repetir trabajo ni perder el rastro.
 | 29/07/2026 | Hilo de presentación publicado y fijado (3 posteos) | ✓ |
 | 29/07/2026 | Seguidas las cuentas de la sección 2 y los dueños de feeds | ✓ |
 | 29/07/2026 | PR #6717 a public-apis abierto | esperando revisión |
+| 30/07/2026 | Barrido de noviembre: estaba completo. Se cargaron 9 juegos que faltaban en octubre y diciembre | ✓ |
 | 29/08/2026 | **Pendiente:** escribirle a `@fran.pw` para entrar a su feed | — |

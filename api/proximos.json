@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-07-30T13:14:15+00:00",
+ "generado": "2026-07-30T14:07:30+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-07-30",
@@ -132,6 +132,7 @@
    "titulo": "VOIDTRAIN",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 19 h (historia) · 27 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -185,6 +186,7 @@
    "titulo": "SHARD SQUAD",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 4,8 h (historia) · 41 h (completo)",
    "plataformas": [
     "PS5",
     "SWITCH"
@@ -209,6 +211,7 @@
    "titulo": "DUNGEON ANTIQUA",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2024",
+   "duracion": "≈ 3,9 h (historia)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -234,6 +237,7 @@
    "titulo": "VERHO: CURSE OF FACES",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 13 h (historia) · 23 h (completo)",
    "plataformas": [
     "SWITCH",
     "XBOX",
@@ -289,6 +293,7 @@
    "titulo": "VOLCANO PRINCESS",
    "fecha": "2026-07-30",
    "relanzamiento": "En PC desde 2023",
+   "duracion": "≈ 9,1 h (historia) · 51 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -425,6 +430,7 @@
    "titulo": "KYNSEED",
    "fecha": "2026-08-04",
    "relanzamiento": "En PC desde 2022",
+   "duracion": "≈ 30 h (historia)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -474,6 +480,7 @@
    "titulo": "PARKASAURUS",
    "fecha": "2026-08-05",
    "relanzamiento": "En PC desde 2020 — debut en consolas",
+   "duracion": "≈ 19 h (historia) · 70 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -871,6 +878,7 @@
    "titulo": "TOWER DOMINION",
    "fecha": "2026-08-13",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 2,6 h (historia) · 35 h (completo)",
    "plataformas": [
     "SWITCH",
     "PS5",
@@ -964,6 +972,7 @@
    "titulo": "NO CASE SHOULD REMAIN UNSOLVED",
    "fecha": "2026-08-19",
    "relanzamiento": "En PC desde 2024",
+   "duracion": "≈ 2,7 h (historia) · 3 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -1093,6 +1102,7 @@
    "titulo": "YET ANOTHER ZOMBIE SURVIVORS",
    "fecha": "2026-08-20",
    "relanzamiento": "En PC desde 2023 — debut en consolas",
+   "duracion": "≈ 3,7 h (historia) · 30 h (completo)",
    "plataformas": [
     "PS5",
     "PS4"

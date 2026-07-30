@@ -27,6 +27,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── _headers                    CORS abierto para /api/* (Cloudflare)
 ├── api.html                    Documentación de la API pública (enlace canónico: /api)
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
+├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
 ├── scripts/generar-imagenes-redes.py  Regenera el avatar y la portada de los perfiles
 ├── redes/avatar.png            Avatar de @lanzamientoslat (400x400, generado)
 ├── redes/portada.png           Portada de los perfiles (1500x500, generada)
@@ -97,13 +98,18 @@ si están en `null` o ausentes — no rompen nada.
   embebido como `videoRenderer`). Validar siempre que el título del video corresponda al
   juego antes de cargar el ID. Los videos de Steam ya no sirven: son streaming DASH/HLS,
   no reproducibles en un iframe.
-- **Duración**: HowLongToBeat (howlongtobeat.com). Su buscador bloquea bots (el endpoint
-  interno rota y los buscadores externos limitan las consultas en lote), así que la carga
-  es manual: buscar el juego en el sitio, tomar "Main Story" y "Completionist" y cargar el
-  campo `duracion`. Las páginas de juego (`howlongtobeat.com/game/ID`) sí responden a
-  peticiones con User-Agent de navegador: los datos están en el JSON `__NEXT_DATA__`
-  (campos `comp_main` / `comp_100`, en segundos). Solo tiene sentido para juegos ya
-  jugados en alguna plataforma (lanzados o ports); los estrenos nuevos no tienen datos.
+- **Duración**: HowLongToBeat, con `python3 scripts/cargar-duraciones.py --aplicar`.
+  Ya no hace falta cargarla a mano. El buscador de HLTB bloquea peticiones ingenuas, pero
+  su propia web usa un protocolo público de dos pasos que el script replica: pide un token
+  a `/api/bleed/init` y con él hace un POST a `/api/bleed`. Solo carga el resultado cuando
+  el título coincide en un 82% o más, así que no mete la duración de otro juego; lo que
+  queda por debajo lo lista como dudoso y no lo toca.
+  **Si algún día devuelve 403 en todo**, el endpoint rotó: hay que mirar los chunks de
+  `/_next/static/` en howlongtobeat.com, buscar la llamada `fetch` de la búsqueda y
+  actualizar `init()` y `buscar()` en el script.
+  Solo tiene sentido para juegos ya jugados en alguna plataforma (lanzados o ports); los
+  estrenos no tienen datos, y los MMO dan cifras engañosas (Final Fantasy XIV está en la
+  lista `EXCLUIDOS` del script por eso).
 - **Puntajes**: Metacritic (solo puntajes reales de Metacritic, no OpenCritic). Las páginas
   `metacritic.com/game/SLUG/` responden a peticiones con User-Agent de navegador; el
   Metascore está en el campo `"ratingValue"` del JSON-LD embebido. Los indies chicos suelen
@@ -325,10 +331,11 @@ en este archivo y en la sección "Fuentes de datos habituales".
 **Mensual (fin de mes):**
 9. Cargar el mes siguiente completo desde releases.com (el que todavía no existe en el
    calendario). A partir de ahí ese mes entra en el barrido semanal del punto 5.
-10. Duraciones (HLTB) de los ports del mes nuevo.
-11. **Backlog de duraciones:** cargar HLTB de ~15 ports viejos que no tengan `duracion`.
-    `actualizar.py` los cuenta al final del reporte. Sin este paso el backlog no lo toca
-    ninguna rutina: el punto 9 solo cubre el mes que se acaba de cargar.
+10. Duraciones: `python3 scripts/cargar-duraciones.py --aplicar`. Recorre **todos** los
+    ports sin `duracion`, no solo los del mes nuevo, así que cubre el mes recién cargado y
+    el backlog de una sola pasada. Tarda unos minutos (consulta de a uno, con pausa).
+11. Repasar los "dudosos" que imprima el script: son títulos que coincidieron poco o que
+    HLTB todavía no tiene cronometrados. Los que valgan la pena se cargan a mano.
 12. **Backlog de noticias:** buscar noticias para los ~10 juegos mejor puntuados que no
     tengan el campo `noticias`. Se prioriza por puntaje porque son los que aparecen en el
     ranking y concentran las visitas. La diaria solo cubre lanzamientos de hoy/mañana, así
@@ -369,8 +376,9 @@ y abrir http://localhost:8080
   Harvest Moon: Echoes of Teradea, BloodRayne, Flying Fire Shark. Reintentar en las semanales
   a medida que las tiendas publiquen assets.
 - Trailers faltantes (2): Dungeon Antiqua y Mamon King (indies sin trailer propio en YouTube).
-- Duraciones (HLTB): ~75 ports sin cargar. Se van sumando de a poco en las mensuales.
-- Noticias en más juegos (hoy tienen 47 de 246).
+- Duraciones (HLTB): quedan 23 ports sin cargar, todos porque HLTB todavía no tiene tiempos
+  cronometrados (indies muy chicos). Reintentar en las mensuales con el script.
+- Noticias en más juegos (hoy tienen 55 de 255).
 - Samson: A Tyndalston Story (estimado septiembre 2026, PS5/Xbox): no está en Steam ni en la
   eShop, así que no hay carátula ni descripción de origen. Queda fuera hasta conseguir assets.
 - Bloque "Estimated Q3" de releases.com: quedan ~25 juegos de consola sin cargar (Aniimo,
