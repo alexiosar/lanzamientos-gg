@@ -383,7 +383,8 @@ y abrir http://localhost:8080
   Echoes of Teradea y Flying Fire Shark no tienen ficha publicada, y de BloodRayne solo existen
   los tres juegos sueltos, no la colección. Buscar en las tiendas de PlayStation y Xbox o en las
   webs oficiales cuando se acerquen las fechas.
-- Noticias en más juegos (hoy tienen 57 de 275).
+- Noticias en más juegos (hoy tienen 66 de 274). El paso 12 de la mensual ya bajó los mejor
+  puntuados sin noticias hasta 72; de ahí para abajo son indies chicos con poca cobertura.
 - Samson: A Tyndalston Story (estimado septiembre 2026, PS5/Xbox): no está en Steam ni en la
   eShop, así que no hay carátula ni descripción de origen. Queda fuera hasta conseguir assets.
 - Bloque "Estimated Q3" de releases.com: quedan ~25 juegos de consola sin cargar (Aniimo,

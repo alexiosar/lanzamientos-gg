@@ -178,13 +178,20 @@ const JUEGOS = [
     id: "momento",
     titulo: "MOMENTO",
     fecha: "2026-06-30",
-    plataformas: ["XBOX", "SWITCH2", "PS5"],
+    plataformas: ["XBOX", "SWITCH2", "SWITCH", "PS5"],
     genero: ["PUZZLE", "INDIE", "RELAX"],
     desarrollador: "FAT ALIEN CAT",
     descripcion: "Momento es un juego de decoración de habitaciones acogedor con un toque especial: ¡los objetos que elijas alterarán el curso de la historia! Decora tu habitación, elige los objetos que son importantes para ti y descubre cómo estas elecciones influyen a lo largo de tu vida. Empieza en la infancia, seleccionando juguetes que representen tus sueños para el futuro. Sigue esos sueños hasta la edad adulta, explorando escenarios y temas muy diversos. Descubre historias de desamor, asombro y amor, y aprende el significado de los tesoros sentimentales que te acompañarán. Presta mucha atención algunos objetos pueden esconder más de lo que parecen a simple vista. Explora un mundo deliciosamente táctil, enciende luces, hojea libros, acaricia adorables animales y mucho más. Colecciona objetos y muebles en el modo historia para jugar con ellos en el infinito modo creativo. Al final, regresa al principio para descubrir nuevos finales, giros inesperados en el camino y explorar una historia en constante evolución de amor y pérdida.",
     trailer: "https://youtube.com/embed/X1_HJSks2CQ",
     metacritic: 78,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2474770/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-31",
+        titulo: "LOS OBJETOS QUE TIRÁS CAMBIAN EL FINAL",
+        texto: "Detrás hay dos estudios australianos pequeños, Fat Alien Cat y Nomo Studio. La vuelta de tuerca es que lo que decidís conservar o descartar al principio altera la historia de vida de la protagonista y puede cambiar lo que pasa al final. Tiene modo historia y modo creativo."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -308,6 +315,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/KFr4j_Oqy14",
     metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1425350/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-31",
+        titulo: "LA EDICIÓN DE SWITCH 2 SUBE A 1080p Y 60 IMÁGENES POR SEGUNDO",
+        texto: "La versión de Switch 2 pasa de 720p a 1080p y apunta a sesenta imágenes por segundo. Quien tenga el juego en la Switch original puede comprar el pack de mejora en lugar del juego completo. El original promedia 82 en Metacritic."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -408,6 +422,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/nL_JF1ZNllI",
     metacritic: 91,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469450/d6c6747deb3a3d20418c1f7a5b2de2304442badf/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-31",
+        titulo: "LA CRÍTICA LO PONE A LA ALTURA DE ETERNAL",
+        texto: "Debuta con 91 en Metacritic y 90 en OpenCritic. Suma seis niveles nuevos, enemigos, armas y el modo de desafíos Ripatorium 3.0, pero lo que se destaca es la Lanza Encadenada: se alterna al instante con la Sierra Escudo y permite encadenar las dos en un mismo combo. Los análisis coinciden en que devuelve la movilidad de DOOM Eternal sin perder el peso de The Dark Ages."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -440,6 +461,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/epucEJY8Auo",
     metacritic: 85,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835570/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-31",
+        titulo: "ENTRA EN GAME PASS Y YA PASÓ LOS 9 MILLONES",
+        texto: "Llega a Xbox incluido en Game Pass desde el primer día, y suelto cuesta menos de tres dólares. El juego lleva más de nueve millones de copias vendidas, ocho de ellas solo en PC. Empezó en itch.io a fines de 2023 y explotó gracias a Twitch y TikTok."
+      }
+    ],
     gamepass: true,
     psplus: false,
     nuevo: true
@@ -538,23 +566,6 @@ noticias: [
         texto: "El regreso del clásico de béisbol de patio se quedó corto: es el puntaje más bajo del calendario, con reparos a la falta de contenido frente al original."
       }
     ],
-    gamepass: false,
-    psplus: false,
-    nuevo: true
-  },
-  {
-    id: "granblue-fantasy-relink",
-    titulo: "GRANBLUE FANTASY: RELINK",
-    fecha: "2026-07-09",
-    relanzamiento: "En PS5, PS4 y PC desde 2024 — esta fecha corresponde a la edición de Switch 2",
-    duracion: "≈ 15 h (historia) · 100 h (completo)",
-    plataformas: ["SWITCH2"],
-    genero: ["ACCION", "RPG"],
-    desarrollador: "CYGAMES",
-    descripcion: "Ambientada en el vasto Reino Celestial, Granblue Fantasy: Relink te pone en la piel de un capitán navegante de los cielos que, junto al espíritu del dragón Vyrn y la enigmática Lyria, forma una tripulación de nobles y forajidos rumbo a Estalucia, una isla envuelta en leyendas en el confín del horizonte. En el Dominio de Zegagrande, formidables bestias primordiales custodian las islas mientras se susurra sobre la clandestina Iglesia de Avia. Esta versión trae por primera vez a Switch 2 el sistema de combate dinámico y el elenco de personajes que consagraron al juego desde su estreno original, ahora con la posibilidad de vivir la aventura también en modo portátil.",
-    trailer: "https://youtube.com/embed/CSLN1rqXs1k",
-    metacritic: 80,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -897,6 +908,13 @@ noticias: [
     trailer: "https://youtube.com/embed/2vh0B3MgluM",
     metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3914860/0559b495ccbdcca5ff81fdd0b3e06db05c3c3a8e/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-31",
+        titulo: "DEJA DE SER EXCLUSIVO DE REALIDAD VIRTUAL",
+        texto: "Reúne Moss, Moss: Book II y el contenido Twilight Garden en un solo paquete, con los gráficos rehechos, escenas nuevas y el control readaptado. Es la primera vez que la saga se puede jugar sin casco de realidad virtual. La crítica lo recibió con 81: encantador, aunque se le notan los años y algún resabio de su origen en realidad virtual."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -934,6 +952,13 @@ noticias: [
     trailer: "https://youtube.com/embed/ljJMXZUEiT8",
     metacritic: 85,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1696770/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-31",
+        titulo: "EL MEJOR DETECTIVE GRIMOIRE HASTA AHORA",
+        texto: "Debuta con 85 y la crítica coincide en que es la mejor entrega de la saga Detective Grimoire. Destacan el arte, la música, el elenco de voces y el diseño de los puzles, sostenidos por una buena historia y un guion con vueltas. El reparo más repetido es el ritmo del capítulo final, que se vuelve una lista de tareas antes de la acusación. Dura entre cuatro y seis horas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1749,6 +1774,13 @@ noticias: [
     trailer: "https://youtube.com/embed/PCiL6h8x7qM",
     metacritic: 78,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642000/6af85af9c964bc45a61c649b6085b492101250aa/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-31",
+        titulo: "ES SECUELA DEL SIMULADOR DE TRÁFICO DE ÓRGANOS",
+        texto: "Continúa Space Warlord Organ Trading Simulator, el juego de 2021 del mismo estudio. En un futuro donde predecir el porvenir dejó obsoletos los mercados normales, la plata se hace comprando acciones sobre la vida simulada de bebés alienígenas. Salió en PC en enero y en Xbox en marzo; las versiones de Switch llegaron de sorpresa."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -3106,6 +3138,13 @@ noticias: [
     trailer: "https://youtube.com/embed/JSkvu2ZwKbA",
     metacritic: 83,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-31",
+        titulo: "LA EDICIÓN FÍSICA LLEGA EN NOVIEMBRE",
+        texto: "La versión digital sale el 16 de septiembre y la física el 6 de noviembre, para Switch 2 y PS5. El paquete suma catorce contenidos entre expansiones grandes, packs de objetos y extras dentro del juego. El original promedia 83 en Metacritic."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -3155,6 +3194,13 @@ noticias: [
     trailer: "https://youtube.com/embed/SWgNeWbNkZ8",
     metacritic: 93,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701700/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-31",
+        titulo: "FUE EL JUEGO DEL AÑO DE META EN 2024",
+        texto: "El original de realidad virtual se llevó el premio al Juego del Año de Meta en 2024 y promedia 93 en Metacritic. Trae más de treinta piezas que van de Beethoven y Vivaldi a Star Wars y Harry Potter. La versión de Switch cambia el seguimiento de manos por el movimiento de los Joy-Con."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
