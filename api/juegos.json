@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-07-31T14:14:53+00:00",
+ "generado": "2026-07-31T18:44:40+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 274,
+ "total": 289,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -2667,6 +2667,7 @@
    "duracion": "≈ 30 h (historia)",
    "plataformas": [
     "PS5",
+    "PS4",
     "XBOX",
     "SWITCH"
    ],
@@ -2881,6 +2882,7 @@
    "fecha": "2026-08-13",
    "plataformas": [
     "PS5",
+    "XBOX",
     "SWITCH2"
    ],
    "genero": [
@@ -3160,11 +3162,12 @@
   {
    "id": "the-witchs-bakery",
    "titulo": "THE WITCH'S BAKERY",
-   "fecha": "2026-08-20",
+   "fecha": "2026-10-14",
    "plataformas": [
     "PS5",
-    "SWITCH",
-    "XBOX"
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
    ],
    "genero": [
     "AVENTURA",
@@ -3180,7 +3183,14 @@
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/the-witchs-bakery"
+   "url": "https://lanzamientos.lat/juegos/the-witchs-bakery",
+   "noticias": [
+    {
+     "fecha": "2026-07-31",
+     "titulo": "SE RETRASÓ DOS MESES, AL 14 DE OCTUBRE",
+     "texto": "Estaba anunciado para el 20 de agosto y se movió al 14 de octubre. Sale en PS5, Xbox Series, Switch 2, Switch y PC, con ediciones físicas para PS5, Switch 2 y Switch que incluyen un libro de recetas digital si se compran temprano."
+    }
+   ]
   },
   {
    "id": "once-human",
@@ -3233,10 +3243,11 @@
   {
    "id": "brigandine-abyss",
    "titulo": "BRIGANDINE: ABYSS",
-   "fecha": "2026-08-26",
+   "fecha": "2026-08-27",
    "plataformas": [
     "SWITCH2",
-    "PS5"
+    "PS5",
+    "XBOX"
    ],
    "genero": [
     "ESTRATEGIA",
@@ -3309,7 +3320,9 @@
    "titulo": "METAL GEAR SOLID: MASTER COLLECTION VOL. 2",
    "fecha": "2026-08-27",
    "plataformas": [
+    "PS5",
     "XBOX",
+    "SWITCH2",
     "SWITCH"
    ],
    "genero": [
@@ -3331,8 +3344,10 @@
    "titulo": "AGGELOS 2",
    "fecha": "2026-08-27",
    "plataformas": [
-    "SWITCH2",
-    "XBOX"
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH"
    ],
    "genero": [
     "AVENTURA",
@@ -3355,7 +3370,8 @@
    "fecha": "2026-08-27",
    "plataformas": [
     "PS5",
-    "XBOX"
+    "XBOX",
+    "SWITCH"
    ],
    "genero": [
     "ACCION",
@@ -3401,6 +3417,7 @@
    "fecha": "2026-08-28",
    "plataformas": [
     "PS5",
+    "XBOX",
     "SWITCH"
    ],
    "genero": [
@@ -3490,8 +3507,9 @@
    "titulo": "MARSUPILAMI 2 - SALSA PALOMBIA",
    "fecha": "2026-09-03",
    "plataformas": [
-    "SWITCH",
-    "XBOX"
+    "PS5",
+    "XBOX",
+    "SWITCH"
    ],
    "genero": [
     "PLATAFORMA",
@@ -3650,6 +3668,7 @@
    "fecha": "2026-09-09",
    "plataformas": [
     "PS5",
+    "XBOX",
     "SWITCH"
    ],
    "genero": [
@@ -3949,6 +3968,7 @@
    "fecha": "2026-09-17",
    "plataformas": [
     "PS5",
+    "SWITCH2",
     "SWITCH"
    ],
    "genero": [
@@ -4155,9 +4175,10 @@
    "titulo": "HARVEST MOON: ECHOES OF TERADEA",
    "fecha": "2026-09-24",
    "plataformas": [
+    "PS5",
     "XBOX",
-    "SWITCH",
-    "PS5"
+    "SWITCH2",
+    "SWITCH"
    ],
    "genero": [
     "SIMULACION",
@@ -5319,6 +5340,7 @@
    "duracion": "≈ 37 h (historia) · 110 h (completo)",
    "plataformas": [
     "PS5",
+    "XBOX",
     "SWITCH2"
    ],
    "genero": [
@@ -7028,6 +7050,368 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/stage-tour"
+  },
+  {
+   "id": "no-more-room-in-hell-2",
+   "titulo": "NO MORE ROOM IN HELL 2",
+   "fecha": "2026-08-11",
+   "relanzamiento": "En PC (acceso anticipado) desde 2024",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SHOOTER",
+    "SUPERVIVENCIA",
+    "COOP",
+    "HORROR",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "TORN BANNER STUDIOS",
+   "descripcion": "Un shooter de zombis intenso para ocho jugadores. Aguantan juntos la horda interminable de muertos vivientes, evitan el contagio y tratan de sobrevivir al infierno en equipo.",
+   "trailer": "https://youtube.com/embed/f0tDPNR7D0o",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/no-more-room-in-hell-2"
+  },
+  {
+   "id": "akatori",
+   "titulo": "AKATORI",
+   "fecha": "2026-08-12",
+   "relanzamiento": "En PC desde el 5 de agosto de 2026",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "PLATAFORMA",
+    "INDIE"
+   ],
+   "desarrollador": "CONTRAST GAMES",
+   "descripcion": "Un metroidvania donde empuñás un bastón para pelear, saltar y explorar reinos de distintas épocas. Acompañás a Mako mientras intenta detener las Tormentas Ámbar que envenenan el mundo.",
+   "trailer": "https://youtube.com/embed/NBo6tHzZQ7k",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442520/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/akatori"
+  },
+  {
+   "id": "creepshow",
+   "titulo": "CREEPSHOW",
+   "fecha": "2026-08-13",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "PS4",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "HORROR",
+    "POINT AND CLICK",
+    "INDIE"
+   ],
+   "desarrollador": "PHL COLLECTIVE",
+   "descripcion": "Una antología de terror deliciosamente oscura inspirada en la serie Creepshow de Shudder. Aventura de apuntar y hacer clic donde todo sale mal de las peores maneras posibles.",
+   "trailer": "https://youtube.com/embed/93U5DlM-CdE",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3462650/8f16d53464320fece97408c752e71db707f0ef60/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/creepshow"
+  },
+  {
+   "id": "gallipoli",
+   "titulo": "GALLIPOLI",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SHOOTER",
+    "FPS",
+    "MULTIJUGADOR",
+    "WWII"
+   ],
+   "desarrollador": "BLACKMILL GAMES",
+   "descripcion": "Desembarcás en las playas de Galípoli para pelear batallas por objetivos con cincuenta jugadores en los frentes otomanos. Guerra de trincheras y desierto en el shooter más inmersivo de la Primera Guerra Mundial.",
+   "trailer": "https://youtube.com/embed/hlnSz-JPiBk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/3ee3f9540ec1100225c9e3ab2f4028c133b0f226/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/gallipoli"
+  },
+  {
+   "id": "mexican-ninja",
+   "titulo": "MEXICAN NINJA",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "ARCADE",
+    "INDIE"
+   ],
+   "desarrollador": "MADBRICKS",
+   "descripcion": "Un beat'em up roguelike trepidante, lleno de groserías y chulería. Te convertís en el ninja mexicano y te abrís paso a tajos por las calles de Nuevo Tokio en un regreso al arcade retro en dos dimensiones y media.",
+   "trailer": "https://youtube.com/embed/SZAu6g0fjq0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764970/824f4a5e7665ce9394f2d58e12d71e41636d467d/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/mexican-ninja"
+  },
+  {
+   "id": "over-requiemz",
+   "titulo": "OVER REQUIEMZ",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "NOVELA VISUAL",
+    "ANIME"
+   ],
+   "desarrollador": "AKSYS GAMES",
+   "descripcion": "Aventura narrativa japonesa publicada en occidente por Aksys Games.",
+   "trailer": "https://youtube.com/embed/xgWazUdXMQY",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/overrequiemz/1x1_OverRequiemz_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/over-requiemz"
+  },
+  {
+   "id": "blood-dungeon",
+   "titulo": "BLOOD DUNGEON",
+   "fecha": "2026-08-25",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "ARCADE",
+    "INDIE"
+   ],
+   "desarrollador": "MESSHOF",
+   "descripcion": "De los creadores de Nidhogg: un autoshooter de plataformas en dos dimensiones donde liquidás hordas de monstruos al ritmo de una banda sonora brutal. Juntás sangre, oro y huesos para reforzar tus poderes.",
+   "trailer": "https://youtube.com/embed/TNwRHBs_v74",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431080/3efcaa1643c79273ce9ece71c3dd4a7b71f1cb74/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/blood-dungeon"
+  },
+  {
+   "id": "fractured-worlds",
+   "titulo": "FRACTURED WORLDS",
+   "fecha": "2026-08-26",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "COOP"
+   ],
+   "desarrollador": "LASER GUIDED GAMES",
+   "descripcion": "Un RPG de acción de fantasía oscura ambientado en los restos de una realidad hecha pedazos. Combate pesado y de precisión, reinos variados y jefes exigentes, en solitario o junto a otros jugadores.",
+   "trailer": "https://youtube.com/embed/jUBmShHtHAM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1879860/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/fractured-worlds"
+  },
+  {
+   "id": "speedrunners-2-king-of-speed",
+   "titulo": "SPEEDRUNNERS 2: KING OF SPEED",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "PLATAFORMA",
+    "MULTIJUGADOR",
+    "ARCADE"
+   ],
+   "desarrollador": "FAIR PLAY LABS",
+   "descripcion": "Vuelve el juego de plataformas competitivo. Corrés, saltás y dejás atrás a tus rivales en carreras despiadadas de hasta ocho jugadores, en línea o en el mismo sillón, con gancho, objetos y mapas diseñados al detalle.",
+   "trailer": "https://youtube.com/embed/YzXr0kNUN_Q",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3183760/6c227ae4c5d0c9d44c38b4cac5915682be0b1ddb/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/speedrunners-2-king-of-speed"
+  },
+  {
+   "id": "exstetra",
+   "titulo": "EXSTETRA",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "ANIME"
+   ],
+   "desarrollador": "FURYU",
+   "descripcion": "La única forma de salvar el mundo es un beso. Un RPG de fantasía ambientado en Amazia, un Tokio fusionado con otro mundo y condenado a un destino fatal, donde te convertís en el salvador elegido, un Prisma, para enfrentar la destrucción.",
+   "trailer": "https://youtube.com/embed/wk7xCAkxGI4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251710/541a9fb52daf490826151e9c463448a2a7365e62/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/exstetra"
+  },
+  {
+   "id": "nascar-26",
+   "titulo": "NASCAR 26",
+   "fecha": "2026-09-18",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "CARRERAS",
+    "DEPORTES",
+    "SIMULACION"
+   ],
+   "desarrollador": "IRACING STUDIOS",
+   "descripcion": "El juego oficial de la NASCAR vuelve con las cuatro series nacionales, y modos de carrera, carrera rápida, campeonato y multijugador, más un modo nuevo dedicado a The Chase.",
+   "trailer": "https://youtube.com/embed/f_h_LPYH7iM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4883590/36e029011e47a7fbf54d788eb18a0e0683e923ef/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/nascar-26"
+  },
+  {
+   "id": "kingdom-hearts-collection",
+   "titulo": "KINGDOM HEARTS COLLECTION [I~III]",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "SWITCH2",
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "ACCION",
+    "AVENTURA",
+    "ANIME"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "La saga completa de Kingdom Hearts reunida en un solo paquete: los tres juegos principales con todo lo que fueron sumando a lo largo de los años, en consolas actuales.",
+   "trailer": "https://youtube.com/embed/qiE8hv-drXs",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kingdomheartscollectioni_iii/1x1_KingdomHeartsCollectionI_III_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/kingdom-hearts-collection"
+  },
+  {
+   "id": "silver-pines",
+   "titulo": "SILVER PINES",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "HORROR",
+    "AVENTURA",
+    "SUPERVIVENCIA",
+    "INDIE"
+   ],
+   "desarrollador": "WYCH ELM",
+   "descripcion": "Un metroidvania de terror y supervivencia ambientado en un pueblo chico de Estados Unidos. Enfrentás horrores de pesadilla y descifrás enigmas mientras administrás con cuidado unos recursos escasos.",
+   "trailer": "https://youtube.com/embed/y_PVwrQivKE",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/silver-pines"
+  },
+  {
+   "id": "forever-ago",
+   "titulo": "FOREVER AGO",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "THIRD SHIFT",
+   "descripcion": "Después de un revés trágico del destino, Alfred agarra la ruta rumbo al norte buscando redención. Un viaje para un solo jugador.",
+   "trailer": "https://youtube.com/embed/k2Mw71MmiUA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215940/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/forever-ago"
+  },
+  {
+   "id": "sesame-street-amigos-y-risas",
+   "titulo": "SESAME STREET: AMIGOS Y RISAS",
+   "fecha": "2026-10-09",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "SWITCH"
+   ],
+   "genero": [
+    "CASUAL",
+    "AVENTURA",
+    "COOP"
+   ],
+   "desarrollador": "INFINIGON",
+   "descripcion": "Un lugar para jugar, reír y crecer con Elmo y sus amigos: explorás su mundo, cultivás porotos mágicos, cocinás platos y ayudás a organizar una fiesta para todo el barrio.",
+   "trailer": "https://youtube.com/embed/gV_FEcIXG6k",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930330/cd60211759658ad9032d6b4950dbb29df2da1262/header_spanish.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/sesame-street-amigos-y-risas"
   }
  ]
 }

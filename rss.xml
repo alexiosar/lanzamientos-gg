@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 31 Jul 2026 14:14:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 18:44:40 +0000</lastBuildDate>
     <item>
       <title>MOMENTO: LOS OBJETOS QUE TIRÁS CAMBIAN EL FINAL</title>
       <link>https://lanzamientos.lat/juegos/momento</link>
@@ -69,6 +69,13 @@
       <guid isPermaLink="false">space-warlord-baby-trading-simulator-2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
       <description>Continúa Space Warlord Organ Trading Simulator, el juego de 2021 del mismo estudio. En un futuro donde predecir el porvenir dejó obsoletos los mercados normales, la plata se hace comprando acciones sobre la vida simulada de bebés alienígenas. Salió en PC en enero y en Xbox en marzo; las versiones de Switch llegaron de sorpresa. — SPACE WARLORD BABY TRADING SIMULATOR para SWITCH / SWITCH 2.</description>
+    </item>
+    <item>
+      <title>THE WITCH'S BAKERY: SE RETRASÓ DOS MESES, AL 14 DE OCTUBRE</title>
+      <link>https://lanzamientos.lat/juegos/the-witchs-bakery</link>
+      <guid isPermaLink="false">the-witchs-bakery-2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Estaba anunciado para el 20 de agosto y se movió al 14 de octubre. Sale en PS5, Xbox Series, Switch 2, Switch y PC, con ediciones físicas para PS5, Switch 2 y Switch que incluyen un libro de recetas digital si se compran temprano. — THE WITCH'S BAKERY para PS5 / XBOX / SWITCH 2 / SWITCH.</description>
     </item>
     <item>
       <title>TWO POINT HOSPITAL: FULL HEALTH COLLECTION: LA EDICIÓN FÍSICA LLEGA EN NOVIEMBRE</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">the-king-is-watching-2026-07-21</guid>
       <pubDate>Tue, 21 Jul 2026 12:00:00 +0000</pubDate>
       <description>El port a PS5, Xbox y Switch se retrasó una semana, del 21 al 29 de julio. El original de PC promedia 80 en Metacritic. — THE KING IS WATCHING para PS5 / XBOX / SWITCH.</description>
-    </item>
-    <item>
-      <title>SPLATOON RAIDERS: #1 EN LA ESHOP ANTES DE SALIR</title>
-      <link>https://lanzamientos.lat/juegos/splatoon-raiders</link>
-      <guid isPermaLink="false">splatoon-raiders-2026-07-20</guid>
-      <pubDate>Mon, 20 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Con las precargas abiertas, el spin-off ya lidera la tabla de ventas de la eShop de Switch 2 a tres días del lanzamiento. La prensa lo compara con un looter-shooter estilo Destiny, pero de tinta. — SPLATOON RAIDERS para SWITCH 2.</description>
     </item>
   </channel>
 </rss>
