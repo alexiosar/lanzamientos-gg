@@ -6,7 +6,21 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 30 Jul 2026 14:28:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 13:33:45 +0000</lastBuildDate>
+    <item>
+      <title>BLUE REFLECTION QUARTET: DEBUTA CON 79 Y RESCATA DOS OBRAS PERDIDAS</title>
+      <link>https://lanzamientos.lat/juegos/blue-reflection-quartet</link>
+      <guid isPermaLink="false">blue-reflection-quartet-2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Debuta con 79 en Metacritic. La colección reúne BLUE REFLECTION (2017) y Second Light (2021), pero lo interesante son las otras dos piezas: RAY nunca fue un juego —era una serie de anime de veinticuatro episodios cuya edición en Blu-ray se canceló— y acá se convirtió en una adaptación jugable; y SUN era un juego para móviles exclusivo de Japón que cerró en mayo de 2024, dejando su historia inaccesible, y fue rehecho para consolas. Suma ocho personajes de RAY y SUN como miembros del grupo. — BLUE REFLECTION QUARTET para SWITCH / PS5 / SWITCH 2.</description>
+    </item>
+    <item>
+      <title>THE RELIC: FIRST GUARDIAN: DEBUTA CON 54 Y LA CRÍTICA LO DESARMA</title>
+      <link>https://lanzamientos.lat/juegos/the-relic-first-guardian</link>
+      <guid isPermaLink="false">the-relic-first-guardian-2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+      <description>Sale hoy en PS5 y PC con 54 en Metacritic. Los análisis coinciden en que es ambicioso pero que casi todo lo que sostiene el juego se cae: el movimiento, la cámara, el bloqueo y la resistencia ceden a la mínima, los enemigos son excesivamente agresivos y los ochenta jefes terminan siendo esponjas de daño. Lo que sí rescatan es su mundo melancólico. Las versiones de Xbox Series y Switch 2 llegan más adelante en el verano boreal, y la edición física de PS5 el 4 de septiembre. — THE RELIC: FIRST GUARDIAN para PS5.</description>
+    </item>
     <item>
       <title>TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!: DEBUTA CON 68 EN METACRITIC</title>
       <link>https://lanzamientos.lat/juegos/truck-kun-is-supporting-me-from-another-world</link>
@@ -272,20 +286,6 @@
       <guid isPermaLink="false">splatoon-raiders-2026-07-10</guid>
       <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
       <description>Tras el Splatoon Raiders Direct, la prensa elogia el spin-off: shooter de plataformas en tercera persona con estructura roguelite, caza de tesoros junto al trío Deep Cut y cooperativo para hasta 4 jugadores. Varios críticos creen que la saga por fin encontró su potencial para un jugador. — SPLATOON RAIDERS para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>MISTFALL HUNTER: DAY ONE EN GAME PASS, SIN PS PLUS</title>
-      <link>https://lanzamientos.lat/juegos/mistfall-hunter</link>
-      <guid isPermaLink="false">mistfall-hunter-2026-07-10</guid>
-      <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El RPG de extracción de Bellring Games llega día uno a Game Pass, con crossplay y cooperativo. En PS5 no estará incluido en PS Plus al lanzamiento. — MISTFALL HUNTER para XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>XENOBLADE CHRONICLES 2: 4K, 60 FPS Y UN BLADE NUEVO EN SWITCH 2</title>
-      <link>https://lanzamientos.lat/juegos/xenoblade-chronicles-2</link>
-      <guid isPermaLink="false">xenoblade-chronicles-2-2026-07-10</guid>
-      <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
-      <description>La edición de Switch 2 corre a 4K en TV y Full HD en portátil, a 60 cuadros por segundo. Suma un Blade raro nuevo con misión propia, un modo de batalla de acción para comandar Blades directamente y equipamiento exclusivo para Pyra y Mythra. La edición física llega el 1 de octubre. — XENOBLADE CHRONICLES 2 para SWITCH 2.</description>
     </item>
   </channel>
 </rss>

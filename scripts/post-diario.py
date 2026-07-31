@@ -75,8 +75,9 @@ def titulo(j):
         limpio = re.sub(r"[^A-Za-z0-9]", "", _sin_diacriticos(nucleo))
         if not limpio:
             salida.append(p)
-        elif ROMANOS.match(limpio) and limpio.upper() in {"II", "III", "IV", "VI", "VII",
-                                                          "VIII", "IX", "XI", "XII", "XIII"}:
+        elif ROMANOS.match(limpio) and limpio.upper() in {
+                "II", "III", "IV", "VI", "VII", "VIII", "IX", "XI", "XII", "XIII",
+                "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX"}:
             salida.append(p.upper())          # DOOM II, no Doom Ii
         elif ORDINAL.match(limpio):
             salida.append(p[:-2] + p[-2:].lower())   # 2ND -> 2nd

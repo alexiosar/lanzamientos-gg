@@ -378,7 +378,12 @@ y abrir http://localhost:8080
 - Trailers faltantes (2): Dungeon Antiqua y Mamon King (indies sin trailer propio en YouTube).
 - Duraciones (HLTB): quedan 23 ports sin cargar, todos porque HLTB todavía no tiene tiempos
   cronometrados (indies muy chicos). Reintentar en las mensuales con el script.
-- Noticias en más juegos (hoy tienen 55 de 255).
+- Carátulas faltantes (6): reintentadas el 31/07/2026 sin éxito. No están en Steam ni en la
+  eShop y no van a estarlo: GTA VI y Marvel's Wolverine salen en tiendas propias, Harvest Moon:
+  Echoes of Teradea y Flying Fire Shark no tienen ficha publicada, y de BloodRayne solo existen
+  los tres juegos sueltos, no la colección. Buscar en las tiendas de PlayStation y Xbox o en las
+  webs oficiales cuando se acerquen las fechas.
+- Noticias en más juegos (hoy tienen 57 de 275).
 - Samson: A Tyndalston Story (estimado septiembre 2026, PS5/Xbox): no está en Steam ni en la
   eShop, así que no hay carátula ni descripción de origen. Queda fuera hasta conseguir assets.
 - Bloque "Estimated Q3" de releases.com: quedan ~25 juegos de consola sin cargar (Aniimo,
