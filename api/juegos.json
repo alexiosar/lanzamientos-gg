@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-01T13:46:23+00:00",
+ "generado": "2026-08-01T14:08:42+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 289,
+ "total": 291,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -1708,7 +1708,6 @@
    "fecha": "2026-07-23",
    "plataformas": [
     "PS5",
-    "XBOX",
     "SWITCH2",
     "SWITCH"
    ],
@@ -7436,6 +7435,52 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/sesame-street-amigos-y-risas"
+  },
+  {
+   "id": "avatar-legends-the-fighting-game-xbox",
+   "titulo": "AVATAR LEGENDS: THE FIGHTING GAME",
+   "fecha": "2026-09-03",
+   "relanzamiento": "En PS5, Switch 2, Switch y PC desde el 23 de julio de 2026 — esta fecha corresponde a la edición de Xbox, que se retrasó",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "LUCHA",
+    "ACCION",
+    "ANIME"
+   ],
+   "desarrollador": "GAMEPLAY GROUP INTERNATIONAL",
+   "descripcion": "La edición de Xbox del juego de pelea de Avatar llega mes y medio después que el resto, con soporte de Xbox Play Anywhere: una sola compra vale para consola y PC, con el progreso compartido. Mantiene el juego cruzado con el resto de las plataformas y el mismo plantel de doce personajes.",
+   "trailer": "https://youtube.com/embed/qC0WcvBOt_c",
+   "metacritic": 81,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox"
+  },
+  {
+   "id": "paw-patrol-dino-world-switch-2",
+   "titulo": "PAW PATROL: DINO WORLD",
+   "fecha": "2026-10-02",
+   "relanzamiento": "En PS5, Xbox y PS4 desde el 31 de julio de 2026 — esta fecha corresponde a la edición de Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ACCION",
+    "COOP"
+   ],
+   "desarrollador": "3DCLOUDS",
+   "descripcion": "La edición de Switch 2 de la aventura de la Patrulla Canina en la Isla Dino, dos meses después del resto de las consolas. Mismos minijuegos, misiones y construcción de conjuntos prehistóricos con Rex.",
+   "trailer": "https://youtube.com/embed/2ccwZwR0pv0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3525790/2697199371a6effb9498ba1ee1017c4287dc563b/header_spanish.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/paw-patrol-dino-world-switch-2"
   }
  ]
 }

@@ -1801,4 +1801,16 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/paw-patrol-dino-world-switch-2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

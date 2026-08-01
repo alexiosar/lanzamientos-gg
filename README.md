@@ -135,6 +135,32 @@ si están en `null` o ausentes — no rompen nada.
   el `object-fit: cover` del marco 3/4. Se probó mostrarlas enteras sobre un fondo difuminado
   (julio 2026) y **se descartó**: no gustó el resultado. La grilla queda con recorte.
 
+### Un juego que sale en varias fechas (regla decidida el 01/08/2026)
+
+Pasa seguido: un juego sale primero en unas consolas y meses después en otras. La regla es
+**una entrada por lanzamiento**, no por juego.
+
+- Se crea una **entrada nueva** cuando la segunda fecha trae plataformas que no estaban en la
+  primera. El `id` lleva un sufijo que aclara cuál es (`-xbox`, `-switch-2`, `-consolas`).
+- La entrada nueva **siempre** lleva `relanzamiento` apuntando a la anterior, con fecha y
+  plataformas: *"En PS5 y Switch desde el 23 de julio de 2026 — esta fecha corresponde a la
+  edición de Xbox"*.
+- La entrada vieja **no** debe listar plataformas que todavía no salieron. Es el error que
+  tenía Avatar Legends: figuraba en Xbox desde julio cuando esa versión llegaba en septiembre.
+- La `descripcion` de la segunda entrada **no se copia tal cual**: se reescribe explicando qué
+  aporta esa edición. Son dos páginas del mismo juego y el contenido duplicado juega en contra
+  de la indexación, que es justo el problema que estamos peleando.
+- Si el juego original es viejo y **no está en el calendario** (Elden Ring en Switch 2,
+  Xenoblade 2), alcanza con una sola entrada y el campo `relanzamiento`. No hace falta inventar
+  una entrada para el lanzamiento de 2022.
+
+**Por qué así:** el sitio es un calendario y su eje es la fecha. Si alguien filtra por PS5 y
+mira octubre, tiene que encontrar el juego que llega a su consola en octubre. Con una sola
+entrada fechada en el primer lanzamiento, ese juego desaparece del mes que le importa.
+
+**Casos ya normalizados con esta regla:** Steins;Gate Re:Boot, Avatar Legends: The Fighting
+Game y PAW Patrol: Dino World.
+
 ### Después de CUALQUIER cambio en datos/juegos.js
 
 Regenerar las fichas estáticas y el sitemap:
