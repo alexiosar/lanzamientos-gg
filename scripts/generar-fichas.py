@@ -154,9 +154,11 @@ def generar(j, juegos):
               <span class="badge-metacritic {meta_clase(j["metacritic"])}">{j["metacritic"]}</span>
             </div>'''
 
-    portada_html = ""
+    # Sin imagen va un marcador con la marca del sitio, no un hueco: el `this.remove()`
+    # del onerror dejaba la ficha descuadrada cuando la URL fallaba.
+    portada_html = f'<span class="portada-page portada-vacia" role="img" aria-label="Sin carátula disponible"></span>'
     if j.get("imagen"):
-        portada_html = f'<img class="portada-page" src="{e(j["imagen"])}" alt="Portada de {e(j["titulo"])}" loading="lazy" onerror="this.remove()" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add(\'apaisada\')">'
+        portada_html = f'<img class="portada-page" src="{e(j["imagen"])}" alt="Portada de {e(j["titulo"])}" loading="lazy" onerror="this.outerHTML=\'<span class=&quot;portada-page portada-vacia&quot;></span>\'" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add(\'apaisada\')">'
 
     noticias_html = ""
     if j.get("noticias"):

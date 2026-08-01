@@ -92,7 +92,7 @@
       </div>
 
       <div class="juego-hero">
-        <img class="portada-page" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/library_600x900.jpg" alt="Portada de GO-GO TOWN!" loading="lazy" onerror="this.remove()" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add('apaisada')">
+        <img class="portada-page" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/library_600x900.jpg" alt="Portada de GO-GO TOWN!" loading="lazy" onerror="this.outerHTML='<span class=&quot;portada-page portada-vacia&quot;></span>'" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add('apaisada')">
         <div class="juego-hero-info">
           <h1 class="juego-titulo-page">GO-GO TOWN!</h1>
           <p class="juego-dev-page">PRIDEFUL SLOTH</p>
@@ -122,6 +122,10 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto">81</span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('go-go-town')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -131,6 +135,16 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-01</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 81 Y ESTRENA LA VERSIÓN 1.0</span>
+          </div>
+          <p class="noticia-texto">Debuta con 81 en Metacritic. La salida en Switch coincidió con el paso de acceso anticipado a la versión 1.0 definitiva en PC, después de dos años. La crítica destaca que es un juego de gestión que se entiende en los primeros minutos y aguanta decenas de horas: no se trata solo de decorar calles sino de armar una economía que termina funcionando sola. En Switch y Switch 2 tiene pantalla dividida nativa para jugar de a dos, en la misma consola o en línea.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Ponte en la piel de un alcalde muy activo y crea tu ciudad desde cero. Planifica barrios, automatiza la logística y haz crecer tu comunidad mientras haces malabares con obreros, infraestructuras y el caos cotidiano de construir la ciudad de tus sueños. Juega en solitario para controlarlo todo o trae amigos para locura cooperativa. La versión 1.0 debuta en Switch y Switch 2 tras su paso por acceso anticipado.</p>

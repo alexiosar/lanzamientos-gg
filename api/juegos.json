@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-07-31T18:44:40+00:00",
+ "generado": "2026-08-01T13:46:23+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 289,
@@ -1411,12 +1411,19 @@
    "desarrollador": "PRIDEFUL SLOTH",
    "descripcion": "Ponte en la piel de un alcalde muy activo y crea tu ciudad desde cero. Planifica barrios, automatiza la logística y haz crecer tu comunidad mientras haces malabares con obreros, infraestructuras y el caos cotidiano de construir la ciudad de tus sueños. Juega en solitario para controlarlo todo o trae amigos para locura cooperativa. La versión 1.0 debuta en Switch y Switch 2 tras su paso por acceso anticipado.",
    "trailer": "https://youtube.com/embed/ah9Ww_xh0Ts",
-   "metacritic": null,
+   "metacritic": 81,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/go-go-town"
+   "url": "https://lanzamientos.lat/juegos/go-go-town",
+   "noticias": [
+    {
+     "fecha": "2026-08-01",
+     "titulo": "DEBUTA CON 81 Y ESTRENA LA VERSIÓN 1.0",
+     "texto": "Debuta con 81 en Metacritic. La salida en Switch coincidió con el paso de acceso anticipado a la versión 1.0 definitiva en PC, después de dos años. La crítica destaca que es un juego de gestión que se entiende en los primeros minutos y aguanta decenas de horas: no se trata solo de decorar calles sino de armar una economía que termina funcionando sola. En Switch y Switch 2 tiene pantalla dividida nativa para jugar de a dos, en la misma consola o en línea."
+    }
+   ]
   },
   {
    "id": "ratatan",
@@ -6229,11 +6236,28 @@
    "descripcion": "El regreso de Rockstar a Vice City: Lucia y su compañero protagonizan la nueva entrega de la saga más influyente del mundo abierto, en un estado de Leonida inspirado en la Florida moderna. Tras dos retrasos, Rockstar confirmó el 19 de noviembre como fecha definitiva, exclusivo de PS5 y Xbox Series X|S en su estreno (la versión de PC todavía no fue anunciada).",
    "trailer": "https://youtube.com/embed/QdBZY2fkU-0",
    "metacritic": null,
-   "imagen": null,
+   "imagen": "https://www.rockstargames.com/VI/-/opengraph-image.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi"
+   "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi",
+   "noticias": [
+    {
+     "fecha": "2026-06-25",
+     "titulo": "PRECIO OFICIAL Y ARRANCA LA PREVENTA",
+     "texto": "La edición estándar cuesta 79,99 dólares y la Ultimate 99,99. La Ultimate suma vehículos como el Vapid Dominator Buggy del 67, el Grotti Cheetah del 95, la moto Dinka Enduro y el bote Shitzu Squalo, las armas Hawk & Little Morgan y acceso a locaciones como Paradise Garage y el taller Rideout Customs. Quien reserve antes del 20 de noviembre recibe el Pack Vintage, y la preventa digital regala un mes de GTA+."
+    },
+    {
+     "fecha": "2026-06-25",
+     "titulo": "LA EDICIÓN FÍSICA VIENE SIN DISCO",
+     "texto": "La versión en caja sale el 12 de noviembre, una semana antes que la digital, pero las cajas van vacías: adentro solo hay un código de descarga para PS5 o Xbox. No hay disco."
+    },
+    {
+     "fecha": "2025-11-06",
+     "titulo": "SE RETRASÓ POR SEGUNDA VEZ, AHORA AL 19 DE NOVIEMBRE",
+     "texto": "Rockstar movió el lanzamiento seis meses, de mayo a noviembre de 2026. Ya se había corrido antes desde el otoño boreal de 2025. El comunicado pidió disculpas por la espera y dijo que los meses extra permitirían terminar el juego con el nivel de pulido esperado."
+    }
+   ]
   },
   {
    "id": "call-of-duty-modern-warfare-4",

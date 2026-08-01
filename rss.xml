@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 31 Jul 2026 18:44:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 13:46:23 +0000</lastBuildDate>
+    <item>
+      <title>GO-GO TOWN!: DEBUTA CON 81 Y ESTRENA LA VERSIÓN 1.0</title>
+      <link>https://lanzamientos.lat/juegos/go-go-town</link>
+      <guid isPermaLink="false">go-go-town-2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Debuta con 81 en Metacritic. La salida en Switch coincidió con el paso de acceso anticipado a la versión 1.0 definitiva en PC, después de dos años. La crítica destaca que es un juego de gestión que se entiende en los primeros minutos y aguanta decenas de horas: no se trata solo de decorar calles sino de armar una economía que termina funcionando sola. En Switch y Switch 2 tiene pantalla dividida nativa para jugar de a dos, en la misma consola o en línea. — GO-GO TOWN! para SWITCH 2 / SWITCH.</description>
+    </item>
     <item>
       <title>MOMENTO: LOS OBJETOS QUE TIRÁS CAMBIAN EL FINAL</title>
       <link>https://lanzamientos.lat/juegos/momento</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">the-planet-crafter-2026-07-21</guid>
       <pubDate>Tue, 21 Jul 2026 12:00:00 +0000</pubDate>
       <description>El simulador de terraformación debutó hoy en PS5 y Xbox con excelentes críticas: la versión de consola mantiene el nivel del aclamado original de PC. — THE PLANET CRAFTER para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>THE KING IS WATCHING: SU DEBUT EN CONSOLAS SE MOVIÓ AL 29</title>
-      <link>https://lanzamientos.lat/juegos/the-king-is-watching</link>
-      <guid isPermaLink="false">the-king-is-watching-2026-07-21</guid>
-      <pubDate>Tue, 21 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El port a PS5, Xbox y Switch se retrasó una semana, del 21 al 29 de julio. El original de PC promedia 80 en Metacritic. — THE KING IS WATCHING para PS5 / XBOX / SWITCH.</description>
     </item>
   </channel>
 </rss>

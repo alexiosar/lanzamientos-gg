@@ -87,9 +87,18 @@ function agendarJuego(id, e) {
 }
 
 // miniatura de carátula para filas de listas (cuadrada, carga diferida)
+// Los pseudo-elementos no se aplican sobre un <img>, así que cuando una carátula
+// falla se cambia el elemento por un <span> y el marcador se ve igual que cuando
+// el juego directamente no tiene imagen cargada.
+function sinCaratula(el, clases) {
+  const s = document.createElement("span");
+  s.className = clases;
+  el.replaceWith(s);
+}
+
 function miniaturaHtml(j) {
   return j.imagen
-    ? `<img class="mini-portada" src="${j.imagen}" alt="" loading="lazy" decoding="async" onerror="this.classList.add('mini-vacia');this.removeAttribute('src')">`
+    ? `<img class="mini-portada" src="${j.imagen}" alt="" loading="lazy" decoding="async" onerror="sinCaratula(this,'mini-portada mini-vacia')">`
     : `<span class="mini-portada mini-vacia"></span>`;
 }
 
@@ -338,7 +347,7 @@ function renderGrilla(juegos) {
       : `${DIAS_ES[f.getDay()]} ${String(f.getDate()).padStart(2, "0")} ${MESES_ES[f.getMonth()].slice(0, 3)}`;
 
     const portada = j.imagen
-      ? `<img class="grilla-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" decoding="async" onerror="this.classList.add('grilla-vacia');this.removeAttribute('src')">`
+      ? `<img class="grilla-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" decoding="async" onerror="sinCaratula(this,'grilla-portada grilla-vacia')">`
       : `<span class="grilla-portada grilla-vacia"></span>`;
 
     const badge = j.metacritic

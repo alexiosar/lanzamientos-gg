@@ -1009,3 +1009,55 @@ a:hover { color: var(--blanco); }
   .buscador { padding: 10px 12px; }
   .nav a { padding: 6px 2px; display: inline-block; }
 }
+
+/* ── SIN CARÁTULA ──
+   Cuando un juego no tiene imagen (o la URL falla), js/main.js aplica estas clases.
+   Antes no estaban definidas y quedaba un rectángulo gris vacío que parecía un error
+   de carga. Ahora muestran la marca del sitio para que se lea como una decisión.
+   Se hace con pseudo-elementos y no con una imagen de fondo para que el color siga
+   al tema (claro y oscuro usan acentos distintos) y no cueste una petición extra. */
+.grilla-vacia,
+.mini-vacia,
+.portada-vacia {
+  background: var(--gris-1);
+  border: 1px solid var(--gris-3);
+  position: relative;
+  display: block;
+}
+
+.grilla-vacia::before,
+.mini-vacia::before,
+.portada-vacia::before {
+  content: "▸";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--acento);
+  opacity: 0.5;
+}
+
+.grilla-vacia::before  { font-size: 2.5rem; }
+.mini-vacia::before    { font-size: 1.125rem; }
+.portada-vacia::before { font-size: 3rem; }
+
+/* En la grilla y en la ficha entra además el texto; en la miniatura de 40px no. */
+.grilla-vacia::after,
+.portada-vacia::after {
+  content: "SIN CARÁTULA";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14%;
+  text-align: center;
+  font-size: 0.5625rem;
+  letter-spacing: 2px;
+  color: var(--gris-5);
+}
+
+.portada-vacia {
+  width: 160px;
+  height: 213px;
+  flex-shrink: 0;
+}

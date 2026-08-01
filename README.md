@@ -378,11 +378,16 @@ y abrir http://localhost:8080
 - Trailers faltantes (2): Dungeon Antiqua y Mamon King (indies sin trailer propio en YouTube).
 - Duraciones (HLTB): quedan 23 ports sin cargar, todos porque HLTB todavía no tiene tiempos
   cronometrados (indies muy chicos). Reintentar en las mensuales con el script.
-- Carátulas faltantes (6): reintentadas el 31/07/2026 sin éxito. No están en Steam ni en la
-  eShop y no van a estarlo: GTA VI y Marvel's Wolverine salen en tiendas propias, Harvest Moon:
-  Echoes of Teradea y Flying Fire Shark no tienen ficha publicada, y de BloodRayne solo existen
-  los tres juegos sueltos, no la colección. Buscar en las tiendas de PlayStation y Xbox o en las
-  webs oficiales cuando se acerquen las fechas.
+- Carátulas faltantes (5): Marvel's Wolverine, Halloween, Harvest Moon: Echoes of Teradea,
+  BloodRayne: Definitive Collection y Flying Fire Shark. No están en Steam ni en la eShop.
+  **La de GTA VI se resolvió el 01/08/2026 buscándola en el sitio oficial de Rockstar**
+  (`rockstargames.com/VI/-/opengraph-image.jpg`): cuando un juego sale en tienda propia y no
+  aparece en Steam, conviene mirar la web oficial de la editora antes de darlo por perdido.
+- Cuando falta la carátula, el sitio muestra un marcador con la marca ▸ y el texto
+  "SIN CARÁTULA" (clases `grilla-vacia`, `mini-vacia` y `portada-vacia` en css/style.css).
+  Está hecho con pseudo-elementos y no con una imagen para que el color siga al tema. Como los
+  pseudo-elementos no funcionan sobre un `<img>`, cuando una URL falla `sinCaratula()` en
+  js/main.js reemplaza el elemento por un `<span>`.
 - Noticias en más juegos (hoy tienen 66 de 274). El paso 12 de la mensual ya bajó los mejor
   puntuados sin noticias hasta 72; de ahí para abajo son indies chicos con poca cobertura.
 - Samson: A Tyndalston Story (estimado septiembre 2026, PS5/Xbox): no está en Steam ni en la
