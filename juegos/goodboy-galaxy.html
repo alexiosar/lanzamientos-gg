@@ -42,8 +42,13 @@
     .noticia-texto     { color: var(--gris-7); font-size: 0.75rem; line-height: 1.8; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
-    .portada-page      { width: 160px; flex-shrink: 0; border: 1px solid var(--gris-3); display: block; }
-    .portada-page.apaisada { width: 280px; max-width: 100%; }
+    /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
+       cargue, o la ficha entera salta hacia abajo cuando llega (eso es CLS). Antes
+       la clase .apaisada cambiaba el ancho recién en el onload, con lo cual el salto
+       estaba garantizado por diseño. Ahora el hueco no cambia nunca y la carátula se
+       acomoda adentro con object-fit: contain, sea vertical u horizontal. */
+    .portada-page      { width: 200px; height: 220px; flex-shrink: 0; border: 1px solid var(--gris-3);
+                         background: var(--gris-1); object-fit: contain; display: block; }
     .video-wrapper     { position: relative; padding-bottom: 56.25%; height: 0; border: 1px solid var(--gris-3); background: var(--negro); }
     .video-wrapper iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
     .volver            { display: inline-block; font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
@@ -92,7 +97,7 @@
       </div>
 
       <div class="juego-hero">
-        <img class="portada-page" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2705890/library_600x900.jpg" alt="Portada de GOODBOY GALAXY" loading="lazy" onerror="this.outerHTML='<span class=&quot;portada-page portada-vacia&quot;></span>'" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add('apaisada')">
+        <img class="portada-page" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2705890/library_600x900.jpg" alt="Portada de GOODBOY GALAXY" loading="lazy" onerror="this.outerHTML='<span class=&quot;portada-page portada-vacia&quot;></span>'">
         <div class="juego-hero-info">
           <h1 class="juego-titulo-page">GOODBOY GALAXY</h1>
           <p class="juego-dev-page">GOODBOY GALAXY LTD.</p>

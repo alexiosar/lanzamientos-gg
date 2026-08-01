@@ -241,8 +241,21 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
   se respeta "reducir movimiento" del sistema (sin parpadeos); botones más grandes en móvil.
 - **Analytics**: Cloudflare Web Analytics activado desde el panel (inyección automática,
   sin cookies). Métricas de visitas en Cloudflare → Analytics & Logs → Web Analytics.
+  Ojo al verificar: el beacon **no aparece con `curl`**, ni siquiera poniendo User-Agent de
+  navegador. Cloudflare lo inyecta sólo para peticiones que reconoce como navegador real, así
+  que para comprobar que está hay que mirar `document.scripts` desde el navegador. Decidido
+  el 01/08/2026 **no** sumar Google Analytics: obligaría a un cartel de cookies (hoy la
+  política de privacidad promete que el sitio no usa cookies propias), pesa cientos de KB, y
+  responde una pregunta —qué hace quien llega— que todavía no es el problema.
 - **Ficha desplegable** al hacer clic en un juego: carátula, datos, Metacritic, descripción,
   tags, trailer en modal y link a la ficha completa.
+- **Carátula en caja fija (200x220)** tanto en la ficha desplegable como en la estática, con
+  `object-fit: contain`. El alto tiene que estar reservado antes de que la imagen cargue: si
+  no, al llegar empuja todo hacia abajo y eso cuenta como CLS, una de las métricas que Google
+  usa como señal. Hasta el 01/08/2026 había además una clase `.apaisada` que cambiaba el ancho
+  de 160 a 280px **en el `onload`**, o sea que el salto estaba garantizado por diseño y sólo
+  se disimulaba con la caché. Se eliminó. No volver a dimensionar carátulas según
+  `naturalWidth` después de cargar.
 - **Ficha individual** (`juegos/juego.html?id=...`): igual que la desplegable más la sección
   **ÚLTIMAS NOVEDADES** (noticias del juego) y el trailer embebido.
 - **Juegos relacionados** al pie de cada ficha: dos bloques de hasta 6 juegos cada uno,

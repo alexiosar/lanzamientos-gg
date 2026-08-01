@@ -273,7 +273,7 @@ function fichaHtml(j) {
   ].filter(Boolean).join("");
 
   const portadaHtml = j.imagen
-    ? `<img class="ficha-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" onerror="this.remove()" onload="if(this.naturalWidth>this.naturalHeight)this.classList.add('apaisada')">`
+    ? `<img class="ficha-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" onerror="sinCaratula(this,'ficha-portada portada-vacia')">`
     : "";
 
   // los estimados muestran el mes anunciado, sin cuenta regresiva ni botón de agendar
@@ -477,7 +477,7 @@ function renderCalendario() {
       const f = parseFecha(dest.fecha);
       destacadoHtml = `
       <a class="destacado" href="juegos/${dest.id}.html">
-        <img class="destacado-portada" src="${dest.imagen}" alt="Portada de ${dest.titulo}" onerror="this.remove()">
+        <img class="destacado-portada" src="${dest.imagen}" alt="Portada de ${dest.titulo}" onerror="sinCaratula(this,'ficha-portada portada-vacia')">
         <div class="destacado-info">
           <span class="destacado-tag">▸ PRÓXIMO DESTACADO</span>
           <span class="destacado-titulo">${dest.titulo}</span>

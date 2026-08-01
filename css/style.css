@@ -399,18 +399,16 @@ a:hover { color: var(--blanco); }
 }
 
 .ficha-portada {
-  width: 120px;
+  width: 200px;
+  height: 220px;
   flex-shrink: 0;
   border: 1px solid var(--gris-3);
+  background: var(--gris-1);
+  object-fit: contain;
   display: block;
 }
 
 /* imagenes horizontales (header de Steam) se muestran mas anchas */
-.ficha-portada.apaisada {
-  width: 230px;
-  max-width: 100%;
-}
-
 .ficha-info {
   flex: 1;
   min-width: 0;
@@ -1057,7 +1055,7 @@ a:hover { color: var(--blanco); }
 }
 
 .portada-vacia {
-  width: 160px;
-  height: 213px;
+  width: 200px;
+  height: 220px;
   flex-shrink: 0;
 }
