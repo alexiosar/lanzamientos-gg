@@ -30,6 +30,18 @@ señal que se espera.
 dominio nuevo, que Google conozca las URLs y todavía no las rastree es el estado normal, no un
 error. Lo que destraba eso son los enlaces externos, no más cambios en el sitio.
 
+## Qué esperar de los cambios del 03/08
+
+Ninguno de los dos hace que Google indexe más páginas de golpe.
+
+- El **`lastmod`** no consigue rastreos nuevos: consigue que los rastreos que ya hace se
+  gasten en las páginas que cambiaron. Si sirve, se ve primero como más páginas *rastreadas*,
+  no como más *indexadas*, y en semanas.
+- **Desbloquear la IA** no toca a Google Search. Su efecto, si aparece, es que el sitio pueda
+  citarse en respuestas de ChatGPT, Claude o los resúmenes de IA de Google. Eso no se mide en
+  Search Console: se comprueba preguntándole a esas herramientas "cuándo sale tal juego" dentro
+  de unos meses y viendo si aparece lanzamientos.lat entre las fuentes.
+
 ## Qué NO hacer
 
 - No mirarlo todas las semanas. Siete días de datos en un sitio de un mes es ruido, y sólo
@@ -46,4 +58,5 @@ error. Lo que destraba eso son los enlaces externos, no más cambios en el sitio
 | 30/07/2026 | Página `/api` publicada y sumada al sitemap |
 | 31/07/2026 | El calendario pasó de 246 a 275 juegos |
 | 01/08/2026 | Julio se archivó: la portada arranca en agosto |
-| 03/08/2026 | `lastmod` en el sitemap: Google puede distinguir qué páginas cambiaron |
+| 03/08/2026 | `lastmod` real por URL en el sitemap: Google puede distinguir qué páginas cambiaron de verdad en vez de tratar las 302 como iguales |
+| 03/08/2026 | **Rastreadores de IA desbloqueados.** Cloudflare inyectaba un `robots.txt` propio que bloqueaba GPTBot, ClaudeBot, Google-Extended, CCBot y otros. Se desactivó *Managed robots.txt* en Security → Settings → AI Crawl Control. No afectaba la indexación normal de Google, pero impedía que el sitio fuera fuente en respuestas de IA, incluidas las de Google |
