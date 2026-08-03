@@ -34,6 +34,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── difusion/                   Material de difusión (PR a directorios, textos). No es del sitio.
 ├── scripts/generar-sitemap.py  Regenera sitemap.xml a partir de juegos.js
 ├── sitemap.xml                 Mapa del sitio para Google (generado, no editar a mano)
+├── datos/lastmod.json          Huella y fecha de cambio de cada URL. **Commitearlo**: si se
+│                               pierde, todas las fechas del sitemap se resetean al día que
+│                               se regenere y el sitemap miente hasta que el contenido cambie.
 ├── robots.txt                  Permite indexación y declara el sitemap
 ├── 404.html                    Página de error propia (sugiere juegos parecidos al slug).
 │                               Requiere "not_found_handling": "404-page" en wrangler.jsonc:
@@ -294,6 +297,14 @@ Sin redes sociales, la estrategia es que otros encuentren y enlacen el sitio:
 
 - Meta de verificación de Google Search Console en el `<head>` de `index.html`.
 - `sitemap.xml` con la portada + una URL por juego (regenerar con el script, ver arriba).
+- **`lastmod` por URL** (desde el 03/08/2026): es la señal con la que Google decide a qué
+  páginas vale la pena volver. Sin ese dato trata las 302 URLs como igual de estáticas y no se
+  entera de que una ficha se actualizó con una noticia nueva. **No se pone la fecha de hoy en
+  todo**: eso diría que las 292 fichas cambian a diario, que es falso y le hace perder la
+  confianza al dato. `generar-sitemap.py` guarda una huella del contenido de cada URL en
+  `datos/lastmod.json` y sólo mueve la fecha cuando esa huella cambia de verdad. La portada y
+  las páginas de plataforma dependen de todo el calendario, así que cualquier juego nuevo o
+  corregido las marca como modificadas; las fichas, sólo si cambió ese juego.
 - `robots.txt` que permite indexar todo y apunta al sitemap.
 - **Open Graph**: al compartir la portada aparece la tarjeta con `og-image.png`; al
   compartir una ficha (`/juegos/{id}.html`) aparece **la carátula y datos de ese juego**

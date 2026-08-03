@@ -1,14 +1,30 @@
 #!/usr/bin/env python3
 """Genera sitemap.xml a partir de los juegos cargados en datos/juegos.js.
 
+Incluye `lastmod` por URL, que es la señal con la que Google decide a qué páginas
+vale la pena volver. Sin ese dato trata todas las URLs como igual de estáticas y no
+se entera de que la ficha de un juego se actualizó ayer con una noticia nueva.
+
+Para que `lastmod` sea honesto no alcanza con poner la fecha de hoy en todo: eso le
+diría a Google que las 292 fichas cambian a diario, que es falso y le hace perder la
+confianza en el dato. En cambio se guarda una huella del contenido de cada URL en
+`datos/lastmod.json` y la fecha sólo se mueve cuando esa huella cambia de verdad.
+
+Ese archivo hay que commitearlo: si se pierde, todas las fechas se resetean al día
+que se regenere y el sitemap miente durante un tiempo.
+
 Uso (desde la raíz del proyecto):
     python3 scripts/generar-sitemap.py
 """
+import datetime
+import hashlib
+import json
 import re
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
+CACHE = RAIZ / "datos" / "lastmod.json"
 
 src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
 ids = re.findall(r'id: "([^"]+)"', src)
@@ -16,34 +32,55 @@ ids = re.findall(r'id: "([^"]+)"', src)
 if not ids:
     raise SystemExit("ERROR: no se encontró ningún id en datos/juegos.js — no se tocó el sitemap.")
 
-urls = [f"""  <url>
-    <loc>{DOMINIO}/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>"""]
+hoy = datetime.date.today().isoformat()
+previo = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
+actual = {}
+cambiadas = 0
 
-# páginas de plataforma (SEO: "lanzamientos ps5", etc.)
+
+def lastmod(clave, contenido):
+    """Devuelve la fecha de la última vez que ESTE contenido cambió de verdad."""
+    global cambiadas
+    huella = hashlib.sha1(contenido.encode("utf-8")).hexdigest()[:16]
+    anterior = previo.get(clave)
+    if anterior and anterior.get("hash") == huella:
+        fecha = anterior["lastmod"]
+    else:
+        fecha = hoy
+        if anterior:
+            cambiadas += 1
+    actual[clave] = {"hash": huella, "lastmod": fecha}
+    return fecha
+
+
+def url(ruta, contenido, changefreq, priority):
+    return f"""  <url>
+    <loc>{DOMINIO}{ruta}</loc>
+    <lastmod>{lastmod(ruta, contenido)}</lastmod>
+    <changefreq>{changefreq}</changefreq>
+    <priority>{priority}</priority>
+  </url>"""
+
+
+# Bloque de cada juego dentro de juegos.js: si cambia algo del juego, cambia la huella
+bloques = dict(re.findall(r'\n  \{\n    id: "([^"]+)",(.*?)\n  \},?', src, re.S))
+
+urls = []
+
+# La portada y las páginas de plataforma dependen de TODO el calendario: cualquier
+# juego nuevo o corregido las cambia, así que su huella es la del archivo entero.
+urls.append(url("/", src, "daily", "1.0"))
 for pagina in ["ps5", "ps4", "xbox", "switch-2", "switch"]:
-    urls.append(f"""  <url>
-    <loc>{DOMINIO}/{pagina}</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>""")
+    urls.append(url(f"/{pagina}", src, "daily", "0.7"))
 
-# páginas estáticas
+# Páginas estáticas: la huella es su propio HTML
 for pagina in ["acerca", "api", "privacidad", "terminos", "archivo"]:
-    urls.append(f"""  <url>
-    <loc>{DOMINIO}/{pagina}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>""")
+    archivo = RAIZ / f"{pagina}.html"
+    contenido = archivo.read_text(encoding="utf-8") if archivo.exists() else pagina
+    urls.append(url(f"/{pagina}", contenido, "monthly", "0.3"))
 
 for i in ids:
-    urls.append(f"""  <url>
-    <loc>{DOMINIO}/juegos/{i}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>""")
+    urls.append(url(f"/juegos/{i}", bloques.get(i, i), "weekly", "0.8"))
 
 xml = (
     '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -53,4 +90,9 @@ xml = (
 )
 
 (RAIZ / "sitemap.xml").write_text(xml, encoding="utf-8")
+CACHE.write_text(json.dumps(actual, indent=1, sort_keys=True), encoding="utf-8")
+
+nuevas = len(actual) - len([k for k in actual if k in previo])
 print(f"sitemap.xml actualizado: {len(ids)} juegos + portada = {len(urls)} URLs")
+print(f"  lastmod: {cambiadas} URLs cambiaron hoy, {nuevas} nuevas, "
+      f"{len(actual) - cambiadas - nuevas} sin cambios")

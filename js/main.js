@@ -222,8 +222,15 @@ function renderRanking(juegos) {
   // Solo juegos ya lanzados: algunos ports traen el puntaje del original y sin este
   // filtro encabezarían el ranking sin haber salido todavía (el puntaje sí se muestra
   // en la ficha del juego, que es donde tiene sentido).
+  // Un juego que sale en dos tandas ocupa dos entradas (ver el README, "Un juego que
+  // sale en varias fechas"), y las dos llevan el mismo puntaje. En el calendario eso
+  // está bien, pero en un ranking el mismo juego no puede figurar dos veces: se deja
+  // sólo la entrada más vieja, que es la del lanzamiento original.
+  const vistos = new Set();
   const conPuntaje = juegos
     .filter(j => j.metacritic && j.fecha <= hoy && enPeriodo(j))
+    .sort((a, b) => a.fecha.localeCompare(b.fecha))
+    .filter(j => !vistos.has(j.titulo) && vistos.add(j.titulo))
     .sort((a, b) => b.metacritic - a.metacritic);
 
   const selectorHtml = `

@@ -149,7 +149,15 @@ otro lugar que una que postea veinte veces en dos semanas y desaparece.
 
 ---
 
-## 6. Registro
+## 6. Métricas
+
+Los números de Search Console y Cloudflare se anotan una vez por mes en
+[metricas.md](metricas.md), con la explicación de en qué orden mejoran las cosas y qué no
+hay que hacer. Resumen: no mirarlo cada semana y no medir el éxito por los clics todavía.
+
+---
+
+## 7. Registro
 
 Anotar acá lo que se va haciendo, para no repetir trabajo ni perder el rastro.
 

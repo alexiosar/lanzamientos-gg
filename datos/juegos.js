@@ -1877,6 +1877,13 @@ noticias: [
     trailer: "https://youtube.com/embed/3dw0ePZ8GLc",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-03",
+        titulo: "SALE MAÑANA Y ENTRA EN GAME PASS EL PRIMER DÍA",
+        texto: "Es el proyecto original más ambicioso de Game Freak fuera de Pokémon: un RPG de acción en tercera persona hecho en Unreal Engine 5 y dirigido por Kota Furushima. Transcurre en el Japón del año 4026 y seguís a Emma, una selladora, y a su perro Koo por una tierra arrasada por la corrupción. Famitsu le dio 35 de 40. Entra en Game Pass Ultimate y PC Game Pass desde el primer día."
+      }
+    ],
     gamepass: true,
     psplus: false,
     nuevo: true
@@ -4126,6 +4133,13 @@ noticias: [
     trailer: "https://youtube.com/embed/2XbxPsWFyU8",
     metacritic: null,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxivonline/1x1_FinalFantasyXIVOnline_image500w.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-03",
+        titulo: "SALE MAÑANA EN SWITCH 2 Y NO NECESITA NINTENDO SWITCH ONLINE",
+        texto: "La prueba gratuita incluye A Realm Reborn y las expansiones Heavensward, Stormblood y Shadowbringers: entre trescientas y cuatrocientas horas sin pagar nada. Arranca con un mes de acceso anticipado para asegurar la estabilidad de los servidores y durante ese período tampoco hace falta la suscripción mensual. Tampoco se necesita Nintendo Switch Online. Ojo: si ya jugás en otra plataforma, igual tenés que comprar la versión de Switch 2 y pagar una suscripción aparte."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true

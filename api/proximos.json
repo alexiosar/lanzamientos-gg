@@ -2,11 +2,11 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-01T14:30:56+00:00",
+ "generado": "2026-08-03T14:18:14+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-01",
- "hasta": "2026-08-31",
+ "desde": "2026-08-03",
+ "hasta": "2026-09-02",
  "total": 51,
  "juegos": [
   {
@@ -29,7 +29,14 @@
    "gamepass": true,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/beast-of-reincarnation"
+   "url": "https://lanzamientos.lat/juegos/beast-of-reincarnation",
+   "noticias": [
+    {
+     "fecha": "2026-08-03",
+     "titulo": "SALE MAÑANA Y ENTRA EN GAME PASS EL PRIMER DÍA",
+     "texto": "Es el proyecto original más ambicioso de Game Freak fuera de Pokémon: un RPG de acción en tercera persona hecho en Unreal Engine 5 y dirigido por Kota Furushima. Transcurre en el Japón del año 4026 y seguís a Emma, una selladora, y a su perro Koo por una tierra arrasada por la corrupción. Famitsu le dio 35 de 40. Entra en Game Pass Ultimate y PC Game Pass desde el primer día."
+    }
+   ]
   },
   {
    "id": "big-walk",
@@ -103,7 +110,14 @@
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/final-fantasy-xiv-online"
+   "url": "https://lanzamientos.lat/juegos/final-fantasy-xiv-online",
+   "noticias": [
+    {
+     "fecha": "2026-08-03",
+     "titulo": "SALE MAÑANA EN SWITCH 2 Y NO NECESITA NINTENDO SWITCH ONLINE",
+     "texto": "La prueba gratuita incluye A Realm Reborn y las expansiones Heavensward, Stormblood y Shadowbringers: entre trescientas y cuatrocientas horas sin pagar nada. Arranca con un mes de acceso anticipado para asegurar la estabilidad de los servidores y durante ese período tampoco hace falta la suscripción mensual. Tampoco se necesita Nintendo Switch Online. Ojo: si ya jugás en otra plataforma, igual tenés que comprar la versión de Switch 2 y pagar una suscripción aparte."
+    }
+   ]
   },
   {
    "id": "parkasaurus",
