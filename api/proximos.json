@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-03T14:18:14+00:00",
+ "generado": "2026-08-04T12:51:14+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-03",
- "hasta": "2026-09-02",
- "total": 51,
+ "desde": "2026-08-04",
+ "hasta": "2026-09-03",
+ "total": 61,
  "juegos": [
   {
    "id": "beast-of-reincarnation",
@@ -24,13 +24,18 @@
    "desarrollador": "GAME FREAK INC.",
    "descripcion": "En un Japón posapocalíptico, la última esperanza de la humanidad está en manos de Emma y Koo, su compañero peludo. Vive una intensa aventura en «Beast of Reincarnation», un RPG de acción con combates técnicos y exigentes, protagonizado por una chica y su perro. ¿Qué habrá al final del camino? El primer gran RPG de acción de Game Freak, los creadores de Pokémon.",
    "trailer": "https://youtube.com/embed/3dw0ePZ8GLc",
-   "metacritic": null,
+   "metacritic": 73,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
    "gamepass": true,
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/beast-of-reincarnation",
    "noticias": [
+    {
+     "fecha": "2026-08-04",
+     "titulo": "DEBUTA CON 73 Y LA CRÍTICA SE PARTE AL MEDIO",
+     "texto": "Cierra con 73 en Metacritic sobre más de cincuenta análisis, y el reparto es llamativo: la mitad positivos y la otra mitad mixtos, sin ninguno negativo. Vice le puso 9,5 sobre 10 y dijo que el combate no solo es innovador sino divertidísimo; Eurogamer y VGC le pusieron 6. Coinciden en elogiar el combate a base de parries y el vínculo entre Emma y Koo, y en criticar el ritmo del relato, la repetición y las caídas de imágenes por segundo."
+    },
     {
      "fecha": "2026-08-03",
      "titulo": "SALE MAÑANA Y ENTRA EN GAME PASS EL PRIMER DÍA",
@@ -54,12 +59,19 @@
    "desarrollador": "HOUSE HOUSE",
    "descripcion": "Pasa el rato con tus amigos y perdeos en un mundo enorme. Una caminata cooperativa en línea de los creadores de Untitled Goose Game. De los creadores de Untitled Goose Game.",
    "trailer": "https://youtube.com/embed/xfzapBQssa0",
-   "metacritic": null,
+   "metacritic": 93,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/big-walk"
+   "url": "https://lanzamientos.lat/juegos/big-walk",
+   "noticias": [
+    {
+     "fecha": "2026-08-04",
+     "titulo": "93 EN METACRITIC: EL MEJOR PUNTUADO DE 2026",
+     "texto": "Debuta con 93 y se convierte en el juego mejor valorado de todo 2026, por encima de Forza Horizon 6, Resident Evil Requiem y Mina the Hollower. Es lo nuevo de House House, el estudio de Untitled Goose Game: un juego de caminar y charlar en primera persona para grupos de dos a doce personas. Los desarrolladores recomiendan jugarlo con el chat de voz por proximidad, y hay puzles diseñados para cuando el grupo se separa y deja de escucharse."
+    }
+   ]
   },
   {
    "id": "kynseed",
@@ -82,12 +94,19 @@
    "desarrollador": "PIXELCOUNT STUDIOS",
    "descripcion": "Viví una vida entera de aventuras en un hermoso mundo de creatividad e intriga. Un sandbox de simulación de vida creado por ex desarrolladores de Fable, donde tu personaje envejece, forma familia y su legado continúa con sus descendientes.",
    "trailer": "https://youtube.com/embed/H-VIZ65gxKU",
-   "metacritic": null,
+   "metacritic": 89,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/kynseed"
+   "url": "https://lanzamientos.lat/juegos/kynseed",
+   "noticias": [
+    {
+     "fecha": "2026-08-04",
+     "titulo": "DEBUTA EN CONSOLAS CON 89",
+     "texto": "El original de PC de 2022 promedia 89 en Metacritic y ahora llega a las cinco consolas con los controles y la interfaz rehechos. Es un simulador de vida con una vuelta poco común: cuando tu personaje envejece y muere, seguís con sus hijos, y las decisiones arrastran consecuencias a lo largo de varias generaciones."
+    }
+   ]
   },
   {
    "id": "final-fantasy-xiv-online",
@@ -105,13 +124,18 @@
    "desarrollador": "SQUARE ENIX",
    "descripcion": "El MMORPG de Square Enix llega a Switch 2. La prueba gratuita incluye cuatro expansiones galardonadas: sumate a Eorzea, elegí entre decenas de clases y viví una de las historias más aclamadas del género.",
    "trailer": "https://youtube.com/embed/2XbxPsWFyU8",
-   "metacritic": null,
+   "metacritic": 86,
    "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxivonline/1x1_FinalFantasyXIVOnline_image500w.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/final-fantasy-xiv-online",
    "noticias": [
+    {
+     "fecha": "2026-08-04",
+     "titulo": "YA DISPONIBLE EN SWITCH 2",
+     "texto": "Ya se puede jugar en Switch 2. El puntaje de referencia es el 86 de A Realm Reborn, la reconstrucción de 2013 que reemplazó al lanzamiento original de 2010, aquel que fue un fracaso tan grande que Square Enix terminó cerrando el juego para rehacerlo desde cero."
+    },
     {
      "fecha": "2026-08-03",
      "titulo": "SALE MAÑANA EN SWITCH 2 Y NO NECESITA NINTENDO SWITCH ONLINE",
@@ -1248,6 +1272,240 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/lady-death-demonicron"
+  },
+  {
+   "id": "the-blood-of-dawnwalker",
+   "titulo": "THE BLOOD OF DAWNWALKER",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "ACCION",
+    "MUNDO ABIERTO",
+    "VAMPIROS"
+   ],
+   "desarrollador": "REBEL WOLVES",
+   "descripcion": "The Blood of Dawnwalker es un RPG de acción y fantasía oscura en mundo abierto ambientado en la Europa del siglo XIV. Juegas como Coen, humano de día y vampiro de noche, y luchas por salvar a tu familia en una historia moldeada por tus decisiones.",
+   "trailer": "https://youtube.com/embed/te73UInH8H8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/a7062f3b59d491c2678e3fd7ce2672858e480641/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/the-blood-of-dawnwalker"
+  },
+  {
+   "id": "orbitals",
+   "titulo": "ORBITALS",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA"
+   ],
+   "desarrollador": "NINTENDO",
+   "descripcion": "Nuevo exclusivo de Switch 2 envuelto en misterio: \"We are one!\" es todo lo que Nintendo adelantó por ahora. Actualizaremos la ficha en cuanto haya detalles oficiales.",
+   "trailer": "https://youtube.com/embed/bvMDXtgz1bo",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/orbitals/1x1_Orbitals_new_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/orbitals"
+  },
+  {
+   "id": "marsupilami-2-salsa-palombia",
+   "titulo": "MARSUPILAMI 2 - SALSA PALOMBIA",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA"
+   ],
+   "desarrollador": "OCELLUS STUDIO",
+   "descripcion": "¡Ayuda a los Marsupilamis a salvar Palombia de la Reina Momia y sus secuaces en este energético juego de plataformas! Una extraña melodía se ha extendido por Palombia... ¡y los animales se han puesto a bailar hasta dejarlo todo patas arriba!",
+   "trailer": "https://youtube.com/embed/G8SvJzrpSG0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3650170/a19c8f25ba08f13fc2088f6106365189fb0158e8/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/marsupilami-2-salsa-palombia"
+  },
+  {
+   "id": "wo-long-fallen-dynasty",
+   "titulo": "WO LONG: FALLEN DYNASTY",
+   "fecha": "2026-09-03",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2023 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 25 h (historia) · 47 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG"
+   ],
+   "desarrollador": "KOEI TECMO GAMES CO., LTD.",
+   "descripcion": "Nuevo RPG de acción de fantasía oscura en los Tres Reinos, de Team NINJA, creadores de Nioh.",
+   "trailer": "https://youtube.com/embed/SWRcZN4jMW8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/wo-long-fallen-dynasty"
+  },
+  {
+   "id": "bioeden",
+   "titulo": "BIOEDEN",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA",
+    "RELAX"
+   ],
+   "desarrollador": "BROKEN ARMS GAMES",
+   "descripcion": "Un juego de gestión solarpunk en el que sos el custodio de un planeta que espera ser sanado. Diseñás el bioma justo para cada especie, encadenás ecosistemas que se sostienen solos y usás ese equilibrio para devolver a la vida a animales extinguidos, un rincón del mundo por vez.",
+   "trailer": "https://youtube.com/embed/NhM61qhnIEM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265840/81615550cc55212146a1ee944f49b9c8eaf354b8/header_alt_assets_2.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/bioeden"
+  },
+  {
+   "id": "star-racer",
+   "titulo": "STAR RACER",
+   "fecha": "2026-09-03",
+   "relanzamiento": "En PC desde julio de 2025 — esta fecha corresponde a la edición de Switch",
+   "duracion": "≈ 2 h (historia)",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "ACCION",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "WHATNOT GAMES",
+   "descripcion": "Un combat racer de estética retro que mezcla velocidad antigravedad y armamento pesado. Circuitos llenos de saltos, atajos y trampas, carreras especiales con reglas disparatadas, multijugador local y un editor para armar tus propias pistas. La banda sonora es de Grant Kirkhope.",
+   "trailer": "https://youtube.com/embed/_p-3-7qNgkU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2626120/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/star-racer"
+  },
+  {
+   "id": "hashire-hebereke-ex",
+   "titulo": "HASHIRE HEBEREKE: EX",
+   "fecha": "2026-09-03",
+   "relanzamiento": "Remake del Hashire Hebereke de Super Famicom (1994)",
+   "duracion": "≈ 1,2 h (historia)",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "CRT GAMES",
+   "descripcion": "Remake del clásico de Sunsoft para Super Famicom. Elegís entre un elenco de personajes tan raros como adorables y corrés por circuitos repletos de ítems y obstáculos, con el caos del multijugador intacto y una capa gráfica puesta al día.",
+   "trailer": "https://youtube.com/embed/rVcuhl8Tuv4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948110/4cfdcb8418f4df2fe83bf8986ea4cb5284886826/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/hashire-hebereke-ex"
+  },
+  {
+   "id": "speedrunners-2-king-of-speed",
+   "titulo": "SPEEDRUNNERS 2: KING OF SPEED",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "PLATAFORMA",
+    "MULTIJUGADOR",
+    "ARCADE"
+   ],
+   "desarrollador": "FAIR PLAY LABS",
+   "descripcion": "Vuelve el juego de plataformas competitivo. Corrés, saltás y dejás atrás a tus rivales en carreras despiadadas de hasta ocho jugadores, en línea o en el mismo sillón, con gancho, objetos y mapas diseñados al detalle.",
+   "trailer": "https://youtube.com/embed/YzXr0kNUN_Q",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3183760/6c227ae4c5d0c9d44c38b4cac5915682be0b1ddb/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/speedrunners-2-king-of-speed"
+  },
+  {
+   "id": "exstetra",
+   "titulo": "EXSTETRA",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "ANIME"
+   ],
+   "desarrollador": "FURYU",
+   "descripcion": "La única forma de salvar el mundo es un beso. Un RPG de fantasía ambientado en Amazia, un Tokio fusionado con otro mundo y condenado a un destino fatal, donde te convertís en el salvador elegido, un Prisma, para enfrentar la destrucción.",
+   "trailer": "https://youtube.com/embed/wk7xCAkxGI4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251710/541a9fb52daf490826151e9c463448a2a7365e62/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/exstetra"
+  },
+  {
+   "id": "avatar-legends-the-fighting-game-xbox",
+   "titulo": "AVATAR LEGENDS: THE FIGHTING GAME",
+   "fecha": "2026-09-03",
+   "relanzamiento": "En PS5, Switch 2, Switch y PC desde el 23 de julio de 2026 — esta fecha corresponde a la edición de Xbox, que se retrasó",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "LUCHA",
+    "ACCION",
+    "ANIME"
+   ],
+   "desarrollador": "GAMEPLAY GROUP INTERNATIONAL",
+   "descripcion": "La edición de Xbox del juego de pelea de Avatar llega mes y medio después que el resto, con soporte de Xbox Play Anywhere: una sola compra vale para consola y PC, con el progreso compartido. Mantiene el juego cruzado con el resto de las plataformas y el mismo plantel de doce personajes.",
+   "trailer": "https://youtube.com/embed/qC0WcvBOt_c",
+   "metacritic": 81,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox"
   }
  ]
 }

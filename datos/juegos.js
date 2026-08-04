@@ -1875,9 +1875,14 @@ noticias: [
     desarrollador: "GAME FREAK INC.",
     descripcion: "En un Japón posapocalíptico, la última esperanza de la humanidad está en manos de Emma y Koo, su compañero peludo. Vive una intensa aventura en «Beast of Reincarnation», un RPG de acción con combates técnicos y exigentes, protagonizado por una chica y su perro. ¿Qué habrá al final del camino? El primer gran RPG de acción de Game Freak, los creadores de Pokémon.",
     trailer: "https://youtube.com/embed/3dw0ePZ8GLc",
-    metacritic: null,
+    metacritic: 73,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
     noticias: [
+      {
+        fecha: "2026-08-04",
+        titulo: "DEBUTA CON 73 Y LA CRÍTICA SE PARTE AL MEDIO",
+        texto: "Cierra con 73 en Metacritic sobre más de cincuenta análisis, y el reparto es llamativo: la mitad positivos y la otra mitad mixtos, sin ninguno negativo. Vice le puso 9,5 sobre 10 y dijo que el combate no solo es innovador sino divertidísimo; Eurogamer y VGC le pusieron 6. Coinciden en elogiar el combate a base de parries y el vínculo entre Emma y Koo, y en criticar el ritmo del relato, la repetición y las caídas de imágenes por segundo."
+      },
       {
         fecha: "2026-08-03",
         titulo: "SALE MAÑANA Y ENTRA EN GAME PASS EL PRIMER DÍA",
@@ -1897,8 +1902,15 @@ noticias: [
     desarrollador: "HOUSE HOUSE",
     descripcion: "Pasa el rato con tus amigos y perdeos en un mundo enorme. Una caminata cooperativa en línea de los creadores de Untitled Goose Game. De los creadores de Untitled Goose Game.",
     trailer: "https://youtube.com/embed/xfzapBQssa0",
-    metacritic: null,
+    metacritic: 93,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-04",
+        titulo: "93 EN METACRITIC: EL MEJOR PUNTUADO DE 2026",
+        texto: "Debuta con 93 y se convierte en el juego mejor valorado de todo 2026, por encima de Forza Horizon 6, Resident Evil Requiem y Mina the Hollower. Es lo nuevo de House House, el estudio de Untitled Goose Game: un juego de caminar y charlar en primera persona para grupos de dos a doce personas. Los desarrolladores recomiendan jugarlo con el chat de voz por proximidad, y hay puzles diseñados para cuando el grupo se separa y deja de escucharse."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -1914,8 +1926,15 @@ noticias: [
     desarrollador: "PIXELCOUNT STUDIOS",
     descripcion: "Viví una vida entera de aventuras en un hermoso mundo de creatividad e intriga. Un sandbox de simulación de vida creado por ex desarrolladores de Fable, donde tu personaje envejece, forma familia y su legado continúa con sus descendientes.",
     trailer: "https://youtube.com/embed/H-VIZ65gxKU",
-    metacritic: null,
+    metacritic: 89,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-04",
+        titulo: "DEBUTA EN CONSOLAS CON 89",
+        texto: "El original de PC de 2022 promedia 89 en Metacritic y ahora llega a las cinco consolas con los controles y la interfaz rehechos. Es un simulador de vida con una vuelta poco común: cuando tu personaje envejece y muere, seguís con sus hijos, y las decisiones arrastran consecuencias a lo largo de varias generaciones."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
@@ -4131,9 +4150,14 @@ noticias: [
     desarrollador: "SQUARE ENIX",
     descripcion: "El MMORPG de Square Enix llega a Switch 2. La prueba gratuita incluye cuatro expansiones galardonadas: sumate a Eorzea, elegí entre decenas de clases y viví una de las historias más aclamadas del género.",
     trailer: "https://youtube.com/embed/2XbxPsWFyU8",
-    metacritic: null,
+    metacritic: 86,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxivonline/1x1_FinalFantasyXIVOnline_image500w.jpg",
     noticias: [
+      {
+        fecha: "2026-08-04",
+        titulo: "YA DISPONIBLE EN SWITCH 2",
+        texto: "Ya se puede jugar en Switch 2. El puntaje de referencia es el 86 de A Realm Reborn, la reconstrucción de 2013 que reemplazó al lanzamiento original de 2010, aquel que fue un fracaso tan grande que Square Enix terminó cerrando el juego para rehacerlo desde cero."
+      },
       {
         fecha: "2026-08-03",
         titulo: "SALE MAÑANA EN SWITCH 2 Y NO NECESITA NINTENDO SWITCH ONLINE",

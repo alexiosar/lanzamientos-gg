@@ -55,6 +55,7 @@ def main():
             "sin_duracion": "duracion:" not in cuerpo,
             "sin_noticias": "noticias:" not in cuerpo,
             "relanzamiento": "relanzamiento:" in cuerpo,
+            "rel_texto": (re.search(r'relanzamiento: "([^"]*)"', cuerpo) or [None, ""])[1],
         })
 
     print(f"═══ MANTENIMIENTO {hoy} ═══  ({len(juegos)} juegos en el calendario)\n")
@@ -63,16 +64,36 @@ def main():
     pendientes = [j["id"] for j in juegos if j["metacritic"] == "null" and j["fecha"] <= hoy]
     print(f"── Metacritic: {len(pendientes)} lanzados sin puntaje ──")
     aplicados = {}
+    por_id = {j["id"]: j for j in juegos}
+    sospechosos = []
     for gid in pendientes:
         try:
             html = get(f"https://www.metacritic.com/game/{gid}/")
             rv = re.search(r'"ratingValue":(\d+)', html)
-            if rv:
-                aplicados[gid] = int(rv.group(1))
-                print(f"  ★ NUEVO PUNTAJE {gid}: {rv.group(1)}")
+            if not rv:
+                continue
+            # El slug puede coincidir con OTRO juego de la misma saga: el 04/08/2026
+            # "final-fantasy-xiv-online" devolvió 49, que es el lanzamiento fallido de
+            # 2010, no A Realm Reborn (86), que es lo que llega a Switch 2. Se compara
+            # el año de Metacritic contra el que conocemos para detectarlo.
+            fecha_mc = re.search(r'"datePublished":"(\d{4})', html)
+            anio_mc = fecha_mc.group(1) if fecha_mc else "?"
+            j = por_id[gid]
+            # años válidos: el del lanzamiento + los que mencione el campo relanzamiento
+            anios_esperados = {j["fecha"][:4]} | set(
+                re.findall(r"\b((?:19|20)\d{2})\b", j["rel_texto"]))
+            ok = anio_mc in anios_esperados or anio_mc == "?"
+            aplicados[gid] = int(rv.group(1))
+            marca = "" if ok else f"   ⚠ REVISAR: Metacritic dice {anio_mc}, esperábamos {sorted(anios_esperados)}"
+            if not ok:
+                sospechosos.append(gid)
+            print(f"  ★ NUEVO PUNTAJE {gid}: {rv.group(1)}  (Metacritic {anio_mc}){marca}")
         except Exception:
             pass  # 404 = la página no existe con ese slug; queda para revisión manual
         time.sleep(0.4)
+    if sospechosos:
+        print(f"\n  ⚠ {len(sospechosos)} puntaje(s) con año que no cuadra: {', '.join(sospechosos)}")
+        print("    Verificar a mano antes del commit — puede ser otro juego de la misma saga.")
     if not aplicados:
         print("  (sin puntajes nuevos)")
 
