@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "fea1fdea99ab44e0",
+  "hash": "85c7537369cad468",
   "lastmod": "2026-08-04"
  },
  "/acerca": {
@@ -187,6 +187,10 @@
   "hash": "f26a413865f404c8",
   "lastmod": "2026-07-29"
  },
+ "/juegos/cloverpit": {
+  "hash": "9fe1a849581fc9f6",
+  "lastmod": "2026-08-04"
+ },
  "/juegos/console-archives-hercules-no-eikou-ii": {
   "hash": "da0324189368919a",
   "lastmod": "2026-07-29"
@@ -292,8 +296,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/dungeon-antiqua": {
-  "hash": "c9c00facde12c30a",
-  "lastmod": "2026-07-29"
+  "hash": "495e3a779cfc4c3c",
+  "lastmod": "2026-08-04"
  },
  "/juegos/duskfade": {
   "hash": "7d6a800a503eb59e",
@@ -596,12 +600,12 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/mai-child-of-ages": {
-  "hash": "9b8433fd57bf3212",
-  "lastmod": "2026-07-29"
+  "hash": "6bb1953d7acff8dc",
+  "lastmod": "2026-08-04"
  },
  "/juegos/mamon-king": {
-  "hash": "c47ee1e4395bdcfa",
-  "lastmod": "2026-07-29"
+  "hash": "1d79572cd86748ba",
+  "lastmod": "2026-08-04"
  },
  "/juegos/mariachi-legends": {
   "hash": "a8aba63b1dfafcd6",
@@ -1184,19 +1188,19 @@
   "lastmod": "2026-07-29"
  },
  "/ps4": {
-  "hash": "fea1fdea99ab44e0",
+  "hash": "85c7537369cad468",
   "lastmod": "2026-08-04"
  },
  "/ps5": {
-  "hash": "fea1fdea99ab44e0",
+  "hash": "85c7537369cad468",
   "lastmod": "2026-08-04"
  },
  "/switch": {
-  "hash": "fea1fdea99ab44e0",
+  "hash": "85c7537369cad468",
   "lastmod": "2026-08-04"
  },
  "/switch-2": {
-  "hash": "fea1fdea99ab44e0",
+  "hash": "85c7537369cad468",
   "lastmod": "2026-08-04"
  },
  "/terminos": {
@@ -1204,7 +1208,7 @@
   "lastmod": "2026-07-29"
  },
  "/xbox": {
-  "hash": "fea1fdea99ab44e0",
+  "hash": "85c7537369cad468",
   "lastmod": "2026-08-04"
  }
 }

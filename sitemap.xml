@@ -647,7 +647,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/dungeon-antiqua</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1508,7 +1508,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/mamon-king</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1697,7 +1697,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/mai-child-of-ages</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2111,6 +2111,13 @@
   <url>
     <loc>https://lanzamientos.lat/juegos/paw-patrol-dino-world-switch-2</loc>
     <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/cloverpit</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-04T12:51:14+00:00",
+ "generado": "2026-08-04T13:04:50+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-04",
  "hasta": "2026-09-03",
- "total": 61,
+ "total": 62,
  "juegos": [
   {
    "id": "beast-of-reincarnation",
@@ -669,6 +669,33 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/creepshow"
+  },
+  {
+   "id": "cloverpit",
+   "titulo": "CLOVERPIT",
+   "fecha": "2026-08-13",
+   "relanzamiento": "En PC desde fines de 2025 y en Xbox desde 2026 — esta fecha corresponde a las ediciones de PS5, PS4, Switch 2 y Switch",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "ROGUELIKE",
+    "HORROR",
+    "ARCADE",
+    "INDIE"
+   ],
+   "desarrollador": "PANIK ARCADE",
+   "descripcion": "Un roguelite de máquinas tragamonedas de pesadilla donde apostás tu vida dentro de un simulador de deuda interminable. Las ediciones de consola suman control por ratón en Switch 2 y uso de la barra luminosa del DualSense, y traen todas las actualizaciones publicadas hasta ahora más el contenido Unholy Fusion.",
+   "trailer": "https://youtube.com/embed/htmbP1Qc20Y",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/cloverpit"
   },
   {
    "id": "mafia-the-old-country-man-of-honor",

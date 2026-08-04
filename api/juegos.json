@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-04T12:51:14+00:00",
+ "generado": "2026-08-04T13:04:50+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 291,
+ "total": 292,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -2349,7 +2349,7 @@
    ],
    "desarrollador": "SHIROMOFU FACTORY",
    "descripcion": "Un RPG sencillo inspirado en los Wizardry y Final Fantasy de los años 80 y 90: mazmorras, combate por turnos y estética retro para los nostálgicos del género clásico.",
-   "trailer": null,
+   "trailer": "https://youtube.com/embed/jrM2SHAjvwA",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198540/library_600x900.jpg",
    "gamepass": false,
@@ -5356,7 +5356,7 @@
    ],
    "desarrollador": "LITMUS CO., LTD.",
    "descripcion": "Mamon King es un simulador de crianza de monstruos en el que tu objetivo es criar, entrenar y combatir con criaturas para convertirte en el rey de los demonios.",
-   "trailer": null,
+   "trailer": "https://youtube.com/embed/C5YjMI8--uw",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030290/c056fd9a3f833519ceee832f44db6de1ece49693/header.jpg",
    "gamepass": false,
@@ -6011,6 +6011,7 @@
    "fecha": "2026-08-31",
    "estimado": true,
    "fechaEstimada": "AGOSTO 2026",
+   "relanzamiento": "En Switch y PC desde septiembre de 2025 — esta fecha corresponde a las ediciones de PS5 y Xbox",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -7519,6 +7520,33 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/paw-patrol-dino-world-switch-2"
+  },
+  {
+   "id": "cloverpit",
+   "titulo": "CLOVERPIT",
+   "fecha": "2026-08-13",
+   "relanzamiento": "En PC desde fines de 2025 y en Xbox desde 2026 — esta fecha corresponde a las ediciones de PS5, PS4, Switch 2 y Switch",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "ROGUELIKE",
+    "HORROR",
+    "ARCADE",
+    "INDIE"
+   ],
+   "desarrollador": "PANIK ARCADE",
+   "descripcion": "Un roguelite de máquinas tragamonedas de pesadilla donde apostás tu vida dentro de un simulador de deuda interminable. Las ediciones de consola suman control por ratón en Switch 2 y uso de la barra luminosa del DualSense, y traen todas las actualizaciones publicadas hasta ahora más el contenido Unholy Fusion.",
+   "trailer": "https://youtube.com/embed/htmbP1Qc20Y",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/cloverpit"
   }
  ]
 }
