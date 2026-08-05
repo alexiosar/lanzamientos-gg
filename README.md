@@ -24,6 +24,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── rss.xml                     Feed de novedades (generado, no editar a mano)
 ├── api/juegos.json             API pública: calendario completo (generada)
 ├── api/proximos.json           API pública: próximos 30 días (generada)
+├── api/openapi.yaml            Contrato de la API en OpenAPI 3.1. **Se escribe a mano**: si
+│                               cambian los campos de juegos.js hay que actualizarlo (ver
+│                               difusion/directorios-api.md para el chequeo)
 ├── _headers                    CORS abierto para /api/* (Cloudflare)
 ├── api.html                    Documentación de la API pública (enlace canónico: /api)
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)

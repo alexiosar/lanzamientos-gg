@@ -1,0 +1,249 @@
+openapi: 3.1.0
+
+info:
+  title: Lanzamientos.lat
+  summary: Calendario de lanzamientos de videojuegos en español
+  description: |
+    Calendario de lanzamientos de videojuegos para PS5, PS4, Xbox Series, Nintendo Switch
+    y Nintendo Switch 2, con los datos en español.
+
+    Sin registro, sin clave de acceso, sin límite de peticiones y con CORS abierto: se puede
+    consumir directamente desde el navegador. Los archivos son estáticos y se regeneran una
+    vez por día, así que no tiene sentido consultarlos más seguido que eso.
+
+    Las fechas de lanzamiento las anuncian las editoras y pueden cambiar sin aviso. Los datos
+    se elaboran manualmente a partir de fuentes públicas y se ofrecen sin garantías.
+  version: "1.0.0"
+  contact:
+    name: LANZAMIENTOS.LAT
+    email: contacto@lanzamientos.lat
+    url: https://lanzamientos.lat/api
+  license:
+    name: Uso libre citando la fuente con un enlace a lanzamientos.lat
+    url: https://lanzamientos.lat/terminos
+
+servers:
+  - url: https://lanzamientos.lat
+    description: Producción
+
+tags:
+  - name: calendario
+    description: Lanzamientos de videojuegos
+
+paths:
+  /api/juegos.json:
+    get:
+      tags: [calendario]
+      summary: Calendario completo
+      description: Todos los juegos cargados, pasados y futuros, ordenados por fecha.
+      operationId: getJuegos
+      responses:
+        "200":
+          description: El calendario completo
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RespuestaCompleta"
+
+  /api/proximos.json:
+    get:
+      tags: [calendario]
+      summary: Próximos 30 días
+      description: |
+        Sólo los lanzamientos de los próximos 30 días. Mismo formato que el calendario
+        completo, con dos campos extra que declaran el rango cubierto, y mucho más liviano.
+      operationId: getProximos
+      responses:
+        "200":
+          description: Los lanzamientos de los próximos 30 días
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RespuestaProximos"
+
+components:
+  schemas:
+    Metadatos:
+      type: object
+      required: [sitio, descripcion, url, generado, licencia, contacto, total, juegos]
+      properties:
+        sitio:
+          type: string
+          example: LANZAMIENTOS.LAT
+        descripcion:
+          type: string
+          example: Calendario de lanzamientos de videojuegos en español
+        url:
+          type: string
+          format: uri
+          example: https://lanzamientos.lat
+        generado:
+          type: string
+          format: date-time
+          description: Momento en que se regeneró este archivo.
+          example: "2026-08-05T14:18:14+00:00"
+        licencia:
+          type: string
+          example: Uso libre citando la fuente con un enlace a lanzamientos.lat
+        contacto:
+          type: string
+          format: email
+          example: contacto@lanzamientos.lat
+        total:
+          type: integer
+          description: Cantidad de juegos en `juegos`.
+          example: 292
+        juegos:
+          type: array
+          items:
+            $ref: "#/components/schemas/Juego"
+
+    RespuestaCompleta:
+      allOf:
+        - $ref: "#/components/schemas/Metadatos"
+
+    RespuestaProximos:
+      allOf:
+        - $ref: "#/components/schemas/Metadatos"
+        - type: object
+          required: [desde, hasta]
+          properties:
+            desde:
+              type: string
+              format: date
+              description: Primer día del rango cubierto.
+              example: "2026-08-05"
+            hasta:
+              type: string
+              format: date
+              description: Último día del rango cubierto.
+              example: "2026-09-04"
+
+    Juego:
+      type: object
+      required:
+        - id
+        - titulo
+        - fecha
+        - plataformas
+        - genero
+        - desarrollador
+        - descripcion
+        - trailer
+        - metacritic
+        - imagen
+        - gamepass
+        - psplus
+        - nuevo
+        - url
+      properties:
+        id:
+          type: string
+          pattern: "^[a-z0-9-]+$"
+          description: Identificador único. También es el último tramo de la URL de la ficha.
+          example: big-walk
+        titulo:
+          type: string
+          description: Nombre del juego, en mayúsculas.
+          example: BIG WALK
+        fecha:
+          type: string
+          format: date
+          description: |
+            Fecha de lanzamiento. Si `estimado` es `true`, esta fecha es el último día del
+            período anunciado y sirve sólo para ordenar: el dato real está en `fechaEstimada`.
+          example: "2026-08-04"
+        estimado:
+          type: boolean
+          description: |
+            Presente y `true` cuando la editora anunció un período pero todavía no un día
+            exacto. Ausente en la mayoría de los juegos.
+          example: true
+        fechaEstimada:
+          type: string
+          description: Período anunciado. Sólo presente si `estimado` es `true`.
+          example: CUARTO TRIMESTRE 2026
+        relanzamiento:
+          type: string
+          description: |
+            Presente si el juego ya salió antes en otras plataformas. Explica dónde y desde
+            cuándo, y a qué edición corresponde esta fecha.
+          example: En PC desde 2020 y en Switch desde 2022 — esta fecha corresponde a las ediciones de PS5, Xbox y Switch 2
+        duracion:
+          type: string
+          description: Duración estimada según HowLongToBeat. Ausente cuando no hay datos.
+          example: ≈ 8,6 h (historia) · 20 h (completo)
+        plataformas:
+          type: array
+          description: Consolas en las que sale en esta fecha. El sitio no cubre PC.
+          items:
+            type: string
+            enum: [PS5, PS4, XBOX, SWITCH2, SWITCH]
+          example: [PS5, XBOX, SWITCH2]
+        genero:
+          type: array
+          description: Géneros en español, en mayúsculas y sin tildes.
+          items:
+            type: string
+          example: [ACCION, RPG, INDIE]
+        desarrollador:
+          type: string
+          description: Estudio o editora, en mayúsculas.
+          example: HOUSE HOUSE
+        descripcion:
+          type: string
+          description: Descripción en español.
+        trailer:
+          type: [string, "null"]
+          format: uri
+          description: URL de YouTube en formato embebible, o `null` si no hay trailer.
+          example: https://youtube.com/embed/jK0cGKMDMPE
+        metacritic:
+          type: [integer, "null"]
+          minimum: 0
+          maximum: 100
+          description: |
+            Metascore de Metacritic, o `null` si no tiene. En los juegos marcados con
+            `relanzamiento` el puntaje corresponde a la versión original.
+          example: 93
+        imagen:
+          type: [string, "null"]
+          format: uri
+          description: URL de la carátula, o `null` si todavía no hay ninguna publicada.
+        gamepass:
+          type: boolean
+          description: Si sale incluido en Xbox Game Pass.
+        psplus:
+          type: boolean
+          description: Si sale incluido en el catálogo de PlayStation Plus.
+        nuevo:
+          type: boolean
+          description: Marca interna del sitio para destacar altas recientes.
+        url:
+          type: string
+          format: uri
+          description: Ficha del juego en el sitio.
+          example: https://lanzamientos.lat/juegos/big-walk
+        noticias:
+          type: array
+          description: |
+            Novedades del juego, de la más reciente a la más vieja. Ausente en los juegos
+            que todavía no tienen ninguna.
+          items:
+            $ref: "#/components/schemas/Noticia"
+
+    Noticia:
+      type: object
+      required: [fecha, titulo, texto]
+      properties:
+        fecha:
+          type: string
+          format: date
+          example: "2026-08-04"
+        titulo:
+          type: string
+          description: Titular corto, en mayúsculas.
+          example: "93 EN METACRITIC: EL MEJOR PUNTUADO DE 2026"
+        texto:
+          type: string
+          description: Desarrollo de la novedad.

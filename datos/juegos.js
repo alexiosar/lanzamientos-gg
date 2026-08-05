@@ -4080,15 +4080,22 @@ noticias: [
     id: "parkasaurus",
     titulo: "PARKASAURUS",
     fecha: "2026-08-05",
-    relanzamiento: "En PC desde 2020 — debut en consolas",
+    relanzamiento: "En PC desde 2020 y en Switch desde 2022 — esta fecha corresponde a las ediciones de PS5, Xbox y Switch 2",
     duracion: "≈ 19 h (historia) · 70 h (completo)",
     plataformas: ["PS5", "XBOX", "SWITCH2"],
     genero: ["SIMULACION", "ESTRATEGIA", "INDIE"],
     desarrollador: "WASHBEAR STUDIO",
     descripcion: "Parkasaurus te reta a construir tu propio parque temático de dinosaurios. Diseñá hábitats, cuidá a tus criaturas prehistóricas y equilibrá las finanzas en este simulador de gestión con encanto artesanal.",
     trailer: "https://youtube.com/embed/cQ64tNYdRHI",
-    metacritic: null,
+    metacritic: 70,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/591460/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-05",
+        titulo: "LA EDICIÓN DINOLUXE TRAE LOS DOS PACKS INCLUIDOS",
+        texto: "Sale hoy como Dinoluxe Edition: el juego base más los contenidos Sea Monsters y Prehistoric Wonders, sin comprarlos aparte. El original de PC es de 2020 y promedia 70 en Metacritic; en Switch está desde 2022. Publica Infogrames y desarrolla Washbear Studio."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true

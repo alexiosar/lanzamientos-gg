@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-04T13:04:50+00:00",
+ "generado": "2026-08-05T12:58:01+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 292,
@@ -5854,7 +5854,7 @@
    "id": "parkasaurus",
    "titulo": "PARKASAURUS",
    "fecha": "2026-08-05",
-   "relanzamiento": "En PC desde 2020 — debut en consolas",
+   "relanzamiento": "En PC desde 2020 y en Switch desde 2022 — esta fecha corresponde a las ediciones de PS5, Xbox y Switch 2",
    "duracion": "≈ 19 h (historia) · 70 h (completo)",
    "plataformas": [
     "PS5",
@@ -5869,12 +5869,19 @@
    "desarrollador": "WASHBEAR STUDIO",
    "descripcion": "Parkasaurus te reta a construir tu propio parque temático de dinosaurios. Diseñá hábitats, cuidá a tus criaturas prehistóricas y equilibrá las finanzas en este simulador de gestión con encanto artesanal.",
    "trailer": "https://youtube.com/embed/cQ64tNYdRHI",
-   "metacritic": null,
+   "metacritic": 70,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/591460/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/parkasaurus"
+   "url": "https://lanzamientos.lat/juegos/parkasaurus",
+   "noticias": [
+    {
+     "fecha": "2026-08-05",
+     "titulo": "LA EDICIÓN DINOLUXE TRAE LOS DOS PACKS INCLUIDOS",
+     "texto": "Sale hoy como Dinoluxe Edition: el juego base más los contenidos Sea Monsters y Prehistoric Wonders, sin comprarlos aparte. El original de PC es de 2020 y promedia 70 en Metacritic; en Switch está desde 2022. Publica Infogrames y desarrolla Washbear Studio."
+    }
+   ]
   },
   {
    "id": "pro-jank-footy",

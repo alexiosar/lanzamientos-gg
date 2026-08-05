@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 04 Aug 2026 13:04:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 12:58:01 +0000</lastBuildDate>
+    <item>
+      <title>PARKASAURUS: LA EDICIÓN DINOLUXE TRAE LOS DOS PACKS INCLUIDOS</title>
+      <link>https://lanzamientos.lat/juegos/parkasaurus</link>
+      <guid isPermaLink="false">parkasaurus-2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Sale hoy como Dinoluxe Edition: el juego base más los contenidos Sea Monsters y Prehistoric Wonders, sin comprarlos aparte. El original de PC es de 2020 y promedia 70 en Metacritic; en Switch está desde 2022. Publica Infogrames y desarrolla Washbear Studio. — PARKASAURUS para PS5 / XBOX / SWITCH 2.</description>
+    </item>
     <item>
       <title>BEAST OF REINCARNATION: DEBUTA CON 73 Y LA CRÍTICA SE PARTE AL MEDIO</title>
       <link>https://lanzamientos.lat/juegos/beast-of-reincarnation</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">gurei-2026-07-23</guid>
       <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
       <description>El frenético juego de acción llegó a PlayStation con buenas críticas por su combate rápido y sus jefes desafiantes. — GUREI para PS5 / PS4.</description>
-    </item>
-    <item>
-      <title>FINAL FANTASY X/X-2 HD REMASTER: LOS CLÁSICOS DE SPIRA BRILLAN EN SWITCH 2: 85</title>
-      <link>https://lanzamientos.lat/juegos/final-fantasy-x-x-2-hd-remaster</link>
-      <guid isPermaLink="false">final-fantasy-x-x-2-hd-remaster-2026-07-23</guid>
-      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
-      <description>La remasterización de dos de los RPG más queridos de Square Enix llega a Switch 2 con excelente recepción. — FINAL FANTASY X/X-2 HD REMASTER para SWITCH 2.</description>
     </item>
   </channel>
 </rss>

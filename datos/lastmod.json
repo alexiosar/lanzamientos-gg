@@ -1,15 +1,15 @@
 {
  "/": {
-  "hash": "85c7537369cad468",
-  "lastmod": "2026-08-04"
+  "hash": "a4b4039c73f2e675",
+  "lastmod": "2026-08-05"
  },
  "/acerca": {
   "hash": "b60d4b690e714dce",
   "lastmod": "2026-07-29"
  },
  "/api": {
-  "hash": "a2e035d75f4fa567",
-  "lastmod": "2026-07-29"
+  "hash": "450e1a7fa3b5d63f",
+  "lastmod": "2026-08-05"
  },
  "/archivo": {
   "hash": "1fc9ac1db3fc6727",
@@ -780,8 +780,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/parkasaurus": {
-  "hash": "a2d1ae5a5c46abe7",
-  "lastmod": "2026-07-29"
+  "hash": "e92c81c9630533e7",
+  "lastmod": "2026-08-05"
  },
  "/juegos/paw-patrol-dino-world": {
   "hash": "cf3887263aa98893",
@@ -1188,27 +1188,27 @@
   "lastmod": "2026-07-29"
  },
  "/ps4": {
-  "hash": "85c7537369cad468",
-  "lastmod": "2026-08-04"
+  "hash": "a4b4039c73f2e675",
+  "lastmod": "2026-08-05"
  },
  "/ps5": {
-  "hash": "85c7537369cad468",
-  "lastmod": "2026-08-04"
+  "hash": "a4b4039c73f2e675",
+  "lastmod": "2026-08-05"
  },
  "/switch": {
-  "hash": "85c7537369cad468",
-  "lastmod": "2026-08-04"
+  "hash": "a4b4039c73f2e675",
+  "lastmod": "2026-08-05"
  },
  "/switch-2": {
-  "hash": "85c7537369cad468",
-  "lastmod": "2026-08-04"
+  "hash": "a4b4039c73f2e675",
+  "lastmod": "2026-08-05"
  },
  "/terminos": {
   "hash": "a29f422a1cb737a9",
   "lastmod": "2026-07-29"
  },
  "/xbox": {
-  "hash": "85c7537369cad468",
-  "lastmod": "2026-08-04"
+  "hash": "a4b4039c73f2e675",
+  "lastmod": "2026-08-05"
  }
 }

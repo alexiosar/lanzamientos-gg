@@ -119,8 +119,8 @@ al dominio. Estos sí:
 | Directorio | Estado | Nota |
 |---|---|---|
 | public-apis (GitHub) | [PR #6717](https://github.com/public-apis/public-apis/pull/6717) abierto 29/07/2026 | Esperando que la moderación apruebe la validación automática. |
-| APIs.guru | pendiente | Requiere una especificación OpenAPI. Habría que escribirla. |
-| Catálogo público de Postman | pendiente | Se publica una colección con los dos endpoints. |
+| APIs.guru | pendiente | Especificación OpenAPI 3.1 escrita y validada el 05/08/2026. Pasos en [directorios-api.md](directorios-api.md). |
+| Catálogo público de Postman | pendiente | Se importa `/api/openapi.yaml` y Postman arma la colección sola. Pasos en [directorios-api.md](directorios-api.md). |
 | Directorios de datos abiertos en español | pendiente | Buscar los de cada país. |
 
 ---

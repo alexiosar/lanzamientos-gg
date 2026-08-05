@@ -2,152 +2,18 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-04T13:04:50+00:00",
+ "generado": "2026-08-05T12:58:01+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-04",
- "hasta": "2026-09-03",
- "total": 62,
+ "desde": "2026-08-05",
+ "hasta": "2026-09-04",
+ "total": 61,
  "juegos": [
-  {
-   "id": "beast-of-reincarnation",
-   "titulo": "BEAST OF REINCARNATION",
-   "fecha": "2026-08-04",
-   "plataformas": [
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG"
-   ],
-   "desarrollador": "GAME FREAK INC.",
-   "descripcion": "En un Japón posapocalíptico, la última esperanza de la humanidad está en manos de Emma y Koo, su compañero peludo. Vive una intensa aventura en «Beast of Reincarnation», un RPG de acción con combates técnicos y exigentes, protagonizado por una chica y su perro. ¿Qué habrá al final del camino? El primer gran RPG de acción de Game Freak, los creadores de Pokémon.",
-   "trailer": "https://youtube.com/embed/3dw0ePZ8GLc",
-   "metacritic": 73,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/beast-of-reincarnation",
-   "noticias": [
-    {
-     "fecha": "2026-08-04",
-     "titulo": "DEBUTA CON 73 Y LA CRÍTICA SE PARTE AL MEDIO",
-     "texto": "Cierra con 73 en Metacritic sobre más de cincuenta análisis, y el reparto es llamativo: la mitad positivos y la otra mitad mixtos, sin ninguno negativo. Vice le puso 9,5 sobre 10 y dijo que el combate no solo es innovador sino divertidísimo; Eurogamer y VGC le pusieron 6. Coinciden en elogiar el combate a base de parries y el vínculo entre Emma y Koo, y en criticar el ritmo del relato, la repetición y las caídas de imágenes por segundo."
-    },
-    {
-     "fecha": "2026-08-03",
-     "titulo": "SALE MAÑANA Y ENTRA EN GAME PASS EL PRIMER DÍA",
-     "texto": "Es el proyecto original más ambicioso de Game Freak fuera de Pokémon: un RPG de acción en tercera persona hecho en Unreal Engine 5 y dirigido por Kota Furushima. Transcurre en el Japón del año 4026 y seguís a Emma, una selladora, y a su perro Koo por una tierra arrasada por la corrupción. Famitsu le dio 35 de 40. Entra en Game Pass Ultimate y PC Game Pass desde el primer día."
-    }
-   ]
-  },
-  {
-   "id": "big-walk",
-   "titulo": "BIG WALK",
-   "fecha": "2026-08-04",
-   "plataformas": [
-    "SWITCH2",
-    "PS5"
-   ],
-   "genero": [
-    "AVENTURA",
-    "COOP",
-    "INDIE"
-   ],
-   "desarrollador": "HOUSE HOUSE",
-   "descripcion": "Pasa el rato con tus amigos y perdeos en un mundo enorme. Una caminata cooperativa en línea de los creadores de Untitled Goose Game. De los creadores de Untitled Goose Game.",
-   "trailer": "https://youtube.com/embed/xfzapBQssa0",
-   "metacritic": 93,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/big-walk",
-   "noticias": [
-    {
-     "fecha": "2026-08-04",
-     "titulo": "93 EN METACRITIC: EL MEJOR PUNTUADO DE 2026",
-     "texto": "Debuta con 93 y se convierte en el juego mejor valorado de todo 2026, por encima de Forza Horizon 6, Resident Evil Requiem y Mina the Hollower. Es lo nuevo de House House, el estudio de Untitled Goose Game: un juego de caminar y charlar en primera persona para grupos de dos a doce personas. Los desarrolladores recomiendan jugarlo con el chat de voz por proximidad, y hay puzles diseñados para cuando el grupo se separa y deja de escucharse."
-    }
-   ]
-  },
-  {
-   "id": "kynseed",
-   "titulo": "KYNSEED",
-   "fecha": "2026-08-04",
-   "relanzamiento": "En PC desde 2022",
-   "duracion": "≈ 30 h (historia)",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE",
-    "RPG",
-    "SIMULACION"
-   ],
-   "desarrollador": "PIXELCOUNT STUDIOS",
-   "descripcion": "Viví una vida entera de aventuras en un hermoso mundo de creatividad e intriga. Un sandbox de simulación de vida creado por ex desarrolladores de Fable, donde tu personaje envejece, forma familia y su legado continúa con sus descendientes.",
-   "trailer": "https://youtube.com/embed/H-VIZ65gxKU",
-   "metacritic": 89,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/kynseed",
-   "noticias": [
-    {
-     "fecha": "2026-08-04",
-     "titulo": "DEBUTA EN CONSOLAS CON 89",
-     "texto": "El original de PC de 2022 promedia 89 en Metacritic y ahora llega a las cinco consolas con los controles y la interfaz rehechos. Es un simulador de vida con una vuelta poco común: cuando tu personaje envejece y muere, seguís con sus hijos, y las decisiones arrastran consecuencias a lo largo de varias generaciones."
-    }
-   ]
-  },
-  {
-   "id": "final-fantasy-xiv-online",
-   "titulo": "FINAL FANTASY XIV ONLINE",
-   "fecha": "2026-08-04",
-   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2013 — esta fecha corresponde a la edición de Switch 2",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "RPG",
-    "MULTIJUGADOR",
-    "AVENTURA"
-   ],
-   "desarrollador": "SQUARE ENIX",
-   "descripcion": "El MMORPG de Square Enix llega a Switch 2. La prueba gratuita incluye cuatro expansiones galardonadas: sumate a Eorzea, elegí entre decenas de clases y viví una de las historias más aclamadas del género.",
-   "trailer": "https://youtube.com/embed/2XbxPsWFyU8",
-   "metacritic": 86,
-   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxivonline/1x1_FinalFantasyXIVOnline_image500w.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/final-fantasy-xiv-online",
-   "noticias": [
-    {
-     "fecha": "2026-08-04",
-     "titulo": "YA DISPONIBLE EN SWITCH 2",
-     "texto": "Ya se puede jugar en Switch 2. El puntaje de referencia es el 86 de A Realm Reborn, la reconstrucción de 2013 que reemplazó al lanzamiento original de 2010, aquel que fue un fracaso tan grande que Square Enix terminó cerrando el juego para rehacerlo desde cero."
-    },
-    {
-     "fecha": "2026-08-03",
-     "titulo": "SALE MAÑANA EN SWITCH 2 Y NO NECESITA NINTENDO SWITCH ONLINE",
-     "texto": "La prueba gratuita incluye A Realm Reborn y las expansiones Heavensward, Stormblood y Shadowbringers: entre trescientas y cuatrocientas horas sin pagar nada. Arranca con un mes de acceso anticipado para asegurar la estabilidad de los servidores y durante ese período tampoco hace falta la suscripción mensual. Tampoco se necesita Nintendo Switch Online. Ojo: si ya jugás en otra plataforma, igual tenés que comprar la versión de Switch 2 y pagar una suscripción aparte."
-    }
-   ]
-  },
   {
    "id": "parkasaurus",
    "titulo": "PARKASAURUS",
    "fecha": "2026-08-05",
-   "relanzamiento": "En PC desde 2020 — debut en consolas",
+   "relanzamiento": "En PC desde 2020 y en Switch desde 2022 — esta fecha corresponde a las ediciones de PS5, Xbox y Switch 2",
    "duracion": "≈ 19 h (historia) · 70 h (completo)",
    "plataformas": [
     "PS5",
@@ -162,12 +28,19 @@
    "desarrollador": "WASHBEAR STUDIO",
    "descripcion": "Parkasaurus te reta a construir tu propio parque temático de dinosaurios. Diseñá hábitats, cuidá a tus criaturas prehistóricas y equilibrá las finanzas en este simulador de gestión con encanto artesanal.",
    "trailer": "https://youtube.com/embed/cQ64tNYdRHI",
-   "metacritic": null,
+   "metacritic": 70,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/591460/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/parkasaurus"
+   "url": "https://lanzamientos.lat/juegos/parkasaurus",
+   "noticias": [
+    {
+     "fecha": "2026-08-05",
+     "titulo": "LA EDICIÓN DINOLUXE TRAE LOS DOS PACKS INCLUIDOS",
+     "texto": "Sale hoy como Dinoluxe Edition: el juego base más los contenidos Sea Monsters y Prehistoric Wonders, sin comprarlos aparte. El original de PC es de 2020 y promedia 70 en Metacritic; en Switch está desde 2022. Publica Infogrames y desarrolla Washbear Studio."
+    }
+   ]
   },
   {
    "id": "marvel-tokon-fighting-souls",
@@ -1533,6 +1406,74 @@
    "psplus": false,
    "nuevo": true,
    "url": "https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox"
+  },
+  {
+   "id": "onimusha-way-of-the-sword",
+   "titulo": "ONIMUSHA: WAY OF THE SWORD",
+   "fecha": "2026-09-04",
+   "plataformas": [
+    "SWITCH2",
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "Un samurái con un guantelete Oni hará frente a la amenaza de los Genma que se cierne sobre Kioto. Se enfrentará en combates cruentos y encarnizados, mientras busca su razón para luchar. ¿Qué destino le aguarda al final de su camino?",
+   "trailer": "https://youtube.com/embed/LNq35HHUtNc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/onimusha-way-of-the-sword"
+  },
+  {
+   "id": "my-hero-academia-alls-justice",
+   "titulo": "MY HERO ACADEMIA: ALL'S JUSTICE",
+   "fecha": "2026-09-04",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "LUCHA",
+    "ANIME",
+    "ACCION"
+   ],
+   "desarrollador": "BANDAI NAMCO",
+   "descripcion": "El nuevo juego de lucha de arena del universo My Hero Academia, sucesor de la serie One's Justice: combates 3D con los héroes y villanos de la U.A. en la nueva consola de Nintendo.",
+   "trailer": "https://youtube.com/embed/ElI1_NgeDxU",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/myheroacademiaallsjustice/1x1_MyHeroAcademiaAllsJustice_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/my-hero-academia-alls-justice"
+  },
+  {
+   "id": "nba-2k27",
+   "titulo": "NBA 2K27",
+   "fecha": "2026-09-04",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "DEPORTES",
+    "SIMULACION"
+   ],
+   "desarrollador": "VISUAL CONCEPTS",
+   "descripcion": "La entrega anual de la NBA vuelve con Mi CARRERA, MyTEAM y Mi NBA como pilares. Victor Wembanyama ocupa la portada estándar, Caitlin Clark la deluxe y Derrick Rose la ultra. Es la primera edición de la serie que deja atrás PS4 y Xbox One.",
+   "trailer": "https://youtube.com/embed/x3VbMlmerXg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "nuevo": true,
+   "url": "https://lanzamientos.lat/juegos/nba-2k27"
   }
  ]
 }
