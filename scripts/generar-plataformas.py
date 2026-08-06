@@ -158,7 +158,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
   <footer class="site-footer">
     <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
       <span>LANZAMIENTOS.LAT &copy; {anio}</span>
-      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="api.html">API</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
+      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="api.html">API</a> · <a href="widget.html">WIDGET</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
       <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
     </div>
   </footer>

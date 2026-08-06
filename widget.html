@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Widget gratuito de próximos lanzamientos de videojuegos para tu web: una línea de código, sin cookies y sin registro.">
+  <title>WIDGET — LANZAMIENTOS.LAT</title>
+  <link rel="canonical" href="https://lanzamientos.lat/widget">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .pagina-texto   { max-width: 760px; margin: 0 auto; padding: 1rem 0 2rem; }
+    .pagina-titulo  { font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.5rem; }
+    .bajada         { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; margin-bottom: 1.5rem; }
+    .seccion        { margin-bottom: 2rem; border-top: 1px solid var(--gris-2); padding-top: 1rem; }
+    .seccion-titulo { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 3px; margin-bottom: 0.75rem; }
+    .seccion p      { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; margin-bottom: 0.75rem; }
+    .volver         { display: inline-block; font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .volver:hover   { color: var(--acento); }
+    pre             { background: var(--gris-1); border: 1px solid var(--gris-2); padding: 0.75rem 1rem; overflow-x: auto; font-size: 0.75rem; line-height: 1.7; color: var(--gris-7); margin-bottom: 0.75rem; }
+    table           { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
+    th, td          { text-align: left; padding: 5px 10px 5px 0; border-bottom: 1px solid var(--gris-2); vertical-align: top; }
+    th              { color: var(--gris-5); letter-spacing: 1px; font-weight: 400; }
+    td              { color: var(--gris-7); }
+    td code         { color: var(--acento); }
+    .demo           { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    .demo-caja      { min-width: 0; }
+    .demo-label     { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 0.5rem; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor">
+      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
+      <a href="index.html" class="site-logo">LANZAMIENTOS.LAT</a>
+      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
+      <nav class="nav">
+        <a href="index.html">INICIO</a>
+        <a href="ps5.html">PS5</a>
+        <a href="xbox.html">XBOX</a>
+        <a href="switch-2.html">SWITCH 2</a>
+        <a href="switch.html">SWITCH</a>
+        <a href="ps4.html">PS4</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <div class="pagina-texto">
+      <a href="index.html" class="volver">◀ VOLVER AL CALENDARIO</a>
+      <h1 class="pagina-titulo">WIDGET PARA TU WEB</h1>
+      <p class="bajada">Mostrá los próximos lanzamientos de videojuegos en tu sitio con una sola
+        línea de código. Gratis, sin registro, sin cookies y sin rastrear a nadie. Se actualiza
+        solo todos los días.</p>
+
+      <div class="seccion">
+        <div class="seccion-titulo">CÓMO SE USA</div>
+        <p>Pegá esto donde quieras que aparezca:</p>
+<pre>&lt;script src="https://lanzamientos.lat/widget.js"&gt;&lt;/script&gt;</pre>
+        <p>Eso es todo. No hay nada más que configurar.</p>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">CÓMO SE VE</div>
+        <div class="demo">
+          <div class="demo-caja">
+            <div class="demo-label">POR DEFECTO</div>
+            <script src="/widget.js"></script>
+          </div>
+          <div class="demo-caja">
+            <div class="demo-label">SOLO PS5, TEMA CLARO</div>
+            <script src="/widget.js" data-plataforma="PS5" data-cantidad="4" data-tema="claro"></script>
+          </div>
+        </div>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">OPCIONES</div>
+        <table>
+          <tr><th>ATRIBUTO</th><th>VALORES</th><th>POR DEFECTO</th></tr>
+          <tr><td><code>data-plataforma</code></td><td><code>PS5</code>, <code>PS4</code>, <code>XBOX</code>, <code>SWITCH2</code>, <code>SWITCH</code></td><td>todas</td></tr>
+          <tr><td><code>data-cantidad</code></td><td>de 1 a 20</td><td>5</td></tr>
+          <tr><td><code>data-tema</code></td><td><code>oscuro</code> o <code>claro</code></td><td>oscuro</td></tr>
+        </table>
+        <p style="margin-top:0.75rem">Por ejemplo, los próximos 8 juegos de Switch 2 en tema claro:</p>
+<pre>&lt;script src="https://lanzamientos.lat/widget.js"
+        data-plataforma="SWITCH2"
+        data-cantidad="8"
+        data-tema="claro"&gt;&lt;/script&gt;</pre>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ HACE Y QUÉ NO</div>
+        <p>Se dibuja justo donde pusiste la etiqueta y toma el ancho del contenedor, así que se
+          adapta a tu diseño. No usa un iframe.</p>
+        <p>Se dibuja dentro de un <strong>Shadow DOM</strong>, así que está aislado: el CSS de
+          tu sitio no puede entrar y el suyo no puede salir. Lo probamos contra una página con
+          reglas agresivas (<code>a { color: crimson !important }</code>, itálicas y bordes
+          redondeados forzados) y el widget se ve igual que acá.</p>
+        <p><strong>No usa cookies, no guarda nada y no rastrea a tus visitantes.</strong> Hace una
+          sola petición a un archivo JSON estático. Si esa petición falla, no te deja un bloque
+          roto: muestra solo el enlace.</p>
+        <p>Pesa menos de 4 KB y no depende de ninguna librería.</p>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">CONDICIONES</div>
+        <p>Uso libre, también en sitios comerciales. La única condición es dejar el enlace a
+          lanzamientos.lat que viene al pie del widget.</p>
+        <p>Si preferís armar algo a medida, están la <a href="/api">API pública</a> y su
+          <a href="/api/openapi.yaml">especificación OpenAPI</a>.</p>
+        <p>¿Lo pusiste en tu sitio? Contanos a
+          <a href="mailto:contacto@lanzamientos.lat">contacto@lanzamientos.lat</a>: nos gustaría verlo.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
+      <span>LANZAMIENTOS.LAT &copy; 2026</span>
+      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="api.html">API</a> · <a href="widget.html">WIDGET</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTema() {
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }
+    function aplicarTema(claro) {
+      document.documentElement.classList.toggle("tema-claro", claro);
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+    }
+    const temaGuardado = localStorage.getItem("tema");
+    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
+    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
+    sistemaClaro.addEventListener("change", e => {
+      if (!localStorage.getItem("tema")) aplicarTema(e.matches);
+    });
+  </script>
+</body>
+</html>

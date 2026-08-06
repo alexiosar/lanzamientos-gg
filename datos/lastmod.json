@@ -1,19 +1,19 @@
 {
  "/": {
-  "hash": "a4b4039c73f2e675",
-  "lastmod": "2026-08-05"
+  "hash": "c397b1419e0a2262",
+  "lastmod": "2026-08-06"
  },
  "/acerca": {
-  "hash": "b60d4b690e714dce",
-  "lastmod": "2026-07-29"
+  "hash": "b3163970b3309742",
+  "lastmod": "2026-08-06"
  },
  "/api": {
-  "hash": "450e1a7fa3b5d63f",
-  "lastmod": "2026-08-05"
+  "hash": "2553a7e7b9933451",
+  "lastmod": "2026-08-06"
  },
  "/archivo": {
-  "hash": "1fc9ac1db3fc6727",
-  "lastmod": "2026-07-29"
+  "hash": "1047f91246363eeb",
+  "lastmod": "2026-08-06"
  },
  "/juegos/007-first-light": {
   "hash": "e57a5e54373c4e52",
@@ -580,8 +580,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/lies-of-p-switch-2": {
-  "hash": "2b1b787072cabc32",
-  "lastmod": "2026-07-29"
+  "hash": "35a7d5e2401309ac",
+  "lastmod": "2026-08-06"
  },
  "/juegos/little-witch-in-the-woods": {
   "hash": "ad3a3373dbdafff6",
@@ -644,8 +644,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/mistfall-hunter": {
-  "hash": "5222467d75bef1f9",
-  "lastmod": "2026-07-29"
+  "hash": "a61757761d7d9e66",
+  "lastmod": "2026-08-06"
  },
  "/juegos/momento": {
   "hash": "f9e4bbcd5535485d",
@@ -1184,31 +1184,35 @@
   "lastmod": "2026-07-29"
  },
  "/privacidad": {
-  "hash": "dca9df65f49a235e",
-  "lastmod": "2026-07-29"
+  "hash": "79b66b559943a37f",
+  "lastmod": "2026-08-06"
  },
  "/ps4": {
-  "hash": "a4b4039c73f2e675",
-  "lastmod": "2026-08-05"
+  "hash": "c397b1419e0a2262",
+  "lastmod": "2026-08-06"
  },
  "/ps5": {
-  "hash": "a4b4039c73f2e675",
-  "lastmod": "2026-08-05"
+  "hash": "c397b1419e0a2262",
+  "lastmod": "2026-08-06"
  },
  "/switch": {
-  "hash": "a4b4039c73f2e675",
-  "lastmod": "2026-08-05"
+  "hash": "c397b1419e0a2262",
+  "lastmod": "2026-08-06"
  },
  "/switch-2": {
-  "hash": "a4b4039c73f2e675",
-  "lastmod": "2026-08-05"
+  "hash": "c397b1419e0a2262",
+  "lastmod": "2026-08-06"
  },
  "/terminos": {
-  "hash": "a29f422a1cb737a9",
-  "lastmod": "2026-07-29"
+  "hash": "d4865072dc90d10c",
+  "lastmod": "2026-08-06"
+ },
+ "/widget": {
+  "hash": "be4c50d6d6398c6d",
+  "lastmod": "2026-08-06"
  },
  "/xbox": {
-  "hash": "a4b4039c73f2e675",
-  "lastmod": "2026-08-05"
+  "hash": "c397b1419e0a2262",
+  "lastmod": "2026-08-06"
  }
 }

@@ -2,46 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-05T12:58:01+00:00",
+ "generado": "2026-08-06T14:22:33+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-05",
- "hasta": "2026-09-04",
- "total": 61,
+ "desde": "2026-08-06",
+ "hasta": "2026-09-05",
+ "total": 60,
  "juegos": [
-  {
-   "id": "parkasaurus",
-   "titulo": "PARKASAURUS",
-   "fecha": "2026-08-05",
-   "relanzamiento": "En PC desde 2020 y en Switch desde 2022 — esta fecha corresponde a las ediciones de PS5, Xbox y Switch 2",
-   "duracion": "≈ 19 h (historia) · 70 h (completo)",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "SIMULACION",
-    "ESTRATEGIA",
-    "INDIE"
-   ],
-   "desarrollador": "WASHBEAR STUDIO",
-   "descripcion": "Parkasaurus te reta a construir tu propio parque temático de dinosaurios. Diseñá hábitats, cuidá a tus criaturas prehistóricas y equilibrá las finanzas en este simulador de gestión con encanto artesanal.",
-   "trailer": "https://youtube.com/embed/cQ64tNYdRHI",
-   "metacritic": 70,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/591460/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/parkasaurus",
-   "noticias": [
-    {
-     "fecha": "2026-08-05",
-     "titulo": "LA EDICIÓN DINOLUXE TRAE LOS DOS PACKS INCLUIDOS",
-     "texto": "Sale hoy como Dinoluxe Edition: el juego base más los contenidos Sea Monsters y Prehistoric Wonders, sin comprarlos aparte. El original de PC es de 2020 y promedia 70 en Metacritic; en Switch está desde 2022. Publica Infogrames y desarrolla Washbear Studio."
-    }
-   ]
-  },
   {
    "id": "marvel-tokon-fighting-souls",
    "titulo": "MARVEL TŌKON: FIGHTING SOULS",
@@ -93,7 +60,14 @@
    "gamepass": false,
    "psplus": false,
    "nuevo": true,
-   "url": "https://lanzamientos.lat/juegos/lies-of-p-switch-2"
+   "url": "https://lanzamientos.lat/juegos/lies-of-p-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-08-06",
+     "titulo": "LA COMPLETE EDITION TRAE OVERTURE INCLUIDO",
+     "texto": "La edición de Switch 2 se llama Complete Edition y reúne el juego base más la expansión Overture, todas las actualizaciones posteriores al lanzamiento, los modos de dificultad y desafío nuevos, y los contenidos cosméticos publicados hasta ahora. Está optimizada para la consola y sale en digital a 69,99 dólares."
+    }
+   ]
   },
   {
    "id": "monsters-are-coming",

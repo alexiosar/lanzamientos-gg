@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Wed, 05 Aug 2026 12:58:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 14:22:33 +0000</lastBuildDate>
+    <item>
+      <title>LIES OF P: LA COMPLETE EDITION TRAE OVERTURE INCLUIDO</title>
+      <link>https://lanzamientos.lat/juegos/lies-of-p-switch-2</link>
+      <guid isPermaLink="false">lies-of-p-switch-2-2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+      <description>La edición de Switch 2 se llama Complete Edition y reúne el juego base más la expansión Overture, todas las actualizaciones posteriores al lanzamiento, los modos de dificultad y desafío nuevos, y los contenidos cosméticos publicados hasta ahora. Está optimizada para la consola y sale en digital a 69,99 dólares. — LIES OF P para SWITCH 2.</description>
+    </item>
     <item>
       <title>PARKASAURUS: LA EDICIÓN DINOLUXE TRAE LOS DOS PACKS INCLUIDOS</title>
       <link>https://lanzamientos.lat/juegos/parkasaurus</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">disgaea-mayhem-2026-07-23</guid>
       <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
       <description>El nuevo giro a la franquicia Disgaea dividió a la crítica en su estreno. — DISGAEA MAYHEM para PS5 / SWITCH.</description>
-    </item>
-    <item>
-      <title>GUREI: BUEN DEBUT PARA EL HACK AND SLASH: 80</title>
-      <link>https://lanzamientos.lat/juegos/gurei</link>
-      <guid isPermaLink="false">gurei-2026-07-23</guid>
-      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El frenético juego de acción llegó a PlayStation con buenas críticas por su combate rápido y sus jefes desafiantes. — GUREI para PS5 / PS4.</description>
     </item>
   </channel>
 </rss>

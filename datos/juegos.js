@@ -1452,7 +1452,7 @@ noticias: [
     desarrollador: "BELLRING GAMES",
     descripcion: "Mistfall Hunter es un juego de acción y rol de extracción JcJcE en tercera persona. ¡Vive la emoción del combate al combinar las habilidades, talentos y equipamiento de cada clase! Ya juegues en solitario o en equipo, una cosa está clara: para llevártelo todo, tendrás que luchar. Buena suerte.",
     trailer: "https://youtube.com/embed/bc1exw4vjtM",
-    metacritic: null,
+    metacritic: 71,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/library_600x900.jpg",
 noticias: [
       {
@@ -1974,6 +1974,13 @@ noticias: [
     trailer: "https://youtube.com/embed/kXZoKdr-xeo",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-06",
+        titulo: "LA COMPLETE EDITION TRAE OVERTURE INCLUIDO",
+        texto: "La edición de Switch 2 se llama Complete Edition y reúne el juego base más la expansión Overture, todas las actualizaciones posteriores al lanzamiento, los modos de dificultad y desafío nuevos, y los contenidos cosméticos publicados hasta ahora. Está optimizada para la consola y sale en digital a 69,99 dólares."
+      }
+    ],
     gamepass: false,
     psplus: false,
     nuevo: true
