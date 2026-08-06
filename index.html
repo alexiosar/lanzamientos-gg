@@ -92,9 +92,14 @@
           </div>
         </div>
 
-        <!-- FILTRO GÉNERO (se genera automáticamente desde juegos.js) -->
+        <!-- FILTRO GÉNERO (se genera automáticamente desde juegos.js)
+             En móvil los filtros van arriba del calendario y esta lista sola ocupa
+             más de media pantalla, así que ahí arranca plegada. En escritorio está
+             en la columna lateral y se ve siempre. -->
         <div class="filtros">
-          <div class="filtros-label">FILTRAR POR GÉNERO:</div>
+          <button class="filtros-label filtros-toggle" id="toggle-genero"
+                  aria-expanded="false" aria-controls="filtros-genero"
+                  onclick="toggleGeneros()">FILTRAR POR GÉNERO:<span class="toggle-flecha">▾</span></button>
           <div class="filtros-botones" id="filtros-genero"></div>
         </div>
       </aside>

@@ -185,6 +185,16 @@ function generarFiltrosGenero() {
   renderCalendario();
 }
 
+// ── FILTRO DE GÉNERO PLEGABLE ──
+// Solo tiene efecto en móvil: el CSS de escritorio deja la lista siempre visible.
+function toggleGeneros() {
+  const btn = document.getElementById("toggle-genero");
+  const lista = document.getElementById("filtros-genero");
+  if (!btn || !lista) return;
+  const abierto = lista.classList.toggle("abierto");
+  btn.setAttribute("aria-expanded", abierto ? "true" : "false");
+}
+
 // ── BUSCADOR ──
 function buscarJuego(texto) {
   filtroTexto = texto.trim().toLowerCase();
@@ -199,6 +209,13 @@ function cambiarVista(vista) {
     b.classList.toggle("activo", b.dataset.vista === vista);
   });
   actualizarURL();
+  renderCalendario();
+}
+
+// despliega el resto de "próximos 7 días" sin recargar la vista
+let proximosCompletos = false;
+function verTodosProximos() {
+  proximosCompletos = true;
   renderCalendario();
 }
 
@@ -476,11 +493,13 @@ function renderCalendario() {
   // juego DESTACADO: el próximo lanzamiento notable (con noticias); si no hay, el próximo con carátula.
   // solo en la portada y sin filtros activos
   let destacadoHtml = "";
+  let idDestacado = null;
   const sinFiltros = filtroActivo === "TODAS" && filtroGenero === "TODOS" && filtroTexto === "";
   if (!MODO_ARCHIVO && sinFiltros) {
     const futuros = JUEGOS.filter(j => !j.estimado && j.fecha > hoyKey).sort((a, b) => a.fecha.localeCompare(b.fecha));
     const dest = futuros.find(j => j.noticias && j.imagen) || futuros.find(j => j.imagen);
     if (dest) {
+      idDestacado = dest.id;
       const f = parseFecha(dest.fecha);
       destacadoHtml = `
       <a class="destacado" href="juegos/${dest.id}.html">
@@ -499,14 +518,22 @@ function renderCalendario() {
   const en7 = parseFecha(hoyKey);
   en7.setDate(en7.getDate() + 7);
   const limite7 = `${en7.getFullYear()}-${String(en7.getMonth() + 1).padStart(2, "0")}-${String(en7.getDate()).padStart(2, "0")}`;
+  // El destacado ya aparece arriba con carátula grande: repetirlo acá era gastar
+  // scroll en información duplicada.
   const proximos7 = juegos
-    .filter(j => !j.estimado && j.fecha > hoyKey && j.fecha <= limite7)
+    .filter(j => !j.estimado && j.fecha > hoyKey && j.fecha <= limite7 && j.id !== idDestacado)
     .sort((a, b) => a.fecha.localeCompare(b.fecha));
+
+  // Se muestran pocas: con 15 filas el calendario quedaba a casi dos pantallas de
+  // scroll, que es justo lo que la gente viene a buscar. El resto se despliega.
+  const TOPE_PROXIMOS = proximosCompletos ? 99 : 5;
+  const visibles = proximos7.slice(0, TOPE_PROXIMOS);
+  const ocultos = proximos7.length - visibles.length;
 
   const proximosHtml = proximos7.length ? `
     <div class="proximos">
       <div class="proximos-header">▸ PRÓXIMOS 7 DÍAS</div>
-      ${proximos7.map(j => {
+      ${visibles.map(j => {
         const f = parseFecha(j.fecha);
         const dia = `${DIAS_ES[f.getDay()]} ${String(f.getDate()).padStart(2, "0")}`;
         const plats = j.plataformas.map(p =>
@@ -520,6 +547,7 @@ function renderCalendario() {
           <div class="plataformas">${plats}</div>
         </a>`;
       }).join("")}
+      ${ocultos > 0 ? `<button class="proximos-mas" onclick="verTodosProximos()">VER LOS ${proximos7.length} DE ESTA SEMANA ▾</button>` : ""}
     </div>` : "";
 
   // link al archivo (solo en la portada, si hay meses pasados)
@@ -705,6 +733,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const genURL = (params.get("gen") || "").toUpperCase();
   if (genURL && JUEGOS.some(j => j.genero.includes(genURL))) {
     filtroGenero = genURL;
+    toggleGeneros();  // si llegan con un género filtrado, que se vea cuál es
   }
 
   const qURL = params.get("q");

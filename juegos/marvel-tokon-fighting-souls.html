@@ -88,7 +88,7 @@
 
   <main class="contenedor">
     <div class="ficha-page">
-      <a href="../index.html" class="volver">◀ VOLVER AL CALENDARIO</a>
+      <a href="../index.html" class="volver" id="volver">◀ VOLVER AL CALENDARIO</a>
 
       <div class="breadcrumb">
         <a href="../index.html">INICIO</a> &gt;
@@ -292,6 +292,35 @@
       if (!localStorage.getItem("tema")) aplicarTema(e.matches);
     });
     if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");
+
+    // El enlace de volver apunta al calendario, pero si llegaste desde el propio
+    // sitio te devuelve a la vista donde estabas (la grilla, un filtro, una consola)
+    // en lugar de tirarte siempre al calendario sin filtros.
+    (function () {
+      const link = document.getElementById("volver");
+      if (!link || !document.referrer) return;
+      let ref;
+      try { ref = new URL(document.referrer); } catch (e) { return; }
+      if (ref.origin !== location.origin) return;
+      if (ref.pathname === location.pathname) return;  // volviste a la misma ficha
+
+      link.href = ref.href;
+      const vista = ref.searchParams.get("vista");
+      const nombre = ref.pathname.replace(/^\/|\.html$/g, "");
+      if (vista === "grilla")            link.textContent = "◀ VOLVER A LA GRILLA";
+      else if (vista === "ranking")      link.textContent = "◀ VOLVER AL RANKING";
+      else if (nombre === "archivo")     link.textContent = "◀ VOLVER AL ARCHIVO";
+      else if (nombre.startsWith("ps") || nombre.startsWith("xbox") || nombre.startsWith("switch"))
+        link.textContent = "◀ VOLVER A " + nombre.toUpperCase().replace("-", " ");
+
+      // history.back() conserva la posición de scroll; el href queda igual como
+      // respaldo para clic del medio, "abrir en pestaña nueva" y sin JS.
+      link.addEventListener("click", function (ev) {
+        if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.button !== 0) return;
+        ev.preventDefault();
+        history.back();
+      });
+    })();
 
     // cuenta regresiva y botón agendar, calculados al cargar (no se congelan al generar)
     (function () {

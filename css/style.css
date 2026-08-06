@@ -1059,3 +1059,57 @@ a:hover { color: var(--blanco); }
   height: 220px;
   flex-shrink: 0;
 }
+
+/* Botón para desplegar el resto de "próximos 7 días" */
+.proximos-mas {
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 6px 0;
+  background: none;
+  border: 1px solid var(--gris-3);
+  color: var(--gris-6);
+  font-family: var(--font);
+  font-size: 0.6875rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.proximos-mas:hover {
+  border-color: var(--acento);
+  color: var(--acento);
+}
+
+/* ── FILTRO DE GÉNERO PLEGABLE (solo móvil) ──
+   En escritorio el botón se ve igual que los demás rótulos y la lista está
+   siempre abierta; la flecha y el plegado aparecen recién abajo de 900px. */
+.filtros-toggle {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+  font-family: var(--font);
+  font-size: 0.6875rem;
+  color: var(--gris-5);
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  cursor: default;
+}
+
+.toggle-flecha { display: none; }
+
+@media (max-width: 900px) {
+  .filtros-toggle { cursor: pointer; }
+  .filtros-toggle:hover { color: var(--acento); }
+  .toggle-flecha {
+    display: inline-block;
+    margin-left: 0.5rem;
+    transition: transform 0.2s;
+  }
+  .filtros-toggle[aria-expanded="true"] .toggle-flecha { transform: rotate(180deg); }
+  #filtros-genero { display: none; }
+  #filtros-genero.abierto { display: flex; }
+}
