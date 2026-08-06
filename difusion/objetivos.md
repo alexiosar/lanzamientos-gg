@@ -125,6 +125,21 @@ al dominio. Estos sí:
 
 ---
 
+## 4 bis. El widget: el único que fabrica enlaces
+
+Desde el 06/08/2026 hay un [widget embebible](https://lanzamientos.lat/widget): una línea de
+código que muestra los próximos lanzamientos en la web de cualquiera, con enlace de vuelta.
+
+Es distinto a todo lo demás de este plan. El resto **espera** que alguien descubra el sitio y
+decida enlazarlo; el widget se instala porque le sirve a quien lo pone, y cada instalación es
+un enlace permanente.
+
+Los mensajes para ofrecerlo a blogs, Discords y redes están en
+[ofrecer-widget.md](ofrecer-widget.md), con la regla que los ordena: no se ofrece el widget,
+se ofrece resolverle un problema a alguien.
+
+---
+
 ## 5. Orden sugerido para las primeras dos semanas
 
 1. ~~Publicar el hilo de presentación y fijarlo.~~ Hecho el 29/07/2026.
