@@ -2573,7 +2573,7 @@ noticias: [
     descripcion: "El juego asimétrico de IllFonic (Friday the 13th, Predator: Hunting Grounds) basado en la saga de terror: un jugador encarna a Michael Myers y el resto intenta sobrevivir a la noche de Halloween en Haddonfield.",
     trailer: "https://youtube.com/embed/ek1ePFp-nBI",
     metacritic: null,
-    imagen: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/153ed105c4b409fe689783e4f9b6aad72c152646/header.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -2713,7 +2713,7 @@ noticias: [
     descripcion: "Lo nuevo de Insomniac Games (Marvel's Spider-Man): Logan desata sus garras en una aventura para adultos, más cruda y visceral que las del trepamuros, exclusiva de PlayStation 5.",
     trailer: "https://youtube.com/embed/s3pDMUWlA6I",
     metacritic: null,
-    imagen: null,
+    imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"

@@ -435,14 +435,25 @@ y abrir http://localhost:8080
 
 ## Pendientes / ideas
 
-- Carátulas faltantes (5): GTA VI (no está en Steam ni eShop), Marvel's Wolverine, Halloween,
-  Harvest Moon: Echoes of Teradea, BloodRayne, Flying Fire Shark. Reintentar en las semanales
-  a medida que las tiendas publiquen assets.
+- **Carátulas faltantes (3)**, con lo ya descartado el 07/08/2026 para no repetir la búsqueda:
+  - *BloodRayne: Definitive Collection* — no existe carátula propia. En PS Store solo están los
+    tres juegos por separado (es un bundle físico de Strictly Limited, no un producto digital),
+    Ziggurat publica un compuesto de las tres carátulas juntas (1900×900) y Strictly Limited
+    solo tiene fotos cuadradas de la caja. Nada sirve como carátula única.
+  - *Harvest Moon: Echoes of Teradea* — la tienda de Natsume tiene tres imágenes 3000×3000,
+    pero las tres son promocionales con el peluche de regalo al lado, no la carátula sola.
+    Todavía no está en Steam ni en la eShop pese a tener reservas abiertas.
+  - *Flying Fire Shark!!!: Toaplan Arcade Garage* — sale el 29/08 y no está en ninguna tienda
+    todavía. El anterior de la serie (Kyukyoku TigerHeli) sí está en la eShop europea, así que
+    lo más probable es que aparezca ahí cerca del lanzamiento.
+
+  **Dónde buscar, en este orden:** Steam (`/search/?term=` incluye los "próximamente", que la
+  API `storesearch` se saltea) → eShop europea (`searching.nintendo-europe.com`) → ficha de
+  PlayStation (`playstation.com/en-us/games/<slug>/`, de donde salen las `image.api.playstation.com`)
+  → sitio de la distribuidora.
 - Trailers faltantes (2): Dungeon Antiqua y Mamon King (indies sin trailer propio en YouTube).
 - Duraciones (HLTB): quedan 23 ports sin cargar, todos porque HLTB todavía no tiene tiempos
   cronometrados (indies muy chicos). Reintentar en las mensuales con el script.
-- Carátulas faltantes (5): Marvel's Wolverine, Halloween, Harvest Moon: Echoes of Teradea,
-  BloodRayne: Definitive Collection y Flying Fire Shark. No están en Steam ni en la eShop.
   **La de GTA VI se resolvió el 01/08/2026 buscándola en el sitio oficial de Rockstar**
   (`rockstargames.com/VI/-/opengraph-image.jpg`): cuando un juego sale en tienda propia y no
   aparece en Steam, conviene mirar la web oficial de la editora antes de darlo por perdido.
