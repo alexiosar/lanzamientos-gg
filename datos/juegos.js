@@ -59,6 +59,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/1cDEhGmiSSc",
     metacritic: 69,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710840/ae87c307d7baa9b80c977fab7f331689bbe7eb9f/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-06-24",
+        titulo: "TRAE TODOS LOS DLC Y MISIONES NUEVAS",
+        texto: "Más que una remasterización: suma gráficos rehechos, voces, misiones de historia nuevas, cientos de objetos y terrenos vacíos para construir desde cero, además de todas las expansiones del original en un solo paquete. Salió primero en PC el 4 de junio y llega a consolas tres semanas después."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-06-23"
@@ -207,6 +214,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/H7mXFwVNX6Y",
     metacritic: 72,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-06-30",
+        titulo: "1,3 MILLONES DE COPIAS EN LA PRIMERA SEMANA EN PC",
+        texto: "El debut de un estudio sueco de cinco personas vendió 1,3 millones de copias en su primera semana en PC, en octubre de 2025. La versión de Xbox estaba anunciada para mayo y se retrasó para pulirla; entra a Game Pass el mismo día que sale."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-06-23"
@@ -653,6 +667,13 @@ noticias: [
     trailer: "https://youtube.com/embed/rtsSREmQFew",
     metacritic: 67,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866430/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-09",
+        titulo: "NO ES UN REMAKE: ES EL ORIGINAL DE 1998 TAL CUAL",
+        texto: "Lo publica Hamster dentro de su línea Console Archives, que porta juegos de 32 bits sin tocarles el diseño. Suma guardado libre, botones reasignables y filtros de imagen que imitan un televisor de tubo. Sale a poco menos de 15 dólares."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-09"
@@ -781,6 +802,13 @@ noticias: [
     trailer: "https://youtube.com/embed/ZOx39Bq5YPU",
     metacritic: 70,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2199080/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-13",
+        titulo: "LA VERSIÓN QUE LA CRÍTICA PEDÍA ESPERAR",
+        texto: "Salió en mayo con 68 de promedio sobre 27 críticas en OpenCritic: buenas notas para el combate por turnos y la progresión de personajes, y quejas por el apartado técnico en Switch, con caídas de cuadros y tirones. Varias reseñas recomendaban directamente esperar a esta edición de Switch 2."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-15"
@@ -796,6 +824,13 @@ noticias: [
     trailer: "https://youtube.com/embed/Vn6QOhRwxbY",
     metacritic: 71,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895460/c007e8aca1b123534981f690f3ea36e0afba77ba/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-14",
+        titulo: "PUZLES AL ESTILO THE WITNESS Y UNA HISTORIA SOBRE LA IA",
+        texto: "Publicado por Annapurna Interactive. Las reseñas destacan cuatro tipos de puzles de lógica y un relato sobre la dependencia de la tecnología que resulta más filoso de lo que sugiere su estética amable. Una partida centrada en la historia ronda las cinco o seis horas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-07"
@@ -1330,6 +1365,13 @@ noticias: [
     trailer: "https://youtube.com/embed/PX7mrM-ZQ_8",
     metacritic: 72,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2736370/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-07-23",
+        titulo: "78 DE PROMEDIO Y RECOMENDADO POR EL 100% DE LA CRÍTICA",
+        texto: "El debut del estudio Badass Mongoose promedia 78 en OpenCritic y lo recomiendan todos los críticos que lo evaluaron. Se elogia el sistema de habilidades, que va sumando formas nuevas de encarar los puzles, y la presentación en blanco y negro. Los reparos: la segunda mitad llega pronto y aparecen errores en los puzles más complejos."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-10"
@@ -3228,6 +3270,13 @@ noticias: [
     trailer: "https://youtube.com/embed/NorI-ReqhVE",
     metacritic: 72,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1864000/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-07",
+        titulo: "PREMIADO EN BITSUMMIT Y EN LOS RPG MAKER AWARDS",
+        texto: "Obra de Mas, un desarrollador malayo que trabaja solo. Antes de llegar a Switch se llevó el Vermilion Gate Award en el BitSummit PUNCH y el premio mayor de los RPG Maker Awards 2026. Lo publica Happinet, con edición física en Japón; los idiomas confirmados son inglés, japonés y chino."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-28"
@@ -5188,6 +5237,13 @@ noticias: [
     trailer: "https://youtube.com/embed/qC0WcvBOt_c",
     metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-07",
+        titulo: "EL MEJOR JUEGO DE PELEA DEL AÑO, SEGÚN LA CRÍTICA",
+        texto: "La edición de Xbox llega mes y medio después que el resto, con el juego ya evaluado: 78 de promedio sobre 39 críticas en OpenCritic, el puntaje más alto de un juego de pelea en 2026 y el más alto de un juego de Avatar. Los elogios van al combate; los reparos, a la cantidad de contenido y a las opciones."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-01"

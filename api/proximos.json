@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-07T14:16:12+00:00",
+ "generado": "2026-08-07T14:21:45+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-07",
@@ -1211,7 +1211,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-01",
-   "url": "https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox"
+   "url": "https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox",
+   "noticias": [
+    {
+     "fecha": "2026-08-07",
+     "titulo": "EL MEJOR JUEGO DE PELEA DEL AÑO, SEGÚN LA CRÍTICA",
+     "texto": "La edición de Xbox llega mes y medio después que el resto, con el juego ya evaluado: 78 de promedio sobre 39 críticas en OpenCritic, el puntaje más alto de un juego de pelea en 2026 y el más alto de un juego de Avatar. Los elogios van al combate; los reparos, a la cantidad de contenido y a las opciones."
+    }
+   ]
   },
   {
    "id": "onimusha-way-of-the-sword",

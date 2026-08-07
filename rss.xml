@@ -6,7 +6,21 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 07 Aug 2026 14:16:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 14:21:45 +0000</lastBuildDate>
+    <item>
+      <title>ARTIS IMPACT: PREMIADO EN BITSUMMIT Y EN LOS RPG MAKER AWARDS</title>
+      <link>https://lanzamientos.lat/juegos/artis-impact</link>
+      <guid isPermaLink="false">artis-impact-2026-08-07</guid>
+      <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Obra de Mas, un desarrollador malayo que trabaja solo. Antes de llegar a Switch se llevó el Vermilion Gate Award en el BitSummit PUNCH y el premio mayor de los RPG Maker Awards 2026. Lo publica Happinet, con edición física en Japón; los idiomas confirmados son inglés, japonés y chino. — ARTIS IMPACT para SWITCH.</description>
+    </item>
+    <item>
+      <title>AVATAR LEGENDS: THE FIGHTING GAME: EL MEJOR JUEGO DE PELEA DEL AÑO, SEGÚN LA CRÍTICA</title>
+      <link>https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox</link>
+      <guid isPermaLink="false">avatar-legends-the-fighting-game-xbox-2026-08-07</guid>
+      <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+      <description>La edición de Xbox llega mes y medio después que el resto, con el juego ya evaluado: 78 de promedio sobre 39 críticas en OpenCritic, el puntaje más alto de un juego de pelea en 2026 y el más alto de un juego de Avatar. Los elogios van al combate; los reparos, a la cantidad de contenido y a las opciones. — AVATAR LEGENDS: THE FIGHTING GAME para XBOX.</description>
+    </item>
     <item>
       <title>LIES OF P: LA COMPLETE EDITION TRAE OVERTURE INCLUIDO</title>
       <link>https://lanzamientos.lat/juegos/lies-of-p-switch-2</link>
@@ -272,20 +286,6 @@
       <guid isPermaLink="false">splatoon-raiders-2026-07-23</guid>
       <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
       <description>El primer spin-off de Splatoon salió con 81 sobre 66 reseñas, en línea con las entregas principales (Splatoon 1 sacó 81, y el 2 y el 3 un 83). La crítica destaca la sorprendente cantidad de contenido post-campaña. — SPLATOON RAIDERS para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>AVATAR LEGENDS: THE FIGHTING GAME: SÓLIDO DEBUT: 81 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game</link>
-      <guid isPermaLink="false">avatar-legends-the-fighting-game-2026-07-23</guid>
-      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El juego de lucha basado en Avatar sorprendió a la crítica con su rollback netcode y su fidelidad a la serie animada. — AVATAR LEGENDS: THE FIGHTING GAME para PS5 / SWITCH 2 / SWITCH.</description>
-    </item>
-    <item>
-      <title>DISGAEA MAYHEM: RECEPCIÓN MIXTA: 62 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/disgaea-mayhem</link>
-      <guid isPermaLink="false">disgaea-mayhem-2026-07-23</guid>
-      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El nuevo giro a la franquicia Disgaea dividió a la crítica en su estreno. — DISGAEA MAYHEM para PS5 / SWITCH.</description>
     </item>
   </channel>
 </rss>
