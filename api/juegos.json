@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-07T13:05:51+00:00",
+ "generado": "2026-08-07T14:16:12+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 292,
@@ -1088,6 +1088,7 @@
    "titulo": "STARBITES",
    "fecha": "2026-07-13",
    "relanzamiento": "En PC desde mayo de 2026",
+   "duracion": "≈ 15 h (historia) · 27 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -1538,6 +1539,7 @@
    "titulo": "FARLANDS",
    "fecha": "2026-07-16",
    "relanzamiento": "En PC (acceso anticipado) desde 2024",
+   "duracion": "≈ 18 h (historia)",
    "plataformas": [
     "SWITCH",
     "PS5",
@@ -2782,6 +2784,7 @@
   {
    "id": "monsters-are-coming",
    "titulo": "MONSTERS ARE COMING!",
+   "duracion": "≈ 4,7 h (historia) · 31 h (completo)",
    "fecha": "2026-08-06",
    "relanzamiento": "En PC desde 2025",
    "plataformas": [
@@ -4553,6 +4556,7 @@
   {
    "id": "two-point-hospital-full-health-collection",
    "titulo": "TWO POINT HOSPITAL: FULL HEALTH COLLECTION",
+   "duracion": "≈ 38 h (historia) · 128 h (completo)",
    "fecha": "2026-09-16",
    "relanzamiento": "El juego original salió en 2018 en PC y en 2020 en consolas — esta edición reúne el juego base y sus catorce contenidos descargables",
    "plataformas": [
@@ -5081,6 +5085,7 @@
   {
    "id": "dynasty-warriors-3-complete-edition-remastered",
    "titulo": "DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED",
+   "duracion": "≈ 7 h (historia) · 75 h (completo)",
    "fecha": "2026-10-01",
    "relanzamiento": "Remake del original de PS2 (2001)",
    "plataformas": [
@@ -5540,6 +5545,7 @@
   {
    "id": "toy-story-3-complete-edition",
    "titulo": "TOY STORY 3: COMPLETE EDITION",
+   "duracion": "≈ 4,2 h (historia) · 15 h (completo)",
    "fecha": "2026-10-15",
    "relanzamiento": "Remaster del juego original de 2010",
    "plataformas": [
@@ -5564,6 +5570,7 @@
   {
    "id": "tales-of-eternia-remastered",
    "titulo": "TALES OF ETERNIA REMASTERED",
+   "duracion": "≈ 33 h (historia) · 74 h (completo)",
    "fecha": "2026-10-16",
    "relanzamiento": "Remaster del clásico de PS1 (2000)",
    "plataformas": [
@@ -5797,6 +5804,7 @@
   {
    "id": "gothic-classic",
    "titulo": "GOTHIC CLASSIC",
+   "duracion": "≈ 23 h (historia) · 37 h (completo)",
    "fecha": "2026-07-28",
    "relanzamiento": "Reedición del clásico RPG de 2001",
    "plataformas": [
@@ -6026,6 +6034,7 @@
    "estimado": true,
    "fechaEstimada": "AGOSTO 2026",
    "relanzamiento": "En Switch y PC desde septiembre de 2025 — esta fecha corresponde a las ediciones de PS5 y Xbox",
+   "duracion": "≈ 11 h (historia) · 33 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -6558,6 +6567,7 @@
   {
    "id": "godzilla-destroy-all-monsters-melee-remastered",
    "titulo": "GODZILLA: DESTROY ALL MONSTERS MELEE REMASTERED",
+   "duracion": "≈ 1,1 h (historia) · 4,1 h (completo)",
    "fecha": "2026-11-03",
    "relanzamiento": "Remaster del clásico de GameCube y Xbox (2002)",
    "plataformas": [
@@ -6708,6 +6718,7 @@
   {
    "id": "the-wolf-among-us-remastered",
    "titulo": "THE WOLF AMONG US REMASTERED",
+   "duracion": "≈ 8,6 h (historia) · 11 h (completo)",
    "fecha": "2026-12-31",
    "estimado": true,
    "fechaEstimada": "CUARTO TRIMESTRE 2026",
@@ -6951,6 +6962,7 @@
   {
    "id": "thief-the-dark-project-remastered",
    "titulo": "THIEF: THE DARK PROJECT REMASTERED",
+   "duracion": "≈ 13 h (historia) · 29 h (completo)",
    "fecha": "2026-12-31",
    "estimado": true,
    "fechaEstimada": "CUARTO TRIMESTRE 2026",
@@ -7158,6 +7170,7 @@
    "titulo": "AKATORI",
    "fecha": "2026-08-12",
    "relanzamiento": "En PC desde el 5 de agosto de 2026",
+   "duracion": "≈ 2,7 h (historia)",
    "plataformas": [
     "PS5",
     "PS4",
@@ -7494,6 +7507,7 @@
    "titulo": "AVATAR LEGENDS: THE FIGHTING GAME",
    "fecha": "2026-09-03",
    "relanzamiento": "En PS5, Switch 2, Switch y PC desde el 23 de julio de 2026 — esta fecha corresponde a la edición de Xbox, que se retrasó",
+   "duracion": "≈ 3,8 h (historia)",
    "plataformas": [
     "XBOX"
    ],
@@ -7540,6 +7554,7 @@
    "titulo": "CLOVERPIT",
    "fecha": "2026-08-13",
    "relanzamiento": "En PC desde fines de 2025 y en Xbox desde 2026 — esta fecha corresponde a las ediciones de PS5, PS4, Switch 2 y Switch",
+   "duracion": "≈ 7,5 h (historia) · 45 h (completo)",
    "plataformas": [
     "PS5",
     "PS4",

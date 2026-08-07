@@ -773,6 +773,7 @@ noticias: [
     titulo: "STARBITES",
     fecha: "2026-07-13",
     relanzamiento: "En PC desde mayo de 2026",
+    duracion: "≈ 15 h (historia) · 27 h (completo)",
     plataformas: ["SWITCH2"],
     genero: ["RPG", "POR TURNOS", "AVENTURA", "SIMULACION"],
     desarrollador: "IKINAGAMES",
@@ -1090,6 +1091,7 @@ noticias: [
     titulo: "FARLANDS",
     fecha: "2026-07-16",
     relanzamiento: "En PC (acceso anticipado) desde 2024",
+    duracion: "≈ 18 h (historia)",
     plataformas: ["SWITCH", "PS5", "PS4"],
     genero: ["SIMULACION", "RPG", "RELAX", "INDIE"],
     desarrollador: "JANDUSOFT",
@@ -1988,6 +1990,7 @@ noticias: [
   {
     id: "monsters-are-coming",
     titulo: "MONSTERS ARE COMING!",
+    duracion: "≈ 4,7 h (historia) · 31 h (completo)",
     fecha: "2026-08-06",
     relanzamiento: "En PC desde 2025",
     plataformas: ["XBOX"],
@@ -3176,6 +3179,7 @@ noticias: [
   {
     id: "two-point-hospital-full-health-collection",
     titulo: "TWO POINT HOSPITAL: FULL HEALTH COLLECTION",
+    duracion: "≈ 38 h (historia) · 128 h (completo)",
     fecha: "2026-09-16",
     relanzamiento: "El juego original salió en 2018 en PC y en 2020 en consolas — esta edición reúne el juego base y sus catorce contenidos descargables",
     plataformas: ["PS5", "XBOX", "SWITCH2"],
@@ -3540,6 +3544,7 @@ noticias: [
   {
     id: "dynasty-warriors-3-complete-edition-remastered",
     titulo: "DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED",
+    duracion: "≈ 7 h (historia) · 75 h (completo)",
     fecha: "2026-10-01",
     relanzamiento: "Remake del original de PS2 (2001)",
     plataformas: ["SWITCH", "XBOX", "SWITCH2"],
@@ -3860,6 +3865,7 @@ noticias: [
   {
     id: "toy-story-3-complete-edition",
     titulo: "TOY STORY 3: COMPLETE EDITION",
+    duracion: "≈ 4,2 h (historia) · 15 h (completo)",
     fecha: "2026-10-15",
     relanzamiento: "Remaster del juego original de 2010",
     plataformas: ["SWITCH", "PS4", "XBOX"],
@@ -3876,6 +3882,7 @@ noticias: [
   {
     id: "tales-of-eternia-remastered",
     titulo: "TALES OF ETERNIA REMASTERED",
+    duracion: "≈ 33 h (historia) · 74 h (completo)",
     fecha: "2026-10-16",
     relanzamiento: "Remaster del clásico de PS1 (2000)",
     plataformas: ["PS4", "XBOX"],
@@ -4039,6 +4046,7 @@ noticias: [
   {
     id: "gothic-classic",
     titulo: "GOTHIC CLASSIC",
+    duracion: "≈ 23 h (historia) · 37 h (completo)",
     fecha: "2026-07-28",
     relanzamiento: "Reedición del clásico RPG de 2001",
     plataformas: ["XBOX", "PS5"],
@@ -4206,6 +4214,7 @@ noticias: [
     estimado: true,
     fechaEstimada: "AGOSTO 2026",
     relanzamiento: "En Switch y PC desde septiembre de 2025 — esta fecha corresponde a las ediciones de PS5 y Xbox",
+    duracion: "≈ 11 h (historia) · 33 h (completo)",
     plataformas: ["PS5", "XBOX"],
     genero: ["ACCION", "AVENTURA"],
     desarrollador: "CHUBBY PIXEL",
@@ -4567,6 +4576,7 @@ noticias: [
   {
     id: "godzilla-destroy-all-monsters-melee-remastered",
     titulo: "GODZILLA: DESTROY ALL MONSTERS MELEE REMASTERED",
+    duracion: "≈ 1,1 h (historia) · 4,1 h (completo)",
     fecha: "2026-11-03",
     relanzamiento: "Remaster del clásico de GameCube y Xbox (2002)",
     plataformas: ["PS5", "SWITCH"],
@@ -4664,6 +4674,7 @@ noticias: [
   {
     id: "the-wolf-among-us-remastered",
     titulo: "THE WOLF AMONG US REMASTERED",
+    duracion: "≈ 8,6 h (historia) · 11 h (completo)",
     fecha: "2026-12-31",
     estimado: true,
     fechaEstimada: "CUARTO TRIMESTRE 2026",
@@ -4818,6 +4829,7 @@ noticias: [
   {
     id: "thief-the-dark-project-remastered",
     titulo: "THIEF: THE DARK PROJECT REMASTERED",
+    duracion: "≈ 13 h (historia) · 29 h (completo)",
     fecha: "2026-12-31",
     estimado: true,
     fechaEstimada: "CUARTO TRIMESTRE 2026",
@@ -4956,6 +4968,7 @@ noticias: [
     titulo: "AKATORI",
     fecha: "2026-08-12",
     relanzamiento: "En PC desde el 5 de agosto de 2026",
+    duracion: "≈ 2,7 h (historia)",
     plataformas: ["PS5", "PS4", "XBOX", "SWITCH"],
     genero: ["ACCION", "AVENTURA", "PLATAFORMA", "INDIE"],
     desarrollador: "CONTRAST GAMES",
@@ -5167,6 +5180,7 @@ noticias: [
     titulo: "AVATAR LEGENDS: THE FIGHTING GAME",
     fecha: "2026-09-03",
     relanzamiento: "En PS5, Switch 2, Switch y PC desde el 23 de julio de 2026 — esta fecha corresponde a la edición de Xbox, que se retrasó",
+    duracion: "≈ 3,8 h (historia)",
     plataformas: ["XBOX"],
     genero: ["LUCHA", "ACCION", "ANIME"],
     desarrollador: "GAMEPLAY GROUP INTERNATIONAL",
@@ -5199,6 +5213,7 @@ noticias: [
     titulo: "CLOVERPIT",
     fecha: "2026-08-13",
     relanzamiento: "En PC desde fines de 2025 y en Xbox desde 2026 — esta fecha corresponde a las ediciones de PS5, PS4, Switch 2 y Switch",
+    duracion: "≈ 7,5 h (historia) · 45 h (completo)",
     plataformas: ["PS5", "PS4", "SWITCH2", "SWITCH"],
     genero: ["ROGUELIKE", "HORROR", "ARCADE", "INDIE"],
     desarrollador: "PANIK ARCADE",

@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-07T13:05:51+00:00",
+ "generado": "2026-08-07T14:16:12+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-07",
@@ -111,6 +111,7 @@
    "titulo": "AKATORI",
    "fecha": "2026-08-12",
    "relanzamiento": "En PC desde el 5 de agosto de 2026",
+   "duracion": "≈ 2,7 h (historia)",
    "plataformas": [
     "PS5",
     "PS4",
@@ -351,6 +352,7 @@
    "titulo": "CLOVERPIT",
    "fecha": "2026-08-13",
    "relanzamiento": "En PC desde fines de 2025 y en Xbox desde 2026 — esta fecha corresponde a las ediciones de PS5, PS4, Switch 2 y Switch",
+   "duracion": "≈ 7,5 h (historia) · 45 h (completo)",
    "plataformas": [
     "PS5",
     "PS4",
@@ -1192,6 +1194,7 @@
    "titulo": "AVATAR LEGENDS: THE FIGHTING GAME",
    "fecha": "2026-09-03",
    "relanzamiento": "En PS5, Switch 2, Switch y PC desde el 23 de julio de 2026 — esta fecha corresponde a la edición de Xbox, que se retrasó",
+   "duracion": "≈ 3,8 h (historia)",
    "plataformas": [
     "XBOX"
    ],
