@@ -174,11 +174,19 @@ def opcion_semana(hoy, juegos):
     for j in prox:
         y, m, d = map(int, j["fecha"].split("-"))
         lineas.append(f"▸ {d:02d}/{m:02d} {titulo(j)} — {plats(j, 3)}")
+    # No decir "esta semana": la ventana son los próximos 7 días corridos, así que
+    # un viernes la lista es casi toda de la semana que viene. Se pone el rango real.
+    ini, fin_d = d0 + datetime.timedelta(days=1), d0 + datetime.timedelta(days=7)
+    if ini.month == fin_d.month:
+        rango = f"del {ini.day} al {fin_d.day} de {MESES_ES[fin_d.month - 1]}"
+    else:
+        rango = (f"del {ini.day} de {MESES_ES[ini.month - 1]} "
+                 f"al {fin_d.day} de {MESES_ES[fin_d.month - 1]}")
     return armar_lista(
-        cabecera="📅 Lo que sale esta semana\n\n",
+        cabecera=f"📅 Lo que sale {rango}\n\n",
         lineas=lineas,
         link=SITIO,
-        resumen=lambda n: f"\n…y {n} más esta semana")
+        resumen=lambda n: f"\n…y {n} más en esos días")
 
 
 def opcion_regresiva(hoy, juegos, gid=None):
@@ -222,7 +230,7 @@ def main():
 
     opciones = [
         ("A · LANZAMIENTOS DE HOY", opcion_hoy(hoy, juegos)),
-        ("B · LO QUE VIENE ESTA SEMANA", opcion_semana(hoy, juegos)),
+        ("B · LO QUE VIENE EN 7 DÍAS", opcion_semana(hoy, juegos)),
         ("C · CUENTA REGRESIVA", opcion_regresiva(hoy, juegos, args.regresiva)),
     ]
     vacias = 0

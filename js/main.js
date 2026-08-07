@@ -614,9 +614,8 @@ function renderCalendario() {
         return `
           <div class="juego-fila" id="fila-${j.id}" tabindex="0" role="button" aria-label="Ver ficha de ${j.titulo}" onclick="toggleFicha('${j.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFicha('${j.id}');}">
             ${miniaturaHtml(j)}
-            <span class="juego-nombre">${j.titulo}</span>
+            <span class="juego-nombre">${j.titulo}${nuevoHtml}</span>
             <div class="plataformas">${platsHtml}</div>
-            ${nuevoHtml}
           </div>
           ${fichaHtml(j)}
         `;
@@ -644,8 +643,7 @@ function renderCalendario() {
               return `
             <div class="juego-fila" id="fila-${j.id}" tabindex="0" role="button" aria-label="Ver ficha de ${j.titulo}" onclick="toggleFicha('${j.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFicha('${j.id}');}">
               ${miniaturaHtml(j)}
-              <span class="juego-nombre">${j.titulo}</span>
-              ${badgeNuevoHtml(j)}
+              <span class="juego-nombre">${j.titulo}${badgeNuevoHtml(j)}</span>
               <div class="plataformas">${plats}</div>
             </div>
             ${fichaHtml(j)}`;

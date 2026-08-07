@@ -349,10 +349,15 @@ a:hover { color: var(--blanco); }
 .plat-SWITCH  { border-color: var(--switch-old); color: var(--switch-old); }
 .plat-MULTI   { border-color: var(--multi);  color: var(--multi); }
 
+/* Va dentro del nombre del juego, no como columna aparte: si es un hijo más de
+   la fila le roba ancho al nombre y desalinea las plataformas respecto del resto
+   de las filas, y en pantallas angostas se va a un renglón nuevo. */
 .juego-nuevo {
   font-size: 0.6875rem;
   color: var(--amarillo);
   letter-spacing: 1px;
+  margin-left: 0.6rem;
+  white-space: nowrap;
   animation: parpadeo 1.2s step-end infinite;
 }
 
