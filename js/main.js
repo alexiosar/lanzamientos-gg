@@ -34,6 +34,20 @@ function plataformaLabel(p) {
   return p;
 }
 
+// ★ NUEVO marca lo que se agregó al calendario esta semana, no lo que sale pronto.
+// Antes era un campo manual que se ponía al cargar el juego y nunca se apagaba:
+// terminó encendido en 283 de 292 juegos, o sea que no distinguía nada.
+const DIAS_NUEVO = 7;
+
+function esAltaReciente(alta) {
+  if (!alta) return false;
+  return Math.round((parseFecha(getDiaKeyHoy()) - parseFecha(alta)) / 86400000) < DIAS_NUEVO;
+}
+
+function badgeNuevoHtml(j) {
+  return esAltaReciente(j.alta) ? `<span class="juego-nuevo" title="Agregado al calendario el ${j.alta}">★ NUEVO</span>` : "";
+}
+
 function claseMetacritic(n) {
   if (n >= 75) return "meta-alto";
   if (n >= 50) return "meta-medio";
@@ -594,8 +608,8 @@ function renderCalendario() {
           `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`
         ).join("");
 
-        // ★ NUEVO solo para lanzamientos de hoy en adelante (no para los ya disponibles)
-        const nuevoHtml = (j.nuevo && diaKey >= hoyKey) ? `<span class="juego-nuevo">★ NUEVO</span>` : "";
+        // solo para lanzamientos de hoy en adelante: en uno ya disponible no aporta nada
+        const nuevoHtml = diaKey >= hoyKey ? badgeNuevoHtml(j) : "";
 
         return `
           <div class="juego-fila" id="fila-${j.id}" tabindex="0" role="button" aria-label="Ver ficha de ${j.titulo}" onclick="toggleFicha('${j.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFicha('${j.id}');}">
@@ -631,7 +645,7 @@ function renderCalendario() {
             <div class="juego-fila" id="fila-${j.id}" tabindex="0" role="button" aria-label="Ver ficha de ${j.titulo}" onclick="toggleFicha('${j.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleFicha('${j.id}');}">
               ${miniaturaHtml(j)}
               <span class="juego-nombre">${j.titulo}</span>
-              ${j.nuevo ? `<span class="juego-nuevo">★ NUEVO</span>` : ""}
+              ${badgeNuevoHtml(j)}
               <div class="plataformas">${plats}</div>
             </div>
             ${fichaHtml(j)}`;

@@ -134,7 +134,7 @@ components:
         - imagen
         - gamepass
         - psplus
-        - nuevo
+        - alta
         - url
       properties:
         id:
@@ -216,9 +216,12 @@ components:
         psplus:
           type: boolean
           description: Si sale incluido en el catálogo de PlayStation Plus.
-        nuevo:
-          type: boolean
-          description: Marca interna del sitio para destacar altas recientes.
+        alta:
+          type: string
+          format: date
+          description: Fecha en que el juego entró al calendario. El sitio marca como
+            novedad las altas de los últimos 7 días.
+          example: "2026-08-04"
         url:
           type: string
           format: uri

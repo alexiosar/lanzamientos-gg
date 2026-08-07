@@ -19,7 +19,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: false
+    alta: "2026-06-23"
   },
   {
     id: "deltarune-chapter-5",
@@ -46,7 +46,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: false
+    alta: "2026-06-23"
   },
   {
     id: "house-flipper-remastered-collection",
@@ -61,7 +61,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3710840/ae87c307d7baa9b80c977fab7f331689bbe7eb9f/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: false
+    alta: "2026-06-23"
   },     
   {
     id: "star-fox",
@@ -83,7 +83,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: false
+    alta: "2026-06-23"
   },  
   {
     id: "mousebusters",
@@ -98,7 +98,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2823200/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: false
+    alta: "2026-06-23"
   },
   {
     id: "flesh-made-fear",
@@ -113,7 +113,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3316350/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: false
+    alta: "2026-06-23"
   },
   {
     id: "gecko-gods",
@@ -135,7 +135,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: false
+    alta: "2026-06-23"
   },
   {
     id: "namco-legendary-mountains",
@@ -150,7 +150,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4459850/1072308d8e6a4ca6ec2d4de98a820553beb23e4b/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: false
+    alta: "2026-06-23"
   },
   {
     id: "monopoly-star-wars-heroes-vs-villains",
@@ -172,7 +172,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-23"
   },
   {
     id: "momento",
@@ -194,7 +194,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-23"
   },
   {
     id: "rv-there-yet",
@@ -209,7 +209,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/cae24b4ed7f4531be51f0d63f785b7d253f92dc3/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-23"
   },
   {
     id: "deathbulge-battle-of-the-bands",
@@ -226,7 +226,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1083790/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-23"
   },
   {
     id: "high-on-life-2",
@@ -248,7 +248,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: false
+    alta: "2026-06-23"
   },
   {
     id: "rhythm-heaven-groove",
@@ -270,7 +270,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-23"
   },
   {
     id: "hyperwired",
@@ -285,7 +285,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3234850/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-30"
   },
   {
     id: "scholar-adventure-mystery-of-silence",
@@ -300,7 +300,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3929410/650a0f58008e796765863b4f669b220112e15ad4/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-30"
   },
   {
     id: "botany-manor",
@@ -324,7 +324,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "wall-world-2",
@@ -341,7 +341,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3467710/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "moonlight-peaks",
@@ -363,7 +363,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-30"
   },
   {
     id: "the-caribou-trail",
@@ -385,7 +385,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-30"
   },
   {
     id: "escape-the-backrooms",
@@ -409,7 +409,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "doom-the-dark-ages-revelations",
@@ -431,7 +431,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "disney-dreamlight-valley-honeyglow-woods",
@@ -446,7 +446,7 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4376930/c24c762017ce3bfb20c82dad2abc4c2076688664/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "buckshot-roulette",
@@ -470,7 +470,7 @@ const JUEGOS = [
     ],
     gamepass: true,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "assassins-creed-black-flag-resynced",
@@ -502,7 +502,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-30"
   },
   {
     id: "echoes-of-aincrad",
@@ -524,7 +524,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-06-30"
   },
   {
     id: "granblue-fantasy-relink-endless-ragnarok",
@@ -546,7 +546,7 @@ const JUEGOS = [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "backyard-baseball",
@@ -568,7 +568,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection",
@@ -583,7 +583,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4282450/085d9a38c8482abfbbe1272818d50088b7cd644a/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "ea-sports-college-football-27",
@@ -605,7 +605,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "forward-to-the-sky",
@@ -622,7 +622,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/333250/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "viking-frontiers",
@@ -638,7 +638,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304430/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "rhapsody-a-musical-adventure",
@@ -655,7 +655,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866430/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "digimon-story-time-stranger",
@@ -679,7 +679,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "palworld",
@@ -707,7 +707,7 @@ noticias: [
     ],
     gamepass: true,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "ascend-to-zero",
@@ -729,7 +729,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "forensics-crime-scene-detective",
@@ -744,7 +744,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3765010/898a2e973e596586efd395516404834099b96e9d/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "the-alters-last-variable",
@@ -766,7 +766,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "starbites",
@@ -782,7 +782,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2199080/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-15"
   },
   {
     id: "d-topia",
@@ -797,7 +797,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895460/c007e8aca1b123534981f690f3ea36e0afba77ba/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "hell-clock",
@@ -819,7 +819,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "denshattack",
@@ -846,7 +846,7 @@ noticias: [
     ],
     gamepass: true,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "the-mound-omen-of-cthulhu",
@@ -873,7 +873,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "teeto",
@@ -895,7 +895,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-07"
   },
   {
     id: "moss-the-forgotten-relic",
@@ -917,7 +917,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "puppergeist",
@@ -939,7 +939,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "the-mermaid-mask",
@@ -961,7 +961,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "culdcept-begins",
@@ -983,7 +983,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "go-go-town",
@@ -1007,7 +1007,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "ratatan",
@@ -1024,7 +1024,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "heave-ho-2",
@@ -1046,7 +1046,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "geppy-x",
@@ -1061,7 +1061,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4571460/b270d93c70213ead93eb8be7c1431646709cd298/header_spanish.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "k-pop-idol-stories-road-to-debut",
@@ -1083,7 +1083,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "farlands",
@@ -1099,7 +1099,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2252680/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "wreck-runners",
@@ -1114,7 +1114,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1473960/4114e1a3adf72ebae7b43570460c78aff2cea473/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "looking-for-fael",
@@ -1129,7 +1129,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2521170/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "mavrix",
@@ -1145,7 +1145,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2926900/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-09"
   },
   {
     id: "the-planet-crafter",
@@ -1169,7 +1169,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "splatoon-raiders",
@@ -1201,7 +1201,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "avatar-legends-the-fighting-game",
@@ -1223,7 +1223,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "cultic",
@@ -1247,7 +1247,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "disgaea-mayhem",
@@ -1269,7 +1269,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "gurei",
@@ -1291,7 +1291,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "final-fantasy-x-x-2-hd-remaster",
@@ -1315,7 +1315,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "helix-descent-n-ascent",
@@ -1330,7 +1330,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2736370/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "dodo-duckie",
@@ -1345,7 +1345,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3358170/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "yog-sothoths-yard",
@@ -1362,7 +1362,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2194530/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "pure-pool-pro",
@@ -1377,7 +1377,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3456930/76816eaf4db544d10a2a411b3545173a4dc5d806/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "forever-skies",
@@ -1399,7 +1399,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "halo-campaign-evolved",
@@ -1426,7 +1426,7 @@ noticias: [
     ],
     gamepass: true,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "go-north",
@@ -1441,7 +1441,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041730/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "mistfall-hunter",
@@ -1463,7 +1463,7 @@ noticias: [
     ],
     gamepass: true,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "bloodrayne-definitive-collection",
@@ -1485,7 +1485,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "truck-kun-is-supporting-me-from-another-world",
@@ -1512,7 +1512,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "xenoblade-chronicles-2",
@@ -1536,7 +1536,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "kusan-city-of-wolves",
@@ -1558,7 +1558,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "blue-reflection-quartet",
@@ -1580,7 +1580,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "truxton-extreme",
@@ -1602,7 +1602,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "voidtrain",
@@ -1626,7 +1626,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "leafy-corner",
@@ -1641,7 +1641,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558600/4e08cdccd8ae01e0e275c139e1b807e7baa5caf5/header_alt_assets_1.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "shard-squad",
@@ -1658,7 +1658,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3363560/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "dungeon-antiqua",
@@ -1675,7 +1675,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198540/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "verho-curse-of-faces",
@@ -1692,7 +1692,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017330/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "jurassic-world-evolution-2",
@@ -1716,7 +1716,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-15"
   },
   {
     id: "the-relic-first-guardian",
@@ -1738,7 +1738,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "paw-patrol-dino-world",
@@ -1753,7 +1753,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3525790/2697199371a6effb9498ba1ee1017c4287dc563b/header_spanish.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-10"
   },
   {
     id: "winx-club-the-magic-is-back",
@@ -1768,7 +1768,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4007490/f3f5f42fc31e34e88fcc07ba8b9bb8ae1b4568bc/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "space-warlord-baby-trading-simulator",
@@ -1790,7 +1790,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "beholder-conductor",
@@ -1807,7 +1807,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825530/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "outlaws-handful-of-missions-remaster",
@@ -1824,7 +1824,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3366780/97ad4dc431ab28b7f0474691038a1d6ddcfa8c41/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "the-king-is-watching",
@@ -1848,7 +1848,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "brave-escape",
@@ -1864,7 +1864,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1354260/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "beast-of-reincarnation",
@@ -1891,7 +1891,7 @@ noticias: [
     ],
     gamepass: true,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "big-walk",
@@ -1913,7 +1913,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "kynseed",
@@ -1937,7 +1937,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "marvel-tokon-fighting-souls",
@@ -1959,7 +1959,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "lies-of-p-switch-2",
@@ -1983,7 +1983,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "monsters-are-coming",
@@ -1999,7 +1999,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2934220/4cb4bcd77b5844de95aebf6c74cc066b0220f2f4/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "route16r",
@@ -2014,7 +2014,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4307330/58a63a96dbcbaff8701765d3e26e1a1dce96b902/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "spooky-spirit-shooting-gallery",
@@ -2030,7 +2030,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_SpookySpiritShootingGallery_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "montabi",
@@ -2045,7 +2045,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141630/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "the-elder-scrolls-iv-oblivion-remastered",
@@ -2062,7 +2062,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "grounded-2",
@@ -2079,7 +2079,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/c4fc47c7e6ece14e438f0957d066dc9ab2a3412a/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "duskfade",
@@ -2094,7 +2094,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/f17f8f31c30ca7f8603b125502e00c0c542c6677/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "hell-let-loose-vietnam",
@@ -2109,7 +2109,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/2e52f99e70e827b57a2205469dc5d529e8e0490a/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "rivage",
@@ -2124,7 +2124,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094660/25ca531e261b1217387bbf4a039623002f233287/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "wild-blue-skies",
@@ -2139,7 +2139,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1921490/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "defender-of-the-crown-the-legend-returns",
@@ -2154,7 +2154,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4208140/131479ec2e41016e6baf82b98c2106abc562c095/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "panzer-knights-commanders-edition",
@@ -2170,7 +2170,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1416230/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "tower-dominion",
@@ -2187,7 +2187,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226530/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "mafia-the-old-country-man-of-honor",
@@ -2202,7 +2202,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4492700/590a6171df42da28880a583d61ffdc6482783caf/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "the-sinking-city-2",
@@ -2217,7 +2217,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "no-case-should-remain-unsolved",
@@ -2234,7 +2234,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676840/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "mortal-shell-2",
@@ -2256,7 +2256,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "steins-gate-reboot",
@@ -2271,7 +2271,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012810/07418d40a3fdd2f403bfa506f50051f4254fa02a/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "the-witchs-bakery",
@@ -2293,7 +2293,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "once-human",
@@ -2310,7 +2310,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2139460/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "apidya-special",
@@ -2325,7 +2325,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3956980/dfa0188de0188d3bca2a64bc9def2acd04990bd6/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "brigandine-abyss",
@@ -2340,7 +2340,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211430/f31f9d5047355f830df9dfb1031847fc83cd0e52/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "resonance-a-plague-tale-legacy",
@@ -2362,7 +2362,7 @@ noticias: [
     ],
     gamepass: true,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "star-wars-zero-company",
@@ -2377,7 +2377,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/2c7d5dad080c4888faaa03c4a955136c50f5bfae/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "metal-gear-solid-master-collection-vol-2",
@@ -2392,7 +2392,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859630/31d5f5ef4a143bf915429e307f37cab6e2939678/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "aggelos-2",
@@ -2407,7 +2407,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864290/7232956a2bf056785a2e5ebf6685407da00361a9/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "kalanoro",
@@ -2422,7 +2422,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/e344d3d0514147e82f1fee043f7439523feffba6/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "elden-ring-switch-2",
@@ -2439,7 +2439,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "captain-tsubasa-2-world-fighters",
@@ -2454,7 +2454,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172910/714df3514b1166414caef8c31b092f5786e8245d/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "flying-fire-shark-toaplan-arcade-garage",
@@ -2469,7 +2469,7 @@ noticias: [
     imagen: null,
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-14"
   },
   {
     id: "the-blood-of-dawnwalker",
@@ -2484,7 +2484,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/a7062f3b59d491c2678e3fd7ce2672858e480641/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "orbitals",
@@ -2499,7 +2499,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/orbitals/1x1_Orbitals_new_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "marsupilami-2-salsa-palombia",
@@ -2514,7 +2514,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3650170/a19c8f25ba08f13fc2088f6106365189fb0158e8/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "wo-long-fallen-dynasty",
@@ -2531,7 +2531,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "onimusha-way-of-the-sword",
@@ -2546,7 +2546,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "my-hero-academia-alls-justice",
@@ -2561,7 +2561,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/myheroacademiaallsjustice/1x1_MyHeroAcademiaAllsJustice_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "halloween",
@@ -2576,7 +2576,7 @@ noticias: [
     imagen: null,
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "bus-simulator-27",
@@ -2591,7 +2591,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2397320/da4a57428bac72569d83afcd0b7f5878c97a17f5/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "culdcept-the-first-saturn-tribute",
@@ -2607,7 +2607,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3825600/058ef0f166d563386455044c10c2bba3a5dc9842/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "barbarian-saga-the-beastmaster",
@@ -2622,7 +2622,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2459840/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "screenbound",
@@ -2637,7 +2637,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2805070/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "the-legend-of-heroes-trails-from-zero",
@@ -2654,7 +2654,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1668510/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "the-legend-of-heroes-trails-to-azure",
@@ -2671,7 +2671,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1668520/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "brokenlore-dont-lie",
@@ -2686,7 +2686,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886200/314dd0b895a2b7ef7591e11ad77c6434535cac91/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "touhou-koumakyou-new-classic",
@@ -2701,7 +2701,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4659620/e1fc78d7ff003b772b8637de6440c541c25fa0b9/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "marvels-wolverine",
@@ -2716,7 +2716,7 @@ noticias: [
     imagen: null,
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "runescape-dragonwilds",
@@ -2733,7 +2733,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/6f6bba2ddccb49f3a0abb831684ca085e453c721/header_alt_assets_3.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "destroy-all-humans-2-reprobed",
@@ -2750,7 +2750,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266700/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "fire-emblem-fortunes-weave",
@@ -2765,7 +2765,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fireemblemfortunesweave/1x1_NSwitch2_FireEmblemFortunesWeave_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "trails-in-the-sky-2nd-chapter",
@@ -2780,7 +2780,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4225980/4d0a1769f70fbdd8d1d84d0ce06c21bb5c2d0790/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "another-eden-begins",
@@ -2795,7 +2795,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4163960/e8636d3c8e4b1f1ca1385c260b805e1d501b6a6f/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "trine-6-together-in-time",
@@ -2810,7 +2810,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2932260/dc0f3dfe24ec2e83b5cf40680c29bc5034798534/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "akiba-lost",
@@ -2825,7 +2825,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131220/fd7c66f078eca6d2eba04cf046d1228874a3280f/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "lego-batman-legacy-of-the-dark-knight",
@@ -2840,7 +2840,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/legobatmanlegacyofthedarkknight/1x1_LegoBatmanLegacyOfTheDarkKnight_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "moomintroll-winters-warmth",
@@ -2857,7 +2857,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "paperhead",
@@ -2872,7 +2872,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "the-grinch-2-saving-christmas",
@@ -2887,7 +2887,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470930/5a48a77a95da5e2c72b16041e1f0631f6929b7ff/header_spanish.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "dune-awakening",
@@ -2904,7 +2904,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "control-resonant",
@@ -2919,7 +2919,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/1e0c76e4253d347bb1304c3f213570251d924edf/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "silent-hill-townfall",
@@ -2934,7 +2934,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636440/0ed1cb4bc30631f95b92f7f13bb06c15d49b4afa/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "hot-wheels-infinite-rush",
@@ -2949,7 +2949,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2821390/fcc8da12187b981034dd54170d47b45db8e22b8e/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "harvest-moon-echoes-of-teradea",
@@ -2964,7 +2964,7 @@ noticias: [
     imagen: null,
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "dragon-quest-xi-echoes-of-an-elusive-age",
@@ -2981,7 +2981,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295510/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "garfield-escape-from-monday",
@@ -2996,7 +2996,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932790/4969712a29cab096dbde9f232ee78e4c7c1cffab/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "shinobi-art-of-vengeance",
@@ -3013,7 +3013,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2361770/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "farming-camp",
@@ -3028,7 +3028,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2985880/91adc9cde42db816c8ba8b71835c8cf0b7a10701/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "minecraft-dungeons-2",
@@ -3043,7 +3043,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1912410/86cbba83c1aaffa0b0efa4197ce29c2264ea9dc2/header.jpg",
     gamepass: true,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "viractal",
@@ -3059,7 +3059,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909580/3be0683f48f4db94e0f0ae6b74ab7ad22f3e57a1/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "kong-survivor-instinct",
@@ -3076,7 +3076,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2769080/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-16"
   },
   {
     id: "bioeden",
@@ -3091,7 +3091,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265840/81615550cc55212146a1ee944f49b9c8eaf354b8/header_alt_assets_2.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "star-racer",
@@ -3108,7 +3108,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2626120/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "hashire-hebereke-ex",
@@ -3125,7 +3125,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948110/4cfdcb8418f4df2fe83bf8986ea4cb5284886826/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "nba-2k27",
@@ -3140,7 +3140,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "ova-magica",
@@ -3156,7 +3156,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299170/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "roman-sands-rebuild",
@@ -3171,7 +3171,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231460/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "two-point-hospital-full-health-collection",
@@ -3194,7 +3194,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "sniper-dan",
@@ -3209,7 +3209,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2841650/9eea1ad77a3e0e9c474a24d867a72a03b71d4dd6/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "artis-impact",
@@ -3226,7 +3226,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1864000/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "maestro",
@@ -3250,7 +3250,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "qliphah-in-providences-shadow",
@@ -3265,7 +3265,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3882410/745b2097fe9e77528e290ff60e34e2afafdcf3d6/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "ea-sports-fc-27",
@@ -3280,7 +3280,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/05d419a45653a1299ce46d13dbff4533fa076c1c/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "crimson-moon",
@@ -3297,7 +3297,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317690/c916d5a4804f2599a82f093191ccf8abc0e4a840/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "kernel-hearts",
@@ -3314,7 +3314,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "rogue-reigns",
@@ -3331,7 +3331,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3942630/a5493f4fd7553fec47d4067cb55f7720898aa7e3/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "star-ocean-the-second-story-r",
@@ -3355,7 +3355,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "quarantine-zone-the-last-check",
@@ -3379,7 +3379,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "console-archives-hercules-no-eikou-ii",
@@ -3394,7 +3394,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesherculesnoeikouiitaitannometsubou/1x1_ConsoleArchivesHerculesNoEikouIITaitanNoMetsubou_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "the-life-and-suffering-of-sir-brante",
@@ -3418,7 +3418,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "dispatch",
@@ -3442,7 +3442,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "volcano-princess",
@@ -3459,7 +3459,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669980/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "neko-odyssey",
@@ -3475,7 +3475,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2476350/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "obakeidoro-2-chase-seek",
@@ -3490,7 +3490,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/obakeidoro2chaseseek_1/1x1_Obakeidoro2ChaseSeek_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "skatesterre",
@@ -3505,7 +3505,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224220/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "lady-death-demonicron",
@@ -3520,7 +3520,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954890/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-21"
   },
   {
     id: "rayman-legends-retold",
@@ -3535,7 +3535,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4084710/4fc23980ce04f33d7dc91bf38d74591ec00015cb/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "dynasty-warriors-3-complete-edition-remastered",
@@ -3551,7 +3551,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841510/3e4981c87cb8674a9668424e3560d1144d736ed5/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "octopath-traveler-i-ii-bundle",
@@ -3567,7 +3567,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/octopathtraveleroctopathtraveleriibundle/1x1_OctopathTravelerOctopathTravelerIIBundle_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "ace-combat-8-wings-of-theve",
@@ -3582,7 +3582,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "gears-of-war-e-day",
@@ -3597,7 +3597,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/library_600x900.jpg",
     gamepass: true,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "star-wars-galactic-racer",
@@ -3612,7 +3612,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/97215eb609882139ce6a28419116be23fcf5ac86/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "disney-epic-mickey-rebrushed",
@@ -3629,7 +3629,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1522160/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "clive-barkers-hellraiser-revival",
@@ -3644,7 +3644,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "echo-weaver",
@@ -3659,7 +3659,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184080/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "hell-is-us",
@@ -3676,7 +3676,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1620730/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "earth-defense-force-5",
@@ -3693,7 +3693,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1007040/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "the-crew-motorfest",
@@ -3710,7 +3710,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "once-upon-a-katamari",
@@ -3727,7 +3727,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1880620/3130e431c760a34165ee6f40e1896e54fbb1eccb/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "mamon-king",
@@ -3742,7 +3742,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030290/c056fd9a3f833519ceee832f44db6de1ece49693/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "dragons-dogma-2-dark-arisen",
@@ -3759,7 +3759,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dragonsdogma2darkarisen/1x1_DragonsDogma2DarkArisen_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "valor-mortis",
@@ -3774,7 +3774,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "planet-zoo-2",
@@ -3789,7 +3789,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/a5131aa4b84d04a55e3b9c561d7c886cc22bbe1c/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "spongebob-titans-of-the-tide",
@@ -3806,7 +3806,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2479650/9777cfcff9ac80398fa63cf2a8ae238438e59000/header_spanish.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "castlevania-belmonts-curse",
@@ -3821,7 +3821,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/6b65aec2c398006aea8b76e1463cc34d0e4ba68b/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "enshrouded",
@@ -3838,7 +3838,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "tormented-souls-2",
@@ -3855,7 +3855,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2464280/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "toy-story-3-complete-edition",
@@ -3871,7 +3871,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4049180/8d4e4c2c303b6bca383f7d3473400236096fbca2/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "tales-of-eternia-remastered",
@@ -3887,7 +3887,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470960/d66b38dc92c325a41f5dec3ecc8dfa1404563b47/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "tenebris-somnia",
@@ -3902,7 +3902,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "final-fantasy-resonance",
@@ -3917,7 +3917,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "nintendo-switch-sports-resort",
@@ -3932,7 +3932,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nintendoswitchsportsresort/1x1_NSwitch2_NintendoSwitchSportsResort_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "azure-striker-gunvolt-trilogy-enhanced",
@@ -3948,7 +3948,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3813350/9f7aee4e3ee92cc7ccdd452aa276fdfd3b711d6f/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "back-to-the-dawn",
@@ -3965,7 +3965,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1735700/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "one-piece-grand-gourmet",
@@ -3980,7 +3980,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/0437aa2ef308bd35d40833de72c3dac04a24f067/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "phantom-blade-zero",
@@ -3995,7 +3995,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/5930310dc5f043a1df400d9dc70ddb43843480fc/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "anomalith",
@@ -4010,7 +4010,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4017880/45d7c2e8181b52c4229fb0afbdb17ec7fe894d41/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-24"
   },
   {
     id: "soma",
@@ -4034,7 +4034,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "gothic-classic",
@@ -4057,7 +4057,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "bokura",
@@ -4081,7 +4081,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "parkasaurus",
@@ -4105,7 +4105,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "pro-jank-footy",
@@ -4120,7 +4120,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "yet-another-zombie-survivors",
@@ -4137,7 +4137,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "aliens-fireteam-elite-2",
@@ -4152,7 +4152,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "final-fantasy-xiv-online",
@@ -4180,7 +4180,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "is-this-seat-taken",
@@ -4197,7 +4197,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3035120/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "mai-child-of-ages",
@@ -4215,7 +4215,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499550/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "007-first-light",
@@ -4232,7 +4232,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/project007/1x1_007FirstLight_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "toem-2",
@@ -4249,7 +4249,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2900640/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "kyoto-xanadu",
@@ -4266,7 +4266,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4449410/242441aa29ff46770ca930f90e758a5f89e8ec04/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "little-witch-in-the-woods",
@@ -4285,7 +4285,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "solo-leveling-arise-overdrive",
@@ -4302,7 +4302,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2373990/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "no-rest-for-the-wicked",
@@ -4321,7 +4321,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "neverway",
@@ -4338,7 +4338,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2318330/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "mxgp-26",
@@ -4355,7 +4355,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634190/92e6ac99739bd346ec51d8a02744fe1b8b7e8386/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "dayz-badlands",
@@ -4372,7 +4372,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3816030/a14cce662d9a779789852279c1d2006e48a1cb03/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-27"
   },
   {
     id: "grand-theft-auto-vi",
@@ -4404,7 +4404,7 @@ noticias: [
     ],
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "call-of-duty-modern-warfare-4",
@@ -4419,7 +4419,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "steins-gate-reboot-consolas",
@@ -4435,7 +4435,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012810/07418d40a3fdd2f403bfa506f50051f4254fa02a/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "cotton-reboot",
@@ -4451,7 +4451,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1656820/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "hello-kitty-party-land",
@@ -4466,7 +4466,7 @@ noticias: [
     imagen: "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/rxvnwbdxlwjo5sjwjmzu",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "the-cat-in-the-hat-rainy-day-mayhem",
@@ -4481,7 +4481,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3465710/e957091eca3f2f41bdf684efca72d0257a57555b/header_spanish.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "goodboy-galaxy",
@@ -4498,7 +4498,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2705890/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "xenoblade-chronicles-3-switch-2",
@@ -4515,7 +4515,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechronicles3nintendoswitch2edition/1x1_XenobladeChronicles3_NS2Edition_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "dragon-quest-monsters-the-withered-world",
@@ -4530,7 +4530,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681610/b9aef398ba1695e8a4873626419524b2c37d6c0f/header_spanish.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "sombras-negative-frames",
@@ -4545,7 +4545,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4553370/7ed7b71347ff7c568456fdea0afb29c92c2ec6b5/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-30"
   },
   {
     id: "metaphor-refantazio",
@@ -4562,7 +4562,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "godzilla-destroy-all-monsters-melee-remastered",
@@ -4578,7 +4578,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251460/80c3cf07d56568b2aa1875d6c23b0fafb7b2eb11/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "hasbro-games-junior-collection",
@@ -4593,7 +4593,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4124830/6e17603906fa26e24d4f859f781803d68d7769a8/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "barbie-rewind",
@@ -4608,7 +4608,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4082030/58beeb27ced499b9010c24cbc8c6ee0c24e67cad/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-28"
   },
   {
     id: "turok-origins",
@@ -4625,7 +4625,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967610/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "professor-layton-nuevo-mundo-a-vapor",
@@ -4642,7 +4642,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/1x1_NSwitch_ProfessorLaytonAndTheNewWorldOfSteam_esES_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "mariachi-legends",
@@ -4659,7 +4659,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2376260/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "the-wolf-among-us-remastered",
@@ -4677,7 +4677,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3884860/80ddd096b6fdd5ab25162251bee4131c78cdf351/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "hela-of-mice-and-magic",
@@ -4694,7 +4694,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "broken-sword-parzivals-stone",
@@ -4711,7 +4711,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2546810/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "blighted",
@@ -4728,7 +4728,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2974160/3219b03cf5dc3d9162dd203f1309678695e2c40e/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "aeterna-lucis",
@@ -4745,7 +4745,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2710920/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "tenet-of-the-spark",
@@ -4762,7 +4762,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2565010/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "bestiario",
@@ -4779,7 +4779,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2760720/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "sublustrum",
@@ -4796,7 +4796,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151300/dc3cbace799aa0d780c6c5bf7520d69d7d1b9fed/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "golf-with-your-friends-2",
@@ -4813,7 +4813,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3209660/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "thief-the-dark-project-remastered",
@@ -4831,7 +4831,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4200960/20321014a4a5a0b71c8c70648eb37eef249466b1/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "chronoscript-the-endless-end",
@@ -4848,7 +4848,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018380/cbcda181d33d22c472357dc913a3f6f3f4e7e241/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "hunting-simulator-3",
@@ -4865,7 +4865,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482760/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "attack-on-titan-3",
@@ -4882,7 +4882,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2916700/86ab8f2c17c9ba112ca8ba30cc7a78785f50333e/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "village-in-the-shade",
@@ -4899,7 +4899,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3934250/249570c99b6528f64c49459f96311d4404667bca/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "tomo-endless-blue",
@@ -4916,7 +4916,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3301510/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "stage-tour",
@@ -4933,7 +4933,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4452700/0bc15634ab643670224c71d673dd8640600a0e09/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "no-more-room-in-hell-2",
@@ -4949,7 +4949,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "akatori",
@@ -4965,7 +4965,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442520/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "creepshow",
@@ -4980,7 +4980,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3462650/8f16d53464320fece97408c752e71db707f0ef60/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "gallipoli",
@@ -4995,7 +4995,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/3ee3f9540ec1100225c9e3ab2f4028c133b0f226/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "mexican-ninja",
@@ -5010,7 +5010,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764970/824f4a5e7665ce9394f2d58e12d71e41636d467d/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "over-requiemz",
@@ -5025,7 +5025,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/overrequiemz/1x1_OverRequiemz_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "blood-dungeon",
@@ -5040,7 +5040,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431080/3efcaa1643c79273ce9ece71c3dd4a7b71f1cb74/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "fractured-worlds",
@@ -5055,7 +5055,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1879860/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "speedrunners-2-king-of-speed",
@@ -5070,7 +5070,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3183760/6c227ae4c5d0c9d44c38b4cac5915682be0b1ddb/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "exstetra",
@@ -5085,7 +5085,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251710/541a9fb52daf490826151e9c463448a2a7365e62/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "nascar-26",
@@ -5100,7 +5100,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4883590/36e029011e47a7fbf54d788eb18a0e0683e923ef/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "kingdom-hearts-collection",
@@ -5115,7 +5115,7 @@ noticias: [
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kingdomheartscollectioni_iii/1x1_KingdomHeartsCollectionI_III_image500w.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "silver-pines",
@@ -5130,7 +5130,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "forever-ago",
@@ -5145,7 +5145,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215940/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "sesame-street-amigos-y-risas",
@@ -5160,7 +5160,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930330/cd60211759658ad9032d6b4950dbb29df2da1262/header_spanish.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-07-31"
   },
   {
     id: "avatar-legends-the-fighting-game-xbox",
@@ -5176,7 +5176,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-08-01"
   },
   {
     id: "paw-patrol-dino-world-switch-2",
@@ -5192,7 +5192,7 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3525790/2697199371a6effb9498ba1ee1017c4287dc563b/header_spanish.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-08-01"
   },
   {
     id: "cloverpit",
@@ -5208,6 +5208,6 @@ noticias: [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    nuevo: true
+    alta: "2026-08-04"
   }
 ];

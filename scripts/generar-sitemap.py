@@ -53,10 +53,17 @@ def lastmod(clave, contenido):
     return fecha
 
 
+# El campo alta (fecha en que el juego entró al calendario) no cambia nada de lo
+# que se ve en la página, así que no debe mover el lastmod: si entrara en la huella,
+# el día que se agregó ese campo Google leería que las 304 URLs cambiaron a la vez.
+def sin_ruido(texto):
+    return re.sub(r'\n\s*alta: "[^"]*",?', "", texto)
+
+
 def url(ruta, contenido, changefreq, priority):
     return f"""  <url>
     <loc>{DOMINIO}{ruta}</loc>
-    <lastmod>{lastmod(ruta, contenido)}</lastmod>
+    <lastmod>{lastmod(ruta, sin_ruido(contenido))}</lastmod>
     <changefreq>{changefreq}</changefreq>
     <priority>{priority}</priority>
   </url>"""

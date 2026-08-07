@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-07T12:27:45+00:00",
+ "generado": "2026-08-07T12:43:34+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-07",
@@ -30,7 +30,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/the-elder-scrolls-iv-oblivion-remastered"
   },
   {
@@ -54,7 +54,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/c4fc47c7e6ece14e438f0957d066dc9ab2a3412a/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/grounded-2"
   },
   {
@@ -80,7 +80,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/no-more-room-in-hell-2"
   },
   {
@@ -103,7 +103,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-27",
    "url": "https://lanzamientos.lat/juegos/pro-jank-footy"
   },
   {
@@ -130,7 +130,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442520/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/akatori"
   },
   {
@@ -153,7 +153,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/f17f8f31c30ca7f8603b125502e00c0c542c6677/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/duskfade"
   },
   {
@@ -176,7 +176,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/2e52f99e70e827b57a2205469dc5d529e8e0490a/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/hell-let-loose-vietnam"
   },
   {
@@ -198,7 +198,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094660/25ca531e261b1217387bbf4a039623002f233287/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/rivage"
   },
   {
@@ -221,7 +221,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1921490/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/wild-blue-skies"
   },
   {
@@ -244,7 +244,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4208140/131479ec2e41016e6baf82b98c2106abc562c095/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/defender-of-the-crown-the-legend-returns"
   },
   {
@@ -268,7 +268,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1416230/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/panzer-knights-commanders-edition"
   },
   {
@@ -293,7 +293,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226530/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/tower-dominion"
   },
   {
@@ -317,7 +317,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224220/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-21",
    "url": "https://lanzamientos.lat/juegos/skatesterre"
   },
   {
@@ -343,7 +343,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3462650/8f16d53464320fece97408c752e71db707f0ef60/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/creepshow"
   },
   {
@@ -370,7 +370,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-08-04",
    "url": "https://lanzamientos.lat/juegos/cloverpit"
   },
   {
@@ -392,7 +392,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4492700/590a6171df42da28880a583d61ffdc6482783caf/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/mafia-the-old-country-man-of-honor"
   },
   {
@@ -415,7 +415,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/the-sinking-city-2"
   },
   {
@@ -439,7 +439,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676840/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/no-case-should-remain-unsolved"
   },
   {
@@ -462,7 +462,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029740/61bd4edcfe96b8f158100a92fb2b11d9778fd24a/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-09",
    "url": "https://lanzamientos.lat/juegos/puppergeist",
    "noticias": [
     {
@@ -491,7 +491,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/379616e6d986dc4b75d0d5ace6ec99b7c5184fef/header_alt_assets_1_spanish.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/mortal-shell-2",
    "noticias": [
     {
@@ -520,7 +520,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012810/07418d40a3fdd2f403bfa506f50051f4254fa02a/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/steins-gate-reboot"
   },
   {
@@ -545,7 +545,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-27",
    "url": "https://lanzamientos.lat/juegos/yet-another-zombie-survivors"
   },
   {
@@ -569,7 +569,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/3ee3f9540ec1100225c9e3ab2f4028c133b0f226/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/gallipoli"
   },
   {
@@ -592,7 +592,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764970/824f4a5e7665ce9394f2d58e12d71e41636d467d/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/mexican-ninja"
   },
   {
@@ -614,7 +614,7 @@
    "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/overrequiemz/1x1_OverRequiemz_image500w.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/over-requiemz"
   },
   {
@@ -639,7 +639,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2139460/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/once-human"
   },
   {
@@ -662,7 +662,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3956980/dfa0188de0188d3bca2a64bc9def2acd04990bd6/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/apidya-special"
   },
   {
@@ -685,7 +685,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-27",
    "url": "https://lanzamientos.lat/juegos/aliens-fireteam-elite-2"
   },
   {
@@ -710,7 +710,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431080/3efcaa1643c79273ce9ece71c3dd4a7b71f1cb74/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/blood-dungeon"
   },
   {
@@ -732,7 +732,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1879860/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/fractured-worlds"
   },
   {
@@ -756,7 +756,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211430/f31f9d5047355f830df9dfb1031847fc83cd0e52/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/brigandine-abyss"
   },
   {
@@ -778,7 +778,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2713000/fd497979801c646561040243e1aa64a73d11f13a/header.jpg",
    "gamepass": true,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy",
    "noticias": [
     {
@@ -807,7 +807,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2075800/2c7d5dad080c4888faaa03c4a955136c50f5bfae/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/star-wars-zero-company"
   },
   {
@@ -831,7 +831,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3859630/31d5f5ef4a143bf915429e307f37cab6e2939678/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2"
   },
   {
@@ -856,7 +856,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864290/7232956a2bf056785a2e5ebf6685407da00361a9/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/aggelos-2"
   },
   {
@@ -879,7 +879,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/e344d3d0514147e82f1fee043f7439523feffba6/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/kalanoro"
   },
   {
@@ -903,7 +903,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/elden-ring-switch-2"
   },
   {
@@ -927,7 +927,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172910/714df3514b1166414caef8c31b092f5786e8245d/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/captain-tsubasa-2-world-fighters"
   },
   {
@@ -950,7 +950,7 @@
    "imagen": null,
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/flying-fire-shark-toaplan-arcade-garage"
   },
   {
@@ -973,7 +973,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954890/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-21",
    "url": "https://lanzamientos.lat/juegos/lady-death-demonicron"
   },
   {
@@ -997,7 +997,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/a7062f3b59d491c2678e3fd7ce2672858e480641/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/the-blood-of-dawnwalker"
   },
   {
@@ -1017,7 +1017,7 @@
    "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/orbitals/1x1_Orbitals_new_image500w.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/orbitals"
   },
   {
@@ -1040,7 +1040,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3650170/a19c8f25ba08f13fc2088f6106365189fb0158e8/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/marsupilami-2-salsa-palombia"
   },
   {
@@ -1063,7 +1063,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/wo-long-fallen-dynasty"
   },
   {
@@ -1087,7 +1087,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265840/81615550cc55212146a1ee944f49b9c8eaf354b8/header_alt_assets_2.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/bioeden"
   },
   {
@@ -1112,7 +1112,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2626120/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/star-racer"
   },
   {
@@ -1136,7 +1136,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948110/4cfdcb8418f4df2fe83bf8986ea4cb5284886826/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/hashire-hebereke-ex"
   },
   {
@@ -1160,7 +1160,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3183760/6c227ae4c5d0c9d44c38b4cac5915682be0b1ddb/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/speedrunners-2-king-of-speed"
   },
   {
@@ -1184,7 +1184,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251710/541a9fb52daf490826151e9c463448a2a7365e62/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/exstetra"
   },
   {
@@ -1207,7 +1207,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-08-01",
    "url": "https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox"
   },
   {
@@ -1230,7 +1230,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/onimusha-way-of-the-sword"
   },
   {
@@ -1252,7 +1252,7 @@
    "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/myheroacademiaallsjustice/1x1_MyHeroAcademiaAllsJustice_image500w.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/my-hero-academia-alls-justice"
   },
   {
@@ -1275,7 +1275,7 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg",
    "gamepass": false,
    "psplus": false,
-   "nuevo": true,
+   "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/nba-2k27"
   }
  ]

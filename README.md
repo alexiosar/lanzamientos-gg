@@ -83,7 +83,7 @@ Editar `datos/juegos.js` y agregar un objeto al array `JUEGOS`:
   ],
   gamepass: false,               // true muestra el badge GAME PASS
   psplus: false,                 // true muestra el badge PS PLUS
-  nuevo: true                    // true muestra ★ NUEVO (solo se ve en juegos que aún no salieron)
+  alta: "2026-08-07"             // día que entró al calendario; lo sella actualizar.py solo
 }
 ```
 
@@ -280,8 +280,18 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
   si el sistema tiene apariencia automática); al tocar el botón, esa elección se guarda en
   localStorage y manda sobre el sistema. El tema claro es blanco puro con su propia paleta
   de acentos oscurecidos para mantener el contraste.
-- **★ NUEVO**: marca juegos recién agregados al calendario, pero solo se muestra si el juego
-  todavía no salió (en los ya disponibles se apaga sola).
+- **★ NUEVO**: marca los juegos que entraron al calendario en los últimos 7 días, y solo si
+  todavía no salieron (en los ya disponibles se apaga sola). Sale del campo `alta`, que
+  `actualizar.py` sella con la fecha del día en cualquier juego que aparezca sin él.
+
+  Hasta el 07/08/2026 esto era un booleano `nuevo` que se ponía a mano al cargar el juego y
+  que nadie apagaba nunca: terminó encendido en 283 de 292 juegos, o sea que la estrella
+  estaba en casi todo el calendario y no distinguía nada. Las fechas de alta de los 292
+  juegos se recuperaron del historial de git, así que son reales y no una fecha inventada.
+
+  El campo `alta` queda fuera de la huella con la que `generar-sitemap.py` calcula `lastmod`:
+  no cambia nada de lo que se ve en la página, y si entrara en la huella el día que se agregó
+  el campo Google habría leído que las 304 URLs cambiaron a la vez.
 
 ## Difusión: RSS y datos abiertos
 

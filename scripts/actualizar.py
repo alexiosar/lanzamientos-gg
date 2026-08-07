@@ -55,6 +55,7 @@ def main():
             "sin_duracion": "duracion:" not in cuerpo,
             "sin_noticias": "noticias:" not in cuerpo,
             "relanzamiento": "relanzamiento:" in cuerpo,
+            "alta": (re.search(r'alta: "([^"]+)"', cuerpo) or [None, ""])[1],
             "rel_texto": (re.search(r'relanzamiento: "([^"]*)"', cuerpo) or [None, ""])[1],
         })
 
@@ -97,10 +98,24 @@ def main():
     if not aplicados:
         print("  (sin puntajes nuevos)")
 
+    # 1 bis) Fecha de alta de los juegos cargados a mano desde la última corrida.
+    # El badge ★ NUEVO sale de este campo, así que si nadie lo sella el juego
+    # entra al calendario sin marcar. Se pone hoy, que es cuando se cargó.
+    selladas = 0
+    sin_alta = [j["id"] for j in juegos if not j["alta"]]
+    if sin_alta:
+        print(f"\n── Sellando fecha de alta: {len(sin_alta)} juego(s) nuevo(s) ──")
+        for gid in sin_alta:
+            patron = re.compile(r'(id: "' + re.escape(gid) + r'",.*?)(\n  \})', re.S)
+            src, n = patron.subn(lambda m: m.group(1).rstrip() + f',\n    alta: "{hoy}"' + m.group(2), src, count=1)
+            if n:
+                print(f"  + {gid} → {hoy}")
+                selladas += 1
+
     for gid, score in aplicados.items():
         patron = re.compile(r'(id: "' + re.escape(gid) + r'",.*?)metacritic: null,', re.S)
         src = patron.sub(lambda m: m.group(1) + f"metacritic: {score},", src, count=1)
-    if aplicados:
+    if aplicados or selladas:
         ARCHIVO.write_text(src, encoding="utf-8")
 
     # 2) Regenerar
