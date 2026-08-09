@@ -379,6 +379,12 @@ en este archivo y en la sección "Fuentes de datos habituales".
    Las de **un juego** van en su campo `noticias` dentro de `datos/juegos.js`; las que **no
    cuelgan de un lanzamiento** (PS Plus y Game Pass del mes, un Direct, un cierre de estudio)
    van en `datos/noticias.js`. La página `/noticias` mezcla las dos y las ordena por fecha.
+
+   `actualizar.py` recuerda al final cuántas noticias propias hay y hace cuánto se cargó la
+   última. Lo que conviene mirar, en este orden: **retrasos** (son lo que más se busca y lo
+   que más le importa a un calendario: además de la noticia, hay que corregir la fecha del
+   juego), **Directs y State of Play**, y los **juegos del mes** de PS Plus y Game Pass.
+   Si no pasó nada que valga la pena, no se fuerza: una entrada floja vale menos que ninguna.
 3. `python3 scripts/post-diario.py` — imprime tres opciones de posteo para X y Bluesky
    (lanzamientos del día, lo que viene en la semana, cuenta regresiva) con el conteo de
    caracteres de cada red. No publica nada: se elige una, se copia y se pega. Correrlo

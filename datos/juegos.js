@@ -2813,6 +2813,13 @@ noticias: [
     trailer: "https://youtube.com/embed/Rl5_C4sc5zk",
     metacritic: null,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fireemblemfortunesweave/1x1_NSwitch2_FireEmblemFortunesWeave_image500w.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-04",
+        titulo: "EL DIRECT DESTAPÓ QUIÉN ES EL PROTAGONISTA DE VERDAD",
+        texto: "No es ninguno de los cuatro héroes que se muestran: es un personaje sin nombre que la diosa Sothis invoca cinco años en el futuro, con el mundo ya arrasado, y que vuelve al pasado para reunirlos. Se elige uno de los cuatro para empezar y después se puede saltar entre ellos para ver las historias en paralelo. El sistema de combate es el de Three Houses y suma las Blaze Arts, que se pagan con vida propia."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"

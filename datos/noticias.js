@@ -21,6 +21,15 @@
 
 const NOTICIAS = [
   {
+    id: "direct-fire-emblem-agosto-2026",
+    fecha: "2026-08-04",
+    categoria: "EVENTOS",
+    titulo: "UN DIRECT ENTERO PARA FIRE EMBLEM: FORTUNE'S WEAVE",
+    texto: "Nintendo le dedicó veinte minutos a un solo juego. Se supo que la historia arranca con cuatro héroes compitiendo en los Juegos Heroicos de Dagsion, pero que el protagonista real es un héroe sin nombre que Sothis invoca cinco años en el futuro, con el mundo ya destruido, y que viaja al pasado para juntarlos. Se elige a uno de los cuatro y se puede cambiar de personaje sobre la marcha para ver las historias en paralelo. El combate es el de Three Houses, con una vuelta nueva: las Blaze Arts, ataques especiales que se pagan con vida propia en lugar de con durabilidad del arma. Sale el 17 de septiembre, solo en Switch 2.",
+    fuente: "https://www.nintendo.com/us/nintendo-direct/8-4-2026/",
+    juegos: ["fire-emblem-fortunes-weave"]
+  },
+  {
     id: "game-pass-agosto-2026",
     fecha: "2026-08-04",
     categoria: "SUSCRIPCIONES",

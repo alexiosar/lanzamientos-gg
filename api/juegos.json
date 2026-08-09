@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-09T20:17:13+00:00",
+ "generado": "2026-08-09T20:27:23+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 292,
@@ -3979,7 +3979,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/fire-emblem-fortunes-weave"
+   "url": "https://lanzamientos.lat/juegos/fire-emblem-fortunes-weave",
+   "noticias": [
+    {
+     "fecha": "2026-08-04",
+     "titulo": "EL DIRECT DESTAPÓ QUIÉN ES EL PROTAGONISTA DE VERDAD",
+     "texto": "No es ninguno de los cuatro héroes que se muestran: es un personaje sin nombre que la diosa Sothis invoca cinco años en el futuro, con el mundo ya arrasado, y que vuelve al pasado para reunirlos. Se elige uno de los cuatro para empezar y después se puede saltar entre ellos para ver las historias en paralelo. El sistema de combate es el de Three Houses y suma las Blaze Arts, que se pagan con vida propia."
+    }
+   ]
   },
   {
    "id": "trails-in-the-sky-2nd-chapter",

@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Sun, 09 Aug 2026 20:17:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 20:27:23 +0000</lastBuildDate>
     <item>
       <title>ARTIS IMPACT: PREMIADO EN BITSUMMIT Y EN LOS RPG MAKER AWARDS</title>
       <link>https://lanzamientos.lat/juegos/artis-impact</link>
@@ -62,6 +62,13 @@
       <guid isPermaLink="false">kynseed-2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
       <description>El original de PC de 2022 promedia 89 en Metacritic y ahora llega a las cinco consolas con los controles y la interfaz rehechos. Es un simulador de vida con una vuelta poco común: cuando tu personaje envejece y muere, seguís con sus hijos, y las decisiones arrastran consecuencias a lo largo de varias generaciones. — KYNSEED para PS5 / PS4 / XBOX / SWITCH.</description>
+    </item>
+    <item>
+      <title>FIRE EMBLEM: FORTUNE'S WEAVE: EL DIRECT DESTAPÓ QUIÉN ES EL PROTAGONISTA DE VERDAD</title>
+      <link>https://lanzamientos.lat/juegos/fire-emblem-fortunes-weave</link>
+      <guid isPermaLink="false">fire-emblem-fortunes-weave-2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+      <description>No es ninguno de los cuatro héroes que se muestran: es un personaje sin nombre que la diosa Sothis invoca cinco años en el futuro, con el mundo ya arrasado, y que vuelve al pasado para reunirlos. Se elige uno de los cuatro para empezar y después se puede saltar entre ellos para ver las historias en paralelo. El sistema de combate es el de Three Houses y suma las Blaze Arts, que se pagan con vida propia. — FIRE EMBLEM: FORTUNE'S WEAVE para SWITCH 2.</description>
     </item>
     <item>
       <title>FINAL FANTASY XIV ONLINE: YA DISPONIBLE EN SWITCH 2</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">forever-skies-2026-07-27</guid>
       <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
       <description>El survival en primera persona sobre una Tierra posapocalíptica debutó en consola con recepción moderada. — FOREVER SKIES para XBOX.</description>
-    </item>
-    <item>
-      <title>K-POP IDOL STORIES: ROAD TO DEBUT: DEBUT FLOJO: 58 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/k-pop-idol-stories-road-to-debut</link>
-      <guid isPermaLink="false">k-pop-idol-stories-road-to-debut-2026-07-24</guid>
-      <pubDate>Fri, 24 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El simulador de manager de K-pop tuvo una recepción tibia de la crítica en su llegada a consolas. — K-POP IDOL STORIES: ROAD TO DEBUT para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

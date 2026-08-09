@@ -158,6 +158,23 @@ def main():
     if not sin_noticias:
         print("    (ninguno)")
 
+    # Las noticias propias (retrasos, Directs, PS Plus/Game Pass) no las puede
+    # detectar el script: no salen de datos/juegos.js. Se recuerdan acá para que
+    # la rutina diaria no se limite a lo que ya está cargado.
+    propias = RAIZ / "datos" / "noticias.js"
+    cuantas = len(re.findall(r'\n    id: "', propias.read_text(encoding="utf-8"))) if propias.exists() else 0
+    ultima = "—"
+    if cuantas:
+        fechas = re.findall(r'fecha: "(\d{4}-\d{2}-\d{2})"', propias.read_text(encoding="utf-8"))
+        if fechas:
+            ultima = max(fechas)
+            dias = (datetime.date.fromisoformat(hoy) - datetime.date.fromisoformat(ultima)).days
+            ultima = f"{ultima} (hace {dias} día{'s' if dias != 1 else ''})"
+    print("\n── Noticias propias (datos/noticias.js) ──")
+    print(f"  Cargadas: {cuantas}  |  última: {ultima}")
+    print("  ¿Pasó algo que no cuelgue de un lanzamiento? Retrasos, un Direct o State of")
+    print("  Play, PS Plus o Game Pass del mes. Si no pasó nada, no se fuerza.")
+
     print("\n═══ Siguiente paso: noticias (si hay), commit y deploy ═══")
 
 
