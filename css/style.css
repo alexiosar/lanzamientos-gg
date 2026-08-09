@@ -1010,20 +1010,33 @@ a:hover { color: var(--blanco); }
   .btn-tema { width: 40px; height: 40px; }
   .juego-fila { padding-top: 10px; padding-bottom: 10px; }
 
-  /* ── FILAS DEL CALENDARIO Y DE "PRÓXIMOS 7 DÍAS" EN PANTALLA CHICA ──
-     Las dos filas son flex con wrap. Con el min-width de 160px del nombre no
-     entraba todo en un renglón, así que las plataformas saltaban a una línea
-     nueva que arrancaba en el borde izquierdo, debajo de la miniatura: unas
-     filas quedaban de 60px con los chips a la derecha y otras de 94px con los
-     chips tirados abajo a la izquierda. */
+  /* ── LISTAS EN PANTALLA CHICA ──
+     Las tres listas (calendario, próximos 7 días y ranking) son filas flex con
+     wrap. En 375px no entra todo en un renglón, y lo que sobraba saltaba a una
+     línea nueva pegada al borde izquierdo, debajo de la miniatura: la fila
+     dejaba de leerse como una unidad y ninguna quedaba igual a la anterior.
 
-  /* El nombre puede achicarse y partirse en dos renglones; así los chips nunca
-     saltan de línea y quedan alineados en todas las filas. */
-  .juego-fila .juego-nombre { min-width: 0; }
+     Dejar que el nombre se achique tampoco servía: con tres plataformas el
+     título quedaba en una caja de 43px (PARKASAURUS, DUSKFADE).
 
-  /* La fila de próximos tiene cuatro columnas y no entra en un renglón ni
-     achicando el nombre: pasa a grilla, con la miniatura fija a la izquierda,
-     la fecha y el título arriba, y las plataformas debajo. */
+     La regla, igual para las tres: miniatura fija a la izquierda y una columna
+     de texto a la derecha con el nombre arriba y las plataformas debajo,
+     alineadas con el nombre. Así el título siempre tiene el ancho completo de
+     su columna y los chips nunca compiten con él. */
+
+  .juego-fila {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 0.75rem;
+    row-gap: 0.35rem;
+    align-items: center;
+  }
+
+  .juego-fila > .mini-portada { grid-column: 1; grid-row: 1 / span 2; }
+  .juego-fila > .juego-nombre { grid-column: 2; grid-row: 1; min-width: 0; }
+  .juego-fila > .plataformas  { grid-column: 2; grid-row: 2; }
+
+  /* La de próximos suma la fecha, que va arriba junto al nombre. */
   .proximos-fila {
     display: grid;
     grid-template-columns: 40px auto 1fr;
@@ -1037,27 +1050,25 @@ a:hover { color: var(--blanco); }
   .proximos-fila .juego-nombre { grid-column: 3; grid-row: 1; min-width: 0; }
   .proximos-fila .plataformas  { grid-column: 2 / span 2; grid-row: 2; }
 
-  /* El ranking es el peor caso: seis columnas (posición, miniatura, puntaje,
-     nombre, fecha y plataformas). Se partía en tres renglones y no siempre en
-     el mismo lugar: la posición, la miniatura y el puntaje quedaban solos
-     arriba y el resto caía debajo, así que la fila no se leía como una unidad.
-     Pasa a dos renglones fijos: arriba la identificación del juego, abajo las
-     plataformas a la izquierda y la fecha a la derecha. Las plataformas ocupan
-     el ancho completo, así entran cuatro chips en un solo renglón. */
+  /* El ranking suma la posición y el puntaje. El puntaje pasa al extremo
+     derecho del primer renglón: es el dato que ordena la lista y así no le
+     roba ancho a la columna de texto. */
   .ranking-fila {
     display: grid;
-    grid-template-columns: auto 40px auto 1fr auto;
+    grid-template-columns: auto 40px 1fr auto;
     column-gap: 0.6rem;
-    row-gap: 0.4rem;
+    row-gap: 0.35rem;
     align-items: center;
   }
 
-  .ranking-fila .ranking-pos      { grid-column: 1; grid-row: 1; }
-  .ranking-fila .mini-portada     { grid-column: 2; grid-row: 1; }
-  .ranking-fila .badge-metacritic { grid-column: 3; grid-row: 1; }
-  .ranking-fila .juego-nombre     { grid-column: 4 / span 2; grid-row: 1; min-width: 0; }
-  .ranking-fila .plataformas      { grid-column: 1 / span 4; grid-row: 2; }
-  .ranking-fila .ranking-fecha    { grid-column: 5; grid-row: 2; justify-self: end; }
+  .ranking-fila .ranking-pos      { grid-column: 1; grid-row: 1 / span 2; }
+  .ranking-fila .mini-portada     { grid-column: 2; grid-row: 1 / span 2; }
+  .ranking-fila .juego-nombre     { grid-column: 3; grid-row: 1; min-width: 0; }
+  .ranking-fila .badge-metacritic { grid-column: 4; grid-row: 1; justify-self: end; }
+  .ranking-fila .plataformas      { grid-column: 3; grid-row: 2; }
+  /* align-self start para que la fecha quede a la altura del primer renglón de
+     chips y no flotando en el medio cuando un multiplataforma ocupa dos. */
+  .ranking-fila .ranking-fecha    { grid-column: 4; grid-row: 2; justify-self: end; align-self: start; }
   .buscador { padding: 10px 12px; }
   .nav a { padding: 6px 2px; display: inline-block; }
 }
