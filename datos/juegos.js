@@ -2047,7 +2047,7 @@ noticias: [
     trailer: "https://youtube.com/embed/P33pMKtwmLE",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2934220/4cb4bcd77b5844de95aebf6c74cc066b0220f2f4/header.jpg",
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-07-14"
   },
@@ -2127,7 +2127,7 @@ noticias: [
     trailer: "https://youtube.com/embed/63fCwf6GfMM",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/c4fc47c7e6ece14e438f0957d066dc9ab2a3412a/header.jpg",
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-07-14"
   },

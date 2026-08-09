@@ -1,0 +1,234 @@
+#!/usr/bin/env python3
+"""Genera noticias.html: todas las novedades del sitio en una sola página.
+
+Mezcla dos fuentes y las ordena por fecha, de la más nueva a la más vieja:
+
+  1. El campo `noticias` de cada juego en datos/juegos.js — puntajes de debut,
+     retrasos de un título concreto, ediciones especiales.
+  2. datos/noticias.js — las que no cuelgan de un lanzamiento: juegos mensuales
+     de PS Plus y Game Pass, Directs, cierres de estudios.
+
+Se genera estática (no con JavaScript en el navegador) porque el objetivo es
+que Google la indexe: es la única parte del sitio que da una razón para volver
+más de una vez por mes, y sólo sirve si se encuentra desde el buscador.
+
+Uso (desde la raíz del proyecto):
+    python3 scripts/generar-noticias.py
+
+Se regenera con la rutina diaria (scripts/actualizar.py lo invoca).
+"""
+import datetime
+import html as html_mod
+import json
+import re
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parent.parent
+DOMINIO = "https://lanzamientos.lat"
+MESES_ES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO",
+            "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"]
+
+# Cuántas mostrar. Con 97 y subiendo, volcarlas todas haría una página larguísima
+# que además tarda en cargar. Las viejas siguen accesibles desde la ficha de su
+# juego, que es donde tienen sentido.
+TOPE = 60
+
+
+def e(t):
+    return html_mod.escape(str(t), quote=True)
+
+
+def leer_juegos():
+    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
+    inicio, fin = src.index("["), src.rindex("]") + 1
+    # datos/juegos.js es JavaScript, no JSON: las claves van sin comillas
+    cuerpo = re.sub(r'(\n\s*)([a-zA-Z_][a-zA-Z0-9_]*):', r'\1"\2":', src[inicio:fin])
+    return json.loads(cuerpo)
+
+
+def leer_noticias_propias():
+    archivo = RAIZ / "datos" / "noticias.js"
+    if not archivo.exists():
+        return []
+    src = archivo.read_text(encoding="utf-8")
+    inicio = src.index("const NOTICIAS = [") + len("const NOTICIAS = ")
+    fin = src.index("\n];", inicio) + 2
+    cuerpo = re.sub(r'(\n\s*)([a-zA-Z_][a-zA-Z0-9_]*):', r'\1"\2":', src[inicio:fin])
+    return json.loads(cuerpo)
+
+
+def recolectar():
+    """Devuelve todas las noticias, de la más nueva a la más vieja."""
+    juegos = {j["id"]: j for j in leer_juegos()}
+    items = []
+
+    for j in juegos.values():
+        for n in j.get("noticias") or []:
+            items.append({
+                "fecha": n["fecha"],
+                "titulo": n["titulo"],
+                "texto": n["texto"],
+                "categoria": "JUEGOS",
+                "juegos": [j["id"]],
+                "fuente": None,
+            })
+
+    for n in leer_noticias_propias():
+        items.append({
+            "fecha": n["fecha"],
+            "titulo": n["titulo"],
+            "texto": n["texto"],
+            "categoria": n.get("categoria", "ANUNCIOS"),
+            "juegos": n.get("juegos") or [],
+            "fuente": n.get("fuente"),
+        })
+
+    # a igual fecha, primero las propias: son las que ordenan el día
+    items.sort(key=lambda x: (x["fecha"], x["categoria"] == "JUEGOS"), reverse=True)
+    return items, juegos
+
+
+def fecha_larga(iso):
+    y, m, d = map(int, iso.split("-"))
+    return f"{d:02d} {MESES_ES[m - 1][:3]} {y}"
+
+
+def tarjeta(n, juegos):
+    enlaces = "".join(
+        f'<a class="noticia-juego" href="/juegos/{g}">{e(juegos[g]["titulo"])}</a>'
+        for g in n["juegos"] if g in juegos)
+    fuente = (f'<a class="noticia-fuente" href="{e(n["fuente"])}" rel="nofollow noopener" '
+              f'target="_blank">FUENTE ↗</a>') if n.get("fuente") else ""
+    return f'''      <article class="noticia">
+        <div class="noticia-meta">
+          <time datetime="{n["fecha"]}">{fecha_larga(n["fecha"])}</time>
+          <span class="noticia-cat cat-{n["categoria"].lower()}">{e(n["categoria"])}</span>
+        </div>
+        <h2 class="noticia-titulo">{e(n["titulo"])}</h2>
+        <p class="noticia-texto">{e(n["texto"])}</p>
+        <div class="noticia-pie">{enlaces}{fuente}</div>
+      </article>'''
+
+
+def generar():
+    items, juegos = recolectar()
+    visibles = items[:TOPE]
+    anio = datetime.date.today().year
+    descripcion = ("Novedades de los lanzamientos de videojuegos en español: puntajes de estreno, "
+                   "retrasos, y qué entra cada mes a PlayStation Plus y Xbox Game Pass.")
+
+    cuerpo = "\n".join(tarjeta(n, juegos) for n in visibles)
+
+    return f'''<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{e(descripcion)}">
+  <title>Noticias de Videojuegos {anio} — Novedades y Lanzamientos | LANZAMIENTOS.LAT</title>
+  <link rel="canonical" href="{DOMINIO}/noticias">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LANZAMIENTOS.LAT">
+  <meta property="og:title" content="Noticias de Videojuegos {anio} — LANZAMIENTOS.LAT">
+  <meta property="og:description" content="{e(descripcion)}">
+  <meta property="og:url" content="{DOMINIO}/noticias">
+  <meta property="og:image" content="{DOMINIO}/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .pagina-titulo   {{ font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }}
+    .pagina-sub      {{ font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 2rem; }}
+    .noticias        {{ max-width: 720px; }}
+    .noticia         {{ border-left: 2px solid var(--gris-3); padding: 0 0 1.5rem 1.25rem; margin-bottom: 1.5rem; }}
+    .noticia:hover   {{ border-left-color: var(--acento); }}
+    .noticia-meta    {{ display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.4rem; }}
+    .noticia-meta time {{ font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; }}
+    .noticia-cat     {{ font-size: 0.625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 7px; color: var(--gris-6); border-color: var(--gris-4); }}
+    .cat-suscripciones {{ color: var(--xbox); border-color: var(--xbox); }}
+    .cat-retrasos    {{ color: var(--switch); border-color: var(--switch); }}
+    .cat-anuncios    {{ color: var(--ps5); border-color: var(--ps5); }}
+    .cat-eventos     {{ color: var(--amarillo); border-color: var(--amarillo); }}
+    .noticia-titulo  {{ font-size: 0.875rem; color: var(--blanco); letter-spacing: 1px; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.5; }}
+    .noticia-texto   {{ font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; margin-bottom: 0.6rem; }}
+    .noticia-pie     {{ display: flex; gap: 0.5rem; flex-wrap: wrap; }}
+    .noticia-juego   {{ font-size: 0.6875rem; letter-spacing: 1px; border: 1px solid var(--gris-4); color: var(--gris-6); padding: 2px 8px; }}
+    .noticia-juego:hover {{ border-color: var(--acento); color: var(--acento); }}
+    .noticia-fuente  {{ font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); padding: 2px 8px; }}
+    .noticia-fuente:hover {{ color: var(--acento); }}
+    .volver          {{ display: inline-block; font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }}
+    .volver:hover    {{ color: var(--acento); }}
+    .noticias-pie    {{ font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 1px; line-height: 1.9; border-top: 1px solid var(--gris-2); padding-top: 1rem; margin-top: 1rem; }}
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor">
+      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
+      <a href="/" class="site-logo">LANZAMIENTOS.LAT</a>
+      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
+      <nav class="nav">
+        <a href="/">INICIO</a>
+        <a href="/noticias" class="activo">NOTICIAS</a>
+        <a href="/ps5">PS5</a>
+        <a href="/xbox">XBOX</a>
+        <a href="/switch-2">SWITCH 2</a>
+        <a href="/switch">SWITCH</a>
+        <a href="/ps4">PS4</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
+    <h1 class="pagina-titulo">NOTICIAS</h1>
+    <p class="pagina-sub">PUNTAJES DE ESTRENO · RETRASOS · PS PLUS Y GAME PASS</p>
+
+    <div class="noticias">
+{cuerpo}
+      <p class="noticias-pie">Se muestran las {len(visibles)} novedades más recientes de {len(items)}.
+        Las anteriores siguen en la ficha de cada juego.<br>
+        También salen por <a href="/rss.xml">RSS</a>.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
+      <span>LANZAMIENTOS.LAT &copy; {anio}</span>
+      <span class="footer-links"><a href="/acerca">ACERCA DE</a> · <a href="/api">API</a> · <a href="/widget">WIDGET</a> · <a href="/privacidad">PRIVACIDAD</a> · <a href="/terminos">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTema() {{
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }}
+    function aplicarTema(claro) {{
+      document.documentElement.classList.toggle("tema-claro", claro);
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+    }}
+    const temaGuardado = localStorage.getItem("tema");
+    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
+    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
+    sistemaClaro.addEventListener("change", ev => {{
+      if (!localStorage.getItem("tema")) aplicarTema(ev.matches);
+    }});
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");
+  </script>
+</body>
+</html>
+'''
+
+
+if __name__ == "__main__":
+    items, _ = recolectar()
+    (RAIZ / "noticias.html").write_text(generar(), encoding="utf-8")
+    print(f"noticias.html generada: {min(len(items), TOPE)} de {len(items)} novedades")

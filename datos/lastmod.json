@@ -1,18 +1,18 @@
 {
  "/": {
-  "hash": "ac9777236af277a1",
+  "hash": "54064a621de07762",
   "lastmod": "2026-08-09"
  },
  "/acerca": {
-  "hash": "15c38315e0d1dee3",
+  "hash": "8c917f3c3c44d2a3",
   "lastmod": "2026-08-09"
  },
  "/api": {
-  "hash": "dd10303e6616d99f",
+  "hash": "b0edab0b039a6724",
   "lastmod": "2026-08-09"
  },
  "/archivo": {
-  "hash": "20dd92dd8f782527",
+  "hash": "b99db7daae11dec9",
   "lastmod": "2026-08-09"
  },
  "/juegos/007-first-light": {
@@ -448,8 +448,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/grounded-2": {
-  "hash": "50964cef5db6bd21",
-  "lastmod": "2026-07-29"
+  "hash": "2249866febaee18f",
+  "lastmod": "2026-08-09"
  },
  "/juegos/gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection": {
   "hash": "4447f6677a76c744",
@@ -656,8 +656,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/monsters-are-coming": {
-  "hash": "4cfc9ff62c402b4e",
-  "lastmod": "2026-08-07"
+  "hash": "b53963f7b8b49515",
+  "lastmod": "2026-08-09"
  },
  "/juegos/montabi": {
   "hash": "1777ff87ca78118c",
@@ -1183,36 +1183,40 @@
   "hash": "72cdb08e043fda27",
   "lastmod": "2026-07-29"
  },
+ "/noticias": {
+  "hash": "b92ffd3be143bdf6",
+  "lastmod": "2026-08-09"
+ },
  "/privacidad": {
-  "hash": "7fc865d4fa8a8248",
+  "hash": "9e5397117ef12c50",
   "lastmod": "2026-08-09"
  },
  "/ps4": {
-  "hash": "ac9777236af277a1",
+  "hash": "54064a621de07762",
   "lastmod": "2026-08-09"
  },
  "/ps5": {
-  "hash": "ac9777236af277a1",
+  "hash": "54064a621de07762",
   "lastmod": "2026-08-09"
  },
  "/switch": {
-  "hash": "ac9777236af277a1",
+  "hash": "54064a621de07762",
   "lastmod": "2026-08-09"
  },
  "/switch-2": {
-  "hash": "ac9777236af277a1",
+  "hash": "54064a621de07762",
   "lastmod": "2026-08-09"
  },
  "/terminos": {
-  "hash": "e2ff9f999066173e",
+  "hash": "5fc25a87892ec8b0",
   "lastmod": "2026-08-09"
  },
  "/widget": {
-  "hash": "37d0e43e73e9374f",
+  "hash": "31d197c6a452b467",
   "lastmod": "2026-08-09"
  },
  "/xbox": {
-  "hash": "ac9777236af277a1",
+  "hash": "54064a621de07762",
   "lastmod": "2026-08-09"
  }
 }

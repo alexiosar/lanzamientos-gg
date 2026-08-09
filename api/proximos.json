@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-09T20:00:50+00:00",
+ "generado": "2026-08-09T20:17:13+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-09",
@@ -52,7 +52,7 @@
    "trailer": "https://youtube.com/embed/63fCwf6GfMM",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/c4fc47c7e6ece14e438f0957d066dc9ab2a3412a/header.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/grounded-2"

@@ -376,11 +376,30 @@ en este archivo y en la sección "Fuentes de datos habituales".
    sitemap, y reporta: debuts con puntaje, lanzamientos de hoy/mañana (candidatos a
    noticias) y faltantes. Este paso no necesita a Claude.
 2. Cargar noticias de los lanzamientos del día y eventos (debuts, Game Pass, betas).
+   Las de **un juego** van en su campo `noticias` dentro de `datos/juegos.js`; las que **no
+   cuelgan de un lanzamiento** (PS Plus y Game Pass del mes, un Direct, un cierre de estudio)
+   van en `datos/noticias.js`. La página `/noticias` mezcla las dos y las ordena por fecha.
 3. `python3 scripts/post-diario.py` — imprime tres opciones de posteo para X y Bluesky
    (lanzamientos del día, lo que viene en la semana, cuenta regresiva) con el conteo de
    caracteres de cada red. No publica nada: se elige una, se copia y se pega. Correrlo
    **después** de cargar las noticias, así el texto sale con los datos del día.
 4. Commit y deploy.
+
+**Mensual, además — suscripciones:**
+
+Esto no lo cubre ningún script y es el agujero por el que se escapó Big Walk: durante meses
+el calendario tuvo **292 juegos y cero con el badge de PS Plus**, y tres juegos de agosto
+entraban a Game Pass el día del estreno sin tenerlo marcado. Los servicios anuncian una vez
+por mes y hay que ir a buscarlo:
+
+- **PS Plus**, a fin de mes: [blog.latam.playstation.com](https://blog.latam.playstation.com/).
+  Los juegos mensuales se anuncian unos días antes de que empiecen.
+- **Game Pass**, dos veces por mes: [news.xbox.com](https://news.xbox.com/es-mx/).
+
+De cada anuncio salen dos cosas: marcar `psplus: true` o `gamepass: true` en los juegos del
+calendario que aparezcan (solo los que **se estrenan** en el servicio; el catálogo viejo no
+va, porque esto es un calendario de lanzamientos), y una entrada en `datos/noticias.js` con
+categoría `SUSCRIPCIONES`.
 
 **Semanal:**
 5. Barrido de releases.com de **todos los meses ya cargados en el calendario** (con Claude +

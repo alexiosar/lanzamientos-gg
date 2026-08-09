@@ -81,6 +81,11 @@ for pagina in ["ps5", "ps4", "xbox", "switch-2", "switch"]:
     urls.append(url(f"/{pagina}", src, "daily", "0.7"))
 
 # Páginas estáticas: la huella es su propio HTML
+# noticias cambia varias veces por semana, a diferencia del resto de las estáticas
+noticias = RAIZ / "noticias.html"
+urls.append(url("/noticias", noticias.read_text(encoding="utf-8") if noticias.exists() else "noticias",
+                "daily", "0.8"))
+
 for pagina in ["acerca", "api", "widget", "privacidad", "terminos", "archivo"]:
     archivo = RAIZ / f"{pagina}.html"
     contenido = archivo.read_text(encoding="utf-8") if archivo.exists() else pagina

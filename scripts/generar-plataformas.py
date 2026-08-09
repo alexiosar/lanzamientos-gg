@@ -57,7 +57,8 @@ def meta_clase(n):
 
 
 def nav_html(activa):
-    links = [f'<a href="/"{" " if activa else ""}>INICIO</a>']
+    links = [f'<a href="/"{" " if activa else ""}>INICIO</a>',
+             '<a href="/noticias">NOTICIAS</a>']
     for clave, archivo, corto, _ in PLATAFORMAS:
         act = ' class="activo"' if clave == activa else ""
         links.append(f'<a href="/{archivo.removesuffix(".html")}"{act}>{corto}</a>')
