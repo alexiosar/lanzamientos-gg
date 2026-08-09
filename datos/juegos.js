@@ -1951,12 +1951,17 @@ noticias: [
     noticias: [
       {
         fecha: "2026-08-04",
+        titulo: "ENTRA A PLAYSTATION PLUS EL MISMO DÍA QUE SALE",
+        texto: "Es uno de los tres juegos mensuales de PlayStation Plus de agosto, junto a Dying Light 2 Stay Human: Reloaded Edition y Signalis. Quien tenga la suscripción lo juega sin pagarlo aparte."
+      },
+      {
+        fecha: "2026-08-04",
         titulo: "93 EN METACRITIC: EL MEJOR PUNTUADO DE 2026",
         texto: "Debuta con 93 y se convierte en el juego mejor valorado de todo 2026, por encima de Forza Horizon 6, Resident Evil Requiem y Mina the Hollower. Es lo nuevo de House House, el estudio de Untitled Goose Game: un juego de caminar y charlar en primera persona para grupos de dos a doce personas. Los desarrolladores recomiendan jugarlo con el chat de voz por proximidad, y hay puzles diseñados para cuando el grupo se separa y deja de escucharse."
       }
     ],
     gamepass: false,
-    psplus: false,
+    psplus: true,
     alta: "2026-07-14"
   },
   {

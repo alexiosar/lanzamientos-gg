@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Sun, 09 Aug 2026 17:19:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 20:00:50 +0000</lastBuildDate>
     <item>
       <title>ARTIS IMPACT: PREMIADO EN BITSUMMIT Y EN LOS RPG MAKER AWARDS</title>
       <link>https://lanzamientos.lat/juegos/artis-impact</link>
@@ -41,6 +41,13 @@
       <guid isPermaLink="false">beast-of-reincarnation-2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
       <description>Cierra con 73 en Metacritic sobre más de cincuenta análisis, y el reparto es llamativo: la mitad positivos y la otra mitad mixtos, sin ninguno negativo. Vice le puso 9,5 sobre 10 y dijo que el combate no solo es innovador sino divertidísimo; Eurogamer y VGC le pusieron 6. Coinciden en elogiar el combate a base de parries y el vínculo entre Emma y Koo, y en criticar el ritmo del relato, la repetición y las caídas de imágenes por segundo. — BEAST OF REINCARNATION para XBOX / PS5.</description>
+    </item>
+    <item>
+      <title>BIG WALK: ENTRA A PLAYSTATION PLUS EL MISMO DÍA QUE SALE</title>
+      <link>https://lanzamientos.lat/juegos/big-walk</link>
+      <guid isPermaLink="false">big-walk-2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Es uno de los tres juegos mensuales de PlayStation Plus de agosto, junto a Dying Light 2 Stay Human: Reloaded Edition y Signalis. Quien tenga la suscripción lo juega sin pagarlo aparte. — BIG WALK para SWITCH 2 / PS5.</description>
     </item>
     <item>
       <title>BIG WALK: 93 EN METACRITIC: EL MEJOR PUNTUADO DE 2026</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">k-pop-idol-stories-road-to-debut-2026-07-24</guid>
       <pubDate>Fri, 24 Jul 2026 12:00:00 +0000</pubDate>
       <description>El simulador de manager de K-pop tuvo una recepción tibia de la crítica en su llegada a consolas. — K-POP IDOL STORIES: ROAD TO DEBUT para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>SPLATOON RAIDERS: DEBUTA CON 81, A LA ALTURA DE LA SAGA</title>
-      <link>https://lanzamientos.lat/juegos/splatoon-raiders</link>
-      <guid isPermaLink="false">splatoon-raiders-2026-07-23</guid>
-      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El primer spin-off de Splatoon salió con 81 sobre 66 reseñas, en línea con las entregas principales (Splatoon 1 sacó 81, y el 2 y el 3 un 83). La crítica destaca la sorprendente cantidad de contenido post-campaña. — SPLATOON RAIDERS para SWITCH 2.</description>
     </item>
   </channel>
 </rss>
