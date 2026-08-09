@@ -282,7 +282,7 @@ function renderRanking(juegos) {
       `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`
     ).join("");
     return `
-      <a class="ranking-fila" href="juegos/${j.id}.html">
+      <a class="ranking-fila" href="/juegos/${j.id}">
         <span class="ranking-pos">#${String(i + 1).padStart(2, "0")}</span>
         ${miniaturaHtml(j)}
         <span class="badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>
@@ -367,7 +367,7 @@ function fichaHtml(j) {
               ${j.trailer ? `<button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>` : ""}
               ${!j.estimado && diasHasta(j.fecha) > 0 ? `<button class="btn-trailer" onclick="agendarJuego('${j.id}', event)">◷ AGENDAR</button>` : ""}
               <button class="btn-trailer" onclick="compartirJuego('${j.id}', event)">⇗ COMPARTIR</button>
-              <a href="juegos/${j.id}.html" class="btn-trailer">+ INFO</a>
+              <a href="/juegos/${j.id}" class="btn-trailer">+ INFO</a>
             </div>
           </div>`;
 }
@@ -395,7 +395,7 @@ function renderGrilla(juegos) {
     const hoyTag = j.fecha === hoyKey ? `<span class="grilla-hoy">HOY</span>` : "";
 
     return `
-      <a class="grilla-item" href="juegos/${j.id}.html">
+      <a class="grilla-item" href="/juegos/${j.id}">
         <div class="grilla-marco">
           ${portada}
           ${badge}
@@ -477,7 +477,7 @@ function renderCalendario() {
   if (juegos.length === 0) {
     const hayEnArchivo = !MODO_ARCHIVO && juegosFiltrados().some(j => j.fecha.slice(0, 7) < mesActual);
     contenedor.innerHTML = `<div class="sin-resultados">// NO HAY JUEGOS PRÓXIMOS PARA ESTE FILTRO${
-      hayEnArchivo ? ` — <a href="archivo.html${window.location.search}">BUSCAR EN EL ARCHIVO →</a>` : ""}</div>`;
+      hayEnArchivo ? ` — <a href="/archivo${window.location.search}">BUSCAR EN EL ARCHIVO →</a>` : ""}</div>`;
     return;
   }
 
@@ -516,7 +516,7 @@ function renderCalendario() {
       idDestacado = dest.id;
       const f = parseFecha(dest.fecha);
       destacadoHtml = `
-      <a class="destacado" href="juegos/${dest.id}.html">
+      <a class="destacado" href="/juegos/${dest.id}">
         <img class="destacado-portada" src="${dest.imagen}" alt="Portada de ${dest.titulo}" onerror="sinCaratula(this,'ficha-portada portada-vacia')">
         <div class="destacado-info">
           <span class="destacado-tag">▸ PRÓXIMO DESTACADO</span>
@@ -554,7 +554,7 @@ function renderCalendario() {
           `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`
         ).join("");
         return `
-        <a class="proximos-fila" href="juegos/${j.id}.html">
+        <a class="proximos-fila" href="/juegos/${j.id}">
           ${miniaturaHtml(j)}
           <span class="proximos-dia">${dia}</span>
           <span class="juego-nombre">${j.titulo}</span>
@@ -567,7 +567,7 @@ function renderCalendario() {
   // link al archivo (solo en la portada, si hay meses pasados)
   const hayArchivo = !MODO_ARCHIVO && JUEGOS.some(j => j.fecha.slice(0, 7) < mesActual);
   const archivoHtml = hayArchivo
-    ? `<a class="link-archivo" href="archivo.html">≡ LANZAMIENTOS DE MESES ANTERIORES → VER ARCHIVO</a>`
+    ? `<a class="link-archivo" href="/archivo">≡ LANZAMIENTOS DE MESES ANTERIORES → VER ARCHIVO</a>`
     : "";
 
   contenedor.innerHTML = destacadoHtml + proximosHtml + archivoHtml + mesesOrdenados.map((mesKey, idx) => {

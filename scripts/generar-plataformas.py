@@ -57,10 +57,10 @@ def meta_clase(n):
 
 
 def nav_html(activa):
-    links = [f'<a href="index.html"{" " if activa else ""}>INICIO</a>']
+    links = [f'<a href="/"{" " if activa else ""}>INICIO</a>']
     for clave, archivo, corto, _ in PLATAFORMAS:
         act = ' class="activo"' if clave == activa else ""
-        links.append(f'<a href="{archivo}"{act}>{corto}</a>')
+        links.append(f'<a href="/{archivo.removesuffix(".html")}"{act}>{corto}</a>')
     return "\n        ".join(links)
 
 
@@ -93,7 +93,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
             mc = f'<span class="badge-metacritic {meta_clase(j["metacritic"])}" style="font-size:0.6875rem;">{j["metacritic"]}</span>' if j.get("metacritic") else ""
             mini = (f'<img class="mini-portada" src="{e(j["imagen"])}" alt="" loading="lazy" decoding="async">'
                     if j.get("imagen") else '<span class="mini-portada"></span>')
-            cuerpo.append(f'''<a class="fila-plat" href="juegos/{j["id"]}.html">
+            cuerpo.append(f'''<a class="fila-plat" href="/juegos/{j["id"]}">
         {mini}
         <span class="juego-nombre">{e(j["titulo"])}</span>
         {mc}
@@ -140,7 +140,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
   <header class="site-header">
     <div class="contenedor">
       <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
-      <a href="index.html" class="site-logo">LANZAMIENTOS.LAT</a>
+      <a href="/" class="site-logo">LANZAMIENTOS.LAT</a>
       <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
       <nav class="nav">
         {nav_html(clave)}
@@ -152,13 +152,13 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
     <h1 class="pagina-titulo">LANZAMIENTOS DE {largo.upper()}</h1>
     <p class="pagina-sub">FECHAS DE SALIDA CONFIRMADAS — {len(lista)} JUEGOS EN CALENDARIO</p>
     {"".join(cuerpo)}
-    <a class="link-filtros" href="index.html?plat={clave}">⚙ VER EN EL CALENDARIO INTERACTIVO (FILTROS Y BÚSQUEDA) →</a>
+    <a class="link-filtros" href="/?plat={clave}">⚙ VER EN EL CALENDARIO INTERACTIVO (FILTROS Y BÚSQUEDA) →</a>
   </main>
 
   <footer class="site-footer">
     <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
       <span>LANZAMIENTOS.LAT &copy; {anio}</span>
-      <span class="footer-links"><a href="acerca.html">ACERCA DE</a> · <a href="api.html">API</a> · <a href="widget.html">WIDGET</a> · <a href="privacidad.html">PRIVACIDAD</a> · <a href="terminos.html">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
+      <span class="footer-links"><a href="/acerca">ACERCA DE</a> · <a href="/api">API</a> · <a href="/widget">WIDGET</a> · <a href="/privacidad">PRIVACIDAD</a> · <a href="/terminos">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
       <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
     </div>
   </footer>

@@ -1,0 +1,4 @@
+# /juegos/ no es una página: es la carpeta de las fichas. Google la probó por su
+# cuenta al rastrear /juegos/<id> y se comió un 404. Se manda a la portada.
+/juegos/  /  301
+/juegos   /  301

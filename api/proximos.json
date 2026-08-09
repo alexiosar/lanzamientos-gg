@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-07T14:21:45+00:00",
+ "generado": "2026-08-09T17:19:43+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-07",
- "hasta": "2026-09-06",
- "total": 53,
+ "desde": "2026-08-09",
+ "hasta": "2026-09-08",
+ "total": 57,
  "juegos": [
   {
    "id": "the-elder-scrolls-iv-oblivion-remastered",
@@ -1287,6 +1287,103 @@
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/nba-2k27"
+  },
+  {
+   "id": "halloween",
+   "titulo": "HALLOWEEN",
+   "fecha": "2026-09-08",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "HORROR",
+    "MULTIJUGADOR",
+    "COOP"
+   ],
+   "desarrollador": "ILLFONIC",
+   "descripcion": "El juego asimétrico de IllFonic (Friday the 13th, Predator: Hunting Grounds) basado en la saga de terror: un jugador encarna a Michael Myers y el resto intenta sobrevivir a la noche de Halloween en Haddonfield.",
+   "trailer": "https://youtube.com/embed/ek1ePFp-nBI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219630/153ed105c4b409fe689783e4f9b6aad72c152646/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/halloween"
+  },
+  {
+   "id": "bus-simulator-27",
+   "titulo": "BUS SIMULATOR 27",
+   "fecha": "2026-09-08",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION"
+   ],
+   "desarrollador": "SIMTERACT",
+   "descripcion": "Conduce autobuses con licencia oficial de fabricantes de renombre y haz que tu empresa de autobuses triunfe. ¡El sistema de transporte público de Felicia Bay cuenta contigo!",
+   "trailer": "https://youtube.com/embed/q_Yy_EJPb3U",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2397320/da4a57428bac72569d83afcd0b7f5878c97a17f5/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/bus-simulator-27"
+  },
+  {
+   "id": "culdcept-the-first-saturn-tribute",
+   "titulo": "CULDCEPT: THE FIRST SATURN TRIBUTE",
+   "fecha": "2026-09-08",
+   "relanzamiento": "Reedición del original de Sega Saturn (1997); en PC desde julio de 2026",
+   "plataformas": [
+    "XBOX",
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "TABLERO",
+    "CARTAS",
+    "RETRO"
+   ],
+   "desarrollador": "CITY CONNECTION",
+   "descripcion": "La línea Saturn Tribute de City Connection rescata el Culdcept original de Sega Saturn: el clásico que fusionó los juegos de mesa y de cartas, con las comodidades modernas de las reediciones del estudio (rebobinado, guardado rápido y opciones de dificultad).",
+   "trailer": "https://youtube.com/embed/dCRqeEyaQCo",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3825600/058ef0f166d563386455044c10c2bba3a5dc9842/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/culdcept-the-first-saturn-tribute"
+  },
+  {
+   "id": "ova-magica",
+   "titulo": "OVA MAGICA",
+   "fecha": "2026-09-08",
+   "relanzamiento": "En PC desde mayo de 2026 — esta fecha corresponde a las ediciones de consola",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "SIMULACION",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "CLAUDIATHEDEV",
+   "descripcion": "Dejás atrás el estrés de la ciudad para empezar de nuevo en Pueblo Trébol: cultivás, hacés amigos y explorás acompañado de blobs, unas criaturas que podés criar, combinar y llevar al combate. Podés apuntar al romance o a convertirte en el mejor entrenador del pueblo.",
+   "trailer": "https://youtube.com/embed/nPSI0okfs5E",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299170/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/ova-magica"
   }
  ]
 }

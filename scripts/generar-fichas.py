@@ -44,8 +44,8 @@ def plat_label(p):
 
 
 def plat_slug(p):
-    return {"PS5": "ps5.html", "PS4": "ps4.html", "XBOX": "xbox.html",
-            "SWITCH2": "switch-2.html", "SWITCH": "switch.html"}.get(p, "index.html")
+    return {"PS5": "/ps5", "PS4": "/ps4", "XBOX": "/xbox",
+            "SWITCH2": "/switch-2", "SWITCH": "/switch"}.get(p, "/")
 
 
 def meta_clase(n):
@@ -105,7 +105,7 @@ def tarjeta_rel(o):
     plats = "".join(f'<span class="plat {plat_class(p)}">{plat_label(p)}</span>'
                     for p in o["plataformas"][:3])
     return f'''
-          <a class="rel-item" href="{o["id"]}.html">
+          <a class="rel-item" href="/juegos/{o["id"]}">
             {portada}
             <span class="rel-info">
               <span class="rel-titulo">{e(o["titulo"])}</span>
@@ -280,26 +280,26 @@ def generar(j, juegos):
   <header class="site-header">
     <div class="contenedor">
       <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
-      <a href="../index.html" class="site-logo">LANZAMIENTOS.LAT</a>
+      <a href="/" class="site-logo">LANZAMIENTOS.LAT</a>
       <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
       <nav class="nav">
-        <a href="../index.html">INICIO</a>
-        <a href="../ps5.html">PS5</a>
-        <a href="../xbox.html">XBOX</a>
-        <a href="../switch-2.html">SWITCH 2</a>
-        <a href="../switch.html">SWITCH</a>
-        <a href="../ps4.html">PS4</a>
+        <a href="/">INICIO</a>
+        <a href="/ps5">PS5</a>
+        <a href="/xbox">XBOX</a>
+        <a href="/switch-2">SWITCH 2</a>
+        <a href="/switch">SWITCH</a>
+        <a href="/ps4">PS4</a>
       </nav>
     </div>
   </header>
 
   <main class="contenedor">
     <div class="ficha-page">
-      <a href="../index.html" class="volver" id="volver">◀ VOLVER AL CALENDARIO</a>
+      <a href="/" class="volver" id="volver">◀ VOLVER AL CALENDARIO</a>
 
       <div class="breadcrumb">
-        <a href="../index.html">INICIO</a> &gt;
-        <a href="../{plat_slug(j["plataformas"][0])}">{plat_label(j["plataformas"][0])}</a> &gt;
+        <a href="/">INICIO</a> &gt;
+        <a href="{plat_slug(j["plataformas"][0])}">{plat_label(j["plataformas"][0])}</a> &gt;
         {e(j["titulo"])}
       </div>
 
@@ -359,7 +359,7 @@ def generar(j, juegos):
   <footer class="site-footer">
     <div class="contenedor" style="display:flex;justify-content:space-between;width:100%;flex-wrap:wrap;gap:.5rem;">
       <span>LANZAMIENTOS.LAT &copy; 2026</span>
-      <span class="footer-links"><a href="../acerca.html">ACERCA DE</a> · <a href="../api.html">API</a> · <a href="../widget.html">WIDGET</a> · <a href="../privacidad.html">PRIVACIDAD</a> · <a href="../terminos.html">TÉRMINOS</a> · <a href="../rss.xml">RSS</a></span>
+      <span class="footer-links"><a href="/acerca">ACERCA DE</a> · <a href="/api">API</a> · <a href="/widget">WIDGET</a> · <a href="/privacidad">PRIVACIDAD</a> · <a href="/terminos">TÉRMINOS</a> · <a href="../rss.xml">RSS</a></span>
       <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
     </div>
   </footer>

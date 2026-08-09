@@ -331,6 +331,17 @@ Sin redes sociales, la estrategia es que otros encuentren y enlacen el sitio:
 
 ## Nunca dejar URLs con `${...}` en el JavaScript
 
+**Los enlaces internos van sin `.html`.** El sitio se sirve en `/ps5` y `/juegos/<id>`;
+si un enlace apunta a `ps5.html`, Cloudflare responde con un **307** y Googlebot come una
+redirección en vez de llegar a la página. En agosto de 2026 eso puso 188 URLs en "Página con
+redirección" de Search Console. El 307 además es temporal, así que Google no consolida las
+señales como con una permanente, y no lo podemos cambiar: lo genera Cloudflare.
+Vale para `js/main.js`, los dos generadores y la navegación de las páginas estáticas.
+Se comprueba con: `grep -oh 'href="[^"]*\.html' juegos/*.html *.html` — tiene que dar vacío.
+
+Por eso la vista previa local usa `scripts/servidor-local.py` y no `python3 -m http.server`:
+hace falta un servidor que resuelva `/ps5` a `ps5.html`, como hace Cloudflare.
+
 Googlebot escanea el código JS en busca de enlaces y **rastrea literales sin evaluar**.
 Un `href="/juegos/${j.id}"` dentro de una plantilla, o un `"https://lanzamientos.lat/juegos/${id}"`
 en una función, termina generando 404 reales en Search Console
