@@ -34,12 +34,30 @@ def plat_label(p):
     return "SWITCH 2" if p == "SWITCH2" else p
 
 
+def leer_noticias_propias():
+    """Las de datos/noticias.js: PS Plus y Game Pass del mes, Directs, retrasos.
+
+    No cuelgan de ningún juego, así que no están en datos/juegos.js. Sin esto el
+    feed mostraría solo una parte de lo que se ve en /noticias.
+    """
+    archivo = RAIZ / "datos" / "noticias.js"
+    if not archivo.exists():
+        return []
+    src = archivo.read_text(encoding="utf-8")
+    inicio = src.index("const NOTICIAS = [") + len("const NOTICIAS = ")
+    fin = src.index("\n];", inicio) + 2
+    cuerpo = re.sub(r'(\n\s*)([a-zA-Z_][a-zA-Z0-9_]*):', r'\1"\2":', src[inicio:fin])
+    return json.loads(cuerpo)
+
+
 def generar_rss(juegos):
     # cada noticia es un item del feed, ordenadas de más nueva a más vieja
     items = []
     for j in juegos:
         for n in j.get("noticias") or []:
             items.append((n["fecha"], j, n))
+    for n in leer_noticias_propias():
+        items.append((n["fecha"], None, n))  # None = no es de un juego puntual
     items.sort(key=lambda x: x[0], reverse=True)
     items = items[:MAX_ITEMS]
 
@@ -48,13 +66,22 @@ def generar_rss(juegos):
     for fecha, j, n in items:
         y, m, d = map(int, fecha.split("-"))
         pub = datetime.datetime(y, m, d, 12, 0, tzinfo=datetime.timezone.utc)
-        enlace = f"{DOMINIO}/juegos/{j['id']}"
-        plats = " / ".join(plat_label(p) for p in j["plataformas"])
-        desc = f"{n['texto']} — {j['titulo']} para {plats}."
+        if j is None:
+            # noticia propia: no tiene ficha adonde apuntar, va a la página de novedades
+            enlace = f"{DOMINIO}/noticias"
+            titulo = escape(n["titulo"])
+            desc = n["texto"]
+            guid = n["id"]
+        else:
+            enlace = f"{DOMINIO}/juegos/{j['id']}"
+            plats = " / ".join(plat_label(p) for p in j["plataformas"])
+            titulo = f"{escape(j['titulo'])}: {escape(n['titulo'])}"
+            desc = f"{n['texto']} — {j['titulo']} para {plats}."
+            guid = f"{j['id']}-{fecha}"
         partes.append(f"""    <item>
-      <title>{escape(j['titulo'])}: {escape(n['titulo'])}</title>
+      <title>{titulo}</title>
       <link>{enlace}</link>
-      <guid isPermaLink="false">{j['id']}-{fecha}</guid>
+      <guid isPermaLink="false">{guid}</guid>
       <pubDate>{format_datetime(pub)}</pubDate>
       <description>{escape(desc)}</description>
     </item>""")

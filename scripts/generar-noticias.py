@@ -83,6 +83,13 @@ def recolectar():
             "fuente": n.get("fuente"),
         })
 
+    # Un id mal escrito en el campo `juegos` de datos/noticias.js no rompe nada:
+    # simplemente no se dibuja el enlace. Como eso es imposible de notar mirando la
+    # página, se avisa por consola.
+    huerfanos = sorted({g for n in items for g in n["juegos"] if g not in juegos})
+    if huerfanos:
+        print("  ⚠ ids que no existen en datos/juegos.js: " + ", ".join(huerfanos))
+
     # a igual fecha, primero las propias: son las que ordenan el día
     items.sort(key=lambda x: (x["fecha"], x["categoria"] == "JUEGOS"), reverse=True)
     return items, juegos
@@ -110,8 +117,7 @@ def tarjeta(n, juegos):
       </article>'''
 
 
-def generar():
-    items, juegos = recolectar()
+def generar(items, juegos):
     visibles = items[:TOPE]
     anio = datetime.date.today().year
     descripcion = ("Novedades de los lanzamientos de videojuegos en español: puntajes de estreno, "
@@ -229,6 +235,6 @@ def generar():
 
 
 if __name__ == "__main__":
-    items, _ = recolectar()
-    (RAIZ / "noticias.html").write_text(generar(), encoding="utf-8")
+    items, juegos = recolectar()
+    (RAIZ / "noticias.html").write_text(generar(items, juegos), encoding="utf-8")
     print(f"noticias.html generada: {min(len(items), TOPE)} de {len(items)} novedades")

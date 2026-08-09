@@ -17,6 +17,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               a mano: se regeneran con scripts/generar-fichas.py)
 ├── juegos/juego.html           Ficha dinámica (?id=) — solo fallback para links viejos
 ├── scripts/generar-fichas.py   Regenera las fichas estáticas desde juegos.js
+├── noticias.html               Todas las novedades en una página (generada, NO editar a mano)
+├── datos/noticias.js           Noticias que NO cuelgan de un lanzamiento (PS Plus, Directs…)
+├── scripts/generar-noticias.py Regenera noticias.html mezclando juegos.js y noticias.js
 ├── acerca.html                 Página "Acerca de" (qué es el sitio, fuentes, independencia)
 ├── privacidad.html             Política de privacidad
 ├── terminos.html               Términos de uso
@@ -173,12 +176,18 @@ Regenerar las fichas estáticas y el sitemap:
 
 ```
 python3 scripts/generar-fichas.py
+python3 scripts/generar-noticias.py
 python3 scripts/generar-sitemap.py
 ```
 
 Luego commit y deploy. Las fichas estáticas (`juegos/{id}.html`) contienen los datos
 renderizados, así que **cualquier** edición de datos (noticias, puntajes, trailers)
 requiere regenerarlas. El generador también borra las fichas de juegos eliminados.
+
+`generar-noticias.py` va en la lista porque `noticias.html` también sale de `juegos.js`:
+si se agrega una noticia a un juego y no se regenera, la ficha la muestra pero la página
+de novedades no. Lo mismo al tocar `datos/noticias.js`. La rutina diaria corre los cuatro
+generadores sola, así que esto sólo hace falta en una edición suelta.
 
 ## Funcionalidades
 
@@ -193,6 +202,33 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
 - **Juego destacado** en la portada: banner con el próximo lanzamiento notable (se elige
   solo: el futuro más cercano con noticias; si no hay, el más cercano con carátula), con
   carátula, fecha y cuenta regresiva. Se oculta al filtrar o buscar.
+- **Página de noticias** (`/noticias`): todas las novedades del sitio en una sola página,
+  ordenadas por fecha, cada una con enlace al juego del que habla. Mezcla dos fuentes: el
+  campo `noticias` de cada juego en `datos/juegos.js` (puntajes de estreno, ediciones,
+  retrasos de un título) y `datos/noticias.js` (lo que no cuelga de un lanzamiento). Se
+  muestran las 60 más recientes; las anteriores siguen en la ficha de su juego.
+
+  Es la única parte del sitio que da una razón para volver más de una vez por mes, así que
+  se genera **estática** y no con JavaScript: sólo sirve si Google la indexa. En el sitemap
+  va con `changefreq: daily` y prioridad 0.8, la segunda más alta después de la portada.
+
+  Formato de una entrada de `datos/noticias.js`:
+
+  ```js
+  {
+    id: "ps-plus-agosto-2026",   // va en la URL; minúsculas y guiones
+    fecha: "2026-07-28",         // la del anuncio, NO la del día que se carga
+    categoria: "SUSCRIPCIONES",  // SUSCRIPCIONES | RETRASOS | ANUNCIOS | EVENTOS
+    titulo: "…",                 // en mayúsculas, como el resto del sitio
+    texto: "…",                  // uno o dos párrafos
+    fuente: "https://…",         // siempre la oficial si existe; sale como "FUENTE ↗"
+    juegos: ["big-walk"]         // opcional: ids de juegos.js, se enlazan solos
+  }
+  ```
+
+  Los ids de `juegos` tienen que existir en `datos/juegos.js`: si no, el enlace no se dibuja
+  y la noticia queda huérfana sin avisar.
+
 - **Juegos sin fecha confirmada**: los anunciados para un mes o trimestre sin día exacto
   aparecen en un bloque "SIN FECHA CONFIRMADA" al final de su mes (borde punteado), con la
   ventana anunciada. No aparecen en "Próximos 7 días" ni como destacado, y sus fichas no
@@ -297,7 +333,8 @@ requiere regenerarlas. El generador también borra las fichas de juegos eliminad
 
 Sin redes sociales, la estrategia es que otros encuentren y enlacen el sitio:
 
-- **RSS** (`/rss.xml`): las últimas 40 noticias del calendario, para lectores de feeds,
+- **RSS** (`/rss.xml`): las últimas 40 novedades, mezclando las noticias de cada juego con
+  las propias de `datos/noticias.js`, para lectores de feeds,
   agregadores y bots. Enlazado con autodiscovery en el `<head>` de todas las páginas y
   desde el footer.
 - **API pública** (`/api/juegos.json` y `/api/proximos.json`): el calendario en JSON, con
@@ -508,7 +545,7 @@ y abrir http://localhost:8080
   confirmar; cargarlos con `estimado: true` cuando haya tiempo.
 - Difusión (idea pendiente del usuario): mails a medios y creadores en español desde
   contacto@lanzamientos.lat, y listados en directorios/GitHub. Sin redes sociales.
-- Página `/noticias.html` completa: solo si el sitio crece y las noticias se cargan seguido.
-  El bloque de novedades en portada quedó descartado (empuja el calendario hacia abajo).
+- El bloque de novedades en la portada quedó descartado (empuja el calendario hacia abajo).
+  La página `/noticias` sí se hizo, el 09/08/2026: ver "Funcionalidades".
 - Si algún día se cargan datos desde una API externa: escapar HTML antes de inyectar
   con `innerHTML` (hoy no hace falta porque los datos son propios).

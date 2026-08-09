@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Sun, 09 Aug 2026 20:27:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 20:42:20 +0000</lastBuildDate>
     <item>
       <title>ARTIS IMPACT: PREMIADO EN BITSUMMIT Y EN LOS RPG MAKER AWARDS</title>
       <link>https://lanzamientos.lat/juegos/artis-impact</link>
@@ -76,6 +76,20 @@
       <guid isPermaLink="false">final-fantasy-xiv-online-2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
       <description>Ya se puede jugar en Switch 2. El puntaje de referencia es el 86 de A Realm Reborn, la reconstrucción de 2013 que reemplazó al lanzamiento original de 2010, aquel que fue un fracaso tan grande que Square Enix terminó cerrando el juego para rehacerlo desde cero. — FINAL FANTASY XIV ONLINE para SWITCH 2.</description>
+    </item>
+    <item>
+      <title>UN DIRECT ENTERO PARA FIRE EMBLEM: FORTUNE'S WEAVE</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">direct-fire-emblem-agosto-2026</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Nintendo le dedicó veinte minutos a un solo juego. Se supo que la historia arranca con cuatro héroes compitiendo en los Juegos Heroicos de Dagsion, pero que el protagonista real es un héroe sin nombre que Sothis invoca cinco años en el futuro, con el mundo ya destruido, y que viaja al pasado para juntarlos. Se elige a uno de los cuatro y se puede cambiar de personaje sobre la marcha para ver las historias en paralelo. El combate es el de Three Houses, con una vuelta nueva: las Blaze Arts, ataques especiales que se pagan con vida propia en lugar de con durabilidad del arma. Sale el 17 de septiembre, solo en Switch 2.</description>
+    </item>
+    <item>
+      <title>LO QUE ENTRA A GAME PASS EN AGOSTO</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">game-pass-agosto-2026</guid>
+      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Diez juegos entre el 4 y el 18 de agosto. Tres ya están en el calendario y llegan al servicio el mismo día que salen: Beast of Reincarnation el 4, Monsters are Coming! el 6 y Grounded 2 el 11, este último en formato Game Preview. Aparte, la beta de Gears of War: E-Day está disponible desde el 6 para Ultimate y PC Game Pass. Del otro lado, el 15 se van cuatro: Atlas Fallen, Aliens: Fireteam Elite, Firewatch y Menace.</description>
     </item>
     <item>
       <title>BEAST OF REINCARNATION: SALE MAÑANA Y ENTRA EN GAME PASS EL PRIMER DÍA</title>
@@ -272,20 +286,6 @@
       <guid isPermaLink="false">gothic-classic-2026-07-28</guid>
       <pubDate>Tue, 28 Jul 2026 12:00:00 +0000</pubDate>
       <description>La reedición del clásico de Piranha Bytes de 2001 llegó hoy a consolas con buena recepción de la crítica. — GOTHIC CLASSIC para XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>TEETO: SÓLIDO DEBUT: 81 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/teeto</link>
-      <guid isPermaLink="false">teeto-2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El plataformas cooperativo de absorber y transformar objetos conquistó a la crítica con su creatividad y su modo a pantalla dividida. — TEETO para PS5 / SWITCH 2 / SWITCH.</description>
-    </item>
-    <item>
-      <title>FOREVER SKIES: LLEGA A XBOX CON 66 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/forever-skies</link>
-      <guid isPermaLink="false">forever-skies-2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
-      <description>El survival en primera persona sobre una Tierra posapocalíptica debutó en consola con recepción moderada. — FOREVER SKIES para XBOX.</description>
     </item>
   </channel>
 </rss>
