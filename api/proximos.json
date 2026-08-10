@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-09T20:42:20+00:00",
+ "generado": "2026-08-10T12:41:51+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-09",
- "hasta": "2026-09-08",
- "total": 57,
+ "desde": "2026-08-10",
+ "hasta": "2026-09-09",
+ "total": 58,
  "juegos": [
   {
    "id": "the-elder-scrolls-iv-oblivion-remastered",
@@ -31,7 +31,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/the-elder-scrolls-iv-oblivion-remastered"
+   "url": "https://lanzamientos.lat/juegos/the-elder-scrolls-iv-oblivion-remastered",
+   "noticias": [
+    {
+     "fecha": "2026-08-11",
+     "titulo": "EL JUEGO ENTERO ENTRA EN EL CARTUCHO",
+     "texto": "La edición física trae el juego completo en el cartucho, sin descarga obligatoria, y todas las versiones incluyen Shivering Isles, Knights of the Nine y el resto del contenido descargable. El port lo hizo Virtuos y suma control por movimiento, pantalla táctil y modo mouse. Apunta a 900p en portátil y 1080p en dock, siempre a 30 cuadros con DLSS: las pruebas previas al lanzamiento mostraron caídas por debajo de esa marca y un ritmo de cuadros irregular."
+    }
+   ]
   },
   {
    "id": "grounded-2",
@@ -52,10 +59,17 @@
    "trailer": "https://youtube.com/embed/63fCwf6GfMM",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/c4fc47c7e6ece14e438f0957d066dc9ab2a3412a/header.jpg",
-   "gamepass": true,
+   "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/grounded-2"
+   "url": "https://lanzamientos.lat/juegos/grounded-2",
+   "noticias": [
+    {
+     "fecha": "2026-08-11",
+     "titulo": "LLEGA EN ACCESO ANTICIPADO, NO TERMINADO",
+     "texto": "Ojo con esto: la versión de PS5 no es la 1.0, es el acceso anticipado que en Xbox y PC viene desde julio de 2025. Sale junto con la actualización Into the Abyss y mantiene el juego cruzado con las otras plataformas."
+    }
+   ]
   },
   {
    "id": "no-more-room-in-hell-2",
@@ -81,7 +95,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/no-more-room-in-hell-2"
+   "url": "https://lanzamientos.lat/juegos/no-more-room-in-hell-2",
+   "noticias": [
+    {
+     "fecha": "2026-08-11",
+     "titulo": "SALE DEL ACCESO ANTICIPADO Y DEBUTA EN CONSOLAS",
+     "texto": "Después de dos años en acceso anticipado en PC llega la 1.0, y es la primera vez que la saga pisa una consola. La versión final suma el modo Supervivencia para ocho jugadores, un modo en solitario sin muerte permanente, tutorial guiado, misiones semanales y un mapa nuevo, Raven Rock. Cuesta 29,99 dólares, con 20% de descuento de salida en las tiendas de PlayStation y Xbox, y hay juego cruzado entre todas las plataformas."
+    }
+   ]
   },
   {
    "id": "pro-jank-footy",
@@ -1384,6 +1405,29 @@
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/ova-magica"
+  },
+  {
+   "id": "barbarian-saga-the-beastmaster",
+   "titulo": "BARBARIAN SAGA: THE BEASTMASTER",
+   "fecha": "2026-09-09",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "DORMIDIN STUDIO",
+   "descripcion": "Un clásico Metroidvania de acción en 2D dibujado a mano ¡Es hora de vengarse! Usa tus habilidades de Beastmaster para dar rienda suelta a la bestia que llevas dentro, lucha con tu espada devoradora de corazones y acaba con la amenaza que se cierne sobre Arborea, tú decides el final.",
+   "trailer": "https://youtube.com/embed/LdcJGAqCDZA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2459840/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/barbarian-saga-the-beastmaster"
   }
  ]
 }

@@ -34,7 +34,7 @@ const NOTICIAS = [
     fecha: "2026-08-04",
     categoria: "SUSCRIPCIONES",
     titulo: "LO QUE ENTRA A GAME PASS EN AGOSTO",
-    texto: "Diez juegos entre el 4 y el 18 de agosto. Tres ya están en el calendario y llegan al servicio el mismo día que salen: Beast of Reincarnation el 4, Monsters are Coming! el 6 y Grounded 2 el 11, este último en formato Game Preview. Aparte, la beta de Gears of War: E-Day está disponible desde el 6 para Ultimate y PC Game Pass. Del otro lado, el 15 se van cuatro: Atlas Fallen, Aliens: Fireteam Elite, Firewatch y Menace.",
+    texto: "Diez juegos entre el 4 y el 18 de agosto. Dos están en el calendario y llegan al servicio el mismo día que salen: Beast of Reincarnation el 4 y Monsters are Coming! el 6. Grounded 2 entra el 11 en formato Game Preview, pero en Xbox y PC: la fecha que figura en el calendario es la de su debut en PS5, que no tiene nada que ver con el servicio. Aparte, la beta de Gears of War: E-Day está disponible desde el 6 para Ultimate y PC Game Pass. Del otro lado, el 15 se van cuatro: Atlas Fallen, Aliens: Fireteam Elite, Firewatch y Menace.",
     fuente: "https://news.xbox.com/es-mx/",
     juegos: ["beast-of-reincarnation", "monsters-are-coming", "grounded-2", "gears-of-war-e-day"]
   },

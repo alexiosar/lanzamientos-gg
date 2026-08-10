@@ -2110,6 +2110,13 @@ noticias: [
     trailer: "https://youtube.com/embed/wFJ3PZuAjK4",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-11",
+        titulo: "EL JUEGO ENTERO ENTRA EN EL CARTUCHO",
+        texto: "La edición física trae el juego completo en el cartucho, sin descarga obligatoria, y todas las versiones incluyen Shivering Isles, Knights of the Nine y el resto del contenido descargable. El port lo hizo Virtuos y suma control por movimiento, pantalla táctil y modo mouse. Apunta a 900p en portátil y 1080p en dock, siempre a 30 cuadros con DLSS: las pruebas previas al lanzamiento mostraron caídas por debajo de esa marca y un ritmo de cuadros irregular."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -2127,7 +2134,14 @@ noticias: [
     trailer: "https://youtube.com/embed/63fCwf6GfMM",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/c4fc47c7e6ece14e438f0957d066dc9ab2a3412a/header.jpg",
-    gamepass: true,
+    noticias: [
+      {
+        fecha: "2026-08-11",
+        titulo: "LLEGA EN ACCESO ANTICIPADO, NO TERMINADO",
+        texto: "Ojo con esto: la versión de PS5 no es la 1.0, es el acceso anticipado que en Xbox y PC viene desde julio de 2025. Sale junto con la actualización Into the Abyss y mantiene el juego cruzado con las otras plataformas."
+      }
+    ],
+    gamepass: false,
     psplus: false,
     alta: "2026-07-14"
   },
@@ -5020,6 +5034,13 @@ noticias: [
     trailer: "https://youtube.com/embed/f0tDPNR7D0o",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-11",
+        titulo: "SALE DEL ACCESO ANTICIPADO Y DEBUTA EN CONSOLAS",
+        texto: "Después de dos años en acceso anticipado en PC llega la 1.0, y es la primera vez que la saga pisa una consola. La versión final suma el modo Supervivencia para ocho jugadores, un modo en solitario sin muerte permanente, tutorial guiado, misiones semanales y un mapa nuevo, Raven Rock. Cuesta 29,99 dólares, con 20% de descuento de salida en las tiendas de PlayStation y Xbox, y hay juego cruzado entre todas las plataformas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-31"
