@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-10T12:41:51+00:00",
+ "generado": "2026-08-10T13:06:24+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 292,
+ "total": 293,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -6647,7 +6647,8 @@
    "relanzamiento": "Remaster del clásico de GameCube y Xbox (2002)",
    "plataformas": [
     "PS5",
-    "SWITCH"
+    "XBOX",
+    "SWITCH2"
    ],
    "genero": [
     "LUCHA",
@@ -7665,6 +7666,29 @@
    "psplus": false,
    "alta": "2026-08-04",
    "url": "https://lanzamientos.lat/juegos/cloverpit"
+  },
+  {
+   "id": "crymelight",
+   "titulo": "CRYMELIGHT",
+   "fecha": "2026-11-05",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "FURYU",
+   "descripcion": "Un roguelike de acción ambientado en el más allá. Alice despierta sin recuerdos y tiene que bajar hasta la última capa del Purgatorio para ganarse su Renacimiento. El combate es veloz y se alimenta de los gritos de agonía de los enemigos; las habilidades se juntan en forma de cartas y se arman en manos al estilo del póker.",
+   "trailer": "https://youtube.com/embed/Rgelk7T3qtw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3891160/94a480b65a72e911aaff1914891be42832db28d9/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/crymelight"
   }
  ]
 }

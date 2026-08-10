@@ -4654,7 +4654,7 @@ noticias: [
     duracion: "≈ 1,1 h (historia) · 4,1 h (completo)",
     fecha: "2026-11-03",
     relanzamiento: "Remaster del clásico de GameCube y Xbox (2002)",
-    plataformas: ["PS5", "SWITCH"],
+    plataformas: ["PS5", "XBOX", "SWITCH2"],
     genero: ["LUCHA", "ACCION"],
     desarrollador: "PIPEWORKS STUDIOS",
     descripcion: "Regresa el juego de Godzilla definitivo de combates en arenas, completamente remasterizado. Elige tu monstruo y lucha con una amplia variedad de ataques brutales en ciudades recreadas y otras ubicaciones. Enfréntate a amigos y enemigos en modo cooperativo local o en el nuevo multijugador en línea.",
@@ -5313,5 +5313,20 @@ noticias: [
     gamepass: false,
     psplus: false,
     alta: "2026-08-04"
+  },
+  {
+    id: "crymelight",
+    titulo: "CRYMELIGHT",
+    fecha: "2026-11-05",
+    plataformas: ["PS5", "SWITCH2"],
+    genero: ["ACCION", "ROGUELIKE", "INDIE"],
+    desarrollador: "FURYU",
+    descripcion: "Un roguelike de acción ambientado en el más allá. Alice despierta sin recuerdos y tiene que bajar hasta la última capa del Purgatorio para ganarse su Renacimiento. El combate es veloz y se alimenta de los gritos de agonía de los enemigos; las habilidades se juntan en forma de cartas y se arman en manos al estilo del póker.",
+    trailer: "https://youtube.com/embed/Rgelk7T3qtw",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3891160/94a480b65a72e911aaff1914891be42832db28d9/header.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-10"
   }
 ];

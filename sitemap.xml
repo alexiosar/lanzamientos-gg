@@ -1858,7 +1858,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/godzilla-destroy-all-monsters-melee-remastered</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2132,6 +2132,13 @@
   <url>
     <loc>https://lanzamientos.lat/juegos/cloverpit</loc>
     <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/crymelight</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
