@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-10T13:06:24+00:00",
+ "generado": "2026-08-10T13:55:54+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-10",
  "hasta": "2026-09-09",
- "total": 58,
+ "total": 63,
  "juegos": [
   {
    "id": "the-elder-scrolls-iv-oblivion-remastered",
@@ -395,6 +395,29 @@
    "psplus": false,
    "alta": "2026-08-04",
    "url": "https://lanzamientos.lat/juegos/cloverpit"
+  },
+  {
+   "id": "menherarium",
+   "titulo": "MENHERARIUM: DEADLY DICE",
+   "relanzamiento": "En PC desde febrero de 2026",
+   "fecha": "2026-08-13",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "CARTAS",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "テスカトリポカ",
+   "descripcion": "Un roguelite de construcción de mazos donde hay que sobrevivir siete días jugando al chinchirorin, un juego de dados japonés, apostando sangre contra una chica que no quiere que te vayas nunca.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3394770/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/menherarium"
   },
   {
    "id": "mafia-the-old-country-man-of-honor",
@@ -1000,6 +1023,55 @@
    "url": "https://lanzamientos.lat/juegos/lady-death-demonicron"
   },
   {
+   "id": "serious-sam-shatterverse",
+   "titulo": "SERIOUS SAM: SHATTERVERSE",
+   "fecha": "2026-08-31",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "ACCION",
+    "COOP",
+    "ROGUELIKE"
+   ],
+   "desarrollador": "BEHAVIOUR INTERACTIVE INC.",
+   "descripcion": "Serious Sam: Shatterverse es un roguelite FPS cooperativo de 1 a 5 jugadores. Arrasa a tu paso, acumula ventajas, cambia las reglas con modificadores y caza a las fuerzas letales de Mental. Cae rápido. Vuelve más fuerte.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067210/3171c0ddcebcb0888ed8ff80469792ded64a7aa4/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/serious-sam-shatterverse"
+  },
+  {
+   "id": "moonlighter-2-the-endless-vault",
+   "titulo": "MOONLIGHTER 2: THE ENDLESS VAULT",
+   "fecha": "2026-09-02",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "DIGITAL SUN",
+   "descripcion": "¡Emprende la vida del héroe mercante! Adéntrate en dimensiones colmadas de tesoros y enemigos. Amasa un buen botín, vende las reliquias en tu tienda y reinvierte en mejorar tu equipo para que la siguiente expedición sea aún más fructífera. Con el oro suficiente, quizá algún día puedas volver a casa.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/moonlighter-2-the-endless-vault"
+  },
+  {
    "id": "the-blood-of-dawnwalker",
    "titulo": "THE BLOOD OF DAWNWALKER",
    "fecha": "2026-09-03",
@@ -1242,6 +1314,32 @@
    ]
   },
   {
+   "id": "aerea",
+   "titulo": "AEREA",
+   "relanzamiento": "Original de 2017 en PS4, Xbox One y PC",
+   "fecha": "2026-09-03",
+   "plataformas": [
+    "XBOX",
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "MUSICA",
+    "INDIE"
+   ],
+   "desarrollador": "SOEDESCO",
+   "descripcion": "AereA es un RPG de acción donde la música será tu mejor aliado y tu peor enemigo. Tu misión como discípulo del Gran Maestro Guido será desvelar los misterios de Aezir. Descubre qué ocurre y devuelve los nueve instrumentos esenciales para restaurar el equilibrio y devolver la paz al universo.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/573660/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/aerea"
+  },
+  {
    "id": "onimusha-way-of-the-sword",
    "titulo": "ONIMUSHA: WAY OF THE SWORD",
    "fecha": "2026-09-04",
@@ -1308,6 +1406,31 @@
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/nba-2k27"
+  },
+  {
+   "id": "isle-of-reveries",
+   "titulo": "ISLE OF REVERIES",
+   "fecha": "2026-09-04",
+   "plataformas": [
+    "XBOX",
+    "PS5",
+    "PS4"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG",
+    "INDIE"
+   ],
+   "desarrollador": "DESERTCUCCO",
+   "descripcion": "Una peregrinación por el cielo hasta la Isla de los Ensueños, donde cualquier deseo se cumple. Mazmorras misteriosas, puzles y un mundo abierto para explorar.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3100970/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/isle-of-reveries"
   },
   {
    "id": "halloween",

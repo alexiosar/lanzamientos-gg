@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "2949b512fc21c704",
+  "hash": "75671ae7972a2ece",
   "lastmod": "2026-08-10"
  },
  "/acerca": {
@@ -22,6 +22,10 @@
  "/juegos/ace-combat-8-wings-of-theve": {
   "hash": "9efbe220baf2c216",
   "lastmod": "2026-07-29"
+ },
+ "/juegos/aerea": {
+  "hash": "949d2013362d4237",
+  "lastmod": "2026-08-10"
  },
  "/juegos/aeterna-lucis": {
   "hash": "d7f5d3ea916b3f2d",
@@ -335,6 +339,10 @@
   "hash": "2d43e398f7abc5b6",
   "lastmod": "2026-07-29"
  },
+ "/juegos/endless-legend-2": {
+  "hash": "43b8319838b2f716",
+  "lastmod": "2026-08-10"
+ },
  "/juegos/enshrouded": {
   "hash": "1cc9192f13cd6a83",
   "lastmod": "2026-07-29"
@@ -535,6 +543,10 @@
   "hash": "416bf9ab34133ade",
   "lastmod": "2026-07-29"
  },
+ "/juegos/isle-of-reveries": {
+  "hash": "9584776740081384",
+  "lastmod": "2026-08-10"
+ },
  "/juegos/jurassic-world-evolution-2": {
   "hash": "c19dbb9194f4dd03",
   "lastmod": "2026-07-29"
@@ -631,6 +643,10 @@
   "hash": "59b2a89d13dde163",
   "lastmod": "2026-07-29"
  },
+ "/juegos/menherarium": {
+  "hash": "bb5c75deed1f7076",
+  "lastmod": "2026-08-10"
+ },
  "/juegos/metal-gear-solid-master-collection-vol-2": {
   "hash": "e78221f9a2a97bd5",
   "lastmod": "2026-07-29"
@@ -675,6 +691,10 @@
   "hash": "483c92832242924f",
   "lastmod": "2026-07-29"
  },
+ "/juegos/moonlighter-2-the-endless-vault": {
+  "hash": "1a6145222fe6a411",
+  "lastmod": "2026-08-10"
+ },
  "/juegos/mortal-shell-2": {
   "hash": "ae6c96ee5abbf699",
   "lastmod": "2026-07-29"
@@ -686,6 +706,10 @@
  "/juegos/mousebusters": {
   "hash": "00bb2e2b62b144ab",
   "lastmod": "2026-07-29"
+ },
+ "/juegos/mr-sleepy-man": {
+  "hash": "548516728cef8b55",
+  "lastmod": "2026-08-10"
  },
  "/juegos/mxgp-26": {
   "hash": "0275547a77ebd8ed",
@@ -879,9 +903,17 @@
   "hash": "74a97e740ee3a621",
   "lastmod": "2026-07-29"
  },
+ "/juegos/serious-sam-shatterverse": {
+  "hash": "218a141666ab17b0",
+  "lastmod": "2026-08-10"
+ },
  "/juegos/sesame-street-amigos-y-risas": {
   "hash": "1cbeff5ea8f745e0",
   "lastmod": "2026-07-29"
+ },
+ "/juegos/sesame-street-friends-fun": {
+  "hash": "6624a183a45fceee",
+  "lastmod": "2026-08-10"
  },
  "/juegos/shard-squad": {
   "hash": "818fcd7d474c63a9",
@@ -975,6 +1007,10 @@
   "hash": "ebc00529ba8283d6",
   "lastmod": "2026-07-29"
  },
+ "/juegos/stupid-never-dies": {
+  "hash": "979d50efeb1eaba5",
+  "lastmod": "2026-08-10"
+ },
  "/juegos/sublustrum": {
   "hash": "47ad16e2b8094f7f",
   "lastmod": "2026-07-29"
@@ -1062,6 +1098,10 @@
  "/juegos/the-sinking-city-2": {
   "hash": "57ed74bbaf489900",
   "lastmod": "2026-07-29"
+ },
+ "/juegos/the-walking-dead-streets-of-survival": {
+  "hash": "8cab25c79f244678",
+  "lastmod": "2026-08-10"
  },
  "/juegos/the-witchs-bakery": {
   "hash": "946e82c236fcf864",
@@ -1155,6 +1195,10 @@
   "hash": "37bc338e75cb742c",
   "lastmod": "2026-07-29"
  },
+ "/juegos/way-of-the-hunter-2": {
+  "hash": "6f91c9967eee9621",
+  "lastmod": "2026-08-10"
+ },
  "/juegos/wild-blue-skies": {
   "hash": "762bcc774d3ea1a5",
   "lastmod": "2026-07-29"
@@ -1196,19 +1240,19 @@
   "lastmod": "2026-08-09"
  },
  "/ps4": {
-  "hash": "2949b512fc21c704",
+  "hash": "75671ae7972a2ece",
   "lastmod": "2026-08-10"
  },
  "/ps5": {
-  "hash": "2949b512fc21c704",
+  "hash": "75671ae7972a2ece",
   "lastmod": "2026-08-10"
  },
  "/switch": {
-  "hash": "2949b512fc21c704",
+  "hash": "75671ae7972a2ece",
   "lastmod": "2026-08-10"
  },
  "/switch-2": {
-  "hash": "2949b512fc21c704",
+  "hash": "75671ae7972a2ece",
   "lastmod": "2026-08-10"
  },
  "/terminos": {
@@ -1220,7 +1264,7 @@
   "lastmod": "2026-08-09"
  },
  "/xbox": {
-  "hash": "2949b512fc21c704",
+  "hash": "75671ae7972a2ece",
   "lastmod": "2026-08-10"
  }
 }

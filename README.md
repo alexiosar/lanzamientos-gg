@@ -445,8 +445,28 @@ va, porque esto es un calendario de lanzamientos), y una entrada en `datos/notic
 categoría `SUSCRIPCIONES`.
 
 **Semanal:**
-5. Barrido de releases.com de **todos los meses ya cargados en el calendario** (con Claude +
-   extensión de Chrome), no solo del mes en curso y el siguiente. releases.com sigue sumando
+5. Barrido de releases.com de **todos los meses ya cargados en el calendario**, no solo del
+   mes en curso y el siguiente.
+
+   **Ya no hace falta la extensión de Chrome**: desde el 10/08/2026 el barrido se hace con el
+   navegador de la app. `curl` sigue dando 403, pero el navegador carga bien. Cada página se
+   raspa con este selector, que devuelve fecha, título y plataformas de cada juego:
+
+   ```js
+   document.querySelectorAll('.RWP-Calendar-Group')          // cada bloque de fecha
+   //   dentro: .RWPCC-CalendarItems-CardControl             // cada juego
+   //   el nombre: a.RWPCC-CalendarItems-CardControl-Name
+   ```
+
+   Conviene acumular en `localStorage` entre navegaciones y volcar todo al final.
+
+   **Dos trampas al comparar con el calendario:**
+   - releases.com mezcla **expansiones y DLC** con los juegos. Antes de cargar algo, mirar el
+     `type` en la API de Steam: el 10/08 casi entra "Jurassic World Evolution 3: Crocodilia
+     Coast", que es una expansión de un juego de 2025.
+   - Comparar por **título en inglés falla** con los que tenemos en español: Dragon Quest
+     Monsters figuraba como "The Withered World" y nosotros lo teníamos como "El reino
+     marchito". Comparar también por `id` antes de dar uno por faltante. releases.com sigue sumando
    juegos a meses futuros después de que los cargamos, así que un mes barrido una vez queda
    desactualizado en pocas semanas. Hay que buscar dos cosas:
    - juegos nuevos que no estén en `datos/juegos.js`;
