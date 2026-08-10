@@ -559,10 +559,18 @@ y abrir http://localhost:8080
   puntuados sin noticias hasta 72; de ahí para abajo son indies chicos con poca cobertura.
 - Samson: A Tyndalston Story (estimado septiembre 2026, PS5/Xbox): no está en Steam ni en la
   eShop, así que no hay carátula ni descripción de origen. Queda fuera hasta conseguir assets.
-- Bloque "Estimated Q3" de releases.com: quedan ~25 juegos de consola sin cargar (Aniimo,
-  He-Man, Endurance Motorsport Series, Woodo, Vampire Survivors: Legacy of the Bloodmoon,
-  Danger Mouse, Ember & Blade, LIFTED, Super Battle Golf, Banchou Tactics…). Son fechas sin
-  confirmar; cargarlos con `estimado: true` cuando haya tiempo.
+- Bloque "Estimated Q3/Q4" de releases.com: el 10/08/2026 se cargaron 14 (Aniimo, He-Man,
+  Endurance Motorsport Series, Woodo, Danger Mouse, Ember and Blade, LIFTED, Super Battle Golf,
+  Road Truckers, Case Solved, Whirlight, Nomad Drive, Diablo IV en Switch 2 y Muchi Muchi Pork).
+  Quedan ~35 sin cargar, casi todos de Q4, y son los más difíciles: **Steam no los encuentra**
+  (juegos muy chicos o con otro nombre en PC), así que hay que buscarlos de a uno en la eShop
+  o en la web de su estudio. Lo descartado a propósito, para no repetir el trabajo:
+  - **Vampire Survivors: Legacy of the Bloodmoon**, **Dragon Ball Xenoverse 2 - Future Saga
+    Chapter 4** y **Banchou Tactics** son DLC, no juegos.
+  - **Dragon's Dogma 2** (Switch 2) y **Octopath Traveler 1 y 2** (Switch 2) ya están en el
+    calendario como "Dark Arisen" y como el bundle "I + II".
+  - **Fallout 76** aparece como Q3 2026 en PS5 y Xbox pero es de 2018: sin confirmar qué es
+    esa reedición, no se carga.
 - Difusión (idea pendiente del usuario): mails a medios y creadores en español desde
   contacto@lanzamientos.lat, y listados en directorios/GitHub. Sin redes sociales.
 - El bloque de novedades en la portada quedó descartado (empuja el calendario hacia abajo).

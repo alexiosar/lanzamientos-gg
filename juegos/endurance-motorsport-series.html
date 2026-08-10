@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ENDURANCE MOTORSPORT SERIES — fecha de lanzamiento, plataformas, puntaje y trailer. Endurance Motorsport Series te sumerge en el corazón de esta experiencia única: ponte al volante como piloto, pero también ponte en la piel del…">
+  <title>ENDURANCE MOTORSPORT SERIES — LANZAMIENTOS.LAT</title>
+  <link rel="canonical" href="https://lanzamientos.lat/juegos/endurance-motorsport-series">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LANZAMIENTOS.LAT">
+  <meta property="og:title" content="ENDURANCE MOTORSPORT SERIES — TERCER TRIMESTRE 2026">
+  <meta property="og:description" content="Endurance Motorsport Series te sumerge en el corazón de esta experiencia única: ponte al volante como piloto, pero también ponte en la piel del…">
+  <meta property="og:url" content="https://lanzamientos.lat/juegos/endurance-motorsport-series">
+  <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2228250/bf3a4b76dae5669b99cec02bf180b2a71d03ad90/header.jpg">
+  <meta property="og:locale" content="es_LA">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "ENDURANCE MOTORSPORT SERIES", "url": "https://lanzamientos.lat/juegos/endurance-motorsport-series", "description": "Endurance Motorsport Series te sumerge en el corazón de esta experiencia única: ponte al volante como piloto, pero también ponte en la piel del ingeniero de carrera para tomar decisiones cruciales desde el pit lane.", "datePublished": "2026-09-30", "gamePlatform": ["PS5", "XBOX"], "genre": ["SIMULACION", "DEPORTES"], "inLanguage": "es", "author": {"@type": "Organization", "name": "KT RACING"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2228250/bf3a4b76dae5669b99cec02bf180b2a71d03ad90/header.jpg"}</script>
+
+  <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .ficha-page        { padding: 2rem 0; }
+    .breadcrumb        { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 1px; margin-bottom: 1.5rem; }
+    .breadcrumb a      { color: var(--gris-5); }
+    .breadcrumb a:hover{ color: var(--acento); }
+    .juego-titulo-page { font-size: 1.375rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }
+    .juego-dev-page    { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .seccion           { margin-bottom: 2rem; border-top: 1px solid var(--gris-2); padding-top: 1rem; }
+    .seccion-titulo    { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 3px; margin-bottom: 0.75rem; }
+    .descripcion-page  { color: var(--gris-7); font-size: 0.8125rem; line-height: 2; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
+    .meta-grid         { display: flex; gap: 2rem; flex-wrap: wrap; }
+    .noticia           { margin-bottom: 1rem; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
+    .noticia-linea     { margin-bottom: 0.25rem; }
+    .noticia-fecha     { color: var(--acento); font-size: 0.6875rem; letter-spacing: 1px; margin-right: 0.5rem; }
+    .noticia-titulo    { color: var(--blanco); font-size: 0.75rem; letter-spacing: 1px; }
+    .noticia-texto     { color: var(--gris-7); font-size: 0.75rem; line-height: 1.8; }
+    .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
+    .juego-hero-info   { flex: 1; min-width: 260px; }
+    /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
+       cargue, o la ficha entera salta hacia abajo cuando llega (eso es CLS). Antes
+       la clase .apaisada cambiaba el ancho recién en el onload, con lo cual el salto
+       estaba garantizado por diseño. Ahora el hueco no cambia nunca y la carátula se
+       acomoda adentro con object-fit: contain, sea vertical u horizontal. */
+    .portada-page      { width: 200px; height: 220px; flex-shrink: 0; border: 1px solid var(--gris-3);
+                         background: var(--gris-1); object-fit: contain; display: block; }
+    .video-wrapper     { position: relative; padding-bottom: 56.25%; height: 0; border: 1px solid var(--gris-3); background: var(--negro); }
+    .video-wrapper iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
+    .volver            { display: inline-block; font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .volver:hover      { color: var(--acento); }
+    .badge-gamepass    { color: var(--xbox); }
+    .badge-psplus      { color: var(--ps5); }
+    /* Juegos relacionados: la ficha ya no es un callejón sin salida */
+    .rel-grid          { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 0.75rem; }
+    .rel-item          { display: flex; gap: 0.6rem; align-items: center; padding: 5px; border: 1px solid transparent; color: inherit; min-width: 0; }
+    .rel-item:hover    { border-color: var(--acento); background: rgba(160,160,255,0.05); }
+    .rel-item:hover .rel-titulo { color: var(--acento); }
+    .rel-portada       { width: 44px; height: 44px; object-fit: cover; border: 1px solid var(--gris-3); background: var(--gris-1); flex-shrink: 0; display: block; }
+    .rel-info          { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+    .rel-titulo        { color: var(--blanco); font-size: 0.75rem; letter-spacing: 0.5px; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
+    .rel-fecha         { color: var(--gris-5); font-size: 0.6875rem; letter-spacing: 1px; }
+    .rel-info .plataformas { gap: 0.25rem; }
+    .rel-info .plat    { font-size: 0.625rem; padding: 0 4px; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor">
+      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
+      <a href="/" class="site-logo">LANZAMIENTOS.LAT</a>
+      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
+      <nav class="nav">
+        <a href="/">INICIO</a>
+        <a href="/noticias">NOTICIAS</a>
+        <a href="/ps5">PS5</a>
+        <a href="/xbox">XBOX</a>
+        <a href="/switch-2">SWITCH 2</a>
+        <a href="/switch">SWITCH</a>
+        <a href="/ps4">PS4</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <div class="ficha-page">
+      <a href="/" class="volver" id="volver">◀ VOLVER AL CALENDARIO</a>
+
+      <div class="breadcrumb">
+        <a href="/">INICIO</a> &gt;
+        <a href="/ps5">PS5</a> &gt;
+        ENDURANCE MOTORSPORT SERIES
+      </div>
+
+      <div class="juego-hero">
+        <img class="portada-page" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2228250/bf3a4b76dae5669b99cec02bf180b2a71d03ad90/header.jpg" alt="Portada de ENDURANCE MOTORSPORT SERIES" loading="lazy" onerror="this.outerHTML='<span class=&quot;portada-page portada-vacia&quot;></span>'">
+        <div class="juego-hero-info">
+          <h1 class="juego-titulo-page">ENDURANCE MOTORSPORT SERIES</h1>
+          <p class="juego-dev-page">KT RACING</p>
+
+          <div class="seccion">
+            <div class="seccion-titulo">DATOS</div>
+            <div class="meta-grid">
+              <div>
+                <span class="ficha-campo-label">FECHA ESTIMADA</span>
+                <span class="ficha-campo-valor">TERCER TRIMESTRE 2026</span>
+                <span class="relanzamiento">◔ FECHA EXACTA SIN CONFIRMAR</span>
+              </div>
+              <div>
+                <span class="ficha-campo-label">PLATAFORMAS</span>
+                <div class="plataformas" style="margin-top:3px;"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></div>
+              </div>
+              <div>
+                <span class="ficha-campo-label">GÉNERO</span>
+                <span class="ficha-campo-valor">SIMULACION / DEPORTES</span>
+              </div>
+              <div>
+                <span class="ficha-campo-label">INCLUIDO EN</span>
+                <span class="ficha-campo-valor">—</span>
+              </div>
+            </div>
+            <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
+              
+              <button class="btn-trailer" id="btn-compartir" onclick="compartirJuego('endurance-motorsport-series')">⇗ COMPARTIR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">DESCRIPCIÓN</div>
+        <p class="descripcion-page">Endurance Motorsport Series te sumerge en el corazón de esta experiencia única: ponte al volante como piloto, pero también ponte en la piel del ingeniero de carrera para tomar decisiones cruciales desde el pit lane.</p>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">TAGS</div>
+        <div class="ficha-tags"><span class="tag">SIMULACION</span><span class="tag">DEPORTES</span><span class="plat plat-PS5" style="font-size:0.6875rem;padding:2px 7px;">PS5</span><span class="plat plat-XBOX" style="font-size:0.6875rem;padding:2px 7px;">XBOX</span></div>
+      </div>
+
+      <div class="seccion">
+        <div class="seccion-titulo">JUEGOS RELACIONADOS</div>
+        <div class="rel-grid">
+          <a class="rel-item" href="/juegos/ea-sports-fc-27">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/05d419a45653a1299ce46d13dbff4533fa076c1c/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">EA SPORTS FC 27</span>
+              <span class="rel-fecha">25 SEP</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/nascar-26">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4883590/36e029011e47a7fbf54d788eb18a0e0683e923ef/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">NASCAR 26</span>
+              <span class="rel-fecha">18 SEP</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/nba-2k27">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">NBA 2K27</span>
+              <span class="rel-fecha">04 SEP</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/mxgp-26">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634190/92e6ac99739bd346ec51d8a02744fe1b8b7e8386/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">MXGP 26</span>
+              <span class="rel-fecha">OCTUBRE 2026</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/ea-sports-college-football-27">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4032350/1c628b40d5aa8dcf26e0ac9d394f0fbe1b8dc879/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">EA SPORTS COLLEGE FOOTBALL 27</span>
+              <span class="rel-fecha">09 JUL</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/pure-pool-pro">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3456930/76816eaf4db544d10a2a411b3545173a4dc5d806/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">PURE POOL PRO</span>
+              <span class="rel-fecha">23 JUL</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">MÁS LANZAMIENTOS DE SEPTIEMBRE 2026</div>
+        <div class="rel-grid">
+          <a class="rel-item" href="/juegos/moonlighter-2-the-endless-vault">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">MOONLIGHTER 2: THE ENDLESS VAULT</span>
+              <span class="rel-fecha">02 SEP</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/aerea">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/573660/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">AEREA</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span><span class="plat plat-PS5">PS5</span><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/avatar-legends-the-fighting-game-xbox">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">AVATAR LEGENDS: THE FIGHTING GAME</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/bioeden">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3265840/81615550cc55212146a1ee944f49b9c8eaf354b8/header_alt_assets_2.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">BIOEDEN</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/exstetra">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4251710/541a9fb52daf490826151e9c463448a2a7365e62/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">EXSTETRA</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/hashire-hebereke-ex">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3948110/4cfdcb8418f4df2fe83bf8986ea4cb5284886826/header.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">HASHIRE HEBEREKE: EX</span>
+              <span class="rel-fecha">03 SEP</span>
+              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span></span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor" style="display:flex;justify-content:space-between;width:100%;flex-wrap:wrap;gap:.5rem;">
+      <span>LANZAMIENTOS.LAT &copy; 2026</span>
+      <span class="footer-links"><a href="/acerca">ACERCA DE</a> · <a href="/api">API</a> · <a href="/widget">WIDGET</a> · <a href="/privacidad">PRIVACIDAD</a> · <a href="/terminos">TÉRMINOS</a> · <a href="../rss.xml">RSS</a></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
+    </div>
+  </footer>
+
+  <script src="../datos/juegos.js"></script>
+  <script>
+    function toggleTema() {
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }
+    function aplicarTema(claro) {
+      document.documentElement.classList.toggle("tema-claro", claro);
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+    }
+    const temaGuardado = localStorage.getItem("tema");
+    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
+    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
+    sistemaClaro.addEventListener("change", e => {
+      if (!localStorage.getItem("tema")) aplicarTema(e.matches);
+    });
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");
+
+    // El enlace de volver apunta al calendario, pero si llegaste desde el propio
+    // sitio te devuelve a la vista donde estabas (la grilla, un filtro, una consola)
+    // en lugar de tirarte siempre al calendario sin filtros.
+    (function () {
+      const link = document.getElementById("volver");
+      if (!link || !document.referrer) return;
+      let ref;
+      try { ref = new URL(document.referrer); } catch (e) { return; }
+      if (ref.origin !== location.origin) return;
+      if (ref.pathname === location.pathname) return;  // volviste a la misma ficha
+
+      link.href = ref.href;
+      const vista = ref.searchParams.get("vista");
+      const nombre = ref.pathname.replace(/^\/|\.html$/g, "");
+      if (vista === "grilla")            link.textContent = "◀ VOLVER A LA GRILLA";
+      else if (vista === "ranking")      link.textContent = "◀ VOLVER AL RANKING";
+      else if (nombre === "archivo")     link.textContent = "◀ VOLVER AL ARCHIVO";
+      else if (nombre.startsWith("ps") || nombre.startsWith("xbox") || nombre.startsWith("switch"))
+        link.textContent = "◀ VOLVER A " + nombre.toUpperCase().replace("-", " ");
+
+      // history.back() conserva la posición de scroll; el href queda igual como
+      // respaldo para clic del medio, "abrir en pestaña nueva" y sin JS.
+      link.addEventListener("click", function (ev) {
+        if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.button !== 0) return;
+        ev.preventDefault();
+        history.back();
+      });
+    })();
+
+    // cuenta regresiva y botón agendar, calculados al cargar (no se congelan al generar)
+    (function () {
+      const el = document.getElementById("regresiva");
+      if (!el) return;  // fichas con fecha estimada no tienen cuenta regresiva
+      const [y, m, d] = el.dataset.fecha.split("-").map(Number);
+      const hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+      const dias = Math.round((new Date(y, m - 1, d) - hoy) / 864e5);
+      if (dias === 0) { el.textContent = "▸ ¡SALE HOY!"; el.classList.add("regresiva-hoy"); }
+      else if (dias === 1) el.textContent = "▸ FALTA 1 DÍA";
+      else if (dias > 1) el.textContent = "▸ FALTAN " + dias + " DÍAS";
+      else el.remove();
+      if (dias > 0) document.getElementById("btn-agendar").style.display = "";
+    })();
+
+    function compartirJuego(id) {
+      const j = JUEGOS.find(x => x.id === id);
+      if (!j) return;
+      const url = location.origin + "/juegos/" + id;
+      if (navigator.share) {
+        navigator.share({ title: `${j.titulo} — LANZAMIENTOS.LAT`, url }).catch(() => {});
+      } else {
+        navigator.clipboard.writeText(url).then(() => {
+          const b = document.getElementById("btn-compartir");
+          const original = b.textContent;
+          b.textContent = "✓ LINK COPIADO";
+          setTimeout(() => { b.textContent = original; }, 1600);
+        });
+      }
+    }
+
+    function agendarJuego(id) {
+      const j = JUEGOS.find(x => x.id === id);
+      if (!j) return;
+      const [y, m, d] = j.fecha.split("-").map(Number);
+      const inicio = j.fecha.replace(/-/g, "");
+      const fin = new Date(y, m - 1, d + 1);
+      const finStr = `${fin.getFullYear()}${String(fin.getMonth() + 1).padStart(2, "0")}${String(fin.getDate()).padStart(2, "0")}`;
+      const ahora = new Date().toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+      const esc = t => t.replace(/\\/g, "\\\\").replace(/[,;]/g, s => "\\" + s);
+      const etiqueta = p => p === "SWITCH2" ? "SWITCH 2" : p;
+      const ics = [
+        "BEGIN:VCALENDAR", "VERSION:2.0",
+        "PRODID:-//lanzamientos.lat//Calendario de Videojuegos//ES",
+        "BEGIN:VEVENT",
+        `UID:${j.id}@lanzamientos.lat`,
+        `DTSTAMP:${ahora}`,
+        `DTSTART;VALUE=DATE:${inicio}`,
+        `DTEND;VALUE=DATE:${finStr}`,
+        `SUMMARY:${esc("🎮 Sale " + j.titulo)}`,
+        `DESCRIPTION:${esc("Lanzamiento en " + j.plataformas.map(etiqueta).join(" / ") + ". Ficha: " + location.origin + "/juegos/" + j.id)}`,
+        `URL:${location.origin}/juegos/${j.id}`,
+        "END:VEVENT", "END:VCALENDAR"
+      ].join("\r\n");
+      const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `${j.id}.ics`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(a.href);
+    }
+  </script>
+</body>
+</html>

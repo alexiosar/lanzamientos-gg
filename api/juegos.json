@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-10T13:55:54+00:00",
+ "generado": "2026-08-10T14:08:27+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 304,
+ "total": 318,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -7952,6 +7952,360 @@
    "psplus": false,
    "alta": "2026-08-10",
    "url": "https://lanzamientos.lat/juegos/stupid-never-dies"
+  },
+  {
+   "id": "nomad-drive",
+   "titulo": "NOMAD DRIVE",
+   "fecha": "2026-08-31",
+   "estimado": true,
+   "fechaEstimada": "AGOSTO 2026",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE",
+    "SIMULACION"
+   ],
+   "desarrollador": "INDIE DEVIL",
+   "descripcion": "Repara tu autocaravana deteriorada y sal a la carretera en solitario o en cooperativo de 1–4 jugadores a través de un mundo post-apocalíptico generado de manera procedimental. Recoge recursos, personaliza tu autocaravana y sobrevive tanto como puedas.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/6e8d5fa2504037d5c4bccafdd18c8aa4e0dd6dd1/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/nomad-drive"
+  },
+  {
+   "id": "diablo-4",
+   "titulo": "DIABLO IV",
+   "relanzamiento": "En PS5, Xbox y PC desde 2023",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "SEPTIEMBRE 2026",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "BLIZZARD ENTERTAINMENT, INC.",
+   "descripcion": "Únete a la lucha por Santuario en Diablo® IV, la aventura de rol y acción definitiva. Vive la campaña alabada por la crítica y nuevo contenido de temporada.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/80f21a42e378b93e8fbb68ee43103be8ab84891b/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/diablo-4"
+  },
+  {
+   "id": "aniimo",
+   "titulo": "ANIIMO",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "XBOX",
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "MULTIJUGADOR",
+    "RPG"
+   ],
+   "desarrollador": "PAWPRINT STUDIO",
+   "descripcion": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. Explore the vast continent of Idyll, Twine with unique Aniimo, unlock new abilities. Travel to a sky-floating metropolis, meet other Pathfinders, and battle in exciting competitions. Choose your Aniimo and begin your epic journey!",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/43b2a41f5876db8ca407f240e74392fb1badbb2f/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/aniimo"
+  },
+  {
+   "id": "he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction",
+   "titulo": "HE-MAN AND THE MASTERS OF THE UNIVERSE: DRAGON PEARL OF DESTRUCTION",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "PS4",
+    "XBOX",
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION"
+   ],
+   "desarrollador": "BITMAP BUREAU",
+   "descripcion": "Take control of He-Man, Man-At-Arms, and Teela in a fast-paced, magic-brawler that blends the crunch of arcade classics with the high-fantasy action of the animated series.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3749580/04584202cebf3f1361fb8174f522de9a0a55e3c6/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction"
+  },
+  {
+   "id": "endurance-motorsport-series",
+   "titulo": "ENDURANCE MOTORSPORT SERIES",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "DEPORTES"
+   ],
+   "desarrollador": "KT RACING",
+   "descripcion": "Endurance Motorsport Series te sumerge en el corazón de esta experiencia única: ponte al volante como piloto, pero también ponte en la piel del ingeniero de carrera para tomar decisiones cruciales desde el pit lane.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2228250/bf3a4b76dae5669b99cec02bf180b2a71d03ad90/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/endurance-motorsport-series"
+  },
+  {
+   "id": "woodo",
+   "titulo": "WOODO",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "SWITCH",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "TINY MONKS TALES",
+   "descripcion": "Woodo es como un libro de colorear en 3D que puedes tocar; un cuento relajante narrado a través de dioramas de madera artesanales. Es un mundo acogedor y calmado que te devolverá a tu infancia.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/f93b55efb18d69bcb101efcec6da096d3e10d22d/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/woodo"
+  },
+  {
+   "id": "danger-mouse",
+   "titulo": "DANGER MOUSE",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "PS4",
+    "PS5",
+    "SWITCH",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "CASUAL"
+   ],
+   "desarrollador": "ART OF PLAY INTERACTIVE",
+   "descripcion": "Play as Danger Mouse or Penfold through 15 side scrolling, arcade battle action, super danger filled levels - all to stop the latest evil plan by Baron Greenback!",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3975060/ab93b539814a85f3bbefdb55e00f01f5081c4b03/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/danger-mouse"
+  },
+  {
+   "id": "ember-blade",
+   "titulo": "EMBER AND BLADE",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG"
+   ],
+   "desarrollador": "LINE GAMES CORPORATION",
+   "descripcion": "Conviértete en el cazador inmortal y enfréntate al archidemonio Asmodeo. Ábrete paso entre oleadas de balas, mídete con jefes al estilo Souls, y aprovecha las bendiciones celestiales que transforman tus poderes en cada intento. Los demonios se alzan... es hora de empuñar tu espada.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470500/6e279c3f851c6976bf439f1a58dafbda0b68a7e6/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/ember-blade"
+  },
+  {
+   "id": "lifted",
+   "titulo": "LIFTED",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "ADVENTURE WORKS L.L.C.",
+   "descripcion": "Una aventura para un jugador divertidísima. Juega como Ari, un estudiante que viaja a través de la historia gracias a su peculiar profesor, en una emocionante búsqueda de un tesoro perdido a través del tiempo.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184020/d13bb4fb7c3bb00201b3b62f9694333224aeeb5e/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/lifted"
+  },
+  {
+   "id": "road-truckers-new-beginning",
+   "titulo": "ROAD TRUCKERS: NEW BEGINNING",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "SIMULACION"
+   ],
+   "desarrollador": "ROAD STUDIO S.A.",
+   "descripcion": "Sé un CAMIONERO, no un camión. Transporta mercancías, restaura una ciudad olvidada y haz crecer tu negocio de transporte en el primer RPG auténtico sobre camiones. Sal a la calle para forjar relaciones y luego vuelve a subirte a tu camión totalmente personalizable para dominar la carretera.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333190/da1f61c4c2f8e07722e9d42afb0d7b81d20cec44/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/road-truckers-new-beginning"
+  },
+  {
+   "id": "super-battle-golf",
+   "titulo": "SUPER BATTLE GOLF",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "SWITCH2",
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "CASUAL",
+    "INDIE",
+    "DEPORTES"
+   ],
+   "desarrollador": "BRIMSTONE",
+   "descripcion": "Un juego de golf en línea para hasta ocho personas a la vez. Apunta, golpea la pelota, desbarajusta las rondas de los demás y queda en primera posición en esta carrera caótica hacia el hoyo final.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4069520/89e942c838b6cb0bb0c2127c113a86c59d6ce92f/header_alt_assets_1.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/super-battle-golf"
+  },
+  {
+   "id": "case-solved-the-london-files",
+   "titulo": "CASE SOLVED: THE LONDON FILES",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "XBOX",
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "CASUAL",
+    "INDIE",
+    "SIMULACION"
+   ],
+   "desarrollador": "MINIMOL GAMES",
+   "descripcion": "Resuelve puzles de lógica y desentraña varios casos en un Londres noir y acogedor usando el razonamiento, no las conjeturas. Se han cometido asesinatos, los testimonios se contradicen y las coartadas no cuadran. Todos tienen un motivo, y solo la lógica clara revela la verdad.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4127360/fba2e851d7c8385d70c0990bc2f82996a69c066e/header_alt_assets_1_spanish.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/case-solved-the-london-files"
+  },
+  {
+   "id": "whirlight-no-time-to-trip",
+   "titulo": "WHIRLIGHT - NO TIME TO TRIP",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "plataformas": [
+    "SWITCH",
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "IMAGINARYLAB",
+   "descripcion": "En el corazón de Verice Bay, una idea brillante toma forma entre las manos de un inventor excéntrico y una artista ecléctica. Sigue a Margaret y Hector en una aventura gráfica point & click que te llevará a los límites del espacio y el tiempo para ayudarles a evitar un peligro inminente.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2706980/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/whirlight-no-time-to-trip"
+  },
+  {
+   "id": "muchi-muchi-pork-pinksweets-boosted",
+   "titulo": "MUCHI MUCHI PORK! & PINKSWEETS BOOSTED",
+   "relanzamiento": "Originales de recreativa de Cave (2007)",
+   "fecha": "2026-10-31",
+   "estimado": true,
+   "fechaEstimada": "OCTUBRE 2026",
+   "plataformas": [
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION"
+   ],
+   "desarrollador": "CITY CONNECTION",
+   "descripcion": "Hardcore yet cute Danmaku shooting makes a grand comeback!",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4229200/48b7584da8c706dfb8c0f3fdca82a87a49c00e7e/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/muchi-muchi-pork-pinksweets-boosted"
   }
  ]
 }
