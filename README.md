@@ -496,6 +496,12 @@ categoría `SUSCRIPCIONES`.
     tengan el campo `noticias`. Se prioriza por puntaje porque son los que aparecen en el
     ranking y concentran las visitas. La diaria solo cubre lanzamientos de hoy/mañana, así
     que sin este paso los juegos viejos se quedan en cero para siempre.
+12 bis. **Backlog de fechas estimadas:** los "Estimated Q3/Q4" de releases.com que el barrido
+    semanal deja afuera. Al 10/08/2026 quedan ~35, casi todos de Q4. Son los más caros de
+    cargar porque Steam no los encuentra —son juegos muy chicos o que en PC se llaman
+    distinto—, así que hay que ir a la eShop o a la web del estudio de a uno. Van con
+    `estimado: true` y su ancla de fin de trimestre. Vale la pena hacerlo de a tandas
+    chicas: muchas de esas fechas se van a mover igual antes de confirmarse.
 13. Evaluar archivo/limpieza de meses viejos del calendario.
 14. Repasar la sección "Pendientes / ideas" de este archivo.
 
