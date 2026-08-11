@@ -32,6 +32,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               difusion/directorios-api.md para el chequeo)
 ├── _headers                    CORS abierto para /api/* (Cloudflare)
 ├── api.html                    Documentación de la API pública (enlace canónico: /api)
+├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
 ├── scripts/generar-imagenes-redes.py  Regenera el avatar y la portada de los perfiles
@@ -512,6 +513,14 @@ categoría `SUSCRIPCIONES`.
 8. Regenerar todo (`generar-fichas`, `generar-plataformas`, `generar-feeds`, `generar-sitemap`)
    y verificar que las carátulas y los trailers nuevos devuelvan HTTP 200 antes del deploy.
 
+8. **Enlaces vivos:** `python3 scripts/verificar-enlaces.py`. Comprueba que las 315
+   carátulas y los 293 trailers cargados sigan respondiendo. Las URLs se rompen solas —Steam
+   reorganiza sus CDN, un estudio borra su video— y **no se nota mirando el sitio**: una
+   carátula caída muestra el mismo marcador que un juego que todavía no tiene, y un trailer
+   roto sólo se ve si alguien entra a esa ficha y le da play. La primera corrida, el
+   11/08/2026, encontró tres carátulas en 404 y un id de YouTube truncado a 10 caracteres.
+   Reintenta antes de dar algo por roto, así que si marca algo, está roto de verdad.
+
 **Mensual (fin de mes):**
 9. Cargar el mes siguiente completo desde releases.com (el que todavía no existe en el
    calendario). A partir de ahí ese mes entra en el barrido semanal del punto 5.
@@ -536,19 +545,30 @@ categoría `SUSCRIPCIONES`.
 **Cuál usar si falta un juego de un mes ya cargado:** la semanal. La mensual solo estrena
 meses nuevos; la semanal es la que vuelve sobre lo ya cargado y tapa los huecos.
 
-**Cobertura por campo — qué rutina mantiene qué:**
+**Cobertura por campo — qué rutina mantiene qué**
 
-| Campo | Juegos nuevos | Backlog |
+Regla del proyecto: **todo lo que se desactualiza solo tiene que estar en una rutina.**
+Si algo no está en esta tabla, no lo mantiene nadie.
+
+| Qué | Al cargar el juego | Después, quién lo mantiene |
 |---|---|---|
-| Metacritic / ranking | Diaria (automática) | Diaria (automática) |
-| Carátulas y trailers | Semanal, paso 5 | Semanal, paso 6 |
-| Duración (HLTB) | Mensual, paso 9 | Mensual, paso 10 |
-| Noticias | Diaria, paso 2 | Mensual, paso 11 |
-| Descripciones | Semanal / Mensual, al cargar | — (se revisan solo si se detecta algo raro) |
+| `metacritic` (y con eso el ranking) | — | **Diaria, automática.** Único campo 100% automático: `actualizar.py` barre toda la base cada día buscando puntaje para cualquier juego ya lanzado con `metacritic: null` |
+| `noticias` de un juego | Diaria, paso 2 (lanzamientos de hoy y mañana, y debuts con puntaje) | Mensual, paso 12 (los mejor puntuados que sigan sin noticias) |
+| `datos/noticias.js` (PS Plus, Game Pass, Directs, retrasos) | Diaria, paso 2 | Diaria: `actualizar.py` avisa hace cuántos días se cargó la última |
+| `gamepass` y `psplus` | Al cargar, si ya se sabe | **Mensual, sección "suscripciones"** |
+| `fecha` y `plataformas` (cambian solas) | — | Semanal, paso 5 (barrido de releases.com) |
+| Juegos nuevos | Semanal, paso 5 | Mensual, paso 9 (estrena el mes siguiente) |
+| `estimado` / `fechaEstimada` | Semanal, paso 5 | Mensual, paso 12 bis (backlog de Q3/Q4) |
+| `imagen` y `trailer` | Semanal, paso 6 | Semanal, paso 7 (los que faltan) |
+| **Que esas URLs sigan vivas** | — | **Semanal, paso 8:** `python3 scripts/verificar-enlaces.py` |
+| `duracion` (HLTB) | Mensual, paso 10 | Mensual, paso 10 (recorre todos, no solo los nuevos) |
+| `descripcion`, `genero`, `desarrollador` | Semanal / Mensual, al cargar | — (no se desactualizan) |
+| `alta` | — | Diaria, automática (`actualizar.py` la sella) |
+| `sitemap` y `lastmod` | — | Diaria, automática |
 
-Metacritic es el único campo 100% automático: `actualizar.py` barre toda la base cada día
-buscando puntaje para cualquier juego ya lanzado con `metacritic: null`. Los demás dependen
-de que las rutinas se corran.
+**Lo que NO cubre ninguna rutina, a propósito:** la difusión (posteos, mensajes a feeds y
+blogs, directorios de API). Eso vive en `difusion/`, con su propio registro y sus fechas.
+El posteo diario sí está en la rutina diaria, paso 3.
 
 ## Desarrollo local
 

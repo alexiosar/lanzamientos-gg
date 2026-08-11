@@ -167,7 +167,7 @@ const JUEGOS = [
     genero: ["TABLERO"],
     desarrollador: "BEHAVIOUR INTERACTIVE",
     descripcion: "Monopoly: Star Wars Heroes vs. Villains, una versión dinámica y multijugador del juego de mesa familiar favorito de Hasbro, ofrece una experiencia de juego reinventada con momentos cinematográficos, casillas temáticas y elementos dinámicos que hacen que cada partida sea única. Forma equipos con los icónicos héroes y villanos de Star Wars, cada uno con habilidades únicas que pueden influir en la estrategia y cambiar el rumbo del juego a tu favor con cada tirada de dados. El trabajo en equipo y las combinaciones de héroes son clave para la victoria.",
-    trailer: "https://youtube.com/embed/VUdjBlPP1I",
+    trailer: "https://youtube.com/embed/jVUdjBlPP1I",
     metacritic: 68,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936610/4c994dffe6840c2ee0e653afe281685ae85db64c/header.jpg",
     noticias: [
