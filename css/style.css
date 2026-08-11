@@ -798,6 +798,12 @@ a:hover { color: var(--blanco); }
   flex-shrink: 0;
 }
 
+/* Solo en el destacado: la caja toma la proporción de la imagen, así se ve
+   entera y sin deformar en vez de recortada. En la grilla y en las listas se
+   sigue recortando, que es lo que mantiene esas cuadrículas parejas. */
+.destacado-portada.forma-apaisada { width: 260px; height: 122px; }
+.destacado-portada.forma-cuadrada { width: 180px; height: 180px; }
+
 .destacado-info {
   display: flex;
   flex-direction: column;
@@ -1044,6 +1050,23 @@ a:hover { color: var(--blanco); }
      parte en dos renglones. A 110 el texto respira y la carátula sigue siendo
      casi el doble de lo que era. */
   .destacado-portada { width: 110px; height: 165px; }
+  /* Una carátula apaisada al lado del texto deja el título en 93px y lo parte en
+     tres renglones. Se apila: la imagen arriba a lo ancho y el texto abajo, que
+     es como se lee un banner en un teléfono. Si el navegador no soporta :has()
+     se queda con el diseño de al lado, que es el de siempre. */
+  .destacado:has(.forma-apaisada) {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .destacado-portada.forma-apaisada {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 460 / 215;
+  }
+
+  .destacado-portada.forma-cuadrada { width: 130px; height: 130px; }
   .juego-fila > .plataformas  { grid-column: 2; grid-row: 2; }
 
   /* La de próximos suma la fecha, que va arriba junto al nombre. */

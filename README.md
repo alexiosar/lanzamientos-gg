@@ -126,6 +126,21 @@ si están en `null` o ausentes — no rompen nada.
 
 ### Carátulas (campo `imagen`)
 
+**Las carátulas vienen en tres formas y no se pueden unificar** (al 11/08/2026: 146
+verticales 2:3 de `library_600x900`, 145 apaisadas 460×215 de `header`, 24 cuadradas de la
+eShop). Se probó conseguir la vertical de las 145 apaisadas: **solo 6 la tenían**. Steam
+publica el arte vertical recién cuando la ficha de la tienda está completa, así que un indie
+sin lanzar no la tiene en ningún lado.
+
+Cómo lo trata el sitio, decidido el 11/08/2026:
+
+- **Grilla, miniaturas y ficha**: se recorta (`object-fit: cover`). Las cuadrículas quedan
+  parejas, a costa de que una apaisada muestre solo su franja central.
+- **Destacado**: es uno solo por página, así que ahí la caja toma la proporción de la
+  imagen y se ve entera. `formaCaratula()` en `js/main.js` deduce la forma por la URL y le
+  pone la clase; el CSS tiene una caja por forma. En móvil, si es apaisada el bloque se
+  apila (imagen arriba a lo ancho, texto abajo) porque al lado dejaba el título en 93px.
+
 **Buscar SIEMPRE primero la vertical.** El orden es `library_600x900.jpg` → si da 404,
 `header_image` de `appdetails`. El 11/08/2026 se cargaron 6 juegos con el header pudiendo
 tener la vertical, porque el script tomó `header_image` sin probar la otra:

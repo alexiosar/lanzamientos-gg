@@ -48,6 +48,18 @@ function badgeNuevoHtml(j) {
   return esAltaReciente(j.alta) ? `<span class="juego-nuevo" title="Agregado al calendario el ${j.alta}">★ NUEVO</span>` : "";
 }
 
+// Las carátulas vienen en tres formas y no hay manera de unificarlas: 146 son
+// verticales 2:3 (Steam library), 145 apaisadas 460x215 (Steam header) y 24
+// cuadradas (eShop). En las listas y en la grilla se recortan para que las cajas
+// queden parejas, pero el destacado es UNO solo por página: ahí conviene darle a
+// cada imagen su propia proporción y mostrarla entera.
+function formaCaratula(url) {
+  if (!url) return "";
+  if (url.indexOf("header") !== -1) return " forma-apaisada";
+  if (url.indexOf("nintendo") !== -1) return " forma-cuadrada";
+  return "";  // vertical: es el tamaño por defecto
+}
+
 function claseMetacritic(n) {
   if (n >= 75) return "meta-alto";
   if (n >= 50) return "meta-medio";
@@ -517,7 +529,7 @@ function renderCalendario() {
       const f = parseFecha(dest.fecha);
       destacadoHtml = `
       <a class="destacado" href="/juegos/${dest.id}">
-        <img class="destacado-portada" src="${dest.imagen}" alt="Portada de ${dest.titulo}" onerror="sinCaratula(this,'destacado-portada portada-vacia')">
+        <img class="destacado-portada${formaCaratula(dest.imagen)}" src="${dest.imagen}" alt="Portada de ${dest.titulo}" onerror="sinCaratula(this,'destacado-portada portada-vacia')">
         <div class="destacado-info">
           <span class="destacado-tag">▸ PRÓXIMO DESTACADO</span>
           <span class="destacado-titulo">${dest.titulo}</span>
