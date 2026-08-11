@@ -3598,7 +3598,7 @@ const JUEGOS = [
     descripcion: "¡Flips, grabs y grinds como en 1999! Skatesterre es un juego de skate arcade veloz inspirado en la era dorada del género, con combos exagerados y estética noventosa.",
     trailer: "https://youtube.com/embed/pAiVQQizsMA",
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224220/library_600x900.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4224220/6b66c87a818a9f021e873c93f956c577defdd0a7/header.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-07-21"
@@ -4217,7 +4217,7 @@ const JUEGOS = [
     descripcion: "Pro Jank Footy es un juego arcade de comedia deportiva con física exagerada. Meté goles como puedas —volando, chocando o a los tropezones— en partidos caóticos para jugar con amigos.",
     trailer: "https://youtube.com/embed/U-mqKi-G9HI",
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/library_600x900.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/02ffb09d115b8dcf4f21e9e45f604ac4af534d61/header.jpg",
     noticias: [
       {
         fecha: "2026-08-12",
@@ -4256,7 +4256,7 @@ const JUEGOS = [
     descripcion: "Esto no es una misión de rescate: es una lucha por la supervivencia. Los xenomorfos acechan en los rincones más oscuros en este shooter cooperativo en tercera persona para tres jugadores, secuela del aclamado Aliens: Fireteam Elite.",
     trailer: "https://youtube.com/embed/bISGUJn3sSk",
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/library_600x900.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/9b3d808b5a39c572dc13ced8024e8085bd306805/header.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-07-27"
@@ -5540,7 +5540,7 @@ const JUEGOS = [
     descripcion: "Repara tu autocaravana deteriorada y sal a la carretera en solitario o en cooperativo de 1–4 jugadores a través de un mundo post-apocalíptico generado de manera procedimental. Recoge recursos, personaliza tu autocaravana y sobrevive tanto como puedas.",
     trailer: null,
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/6e8d5fa2504037d5c4bccafdd18c8aa4e0dd6dd1/header.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -5558,7 +5558,7 @@ const JUEGOS = [
     descripcion: "Únete a la lucha por Santuario en Diablo® IV, la aventura de rol y acción definitiva. Vive la campaña alabada por la crítica y nuevo contenido de temporada.",
     trailer: null,
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/80f21a42e378b93e8fbb68ee43103be8ab84891b/header.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -5609,7 +5609,7 @@ const JUEGOS = [
     descripcion: "Endurance Motorsport Series te sumerge en el corazón de esta experiencia única: ponte al volante como piloto, pero también ponte en la piel del ingeniero de carrera para tomar decisiones cruciales desde el pit lane.",
     trailer: null,
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2228250/bf3a4b76dae5669b99cec02bf180b2a71d03ad90/header.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2228250/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -5626,7 +5626,7 @@ const JUEGOS = [
     descripcion: "Woodo es como un libro de colorear en 3D que puedes tocar; un cuento relajante narrado a través de dioramas de madera artesanales. Es un mundo acogedor y calmado que te devolverá a tu infancia.",
     trailer: null,
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/f93b55efb18d69bcb101efcec6da096d3e10d22d/header.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -5677,7 +5677,7 @@ const JUEGOS = [
     descripcion: "Una aventura para un jugador divertidísima. Juega como Ari, un estudiante que viaja a través de la historia gracias a su peculiar profesor, en una emocionante búsqueda de un tesoro perdido a través del tiempo.",
     trailer: null,
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184020/d13bb4fb7c3bb00201b3b62f9694333224aeeb5e/header.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184020/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -5745,7 +5745,7 @@ const JUEGOS = [
     descripcion: "En el corazón de Verice Bay, una idea brillante toma forma entre las manos de un inventor excéntrico y una artista ecléctica. Sigue a Margaret y Hector en una aventura gráfica point & click que te llevará a los límites del espacio y el tiempo para ayudarles a evitar un peligro inminente.",
     trailer: null,
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2706980/header.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2706980/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"

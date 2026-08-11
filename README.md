@@ -126,6 +126,19 @@ si están en `null` o ausentes — no rompen nada.
 
 ### Carátulas (campo `imagen`)
 
+**Buscar SIEMPRE primero la vertical.** El orden es `library_600x900.jpg` → si da 404,
+`header_image` de `appdetails`. El 11/08/2026 se cargaron 6 juegos con el header pudiendo
+tener la vertical, porque el script tomó `header_image` sin probar la otra:
+
+```
+https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/<appid>/library_600x900.jpg
+```
+
+Vale la pena reintentarlo cada tanto sobre las que quedaron apaisadas: Steam publica la
+vertical recién cuando la ficha de la tienda está completa, así que un juego que hoy no la
+tiene puede tenerla cerca de su lanzamiento.
+
+
 - **Juegos en Steam**: buscar el juego en store.steampowered.com, copiar el número de la URL
   (`store.steampowered.com/app/1290760/...` → `1290760`) y usar:
   `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/NUMERO/library_600x900.jpg`

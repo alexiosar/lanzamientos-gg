@@ -649,7 +649,9 @@ a:hover { color: var(--blanco); }
 /* ── VISTA GRILLA ── */
 .grilla {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  /* 190px seguía entrando 4 veces en la columna de 822px y quedaba igual que
+     antes: a 230 entran 3 y cada carátula pasa de 190 a ~254px de ancho. */
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 1.5rem 1.25rem;
   margin-bottom: 2rem;
 }
@@ -719,7 +721,7 @@ a:hover { color: var(--blanco); }
 
 @media (max-width: 600px) {
   .grilla {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
     gap: 1.25rem 0.75rem;
   }
 }
@@ -757,8 +759,8 @@ a:hover { color: var(--blanco); }
 
 /* ── MINIATURAS EN LISTAS ── */
 .mini-portada {
-  width: 40px;
-  height: 40px;
+  width: 52px;
+  height: 52px;
   object-fit: cover;
   border: 1px solid var(--gris-3);
   background: var(--gris-1);
@@ -785,9 +787,12 @@ a:hover { color: var(--blanco); }
   color: inherit;
 }
 
+/* Es el banner principal de la portada: la carátula de 64x88 ocupaba un tercio
+   de la altura del bloque y se perdía. 2:3, que es la proporción del arte
+   vertical de Steam, así que las que ya venían bien no cambian de encuadre. */
 .destacado-portada {
-  width: 64px;
-  height: 88px;
+  width: 140px;
+  height: 210px;
   object-fit: cover;
   border: 1px solid var(--gris-3);
   flex-shrink: 0;
@@ -1026,7 +1031,7 @@ a:hover { color: var(--blanco); }
 
   .juego-fila {
     display: grid;
-    grid-template-columns: 40px 1fr;
+    grid-template-columns: 52px 1fr;
     column-gap: 0.75rem;
     row-gap: 0.35rem;
     align-items: center;
@@ -1034,12 +1039,17 @@ a:hover { color: var(--blanco); }
 
   .juego-fila > .mini-portada { grid-column: 1; grid-row: 1 / span 2; }
   .juego-fila > .juego-nombre { grid-column: 2; grid-row: 1; min-width: 0; }
+
+  /* En 375px una carátula de 140px deja el título en una columna de 143px y se
+     parte en dos renglones. A 110 el texto respira y la carátula sigue siendo
+     casi el doble de lo que era. */
+  .destacado-portada { width: 110px; height: 165px; }
   .juego-fila > .plataformas  { grid-column: 2; grid-row: 2; }
 
   /* La de próximos suma la fecha, que va arriba junto al nombre. */
   .proximos-fila {
     display: grid;
-    grid-template-columns: 40px auto 1fr;
+    grid-template-columns: 52px auto 1fr;
     column-gap: 0.75rem;
     row-gap: 0.35rem;
     align-items: center;
@@ -1055,7 +1065,7 @@ a:hover { color: var(--blanco); }
      roba ancho a la columna de texto. */
   .ranking-fila {
     display: grid;
-    grid-template-columns: auto 40px 1fr auto;
+    grid-template-columns: auto 52px 1fr auto;
     column-gap: 0.6rem;
     row-gap: 0.35rem;
     align-items: center;
@@ -1105,7 +1115,7 @@ a:hover { color: var(--blanco); }
 .mini-vacia::before    { font-size: 1.125rem; }
 .portada-vacia::before { font-size: 3rem; }
 
-/* En la grilla y en la ficha entra además el texto; en la miniatura de 40px no. */
+/* En la grilla y en la ficha entra además el texto; en la miniatura de 52px no. */
 .grilla-vacia::after,
 .portada-vacia::after {
   content: "SIN CARÁTULA";
@@ -1119,9 +1129,10 @@ a:hover { color: var(--blanco); }
   color: var(--gris-5);
 }
 
+/* El marcador NO fija su tamaño: lo hereda de la clase con la que viaja
+   (.ficha-portada o .destacado-portada), que son de tamaños distintos. Cuando
+   fijaba 200x220 acá, el destacado sin carátula salía con la medida de la ficha. */
 .portada-vacia {
-  width: 200px;
-  height: 220px;
   flex-shrink: 0;
 }
 

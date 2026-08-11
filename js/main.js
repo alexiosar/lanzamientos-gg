@@ -517,7 +517,7 @@ function renderCalendario() {
       const f = parseFecha(dest.fecha);
       destacadoHtml = `
       <a class="destacado" href="/juegos/${dest.id}">
-        <img class="destacado-portada" src="${dest.imagen}" alt="Portada de ${dest.titulo}" onerror="sinCaratula(this,'ficha-portada portada-vacia')">
+        <img class="destacado-portada" src="${dest.imagen}" alt="Portada de ${dest.titulo}" onerror="sinCaratula(this,'destacado-portada portada-vacia')">
         <div class="destacado-info">
           <span class="destacado-tag">▸ PRÓXIMO DESTACADO</span>
           <span class="destacado-titulo">${dest.titulo}</span>
