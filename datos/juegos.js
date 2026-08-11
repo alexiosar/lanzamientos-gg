@@ -573,7 +573,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/8-Lnz5UQX4c",
     metacritic: 57,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935020/10ae84de59688050a1140103c1ecdbf987d8aeea/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-21",
         titulo: "LA CRÍTICA NO PERDONA: 57 EN METACRITIC",
@@ -741,7 +741,7 @@ noticias: [
     trailer: "https://youtube.com/embed/OYNqetlubUw",
     metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2697940/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-13",
         titulo: "DEBUT CON 82 EN METACRITIC",
@@ -778,7 +778,7 @@ noticias: [
     trailer: "https://youtube.com/embed/LJ-uk8v76TE",
     metacritic: 76,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3237520/e817a332b4247486e43005e12413aa9f4d377003/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-13",
         titulo: "LA EXPANSIÓN DEBUTA CON 76",
@@ -846,7 +846,7 @@ noticias: [
     trailer: "https://youtube.com/embed/ji-sO68H1-8",
     metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782460/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-14",
         titulo: "DEBUT CON 82 EN METACRITIC",
@@ -868,7 +868,7 @@ noticias: [
     trailer: "https://youtube.com/embed/1MUuSW4g0Bc",
     metacritic: 86,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/9e82089d034705eaa84ecb130d04ed1084ce574c/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-15",
         titulo: "DEBUT CON 86 EN METACRITIC",
@@ -922,7 +922,7 @@ noticias: [
     trailer: "https://youtube.com/embed/olYY9vIUIrI",
     metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2783370/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-27",
         titulo: "SÓLIDO DEBUT: 81 EN METACRITIC",
@@ -966,7 +966,7 @@ noticias: [
     trailer: "https://youtube.com/embed/mGQ_sVCc1_c",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029740/61bd4edcfe96b8f158100a92fb2b11d9778fd24a/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-21",
         titulo: "RETRASADO AL 20 DE AGOSTO",
@@ -1010,7 +1010,7 @@ noticias: [
     trailer: "https://youtube.com/embed/3Z_IUAkzHyA",
     metacritic: 78,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3322630/1af09cd578c01c35fa6ffe1bb9747d7ed43308dc/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-17",
         titulo: "DEBUT CON 78 EN METACRITIC",
@@ -1073,7 +1073,7 @@ noticias: [
     trailer: "https://youtube.com/embed/57nbZWfS8TQ",
     metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2802740/829d9cf1b2dc94d98d2df66cf91ecec316e55802/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-17",
         titulo: "DEBUT CON 82 EN METACRITIC",
@@ -1110,7 +1110,7 @@ noticias: [
     trailer: "https://youtube.com/embed/E2DDuGJdiK4",
     metacritic: 58,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1662160/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-24",
         titulo: "DEBUT FLOJO: 58 EN METACRITIC",
@@ -1197,7 +1197,7 @@ noticias: [
     trailer: "https://youtube.com/embed/2AxSBrHMMt0",
     metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-21",
         titulo: "LLEGA A CONSOLAS CON 81 EN METACRITIC",
@@ -1219,7 +1219,7 @@ noticias: [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 81,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-23",
         titulo: "DEBUTA CON 81, A LA ALTURA DE LA SAGA",
@@ -1251,7 +1251,7 @@ noticias: [
     trailer: "https://youtube.com/embed/qC0WcvBOt_c",
     metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-23",
         titulo: "SÓLIDO DEBUT: 81 EN METACRITIC",
@@ -1275,7 +1275,7 @@ noticias: [
     trailer: "https://youtube.com/embed/yqhM9qeBbA0",
     metacritic: 80,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1684930/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-28",
         titulo: "DEBUT EN CONSOLAS CON 80",
@@ -1297,7 +1297,7 @@ noticias: [
     trailer: "https://youtube.com/embed/Fadyest5qKQ",
     metacritic: 62,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402250/50b8ab932e9c3b8187a7e96034021bfddb51ee51/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-23",
         titulo: "RECEPCIÓN MIXTA: 62 EN METACRITIC",
@@ -1319,7 +1319,7 @@ noticias: [
     trailer: "https://youtube.com/embed/UQGOI3xVxh8",
     metacritic: 80,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2191280/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-23",
         titulo: "BUEN DEBUT PARA EL HACK AND SLASH: 80",
@@ -1343,7 +1343,7 @@ noticias: [
     trailer: "https://youtube.com/embed/jsdxLwqUH6g",
     metacritic: 85,
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxx2hdremaster/1x1_FinalFantasyXX2HDRemaster_image500w.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-23",
         titulo: "LOS CLÁSICOS DE SPIRA BRILLAN EN SWITCH 2: 85",
@@ -1434,7 +1434,7 @@ noticias: [
     trailer: "https://youtube.com/embed/SvV9OeZHESc",
     metacritic: 66,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1641960/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-27",
         titulo: "LLEGA A XBOX CON 66 EN METACRITIC",
@@ -1456,7 +1456,7 @@ noticias: [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-28",
         titulo: "MASTER CHIEF DEBUTA EN PLAYSTATION CON 82",
@@ -1498,7 +1498,7 @@ noticias: [
     trailer: "https://youtube.com/embed/bc1exw4vjtM",
     metacritic: 71,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-10",
         titulo: "DAY ONE EN GAME PASS, SIN PS PLUS",
@@ -1571,7 +1571,7 @@ noticias: [
     trailer: "https://youtube.com/embed/Xjpao-nD5YU",
     metacritic: 83,
     imagen: "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_XenobladeChronicles2_image500w.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-10",
         titulo: "4K, 60 FPS Y UN BLADE NUEVO EN SWITCH 2",
@@ -1883,7 +1883,7 @@ noticias: [
     trailer: "https://youtube.com/embed/CZXjQRcu2B8",
     metacritic: 80,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753900/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-21",
         titulo: "SU DEBUT EN CONSOLAS SE MOVIÓ AL 29",
@@ -1997,9 +1997,14 @@ noticias: [
     desarrollador: "ARC SYSTEM WORKS CO., LTD",
     descripcion: "Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel Games.",
     trailer: "https://youtube.com/embed/cen2Lbmmo_Q",
-    metacritic: null,
+    metacritic: 87,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg",
-noticias: [
+    noticias: [
+      {
+        fecha: "2026-08-11",
+        titulo: "DEBUTA CON 87 Y LA CRÍTICA DE PC LO CASTIGA POR OTRA COSA",
+        texto: "Arc System Works se lleva 87 en la versión de PS5, con elogios al combate y a lo accesible que resulta para quien no juega peleas. La bronca está en PC: el juego recibió una avalancha de reseñas negativas en Steam por exigir una cuenta de PSN obligatoria y por problemas de rendimiento, dos cosas que no afectan a la edición de consola."
+      },
       {
         fecha: "2026-07-10",
         titulo: "BETA ABIERTA DEL 24 AL 26 DE JULIO",
@@ -2091,8 +2096,15 @@ noticias: [
     desarrollador: "MANKIBO",
     descripcion: "¡Doma, colecciona, combate! Reúne un equipo imparable de Montabi únicos en este juego de construcción de mazos «roguelike» y captura de criaturas. ¡Domina sus alucinantes habilidades, encuentra sinergias entre sus puntos fuertes estratégicos y salva la ciudad en combates tácticos por turnos!",
     trailer: "https://youtube.com/embed/OOb-IKKkJBE",
-    metacritic: null,
+    metacritic: 72,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141630/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-11",
+        titulo: "72 DE DEBUT PARA UN DECKBUILDER INDONESIO",
+        texto: "Obra del estudio indonesio Mankibo. Es un roguelike de construcción de mazos con captura de criaturas, que pelea en una grilla de 3×3 y trae más de 570 cartas y 200 objetos. Las reseñas coinciden en que el sistema engancha; los reparos van a la falta de historia y a algunos errores que llegan a romper una partida."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -2108,9 +2120,14 @@ noticias: [
     desarrollador: "BETHESDA GAME STUDIOS",
     descripcion: "Explora Cyrodiil como nunca con unos gráficos impresionantes y una jugabilidad mejorada en The Elder Scrolls IV: Oblivion™ Remastered. Esta edición lleva el remaster a Switch 2 por primera vez.",
     trailer: "https://youtube.com/embed/wFJ3PZuAjK4",
-    metacritic: null,
+    metacritic: 80,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg",
     noticias: [
+      {
+        fecha: "2026-08-11",
+        titulo: "80 EN METACRITIC PARA LA REMASTERIZACIÓN",
+        texto: "El puntaje corresponde a la versión que salió en 2025 en PS5, Xbox y PC; esta edición de Switch 2 lleva el mismo contenido. Todavía no hay notas específicas del port de Nintendo."
+      },
       {
         fecha: "2026-08-11",
         titulo: "EL JUEGO ENTERO ENTRA EN EL CARTUCHO",
@@ -2311,7 +2328,7 @@ noticias: [
     trailer: "https://youtube.com/embed/KJWAUJhInH0",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/379616e6d986dc4b75d0d5ace6ec99b7c5184fef/header_alt_assets_1_spanish.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-10",
         titulo: "PRECIO CONFIRMADO: 50 DÓLARES",
@@ -2417,7 +2434,7 @@ noticias: [
     trailer: "https://youtube.com/embed/6lCzpRkoFjw",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2713000/fd497979801c646561040243e1aa64a73d11f13a/header.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-10",
         titulo: "YA ES GOLD Y LAS PREVIEWS ENTUSIASMAN",
@@ -3425,7 +3442,7 @@ noticias: [
     trailer: "https://youtube.com/embed/9hSoFKn8cTk",
     metacritic: 86,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2238900/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-22",
         titulo: "EXCELENTE DEBUT EN SWITCH 2: 86",
@@ -3449,7 +3466,7 @@ noticias: [
     trailer: "https://youtube.com/embed/izrs0wg_30Y",
     metacritic: 67,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-22",
         titulo: "DEBUT DISCRETO EN XBOX: 67",
@@ -3488,7 +3505,7 @@ noticias: [
     trailer: "https://youtube.com/embed/C6w_31mWz8A",
     metacritic: 82,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272160/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-22",
         titulo: "LLEGA A SWITCH CON 82 EN METACRITIC",
@@ -4107,7 +4124,7 @@ noticias: [
     trailer: "https://youtube.com/embed/BZTfi1jv-EE",
     metacritic: 84,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282140/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-28",
         titulo: "EL TERROR DE FRICTIONAL BRILLA EN SWITCH 2: 84",
@@ -4131,7 +4148,7 @@ noticias: [
     trailer: "https://youtube.com/embed/XpqfRsJ_--A",
     metacritic: 81,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65540/library_600x900.jpg",
-noticias: [
+    noticias: [
       {
         fecha: "2026-07-28",
         titulo: "EL RPG DE CULTO REGRESA CON 81",
@@ -4194,13 +4211,20 @@ noticias: [
     id: "pro-jank-footy",
     titulo: "PRO JANK FOOTY",
     fecha: "2026-08-12",
-    plataformas: ["SWITCH2", "XBOX"],
+    plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH"],
     genero: ["DEPORTES", "ARCADE", "INDIE"],
     desarrollador: "POWERBOMB GAMES",
     descripcion: "Pro Jank Footy es un juego arcade de comedia deportiva con física exagerada. Meté goles como puedas —volando, chocando o a los tropezones— en partidos caóticos para jugar con amigos.",
     trailer: "https://youtube.com/embed/U-mqKi-G9HI",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-12",
+        titulo: "FÚTBOL AUSTRALIANO, ROGUELIKE Y 150 MEJORAS ABSURDAS",
+        texto: "Sale el mismo día en PS5, Xbox Series, Switch 2, Switch y PC. Es un juego de fútbol australiano de dos equipos de dieciocho con más de 150 mejoras que van deformando las reglas, incluida una que suelta el salvapantallas flotante de un reproductor de DVD en la cancha. Lo hacen Powerbomb Games y Tinker Town, de Adelaida; el director creativo es David Ashby, cocreador de la serie de comedia Danger 5."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-27"
@@ -5051,13 +5075,20 @@ noticias: [
     fecha: "2026-08-12",
     relanzamiento: "En PC desde el 5 de agosto de 2026",
     duracion: "≈ 2,7 h (historia)",
-    plataformas: ["PS5", "PS4", "XBOX", "SWITCH"],
+    plataformas: ["PS5", "PS4", "XBOX"],
     genero: ["ACCION", "AVENTURA", "PLATAFORMA", "INDIE"],
     desarrollador: "CONTRAST GAMES",
     descripcion: "Un metroidvania donde empuñás un bastón para pelear, saltar y explorar reinos de distintas épocas. Acompañás a Mako mientras intenta detener las Tormentas Ámbar que envenenan el mundo.",
     trailer: "https://youtube.com/embed/NBo6tHzZQ7k",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442520/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-12",
+        titulo: "EN SWITCH 2 RECIÉN EN 2027",
+        texto: "Sale en PS5, PS4, Xbox Series y Xbox One, una semana después de su estreno en PC. La versión de Switch 2 está anunciada para 2027, así que quien lo espere en una consola de Nintendo va a tener que esperar bastante. Es un metroidvania en 2,5D construido alrededor del impulso: el bastón de Mako sirve tanto para pelear como para planear desde las alturas y resolver puzles del escenario."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-31"

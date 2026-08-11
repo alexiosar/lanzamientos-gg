@@ -57,7 +57,12 @@ def lastmod(clave, contenido):
 # que se ve en la página, así que no debe mover el lastmod: si entrara en la huella,
 # el día que se agregó ese campo Google leería que las 304 URLs cambiaron a la vez.
 def sin_ruido(texto):
-    return re.sub(r'\n\s*alta: "[^"]*",?', "", texto)
+    # El campo alta no cambia nada de lo que se ve en la página.
+    texto = re.sub(r'\n\s*alta: "[^"]*",?', "", texto)
+    # La sangría tampoco: el 11/08/2026 se corrigió la de 30 bloques que tenían
+    # `noticias:` pegado al margen y, sin esto, el sitemap le habría dicho a Google
+    # que esas 30 fichas cambiaron cuando su HTML quedó byte a byte idéntico.
+    return re.sub(r"\n[ \t]*", "\n", texto)
 
 
 def url(ruta, contenido, changefreq, priority):

@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-10T14:08:27+00:00",
+ "generado": "2026-08-11T13:14:47+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 318,
@@ -2783,13 +2783,18 @@
    "desarrollador": "ARC SYSTEM WORKS CO., LTD",
    "descripcion": "Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel Games.",
    "trailer": "https://youtube.com/embed/cen2Lbmmo_Q",
-   "metacritic": null,
+   "metacritic": 87,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls",
    "noticias": [
+    {
+     "fecha": "2026-08-11",
+     "titulo": "DEBUTA CON 87 Y LA CRÍTICA DE PC LO CASTIGA POR OTRA COSA",
+     "texto": "Arc System Works se lleva 87 en la versión de PS5, con elogios al combate y a lo accesible que resulta para quien no juega peleas. La bronca está en PC: el juego recibió una avalancha de reseñas negativas en Steam por exigir una cuenta de PSN obligatoria y por problemas de rendimiento, dos cosas que no afectan a la edición de consola."
+    },
     {
      "fecha": "2026-07-10",
      "titulo": "BETA ABIERTA DEL 24 AL 26 DE JULIO",
@@ -2910,12 +2915,19 @@
    "desarrollador": "MANKIBO",
    "descripcion": "¡Doma, colecciona, combate! Reúne un equipo imparable de Montabi únicos en este juego de construcción de mazos «roguelike» y captura de criaturas. ¡Domina sus alucinantes habilidades, encuentra sinergias entre sus puntos fuertes estratégicos y salva la ciudad en combates tácticos por turnos!",
    "trailer": "https://youtube.com/embed/OOb-IKKkJBE",
-   "metacritic": null,
+   "metacritic": 72,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141630/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/montabi"
+   "url": "https://lanzamientos.lat/juegos/montabi",
+   "noticias": [
+    {
+     "fecha": "2026-08-11",
+     "titulo": "72 DE DEBUT PARA UN DECKBUILDER INDONESIO",
+     "texto": "Obra del estudio indonesio Mankibo. Es un roguelike de construcción de mazos con captura de criaturas, que pelea en una grilla de 3×3 y trae más de 570 cartas y 200 objetos. Las reseñas coinciden en que el sistema engancha; los reparos van a la falta de historia y a algunos errores que llegan a romper una partida."
+    }
+   ]
   },
   {
    "id": "the-elder-scrolls-iv-oblivion-remastered",
@@ -2934,13 +2946,18 @@
    "desarrollador": "BETHESDA GAME STUDIOS",
    "descripcion": "Explora Cyrodiil como nunca con unos gráficos impresionantes y una jugabilidad mejorada en The Elder Scrolls IV: Oblivion™ Remastered. Esta edición lleva el remaster a Switch 2 por primera vez.",
    "trailer": "https://youtube.com/embed/wFJ3PZuAjK4",
-   "metacritic": null,
+   "metacritic": 80,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/the-elder-scrolls-iv-oblivion-remastered",
    "noticias": [
+    {
+     "fecha": "2026-08-11",
+     "titulo": "80 EN METACRITIC PARA LA REMASTERIZACIÓN",
+     "texto": "El puntaje corresponde a la versión que salió en 2025 en PS5, Xbox y PC; esta edición de Switch 2 lleva el mismo contenido. Todavía no hay notas específicas del port de Nintendo."
+    },
     {
      "fecha": "2026-08-11",
      "titulo": "EL JUEGO ENTERO ENTRA EN EL CARTUCHO",
@@ -5978,8 +5995,10 @@
    "titulo": "PRO JANK FOOTY",
    "fecha": "2026-08-12",
    "plataformas": [
+    "PS5",
+    "XBOX",
     "SWITCH2",
-    "XBOX"
+    "SWITCH"
    ],
    "genero": [
     "DEPORTES",
@@ -5994,7 +6013,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-27",
-   "url": "https://lanzamientos.lat/juegos/pro-jank-footy"
+   "url": "https://lanzamientos.lat/juegos/pro-jank-footy",
+   "noticias": [
+    {
+     "fecha": "2026-08-12",
+     "titulo": "FÚTBOL AUSTRALIANO, ROGUELIKE Y 150 MEJORAS ABSURDAS",
+     "texto": "Sale el mismo día en PS5, Xbox Series, Switch 2, Switch y PC. Es un juego de fútbol australiano de dos equipos de dieciocho con más de 150 mejoras que van deformando las reglas, incluida una que suelta el salvapantallas flotante de un reproductor de DVD en la cancha. Lo hacen Powerbomb Games y Tinker Town, de Adelaida; el director creativo es David Ashby, cocreador de la serie de comedia Danger 5."
+    }
+   ]
   },
   {
    "id": "yet-another-zombie-survivors",
@@ -7257,8 +7283,7 @@
    "plataformas": [
     "PS5",
     "PS4",
-    "XBOX",
-    "SWITCH"
+    "XBOX"
    ],
    "genero": [
     "ACCION",
@@ -7274,7 +7299,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/akatori"
+   "url": "https://lanzamientos.lat/juegos/akatori",
+   "noticias": [
+    {
+     "fecha": "2026-08-12",
+     "titulo": "EN SWITCH 2 RECIÉN EN 2027",
+     "texto": "Sale en PS5, PS4, Xbox Series y Xbox One, una semana después de su estreno en PC. La versión de Switch 2 está anunciada para 2027, así que quien lo espere en una consola de Nintendo va a tener que esperar bastante. Es un metroidvania en 2,5D construido alrededor del impulso: el bastón de Mako sirve tanto para pelear como para planear desde las alturas y resolver puzles del escenario."
+    }
+   ]
   },
   {
    "id": "creepshow",
