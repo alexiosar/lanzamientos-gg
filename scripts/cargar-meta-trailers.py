@@ -32,7 +32,8 @@ TROZO = 900_000
 
 def ids_en_uso():
     src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    return sorted(set(re.findall(r'trailer: "https://youtube\.com/embed/([\w-]{11})"', src)))
+    # el www. es opcional: una entrada vieja lo tenía y se quedaba sin fecha
+    return sorted(set(re.findall(r'trailer: "https://(?:www\.)?youtube\.com/embed/([\w-]{11})"', src)))
 
 
 def bajar(vid):

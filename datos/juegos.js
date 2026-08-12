@@ -7,7 +7,7 @@ const JUEGOS = [
     genero: ["RPG", "ISOMETRICO", "GOTICO"],
     desarrollador: "PSYCHIC SOFTWARE",
     descripcion: "The Necromancer's Tale es un RPG narrativo con vista cenital donde encarnas a un noble menor del siglo XVIII, adentrándote en las Artes Oscuras de la Nigromancia en busca de conocimiento y venganza. Un gran poder te espera... junto con lo extraño, lo morboso y un descenso gradual a la locura. Ante ti yace un gran libro de hechizos, repleto de poderosos ritos de muerte y reanimación. ¿Podrás descifrar sus páginas y dominar sus rituales arcanos sin perder la cordura ni ser ahorcado por los habitantes del pueblo? Tu progreso requerirá gran determinación, astucia y discreción. The Necromancer's Tale es un juego con una rica historia, con 400.000 palabras de narrativa y trasfondo, en el que conversarás con más de 180 personajes, cada uno con su propio retrato. Investigarás, negociarás, coaccionarás y halagarás para avanzar en tus objetivos. El sistema de confianza del juego implica que tus decisiones, incluso en las conversaciones, realmente importan. Si la confianza de los habitantes del pueblo cae demasiado bajo, tus decisiones se verán afectadas; si cae aún más bajo, seguramente serás juzgado en un tribunal y ahorcado, o linchado por una turba enfurecida.",
-    trailer: "https://www.youtube.com/embed/rticbJlXbLw",
+    trailer: "https://youtube.com/embed/rticbJlXbLw",
     metacritic: 77,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1315320/library_600x900.jpg",
     noticias: [
