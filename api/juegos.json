@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-11T22:47:47+00:00",
+ "generado": "2026-08-12T14:44:19+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 318,
@@ -3040,7 +3040,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/hell-let-loose-vietnam"
+   "url": "https://lanzamientos.lat/juegos/hell-let-loose-vietnam",
+   "noticias": [
+    {
+     "fecha": "2026-08-13",
+     "titulo": "SE RETRASÓ DOS MESES PARA CORREGIR LO QUE MOSTRARON LAS BETAS",
+     "texto": "Estaba anunciado para el 18 de junio y Expression Games lo movió a agosto después de las betas abiertas y de sus propias pruebas internas. Son batallas de 50 contra 50 en seis mapas nuevos de Vietnam —selva cerrada, deltas y claros abiertos—, con roles definidos, túneles y apoyo aéreo en helicóptero."
+    }
+   ]
   },
   {
    "id": "rivage",
@@ -7697,7 +7704,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-04",
-   "url": "https://lanzamientos.lat/juegos/cloverpit"
+   "url": "https://lanzamientos.lat/juegos/cloverpit",
+   "noticias": [
+    {
+     "fecha": "2026-08-13",
+     "titulo": "CINCO MILLONES DE JUGADORES ANTES DE LLEGAR A CONSOLAS",
+     "texto": "El roguelike de la máquina tragamonedas acumuló más de cinco millones de jugadores entre Steam, Game Pass y móviles desde que salió el año pasado, y se lo comparó con Balatro y Buckshot Roulette. Cuesta 4,99 dólares. Las ediciones de consola traen agregados propios: control con mouse en Switch 2 y uso de la barra de luz del DualSense. El mismo día sale el DLC Unholy Fusion, con amuletos de fusión, tarjetas de memoria y un final alternativo."
+    }
+   ]
   },
   {
    "id": "crymelight",

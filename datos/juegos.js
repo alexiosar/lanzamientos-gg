@@ -2188,6 +2188,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/8zdQFX0Li8Q",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/2e52f99e70e827b57a2205469dc5d529e8e0490a/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-13",
+        titulo: "SE RETRASÓ DOS MESES PARA CORREGIR LO QUE MOSTRARON LAS BETAS",
+        texto: "Estaba anunciado para el 18 de junio y Expression Games lo movió a agosto después de las betas abiertas y de sus propias pruebas internas. Son batallas de 50 contra 50 en seis mapas nuevos de Vietnam —selva cerrada, deltas y claros abiertos—, con roles definidos, túneles y apoyo aéreo en helicóptero."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -5341,6 +5348,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/htmbP1Qc20Y",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-13",
+        titulo: "CINCO MILLONES DE JUGADORES ANTES DE LLEGAR A CONSOLAS",
+        texto: "El roguelike de la máquina tragamonedas acumuló más de cinco millones de jugadores entre Steam, Game Pass y móviles desde que salió el año pasado, y se lo comparó con Balatro y Buckshot Roulette. Cuesta 4,99 dólares. Las ediciones de consola traen agregados propios: control con mouse en Switch 2 y uso de la barra de luz del DualSense. El mismo día sale el DLC Unholy Fusion, con amuletos de fusión, tarjetas de memoria y un final alternativo."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-04"

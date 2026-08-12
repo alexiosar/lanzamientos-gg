@@ -582,6 +582,14 @@ y abrir http://localhost:8080
 
 ## Pendientes / ideas
 
+- **Creepshow: ¿va o no va en el calendario?** Está cargado para el 13/08/2026 en PS5, PS4,
+  Xbox y Switch, pero al 12/08 toda la prensa (Bloody Disgusting, Gizmodo, Engadget, Games
+  Press) anuncia el lanzamiento **solo en PC vía Steam**, y no aparece ni en la PS Store ni
+  en la eShop europea. El único rastro de consola es una ficha de PS5 en GameFAQs, que crea
+  páginas por plataforma a partir de anuncios y a veces se adelanta. Como esto es un
+  calendario de consolas, o se le corrigen las plataformas o sale de la lista. Verificar
+  después del 13: si no salió en consolas, borrarlo hasta que haya fecha real.
+
 - **Carátulas faltantes (3)**, con lo ya descartado el 07/08/2026 para no repetir la búsqueda:
   - *BloodRayne: Definitive Collection* — no existe carátula propia. En PS Store solo están los
     tres juegos por separado (es un bundle físico de Strictly Limited, no un producto digital),
