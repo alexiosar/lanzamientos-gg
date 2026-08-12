@@ -120,8 +120,11 @@ def main():
 
     # 2) Regenerar
     print("\n── Regenerando fichas y sitemap ──")
-    for script in ["generar-fichas.py", "generar-plataformas.py", "generar-noticias.py",
-                   "generar-feeds.py", "generar-sitemap.py"]:
+    # cargar-meta-trailers.py va PRIMERO: generar-fichas.py lee su caché para
+    # declarar el trailer en los datos estructurados. Si no falta ninguno no hace
+    # una sola petición, así que en un día normal no cuesta nada.
+    for script in ["cargar-meta-trailers.py", "generar-fichas.py", "generar-plataformas.py",
+                   "generar-noticias.py", "generar-feeds.py", "generar-sitemap.py"]:
         r = subprocess.run(["python3", str(RAIZ / "scripts" / script)], capture_output=True, text=True)
         print(" ", r.stdout.strip() or r.stderr.strip())
 

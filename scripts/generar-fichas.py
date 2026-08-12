@@ -43,6 +43,17 @@ def plat_label(p):
     return "SWITCH 2" if p == "SWITCH2" else p
 
 
+# Fecha de subida y título de cada trailer, cacheados por scripts/cargar-meta-trailers.py.
+# Sin `uploadDate` el VideoObject queda incompleto y Google lo ignora, y ese dato no
+# está en oEmbed: hay que leerlo de la página del video, que pesa casi un mega.
+def leer_meta_trailers():
+    archivo = RAIZ / "datos" / "trailers-meta.json"
+    return json.loads(archivo.read_text(encoding="utf-8")) if archivo.exists() else {}
+
+
+META_TRAILERS = leer_meta_trailers()
+
+
 def plat_slug(p):
     return {"PS5": "/ps5", "PS4": "/ps4", "XBOX": "/xbox",
             "SWITCH2": "/switch-2", "SWITCH": "/switch"}.get(p, "/")
@@ -204,6 +215,21 @@ def generar(j, juegos):
     }
     if j.get("imagen"):
         datos_ld["image"] = j["imagen"]
+
+    # El trailer, declarado como video para que Google sepa que la ficha tiene uno.
+    # Se omite si no está en la caché: un VideoObject sin uploadDate no sirve de nada
+    # y es preferible no emitir marcado incompleto.
+    vid = (re.search(r"embed/([\w-]{11})", j["trailer"]) if j.get("trailer") else None)
+    meta = META_TRAILERS.get(vid.group(1)) if vid else None
+    if meta:
+        datos_ld["trailer"] = {
+            "@type": "VideoObject",
+            "name": meta.get("titulo") or f'Trailer de {j["titulo"]}',
+            "description": j["descripcion"][:200],
+            "thumbnailUrl": f"https://i.ytimg.com/vi/{vid.group(1)}/hqdefault.jpg",
+            "uploadDate": meta["uploadDate"],
+            "embedUrl": j["trailer"],
+        }
 
     return f'''<!DOCTYPE html>
 <html lang="es">

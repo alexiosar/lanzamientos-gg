@@ -32,6 +32,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               difusion/directorios-api.md para el chequeo)
 ├── _headers                    CORS abierto para /api/* (Cloudflare)
 ├── api.html                    Documentación de la API pública (enlace canónico: /api)
+├── scripts/cargar-meta-trailers.py  Fecha de subida de cada trailer (para el marcado de video)
+├── datos/trailers-meta.json    Caché de esas fechas. **Commitearla**: si se pierde hay que
+│                               volver a bajar ~1 MB por trailer
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
@@ -563,6 +566,7 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 | **Que esas URLs sigan vivas** | — | **Semanal, paso 8:** `python3 scripts/verificar-enlaces.py` |
 | `duracion` (HLTB) | Mensual, paso 10 | Mensual, paso 10 (recorre todos, no solo los nuevos) |
 | `descripcion`, `genero`, `desarrollador` | Semanal / Mensual, al cargar | — (no se desactualizan) |
+| Datos estructurados del trailer | — | Diaria, automática (`cargar-meta-trailers.py`) |
 | `alta` | — | Diaria, automática (`actualizar.py` la sella) |
 | `sitemap` y `lastmod` | — | Diaria, automática |
 
