@@ -474,6 +474,28 @@ en este archivo y en la sección "Fuentes de datos habituales".
    que más le importa a un calendario: además de la noticia, hay que corregir la fecha del
    juego), **Directs y State of Play**, y los **juegos del mes** de PS Plus y Game Pass.
    Si no pasó nada que valga la pena, no se fuerza: una entrada floja vale menos que ninguna.
+
+   **Las fuentes que hay que abrir.** Sin esta lista el paso es reactivo: `actualizar.py`
+   dice qué juegos salen y cuáles debutaron con puntaje, y se busca cada uno por su nombre.
+   Eso encuentra lo que le pasa a los juegos **ya cargados** y se pierde todo lo de afuera —
+   así se nos pasó el catálogo de PS Plus de agosto hasta el 13/08/2026, y así faltaba Ghost
+   of Yōtei: Edición Completa, anunciada el día anterior en el blog de PlayStation.
+
+   | Fuente | Qué buscar ahí |
+   |---|---|
+   | [blog.latam.playstation.com](https://blog.latam.playstation.com/) | PS Plus, fechas nuevas de PS5, informes de jugabilidad. Es oficial y está en español. |
+   | [news.xbox.com](https://news.xbox.com/es-mx/) | Game Pass y anuncios de Xbox. |
+   | [Gematsu](https://www.gematsu.com/) | **Retrasos y fechas nuevas de consola.** Es el que primero los levanta, y son justo el material que le falta a `datos/noticias.js`. |
+   | [nintendo.com/us/nintendo-direct](https://www.nintendo.com/us/nintendo-direct/) | Directs y sus anuncios. |
+
+   Tres cosas salen de ahí, y conviene no quedarse solo con la primera:
+   - una **noticia** (de un juego o propia);
+   - a veces un **juego que falta** en el calendario;
+   - a veces una **corrección de fecha o de plataformas** de uno que ya está.
+
+   Ojo con el catálogo de PS Plus: los planes Extra y Deluxe suman juegos viejos, que **no
+   son estrenos**. Van como noticia, pero no llevan `psplus: true`, que está reservado para
+   los que debutan en el servicio el día que salen.
 3. `python3 scripts/post-diario.py` — imprime tres opciones de posteo para X y Bluesky
    (lanzamientos del día, lo que viene en la semana, cuenta regresiva) con el conteo de
    caracteres de cada red. No publica nada: se elige una, se copia y se pega. Correrlo
