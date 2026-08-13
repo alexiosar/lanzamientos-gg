@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-13T20:04:39+00:00",
+ "generado": "2026-08-13T20:38:37+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-13",
  "hasta": "2026-09-12",
- "total": 64,
+ "total": 62,
  "juegos": [
   {
    "id": "duskfade",
@@ -230,32 +230,6 @@
    "url": "https://lanzamientos.lat/juegos/skatesterre"
   },
   {
-   "id": "creepshow",
-   "titulo": "CREEPSHOW",
-   "fecha": "2026-08-13",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "PS4",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "HORROR",
-    "POINT AND CLICK",
-    "INDIE"
-   ],
-   "desarrollador": "PHL COLLECTIVE",
-   "descripcion": "Una antología de terror deliciosamente oscura inspirada en la serie Creepshow de Shudder. Aventura de apuntar y hacer clic donde todo sale mal de las peores maneras posibles.",
-   "trailer": "https://youtube.com/embed/93U5DlM-CdE",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3462650/8f16d53464320fece97408c752e71db707f0ef60/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/creepshow"
-  },
-  {
    "id": "cloverpit",
    "titulo": "CLOVERPIT",
    "fecha": "2026-08-13",
@@ -317,28 +291,6 @@
    "psplus": false,
    "alta": "2026-08-10",
    "url": "https://lanzamientos.lat/juegos/menherarium"
-  },
-  {
-   "id": "mafia-the-old-country-man-of-honor",
-   "titulo": "MAFIA: THE OLD COUNTRY - MAN OF HONOR",
-   "fecha": "2026-08-14",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "HANGAR 13",
-   "descripcion": "Ponte en la piel de Enzo Favara y trabaja con Ennio Salieri, un temido y respetado mafioso, mientras salda cuentas pendientes. La expansión Hombre de Honor para Mafia: El Viejo Continente incluye dos nuevos capítulos descargables adicionales para el modo Free Ride.",
-   "trailer": "https://youtube.com/embed/rh9_zPBYDIY",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4492700/590a6171df42da28880a583d61ffdc6482783caf/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/mafia-the-old-country-man-of-honor"
   },
   {
    "id": "the-sinking-city-2",

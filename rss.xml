@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 13 Aug 2026 20:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 20:38:37 +0000</lastBuildDate>
     <item>
       <title>DUSKFADE: 78 DE DEBUT PARA UN PLATAFORMAS ESPAÑOL A LA VIEJA USANZA</title>
       <link>https://lanzamientos.lat/juegos/duskfade</link>
@@ -43,6 +43,13 @@
       <description>Vuelve el clásico de estrategia medieval de Cinemaware, que en su momento fue una vidriera de lo que podían hacer las computadoras de 16 bits. La nota de debut lo deja en el terreno de lo correcto sin más. — DEFENDER OF THE CROWN: THE LEGEND RETURNS para XBOX / PS5 / SWITCH.</description>
     </item>
     <item>
+      <title>MARVEL'S WOLVERINE: EL COMBATE SE MUEVE POR LA FURIA, Y HAY ENEMIGOS QUE TE APAGAN LA CURACIÓN</title>
+      <link>https://lanzamientos.lat/juegos/marvels-wolverine</link>
+      <guid isPermaLink="false">marvels-wolverine-2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Insomniac detalló cómo se juega. La furia tiene tres niveles: en el segundo se desbloquea Última Resistencia, que permite curarse con ella al caer, y en el tercero los ataques pegan mucho más fuerte y se habilitan críticos brutales. La vuelta de tuerca son los inhibidores, aparatos que anulan el factor curativo y obligan a pelear sin red. Acompañan Mystique, Dientes de Sable y Jean Grey; el villano es Bolívar Trask, el industrial antimutante. La campaña va de la selva de Telambang a los bajos fondos de Madripoor. — MARVEL'S WOLVERINE para PS5.</description>
+    </item>
+    <item>
       <title>CLOVERPIT: 77 EN METACRITIC, PERO ESA NOTA ES LA DE PC</title>
       <link>https://lanzamientos.lat/juegos/cloverpit</link>
       <guid isPermaLink="false">cloverpit-2026-08-13</guid>
@@ -69,6 +76,20 @@
       <guid isPermaLink="false">akatori-2026-08-12</guid>
       <pubDate>Wed, 12 Aug 2026 12:00:00 +0000</pubDate>
       <description>Sale en PS5, PS4, Xbox Series y Xbox One, una semana después de su estreno en PC. La versión de Switch 2 está anunciada para 2027, así que quien lo espere en una consola de Nintendo va a tener que esperar bastante. Es un metroidvania en 2,5D construido alrededor del impulso: el bastón de Mako sirve tanto para pelear como para planear desde las alturas y resolver puzles del escenario. — AKATORI para PS5 / PS4 / XBOX.</description>
+    </item>
+    <item>
+      <title>GHOST OF YOTEI: EDICIÓN COMPLETA: SALE EL 1 DE OCTUBRE, EL DÍA QUE EL ORIGINAL CUMPLE UN AÑO</title>
+      <link>https://lanzamientos.lat/juegos/ghost-of-yotei-complete-edition</link>
+      <guid isPermaLink="false">ghost-of-yotei-complete-edition-2026-08-12</guid>
+      <pubDate>Wed, 12 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Cuesta 69,99 euros, y quien ya tenga el juego base puede pasarse por 14,99. Ese mismo día llega además una actualización gratuita para todos los jugadores, tengan o no la edición completa. — GHOST OF YOTEI: EDICIÓN COMPLETA para PS5.</description>
+    </item>
+    <item>
+      <title>EL CATÁLOGO DE PS PLUS DE AGOSTO SUMA HELLDIVERS 2</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">ps-plus-catalogo-agosto-2026</guid>
+      <pubDate>Wed, 12 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Entran al catálogo de PlayStation Plus Helldivers 2, Kingdom Come: Deliverance 2, Vampire Survivors y Hell is Us, entre otros. Ojo con la diferencia: estos no son los juegos mensuales, que se reclaman y quedan para siempre, sino el catálogo de los planes Extra y Deluxe, que se puede jugar mientras dure la suscripción y mientras el juego siga ahí. Ninguno es un estreno, así que no llevan el distintivo de PS Plus en el calendario.</description>
     </item>
     <item>
       <title>MARVEL TŌKON: FIGHTING SOULS: DEBUTA CON 87 Y LA CRÍTICA DE PC LO CASTIGA POR OTRA COSA</title>
@@ -265,27 +286,6 @@
       <guid isPermaLink="false">blue-reflection-quartet-2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
       <description>Debuta con 79 en Metacritic. La colección reúne BLUE REFLECTION (2017) y Second Light (2021), pero lo interesante son las otras dos piezas: RAY nunca fue un juego —era una serie de anime de veinticuatro episodios cuya edición en Blu-ray se canceló— y acá se convirtió en una adaptación jugable; y SUN era un juego para móviles exclusivo de Japón que cerró en mayo de 2024, dejando su historia inaccesible, y fue rehecho para consolas. Suma ocho personajes de RAY y SUN como miembros del grupo. — BLUE REFLECTION QUARTET para SWITCH / PS5 / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>THE RELIC: FIRST GUARDIAN: DEBUTA CON 54 Y LA CRÍTICA LO DESARMA</title>
-      <link>https://lanzamientos.lat/juegos/the-relic-first-guardian</link>
-      <guid isPermaLink="false">the-relic-first-guardian-2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Sale hoy en PS5 y PC con 54 en Metacritic. Los análisis coinciden en que es ambicioso pero que casi todo lo que sostiene el juego se cae: el movimiento, la cámara, el bloqueo y la resistencia ceden a la mínima, los enemigos son excesivamente agresivos y los ochenta jefes terminan siendo esponjas de daño. Lo que sí rescatan es su mundo melancólico. Las versiones de Xbox Series y Switch 2 llegan más adelante en el verano boreal, y la edición física de PS5 el 4 de septiembre. — THE RELIC: FIRST GUARDIAN para PS5.</description>
-    </item>
-    <item>
-      <title>SPACE WARLORD BABY TRADING SIMULATOR: ES SECUELA DEL SIMULADOR DE TRÁFICO DE ÓRGANOS</title>
-      <link>https://lanzamientos.lat/juegos/space-warlord-baby-trading-simulator</link>
-      <guid isPermaLink="false">space-warlord-baby-trading-simulator-2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Continúa Space Warlord Organ Trading Simulator, el juego de 2021 del mismo estudio. En un futuro donde predecir el porvenir dejó obsoletos los mercados normales, la plata se hace comprando acciones sobre la vida simulada de bebés alienígenas. Salió en PC en enero y en Xbox en marzo; las versiones de Switch llegaron de sorpresa. — SPACE WARLORD BABY TRADING SIMULATOR para SWITCH / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>THE WITCH'S BAKERY: SE RETRASÓ DOS MESES, AL 14 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/the-witchs-bakery</link>
-      <guid isPermaLink="false">the-witchs-bakery-2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Estaba anunciado para el 20 de agosto y se movió al 14 de octubre. Sale en PS5, Xbox Series, Switch 2, Switch y PC, con ediciones físicas para PS5, Switch 2 y Switch que incluyen un libro de recetas digital si se compran temprano. — THE WITCH'S BAKERY para PS5 / XBOX / SWITCH 2 / SWITCH.</description>
     </item>
   </channel>
 </rss>

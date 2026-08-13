@@ -2,3 +2,8 @@
 # cuenta al rastrear /juegos/<id> y se comió un 404. Se manda a la portada.
 /juegos/  /  301
 /juegos   /  301
+
+# Juegos que se sacaron del calendario. Google ya tenía sus URL indexadas, así que
+# van a la portada en vez de devolver 404. Ver "Qué entra al calendario" en el README.
+/juegos/creepshow                        /  301
+/juegos/mafia-the-old-country-man-of-honor  /  301

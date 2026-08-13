@@ -176,6 +176,26 @@ tiene puede tenerla cerca de su lanzamiento.
   el `object-fit: cover` del marco 3/4. Se probó mostrarlas enteras sobre un fondo difuminado
   (julio 2026) y **se descartó**: no gustó el resultado. La grilla queda con recorte.
 
+### Qué entra al calendario y qué no (regla decidida el 13/08/2026)
+
+El sitio es un **calendario de lanzamientos de juegos para consolas**. Dos cosas quedan afuera,
+y las dos se colaron alguna vez:
+
+**1. Lo que sale solo en PC.** Aunque la prensa lo cubra y tenga fecha firme. Creepshow estuvo
+cargado con fecha en PS5, PS4, Xbox y Switch hasta que salió, el 13/08/2026, únicamente en
+Steam. Antes de cargar un juego con plataformas de consola, que aparezca en la PS Store o en
+la eShop; si no está en ninguna, no hay versión de consola todavía.
+
+**2. El contenido descargable.** La vara: **si Metacritic lo evalúa como producto propio, es
+un juego; si no, es DLC.** Con eso, Deltarune: Chapter 5 se queda (tiene su propio 86) y
+Mafia: The Old Country - Man of Honor se fue (es una expansión de 10 dólares que necesita el
+juego base). En el barrido semanal ya se descartan por esto Vampire Survivors: Legacy of the
+Bloodmoon, Dragon Ball Xenoverse 2 - Future Saga Chapter 4 y similares.
+
+**Si hay que borrar un juego ya cargado:** además de sacarlo de `datos/juegos.js`, agregar su
+URL a `_redirects` apuntando a la portada. `generar-fichas.py` borra la ficha sola, pero Google
+ya tiene esa URL indexada y sin la redirección queda un 404.
+
 ### Un juego que sale en varias fechas (regla decidida el 01/08/2026)
 
 Pasa seguido: un juego sale primero en unas consolas y meses después en otras. La regla es

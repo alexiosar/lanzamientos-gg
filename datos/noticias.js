@@ -21,6 +21,15 @@
 
 const NOTICIAS = [
   {
+    id: "ps-plus-catalogo-agosto-2026",
+    fecha: "2026-08-12",
+    categoria: "SUSCRIPCIONES",
+    titulo: "EL CATÁLOGO DE PS PLUS DE AGOSTO SUMA HELLDIVERS 2",
+    texto: "Entran al catálogo de PlayStation Plus Helldivers 2, Kingdom Come: Deliverance 2, Vampire Survivors y Hell is Us, entre otros. Ojo con la diferencia: estos no son los juegos mensuales, que se reclaman y quedan para siempre, sino el catálogo de los planes Extra y Deluxe, que se puede jugar mientras dure la suscripción y mientras el juego siga ahí. Ninguno es un estreno, así que no llevan el distintivo de PS Plus en el calendario.",
+    fuente: "https://blog.latam.playstation.com/",
+    juegos: []
+  },
+  {
     id: "direct-fire-emblem-agosto-2026",
     fecha: "2026-08-04",
     categoria: "EVENTOS",

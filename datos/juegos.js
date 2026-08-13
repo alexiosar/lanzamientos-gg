@@ -2304,21 +2304,6 @@ const JUEGOS = [
     alta: "2026-07-14"
   },
   {
-    id: "mafia-the-old-country-man-of-honor",
-    titulo: "MAFIA: THE OLD COUNTRY - MAN OF HONOR",
-    fecha: "2026-08-14",
-    plataformas: ["PS5", "XBOX"],
-    genero: ["ACCION", "AVENTURA"],
-    desarrollador: "HANGAR 13",
-    descripcion: "Ponte en la piel de Enzo Favara y trabaja con Ennio Salieri, un temido y respetado mafioso, mientras salda cuentas pendientes. La expansión Hombre de Honor para Mafia: El Viejo Continente incluye dos nuevos capítulos descargables adicionales para el modo Free Ride.",
-    trailer: "https://youtube.com/embed/rh9_zPBYDIY",
-    metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4492700/590a6171df42da28880a583d61ffdc6482783caf/header.jpg",
-    gamepass: false,
-    psplus: false,
-    alta: "2026-07-14"
-  },
-  {
     id: "the-sinking-city-2",
     titulo: "THE SINKING CITY 2",
     fecha: "2026-08-18",
@@ -2828,6 +2813,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/s3pDMUWlA6I",
     metacritic: null,
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
+    noticias: [
+      {
+        fecha: "2026-08-13",
+        titulo: "EL COMBATE SE MUEVE POR LA FURIA, Y HAY ENEMIGOS QUE TE APAGAN LA CURACIÓN",
+        texto: "Insomniac detalló cómo se juega. La furia tiene tres niveles: en el segundo se desbloquea Última Resistencia, que permite curarse con ella al caer, y en el tercero los ataques pegan mucho más fuerte y se habilitan críticos brutales. La vuelta de tuerca son los inhibidores, aparatos que anulan el factor curativo y obligan a pelear sin red. Acompañan Mystique, Dientes de Sable y Jean Grey; el villano es Bolívar Trask, el industrial antimutante. La campaña va de la selva de Telambang a los bajos fondos de Madripoor."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -5127,21 +5119,6 @@ const JUEGOS = [
     alta: "2026-07-31"
   },
   {
-    id: "creepshow",
-    titulo: "CREEPSHOW",
-    fecha: "2026-08-13",
-    plataformas: ["PS5", "XBOX", "PS4", "SWITCH"],
-    genero: ["AVENTURA", "HORROR", "POINT AND CLICK", "INDIE"],
-    desarrollador: "PHL COLLECTIVE",
-    descripcion: "Una antología de terror deliciosamente oscura inspirada en la serie Creepshow de Shudder. Aventura de apuntar y hacer clic donde todo sale mal de las peores maneras posibles.",
-    trailer: "https://youtube.com/embed/93U5DlM-CdE",
-    metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3462650/8f16d53464320fece97408c752e71db707f0ef60/header.jpg",
-    gamepass: false,
-    psplus: false,
-    alta: "2026-07-31"
-  },
-  {
     id: "gallipoli",
     titulo: "GALLIPOLI",
     fecha: "2026-08-20",
@@ -5812,5 +5789,28 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
+  },
+  {
+    id: "ghost-of-yotei-complete-edition",
+    titulo: "GHOST OF YOTEI: EDICIÓN COMPLETA",
+    relanzamiento: "El juego base salió en PS5 en octubre de 2025",
+    fecha: "2026-10-01",
+    plataformas: ["PS5"],
+    genero: ["ACCION", "AVENTURA", "MUNDO ABIERTO"],
+    desarrollador: "SUCKER PUNCH",
+    descripcion: "La edición completa del juego de Sucker Punch reúne la aventura original de Atsu con todo lo que se le sumó después. Trae la expansión narrativa Echoes of Sekigahara, centrada en el pasado de la protagonista, y Most Wanted, un modo de supervivencia para un jugador con estructura de roguelike. Sale justo el día que el juego base cumple un año.",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202607/2723/890df32c227f619c5bd80e9f34ba2be53d0fea4b1615adee.png?w=600&thumb=false",
+    noticias: [
+      {
+        fecha: "2026-08-12",
+        titulo: "SALE EL 1 DE OCTUBRE, EL DÍA QUE EL ORIGINAL CUMPLE UN AÑO",
+        texto: "Cuesta 69,99 euros, y quien ya tenga el juego base puede pasarse por 14,99. Ese mismo día llega además una actualización gratuita para todos los jugadores, tengan o no la edición completa."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-13"
   }
 ];

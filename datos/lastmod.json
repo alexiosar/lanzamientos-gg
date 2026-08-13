@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "881ecb32ed1b0299",
+  "hash": "eec2cf94e02b0595",
   "lastmod": "2026-08-13"
  },
  "/acerca": {
@@ -213,10 +213,6 @@
  },
  "/juegos/cotton-reboot": {
   "hash": "cf2f3918341a0cf5",
-  "lastmod": "2026-07-29"
- },
- "/juegos/creepshow": {
-  "hash": "6b63404b7d6b4afb",
   "lastmod": "2026-07-29"
  },
  "/juegos/crimson-moon": {
@@ -451,6 +447,10 @@
   "hash": "326f5c7250459d0e",
   "lastmod": "2026-07-29"
  },
+ "/juegos/ghost-of-yotei-complete-edition": {
+  "hash": "cbbbec5f16e0dd5f",
+  "lastmod": "2026-08-13"
+ },
  "/juegos/go-go-town": {
   "hash": "621692444ef9db9a",
   "lastmod": "2026-07-29"
@@ -643,10 +643,6 @@
   "hash": "deb7f7bacc7bd2f4",
   "lastmod": "2026-07-29"
  },
- "/juegos/mafia-the-old-country-man-of-honor": {
-  "hash": "6fd4b32cde2e3bce",
-  "lastmod": "2026-07-29"
- },
  "/juegos/mai-child-of-ages": {
   "hash": "335afa2a6257998c",
   "lastmod": "2026-08-07"
@@ -668,8 +664,8 @@
   "lastmod": "2026-08-11"
  },
  "/juegos/marvels-wolverine": {
-  "hash": "73db0a9648fb5336",
-  "lastmod": "2026-08-07"
+  "hash": "edba90758f1c7770",
+  "lastmod": "2026-08-13"
  },
  "/juegos/mavrix": {
   "hash": "53c7ae9771a9a2a3",
@@ -1288,7 +1284,7 @@
   "lastmod": "2026-07-29"
  },
  "/noticias": {
-  "hash": "c19a6674342b4aa1",
+  "hash": "e8c58fed44358bea",
   "lastmod": "2026-08-13"
  },
  "/privacidad": {
@@ -1296,19 +1292,19 @@
   "lastmod": "2026-08-09"
  },
  "/ps4": {
-  "hash": "881ecb32ed1b0299",
+  "hash": "eec2cf94e02b0595",
   "lastmod": "2026-08-13"
  },
  "/ps5": {
-  "hash": "881ecb32ed1b0299",
+  "hash": "eec2cf94e02b0595",
   "lastmod": "2026-08-13"
  },
  "/switch": {
-  "hash": "881ecb32ed1b0299",
+  "hash": "eec2cf94e02b0595",
   "lastmod": "2026-08-13"
  },
  "/switch-2": {
-  "hash": "881ecb32ed1b0299",
+  "hash": "eec2cf94e02b0595",
   "lastmod": "2026-08-13"
  },
  "/terminos": {
@@ -1320,7 +1316,7 @@
   "lastmod": "2026-08-09"
  },
  "/xbox": {
-  "hash": "881ecb32ed1b0299",
+  "hash": "eec2cf94e02b0595",
   "lastmod": "2026-08-13"
  }
 }

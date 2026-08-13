@@ -863,13 +863,6 @@
   </url>
 
   <url>
-    <loc>https://lanzamientos.lat/juegos/mafia-the-old-country-man-of-honor</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://lanzamientos.lat/juegos/the-sinking-city-2</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -1088,7 +1081,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/marvels-wolverine</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2025,13 +2018,6 @@
   </url>
 
   <url>
-    <loc>https://lanzamientos.lat/juegos/creepshow</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://lanzamientos.lat/juegos/gallipoli</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -2314,6 +2300,13 @@
   <url>
     <loc>https://lanzamientos.lat/juegos/muchi-muchi-pork-pinksweets-boosted</loc>
     <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/ghost-of-yotei-complete-edition</loc>
+    <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
