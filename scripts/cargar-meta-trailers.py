@@ -40,7 +40,10 @@ def bajar(vid):
     req = urllib.request.Request(f"https://www.youtube.com/watch?v={vid}",
                                  headers={"User-Agent": UA})
     html = urllib.request.urlopen(req, timeout=30, context=CTX).read(TROZO).decode("utf-8", "replace")
-    fecha = re.search(r'"uploadDate":"(\d{4}-\d{2}-\d{2})', html)
+    # La marca completa, con hora y zona horaria: "2026-03-03T06:19:02-08:00".
+    # Recortarla a la fecha sola hacía que Search Console avisara "falta la zona
+    # horaria" y "el valor de fecha y hora no es válido" (13/08/2026).
+    fecha = re.search(r'"uploadDate":"([\dT:+-]{10,32})"', html)
     titulo = re.search(r'<meta name="title" content="([^"]+)"', html)
     if not fecha:
         return None
@@ -54,6 +57,13 @@ def main():
     args = ap.parse_args()
 
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
+    # Las entradas viejas guardaban sólo la fecha; hay que rehacerlas para tener
+    # la hora y la zona horaria que pide el esquema.
+    incompletas = [v for v, m in cache.items() if "T" not in m.get("uploadDate", "")]
+    if incompletas:
+        print(f"  {len(incompletas)} fecha(s) sin hora: se vuelven a bajar")
+        for v in incompletas:
+            del cache[v]
     faltan = [v for v in ids_en_uso() if v not in cache]
     if args.limite:
         faltan = faltan[:args.limite]
