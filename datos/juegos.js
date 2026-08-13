@@ -2171,8 +2171,15 @@ const JUEGOS = [
     desarrollador: "WEIRD BELUGA",
     descripcion: "Rompe las cadenas del tiempo saltando y blandiendo tu espada en un mundo de fantasía en este homenaje a los clásicos de plataformas 3D de acción. Zirian, acompañado de su Cuco mecánico, debe salvar a su hermana de una misteriosa Torre del reloj que ha sumido la tierra en una noche eterna.",
     trailer: "https://youtube.com/embed/6Mq_adllBHg",
-    metacritic: null,
+    metacritic: 78,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/f17f8f31c30ca7f8603b125502e00c0c542c6677/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-13",
+        titulo: "78 DE DEBUT PARA UN PLATAFORMAS ESPAÑOL A LA VIEJA USANZA",
+        texto: "Lo hace Weird Beluga, un estudio indie español que ya había firmado Clid the Snail. La crítica coincide en el elogio a la dirección de arte y al combate, y en el reparo: es un homenaje muy fiel a los plataformas 3D de la era PlayStation 2, tan fiel que no llega a proponer nada propio. Quien busque nostalgia va a estar contento; quien busque una evolución del género, no."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -2186,9 +2193,14 @@ const JUEGOS = [
     desarrollador: "EXPRESSION GAMES",
     descripcion: "Adéntrate en el fragor de la batalla en Hell Let Loose: Vietnam. Juega un papel decisivo en uno de los conflictos más históricos con extensas batallas de 50 vs. 50 en las que el trabajo en equipo, las tácticas y un arsenal de armas destructivas se combinan para que la batalla progrese en tu favor.",
     trailer: "https://youtube.com/embed/8zdQFX0Li8Q",
-    metacritic: null,
+    metacritic: 78,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/2e52f99e70e827b57a2205469dc5d529e8e0490a/header.jpg",
     noticias: [
+      {
+        fecha: "2026-08-13",
+        titulo: "DEBUTA CON 78",
+        texto: "Llega con la nota puesta después del retraso de dos meses. El puntaje ubica al shooter táctico en el mismo escalón que su antecesor, sin el salto que algunos esperaban de un cambio de escenario tan grande."
+      },
       {
         fecha: "2026-08-13",
         titulo: "SE RETRASÓ DOS MESES PARA CORREGIR LO QUE MOSTRARON LAS BETAS",
@@ -2223,8 +2235,15 @@ const JUEGOS = [
     desarrollador: "CHUHAI LABS",
     descripcion: "Wild Blue Skies reimagina las aventuras sobre raíles clásicas de los 90: un shooter aéreo colorido con espíritu arcade y jefes espectaculares.",
     trailer: "https://youtube.com/embed/azfptYj4GHQ",
-    metacritic: null,
+    metacritic: 61,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1921490/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-13",
+        titulo: "EL MEJOR INTENTO DE SUCESOR DE STAR FOX 64, Y ESE ES EL PROBLEMA",
+        texto: "Debuta con 61. Los elogios van al apartado audiovisual, con una estética de dibujo animado que se destaca, y la mayoría de las críticas dice lo mismo: sigue la fórmula de Star Fox 64 tan de cerca que en algunos tramos la repite golpe por golpe, sin arriesgar nada propio. También se le señala que la mira cuesta de leer y que el manejo de la nave se hace pesado. Cuesta 14,99 dólares."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -2238,8 +2257,15 @@ const JUEGOS = [
     desarrollador: "BLACK TOWER BASEMENT",
     descripcion: "Defender of the Crown ha vuelto, mejorado para una nueva generación de caballeros. Conquista territorios, recluta ejércitos, asalta castillos, influye en el equilibrio del poder y supera a los señores rivales para unir al reino bajo tu estandarte.",
     trailer: "https://youtube.com/embed/dF999OSFcOg",
-    metacritic: null,
+    metacritic: 66,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4208140/131479ec2e41016e6baf82b98c2106abc562c095/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-13",
+        titulo: "66 DE DEBUT PARA EL REGRESO DE UN CLÁSICO DE 1986",
+        texto: "Vuelve el clásico de estrategia medieval de Cinemaware, que en su momento fue una vidriera de lo que podían hacer las computadoras de 16 bits. La nota de debut lo deja en el terreno de lo correcto sin más."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -5346,9 +5372,14 @@ const JUEGOS = [
     desarrollador: "PANIK ARCADE",
     descripcion: "Un roguelite de máquinas tragamonedas de pesadilla donde apostás tu vida dentro de un simulador de deuda interminable. Las ediciones de consola suman control por ratón en Switch 2 y uso de la barra luminosa del DualSense, y traen todas las actualizaciones publicadas hasta ahora más el contenido Unholy Fusion.",
     trailer: "https://youtube.com/embed/htmbP1Qc20Y",
-    metacritic: null,
+    metacritic: 77,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/library_600x900.jpg",
     noticias: [
+      {
+        fecha: "2026-08-13",
+        titulo: "77 EN METACRITIC, PERO ESA NOTA ES LA DE PC",
+        texto: "El puntaje corresponde a la versión que salió el año pasado en computadora; las ediciones de consola que llegan hoy todavía no tienen notas propias. Traen el agregado del mouse en Switch 2 y de la barra de luz del DualSense."
+      },
       {
         fecha: "2026-08-13",
         titulo: "CINCO MILLONES DE JUGADORES ANTES DE LLEGAR A CONSOLAS",
