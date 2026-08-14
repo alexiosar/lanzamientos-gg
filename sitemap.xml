@@ -3,49 +3,49 @@
 
   <url>
     <loc>https://lanzamientos.lat/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/ps5</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/ps4</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/xbox</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/switch-2</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/switch</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/noticias</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1081,7 +1081,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/marvels-wolverine</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1627,7 +1627,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/phantom-blade-zero</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2222,7 +2222,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/aniimo</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2307,6 +2307,34 @@
   <url>
     <loc>https://lanzamientos.lat/juegos/ghost-of-yotei-complete-edition</loc>
     <lastmod>2026-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/the-lord-of-the-rings-war-in-the-north-legacy-edition</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/mind-diver</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/angeline-era</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/monowave</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

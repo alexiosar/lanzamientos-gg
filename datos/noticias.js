@@ -21,6 +21,15 @@
 
 const NOTICIAS = [
   {
+    id: "netflix-cierra-night-school-2026",
+    fecha: "2026-08-14",
+    categoria: "ANUNCIOS",
+    titulo: "NETFLIX CIERRA NIGHT SCHOOL, EL ESTUDIO DE OXENFREE",
+    texto: "Netflix cierra Night School Studio, el estudio de Oxenfree, y Moonloot Games. Es otro capítulo del repliegue de la compañía en videojuegos: había comprado Night School en 2021, cuando arrancaba su apuesta por el sector.",
+    fuente: "https://www.gematsu.com/",
+    juegos: []
+  },
+  {
     id: "ps-plus-catalogo-agosto-2026",
     fecha: "2026-08-12",
     categoria: "SUSCRIPCIONES",

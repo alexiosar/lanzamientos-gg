@@ -1,7 +1,7 @@
 {
  "/": {
-  "hash": "eec2cf94e02b0595",
-  "lastmod": "2026-08-13"
+  "hash": "ae5df25d5b9fdfb6",
+  "lastmod": "2026-08-14"
  },
  "/acerca": {
   "hash": "4500f7e1d7caca90",
@@ -47,9 +47,13 @@
   "hash": "2a3f053e03584039",
   "lastmod": "2026-08-11"
  },
+ "/juegos/angeline-era": {
+  "hash": "fa0e08239998c00e",
+  "lastmod": "2026-08-14"
+ },
  "/juegos/aniimo": {
-  "hash": "2f79d6d5f6e05cbd",
-  "lastmod": "2026-08-12"
+  "hash": "fd5a53507ac1dff7",
+  "lastmod": "2026-08-14"
  },
  "/juegos/anomalith": {
   "hash": "970bf0c112385687",
@@ -664,8 +668,8 @@
   "lastmod": "2026-08-11"
  },
  "/juegos/marvels-wolverine": {
-  "hash": "edba90758f1c7770",
-  "lastmod": "2026-08-13"
+  "hash": "b9302eee207a1d32",
+  "lastmod": "2026-08-14"
  },
  "/juegos/mavrix": {
   "hash": "53c7ae9771a9a2a3",
@@ -687,6 +691,10 @@
   "hash": "ef167c94a59b1c39",
   "lastmod": "2026-07-29"
  },
+ "/juegos/mind-diver": {
+  "hash": "1238ab5fa989f282",
+  "lastmod": "2026-08-14"
+ },
  "/juegos/minecraft-dungeons-2": {
   "hash": "e25e5f556ceee7dd",
   "lastmod": "2026-07-29"
@@ -702,6 +710,10 @@
  "/juegos/monopoly-star-wars-heroes-vs-villains": {
   "hash": "5db00eea6c08499b",
   "lastmod": "2026-08-11"
+ },
+ "/juegos/monowave": {
+  "hash": "10c9e75b775bf6b7",
+  "lastmod": "2026-08-14"
  },
  "/juegos/monsters-are-coming": {
   "hash": "0e67cabbdf87aea7",
@@ -856,8 +868,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/phantom-blade-zero": {
-  "hash": "41cd962cbcf94e8a",
-  "lastmod": "2026-07-29"
+  "hash": "f91efa9247306c2e",
+  "lastmod": "2026-08-14"
  },
  "/juegos/planet-zoo-2": {
   "hash": "c151217ea3750726",
@@ -1119,6 +1131,10 @@
   "hash": "a2f13f24f121cfbc",
   "lastmod": "2026-07-29"
  },
+ "/juegos/the-lord-of-the-rings-war-in-the-north-legacy-edition": {
+  "hash": "45c81ae5d7833ca2",
+  "lastmod": "2026-08-14"
+ },
  "/juegos/the-mermaid-mask": {
   "hash": "08b9da2ae938db46",
   "lastmod": "2026-07-29"
@@ -1284,28 +1300,28 @@
   "lastmod": "2026-07-29"
  },
  "/noticias": {
-  "hash": "e8c58fed44358bea",
-  "lastmod": "2026-08-13"
+  "hash": "99cf44174989ea1d",
+  "lastmod": "2026-08-14"
  },
  "/privacidad": {
   "hash": "78f232bbc8d1c88b",
   "lastmod": "2026-08-09"
  },
  "/ps4": {
-  "hash": "eec2cf94e02b0595",
-  "lastmod": "2026-08-13"
+  "hash": "ae5df25d5b9fdfb6",
+  "lastmod": "2026-08-14"
  },
  "/ps5": {
-  "hash": "eec2cf94e02b0595",
-  "lastmod": "2026-08-13"
+  "hash": "ae5df25d5b9fdfb6",
+  "lastmod": "2026-08-14"
  },
  "/switch": {
-  "hash": "eec2cf94e02b0595",
-  "lastmod": "2026-08-13"
+  "hash": "ae5df25d5b9fdfb6",
+  "lastmod": "2026-08-14"
  },
  "/switch-2": {
-  "hash": "eec2cf94e02b0595",
-  "lastmod": "2026-08-13"
+  "hash": "ae5df25d5b9fdfb6",
+  "lastmod": "2026-08-14"
  },
  "/terminos": {
   "hash": "dfb51a9a72803a07",
@@ -1316,7 +1332,7 @@
   "lastmod": "2026-08-09"
  },
  "/xbox": {
-  "hash": "eec2cf94e02b0595",
-  "lastmod": "2026-08-13"
+  "hash": "ae5df25d5b9fdfb6",
+  "lastmod": "2026-08-14"
  }
 }

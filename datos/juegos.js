@@ -2815,6 +2815,11 @@ const JUEGOS = [
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
       {
+        fecha: "2026-08-14",
+        titulo: "HABRÁ UNA PS5 EDICIÓN LIMITADA Y ACCESORIOS A JUEGO",
+        texto: "Sony anunció una consola PS5 de edición limitada del juego, junto con accesorios de la misma línea. Es la señal habitual de que el lanzamiento se trata como uno de los grandes del año para la plataforma."
+      },
+      {
         fecha: "2026-08-13",
         titulo: "EL COMBATE SE MUEVE POR LA FURIA, Y HAY ENEMIGOS QUE TE APAGAN LA CURACIÓN",
         texto: "Insomniac detalló cómo se juega. La furia tiene tres niveles: en el segundo se desbloquea Última Resistencia, que permite curarse con ella al caer, y en el tercero los ataques pegan mucho más fuerte y se habilitan críticos brutales. La vuelta de tuerca son los inhibidores, aparatos que anulan el factor curativo y obligan a pelear sin red. Acompañan Mystique, Dientes de Sable y Jean Grey; el villano es Bolívar Trask, el industrial antimutante. La campaña va de la selva de Telambang a los bajos fondos de Madripoor."
@@ -4117,6 +4122,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/EZr1HXkEahs",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/5930310dc5f043a1df400d9dc70ddb43843480fc/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-14",
+        titulo: "TIENE SU PROPIO STATE OF PLAY EL 17 DE AGOSTO",
+        texto: "Sony le dedica una presentación entera el 17 de agosto. Ya se abrieron las reservas y se publicó un tráiler de once minutos, así que lo del 17 debería traer fecha firme de todo lo que falta."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-24"
@@ -5588,9 +5600,7 @@ const JUEGOS = [
   {
     id: "aniimo",
     titulo: "ANIIMO",
-    fecha: "2026-09-30",
-    estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fecha: "2026-09-16",
     plataformas: ["XBOX", "PS5", "SWITCH2"],
     genero: ["ACCION", "AVENTURA", "MULTIJUGADOR", "RPG"],
     desarrollador: "PAWPRINT STUDIO",
@@ -5598,6 +5608,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Yh5JH0Yz75E",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/43b2a41f5876db8ca407f240e74392fb1badbb2f/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-14",
+        titulo: "YA TIENE FECHA: 16 DE SEPTIEMBRE",
+        texto: "Estaba anunciado para el tercer trimestre sin día. Es un RPG de mundo abierto gratuito con captura de criaturas, del estudio Pawprint."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -5812,5 +5829,68 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     alta: "2026-08-13"
+  },
+  {
+    id: "the-lord-of-the-rings-war-in-the-north-legacy-edition",
+    titulo: "THE LORD OF THE RINGS: WAR IN THE NORTH - LEGACY EDITION",
+    relanzamiento: "Reedición del original de 2011",
+    fecha: "2026-08-11",
+    plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH"],
+    genero: ["ACCION", "RPG", "COOP"],
+    desarrollador: "ASPYR MEDIA",
+    descripcion: "Una sombra crece en el norte. La reedición del cooperativo de 2011 ambientado en la Tierra Media, con una guerra que se extiende más allá de lo que cuenta la novela y tres héroes que se reparten el trabajo sucio.",
+    trailer: "https://youtube.com/embed/I3Bk2E3fJT4",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523770/ce49411b23ef7bfe8dd88c1c58f29a4584cf961e/header.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-14"
+  },
+  {
+    id: "mind-diver",
+    titulo: "MIND DIVER",
+    relanzamiento: "En PC desde septiembre de 2025",
+    fecha: "2026-08-27",
+    plataformas: ["PS5", "SWITCH2"],
+    genero: ["AVENTURA", "INDIE", "PUZZLE"],
+    desarrollador: "INDOOR SUNGLASSES",
+    descripcion: "Investigá una mente rota para resolver un caso enrevesado. Se deduce la verdad reconstruyendo recuerdos perdidos, entrando y saliendo de escenas que se contradicen entre sí.",
+    trailer: "https://youtube.com/embed/zjyFQZcqbxA",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2259330/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-14"
+  },
+  {
+    id: "angeline-era",
+    titulo: "ANGELINE ERA",
+    relanzamiento: "En PC desde diciembre de 2025",
+    fecha: "2026-09-02",
+    plataformas: ["PS5", "XBOX", "PS4", "SWITCH"],
+    genero: ["ACCION", "AVENTURA", "INDIE"],
+    desarrollador: "MELOS HAN-TANI",
+    descripcion: "Una aventura de acción en 3D donde cada nivel se esconde a plena vista. Se recorre una tierra llena de secretos que se revelan mirando distinto lo que ya se tenía delante.",
+    trailer: "https://youtube.com/embed/JkK6X_LWMr0",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2393920/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-14"
+  },
+  {
+    id: "monowave",
+    titulo: "MONOWAVE",
+    fecha: "2026-09-16",
+    plataformas: ["SWITCH"],
+    genero: ["ACCION", "AVENTURA", "PUZZLE", "PLATAFORMA"],
+    desarrollador: "STUDIO BBB",
+    descripcion: "Una aventura de puzles y plataformas construida alrededor del poder de las emociones, con mundos que cambian según el ánimo del personaje. Las versiones de PS5 y Xbox llegan más adelante en 2026.",
+    trailer: "https://youtube.com/embed/3vzhMB8g8f8",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680440/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-14"
   }
 ];
