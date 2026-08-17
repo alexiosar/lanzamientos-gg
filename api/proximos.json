@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-17T13:59:32+00:00",
+ "generado": "2026-08-17T18:12:18+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-17",
  "hasta": "2026-09-16",
- "total": 63,
+ "total": 68,
  "juegos": [
   {
    "id": "the-sinking-city-2",
@@ -38,6 +38,31 @@
      "texto": "El estudio es ucraniano y desarrolló el juego durante la invasión, con el equipo trabajando desde un país en guerra. Sale a un precio deliberadamente por debajo de un lanzamiento grande. Es terror de supervivencia con Calvin Rafferty, un aventurero ocultista, en un Arkham de los años veinte inundado y en descomposición. Quien compre la edición Premium juega desde el 17, un día antes."
     }
    ]
+  },
+  {
+   "id": "starsand-island",
+   "titulo": "STARSAND ISLAND",
+   "relanzamiento": "En PC desde febrero de 2026",
+   "fecha": "2026-08-18",
+   "plataformas": [
+    "PS5",
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RPG",
+    "INDIE"
+   ],
+   "desarrollador": "SEED SPARKLE LAB",
+   "descripcion": "Cansado del ruido de la ciudad, te mudás a la isla de Starsand a llevar una vida de campo: cultivar, criar animales y hacerte amigo de los vecinos, sin apuro y sin relojes.",
+   "trailer": "https://youtube.com/embed/dVczi9ZFTwY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/starsand-island"
   },
   {
    "id": "no-case-should-remain-unsolved",
@@ -237,6 +262,52 @@
    "psplus": false,
    "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/over-requiemz"
+  },
+  {
+   "id": "wobbly-life",
+   "titulo": "WOBBLY LIFE",
+   "relanzamiento": "En PC desde septiembre de 2025",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "RUBBERBANDGAMES",
+   "descripcion": "Un sandbox de mundo abierto donde todo se mueve por física y los personajes son muñecos de trapo. Se consiguen trabajos, se junta plata y se hace desastre, solo o en línea con amigos.",
+   "trailer": "https://youtube.com/embed/2invlS5ks04",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211020/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/wobbly-life"
+  },
+  {
+   "id": "1000xresist",
+   "titulo": "1000xRESIST",
+   "relanzamiento": "En PC desde mayo de 2024",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE",
+    "NOVELA VISUAL"
+   ],
+   "desarrollador": "SUNSET VISITOR",
+   "descripcion": "Una aventura de ciencia ficción en un año que nadie sabe cuál es, con la humanidad encerrada bajo tierra por una enfermedad que trajo una invasión alienígena. Se juega como Watcher, una de las hermanas clonadas que sirven a la Todopoderosa.",
+   "trailer": "https://youtube.com/embed/ISmiWUpiDs4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675830/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/1000xresist"
   },
   {
    "id": "once-human",
@@ -543,13 +614,38 @@
    ],
    "desarrollador": "GD STUDIO",
    "descripcion": "Un juego tranquilo de decorar y ordenar casas. Los vecinos van dejando pedidos —una mudanza, un cuarto que rehacer— y el trabajo es acomodar los muebles hasta que cada espacio funcione y se vea bien.",
-   "trailer": null,
+   "trailer": "https://youtube.com/embed/5BAs28YwULY",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2589500/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-17",
    "url": "https://lanzamientos.lat/juegos/whisper-of-the-house"
+  },
+  {
+   "id": "ghetto-zombies-graffiti-squad",
+   "titulo": "GHETTO ZOMBIES: GRAFFITI SQUAD",
+   "relanzamiento": "En PC desde enero de 2026",
+   "fecha": "2026-08-27",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "PS4"
+   ],
+   "genero": [
+    "ACCION",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "FOGO GAMES",
+   "descripcion": "Un shooter de vista cenital donde los zombis explotan en baba verde que va pintando la pantalla, con un arsenal desmedido y estética de grafiti.",
+   "trailer": "https://youtube.com/embed/bdOUjhmwhFk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047820/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/ghetto-zombies-graffiti-squad"
   },
   {
    "id": "elden-ring-switch-2",
@@ -1082,6 +1178,30 @@
    "url": "https://lanzamientos.lat/juegos/isle-of-reveries"
   },
   {
+   "id": "dream-cage",
+   "titulo": "DREAM CAGE",
+   "relanzamiento": "En PC desde febrero de 2025",
+   "fecha": "2026-09-04",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "TERROR",
+    "INDIE"
+   ],
+   "desarrollador": "HITORI DE PRODUCTIONS",
+   "descripcion": "Robert convive con alzhéimer precoz y parálisis del sueño. Cada noche que pasa devuelve fragmentos de su memoria, y hay que reconstruir con ellos una historia que el propio protagonista ya no puede sostener.",
+   "trailer": "https://youtube.com/embed/wwm-BMki-L8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3122170/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/dream-cage"
+  },
+  {
    "id": "halloween",
    "titulo": "HALLOWEEN",
    "fecha": "2026-09-08",
@@ -1439,7 +1559,7 @@
    ],
    "desarrollador": "OPNEON GAMES",
    "descripcion": "Se abre una tienda de juegos de cartas y hay que hacerla andar: llenar las estanterías de sobres, atender la caja, y decidir cuánto stock se vende y cuánto se abre para armar la colección propia.",
-   "trailer": null,
+   "trailer": "https://youtube.com/embed/XBAyr9O9BnY",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/library_600x900.jpg",
    "gamepass": false,

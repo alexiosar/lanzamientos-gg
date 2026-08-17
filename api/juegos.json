@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-17T13:59:32+00:00",
+ "generado": "2026-08-17T18:12:18+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 323,
+ "total": 331,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -6052,13 +6052,18 @@
    "desarrollador": "POWERBOMB GAMES",
    "descripcion": "Pro Jank Footy es un juego arcade de comedia deportiva con física exagerada. Meté goles como puedas —volando, chocando o a los tropezones— en partidos caóticos para jugar con amigos.",
    "trailer": "https://youtube.com/embed/U-mqKi-G9HI",
-   "metacritic": null,
+   "metacritic": 59,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/02ffb09d115b8dcf4f21e9e45f604ac4af534d61/header.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-27",
    "url": "https://lanzamientos.lat/juegos/pro-jank-footy",
    "noticias": [
+    {
+     "fecha": "2026-08-17",
+     "titulo": "59 DE DEBUT PARA EL FÚTBOL AUSTRALIANO ABSURDO",
+     "texto": "Debuta con 59. Es un juego de fútbol australiano hecho por Powerbomb Games y Tinker Town, de Adelaida, que apuesta todo al absurdo: más de 150 mejoras que van deformando las reglas. Las notas lo dejan en terreno flojo, que es lo habitual cuando la gracia de un juego es el desorden y no la solidez de sus sistemas."
+    },
     {
      "fecha": "2026-08-12",
      "titulo": "FÚTBOL AUSTRALIANO, ROGUELIKE Y 150 MEJORAS ABSURDAS",
@@ -8389,7 +8394,7 @@
    ],
    "desarrollador": "SUCKER PUNCH",
    "descripcion": "La edición completa del juego de Sucker Punch reúne la aventura original de Atsu con todo lo que se le sumó después. Trae la expansión narrativa Echoes of Sekigahara, centrada en el pasado de la protagonista, y Most Wanted, un modo de supervivencia para un jugador con estructura de roguelike. Sale justo el día que el juego base cumple un año.",
-   "trailer": null,
+   "trailer": "https://youtube.com/embed/2bQrrWCRkMY",
    "metacritic": null,
    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2723/890df32c227f619c5bd80e9f34ba2be53d0fea4b1615adee.png?w=600&thumb=false",
    "gamepass": false,
@@ -8519,7 +8524,7 @@
    ],
    "desarrollador": "GD STUDIO",
    "descripcion": "Un juego tranquilo de decorar y ordenar casas. Los vecinos van dejando pedidos —una mudanza, un cuarto que rehacer— y el trabajo es acomodar los muebles hasta que cada espacio funcione y se vea bien.",
-   "trailer": null,
+   "trailer": "https://youtube.com/embed/5BAs28YwULY",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2589500/library_600x900.jpg",
    "gamepass": false,
@@ -8545,13 +8550,200 @@
    ],
    "desarrollador": "OPNEON GAMES",
    "descripcion": "Se abre una tienda de juegos de cartas y hay que hacerla andar: llenar las estanterías de sobres, atender la caja, y decidir cuánto stock se vende y cuánto se abre para armar la colección propia.",
-   "trailer": null,
+   "trailer": "https://youtube.com/embed/XBAyr9O9BnY",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-17",
    "url": "https://lanzamientos.lat/juegos/tcg-card-shop-simulator"
+  },
+  {
+   "id": "starsand-island",
+   "titulo": "STARSAND ISLAND",
+   "relanzamiento": "En PC desde febrero de 2026",
+   "fecha": "2026-08-18",
+   "plataformas": [
+    "PS5",
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RPG",
+    "INDIE"
+   ],
+   "desarrollador": "SEED SPARKLE LAB",
+   "descripcion": "Cansado del ruido de la ciudad, te mudás a la isla de Starsand a llevar una vida de campo: cultivar, criar animales y hacerte amigo de los vecinos, sin apuro y sin relojes.",
+   "trailer": "https://youtube.com/embed/dVczi9ZFTwY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/starsand-island"
+  },
+  {
+   "id": "wobbly-life",
+   "titulo": "WOBBLY LIFE",
+   "relanzamiento": "En PC desde septiembre de 2025",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "RUBBERBANDGAMES",
+   "descripcion": "Un sandbox de mundo abierto donde todo se mueve por física y los personajes son muñecos de trapo. Se consiguen trabajos, se junta plata y se hace desastre, solo o en línea con amigos.",
+   "trailer": "https://youtube.com/embed/2invlS5ks04",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211020/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/wobbly-life"
+  },
+  {
+   "id": "1000xresist",
+   "titulo": "1000xRESIST",
+   "relanzamiento": "En PC desde mayo de 2024",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE",
+    "NOVELA VISUAL"
+   ],
+   "desarrollador": "SUNSET VISITOR",
+   "descripcion": "Una aventura de ciencia ficción en un año que nadie sabe cuál es, con la humanidad encerrada bajo tierra por una enfermedad que trajo una invasión alienígena. Se juega como Watcher, una de las hermanas clonadas que sirven a la Todopoderosa.",
+   "trailer": "https://youtube.com/embed/ISmiWUpiDs4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675830/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/1000xresist"
+  },
+  {
+   "id": "ghetto-zombies-graffiti-squad",
+   "titulo": "GHETTO ZOMBIES: GRAFFITI SQUAD",
+   "relanzamiento": "En PC desde enero de 2026",
+   "fecha": "2026-08-27",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "PS4"
+   ],
+   "genero": [
+    "ACCION",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "FOGO GAMES",
+   "descripcion": "Un shooter de vista cenital donde los zombis explotan en baba verde que va pintando la pantalla, con un arsenal desmedido y estética de grafiti.",
+   "trailer": "https://youtube.com/embed/bdOUjhmwhFk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047820/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/ghetto-zombies-graffiti-squad"
+  },
+  {
+   "id": "dream-cage",
+   "titulo": "DREAM CAGE",
+   "relanzamiento": "En PC desde febrero de 2025",
+   "fecha": "2026-09-04",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "TERROR",
+    "INDIE"
+   ],
+   "desarrollador": "HITORI DE PRODUCTIONS",
+   "descripcion": "Robert convive con alzhéimer precoz y parálisis del sueño. Cada noche que pasa devuelve fragmentos de su memoria, y hay que reconstruir con ellos una historia que el propio protagonista ya no puede sostener.",
+   "trailer": "https://youtube.com/embed/wwm-BMki-L8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3122170/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/dream-cage"
+  },
+  {
+   "id": "patlabor-the-case-files",
+   "titulo": "PATLABOR THE CASE FILES",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "ANIME",
+    "AVENTURA"
+   ],
+   "desarrollador": "CHIME",
+   "descripcion": "Un juego de acción en 3D que recorre escenas emblemáticas de Mobile Police Patlabor, alternando la perspectiva de los pilotos de robots y la de los policías a pie.",
+   "trailer": "https://youtube.com/embed/R_4kqMHnlrg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3275400/8ccbb76edf116563e371af0ff0fa12f255c527fd/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/patlabor-the-case-files"
+  },
+  {
+   "id": "remothered-red-nuns-legacy",
+   "titulo": "REMOTHERED: RED NUN'S LEGACY",
+   "fecha": "2026-10-27",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "TERROR",
+    "AVENTURA",
+    "ACCION"
+   ],
+   "desarrollador": "STORMIND GAMES",
+   "descripcion": "Secuestraron a tu hija. La búsqueda te mete en una pesadilla de la que hay que salir vivo mientras se destapa la verdad detrás de la monja roja.",
+   "trailer": "https://youtube.com/embed/PEBcT6E6u6c",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3335310/36b0a83ca1f760fae7b0d063b89b2f5ad2e7115a/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/remothered-red-nuns-legacy"
+  },
+  {
+   "id": "madden-nfl-27",
+   "titulo": "MADDEN NFL 27",
+   "fecha": "2026-08-13",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "DEPORTES",
+    "SIMULACION"
+   ],
+   "desarrollador": "EA TIBURON",
+   "descripcion": "La entrega anual de fútbol americano de EA, esta vez movida por el motor Persona, con el foco puesto en dirigir la liga decisión por decisión.",
+   "trailer": "https://youtube.com/embed/bqQtZ9xm_uI",
+   "metacritic": 76,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940610/7ed2213f0170c1b55410b82ed89a8bab3911c6ea/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/madden-nfl-27"
   }
  ]
 }

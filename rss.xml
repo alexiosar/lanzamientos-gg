@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 17 Aug 2026 13:59:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 18:12:18 +0000</lastBuildDate>
     <item>
       <title>THE SINKING CITY 2: FROGWARES LO TERMINÓ EN MEDIO DE LA GUERRA</title>
       <link>https://lanzamientos.lat/juegos/the-sinking-city-2</link>
@@ -20,6 +20,13 @@
       <guid isPermaLink="false">verho-curse-of-faces-2026-08-17</guid>
       <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
       <description>Un RPG de acción en primera persona que copia deliberadamente el aire de los King's Field de PlayStation: polígonos toscos, texturas manchadas y niveles muy verticales. Las reseñas coinciden en que el homenaje está logrado —dicen que se ve, suena y se siente como un King's Field— y el reparo es que quien no tenga esa nostalgia encima va a encontrar el resultado directamente anticuado. Cuesta 24,99 dólares. — VERHO: CURSE OF FACES para SWITCH / XBOX / PS5.</description>
+    </item>
+    <item>
+      <title>PRO JANK FOOTY: 59 DE DEBUT PARA EL FÚTBOL AUSTRALIANO ABSURDO</title>
+      <link>https://lanzamientos.lat/juegos/pro-jank-footy</link>
+      <guid isPermaLink="false">pro-jank-footy-2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Debuta con 59. Es un juego de fútbol australiano hecho por Powerbomb Games y Tinker Town, de Adelaida, que apuesta todo al absurdo: más de 150 mejoras que van deformando las reglas. Las notas lo dejan en terreno flojo, que es lo habitual cuando la gracia de un juego es el desorden y no la solidez de sus sistemas. — PRO JANK FOOTY para PS5 / XBOX / SWITCH 2 / SWITCH.</description>
     </item>
     <item>
       <title>KINGDOM HEARTS IV SALE A FINES DE 2027</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">final-fantasy-xiv-online-2026-08-03</guid>
       <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
       <description>La prueba gratuita incluye A Realm Reborn y las expansiones Heavensward, Stormblood y Shadowbringers: entre trescientas y cuatrocientas horas sin pagar nada. Arranca con un mes de acceso anticipado para asegurar la estabilidad de los servidores y durante ese período tampoco hace falta la suscripción mensual. Tampoco se necesita Nintendo Switch Online. Ojo: si ya jugás en otra plataforma, igual tenés que comprar la versión de Switch 2 y pagar una suscripción aparte. — FINAL FANTASY XIV ONLINE para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>GO-GO TOWN!: DEBUTA CON 81 Y ESTRENA LA VERSIÓN 1.0</title>
-      <link>https://lanzamientos.lat/juegos/go-go-town</link>
-      <guid isPermaLink="false">go-go-town-2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Debuta con 81 en Metacritic. La salida en Switch coincidió con el paso de acceso anticipado a la versión 1.0 definitiva en PC, después de dos años. La crítica destaca que es un juego de gestión que se entiende en los primeros minutos y aguanta decenas de horas: no se trata solo de decorar calles sino de armar una economía que termina funcionando sola. En Switch y Switch 2 tiene pantalla dividida nativa para jugar de a dos, en la misma consola o en línea. — GO-GO TOWN! para SWITCH 2 / SWITCH.</description>
     </item>
   </channel>
 </rss>
