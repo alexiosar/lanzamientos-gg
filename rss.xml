@@ -6,7 +6,28 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 14 Aug 2026 14:07:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 13:59:32 +0000</lastBuildDate>
+    <item>
+      <title>THE SINKING CITY 2: FROGWARES LO TERMINÓ EN MEDIO DE LA GUERRA</title>
+      <link>https://lanzamientos.lat/juegos/the-sinking-city-2</link>
+      <guid isPermaLink="false">the-sinking-city-2-2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El estudio es ucraniano y desarrolló el juego durante la invasión, con el equipo trabajando desde un país en guerra. Sale a un precio deliberadamente por debajo de un lanzamiento grande. Es terror de supervivencia con Calvin Rafferty, un aventurero ocultista, en un Arkham de los años veinte inundado y en descomposición. Quien compre la edición Premium juega desde el 17, un día antes. — THE SINKING CITY 2 para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>VERHO: CURSE OF FACES: 68 DE DEBUT PARA UN HOMENAJE A KING'S FIELD</title>
+      <link>https://lanzamientos.lat/juegos/verho-curse-of-faces</link>
+      <guid isPermaLink="false">verho-curse-of-faces-2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Un RPG de acción en primera persona que copia deliberadamente el aire de los King's Field de PlayStation: polígonos toscos, texturas manchadas y niveles muy verticales. Las reseñas coinciden en que el homenaje está logrado —dicen que se ve, suena y se siente como un King's Field— y el reparo es que quien no tenga esa nostalgia encima va a encontrar el resultado directamente anticuado. Cuesta 24,99 dólares. — VERHO: CURSE OF FACES para SWITCH / XBOX / PS5.</description>
+    </item>
+    <item>
+      <title>KINGDOM HEARTS IV SALE A FINES DE 2027</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">kingdom-hearts-iv-2027</guid>
+      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Square Enix puso fecha a Kingdom Hearts IV: finales de 2027, o sea fuera del alcance de este calendario por ahora. En el mismo anuncio se confirmó una serie de anime original de la saga. La colección de los juegos anteriores, esa sí, sigue en pie para el 8 de octubre.</description>
+    </item>
     <item>
       <title>MARVEL'S WOLVERINE: HABRÁ UNA PS5 EDICIÓN LIMITADA Y ACCESORIOS A JUEGO</title>
       <link>https://lanzamientos.lat/juegos/marvels-wolverine</link>
@@ -265,27 +286,6 @@
       <guid isPermaLink="false">go-go-town-2026-08-01</guid>
       <pubDate>Sat, 01 Aug 2026 12:00:00 +0000</pubDate>
       <description>Debuta con 81 en Metacritic. La salida en Switch coincidió con el paso de acceso anticipado a la versión 1.0 definitiva en PC, después de dos años. La crítica destaca que es un juego de gestión que se entiende en los primeros minutos y aguanta decenas de horas: no se trata solo de decorar calles sino de armar una economía que termina funcionando sola. En Switch y Switch 2 tiene pantalla dividida nativa para jugar de a dos, en la misma consola o en línea. — GO-GO TOWN! para SWITCH 2 / SWITCH.</description>
-    </item>
-    <item>
-      <title>MOMENTO: LOS OBJETOS QUE TIRÁS CAMBIAN EL FINAL</title>
-      <link>https://lanzamientos.lat/juegos/momento</link>
-      <guid isPermaLink="false">momento-2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Detrás hay dos estudios australianos pequeños, Fat Alien Cat y Nomo Studio. La vuelta de tuerca es que lo que decidís conservar o descartar al principio altera la historia de vida de la protagonista y puede cambiar lo que pasa al final. Tiene modo historia y modo creativo. — MOMENTO para XBOX / SWITCH 2 / SWITCH / PS5.</description>
-    </item>
-    <item>
-      <title>BOTANY MANOR: LA EDICIÓN DE SWITCH 2 SUBE A 1080p Y 60 IMÁGENES POR SEGUNDO</title>
-      <link>https://lanzamientos.lat/juegos/botany-manor</link>
-      <guid isPermaLink="false">botany-manor-2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
-      <description>La versión de Switch 2 pasa de 720p a 1080p y apunta a sesenta imágenes por segundo. Quien tenga el juego en la Switch original puede comprar el pack de mejora en lugar del juego completo. El original promedia 82 en Metacritic. — BOTANY MANOR para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>DOOM: THE DARK AGES | REVELATIONS: LA CRÍTICA LO PONE A LA ALTURA DE ETERNAL</title>
-      <link>https://lanzamientos.lat/juegos/doom-the-dark-ages-revelations</link>
-      <guid isPermaLink="false">doom-the-dark-ages-revelations-2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
-      <description>Debuta con 91 en Metacritic y 90 en OpenCritic. Suma seis niveles nuevos, enemigos, armas y el modo de desafíos Ripatorium 3.0, pero lo que se destaca es la Lanza Encadenada: se alterna al instante con la Sierra Escudo y permite encadenar las dos en un mismo combo. Los análisis coinciden en que devuelve la movilidad de DOOM Eternal sin perder el peso de The Dark Ages. — DOOM: THE DARK AGES | REVELATIONS para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

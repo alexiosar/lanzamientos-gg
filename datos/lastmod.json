@@ -1,7 +1,7 @@
 {
  "/": {
-  "hash": "ae5df25d5b9fdfb6",
-  "lastmod": "2026-08-14"
+  "hash": "008fca234ee79939",
+  "lastmod": "2026-08-17"
  },
  "/acerca": {
   "hash": "4500f7e1d7caca90",
@@ -1075,6 +1075,10 @@
   "hash": "50730b4b8f410be2",
   "lastmod": "2026-08-07"
  },
+ "/juegos/tcg-card-shop-simulator": {
+  "hash": "7cc45f9451512efc",
+  "lastmod": "2026-08-17"
+ },
  "/juegos/teeto": {
   "hash": "9900cee04d7f0714",
   "lastmod": "2026-07-29"
@@ -1156,8 +1160,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/the-sinking-city-2": {
-  "hash": "b5431d698baed2df",
-  "lastmod": "2026-07-29"
+  "hash": "9778a13c07ca0d74",
+  "lastmod": "2026-08-17"
  },
  "/juegos/the-walking-dead-streets-of-survival": {
   "hash": "81ecff2d241cae4e",
@@ -1228,8 +1232,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/verho-curse-of-faces": {
-  "hash": "11c94ed395ecb945",
-  "lastmod": "2026-07-29"
+  "hash": "d4b3162a53b312c1",
+  "lastmod": "2026-08-17"
  },
  "/juegos/viking-frontiers": {
   "hash": "0ecb0fa80fe8c85e",
@@ -1262,6 +1266,10 @@
  "/juegos/whirlight-no-time-to-trip": {
   "hash": "7c7767bb9caf5035",
   "lastmod": "2026-08-12"
+ },
+ "/juegos/whisper-of-the-house": {
+  "hash": "fa7257d26683d434",
+  "lastmod": "2026-08-17"
  },
  "/juegos/wild-blue-skies": {
   "hash": "c73e64cd55cf7019",
@@ -1300,28 +1308,28 @@
   "lastmod": "2026-07-29"
  },
  "/noticias": {
-  "hash": "99cf44174989ea1d",
-  "lastmod": "2026-08-14"
+  "hash": "e29e4cff61573b6d",
+  "lastmod": "2026-08-17"
  },
  "/privacidad": {
   "hash": "78f232bbc8d1c88b",
   "lastmod": "2026-08-09"
  },
  "/ps4": {
-  "hash": "ae5df25d5b9fdfb6",
-  "lastmod": "2026-08-14"
+  "hash": "008fca234ee79939",
+  "lastmod": "2026-08-17"
  },
  "/ps5": {
-  "hash": "ae5df25d5b9fdfb6",
-  "lastmod": "2026-08-14"
+  "hash": "008fca234ee79939",
+  "lastmod": "2026-08-17"
  },
  "/switch": {
-  "hash": "ae5df25d5b9fdfb6",
-  "lastmod": "2026-08-14"
+  "hash": "008fca234ee79939",
+  "lastmod": "2026-08-17"
  },
  "/switch-2": {
-  "hash": "ae5df25d5b9fdfb6",
-  "lastmod": "2026-08-14"
+  "hash": "008fca234ee79939",
+  "lastmod": "2026-08-17"
  },
  "/terminos": {
   "hash": "dfb51a9a72803a07",
@@ -1332,7 +1340,7 @@
   "lastmod": "2026-08-09"
  },
  "/xbox": {
-  "hash": "ae5df25d5b9fdfb6",
-  "lastmod": "2026-08-14"
+  "hash": "008fca234ee79939",
+  "lastmod": "2026-08-17"
  }
 }

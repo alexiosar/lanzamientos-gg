@@ -1732,8 +1732,15 @@ const JUEGOS = [
     desarrollador: "KASUR GAMES",
     descripcion: "Verho es un RPG inspirado en la saga King’s Field. Transcurre tras la catastrófica Era de la Soledad, donde las máscaras son la única protección frente a la maldición de las caras. Viaja a Yariv, encuentra el origen de la maldición y enfréntate a numerosos peligros.",
     trailer: "https://youtube.com/embed/iS6pZ1KCJ5I",
-    metacritic: null,
+    metacritic: 68,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017330/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-17",
+        titulo: "68 DE DEBUT PARA UN HOMENAJE A KING'S FIELD",
+        texto: "Un RPG de acción en primera persona que copia deliberadamente el aire de los King's Field de PlayStation: polígonos toscos, texturas manchadas y niveles muy verticales. Las reseñas coinciden en que el homenaje está logrado —dicen que se ve, suena y se siente como un King's Field— y el reparo es que quien no tenga esa nostalgia encima va a encontrar el resultado directamente anticuado. Cuesta 24,99 dólares."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-10"
@@ -2314,6 +2321,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/2q-pfSpS_J4",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-18",
+        titulo: "FROGWARES LO TERMINÓ EN MEDIO DE LA GUERRA",
+        texto: "El estudio es ucraniano y desarrolló el juego durante la invasión, con el equipo trabajando desde un país en guerra. Sale a un precio deliberadamente por debajo de un lanzamiento grande. Es terror de supervivencia con Calvin Rafferty, un aventurero ocultista, en un Arkham de los años veinte inundado y en descomposición. Quien compre la edición Premium juega desde el 17, un día antes."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -5892,5 +5906,37 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     alta: "2026-08-14"
+  },
+  {
+    id: "whisper-of-the-house",
+    titulo: "WHISPER OF THE HOUSE",
+    relanzamiento: "En PC desde 2024",
+    fecha: "2026-08-27",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["SIMULACION", "CASUAL", "INDIE"],
+    desarrollador: "GD STUDIO",
+    descripcion: "Un juego tranquilo de decorar y ordenar casas. Los vecinos van dejando pedidos —una mudanza, un cuarto que rehacer— y el trabajo es acomodar los muebles hasta que cada espacio funcione y se vea bien.",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2589500/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-17"
+  },
+  {
+    id: "tcg-card-shop-simulator",
+    titulo: "TCG CARD SHOP SIMULATOR",
+    relanzamiento: "En PC desde 2024",
+    fecha: "2026-09-15",
+    plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH"],
+    genero: ["SIMULACION", "CASUAL", "INDIE"],
+    desarrollador: "OPNEON GAMES",
+    descripcion: "Se abre una tienda de juegos de cartas y hay que hacerla andar: llenar las estanterías de sobres, atender la caja, y decidir cuánto stock se vende y cuánto se abre para armar la colección propia.",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-17"
   }
 ];

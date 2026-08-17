@@ -21,6 +21,15 @@
 
 const NOTICIAS = [
   {
+    id: "kingdom-hearts-iv-2027",
+    fecha: "2026-08-17",
+    categoria: "ANUNCIOS",
+    titulo: "KINGDOM HEARTS IV SALE A FINES DE 2027",
+    texto: "Square Enix puso fecha a Kingdom Hearts IV: finales de 2027, o sea fuera del alcance de este calendario por ahora. En el mismo anuncio se confirmó una serie de anime original de la saga. La colección de los juegos anteriores, esa sí, sigue en pie para el 8 de octubre.",
+    fuente: "https://www.gematsu.com/",
+    juegos: ["kingdom-hearts-collection"]
+  },
+  {
     id: "netflix-cierra-night-school-2026",
     fecha: "2026-08-14",
     categoria: "ANUNCIOS",

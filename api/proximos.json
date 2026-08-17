@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-14T14:07:29+00:00",
+ "generado": "2026-08-17T13:59:32+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-14",
- "hasta": "2026-09-13",
- "total": 54,
+ "desde": "2026-08-17",
+ "hasta": "2026-09-16",
+ "total": 63,
  "juegos": [
   {
    "id": "the-sinking-city-2",
@@ -30,7 +30,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/the-sinking-city-2"
+   "url": "https://lanzamientos.lat/juegos/the-sinking-city-2",
+   "noticias": [
+    {
+     "fecha": "2026-08-18",
+     "titulo": "FROGWARES LO TERMINÓ EN MEDIO DE LA GUERRA",
+     "texto": "El estudio es ucraniano y desarrolló el juego durante la invasión, con el equipo trabajando desde un país en guerra. Sale a un precio deliberadamente por debajo de un lanzamiento grande. Es terror de supervivencia con Calvin Rafferty, un aventurero ocultista, en un Arkham de los años veinte inundado y en descomposición. Quien compre la edición Premium juega desde el 17, un día antes."
+    }
+   ]
   },
   {
    "id": "no-case-should-remain-unsolved",
@@ -519,6 +526,30 @@
    "psplus": false,
    "alta": "2026-08-14",
    "url": "https://lanzamientos.lat/juegos/mind-diver"
+  },
+  {
+   "id": "whisper-of-the-house",
+   "titulo": "WHISPER OF THE HOUSE",
+   "relanzamiento": "En PC desde 2024",
+   "fecha": "2026-08-27",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "GD STUDIO",
+   "descripcion": "Un juego tranquilo de decorar y ordenar casas. Los vecinos van dejando pedidos —una mudanza, un cuarto que rehacer— y el trabajo es acomodar los muebles hasta que cada espacio funcione y se vea bien.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2589500/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/whisper-of-the-house"
   },
   {
    "id": "elden-ring-switch-2",
@@ -1307,6 +1338,227 @@
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/hot-wheels-infinite-rush"
+  },
+  {
+   "id": "marvels-wolverine",
+   "titulo": "MARVEL'S WOLVERINE",
+   "fecha": "2026-09-15",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "INSOMNIAC GAMES",
+   "descripcion": "Lo nuevo de Insomniac Games (Marvel's Spider-Man): Logan desata sus garras en una aventura para adultos, más cruda y visceral que las del trepamuros, exclusiva de PlayStation 5.",
+   "trailer": "https://youtube.com/embed/s3pDMUWlA6I",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/marvels-wolverine",
+   "noticias": [
+    {
+     "fecha": "2026-08-14",
+     "titulo": "HABRÁ UNA PS5 EDICIÓN LIMITADA Y ACCESORIOS A JUEGO",
+     "texto": "Sony anunció una consola PS5 de edición limitada del juego, junto con accesorios de la misma línea. Es la señal habitual de que el lanzamiento se trata como uno de los grandes del año para la plataforma."
+    },
+    {
+     "fecha": "2026-08-13",
+     "titulo": "EL COMBATE SE MUEVE POR LA FURIA, Y HAY ENEMIGOS QUE TE APAGAN LA CURACIÓN",
+     "texto": "Insomniac detalló cómo se juega. La furia tiene tres niveles: en el segundo se desbloquea Última Resistencia, que permite curarse con ella al caer, y en el tercero los ataques pegan mucho más fuerte y se habilitan críticos brutales. La vuelta de tuerca son los inhibidores, aparatos que anulan el factor curativo y obligan a pelear sin red. Acompañan Mystique, Dientes de Sable y Jean Grey; el villano es Bolívar Trask, el industrial antimutante. La campaña va de la selva de Telambang a los bajos fondos de Madripoor."
+    }
+   ]
+  },
+  {
+   "id": "runescape-dragonwilds",
+   "titulo": "RUNESCAPE: DRAGONWILDS",
+   "fecha": "2026-09-15",
+   "relanzamiento": "En PC (acceso anticipado) desde 2025",
+   "duracion": "≈ 20 h (historia)",
+   "plataformas": [
+    "SWITCH2",
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SUPERVIVENCIA",
+    "MUNDO ABIERTO",
+    "COOP"
+   ],
+   "desarrollador": "JAGEX LTD",
+   "descripcion": "En Ashenfall, un continente olvidado de RuneScape, los dragones han despertado. Reúne, construye, mejora y crea en esta aventura cooperativa de supervivencia. Solo dominando las técnicas de supervivencia y revelando antiguos secretos podrás enfrentarte a la feroz Reina Dragona.",
+   "trailer": "https://youtube.com/embed/a46MLlfMt2Y",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/6f6bba2ddccb49f3a0abb831684ca085e453c721/header_alt_assets_3.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/runescape-dragonwilds"
+  },
+  {
+   "id": "destroy-all-humans-2-reprobed",
+   "titulo": "DESTROY ALL HUMANS! 2 - REPROBED",
+   "fecha": "2026-09-15",
+   "relanzamiento": "En PS5, Xbox y PC desde 2022 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 11 h (historia) · 25 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "BLACK FOREST GAMES",
+   "descripcion": "Crypto ha vuelto con licencia para sondar. El invasor alienígena regresa, más molón que nunca. Experimenta los marchosos años 60 en toda su gloria químicamente inducida y véngate de la KGB por destruir tu nave nodriza.",
+   "trailer": "https://youtube.com/embed/7bx83mAM41Y",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266700/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/destroy-all-humans-2-reprobed"
+  },
+  {
+   "id": "tcg-card-shop-simulator",
+   "titulo": "TCG CARD SHOP SIMULATOR",
+   "relanzamiento": "En PC desde 2024",
+   "fecha": "2026-09-15",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "SIMULACION",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "OPNEON GAMES",
+   "descripcion": "Se abre una tienda de juegos de cartas y hay que hacerla andar: llenar las estanterías de sobres, atender la caja, y decidir cuánto stock se vende y cuánto se abre para armar la colección propia.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/tcg-card-shop-simulator"
+  },
+  {
+   "id": "roman-sands-rebuild",
+   "titulo": "ROMAN SANDS RE:BUILD",
+   "fecha": "2026-09-16",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "SIMULACION",
+    "INDIE"
+   ],
+   "desarrollador": "ARBITRARY METRIC",
+   "descripcion": "Una aventura que alterna entre un resort de lujo varado al borde del colapso ecológico y una instalación secreta que nadie quiere nombrar. Atendés a los huéspedes de día, atás cabos de noche y tratás de encontrar la salida antes de que el mundo termine de apagarse.",
+   "trailer": "https://youtube.com/embed/zTZ6iqsltLM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231460/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/roman-sands-rebuild"
+  },
+  {
+   "id": "two-point-hospital-full-health-collection",
+   "titulo": "TWO POINT HOSPITAL: FULL HEALTH COLLECTION",
+   "duracion": "≈ 38 h (historia) · 128 h (completo)",
+   "fecha": "2026-09-16",
+   "relanzamiento": "El juego original salió en 2018 en PC y en 2020 en consolas — esta edición reúne el juego base y sus catorce contenidos descargables",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA",
+    "CASUAL"
+   ],
+   "desarrollador": "TWO POINT STUDIOS",
+   "descripcion": "El paquete completo del simulador de hospitales de Two Point Studios: el juego base más los catorce contenidos descargables publicados hasta ahora. Diseñás clínicas absurdas, curás enfermedades imposibles y lidiás con un personal que rara vez colabora.",
+   "trailer": "https://youtube.com/embed/JSkvu2ZwKbA",
+   "metacritic": 83,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/two-point-hospital-full-health-collection",
+   "noticias": [
+    {
+     "fecha": "2026-07-31",
+     "titulo": "LA EDICIÓN FÍSICA LLEGA EN NOVIEMBRE",
+     "texto": "La versión digital sale el 16 de septiembre y la física el 6 de noviembre, para Switch 2 y PS5. El paquete suma catorce contenidos entre expansiones grandes, packs de objetos y extras dentro del juego. El original promedia 83 en Metacritic."
+    }
+   ]
+  },
+  {
+   "id": "aniimo",
+   "titulo": "ANIIMO",
+   "fecha": "2026-09-16",
+   "plataformas": [
+    "XBOX",
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "MULTIJUGADOR",
+    "RPG"
+   ],
+   "desarrollador": "PAWPRINT STUDIO",
+   "descripcion": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. Explore the vast continent of Idyll, Twine with unique Aniimo, unlock new abilities. Travel to a sky-floating metropolis, meet other Pathfinders, and battle in exciting competitions. Choose your Aniimo and begin your epic journey!",
+   "trailer": "https://youtube.com/embed/Yh5JH0Yz75E",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/43b2a41f5876db8ca407f240e74392fb1badbb2f/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/aniimo",
+   "noticias": [
+    {
+     "fecha": "2026-08-14",
+     "titulo": "YA TIENE FECHA: 16 DE SEPTIEMBRE",
+     "texto": "Estaba anunciado para el tercer trimestre sin día. Es un RPG de mundo abierto gratuito con captura de criaturas, del estudio Pawprint."
+    }
+   ]
+  },
+  {
+   "id": "monowave",
+   "titulo": "MONOWAVE",
+   "fecha": "2026-09-16",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "PUZZLE",
+    "PLATAFORMA"
+   ],
+   "desarrollador": "STUDIO BBB",
+   "descripcion": "Una aventura de puzles y plataformas construida alrededor del poder de las emociones, con mundos que cambian según el ánimo del personaje. Las versiones de PS5 y Xbox llegan más adelante en 2026.",
+   "trailer": "https://youtube.com/embed/3vzhMB8g8f8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680440/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-14",
+   "url": "https://lanzamientos.lat/juegos/monowave"
   }
  ]
 }
