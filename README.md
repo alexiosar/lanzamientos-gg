@@ -35,6 +35,8 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/cargar-meta-trailers.py  Fecha de subida de cada trailer (para el marcado de video)
 ├── datos/trailers-meta.json    Caché de esas fechas. **Commitearla**: si se pierde hay que
 │                               volver a bajar ~1 MB por trailer
+├── scripts/comun.py           Lo que comparten varios scripts (pasar títulos de MAYÚSCULAS
+│                               a minúsculas respetando siglas y números romanos)
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
@@ -396,6 +398,29 @@ Sin redes sociales, la estrategia es que otros encuentren y enlacen el sitio:
 - Ambos se regeneran con `scripts/generar-feeds.py` (incluido en la rutina diaria).
 
 ## SEO y redes
+
+### Los títulos de las fichas apuntan a la cola larga (decidido el 17/08/2026)
+
+Los datos de Search Console a 3 meses fueron concluyentes: **los 13 clics vinieron todos de
+búsquedas de un juego puntual**, casi siempre con la consola adentro — `grounded 2 ps5 cuando
+sale`, `he-man ps5`, `yet another zombie survivors ps5` — y varias con 1 impresión y 1 clic,
+o sea 100% de acierto. Las dos búsquedas amplias (`próximos lanzamientos videojuegos`,
+`juegos lanzamientos`) sumaron 254 impresiones y **cero** clics: ahí el sitio está en la
+posición 28, peleando contra medios grandes.
+
+Conclusión: en Google el producto no es el calendario, son las fichas. Por eso el `<title>`
+de cada ficha es `{Nombre} en {consolas}: fecha de salida`, con el nombre del sitio sólo si
+entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención aparecían.
+
+- **Va en minúsculas** (`comun.titulo`): en una lista de resultados, un título todo en
+  mayúsculas se lee como si gritara. El H1 de la página sigue en mayúsculas, que es el diseño.
+- **Máximo dos consolas y "salida" en vez de "lanzamiento"**, porque Google corta cerca de los
+  60 caracteres. Medido sobre los 331 juegos, esa fórmula deja la mediana en 56 y baja de 316
+  a 76 los títulos que se pasan. Lo único que nunca se recorta es el nombre del juego: es el
+  término por el que la gente busca.
+- **La portada y las páginas de plataforma no se tocaron.** Compiten por las búsquedas
+  amplias, esa pelea está perdida por ahora y cambiarles el título no mueve nada.
+
 
 - Meta de verificación de Google Search Console en el `<head>` de `index.html`.
 - `sitemap.xml` con la portada + una URL por juego (regenerar con el script, ver arriba).

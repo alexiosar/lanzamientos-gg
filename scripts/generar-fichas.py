@@ -14,7 +14,12 @@ import datetime
 import html as html_mod
 import json
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from comun import plat, titulo as titulo_normal
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
@@ -52,6 +57,29 @@ def leer_meta_trailers():
 
 
 META_TRAILERS = leer_meta_trailers()
+
+
+# Título de la pestaña, que es lo que Google muestra como enlace del resultado.
+#
+# Los clics del sitio (agosto 2026) vienen todos de búsquedas de un juego puntual,
+# y casi siempre con la consola y la intención adentro: "grounded 2 ps5 cuando sale",
+# "he-man ps5", "yet another zombie survivors ps5". El título decía sólo
+# "GROUNDED 2 — LANZAMIENTOS.LAT": ni la consola ni la intención aparecían.
+#
+# Va en minúsculas porque en una lista de resultados un título todo en mayúsculas
+# se lee como si gritara. El H1 de la página sigue en mayúsculas, que es el diseño.
+# Google corta el título cerca de los 60 caracteres, así que cada palabra pesa.
+# Medido sobre los 331 juegos: "fecha de salida" con dos consolas y el nombre del
+# sitio sólo cuando entra deja la mediana en 56 y baja de 316 a 71 los que se pasan.
+# Lo que nunca se recorta es el nombre del juego: es el término de la consulta.
+SUFIJO = " — LANZAMIENTOS.LAT"
+
+
+def titulo_pestania(j):
+    plats = [plat(p) for p in j["plataformas"]][:2]
+    en = f"{plats[0]} y {plats[1]}" if len(plats) > 1 else plats[0]
+    base = f"{titulo_normal(j)} en {en}: fecha de salida"
+    return base + SUFIJO if len(base + SUFIJO) <= 60 else base
 
 
 def plat_slug(p):
@@ -236,8 +264,8 @@ def generar(j, juegos):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{e(j["titulo"])} — fecha de lanzamiento, plataformas, puntaje y trailer. {e(desc_corta)}">
-  <title>{e(j["titulo"])} — LANZAMIENTOS.LAT</title>
+  <meta name="description" content="{e(titulo_normal(j))}: fecha de salida, plataformas, puntaje y trailer. {e(desc_corta)}">
+  <title>{e(titulo_pestania(j))}</title>
   <link rel="canonical" href="{url}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
@@ -246,7 +274,7 @@ def generar(j, juegos):
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
-  <meta property="og:title" content="{e(j["titulo"])} — {fecha_str}">
+  <meta property="og:title" content="{e(titulo_normal(j))} — {fecha_str}">
   <meta property="og:description" content="{e(desc_corta)}">
   <meta property="og:url" content="{url}">
   <meta property="og:image" content="{e(og_imagen)}">

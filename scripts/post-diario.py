@@ -19,8 +19,11 @@ import argparse
 import datetime
 import json
 import re
+import sys
 import unicodedata
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 RAIZ = Path(__file__).resolve().parent.parent
 SITIO = "https://lanzamientos.lat"
@@ -38,59 +41,7 @@ def cargar_juegos():
     return json.loads(cuerpo)
 
 
-PLATS = {"PS5": "PS5", "PS4": "PS4", "XBOX": "Xbox", "SWITCH2": "Switch 2", "SWITCH": "Switch"}
-# Palabras que no se capitalizan en medio de un título
-MINUSCULAS = {"of", "the", "and", "in", "on", "a", "an", "to", "for", "from", "at", "by",
-              "de", "del", "la", "el", "los", "las", "y", "en", "un", "una", "por", "con",
-              "vs"}
-ROMANOS = re.compile(r"^(?:[IVXLC]+)$", re.I)
-ORDINAL = re.compile(r"^\d+(ST|ND|RD|TH)$", re.I)
-# Siglas y marcas con vocales que igual van en mayúscula (las que no tienen vocales
-# —FC, HD, MXGP, VS— se detectan solas). Ampliar si aparece alguna nueva.
-SIGLAS = {"EA", "NBA", "LEGO", "TOEM", "DLC", "MLB", "NFL", "NHL", "UFC", "WWE", "AEW"}
-
-
-def plat(p):
-    return PLATS.get(p, p)
-
-
-def plats(j, maximo=4):
-    ps = [plat(p) for p in j["plataformas"]]
-    return "/".join(ps[:maximo]) + ("+" if len(ps) > maximo else "")
-
-
-def _sin_diacriticos(t):
-    """TŌKON -> TOKON. Sin esto, la Ō no cuenta como vocal y el título se toma por
-    sigla: 'Marvel Tōkon' terminaba escrito 'Marvel TŌKon'."""
-    return "".join(c for c in unicodedata.normalize("NFD", t)
-                   if unicodedata.category(c) != "Mn")
-
-
-def titulo(j):
-    """Los títulos están en MAYÚSCULAS en la base; en redes gritan demasiado."""
-    palabras = j["titulo"].split()
-    salida = []
-    for i, p in enumerate(palabras):
-        nucleo = p.strip(":()!?¡¿,.-'’")
-        limpio = re.sub(r"[^A-Za-z0-9]", "", _sin_diacriticos(nucleo))
-        if not limpio:
-            salida.append(p)
-        elif ROMANOS.match(limpio) and limpio.upper() in {
-                "II", "III", "IV", "VI", "VII", "VIII", "IX", "XI", "XII", "XIII",
-                "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX"}:
-            salida.append(p.upper())          # DOOM II, no Doom Ii
-        elif ORDINAL.match(limpio):
-            salida.append(p[:-2] + p[-2:].lower())   # 2ND -> 2nd
-        elif i > 0 and limpio.lower() in MINUSCULAS and not palabras[i - 1].endswith(":"):
-            salida.append(p.lower())          # City of Wolves, no City Of Wolves
-        elif limpio.upper() in SIGLAS or not re.search(r"[AEIOUY]", limpio, re.I) \
-                or (re.search(r"\d", limpio) and len(limpio) <= 5):
-            salida.append(p.upper())          # EA SPORTS FC 27, NBA 2K27, X/X-2 HD
-        else:
-            # capitaliza cada tramo: RE:BUILD -> Re:Build, no Re:build. El patrón es \w
-            # y no [A-Za-z] para que TŌKON quede "Tōkon" y no "TŌKon".
-            salida.append(re.sub(r"\w+", lambda m: m.group(0).capitalize(), p))
-    return " ".join(salida)
+from comun import PLATS, MINUSCULAS, SIGLAS, ROMANOS, ORDINAL, plat, plats, titulo, _sin_diacriticos
 
 
 def armar_lista(cabecera, lineas, link, resumen):
