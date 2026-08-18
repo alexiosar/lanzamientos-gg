@@ -572,6 +572,15 @@ categoría `SUSCRIPCIONES`.
    - cambios de fecha y de plataformas de los que ya están (las fechas se adelantan y se
      atrasan; ej. Hot Wheels Infinite Rush pasó del 24 al 10 de septiembre).
 
+   **Cotejar por id, no por nombre.** Al cruzar lo que devuelve releases.com contra
+   `datos/juegos.js`, la comparación por título genera **falsos faltantes**: releases.com
+   escribe "Diablo 4" y nosotros "DIABLO IV" (arábigo contra romano), o lista "Dragon Quest
+   Monsters: The Withered World" mientras nosotros tenemos el título en español ("El Reino
+   Marchito"). Las dos veces el juego ya estaba cargado. El costo es tiempo revisando de
+   más, nunca datos duplicados, porque el chequeo por id lo frena antes de escribir. Si un
+   juego "falta" y es de una saga conocida, buscarlo también por su nombre en el otro idioma
+   y por el número en la otra grafía antes de darlo por nuevo.
+
    URLs del barrido: `https://www.releases.com/calendar/games?at=2026-Sep-01` y variantes
    (`-Sep-09`, `-Sep-18`, `-Sep-26`…). Cada carga muestra ~10 días, así que hacen falta 3 o 4
    por mes. Al final de cada mes aparecen los bloques "Estimated <mes>" y "Estimated Q<n>":
