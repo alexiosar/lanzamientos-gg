@@ -10,6 +10,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/rticbJlXbLw",
     metacritic: 77,
     metacriticUsuarios: null,
+    critica: "Las reseñas coinciden en advertir lo mismo antes que nada: esto es una novela interactiva más que un RPG, y quien vaya buscando combate se va a aburrir. Con eso dicho, los elogios son parejos para la escritura, la ambientación en un siglo XVIII alternativo y un sistema de confianza donde las decisiones pesan de verdad. Los reparos también se repiten: arranca muy lento y el combate es simple y tosco.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1315320/library_600x900.jpg",
     noticias: [
       {
@@ -204,6 +205,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/X1_HJSks2CQ",
     metacritic: 78,
     metacriticUsuarios: null,
+    critica: "Con cinco reseñas, todas lo comparan con Unpacking y todas aclaran que no llega tan lejos. Es un juego de ordenar objetos donde las cosas cuentan una vida, y lo que elogian es eso: el detalle del arte y cómo la historia aparece sola mientras uno acomoda. Los reparos son de escala, no de calidad: es corto y no tiene la fuerza de género que tuvo aquel.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2474770/library_600x900.jpg",
     noticias: [
       {
@@ -837,6 +839,7 @@ const JUEGOS = [
     metacritic: 78,
     metacriticUsuarios: 9.1,
     metacriticVotos: 17,
+    critica: "Es una expansión y las reseñas la juzgan como tal, con una división clara. Para la mayoría suma sistemas nuevos —la terraformación, los ciclos, una cadena de producción más exigente— y le da al que ya jugó una razón para volver, a buen precio. Para las notas más bajas pasa lo contrario: gana complejidad y pierde lo que hacía especial al original, con personajes escritos con menos cuidado y menos tensión entre administrar recursos y administrar gente.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3237520/e817a332b4247486e43005e12413aa9f4d377003/header.jpg",
     noticias: [
       {
@@ -1346,6 +1349,7 @@ const JUEGOS = [
     metacritic: 77,
     metacriticUsuarios: 5.9,
     metacriticVotos: 37,
+    critica: "Las reseñas se parten en dos y por un motivo que no es el juego: casi todas coinciden en que las peleas son buenas, con mecánicas profundas, personajes bien diferenciados y un respeto por la serie que ningún juego de Avatar había tenido. Y casi todas dicen también que salió sin terminar: faltan modos básicos, no hay partida clasificatoria, los tutoriales explican mal y el plantel es chico. Las notas más bajas no dicen que sea malo, dicen que todavía no está listo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg",
     noticias: [
       {
@@ -1420,6 +1424,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/UQGOI3xVxh8",
     metacritic: 77,
     metacriticUsuarios: null,
+    critica: "Es un juego de pelear contra jefes, uno atrás de otro, donde se elige el orden y esa elección regula la dificultad. Las reseñas coinciden en que la idea funciona y en que el arte y la música están por encima de lo que se espera de un juego chico. Donde no coinciden es en la dificultad: para varias es su gran virtud, y para la nota más baja los jefes nunca llegan a exigir lo suficiente como para justificar el planteo. Todas avisan que es un juego para un público específico.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2191280/library_600x900.jpg",
     noticias: [
       {
@@ -1759,6 +1764,7 @@ const JUEGOS = [
     metacritic: 79,
     metacriticUsuarios: 7.3,
     metacriticVotos: 4,
+    critica: "Las reseñas coinciden en que es un buen ejemplo de cómo devolver a la vida una serie de culto: un matamarcianos clásico, exigente, con efectos y banda sonora que se llevan casi todos los elogios. La palabra que más aparece es dificultad, y no como queja. Los reparos van a la variedad: los niveles se repiten y hay ideas que quedaron a medio aprovechar. Es un género de nicho y ninguna reseña lo disimula.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3323490/e2a9d117851ffcd8194af97195c9757b3d342d61/header.jpg",
     noticias: [
       {
@@ -1886,6 +1892,7 @@ const JUEGOS = [
     metacritic: 78,
     metacriticUsuarios: 7.3,
     metacriticVotos: 234,
+    critica: "Las reseñas son las de 2021. El acuerdo es que como secuela cumple: más dinosaurios, más para administrar y el modo Teoría del Caos, que recorre las películas y es lo que más se elogia. La grieta está en para quién: al fanático de Jurassic Park casi todas se lo recomiendan sin dudar, y al que viene por la gestión le advierten que los sistemas están desbalanceados y poco pulidos. La nota más dura dice que se siente como contenido descargable a precio completo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244460/library_600x900.jpg",
     noticias: [
       {
@@ -1963,6 +1970,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/PCiL6h8x7qM",
     metacritic: 78,
     metacriticUsuarios: null,
+    critica: "Son cinco reseñas y coinciden en el tono: es una sátira, el chiste está en el título, y debajo hay un simulador de mercado que genera una tensión real. Lo que elogian es el ritmo, lo rápido de cada operación y las ganas de intentarlo una vez más. El reparo también es unánime: se vuelve repetitivo, porque al final la plata no sirve para nada más que para hacer una marca más alta.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642000/6af85af9c964bc45a61c649b6085b492101250aa/header.jpg",
     noticias: [
       {
@@ -2277,6 +2285,7 @@ const JUEGOS = [
     metacritic: 80,
     metacriticUsuarios: 7.4,
     metacriticVotos: 982,
+    critica: "Las reseñas son las de la remasterización de 2025. Hay acuerdo en el trabajo visual, que casi todos elogian, y en que los retoques de juego son bienvenidos. La discusión es sobre qué es esto: para varias reseñas es una máquina del tiempo perfecta para el que jugó Oblivion en 2006, y para otras justamente por eso se queda corta, porque arrastra los errores viejos y suma problemas técnicos nuevos. La conclusión que más se repite es que se disfruta según cuánta nostalgia traiga uno encima.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg",
     noticias: [
       {
@@ -2330,6 +2339,7 @@ const JUEGOS = [
     metacritic: 79,
     metacriticUsuarios: 7.6,
     metacriticVotos: 18,
+    critica: "Todas las reseñas lo ubican en el mismo lugar: un plataformas en 3D que homenajea a los de PlayStation 2, con Kingdom Hearts, Ratchet & Clank y Jak and Daxter nombrados una y otra vez. Los elogios van al movimiento, al diseño de niveles y a la música. Los reparos coinciden con el elogio y son su reverso: se parece tanto a lo que homenajea que no llega a tener voz propia, la progresión es superficial y las recompensas por explorar decepcionan.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/f17f8f31c30ca7f8603b125502e00c0c542c6677/header.jpg",
     noticias: [
       {
@@ -4390,6 +4400,7 @@ const JUEGOS = [
     metacritic: 81,
     metacriticUsuarios: 8.6,
     metacriticVotos: 1453,
+    critica: "Las reseñas son las de 2001, cuando salió en PC. Lo que elogian no envejeció: un mundo cerrado y creíble, con campamentos enfrentados a los que hay que elegir a cuál sumarse, y una atmósfera oscura que casi todas las notas destacan por encima de lo demás. Lo que critican tampoco envejeció: el control, pensado para teclado y famoso por lo incómodo, y una cantidad de problemas técnicos que en su momento espantaron a más de uno. Varias reseñas dicen lo mismo con distintas palabras: hay que aguantarle las primeras horas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65540/library_600x900.jpg",
     noticias: [
       {
@@ -5540,6 +5551,7 @@ const JUEGOS = [
     descripcion: "La edición de Xbox del juego de pelea de Avatar llega mes y medio después que el resto, con soporte de Xbox Play Anywhere: una sola compra vale para consola y PC, con el progreso compartido. Mantiene el juego cruzado con el resto de las plataformas y el mismo plantel de doce personajes.",
     trailer: "https://youtube.com/embed/qC0WcvBOt_c",
     metacritic: 81,
+    critica: "Las reseñas se parten en dos y por un motivo que no es el juego: casi todas coinciden en que las peleas son buenas, con mecánicas profundas, personajes bien diferenciados y un respeto por la serie que ningún juego de Avatar había tenido. Y casi todas dicen también que salió sin terminar: faltan modos básicos, no hay partida clasificatoria, los tutoriales explican mal y el plantel es chico. Las notas más bajas no dicen que sea malo, dicen que todavía no está listo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg",
     noticias: [
       {
