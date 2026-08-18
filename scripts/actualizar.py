@@ -33,6 +33,42 @@ def get(url):
     return urllib.request.urlopen(req, timeout=20, context=CTX).read().decode("utf-8", "replace")
 
 
+# Cuántos días se sigue refrescando el puntaje de usuarios de un juego ya lanzado.
+DIAS_REFRESCO = 90
+
+
+def metascore(html):
+    """El puntaje de crítica que muestra la página, para verificar que es el juego."""
+    m = re.search(r'title="Metascore (\d+) out of 100"', html)
+    return int(m.group(1)) if m else None
+
+
+def puntaje_usuarios(html):
+    """El puntaje de usuarios (0 a 10) de una página de Metacritic, o None si no hay.
+
+    La página trae los dos puntajes con el mismo `data-testid`, primero el de crítica
+    y después el de usuarios, así que hay que anclarse en el encabezado y tomar el
+    valor que viene después. Cuando todavía no hay votos suficientes dice "tbd".
+    """
+    i = html.find('data-testid="global-score-header">User score')
+    if i == -1:
+        return None
+    # Sólo la ventana del bloque: si el juego no tiene votos, ahí no hay ningún
+    # valor y la búsqueda seguiría de largo hasta el Metascore de más abajo. Así
+    # devolvía 79 en The Sinking City 2, que es su puntaje de crítica.
+    ventana = html[i:i + 2000]
+    if 'data-testid="global-score-tbd"' in ventana:
+        return None   # "tbd": todavía no hay suficientes votos
+    m = re.search(r'data-testid="global-score-value">([^<]*)<', ventana)
+    if not m:
+        return None
+    try:
+        nota = float(m.group(1).strip())
+    except ValueError:
+        return None
+    return nota if 0 <= nota <= 10 else None   # red de seguridad: esto va de 0 a 10
+
+
 def main():
     hoy = datetime.date.today().isoformat()
     maniana = (datetime.date.today() + datetime.timedelta(days=1)).isoformat()
@@ -46,10 +82,14 @@ def main():
     for gid, cuerpo in bloques:
         fecha = re.search(r'fecha: "([^"]+)"', cuerpo)
         mc = re.search(r'metacritic: (null|\d+)', cuerpo)
+        mcu = re.search(r'metacriticUsuarios: (null|[\d.]+)', cuerpo)
+        mcs = re.search(r'metacriticSlug: "([^"]+)"', cuerpo)
         juegos.append({
             "id": gid,
             "fecha": fecha.group(1) if fecha else "",
             "metacritic": mc.group(1) if mc else "null",
+            "usuarios": mcu.group(1) if mcu else None,   # None = el campo todavía no existe
+            "slug": mcs.group(1) if mcs else gid,
             "sin_trailer": "trailer: null" in cuerpo,
             "sin_imagen": "imagen: null" in cuerpo,
             "sin_duracion": "duracion:" not in cuerpo,
@@ -98,6 +138,81 @@ def main():
     if not aplicados:
         print("  (sin puntajes nuevos)")
 
+    # 1 ter) Puntaje de usuarios de Metacritic.
+    #
+    # Es el contraste que hace interesante a una ficha: Marvel Tōkon debutó con 87 de
+    # crítica y a la vez con una avalancha de reseñas negativas. Es un número, igual que
+    # el de crítica, así que se baja solo y no lo mantiene nadie.
+    #
+    # Se pide para los que ya tienen puntaje de crítica y todavía no tienen el de
+    # usuarios, y además se refresca el de los lanzados hace menos de DIAS_REFRESCO:
+    # el de crítica queda fijo a los pocos días, pero el de usuarios se sigue moviendo
+    # durante semanas, que es justo cuando pasan las review bombs.
+    limite = (datetime.date.today() - datetime.timedelta(days=DIAS_REFRESCO)).isoformat()
+    pendientes_u = [j for j in juegos
+                    if (j["metacritic"] != "null" or j["id"] in aplicados) and j["fecha"] <= hoy
+                    and (j["usuarios"] in (None, "null") or j["fecha"] >= limite)]
+    print(f"\n── Metacritic usuarios: {len(pendientes_u)} a consultar ──")
+    usuarios = {}
+    criticas = {}   # puntajes de crítica que se movieron desde la última corrida
+    descartados = []
+    for j in pendientes_u:
+        gid = j["id"]
+        try:
+            html = get(f"https://www.metacritic.com/game/{j['slug']}/")
+        except Exception:
+            continue  # 404 o caída: se reintenta mañana, no se pisa lo que había
+        finally:
+            time.sleep(0.4)
+        # Que el slug exista no quiere decir que sea el juego: "final-fantasy-xiv-online"
+        # es el lanzamiento fallido de 2010 (49 de crítica, 3.9 de usuarios), no A Realm
+        # Reborn, que es lo que llega a Switch 2. El puntaje de crítica ya lo tenemos
+        # verificado, así que sirve de control: si el de la página no se le parece, la
+        # página es de otro juego y el puntaje de usuarios sería de otro juego también.
+        de_la_pagina = metascore(html)
+        conocido = int(j["metacritic"]) if j["metacritic"] != "null" else aplicados.get(gid)
+        # 15 puntos de margen: los puntajes se mueven solos mientras entran reseñas
+        # (Palworld pasó de 86 a 78), así que una diferencia chica es normal. Una
+        # grande es otro juego: FFXIV Online daba 49 contra nuestro 86.
+        if de_la_pagina is not None and conocido is not None and abs(de_la_pagina - conocido) > 15:
+            descartados.append(f"{gid} (la página dice {de_la_pagina}, nosotros {conocido})")
+            continue
+        # Ya tenemos la página en la mano: de paso se corrige el puntaje de crítica.
+        # Hasta hoy se bajaba una sola vez y quedaba congelado para siempre, y un
+        # puntaje viejo en un sitio que se vende por exacto es igual de malo que
+        # una fecha vieja.
+        if de_la_pagina is not None and conocido is not None and de_la_pagina != conocido:
+            criticas[gid] = de_la_pagina
+            print(f"  ~ {gid}: crítica {conocido} → {de_la_pagina}")
+        nota = puntaje_usuarios(html)
+        if nota is None:
+            # "tbd": todavía no hay suficientes votos. Se marca null para no volver
+            # a pedirlo cada día una vez que el juego es viejo.
+            if j["usuarios"] is None:
+                usuarios[gid] = "null"
+            continue
+        if j["usuarios"] not in (None, "null") and abs(float(j["usuarios"]) - nota) < 0.05:
+            continue  # no se movió
+        usuarios[gid] = f"{nota:.1f}"
+        antes = "—" if j["usuarios"] in (None, "null") else j["usuarios"]
+        print(f"  ★ {gid}: crítica {j['metacritic']} · usuarios {antes} → {nota:.1f}")
+    if descartados:
+        print(f"\n  ⚠ {len(descartados)} descartado(s) porque la página no es del juego:")
+        for d in descartados:
+            print(f"    · {d}")
+        print("    Se arregla con el campo metacriticSlug en datos/juegos.js.")
+    if not usuarios:
+        print("  (ningún puntaje de usuarios se movió)")
+
+    for gid, score in criticas.items():
+        patron = re.compile(r'(id: "' + re.escape(gid) + r'",.*?)metacritic: \d+,', re.S)
+        src = patron.sub(lambda m: m.group(1) + f"metacritic: {score},", src, count=1)
+
+    for gid, nota in usuarios.items():
+        bloque = re.compile(r'(id: "' + re.escape(gid) + r'",.*?metacritic: (?:null|\d+),)'
+                            r'(\n\s*metacriticUsuarios: (?:null|[\d.]+),)?', re.S)
+        src = bloque.sub(lambda m: m.group(1) + f"\n    metacriticUsuarios: {nota},", src, count=1)
+
     # 1 bis) Fecha de alta de los juegos cargados a mano desde la última corrida.
     # El badge ★ NUEVO sale de este campo, así que si nadie lo sella el juego
     # entra al calendario sin marcar. Se pone hoy, que es cuando se cargó.
@@ -115,7 +230,7 @@ def main():
     for gid, score in aplicados.items():
         patron = re.compile(r'(id: "' + re.escape(gid) + r'",.*?)metacritic: null,', re.S)
         src = patron.sub(lambda m: m.group(1) + f"metacritic: {score},", src, count=1)
-    if aplicados or selladas:
+    if aplicados or selladas or usuarios or criticas:
         ARCHIVO.write_text(src, encoding="utf-8")
 
     # 2) Regenerar

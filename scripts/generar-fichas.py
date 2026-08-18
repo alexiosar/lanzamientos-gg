@@ -204,10 +204,19 @@ def generar(j, juegos):
 
     metacritic_html = ""
     if j.get("metacritic"):
+        # El puntaje de usuarios va al lado del de crítica porque lo que importa es
+        # la diferencia entre los dos: un 87 de prensa con un 4 de jugadores cuenta
+        # una historia que ninguno de los dos números cuenta solo.
+        usuarios = ""
+        if j.get("metacriticUsuarios") is not None:
+            usuarios = (f'<span class="badge-metacritic {meta_clase(j["metacriticUsuarios"] * 10)}" '
+                        f'title="Puntaje de los usuarios de Metacritic, de 0 a 10">'
+                        f'{j["metacriticUsuarios"]:.1f} <span class="badge-quien">USUARIOS</span></span>')
         metacritic_html = f'''
             <div>
               <span class="ficha-campo-label">METACRITIC</span>
-              <span class="badge-metacritic {meta_clase(j["metacritic"])}">{j["metacritic"]}</span>
+              <span class="badge-metacritic {meta_clase(j["metacritic"])}" title="Puntaje de la crítica en Metacritic, de 0 a 100">{j["metacritic"]} <span class="badge-quien">CRÍTICA</span></span>
+              {usuarios}
             </div>'''
 
     # Sin imagen va un marcador con la marca del sitio, no un hueco: el `this.remove()`
@@ -350,6 +359,9 @@ def generar(j, juegos):
     .noticia-fecha     {{ color: var(--acento); font-size: 0.6875rem; letter-spacing: 1px; margin-right: 0.5rem; }}
     .noticia-titulo    {{ color: var(--blanco); font-size: 0.75rem; letter-spacing: 1px; }}
     .noticia-texto     {{ color: var(--gris-7); font-size: 0.75rem; line-height: 1.8; }}
+    /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
+       uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
+    .badge-quien       {{ font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }}
 {css_noticias}    .juego-hero        {{ display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }}
     .juego-hero-info   {{ flex: 1; min-width: 260px; }}
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen

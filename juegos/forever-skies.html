@@ -40,6 +40,9 @@
     .noticia-fecha     { color: var(--acento); font-size: 0.6875rem; letter-spacing: 1px; margin-right: 0.5rem; }
     .noticia-titulo    { color: var(--blanco); font-size: 0.75rem; letter-spacing: 1px; }
     .noticia-texto     { color: var(--gris-7); font-size: 0.75rem; line-height: 1.8; }
+    /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
+       uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
+    .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -125,7 +128,8 @@
               </div>
             <div>
               <span class="ficha-campo-label">METACRITIC</span>
-              <span class="badge-metacritic meta-medio">66</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">67 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de los usuarios de Metacritic, de 0 a 10">7.0 <span class="badge-quien">USUARIOS</span></span>
             </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">

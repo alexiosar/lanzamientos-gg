@@ -81,7 +81,9 @@ Editar `datos/juegos.js` y agregar un objeto al array `JUEGOS`:
   descripcion: "Texto normal en minúsculas...",
   trailer: "https://youtube.com/embed/XXXXXXX",   // formato /embed/, no /watch — o null:
                                                   // el botón VER TRAILER se oculta solo
-  metacritic: null,              // número (ej: 82) o null si no tiene puntaje
+  metacritic: null,              // número (ej: 82) o null; lo baja y lo refresca actualizar.py
+  metacriticUsuarios: null,      // puntaje de los usuarios, de 0 a 10 (ej: 2.6); ídem
+  // metacriticSlug: "..."       // sólo si el id NO es el slug de Metacritic (ver abajo)
   imagen: null,                  // URL de carátula o null (ver abajo)
   noticias: [                    // opcional: se puede omitir el campo entero
     {
@@ -129,6 +131,33 @@ si están en `null` o ausentes — no rompen nada.
   `metacritic.com/game/SLUG/` responden a peticiones con User-Agent de navegador; el
   Metascore está en el campo `"ratingValue"` del JSON-LD embebido. Los indies chicos suelen
   quedar "TBD" (necesitan al menos 4 reseñas de críticos para tener puntaje).
+
+  **El puntaje de usuarios** (campo `metacriticUsuarios`, de 0 a 10) sale de la misma página,
+  del `data-testid="global-score-value"` que viene después del encabezado `User score`.
+  Ojo con dos trampas, las dos ya resueltas en `actualizar.py` pero fáciles de volver a pisar:
+
+  1. **Los dos puntajes usan el mismo `data-testid`**, primero el de crítica y después el de
+     usuarios. Hay que anclarse en el encabezado y buscar sólo en la ventana que le sigue: si
+     un juego no tiene votos, en su bloque no hay ningún valor y la búsqueda sigue de largo
+     hasta el Metascore de más abajo. Así The Sinking City 2 devolvía 79, su nota de prensa.
+  2. **El slug puede ser de otro juego.** `final-fantasy-xiv-online` es el lanzamiento fallido
+     de 2010 (49 de crítica, 3.9 de usuarios), no A Realm Reborn, que es lo que llega a
+     Switch 2. Antes de creerle a una página se compara su Metascore con el que ya tenemos
+     guardado: si difieren en más de 15 puntos es otro juego y se descarta con un aviso. Para
+     esos casos está el campo opcional **`metacriticSlug`**, que apunta al slug correcto
+     (FFXIV usa `final-fantasy-xiv-online-a-realm-reborn`).
+
+  **Los puntajes se refrescan, no se congelan** (desde el 18/08/2026). Hasta ese día el de
+  crítica se bajaba una sola vez y quedaba fijo para siempre; al agregar el de usuarios se vio
+  que 39 de 82 se habían movido, algunos mucho: Palworld estaba en 86 y hoy es 78, Deltarune
+  Chapter 5 estaba en 86 y hoy es 96. Un puntaje viejo en un sitio que se vende por exacto es
+  igual de malo que una fecha vieja. Como la página ya se pide para el puntaje de usuarios, el
+  refresco no cuesta ni un pedido más. Se sigue refrescando hasta 90 días después del
+  lanzamiento (`DIAS_REFRESCO`): el de crítica se planta a los pocos días, pero el de usuarios
+  se mueve durante semanas, que es justo cuando pasan las review bombs.
+
+  Las noticias que dicen "debuta con 87" **no se corrigen** cuando el puntaje se mueve: eran
+  ciertas el día que se escribieron y así se leen.
 
 ### Carátulas (campo `imagen`)
 
@@ -676,7 +705,8 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 
 | Qué | Al cargar el juego | Después, quién lo mantiene |
 |---|---|---|
-| `metacritic` (y con eso el ranking) | — | **Diaria, automática.** Único campo 100% automático: `actualizar.py` barre toda la base cada día buscando puntaje para cualquier juego ya lanzado con `metacritic: null` |
+| `metacritic` (y con eso el ranking) | — | **Diaria, automática.** `actualizar.py` busca puntaje para cualquier juego ya lanzado con `metacritic: null`, y **refresca el de los que ya lo tienen**: no queda congelado |
+| `metacriticUsuarios` | — | **Diaria, automática.** Misma pasada, misma página: sin pedidos de más |
 | `noticias` de un juego | Diaria, paso 2 (lanzamientos de hoy y mañana, y debuts con puntaje) | Mensual, paso 12 (los mejor puntuados que sigan sin noticias) |
 | `datos/noticias.js` (PS Plus, Game Pass, Directs, retrasos) | Diaria, paso 2 | Diaria: `actualizar.py` avisa hace cuántos días se cargó la última |
 | `gamepass` y `psplus` | Al cargar, si ya se sabe | **Mensual, sección "suscripciones"** |
