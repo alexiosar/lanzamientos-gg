@@ -184,6 +184,7 @@ const JUEGOS = [
     metacritic: 65,
     metacriticUsuarios: 7.0,
     metacriticVotos: 5,
+    critica: "Las reseñas coinciden en que los cambios son ingeniosos —equipos asimétricos, cartas, dioramas muy trabajados— y en que, aun así, sigue dependiendo demasiado de la suerte. El otro punto en el que están todas de acuerdo es cuándo funciona: con gente al lado entretiene, y jugado en solitario se vuelve pasivo y aburrido rápido. Es un juego de fiesta y ninguna reseña pretende otra cosa.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936610/4c994dffe6840c2ee0e653afe281685ae85db64c/header.jpg",
     noticias: [
       {
@@ -538,7 +539,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1118,
+    metacriticVotos: 1119,
     critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg",
     noticias: [
@@ -624,6 +625,7 @@ const JUEGOS = [
     metacritic: 59,
     metacriticUsuarios: 6.0,
     metacriticVotos: 4,
+    critica: "Es el regreso de un clásico noventoso y las reseñas están de acuerdo en que la nostalgia no alcanzó. Los elogios van al estilo visual y al relator, que sigue teniendo gracia. Los reparos van al juego en sí: hay problemas de fondo en cómo se juega, y varias reseñas señalan que faltó el juego en línea prometido para el estreno. La nota más dura dice que capitaliza el cariño por el original en lugar de honrar lo que se lo ganó.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3935020/10ae84de59688050a1140103c1ecdbf987d8aeea/header.jpg",
     noticias: [
       {
@@ -723,6 +725,7 @@ const JUEGOS = [
     metacritic: 67,
     metacriticUsuarios: 7.5,
     metacriticVotos: 14,
+    critica: "Las reseñas son viejas, de las versiones anteriores a esta, y estaban bastante divididas. Lo que todas rescatan es la personalidad: un RPG donde los personajes cantan, con un humor y una ternura que no se parecen a nada de su época. Lo que casi todas critican es el juego que hay debajo: cortísimo, facilísimo y sin nada nuevo para el género. Las notas más bajas son duras justamente por eso; las más altas dicen que la gracia nunca estuvo ahí.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1866430/library_600x900.jpg",
     noticias: [
       {
@@ -748,7 +751,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/fJnpfLErDDQ",
     metacritic: 79,
     metacriticUsuarios: 9.0,
-    metacriticVotos: 907,
+    metacriticVotos: 903,
     critica: "Es el caso inverso al de los juegos de EA: los jugadores lo ponen entre lo mejor del año y la prensa lo dejó en el escalón de abajo. Coinciden en lo bueno, que es el sistema de digievolución, la historia y por fin un presupuesto a la altura de la marca. Las reseñas de puntaje más bajo insisten en dos cosas: el arranque es lento y el diseño es bastante más lineal de lo que promete. Varias marcan también la cantidad de contenido descargable de pago. Para el fan de Digimon, ninguno de los dos reparos alcanza.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/library_600x900.jpg",
     noticias: [
@@ -774,7 +777,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/M84RSkUXe0U",
     metacritic: 78,
     metacriticUsuarios: 7.4,
-    metacriticVotos: 230,
+    metacriticVotos: 226,
     critica: "Las reseñas de la versión 1.0 coinciden en que es otro juego que el del acceso anticipado: misiones rehechas, mapa más grande y un final de partida que antes no existía. Lo que elogian es la mezcla de supervivencia y criaturas, y lo sostenido que fue el estudio con las actualizaciones. Los reparos también se repiten: sigue habiendo aspereza técnica y el bucle de juego es implacable, con más grind del que algunos aguantan.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900.jpg",
     noticias: [
@@ -872,6 +875,7 @@ const JUEGOS = [
     metacritic: 70,
     metacriticUsuarios: 6.6,
     metacriticVotos: 8,
+    critica: "El acuerdo es que es un JRPG por turnos clásico, sin ambición de reinventar nada, y ahí se separan las opiniones: para varias reseñas esa simplicidad es la virtud —sistemas claros, personajes carismáticos, combates que se ponen mejores con las horas— y para otras es justamente el problema, un juego del montón más interesado en la charla graciosa que en su propia historia. Casi todas coinciden en que arranca flojo y mejora, y en que el apartado técnico se queda corto.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2199080/library_600x900.jpg",
     noticias: [
       {
@@ -896,6 +900,7 @@ const JUEGOS = [
     metacritic: 70,
     metacriticUsuarios: 5.0,
     metacriticVotos: 4,
+    critica: "Las reseñas coinciden en que el atractivo es la historia, no los puzzles: una sociedad futura que garantiza la felicidad de la mayoría, contada con un dibujo amable que esconde un fondo bastante más oscuro. Los elogios van a los personajes, a la música y a las preguntas que deja. Los reparos también se repiten: los puzzles son simples, y varias reseñas señalan lo mismo con distintas palabras, que las decisiones del jugador no terminan de tener consecuencias.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895460/c007e8aca1b123534981f690f3ea36e0afba77ba/header.jpg",
     noticias: [
       {
@@ -975,6 +980,7 @@ const JUEGOS = [
     metacritic: 67,
     metacriticUsuarios: 7.3,
     metacriticVotos: 8,
+    critica: "El acuerdo entre las reseñas es total en dos puntos: el sistema de locura es una gran idea, con efectos que generan historias distintas en cada partida, y el juego no tiene sentido si no es con amigos. También coinciden en el resto de los reparos: el combate es torpe, el manejo del inventario cansa y quedaron bastantes errores. Las notas más bajas directamente recomiendan esperar a que lo arreglen.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/library_600x900.jpg",
     noticias: [
       {
@@ -1207,6 +1213,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/E2DDuGJdiK4",
     metacritic: 58,
     metacriticUsuarios: null,
+    critica: "Con cuatro reseñas, el acuerdo es que la base está: administrar recursos, entrenar y llevar a un grupo hasta su debut arma un bucle que engancha un rato, y la mirada al detrás de escena de la industria del K-pop resulta más interesante de lo esperado. Los reparos también coinciden: se vuelve repetitivo y las decisiones pesan poco. La nota más dura va más lejos y dice que junta piezas de varios géneros sin entender qué hace funcionar a cada una.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1662160/library_600x900.jpg",
     noticias: [
       {
@@ -1320,7 +1327,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 81,
     metacriticUsuarios: 9.2,
-    metacriticVotos: 1845,
+    metacriticVotos: 1846,
     critica: "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
     noticias: [
@@ -1408,6 +1415,7 @@ const JUEGOS = [
     metacritic: 60,
     metacriticUsuarios: 5.4,
     metacriticVotos: 5,
+    critica: "Es el cambio de género lo que casi ninguna reseña le perdona: la serie pasa de la estrategia por turnos a repartir mandobles, y el resultado queda corto de los dos lados. Lo que rescatan es lo de siempre en Disgaea, el disparate del argumento y la progresión sin techo. Los reparos se repiten con insistencia: el combate es simple, hay poco contenido y se termina demasiado rápido. Varias reseñas dicen que sólo tiene sentido para el que ya es de la casa.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4402250/50b8ab932e9c3b8187a7e96034021bfddb51ee51/header.jpg",
     noticias: [
       {
@@ -1482,6 +1490,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/PX7mrM-ZQ_8",
     metacritic: 70,
     metacriticUsuarios: null,
+    critica: "Con seis reseñas y una división clara. Todas elogian lo visual —un mundo antiguo dibujado a mano en blanco y negro— y todas reconocen que los puzzles esconden más profundidad de la que aparentan. La grieta está en el interés: para las notas altas confía en el jugador y lo deja experimentar sin llevarlo de la mano; para las más bajas se queda sin ideas enseguida y termina siendo más fácil de admirar que de disfrutar.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2736370/library_600x900.jpg",
     noticias: [
       {
@@ -1669,6 +1678,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Iujy19OLvuc",
     metacritic: 69,
     metacriticUsuarios: null,
+    critica: "Todas las reseñas coinciden en que el chiste —el camión que en el anime manda a los protagonistas a otro mundo, ahora manejado por vos— es excelente, y en que dura menos que el juego. Los elogios van a lo directo y frenético, con Crazy Taxi como referencia obvia. Los reparos se repiten: el manejo es tosco, la progresión repite, y varias reseñas cuentan que a las dos horas ya vieron todo. Es corto igual, tres o cuatro horas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/e420ddf6b182eb2a7f68803fe8334fdf03f0a7ce/header.jpg",
     noticias: [
       {
@@ -2082,8 +2092,8 @@ const JUEGOS = [
     descripcion: "En un Japón posapocalíptico, la última esperanza de la humanidad está en manos de Emma y Koo, su compañero peludo. Vive una intensa aventura en «Beast of Reincarnation», un RPG de acción con combates técnicos y exigentes, protagonizado por una chica y su perro. ¿Qué habrá al final del camino? El primer gran RPG de acción de Game Freak, los creadores de Pokémon.",
     trailer: "https://youtube.com/embed/3dw0ePZ8GLc",
     metacritic: 72,
-    metacriticUsuarios: 6.1,
-    metacriticVotos: 311,
+    metacriticUsuarios: 6.2,
+    metacriticVotos: 307,
     critica: "Es el más discutido de los que tenemos cargados y viene de Game Freak, los de Pokémon, lo que explica parte del ruido. El acuerdo está en el combate y en la relación entre Emma y Kuu, que casi todas las reseñas rescatan. El desacuerdo está en todo lo demás: para la mitad hay un mundo vacío, una historia que no arranca y problemas gráficos, y las notas más duras dicen que no es un renacimiento creativo sino un juego armado imitando a otros mejores. Los jefes se llevan los elogios más consistentes.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
     noticias: [
@@ -2272,6 +2282,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/OOb-IKKkJBE",
     metacritic: 73,
     metacriticUsuarios: null,
+    critica: "Con cinco reseñas y bastante desacuerdo. Todas describen lo mismo: un cruce entre atrapar monstruos, armar mazos y estrategia por turnos, y coinciden en que la mezcla es rara y funciona. La diferencia está en cuánto pesan los defectos: para la mitad son detalles menores frente a un bucle adictivo, y para la otra mitad son varios y se suman —ritmo, legibilidad de la pantalla, control y una dificultad despareja— hasta dejarlo a mitad de camino.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141630/library_600x900.jpg",
     noticias: [
       {
@@ -2421,6 +2432,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/azfptYj4GHQ",
     metacritic: 60,
     metacriticUsuarios: null,
+    critica: "Todas las reseñas lo comparan con Star Fox 64 y todas llegan a la misma conclusión: el homenaje es evidente y el resultado queda por debajo en casi todo. Lo que rescatan es el precio bajo, el doblaje y algunas misiones sueltas donde se anima a hacer lo suyo. Los reparos coinciden: estructura repetitiva, dificultad injusta por momentos y casi nada de historia. La frase que más se repite es que le falta identidad propia.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1921490/library_600x900.jpg",
     noticias: [
       {
@@ -2444,6 +2456,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/dF999OSFcOg",
     metacritic: 70,
     metacriticUsuarios: null,
+    critica: "Las reseñas coinciden en que son tres juegos en uno: el modo retro reproduce el original de la época del Amiga, el clásico lo moderniza y el nuevo intenta otra cosa. Y coinciden también en el veredicto: el trabajo de rescate está bien hecho y se nota el cariño, pero la fórmula de los ochenta no siempre resiste. Cuánto se disfrute depende casi por completo de si uno jugó el original.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4208140/131479ec2e41016e6baf82b98c2106abc562c095/header.jpg",
     noticias: [
       {
@@ -3550,6 +3563,7 @@ const JUEGOS = [
     descripcion: "Un JRPG en pixel art con combates clásicos por turnos donde acompañás a Akane y a Bot, su compañero de inteligencia artificial, mientras desentrañan los misterios de un mundo que parece haber olvidado su propia historia.",
     trailer: "https://youtube.com/embed/NorI-ReqhVE",
     metacritic: 72,
+    critica: "Casi todas las reseñas cuentan lo mismo antes que nada: lo hizo una sola persona durante ocho años, y se nota para bien en el arte, que se lleva elogios enormes en cada nota. El desacuerdo es sobre si eso alcanza. El combate aparece descrito como flojo o desbalanceado en casi todas, y la traducción al inglés como pobre. Para las notas más altas es una odisea con corazón que vale por su mundo; para la más baja es una obra audiovisual preciosa que no logra contar bien lo que quiere contar.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1864000/library_600x900.jpg",
     noticias: [
       {
@@ -3777,7 +3791,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/jK0cGKMDMPE",
     metacritic: 87,
     metacriticUsuarios: 8.8,
-    metacriticVotos: 2702,
+    metacriticVotos: 2703,
     critica: "Es el juego con el que la prensa da por vuelto el género narrativo que dejó Telltale: la dirección, las actuaciones y los personajes se llevan los elogios en casi todas las reseñas. Los reparos son de estructura, no de ejecución: hay decisiones que no cambian nada, los mejores personajes aparecen poco y el final deja a varios con gusto a poco. De ahí salen las notas más bajas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
     noticias: [
@@ -4490,6 +4504,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U-mqKi-G9HI",
     metacritic: 59,
     metacriticUsuarios: null,
+    critica: "Con cuatro reseñas y poco entusiasmo. La idea gusta: fútbol australiano arcade, simple y absurdo, en un género que siempre tira para la simulación. Los reparos son de ejecución y coinciden entre sí: el control responde mal, hay poco contenido y el chiste se agota rápido. Las notas más generosas lo recomiendan igual para pasar un rato, y la más dura dice que la torpeza dejó de ser un estilo y pasó a ser un problema.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/02ffb09d115b8dcf4f21e9e45f604ac4af534d61/header.jpg",
     noticias: [
       {

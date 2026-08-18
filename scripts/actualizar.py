@@ -297,8 +297,11 @@ def main():
     print("\n── Backlog: resumen de crítica (los mejor puntuados sin `critica`) ──")
     sin_critica = sorted((j for j in juegos if j["sin_critica"] and j["metacritic"] != "null"),
                          key=lambda j: int(j["metacritic"]), reverse=True)
-    print(f"  Con resumen: {sum(1 for j in juegos if not j['sin_critica'])} de "
-          f"{sum(1 for j in juegos if j['metacritic'] != 'null')} juegos con puntaje")
+    con_puntaje = [j for j in juegos if j["metacritic"] != "null"]
+    otros = sum(1 for j in juegos if not j["sin_critica"] and j["metacritic"] == "null")
+    extra = f"  (+{otros} sin puntaje propio, otras ediciones del mismo juego)" if otros else ""
+    print(f"  Con resumen: {sum(1 for j in con_puntaje if not j['sin_critica'])} de "
+          f"{len(con_puntaje)} juegos con puntaje{extra}")
     for j in sin_critica[:8]:
         print(f"    · {j['metacritic']}  {j['id']}")
 

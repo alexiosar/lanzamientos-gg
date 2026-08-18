@@ -763,7 +763,7 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 |---|---|---|
 | `metacritic` (y con eso el ranking) | — | **Diaria, automática.** `actualizar.py` busca puntaje para cualquier juego ya lanzado con `metacritic: null`, y **refresca el de los que ya lo tienen**: no queda congelado |
 | `metacriticUsuarios` y `metacriticVotos` | — | **Diaria, automática.** Misma pasada, misma página: sin pedidos de más |
-| `critica` (resumen de la prensa) | Diaria, paso 2, cuando el juego debuta con puntaje | Mensual, con el backlog que lista `actualizar.py` |
+| `critica` (resumen de la prensa) | Diaria, paso 2, cuando el juego debuta con puntaje | Mensual, con el backlog que lista `actualizar.py`. Al 18/08/2026 están los 86 con puntaje: el backlog vuelve a llenarse solo cada vez que un juego debuta |
 | `noticias` de un juego | Diaria, paso 2 (lanzamientos de hoy y mañana, y debuts con puntaje) | Mensual, paso 12 (los mejor puntuados que sigan sin noticias) |
 | `datos/noticias.js` (PS Plus, Game Pass, Directs, retrasos) | Diaria, paso 2 | Diaria: `actualizar.py` avisa hace cuántos días se cargó la última |
 | `gamepass` y `psplus` | Al cargar, si ya se sabe | **Mensual, sección "suscripciones"** |
