@@ -71,6 +71,7 @@ def recolectar():
                 "categoria": "JUEGOS",
                 "juegos": [j["id"]],
                 "fuente": None,
+                "imagen": None,
             })
 
     for n in leer_noticias_propias():
@@ -81,6 +82,7 @@ def recolectar():
             "categoria": n.get("categoria", "ANUNCIOS"),
             "juegos": n.get("juegos") or [],
             "fuente": n.get("fuente"),
+            "imagen": n.get("imagen"),
         })
 
     # Un id mal escrito en el campo `juegos` de datos/noticias.js no rompe nada:
@@ -112,12 +114,19 @@ def tarjeta(n, juegos):
     # nuevo ni pedir una imagen más al servidor de la que ya se pediría.
     # Las noticias propias que no citan ningún juego (un Direct, un cierre de
     # estudio) van sin imagen: no hay una que las represente de verdad.
+    # Primero la imagen propia de la noticia, si la tiene: es para las que no citan
+    # ningún juego del calendario y se eligió a mano. Si no, la carátula del juego
+    # del que habla, que ya está cargada.
     portada = ""
-    con_imagen = [juegos[g] for g in n["juegos"] if g in juegos and juegos[g].get("imagen")]
-    if con_imagen:
-        j = con_imagen[0]
-        portada = (f'<a class="noticia-portada" href="/juegos/{j["id"]}" tabindex="-1" aria-hidden="true">'
-                   f'<img src="{e(j["imagen"])}" alt="" loading="lazy" decoding="async"></a>')
+    if n.get("imagen"):
+        portada = (f'<span class="noticia-portada">'
+                   f'<img src="{e(n["imagen"])}" alt="" loading="lazy" decoding="async"></span>')
+    else:
+        con_imagen = [juegos[g] for g in n["juegos"] if g in juegos and juegos[g].get("imagen")]
+        if con_imagen:
+            j = con_imagen[0]
+            portada = (f'<a class="noticia-portada" href="/juegos/{j["id"]}" tabindex="-1" aria-hidden="true">'
+                       f'<img src="{e(j["imagen"])}" alt="" loading="lazy" decoding="async"></a>')
 
     return f'''      <article class="noticia{" noticia-con-portada" if portada else ""}">
         {portada}

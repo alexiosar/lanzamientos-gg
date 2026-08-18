@@ -272,16 +272,35 @@ generadores sola, así que esto sólo hace falta en una edición suelta.
   {
     id: "ps-plus-agosto-2026",   // va en la URL; minúsculas y guiones
     fecha: "2026-07-28",         // la del anuncio, NO la del día que se carga
-    categoria: "SUSCRIPCIONES",  // SUSCRIPCIONES | RETRASOS | ANUNCIOS | EVENTOS
+    categoria: "SUSCRIPCIONES",  // SUSCRIPCIONES | RETRASOS | ANUNCIOS | EVENTOS | RUMORES
     titulo: "…",                 // en mayúsculas, como el resto del sitio
     texto: "…",                  // uno o dos párrafos
     fuente: "https://…",         // siempre la oficial si existe; sale como "FUENTE ↗"
-    juegos: ["big-walk"]         // opcional: ids de juegos.js, se enlazan solos
+    juegos: ["big-walk"],        // opcional: ids de juegos.js, se enlazan solos
+    imagen: "https://…"          // opcional: sólo si `juegos` está vacío (ver abajo)
   }
   ```
 
   Los ids de `juegos` tienen que existir en `datos/juegos.js`: si no, el enlace no se dibuja
   y la noticia queda huérfana sin avisar.
+
+  **Toda noticia lleva una imagen en la tarjeta.** Si cita un juego del calendario se usa
+  su carátula sola —no hay que cargar nada— y la miniatura enlaza a la ficha. El campo
+  `imagen` es para las que no citan ninguno, y se elige lo relacionado, en este orden:
+
+  1. **La carátula del juego del que trata**, aunque no esté en el calendario: "Netflix
+     cierra el estudio de Oxenfree" lleva la de Oxenfree; el catálogo de PS Plus, la de su
+     juego más fuerte. Se saca de Steam igual que las demás (`library_600x900.jpg`), así
+     que es estable, gratis y encaja con el resto del sitio.
+  2. **Un evento con video** (un Direct, un State of Play): la miniatura de YouTube del
+     video, `https://i.ytimg.com/vi/<id>/hqdefault.jpg`, el mismo mecanismo que ya usan los
+     trailers. Sirve más que un logo genérico, porque es la portada de ese Direct concreto.
+  3. Si no hay nada de eso, se deja sin imagen. Mejor una tarjeta sin foto que una foto que
+     no dice nada. Los logos sueltos de plataformas o estudios no se usan: son de terceros
+     y no se pueden servir desde una URL estable como las carátulas.
+
+  La miniatura de una `imagen` propia va sin enlace (`<span>`, no `<a>`): no hay ficha
+  adonde mandar al lector.
 
 - **Juegos sin fecha confirmada**: los anunciados para un mes o trimestre sin día exacto
   aparecen en un bloque "SIN FECHA CONFIRMADA" al final de su mes (borde punteado), con la

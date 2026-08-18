@@ -16,6 +16,17 @@
 //   texto      uno o dos párrafos, en español rioplatense
 //   fuente     URL de donde salió el dato: siempre la oficial si existe
 //   juegos     ids de datos/juegos.js que menciona (opcional); se enlazan solos
+//   imagen     URL de una imagen para la tarjeta (opcional). Sólo hace falta cuando la
+//              noticia NO cita ningún juego del calendario: si cita alguno, se usa su
+//              carátula sola. Qué poner, en este orden:
+//                1. La carátula del juego del que trata, aunque no esté en el calendario.
+//                   Se saca de Steam igual que las demás, así que es estable y encaja con
+//                   el resto del sitio. Para "Netflix cierra el estudio de Oxenfree" va la
+//                   de Oxenfree; para el catálogo de PS Plus, la de su juego más fuerte.
+//                2. Si es un evento con video (un Direct, un State of Play), la miniatura
+//                   de YouTube: https://i.ytimg.com/vi/<id>/hqdefault.jpg
+//                3. Si no hay nada de lo anterior, se deja sin imagen. Mejor una tarjeta
+//                   sin foto que una foto que no dice nada.
 //
 // Las de arriba son las más nuevas, pero el orden real lo pone la fecha.
 //
@@ -50,6 +61,7 @@ const NOTICIAS = [
     titulo: "NETFLIX CIERRA NIGHT SCHOOL, EL ESTUDIO DE OXENFREE",
     texto: "Netflix cierra Night School Studio, el estudio de Oxenfree, y Moonloot Games. Es otro capítulo del repliegue de la compañía en videojuegos: había comprado Night School en 2021, cuando arrancaba su apuesta por el sector.",
     fuente: "https://www.gematsu.com/",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/388880/library_600x900.jpg",
     juegos: []
   },
   {
@@ -59,6 +71,7 @@ const NOTICIAS = [
     titulo: "EL CATÁLOGO DE PS PLUS DE AGOSTO SUMA HELLDIVERS 2",
     texto: "Entran al catálogo de PlayStation Plus Helldivers 2, Kingdom Come: Deliverance 2, Vampire Survivors y Hell is Us, entre otros. Ojo con la diferencia: estos no son los juegos mensuales, que se reclaman y quedan para siempre, sino el catálogo de los planes Extra y Deluxe, que se puede jugar mientras dure la suscripción y mientras el juego siga ahí. Ninguno es un estreno, así que no llevan el distintivo de PS Plus en el calendario.",
     fuente: "https://blog.latam.playstation.com/",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/library_600x900.jpg",
     juegos: []
   },
   {
