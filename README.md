@@ -83,6 +83,7 @@ Editar `datos/juegos.js` y agregar un objeto al array `JUEGOS`:
                                                   // el botón VER TRAILER se oculta solo
   metacritic: null,              // número (ej: 82) o null; lo baja y lo refresca actualizar.py
   metacriticUsuarios: null,      // puntaje de los usuarios, de 0 a 10 (ej: 2.6); ídem
+  critica: "...",                // opcional: resumen propio de lo que dijo la prensa
   // metacriticSlug: "..."       // sólo si el id NO es el slug de Metacritic (ver abajo)
   imagen: null,                  // URL de carátula o null (ver abajo)
   noticias: [                    // opcional: se puede omitir el campo entero
@@ -158,6 +159,42 @@ si están en `null` o ausentes — no rompen nada.
 
   Las noticias que dicen "debuta con 87" **no se corrigen** cuando el puntaje se mueve: eran
   ciertas el día que se escribieron y así se leen.
+
+### El resumen de la crítica (campo `critica`)
+
+Dos o tres frases en español contando qué elogia y qué le reprocha la prensa a un juego,
+escritas **leyendo las reseñas**, no copiándolas. Sale en la ficha, arriba de las novedades.
+
+**Por qué escrito y no copiado** (decidido el 18/08/2026): copiar los extractos de Metacritic
+o las reseñas de sus usuarios tiene tres problemas. Los extractos los redacta Metacritic y las
+reseñas de usuarios las escriben personas, y sus términos prohíben reproducirlas: hoy les
+tomamos un número, que es un dato, y copiar texto sería republicar su contenido. Nadie lo
+mantendría, porque son 337 juegos a mano. Y sobre todo haría daño donde más duele: el problema
+del sitio es autoridad —posición media 27,7—, y texto copiado de otro lado en cientos de fichas
+es exactamente el patrón que Google clasifica como contenido raspado. Un resumen propio en
+español, en cambio, no existe en ningún otro lado.
+
+**Cómo se escribe uno.** Las reseñas se leen del backend de Metacritic, que devuelve JSON
+limpio con medio, nota y extracto, de a 10 por pedido:
+
+```
+https://backend.metacritic.com/reviews/metacritic/critic/games/SLUG/web
+  ?offset=0&limit=10&filterBySentiment=all
+  &componentName=x&componentDisplayName=x&componentType=ReviewList
+```
+
+Cambiando `critic` por `user` salen las de los jugadores, que son las que explican una brecha
+como la de EA Sports College Football 27 (77 de prensa contra 2.6 de jugadores). Hay que
+paginar con `offset`: la página ordena por nota descendente, así que las primeras diez son
+siempre las mejores y sin paginar el resumen sale falseado hacia lo bueno.
+
+Reglas del texto: nada de citas textuales ni de nombres de medios salvo que agreguen algo;
+se cuenta el consenso, y **siempre el reparo además del elogio**, que es lo que lo hace útil.
+Cuando la brecha con los jugadores es grande, se explica de dónde sale. No se ponen números de
+puntaje adentro del texto: se mueven solos y dejarían el resumen viejo.
+
+Si algún día se quiere una cita textual, que sea de crítica y nunca de usuarios, de una línea,
+entre comillas, con el nombre del medio y enlace a **su** reseña, no a Metacritic.
 
 ### Carátulas (campo `imagen`)
 
@@ -707,6 +744,7 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 |---|---|---|
 | `metacritic` (y con eso el ranking) | — | **Diaria, automática.** `actualizar.py` busca puntaje para cualquier juego ya lanzado con `metacritic: null`, y **refresca el de los que ya lo tienen**: no queda congelado |
 | `metacriticUsuarios` | — | **Diaria, automática.** Misma pasada, misma página: sin pedidos de más |
+| `critica` (resumen de la prensa) | Diaria, paso 2, cuando el juego debuta con puntaje | Mensual, con el backlog que lista `actualizar.py` |
 | `noticias` de un juego | Diaria, paso 2 (lanzamientos de hoy y mañana, y debuts con puntaje) | Mensual, paso 12 (los mejor puntuados que sigan sin noticias) |
 | `datos/noticias.js` (PS Plus, Game Pass, Directs, retrasos) | Diaria, paso 2 | Diaria: `actualizar.py` avisa hace cuántos días se cargó la última |
 | `gamepass` y `psplus` | Al cargar, si ya se sabe | **Mensual, sección "suscripciones"** |

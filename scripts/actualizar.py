@@ -94,6 +94,7 @@ def main():
             "sin_imagen": "imagen: null" in cuerpo,
             "sin_duracion": "duracion:" not in cuerpo,
             "sin_noticias": "noticias:" not in cuerpo,
+            "sin_critica": "critica:" not in cuerpo,
             "relanzamiento": "relanzamiento:" in cuerpo,
             "alta": (re.search(r'alta: "([^"]+)"', cuerpo) or [None, ""])[1],
             "rel_texto": (re.search(r'relanzamiento: "([^"]*)"', cuerpo) or [None, ""])[1],
@@ -265,6 +266,17 @@ def main():
         print(f"    · {gid}")
     if len(ports_sin_duracion) > 15:
         print(f"    … y {len(ports_sin_duracion) - 15} más")
+
+    # El resumen de crítica lo escribe una persona leyendo las reseñas, así que no
+    # se puede automatizar, pero sí avisar de cuáles faltan: si no aparece en el
+    # reporte, no lo mantiene nadie.
+    print("\n── Backlog: resumen de crítica (los mejor puntuados sin `critica`) ──")
+    sin_critica = sorted((j for j in juegos if j["sin_critica"] and j["metacritic"] != "null"),
+                         key=lambda j: int(j["metacritic"]), reverse=True)
+    print(f"  Con resumen: {sum(1 for j in juegos if not j['sin_critica'])} de "
+          f"{sum(1 for j in juegos if j['metacritic'] != 'null')} juegos con puntaje")
+    for j in sin_critica[:8]:
+        print(f"    · {j['metacritic']}  {j['id']}")
 
     print("\n── Backlog mensual: noticias (los mejor puntuados sin noticias) ──")
     sin_noticias = sorted(

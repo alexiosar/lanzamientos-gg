@@ -225,6 +225,19 @@ def generar(j, juegos):
     if j.get("imagen"):
         portada_html = f'<img class="portada-page" src="{e(j["imagen"])}" alt="Portada de {e(j["titulo"])}" loading="lazy" onerror="this.outerHTML=\'<span class=&quot;portada-page portada-vacia&quot;></span>\'">'
 
+    # Resumen propio de lo que dijo la prensa, escrito leyendo las reseñas. No se
+    # copian ni se traducen: un extracto de otro sitio no aporta nada que Google no
+    # tenga ya, y en español no existe en ningún lado.
+    critica_html = css_critica = ""
+    if j.get("critica"):
+        css_critica = ("    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; "
+                       "line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }\n")
+        critica_html = f'''
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">{e(j["critica"])}</p>
+      </div>'''
+
     # Las propias del juego y las de datos/noticias.js que lo citan, todas juntas
     # y ordenadas por fecha: al lector le da igual de qué archivo salió cada una.
     novedades = [dict(n, categoria=None) for n in (j.get("noticias") or [])]
@@ -362,7 +375,7 @@ def generar(j, juegos):
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       {{ font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }}
-{css_noticias}    .juego-hero        {{ display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }}
+{css_critica}{css_noticias}    .juego-hero        {{ display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }}
     .juego-hero-info   {{ flex: 1; min-width: 260px; }}
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
        cargue, o la ficha entera salta hacia abajo cuando llega (eso es CLS). Antes
@@ -458,7 +471,7 @@ def generar(j, juegos):
           </div>
         </div>
       </div>
-{noticias_html}
+{critica_html}{noticias_html}
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">{e(j["descripcion"])}</p>
