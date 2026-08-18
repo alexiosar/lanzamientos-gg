@@ -58,6 +58,10 @@ def leer_meta_trailers():
 
 META_TRAILERS = leer_meta_trailers()
 
+# Mínimo de votos para mostrar el puntaje de usuarios en la ficha. Con menos, el
+# número dice más sobre quién pasó por ahí que sobre el juego.
+MIN_VOTOS = 20
+
 
 # Las noticias de datos/noticias.js que citan a un juego se muestran también en su
 # ficha, no sólo en /noticias. El que busca "marvel tokon" en Google cae en la ficha,
@@ -207,10 +211,15 @@ def generar(j, juegos):
         # El puntaje de usuarios va al lado del de crítica porque lo que importa es
         # la diferencia entre los dos: un 87 de prensa con un 4 de jugadores cuenta
         # una historia que ninguno de los dos números cuenta solo.
+        # Con pocos votos el puntaje de usuarios no se muestra: un 6.8 sacado de nueve
+        # votos al lado de un 73 de la prensa parece una controversia y es ruido, y
+        # además cualquiera lo mueve. Metacritic publica el número sin decir sobre
+        # cuántos votos se calculó, así que la advertencia la ponemos nosotros.
         usuarios = ""
-        if j.get("metacriticUsuarios") is not None:
+        votos = j.get("metacriticVotos")
+        if j.get("metacriticUsuarios") is not None and (votos or 0) >= MIN_VOTOS:
             usuarios = (f'<span class="badge-metacritic {meta_clase(j["metacriticUsuarios"] * 10)}" '
-                        f'title="Puntaje de los usuarios de Metacritic, de 0 a 10">'
+                        f'title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre {votos} votos">'
                         f'{j["metacriticUsuarios"]:.1f} <span class="badge-quien">USUARIOS</span></span>')
         metacritic_html = f'''
             <div>

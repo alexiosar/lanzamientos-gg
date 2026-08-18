@@ -83,6 +83,7 @@ Editar `datos/juegos.js` y agregar un objeto al array `JUEGOS`:
                                                   // el botón VER TRAILER se oculta solo
   metacritic: null,              // número (ej: 82) o null; lo baja y lo refresca actualizar.py
   metacriticUsuarios: null,      // puntaje de los usuarios, de 0 a 10 (ej: 2.6); ídem
+  metacriticVotos: null,         // sobre cuántos votos se calculó ese puntaje; ídem
   critica: "...",                // opcional: resumen propio de lo que dijo la prensa
   // metacriticSlug: "..."       // sólo si el id NO es el slug de Metacritic (ver abajo)
   imagen: null,                  // URL de carátula o null (ver abajo)
@@ -147,6 +148,19 @@ si están en `null` o ausentes — no rompen nada.
      guardado: si difieren en más de 15 puntos es otro juego y se descarta con un aviso. Para
      esos casos está el campo opcional **`metacriticSlug`**, que apunta al slug correcto
      (FFXIV usa `final-fantasy-xiv-online-a-realm-reborn`).
+
+  **Con pocos votos, el puntaje de usuarios no se muestra** (desde el 18/08/2026). Metacritic
+  publica el número sin decir sobre cuántos votos se calculó, y un 6.8 sacado de nueve votos al
+  lado de un 73 de la prensa aparenta una controversia que no existe: cualquiera lo mueve. Por
+  eso se guarda también `metacriticVotos` —del texto "Based on N User Ratings" de la misma
+  página— y `generar-fichas.py` oculta el badge por debajo de `MIN_VOTOS` (hoy 20). Al 18/08/2026
+  eso deja 41 puntajes a la vista y esconde 23. Cuando se muestra, el conteo va en el `title`
+  del badge.
+
+  **Ojo con confundir votos con reseñas escritas**: el endpoint de reseñas devuelve sólo las
+  que tienen texto —Voidtrain tenía 5— mientras que el puntaje se calcula sobre todos los votos
+  —21 en ese mismo caso—. El número que vale para decidir si un puntaje significa algo es el
+  segundo.
 
   **Los puntajes se refrescan, no se congelan** (desde el 18/08/2026). Hasta ese día el de
   crítica se bajaba una sola vez y quedaba fijo para siempre; al agregar el de usuarios se vio
@@ -743,7 +757,7 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 | Qué | Al cargar el juego | Después, quién lo mantiene |
 |---|---|---|
 | `metacritic` (y con eso el ranking) | — | **Diaria, automática.** `actualizar.py` busca puntaje para cualquier juego ya lanzado con `metacritic: null`, y **refresca el de los que ya lo tienen**: no queda congelado |
-| `metacriticUsuarios` | — | **Diaria, automática.** Misma pasada, misma página: sin pedidos de más |
+| `metacriticUsuarios` y `metacriticVotos` | — | **Diaria, automática.** Misma pasada, misma página: sin pedidos de más |
 | `critica` (resumen de la prensa) | Diaria, paso 2, cuando el juego debuta con puntaje | Mensual, con el backlog que lista `actualizar.py` |
 | `noticias` de un juego | Diaria, paso 2 (lanzamientos de hoy y mañana, y debuts con puntaje) | Mensual, paso 12 (los mejor puntuados que sigan sin noticias) |
 | `datos/noticias.js` (PS Plus, Game Pass, Directs, retrasos) | Diaria, paso 2 | Diaria: `actualizar.py` avisa hace cuántos días se cargó la última |

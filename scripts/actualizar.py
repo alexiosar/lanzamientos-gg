@@ -35,12 +35,26 @@ def get(url):
 
 # Cuántos días se sigue refrescando el puntaje de usuarios de un juego ya lanzado.
 DIAS_REFRESCO = 90
+# Debajo de esta cantidad de votos el puntaje de usuarios no se muestra en la ficha.
+# Lo pone generar-fichas.py; acá está sólo para avisarlo en el reporte.
+MIN_VOTOS = 20
 
 
 def metascore(html):
     """El puntaje de crítica que muestra la página, para verificar que es el juego."""
     m = re.search(r'title="Metascore (\d+) out of 100"', html)
     return int(m.group(1)) if m else None
+
+
+def votos_usuarios(html):
+    """Sobre cuántos votos se calculó el puntaje de usuarios.
+
+    Metacritic muestra el puntaje sin decir de dónde sale, y con cinco votos un 5.9
+    no significa nada: parece una controversia y es ruido. Sólo aparece en el bloque
+    de usuarios —el de crítica dice "Critic Reviews"—, así que no se confunden.
+    """
+    m = re.search(r"Based on ([\d,]+) User Ratings", html)
+    return int(m.group(1).replace(",", "")) if m else None
 
 
 def puntaje_usuarios(html):
@@ -84,12 +98,14 @@ def main():
         mc = re.search(r'metacritic: (null|\d+)', cuerpo)
         mcu = re.search(r'metacriticUsuarios: (null|[\d.]+)', cuerpo)
         mcs = re.search(r'metacriticSlug: "([^"]+)"', cuerpo)
+        mcv = re.search(r'metacriticVotos: (null|\d+)', cuerpo)
         juegos.append({
             "id": gid,
             "fecha": fecha.group(1) if fecha else "",
             "metacritic": mc.group(1) if mc else "null",
             "usuarios": mcu.group(1) if mcu else None,   # None = el campo todavía no existe
             "slug": mcs.group(1) if mcs else gid,
+            "votos": mcv.group(1) if mcv else None,
             "sin_trailer": "trailer: null" in cuerpo,
             "sin_imagen": "imagen: null" in cuerpo,
             "sin_duracion": "duracion:" not in cuerpo,
@@ -152,7 +168,8 @@ def main():
     limite = (datetime.date.today() - datetime.timedelta(days=DIAS_REFRESCO)).isoformat()
     pendientes_u = [j for j in juegos
                     if (j["metacritic"] != "null" or j["id"] in aplicados) and j["fecha"] <= hoy
-                    and (j["usuarios"] in (None, "null") or j["fecha"] >= limite)]
+                    and (j["usuarios"] in (None, "null") or j["votos"] is None
+                         or j["fecha"] >= limite)]
     print(f"\n── Metacritic usuarios: {len(pendientes_u)} a consultar ──")
     usuarios = {}
     criticas = {}   # puntajes de crítica que se movieron desde la última corrida
@@ -185,18 +202,21 @@ def main():
         if de_la_pagina is not None and conocido is not None and de_la_pagina != conocido:
             criticas[gid] = de_la_pagina
             print(f"  ~ {gid}: crítica {conocido} → {de_la_pagina}")
-        nota = puntaje_usuarios(html)
+        nota, votos = puntaje_usuarios(html), votos_usuarios(html)
         if nota is None:
             # "tbd": todavía no hay suficientes votos. Se marca null para no volver
             # a pedirlo cada día una vez que el juego es viejo.
             if j["usuarios"] is None:
                 usuarios[gid] = "null"
             continue
-        if j["usuarios"] not in (None, "null") and abs(float(j["usuarios"]) - nota) < 0.05:
+        if (j["usuarios"] not in (None, "null") and abs(float(j["usuarios"]) - nota) < 0.05
+                and j["votos"] == str(votos)):
             continue  # no se movió
-        usuarios[gid] = f"{nota:.1f}"
+        usuarios[gid] = (f"{nota:.1f}", votos)
         antes = "—" if j["usuarios"] in (None, "null") else j["usuarios"]
-        print(f"  ★ {gid}: crítica {j['metacritic']} · usuarios {antes} → {nota:.1f}")
+        aviso = "  (pocos votos: no se muestra)" if (votos or 0) < MIN_VOTOS else ""
+        print(f"  ★ {gid}: crítica {j['metacritic']} · usuarios {antes} → {nota:.1f}"
+              f" ({votos} votos){aviso}")
     if descartados:
         print(f"\n  ⚠ {len(descartados)} descartado(s) porque la página no es del juego:")
         for d in descartados:
@@ -209,10 +229,14 @@ def main():
         patron = re.compile(r'(id: "' + re.escape(gid) + r'",.*?)metacritic: \d+,', re.S)
         src = patron.sub(lambda m: m.group(1) + f"metacritic: {score},", src, count=1)
 
-    for gid, nota in usuarios.items():
+    for gid, (nota, votos) in usuarios.items():
         bloque = re.compile(r'(id: "' + re.escape(gid) + r'",.*?metacritic: (?:null|\d+),)'
-                            r'(\n\s*metacriticUsuarios: (?:null|[\d.]+),)?', re.S)
-        src = bloque.sub(lambda m: m.group(1) + f"\n    metacriticUsuarios: {nota},", src, count=1)
+                            r'(\n\s*metacriticUsuarios: (?:null|[\d.]+),)?'
+                            r'(\n\s*metacriticVotos: (?:null|\d+),)?', re.S)
+        linea = f"\n    metacriticUsuarios: {nota},"
+        if nota != "null":
+            linea += f"\n    metacriticVotos: {votos if votos is not None else 'null'},"
+        src = bloque.sub(lambda m: m.group(1) + linea, src, count=1)
 
     # 1 bis) Fecha de alta de los juegos cargados a mano desde la última corrida.
     # El badge ★ NUEVO sale de este campo, así que si nadie lo sella el juego
