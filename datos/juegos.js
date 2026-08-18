@@ -6156,5 +6156,39 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     alta: "2026-08-18"
+  },
+  {
+    id: "samson-a-tyndalston-story",
+    titulo: "SAMSON: A TYNDALSTON STORY",
+    fecha: "2026-09-30",
+    estimado: true,
+    fechaEstimada: "SEPTIEMBRE 2026",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["ACCION", "AVENTURA", "CARRERAS"],
+    desarrollador: "LIQUID SWORDS",
+    descripcion: "Samson vuelve a Tyndalston, la ciudad que lo formó y de la que se fue. Cada pelea se gana por poco y cada huida depende de manejar bien; es lo primero del estudio de Christofer Sundberg, uno de los fundadores de Avalanche.",
+    trailer: "https://youtube.com/embed/OQ4z_yQE5Xo",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3634520/139e0f223c1c0cb4f2e763c41ae7fe6e4e3e59a2/header.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-18"
+  },
+  {
+    id: "vapor-world-over-the-mind",
+    titulo: "VAPOR WORLD: OVER THE MIND",
+    fecha: "2026-09-30",
+    estimado: true,
+    fechaEstimada: "TERCER TRIMESTRE 2026",
+    plataformas: ["XBOX"],
+    genero: ["ACCION", "AVENTURA", "INDIE"],
+    desarrollador: "ALIVE",
+    descripcion: "Un chico abandonado a su suerte se pierde dentro de su propia cabeza, y lo que queda es un mundo hecho de sueños oscuros por donde hay que abrirse paso.",
+    trailer: "https://youtube.com/embed/FNwyqzYc3so",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-18"
   }
 ];

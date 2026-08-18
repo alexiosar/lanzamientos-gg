@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "dd9bbb54bd4c44bc",
+  "hash": "c890dba8541042e0",
   "lastmod": "2026-08-18"
  },
  "/acerca": {
@@ -979,6 +979,10 @@
   "hash": "dd147c1e4c74bd0d",
   "lastmod": "2026-08-07"
  },
+ "/juegos/samson-a-tyndalston-story": {
+  "hash": "d6a4d19423fca59b",
+  "lastmod": "2026-08-18"
+ },
  "/juegos/scholar-adventure-mystery-of-silence": {
   "hash": "074e44a20c026c19",
   "lastmod": "2026-07-29"
@@ -1275,6 +1279,10 @@
   "hash": "0a92d6644301f98e",
   "lastmod": "2026-07-29"
  },
+ "/juegos/vapor-world-over-the-mind": {
+  "hash": "dded9174d6364370",
+  "lastmod": "2026-08-18"
+ },
  "/juegos/verho-curse-of-faces": {
   "hash": "d4b3162a53b312c1",
   "lastmod": "2026-08-17"
@@ -1364,19 +1372,19 @@
   "lastmod": "2026-08-09"
  },
  "/ps4": {
-  "hash": "dd9bbb54bd4c44bc",
+  "hash": "c890dba8541042e0",
   "lastmod": "2026-08-18"
  },
  "/ps5": {
-  "hash": "dd9bbb54bd4c44bc",
+  "hash": "c890dba8541042e0",
   "lastmod": "2026-08-18"
  },
  "/switch": {
-  "hash": "dd9bbb54bd4c44bc",
+  "hash": "c890dba8541042e0",
   "lastmod": "2026-08-18"
  },
  "/switch-2": {
-  "hash": "dd9bbb54bd4c44bc",
+  "hash": "c890dba8541042e0",
   "lastmod": "2026-08-18"
  },
  "/terminos": {
@@ -1388,7 +1396,7 @@
   "lastmod": "2026-08-09"
  },
  "/xbox": {
-  "hash": "dd9bbb54bd4c44bc",
+  "hash": "c890dba8541042e0",
   "lastmod": "2026-08-18"
  }
 }
