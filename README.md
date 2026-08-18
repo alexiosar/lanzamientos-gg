@@ -284,6 +284,13 @@ generadores sola, así que esto sólo hace falta en una edición suelta.
   Los ids de `juegos` tienen que existir en `datos/juegos.js`: si no, el enlace no se dibuja
   y la noticia queda huérfana sin avisar.
 
+  **Una noticia con `juegos` también sale en la ficha de cada uno** (desde el 18/08/2026), no
+  sólo en `/noticias`. El que busca "marvel tokon" en Google cae en la ficha, y ahí es donde
+  tiene que encontrar lo último que se dijo del juego. En la ficha van mezcladas con las
+  novedades propias y ordenadas por fecha, pero con su categoría al lado del título —y los
+  rumores, con el borde punteado— para que se vea que son de otra clase. Siguen sin tocar
+  ningún dato del juego.
+
   **Toda noticia lleva una imagen en la tarjeta.** Si cita un juego del calendario se usa
   su carátula sola —no hay que cargar nada— y la miniatura enlaza a la ficha. El campo
   `imagen` es para las que no citan ninguno, y se elige lo relacionado, en este orden:
@@ -450,7 +457,15 @@ entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención a
   confianza al dato. `generar-sitemap.py` guarda una huella del contenido de cada URL en
   `datos/lastmod.json` y sólo mueve la fecha cuando esa huella cambia de verdad. La portada y
   las páginas de plataforma dependen de todo el calendario, así que cualquier juego nuevo o
-  corregido las marca como modificadas; las fichas, sólo si cambió ese juego.
+  corregido las marca como modificadas; las fichas, sólo si cambió esa ficha.
+
+  La huella de una ficha es **su HTML generado**, no su bloque en `datos/juegos.js`. Hasta el
+  18/08/2026 era el bloque, que alcanzaba porque la ficha no dependía de nada más; desde que
+  muestra las noticias de `datos/noticias.js` que la citan, un rumor nuevo cambia la página
+  sin tocar el bloque, y con el bloque como huella ese cambio no llegaba nunca al sitemap.
+  Al cambiar la base de la huella hubo que resembrar `datos/lastmod.json` con la huella del
+  HTML tal como estaba en el commit anterior: si no, las 337 fichas habrían saltado a la
+  fecha de hoy de una y el sitemap le habría mentido a Google sobre todas.
 - `robots.txt` que permite indexar todo y apunta al sitemap.
 - **Open Graph**: al compartir la portada aparece la tarjeta con `og-image.png`; al
   compartir una ficha (`/juegos/{id}.html`) aparece **la carátula y datos de ese juego**

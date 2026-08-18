@@ -96,8 +96,14 @@ for pagina in ["acerca", "api", "widget", "privacidad", "terminos", "archivo"]:
     contenido = archivo.read_text(encoding="utf-8") if archivo.exists() else pagina
     urls.append(url(f"/{pagina}", contenido, "monthly", "0.3"))
 
+# La huella de una ficha es su HTML generado, no su bloque en juegos.js. Desde que
+# las fichas muestran también las noticias de datos/noticias.js que las citan, el
+# bloque dejó de contar toda la historia: un rumor nuevo cambia la página y el
+# bloque del juego queda igual. Con el HTML no hay forma de que se escape un cambio.
 for i in ids:
-    urls.append(url(f"/juegos/{i}", bloques.get(i, i), "weekly", "0.8"))
+    ficha = RAIZ / "juegos" / f"{i}.html"
+    contenido = ficha.read_text(encoding="utf-8") if ficha.exists() else bloques.get(i, i)
+    urls.append(url(f"/juegos/{i}", contenido, "weekly", "0.8"))
 
 xml = (
     '<?xml version="1.0" encoding="UTF-8"?>\n'

@@ -10,8 +10,29 @@ Convertirlo no es trivial: hay números romanos (DOOM II, no Doom Ii), siglas
 (City of Wolves, no City Of Wolves) y caracteres con diacríticos que rompen la
 detección de vocales (TŌKON). Por eso está acá y no duplicado en cada script.
 """
+import json
 import re
 import unicodedata
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parent.parent
+
+
+def leer_noticias_propias():
+    """Las de datos/noticias.js: PS Plus, Directs, cierres de estudios, rumores.
+
+    Lo leen tres generadores (la página de noticias, los feeds y las fichas), así
+    que vive acá: si el formato del archivo cambia, se toca en un solo lugar.
+    """
+    archivo = RAIZ / "datos" / "noticias.js"
+    if not archivo.exists():
+        return []
+    src = archivo.read_text(encoding="utf-8")
+    inicio = src.index("const NOTICIAS = [") + len("const NOTICIAS = ")
+    fin = src.index("\n];", inicio) + 2
+    # es JavaScript, no JSON: las claves van sin comillas
+    cuerpo = re.sub(r'(\n\s*)([a-zA-Z_][a-zA-Z0-9_]*):', r'\1"\2":', src[inicio:fin])
+    return json.loads(cuerpo)
 
 
 PLATS = {"PS5": "PS5", "PS4": "PS4", "XBOX": "Xbox", "SWITCH2": "Switch 2", "SWITCH": "Switch"}

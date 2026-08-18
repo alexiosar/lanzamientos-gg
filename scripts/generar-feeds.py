@@ -18,6 +18,8 @@ from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
+from comun import leer_noticias_propias
+
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
 MAX_ITEMS = 40
@@ -32,22 +34,6 @@ def cargar_juegos():
 
 def plat_label(p):
     return "SWITCH 2" if p == "SWITCH2" else p
-
-
-def leer_noticias_propias():
-    """Las de datos/noticias.js: PS Plus y Game Pass del mes, Directs, retrasos.
-
-    No cuelgan de ningún juego, así que no están en datos/juegos.js. Sin esto el
-    feed mostraría solo una parte de lo que se ve en /noticias.
-    """
-    archivo = RAIZ / "datos" / "noticias.js"
-    if not archivo.exists():
-        return []
-    src = archivo.read_text(encoding="utf-8")
-    inicio = src.index("const NOTICIAS = [") + len("const NOTICIAS = ")
-    fin = src.index("\n];", inicio) + 2
-    cuerpo = re.sub(r'(\n\s*)([a-zA-Z_][a-zA-Z0-9_]*):', r'\1"\2":', src[inicio:fin])
-    return json.loads(cuerpo)
 
 
 def generar_rss(juegos):

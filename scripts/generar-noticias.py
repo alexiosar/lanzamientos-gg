@@ -23,6 +23,8 @@ import json
 import re
 from pathlib import Path
 
+from comun import leer_noticias_propias
+
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
 MESES_ES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO",
@@ -42,17 +44,6 @@ def leer_juegos():
     src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
     inicio, fin = src.index("["), src.rindex("]") + 1
     # datos/juegos.js es JavaScript, no JSON: las claves van sin comillas
-    cuerpo = re.sub(r'(\n\s*)([a-zA-Z_][a-zA-Z0-9_]*):', r'\1"\2":', src[inicio:fin])
-    return json.loads(cuerpo)
-
-
-def leer_noticias_propias():
-    archivo = RAIZ / "datos" / "noticias.js"
-    if not archivo.exists():
-        return []
-    src = archivo.read_text(encoding="utf-8")
-    inicio = src.index("const NOTICIAS = [") + len("const NOTICIAS = ")
-    fin = src.index("\n];", inicio) + 2
     cuerpo = re.sub(r'(\n\s*)([a-zA-Z_][a-zA-Z0-9_]*):', r'\1"\2":', src[inicio:fin])
     return json.loads(cuerpo)
 

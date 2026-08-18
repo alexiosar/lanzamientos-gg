@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 18 Aug 2026 16:23:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 18:03:15 +0000</lastBuildDate>
     <item>
       <title>NO CASE SHOULD REMAIN UNSOLVED: UN CASO QUE SE RESUELVE ESCUCHANDO, NO BUSCANDO PISTAS</title>
       <link>https://lanzamientos.lat/juegos/no-case-should-remain-unsolved</link>
@@ -69,6 +69,13 @@
       <guid isPermaLink="false">kingdom-hearts-iv-2027</guid>
       <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
       <description>Square Enix puso fecha a Kingdom Hearts IV: finales de 2027, o sea fuera del alcance de este calendario por ahora. En el mismo anuncio se confirmó una serie de anime original de la saga. La colección de los juegos anteriores, esa sí, sigue en pie para el 8 de octubre.</description>
+    </item>
+    <item>
+      <title>SEGÚN NATETHEHATE, XBOX GUARDA UN ANUNCIO PARA LA GAMESCOM</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">xbox-anuncio-gamescom-2026</guid>
+      <pubDate>Sat, 15 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El filtrador NateTheHate dijo que Xbox tendría listo «un anuncio genial» para la Gamescom, que va del 26 al 30 de agosto. No dio nombres: sólo que sería un juego nuevo de una licencia que ya es de Microsoft, que no es The Elder Scrolls VI ni un remaster de Fallout, que no es un shooter, y que lo estaría haciendo un estudio que hoy no le pertenece. Él mismo aclaró que todavía está tratando de confirmar si el anuncio llega a la feria. Lo confirmado por Xbox es otra cosa: 25 juegos en el evento, entre ellos Gears of War: E-Day, y dos emisiones propias.</description>
     </item>
     <item>
       <title>MARVEL'S WOLVERINE: HABRÁ UNA PS5 EDICIÓN LIMITADA Y ACCESORIOS A JUEGO</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">kynseed-2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
       <description>El original de PC de 2022 promedia 89 en Metacritic y ahora llega a las cinco consolas con los controles y la interfaz rehechos. Es un simulador de vida con una vuelta poco común: cuando tu personaje envejece y muere, seguís con sus hijos, y las decisiones arrastran consecuencias a lo largo de varias generaciones. — KYNSEED para PS5 / PS4 / XBOX / SWITCH.</description>
-    </item>
-    <item>
-      <title>FIRE EMBLEM: FORTUNE'S WEAVE: EL DIRECT DESTAPÓ QUIÉN ES EL PROTAGONISTA DE VERDAD</title>
-      <link>https://lanzamientos.lat/juegos/fire-emblem-fortunes-weave</link>
-      <guid isPermaLink="false">fire-emblem-fortunes-weave-2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-      <description>No es ninguno de los cuatro héroes que se muestran: es un personaje sin nombre que la diosa Sothis invoca cinco años en el futuro, con el mundo ya arrasado, y que vuelve al pasado para reunirlos. Se elige uno de los cuatro para empezar y después se puede saltar entre ellos para ver las historias en paralelo. El sistema de combate es el de Three Houses y suma las Blaze Arts, que se pagan con vida propia. — FIRE EMBLEM: FORTUNE'S WEAVE para SWITCH 2.</description>
     </item>
   </channel>
 </rss>

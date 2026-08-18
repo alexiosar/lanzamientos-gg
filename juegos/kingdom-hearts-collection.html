@@ -40,6 +40,15 @@
     .noticia-fecha     { color: var(--acento); font-size: 0.6875rem; letter-spacing: 1px; margin-right: 0.5rem; }
     .noticia-titulo    { color: var(--blanco); font-size: 0.75rem; letter-spacing: 1px; }
     .noticia-texto     { color: var(--gris-7); font-size: 0.75rem; line-height: 1.8; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -132,6 +141,16 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-17</span>
+            <span class="noticia-titulo">▸ KINGDOM HEARTS IV SALE A FINES DE 2027</span><span class="noticia-cat cat-anuncios">ANUNCIOS</span>
+          </div>
+          <p class="noticia-texto">Square Enix puso fecha a Kingdom Hearts IV: finales de 2027, o sea fuera del alcance de este calendario por ahora. En el mismo anuncio se confirmó una serie de anime original de la saga. La colección de los juegos anteriores, esa sí, sigue en pie para el 8 de octubre.</p><a class="noticia-fuente" href="https://www.gematsu.com/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">La saga completa de Kingdom Hearts reunida en un solo paquete: los tres juegos principales con todo lo que fueron sumando a lo largo de los años, en consolas actuales.</p>

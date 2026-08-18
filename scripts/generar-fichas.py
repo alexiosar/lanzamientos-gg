@@ -19,7 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import plat, titulo as titulo_normal
+from comun import plat, titulo as titulo_normal, leer_noticias_propias
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
@@ -57,6 +57,23 @@ def leer_meta_trailers():
 
 
 META_TRAILERS = leer_meta_trailers()
+
+
+# Las noticias de datos/noticias.js que citan a un juego se muestran también en su
+# ficha, no sólo en /noticias. El que busca "marvel tokon" en Google cae en la ficha,
+# y ahí es donde tiene que encontrar lo último que se dijo del juego.
+#
+# Van marcadas con su categoría —y los rumores, con el borde punteado— porque no son
+# lo mismo que las novedades propias del juego: siguen sin tocar ningún dato.
+def indice_noticias_propias():
+    indice = {}
+    for n in leer_noticias_propias():
+        for gid in n.get("juegos") or []:
+            indice.setdefault(gid, []).append(n)
+    return indice
+
+
+NOTICIAS_PROPIAS = indice_noticias_propias()
 
 
 # Título de la pestaña, que es lo que Google muestra como enlace del resultado.
@@ -199,16 +216,48 @@ def generar(j, juegos):
     if j.get("imagen"):
         portada_html = f'<img class="portada-page" src="{e(j["imagen"])}" alt="Portada de {e(j["titulo"])}" loading="lazy" onerror="this.outerHTML=\'<span class=&quot;portada-page portada-vacia&quot;></span>\'">'
 
+    # Las propias del juego y las de datos/noticias.js que lo citan, todas juntas
+    # y ordenadas por fecha: al lector le da igual de qué archivo salió cada una.
+    novedades = [dict(n, categoria=None) for n in (j.get("noticias") or [])]
+    novedades += [dict(n) for n in NOTICIAS_PROPIAS.get(j["id"], [])]
+    novedades.sort(key=lambda n: n["fecha"], reverse=True)
+
+    # Sólo las fichas que traen una noticia de datos/noticias.js necesitan estos
+    # estilos. Emitirlos siempre cambiaría el contenido de las 337 fichas y el
+    # sitemap les movería el lastmod a todas por un estilo que casi ninguna usa.
+    css_noticias = ""
+    if any(n.get("categoria") for n in novedades):
+        css_noticias = """    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
+"""
+
     noticias_html = ""
-    if j.get("noticias"):
-        items = "".join(f'''
+    if novedades:
+        items = ""
+        for n in novedades:
+            cat = ""
+            if n.get("categoria"):
+                cat = (f'<span class="noticia-cat cat-{n["categoria"].lower()}">'
+                       f'{e(n["categoria"])}</span>')
+            fuente = ""
+            if n.get("fuente"):
+                fuente = (f'<a class="noticia-fuente" href="{e(n["fuente"])}" '
+                          f'target="_blank" rel="noopener nofollow">FUENTE ↗</a>')
+            items += f'''
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">{e(n["fecha"])}</span>
-            <span class="noticia-titulo">▸ {e(n["titulo"])}</span>
+            <span class="noticia-titulo">▸ {e(n["titulo"])}</span>{cat}
           </div>
-          <p class="noticia-texto">{e(n["texto"])}</p>
-        </div>''' for n in j["noticias"])
+          <p class="noticia-texto">{e(n["texto"])}</p>{fuente}
+        </div>'''
         noticias_html = f'''
       <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>{items}
@@ -301,7 +350,7 @@ def generar(j, juegos):
     .noticia-fecha     {{ color: var(--acento); font-size: 0.6875rem; letter-spacing: 1px; margin-right: 0.5rem; }}
     .noticia-titulo    {{ color: var(--blanco); font-size: 0.75rem; letter-spacing: 1px; }}
     .noticia-texto     {{ color: var(--gris-7); font-size: 0.75rem; line-height: 1.8; }}
-    .juego-hero        {{ display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }}
+{css_noticias}    .juego-hero        {{ display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }}
     .juego-hero-info   {{ flex: 1; min-width: 260px; }}
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
        cargue, o la ficha entera salta hacia abajo cuando llega (eso es CLS). Antes

@@ -46,6 +46,15 @@
 
 const NOTICIAS = [
   {
+    id: "xbox-anuncio-gamescom-2026",
+    fecha: "2026-08-15",
+    categoria: "RUMORES",
+    titulo: "SEGÚN NATETHEHATE, XBOX GUARDA UN ANUNCIO PARA LA GAMESCOM",
+    texto: "El filtrador NateTheHate dijo que Xbox tendría listo «un anuncio genial» para la Gamescom, que va del 26 al 30 de agosto. No dio nombres: sólo que sería un juego nuevo de una licencia que ya es de Microsoft, que no es The Elder Scrolls VI ni un remaster de Fallout, que no es un shooter, y que lo estaría haciendo un estudio que hoy no le pertenece. Él mismo aclaró que todavía está tratando de confirmar si el anuncio llega a la feria. Lo confirmado por Xbox es otra cosa: 25 juegos en el evento, entre ellos Gears of War: E-Day, y dos emisiones propias.",
+    fuente: "https://vandal.elespanol.com/noticia/1350792356/xbox-tendria-preparado-un-anuncio-genial-de-una-de-sus-licencias-para-la-gamescom-segun-una-filtracion/",
+    juegos: []
+  },
+  {
     id: "marvel-tokon-rocket-datamining",
     fecha: "2026-08-18",
     categoria: "RUMORES",

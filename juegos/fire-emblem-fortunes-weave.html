@@ -40,6 +40,15 @@
     .noticia-fecha     { color: var(--acento); font-size: 0.6875rem; letter-spacing: 1px; margin-right: 0.5rem; }
     .noticia-titulo    { color: var(--blanco); font-size: 0.75rem; letter-spacing: 1px; }
     .noticia-texto     { color: var(--gris-7); font-size: 0.75rem; line-height: 1.8; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -140,6 +149,13 @@
             <span class="noticia-titulo">▸ EL DIRECT DESTAPÓ QUIÉN ES EL PROTAGONISTA DE VERDAD</span>
           </div>
           <p class="noticia-texto">No es ninguno de los cuatro héroes que se muestran: es un personaje sin nombre que la diosa Sothis invoca cinco años en el futuro, con el mundo ya arrasado, y que vuelve al pasado para reunirlos. Se elige uno de los cuatro para empezar y después se puede saltar entre ellos para ver las historias en paralelo. El sistema de combate es el de Three Houses y suma las Blaze Arts, que se pagan con vida propia.</p>
+        </div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-04</span>
+            <span class="noticia-titulo">▸ UN DIRECT ENTERO PARA FIRE EMBLEM: FORTUNE&#x27;S WEAVE</span><span class="noticia-cat cat-eventos">EVENTOS</span>
+          </div>
+          <p class="noticia-texto">Nintendo le dedicó veinte minutos a un solo juego. Se supo que la historia arranca con cuatro héroes compitiendo en los Juegos Heroicos de Dagsion, pero que el protagonista real es un héroe sin nombre que Sothis invoca cinco años en el futuro, con el mundo ya destruido, y que viaja al pasado para juntarlos. Se elige a uno de los cuatro y se puede cambiar de personaje sobre la marcha para ver las historias en paralelo. El combate es el de Three Houses, con una vuelta nueva: las Blaze Arts, ataques especiales que se pagan con vida propia en lugar de con durabilidad del arma. Sale el 17 de septiembre, solo en Switch 2.</p><a class="noticia-fuente" href="https://www.nintendo.com/us/nintendo-direct/8-4-2026/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
         </div>
       </div>
       <div class="seccion">

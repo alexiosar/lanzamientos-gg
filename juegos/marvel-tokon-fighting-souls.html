@@ -40,6 +40,15 @@
     .noticia-fecha     { color: var(--acento); font-size: 0.6875rem; letter-spacing: 1px; margin-right: 0.5rem; }
     .noticia-titulo    { color: var(--blanco); font-size: 0.75rem; letter-spacing: 1px; }
     .noticia-texto     { color: var(--gris-7); font-size: 0.75rem; line-height: 1.8; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -138,6 +147,13 @@
 
       <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-18</span>
+            <span class="noticia-titulo">▸ UN DATAMINING APUNTA A ROCKET RACCOON COMO DLC DE MARVEL TŌKON</span><span class="noticia-cat cat-rumores">RUMORES</span>
+          </div>
+          <p class="noticia-texto">El usuario Neoxon publicó en ResetEra capturas del código de la versión de PC de Marvel Tōkon: Fighting Souls. Según ese hallazgo, una línea de diálogo de Kamala Khan trataría a Rocket como «futuro DLC», y aparecerían además trajes «Legacy» y «Classic» para Hulk, Spider-Man, Green Goblin y Doctor Doom, más código de un pase de batalla que el juego hoy no tiene. Arc System Works no confirmó nada de esto, y que algo esté en los archivos no quiere decir que llegue: puede ser contenido descartado o provisional. Lo que sí es oficial es que el juego suma cuatro personajes descargables hasta septiembre de 2027, con Phoenix y Cíclope ya anunciados.</p><a class="noticia-fuente" href="https://vandal.elespanol.com/noticia/1350792352/marvel-tokon-podria-sumar-a-rocket-raccoon-un-datamining-revela-pase-de-batalla-y-nuevos-trajes/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-08-11</span>
