@@ -2319,9 +2319,14 @@ const JUEGOS = [
     desarrollador: "FROGWARES",
     descripcion: "The Sinking City 2 se ambienta en los Felices años veinte en este juego de horror y supervivencia cargado de terrores lovecraftianos. Desafía a una deidad sobrenatural y explora los callejones inundados de Arkham mientras te acechan los muertos y sopesas una sola vida frente a toda una ciudad.",
     trailer: "https://youtube.com/embed/2q-pfSpS_J4",
-    metacritic: null,
+    metacritic: 79,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
     noticias: [
+      {
+        fecha: "2026-08-18",
+        titulo: "DEBUTA CON 79, LA MEJOR NOTA DE FROGWARES",
+        texto: "El puntaje confirma lo que venían diciendo los adelantos: el estudio ucraniano sacó adelante su juego más sólido justo en las peores condiciones posibles."
+      },
       {
         fecha: "2026-08-18",
         titulo: "FROGWARES LO TERMINÓ EN MEDIO DE LA GUERRA",
@@ -2345,6 +2350,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/wKP2fMm-QDM",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676840/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-19",
+        titulo: "UN CASO QUE SE RESUELVE ESCUCHANDO, NO BUSCANDO PISTAS",
+        texto: "Sale mañana en PS5. Es una aventura de detectives donde no se recorren escenarios: se reconstruye la memoria de una conversación, acomodando lo que cada testigo dijo hasta que la historia cierra."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -3442,7 +3454,7 @@ const JUEGOS = [
   {
     id: "kernel-hearts",
     titulo: "KERNEL HEARTS",
-    fecha: "2026-09-30",
+    fecha: "2026-09-17",
     estimado: true,
     fechaEstimada: "SEPTIEMBRE 2026",
     plataformas: ["PS5", "SWITCH2"],
@@ -4137,6 +4149,11 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/5930310dc5f043a1df400d9dc70ddb43843480fc/header.jpg",
     noticias: [
+      {
+        fecha: "2026-08-18",
+        titulo: "EL STATE OF PLAY MOSTRÓ CÓMO SE JUEGA",
+        texto: "Sony le dedicó una presentación entera y esta vez se vio jugabilidad y trama en profundidad, no un adelanto de treinta segundos. Sigue en pie para el 29 de octubre en PS5."
+      },
       {
         fecha: "2026-08-14",
         titulo: "TIENE SU PROPIO STATE OF PLAY EL 17 DE AGOSTO",
@@ -5954,8 +5971,15 @@ const JUEGOS = [
     desarrollador: "SEED SPARKLE LAB",
     descripcion: "Cansado del ruido de la ciudad, te mudás a la isla de Starsand a llevar una vida de campo: cultivar, criar animales y hacerte amigo de los vecinos, sin apuro y sin relojes.",
     trailer: "https://youtube.com/embed/dVczi9ZFTwY",
-    metacritic: null,
+    metacritic: 70,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-18",
+        titulo: "70 DE DEBUT PARA LA VIDA DE CAMPO",
+        texto: "Un simulador de granja y vida rural al estilo de los clásicos del género, que ya llevaba medio año en PC. La nota lo deja en el pelotón: cumple con lo que promete sin destacarse entre la enorme cantidad de juegos parecidos que salieron los últimos años."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-17"
@@ -6068,5 +6092,69 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     alta: "2026-08-17"
+  },
+  {
+    id: "order-of-the-sinking-star",
+    titulo: "ORDER OF THE SINKING STAR",
+    fecha: "2026-10-08",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["AVENTURA", "PUZZLE", "INDIE"],
+    desarrollador: "THEKLA",
+    descripcion: "Lo nuevo de Jonathan Blow, el de Braid y The Witness: una aventura de puzles enorme, ambientada en un reino donde el conocimiento se perdió y hay que reconstruirlo pieza por pieza.",
+    trailer: "https://youtube.com/embed/OIxuGF6CwnU",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/499170/deda420d9e42288f4734a068c707f4c156203969/header.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-18"
+  },
+  {
+    id: "hubert",
+    titulo: "HUBERT",
+    fecha: "2026-10-31",
+    estimado: true,
+    fechaEstimada: "OCTUBRE 2026",
+    plataformas: ["PS5"],
+    genero: ["ACCION", "AVENTURA", "CASUAL"],
+    desarrollador: "BROCAP STUDIO",
+    descripcion: "Se juega como un perro pastor que cuida su rebaño y a la única persona que confía en él. Cuando los lobos se acercan, hay que decidir a quién proteger primero.",
+    trailer: "https://youtube.com/embed/k0Zjir4ZYZo",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/764930/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-18"
+  },
+  {
+    id: "the-relic-first-guardian-xbox",
+    titulo: "THE RELIC: FIRST GUARDIAN",
+    relanzamiento: "En PS5 desde julio de 2026 — esta fecha corresponde a la edición de Xbox",
+    fecha: "2026-09-25",
+    plataformas: ["XBOX"],
+    genero: ["ACCION", "RPG", "AVENTURA"],
+    desarrollador: "PERFECT WORLD GAMES",
+    descripcion: "La edición de Xbox del RPG de acción de Perfect World, casi dos meses después de su estreno en PlayStation.",
+    trailer: "https://youtube.com/embed/9BZUDAXO7fk",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-18"
+  },
+  {
+    id: "the-relic-first-guardian-switch-2",
+    titulo: "THE RELIC: FIRST GUARDIAN",
+    relanzamiento: "En PS5 desde julio de 2026 — esta fecha corresponde a la edición de Switch 2",
+    fecha: "2026-10-09",
+    plataformas: ["SWITCH2"],
+    genero: ["ACCION", "RPG", "AVENTURA"],
+    desarrollador: "PERFECT WORLD GAMES",
+    descripcion: "La edición de Switch 2 del RPG de acción de Perfect World, la última de las tres en llegar.",
+    trailer: "https://youtube.com/embed/9BZUDAXO7fk",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-08-18"
   }
 ];

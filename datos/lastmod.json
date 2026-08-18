@@ -1,7 +1,7 @@
 {
  "/": {
-  "hash": "aa7eb06312d24630",
-  "lastmod": "2026-08-17"
+  "hash": "dd9bbb54bd4c44bc",
+  "lastmod": "2026-08-18"
  },
  "/acerca": {
   "hash": "4500f7e1d7caca90",
@@ -575,6 +575,10 @@
   "hash": "68ec8211a6360013",
   "lastmod": "2026-08-07"
  },
+ "/juegos/hubert": {
+  "hash": "db5fe0603a85f2b7",
+  "lastmod": "2026-08-18"
+ },
  "/juegos/hunting-simulator-3": {
   "hash": "b463ff903d0c8825",
   "lastmod": "2026-07-29"
@@ -604,8 +608,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/kernel-hearts": {
-  "hash": "7eaf78fc791967c3",
-  "lastmod": "2026-07-29"
+  "hash": "3264c10ccc0653f3",
+  "lastmod": "2026-08-18"
  },
  "/juegos/kingdom-hearts-collection": {
   "hash": "936ef76ea3b79d35",
@@ -804,8 +808,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/no-case-should-remain-unsolved": {
-  "hash": "3f35bd2c4ba5b7a9",
-  "lastmod": "2026-07-29"
+  "hash": "860a6e0540596bb9",
+  "lastmod": "2026-08-18"
  },
  "/juegos/no-more-room-in-hell-2": {
   "hash": "52f1fadbd92c249b",
@@ -846,6 +850,10 @@
  "/juegos/orbitals": {
   "hash": "18dfd021cfd7de04",
   "lastmod": "2026-07-29"
+ },
+ "/juegos/order-of-the-sinking-star": {
+  "hash": "fdad6204ac787a71",
+  "lastmod": "2026-08-18"
  },
  "/juegos/outlaws-handful-of-missions-remaster": {
   "hash": "7cc1040ba737bb88",
@@ -888,8 +896,8 @@
   "lastmod": "2026-07-29"
  },
  "/juegos/phantom-blade-zero": {
-  "hash": "f91efa9247306c2e",
-  "lastmod": "2026-08-14"
+  "hash": "a312a9413240b172",
+  "lastmod": "2026-08-18"
  },
  "/juegos/planet-zoo-2": {
   "hash": "c151217ea3750726",
@@ -1076,8 +1084,8 @@
   "lastmod": "2026-08-07"
  },
  "/juegos/starsand-island": {
-  "hash": "65a1580eb79d6d79",
-  "lastmod": "2026-08-17"
+  "hash": "505e59d43e32c855",
+  "lastmod": "2026-08-18"
  },
  "/juegos/steins-gate-reboot": {
   "hash": "4a4627abaa63c0ee",
@@ -1187,9 +1195,17 @@
   "hash": "666853f9dfa941e4",
   "lastmod": "2026-07-29"
  },
+ "/juegos/the-relic-first-guardian-switch-2": {
+  "hash": "60d21d80b7962c9a",
+  "lastmod": "2026-08-18"
+ },
+ "/juegos/the-relic-first-guardian-xbox": {
+  "hash": "e4d7358038f1cc39",
+  "lastmod": "2026-08-18"
+ },
  "/juegos/the-sinking-city-2": {
-  "hash": "9778a13c07ca0d74",
-  "lastmod": "2026-08-17"
+  "hash": "24b56739e6b06d7f",
+  "lastmod": "2026-08-18"
  },
  "/juegos/the-walking-dead-streets-of-survival": {
   "hash": "81ecff2d241cae4e",
@@ -1340,28 +1356,28 @@
   "lastmod": "2026-07-29"
  },
  "/noticias": {
-  "hash": "9886ed41830c9bbc",
-  "lastmod": "2026-08-17"
+  "hash": "14550d7bca4cbc8d",
+  "lastmod": "2026-08-18"
  },
  "/privacidad": {
   "hash": "78f232bbc8d1c88b",
   "lastmod": "2026-08-09"
  },
  "/ps4": {
-  "hash": "aa7eb06312d24630",
-  "lastmod": "2026-08-17"
+  "hash": "dd9bbb54bd4c44bc",
+  "lastmod": "2026-08-18"
  },
  "/ps5": {
-  "hash": "aa7eb06312d24630",
-  "lastmod": "2026-08-17"
+  "hash": "dd9bbb54bd4c44bc",
+  "lastmod": "2026-08-18"
  },
  "/switch": {
-  "hash": "aa7eb06312d24630",
-  "lastmod": "2026-08-17"
+  "hash": "dd9bbb54bd4c44bc",
+  "lastmod": "2026-08-18"
  },
  "/switch-2": {
-  "hash": "aa7eb06312d24630",
-  "lastmod": "2026-08-17"
+  "hash": "dd9bbb54bd4c44bc",
+  "lastmod": "2026-08-18"
  },
  "/terminos": {
   "hash": "dfb51a9a72803a07",
@@ -1372,7 +1388,7 @@
   "lastmod": "2026-08-09"
  },
  "/xbox": {
-  "hash": "aa7eb06312d24630",
-  "lastmod": "2026-08-17"
+  "hash": "dd9bbb54bd4c44bc",
+  "lastmod": "2026-08-18"
  }
 }
