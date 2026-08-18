@@ -210,6 +210,11 @@ puntaje adentro del texto: se mueven solos y dejarían el resumen viejo.
 Si algún día se quiere una cita textual, que sea de crítica y nunca de usuarios, de una línea,
 entre comillas, con el nombre del medio y enlace a **su** reseña, no a Metacritic.
 
+**Un juego partido en varias entradas lleva el mismo resumen en todas**, aunque alguna no tenga
+puntaje todavía: The Relic: First Guardian está tres veces en el calendario —PS5, Xbox y
+Switch 2— y las reseñas son del mismo juego. Si más adelante alguna edición se reseña aparte y
+sale distinta, ahí se separan los textos.
+
 ### Carátulas (campo `imagen`)
 
 **Las carátulas vienen en tres formas y no se pueden unificar** (al 11/08/2026: 146

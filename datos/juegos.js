@@ -274,6 +274,7 @@ const JUEGOS = [
     metacritic: 71,
     metacriticUsuarios: 6.2,
     metacriticVotos: 177,
+    critica: "Todo depende del humor, y las reseñas lo dicen sin vueltas: si el estilo de Rick y Morty causa gracia, el juego funciona, y si no, no hay nada que hacer. En lo demás hay más acuerdo del que el puntaje sugiere: casi todas coinciden en que mejora al primero, con el monopatín como el agregado que más se elogia, y casi todas señalan los mismos problemas técnicos. Las notas van de 50 a 95, que es un rango enorme, y la diferencia está casi entera en la tolerancia al chiste.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2069250/d00d793580786f12bc3dd55d179447bdf046c69e/header_alt_assets_0.jpg",
     noticias: [
       {
@@ -573,6 +574,7 @@ const JUEGOS = [
     metacritic: 64,
     metacriticUsuarios: 5.7,
     metacriticVotos: 83,
+    critica: "Es de los peor recibidos que tenemos, y lo llamativo es que ni siquiera los fanáticos de Sword Art Online lo defienden. Las reseñas coinciden en que la idea —vivir el juego mortal desde la piel de un jugador cualquiera— es buena y en que el tono de la serie está bien capturado. Ahí se termina el acuerdo positivo: repetición, misiones sin gracia y sistemas a medio cocinar aparecen en casi todas. La frase que más se repite es que promete algo que después no llega nunca.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244210/25fb6350451b21ca824562c8d1eebe89091347cc/header.jpg",
     noticias: [
       {
@@ -1551,6 +1553,7 @@ const JUEGOS = [
     metacritic: 67,
     metacriticUsuarios: 7.0,
     metacriticVotos: 31,
+    critica: "Las reseñas coinciden en lo que hace bien: pilotear y armar la propia aeronave sobre una Tierra arruinada es la mejor parte y varias lo dicen con entusiasmo. El desacuerdo empieza después. Para las notas altas es un juego de supervivencia amable, para explorar sin presión. Para las bajas es exactamente ese el problema: la supervivencia no aprieta, el combate aburre y los lugares se repiten. La comparación con Subnautica aparece varias veces y nunca a favor.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1641960/library_600x900.jpg",
     noticias: [
       {
@@ -1620,6 +1623,7 @@ const JUEGOS = [
     metacritic: 70,
     metacriticUsuarios: 6.3,
     metacriticVotos: 54,
+    critica: "Las reseñas coinciden en la forma del problema: hay un buen juego adentro que las decisiones de diseño no dejan salir. El combate y la tensión de decidir si seguir o retirarse se llevan los elogios. Los reparos se repiten con una consistencia llamativa: el modo para un jugador está descuidado, no hay un modo contra la máquina como corresponde, sobran restricciones, y varias reseñas usan la palabra depredadora para hablar de la monetización. Casi todas mencionan además problemas de servidores y rendimiento en el estreno.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/library_600x900.jpg",
     noticias: [
       {
@@ -1872,6 +1876,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/iS6pZ1KCJ5I",
     metacritic: 68,
     metacriticUsuarios: null,
+    critica: "Con cuatro reseñas, todas coinciden en la misma descripción: es un homenaje deliberado a los King's Field de los noventa, con todo lo que eso implica, y en que la ambientación y la historia son lo mejor que tiene. También coinciden en el reparo, y es grande: le falta pulido, y las mecánicas de hace treinta años que copia no siempre valía la pena copiarlas. La recomendación queda atada a la nostalgia por ese estilo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017330/library_600x900.jpg",
     noticias: [
       {
@@ -1923,6 +1928,7 @@ const JUEGOS = [
     metacritic: 52,
     metacriticUsuarios: 2.5,
     metacriticVotos: 32,
+    critica: "Es el peor recibido de todo el calendario y las reseñas no se guardan nada: hay notas de 30 que lo ponen entre lo peor del año. Lo que rescatan, casi todas, es la ambición y la ambientación en la mitología coreana, y hasta las más duras reconocen que hay pasión detrás. El problema es todo lo demás: gráficos que varias comparan con los de dos generaciones atrás, caídas de rendimiento, un mundo abierto que nadie pidió y una historia contada a pedazos. La conclusión que se repite es que quiso hacer demasiado y no le salió casi nada.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg",
     noticias: [
       {
@@ -3703,6 +3709,7 @@ const JUEGOS = [
     metacritic: 67,
     metacriticUsuarios: 5.8,
     metacriticVotos: 63,
+    critica: "La comparación con Papers, Please está en casi todas las reseñas, y también el mismo veredicto: la idea de ser el que decide en un puesto de control quién entra y quién no es excelente, y el sistema de revisión médica está bien pensado. El problema es lo que hay alrededor. Los reparos coinciden: la administración de la base y las misiones son pocas, los tiroteos se sienten de madera, y la rutina se vuelve monótona antes de lo que debería. Varias recomiendan jugarlo en sesiones cortas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419520/library_600x900.jpg",
     noticias: [
       {
@@ -4459,6 +4466,7 @@ const JUEGOS = [
     metacritic: 70,
     metacriticUsuarios: 8.4,
     metacriticVotos: 14,
+    critica: "Las reseñas son de la versión de PC. Coinciden en que es un simulador de parque de dinosaurios simpático y relajado, con una gracia propia —vestir a los dinosaurios con sombreritos aparece en casi todas— pero sin la profundidad del género. El reparo más repetido es la falta de dificultad: se elogia lo creativo y se le reprocha que no exija nada. La comparación con Planet Zoo aparece seguido y no le sale bien.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/591460/library_600x900.jpg",
     noticias: [
       {
@@ -6178,6 +6186,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/dVczi9ZFTwY",
     metacritic: 70,
     metacriticUsuarios: null,
+    critica: "Con cinco reseñas y bastante desacuerdo. Todas describen lo mismo —una simulación de vida acogedora, con granja, animales y un sistema de construcción flexible— y difieren en si eso alcanza en un género saturado. La reseña más dura dice que no aporta nada y que está mal optimizado en consola. Las más generosas admiten los mismos errores técnicos y aun así le encuentran profundidad. El punto en común es que los problemas de rendimiento existen y nadie los niega.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/library_600x900.jpg",
     noticias: [
       {
@@ -6345,6 +6354,7 @@ const JUEGOS = [
     descripcion: "La edición de Xbox del RPG de acción de Perfect World, casi dos meses después de su estreno en PlayStation.",
     trailer: "https://youtube.com/embed/9BZUDAXO7fk",
     metacritic: null,
+    critica: "Es el peor recibido de todo el calendario y las reseñas no se guardan nada: hay notas de 30 que lo ponen entre lo peor del año. Lo que rescatan, casi todas, es la ambición y la ambientación en la mitología coreana, y hasta las más duras reconocen que hay pasión detrás. El problema es todo lo demás: gráficos que varias comparan con los de dos generaciones atrás, caídas de rendimiento, un mundo abierto que nadie pidió y una historia contada a pedazos. La conclusión que se repite es que quiso hacer demasiado y no le salió casi nada.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg",
     gamepass: false,
     psplus: false,
@@ -6361,6 +6371,7 @@ const JUEGOS = [
     descripcion: "La edición de Switch 2 del RPG de acción de Perfect World, la última de las tres en llegar.",
     trailer: "https://youtube.com/embed/9BZUDAXO7fk",
     metacritic: null,
+    critica: "Es el peor recibido de todo el calendario y las reseñas no se guardan nada: hay notas de 30 que lo ponen entre lo peor del año. Lo que rescatan, casi todas, es la ambición y la ambientación en la mitología coreana, y hasta las más duras reconocen que hay pasión detrás. El problema es todo lo demás: gráficos que varias comparan con los de dos generaciones atrás, caídas de rendimiento, un mundo abierto que nadie pidió y una historia contada a pedazos. La conclusión que se repite es que quiso hacer demasiado y no le salió casi nada.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg",
     gamepass: false,
     psplus: false,
