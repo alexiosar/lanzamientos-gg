@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 18 Aug 2026 16:04:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 16:23:59 +0000</lastBuildDate>
     <item>
       <title>NO CASE SHOULD REMAIN UNSOLVED: UN CASO QUE SE RESUELVE ESCUCHANDO, NO BUSCANDO PISTAS</title>
       <link>https://lanzamientos.lat/juegos/no-case-should-remain-unsolved</link>
@@ -41,6 +41,13 @@
       <guid isPermaLink="false">starsand-island-2026-08-18</guid>
       <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>Un simulador de granja y vida rural al estilo de los clásicos del género, que ya llevaba medio año en PC. La nota lo deja en el pelotón: cumple con lo que promete sin destacarse entre la enorme cantidad de juegos parecidos que salieron los últimos años. — STARSAND ISLAND para PS5 / SWITCH / SWITCH 2.</description>
+    </item>
+    <item>
+      <title>UN DATAMINING APUNTA A ROCKET RACCOON COMO DLC DE MARVEL TŌKON</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">marvel-tokon-rocket-datamining</guid>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El usuario Neoxon publicó en ResetEra capturas del código de la versión de PC de Marvel Tōkon: Fighting Souls. Según ese hallazgo, una línea de diálogo de Kamala Khan trataría a Rocket como «futuro DLC», y aparecerían además trajes «Legacy» y «Classic» para Hulk, Spider-Man, Green Goblin y Doctor Doom, más código de un pase de batalla que el juego hoy no tiene. Arc System Works no confirmó nada de esto, y que algo esté en los archivos no quiere decir que llegue: puede ser contenido descartado o provisional. Lo que sí es oficial es que el juego suma cuatro personajes descargables hasta septiembre de 2027, con Phoenix y Cíclope ya anunciados.</description>
     </item>
     <item>
       <title>VERHO: CURSE OF FACES: 68 DE DEBUT PARA UN HOMENAJE A KING'S FIELD</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">fire-emblem-fortunes-weave-2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
       <description>No es ninguno de los cuatro héroes que se muestran: es un personaje sin nombre que la diosa Sothis invoca cinco años en el futuro, con el mundo ya arrasado, y que vuelve al pasado para reunirlos. Se elige uno de los cuatro para empezar y después se puede saltar entre ellos para ver las historias en paralelo. El sistema de combate es el de Three Houses y suma las Blaze Arts, que se pagan con vida propia. — FIRE EMBLEM: FORTUNE'S WEAVE para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>FINAL FANTASY XIV ONLINE: YA DISPONIBLE EN SWITCH 2</title>
-      <link>https://lanzamientos.lat/juegos/final-fantasy-xiv-online</link>
-      <guid isPermaLink="false">final-fantasy-xiv-online-2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Ya se puede jugar en Switch 2. El puntaje de referencia es el 86 de A Realm Reborn, la reconstrucción de 2013 que reemplazó al lanzamiento original de 2010, aquel que fue un fracaso tan grande que Square Enix terminó cerrando el juego para rehacerlo desde cero. — FINAL FANTASY XIV ONLINE para SWITCH 2.</description>
     </item>
   </channel>
 </rss>

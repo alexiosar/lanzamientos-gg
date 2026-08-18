@@ -46,6 +46,15 @@
 
 const NOTICIAS = [
   {
+    id: "marvel-tokon-rocket-datamining",
+    fecha: "2026-08-18",
+    categoria: "RUMORES",
+    titulo: "UN DATAMINING APUNTA A ROCKET RACCOON COMO DLC DE MARVEL TŌKON",
+    texto: "El usuario Neoxon publicó en ResetEra capturas del código de la versión de PC de Marvel Tōkon: Fighting Souls. Según ese hallazgo, una línea de diálogo de Kamala Khan trataría a Rocket como «futuro DLC», y aparecerían además trajes «Legacy» y «Classic» para Hulk, Spider-Man, Green Goblin y Doctor Doom, más código de un pase de batalla que el juego hoy no tiene. Arc System Works no confirmó nada de esto, y que algo esté en los archivos no quiere decir que llegue: puede ser contenido descartado o provisional. Lo que sí es oficial es que el juego suma cuatro personajes descargables hasta septiembre de 2027, con Phoenix y Cíclope ya anunciados.",
+    fuente: "https://vandal.elespanol.com/noticia/1350792352/marvel-tokon-podria-sumar-a-rocket-raccoon-un-datamining-revela-pase-de-batalla-y-nuevos-trajes/",
+    juegos: ["marvel-tokon-fighting-souls"]
+  },
+  {
     id: "kingdom-hearts-iv-2027",
     fecha: "2026-08-17",
     categoria: "ANUNCIOS",
