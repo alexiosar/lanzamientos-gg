@@ -106,14 +106,30 @@ def tarjeta(n, juegos):
         for g in n["juegos"] if g in juegos)
     fuente = (f'<a class="noticia-fuente" href="{e(n["fuente"])}" rel="nofollow noopener" '
               f'target="_blank">FUENTE ↗</a>') if n.get("fuente") else ""
-    return f'''      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="{n["fecha"]}">{fecha_larga(n["fecha"])}</time>
-          <span class="noticia-cat cat-{n["categoria"].lower()}">{e(n["categoria"])}</span>
+
+    # La carátula del juego del que habla la noticia. Ya la tenemos cargada, así que
+    # la página pasa de ser una lista de texto a algo que se mira, sin buscar nada
+    # nuevo ni pedir una imagen más al servidor de la que ya se pediría.
+    # Las noticias propias que no citan ningún juego (un Direct, un cierre de
+    # estudio) van sin imagen: no hay una que las represente de verdad.
+    portada = ""
+    con_imagen = [juegos[g] for g in n["juegos"] if g in juegos and juegos[g].get("imagen")]
+    if con_imagen:
+        j = con_imagen[0]
+        portada = (f'<a class="noticia-portada" href="/juegos/{j["id"]}" tabindex="-1" aria-hidden="true">'
+                   f'<img src="{e(j["imagen"])}" alt="" loading="lazy" decoding="async"></a>')
+
+    return f'''      <article class="noticia{" noticia-con-portada" if portada else ""}">
+        {portada}
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="{n["fecha"]}">{fecha_larga(n["fecha"])}</time>
+            <span class="noticia-cat cat-{n["categoria"].lower()}">{e(n["categoria"])}</span>
+          </div>
+          <h2 class="noticia-titulo">{e(n["titulo"])}</h2>
+          <p class="noticia-texto">{e(n["texto"])}</p>
+          <div class="noticia-pie">{enlaces}{fuente}</div>
         </div>
-        <h2 class="noticia-titulo">{e(n["titulo"])}</h2>
-        <p class="noticia-texto">{e(n["texto"])}</p>
-        <div class="noticia-pie">{enlaces}{fuente}</div>
       </article>'''
 
 
@@ -159,6 +175,13 @@ def generar(items, juegos):
     .cat-retrasos    {{ color: var(--switch); border-color: var(--switch); }}
     .cat-anuncios    {{ color: var(--ps5); border-color: var(--ps5); }}
     .cat-eventos     {{ color: var(--amarillo); border-color: var(--amarillo); }}
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores     {{ color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }}
+    .noticia-con-portada {{ display: flex; gap: 1rem; align-items: flex-start; }}
+    .noticia-cuerpo  {{ min-width: 0; flex: 1; }}
+    .noticia-portada {{ flex-shrink: 0; display: block; width: 72px; height: 72px; border: 1px solid var(--gris-3); background: var(--gris-1); }}
+    .noticia-portada img {{ width: 100%; height: 100%; object-fit: cover; display: block; }}
+    @media (max-width: 600px) {{ .noticia-portada {{ width: 56px; height: 56px; }} }}
     .noticia-titulo  {{ font-size: 0.875rem; color: var(--blanco); letter-spacing: 1px; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.5; }}
     .noticia-texto   {{ font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; margin-bottom: 0.6rem; }}
     .noticia-pie     {{ display: flex; gap: 0.5rem; flex-wrap: wrap; }}

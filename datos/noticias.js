@@ -11,13 +11,27 @@
 // Campos:
 //   id         identificador único, en minúsculas y con guiones (va en la URL)
 //   fecha      "AAAA-MM-DD" — la del anuncio, no la del día que se carga
-//   categoria  SUSCRIPCIONES | RETRASOS | ANUNCIOS | EVENTOS
+//   categoria  SUSCRIPCIONES | RETRASOS | ANUNCIOS | EVENTOS | RUMORES
 //   titulo     en mayúsculas, como el resto del sitio
 //   texto      uno o dos párrafos, en español rioplatense
 //   fuente     URL de donde salió el dato: siempre la oficial si existe
 //   juegos     ids de datos/juegos.js que menciona (opcional); se enlazan solos
 //
 // Las de arriba son las más nuevas, pero el orden real lo pone la fecha.
+//
+// REGLA DE LOS RUMORES (decidida el 18/08/2026)
+//
+// Un rumor puede ser noticia, pero NUNCA un dato. Jamás modifica `fecha`,
+// `plataformas` ni ningún campo de datos/juegos.js: vive solo dentro de la noticia.
+//
+// El sitio se sostiene en ser exacto — por eso se sacó Creepshow (salía solo en PC),
+// se sacó Man of Honor (era DLC) y The Relic se partió en tres entradas. Si un rumor
+// se filtrara a una fecha del calendario y saliera mal, pasaríamos a ser el sitio que
+// tiene las fechas mal, que es lo único que un calendario no puede permitirse.
+//
+// Cómo se escribe uno: categoría RUMORES, nombrando siempre quién lo reportó, en
+// condicional ("según X, el juego llegaría…") y nunca en presente afirmativo. En la
+// página se distingue solo: la etiqueta va con borde punteado.
 
 const NOTICIAS = [
   {

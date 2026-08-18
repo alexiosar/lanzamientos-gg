@@ -32,6 +32,13 @@
     .cat-retrasos    { color: var(--switch); border-color: var(--switch); }
     .cat-anuncios    { color: var(--ps5); border-color: var(--ps5); }
     .cat-eventos     { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores     { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-con-portada { display: flex; gap: 1rem; align-items: flex-start; }
+    .noticia-cuerpo  { min-width: 0; flex: 1; }
+    .noticia-portada { flex-shrink: 0; display: block; width: 72px; height: 72px; border: 1px solid var(--gris-3); background: var(--gris-1); }
+    .noticia-portada img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    @media (max-width: 600px) { .noticia-portada { width: 56px; height: 56px; } }
     .noticia-titulo  { font-size: 0.875rem; color: var(--blanco); letter-spacing: 1px; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.5; }
     .noticia-texto   { font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; margin-bottom: 0.6rem; }
     .noticia-pie     { display: flex; gap: 0.5rem; flex-wrap: wrap; }
@@ -69,545 +76,725 @@
     <p class="pagina-sub">PUNTAJES DE ESTRENO · RETRASOS · PS PLUS Y GAME PASS</p>
 
     <div class="noticias">
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-19">19 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/no-case-should-remain-unsolved" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676840/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-19">19 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">UN CASO QUE SE RESUELVE ESCUCHANDO, NO BUSCANDO PISTAS</h2>
+          <p class="noticia-texto">Sale mañana en PS5. Es una aventura de detectives donde no se recorren escenarios: se reconstruye la memoria de una conversación, acomodando lo que cada testigo dijo hasta que la historia cierra.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/no-case-should-remain-unsolved">NO CASE SHOULD REMAIN UNSOLVED</a></div>
         </div>
-        <h2 class="noticia-titulo">UN CASO QUE SE RESUELVE ESCUCHANDO, NO BUSCANDO PISTAS</h2>
-        <p class="noticia-texto">Sale mañana en PS5. Es una aventura de detectives donde no se recorren escenarios: se reconstruye la memoria de una conversación, acomodando lo que cada testigo dijo hasta que la historia cierra.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/no-case-should-remain-unsolved">NO CASE SHOULD REMAIN UNSOLVED</a></div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/the-sinking-city-2" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-18">18 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEBUTA CON 79, LA MEJOR NOTA DE FROGWARES</h2>
+          <p class="noticia-texto">El puntaje confirma lo que venían diciendo los adelantos: el estudio ucraniano sacó adelante su juego más sólido justo en las peores condiciones posibles.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-sinking-city-2">THE SINKING CITY 2</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/the-sinking-city-2" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-18">18 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">FROGWARES LO TERMINÓ EN MEDIO DE LA GUERRA</h2>
+          <p class="noticia-texto">El estudio es ucraniano y desarrolló el juego durante la invasión, con el equipo trabajando desde un país en guerra. Sale a un precio deliberadamente por debajo de un lanzamiento grande. Es terror de supervivencia con Calvin Rafferty, un aventurero ocultista, en un Arkham de los años veinte inundado y en descomposición. Quien compre la edición Premium juega desde el 17, un día antes.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-sinking-city-2">THE SINKING CITY 2</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/phantom-blade-zero" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/5930310dc5f043a1df400d9dc70ddb43843480fc/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-18">18 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">EL STATE OF PLAY MOSTRÓ CÓMO SE JUEGA</h2>
+          <p class="noticia-texto">Sony le dedicó una presentación entera y esta vez se vio jugabilidad y trama en profundidad, no un adelanto de treinta segundos. Sigue en pie para el 29 de octubre en PS5.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/phantom-blade-zero">PHANTOM BLADE ZERO</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/starsand-island" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-18">18 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">70 DE DEBUT PARA LA VIDA DE CAMPO</h2>
+          <p class="noticia-texto">Un simulador de granja y vida rural al estilo de los clásicos del género, que ya llevaba medio año en PC. La nota lo deja en el pelotón: cumple con lo que promete sin destacarse entre la enorme cantidad de juegos parecidos que salieron los últimos años.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/starsand-island">STARSAND ISLAND</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/verho-curse-of-faces" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017330/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-17">17 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">68 DE DEBUT PARA UN HOMENAJE A KING&#x27;S FIELD</h2>
+          <p class="noticia-texto">Un RPG de acción en primera persona que copia deliberadamente el aire de los King&#x27;s Field de PlayStation: polígonos toscos, texturas manchadas y niveles muy verticales. Las reseñas coinciden en que el homenaje está logrado —dicen que se ve, suena y se siente como un King&#x27;s Field— y el reparo es que quien no tenga esa nostalgia encima va a encontrar el resultado directamente anticuado. Cuesta 24,99 dólares.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/verho-curse-of-faces">VERHO: CURSE OF FACES</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/pro-jank-footy" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/02ffb09d115b8dcf4f21e9e45f604ac4af534d61/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-17">17 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">59 DE DEBUT PARA EL FÚTBOL AUSTRALIANO ABSURDO</h2>
+          <p class="noticia-texto">Debuta con 59. Es un juego de fútbol australiano hecho por Powerbomb Games y Tinker Town, de Adelaida, que apuesta todo al absurdo: más de 150 mejoras que van deformando las reglas. Las notas lo dejan en terreno flojo, que es lo habitual cuando la gracia de un juego es el desorden y no la solidez de sus sistemas.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/pro-jank-footy">PRO JANK FOOTY</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/kingdom-hearts-collection" tabindex="-1" aria-hidden="true"><img src="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kingdomheartscollectioni_iii/1x1_KingdomHeartsCollectionI_III_image500w.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-17">17 AGO 2026</time>
+            <span class="noticia-cat cat-anuncios">ANUNCIOS</span>
+          </div>
+          <h2 class="noticia-titulo">KINGDOM HEARTS IV SALE A FINES DE 2027</h2>
+          <p class="noticia-texto">Square Enix puso fecha a Kingdom Hearts IV: finales de 2027, o sea fuera del alcance de este calendario por ahora. En el mismo anuncio se confirmó una serie de anime original de la saga. La colección de los juegos anteriores, esa sí, sigue en pie para el 8 de octubre.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/kingdom-hearts-collection">KINGDOM HEARTS COLLECTION [I~III]</a><a class="noticia-fuente" href="https://www.gematsu.com/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/marvels-wolverine" tabindex="-1" aria-hidden="true"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&amp;thumb=false" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-14">14 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">HABRÁ UNA PS5 EDICIÓN LIMITADA Y ACCESORIOS A JUEGO</h2>
+          <p class="noticia-texto">Sony anunció una consola PS5 de edición limitada del juego, junto con accesorios de la misma línea. Es la señal habitual de que el lanzamiento se trata como uno de los grandes del año para la plataforma.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/marvels-wolverine">MARVEL&#x27;S WOLVERINE</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/phantom-blade-zero" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/5930310dc5f043a1df400d9dc70ddb43843480fc/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-14">14 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">TIENE SU PROPIO STATE OF PLAY EL 17 DE AGOSTO</h2>
+          <p class="noticia-texto">Sony le dedica una presentación entera el 17 de agosto. Ya se abrieron las reservas y se publicó un tráiler de once minutos, así que lo del 17 debería traer fecha firme de todo lo que falta.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/phantom-blade-zero">PHANTOM BLADE ZERO</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/aniimo" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4126040/43b2a41f5876db8ca407f240e74392fb1badbb2f/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-14">14 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">YA TIENE FECHA: 16 DE SEPTIEMBRE</h2>
+          <p class="noticia-texto">Estaba anunciado para el tercer trimestre sin día. Es un RPG de mundo abierto gratuito con captura de criaturas, del estudio Pawprint.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/aniimo">ANIIMO</a></div>
+        </div>
       </article>
       <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-18">18 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+        
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-14">14 AGO 2026</time>
+            <span class="noticia-cat cat-anuncios">ANUNCIOS</span>
+          </div>
+          <h2 class="noticia-titulo">NETFLIX CIERRA NIGHT SCHOOL, EL ESTUDIO DE OXENFREE</h2>
+          <p class="noticia-texto">Netflix cierra Night School Studio, el estudio de Oxenfree, y Moonloot Games. Es otro capítulo del repliegue de la compañía en videojuegos: había comprado Night School en 2021, cuando arrancaba su apuesta por el sector.</p>
+          <div class="noticia-pie"><a class="noticia-fuente" href="https://www.gematsu.com/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
         </div>
-        <h2 class="noticia-titulo">DEBUTA CON 79, LA MEJOR NOTA DE FROGWARES</h2>
-        <p class="noticia-texto">El puntaje confirma lo que venían diciendo los adelantos: el estudio ucraniano sacó adelante su juego más sólido justo en las peores condiciones posibles.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-sinking-city-2">THE SINKING CITY 2</a></div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/duskfade" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/f17f8f31c30ca7f8603b125502e00c0c542c6677/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-13">13 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">78 DE DEBUT PARA UN PLATAFORMAS ESPAÑOL A LA VIEJA USANZA</h2>
+          <p class="noticia-texto">Lo hace Weird Beluga, un estudio indie español que ya había firmado Clid the Snail. La crítica coincide en el elogio a la dirección de arte y al combate, y en el reparo: es un homenaje muy fiel a los plataformas 3D de la era PlayStation 2, tan fiel que no llega a proponer nada propio. Quien busque nostalgia va a estar contento; quien busque una evolución del género, no.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/duskfade">DUSKFADE</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/hell-let-loose-vietnam" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/2e52f99e70e827b57a2205469dc5d529e8e0490a/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-13">13 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEBUTA CON 78</h2>
+          <p class="noticia-texto">Llega con la nota puesta después del retraso de dos meses. El puntaje ubica al shooter táctico en el mismo escalón que su antecesor, sin el salto que algunos esperaban de un cambio de escenario tan grande.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/hell-let-loose-vietnam">HELL LET LOOSE: VIETNAM</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/hell-let-loose-vietnam" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/2e52f99e70e827b57a2205469dc5d529e8e0490a/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-13">13 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">SE RETRASÓ DOS MESES PARA CORREGIR LO QUE MOSTRARON LAS BETAS</h2>
+          <p class="noticia-texto">Estaba anunciado para el 18 de junio y Expression Games lo movió a agosto después de las betas abiertas y de sus propias pruebas internas. Son batallas de 50 contra 50 en seis mapas nuevos de Vietnam —selva cerrada, deltas y claros abiertos—, con roles definidos, túneles y apoyo aéreo en helicóptero.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/hell-let-loose-vietnam">HELL LET LOOSE: VIETNAM</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/wild-blue-skies" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1921490/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-13">13 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">EL MEJOR INTENTO DE SUCESOR DE STAR FOX 64, Y ESE ES EL PROBLEMA</h2>
+          <p class="noticia-texto">Debuta con 61. Los elogios van al apartado audiovisual, con una estética de dibujo animado que se destaca, y la mayoría de las críticas dice lo mismo: sigue la fórmula de Star Fox 64 tan de cerca que en algunos tramos la repite golpe por golpe, sin arriesgar nada propio. También se le señala que la mira cuesta de leer y que el manejo de la nave se hace pesado. Cuesta 14,99 dólares.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/wild-blue-skies">WILD BLUE SKIES</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/defender-of-the-crown-the-legend-returns" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4208140/131479ec2e41016e6baf82b98c2106abc562c095/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-13">13 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">66 DE DEBUT PARA EL REGRESO DE UN CLÁSICO DE 1986</h2>
+          <p class="noticia-texto">Vuelve el clásico de estrategia medieval de Cinemaware, que en su momento fue una vidriera de lo que podían hacer las computadoras de 16 bits. La nota de debut lo deja en el terreno de lo correcto sin más.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/defender-of-the-crown-the-legend-returns">DEFENDER OF THE CROWN: THE LEGEND RETURNS</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/marvels-wolverine" tabindex="-1" aria-hidden="true"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&amp;thumb=false" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-13">13 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">EL COMBATE SE MUEVE POR LA FURIA, Y HAY ENEMIGOS QUE TE APAGAN LA CURACIÓN</h2>
+          <p class="noticia-texto">Insomniac detalló cómo se juega. La furia tiene tres niveles: en el segundo se desbloquea Última Resistencia, que permite curarse con ella al caer, y en el tercero los ataques pegan mucho más fuerte y se habilitan críticos brutales. La vuelta de tuerca son los inhibidores, aparatos que anulan el factor curativo y obligan a pelear sin red. Acompañan Mystique, Dientes de Sable y Jean Grey; el villano es Bolívar Trask, el industrial antimutante. La campaña va de la selva de Telambang a los bajos fondos de Madripoor.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/marvels-wolverine">MARVEL&#x27;S WOLVERINE</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/cloverpit" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-13">13 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">77 EN METACRITIC, PERO ESA NOTA ES LA DE PC</h2>
+          <p class="noticia-texto">El puntaje corresponde a la versión que salió el año pasado en computadora; las ediciones de consola que llegan hoy todavía no tienen notas propias. Traen el agregado del mouse en Switch 2 y de la barra de luz del DualSense.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/cloverpit">CLOVERPIT</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/cloverpit" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-13">13 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">CINCO MILLONES DE JUGADORES ANTES DE LLEGAR A CONSOLAS</h2>
+          <p class="noticia-texto">El roguelike de la máquina tragamonedas acumuló más de cinco millones de jugadores entre Steam, Game Pass y móviles desde que salió el año pasado, y se lo comparó con Balatro y Buckshot Roulette. Cuesta 4,99 dólares. Las ediciones de consola traen agregados propios: control con mouse en Switch 2 y uso de la barra de luz del DualSense. El mismo día sale el DLC Unholy Fusion, con amuletos de fusión, tarjetas de memoria y un final alternativo.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/cloverpit">CLOVERPIT</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/pro-jank-footy" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/02ffb09d115b8dcf4f21e9e45f604ac4af534d61/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-12">12 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">FÚTBOL AUSTRALIANO, ROGUELIKE Y 150 MEJORAS ABSURDAS</h2>
+          <p class="noticia-texto">Sale el mismo día en PS5, Xbox Series, Switch 2, Switch y PC. Es un juego de fútbol australiano de dos equipos de dieciocho con más de 150 mejoras que van deformando las reglas, incluida una que suelta el salvapantallas flotante de un reproductor de DVD en la cancha. Lo hacen Powerbomb Games y Tinker Town, de Adelaida; el director creativo es David Ashby, cocreador de la serie de comedia Danger 5.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/pro-jank-footy">PRO JANK FOOTY</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/akatori" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442520/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-12">12 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">EN SWITCH 2 RECIÉN EN 2027</h2>
+          <p class="noticia-texto">Sale en PS5, PS4, Xbox Series y Xbox One, una semana después de su estreno en PC. La versión de Switch 2 está anunciada para 2027, así que quien lo espere en una consola de Nintendo va a tener que esperar bastante. Es un metroidvania en 2,5D construido alrededor del impulso: el bastón de Mako sirve tanto para pelear como para planear desde las alturas y resolver puzles del escenario.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/akatori">AKATORI</a></div>
+        </div>
+      </article>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/ghost-of-yotei-complete-edition" tabindex="-1" aria-hidden="true"><img src="https://image.api.playstation.com/vulcan/ap/rnd/202607/2723/890df32c227f619c5bd80e9f34ba2be53d0fea4b1615adee.png?w=600&amp;thumb=false" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-12">12 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">SALE EL 1 DE OCTUBRE, EL DÍA QUE EL ORIGINAL CUMPLE UN AÑO</h2>
+          <p class="noticia-texto">Cuesta 69,99 euros, y quien ya tenga el juego base puede pasarse por 14,99. Ese mismo día llega además una actualización gratuita para todos los jugadores, tengan o no la edición completa.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/ghost-of-yotei-complete-edition">GHOST OF YOTEI: EDICIÓN COMPLETA</a></div>
+        </div>
       </article>
       <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-18">18 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+        
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-12">12 AGO 2026</time>
+            <span class="noticia-cat cat-suscripciones">SUSCRIPCIONES</span>
+          </div>
+          <h2 class="noticia-titulo">EL CATÁLOGO DE PS PLUS DE AGOSTO SUMA HELLDIVERS 2</h2>
+          <p class="noticia-texto">Entran al catálogo de PlayStation Plus Helldivers 2, Kingdom Come: Deliverance 2, Vampire Survivors y Hell is Us, entre otros. Ojo con la diferencia: estos no son los juegos mensuales, que se reclaman y quedan para siempre, sino el catálogo de los planes Extra y Deluxe, que se puede jugar mientras dure la suscripción y mientras el juego siga ahí. Ninguno es un estreno, así que no llevan el distintivo de PS Plus en el calendario.</p>
+          <div class="noticia-pie"><a class="noticia-fuente" href="https://blog.latam.playstation.com/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
         </div>
-        <h2 class="noticia-titulo">FROGWARES LO TERMINÓ EN MEDIO DE LA GUERRA</h2>
-        <p class="noticia-texto">El estudio es ucraniano y desarrolló el juego durante la invasión, con el equipo trabajando desde un país en guerra. Sale a un precio deliberadamente por debajo de un lanzamiento grande. Es terror de supervivencia con Calvin Rafferty, un aventurero ocultista, en un Arkham de los años veinte inundado y en descomposición. Quien compre la edición Premium juega desde el 17, un día antes.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-sinking-city-2">THE SINKING CITY 2</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-18">18 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/marvel-tokon-fighting-souls" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-11">11 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEBUTA CON 87 Y LA CRÍTICA DE PC LO CASTIGA POR OTRA COSA</h2>
+          <p class="noticia-texto">Arc System Works se lleva 87 en la versión de PS5, con elogios al combate y a lo accesible que resulta para quien no juega peleas. La bronca está en PC: el juego recibió una avalancha de reseñas negativas en Steam por exigir una cuenta de PSN obligatoria y por problemas de rendimiento, dos cosas que no afectan a la edición de consola.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/marvel-tokon-fighting-souls">MARVEL TŌKON: FIGHTING SOULS</a></div>
         </div>
-        <h2 class="noticia-titulo">EL STATE OF PLAY MOSTRÓ CÓMO SE JUEGA</h2>
-        <p class="noticia-texto">Sony le dedicó una presentación entera y esta vez se vio jugabilidad y trama en profundidad, no un adelanto de treinta segundos. Sigue en pie para el 29 de octubre en PS5.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/phantom-blade-zero">PHANTOM BLADE ZERO</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-18">18 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/montabi" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141630/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-11">11 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">72 DE DEBUT PARA UN DECKBUILDER INDONESIO</h2>
+          <p class="noticia-texto">Obra del estudio indonesio Mankibo. Es un roguelike de construcción de mazos con captura de criaturas, que pelea en una grilla de 3×3 y trae más de 570 cartas y 200 objetos. Las reseñas coinciden en que el sistema engancha; los reparos van a la falta de historia y a algunos errores que llegan a romper una partida.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/montabi">MONTABI</a></div>
         </div>
-        <h2 class="noticia-titulo">70 DE DEBUT PARA LA VIDA DE CAMPO</h2>
-        <p class="noticia-texto">Un simulador de granja y vida rural al estilo de los clásicos del género, que ya llevaba medio año en PC. La nota lo deja en el pelotón: cumple con lo que promete sin destacarse entre la enorme cantidad de juegos parecidos que salieron los últimos años.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/starsand-island">STARSAND ISLAND</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-17">17 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/the-elder-scrolls-iv-oblivion-remastered" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-11">11 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">80 EN METACRITIC PARA LA REMASTERIZACIÓN</h2>
+          <p class="noticia-texto">El puntaje corresponde a la versión que salió en 2025 en PS5, Xbox y PC; esta edición de Switch 2 lleva el mismo contenido. Todavía no hay notas específicas del port de Nintendo.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-elder-scrolls-iv-oblivion-remastered">THE ELDER SCROLLS IV: OBLIVION REMASTERED</a></div>
         </div>
-        <h2 class="noticia-titulo">68 DE DEBUT PARA UN HOMENAJE A KING&#x27;S FIELD</h2>
-        <p class="noticia-texto">Un RPG de acción en primera persona que copia deliberadamente el aire de los King&#x27;s Field de PlayStation: polígonos toscos, texturas manchadas y niveles muy verticales. Las reseñas coinciden en que el homenaje está logrado —dicen que se ve, suena y se siente como un King&#x27;s Field— y el reparo es que quien no tenga esa nostalgia encima va a encontrar el resultado directamente anticuado. Cuesta 24,99 dólares.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/verho-curse-of-faces">VERHO: CURSE OF FACES</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-17">17 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/the-elder-scrolls-iv-oblivion-remastered" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2623190/a7cee9165bb1bfc092c390c5cff215ce0e381dfc/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-11">11 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">EL JUEGO ENTERO ENTRA EN EL CARTUCHO</h2>
+          <p class="noticia-texto">La edición física trae el juego completo en el cartucho, sin descarga obligatoria, y todas las versiones incluyen Shivering Isles, Knights of the Nine y el resto del contenido descargable. El port lo hizo Virtuos y suma control por movimiento, pantalla táctil y modo mouse. Apunta a 900p en portátil y 1080p en dock, siempre a 30 cuadros con DLSS: las pruebas previas al lanzamiento mostraron caídas por debajo de esa marca y un ritmo de cuadros irregular.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-elder-scrolls-iv-oblivion-remastered">THE ELDER SCROLLS IV: OBLIVION REMASTERED</a></div>
         </div>
-        <h2 class="noticia-titulo">59 DE DEBUT PARA EL FÚTBOL AUSTRALIANO ABSURDO</h2>
-        <p class="noticia-texto">Debuta con 59. Es un juego de fútbol australiano hecho por Powerbomb Games y Tinker Town, de Adelaida, que apuesta todo al absurdo: más de 150 mejoras que van deformando las reglas. Las notas lo dejan en terreno flojo, que es lo habitual cuando la gracia de un juego es el desorden y no la solidez de sus sistemas.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/pro-jank-footy">PRO JANK FOOTY</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-17">17 AGO 2026</time>
-          <span class="noticia-cat cat-anuncios">ANUNCIOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/grounded-2" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2661300/c4fc47c7e6ece14e438f0957d066dc9ab2a3412a/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-11">11 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">LLEGA EN ACCESO ANTICIPADO, NO TERMINADO</h2>
+          <p class="noticia-texto">Ojo con esto: la versión de PS5 no es la 1.0, es el acceso anticipado que en Xbox y PC viene desde julio de 2025. Sale junto con la actualización Into the Abyss y mantiene el juego cruzado con las otras plataformas.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/grounded-2">GROUNDED 2</a></div>
         </div>
-        <h2 class="noticia-titulo">KINGDOM HEARTS IV SALE A FINES DE 2027</h2>
-        <p class="noticia-texto">Square Enix puso fecha a Kingdom Hearts IV: finales de 2027, o sea fuera del alcance de este calendario por ahora. En el mismo anuncio se confirmó una serie de anime original de la saga. La colección de los juegos anteriores, esa sí, sigue en pie para el 8 de octubre.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/kingdom-hearts-collection">KINGDOM HEARTS COLLECTION [I~III]</a><a class="noticia-fuente" href="https://www.gematsu.com/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-14">14 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/no-more-room-in-hell-2" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-11">11 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">SALE DEL ACCESO ANTICIPADO Y DEBUTA EN CONSOLAS</h2>
+          <p class="noticia-texto">Después de dos años en acceso anticipado en PC llega la 1.0, y es la primera vez que la saga pisa una consola. La versión final suma el modo Supervivencia para ocho jugadores, un modo en solitario sin muerte permanente, tutorial guiado, misiones semanales y un mapa nuevo, Raven Rock. Cuesta 29,99 dólares, con 20% de descuento de salida en las tiendas de PlayStation y Xbox, y hay juego cruzado entre todas las plataformas.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/no-more-room-in-hell-2">NO MORE ROOM IN HELL 2</a></div>
         </div>
-        <h2 class="noticia-titulo">HABRÁ UNA PS5 EDICIÓN LIMITADA Y ACCESORIOS A JUEGO</h2>
-        <p class="noticia-texto">Sony anunció una consola PS5 de edición limitada del juego, junto con accesorios de la misma línea. Es la señal habitual de que el lanzamiento se trata como uno de los grandes del año para la plataforma.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/marvels-wolverine">MARVEL&#x27;S WOLVERINE</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-14">14 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/artis-impact" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1864000/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-07">07 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">PREMIADO EN BITSUMMIT Y EN LOS RPG MAKER AWARDS</h2>
+          <p class="noticia-texto">Obra de Mas, un desarrollador malayo que trabaja solo. Antes de llegar a Switch se llevó el Vermilion Gate Award en el BitSummit PUNCH y el premio mayor de los RPG Maker Awards 2026. Lo publica Happinet, con edición física en Japón; los idiomas confirmados son inglés, japonés y chino.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/artis-impact">ARTIS IMPACT</a></div>
         </div>
-        <h2 class="noticia-titulo">TIENE SU PROPIO STATE OF PLAY EL 17 DE AGOSTO</h2>
-        <p class="noticia-texto">Sony le dedica una presentación entera el 17 de agosto. Ya se abrieron las reservas y se publicó un tráiler de once minutos, así que lo del 17 debería traer fecha firme de todo lo que falta.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/phantom-blade-zero">PHANTOM BLADE ZERO</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-14">14 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/avatar-legends-the-fighting-game-xbox" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2424420/30d44f94173fde20d7338f01611c6b5c7618e07e/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-07">07 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">EL MEJOR JUEGO DE PELEA DEL AÑO, SEGÚN LA CRÍTICA</h2>
+          <p class="noticia-texto">La edición de Xbox llega mes y medio después que el resto, con el juego ya evaluado: 78 de promedio sobre 39 críticas en OpenCritic, el puntaje más alto de un juego de pelea en 2026 y el más alto de un juego de Avatar. Los elogios van al combate; los reparos, a la cantidad de contenido y a las opciones.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/avatar-legends-the-fighting-game-xbox">AVATAR LEGENDS: THE FIGHTING GAME</a></div>
         </div>
-        <h2 class="noticia-titulo">YA TIENE FECHA: 16 DE SEPTIEMBRE</h2>
-        <p class="noticia-texto">Estaba anunciado para el tercer trimestre sin día. Es un RPG de mundo abierto gratuito con captura de criaturas, del estudio Pawprint.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/aniimo">ANIIMO</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-14">14 AGO 2026</time>
-          <span class="noticia-cat cat-anuncios">ANUNCIOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/lies-of-p-switch-2" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-06">06 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">LA COMPLETE EDITION TRAE OVERTURE INCLUIDO</h2>
+          <p class="noticia-texto">La edición de Switch 2 se llama Complete Edition y reúne el juego base más la expansión Overture, todas las actualizaciones posteriores al lanzamiento, los modos de dificultad y desafío nuevos, y los contenidos cosméticos publicados hasta ahora. Está optimizada para la consola y sale en digital a 69,99 dólares.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/lies-of-p-switch-2">LIES OF P</a></div>
         </div>
-        <h2 class="noticia-titulo">NETFLIX CIERRA NIGHT SCHOOL, EL ESTUDIO DE OXENFREE</h2>
-        <p class="noticia-texto">Netflix cierra Night School Studio, el estudio de Oxenfree, y Moonloot Games. Es otro capítulo del repliegue de la compañía en videojuegos: había comprado Night School en 2021, cuando arrancaba su apuesta por el sector.</p>
-        <div class="noticia-pie"><a class="noticia-fuente" href="https://www.gematsu.com/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-13">13 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/parkasaurus" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/591460/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-05">05 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">LA EDICIÓN DINOLUXE TRAE LOS DOS PACKS INCLUIDOS</h2>
+          <p class="noticia-texto">Sale hoy como Dinoluxe Edition: el juego base más los contenidos Sea Monsters y Prehistoric Wonders, sin comprarlos aparte. El original de PC es de 2020 y promedia 70 en Metacritic; en Switch está desde 2022. Publica Infogrames y desarrolla Washbear Studio.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/parkasaurus">PARKASAURUS</a></div>
         </div>
-        <h2 class="noticia-titulo">78 DE DEBUT PARA UN PLATAFORMAS ESPAÑOL A LA VIEJA USANZA</h2>
-        <p class="noticia-texto">Lo hace Weird Beluga, un estudio indie español que ya había firmado Clid the Snail. La crítica coincide en el elogio a la dirección de arte y al combate, y en el reparo: es un homenaje muy fiel a los plataformas 3D de la era PlayStation 2, tan fiel que no llega a proponer nada propio. Quien busque nostalgia va a estar contento; quien busque una evolución del género, no.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/duskfade">DUSKFADE</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-13">13 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/beast-of-reincarnation" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-04">04 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEBUTA CON 73 Y LA CRÍTICA SE PARTE AL MEDIO</h2>
+          <p class="noticia-texto">Cierra con 73 en Metacritic sobre más de cincuenta análisis, y el reparto es llamativo: la mitad positivos y la otra mitad mixtos, sin ninguno negativo. Vice le puso 9,5 sobre 10 y dijo que el combate no solo es innovador sino divertidísimo; Eurogamer y VGC le pusieron 6. Coinciden en elogiar el combate a base de parries y el vínculo entre Emma y Koo, y en criticar el ritmo del relato, la repetición y las caídas de imágenes por segundo.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/beast-of-reincarnation">BEAST OF REINCARNATION</a></div>
         </div>
-        <h2 class="noticia-titulo">DEBUTA CON 78</h2>
-        <p class="noticia-texto">Llega con la nota puesta después del retraso de dos meses. El puntaje ubica al shooter táctico en el mismo escalón que su antecesor, sin el salto que algunos esperaban de un cambio de escenario tan grande.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/hell-let-loose-vietnam">HELL LET LOOSE: VIETNAM</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-13">13 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/big-walk" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-04">04 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">ENTRA A PLAYSTATION PLUS EL MISMO DÍA QUE SALE</h2>
+          <p class="noticia-texto">Es uno de los tres juegos mensuales de PlayStation Plus de agosto, junto a Dying Light 2 Stay Human: Reloaded Edition y Signalis. Quien tenga la suscripción lo juega sin pagarlo aparte.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/big-walk">BIG WALK</a></div>
         </div>
-        <h2 class="noticia-titulo">SE RETRASÓ DOS MESES PARA CORREGIR LO QUE MOSTRARON LAS BETAS</h2>
-        <p class="noticia-texto">Estaba anunciado para el 18 de junio y Expression Games lo movió a agosto después de las betas abiertas y de sus propias pruebas internas. Son batallas de 50 contra 50 en seis mapas nuevos de Vietnam —selva cerrada, deltas y claros abiertos—, con roles definidos, túneles y apoyo aéreo en helicóptero.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/hell-let-loose-vietnam">HELL LET LOOSE: VIETNAM</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-13">13 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/big-walk" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-04">04 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">93 EN METACRITIC: EL MEJOR PUNTUADO DE 2026</h2>
+          <p class="noticia-texto">Debuta con 93 y se convierte en el juego mejor valorado de todo 2026, por encima de Forza Horizon 6, Resident Evil Requiem y Mina the Hollower. Es lo nuevo de House House, el estudio de Untitled Goose Game: un juego de caminar y charlar en primera persona para grupos de dos a doce personas. Los desarrolladores recomiendan jugarlo con el chat de voz por proximidad, y hay puzles diseñados para cuando el grupo se separa y deja de escucharse.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/big-walk">BIG WALK</a></div>
         </div>
-        <h2 class="noticia-titulo">EL MEJOR INTENTO DE SUCESOR DE STAR FOX 64, Y ESE ES EL PROBLEMA</h2>
-        <p class="noticia-texto">Debuta con 61. Los elogios van al apartado audiovisual, con una estética de dibujo animado que se destaca, y la mayoría de las críticas dice lo mismo: sigue la fórmula de Star Fox 64 tan de cerca que en algunos tramos la repite golpe por golpe, sin arriesgar nada propio. También se le señala que la mira cuesta de leer y que el manejo de la nave se hace pesado. Cuesta 14,99 dólares.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/wild-blue-skies">WILD BLUE SKIES</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-13">13 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/kynseed" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/758870/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-04">04 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEBUTA EN CONSOLAS CON 89</h2>
+          <p class="noticia-texto">El original de PC de 2022 promedia 89 en Metacritic y ahora llega a las cinco consolas con los controles y la interfaz rehechos. Es un simulador de vida con una vuelta poco común: cuando tu personaje envejece y muere, seguís con sus hijos, y las decisiones arrastran consecuencias a lo largo de varias generaciones.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/kynseed">KYNSEED</a></div>
         </div>
-        <h2 class="noticia-titulo">66 DE DEBUT PARA EL REGRESO DE UN CLÁSICO DE 1986</h2>
-        <p class="noticia-texto">Vuelve el clásico de estrategia medieval de Cinemaware, que en su momento fue una vidriera de lo que podían hacer las computadoras de 16 bits. La nota de debut lo deja en el terreno de lo correcto sin más.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/defender-of-the-crown-the-legend-returns">DEFENDER OF THE CROWN: THE LEGEND RETURNS</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-13">13 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/fire-emblem-fortunes-weave" tabindex="-1" aria-hidden="true"><img src="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fireemblemfortunesweave/1x1_NSwitch2_FireEmblemFortunesWeave_image500w.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-04">04 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">EL DIRECT DESTAPÓ QUIÉN ES EL PROTAGONISTA DE VERDAD</h2>
+          <p class="noticia-texto">No es ninguno de los cuatro héroes que se muestran: es un personaje sin nombre que la diosa Sothis invoca cinco años en el futuro, con el mundo ya arrasado, y que vuelve al pasado para reunirlos. Se elige uno de los cuatro para empezar y después se puede saltar entre ellos para ver las historias en paralelo. El sistema de combate es el de Three Houses y suma las Blaze Arts, que se pagan con vida propia.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/fire-emblem-fortunes-weave">FIRE EMBLEM: FORTUNE&#x27;S WEAVE</a></div>
         </div>
-        <h2 class="noticia-titulo">EL COMBATE SE MUEVE POR LA FURIA, Y HAY ENEMIGOS QUE TE APAGAN LA CURACIÓN</h2>
-        <p class="noticia-texto">Insomniac detalló cómo se juega. La furia tiene tres niveles: en el segundo se desbloquea Última Resistencia, que permite curarse con ella al caer, y en el tercero los ataques pegan mucho más fuerte y se habilitan críticos brutales. La vuelta de tuerca son los inhibidores, aparatos que anulan el factor curativo y obligan a pelear sin red. Acompañan Mystique, Dientes de Sable y Jean Grey; el villano es Bolívar Trask, el industrial antimutante. La campaña va de la selva de Telambang a los bajos fondos de Madripoor.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/marvels-wolverine">MARVEL&#x27;S WOLVERINE</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-13">13 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/final-fantasy-xiv-online" tabindex="-1" aria-hidden="true"><img src="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxivonline/1x1_FinalFantasyXIVOnline_image500w.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-04">04 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">YA DISPONIBLE EN SWITCH 2</h2>
+          <p class="noticia-texto">Ya se puede jugar en Switch 2. El puntaje de referencia es el 86 de A Realm Reborn, la reconstrucción de 2013 que reemplazó al lanzamiento original de 2010, aquel que fue un fracaso tan grande que Square Enix terminó cerrando el juego para rehacerlo desde cero.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/final-fantasy-xiv-online">FINAL FANTASY XIV ONLINE</a></div>
         </div>
-        <h2 class="noticia-titulo">77 EN METACRITIC, PERO ESA NOTA ES LA DE PC</h2>
-        <p class="noticia-texto">El puntaje corresponde a la versión que salió el año pasado en computadora; las ediciones de consola que llegan hoy todavía no tienen notas propias. Traen el agregado del mouse en Switch 2 y de la barra de luz del DualSense.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/cloverpit">CLOVERPIT</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-13">13 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/fire-emblem-fortunes-weave" tabindex="-1" aria-hidden="true"><img src="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fireemblemfortunesweave/1x1_NSwitch2_FireEmblemFortunesWeave_image500w.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-04">04 AGO 2026</time>
+            <span class="noticia-cat cat-eventos">EVENTOS</span>
+          </div>
+          <h2 class="noticia-titulo">UN DIRECT ENTERO PARA FIRE EMBLEM: FORTUNE&#x27;S WEAVE</h2>
+          <p class="noticia-texto">Nintendo le dedicó veinte minutos a un solo juego. Se supo que la historia arranca con cuatro héroes compitiendo en los Juegos Heroicos de Dagsion, pero que el protagonista real es un héroe sin nombre que Sothis invoca cinco años en el futuro, con el mundo ya destruido, y que viaja al pasado para juntarlos. Se elige a uno de los cuatro y se puede cambiar de personaje sobre la marcha para ver las historias en paralelo. El combate es el de Three Houses, con una vuelta nueva: las Blaze Arts, ataques especiales que se pagan con vida propia en lugar de con durabilidad del arma. Sale el 17 de septiembre, solo en Switch 2.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/fire-emblem-fortunes-weave">FIRE EMBLEM: FORTUNE&#x27;S WEAVE</a><a class="noticia-fuente" href="https://www.nintendo.com/us/nintendo-direct/8-4-2026/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
         </div>
-        <h2 class="noticia-titulo">CINCO MILLONES DE JUGADORES ANTES DE LLEGAR A CONSOLAS</h2>
-        <p class="noticia-texto">El roguelike de la máquina tragamonedas acumuló más de cinco millones de jugadores entre Steam, Game Pass y móviles desde que salió el año pasado, y se lo comparó con Balatro y Buckshot Roulette. Cuesta 4,99 dólares. Las ediciones de consola traen agregados propios: control con mouse en Switch 2 y uso de la barra de luz del DualSense. El mismo día sale el DLC Unholy Fusion, con amuletos de fusión, tarjetas de memoria y un final alternativo.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/cloverpit">CLOVERPIT</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-12">12 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/beast-of-reincarnation" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-04">04 AGO 2026</time>
+            <span class="noticia-cat cat-suscripciones">SUSCRIPCIONES</span>
+          </div>
+          <h2 class="noticia-titulo">LO QUE ENTRA A GAME PASS EN AGOSTO</h2>
+          <p class="noticia-texto">Diez juegos entre el 4 y el 18 de agosto. Dos están en el calendario y llegan al servicio el mismo día que salen: Beast of Reincarnation el 4 y Monsters are Coming! el 6. Grounded 2 entra el 11 en formato Game Preview, pero en Xbox y PC: la fecha que figura en el calendario es la de su debut en PS5, que no tiene nada que ver con el servicio. Aparte, la beta de Gears of War: E-Day está disponible desde el 6 para Ultimate y PC Game Pass. Del otro lado, el 15 se van cuatro: Atlas Fallen, Aliens: Fireteam Elite, Firewatch y Menace.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/beast-of-reincarnation">BEAST OF REINCARNATION</a><a class="noticia-juego" href="/juegos/monsters-are-coming">MONSTERS ARE COMING!</a><a class="noticia-juego" href="/juegos/grounded-2">GROUNDED 2</a><a class="noticia-juego" href="/juegos/gears-of-war-e-day">GEARS OF WAR: E-DAY</a><a class="noticia-fuente" href="https://news.xbox.com/es-mx/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
         </div>
-        <h2 class="noticia-titulo">FÚTBOL AUSTRALIANO, ROGUELIKE Y 150 MEJORAS ABSURDAS</h2>
-        <p class="noticia-texto">Sale el mismo día en PS5, Xbox Series, Switch 2, Switch y PC. Es un juego de fútbol australiano de dos equipos de dieciocho con más de 150 mejoras que van deformando las reglas, incluida una que suelta el salvapantallas flotante de un reproductor de DVD en la cancha. Lo hacen Powerbomb Games y Tinker Town, de Adelaida; el director creativo es David Ashby, cocreador de la serie de comedia Danger 5.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/pro-jank-footy">PRO JANK FOOTY</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-12">12 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/beast-of-reincarnation" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-03">03 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">SALE MAÑANA Y ENTRA EN GAME PASS EL PRIMER DÍA</h2>
+          <p class="noticia-texto">Es el proyecto original más ambicioso de Game Freak fuera de Pokémon: un RPG de acción en tercera persona hecho en Unreal Engine 5 y dirigido por Kota Furushima. Transcurre en el Japón del año 4026 y seguís a Emma, una selladora, y a su perro Koo por una tierra arrasada por la corrupción. Famitsu le dio 35 de 40. Entra en Game Pass Ultimate y PC Game Pass desde el primer día.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/beast-of-reincarnation">BEAST OF REINCARNATION</a></div>
         </div>
-        <h2 class="noticia-titulo">EN SWITCH 2 RECIÉN EN 2027</h2>
-        <p class="noticia-texto">Sale en PS5, PS4, Xbox Series y Xbox One, una semana después de su estreno en PC. La versión de Switch 2 está anunciada para 2027, así que quien lo espere en una consola de Nintendo va a tener que esperar bastante. Es un metroidvania en 2,5D construido alrededor del impulso: el bastón de Mako sirve tanto para pelear como para planear desde las alturas y resolver puzles del escenario.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/akatori">AKATORI</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-12">12 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/final-fantasy-xiv-online" tabindex="-1" aria-hidden="true"><img src="https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxivonline/1x1_FinalFantasyXIVOnline_image500w.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-03">03 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">SALE MAÑANA EN SWITCH 2 Y NO NECESITA NINTENDO SWITCH ONLINE</h2>
+          <p class="noticia-texto">La prueba gratuita incluye A Realm Reborn y las expansiones Heavensward, Stormblood y Shadowbringers: entre trescientas y cuatrocientas horas sin pagar nada. Arranca con un mes de acceso anticipado para asegurar la estabilidad de los servidores y durante ese período tampoco hace falta la suscripción mensual. Tampoco se necesita Nintendo Switch Online. Ojo: si ya jugás en otra plataforma, igual tenés que comprar la versión de Switch 2 y pagar una suscripción aparte.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/final-fantasy-xiv-online">FINAL FANTASY XIV ONLINE</a></div>
         </div>
-        <h2 class="noticia-titulo">SALE EL 1 DE OCTUBRE, EL DÍA QUE EL ORIGINAL CUMPLE UN AÑO</h2>
-        <p class="noticia-texto">Cuesta 69,99 euros, y quien ya tenga el juego base puede pasarse por 14,99. Ese mismo día llega además una actualización gratuita para todos los jugadores, tengan o no la edición completa.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/ghost-of-yotei-complete-edition">GHOST OF YOTEI: EDICIÓN COMPLETA</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-12">12 AGO 2026</time>
-          <span class="noticia-cat cat-suscripciones">SUSCRIPCIONES</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/go-go-town" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-08-01">01 AGO 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEBUTA CON 81 Y ESTRENA LA VERSIÓN 1.0</h2>
+          <p class="noticia-texto">Debuta con 81 en Metacritic. La salida en Switch coincidió con el paso de acceso anticipado a la versión 1.0 definitiva en PC, después de dos años. La crítica destaca que es un juego de gestión que se entiende en los primeros minutos y aguanta decenas de horas: no se trata solo de decorar calles sino de armar una economía que termina funcionando sola. En Switch y Switch 2 tiene pantalla dividida nativa para jugar de a dos, en la misma consola o en línea.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/go-go-town">GO-GO TOWN!</a></div>
         </div>
-        <h2 class="noticia-titulo">EL CATÁLOGO DE PS PLUS DE AGOSTO SUMA HELLDIVERS 2</h2>
-        <p class="noticia-texto">Entran al catálogo de PlayStation Plus Helldivers 2, Kingdom Come: Deliverance 2, Vampire Survivors y Hell is Us, entre otros. Ojo con la diferencia: estos no son los juegos mensuales, que se reclaman y quedan para siempre, sino el catálogo de los planes Extra y Deluxe, que se puede jugar mientras dure la suscripción y mientras el juego siga ahí. Ninguno es un estreno, así que no llevan el distintivo de PS Plus en el calendario.</p>
-        <div class="noticia-pie"><a class="noticia-fuente" href="https://blog.latam.playstation.com/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-11">11 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/momento" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2474770/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">LOS OBJETOS QUE TIRÁS CAMBIAN EL FINAL</h2>
+          <p class="noticia-texto">Detrás hay dos estudios australianos pequeños, Fat Alien Cat y Nomo Studio. La vuelta de tuerca es que lo que decidís conservar o descartar al principio altera la historia de vida de la protagonista y puede cambiar lo que pasa al final. Tiene modo historia y modo creativo.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/momento">MOMENTO</a></div>
         </div>
-        <h2 class="noticia-titulo">DEBUTA CON 87 Y LA CRÍTICA DE PC LO CASTIGA POR OTRA COSA</h2>
-        <p class="noticia-texto">Arc System Works se lleva 87 en la versión de PS5, con elogios al combate y a lo accesible que resulta para quien no juega peleas. La bronca está en PC: el juego recibió una avalancha de reseñas negativas en Steam por exigir una cuenta de PSN obligatoria y por problemas de rendimiento, dos cosas que no afectan a la edición de consola.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/marvel-tokon-fighting-souls">MARVEL TŌKON: FIGHTING SOULS</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-11">11 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/botany-manor" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1425350/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">LA EDICIÓN DE SWITCH 2 SUBE A 1080p Y 60 IMÁGENES POR SEGUNDO</h2>
+          <p class="noticia-texto">La versión de Switch 2 pasa de 720p a 1080p y apunta a sesenta imágenes por segundo. Quien tenga el juego en la Switch original puede comprar el pack de mejora en lugar del juego completo. El original promedia 82 en Metacritic.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/botany-manor">BOTANY MANOR</a></div>
         </div>
-        <h2 class="noticia-titulo">72 DE DEBUT PARA UN DECKBUILDER INDONESIO</h2>
-        <p class="noticia-texto">Obra del estudio indonesio Mankibo. Es un roguelike de construcción de mazos con captura de criaturas, que pelea en una grilla de 3×3 y trae más de 570 cartas y 200 objetos. Las reseñas coinciden en que el sistema engancha; los reparos van a la falta de historia y a algunos errores que llegan a romper una partida.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/montabi">MONTABI</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-11">11 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/doom-the-dark-ages-revelations" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3469450/d6c6747deb3a3d20418c1f7a5b2de2304442badf/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">LA CRÍTICA LO PONE A LA ALTURA DE ETERNAL</h2>
+          <p class="noticia-texto">Debuta con 91 en Metacritic y 90 en OpenCritic. Suma seis niveles nuevos, enemigos, armas y el modo de desafíos Ripatorium 3.0, pero lo que se destaca es la Lanza Encadenada: se alterna al instante con la Sierra Escudo y permite encadenar las dos en un mismo combo. Los análisis coinciden en que devuelve la movilidad de DOOM Eternal sin perder el peso de The Dark Ages.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/doom-the-dark-ages-revelations">DOOM: THE DARK AGES | REVELATIONS</a></div>
         </div>
-        <h2 class="noticia-titulo">80 EN METACRITIC PARA LA REMASTERIZACIÓN</h2>
-        <p class="noticia-texto">El puntaje corresponde a la versión que salió en 2025 en PS5, Xbox y PC; esta edición de Switch 2 lleva el mismo contenido. Todavía no hay notas específicas del port de Nintendo.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-elder-scrolls-iv-oblivion-remastered">THE ELDER SCROLLS IV: OBLIVION REMASTERED</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-11">11 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/buckshot-roulette" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835570/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">ENTRA EN GAME PASS Y YA PASÓ LOS 9 MILLONES</h2>
+          <p class="noticia-texto">Llega a Xbox incluido en Game Pass desde el primer día, y suelto cuesta menos de tres dólares. El juego lleva más de nueve millones de copias vendidas, ocho de ellas solo en PC. Empezó en itch.io a fines de 2023 y explotó gracias a Twitch y TikTok.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/buckshot-roulette">BUCKSHOT ROULETTE</a></div>
         </div>
-        <h2 class="noticia-titulo">EL JUEGO ENTERO ENTRA EN EL CARTUCHO</h2>
-        <p class="noticia-texto">La edición física trae el juego completo en el cartucho, sin descarga obligatoria, y todas las versiones incluyen Shivering Isles, Knights of the Nine y el resto del contenido descargable. El port lo hizo Virtuos y suma control por movimiento, pantalla táctil y modo mouse. Apunta a 900p en portátil y 1080p en dock, siempre a 30 cuadros con DLSS: las pruebas previas al lanzamiento mostraron caídas por debajo de esa marca y un ritmo de cuadros irregular.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-elder-scrolls-iv-oblivion-remastered">THE ELDER SCROLLS IV: OBLIVION REMASTERED</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-11">11 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/moss-the-forgotten-relic" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3914860/0559b495ccbdcca5ff81fdd0b3e06db05c3c3a8e/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEJA DE SER EXCLUSIVO DE REALIDAD VIRTUAL</h2>
+          <p class="noticia-texto">Reúne Moss, Moss: Book II y el contenido Twilight Garden en un solo paquete, con los gráficos rehechos, escenas nuevas y el control readaptado. Es la primera vez que la saga se puede jugar sin casco de realidad virtual. La crítica lo recibió con 81: encantador, aunque se le notan los años y algún resabio de su origen en realidad virtual.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/moss-the-forgotten-relic">MOSS: THE FORGOTTEN RELIC</a></div>
         </div>
-        <h2 class="noticia-titulo">LLEGA EN ACCESO ANTICIPADO, NO TERMINADO</h2>
-        <p class="noticia-texto">Ojo con esto: la versión de PS5 no es la 1.0, es el acceso anticipado que en Xbox y PC viene desde julio de 2025. Sale junto con la actualización Into the Abyss y mantiene el juego cruzado con las otras plataformas.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/grounded-2">GROUNDED 2</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-11">11 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/the-mermaid-mask" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1696770/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">EL MEJOR DETECTIVE GRIMOIRE HASTA AHORA</h2>
+          <p class="noticia-texto">Debuta con 85 y la crítica coincide en que es la mejor entrega de la saga Detective Grimoire. Destacan el arte, la música, el elenco de voces y el diseño de los puzles, sostenidos por una buena historia y un guion con vueltas. El reparo más repetido es el ritmo del capítulo final, que se vuelve una lista de tareas antes de la acusación. Dura entre cuatro y seis horas.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-mermaid-mask">THE MERMAID MASK</a></div>
         </div>
-        <h2 class="noticia-titulo">SALE DEL ACCESO ANTICIPADO Y DEBUTA EN CONSOLAS</h2>
-        <p class="noticia-texto">Después de dos años en acceso anticipado en PC llega la 1.0, y es la primera vez que la saga pisa una consola. La versión final suma el modo Supervivencia para ocho jugadores, un modo en solitario sin muerte permanente, tutorial guiado, misiones semanales y un mapa nuevo, Raven Rock. Cuesta 29,99 dólares, con 20% de descuento de salida en las tiendas de PlayStation y Xbox, y hay juego cruzado entre todas las plataformas.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/no-more-room-in-hell-2">NO MORE ROOM IN HELL 2</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-07">07 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/blue-reflection-quartet" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3825390/9a5bc55299ab11f82ef6187b9d9fd452d7cad8ed/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEBUTA CON 79 Y RESCATA DOS OBRAS PERDIDAS</h2>
+          <p class="noticia-texto">Debuta con 79 en Metacritic. La colección reúne BLUE REFLECTION (2017) y Second Light (2021), pero lo interesante son las otras dos piezas: RAY nunca fue un juego —era una serie de anime de veinticuatro episodios cuya edición en Blu-ray se canceló— y acá se convirtió en una adaptación jugable; y SUN era un juego para móviles exclusivo de Japón que cerró en mayo de 2024, dejando su historia inaccesible, y fue rehecho para consolas. Suma ocho personajes de RAY y SUN como miembros del grupo.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/blue-reflection-quartet">BLUE REFLECTION QUARTET</a></div>
         </div>
-        <h2 class="noticia-titulo">PREMIADO EN BITSUMMIT Y EN LOS RPG MAKER AWARDS</h2>
-        <p class="noticia-texto">Obra de Mas, un desarrollador malayo que trabaja solo. Antes de llegar a Switch se llevó el Vermilion Gate Award en el BitSummit PUNCH y el premio mayor de los RPG Maker Awards 2026. Lo publica Happinet, con edición física en Japón; los idiomas confirmados son inglés, japonés y chino.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/artis-impact">ARTIS IMPACT</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-07">07 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/the-relic-first-guardian" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEBUTA CON 54 Y LA CRÍTICA LO DESARMA</h2>
+          <p class="noticia-texto">Sale hoy en PS5 y PC con 54 en Metacritic. Los análisis coinciden en que es ambicioso pero que casi todo lo que sostiene el juego se cae: el movimiento, la cámara, el bloqueo y la resistencia ceden a la mínima, los enemigos son excesivamente agresivos y los ochenta jefes terminan siendo esponjas de daño. Lo que sí rescatan es su mundo melancólico. Las versiones de Xbox Series y Switch 2 llegan más adelante en el verano boreal, y la edición física de PS5 el 4 de septiembre.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-relic-first-guardian">THE RELIC: FIRST GUARDIAN</a></div>
         </div>
-        <h2 class="noticia-titulo">EL MEJOR JUEGO DE PELEA DEL AÑO, SEGÚN LA CRÍTICA</h2>
-        <p class="noticia-texto">La edición de Xbox llega mes y medio después que el resto, con el juego ya evaluado: 78 de promedio sobre 39 críticas en OpenCritic, el puntaje más alto de un juego de pelea en 2026 y el más alto de un juego de Avatar. Los elogios van al combate; los reparos, a la cantidad de contenido y a las opciones.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/avatar-legends-the-fighting-game-xbox">AVATAR LEGENDS: THE FIGHTING GAME</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-06">06 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/space-warlord-baby-trading-simulator" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642000/6af85af9c964bc45a61c649b6085b492101250aa/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">ES SECUELA DEL SIMULADOR DE TRÁFICO DE ÓRGANOS</h2>
+          <p class="noticia-texto">Continúa Space Warlord Organ Trading Simulator, el juego de 2021 del mismo estudio. En un futuro donde predecir el porvenir dejó obsoletos los mercados normales, la plata se hace comprando acciones sobre la vida simulada de bebés alienígenas. Salió en PC en enero y en Xbox en marzo; las versiones de Switch llegaron de sorpresa.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/space-warlord-baby-trading-simulator">SPACE WARLORD BABY TRADING SIMULATOR</a></div>
         </div>
-        <h2 class="noticia-titulo">LA COMPLETE EDITION TRAE OVERTURE INCLUIDO</h2>
-        <p class="noticia-texto">La edición de Switch 2 se llama Complete Edition y reúne el juego base más la expansión Overture, todas las actualizaciones posteriores al lanzamiento, los modos de dificultad y desafío nuevos, y los contenidos cosméticos publicados hasta ahora. Está optimizada para la consola y sale en digital a 69,99 dólares.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/lies-of-p-switch-2">LIES OF P</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-05">05 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/the-witchs-bakery" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">SE RETRASÓ DOS MESES, AL 14 DE OCTUBRE</h2>
+          <p class="noticia-texto">Estaba anunciado para el 20 de agosto y se movió al 14 de octubre. Sale en PS5, Xbox Series, Switch 2, Switch y PC, con ediciones físicas para PS5, Switch 2 y Switch que incluyen un libro de recetas digital si se compran temprano.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-witchs-bakery">THE WITCH&#x27;S BAKERY</a></div>
         </div>
-        <h2 class="noticia-titulo">LA EDICIÓN DINOLUXE TRAE LOS DOS PACKS INCLUIDOS</h2>
-        <p class="noticia-texto">Sale hoy como Dinoluxe Edition: el juego base más los contenidos Sea Monsters y Prehistoric Wonders, sin comprarlos aparte. El original de PC es de 2020 y promedia 70 en Metacritic; en Switch está desde 2022. Publica Infogrames y desarrolla Washbear Studio.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/parkasaurus">PARKASAURUS</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-04">04 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/two-point-hospital-full-health-collection" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">LA EDICIÓN FÍSICA LLEGA EN NOVIEMBRE</h2>
+          <p class="noticia-texto">La versión digital sale el 16 de septiembre y la física el 6 de noviembre, para Switch 2 y PS5. El paquete suma catorce contenidos entre expansiones grandes, packs de objetos y extras dentro del juego. El original promedia 83 en Metacritic.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/two-point-hospital-full-health-collection">TWO POINT HOSPITAL: FULL HEALTH COLLECTION</a></div>
         </div>
-        <h2 class="noticia-titulo">DEBUTA CON 73 Y LA CRÍTICA SE PARTE AL MEDIO</h2>
-        <p class="noticia-texto">Cierra con 73 en Metacritic sobre más de cincuenta análisis, y el reparto es llamativo: la mitad positivos y la otra mitad mixtos, sin ninguno negativo. Vice le puso 9,5 sobre 10 y dijo que el combate no solo es innovador sino divertidísimo; Eurogamer y VGC le pusieron 6. Coinciden en elogiar el combate a base de parries y el vínculo entre Emma y Koo, y en criticar el ritmo del relato, la repetición y las caídas de imágenes por segundo.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/beast-of-reincarnation">BEAST OF REINCARNATION</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-04">04 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/maestro" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701700/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-31">31 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">FUE EL JUEGO DEL AÑO DE META EN 2024</h2>
+          <p class="noticia-texto">El original de realidad virtual se llevó el premio al Juego del Año de Meta en 2024 y promedia 93 en Metacritic. Trae más de treinta piezas que van de Beethoven y Vivaldi a Star Wars y Harry Potter. La versión de Switch cambia el seguimiento de manos por el movimiento de los Joy-Con.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/maestro">MAESTRO</a></div>
         </div>
-        <h2 class="noticia-titulo">ENTRA A PLAYSTATION PLUS EL MISMO DÍA QUE SALE</h2>
-        <p class="noticia-texto">Es uno de los tres juegos mensuales de PlayStation Plus de agosto, junto a Dying Light 2 Stay Human: Reloaded Edition y Signalis. Quien tenga la suscripción lo juega sin pagarlo aparte.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/big-walk">BIG WALK</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-04">04 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/truck-kun-is-supporting-me-from-another-world" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/e420ddf6b182eb2a7f68803fe8334fdf03f0a7ce/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-30">30 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">DEBUTA CON 68 EN METACRITIC</h2>
+          <p class="noticia-texto">Un día después de su estreno ya tiene puntaje: 68 en Metacritic.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/truck-kun-is-supporting-me-from-another-world">TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!</a></div>
         </div>
-        <h2 class="noticia-titulo">93 EN METACRITIC: EL MEJOR PUNTUADO DE 2026</h2>
-        <p class="noticia-texto">Debuta con 93 y se convierte en el juego mejor valorado de todo 2026, por encima de Forza Horizon 6, Resident Evil Requiem y Mina the Hollower. Es lo nuevo de House House, el estudio de Untitled Goose Game: un juego de caminar y charlar en primera persona para grupos de dos a doce personas. Los desarrolladores recomiendan jugarlo con el chat de voz por proximidad, y hay puzles diseñados para cuando el grupo se separa y deja de escucharse.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/big-walk">BIG WALK</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-04">04 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/kusan-city-of-wolves" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1714510/library_600x900.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-30">30 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">EL MEJOR PUNTUADO DEL DÍA: 84 EN METACRITIC</h2>
+          <p class="noticia-texto">Debuta con 84 en Metacritic y 82 en OpenCritic sobre doce análisis, el puntaje más alto de los doce lanzamientos de hoy. Es un juego de acción cenital en pixel art con la historia contada en viñetas de novela gráfica. La crítica destaca lo visceral del combate y el diseño sonoro, y avisa que no perdona errores y que la variedad es limitada.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/kusan-city-of-wolves">KUSAN: CITY OF WOLVES</a></div>
         </div>
-        <h2 class="noticia-titulo">DEBUTA EN CONSOLAS CON 89</h2>
-        <p class="noticia-texto">El original de PC de 2022 promedia 89 en Metacritic y ahora llega a las cinco consolas con los controles y la interfaz rehechos. Es un simulador de vida con una vuelta poco común: cuando tu personaje envejece y muere, seguís con sus hijos, y las decisiones arrastran consecuencias a lo largo de varias generaciones.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/kynseed">KYNSEED</a></div>
       </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-04">04 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
+      <article class="noticia noticia-con-portada">
+        <a class="noticia-portada" href="/juegos/truxton-extreme" tabindex="-1" aria-hidden="true"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3323490/e2a9d117851ffcd8194af97195c9757b3d342d61/header.jpg" alt="" loading="lazy" decoding="async"></a>
+        <div class="noticia-cuerpo">
+          <div class="noticia-meta">
+            <time datetime="2026-07-30">30 JUL 2026</time>
+            <span class="noticia-cat cat-juegos">JUEGOS</span>
+          </div>
+          <h2 class="noticia-titulo">LA SAGA VUELVE 38 AÑOS DESPUÉS</h2>
+          <p class="noticia-texto">Primera entrega nueva de Truxton desde 1988, desarrollada por Tatsujin, el estudio de Masahiro Yuge, uno de los fundadores de Toaplan. Conserva el diseño del original pero pasa a gráficos en 3D, y Yuge firma la banda sonora mezclando temas clásicos reimaginados con material nuevo. Debuta con 76 en Metacritic.</p>
+          <div class="noticia-pie"><a class="noticia-juego" href="/juegos/truxton-extreme">TRUXTON EXTREME</a></div>
         </div>
-        <h2 class="noticia-titulo">EL DIRECT DESTAPÓ QUIÉN ES EL PROTAGONISTA DE VERDAD</h2>
-        <p class="noticia-texto">No es ninguno de los cuatro héroes que se muestran: es un personaje sin nombre que la diosa Sothis invoca cinco años en el futuro, con el mundo ya arrasado, y que vuelve al pasado para reunirlos. Se elige uno de los cuatro para empezar y después se puede saltar entre ellos para ver las historias en paralelo. El sistema de combate es el de Three Houses y suma las Blaze Arts, que se pagan con vida propia.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/fire-emblem-fortunes-weave">FIRE EMBLEM: FORTUNE&#x27;S WEAVE</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-04">04 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">YA DISPONIBLE EN SWITCH 2</h2>
-        <p class="noticia-texto">Ya se puede jugar en Switch 2. El puntaje de referencia es el 86 de A Realm Reborn, la reconstrucción de 2013 que reemplazó al lanzamiento original de 2010, aquel que fue un fracaso tan grande que Square Enix terminó cerrando el juego para rehacerlo desde cero.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/final-fantasy-xiv-online">FINAL FANTASY XIV ONLINE</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-04">04 AGO 2026</time>
-          <span class="noticia-cat cat-eventos">EVENTOS</span>
-        </div>
-        <h2 class="noticia-titulo">UN DIRECT ENTERO PARA FIRE EMBLEM: FORTUNE&#x27;S WEAVE</h2>
-        <p class="noticia-texto">Nintendo le dedicó veinte minutos a un solo juego. Se supo que la historia arranca con cuatro héroes compitiendo en los Juegos Heroicos de Dagsion, pero que el protagonista real es un héroe sin nombre que Sothis invoca cinco años en el futuro, con el mundo ya destruido, y que viaja al pasado para juntarlos. Se elige a uno de los cuatro y se puede cambiar de personaje sobre la marcha para ver las historias en paralelo. El combate es el de Three Houses, con una vuelta nueva: las Blaze Arts, ataques especiales que se pagan con vida propia en lugar de con durabilidad del arma. Sale el 17 de septiembre, solo en Switch 2.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/fire-emblem-fortunes-weave">FIRE EMBLEM: FORTUNE&#x27;S WEAVE</a><a class="noticia-fuente" href="https://www.nintendo.com/us/nintendo-direct/8-4-2026/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-04">04 AGO 2026</time>
-          <span class="noticia-cat cat-suscripciones">SUSCRIPCIONES</span>
-        </div>
-        <h2 class="noticia-titulo">LO QUE ENTRA A GAME PASS EN AGOSTO</h2>
-        <p class="noticia-texto">Diez juegos entre el 4 y el 18 de agosto. Dos están en el calendario y llegan al servicio el mismo día que salen: Beast of Reincarnation el 4 y Monsters are Coming! el 6. Grounded 2 entra el 11 en formato Game Preview, pero en Xbox y PC: la fecha que figura en el calendario es la de su debut en PS5, que no tiene nada que ver con el servicio. Aparte, la beta de Gears of War: E-Day está disponible desde el 6 para Ultimate y PC Game Pass. Del otro lado, el 15 se van cuatro: Atlas Fallen, Aliens: Fireteam Elite, Firewatch y Menace.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/beast-of-reincarnation">BEAST OF REINCARNATION</a><a class="noticia-juego" href="/juegos/monsters-are-coming">MONSTERS ARE COMING!</a><a class="noticia-juego" href="/juegos/grounded-2">GROUNDED 2</a><a class="noticia-juego" href="/juegos/gears-of-war-e-day">GEARS OF WAR: E-DAY</a><a class="noticia-fuente" href="https://news.xbox.com/es-mx/" rel="nofollow noopener" target="_blank">FUENTE ↗</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-03">03 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">SALE MAÑANA Y ENTRA EN GAME PASS EL PRIMER DÍA</h2>
-        <p class="noticia-texto">Es el proyecto original más ambicioso de Game Freak fuera de Pokémon: un RPG de acción en tercera persona hecho en Unreal Engine 5 y dirigido por Kota Furushima. Transcurre en el Japón del año 4026 y seguís a Emma, una selladora, y a su perro Koo por una tierra arrasada por la corrupción. Famitsu le dio 35 de 40. Entra en Game Pass Ultimate y PC Game Pass desde el primer día.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/beast-of-reincarnation">BEAST OF REINCARNATION</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-03">03 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">SALE MAÑANA EN SWITCH 2 Y NO NECESITA NINTENDO SWITCH ONLINE</h2>
-        <p class="noticia-texto">La prueba gratuita incluye A Realm Reborn y las expansiones Heavensward, Stormblood y Shadowbringers: entre trescientas y cuatrocientas horas sin pagar nada. Arranca con un mes de acceso anticipado para asegurar la estabilidad de los servidores y durante ese período tampoco hace falta la suscripción mensual. Tampoco se necesita Nintendo Switch Online. Ojo: si ya jugás en otra plataforma, igual tenés que comprar la versión de Switch 2 y pagar una suscripción aparte.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/final-fantasy-xiv-online">FINAL FANTASY XIV ONLINE</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-08-01">01 AGO 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">DEBUTA CON 81 Y ESTRENA LA VERSIÓN 1.0</h2>
-        <p class="noticia-texto">Debuta con 81 en Metacritic. La salida en Switch coincidió con el paso de acceso anticipado a la versión 1.0 definitiva en PC, después de dos años. La crítica destaca que es un juego de gestión que se entiende en los primeros minutos y aguanta decenas de horas: no se trata solo de decorar calles sino de armar una economía que termina funcionando sola. En Switch y Switch 2 tiene pantalla dividida nativa para jugar de a dos, en la misma consola o en línea.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/go-go-town">GO-GO TOWN!</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">LOS OBJETOS QUE TIRÁS CAMBIAN EL FINAL</h2>
-        <p class="noticia-texto">Detrás hay dos estudios australianos pequeños, Fat Alien Cat y Nomo Studio. La vuelta de tuerca es que lo que decidís conservar o descartar al principio altera la historia de vida de la protagonista y puede cambiar lo que pasa al final. Tiene modo historia y modo creativo.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/momento">MOMENTO</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">LA EDICIÓN DE SWITCH 2 SUBE A 1080p Y 60 IMÁGENES POR SEGUNDO</h2>
-        <p class="noticia-texto">La versión de Switch 2 pasa de 720p a 1080p y apunta a sesenta imágenes por segundo. Quien tenga el juego en la Switch original puede comprar el pack de mejora en lugar del juego completo. El original promedia 82 en Metacritic.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/botany-manor">BOTANY MANOR</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">LA CRÍTICA LO PONE A LA ALTURA DE ETERNAL</h2>
-        <p class="noticia-texto">Debuta con 91 en Metacritic y 90 en OpenCritic. Suma seis niveles nuevos, enemigos, armas y el modo de desafíos Ripatorium 3.0, pero lo que se destaca es la Lanza Encadenada: se alterna al instante con la Sierra Escudo y permite encadenar las dos en un mismo combo. Los análisis coinciden en que devuelve la movilidad de DOOM Eternal sin perder el peso de The Dark Ages.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/doom-the-dark-ages-revelations">DOOM: THE DARK AGES | REVELATIONS</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">ENTRA EN GAME PASS Y YA PASÓ LOS 9 MILLONES</h2>
-        <p class="noticia-texto">Llega a Xbox incluido en Game Pass desde el primer día, y suelto cuesta menos de tres dólares. El juego lleva más de nueve millones de copias vendidas, ocho de ellas solo en PC. Empezó en itch.io a fines de 2023 y explotó gracias a Twitch y TikTok.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/buckshot-roulette">BUCKSHOT ROULETTE</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">DEJA DE SER EXCLUSIVO DE REALIDAD VIRTUAL</h2>
-        <p class="noticia-texto">Reúne Moss, Moss: Book II y el contenido Twilight Garden en un solo paquete, con los gráficos rehechos, escenas nuevas y el control readaptado. Es la primera vez que la saga se puede jugar sin casco de realidad virtual. La crítica lo recibió con 81: encantador, aunque se le notan los años y algún resabio de su origen en realidad virtual.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/moss-the-forgotten-relic">MOSS: THE FORGOTTEN RELIC</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">EL MEJOR DETECTIVE GRIMOIRE HASTA AHORA</h2>
-        <p class="noticia-texto">Debuta con 85 y la crítica coincide en que es la mejor entrega de la saga Detective Grimoire. Destacan el arte, la música, el elenco de voces y el diseño de los puzles, sostenidos por una buena historia y un guion con vueltas. El reparo más repetido es el ritmo del capítulo final, que se vuelve una lista de tareas antes de la acusación. Dura entre cuatro y seis horas.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-mermaid-mask">THE MERMAID MASK</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">DEBUTA CON 79 Y RESCATA DOS OBRAS PERDIDAS</h2>
-        <p class="noticia-texto">Debuta con 79 en Metacritic. La colección reúne BLUE REFLECTION (2017) y Second Light (2021), pero lo interesante son las otras dos piezas: RAY nunca fue un juego —era una serie de anime de veinticuatro episodios cuya edición en Blu-ray se canceló— y acá se convirtió en una adaptación jugable; y SUN era un juego para móviles exclusivo de Japón que cerró en mayo de 2024, dejando su historia inaccesible, y fue rehecho para consolas. Suma ocho personajes de RAY y SUN como miembros del grupo.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/blue-reflection-quartet">BLUE REFLECTION QUARTET</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">DEBUTA CON 54 Y LA CRÍTICA LO DESARMA</h2>
-        <p class="noticia-texto">Sale hoy en PS5 y PC con 54 en Metacritic. Los análisis coinciden en que es ambicioso pero que casi todo lo que sostiene el juego se cae: el movimiento, la cámara, el bloqueo y la resistencia ceden a la mínima, los enemigos son excesivamente agresivos y los ochenta jefes terminan siendo esponjas de daño. Lo que sí rescatan es su mundo melancólico. Las versiones de Xbox Series y Switch 2 llegan más adelante en el verano boreal, y la edición física de PS5 el 4 de septiembre.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-relic-first-guardian">THE RELIC: FIRST GUARDIAN</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">ES SECUELA DEL SIMULADOR DE TRÁFICO DE ÓRGANOS</h2>
-        <p class="noticia-texto">Continúa Space Warlord Organ Trading Simulator, el juego de 2021 del mismo estudio. En un futuro donde predecir el porvenir dejó obsoletos los mercados normales, la plata se hace comprando acciones sobre la vida simulada de bebés alienígenas. Salió en PC en enero y en Xbox en marzo; las versiones de Switch llegaron de sorpresa.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/space-warlord-baby-trading-simulator">SPACE WARLORD BABY TRADING SIMULATOR</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">SE RETRASÓ DOS MESES, AL 14 DE OCTUBRE</h2>
-        <p class="noticia-texto">Estaba anunciado para el 20 de agosto y se movió al 14 de octubre. Sale en PS5, Xbox Series, Switch 2, Switch y PC, con ediciones físicas para PS5, Switch 2 y Switch que incluyen un libro de recetas digital si se compran temprano.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/the-witchs-bakery">THE WITCH&#x27;S BAKERY</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">LA EDICIÓN FÍSICA LLEGA EN NOVIEMBRE</h2>
-        <p class="noticia-texto">La versión digital sale el 16 de septiembre y la física el 6 de noviembre, para Switch 2 y PS5. El paquete suma catorce contenidos entre expansiones grandes, packs de objetos y extras dentro del juego. El original promedia 83 en Metacritic.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/two-point-hospital-full-health-collection">TWO POINT HOSPITAL: FULL HEALTH COLLECTION</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-31">31 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">FUE EL JUEGO DEL AÑO DE META EN 2024</h2>
-        <p class="noticia-texto">El original de realidad virtual se llevó el premio al Juego del Año de Meta en 2024 y promedia 93 en Metacritic. Trae más de treinta piezas que van de Beethoven y Vivaldi a Star Wars y Harry Potter. La versión de Switch cambia el seguimiento de manos por el movimiento de los Joy-Con.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/maestro">MAESTRO</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-30">30 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">DEBUTA CON 68 EN METACRITIC</h2>
-        <p class="noticia-texto">Un día después de su estreno ya tiene puntaje: 68 en Metacritic.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/truck-kun-is-supporting-me-from-another-world">TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-30">30 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">EL MEJOR PUNTUADO DEL DÍA: 84 EN METACRITIC</h2>
-        <p class="noticia-texto">Debuta con 84 en Metacritic y 82 en OpenCritic sobre doce análisis, el puntaje más alto de los doce lanzamientos de hoy. Es un juego de acción cenital en pixel art con la historia contada en viñetas de novela gráfica. La crítica destaca lo visceral del combate y el diseño sonoro, y avisa que no perdona errores y que la variedad es limitada.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/kusan-city-of-wolves">KUSAN: CITY OF WOLVES</a></div>
-      </article>
-      <article class="noticia">
-        <div class="noticia-meta">
-          <time datetime="2026-07-30">30 JUL 2026</time>
-          <span class="noticia-cat cat-juegos">JUEGOS</span>
-        </div>
-        <h2 class="noticia-titulo">LA SAGA VUELVE 38 AÑOS DESPUÉS</h2>
-        <p class="noticia-texto">Primera entrega nueva de Truxton desde 1988, desarrollada por Tatsujin, el estudio de Masahiro Yuge, uno de los fundadores de Toaplan. Conserva el diseño del original pero pasa a gráficos en 3D, y Yuge firma la banda sonora mezclando temas clásicos reimaginados con material nuevo. Debuta con 76 en Metacritic.</p>
-        <div class="noticia-pie"><a class="noticia-juego" href="/juegos/truxton-extreme">TRUXTON EXTREME</a></div>
       </article>
       <p class="noticias-pie">Se muestran las 60 novedades más recientes de 132.
         Las anteriores siguen en la ficha de cada juego.<br>

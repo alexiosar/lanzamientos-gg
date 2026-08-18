@@ -512,6 +512,12 @@ en este archivo y en la sección "Fuentes de datos habituales".
    | [news.xbox.com](https://news.xbox.com/es-mx/) | Game Pass y anuncios de Xbox. |
    | [Gematsu](https://www.gematsu.com/) | **Retrasos y fechas nuevas de consola.** Es el que primero los levanta, y son justo el material que le falta a `datos/noticias.js`. |
    | [nintendo.com/us/nintendo-direct](https://www.nintendo.com/us/nintendo-direct/) | Directs y sus anuncios. |
+   | [Vandal](https://vandal.elespanol.com/) y [3DJuegos](https://www.3djuegos.com/) | **Radar, no fuente de verdad.** Cubren mucho más que las anteriores, en español y con el criterio de qué le importa al público hispanohablante: rumores, ediciones, coberturas que Gematsu no toca por su sesgo japonés. |
+
+   **Descubrir no es verificar.** Cualquiera de estas fuentes sirve para enterarse de que
+   algo pasó, pero antes de tocar una fecha o una plataforma hay que verlo en la tienda
+   (PS Store, eShop, Steam). Esa doble pasada es la que atrapó que Creepshow salía solo en
+   PC y que Nioh 3: Hell Rising era DLC.
 
    Tres cosas salen de ahí, y conviene no quedarse solo con la primera:
    - una **noticia** (de un juego o propia);
@@ -521,6 +527,11 @@ en este archivo y en la sección "Fuentes de datos habituales".
    Ojo con el catálogo de PS Plus: los planes Extra y Deluxe suman juegos viejos, que **no
    son estrenos**. Van como noticia, pero no llevan `psplus: true`, que está reservado para
    los que debutan en el servicio el día que salen.
+
+   **Los rumores van con categoría `RUMORES` y no tocan los datos.** Nunca modifican `fecha`,
+   `plataformas` ni ningún campo del juego: viven dentro de la noticia, nombrando quién lo
+   reportó y en condicional. La regla completa, con el motivo, está en la cabecera de
+   `datos/noticias.js`. En la página se distinguen solas: la etiqueta va con borde punteado.
 3. `python3 scripts/post-diario.py` — imprime tres opciones de posteo para X y Bluesky
    (lanzamientos del día, lo que viene en la semana, cuenta regresiva) con el conteo de
    caracteres de cada red. No publica nada: se elige una, se copia y se pega. Correrlo

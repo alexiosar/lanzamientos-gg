@@ -178,7 +178,8 @@ def main():
     print("  ¿Pasó algo que no cuelgue de un lanzamiento? Retrasos, un Direct o State of")
     print("  Play, PS Plus o Game Pass del mes. Si no pasó nada, no se fuerza.")
     print("  Fuentes:  blog.latam.playstation.com · news.xbox.com · gematsu.com")
-    print("            nintendo.com/us/nintendo-direct")
+    print("            nintendo.com/us/nintendo-direct · vandal.elespanol.com · 3djuegos.com")
+    print("  Vandal y 3DJuegos son radar: verificar en la tienda antes de tocar una fecha.")
     print("  De ahí no sale solo la noticia: también juegos que faltan y fechas a corregir.")
 
     print("\n═══ Siguiente paso: noticias (si hay), commit y deploy ═══")
