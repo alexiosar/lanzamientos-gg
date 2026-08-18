@@ -285,6 +285,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/ZdMwqKiSeEE",
     metacritic: 82,
     metacriticUsuarios: 8.6,
+    critica: "Después de una década sin la serie, el acuerdo es que no perdió el paso. Los elogios van a los más de ochenta minijuegos, a lo pegadiza que es la música y a un multijugador que varias reseñas señalan como lo mejor del paquete. Los reparos son chicos y coinciden: no todos los modos secundarios aciertan. Aparece además una queja de traducción, porque en varios países las letras adaptadas eran parte de la gracia y acá las canciones quedaron en japonés.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/rhythmparadisegroove/1x1_NSwitch_RythmParadiseGroove_image500w.jpg",
     noticias: [
       {
@@ -340,6 +341,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/KFr4j_Oqy14",
     metacritic: 82,
     metacriticUsuarios: 7.3,
+    critica: "Las reseñas son las de 2024, cuando salió en otras consolas. Todas cuentan lo mismo y con cariño: es un juego de puzzles en primera persona donde se hacen florecer plantas inventadas leyendo notas y libros, en una casa inglesa preciosa, y funciona como un rato de calma. El reparo también es unánime y es de tamaño: dura unas tres horas, y más de una reseña dice que el precio se siente alto para lo que dura.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1425350/library_600x900.jpg",
     noticias: [
       {
@@ -515,6 +517,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
+    critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg",
     noticias: [
       {
@@ -571,6 +574,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/3v--EoDTB5A",
     metacritic: 83,
     metacriticUsuarios: 8.2,
+    critica: "La prensa coincide en que la expansión es lo que convierte a Relink en su versión definitiva: modo roguelite, invocaciones jugables, personajes nuevos y un montón de arreglos de comodidad. La discusión está en para quién: las reseñas más entusiastas hablan al que nunca lo jugó, y la más dura, que lo baja bastante, dice que para el que ya lo terminó es más de lo mismo. Del original arrastra el mismo reparo de siempre, que la historia es lo más flojo del conjunto.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/granbluefantasyrelinkendlessragnarok/1x1_GranblueFantasyRelinkEndlessRagnarok_image500w.jpg",
     noticias: [
       {
@@ -770,6 +774,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/OYNqetlubUw",
     metacritic: 82,
     metacriticUsuarios: 7.5,
+    critica: "Hay bastante acuerdo en que la idea sostiene el juego: un roguelite donde el reloj es el recurso, y detener el tiempo es a la vez la mecánica y la fuente de tensión. Se elogian el ritmo, la progresión que queda entre partidas y la variedad de construcciones de personaje. Los reparos apuntan todos al final: cuando se agota el contenido, la cosa se vuelve una cuestión de números y pierde la gracia que tenía al principio.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2697940/library_600x900.jpg",
     noticias: [
       {
@@ -879,6 +884,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/ji-sO68H1-8",
     metacritic: 82,
     metacriticUsuarios: 7.9,
+    critica: "El punto que casi todas las reseñas destacan no es jugable sino histórico: es un ARPG brasileño ambientado en la Guerra de Canudos, un escenario que ningún juego había tocado, y varias cuentan que las mandó a leer sobre el tema. Del juego se elogian el combate frenético y la profundidad para armar el personaje. Los reparos también coinciden: la historia pierde fuerza a medida que avanza, y el combate es más de optimizar números que de habilidad, algo que lo aleja de un Hades.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782460/library_600x900.jpg",
     noticias: [
       {
@@ -1117,6 +1123,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/57nbZWfS8TQ",
     metacritic: 82,
     metacriticUsuarios: 9.0,
+    critica: "El acuerdo es que la secuela hace lo que tenía que hacer: más variedad de niveles, juego en línea y objetivos nuevos, sin tocar la fórmula de colgarse de las manos y arruinarle el paso al amigo. Casi todas las reseñas lo describen como un juego para tener a mano cuando hay gente en casa. Los dos reparos que se repiten son el modo versus, que no convence a casi nadie, y que el juego apostó todo al multijugador dejando de lado al que juega solo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2802740/829d9cf1b2dc94d98d2df66cf91ecec316e55802/header.jpg",
     noticias: [
       {
@@ -1324,6 +1331,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/yqhM9qeBbA0",
     metacritic: 82,
     metacriticUsuarios: 9.0,
+    critica: "Las reseñas son de la versión de PC de 2022. Están de acuerdo en que es un homenaje bien entendido a los shooters de los noventa, con Blood como referencia declarada: atmósfera densa, tiroteos secos y un diseño de niveles que la prensa elogia por encima del resto. El reparo que aparece es de estructura: arranca eléctrico y se va dispersando, y en la segunda mitad pierde el foco que lo hacía tan bueno al principio.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1684930/library_600x900.jpg",
     noticias: [
       {
@@ -1631,6 +1639,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Xjpao-nD5YU",
     metacritic: 83,
     metacriticUsuarios: 8.5,
+    critica: "Las reseñas son las de 2017, cuando salió en Switch. Es de los juegos que más divide dentro del elogio: casi todos coinciden en que el mundo, la banda sonora y la ambición son excepcionales, y casi todos aclaran que hay que aguantar para llegar. El combate tarda decenas de horas en abrirse y lo explica mal, los marcadores del mapa confunden, y el tono anime, con su fan service, es lo que más incomodó a la prensa occidental. Las notas más altas dicen lo mismo que las más bajas, sólo que decidieron que valía la pena.",
     imagen: "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_XenobladeChronicles2_image500w.jpg",
     noticias: [
       {
@@ -3414,6 +3423,7 @@ const JUEGOS = [
     descripcion: "El paquete completo del simulador de hospitales de Two Point Studios: el juego base más los catorce contenidos descargables publicados hasta ahora. Diseñás clínicas absurdas, curás enfermedades imposibles y lidiás con un personal que rara vez colabora.",
     trailer: "https://youtube.com/embed/JSkvu2ZwKbA",
     metacritic: 83,
+    critica: "El puntaje no es de esta colección sino del juego original de 2018, que es de donde salen las reseñas. La prensa lo recibió como el heredero legítimo de Theme Hospital: el humor absurdo, las enfermedades inventadas y la administración liviana convencieron a casi todos. El reparo se repite con insistencia: hereda también los defectos del original, sobre todo un micromanejo que se vuelve tedioso, y hay quien le reprocha que en veinte años no aprendió a castigar los errores del jugador.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/library_600x900.jpg",
     noticias: [
       {
