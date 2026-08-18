@@ -85,6 +85,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/cWJR_d9gBZ4",
     metacritic: 81,
     metacriticUsuarios: 8.2,
+    critica: "La prensa lo recibió como el remake que fija la versión definitiva de Star Fox 64: mismas misiones, rehechas con un salto visual grande y la banda sonora orquestada como lo más elogiado del paquete. El cooperativo nuevo aparece bien parado en casi todas las reseñas. Los reparos son de ambición: es fiel hasta el punto de agregar poco, y varias notas señalan que el multijugador competitivo es un agregado simpático y nada más.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starfox/1x1_Starfox_image500w.jpg",
     noticias: [
       {
@@ -382,6 +383,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/VL_15TiRRAM",
     metacritic: 81,
     metacriticUsuarios: 8.1,
+    critica: "Las reseñas coinciden en que es una simulación de granja sólida con una vuelta propia: se juega de noche, con vampiros, y esa capa sobrenatural es lo que lo separa de Stardew Valley y compañía. Los elogios van al ambiente de Halloween permanente, a los personajes y a varias comodidades bien pensadas. El reparo más repetido es que no exprime del todo su propio tema: hay quien dice que debajo del disfraz sigue siendo el mismo juego de siempre.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/library_600x900.jpg",
     noticias: [
       {
@@ -965,6 +967,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/olYY9vIUIrI",
     metacritic: 81,
     metacriticUsuarios: null,
+    critica: "Son cuatro reseñas y están de acuerdo: es un plataformas en 3D de los de juntar cosas, a la vieja usanza, hecho con cariño. Los elogios van al control preciso, al humor y al doblaje con acento neozelandés, que a varios les resultó lo más simpático del juego. El único reparo que aparece es que la dificultad está más baja que la del promedio de hoy, algo que según el medio se lee como defecto o como virtud.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2783370/library_600x900.jpg",
     noticias: [
       {
@@ -1083,6 +1086,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/ah9Ww_xh0Ts",
     metacritic: 81,
     metacriticUsuarios: null,
+    critica: "Con apenas cuatro reseñas, todas coinciden en lo mismo: es un simulador de intendente accesible y relajado, donde se hace crecer un pueblo sin que el juego exija demasiado. Los elogios van a lo fácil que es entrarle y a la cantidad de cosas para hacer. El reparo también es unánime: los sistemas no son profundos, así que es un juego de unas cuantas decenas de horas y no de los que se quedan para siempre.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195120/library_600x900.jpg",
     noticias: [
       {
@@ -1250,6 +1254,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/2AxSBrHMMt0",
     metacritic: 81,
     metacriticUsuarios: 5.9,
+    critica: "La prensa lo trata como lo que es: un juego de supervivencia tranquilo donde el objetivo es convertir una roca muerta en un planeta habitable, y ver el cielo cambiar de color es la recompensa. Coinciden en que engancha y en que le falta un cierre: varias reseñas piden un objetivo final o una historia que sostenga el tramo largo. La distancia con el puntaje de los jugadores es engañosa: la mayoría de las notas más bajas son de la versión de PC y se quejan de un cambio de requisitos que dejó a gente sin poder abrir el juego que ya había comprado, algo que no tiene nada que ver con esta edición.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/library_600x900.jpg",
     noticias: [
       {
@@ -1273,6 +1278,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 81,
     metacriticUsuarios: 9.2,
+    critica: "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
     noticias: [
       {
@@ -1663,6 +1669,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/uZ1hyKQOyJs",
     metacritic: 80,
     metacriticUsuarios: null,
+    critica: "Todas las reseñas lo comparan con Hotline Miami, empezando por sus propios autores, y ahí está el acuerdo: es un juego de morir de un golpe y volver a empezar, donde lo que importa es encadenar el movimiento perfecto. Se elogian el estilo, las animaciones y una ciudad cyberpunk de animales con identidad propia. Los reparos son dos y se repiten: no llega al pulido del juego con el que se compara, y la historia se queda atrás del resto. La muerte instantánea no es para todo el mundo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1714510/library_600x900.jpg",
     noticias: [
       {
@@ -1734,6 +1741,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/vUsSwUo2IrY",
     metacritic: 82,
     metacriticUsuarios: 5.9,
+    critica: "Las reseñas son pocas —cuatro— y todas van para el mismo lado: manejar un tren que atraviesa el vacío es una idea con la que cuesta no engancharse, y el bucle de mantenerlo, ampliarlo y mejorarlo aguanta hasta el final. Los reparos que aparecen son de terminación, no de fondo. El puntaje de usuarios está muy por debajo del de la prensa, pero conviene saber que se apoya en apenas cinco votos: no alcanza para leerlo como un desacuerdo real.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159690/library_600x900.jpg",
     noticias: [
       {
@@ -1968,6 +1976,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/CZXjQRcu2B8",
     metacritic: 80,
     metacriticUsuarios: 7.8,
+    critica: "Lo que la prensa destaca es la idea, y la destaca entera: el reino sólo produce mientras el rey lo está mirando, y esa sola regla ordena todo el juego. Se elogian la mezcla de construcción de aldea con roguelite, el arte en píxeles y lo adictivo del bucle. Los reparos coinciden bastante: le falta variedad, el azar y el balance todavía no están finos, y las partidas piden bastante micromanejo. La reseña más dura avisa que la cantidad de derrotas antes de avanzar no es para cualquiera.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753900/library_600x900.jpg",
     noticias: [
       {
@@ -3660,6 +3669,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/C6w_31mWz8A",
     metacritic: 82,
     metacriticUsuarios: 8.3,
+    critica: "Las reseñas son de la versión de PC de 2021 y coinciden en lo central: es un libro jugable, con muy poca interacción más allá de elegir, y su fuerza está enteramente en la escritura. El mundo, esa fantasía oscura con política pseudohistórica, y la idea de acompañar a un personaje de la cuna a la tumba se llevan casi todos los elogios. Los reparos son dos: el apartado visual es pobre, y hay quien se decepcionó con el final por no ser consecuente con las decisiones tomadas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272160/library_600x900.jpg",
     noticias: [
       {
