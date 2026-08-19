@@ -1048,6 +1048,20 @@ const JUEGOS = [
     alta: "2026-07-09"
   },
   {
+    id: "everspace-2-galactic-edition",
+    titulo: "EVERSPACE 2: GALACTIC EDITION",
+    relanzamiento: "En PC desde 2023 y en PS5 y Xbox desde 2024 — esta edición junta el juego con sus dos expansiones",
+    fecha: "2026-08-12",
+    plataformas: ["SWITCH2"],
+    genero: ["ACCION", "AVENTURA", "RPG", "MUNDO ABIERTO"],
+    desarrollador: "ROCKFISH GAMES",
+    descripcion: "Un juego de naves de acción y exploración con estructura de RPG: se minan asteroides, se saquea lo que quedó de otras naves y se arma la propia con lo que aparece. Detrás hay una historia de ciencia ficción con un mundo abierto lleno de secretos, y la Galactic Edition suma las dos expansiones que salieron después del lanzamiento original.",
+    trailer: "https://youtube.com/embed/wPw6dbCXcGA",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1128920/library_600x900.jpg",
+    alta: "2026-08-19"
+  },
+  {
     id: "small-saga",
     titulo: "SMALL SAGA",
     relanzamiento: "En PC desde noviembre de 2023",
@@ -1666,7 +1680,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 80,
     metacriticUsuarios: 5.8,
-    metacriticVotos: 641,
+    metacriticVotos: 642,
     critica: "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
     noticias: [
@@ -2203,7 +2217,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/xfzapBQssa0",
     metacritic: 91,
     metacriticUsuarios: 8.1,
-    metacriticVotos: 219,
+    metacriticVotos: 220,
     critica: "El acuerdo es casi total: lo que hace especial a Big Walk no son sus puzzles sino las conversaciones que obliga a tener. Casi todas las reseñas cuentan lo mismo, que los mejores momentos son los que el juego no programó, los que salen de coordinarse mal con un amigo, y varias lo emparentan con Untitled Goose Game, del mismo estudio. El reparo, cuando aparece, es el ritmo: la isla es grande y hay tramos largos donde no pasa nada, algo que se siente más de a dos que en grupo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
     noticias: [

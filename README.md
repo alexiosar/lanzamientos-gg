@@ -717,6 +717,24 @@ categoría `SUSCRIPCIONES`.
    - cambios de fecha y de plataformas de los que ya están (las fechas se adelantan y se
      atrasan; ej. Hot Wheels Infinite Rush pasó del 24 al 10 de septiembre).
 
+   **releases.com también inventa lanzamientos que no existen.** El 19/08/2026 listaba Super
+   Mario Sunshine para Switch 2 el 13/08 y Minecraft para Switch 2 el 27/10, y ninguno de los
+   dos aparece en la eShop en esas fechas: son juegos que llegan por Nintendo Classics o por
+   una actualización gratuita, no lanzamientos. La eShop europea sirve para verificarlo de una,
+   preguntando qué sale en un rango de fechas:
+
+   ```
+   https://searching.nintendo-europe.com/en/select?q=*&wt=json&rows=40
+     &fq=type:GAME AND dates_released_dts:[2026-10-25T00:00:00Z TO 2026-10-29T00:00:00Z]
+     &fl=title,dates_released_dts,system_names_txt,image_url_sq_s,publisher
+   ```
+
+   Si un juego que releases.com anuncia para una fecha no está en esa lista, no se carga.
+
+   **Y parte lanzamientos en dos.** Octopath Traveler y Octopath Traveler II figuraban como dos
+   juegos distintos el 1 de octubre; la eShop muestra un solo producto, el bundle de los dos,
+   que ya teníamos cargado. Lo mismo con Dragon's Dogma 2, que es Dragon's Dogma 2: Dark Arisen.
+
    **Cotejar por id, no por nombre.** Al cruzar lo que devuelve releases.com contra
    `datos/juegos.js`, la comparación por título genera **falsos faltantes**: releases.com
    escribe "Diablo 4" y nosotros "DIABLO IV" (arábigo contra romano), o lista "Dragon Quest
