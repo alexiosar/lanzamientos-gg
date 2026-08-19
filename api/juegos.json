@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-19T20:58:11+00:00",
+ "generado": "2026-08-19T21:10:52+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 348,
@@ -6733,7 +6733,8 @@
    "fechaEstimada": "TERCER TRIMESTRE 2026",
    "plataformas": [
     "SWITCH",
-    "XBOX"
+    "XBOX",
+    "PS5"
    ],
    "genero": [
     "AVENTURA",
@@ -7985,7 +7986,8 @@
    "fecha": "2026-09-03",
    "plataformas": [
     "PS5",
-    "SWITCH"
+    "SWITCH",
+    "XBOX"
    ],
    "genero": [
     "CARRERAS",
@@ -8444,7 +8446,8 @@
    "plataformas": [
     "SWITCH2",
     "PS5",
-    "XBOX"
+    "XBOX",
+    "SWITCH"
    ],
    "genero": [
     "LUCHA",
