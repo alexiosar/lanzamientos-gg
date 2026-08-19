@@ -2,84 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-18T20:34:41+00:00",
+ "generado": "2026-08-19T18:14:07+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-18",
- "hasta": "2026-09-17",
- "total": 79,
+ "desde": "2026-08-19",
+ "hasta": "2026-09-18",
+ "total": 83,
  "juegos": [
-  {
-   "id": "the-sinking-city-2",
-   "titulo": "THE SINKING CITY 2",
-   "fecha": "2026-08-18",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "HORROR",
-    "AVENTURA",
-    "ACCION"
-   ],
-   "desarrollador": "FROGWARES",
-   "descripcion": "The Sinking City 2 se ambienta en los Felices años veinte en este juego de horror y supervivencia cargado de terrores lovecraftianos. Desafía a una deidad sobrenatural y explora los callejones inundados de Arkham mientras te acechan los muertos y sopesas una sola vida frente a toda una ciudad.",
-   "trailer": "https://youtube.com/embed/2q-pfSpS_J4",
-   "metacritic": 79,
-   "metacriticUsuarios": null,
-   "critica": "Frogwares cambió de género y la crítica se lo acepta: esta segunda parte es survival horror al estilo de los Resident Evil modernos, con mejor combate y mejores puzzles que la primera. El reparo que más se repite es lo que quedó en el camino, la investigación de detective a mano suelta que hacía distinto al original. Varias reseñas recuerdan además en qué condiciones se hizo, con el estudio trabajando en Ucrania durante la guerra, y le perdonan la falta de pulido y unas actuaciones desparejas.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/the-sinking-city-2",
-   "noticias": [
-    {
-     "fecha": "2026-08-18",
-     "titulo": "DEBUTA CON 79, LA MEJOR NOTA DE FROGWARES",
-     "texto": "El puntaje confirma lo que venían diciendo los adelantos: el estudio ucraniano sacó adelante su juego más sólido justo en las peores condiciones posibles."
-    },
-    {
-     "fecha": "2026-08-18",
-     "titulo": "FROGWARES LO TERMINÓ EN MEDIO DE LA GUERRA",
-     "texto": "El estudio es ucraniano y desarrolló el juego durante la invasión, con el equipo trabajando desde un país en guerra. Sale a un precio deliberadamente por debajo de un lanzamiento grande. Es terror de supervivencia con Calvin Rafferty, un aventurero ocultista, en un Arkham de los años veinte inundado y en descomposición. Quien compre la edición Premium juega desde el 17, un día antes."
-    }
-   ]
-  },
-  {
-   "id": "starsand-island",
-   "titulo": "STARSAND ISLAND",
-   "relanzamiento": "En PC desde febrero de 2026",
-   "fecha": "2026-08-18",
-   "plataformas": [
-    "PS5",
-    "SWITCH",
-    "SWITCH2"
-   ],
-   "genero": [
-    "SIMULACION",
-    "RPG",
-    "INDIE"
-   ],
-   "desarrollador": "SEED SPARKLE LAB",
-   "descripcion": "Cansado del ruido de la ciudad, te mudás a la isla de Starsand a llevar una vida de campo: cultivar, criar animales y hacerte amigo de los vecinos, sin apuro y sin relojes.",
-   "trailer": "https://youtube.com/embed/dVczi9ZFTwY",
-   "metacritic": 70,
-   "metacriticUsuarios": null,
-   "critica": "Con cinco reseñas y bastante desacuerdo. Todas describen lo mismo —una simulación de vida acogedora, con granja, animales y un sistema de construcción flexible— y difieren en si eso alcanza en un género saturado. La reseña más dura dice que no aporta nada y que está mal optimizado en consola. Las más generosas admiten los mismos errores técnicos y aun así le encuentran profundidad. El punto en común es que los problemas de rendimiento existen y nadie los niega.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-17",
-   "url": "https://lanzamientos.lat/juegos/starsand-island",
-   "noticias": [
-    {
-     "fecha": "2026-08-18",
-     "titulo": "70 DE DEBUT PARA LA VIDA DE CAMPO",
-     "texto": "Un simulador de granja y vida rural al estilo de los clásicos del género, que ya llevaba medio año en PC. La nota lo deja en el pelotón: cumple con lo que promete sin destacarse entre la enorme cantidad de juegos parecidos que salieron los últimos años."
-    }
-   ]
-  },
   {
    "id": "no-case-should-remain-unsolved",
    "titulo": "NO CASE SHOULD REMAIN UNSOLVED",
@@ -330,7 +259,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-17",
-   "url": "https://lanzamientos.lat/juegos/1000xresist"
+   "url": "https://lanzamientos.lat/juegos/1000xresist",
+   "noticias": [
+    {
+     "fecha": "2026-08-19",
+     "titulo": "EL ELOGIADO DEBUT DE SUNSET VISITOR LLEGA A SWITCH 2",
+     "texto": "La aventura narrativa de ciencia ficción que se llevó los premios independientes de 2024 sale mañana en Switch 2, con mejoras de imagen y de rendimiento respecto de la versión de Switch."
+    }
+   ]
   },
   {
    "id": "once-human",
@@ -409,6 +345,7 @@
    "fecha": "2026-08-25",
    "plataformas": [
     "PS5",
+    "XBOX",
     "SWITCH2",
     "SWITCH"
    ],
@@ -423,10 +360,17 @@
    "trailer": "https://youtube.com/embed/TNwRHBs_v74",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431080/3efcaa1643c79273ce9ece71c3dd4a7b71f1cb74/header.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/blood-dungeon"
+   "url": "https://lanzamientos.lat/juegos/blood-dungeon",
+   "noticias": [
+    {
+     "fecha": "2026-08-19",
+     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
+     "texto": "Lo de los creadores de Nidhogg llega el 25 de agosto directo al catálogo de Game Pass Ultimate y PC Game Pass, y suma versión de Xbox a las de PlayStation y Switch."
+    }
+   ]
   },
   {
    "id": "fractured-worlds",
@@ -1985,6 +1929,146 @@
    "psplus": false,
    "alta": "2026-08-17",
    "url": "https://lanzamientos.lat/juegos/patlabor-the-case-files"
+  },
+  {
+   "id": "lego-batman-legacy-of-the-dark-knight",
+   "titulo": "LEGO BATMAN: LEGACY OF THE DARK KNIGHT",
+   "fecha": "2026-09-18",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ACCION"
+   ],
+   "desarrollador": "TT GAMES",
+   "descripcion": "TT Games vuelve a Gotham: una nueva aventura LEGO protagonizada por Batman que repasa el legado del Caballero Oscuro, con el humor y el cooperativo característicos de la saga.",
+   "trailer": "https://youtube.com/embed/DfJaUpW_P00",
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/legobatmanlegacyofthedarkknight/1x1_LegoBatmanLegacyOfTheDarkKnight_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/lego-batman-legacy-of-the-dark-knight"
+  },
+  {
+   "id": "moomintroll-winters-warmth",
+   "titulo": "MOOMINTROLL: WINTER'S WARMTH",
+   "fecha": "2026-09-18",
+   "relanzamiento": "En PC desde abril de 2026",
+   "duracion": "≈ 4,4 h (historia) · 11 h (completo)",
+   "plataformas": [
+    "PS5",
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "HYPER GAMES",
+   "descripcion": "De los creadores de Snufkin: La melodía del Valle de los Mumin, llega una conmovedora y nueva aventura inspirada en las queridas historias de los Mumin de Tove Jansson. Esta vez, acompañarás al mismísimo Mumintroll en una fascinante pero gélida aventura invernal.",
+   "trailer": "https://youtube.com/embed/Hu3PZTQ09yk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/moomintroll-winters-warmth"
+  },
+  {
+   "id": "paperhead",
+   "titulo": "PAPERHEAD",
+   "fecha": "2026-09-18",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "SHOOTER",
+    "INDIE"
+   ],
+   "desarrollador": "PAPERHEAD TE4M",
+   "descripcion": "En este adorable mundo de cartón, algo se torció irremediablemente... Sírvete de un lápiz prodigioso, una escopeta de toda la vida y demás armas para enfrentar la pesadilla de papel en este shooter de acción indie.",
+   "trailer": "https://youtube.com/embed/Z-zHLhZ9Isw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/paperhead"
+  },
+  {
+   "id": "the-grinch-2-saving-christmas",
+   "titulo": "THE GRINCH 2: SAVING CHRISTMAS",
+   "fecha": "2026-09-18",
+   "plataformas": [
+    "PS4",
+    "SWITCH",
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL"
+   ],
+   "desarrollador": "CASUAL BROTHERS LTD.",
+   "descripcion": "Juega con el Grinch, recoge adornos, usa artefactos y afronta desafíos festivos para crear el árbol de Navidad definitivo para los Quién.",
+   "trailer": "https://youtube.com/embed/a3DI5VfL3TA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470930/5a48a77a95da5e2c72b16041e1f0631f6929b7ff/header_spanish.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/the-grinch-2-saving-christmas"
+  },
+  {
+   "id": "nascar-26",
+   "titulo": "NASCAR 26",
+   "fecha": "2026-09-18",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "CARRERAS",
+    "DEPORTES",
+    "SIMULACION"
+   ],
+   "desarrollador": "IRACING STUDIOS",
+   "descripcion": "El juego oficial de la NASCAR vuelve con las cuatro series nacionales, y modos de carrera, carrera rápida, campeonato y multijugador, más un modo nuevo dedicado a The Chase.",
+   "trailer": "https://youtube.com/embed/f_h_LPYH7iM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4883590/36e029011e47a7fbf54d788eb18a0e0683e923ef/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/nascar-26"
+  },
+  {
+   "id": "the-walking-dead-streets-of-survival",
+   "titulo": "THE WALKING DEAD: STREETS OF SURVIVAL",
+   "fecha": "2026-09-18",
+   "plataformas": [
+    "SWITCH2",
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "LUCHA",
+    "ARCADE",
+    "ACCION"
+   ],
+   "desarrollador": "ODACLICK GAME STUDIO",
+   "descripcion": "Ponte en la piel de Rick Grimes, Daryl Dixon y Michonne en un juego de lucha arcade ambientado en el universo de The Walking Dead de AMC. Enfréntate a enemigos despiadados como los Salvadores y a hordas de caminantes mientras realizas combos, ataques con armas distintivas y remates devastadores.",
+   "trailer": "https://youtube.com/embed/0cIM-7u8reA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3777850/937ee385cc56abc9884b8a372ce8dd44935aec43/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/the-walking-dead-streets-of-survival"
   }
  ]
 }

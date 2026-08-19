@@ -44,6 +44,15 @@
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
     .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -154,6 +163,13 @@
             <span class="noticia-titulo">▸ 70 DE DEBUT PARA LA VIDA DE CAMPO</span>
           </div>
           <p class="noticia-texto">Un simulador de granja y vida rural al estilo de los clásicos del género, que ya llevaba medio año en PC. La nota lo deja en el pelotón: cumple con lo que promete sin destacarse entre la enorme cantidad de juegos parecidos que salieron los últimos años.</p>
+        </div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-18</span>
+            <span class="noticia-titulo">▸ GAME PASS CIERRA AGOSTO CON TRES ESTRENOS EL DÍA UNO</span><span class="noticia-cat cat-suscripciones">SUSCRIPCIONES</span>
+          </div>
+          <p class="noticia-texto">Microsoft anunció la segunda tanda del mes. Tres de los que llegan están en el calendario y entran al servicio el mismo día que salen: Vapor World: Over the Mind, hoy, aunque en formato Game Preview y no como versión terminada; Blood Dungeon el 25, lo nuevo de los creadores de Nidhogg; y Resonance: A Plague Tale Legacy el 27. Starsand Island también se suma, el 20, pero salió el 18, así que no lleva el distintivo de estreno en el servicio. El resto de la tanda son juegos que ya existían.</p><a class="noticia-fuente" href="https://news.xbox.com/en-us/2026/08/18/xbox-game-pass-august-2026-wave-2/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
         </div>
       </div>
       <div class="seccion">

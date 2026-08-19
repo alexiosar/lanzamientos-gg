@@ -46,6 +46,15 @@
 
 const NOTICIAS = [
   {
+    id: "game-pass-segunda-quincena-agosto-2026",
+    fecha: "2026-08-18",
+    categoria: "SUSCRIPCIONES",
+    titulo: "GAME PASS CIERRA AGOSTO CON TRES ESTRENOS EL DÍA UNO",
+    texto: "Microsoft anunció la segunda tanda del mes. Tres de los que llegan están en el calendario y entran al servicio el mismo día que salen: Vapor World: Over the Mind, hoy, aunque en formato Game Preview y no como versión terminada; Blood Dungeon el 25, lo nuevo de los creadores de Nidhogg; y Resonance: A Plague Tale Legacy el 27. Starsand Island también se suma, el 20, pero salió el 18, así que no lleva el distintivo de estreno en el servicio. El resto de la tanda son juegos que ya existían.",
+    fuente: "https://news.xbox.com/en-us/2026/08/18/xbox-game-pass-august-2026-wave-2/",
+    juegos: ["vapor-world-over-the-mind", "blood-dungeon", "resonance-a-plague-tale-legacy", "starsand-island"]
+  },
+  {
     id: "xbox-anuncio-gamescom-2026",
     fecha: "2026-08-15",
     categoria: "RUMORES",
