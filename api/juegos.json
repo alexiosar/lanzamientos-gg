@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-19T21:10:52+00:00",
+ "generado": "2026-08-19T21:24:34+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 348,
@@ -5664,7 +5664,8 @@
    "plataformas": [
     "SWITCH",
     "XBOX",
-    "SWITCH2"
+    "SWITCH2",
+    "PS5"
    ],
    "genero": [
     "ACCION",
@@ -5827,7 +5828,8 @@
    "titulo": "ECHO WEAVER",
    "fecha": "2026-10-08",
    "plataformas": [
-    "XBOX"
+    "XBOX",
+    "PS5"
    ],
    "genero": [
     "ACCION",
@@ -6057,7 +6059,8 @@
    "fecha": "2026-10-15",
    "plataformas": [
     "PS5",
-    "SWITCH"
+    "SWITCH",
+    "XBOX"
    ],
    "genero": [
     "ACCION",
@@ -6132,7 +6135,8 @@
    "plataformas": [
     "SWITCH",
     "PS4",
-    "XBOX"
+    "XBOX",
+    "PS5"
    ],
    "genero": [
     "ACCION",
@@ -6182,7 +6186,10 @@
    "relanzamiento": "Remaster del clásico de PS1 (2000)",
    "plataformas": [
     "PS4",
-    "XBOX"
+    "XBOX",
+    "PS5",
+    "SWITCH",
+    "SWITCH2"
    ],
    "genero": [
     "ACCION",
@@ -6205,7 +6212,8 @@
    "plataformas": [
     "PS4",
     "SWITCH2",
-    "PS5"
+    "PS5",
+    "XBOX"
    ],
    "genero": [
     "AVENTURA",
@@ -6227,7 +6235,9 @@
    "fecha": "2026-10-22",
    "plataformas": [
     "SWITCH2",
-    "PS5"
+    "PS5",
+    "SWITCH",
+    "XBOX"
    ],
    "genero": [
     "RPG"
@@ -6317,7 +6327,8 @@
    "titulo": "ONE PIECE: GRAND GOURMET",
    "fecha": "2026-10-23",
    "plataformas": [
-    "SWITCH2"
+    "SWITCH2",
+    "SWITCH"
    ],
    "genero": [
     "CASUAL",
@@ -8084,7 +8095,8 @@
    "plataformas": [
     "PS5",
     "SWITCH2",
-    "SWITCH"
+    "SWITCH",
+    "XBOX"
    ],
    "genero": [
     "HORROR",
