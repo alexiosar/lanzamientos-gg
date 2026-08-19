@@ -251,6 +251,10 @@ tiene puede tenerla cerca de su lanzamiento.
   (carátula vertical). Si no existe (juegos muy nuevos), en la página del juego en Steam
   se puede copiar la URL del banner horizontal (`header.jpg`).
 - **Exclusivos de Nintendo**: usar la imagen cuadrada de la ficha del juego en nintendo.com.
+- **Exclusivos de PlayStation**: la ficha del juego en store.playstation.com trae varias imágenes
+  de `image.api.playstation.com`. La que sirve es la **vertical de 2:3** —se reconoce midiéndolas:
+  la buena da 764×1146 con `?w=600&thumb=false`, y las demás son 764×430 apaisadas—. Es fácil
+  agarrar la apaisada sin darse cuenta, porque es la primera que aparece en la página.
 - Sirve cualquier URL de imagen o un archivo local del proyecto.
 - El sitio detecta solo la orientación: las verticales se muestran a 120px y las
   horizontales más anchas (230px) para que no queden diminutas.

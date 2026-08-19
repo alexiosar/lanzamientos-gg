@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-19T19:42:34+00:00",
+ "generado": "2026-08-19T20:58:11+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 346,
+ "total": 348,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -1720,6 +1720,27 @@
    "url": "https://lanzamientos.lat/juegos/retrospace"
   },
   {
+   "id": "end-of-abyss",
+   "titulo": "END OF ABYSS",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "HORROR"
+   ],
+   "desarrollador": "SECTION 9 INTERACTIVE",
+   "descripcion": "Una aventura de acción y terror de ciencia ficción, hecha a mano con escenarios de plastilina y animación cuadro por cuadro. Publica Epic Games y sale directo en PS5 y Xbox, con las reservas ya abiertas a treinta dólares.",
+   "trailer": "https://youtube.com/embed/z1WYsu9ApLI",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1019/d3ddabf72e33c008f15051439de67eb4d99032c0aedf8bb1.jpg?w=600&thumb=false",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/end-of-abyss"
+  },
+  {
    "id": "ratatan",
    "titulo": "RATATAN",
    "fecha": "2026-10-15",
@@ -3359,7 +3380,7 @@
    "desarrollador": "WEIRD BELUGA",
    "descripcion": "Rompe las cadenas del tiempo saltando y blandiendo tu espada en un mundo de fantasía en este homenaje a los clásicos de plataformas 3D de acción. Zirian, acompañado de su Cuco mecánico, debe salvar a su hermana de una misteriosa Torre del reloj que ha sumido la tierra en una noche eterna.",
    "trailer": "https://youtube.com/embed/6Mq_adllBHg",
-   "metacritic": 79,
+   "metacritic": 78,
    "metacriticUsuarios": 7.8,
    "metacriticVotos": 21,
    "critica": "Todas las reseñas lo ubican en el mismo lugar: un plataformas en 3D que homenajea a los de PlayStation 2, con Kingdom Hearts, Ratchet & Clank y Jak and Daxter nombrados una y otra vez. Los elogios van al movimiento, al diseño de niveles y a la música. Los reparos coinciden con el elogio y son su reverso: se parece tanto a lo que homenajea que no llega a tener voz propia, la progresión es superficial y las recompensas por explorar decepcionan.",
@@ -6126,6 +6147,32 @@
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/toy-story-3-complete-edition"
+  },
+  {
+   "id": "toy-story-retro-roundup",
+   "titulo": "DISNEY/PIXAR TOY STORY: RETRO ROUNDUP",
+   "relanzamiento": "Recopilación de seis juegos publicados entre 1995 y 2001",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "SWITCH2",
+    "SWITCH",
+    "XBOX"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "ATARI",
+   "descripcion": "Vuelta al cuarto de Andy con Woody, Buzz y compañía. La colección junta seis juegos de los noventa y principios de los dos mil —Toy Story, las dos versiones de Toy Story 2, Buzz Lightyear del Comando Estelar, Toy Story Racer y Bichos— con sus versiones de consola y de portátil, once en total, todas retocadas y con material de archivo sobre cómo se hicieron.",
+   "trailer": "https://youtube.com/embed/Kgp9iOHxrFw",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2922/29e3ecd9dcd397054adce54bf9e89f1bffedfce0283ac772.jpg?w=600&thumb=false",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/toy-story-retro-roundup"
   },
   {
    "id": "tales-of-eternia-remastered",
