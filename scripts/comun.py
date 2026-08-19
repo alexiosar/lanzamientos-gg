@@ -48,7 +48,12 @@ SIGLAS = {"EA", "NBA", "LEGO", "TOEM", "DLC", "MLB", "NFL", "NHL", "UFC", "WWE",
 # Marcas que se escriben con una mayúscula adentro y no al principio. No hay regla que
 # las deduzca desde MAYÚSCULAS: van a mano. "IRACING" no es ni Iracing ni IRACING.
 CASO_PROPIO = {"IRACING": "iRacing", "PLAYSTATION": "PlayStation", "XBOX": "Xbox",
-               "MOTOGP": "MotoGP", "MXGP": "MXGP", "MYSTBOUND": "Mystbound"}
+               "MOTOGP": "MotoGP", "MXGP": "MXGP", "MYSTBOUND": "Mystbound",
+               "RETROSPACE": "RetroSpace"}
+# Cuando la palabra suelta es ambigua, la excepción va por título completo. "SIN" acá es
+# el nombre del juego de 1998, pero en español es una preposición: si estuviera en
+# CASO_PROPIO, cualquier título con "sin" saldría "SiN".
+TITULO_EXACTO = {"SIN: RELOADED": "SiN: Reloaded"}
 
 
 def plat(p):
@@ -69,6 +74,8 @@ def _sin_diacriticos(t):
 
 def titulo(j):
     """Los títulos están en MAYÚSCULAS en la base; en redes gritan demasiado."""
+    if j["titulo"] in TITULO_EXACTO:
+        return TITULO_EXACTO[j["titulo"]]
     palabras = j["titulo"].split()
     salida = []
     for i, p in enumerate(palabras):
@@ -92,5 +99,9 @@ def titulo(j):
         else:
             # capitaliza cada tramo: RE:BUILD -> Re:Build, no Re:build. El patrón es \w
             # y no [A-Za-z] para que TŌKON quede "Tōkon" y no "TŌKon".
-            salida.append(re.sub(r"\w+", lambda m: m.group(0).capitalize(), p))
+            # Se baja todo y se suben sólo los arranques de palabra. La letra que sigue
+            # a un apóstrofo no arranca palabra: sin esa excepción DON'T FRET salía
+            # "Don'T Fret" y DANTE'S, "Dante'S". Y no alcanza con no capitalizarla,
+            # porque lo que la regex no toca queda como estaba, o sea en mayúscula.
+            salida.append(re.sub(r"(?<![\w'’])(\w)", lambda m: m.group(1).upper(), p.lower()))
     return " ".join(salida)

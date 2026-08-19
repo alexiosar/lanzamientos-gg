@@ -678,8 +678,18 @@ categoría `SUSCRIPCIONES`.
    mes en curso y el siguiente.
 
    **Ya no hace falta la extensión de Chrome**: desde el 10/08/2026 el barrido se hace con el
-   navegador de la app. `curl` sigue dando 403, pero el navegador carga bien. Cada página se
-   raspa con este selector, que devuelve fecha, título y plataformas de cada juego:
+   navegador de la app. `curl` sigue dando 403, pero el navegador carga bien.
+
+   **El panel del navegador tiene que tener tamaño real** (`resize_window` a 1280×1600 antes
+   de empezar). Si `window.innerHeight` es 0, releases.com renderiza apenas los primeros
+   juegos y el resto nunca carga: el 19/08/2026 una página devolvió 8 juegos con el panel sin
+   tamaño y 47 con el panel dimensionado. Un barrido hecho así parece completo y no lo está.
+   Después de cargar hay que hacer scroll al fondo en un bucle hasta que deje de crecer.
+
+   `fetch()` desde la página no sirve: devuelve el HTML inicial, sin lo que carga después.
+
+   Cada página se raspa con este selector, que devuelve fecha, título y plataformas de cada
+   juego:
 
    ```js
    document.querySelectorAll('.RWP-Calendar-Group')          // cada bloque de fecha
@@ -688,6 +698,11 @@ categoría `SUSCRIPCIONES`.
    ```
 
    Conviene acumular en `localStorage` entre navegaciones y volcar todo al final.
+
+   **Al cruzar los resultados, "Switch 2" contiene "Switch".** Si se busca la etiqueta
+   `Switch` sin sacar antes `Switch 2`, todo juego de Switch 2 aparece como si también saliera
+   en Switch: el 19/08/2026 eso infló la lista de diferencias de plataforma de 49 a 107, todas
+   falsas. Hay que quitar `Switch 2` de la cadena y recién entonces buscar `Switch`.
 
    **Dos trampas al comparar con el calendario:**
    - releases.com mezcla **expansiones y DLC** con los juegos. Antes de cargar algo, mirar el

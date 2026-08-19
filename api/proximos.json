@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-19T18:26:10+00:00",
+ "generado": "2026-08-19T19:17:31+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-19",
  "hasta": "2026-09-18",
- "total": 85,
+ "total": 87,
  "juegos": [
   {
    "id": "no-case-should-remain-unsolved",
@@ -1214,6 +1214,29 @@
    "url": "https://lanzamientos.lat/juegos/dream-cage"
   },
   {
+   "id": "sprawl-zero",
+   "titulo": "SPRAWL ZERO",
+   "fecha": "2026-09-08",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "ACCION",
+    "SHOOTER",
+    "INDIE"
+   ],
+   "desarrollador": "MAETH",
+   "descripcion": "Un shooter frenético que mira a los de principios de los dos mil: nada de coberturas ni de recargar tranquilo, se corre por las paredes y se dispara. Se sobrevive en una ciudad cyberpunk repartida entre los militares y el fanatismo de las sectas, con guantes de gravedad, mejoras cibernéticas y más de cuarenta armas.",
+   "trailer": "https://youtube.com/embed/k3ugnU7_Ic0",
+   "metacritic": null,
+   "imagen": null,
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/sprawl-zero"
+  },
+  {
    "id": "halloween",
    "titulo": "HALLOWEEN",
    "fecha": "2026-09-08",
@@ -1332,6 +1355,27 @@
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/barbarian-saga-the-beastmaster"
+  },
+  {
+   "id": "the-alighieri-circle-dantes-bloodline",
+   "titulo": "THE ALIGHIERI CIRCLE: DANTE'S BLOODLINE",
+   "fecha": "2026-09-10",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "HORROR",
+    "INDIE"
+   ],
+   "desarrollador": "ONE-O-ONE GAMES",
+   "descripcion": "El mundo lee la Divina Comedia como un poema; para tu familia es una condena. Sos Gabriele Alighieri y te toca sellar las puertas del Infierno. Es una pesadilla psicológica en primera persona donde hay que reconstruir los secretos de tus antepasados para sobrevivir a lo que te tocó heredar.",
+   "trailer": "https://youtube.com/embed/cS6PTKRdkuk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262620/9f2e8264f3b44e347908b77331cf36ce63cb7fe9/header.jpg",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/the-alighieri-circle-dantes-bloodline"
   },
   {
    "id": "screenbound",
