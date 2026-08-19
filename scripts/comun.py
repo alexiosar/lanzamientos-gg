@@ -45,6 +45,10 @@ ORDINAL = re.compile(r"^\d+(ST|ND|RD|TH)$", re.I)
 # Siglas y marcas con vocales que igual van en mayúscula (las que no tienen vocales
 # —FC, HD, MXGP, VS— se detectan solas). Ampliar si aparece alguna nueva.
 SIGLAS = {"EA", "NBA", "LEGO", "TOEM", "DLC", "MLB", "NFL", "NHL", "UFC", "WWE", "AEW"}
+# Marcas que se escriben con una mayúscula adentro y no al principio. No hay regla que
+# las deduzca desde MAYÚSCULAS: van a mano. "IRACING" no es ni Iracing ni IRACING.
+CASO_PROPIO = {"IRACING": "iRacing", "PLAYSTATION": "PlayStation", "XBOX": "Xbox",
+               "MOTOGP": "MotoGP", "MXGP": "MXGP", "MYSTBOUND": "Mystbound"}
 
 
 def plat(p):
@@ -70,7 +74,9 @@ def titulo(j):
     for i, p in enumerate(palabras):
         nucleo = p.strip(":()!?¡¿,.-'’")
         limpio = re.sub(r"[^A-Za-z0-9]", "", _sin_diacriticos(nucleo))
-        if not limpio:
+        if limpio.upper() in CASO_PROPIO:
+            salida.append(p.replace(nucleo, CASO_PROPIO[limpio.upper()]))
+        elif not limpio:
             salida.append(p)
         elif ROMANOS.match(limpio) and limpio.upper() in {
                 "II", "III", "IV", "VI", "VII", "VIII", "IX", "XI", "XII", "XIII",

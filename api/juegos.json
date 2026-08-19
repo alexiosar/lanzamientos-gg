@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-19T18:14:07+00:00",
+ "generado": "2026-08-19T18:26:10+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 337,
+ "total": 339,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -3509,6 +3509,50 @@
    "psplus": false,
    "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/steins-gate-reboot"
+  },
+  {
+   "id": "pipistrello-and-the-cursed-yoyo",
+   "titulo": "PIPISTRELLO AND THE CURSED YOYO",
+   "relanzamiento": "En PS5, PS4, Xbox, Switch y PC desde mayo de 2025 — esta versión de Switch 2 es una mejora gratuita de la de Switch",
+   "fecha": "2026-08-20",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "PLATAFORMA",
+    "INDIE"
+   ],
+   "desarrollador": "POCKET TRAP",
+   "descripcion": "Una aventura de plataformas en dos dimensiones y vista cenital donde el arma es un yoyó. Sos Pippit, heredero de una familia venida a menos, y te toca recuperar el imperio de tu tía a los yoyazos, enfrentando a cuatro jefes del crimen repartidos por los barrios de la ciudad. Cada truco nuevo cambia la forma de leer el escenario: lo que era una pared se vuelve un atajo, y casi todos los desafíos tienen más de una solución. La edición de Switch 2 corre a 120 cuadros por segundo en modo portátil a 1080p, llega a 4K en el dock y suma HDR.",
+   "trailer": "https://youtube.com/embed/Xvtfx9WccCg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2870350/library_600x900.jpg",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/pipistrello-and-the-cursed-yoyo"
+  },
+  {
+   "id": "iracing-arcade",
+   "titulo": "IRACING ARCADE",
+   "relanzamiento": "En PC desde marzo de 2026",
+   "fecha": "2026-08-21",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "CARRERAS",
+    "ARCADE",
+    "SIMULACION"
+   ],
+   "desarrollador": "ORIGINAL FIRE GAMES",
+   "descripcion": "Los autos y circuitos con licencia de iRacing, pero estilizados y pensados para jugar con joystick. Corré en la Fórmula 4 de la FIA, en la clase GTP del campeonato IMSA y con el Porsche 911 GT3 Cup por Imola, Miami, Ciudad de México y Barber Motorsports Park. Debajo del dibujo simpático siguen estando el consumo de combustible y el desgaste de neumáticos de los simuladores de la casa. El modo carrera es largo: se arma un predio propio con talleres e ingeniería, se maneja al equipo y se sube desde las categorías de abajo.",
+   "trailer": "https://youtube.com/embed/eQwtkUMWW1A",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226450/be5f3bc2000160583baf146d85f5cba767a8fa67/header.jpg",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/iracing-arcade"
   },
   {
    "id": "the-witchs-bakery",
