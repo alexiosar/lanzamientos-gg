@@ -638,9 +638,36 @@ en este archivo y en la sección "Fuentes de datos habituales".
    | [Vandal](https://vandal.elespanol.com/) y [3DJuegos](https://www.3djuegos.com/) | **Radar, no fuente de verdad.** Cubren mucho más que las anteriores, en español y con el criterio de qué le importa al público hispanohablante: rumores, ediciones, coberturas que Gematsu no toca por su sesgo japonés. |
 
    **Descubrir no es verificar.** Cualquiera de estas fuentes sirve para enterarse de que
-   algo pasó, pero antes de tocar una fecha o una plataforma hay que verlo en la tienda
-   (PS Store, eShop, Steam). Esa doble pasada es la que atrapó que Creepshow salía solo en
-   PC y que Nioh 3: Hell Rising era DLC.
+   algo pasó, pero antes de tocar una fecha o una plataforma hay que verlo en la tienda.
+   Esa doble pasada es la que atrapó que Creepshow salía solo en PC y que Nioh 3: Hell
+   Rising era DLC. **Vale para todo: fechas, plataformas y juegos nuevos.** El 19/08/2026,
+   de 31 datos que traían las fuentes, 14 no los respaldaba ninguna tienda.
+
+   **Cómo verificar rápido, y en este orden:**
+
+   1. **Nintendo primero, porque tiene API y responde diez juegos de una.** Buscando por
+      nombre, o preguntando qué sale en un rango de fechas —esto último es lo que descarta
+      un lanzamiento inventado—:
+
+      ```
+      https://searching.nintendo-europe.com/en/select?q=NOMBRE&fq=type:GAME&wt=json&rows=5
+        &fl=title,dates_released_dts,system_names_txt,image_url_sq_s,publisher
+      ```
+
+      Devuelve una fila por plataforma, así que sirve igual para confirmar una fecha que
+      para saber si un juego sale en Switch, en Switch 2 o en las dos.
+
+   2. **Steam para lo demás que exista en PC**: `appdetails` da fecha, descripción en
+      español, géneros y desarrollador. Su campo `type` es el que separa un juego de una
+      expansión.
+
+   3. **PS Store y Xbox al final, de a uno.** Sus buscadores se arman con JavaScript, así
+      que hay que **navegar de verdad** a cada búsqueda: pedir la página con `fetch` devuelve
+      una cáscara vacía y parece que el juego no existe. En la PS Store el estado "Announced"
+      con fecha ya es confirmación suficiente.
+
+   **Si ninguna tienda lo tiene, no se carga y no se corrige.** Un dato sin respaldo es
+   exactamente lo que este calendario no puede permitirse.
 
    Tres cosas salen de ahí, y conviene no quedarse solo con la primera:
    - una **noticia** (de un juego o propia);
@@ -752,6 +779,15 @@ categoría `SUSCRIPCIONES`.
    (`-Sep-09`, `-Sep-18`, `-Sep-26`…). Cada carga muestra ~10 días, así que hacen falta 3 o 4
    por mes. Al final de cada mes aparecen los bloques "Estimated <mes>" y "Estimated Q<n>":
    esos van con `estimado: true` y `fechaEstimada`.
+5 bis. **Verificar antes de escribir.** Todo lo que devuelve el barrido —juegos nuevos,
+   fechas y plataformas— pasa por la misma comprobación en tienda que la rutina diaria, con
+   el orden y las trampas que están explicadas ahí (paso 2, "Descubrir no es verificar").
+   Vale la pena agrupar por tienda: Nintendo se resuelve en una consulta para diez juegos y
+   PS Store y Xbox hay que caminarlas de a una.
+
+   La proporción del 19/08/2026 da una idea de por qué: de 13 juegos "faltantes", 9 no
+   existían como lanzamiento; de 18 diferencias de plataforma verificadas, 6 no las respaldaba
+   ninguna tienda.
 6. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
 7. **Backlog de carátulas y trailers:** reintentar los que `actualizar.py` lista bajo
    "Faltantes". Suelen ser juegos que todavía no tenían ficha en Steam ni en la eShop cuando
