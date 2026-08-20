@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-20T14:58:12+00:00",
+ "generado": "2026-08-20T15:56:47+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-20",
  "hasta": "2026-09-19",
- "total": 88,
+ "total": 90,
  "juegos": [
   {
    "id": "puppergeist",
@@ -762,6 +762,37 @@
    "psplus": false,
    "alta": "2026-08-10",
    "url": "https://lanzamientos.lat/juegos/serious-sam-shatterverse"
+  },
+  {
+   "id": "crimson-moon",
+   "titulo": "CRIMSON MOON",
+   "fecha": "2026-09-01",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG",
+    "GOTICO"
+   ],
+   "desarrollador": "PROBABLYMONSTERS",
+   "descripcion": "Un RPG de acción y aventura de tono gótico, habitado por ángeles violentos y dioses muertos. Es el primer juego del estudio fundado por veteranos de Bungie y Sucker Punch, y todavía no tiene día exacto de salida.",
+   "trailer": "https://youtube.com/embed/d0lXLkqcOKw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4317690/c916d5a4804f2599a82f093191ccf8abc0e4a840/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/crimson-moon",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA TIENE FECHA: 1 DE SEPTIEMBRE",
+     "texto": "El estudio confirmó el día en su propio anuncio, con tráiler de fecha y las ediciones del juego."
+    }
+   ]
   },
   {
    "id": "moonlighter-2-the-endless-vault",
@@ -1758,6 +1789,36 @@
      "fecha": "2026-08-14",
      "titulo": "YA TIENE FECHA: 16 DE SEPTIEMBRE",
      "texto": "Estaba anunciado para el tercer trimestre sin día. Es un RPG de mundo abierto gratuito con captura de criaturas, del estudio Pawprint."
+    }
+   ]
+  },
+  {
+   "id": "woodo",
+   "titulo": "WOODO",
+   "fecha": "2026-09-16",
+   "plataformas": [
+    "SWITCH",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "TINY MONKS TALES",
+   "descripcion": "Woodo es como un libro de colorear en 3D que puedes tocar; un cuento relajante narrado a través de dioramas de madera artesanales. Es un mundo acogedor y calmado que te devolverá a tu infancia.",
+   "trailer": "https://youtube.com/embed/_F4Bt7GORZA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/woodo",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA TIENE FECHA: 16 DE SEPTIEMBRE",
+     "texto": "El estudio confirmó hoy que la aventura de Foxy por sus recuerdos de infancia sale en cuatro semanas, el 16 de septiembre."
     }
    ]
   },

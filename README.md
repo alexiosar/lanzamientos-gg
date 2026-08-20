@@ -37,6 +37,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               volver a bajar ~1 MB por trailer
 ├── scripts/comun.py           Lo que comparten varios scripts (pasar títulos de MAYÚSCULAS
 │                               a minúsculas respetando siglas y números romanos)
+├── scripts/novedades-steam.py  Lo que anuncian los estudios en Steam (juegos chicos)
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
@@ -682,6 +683,31 @@ en este archivo y en la sección "Fuentes de datos habituales".
    `plataformas` ni ningún campo del juego: viven dentro de la noticia, nombrando quién lo
    reportó y en condicional. La regla completa, con el motivo, está en la cabecera de
    `datos/noticias.js`. En la página se distinguen solas: la etiqueta va con borde punteado.
+2 bis. `python3 scripts/novedades-steam.py` — **lo que anuncian los propios estudios.**
+
+   Trae las novedades de la página de Steam de cada juego que está por salir o salió hace
+   menos de 30 días. Es fuente primaria: no es un medio contando lo que dijo el estudio, es
+   el estudio. El appid sale de la URL de la carátula, así que no hay nada que cargar: 316
+   de los 349 juegos lo tienen.
+
+   **Para qué sirve, con números.** El 20/08/2026 los juegos chicos eran los que mejor
+   rendían en Google —"sombras: negative frames" tenía 20% de CTR contra 0,6% del sitio
+   entero— y son justo los que las webs grandes no cubren. En su primera corrida encontró
+   cuatro fechas que ninguna otra fuente nos había dado, las cuatro de juegos que teníamos
+   como estimados: Crimson Moon (1 de septiembre), TOEM 2 (29), Woodo (16) y Hunting
+   Simulator 3 (29 de octubre).
+
+   El script guarda lo que ya mostró en `datos/novedades-steam.json`, así cada día aparece
+   sólo lo nuevo. Cuando un anuncio de fecha nombra un día distinto al que tenemos, lo avisa
+   al final con ⚠.
+
+   **La mayoría de lo que publica un estudio no es noticia para un calendario**: notas de
+   parche, concursos, descuentos, un vinilo. El filtro mira sólo el título y descarta eso; se
+   puede ver todo con `--todos`. Si algo se cuela y no aporta, no se carga: una entrada floja
+   vale menos que ninguna.
+
+   **Sólo cubre Steam.** Los exclusivos de Nintendo y PlayStation quedan afuera y siguen
+   dependiendo de las fuentes de arriba.
 3. `python3 scripts/post-diario.py` — imprime tres opciones de posteo para X y Bluesky
    (lanzamientos del día, lo que viene en la semana, cuenta regresiva) con el conteo de
    caracteres de cada red. No publica nada: se elige una, se copia y se pega. Correrlo
@@ -839,6 +865,7 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 | `critica` (resumen de la prensa) | Diaria, paso 2, cuando el juego debuta con puntaje | Mensual, con el backlog que lista `actualizar.py`. Al 18/08/2026 están los 86 con puntaje: el backlog vuelve a llenarse solo cada vez que un juego debuta |
 | `noticias` de un juego | Diaria, paso 2 (lanzamientos de hoy y mañana, y debuts con puntaje) | Mensual, paso 12 (los mejor puntuados que sigan sin noticias) |
 | `datos/noticias.js` (PS Plus, Game Pass, Directs, retrasos) | Diaria, paso 2 | Diaria: `actualizar.py` avisa hace cuántos días se cargó la última |
+| Noticias y fechas de los juegos chicos | Diaria, paso 2 bis | Diaria: `novedades-steam.py`, con lo que anuncia el propio estudio |
 | `gamepass` y `psplus` | Al cargar, si ya se sabe | **Mensual, sección "suscripciones"** |
 | `fecha` y `plataformas` (cambian solas) | — | Semanal, paso 5 (barrido de releases.com) |
 | Juegos nuevos | Semanal, paso 5 | Mensual, paso 9 (estrena el mes siguiente) |

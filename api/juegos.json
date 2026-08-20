@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-20T14:58:12+00:00",
+ "generado": "2026-08-20T15:56:47+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 349,
@@ -2031,8 +2031,8 @@
    "descripcion": "El primer spin-off en la historia de Splatoon, exclusivo de Switch 2. Una aventura de acción para un jugador en la que recorrés las Islas Spiralite junto al trío Deep Cut, resolviendo misterios y enfrentando enemigos con la clásica mecánica de tinta de la saga.",
    "trailer": "https://youtube.com/embed/9CV1BS3tkmQ",
    "metacritic": 81,
-   "metacriticUsuarios": 9.3,
-   "metacriticVotos": 1849,
+   "metacriticUsuarios": 9.2,
+   "metacriticVotos": 1854,
    "critica": "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
    "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
    "gamepass": false,
@@ -3615,8 +3615,8 @@
    "descripcion": "The Sinking City 2 se ambienta en los Felices años veinte en este juego de horror y supervivencia cargado de terrores lovecraftianos. Desafía a una deidad sobrenatural y explora los callejones inundados de Arkham mientras te acechan los muertos y sopesas una sola vida frente a toda una ciudad.",
    "trailer": "https://youtube.com/embed/2q-pfSpS_J4",
    "metacritic": 79,
-   "metacriticUsuarios": 8.5,
-   "metacriticVotos": 35,
+   "metacriticUsuarios": 8.6,
+   "metacriticVotos": 37,
    "critica": "Frogwares cambió de género y la crítica se lo acepta: esta segunda parte es survival horror al estilo de los Resident Evil modernos, con mejor combate y mejores puzzles que la primera. El reparo que más se repite es lo que quedó en el camino, la investigación de detective a mano suelta que hacía distinto al original. Varias reseñas recuerdan además en qué condiciones se hizo, con el estudio trabajando en Ucrania durante la guerra, y le perdonan la falta de pulido y unas actuaciones desparejas.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
    "gamepass": false,
@@ -5325,9 +5325,7 @@
   {
    "id": "crimson-moon",
    "titulo": "CRIMSON MOON",
-   "fecha": "2026-09-30",
-   "estimado": true,
-   "fechaEstimada": "SEPTIEMBRE 2026",
+   "fecha": "2026-09-01",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -5346,7 +5344,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/crimson-moon"
+   "url": "https://lanzamientos.lat/juegos/crimson-moon",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA TIENE FECHA: 1 DE SEPTIEMBRE",
+     "texto": "El estudio confirmó el día en su propio anuncio, con tráiler de fecha y las ediciones del juego."
+    }
+   ]
   },
   {
    "id": "kernel-hearts",
@@ -6785,9 +6790,7 @@
   {
    "id": "toem-2",
    "titulo": "TOEM 2",
-   "fecha": "2026-09-30",
-   "estimado": true,
-   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "fecha": "2026-09-29",
    "plataformas": [
     "SWITCH",
     "XBOX",
@@ -6806,7 +6809,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-27",
-   "url": "https://lanzamientos.lat/juegos/toem-2"
+   "url": "https://lanzamientos.lat/juegos/toem-2",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA TIENE FECHA: 29 DE SEPTIEMBRE",
+     "texto": "Something We Made anunció el día oficial. La ficha de la PlayStation Store también lo lista para el 29."
+    }
+   ]
   },
   {
    "id": "kyoto-xanadu",
@@ -7735,9 +7745,7 @@
   {
    "id": "hunting-simulator-3",
    "titulo": "HUNTING SIMULATOR 3",
-   "fecha": "2026-12-31",
-   "estimado": true,
-   "fechaEstimada": "CUARTO TRIMESTRE 2026",
+   "fecha": "2026-10-29",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -7754,7 +7762,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/hunting-simulator-3"
+   "url": "https://lanzamientos.lat/juegos/hunting-simulator-3",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA TIENE FECHA: 29 DE OCTUBRE",
+     "texto": "Después de meses sin día confirmado, el estudio anunció que sale el 29 de octubre."
+    }
+   ]
   },
   {
    "id": "attack-on-titan-3",
@@ -8737,9 +8752,7 @@
   {
    "id": "woodo",
    "titulo": "WOODO",
-   "fecha": "2026-09-30",
-   "estimado": true,
-   "fechaEstimada": "TERCER TRIMESTRE 2026",
+   "fecha": "2026-09-16",
    "plataformas": [
     "SWITCH",
     "XBOX",
@@ -8757,7 +8770,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/woodo"
+   "url": "https://lanzamientos.lat/juegos/woodo",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA TIENE FECHA: 16 DE SEPTIEMBRE",
+     "texto": "El estudio confirmó hoy que la aventura de Foxy por sus recuerdos de infancia sale en cuatro semanas, el 16 de septiembre."
+    }
+   ]
   },
   {
    "id": "danger-mouse",
