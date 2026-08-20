@@ -194,6 +194,13 @@ def generar(j, juegos):
     url = f"{DOMINIO}/juegos/{gid}"
     desc_corta = j["descripcion"][:150].rsplit(" ", 1)[0] + "…"
     og_imagen = j.get("imagen") or f"{DOMINIO}/og-image.png"
+    # El tipo de tarjeta depende de la forma de la carátula, no puede ser fijo. La tarjeta
+    # grande espera una imagen apaisada de ~2:1: con una carátula vertical de 600x900, X la
+    # recorta por arriba y por abajo y se come el título del juego. Al 20/08/2026 eso le
+    # pasaba a 189 de 349 fichas, y es justo lo que se ve cuando posteamos el link.
+    # La imagen del sitio (og-image.png) sí es apaisada.
+    apaisada = "header" in og_imagen or og_imagen.endswith("/og-image.png")
+    tarjeta = "summary_large_image" if apaisada else "summary"
 
     plats_html = "".join(f'<span class="plat {plat_class(p)}">{plat_label(p)}</span>' for p in j["plataformas"])
     tags_html = "".join(f'<span class="tag">{e(g)}</span>' for g in j["genero"]) + \
@@ -359,7 +366,7 @@ def generar(j, juegos):
   <meta property="og:url" content="{url}">
   <meta property="og:image" content="{e(og_imagen)}">
   <meta property="og:locale" content="es_LA">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="{tarjeta}">
 
   <script type="application/ld+json">{json.dumps(datos_ld, ensure_ascii=False)}</script>
 
