@@ -88,7 +88,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/cWJR_d9gBZ4",
     metacritic: 81,
     metacriticUsuarios: 8.2,
-    metacriticVotos: 454,
+    metacriticVotos: 455,
     critica: "La prensa lo recibió como el remake que fija la versión definitiva de Star Fox 64: mismas misiones, rehechas con un salto visual grande y la banda sonora orquestada como lo más elogiado del paquete. El cooperativo nuevo aparece bien parado en casi todas las reseñas. Los reparos son de ambición: es fiel hasta el punto de agregar poco, y varias notas señalan que el multijugador competitivo es un agregado simpático y nada más.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starfox/1x1_Starfox_image500w.jpg",
     noticias: [
@@ -2306,7 +2306,7 @@ const JUEGOS = [
     desarrollador: "ARC SYSTEM WORKS CO., LTD",
     descripcion: "Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel Games.",
     trailer: "https://youtube.com/embed/cen2Lbmmo_Q",
-    metacritic: 85,
+    metacritic: 86,
     metacriticUsuarios: 8.0,
     metacriticVotos: 272,
     critica: "La prensa coincide en que Arc System Works acertó con lo difícil: que un juego de peleas de 4 contra 4 se entienda sin haber jugado ninguno antes y siga teniendo profundidad para el que compite. Los elogios van al apartado visual, al plantel y a un modo entrenamiento que enseña de verdad. Lo que se le reprocha está afuera del ring: los modos para un jugador quedan cortos y los escenarios no están a la altura del resto. La bronca de los jugadores es otra y es de la versión de PC, que exige cuenta de PSN.",
