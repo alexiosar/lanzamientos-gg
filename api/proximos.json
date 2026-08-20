@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-20T14:31:45+00:00",
+ "generado": "2026-08-20T14:58:12+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-20",
  "hasta": "2026-09-19",
- "total": 86,
+ "total": 88,
  "juegos": [
   {
    "id": "puppergeist",
@@ -107,10 +107,20 @@
    "desarrollador": "POCKET TRAP",
    "descripcion": "Una aventura de plataformas en dos dimensiones y vista cenital donde el arma es un yoyó. Sos Pippit, heredero de una familia venida a menos, y te toca recuperar el imperio de tu tía a los yoyazos, enfrentando a cuatro jefes del crimen repartidos por los barrios de la ciudad. Cada truco nuevo cambia la forma de leer el escenario: lo que era una pared se vuelve un atajo, y casi todos los desafíos tienen más de una solución. La edición de Switch 2 corre a 120 cuadros por segundo en modo portátil a 1080p, llega a 4K en el dock y suma HDR.",
    "trailer": "https://youtube.com/embed/Xvtfx9WccCg",
-   "metacritic": null,
+   "metacritic": 87,
+   "metacriticUsuarios": 8.3,
+   "metacriticVotos": 64,
+   "critica": "Casi todas las reseñas lo describen igual: un metroidvania que imita a los juegos de Game Boy Advance y que, a diferencia de la mayoría de los que lo intentan, no se queda en la nostalgia. Los elogios van al yoyó, que sirve de arma y de herramienta a la vez, al diseño de niveles y a la música. Los reparos son dos y aparecen en las notas más bajas: la dificultad da saltos bruscos y el control cuesta al principio. Del bucle de juego se dice que se siente anticuado, aunque quien lo dice igual lo recomienda.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2870350/library_600x900.jpg",
    "alta": "2026-08-19",
-   "url": "https://lanzamientos.lat/juegos/pipistrello-and-the-cursed-yoyo"
+   "url": "https://lanzamientos.lat/juegos/pipistrello-and-the-cursed-yoyo",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "DEBUTA CON 87 EN SU LLEGADA A SWITCH 2",
+     "texto": "La versión de Switch 2 sale hoy como mejora gratuita de la de Switch, con 120 cuadros por segundo en portátil y 4K en el dock. La prensa lo recibió con 87: el yoyó que sirve de arma y de gancho es lo que más se elogia."
+    }
+   ]
   },
   {
    "id": "yet-another-zombie-survivors",
@@ -245,13 +255,21 @@
    "desarrollador": "SUNSET VISITOR",
    "descripcion": "Una aventura de ciencia ficción en un año que nadie sabe cuál es, con la humanidad encerrada bajo tierra por una enfermedad que trajo una invasión alienígena. Se juega como Watcher, una de las hermanas clonadas que sirven a la Todopoderosa.",
    "trailer": "https://youtube.com/embed/ISmiWUpiDs4",
-   "metacritic": null,
+   "metacritic": 86,
+   "metacriticUsuarios": 8.1,
+   "metacriticVotos": 127,
+   "critica": "El acuerdo es raro por lo alto y por lo unánime: la prensa lo trata como una de las mejores historias que dio el medio en años, una ciencia ficción sobre memoria, identidad cultural y herencia que casi ninguna reseña logra resumir sin decir que hay que jugarlo. Los elogios van a la escritura, a los ambientes y a cómo cambia de perspectiva. El reparo también se repite y es el mismo: como juego es poca cosa, más cerca de una novela visual, con conversaciones que se estiran. Ninguna reseña lo considera motivo suficiente para no jugarlo.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675830/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-17",
    "url": "https://lanzamientos.lat/juegos/1000xresist",
    "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "DEBUTA CON 86 Y LA CRÍTICA HABLA DE LA HISTORIA, NO DEL JUEGO",
+     "texto": "Llega hoy a Switch 2 con 86 de crítica. Lo llamativo es en qué coinciden las reseñas: casi todas elogian la historia por encima de todo y casi todas aclaran que como juego es poca cosa. Hay notas de 95 y de 100 que dicen las dos cosas a la vez."
+    },
     {
      "fecha": "2026-08-19",
      "titulo": "EL ELOGIADO DEBUT DE SUNSET VISITOR LLEGA A SWITCH 2",
@@ -1486,6 +1504,34 @@
    "url": "https://lanzamientos.lat/juegos/hot-wheels-infinite-rush"
   },
   {
+   "id": "truck-kun-is-supporting-me-from-another-world-switch-2",
+   "titulo": "TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!",
+   "relanzamiento": "En Xbox y PC desde el 29 de julio de 2026 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-09-14",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "ANIME",
+    "INDIE"
+   ],
+   "desarrollador": "STRANGE SCAFFOLD",
+   "descripcion": "La edición de Switch 2 del juego que convierte en mecánica el chiste más repetido del anime: el camión que atropella al protagonista y lo manda a otro mundo, manejado por vos. Llega mes y medio después del estreno en Xbox, con el mismo contenido.",
+   "trailer": "https://youtube.com/embed/Iujy19OLvuc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/e420ddf6b182eb2a7f68803fe8334fdf03f0a7ce/header.jpg",
+   "alta": "2026-08-20",
+   "url": "https://lanzamientos.lat/juegos/truck-kun-is-supporting-me-from-another-world-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "CONFIRMADA LA EDICIÓN DE SWITCH 2 PARA EL 14 DE SEPTIEMBRE",
+     "texto": "Frosty Pop y Strange Scaffold anunciaron la versión de Switch 2, mes y medio después del estreno en Xbox y PC."
+    }
+   ]
+  },
+  {
    "id": "marvels-wolverine",
    "titulo": "MARVEL'S WOLVERINE",
    "fecha": "2026-09-15",
@@ -1649,6 +1695,37 @@
      "fecha": "2026-07-31",
      "titulo": "LA EDICIÓN FÍSICA LLEGA EN NOVIEMBRE",
      "texto": "La versión digital sale el 16 de septiembre y la física el 6 de noviembre, para Switch 2 y PS5. El paquete suma catorce contenidos entre expansiones grandes, packs de objetos y extras dentro del juego. El original promedia 83 en Metacritic."
+    }
+   ]
+  },
+  {
+   "id": "little-witch-in-the-woods",
+   "titulo": "LITTLE WITCH IN THE WOODS",
+   "fecha": "2026-09-16",
+   "relanzamiento": "En PC y Xbox en acceso anticipado desde 2022, y en PC terminado desde 2025 — esta fecha corresponde a la edición de Switch",
+   "duracion": "≈ 8,7 h (historia) · 37 h (completo)",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "SUNNY SIDE UP",
+   "descripcion": "Encarnás a Ellie, una bruja aprendiz que llega a un bosque encantado para completar su entrenamiento. Recolectá ingredientes, prepará pociones y ayudá a los habitantes del pueblo en esta aventura pixelada de ritmo tranquilo.",
+   "trailer": "https://youtube.com/embed/r1TARFynPc4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-27",
+   "url": "https://lanzamientos.lat/juegos/little-witch-in-the-woods",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA TIENE DÍA: 16 DE SEPTIEMBRE EN SWITCH",
+     "texto": "SUNNY SIDE UP confirmó fecha y precio para la versión de Switch: 16 de septiembre a 19,99 dólares, con todo el contenido y las mejoras de la versión de PC terminada. De paso anunciaron que el juego pasó el medio millón de copias vendidas."
     }
    ]
   },
@@ -1827,7 +1904,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/akiba-lost"
+   "url": "https://lanzamientos.lat/juegos/akiba-lost",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA SE PUEDE PROBAR LA DEMO EN PS5",
+     "texto": "IzanagiGames publicó la demo en PS5, y el 26 de agosto llegan las de Switch 2 y Switch junto con las reservas digitales. Ojo con la fecha: el 26 es de la demo, el juego sale el 17 de septiembre. Se confirmó además que Tsukasa Masuko, de la saga Megami Tensei, trabajó en la banda sonora."
+    }
+   ]
   },
   {
    "id": "sniper-dan",

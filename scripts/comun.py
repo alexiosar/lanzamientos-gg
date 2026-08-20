@@ -53,7 +53,14 @@ CASO_PROPIO = {"IRACING": "iRacing", "PLAYSTATION": "PlayStation", "XBOX": "Xbox
 # Cuando la palabra suelta es ambigua, la excepción va por título completo. "SIN" acá es
 # el nombre del juego de 1998, pero en español es una preposición: si estuviera en
 # CASO_PROPIO, cualquier título con "sin" saldría "SiN".
-TITULO_EXACTO = {"SIN: RELOADED": "SiN: Reloaded"}
+TITULO_EXACTO = {
+    "SIN: RELOADED": "SiN: Reloaded",
+    "1000XRESIST": "1000xRESIST",
+    # "kun" es un honorífico japonés y va en minúscula; después de un guion no se
+    # puede deducir, porque Yog-Sothoth sí lleva mayúscula.
+    "TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!":
+        "Truck-kun Is Supporting Me from Another World?!",
+}
 
 
 def plat(p):
@@ -74,8 +81,10 @@ def _sin_diacriticos(t):
 
 def titulo(j):
     """Los títulos están en MAYÚSCULAS en la base; en redes gritan demasiado."""
-    if j["titulo"] in TITULO_EXACTO:
-        return TITULO_EXACTO[j["titulo"]]
+    # La clave se compara en mayúsculas porque algunos títulos ya están guardados con su
+    # grafía propia (1000xRESIST) y otros en MAYÚSCULAS como el resto.
+    if j["titulo"].upper() in TITULO_EXACTO:
+        return TITULO_EXACTO[j["titulo"].upper()]
     palabras = j["titulo"].split()
     salida = []
     for i, p in enumerate(palabras):

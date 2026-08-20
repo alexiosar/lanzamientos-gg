@@ -88,7 +88,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/cWJR_d9gBZ4",
     metacritic: 81,
     metacriticUsuarios: 8.2,
-    metacriticVotos: 452,
+    metacriticVotos: 454,
     critica: "La prensa lo recibió como el remake que fija la versión definitiva de Star Fox 64: mismas misiones, rehechas con un salto visual grande y la banda sonora orquestada como lo más elogiado del paquete. El cooperativo nuevo aparece bien parado en casi todas las reseñas. Los reparos son de ambición: es fiel hasta el punto de agregar poco, y varias notas señalan que el multijugador competitivo es un agregado simpático y nada más.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starfox/1x1_Starfox_image500w.jpg",
     noticias: [
@@ -274,7 +274,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/UubdWIkj8Wc",
     metacritic: 71,
     metacriticUsuarios: 6.2,
-    metacriticVotos: 177,
+    metacriticVotos: 178,
     critica: "Todo depende del humor, y las reseñas lo dicen sin vueltas: si el estilo de Rick y Morty causa gracia, el juego funciona, y si no, no hay nada que hacer. En lo demás hay más acuerdo del que el puntaje sugiere: casi todas coinciden en que mejora al primero, con el monopatín como el agregado que más se elogia, y casi todas señalan los mismos problemas técnicos. Las notas van de 50 a 95, que es un rango enorme, y la diferencia está casi entera en la tolerancia al chiste.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2069250/d00d793580786f12bc3dd55d179447bdf046c69e/header_alt_assets_0.jpg",
     noticias: [
@@ -539,7 +539,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1124,
+    metacriticVotos: 1127,
     critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg",
     noticias: [
@@ -751,7 +751,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/fJnpfLErDDQ",
     metacritic: 79,
     metacriticUsuarios: 9.0,
-    metacriticVotos: 904,
+    metacriticVotos: 905,
     critica: "Es el caso inverso al de los juegos de EA: los jugadores lo ponen entre lo mejor del año y la prensa lo dejó en el escalón de abajo. Coinciden en lo bueno, que es el sistema de digievolución, la historia y por fin un presupuesto a la altura de la marca. Las reseñas de puntaje más bajo insisten en dos cosas: el arranque es lento y el diseño es bastante más lineal de lo que promete. Varias marcan también la cantidad de contenido descargable de pago. Para el fan de Digimon, ninguno de los dos reparos alcanza.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/library_600x900.jpg",
     noticias: [
@@ -846,7 +846,7 @@ const JUEGOS = [
     descripcion: "Jan, el científico, despierta con todo lo que construyó, descubrió y creó a su disposición. En esta expansión de The Alters, tenés que forjar un equipo de Alters especializados (versiones alternativas de vos mismo, cada una con sus propias habilidades y su propia historia) para resolver el enigma del Oasis antes de que se acabe el tiempo... y el sol.",
     trailer: "https://youtube.com/embed/LJ-uk8v76TE",
     metacritic: 78,
-    metacriticUsuarios: 9.1,
+    metacriticUsuarios: 9.0,
     metacriticVotos: 17,
     critica: "Es una expansión y las reseñas la juzgan como tal, con una división clara. Para la mayoría suma sistemas nuevos —la terraformación, los ciclos, una cadena de producción más exigente— y le da al que ya jugó una razón para volver, a buen precio. Para las notas más bajas pasa lo contrario: gana complejidad y pierde lo que hacía especial al original, con personajes escritos con menos cuidado y menos tensión entre administrar recursos y administrar gente.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3237520/e817a332b4247486e43005e12413aa9f4d377003/header.jpg",
@@ -949,7 +949,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/1MUuSW4g0Bc",
     metacritic: 88,
     metacriticUsuarios: 8.7,
-    metacriticVotos: 139,
+    metacriticVotos: 140,
     critica: "Es el juego que la prensa no vio venir. Se trata de manejar un tren que hace saltos y piruetas, y la mayoría de las reseñas lo defienden con el mismo argumento: en una época de remakes y secuelas, un juego así de raro vale por lo raro. Los elogios van al arte, a la música y a lo bien que se siente el movimiento. Los reparos, cuando aparecen, son de estructura: cada región repite el mismo esquema y la historia es liviana, así que a la larga se vuelve repetitivo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/9e82089d034705eaa84ecb130d04ed1084ce574c/header.jpg",
     noticias: [
@@ -1200,6 +1200,27 @@ const JUEGOS = [
     alta: "2026-08-19"
   },
   {
+    id: "truck-kun-is-supporting-me-from-another-world-switch-2",
+    titulo: "TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!",
+    relanzamiento: "En Xbox y PC desde el 29 de julio de 2026 — esta fecha corresponde a la edición de Switch 2",
+    fecha: "2026-09-14",
+    plataformas: ["SWITCH2"],
+    genero: ["ACCION", "ANIME", "INDIE"],
+    desarrollador: "STRANGE SCAFFOLD",
+    descripcion: "La edición de Switch 2 del juego que convierte en mecánica el chiste más repetido del anime: el camión que atropella al protagonista y lo manda a otro mundo, manejado por vos. Llega mes y medio después del estreno en Xbox, con el mismo contenido.",
+    trailer: "https://youtube.com/embed/Iujy19OLvuc",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3642010/e420ddf6b182eb2a7f68803fe8334fdf03f0a7ce/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-20",
+        titulo: "CONFIRMADA LA EDICIÓN DE SWITCH 2 PARA EL 14 DE SEPTIEMBRE",
+        texto: "Frosty Pop y Strange Scaffold anunciaron la versión de Switch 2, mes y medio después del estreno en Xbox y PC."
+      }
+    ],
+    alta: "2026-08-20"
+  },
+  {
     id: "sin-reloaded",
     titulo: "SIN: RELOADED",
     relanzamiento: "Remasterización del juego de 1998",
@@ -1434,7 +1455,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 81,
     metacriticUsuarios: 9.3,
-    metacriticVotos: 1840,
+    metacriticVotos: 1849,
     critica: "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
     noticias: [
@@ -1572,7 +1593,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/jsdxLwqUH6g",
     metacritic: 85,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 759,
+    metacriticVotos: 760,
     critica: "Las reseñas son las de esta remasterización cuando salió, hace más de diez años. La prensa la tomó como un ejemplo de cómo se hace: dos juegos completos, con el contenido internacional que en occidente nunca había llegado, y un trabajo de retoque que va más allá de subirle la resolución. Los reparos apuntan al original, no al remaster: hay quien sostiene que el sistema de combate no envejeció tan bien y que la cámara sigue siendo un problema en varios tramos.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxx2hdremaster/1x1_FinalFantasyXX2HDRemaster_image500w.jpg",
     noticias: [
@@ -1693,7 +1714,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 80,
     metacriticUsuarios: 5.8,
-    metacriticVotos: 642,
+    metacriticVotos: 646,
     critica: "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
     noticias: [
@@ -1737,8 +1758,8 @@ const JUEGOS = [
     descripcion: "Mistfall Hunter es un juego de acción y rol de extracción JcJcE en tercera persona. ¡Vive la emoción del combate al combinar las habilidades, talentos y equipamiento de cada clase! Ya juegues en solitario o en equipo, una cosa está clara: para llevártelo todo, tendrás que luchar. Buena suerte.",
     trailer: "https://youtube.com/embed/bc1exw4vjtM",
     metacritic: 70,
-    metacriticUsuarios: 6.3,
-    metacriticVotos: 54,
+    metacriticUsuarios: 6.2,
+    metacriticVotos: 55,
     critica: "Las reseñas coinciden en la forma del problema: hay un buen juego adentro que las decisiones de diseño no dejan salir. El combate y la tensión de decidir si seguir o retirarse se llevan los elogios. Los reparos se repiten con una consistencia llamativa: el modo para un jugador está descuidado, no hay un modo contra la máquina como corresponde, sobran restricciones, y varias reseñas usan la palabra depredadora para hablar de la monetización. Casi todas mencionan además problemas de servidores y rendimiento en el estreno.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/library_600x900.jpg",
     noticias: [
@@ -2199,8 +2220,8 @@ const JUEGOS = [
     descripcion: "En un Japón posapocalíptico, la última esperanza de la humanidad está en manos de Emma y Koo, su compañero peludo. Vive una intensa aventura en «Beast of Reincarnation», un RPG de acción con combates técnicos y exigentes, protagonizado por una chica y su perro. ¿Qué habrá al final del camino? El primer gran RPG de acción de Game Freak, los creadores de Pokémon.",
     trailer: "https://youtube.com/embed/3dw0ePZ8GLc",
     metacritic: 72,
-    metacriticUsuarios: 6.2,
-    metacriticVotos: 313,
+    metacriticUsuarios: 6.1,
+    metacriticVotos: 318,
     critica: "Es el más discutido de los que tenemos cargados y viene de Game Freak, los de Pokémon, lo que explica parte del ruido. El acuerdo está en el combate y en la relación entre Emma y Kuu, que casi todas las reseñas rescatan. El desacuerdo está en todo lo demás: para la mitad hay un mundo vacío, una historia que no arranca y problemas gráficos, y las notas más duras dicen que no es un renacimiento creativo sino un juego armado imitando a otros mejores. Los jefes se llevan los elogios más consistentes.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
     noticias: [
@@ -2229,8 +2250,8 @@ const JUEGOS = [
     descripcion: "Pasa el rato con tus amigos y perdeos en un mundo enorme. Una caminata cooperativa en línea de los creadores de Untitled Goose Game. De los creadores de Untitled Goose Game.",
     trailer: "https://youtube.com/embed/xfzapBQssa0",
     metacritic: 91,
-    metacriticUsuarios: 8.1,
-    metacriticVotos: 220,
+    metacriticUsuarios: 8.2,
+    metacriticVotos: 232,
     critica: "El acuerdo es casi total: lo que hace especial a Big Walk no son sus puzzles sino las conversaciones que obliga a tener. Casi todas las reseñas cuentan lo mismo, que los mejores momentos son los que el juego no programó, los que salen de coordinarse mal con un amigo, y varias lo emparentan con Untitled Goose Game, del mismo estudio. El reparo, cuando aparece, es el ritmo: la isla es grande y hay tramos largos donde no pasa nada, algo que se siente más de a dos que en grupo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
     noticias: [
@@ -2285,9 +2306,9 @@ const JUEGOS = [
     desarrollador: "ARC SYSTEM WORKS CO., LTD",
     descripcion: "Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel Games.",
     trailer: "https://youtube.com/embed/cen2Lbmmo_Q",
-    metacritic: 86,
+    metacritic: 85,
     metacriticUsuarios: 8.0,
-    metacriticVotos: 269,
+    metacriticVotos: 272,
     critica: "La prensa coincide en que Arc System Works acertó con lo difícil: que un juego de peleas de 4 contra 4 se entienda sin haber jugado ninguno antes y siga teniendo profundidad para el que compite. Los elogios van al apartado visual, al plantel y a un modo entrenamiento que enseña de verdad. Lo que se le reprocha está afuera del ring: los modos para un jugador quedan cortos y los escenarios no están a la altura del resto. La bronca de los jugadores es otra y es de la versión de PC, que exige cuenta de PSN.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg",
     noticias: [
@@ -2468,8 +2489,8 @@ const JUEGOS = [
     descripcion: "Rompe las cadenas del tiempo saltando y blandiendo tu espada en un mundo de fantasía en este homenaje a los clásicos de plataformas 3D de acción. Zirian, acompañado de su Cuco mecánico, debe salvar a su hermana de una misteriosa Torre del reloj que ha sumido la tierra en una noche eterna.",
     trailer: "https://youtube.com/embed/6Mq_adllBHg",
     metacritic: 78,
-    metacriticUsuarios: 7.8,
-    metacriticVotos: 21,
+    metacriticUsuarios: 7.9,
+    metacriticVotos: 24,
     critica: "Todas las reseñas lo ubican en el mismo lugar: un plataformas en 3D que homenajea a los de PlayStation 2, con Kingdom Hearts, Ratchet & Clank y Jak and Daxter nombrados una y otra vez. Los elogios van al movimiento, al diseño de niveles y a la música. Los reparos coinciden con el elogio y son su reverso: se parece tanto a lo que homenajea que no llega a tener voz propia, la progresión es superficial y las recompensas por explorar decepcionan.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/f17f8f31c30ca7f8603b125502e00c0c542c6677/header.jpg",
     noticias: [
@@ -2493,8 +2514,8 @@ const JUEGOS = [
     descripcion: "Adéntrate en el fragor de la batalla en Hell Let Loose: Vietnam. Juega un papel decisivo en uno de los conflictos más históricos con extensas batallas de 50 vs. 50 en las que el trabajo en equipo, las tácticas y un arsenal de armas destructivas se combinan para que la batalla progrese en tu favor.",
     trailer: "https://youtube.com/embed/8zdQFX0Li8Q",
     metacritic: 76,
-    metacriticUsuarios: 5.4,
-    metacriticVotos: 21,
+    metacriticUsuarios: 5.2,
+    metacriticVotos: 22,
     critica: "El acuerdo entre las reseñas es que no hay término medio: es un shooter táctico donde sin equipo que se comunique no se hace nada, y eso lo vuelve extraordinario para unos e insoportable para otros. Se elogian la ambientación de Vietnam, el peso que tiene cada muerte y la reconstrucción del caos de la guerra. Los reparos son dos y aparecen en casi todas: el rendimiento del motor y que, más que un sucesor del juego de 2021, es el mismo juego con otro escenario.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079210/2e52f99e70e827b57a2205469dc5d529e8e0490a/header.jpg",
     noticias: [
@@ -2619,7 +2640,8 @@ const JUEGOS = [
     descripcion: "The Sinking City 2 se ambienta en los Felices años veinte en este juego de horror y supervivencia cargado de terrores lovecraftianos. Desafía a una deidad sobrenatural y explora los callejones inundados de Arkham mientras te acechan los muertos y sopesas una sola vida frente a toda una ciudad.",
     trailer: "https://youtube.com/embed/2q-pfSpS_J4",
     metacritic: 79,
-    metacriticUsuarios: null,
+    metacriticUsuarios: 8.5,
+    metacriticVotos: 35,
     critica: "Frogwares cambió de género y la crítica se lo acepta: esta segunda parte es survival horror al estilo de los Resident Evil modernos, con mejor combate y mejores puzzles que la primera. El reparo que más se repite es lo que quedó en el camino, la investigación de detective a mano suelta que hacía distinto al original. Varias reseñas recuerdan además en qué condiciones se hizo, con el estudio trabajando en Ucrania durante la guerra, y le perdonan la falta de pulido y unas actuaciones desparejas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
     noticias: [
@@ -2709,9 +2731,19 @@ const JUEGOS = [
     desarrollador: "POCKET TRAP",
     descripcion: "Una aventura de plataformas en dos dimensiones y vista cenital donde el arma es un yoyó. Sos Pippit, heredero de una familia venida a menos, y te toca recuperar el imperio de tu tía a los yoyazos, enfrentando a cuatro jefes del crimen repartidos por los barrios de la ciudad. Cada truco nuevo cambia la forma de leer el escenario: lo que era una pared se vuelve un atajo, y casi todos los desafíos tienen más de una solución. La edición de Switch 2 corre a 120 cuadros por segundo en modo portátil a 1080p, llega a 4K en el dock y suma HDR.",
     trailer: "https://youtube.com/embed/Xvtfx9WccCg",
-    metacritic: null,
+    metacritic: 87,
+    metacriticUsuarios: 8.3,
+    metacriticVotos: 64,
+    critica: "Casi todas las reseñas lo describen igual: un metroidvania que imita a los juegos de Game Boy Advance y que, a diferencia de la mayoría de los que lo intentan, no se queda en la nostalgia. Los elogios van al yoyó, que sirve de arma y de herramienta a la vez, al diseño de niveles y a la música. Los reparos son dos y aparecen en las notas más bajas: la dificultad da saltos bruscos y el control cuesta al principio. Del bucle de juego se dice que se siente anticuado, aunque quien lo dice igual lo recomienda.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2870350/library_600x900.jpg",
-    alta: "2026-08-19"
+    alta: "2026-08-19",
+    noticias: [
+      {
+        fecha: "2026-08-20",
+        titulo: "DEBUTA CON 87 EN SU LLEGADA A SWITCH 2",
+        texto: "La versión de Switch 2 sale hoy como mejora gratuita de la de Switch, con 120 cuadros por segundo en portátil y 4K en el dock. La prensa lo recibió con 87: el yoyó que sirve de arma y de gancho es lo que más se elogia."
+      }
+    ]
   },
   {
     id: "iracing-arcade",
@@ -3298,7 +3330,14 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4131220/fd7c66f078eca6d2eba04cf046d1228874a3280f/header.jpg",
     gamepass: false,
     psplus: false,
-    alta: "2026-07-16"
+    alta: "2026-07-16",
+    noticias: [
+      {
+        fecha: "2026-08-20",
+        titulo: "YA SE PUEDE PROBAR LA DEMO EN PS5",
+        texto: "IzanagiGames publicó la demo en PS5, y el 26 de agosto llegan las de Switch 2 y Switch junto con las reservas digitales. Ojo con la fecha: el 26 es de la demo, el juego sale el 17 de septiembre. Se confirmó además que Tsukasa Masuko, de la saga Megami Tensei, trabajó en la banda sonora."
+      }
+    ]
   },
   {
     id: "lego-batman-legacy-of-the-dark-knight",
@@ -3830,7 +3869,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9hSoFKn8cTk",
     metacritic: 86,
     metacriticUsuarios: 8.2,
-    metacriticVotos: 204,
+    metacriticVotos: 203,
     critica: "Las reseñas son las del remake de 2023, que en esta fecha llega a Switch 2. El acuerdo es amplio y va en la misma dirección: es un ejemplo de cómo rehacer un RPG viejo sin traicionarlo. Se elogian la mezcla de personajes en píxeles con escenarios en 3D, la música rearreglada y un sistema de combate que envejeció mejor que el resto. Los reparos son los del original que el remake decidió no tocar: la exploración se siente anticuada y la historia cae en el cliché en su tramo final.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2238900/library_600x900.jpg",
     noticias: [
@@ -4557,7 +4596,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/BZTfi1jv-EE",
     metacritic: 84,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1711,
+    metacriticVotos: 1712,
     critica: "Las reseñas son las de 2015, cuando lo sacaron los mismos de Amnesia. El consenso es fuerte y bastante inusual: casi todos coinciden en que la historia es de lo mejor que dio la ciencia ficción en videojuegos, con preguntas sobre la identidad y la conciencia que se quedan encima mucho después de terminarlo. El reparo también es unánime: como juego de terror no asusta tanto como Amnesia. Los monstruos son predecibles y esconderse se vuelve trámite, hasta el punto de que muchas reseñas recomendaban jugarlo por la historia y no por el susto.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282140/library_600x900.jpg",
     noticias: [
@@ -4722,7 +4761,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/2XbxPsWFyU8",
     metacritic: 86,
     metacriticUsuarios: 7.0,
-    metacriticVotos: 806,
+    metacriticVotos: 807,
     metacriticSlug: "final-fantasy-xiv-online-a-realm-reborn",
     critica: "Ojo con el puntaje: las reseñas son las de A Realm Reborn, la refundación de 2013 que rescató al juego del desastre de su primer lanzamiento, no las de esta edición de Switch 2. Aquella prensa coincidió en que era el mejor MMO jugable en consola y en que el giro que dio Yoshida y su equipo fue uno de los más grandes que se recuerdan en el medio. Los reparos de entonces también se repetían: la estructura de misiones se hace pesada en las primeras decenas de horas.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyxivonline/1x1_FinalFantasyXIVOnline_image500w.jpg",
@@ -4832,12 +4871,10 @@ const JUEGOS = [
   {
     id: "little-witch-in-the-woods",
     titulo: "LITTLE WITCH IN THE WOODS",
-    fecha: "2026-09-30",
-    estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
-    relanzamiento: "En PC desde 2022",
+    fecha: "2026-09-16",
+    relanzamiento: "En PC y Xbox en acceso anticipado desde 2022, y en PC terminado desde 2025 — esta fecha corresponde a la edición de Switch",
     duracion: "≈ 8,7 h (historia) · 37 h (completo)",
-    plataformas: ["SWITCH", "PS5", "PS4"],
+    plataformas: ["SWITCH"],
     genero: ["AVENTURA", "RELAX", "INDIE"],
     desarrollador: "SUNNY SIDE UP",
     descripcion: "Encarnás a Ellie, una bruja aprendiz que llega a un bosque encantado para completar su entrenamiento. Recolectá ingredientes, prepará pociones y ayudá a los habitantes del pueblo en esta aventura pixelada de ritmo tranquilo.",
@@ -4846,7 +4883,14 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    alta: "2026-07-27"
+    alta: "2026-07-27",
+    noticias: [
+      {
+        fecha: "2026-08-20",
+        titulo: "YA TIENE DÍA: 16 DE SEPTIEMBRE EN SWITCH",
+        texto: "SUNNY SIDE UP confirmó fecha y precio para la versión de Switch: 16 de septiembre a 19,99 dólares, con todo el contenido y las mejoras de la versión de PC terminada. De paso anunciaron que el juego pasó el medio millón de copias vendidas."
+      }
+    ]
   },
   {
     id: "solo-leveling-arise-overdrive",
@@ -4980,7 +5024,14 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg",
     gamepass: false,
     psplus: false,
-    alta: "2026-07-30"
+    alta: "2026-07-30",
+    noticias: [
+      {
+        fecha: "2026-08-20",
+        titulo: "LA BETA ARRANCA EL 21 Y SE ABRE A TODOS EL 28",
+        texto: "El acceso anticipado a la beta empieza el 21 de agosto y la fase abierta y gratuita el 28. Esta vez también se puede jugar en Switch 2, que es la novedad para el que espera la versión de Nintendo."
+      }
+    ]
   },
   {
     id: "steins-gate-reboot-consolas",
@@ -6362,7 +6413,7 @@ const JUEGOS = [
     desarrollador: "SEED SPARKLE LAB",
     descripcion: "Cansado del ruido de la ciudad, te mudás a la isla de Starsand a llevar una vida de campo: cultivar, criar animales y hacerte amigo de los vecinos, sin apuro y sin relojes.",
     trailer: "https://youtube.com/embed/dVczi9ZFTwY",
-    metacritic: 70,
+    metacritic: 68,
     metacriticUsuarios: null,
     critica: "Con cinco reseñas y bastante desacuerdo. Todas describen lo mismo —una simulación de vida acogedora, con granja, animales y un sistema de construcción flexible— y difieren en si eso alcanza en un género saturado. La reseña más dura dice que no aporta nada y que está mal optimizado en consola. Las más generosas admiten los mismos errores técnicos y aun así le encuentran profundidad. El punto en común es que los problemas de rendimiento existen y nadie los niega.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2966320/library_600x900.jpg",
@@ -6403,12 +6454,20 @@ const JUEGOS = [
     desarrollador: "SUNSET VISITOR",
     descripcion: "Una aventura de ciencia ficción en un año que nadie sabe cuál es, con la humanidad encerrada bajo tierra por una enfermedad que trajo una invasión alienígena. Se juega como Watcher, una de las hermanas clonadas que sirven a la Todopoderosa.",
     trailer: "https://youtube.com/embed/ISmiWUpiDs4",
-    metacritic: null,
+    metacritic: 86,
+    metacriticUsuarios: 8.1,
+    metacriticVotos: 127,
+    critica: "El acuerdo es raro por lo alto y por lo unánime: la prensa lo trata como una de las mejores historias que dio el medio en años, una ciencia ficción sobre memoria, identidad cultural y herencia que casi ninguna reseña logra resumir sin decir que hay que jugarlo. Los elogios van a la escritura, a los ambientes y a cómo cambia de perspectiva. El reparo también se repite y es el mismo: como juego es poca cosa, más cerca de una novela visual, con conversaciones que se estiran. Ninguna reseña lo considera motivo suficiente para no jugarlo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675830/library_600x900.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-08-17",
     noticias: [
+      {
+        fecha: "2026-08-20",
+        titulo: "DEBUTA CON 86 Y LA CRÍTICA HABLA DE LA HISTORIA, NO DEL JUEGO",
+        texto: "Llega hoy a Switch 2 con 86 de crítica. Lo llamativo es en qué coinciden las reseñas: casi todas elogian la historia por encima de todo y casi todas aclaran que como juego es poca cosa. Hay notas de 95 y de 100 que dicen las dos cosas a la vez."
+      },
       {
         fecha: "2026-08-19",
         titulo: "EL ELOGIADO DEBUT DE SUNSET VISITOR LLEGA A SWITCH 2",
@@ -6488,8 +6547,8 @@ const JUEGOS = [
     descripcion: "La entrega anual de fútbol americano de EA, esta vez movida por el motor Persona, con el foco puesto en dirigir la liga decisión por decisión.",
     trailer: "https://youtube.com/embed/bqQtZ9xm_uI",
     metacritic: 75,
-    metacriticUsuarios: 6.2,
-    metacriticVotos: 19,
+    metacriticUsuarios: 5.9,
+    metacriticVotos: 20,
     critica: "El resumen de casi todas las reseñas es el mismo: se juega bien, sobre todo en ataque, y por fin arreglaron el modo Franquicia, que es lo que los fanáticos venían pidiendo hace años. Y ahí se termina el elogio. Los reparos se repiten con insistencia: fuera de eso el juego cambia poco de un año al otro, arrastra errores y lógica rota, y varias reseñas señalan directamente la cantidad de microtransacciones nuevas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940610/7ed2213f0170c1b55410b82ed89a8bab3911c6ea/header.jpg",
     gamepass: false,

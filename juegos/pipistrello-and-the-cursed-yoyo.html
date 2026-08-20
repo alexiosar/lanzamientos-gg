@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -127,6 +128,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">87 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 64 votos">8.3 <span class="badge-quien">USUARIOS</span></span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('pipistrello-and-the-cursed-yoyo')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -136,6 +142,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Casi todas las reseñas lo describen igual: un metroidvania que imita a los juegos de Game Boy Advance y que, a diferencia de la mayoría de los que lo intentan, no se queda en la nostalgia. Los elogios van al yoyó, que sirve de arma y de herramienta a la vez, al diseño de niveles y a la música. Los reparos son dos y aparecen en las notas más bajas: la dificultad da saltos bruscos y el control cuesta al principio. Del bucle de juego se dice que se siente anticuado, aunque quien lo dice igual lo recomienda.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-20</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 87 EN SU LLEGADA A SWITCH 2</span>
+          </div>
+          <p class="noticia-texto">La versión de Switch 2 sale hoy como mejora gratuita de la de Switch, con 120 cuadros por segundo en portátil y 4K en el dock. La prensa lo recibió con 87: el yoyó que sirve de arma y de gancho es lo que más se elogia.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Una aventura de plataformas en dos dimensiones y vista cenital donde el arma es un yoyó. Sos Pippit, heredero de una familia venida a menos, y te toca recuperar el imperio de tu tía a los yoyazos, enfrentando a cuatro jefes del crimen repartidos por los barrios de la ciudad. Cada truco nuevo cambia la forma de leer el escenario: lo que era una pared se vuelve un atajo, y casi todos los desafíos tienen más de una solución. La edición de Switch 2 corre a 120 cuadros por segundo en modo portátil a 1080p, llega a 4K en el dock y suma HDR.</p>
