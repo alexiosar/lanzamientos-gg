@@ -207,7 +207,11 @@ def main():
             # "tbd": todavía no hay suficientes votos. Se marca null para no volver
             # a pedirlo cada día una vez que el juego es viejo.
             if j["usuarios"] is None:
-                usuarios[gid] = "null"
+                # Tupla igual que en el caso normal: el escritor de más abajo desempaqueta
+                # (nota, votos) y con un string suelto reventaba. Pasaba sólo cuando un
+                # juego estrena puntaje de crítica el mismo día en que el de usuarios
+                # todavía dice "tbd", que es justo lo que pasó el 21/08/2026.
+                usuarios[gid] = ("null", None)
             continue
         if (j["usuarios"] not in (None, "null") and abs(float(j["usuarios"]) - nota) < 0.05
                 and j["votos"] == str(votos)):

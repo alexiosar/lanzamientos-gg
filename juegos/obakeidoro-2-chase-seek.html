@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -126,6 +127,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">69 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('obakeidoro-2-chase-seek')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -135,6 +141,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas están de acuerdo en qué es y no tanto en cuánto vale: una escondida asimétrica, un fantasma contra cuatro chicos, con espíritu de juego de patio en Halloween. Casi todas dicen que brilla en el sillón, con gente al lado, más que en línea. La nota más baja habla de potencial desaprovechado y de una experiencia que se queda corta; las más altas lo toman por lo que es, un rato corto de diversión fácil de entender.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-21</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 69, MEJOR EN EL SILLÓN QUE EN LÍNEA</span>
+          </div>
+          <p class="noticia-texto">La escondida asimétrica de un fantasma contra cuatro chicos se llevó 69. Las reseñas coinciden en que está pensada para jugar con gente al lado: en línea pierde bastante de su gracia.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">La secuela del party game japonés de las escondidas fantasmales: humanos contra fantasmas en partidas rápidas de perseguir y esconderse, ideal para jugar en familia, ahora también en Switch 2.</p>

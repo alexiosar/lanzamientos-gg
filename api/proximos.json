@@ -2,281 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-20T16:21:47+00:00",
+ "generado": "2026-08-21T14:59:21+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-20",
- "hasta": "2026-09-19",
- "total": 90,
+ "desde": "2026-08-21",
+ "hasta": "2026-09-20",
+ "total": 80,
  "juegos": [
-  {
-   "id": "puppergeist",
-   "titulo": "PUPPERGEIST",
-   "fecha": "2026-08-20",
-   "plataformas": [
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "MUSICA",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "SERENITY FORGE",
-   "descripcion": "Viaja a través del Inframundo Canino en esta conmovedora mezcla de ritmo y novela visual. ¡Reúnete con tu cachorro perdido conectando con las almas de otros perros, descubriendo sus historias y animando su espíritu con juegos rítmicos llenos de encanto y desafíos lúdicos! Su banda sonora reúne a los creadores de la música de To the Moon y Friday Night Funkin'.",
-   "trailer": "https://youtube.com/embed/mGQ_sVCc1_c",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4029740/61bd4edcfe96b8f158100a92fb2b11d9778fd24a/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-09",
-   "url": "https://lanzamientos.lat/juegos/puppergeist",
-   "noticias": [
-    {
-     "fecha": "2026-07-21",
-     "titulo": "RETRASADO AL 20 DE AGOSTO",
-     "texto": "La novela visual rítmica del inframundo canino movió su lanzamiento del 16 de julio al 20 de agosto."
-    }
-   ]
-  },
-  {
-   "id": "mortal-shell-2",
-   "titulo": "MORTAL SHELL II",
-   "fecha": "2026-08-20",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG"
-   ],
-   "desarrollador": "COLD SYMMETRY",
-   "descripcion": "Su carne es tu arma. Mortal Shell II es la secuela independiente de un RPG de acción con peleas despiadadas y llenas de adrenalina. Posee guerreros excepcionales, derroca dioses falsos y redime un mundo en destrucción.",
-   "trailer": "https://youtube.com/embed/KJWAUJhInH0",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/379616e6d986dc4b75d0d5ace6ec99b7c5184fef/header_alt_assets_1_spanish.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/mortal-shell-2",
-   "noticias": [
-    {
-     "fecha": "2026-07-10",
-     "titulo": "PRECIO CONFIRMADO: 50 DÓLARES",
-     "texto": "El soulslike de Cold Symmetry confirmó precio, mundo abierto y acceso anticipado de 3 días para quienes reserven. No estará en Game Pass al lanzamiento, a diferencia del primero."
-    }
-   ]
-  },
-  {
-   "id": "steins-gate-reboot",
-   "titulo": "STEINS;GATE RE:BOOT",
-   "fecha": "2026-08-20",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "ANIME",
-    "NOVELA VISUAL"
-   ],
-   "desarrollador": "MAGES. INC.",
-   "descripcion": "¡STEINS;GATE está de vuelta, renovado para la era moderna! La novela visual de viajes en el tiempo aclamada por la crítica regresa con gráficos completamente actualizados.",
-   "trailer": "https://youtube.com/embed/2X-X5C4jG0A",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4012810/07418d40a3fdd2f403bfa506f50051f4254fa02a/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/steins-gate-reboot"
-  },
-  {
-   "id": "pipistrello-and-the-cursed-yoyo",
-   "titulo": "PIPISTRELLO AND THE CURSED YOYO",
-   "relanzamiento": "En PS5, PS4, Xbox, Switch y PC desde mayo de 2025 — esta versión de Switch 2 es una mejora gratuita de la de Switch",
-   "fecha": "2026-08-20",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "PLATAFORMA",
-    "INDIE"
-   ],
-   "desarrollador": "POCKET TRAP",
-   "descripcion": "Una aventura de plataformas en dos dimensiones y vista cenital donde el arma es un yoyó. Sos Pippit, heredero de una familia venida a menos, y te toca recuperar el imperio de tu tía a los yoyazos, enfrentando a cuatro jefes del crimen repartidos por los barrios de la ciudad. Cada truco nuevo cambia la forma de leer el escenario: lo que era una pared se vuelve un atajo, y casi todos los desafíos tienen más de una solución. La edición de Switch 2 corre a 120 cuadros por segundo en modo portátil a 1080p, llega a 4K en el dock y suma HDR.",
-   "trailer": "https://youtube.com/embed/Xvtfx9WccCg",
-   "metacritic": 87,
-   "metacriticUsuarios": 8.3,
-   "metacriticVotos": 64,
-   "critica": "Casi todas las reseñas lo describen igual: un metroidvania que imita a los juegos de Game Boy Advance y que, a diferencia de la mayoría de los que lo intentan, no se queda en la nostalgia. Los elogios van al yoyó, que sirve de arma y de herramienta a la vez, al diseño de niveles y a la música. Los reparos son dos y aparecen en las notas más bajas: la dificultad da saltos bruscos y el control cuesta al principio. Del bucle de juego se dice que se siente anticuado, aunque quien lo dice igual lo recomienda.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2870350/library_600x900.jpg",
-   "alta": "2026-08-19",
-   "url": "https://lanzamientos.lat/juegos/pipistrello-and-the-cursed-yoyo",
-   "noticias": [
-    {
-     "fecha": "2026-08-20",
-     "titulo": "DEBUTA CON 87 EN SU LLEGADA A SWITCH 2",
-     "texto": "La versión de Switch 2 sale hoy como mejora gratuita de la de Switch, con 120 cuadros por segundo en portátil y 4K en el dock. La prensa lo recibió con 87: el yoyó que sirve de arma y de gancho es lo que más se elogia."
-    }
-   ]
-  },
-  {
-   "id": "yet-another-zombie-survivors",
-   "titulo": "YET ANOTHER ZOMBIE SURVIVORS",
-   "fecha": "2026-08-20",
-   "relanzamiento": "En PC desde 2023 — debut en consolas",
-   "duracion": "≈ 3,7 h (historia) · 30 h (completo)",
-   "plataformas": [
-    "PS5",
-    "PS4"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "AWESOME GAMES STUDIO",
-   "descripcion": "¡La horda se acerca, pero estás listo para luchar! Reuní a tu escuadrón, elegí sus mejoras y sobreviví a oleadas interminables de zombis en este frenético survivor roguelite de acción.",
-   "trailer": "https://youtube.com/embed/foG7tODmFks",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-27",
-   "url": "https://lanzamientos.lat/juegos/yet-another-zombie-survivors"
-  },
-  {
-   "id": "gallipoli",
-   "titulo": "GALLIPOLI",
-   "fecha": "2026-08-20",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SHOOTER",
-    "FPS",
-    "MULTIJUGADOR",
-    "WWII"
-   ],
-   "desarrollador": "BLACKMILL GAMES",
-   "descripcion": "Desembarcás en las playas de Galípoli para pelear batallas por objetivos con cincuenta jugadores en los frentes otomanos. Guerra de trincheras y desierto en el shooter más inmersivo de la Primera Guerra Mundial.",
-   "trailer": "https://youtube.com/embed/hlnSz-JPiBk",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/3ee3f9540ec1100225c9e3ab2f4028c133b0f226/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/gallipoli"
-  },
-  {
-   "id": "mexican-ninja",
-   "titulo": "MEXICAN NINJA",
-   "fecha": "2026-08-20",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "ARCADE",
-    "INDIE"
-   ],
-   "desarrollador": "MADBRICKS",
-   "descripcion": "Un beat'em up roguelike trepidante, lleno de groserías y chulería. Te convertís en el ninja mexicano y te abrís paso a tajos por las calles de Nuevo Tokio en un regreso al arcade retro en dos dimensiones y media.",
-   "trailer": "https://youtube.com/embed/SZAu6g0fjq0",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764970/824f4a5e7665ce9394f2d58e12d71e41636d467d/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/mexican-ninja"
-  },
-  {
-   "id": "over-requiemz",
-   "titulo": "OVER REQUIEMZ",
-   "fecha": "2026-08-20",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "NOVELA VISUAL",
-    "ANIME"
-   ],
-   "desarrollador": "AKSYS GAMES",
-   "descripcion": "Aventura narrativa japonesa publicada en occidente por Aksys Games.",
-   "trailer": "https://youtube.com/embed/xgWazUdXMQY",
-   "metacritic": null,
-   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/overrequiemz/1x1_OverRequiemz_image500w.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/over-requiemz"
-  },
-  {
-   "id": "wobbly-life",
-   "titulo": "WOBBLY LIFE",
-   "relanzamiento": "En PC desde septiembre de 2025",
-   "fecha": "2026-08-20",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "CASUAL",
-    "MUNDO ABIERTO"
-   ],
-   "desarrollador": "RUBBERBANDGAMES",
-   "descripcion": "Un sandbox de mundo abierto donde todo se mueve por física y los personajes son muñecos de trapo. Se consiguen trabajos, se junta plata y se hace desastre, solo o en línea con amigos.",
-   "trailer": "https://youtube.com/embed/2invlS5ks04",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211020/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-17",
-   "url": "https://lanzamientos.lat/juegos/wobbly-life"
-  },
-  {
-   "id": "1000xresist",
-   "titulo": "1000xRESIST",
-   "relanzamiento": "En PC desde mayo de 2024",
-   "fecha": "2026-08-20",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE",
-    "NOVELA VISUAL"
-   ],
-   "desarrollador": "SUNSET VISITOR",
-   "descripcion": "Una aventura de ciencia ficción en un año que nadie sabe cuál es, con la humanidad encerrada bajo tierra por una enfermedad que trajo una invasión alienígena. Se juega como Watcher, una de las hermanas clonadas que sirven a la Todopoderosa.",
-   "trailer": "https://youtube.com/embed/ISmiWUpiDs4",
-   "metacritic": 86,
-   "metacriticUsuarios": 8.1,
-   "metacriticVotos": 127,
-   "critica": "El acuerdo es raro por lo alto y por lo unánime: la prensa lo trata como una de las mejores historias que dio el medio en años, una ciencia ficción sobre memoria, identidad cultural y herencia que casi ninguna reseña logra resumir sin decir que hay que jugarlo. Los elogios van a la escritura, a los ambientes y a cómo cambia de perspectiva. El reparo también se repite y es el mismo: como juego es poca cosa, más cerca de una novela visual, con conversaciones que se estiran. Ninguna reseña lo considera motivo suficiente para no jugarlo.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1675830/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-17",
-   "url": "https://lanzamientos.lat/juegos/1000xresist",
-   "noticias": [
-    {
-     "fecha": "2026-08-20",
-     "titulo": "DEBUTA CON 86 Y LA CRÍTICA HABLA DE LA HISTORIA, NO DEL JUEGO",
-     "texto": "Llega hoy a Switch 2 con 86 de crítica. Lo llamativo es en qué coinciden las reseñas: casi todas elogian la historia por encima de todo y casi todas aclaran que como juego es poca cosa. Hay notas de 95 y de 100 que dicen las dos cosas a la vez."
-    },
-    {
-     "fecha": "2026-08-19",
-     "titulo": "EL ELOGIADO DEBUT DE SUNSET VISITOR LLEGA A SWITCH 2",
-     "texto": "La aventura narrativa de ciencia ficción que se llevó los premios independientes de 2024 sale mañana en Switch 2, con mejoras de imagen y de rendimiento respecto de la versión de Switch."
-    }
-   ]
-  },
   {
    "id": "iracing-arcade",
    "titulo": "IRACING ARCADE",
@@ -294,10 +26,20 @@
    "desarrollador": "ORIGINAL FIRE GAMES",
    "descripcion": "Los autos y circuitos con licencia de iRacing, pero estilizados y pensados para jugar con joystick. Corré en la Fórmula 4 de la FIA, en la clase GTP del campeonato IMSA y con el Porsche 911 GT3 Cup por Imola, Miami, Ciudad de México y Barber Motorsports Park. Debajo del dibujo simpático siguen estando el consumo de combustible y el desgaste de neumáticos de los simuladores de la casa. El modo carrera es largo: se arma un predio propio con talleres e ingeniería, se maneja al equipo y se sube desde las categorías de abajo.",
    "trailer": "https://youtube.com/embed/eQwtkUMWW1A",
-   "metacritic": null,
+   "metacritic": 72,
+   "metacriticUsuarios": 8.9,
+   "metacriticVotos": 9,
+   "critica": "Las reseñas coinciden en para quién es y en qué le falta. A favor: los autos y circuitos con licencia miniaturizados quedan simpáticos, se entiende sin saber nada de carreras y el modo carrera sorprende por lo profundo. En contra, con bastante acuerdo: la conducción está tan simplificada que se pierde el peso, las carreras son cortas, el multijugador no aporta y la inteligencia artificial de los rivales es agresiva de forma injusta. La frase que más se repite es que con iRacing en el nombre uno esperaba algo más.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226450/be5f3bc2000160583baf146d85f5cba767a8fa67/header.jpg",
    "alta": "2026-08-19",
-   "url": "https://lanzamientos.lat/juegos/iracing-arcade"
+   "url": "https://lanzamientos.lat/juegos/iracing-arcade",
+   "noticias": [
+    {
+     "fecha": "2026-08-21",
+     "titulo": "DEBUTA CON 72: DIVERTIDO, PERO NO ES UN IRACING",
+     "texto": "Sale hoy en PS5 y Xbox con 72 de crítica. La prensa coincide en que funciona como puerta de entrada a las carreras —autos con licencia en miniatura, fácil de agarrar, modo carrera largo— y en que la conducción quedó demasiado simplificada para el nombre que lleva."
+    }
+   ]
   },
   {
    "id": "once-human",

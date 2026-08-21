@@ -46,6 +46,15 @@
 
 const NOTICIAS = [
   {
+    id: "duskbloods-sin-fecha-2026",
+    fecha: "2026-08-21",
+    categoria: "ANUNCIOS",
+    titulo: "NINTENDO DESMIENTE LA FECHA QUE CIRCULABA DE THE DUSKBLOODS",
+    texto: "Un medio que probó The Duskbloods publicó una fecha de lanzamiento y Nintendo salió a decir que es inexacta: lo nuevo de FromSoftware para Switch 2 todavía no tiene día confirmado. Por eso no está en el calendario, y no va a estar hasta que Nintendo lo anuncie. La beta, esa sí, ya está en marcha para los seleccionados.",
+    fuente: "https://vandal.elespanol.com/",
+    juegos: []
+  },
+  {
     id: "game-pass-segunda-quincena-agosto-2026",
     fecha: "2026-08-18",
     categoria: "SUSCRIPCIONES",
