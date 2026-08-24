@@ -38,6 +38,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/comun.py           Lo que comparten varios scripts (pasar títulos de MAYÚSCULAS
 │                               a minúsculas respetando siglas y números romanos)
 ├── scripts/novedades-steam.py  Lo que anuncian los estudios en Steam (juegos chicos)
+├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
@@ -838,7 +839,28 @@ categoría `SUSCRIPCIONES`.
 8. Regenerar todo (`generar-fichas`, `generar-plataformas`, `generar-feeds`, `generar-sitemap`)
    y verificar que las carátulas y los trailers nuevos devuelvan HTTP 200 antes del deploy.
 
-8. **Enlaces vivos:** `python3 scripts/verificar-enlaces.py`. Comprueba que las 315
+8 bis. **Juegos dados por lanzados que capaz nunca salieron:**
+   `python3 scripts/verificar-lanzados.py`.
+
+   Es el error más caro que puede cometer un calendario y **no se ve mirando el sitio**: la
+   ficha queda igual de prolija con la fecha equivocada. En agosto de 2026 aparecieron tres,
+   cada uno por casualidad y por un camino distinto: Rivage figuraba salido el 13/08 y la
+   PlayStation Store decía 22/09; Ratatan figuraba salido el 16/07 y no estaba en ninguna
+   tienda; BloodRayne figuraba salido el 29/07 y su editor decía octubre.
+
+   Hace dos pasadas:
+
+   - **La confiable**: si Steam devuelve `coming_soon: true` para un juego que damos por
+     lanzado, la fecha está mal. Ojo con una trampa que ya está resuelta en el script: si el
+     juego **ya tiene puntaje**, salió, y ese `coming_soon` es de la versión de PC, que a
+     veces llega después que la de consola. Culdcept Begins tiene 76 desde julio y en Steam
+     figura para el cuarto trimestre.
+   - **La de revisar a mano**: juegos lanzados hace más de tres semanas sin puntaje de
+     crítica, sin puntaje de usuarios, sin noticias y sin duración. La mayoría son indies que
+     no miró nadie —Flesh Made Fear está en la PS Store a 19,99 y es de esos— pero es la única
+     forma de agarrar a los que no están en Steam, que es el caso de Ratatan y BloodRayne. Se
+     verifica en la tienda de su plataforma; si no aparece en ninguna, la fecha está mal.
+9. **Enlaces vivos:** `python3 scripts/verificar-enlaces.py`. Comprueba que las 315
    carátulas y los 293 trailers cargados sigan respondiendo. Las URLs se rompen solas —Steam
    reorganiza sus CDN, un estudio borra su video— y **no se nota mirando el sitio**: una
    carátula caída muestra el mismo marcador que un juego que todavía no tiene, y un trailer
@@ -888,7 +910,8 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 | Juegos nuevos | Semanal, paso 5 | Mensual, paso 9 (estrena el mes siguiente) |
 | `estimado` / `fechaEstimada` | Semanal, paso 5 | Mensual, paso 12 bis (backlog de Q3/Q4) |
 | `imagen` y `trailer` | Semanal, paso 6 | Semanal, paso 7 (los que faltan) |
-| **Que esas URLs sigan vivas** | — | **Semanal, paso 8:** `python3 scripts/verificar-enlaces.py` |
+| **Que esas URLs sigan vivas** | — | **Semanal, paso 9:** `python3 scripts/verificar-enlaces.py` |
+| **Que un juego dado por lanzado haya salido** | — | **Semanal, paso 8 bis:** `python3 scripts/verificar-lanzados.py` |
 | `duracion` (HLTB) | Mensual, paso 10 | Mensual, paso 10 (recorre todos, no solo los nuevos) |
 | `descripcion`, `genero`, `desarrollador` | Semanal / Mensual, al cargar | — (no se desactualizan) |
 | Datos estructurados del trailer | — | Diaria, automática (`cargar-meta-trailers.py`) |
