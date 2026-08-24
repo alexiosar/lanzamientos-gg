@@ -314,6 +314,23 @@ entrada fechada en el primer lanzamiento, ese juego desaparece del mes que le im
 **Casos ya normalizados con esta regla:** Steins;Gate Re:Boot, Avatar Legends: The Fighting
 Game y PAW Patrol: Dino World.
 
+### Si se borra o se renombra un juego, va un redirect
+
+`generar-fichas.py` borra las fichas de los juegos que ya no están en `datos/juegos.js`, así
+que su URL empieza a devolver 404. Si Google la tenía indexada —y las tiene: descubre las
+fichas por el sitemap— lo reporta como error de indexación. Pasó el 23/08/2026: la validación
+de "No se ha encontrado (404)" falló por dos ids viejos.
+
+La regla, en `_redirects`:
+
+- **Juego que se sacó del calendario** (era sólo de PC, era DLC): redirect a la portada.
+- **Juego que cambió de id** y sigue en el calendario: redirect **a su ficha nueva**, no a la
+  portada. `doom-dark-ages` → `doom-the-dark-ages-revelations`, `granblue-fantasy-relink` →
+  `granblue-fantasy-relink-endless-ragnarok`.
+
+Para encontrar los que faltan: `git log --diff-filter=D --name-only --pretty=format: -- 'juegos/*.html'`
+lista todas las fichas que existieron y ya no están.
+
 ### Después de CUALQUIER cambio en datos/juegos.js
 
 Regenerar las fichas estáticas y el sitemap:

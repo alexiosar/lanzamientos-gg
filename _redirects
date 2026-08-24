@@ -7,3 +7,9 @@
 # van a la portada en vez de devolver 404. Ver "Qué entra al calendario" en el README.
 /juegos/creepshow                        /  301
 /juegos/mafia-the-old-country-man-of-honor  /  301
+
+# Juegos que cambiaron de id. No se sacaron del calendario: siguen ahí con otro nombre,
+# así que van a su ficha nueva y no a la portada. Los detectó Search Console el 23/08/2026
+# avisando que la validación de "No se ha encontrado (404)" seguía fallando.
+/juegos/doom-dark-ages           /juegos/doom-the-dark-ages-revelations            301
+/juegos/granblue-fantasy-relink  /juegos/granblue-fantasy-relink-endless-ragnarok  301
