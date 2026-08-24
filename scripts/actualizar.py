@@ -299,6 +299,13 @@ def main():
     # se puede automatizar, pero sí avisar de cuáles faltan: si no aparece en el
     # reporte, no lo mantiene nadie.
     print("\n── Backlog: resumen de crítica (los mejor puntuados sin `critica`) ──")
+    # El puntaje que se acaba de bajar en esta misma corrida no está en `juegos`, que se
+    # leyó del archivo antes de escribirlo. Sin esto, el juego que debuta hoy con puntaje no
+    # aparece en el backlog hasta mañana, que es justo el día en que menos sirve.
+    for j in juegos:
+        if j["metacritic"] == "null" and j["id"] in aplicados:
+            j["metacritic"] = str(aplicados[j["id"]])
+
     sin_critica = sorted((j for j in juegos if j["sin_critica"] and j["metacritic"] != "null"),
                          key=lambda j: int(j["metacritic"]), reverse=True)
     con_puntaje = [j for j in juegos if j["metacritic"] != "null"]

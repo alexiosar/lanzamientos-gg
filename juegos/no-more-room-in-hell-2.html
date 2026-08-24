@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -127,6 +128,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">77 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('no-more-room-in-hell-2')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -137,7 +143,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas están de acuerdo en el diagnóstico y no en la conclusión. Todas ven lo mismo: un cooperativo de zombis para hasta ocho jugadores, con mapas grandes, objetivos bien pensados y una tensión que se sostiene porque la muerte es definitiva. Y todas ven los mismos problemas: errores, rendimiento flojo y un combate que quedó por debajo de la idea. Ahí se separan. Para las notas altas el conjunto funciona igual; para las más duras el potencial se pierde entre los defectos. Varias señalan además que con joystick se juega bastante peor que con mouse.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-24</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 77 Y LAS RESEÑAS SE PARTEN AL MEDIO</span>
+          </div>
+          <p class="noticia-texto">El cooperativo de zombis de hasta ocho jugadores se llevó 77. Lo llamativo es que las reseñas coinciden en todo salvo en la conclusión: mismos elogios a los mapas y a la tensión de la muerte definitiva, mismas quejas por los errores y el rendimiento, y veredictos opuestos. Con joystick, además, varias dicen que se juega peor que con mouse.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-08-11</span>

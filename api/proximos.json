@@ -2,45 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-21T14:59:21+00:00",
+ "generado": "2026-08-24T18:01:57+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-21",
- "hasta": "2026-09-20",
- "total": 80,
+ "desde": "2026-08-24",
+ "hasta": "2026-09-23",
+ "total": 81,
  "juegos": [
-  {
-   "id": "iracing-arcade",
-   "titulo": "IRACING ARCADE",
-   "relanzamiento": "En PC desde marzo de 2026",
-   "fecha": "2026-08-21",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "CARRERAS",
-    "ARCADE",
-    "SIMULACION"
-   ],
-   "desarrollador": "ORIGINAL FIRE GAMES",
-   "descripcion": "Los autos y circuitos con licencia de iRacing, pero estilizados y pensados para jugar con joystick. Corré en la Fórmula 4 de la FIA, en la clase GTP del campeonato IMSA y con el Porsche 911 GT3 Cup por Imola, Miami, Ciudad de México y Barber Motorsports Park. Debajo del dibujo simpático siguen estando el consumo de combustible y el desgaste de neumáticos de los simuladores de la casa. El modo carrera es largo: se arma un predio propio con talleres e ingeniería, se maneja al equipo y se sube desde las categorías de abajo.",
-   "trailer": "https://youtube.com/embed/eQwtkUMWW1A",
-   "metacritic": 72,
-   "metacriticUsuarios": 8.9,
-   "metacriticVotos": 9,
-   "critica": "Las reseñas coinciden en para quién es y en qué le falta. A favor: los autos y circuitos con licencia miniaturizados quedan simpáticos, se entiende sin saber nada de carreras y el modo carrera sorprende por lo profundo. En contra, con bastante acuerdo: la conducción está tan simplificada que se pierde el peso, las carreras son cortas, el multijugador no aporta y la inteligencia artificial de los rivales es agresiva de forma injusta. La frase que más se repite es que con iRacing en el nombre uno esperaba algo más.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226450/be5f3bc2000160583baf146d85f5cba767a8fa67/header.jpg",
-   "alta": "2026-08-19",
-   "url": "https://lanzamientos.lat/juegos/iracing-arcade",
-   "noticias": [
-    {
-     "fecha": "2026-08-21",
-     "titulo": "DEBUTA CON 72: DIVERTIDO, PERO NO ES UN IRACING",
-     "texto": "Sale hoy en PS5 y Xbox con 72 de crítica. La prensa coincide en que funciona como puerta de entrada a las carreras —autos con licencia en miniatura, fácil de agarrar, modo carrera largo— y en que la conducción quedó demasiado simplificada para el nombre que lleva."
-    }
-   ]
-  },
   {
    "id": "once-human",
    "titulo": "ONCE HUMAN",
@@ -1662,31 +1630,6 @@
    "url": "https://lanzamientos.lat/juegos/another-eden-begins"
   },
   {
-   "id": "trine-6-together-in-time",
-   "titulo": "TRINE 6: TOGETHER IN TIME",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "PS5",
-    "SWITCH2",
-    "SWITCH",
-    "XBOX"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "PUZZLE",
-    "COOP"
-   ],
-   "desarrollador": "FROZENBYTE",
-   "descripcion": "Trine 6: Together in Time es un juego de plataformas y puzles cooperativo para 1–4 jugadores. Ingenio, ritmo y trabajo en equipo para resolver enigmas, enfrentarte a criaturas astutas y recorrer caminos peligrosos en una nueva aventura fantástica.",
-   "trailer": "https://youtube.com/embed/QDpjk5KqFmM",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2932260/dc0f3dfe24ec2e83b5cf40680c29bc5034798534/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/trine-6-together-in-time"
-  },
-  {
    "id": "akiba-lost",
    "titulo": "AKIBA LOST",
    "fecha": "2026-09-17",
@@ -2015,6 +1958,78 @@
    "psplus": false,
    "alta": "2026-08-10",
    "url": "https://lanzamientos.lat/juegos/the-walking-dead-streets-of-survival"
+  },
+  {
+   "id": "well-dweller",
+   "titulo": "WELL DWELLER",
+   "fecha": "2026-09-22",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG",
+    "PLATAFORMA",
+    "INDIE"
+   ],
+   "desarrollador": "KYLE THOMPSON",
+   "descripcion": "Un metroidvania con aire de cuento de hadas oscuro, en un reino que se viene abajo y está lleno de personajes que dan ganas de cuidar. Sos Glimmer, un pajarito cuya única arma es un fósforo, y el objetivo es prenderle fuego a la reina malvada para salvar a tu familia.",
+   "trailer": "https://youtube.com/embed/Wwg5WYvDV_M",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/49dd898fc6800fb34e599e23b7a015447f8209d5/header.jpg",
+   "alta": "2026-08-24",
+   "url": "https://lanzamientos.lat/juegos/well-dweller"
+  },
+  {
+   "id": "rivage",
+   "titulo": "RIVAGE",
+   "fecha": "2026-09-22",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "EXNILO STUDIO",
+   "descripcion": "Rivage es un juego de aventuras y puzles que transcurre en ARES, una estación espacial atrapada en un extraño fenómeno. Cuando Miranda despierta y se da cuenta de que su tripulación ha desaparecido, trata de averiguar su paradero explorando los alrededores y resolviendo intrincados puzles.",
+   "trailer": "https://youtube.com/embed/6_2nregu6xg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094660/25ca531e261b1217387bbf4a039623002f233287/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-14",
+   "url": "https://lanzamientos.lat/juegos/rivage"
+  },
+  {
+   "id": "dune-awakening",
+   "titulo": "DUNE: AWAKENING",
+   "fecha": "2026-09-22",
+   "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 59 h (historia) · 266 h (completo)",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "SUPERVIVENCIA",
+    "MUNDO ABIERTO",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "FUNCOM",
+   "descripcion": "Dune: Awakening es un juego de rol inmersivo de aventura y supervivencia en mundo abierto. Explorad, construid, cread y descubrid una historia cinematográfica de Dune que os hará pasar de la supervivencia a la dominación en el planeta más legendario del universo.",
+   "trailer": "https://youtube.com/embed/ztdVjiRpYfo",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/dune-awakening"
   }
  ]
 }
