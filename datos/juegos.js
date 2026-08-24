@@ -1187,6 +1187,19 @@ const JUEGOS = [
     alta: "2026-08-19"
   },
   {
+    id: "honeycomb-the-world-beyond",
+    titulo: "HONEYCOMB: THE WORLD BEYOND",
+    fecha: "2026-09-08",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["AVENTURA", "SUPERVIVENCIA", "INDIE"],
+    desarrollador: "FROZEN WAY",
+    descripcion: "Una aventura de supervivencia de ciencia ficción en Sota7, un planeta alienígena donde hay que adaptarse: construir una base, fabricar herramientas y aprender cómo funciona la vida del lugar antes de que el lugar te enseñe por las malas.",
+    trailer: "https://youtube.com/embed/QUBjMmhZkhU",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510440/library_600x900.jpg",
+    alta: "2026-08-24"
+  },
+  {
     id: "the-alighieri-circle-dantes-bloodline",
     titulo: "THE ALIGHIERI CIRCLE: DANTE'S BLOODLINE",
     fecha: "2026-09-10",
@@ -1221,6 +1234,20 @@ const JUEGOS = [
     alta: "2026-08-20"
   },
   {
+    id: "gladio-mori",
+    titulo: "GLADIO MORI",
+    relanzamiento: "En PC, en acceso anticipado, desde noviembre de 2024",
+    fecha: "2026-09-16",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["ACCION", "LUCHA", "MULTIJUGADOR", "INDIE"],
+    desarrollador: "PLEBEIAN STUDIO",
+    descripcion: "Combate multijugador de gladiadores en cámara lenta, con daño localizado órgano por órgano y movimientos que aporta la propia comunidad. Se pelea con armas de filo y cada golpe se ve venir, lo que convierte cada intercambio en una decisión y no en un reflejo.",
+    trailer: "https://youtube.com/embed/eUl7a-blRrM",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2689120/library_600x900.jpg",
+    alta: "2026-08-24"
+  },
+  {
     id: "well-dweller",
     titulo: "WELL DWELLER",
     fecha: "2026-09-22",
@@ -1231,6 +1258,20 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Wwg5WYvDV_M",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/49dd898fc6800fb34e599e23b7a015447f8209d5/header.jpg",
+    alta: "2026-08-24"
+  },
+  {
+    id: "demeo-x-dungeons-and-dragons-battlemarked",
+    titulo: "DEMEO X DUNGEONS & DRAGONS: BATTLEMARKED",
+    relanzamiento: "En PC desde noviembre de 2025 — esta fecha corresponde a la edición de Xbox",
+    fecha: "2026-09-22",
+    plataformas: ["XBOX"],
+    genero: ["RPG", "ESTRATEGIA", "AVENTURA", "POR TURNOS", "COOP"],
+    desarrollador: "RESOLUTION GAMES",
+    descripcion: "Un RPG táctico cooperativo en el universo de Dungeons & Dragons, jugado como una partida de mesa: tablero, miniaturas y turnos. Se avanza al ritmo del grupo y la campaña está pensada para sentarse a jugarla de a varios.",
+    trailer: "https://youtube.com/embed/kasgPB71yLA",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124340/2c2c8a669cef63e8c46505bedda8fda57d559d71/header.jpg",
     alta: "2026-08-24"
   },
   {
@@ -1727,7 +1768,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 80,
     metacriticUsuarios: 5.8,
-    metacriticVotos: 655,
+    metacriticVotos: 656,
     critica: "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
     noticias: [
@@ -1785,6 +1826,19 @@ const JUEGOS = [
     gamepass: true,
     psplus: false,
     alta: "2026-07-10"
+  },
+  {
+    id: "the-jackbox-party-pack-12",
+    titulo: "THE JACKBOX PARTY PACK 12",
+    fecha: "2026-10-15",
+    plataformas: ["PS5", "PS4", "XBOX", "SWITCH2", "SWITCH"],
+    genero: ["CASUAL", "MULTIJUGADOR", "ESTRATEGIA", "INDIE"],
+    desarrollador: "JACKBOX GAMES",
+    descripcion: "La duodécima tanda de juegos de fiesta de Jackbox: cinco juegos nuevos que se juegan con el celular como control, sin necesidad de que cada uno tenga el juego. Como siempre, la gracia está en lo que escribe y dibuja la gente que tenés al lado.",
+    trailer: "https://youtube.com/embed/y4VcEb6k7As",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4199960/4bac43ddff058a8f96a9686596ce05a6ca922f41/header.jpg",
+    alta: "2026-08-24"
   },
   {
     id: "bloodrayne-definitive-collection",
@@ -2929,7 +2983,7 @@ const JUEGOS = [
   {
     id: "kalanoro",
     titulo: "KALANORO",
-    fecha: "2026-08-27",
+    fecha: "2026-09-24",
     plataformas: ["PS5", "XBOX", "SWITCH"],
     genero: ["ACCION", "AVENTURA"],
     desarrollador: "RED RAKETA STUDIO",
@@ -2939,7 +2993,14 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/e344d3d0514147e82f1fee043f7439523feffba6/header.jpg",
     gamepass: false,
     psplus: false,
-    alta: "2026-07-14"
+    alta: "2026-07-14",
+    noticias: [
+      {
+        fecha: "2026-08-24",
+        titulo: "SE CORRE DEL 27 DE AGOSTO AL 24 DE SEPTIEMBRE",
+        texto: "Casi un mes de demora. La ficha de la PlayStation Store da el 24 de septiembre y el juego todavía figura como anunciado, sin reservas abiertas."
+      }
+    ]
   },
   {
     id: "elden-ring-switch-2",
@@ -3332,6 +3393,19 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
+  },
+  {
+    id: "moomin-midsummer-madness",
+    titulo: "MOOMIN: MIDSUMMER MADNESS",
+    fecha: "2026-11-12",
+    plataformas: ["SWITCH2", "SWITCH"],
+    genero: ["AVENTURA", "POINT AND CLICK", "RELAX", "INDIE"],
+    desarrollador: "CROSSBRIDGE GAME STUDIOS",
+    descripcion: "Una aventura de apuntar y hacer clic con los Mumin, basada en la novela de Tove Jansson. Mumintroll, la Pequeña My y compañía se meten en un lío de verano, contado con el dibujo y la calma que tienen los libros.",
+    trailer: "https://youtube.com/embed/q7myAcZfmEQ",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4463520/c4e85af3552b33fc849be844e50efc50d751d9c3/header.jpg",
+    alta: "2026-08-24"
   },
   {
     id: "trine-6-together-in-time",

@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-24T18:48:04+00:00",
+ "generado": "2026-08-24T19:09:25+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-24",
  "hasta": "2026-09-23",
- "total": 81,
+ "total": 83,
  "juegos": [
   {
    "id": "once-human",
@@ -258,29 +258,6 @@
    "psplus": false,
    "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/aggelos-2"
-  },
-  {
-   "id": "kalanoro",
-   "titulo": "KALANORO",
-   "fecha": "2026-08-27",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "RED RAKETA STUDIO",
-   "descripcion": "¡Crea un grupo de música con lémures locos y salva a tu isla de una bruja malvada en Kalanoro, una oda al folclore de Madagascar y a su espectacular arte! Únete a este viaje para descubrir el colorido mundo de Lemuria, rescatar a lémures artistas y derrotar a la bruja Raneny gracias a la música.",
-   "trailer": "https://youtube.com/embed/Bg_sHaq1u3I",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/e344d3d0514147e82f1fee043f7439523feffba6/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/kalanoro"
   },
   {
    "id": "mind-diver",
@@ -966,6 +943,27 @@
    "url": "https://lanzamientos.lat/juegos/sprawl-zero"
   },
   {
+   "id": "honeycomb-the-world-beyond",
+   "titulo": "HONEYCOMB: THE WORLD BEYOND",
+   "fecha": "2026-09-08",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "SUPERVIVENCIA",
+    "INDIE"
+   ],
+   "desarrollador": "FROZEN WAY",
+   "descripcion": "Una aventura de supervivencia de ciencia ficción en Sota7, un planeta alienígena donde hay que adaptarse: construir una base, fabricar herramientas y aprender cómo funciona la vida del lugar antes de que el lugar te enseñe por las malas.",
+   "trailer": "https://youtube.com/embed/QUBjMmhZkhU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510440/library_600x900.jpg",
+   "alta": "2026-08-24",
+   "url": "https://lanzamientos.lat/juegos/honeycomb-the-world-beyond"
+  },
+  {
    "id": "halloween",
    "titulo": "HALLOWEEN",
    "fecha": "2026-09-08",
@@ -1379,6 +1377,29 @@
    "psplus": false,
    "alta": "2026-08-17",
    "url": "https://lanzamientos.lat/juegos/tcg-card-shop-simulator"
+  },
+  {
+   "id": "gladio-mori",
+   "titulo": "GLADIO MORI",
+   "relanzamiento": "En PC, en acceso anticipado, desde noviembre de 2024",
+   "fecha": "2026-09-16",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "LUCHA",
+    "MULTIJUGADOR",
+    "INDIE"
+   ],
+   "desarrollador": "PLEBEIAN STUDIO",
+   "descripcion": "Combate multijugador de gladiadores en cámara lenta, con daño localizado órgano por órgano y movimientos que aporta la propia comunidad. Se pelea con armas de filo y cada golpe se ve venir, lo que convierte cada intercambio en una decisión y no en un reflejo.",
+   "trailer": "https://youtube.com/embed/eUl7a-blRrM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2689120/library_600x900.jpg",
+   "alta": "2026-08-24",
+   "url": "https://lanzamientos.lat/juegos/gladio-mori"
   },
   {
    "id": "roman-sands-rebuild",
@@ -1983,6 +2004,29 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/49dd898fc6800fb34e599e23b7a015447f8209d5/header.jpg",
    "alta": "2026-08-24",
    "url": "https://lanzamientos.lat/juegos/well-dweller"
+  },
+  {
+   "id": "demeo-x-dungeons-and-dragons-battlemarked",
+   "titulo": "DEMEO X DUNGEONS & DRAGONS: BATTLEMARKED",
+   "relanzamiento": "En PC desde noviembre de 2025 — esta fecha corresponde a la edición de Xbox",
+   "fecha": "2026-09-22",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "ESTRATEGIA",
+    "AVENTURA",
+    "POR TURNOS",
+    "COOP"
+   ],
+   "desarrollador": "RESOLUTION GAMES",
+   "descripcion": "Un RPG táctico cooperativo en el universo de Dungeons & Dragons, jugado como una partida de mesa: tablero, miniaturas y turnos. Se avanza al ritmo del grupo y la campaña está pensada para sentarse a jugarla de a varios.",
+   "trailer": "https://youtube.com/embed/kasgPB71yLA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3124340/2c2c8a669cef63e8c46505bedda8fda57d559d71/header.jpg",
+   "alta": "2026-08-24",
+   "url": "https://lanzamientos.lat/juegos/demeo-x-dungeons-and-dragons-battlemarked"
   },
   {
    "id": "rivage",

@@ -199,7 +199,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/scholar-adventure-mystery-of-silence</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -437,7 +437,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/culdcept-begins</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -451,6 +451,13 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/sprawl-zero</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/honeycomb-the-world-beyond</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -471,7 +478,21 @@
   </url>
 
   <url>
+    <loc>https://lanzamientos.lat/juegos/gladio-mori</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://lanzamientos.lat/juegos/well-dweller</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/demeo-x-dungeons-and-dragons-battlemarked</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -591,7 +612,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/disgaea-mayhem</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -661,6 +682,13 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/mistfall-hunter</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/the-jackbox-party-pack-12</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -794,7 +822,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/the-king-is-watching</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -864,7 +892,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/montabi</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -927,7 +955,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/tower-dominion</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -997,21 +1025,21 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/brigandine-abyss</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/juegos/star-wars-zero-company</loc>
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1186,7 +1214,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/fire-emblem-fortunes-weave</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1200,6 +1228,13 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/another-eden-begins</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/moomin-midsummer-madness</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1249,7 +1284,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/dune-awakening</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1375,14 +1410,14 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/two-point-hospital-full-health-collection</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/juegos/sniper-dan</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1396,7 +1431,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/maestro</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1431,7 +1466,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/rogue-reigns</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1487,7 +1522,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/obakeidoro-2-chase-seek</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1690,7 +1725,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/nintendo-switch-sports-resort</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1795,7 +1830,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/mai-child-of-ages</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1823,7 +1858,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/little-witch-in-the-woods</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1865,7 +1900,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/grand-theft-auto-vi</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1893,14 +1928,14 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/hello-kitty-party-land</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/juegos/the-cat-in-the-hat-rainy-day-mayhem</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1935,28 +1970,28 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/metaphor-refantazio</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/juegos/godzilla-destroy-all-monsters-melee-remastered</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/juegos/hasbro-games-junior-collection</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/juegos/barbie-rewind</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1984,7 +2019,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/the-wolf-among-us-remastered</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2040,7 +2075,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/golf-with-your-friends-2</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2173,7 +2208,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/silver-pines</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2194,7 +2229,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2257,7 +2292,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/endless-legend-2</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2271,7 +2306,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/the-walking-dead-streets-of-survival</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2285,7 +2320,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/sesame-street-friends-fun</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2334,7 +2369,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/woodo</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2369,7 +2404,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/super-battle-golf</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2439,7 +2474,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/tcg-card-shop-simulator</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
