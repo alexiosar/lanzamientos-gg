@@ -46,6 +46,15 @@
 
 const NOTICIAS = [
   {
+    id: "terranigma-vuelve-2027",
+    fecha: "2026-08-25",
+    categoria: "ANUNCIOS",
+    titulo: "TERRANIGMA VUELVE EN 2027, TREINTA AÑOS DESPUÉS",
+    texto: "Clear River Games, junto con Square Enix, anunció el regreso del RPG de acción de 1995. Sale en 2027 para PS5, PS4, Xbox, Switch 2, Switch y PC, así que por ahora queda fuera del alcance de este calendario. Es uno de los clásicos de Super Nintendo que nunca llegó a América, y volver a ponerlo en circulación es noticia por sí solo.",
+    fuente: "https://www.gematsu.com/",
+    juegos: []
+  },
+  {
     id: "duskbloods-sin-fecha-2026",
     fecha: "2026-08-21",
     categoria: "ANUNCIOS",

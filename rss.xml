@@ -6,7 +6,28 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 24 Aug 2026 19:09:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 13:54:52 +0000</lastBuildDate>
+    <item>
+      <title>ONCE HUMAN: LLEGA A CONSOLAS CON 71 A CUESTAS</title>
+      <link>https://lanzamientos.lat/juegos/once-human</link>
+      <guid isPermaLink="false">once-human-2026-08-25</guid>
+      <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El survival de mundo compartido sale hoy en PS5 y Xbox. El 71 es el de la versión de PC de 2024, y viene de reseñas muy repartidas: elogios para las criaturas y el bucle de construir, palos para el combate y la historia. — ONCE HUMAN para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>GALLIPOLI: DEBUTA CON 80 EN UN FRENTE QUE NADIE CUENTA</title>
+      <link>https://lanzamientos.lat/juegos/gallipoli</link>
+      <guid isPermaLink="false">gallipoli-2026-08-25</guid>
+      <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El shooter de la Primera Guerra ambientado en Galípoli se llevó 80. Las reseñas destacan que elige el frente otomano, que casi ningún juego toca, y que apuesta a lo lento y táctico en vez de a la acción. — GALLIPOLI para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>TERRANIGMA VUELVE EN 2027, TREINTA AÑOS DESPUÉS</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">terranigma-vuelve-2027</guid>
+      <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Clear River Games, junto con Square Enix, anunció el regreso del RPG de acción de 1995. Sale en 2027 para PS5, PS4, Xbox, Switch 2, Switch y PC, así que por ahora queda fuera del alcance de este calendario. Es uno de los clásicos de Super Nintendo que nunca llegó a América, y volver a ponerlo en circulación es noticia por sí solo.</description>
+    </item>
     <item>
       <title>BLOODRAYNE: DEFINITIVE COLLECTION: NO SALIÓ EN JULIO: LA EDICIÓN FÍSICA LLEGA EN OCTUBRE</title>
       <link>https://lanzamientos.lat/juegos/bloodrayne-definitive-collection</link>
@@ -265,27 +286,6 @@
       <guid isPermaLink="false">aniimo-2026-08-14</guid>
       <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
       <description>Estaba anunciado para el tercer trimestre sin día. Es un RPG de mundo abierto gratuito con captura de criaturas, del estudio Pawprint. — ANIIMO para XBOX / PS5 / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>NETFLIX CIERRA NIGHT SCHOOL, EL ESTUDIO DE OXENFREE</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">netflix-cierra-night-school-2026</guid>
-      <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Netflix cierra Night School Studio, el estudio de Oxenfree, y Moonloot Games. Es otro capítulo del repliegue de la compañía en videojuegos: había comprado Night School en 2021, cuando arrancaba su apuesta por el sector.</description>
-    </item>
-    <item>
-      <title>DUSKFADE: 78 DE DEBUT PARA UN PLATAFORMAS ESPAÑOL A LA VIEJA USANZA</title>
-      <link>https://lanzamientos.lat/juegos/duskfade</link>
-      <guid isPermaLink="false">duskfade-2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Lo hace Weird Beluga, un estudio indie español que ya había firmado Clid the Snail. La crítica coincide en el elogio a la dirección de arte y al combate, y en el reparo: es un homenaje muy fiel a los plataformas 3D de la era PlayStation 2, tan fiel que no llega a proponer nada propio. Quien busque nostalgia va a estar contento; quien busque una evolución del género, no. — DUSKFADE para PS5 / XBOX / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>HELL LET LOOSE: VIETNAM: DEBUTA CON 78</title>
-      <link>https://lanzamientos.lat/juegos/hell-let-loose-vietnam</link>
-      <guid isPermaLink="false">hell-let-loose-vietnam-2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Llega con la nota puesta después del retraso de dos meses. El puntaje ubica al shooter táctico en el mismo escalón que su antecesor, sin el salto que algunos esperaban de un cambio de escenario tan grande. — HELL LET LOOSE: VIETNAM para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-24T19:09:25+00:00",
+ "generado": "2026-08-25T13:54:52+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-24",
- "hasta": "2026-09-23",
- "total": 83,
+ "desde": "2026-08-25",
+ "hasta": "2026-09-24",
+ "total": 93,
  "juegos": [
   {
    "id": "once-human",
@@ -27,12 +27,22 @@
    "desarrollador": "STARRY STUDIO",
    "descripcion": "Once Human es un juego de supervivencia ambientado en un extraño mundo posapocalíptico: recolectá recursos, construí tu refugio y enfrentá criaturas deformadas por una contaminación sobrenatural, en solitario o con amigos. El fenómeno de supervivencia llega por fin a consolas.",
    "trailer": "https://youtube.com/embed/XXpfbP9Ml_4",
-   "metacritic": null,
+   "metacritic": 71,
+   "metacriticUsuarios": 6.1,
+   "metacriticVotos": 117,
+   "critica": "Las reseñas son las de la versión de PC de 2024 y están muy repartidas, de 50 a 85. Coinciden en lo que tiene de bueno: un mundo compartido raro, con criaturas de diseño extraño que casi todas destacan, y un bucle de recolectar y construir del que cuesta salir. Y coinciden en lo malo: el combate es flojo, la historia no engancha y buena parte del contenido se siente visto. Las notas más bajas suman problemas técnicos.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2139460/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/once-human"
+   "url": "https://lanzamientos.lat/juegos/once-human",
+   "noticias": [
+    {
+     "fecha": "2026-08-25",
+     "titulo": "LLEGA A CONSOLAS CON 71 A CUESTAS",
+     "texto": "El survival de mundo compartido sale hoy en PS5 y Xbox. El 71 es el de la versión de PC de 2024, y viene de reseñas muy repartidas: elogios para las criaturas y el bucle de construir, palos para el combate y la historia."
+    }
+   ]
   },
   {
    "id": "apidya-special",
@@ -2074,6 +2084,252 @@
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/dune-awakening"
+  },
+  {
+   "id": "sin-reloaded",
+   "titulo": "SIN: RELOADED",
+   "relanzamiento": "Remasterización del juego de 1998",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "SWITCH",
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "ACCION",
+    "SHOOTER",
+    "RETRO"
+   ],
+   "desarrollador": "NIGHTDIVE STUDIOS",
+   "descripcion": "Nightdive vuelve a hacer lo suyo, esta vez con el shooter de 1998 de Ritual Entertainment: un FPS con historia, personajes que se recuerdan, enemigos desagradables y un arsenal que en su momento exprimió el motor de Quake II hasta donde daba. Rehecho de arriba abajo, con todo lo que se le pide hoy a un remaster.",
+   "trailer": "https://youtube.com/embed/Tw5DMMTfk5o",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632950/library_600x900.jpg",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/sin-reloaded"
+  },
+  {
+   "id": "kalanoro",
+   "titulo": "KALANORO",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "RED RAKETA STUDIO",
+   "descripcion": "¡Crea un grupo de música con lémures locos y salva a tu isla de una bruja malvada en Kalanoro, una oda al folclore de Madagascar y a su espectacular arte! Únete a este viaje para descubrir el colorido mundo de Lemuria, rescatar a lémures artistas y derrotar a la bruja Raneny gracias a la música.",
+   "trailer": "https://youtube.com/embed/Bg_sHaq1u3I",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3158820/e344d3d0514147e82f1fee043f7439523feffba6/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-14",
+   "url": "https://lanzamientos.lat/juegos/kalanoro",
+   "noticias": [
+    {
+     "fecha": "2026-08-24",
+     "titulo": "SE CORRE DEL 27 DE AGOSTO AL 24 DE SEPTIEMBRE",
+     "texto": "Casi un mes de demora. La ficha de la PlayStation Store da el 24 de septiembre y el juego todavía figura como anunciado, sin reservas abiertas."
+    }
+   ]
+  },
+  {
+   "id": "control-resonant",
+   "titulo": "CONTROL RESONANT",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "REMEDY ENTERTAINMENT",
+   "descripcion": "Explora un Manhattan deformado al borde de la aniquilación sobrenatural en este emocionante RPG de acción y aventuras. Desata los extraordinarios poderes de Dylan Faden mientras lucha por su humanidad y nuestra supervivencia contra una amenaza cósmica que desafía a la realidad.",
+   "trailer": "https://youtube.com/embed/WhQm-ExRz60",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/1e0c76e4253d347bb1304c3f213570251d924edf/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/control-resonant"
+  },
+  {
+   "id": "silent-hill-townfall",
+   "titulo": "SILENT HILL: TOWNFALL",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "HORROR",
+    "AVENTURA"
+   ],
+   "desarrollador": "SCREEN BURN",
+   "descripcion": "Simon Ordell regresa a una isla para «arreglar las cosas», pero acaba descendiendo a un mundo de tensas evasiones, frenéticos enfrentamientos y exigentes puzles que, poco a poco, sacarán a la luz la verdad de St. Amelia.",
+   "trailer": "https://youtube.com/embed/CvN3dP92wxU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636440/0ed1cb4bc30631f95b92f7f13bb06c15d49b4afa/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/silent-hill-townfall",
+   "noticias": [
+    {
+     "fecha": "2026-08-24",
+     "titulo": "ES EXCLUSIVO DE PS5 POR AL MENOS SEIS MESES",
+     "texto": "La versión de consola sale sólo en PS5 el 24 de septiembre y la exclusividad dura como mínimo medio año, así que la de Xbox no tiene fecha. La tienda de Xbox no lo lista, y en la de PlayStation ya se puede reservar a 49,99 dólares, con una edición Deluxe a 59,99. Cuando se anuncie la de Xbox va a tener su propia entrada en el calendario."
+    }
+   ]
+  },
+  {
+   "id": "harvest-moon-echoes-of-teradea",
+   "titulo": "HARVEST MOON: ECHOES OF TERADEA",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RPG",
+    "RELAX"
+   ],
+   "desarrollador": "NATSUME",
+   "descripcion": "La nueva entrega de la histórica saga de granjas de Natsume: cultivá, criá animales y ganate el corazón del pueblo en el mundo de Teradea.",
+   "trailer": "https://youtube.com/embed/gxVbu2AgOwo",
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/harvest-moon-echoes-of-teradea"
+  },
+  {
+   "id": "dragon-quest-xi-echoes-of-an-elusive-age",
+   "titulo": "DRAGON QUEST XI: ECHOES OF AN ELUSIVE AGE",
+   "fecha": "2026-09-24",
+   "relanzamiento": "Definitive Edition en Switch, PS4, Xbox y PC desde 2020 (original de 2017) — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 57 h (historia) · 122 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "AVENTURA"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "La edición definitiva incluye el aclamadísimo DRAGON QUEST XI, además de escenarios adicionales, una banda sonora orquestal, el modo 2D y más cosas. Ya seas fan de toda la vida o un aventurero recién llegado, esta es la experiencia DQXI definitiva.",
+   "trailer": "https://youtube.com/embed/73FRi8W1oCM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295510/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/dragon-quest-xi-echoes-of-an-elusive-age"
+  },
+  {
+   "id": "garfield-escape-from-monday",
+   "titulo": "GARFIELD: ESCAPE FROM MONDAY",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "XBOX",
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL"
+   ],
+   "desarrollador": "OSOME STUDIO",
+   "descripcion": "¡Despierta a Garfield de esta pesadilla llena de verduras en este juego de plataformas 3D! ¡El gato más perezoso del mundo tendrá que esforzarse en Garfield - Escape from Monday!",
+   "trailer": "https://youtube.com/embed/aWM1GH3uF2g",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3932790/4969712a29cab096dbde9f232ee78e4c7c1cffab/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/garfield-escape-from-monday"
+  },
+  {
+   "id": "shinobi-art-of-vengeance",
+   "titulo": "SHINOBI: ART OF VENGEANCE",
+   "fecha": "2026-09-24",
+   "relanzamiento": "En PS5, PS4, Xbox, Switch y PC desde 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 9,7 h (historia) · 18 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "PLATAFORMA"
+   ],
+   "desarrollador": "SEGA",
+   "descripcion": "El emblemático SHINOBI regresa en un nuevo título de acción y plataformas 2D con gráficos dibujados a mano, creado por el equipo del exitoso juego de lucha Streets of Rage 4.",
+   "trailer": "https://youtube.com/embed/QGLvm8hASbw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2361770/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/shinobi-art-of-vengeance"
+  },
+  {
+   "id": "farming-camp",
+   "titulo": "FARMING CAMP",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "SWITCH",
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RELAX"
+   ],
+   "desarrollador": "INNERFIRE STUDIOS",
+   "descripcion": "Cada verano, el campamento de granjeros busca al mejor granjero de Villaperenne, que representa la excelencia en la agricultura. En busca de un futuro mejor, la joven Alessandra participa en la competición y se enfrenta a sus iguales para descubrir lo que significa ser una granjera de Villaperenne.",
+   "trailer": "https://youtube.com/embed/wZPxfa9hjDY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2985880/91adc9cde42db816c8ba8b71835c8cf0b7a10701/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/farming-camp"
+  },
+  {
+   "id": "qliphah-in-providences-shadow",
+   "titulo": "QLIPHAH IN PROVIDENCE'S SHADOW",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "ANIME"
+   ],
+   "desarrollador": "UNITEPLUS",
+   "descripcion": "En un Tokio arrasado por lo que llaman el Colapso del Mundo, el repartidor Souma Hoshigami sobrevive al ataque de una Aberración y queda a mitad de camino entre lo humano y lo otro. Un RPG táctico donde se manipula la línea temporal y cada contraataque se decide en tiempo real.",
+   "trailer": "https://youtube.com/embed/6VDZdFLx9tc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3882410/745b2097fe9e77528e290ff60e34e2afafdcf3d6/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/qliphah-in-providences-shadow"
   }
  ]
 }

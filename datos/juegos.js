@@ -539,7 +539,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1145,
+    metacriticVotos: 1147,
     critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header.jpg",
     noticias: [
@@ -1509,7 +1509,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 81,
     metacriticUsuarios: 9.3,
-    metacriticVotos: 1866,
+    metacriticVotos: 1869,
     critica: "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
     imagen: "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
     noticias: [
@@ -1768,7 +1768,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 80,
     metacriticUsuarios: 5.8,
-    metacriticVotos: 656,
+    metacriticVotos: 657,
     critica: "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
     noticias: [
@@ -1984,8 +1984,8 @@ const JUEGOS = [
     descripcion: "Acaba con hordas de invasores alienígenas usando tu disparo potente, rayo Truxton, láser trueno y disparo guiado, y no te olvides de respirar mientras combates contra gigantescos jefes en la batalla definitiva por la supervivencia de la humanidad.",
     trailer: "https://youtube.com/embed/HHKHAeqwXdc",
     metacritic: 79,
-    metacriticUsuarios: 7.3,
-    metacriticVotos: 6,
+    metacriticUsuarios: 7.4,
+    metacriticVotos: 7,
     critica: "Las reseñas coinciden en que es un buen ejemplo de cómo devolver a la vida una serie de culto: un matamarcianos clásico, exigente, con efectos y banda sonora que se llevan casi todos los elogios. La palabra que más aparece es dificultad, y no como queja. Los reparos van a la variedad: los niveles se repiten y hay ideas que quedaron a medio aprovechar. Es un género de nicho y ninguna reseña lo disimula.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3323490/e2a9d117851ffcd8194af97195c9757b3d342d61/header.jpg",
     noticias: [
@@ -2295,7 +2295,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/3dw0ePZ8GLc",
     metacritic: 73,
     metacriticUsuarios: 6.1,
-    metacriticVotos: 342,
+    metacriticVotos: 346,
     critica: "Es el más discutido de los que tenemos cargados y viene de Game Freak, los de Pokémon, lo que explica parte del ruido. El acuerdo está en el combate y en la relación entre Emma y Kuu, que casi todas las reseñas rescatan. El desacuerdo está en todo lo demás: para la mitad hay un mundo vacío, una historia que no arranca y problemas gráficos, y las notas más duras dicen que no es un renacimiento creativo sino un juego armado imitando a otros mejores. Los jefes se llevan los elogios más consistentes.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
     noticias: [
@@ -2325,7 +2325,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/xfzapBQssa0",
     metacritic: 91,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 254,
+    metacriticVotos: 257,
     critica: "El acuerdo es casi total: lo que hace especial a Big Walk no son sus puzzles sino las conversaciones que obliga a tener. Casi todas las reseñas cuentan lo mismo, que los mejores momentos son los que el juego no programó, los que salen de coordinarse mal con un amigo, y varias lo emparentan con Untitled Goose Game, del mismo estudio. El reparo, cuando aparece, es el ritmo: la isla es grande y hay tramos largos donde no pasa nada, algo que se siente más de a dos que en grupo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
     noticias: [
@@ -2380,9 +2380,9 @@ const JUEGOS = [
     desarrollador: "ARC SYSTEM WORKS CO., LTD",
     descripcion: "Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel Games.",
     trailer: "https://youtube.com/embed/cen2Lbmmo_Q",
-    metacritic: 86,
+    metacritic: 85,
     metacriticUsuarios: 8.1,
-    metacriticVotos: 282,
+    metacriticVotos: 285,
     critica: "La prensa coincide en que Arc System Works acertó con lo difícil: que un juego de peleas de 4 contra 4 se entienda sin haber jugado ninguno antes y siga teniendo profundidad para el que compite. Los elogios van al apartado visual, al plantel y a un modo entrenamiento que enseña de verdad. Lo que se le reprocha está afuera del ring: los modos para un jugador quedan cortos y los escenarios no están a la altura del resto. La bronca de los jugadores es otra y es de la versión de PC, que exige cuenta de PSN.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg",
     noticias: [
@@ -2564,7 +2564,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/6Mq_adllBHg",
     metacritic: 78,
     metacriticUsuarios: 7.8,
-    metacriticVotos: 36,
+    metacriticVotos: 37,
     critica: "Todas las reseñas lo ubican en el mismo lugar: un plataformas en 3D que homenajea a los de PlayStation 2, con Kingdom Hearts, Ratchet & Clank y Jak and Daxter nombrados una y otra vez. Los elogios van al movimiento, al diseño de niveles y a la música. Los reparos coinciden con el elogio y son su reverso: se parece tanto a lo que homenajea que no llega a tener voz propia, la progresión es superficial y las recompensas por explorar decepcionan.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2542020/f17f8f31c30ca7f8603b125502e00c0c542c6677/header.jpg",
     noticias: [
@@ -2716,7 +2716,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/2q-pfSpS_J4",
     metacritic: 79,
     metacriticUsuarios: 8.1,
-    metacriticVotos: 96,
+    metacriticVotos: 102,
     critica: "Frogwares cambió de género y la crítica se lo acepta: esta segunda parte es survival horror al estilo de los Resident Evil modernos, con mejor combate y mejores puzzles que la primera. El reparo que más se repite es lo que quedó en el camino, la investigación de detective a mano suelta que hacía distinto al original. Varias reseñas recuerdan además en qué condiciones se hizo, con el estudio trabajando en Ucrania durante la guerra, y le perdonan la falta de pulido y unas actuaciones desparejas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
     noticias: [
@@ -2877,11 +2877,21 @@ const JUEGOS = [
     desarrollador: "STARRY STUDIO",
     descripcion: "Once Human es un juego de supervivencia ambientado en un extraño mundo posapocalíptico: recolectá recursos, construí tu refugio y enfrentá criaturas deformadas por una contaminación sobrenatural, en solitario o con amigos. El fenómeno de supervivencia llega por fin a consolas.",
     trailer: "https://youtube.com/embed/XXpfbP9Ml_4",
-    metacritic: null,
+    metacritic: 71,
+    metacriticUsuarios: 6.1,
+    metacriticVotos: 117,
+    critica: "Las reseñas son las de la versión de PC de 2024 y están muy repartidas, de 50 a 85. Coinciden en lo que tiene de bueno: un mundo compartido raro, con criaturas de diseño extraño que casi todas destacan, y un bucle de recolectar y construir del que cuesta salir. Y coinciden en lo malo: el combate es flojo, la historia no engancha y buena parte del contenido se siente visto. Las notas más bajas suman problemas técnicos.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2139460/library_600x900.jpg",
     gamepass: false,
     psplus: false,
-    alta: "2026-07-14"
+    alta: "2026-07-14",
+    noticias: [
+      {
+        fecha: "2026-08-25",
+        titulo: "LLEGA A CONSOLAS CON 71 A CUESTAS",
+        texto: "El survival de mundo compartido sale hoy en PS5 y Xbox. El 71 es el de la versión de PC de 2024, y viene de reseñas muy repartidas: elogios para las criaturas y el bucle de construir, palos para el combate y la historia."
+      }
+    ]
   },
   {
     id: "apidya-special",
@@ -4089,7 +4099,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/jK0cGKMDMPE",
     metacritic: 87,
     metacriticUsuarios: 8.8,
-    metacriticVotos: 2718,
+    metacriticVotos: 2720,
     critica: "Es el juego con el que la prensa da por vuelto el género narrativo que dejó Telltale: la dirección, las actuaciones y los personajes se llevan los elogios en casi todas las reseñas. Los reparos son de estructura, no de ejecución: hay decisiones que no cambian nada, los mejores personajes aparecen poco y el final deja a varios con gusto a poco. De ahí salen las notas más bajas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
     noticias: [
@@ -4831,7 +4841,7 @@ const JUEGOS = [
     desarrollador: "POWERBOMB GAMES",
     descripcion: "Pro Jank Footy es un juego arcade de comedia deportiva con física exagerada. Meté goles como puedas —volando, chocando o a los tropezones— en partidos caóticos para jugar con amigos.",
     trailer: "https://youtube.com/embed/U-mqKi-G9HI",
-    metacritic: 59,
+    metacritic: 85,
     metacriticUsuarios: null,
     critica: "Con cuatro reseñas y poco entusiasmo. La idea gusta: fútbol australiano arcade, simple y absurdo, en un género que siempre tira para la simulación. Los reparos son de ejecución y coinciden entre sí: el control responde mal, hay poco contenido y el chiste se agota rápido. Las notas más generosas lo recomiendan igual para pasar un rato, y la más dura dice que la torpeza dejó de ser un estilo y pasó a ser un problema.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3621330/02ffb09d115b8dcf4f21e9e45f604ac4af534d61/header.jpg",
@@ -5705,8 +5715,8 @@ const JUEGOS = [
     descripcion: "Un shooter de zombis intenso para ocho jugadores. Aguantan juntos la horda interminable de muertos vivientes, evitan el contagio y tratan de sobrevivir al infierno en equipo.",
     trailer: "https://youtube.com/embed/f0tDPNR7D0o",
     metacritic: 77,
-    metacriticUsuarios: 6.8,
-    metacriticVotos: 12,
+    metacriticUsuarios: 7.1,
+    metacriticVotos: 13,
     critica: "Las reseñas están de acuerdo en el diagnóstico y no en la conclusión. Todas ven lo mismo: un cooperativo de zombis para hasta ocho jugadores, con mapas grandes, objetivos bien pensados y una tensión que se sostiene porque la muerte es definitiva. Y todas ven los mismos problemas: errores, rendimiento flojo y un combate que quedó por debajo de la idea. Ahí se separan. Para las notas altas el conjunto funciona igual; para las más duras el potencial se pierde entre los defectos. Varias señalan además que con joystick se juega bastante peor que con mouse.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292000/library_600x900.jpg",
     noticias: [
@@ -5758,11 +5768,21 @@ const JUEGOS = [
     desarrollador: "BLACKMILL GAMES",
     descripcion: "Desembarcás en las playas de Galípoli para pelear batallas por objetivos con cincuenta jugadores en los frentes otomanos. Guerra de trincheras y desierto en el shooter más inmersivo de la Primera Guerra Mundial.",
     trailer: "https://youtube.com/embed/hlnSz-JPiBk",
-    metacritic: null,
+    metacritic: 80,
+    metacriticUsuarios: 7.7,
+    metacriticVotos: 6,
+    critica: "Con pocas reseñas pero muy parejas hacia arriba. Todas destacan lo mismo: es un shooter de la Primera Guerra que se anima a un frente que casi nadie tocó, el otomano, y que va a contramano de la moda —lento, áspero, de trinchera, con armas de época y donde sin equipo no se hace nada—. El trabajo histórico aparece elogiado en todas. La nota más baja, que igual es buena, valora el cuidado del diseño por encima del resultado.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065940/3ee3f9540ec1100225c9e3ab2f4028c133b0f226/header.jpg",
     gamepass: false,
     psplus: false,
-    alta: "2026-07-31"
+    alta: "2026-07-31",
+    noticias: [
+      {
+        fecha: "2026-08-25",
+        titulo: "DEBUTA CON 80 EN UN FRENTE QUE NADIE CUENTA",
+        texto: "El shooter de la Primera Guerra ambientado en Galípoli se llevó 80. Las reseñas destacan que elige el frente otomano, que casi ningún juego toca, y que apuesta a lo lento y táctico en vez de a la acción."
+      }
+    ]
   },
   {
     id: "mexican-ninja",
@@ -6714,8 +6734,8 @@ const JUEGOS = [
     descripcion: "La entrega anual de fútbol americano de EA, esta vez movida por el motor Persona, con el foco puesto en dirigir la liga decisión por decisión.",
     trailer: "https://youtube.com/embed/bqQtZ9xm_uI",
     metacritic: 76,
-    metacriticUsuarios: 5.2,
-    metacriticVotos: 25,
+    metacriticUsuarios: 5.1,
+    metacriticVotos: 27,
     critica: "El resumen de casi todas las reseñas es el mismo: se juega bien, sobre todo en ataque, y por fin arreglaron el modo Franquicia, que es lo que los fanáticos venían pidiendo hace años. Y ahí se termina el elogio. Los reparos se repiten con insistencia: fuera de eso el juego cambia poco de un año al otro, arrastra errores y lógica rota, y varias reseñas señalan directamente la cantidad de microtransacciones nuevas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3940610/7ed2213f0170c1b55410b82ed89a8bab3911c6ea/header.jpg",
     gamepass: false,

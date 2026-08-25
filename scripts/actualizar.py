@@ -189,11 +189,17 @@ def main():
         # página es de otro juego y el puntaje de usuarios sería de otro juego también.
         de_la_pagina = metascore(html)
         conocido = int(j["metacritic"]) if j["metacritic"] != "null" else aplicados.get(gid)
-        # 15 puntos de margen: los puntajes se mueven solos mientras entran reseñas
-        # (Palworld pasó de 86 a 78), así que una diferencia chica es normal. Una
-        # grande es otro juego: FFXIV Online daba 49 contra nuestro 86.
-        if de_la_pagina is not None and conocido is not None and abs(de_la_pagina - conocido) > 15:
-            descartados.append(f"{gid} (la página dice {de_la_pagina}, nosotros {conocido})")
+        # Una diferencia grande de puntaje puede ser otro juego —FFXIV Online daba 49 contra
+        # nuestro 86— o un juego con tan pocas reseñas que el promedio salta solo: Pro Jank
+        # Footy pasó de 59 a 85 con tres reseñas. Lo que los separa es el año: si la página
+        # es del año que esperamos, es el juego nuestro y el puntaje se movió nomás.
+        anio_pagina = re.search(r'"datePublished":"(\d{4})', html)
+        anios_ok = {j["fecha"][:4]} | set(re.findall(r"\b((?:19|20)\d{2})\b", j["rel_texto"]))
+        mismo_juego = anio_pagina is None or anio_pagina.group(1) in anios_ok
+        if (de_la_pagina is not None and conocido is not None
+                and abs(de_la_pagina - conocido) > 15 and not mismo_juego):
+            descartados.append(f"{gid} (la página dice {de_la_pagina} y es de "
+                               f"{anio_pagina.group(1)}, nosotros {conocido} de {j['fecha'][:4]})")
             continue
         # Ya tenemos la página en la mano: de paso se corrige el puntaje de crítica.
         # Hasta hoy se bajaba una sola vez y quedaba congelado para siempre, y un

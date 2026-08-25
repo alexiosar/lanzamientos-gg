@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -126,6 +127,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">80 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('gallipoli')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -135,6 +141,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Con pocas reseñas pero muy parejas hacia arriba. Todas destacan lo mismo: es un shooter de la Primera Guerra que se anima a un frente que casi nadie tocó, el otomano, y que va a contramano de la moda —lento, áspero, de trinchera, con armas de época y donde sin equipo no se hace nada—. El trabajo histórico aparece elogiado en todas. La nota más baja, que igual es buena, valora el cuidado del diseño por encima del resultado.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-25</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 80 EN UN FRENTE QUE NADIE CUENTA</span>
+          </div>
+          <p class="noticia-texto">El shooter de la Primera Guerra ambientado en Galípoli se llevó 80. Las reseñas destacan que elige el frente otomano, que casi ningún juego toca, y que apuesta a lo lento y táctico en vez de a la acción.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Desembarcás en las playas de Galípoli para pelear batallas por objetivos con cincuenta jugadores en los frentes otomanos. Guerra de trincheras y desierto en el shooter más inmersivo de la Primera Guerra Mundial.</p>
