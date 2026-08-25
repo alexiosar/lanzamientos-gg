@@ -1174,6 +1174,20 @@ const JUEGOS = [
     alta: "2026-07-09"
   },
   {
+    id: "console-archives-bubble-bobble",
+    titulo: "CONSOLE ARCHIVES: BUBBLE BOBBLE",
+    relanzamiento: "El original de TAITO es de 1988 — esta es la reedición para consolas actuales",
+    fecha: "2026-08-26",
+    plataformas: ["SWITCH2", "PS5"],
+    genero: ["PLATAFORMA", "ARCADE", "RETRO", "COOP"],
+    desarrollador: "HAMSTER",
+    descripcion: "La línea Console Archives reedita el Bubble Bobble hogareño de 1988, donde Bub y Bob escupen burbujas para atrapar enemigos y reventarlos, de a uno o de a dos. Trae lo que se le pide hoy a una reedición: guardar en cualquier momento, rebobinar y tablas de puntajes en línea. Sale a 7,99 dólares.",
+    trailer: "https://youtube.com/embed/BHWbusQRLOE",
+    metacritic: null,
+    imagen: null,
+    alta: "2026-08-25"
+  },
+  {
     id: "sprawl-zero",
     titulo: "SPRAWL ZERO",
     fecha: "2026-09-08",
@@ -1768,7 +1782,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 80,
     metacriticUsuarios: 5.8,
-    metacriticVotos: 657,
+    metacriticVotos: 658,
     critica: "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg",
     noticias: [

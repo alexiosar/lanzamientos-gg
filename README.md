@@ -109,7 +109,15 @@ si están en `null` o ausentes — no rompen nada.
 
 - **Lista de lanzamientos**: releases.com (bloquea robots: para cargarlo con Claude hace
   falta la extensión de Chrome, o copiar y pegar la lista). Filtrar: solo consolas; sin
-  parches de temporada, packs de contenido ni re-lanzamientos semanales de Arcade Archives.
+  parches de temporada ni packs de contenido.
+
+  **Las reediciones retro sí entran** (decidido el 25/08/2026). Arcade Archives, Console
+  Archives, EGGCONSOLE y las líneas parecidas sacan un juego casi todas las semanas, y durante
+  un tiempo se las dejó afuera por volumen. Se cambió de opinión con los datos de Search
+  Console en la mano: son juegos de consola, con fecha y precio, sobre los que **nadie escribe
+  en español**, que es exactamente donde el sitio convierte. Son unas cincuenta páginas al año
+  sin competencia. Se cargan como cualquier otro juego, con `relanzamiento` aclarando de qué
+  año es el original.
 - **Descripción en español, géneros y desarrollador**: API de Steam
   (`store.steampowered.com/api/appdetails?appids=NUMERO&l=spanish`).
 - **Carátulas**: CDN de Steam (ver abajo) o, para exclusivos de Nintendo, la API de búsqueda

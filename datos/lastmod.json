@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "e6746c5336c517ef",
+  "hash": "a5030afc08ee13c6",
   "lastmod": "2026-08-25"
  },
  "/acerca": {
@@ -211,6 +211,10 @@
   "hash": "5673a98b12946b27",
   "lastmod": "2026-08-24"
  },
+ "/juegos/console-archives-bubble-bobble": {
+  "hash": "bcb57bb75bd3be37",
+  "lastmod": "2026-08-25"
+ },
  "/juegos/console-archives-hercules-no-eikou-ii": {
   "hash": "87cf468b56838842",
   "lastmod": "2026-08-20"
@@ -220,8 +224,8 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/cotton-reboot": {
-  "hash": "eab7bced9d7fcc79",
-  "lastmod": "2026-08-24"
+  "hash": "c6ede33374299502",
+  "lastmod": "2026-08-25"
  },
  "/juegos/crimson-moon": {
   "hash": "442dcc5e90b74137",
@@ -536,7 +540,7 @@
   "lastmod": "2026-08-20"
  },
  "/juegos/halo-campaign-evolved": {
-  "hash": "dc1f68ca5514e839",
+  "hash": "66faf8408b8267eb",
   "lastmod": "2026-08-25"
  },
  "/juegos/harvest-moon-echoes-of-teradea": {
@@ -1312,16 +1316,16 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/toy-story-retro-roundup": {
-  "hash": "1d171b1d54b96253",
-  "lastmod": "2026-08-24"
+  "hash": "3ad97a52f0d827e4",
+  "lastmod": "2026-08-25"
  },
  "/juegos/trails-in-the-sky-2nd-chapter": {
   "hash": "cd930fdee16142ff",
   "lastmod": "2026-08-20"
  },
  "/juegos/trine-6-together-in-time": {
-  "hash": "bfc559050b1cea5e",
-  "lastmod": "2026-08-24"
+  "hash": "84a4f051ebce19c2",
+  "lastmod": "2026-08-25"
  },
  "/juegos/truck-kun-is-supporting-me-from-another-world": {
   "hash": "c51e02adf372b5dc",
@@ -1444,19 +1448,19 @@
   "lastmod": "2026-08-09"
  },
  "/ps4": {
-  "hash": "e6746c5336c517ef",
+  "hash": "a5030afc08ee13c6",
   "lastmod": "2026-08-25"
  },
  "/ps5": {
-  "hash": "e6746c5336c517ef",
+  "hash": "a5030afc08ee13c6",
   "lastmod": "2026-08-25"
  },
  "/switch": {
-  "hash": "e6746c5336c517ef",
+  "hash": "a5030afc08ee13c6",
   "lastmod": "2026-08-25"
  },
  "/switch-2": {
-  "hash": "e6746c5336c517ef",
+  "hash": "a5030afc08ee13c6",
   "lastmod": "2026-08-25"
  },
  "/terminos": {
@@ -1468,7 +1472,7 @@
   "lastmod": "2026-08-09"
  },
  "/xbox": {
-  "hash": "e6746c5336c517ef",
+  "hash": "a5030afc08ee13c6",
   "lastmod": "2026-08-25"
  }
 }

@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-25T13:54:52+00:00",
+ "generado": "2026-08-25T14:02:06+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-25",
  "hasta": "2026-09-24",
- "total": 93,
+ "total": 94,
  "juegos": [
   {
    "id": "once-human",
@@ -122,6 +122,29 @@
      "texto": "Lo de los creadores de Nidhogg llega el 25 de agosto directo al catálogo de Game Pass Ultimate y PC Game Pass, y suma versión de Xbox a las de PlayStation y Switch."
     }
    ]
+  },
+  {
+   "id": "console-archives-bubble-bobble",
+   "titulo": "CONSOLE ARCHIVES: BUBBLE BOBBLE",
+   "relanzamiento": "El original de TAITO es de 1988 — esta es la reedición para consolas actuales",
+   "fecha": "2026-08-26",
+   "plataformas": [
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "ARCADE",
+    "RETRO",
+    "COOP"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "La línea Console Archives reedita el Bubble Bobble hogareño de 1988, donde Bub y Bob escupen burbujas para atrapar enemigos y reventarlos, de a uno o de a dos. Trae lo que se le pide hoy a una reedición: guardar en cualquier momento, rebobinar y tablas de puntajes en línea. Sale a 7,99 dólares.",
+   "trailer": "https://youtube.com/embed/BHWbusQRLOE",
+   "metacritic": null,
+   "imagen": null,
+   "alta": "2026-08-25",
+   "url": "https://lanzamientos.lat/juegos/console-archives-bubble-bobble"
   },
   {
    "id": "fractured-worlds",
