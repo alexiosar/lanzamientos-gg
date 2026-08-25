@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "a5030afc08ee13c6",
+  "hash": "55e1766b1f1c76af",
   "lastmod": "2026-08-25"
  },
  "/acerca": {
@@ -112,11 +112,11 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/barbie-rewind": {
-  "hash": "0046bb20096a4a51",
-  "lastmod": "2026-08-24"
+  "hash": "25bc539aa5cebcda",
+  "lastmod": "2026-08-25"
  },
  "/juegos/beast-of-reincarnation": {
-  "hash": "f3b60e56464b4f66",
+  "hash": "6ba50477a1c61a1b",
   "lastmod": "2026-08-25"
  },
  "/juegos/beholder-conductor": {
@@ -128,7 +128,7 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/big-walk": {
-  "hash": "eaf295df8d39c513",
+  "hash": "e46cd6aa9b4764cc",
   "lastmod": "2026-08-25"
  },
  "/juegos/bioeden": {
@@ -200,8 +200,8 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/chronoscript-the-endless-end": {
-  "hash": "1f108c42f2b31bee",
-  "lastmod": "2026-08-18"
+  "hash": "49e5cc21264ae9be",
+  "lastmod": "2026-08-25"
  },
  "/juegos/clive-barkers-hellraiser-revival": {
   "hash": "2534cfb8a2222b56",
@@ -228,12 +228,12 @@
   "lastmod": "2026-08-25"
  },
  "/juegos/crimson-moon": {
-  "hash": "442dcc5e90b74137",
-  "lastmod": "2026-08-24"
+  "hash": "8c4bd0a6d51f6b35",
+  "lastmod": "2026-08-25"
  },
  "/juegos/crymelight": {
-  "hash": "d29384cd4fb94343",
-  "lastmod": "2026-08-24"
+  "hash": "e971ea3a59eda5e4",
+  "lastmod": "2026-08-25"
  },
  "/juegos/culdcept-begins": {
   "hash": "d9fbebb21afbdd46",
@@ -288,8 +288,8 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/digimon-story-time-stranger": {
-  "hash": "c5cfbd9a3e00740a",
-  "lastmod": "2026-08-24"
+  "hash": "9afa87de9b9b26eb",
+  "lastmod": "2026-08-25"
  },
  "/juegos/disgaea-mayhem": {
   "hash": "9e6d8bd258c7b64e",
@@ -500,12 +500,12 @@
   "lastmod": "2026-08-20"
  },
  "/juegos/godzilla-destroy-all-monsters-melee-remastered": {
-  "hash": "d24810b74045ba5d",
-  "lastmod": "2026-08-24"
+  "hash": "741ab33cbadf8ce2",
+  "lastmod": "2026-08-25"
  },
  "/juegos/golf-with-your-friends-2": {
-  "hash": "25eaaf0e88300f46",
-  "lastmod": "2026-08-24"
+  "hash": "3fa7b28b5c7bdf47",
+  "lastmod": "2026-08-25"
  },
  "/juegos/goodboy-galaxy": {
   "hash": "0cdabcea22904802",
@@ -520,8 +520,8 @@
   "lastmod": "2026-08-20"
  },
  "/juegos/grand-theft-auto-vi": {
-  "hash": "56c657b5f41754b4",
-  "lastmod": "2026-08-24"
+  "hash": "048efce35fde62d2",
+  "lastmod": "2026-08-25"
  },
  "/juegos/grounded-2": {
   "hash": "11b98116c3a1a565",
@@ -548,8 +548,8 @@
   "lastmod": "2026-08-20"
  },
  "/juegos/hasbro-games-junior-collection": {
-  "hash": "5e3c99daa9d36a03",
-  "lastmod": "2026-08-24"
+  "hash": "6228a4e6b4078cae",
+  "lastmod": "2026-08-25"
  },
  "/juegos/hashire-hebereke-ex": {
   "hash": "105c3741f0c57684",
@@ -560,8 +560,8 @@
   "lastmod": "2026-08-20"
  },
  "/juegos/heave-ho-2": {
-  "hash": "be58f45b7cf6b2c9",
-  "lastmod": "2026-08-24"
+  "hash": "ccbb12ab33e12371",
+  "lastmod": "2026-08-25"
  },
  "/juegos/hela-of-mice-and-magic": {
   "hash": "e3daa76e31156de8",
@@ -584,8 +584,8 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/hello-kitty-party-land": {
-  "hash": "2bfb899f96da8d0b",
-  "lastmod": "2026-08-24"
+  "hash": "b15c8369b9d093e8",
+  "lastmod": "2026-08-25"
  },
  "/juegos/high-on-life-2": {
   "hash": "ea3d73e0883ac296",
@@ -675,9 +675,17 @@
   "hash": "1152ca76c23bd73d",
   "lastmod": "2026-08-24"
  },
+ "/juegos/lets-sing-2027": {
+  "hash": "744d24ee7b2f66de",
+  "lastmod": "2026-08-25"
+ },
+ "/juegos/lets-sing-abba": {
+  "hash": "cd96c82f344308d6",
+  "lastmod": "2026-08-25"
+ },
  "/juegos/lies-of-p-switch-2": {
-  "hash": "00c902bc01a3d76c",
-  "lastmod": "2026-08-20"
+  "hash": "279bd74c647c1e7a",
+  "lastmod": "2026-08-25"
  },
  "/juegos/lifted": {
   "hash": "495908ec77bc5aeb",
@@ -691,13 +699,17 @@
   "hash": "819f83a171085ef0",
   "lastmod": "2026-08-20"
  },
+ "/juegos/lords-of-the-fallen-ii": {
+  "hash": "9226ac7204383290",
+  "lastmod": "2026-08-25"
+ },
  "/juegos/madden-nfl-27": {
   "hash": "959037b2abc08e74",
   "lastmod": "2026-08-25"
  },
  "/juegos/maestro": {
-  "hash": "da47f58a1c9f988c",
-  "lastmod": "2026-08-24"
+  "hash": "05dc24fa5c281653",
+  "lastmod": "2026-08-25"
  },
  "/juegos/mai-child-of-ages": {
   "hash": "10385d2724786477",
@@ -708,12 +720,16 @@
   "lastmod": "2026-08-19"
  },
  "/juegos/mariachi-legends": {
-  "hash": "a07bb19005000ec6",
-  "lastmod": "2026-08-24"
+  "hash": "d54c935a8117aa9b",
+  "lastmod": "2026-08-25"
  },
  "/juegos/marsupilami-2-salsa-palombia": {
   "hash": "8ecac88a5594cfd5",
   "lastmod": "2026-08-24"
+ },
+ "/juegos/marupoyo-the-round-chicks-adventure": {
+  "hash": "3ec46dd7e60d803c",
+  "lastmod": "2026-08-25"
  },
  "/juegos/marvel-tokon-fighting-souls": {
   "hash": "e7b185b036e96f6d",
@@ -736,12 +752,12 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/metaphor-refantazio": {
-  "hash": "4774069557e5b2b7",
-  "lastmod": "2026-08-24"
+  "hash": "9afc57dec4716486",
+  "lastmod": "2026-08-25"
  },
  "/juegos/mexican-ninja": {
-  "hash": "fcefc903b31b5f85",
-  "lastmod": "2026-08-19"
+  "hash": "e0ce1eb70cb89d2d",
+  "lastmod": "2026-08-25"
  },
  "/juegos/mind-diver": {
   "hash": "e8198a4dfd4f2160",
@@ -776,8 +792,8 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/moomin-midsummer-madness": {
-  "hash": "a386e66e5d5428ba",
-  "lastmod": "2026-08-24"
+  "hash": "71e4ab5c48134f6e",
+  "lastmod": "2026-08-25"
  },
  "/juegos/moomintroll-winters-warmth": {
   "hash": "93149e48abad08e3",
@@ -840,8 +856,8 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/nintendo-switch-sports-resort": {
-  "hash": "34aa69caa23de335",
-  "lastmod": "2026-08-24"
+  "hash": "494dfa4370a5235e",
+  "lastmod": "2026-08-25"
  },
  "/juegos/no-case-should-remain-unsolved": {
   "hash": "36e62c76c8c4c7c2",
@@ -860,8 +876,8 @@
   "lastmod": "2026-08-20"
  },
  "/juegos/obakeidoro-2-chase-seek": {
-  "hash": "48c200558c337048",
-  "lastmod": "2026-08-24"
+  "hash": "7978bb43f02ed737",
+  "lastmod": "2026-08-25"
  },
  "/juegos/octopath-traveler-i-ii-bundle": {
   "hash": "d4f025cd5e05523e",
@@ -904,8 +920,8 @@
   "lastmod": "2026-08-21"
  },
  "/juegos/palworld": {
-  "hash": "8e117f8e7146dc0b",
-  "lastmod": "2026-08-24"
+  "hash": "e02eaa39c74df859",
+  "lastmod": "2026-08-25"
  },
  "/juegos/panzer-knights-commanders-edition": {
   "hash": "98893ff9fafd9aac",
@@ -992,8 +1008,8 @@
   "lastmod": "2026-08-20"
  },
  "/juegos/rhythm-heaven-groove": {
-  "hash": "839cbf960fdebae3",
-  "lastmod": "2026-08-20"
+  "hash": "428334cf6ae45953",
+  "lastmod": "2026-08-25"
  },
  "/juegos/rivage": {
   "hash": "ffbbe0fbf4c4598e",
@@ -1108,16 +1124,16 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/spooky-spirit-shooting-gallery": {
-  "hash": "d9207bd2475a13e5",
-  "lastmod": "2026-08-24"
+  "hash": "a2c2fe2dfbd6a3fc",
+  "lastmod": "2026-08-25"
  },
  "/juegos/sprawl-zero": {
   "hash": "89a2e543bed5f24b",
   "lastmod": "2026-08-24"
  },
  "/juegos/stage-tour": {
-  "hash": "7cbb735e90fd0a37",
-  "lastmod": "2026-08-19"
+  "hash": "fb9ce5efa935a185",
+  "lastmod": "2026-08-25"
  },
  "/juegos/star-fox": {
   "hash": "b3aeb5fffb7067a7",
@@ -1235,6 +1251,10 @@
   "hash": "f21aa1b6eb366afc",
   "lastmod": "2026-08-20"
  },
+ "/juegos/the-legend-of-zelda-ocarina-of-time-switch-2": {
+  "hash": "8c763ab187da3368",
+  "lastmod": "2026-08-25"
+ },
  "/juegos/the-life-and-suffering-of-sir-brante": {
   "hash": "9702a4329301defb",
   "lastmod": "2026-08-24"
@@ -1252,8 +1272,8 @@
   "lastmod": "2026-08-20"
  },
  "/juegos/the-necromancers-tale": {
-  "hash": "26b825ec9270b7fe",
-  "lastmod": "2026-08-20"
+  "hash": "fbb1f0a5f2cdb6d7",
+  "lastmod": "2026-08-25"
  },
  "/juegos/the-planet-crafter": {
   "hash": "40def9643aee25a9",
@@ -1284,20 +1304,20 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/the-wolf-among-us-remastered": {
-  "hash": "063136286df602e0",
-  "lastmod": "2026-08-24"
+  "hash": "7b0bdf96312b3354",
+  "lastmod": "2026-08-25"
  },
  "/juegos/thief-the-dark-project-remastered": {
-  "hash": "302101a041b93ae7",
-  "lastmod": "2026-08-20"
+  "hash": "d0d14e8adccec542",
+  "lastmod": "2026-08-25"
  },
  "/juegos/toem-2": {
   "hash": "d2c926f197a885de",
   "lastmod": "2026-08-20"
  },
  "/juegos/tomo-endless-blue": {
-  "hash": "f00ab80bc76a1624",
-  "lastmod": "2026-08-20"
+  "hash": "9349e7a50a67eb91",
+  "lastmod": "2026-08-25"
  },
  "/juegos/tormented-souls-2": {
   "hash": "77d55ebd98cb3a4d",
@@ -1356,8 +1376,8 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/verho-curse-of-faces": {
-  "hash": "1a09a7a5ae08eac7",
-  "lastmod": "2026-08-24"
+  "hash": "b10fd29df7eef683",
+  "lastmod": "2026-08-25"
  },
  "/juegos/viking-frontiers": {
   "hash": "b40d46ecf34b244f",
@@ -1428,8 +1448,8 @@
   "lastmod": "2026-08-24"
  },
  "/juegos/xenoblade-chronicles-3-switch-2": {
-  "hash": "9345aae21ec986f1",
-  "lastmod": "2026-08-20"
+  "hash": "26d002545e5092fe",
+  "lastmod": "2026-08-25"
  },
  "/juegos/yet-another-zombie-survivors": {
   "hash": "1abf971e179a3983",
@@ -1448,19 +1468,19 @@
   "lastmod": "2026-08-09"
  },
  "/ps4": {
-  "hash": "a5030afc08ee13c6",
+  "hash": "55e1766b1f1c76af",
   "lastmod": "2026-08-25"
  },
  "/ps5": {
-  "hash": "a5030afc08ee13c6",
+  "hash": "55e1766b1f1c76af",
   "lastmod": "2026-08-25"
  },
  "/switch": {
-  "hash": "a5030afc08ee13c6",
+  "hash": "55e1766b1f1c76af",
   "lastmod": "2026-08-25"
  },
  "/switch-2": {
-  "hash": "a5030afc08ee13c6",
+  "hash": "55e1766b1f1c76af",
   "lastmod": "2026-08-25"
  },
  "/terminos": {
@@ -1472,7 +1492,7 @@
   "lastmod": "2026-08-09"
  },
  "/xbox": {
-  "hash": "a5030afc08ee13c6",
+  "hash": "55e1766b1f1c76af",
   "lastmod": "2026-08-25"
  }
 }

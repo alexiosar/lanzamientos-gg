@@ -827,6 +827,23 @@ categoría `SUSCRIPCIONES`.
    juego "falta" y es de una saga conocida, buscarlo también por su nombre en el otro idioma
    y por el número en la otra grafía antes de darlo por nuevo.
 
+   **releases.com no sirve para los meses lejanos.** El 25/08/2026 tenía diez juegos de consola
+   en todo noviembre y diciembre, y los diez ya estaban cargados: el problema no era nuestro
+   barrido, era la fuente. Para esos meses conviene preguntarle a la eShop por rango de fechas,
+   que devuelve el catálogo de Nintendo completo:
+
+   ```
+   https://searching.nintendo-europe.com/en/select?q=*&wt=json&rows=200
+     &fq=type:GAME AND dates_released_dts:[2026-11-01T00:00:00Z TO 2026-11-30T00:00:00Z]
+     &fl=title,dates_released_dts,system_names_txt,publisher,image_url_sq_s,nsuid_txt
+     &sort=dates_released_dts asc
+   ```
+
+   Ojo con dos cosas: devuelve **una fila por plataforma**, hay que juntar por título; y la
+   fecha **31 de diciembre es un comodín** que significa "en 2026, sin día". Esos van con
+   `estimado: true`. Un `nsuid_txt` propio confirma que es un producto de la tienda y no una
+   incorporación al catálogo de Nintendo Switch Online.
+
    URLs del barrido: `https://www.releases.com/calendar/games?at=2026-Sep-01` y variantes
    (`-Sep-09`, `-Sep-18`, `-Sep-26`…). Cada carga muestra ~10 días, así que hacen falta 3 o 4
    por mes. Al final de cada mes aparecen los bloques "Estimated <mes>" y "Estimated Q<n>":

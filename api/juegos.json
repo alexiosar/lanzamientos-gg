@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-25T14:02:06+00:00",
+ "generado": "2026-08-25T15:06:21+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 356,
+ "total": 361,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -1034,7 +1034,7 @@
    "trailer": "https://youtube.com/embed/fJnpfLErDDQ",
    "metacritic": 79,
    "metacriticUsuarios": 9.0,
-   "metacriticVotos": 908,
+   "metacriticVotos": 909,
    "critica": "Es el caso inverso al de los juegos de EA: los jugadores lo ponen entre lo mejor del año y la prensa lo dejó en el escalón de abajo. Coinciden en lo bueno, que es el sistema de digievolución, la historia y por fin un presupuesto a la altura de la marca. Las reseñas de puntaje más bajo insisten en dos cosas: el arranque es lento y el diseño es bastante más lineal de lo que promete. Varias marcan también la cantidad de contenido descargable de pago. Para el fan de Digimon, ninguno de los dos reparos alcanza.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/library_600x900.jpg",
    "gamepass": false,
@@ -1069,7 +1069,7 @@
    "trailer": "https://youtube.com/embed/M84RSkUXe0U",
    "metacritic": 78,
    "metacriticUsuarios": 7.4,
-   "metacriticVotos": 232,
+   "metacriticVotos": 233,
    "critica": "Las reseñas de la versión 1.0 coinciden en que es otro juego que el del acceso anticipado: misiones rehechas, mapa más grande y un final de partida que antes no existía. Lo que elogian es la mezcla de supervivencia y criaturas, y lo sostenido que fue el estudio con las actualizaciones. Los reparos también se repiten: sigue habiendo aspereza técnica y el bucle de juego es implacable, con más grind del que algunos aguantan.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900.jpg",
    "gamepass": true,
@@ -3207,7 +3207,7 @@
    "trailer": "https://youtube.com/embed/3dw0ePZ8GLc",
    "metacritic": 73,
    "metacriticUsuarios": 6.1,
-   "metacriticVotos": 346,
+   "metacriticVotos": 347,
    "critica": "Es el más discutido de los que tenemos cargados y viene de Game Freak, los de Pokémon, lo que explica parte del ruido. El acuerdo está en el combate y en la relación entre Emma y Kuu, que casi todas las reseñas rescatan. El desacuerdo está en todo lo demás: para la mitad hay un mundo vacío, una historia que no arranca y problemas gráficos, y las notas más duras dicen que no es un renacimiento creativo sino un juego armado imitando a otros mejores. Los jefes se llevan los elogios más consistentes.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/d068139fe039e26a6a9d9f57ac5d89785b984d33/header.jpg",
    "gamepass": true,
@@ -3245,7 +3245,7 @@
    "trailer": "https://youtube.com/embed/xfzapBQssa0",
    "metacritic": 91,
    "metacriticUsuarios": 8.3,
-   "metacriticVotos": 257,
+   "metacriticVotos": 258,
    "critica": "El acuerdo es casi total: lo que hace especial a Big Walk no son sus puzzles sino las conversaciones que obliga a tener. Casi todas las reseñas cuentan lo mismo, que los mejores momentos son los que el juego no programó, los que salen de coordinarse mal con un amigo, y varias lo emparentan con Untitled Goose Game, del mismo estudio. El reparo, cuando aparece, es el ritmo: la isla es grande y hay tramos largos donde no pasa nada, algo que se siente más de a dos que en grupo.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
    "gamepass": false,
@@ -4745,6 +4745,47 @@
    "url": "https://lanzamientos.lat/juegos/another-eden-begins"
   },
   {
+   "id": "lets-sing-2027",
+   "titulo": "LET'S SING 2027",
+   "fecha": "2026-11-03",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "MUSICA",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "VOXLER",
+   "descripcion": "La entrega anual del karaoke de Ravenscourt, con la lista de temas actualizada y los modos de siempre para cantar de a varios. Se juega con micrófonos o con el celular como micrófono, que es lo que lo hace fácil de sacar en una juntada.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/livgg5b3sazcfher7m6i",
+   "alta": "2026-08-25",
+   "url": "https://lanzamientos.lat/juegos/lets-sing-2027"
+  },
+  {
+   "id": "lets-sing-abba",
+   "titulo": "LET'S SING ABBA",
+   "fecha": "2026-11-03",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "MUSICA",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "VOXLER",
+   "descripcion": "Un Let's Sing dedicado entero a ABBA, con el repertorio del grupo sueco en vez de la lista variada de la entrega anual. Mismo formato: se canta de a varios, con micrófonos o usando el celular.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": null,
+   "alta": "2026-08-25",
+   "url": "https://lanzamientos.lat/juegos/lets-sing-abba"
+  },
+  {
    "id": "moomin-midsummer-madness",
    "titulo": "MOOMIN: MIDSUMMER MADNESS",
    "fecha": "2026-11-12",
@@ -4765,6 +4806,76 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4463520/c4e85af3552b33fc849be844e50efc50d751d9c3/header.jpg",
    "alta": "2026-08-24",
    "url": "https://lanzamientos.lat/juegos/moomin-midsummer-madness"
+  },
+  {
+   "id": "marupoyo-the-round-chicks-adventure",
+   "titulo": "MARUPOYO: THE ROUND CHICK'S ADVENTURE",
+   "fecha": "2026-11-26",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "ARCADE",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "CASUAL BROTHERS",
+   "descripcion": "Un plataformas de rodar: Marupoyo es un pollito redondo que se mueve inclinándose, esquivando obstáculos mientras busca a sus hermanos perdidos. Está pensado para que lo agarre cualquiera, con controles de una sola idea bien aprovechada.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355110/a46c5dfbdf4fcb0b8f2a5e6c0bcca051f8fe8a3f/header.jpg",
+   "alta": "2026-08-25",
+   "url": "https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure"
+  },
+  {
+   "id": "the-legend-of-zelda-ocarina-of-time-switch-2",
+   "titulo": "THE LEGEND OF ZELDA: OCARINA OF TIME",
+   "relanzamiento": "El original de Nintendo 64 es de 1998 — esta es la edición de Switch 2",
+   "fecha": "2026-12-31",
+   "estimado": true,
+   "fechaEstimada": "CUARTO TRIMESTRE 2026",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ACCION",
+    "RPG",
+    "RETRO"
+   ],
+   "desarrollador": "NINTENDO",
+   "descripcion": "La edición de Switch 2 del Zelda de Nintendo 64, el que definió cómo se juega una aventura en tres dimensiones. Tiene ficha propia en la eShop, así que es un lanzamiento y no una incorporación al catálogo de Nintendo Switch Online.",
+   "trailer": "https://youtube.com/embed/r8eMoxo4ipE",
+   "metacritic": null,
+   "imagen": null,
+   "alta": "2026-08-25",
+   "url": "https://lanzamientos.lat/juegos/the-legend-of-zelda-ocarina-of-time-switch-2"
+  },
+  {
+   "id": "lords-of-the-fallen-ii",
+   "titulo": "LORDS OF THE FALLEN II",
+   "fecha": "2026-12-31",
+   "estimado": true,
+   "fechaEstimada": "CUARTO TRIMESTRE 2026",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "AVENTURA",
+    "GOTICO"
+   ],
+   "desarrollador": "CI GAMES",
+   "descripcion": "La segunda parte del RPG de acción de fantasía oscura de CI Games: combate duro al estilo Souls en un mundo que se cae a pedazos desde adentro. Vuelve el juego de los dos planos, el de los vivos y el Umbral de los muertos.",
+   "trailer": "https://youtube.com/embed/7ncv_eS96lw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4767480/a34e3c4d4088e71c7d2cdc5445dc950abd2521db/header.jpg",
+   "alta": "2026-08-25",
+   "url": "https://lanzamientos.lat/juegos/lords-of-the-fallen-ii"
   },
   {
    "id": "trine-6-together-in-time",
@@ -8218,7 +8329,8 @@
    "desarrollador": "MADBRICKS",
    "descripcion": "Un beat'em up roguelike trepidante, lleno de groserías y chulería. Te convertís en el ninja mexicano y te abrís paso a tajos por las calles de Nuevo Tokio en un regreso al arcade retro en dos dimensiones y media.",
    "trailer": "https://youtube.com/embed/SZAu6g0fjq0",
-   "metacritic": null,
+   "metacritic": 68,
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764970/824f4a5e7665ce9394f2d58e12d71e41636d467d/header.jpg",
    "gamepass": false,
    "psplus": false,
