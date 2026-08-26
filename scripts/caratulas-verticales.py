@@ -69,10 +69,11 @@ def cargar_juegos():
 
 
 def es_vertical(url):
-    """Las que ya están bien: 2:3 de Steam o de PlayStation."""
+    """Las que ya están bien: Steam, PlayStation, o las que trajo IGDB."""
     if not url:
         return False
-    return "library_600x900" in url or "image.api.playstation.com" in url
+    return ("library_600x900" in url or "image.api.playstation.com" in url
+            or "images.igdb.com" in url)
 
 
 def appid(j):

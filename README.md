@@ -253,6 +253,23 @@ el juego base. Está bien que queden afuera: se conserva la apaisada, que es del
 **Antes de aplicar en masa, mirar las imágenes.** El script tiene `--json` para volcar lo que
 encontró y armar una hoja de contacto; así aparecieron los dos errores de arriba.
 
+Lo que SteamGridDB no encuentra lo busca `scripts/caratulas-igdb.py` en IGDB, que es una base
+de datos y no un banco de arte: ahí cada expansión y cada edición tiene su ficha con su tapa,
+que es justo lo que faltaba. Se autentica con una aplicación de Twitch —IGDB es de Twitch— y
+las credenciales van en `IGDB_CLIENT_ID` e `IGDB_CLIENT_SECRET`, **nunca en el repo**. El
+26/08/2026 cubrió 96 de los 110 que quedaban y las verticales llegaron a 347 de 361.
+
+Hereda las dos reglas de nombre y año, con una diferencia: el año se compara contra todas las
+fechas de la ficha y no contra la primera, porque IGDB guarda una por plataforma y en un port
+la primera es la de PC de hace años.
+
+Y suma una tercera regla propia: **la tapa tiene que ser más alta que ancha.** IGDB acepta
+cualquier imagen en ese campo y algunas son iconos cuadrados, que recortados a 2:3 pierden un
+tercio del alto y quedan peor que la apaisada que venían a reemplazar.
+
+Ojo con la proporción, que no es idéntica: IGDB entrega 528x704, o sea 3:4, contra el 2:3 de
+Steam. Se le recorta un 11% de ancho y en un arte de tapa no se nota, pero no es lo mismo.
+
 **Las carátulas vienen en tres formas y no se pueden unificar** (al 11/08/2026: 146
 verticales 2:3 de `library_600x900`, 145 apaisadas 460×215 de `header`, 24 cuadradas de la
 eShop). Se probó conseguir la vertical de las 145 apaisadas: **solo 6 la tenían**. Steam
