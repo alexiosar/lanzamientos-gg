@@ -270,6 +270,14 @@ tercio del alto y quedan peor que la apaisada que venían a reemplazar.
 Ojo con la proporción, que no es idéntica: IGDB entrega 528x704, o sea 3:4, contra el 2:3 de
 Steam. Se le recorta un 11% de ancho y en un arte de tapa no se nota, pero no es lo mismo.
 
+Los que ni siquiera así aparecen se buscan a mano, y casi siempre es porque el nombre no
+coincide: nosotros escribimos el título en castellano y la base lo tiene en inglés («El
+Profesor Layton y el Nuevo Mundo a Vapor» es «Professor Layton and the New World of Steam»,
+«Dragon Quest Monsters: El Reino Marchito» es «The Withered World»), o el editor le agrega un
+subtítulo que nosotros no ponemos («Let's Sing ABBA» está como «Let's Sing Presents: Abba»).
+Buscando el nombre en inglés aparecen enseguida. No conviene aflojar el matcher para cubrir
+esto: la búsqueda a mano es de una vez y las reglas flojas meten portadas equivocadas.
+
 **Las carátulas vienen en tres formas y no se pueden unificar** (al 11/08/2026: 146
 verticales 2:3 de `library_600x900`, 145 apaisadas 460×215 de `header`, 24 cuadradas de la
 eShop). Se probó conseguir la vertical de las 145 apaisadas: **solo 6 la tenían**. Steam
