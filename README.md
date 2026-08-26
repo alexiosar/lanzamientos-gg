@@ -40,6 +40,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/novedades-steam.py  Lo que anuncian los estudios en Steam (juegos chicos)
 ├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
+├── scripts/verificar-duplicados.py  Juegos cargados dos veces con id distinto
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
 ├── scripts/generar-imagenes-redes.py  Regenera el avatar y la portada de los perfiles
@@ -373,6 +374,39 @@ entrada fechada en el primer lanzamiento, ese juego desaparece del mes que le im
 
 **Casos ya normalizados con esta regla:** Steins;Gate Re:Boot, Avatar Legends: The Fighting
 Game y PAW Patrol: Dino World.
+
+### Y el mismo juego cargado dos veces (regla decidida el 26/08/2026)
+
+El reverso del caso anterior. El 26/08/2026 apareció SESAME STREET: AMIGOS Y RISAS por
+duplicado: mismo título, misma fecha, mismas plataformas y el mismo appid de Steam, con dos
+ids distintos —uno armado con el nombre en castellano y otro con el nombre en inglés—. El
+barrido semanal del 10/08 lo cargó de nuevo dieciséis días después del primero y no se dio
+cuenta **porque compara por id, y el id era distinto**. En el sitio se veía como dos juegos,
+con dos fichas y dos URLs en el sitemap compitiendo entre sí.
+
+Es de los errores que no se notan mirando: las dos fichas están bien hechas, el problema es
+que existan las dos. Y no se detecta mirando el id, que es justo lo que falló.
+
+Lo busca `scripts/verificar-duplicados.py`, que corre solo en la rutina diaria. **Para acusar
+a alguien exige las dos cosas a la vez:**
+
+| Que sea el mismo producto | Y que ocupe el mismo lugar |
+|---|---|
+| El título normalizado, o el appid de Steam de la carátula | La misma fecha, o plataformas que se pisan |
+
+La segunda columna es la que hace que sirva. Con el título repetido solo saltan los cinco
+ports legítimos de la sección anterior —The Relic: First Guardian está tres veces a propósito,
+en PS5, Xbox y Switch 2— y una alarma que grita todos los días por algo correcto se termina
+ignorando. Con las dos condiciones juntas, al 26/08/2026 el único grupo que sale es el que
+había que encontrar.
+
+El trailer repetido tampoco alcanza, aunque lo parezca: Toy Story 3: Complete Edition y
+Disney/Pixar Toy Story: Retro Roundup salen el mismo día y comparten video, y son dos juegos
+distintos. El video es el anuncio conjunto de Atari, que presenta los dos a la vez.
+
+**Cuando aparece uno:** se verifica en la tienda que sean el mismo producto y no dos
+ediciones, se queda **el de `alta` más vieja** —que es el que Google pudo llegar a indexar—,
+se borra la ficha del otro en `juegos/` y se le agrega un 301 en `_redirects`.
 
 ### Si se borra o se renombra un juego, va un redirect
 
@@ -988,6 +1022,7 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 | `imagen` y `trailer` | Semanal, paso 6 | Semanal, paso 7 (los que faltan) |
 | **Que esas URLs sigan vivas** | — | **Semanal, paso 9:** `python3 scripts/verificar-enlaces.py` |
 | **Que un juego dado por lanzado haya salido** | — | **Semanal, paso 8 bis:** `python3 scripts/verificar-lanzados.py` |
+| **Que un juego no esté cargado dos veces** | — | **Diaria, automática** (`verificar-duplicados.py` dentro de `actualizar.py`) |
 | `duracion` (HLTB) | Mensual, paso 10 | Mensual, paso 10 (recorre todos, no solo los nuevos) |
 | `descripcion`, `genero`, `desarrollador` | Semanal / Mensual, al cargar | — (no se desactualizan) |
 | Datos estructurados del trailer | — | Diaria, automática (`cargar-meta-trailers.py`) |

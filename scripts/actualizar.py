@@ -279,6 +279,14 @@ def main():
         print(" ", r.stdout.strip() or r.stderr.strip())
 
     # 3) Reporte
+    # Los duplicados van primero porque son el error más caro y el que no se ve mirando el
+    # sitio: las dos fichas están bien hechas, el problema es que existan las dos. Corre
+    # todos los días para que un duplicado no sobreviva más de una jornada.
+    print()
+    r = subprocess.run(["python3", str(RAIZ / "scripts" / "verificar-duplicados.py")],
+                       capture_output=True, text=True)
+    print(r.stdout.strip() or r.stderr.strip())
+
     lanzan_hoy = [j["id"] for j in juegos if j["fecha"] == hoy]
     lanzan_maniana = [j["id"] for j in juegos if j["fecha"] == maniana]
     print("\n── Candidatos a noticias ──")
