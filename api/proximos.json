@@ -2,127 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-25T15:06:21+00:00",
+ "generado": "2026-08-26T18:10:08+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-25",
- "hasta": "2026-09-24",
- "total": 94,
+ "desde": "2026-08-26",
+ "hasta": "2026-09-25",
+ "total": 92,
  "juegos": [
-  {
-   "id": "once-human",
-   "titulo": "ONCE HUMAN",
-   "fecha": "2026-08-25",
-   "relanzamiento": "En PC desde 2024",
-   "duracion": "≈ 30–40 h (historia)",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SUPERVIVENCIA",
-    "MUNDO ABIERTO",
-    "HORROR"
-   ],
-   "desarrollador": "STARRY STUDIO",
-   "descripcion": "Once Human es un juego de supervivencia ambientado en un extraño mundo posapocalíptico: recolectá recursos, construí tu refugio y enfrentá criaturas deformadas por una contaminación sobrenatural, en solitario o con amigos. El fenómeno de supervivencia llega por fin a consolas.",
-   "trailer": "https://youtube.com/embed/XXpfbP9Ml_4",
-   "metacritic": 71,
-   "metacriticUsuarios": 6.1,
-   "metacriticVotos": 117,
-   "critica": "Las reseñas son las de la versión de PC de 2024 y están muy repartidas, de 50 a 85. Coinciden en lo que tiene de bueno: un mundo compartido raro, con criaturas de diseño extraño que casi todas destacan, y un bucle de recolectar y construir del que cuesta salir. Y coinciden en lo malo: el combate es flojo, la historia no engancha y buena parte del contenido se siente visto. Las notas más bajas suman problemas técnicos.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2139460/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/once-human",
-   "noticias": [
-    {
-     "fecha": "2026-08-25",
-     "titulo": "LLEGA A CONSOLAS CON 71 A CUESTAS",
-     "texto": "El survival de mundo compartido sale hoy en PS5 y Xbox. El 71 es el de la versión de PC de 2024, y viene de reseñas muy repartidas: elogios para las criaturas y el bucle de construir, palos para el combate y la historia."
-    }
-   ]
-  },
-  {
-   "id": "apidya-special",
-   "titulo": "APIDYA' SPECIAL",
-   "fecha": "2026-08-25",
-   "plataformas": [
-    "PS5",
-    "SWITCH"
-   ],
-   "genero": [
-    "SHOOTER",
-    "ARCADE",
-    "RETRO"
-   ],
-   "desarrollador": "TEAM APIDYA",
-   "descripcion": "Apidya regresa en un remake auténtico de píxeles a 24 bits: el shoot'em up de culto de Amiga vuelve reconstruido desde cero para consolas modernas.",
-   "trailer": "https://youtube.com/embed/ZUP-wVaUxpU",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3956980/dfa0188de0188d3bca2a64bc9def2acd04990bd6/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/apidya-special"
-  },
-  {
-   "id": "aliens-fireteam-elite-2",
-   "titulo": "ALIENS: FIRETEAM ELITE 2",
-   "fecha": "2026-08-25",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SHOOTER",
-    "ACCION",
-    "COOP"
-   ],
-   "desarrollador": "COLD IRON STUDIOS",
-   "descripcion": "Esto no es una misión de rescate: es una lucha por la supervivencia. Los xenomorfos acechan en los rincones más oscuros en este shooter cooperativo en tercera persona para tres jugadores, secuela del aclamado Aliens: Fireteam Elite.",
-   "trailer": "https://youtube.com/embed/bISGUJn3sSk",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448650/9b3d808b5a39c572dc13ced8024e8085bd306805/header.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-27",
-   "url": "https://lanzamientos.lat/juegos/aliens-fireteam-elite-2"
-  },
-  {
-   "id": "blood-dungeon",
-   "titulo": "BLOOD DUNGEON",
-   "fecha": "2026-08-25",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "ARCADE",
-    "INDIE"
-   ],
-   "desarrollador": "MESSHOF",
-   "descripcion": "De los creadores de Nidhogg: un autoshooter de plataformas en dos dimensiones donde liquidás hordas de monstruos al ritmo de una banda sonora brutal. Juntás sangre, oro y huesos para reforzar tus poderes.",
-   "trailer": "https://youtube.com/embed/TNwRHBs_v74",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431080/3efcaa1643c79273ce9ece71c3dd4a7b71f1cb74/header.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/blood-dungeon",
-   "noticias": [
-    {
-     "fecha": "2026-08-19",
-     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
-     "texto": "Lo de los creadores de Nidhogg llega el 25 de agosto directo al catálogo de Game Pass Ultimate y PC Game Pass, y suma versión de Xbox a las de PlayStation y Switch."
-    }
-   ]
-  },
   {
    "id": "console-archives-bubble-bobble",
    "titulo": "CONSOLE ARCHIVES: BUBBLE BOBBLE",
@@ -142,7 +28,7 @@
    "descripcion": "La línea Console Archives reedita el Bubble Bobble hogareño de 1988, donde Bub y Bob escupen burbujas para atrapar enemigos y reventarlos, de a uno o de a dos. Trae lo que se le pide hoy a una reedición: guardar en cualquier momento, rebobinar y tablas de puntajes en línea. Sale a 7,99 dólares.",
    "trailer": "https://youtube.com/embed/BHWbusQRLOE",
    "metacritic": null,
-   "imagen": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202608/0708/ad638e47b3c490cc1f4bdcf51dd9a99f3f18d7fb573b29dc.jpg?w=600&thumb=false",
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/console-archives-bubble-bobble"
   },
@@ -151,7 +37,8 @@
    "titulo": "FRACTURED WORLDS",
    "fecha": "2026-08-26",
    "plataformas": [
-    "PS5"
+    "PS5",
+    "SWITCH"
    ],
    "genero": [
     "ACCION",
@@ -2353,6 +2240,55 @@
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/qliphah-in-providences-shadow"
+  },
+  {
+   "id": "ea-sports-fc-27",
+   "titulo": "EA SPORTS FC 27",
+   "fecha": "2026-09-25",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "DEPORTES",
+    "SIMULACION"
+   ],
+   "desarrollador": "EA CANADA",
+   "descripcion": "La nueva edición del simulador de fútbol de EA suma The Grounds, un espacio donde la calle y el estadio se cruzan, y promete más control en todos los modos. Mbappé y Bellingham comparten la portada. Acceso anticipado desde el 18 de septiembre con las ediciones Ultimate.",
+   "trailer": "https://youtube.com/embed/MOclJJ7IpSY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4080220/05d419a45653a1299ce46d13dbff4533fa076c1c/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/ea-sports-fc-27"
+  },
+  {
+   "id": "the-relic-first-guardian-xbox",
+   "titulo": "THE RELIC: FIRST GUARDIAN",
+   "relanzamiento": "En PS5 desde julio de 2026 — esta fecha corresponde a la edición de Xbox",
+   "fecha": "2026-09-25",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "AVENTURA"
+   ],
+   "desarrollador": "PERFECT WORLD GAMES",
+   "descripcion": "La edición de Xbox del RPG de acción de Perfect World, casi dos meses después de su estreno en PlayStation.",
+   "trailer": "https://youtube.com/embed/9BZUDAXO7fk",
+   "metacritic": null,
+   "critica": "Es el peor recibido de todo el calendario y las reseñas no se guardan nada: hay notas de 30 que lo ponen entre lo peor del año. Lo que rescatan, casi todas, es la ambición y la ambientación en la mitología coreana, y hasta las más duras reconocen que hay pasión detrás. El problema es todo lo demás: gráficos que varias comparan con los de dos generaciones atrás, caídas de rendimiento, un mundo abierto que nadie pidió y una historia contada a pedazos. La conclusión que se repite es que quiso hacer demasiado y no le salió casi nada.",
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-18",
+   "url": "https://lanzamientos.lat/juegos/the-relic-first-guardian-xbox"
   }
  ]
 }

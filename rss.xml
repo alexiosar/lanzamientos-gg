@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 25 Aug 2026 15:06:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 18:10:08 +0000</lastBuildDate>
+    <item>
+      <title>BLOOD DUNGEON: DEBUTA CON 77 Y ENTRÓ A GAME PASS EL DÍA UNO</title>
+      <link>https://lanzamientos.lat/juegos/blood-dungeon</link>
+      <guid isPermaLink="false">blood-dungeon-2026-08-26</guid>
+      <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Lo nuevo de los creadores de Nidhogg se llevó 77. Las reseñas coinciden en que la gracia es el cambio de formato: un Vampire Survivors hecho plataformas en dos dimensiones. Salió ayer y entró a Game Pass el mismo día. — BLOOD DUNGEON para PS5 / XBOX / SWITCH 2 / SWITCH.</description>
+    </item>
     <item>
       <title>ONCE HUMAN: LLEGA A CONSOLAS CON 71 A CUESTAS</title>
       <link>https://lanzamientos.lat/juegos/once-human</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">phantom-blade-zero-2026-08-14</guid>
       <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
       <description>Sony le dedica una presentación entera el 17 de agosto. Ya se abrieron las reservas y se publicó un tráiler de once minutos, así que lo del 17 debería traer fecha firme de todo lo que falta. — PHANTOM BLADE ZERO para PS5.</description>
-    </item>
-    <item>
-      <title>ANIIMO: YA TIENE FECHA: 16 DE SEPTIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/aniimo</link>
-      <guid isPermaLink="false">aniimo-2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Estaba anunciado para el tercer trimestre sin día. Es un RPG de mundo abierto gratuito con captura de criaturas, del estudio Pawprint. — ANIIMO para XBOX / PS5 / SWITCH 2.</description>
     </item>
   </channel>
 </rss>

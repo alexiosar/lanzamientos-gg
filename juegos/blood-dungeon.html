@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
     .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
     .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
@@ -135,6 +136,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor badge-gamepass">GAME PASS ✓</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">77 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('blood-dungeon')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -145,7 +151,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Todas las reseñas lo ubican en el mismo lugar: es un juego a lo Vampire Survivors, pero de plataformas en dos dimensiones, y ese cambio de formato es lo que le da identidad propia. Los elogios van al ritmo, al dibujo bruto y gracioso, y a lo bien que se siente moverse. Los reparos coinciden en la falta de profundidad: hay muchos juguetes para probar pero pocos niveles, y la nota más baja dice que el estudio aplicó su talento a un género ya agotado con un resultado más conservador de lo esperado.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-26</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 77 Y ENTRÓ A GAME PASS EL DÍA UNO</span>
+          </div>
+          <p class="noticia-texto">Lo nuevo de los creadores de Nidhogg se llevó 77. Las reseñas coinciden en que la gracia es el cambio de formato: un Vampire Survivors hecho plataformas en dos dimensiones. Salió ayer y entró a Game Pass el mismo día.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-08-19</span>

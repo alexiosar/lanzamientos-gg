@@ -171,7 +171,12 @@ def main():
             marca = ""
             # Sólo se avisa de fechas cuando el anuncio ES de fecha: si no, cualquier
             # mención suelta ("la oferta termina el 13 de agosto") levantaba la bandera.
-            dichas = fechas_mencionadas(titulo + " " + texto[:300]) if MANDA.search(titulo) else set()
+            # Y sólo si el anuncio es del estudio: las notas de prensa que Steam agrega en
+            # el mismo feed nombran fechas de cualquier cosa. El 26/08/2026 una de Rock Paper
+            # Shotgun sobre Nvidia DLSS levantó la bandera en CONTROL Resonant.
+            del_estudio = "community announcement" in (it.get("feedlabel") or "").lower()
+            dichas = (fechas_mencionadas(titulo + " " + texto[:300])
+                      if MANDA.search(titulo) and del_estudio else set())
             if dichas and j["fecha"][5:] not in dichas:
                 marca = "  ⚠ NOMBRA OTRA FECHA"
                 revisar_fecha.append((j["id"], j["fecha"], sorted(dichas)))
