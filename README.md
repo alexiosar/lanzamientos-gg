@@ -227,6 +227,32 @@ sale distinta, ahí se separan los textos.
 
 ### Carátulas (campo `imagen`)
 
+**La forma que queremos es 2:3 vertical**, que es la de las cajas y la que usa releases.com,
+que normaliza todo a 200×300 en su propio CDN. Con tres formas distintas —vertical, apaisada
+de 460×215 y cuadrada de Nintendo— las tarjetas quedan disparejas por más que el CSS ayude.
+
+Cuando la tienda no tiene vertical, la busca `scripts/caratulas-verticales.py` en SteamGridDB,
+un banco de portadas subidas por la comunidad. **La clave va en `SGDB_API_KEY`, nunca en el
+repo, que es público.** El 26/08/2026 esa pasada llevó las verticales de 168 a 251 de 361.
+
+Dos reglas del buscador que salieron de revisar las primeras 118 a ojo, y conviene no
+aflojarlas:
+
+- **El nombre tiene que parecerse de verdad** (coincidencia exacta o 90% de similitud). La
+  primera versión aceptaba que un nombre estuviera contenido en el otro, y The Caribou Trail
+  se llevó la portada de un juego llamado «'the», porque "the" está adentro de
+  "thecariboutrail".
+- **Y el año tiene que cuadrar** con nuestra fecha o con lo que diga `relanzamiento`. Hay dos
+  Star Fox en el banco, el de 1993 y el de 2026: sin mirar el año, el remake de Switch 2 se
+  llevaba la caja original de Super Nintendo.
+
+Con esas dos reglas quedan afuera los que tienen nombre de expansión o de edición —DOOM: The
+Dark Ages Revelations, Disney Dreamlight Valley: Honeyglow Woods— porque el banco sólo tiene
+el juego base. Está bien que queden afuera: se conserva la apaisada, que es del juego correcto.
+
+**Antes de aplicar en masa, mirar las imágenes.** El script tiene `--json` para volcar lo que
+encontró y armar una hoja de contacto; así aparecieron los dos errores de arriba.
+
 **Las carátulas vienen en tres formas y no se pueden unificar** (al 11/08/2026: 146
 verticales 2:3 de `library_600x900`, 145 apaisadas 460×215 de `header`, 24 cuadradas de la
 eShop). Se probó conseguir la vertical de las 145 apaisadas: **solo 6 la tenían**. Steam
