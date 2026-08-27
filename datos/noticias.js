@@ -46,6 +46,16 @@
 
 const NOTICIAS = [
   {
+    id: "ps-plus-mensuales-septiembre-2026",
+    fecha: "2026-08-26",
+    categoria: "SUSCRIPCIONES",
+    titulo: "LOS MENSUALES DE PS PLUS DE SEPTIEMBRE: SNIPER ELITE RESISTANCE Y TRES MÁS",
+    texto: "Sony anunció los cuatro juegos mensuales de septiembre: Sniper Elite: Resistance en PS5 y PS4, MLB The Show 26 en PS5, Wobbly Life y Chained Echoes. Se pueden reclamar desde el martes 1 de septiembre hasta el lunes 5 de octubre, y una vez reclamados quedan mientras dure la suscripción. Ojo con la diferencia respecto del catálogo Extra y Deluxe, que es otra cosa: estos son los mensuales. Ninguno de los cuatro es un estreno, así que ninguno lleva el distintivo de PS Plus en el calendario. El único que se cruza con nuestra lista es Wobbly Life, pero por otro lado: la versión que entra a PS Plus es la de PlayStation, y la que figura acá es la de Switch 2, que salió el 20 de agosto.",
+    fuente: "https://blog.latam.playstation.com/2026/08/26/juegos-mensuales-en-playstation-plus-de-septiembre-sniper-elite-resistence-mlb-the-show-26-wobbly-life-chained-echoes/",
+    juegos: ["wobbly-life"]
+  },
+
+  {
     id: "terranigma-vuelve-2027",
     fecha: "2026-08-25",
     categoria: "ANUNCIOS",

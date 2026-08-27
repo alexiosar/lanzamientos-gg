@@ -2,59 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-27T01:04:06+00:00",
+ "generado": "2026-08-27T17:33:44+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-26",
- "hasta": "2026-09-25",
- "total": 92,
+ "desde": "2026-08-27",
+ "hasta": "2026-09-26",
+ "total": 90,
  "juegos": [
-  {
-   "id": "console-archives-bubble-bobble",
-   "titulo": "CONSOLE ARCHIVES: BUBBLE BOBBLE",
-   "relanzamiento": "El original de TAITO es de 1988 — esta es la reedición para consolas actuales",
-   "fecha": "2026-08-26",
-   "plataformas": [
-    "SWITCH2",
-    "PS5"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "ARCADE",
-    "RETRO",
-    "COOP"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "La línea Console Archives reedita el Bubble Bobble hogareño de 1988, donde Bub y Bob escupen burbujas para atrapar enemigos y reventarlos, de a uno o de a dos. Trae lo que se le pide hoy a una reedición: guardar en cualquier momento, rebobinar y tablas de puntajes en línea. Sale a 7,99 dólares.",
-   "trailer": "https://youtube.com/embed/BHWbusQRLOE",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202608/0708/ad638e47b3c490cc1f4bdcf51dd9a99f3f18d7fb573b29dc.jpg?w=600&thumb=false",
-   "alta": "2026-08-25",
-   "url": "https://lanzamientos.lat/juegos/console-archives-bubble-bobble"
-  },
-  {
-   "id": "fractured-worlds",
-   "titulo": "FRACTURED WORLDS",
-   "fecha": "2026-08-26",
-   "plataformas": [
-    "PS5",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG",
-    "COOP"
-   ],
-   "desarrollador": "LASER GUIDED GAMES",
-   "descripcion": "Un RPG de acción de fantasía oscura ambientado en los restos de una realidad hecha pedazos. Combate pesado y de precisión, reinos variados y jefes exigentes, en solitario o junto a otros jugadores.",
-   "trailer": "https://youtube.com/embed/jUBmShHtHAM",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1879860/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/fractured-worlds"
-  },
   {
    "id": "brigandine-abyss",
    "titulo": "BRIGANDINE: ABYSS",
@@ -72,12 +26,21 @@
    "desarrollador": "ADGLOBE",
    "descripcion": "Elegí una de seis facciones para enfrentar al Imperio Abyssloa. Comandá tus tropas y monstruos en batallas estratégicas por turnos, en la nueva entrega de la saga táctica Brigandine.",
    "trailer": "https://youtube.com/embed/5z0L0ba4r8k",
-   "metacritic": null,
+   "metacritic": 71,
+   "metacriticUsuarios": null,
+   "critica": "Pocas reseñas y un acuerdo incómodo: el juego es profundo —seis campañas, gestión de ejércitos, mucha personalización— y aun así la mayoría termina decepcionada. El reproche que se repite es que esta entrega buscó ser más accesible y en el camino perdió lo que hacía de la serie un objeto de culto. La reseña más entusiasta lo define mejor que ninguna: mezcla dos géneros pesados, y por eso mismo es imprescindible para quien quiera los dos y difícil de recomendar a quien quiera uno solo.",
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobihe.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/brigandine-abyss"
+   "url": "https://lanzamientos.lat/juegos/brigandine-abyss",
+   "noticias": [
+    {
+     "fecha": "2026-08-27",
+     "titulo": "DEBUTA CON 71",
+     "texto": "La prensa reconoce la profundidad —seis campañas y una gestión de ejércitos muy trabajada— pero la mayoría termina decepcionada. El reproche que se repite es que esta entrega buscó ser más accesible y perdió por el camino lo que hacía de la serie un objeto de culto."
+    }
+   ]
   },
   {
    "id": "resonance-a-plague-tale-legacy",
@@ -94,13 +57,20 @@
    "desarrollador": "ASOBO STUDIO",
    "descripcion": "Ponte en la piel de Sofía y vive la historia previa a la del galardonado A Plague Tale. Dirígete a la Isla del Minotauro, supera a tus enemigos, descubre antiguos secretos y enfréntate a una criatura mítica en el corazón de una terrible maldición.",
    "trailer": "https://youtube.com/embed/6lCzpRkoFjw",
-   "metacritic": null,
+   "metacritic": 79,
+   "metacriticUsuarios": null,
+   "critica": "Es el más discutido de la semana: hay reseñas de 95 y de 60 describiendo el mismo juego. Todas coinciden en dos cosas. Que la serie cambió de género —menos sigilo y menos ratas, más acción y aventura al estilo Uncharted— y que en lo visual y lo sonoro está a la altura, con la banda sonora de Olivier Derivière llevándose elogios aparte. La discusión es si el cambio le sienta bien. Los que lo bajan repiten tres reparos: arranca muy lento, el combate se vuelve repetitivo y hay problemas de rendimiento. Sophia, la protagonista nueva, gusta casi por unanimidad.",
    "imagen": "https://cdn2.steamgriddb.com/grid/19488d75fad434aed855298dad9d9d76.png",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-07-14",
    "url": "https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy",
    "noticias": [
+    {
+     "fecha": "2026-08-27",
+     "titulo": "DEBUTA CON 79 Y DIVIDE A LA PRENSA",
+     "texto": "Es el estreno más discutido de la semana: hay reseñas de 95 y de 60. Nadie discute el apartado visual ni la banda sonora de Olivier Derivière; lo que se discute es el giro de la serie hacia la acción, con menos sigilo y menos ratas. Los reparos más repetidos son el arranque lento y el rendimiento."
+    },
     {
      "fecha": "2026-07-10",
      "titulo": "YA ES GOLD Y LAS PREVIEWS ENTUSIASMAN",
@@ -123,12 +93,21 @@
    "desarrollador": "BIT REACTOR",
    "descripcion": "Dirige un escuadrón de élite a lo largo de una auténtica y apasionante historia en STAR WARS Zero Company™, un juego táctico por turnos para un jugador ambientado en el ocaso de las Guerras Clon.",
    "trailer": "https://youtube.com/embed/ksOBF-T5LrA",
-   "metacritic": null,
+   "metacritic": 86,
+   "metacriticUsuarios": null,
+   "critica": "La comparación con XCOM aparece en todas las reseñas, y el veredicto es que aguanta: un juego de tácticas por turnos hecho en serio, no una licencia pegada encima de un género. Lo más elogiado, sin embargo, es lo que menos se esperaba: la historia. Un escuadrón sin usuarios de la Fuerza, personajes que caen bien y una puesta cinematográfica que varios comparan con Andor y Rogue One. Los reparos son parejos y ninguno es de fondo: arranca lento, tiene problemas técnicos —sobre todo en PC— y no reinventa el género. La reseña más dura le critica lo contrario que el resto: que el envoltorio Star Wars es lo menos inspirado del juego.",
    "imagen": "https://cdn2.steamgriddb.com/grid/75d8e84292296f1d00ba61471c8a7e5d.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/star-wars-zero-company"
+   "url": "https://lanzamientos.lat/juegos/star-wars-zero-company",
+   "noticias": [
+    {
+     "fecha": "2026-08-27",
+     "titulo": "DEBUTA CON 86 EN METACRITIC",
+     "texto": "El debut de Bit Reactor es de lo mejor puntuado del año en el calendario. La prensa lo describe como XCOM en el universo Star Wars hecho en serio, y elogia sobre todo la historia de un escuadrón sin usuarios de la Fuerza. Los reparos que se repiten son el arranque lento y los problemas técnicos en PC."
+    }
+   ]
   },
   {
    "id": "metal-gear-solid-master-collection-vol-2",
@@ -147,12 +126,21 @@
    "desarrollador": "KONAMI",
    "descripcion": "Esta segunda entrega de la colección incluye &quot;Metal Gear Solid 4: Guns of the Patriots&quot; y &quot;Metal Gear Solid: Peace Walker (HD Collection version)&quot;, así como una banda sonora digital y &quot;Metal Gear: Ghost Babel&quot; como contenido extra.",
    "trailer": "https://youtube.com/embed/a3AujdsJvjI",
-   "metacritic": null,
+   "metacritic": 85,
+   "metacriticUsuarios": null,
+   "critica": "Casi todas las reseñas dicen lo mismo con distintas palabras: sacar Metal Gear Solid 4 de la PS3 después de dieciocho años ya justifica la compra, y Peace Walker y Ghost Babel vienen de yapa. Las conversiones se elogian sin peros y el trabajo de preservación también. Las quejas no son de los juegos sino del paquete: trae menos títulos que el Vol. 1, los extras son mínimos y no hay un menú común, así que se salta entre media docena de aplicaciones sueltas.",
    "imagen": "https://cdn2.steamgriddb.com/grid/be9c9692971c6207d224c8df4983e8cd.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2"
+   "url": "https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2",
+   "noticias": [
+    {
+     "fecha": "2026-08-27",
+     "titulo": "DEBUTA CON 85: MGS4 SALE DE LA PS3 DESPUÉS DE 18 AÑOS",
+     "texto": "El puntaje se explica casi entero por una razón que aparece en todas las reseñas: Metal Gear Solid 4 dejó de ser exclusivo de PS3 después de dieciocho años. Peace Walker y Ghost Babel completan el paquete. Las críticas apuntan al continente y no al contenido: menos juegos que el Vol. 1 y ningún menú común entre ellos."
+    }
+   ]
   },
   {
    "id": "aggelos-2",

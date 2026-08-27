@@ -1045,6 +1045,25 @@ y abrir http://localhost:8080
 
 ## Pendientes / ideas
 
+### Ideas del usuario del 27/08/2026 (sin empezar)
+
+- **"Recomendados del mes".** Una selección de lo que vale la pena del mes, que hoy no
+  existe: el sitio ordena por fecha y por puntaje, pero no dice qué mirar. Lo que hay que
+  decidir antes de programar nada es **de dónde sale la selección**. Con puntaje de
+  Metacritic solo no alcanza: el mes en curso son lanzamientos futuros y todavía no tienen
+  puntaje, así que lo que se destaca del mes que viene es necesariamente criterio propio.
+  Posible corte: los que ya salieron se ordenan por puntaje, y los que faltan se eligen a
+  mano y se marcan como tales. Cuidado con que no termine siendo el ranking con otro nombre.
+
+- **Repensar el ranking para 2027.** Hoy el ranking es una lista por puntaje de Metacritic
+  sobre todo el calendario, que son 360 juegos de un solo año. Cuando entre 2027 empiezan a
+  convivir dos años y la lista deja de significar nada sin decir *de qué*. Hace falta al
+  menos un filtro de año, y probablemente que el ranking pase a ser "lo mejor de 2026" como
+  página propia, que además es contenido que se busca. Va con la pregunta más grande de
+  **cómo se ordenan los filtros cuando haya dos años cargados**: hoy hay plataforma y
+  género, y sumar año a la misma fila puede volverla ilegible en el teléfono. Conviene
+  resolverlo antes de cargar el primer juego de 2027, no después.
+
 - **Creepshow: ¿va o no va en el calendario?** Está cargado para el 13/08/2026 en PS5, PS4,
   Xbox y Switch, pero al 12/08 toda la prensa (Bloody Disgusting, Gizmodo, Engadget, Games
   Press) anuncia el lanzamiento **solo en PC vía Steam**, y no aparece ni en la PS Store ni

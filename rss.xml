@@ -6,13 +6,48 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 27 Aug 2026 01:04:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 17:33:44 +0000</lastBuildDate>
+    <item>
+      <title>BRIGANDINE: ABYSS: DEBUTA CON 71</title>
+      <link>https://lanzamientos.lat/juegos/brigandine-abyss</link>
+      <guid isPermaLink="false">brigandine-abyss-2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+      <description>La prensa reconoce la profundidad —seis campañas y una gestión de ejércitos muy trabajada— pero la mayoría termina decepcionada. El reproche que se repite es que esta entrega buscó ser más accesible y perdió por el camino lo que hacía de la serie un objeto de culto. — BRIGANDINE: ABYSS para SWITCH 2 / PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>RESONANCE: A PLAGUE TALE LEGACY: DEBUTA CON 79 Y DIVIDE A LA PRENSA</title>
+      <link>https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy</link>
+      <guid isPermaLink="false">resonance-a-plague-tale-legacy-2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Es el estreno más discutido de la semana: hay reseñas de 95 y de 60. Nadie discute el apartado visual ni la banda sonora de Olivier Derivière; lo que se discute es el giro de la serie hacia la acción, con menos sigilo y menos ratas. Los reparos más repetidos son el arranque lento y el rendimiento. — RESONANCE: A PLAGUE TALE LEGACY para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>STAR WARS ZERO COMPANY: DEBUTA CON 86 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/star-wars-zero-company</link>
+      <guid isPermaLink="false">star-wars-zero-company-2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El debut de Bit Reactor es de lo mejor puntuado del año en el calendario. La prensa lo describe como XCOM en el universo Star Wars hecho en serio, y elogia sobre todo la historia de un escuadrón sin usuarios de la Fuerza. Los reparos que se repiten son el arranque lento y los problemas técnicos en PC. — STAR WARS ZERO COMPANY para XBOX / PS5.</description>
+    </item>
+    <item>
+      <title>METAL GEAR SOLID: MASTER COLLECTION VOL. 2: DEBUTA CON 85: MGS4 SALE DE LA PS3 DESPUÉS DE 18 AÑOS</title>
+      <link>https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2</link>
+      <guid isPermaLink="false">metal-gear-solid-master-collection-vol-2-2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El puntaje se explica casi entero por una razón que aparece en todas las reseñas: Metal Gear Solid 4 dejó de ser exclusivo de PS3 después de dieciocho años. Peace Walker y Ghost Babel completan el paquete. Las críticas apuntan al continente y no al contenido: menos juegos que el Vol. 1 y ningún menú común entre ellos. — METAL GEAR SOLID: MASTER COLLECTION VOL. 2 para PS5 / XBOX / SWITCH 2 / SWITCH.</description>
+    </item>
     <item>
       <title>BLOOD DUNGEON: DEBUTA CON 77 Y ENTRÓ A GAME PASS EL DÍA UNO</title>
       <link>https://lanzamientos.lat/juegos/blood-dungeon</link>
       <guid isPermaLink="false">blood-dungeon-2026-08-26</guid>
       <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
       <description>Lo nuevo de los creadores de Nidhogg se llevó 77. Las reseñas coinciden en que la gracia es el cambio de formato: un Vampire Survivors hecho plataformas en dos dimensiones. Salió ayer y entró a Game Pass el mismo día. — BLOOD DUNGEON para PS5 / XBOX / SWITCH 2 / SWITCH.</description>
+    </item>
+    <item>
+      <title>LOS MENSUALES DE PS PLUS DE SEPTIEMBRE: SNIPER ELITE RESISTANCE Y TRES MÁS</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">ps-plus-mensuales-septiembre-2026</guid>
+      <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Sony anunció los cuatro juegos mensuales de septiembre: Sniper Elite: Resistance en PS5 y PS4, MLB The Show 26 en PS5, Wobbly Life y Chained Echoes. Se pueden reclamar desde el martes 1 de septiembre hasta el lunes 5 de octubre, y una vez reclamados quedan mientras dure la suscripción. Ojo con la diferencia respecto del catálogo Extra y Deluxe, que es otra cosa: estos son los mensuales. Ninguno de los cuatro es un estreno, así que ninguno lleva el distintivo de PS Plus en el calendario. El único que se cruza con nuestra lista es Wobbly Life, pero por otro lado: la versión que entra a PS Plus es la de PlayStation, y la que figura acá es la de Switch 2, que salió el 20 de agosto.</description>
     </item>
     <item>
       <title>ONCE HUMAN: LLEGA A CONSOLAS CON 71 A CUESTAS</title>
@@ -251,41 +286,6 @@
       <guid isPermaLink="false">verho-curse-of-faces-2026-08-17</guid>
       <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
       <description>Un RPG de acción en primera persona que copia deliberadamente el aire de los King's Field de PlayStation: polígonos toscos, texturas manchadas y niveles muy verticales. Las reseñas coinciden en que el homenaje está logrado —dicen que se ve, suena y se siente como un King's Field— y el reparo es que quien no tenga esa nostalgia encima va a encontrar el resultado directamente anticuado. Cuesta 24,99 dólares. — VERHO: CURSE OF FACES para SWITCH / XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>PRO JANK FOOTY: 59 DE DEBUT PARA EL FÚTBOL AUSTRALIANO ABSURDO</title>
-      <link>https://lanzamientos.lat/juegos/pro-jank-footy</link>
-      <guid isPermaLink="false">pro-jank-footy-2026-08-17</guid>
-      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Debuta con 59. Es un juego de fútbol australiano hecho por Powerbomb Games y Tinker Town, de Adelaida, que apuesta todo al absurdo: más de 150 mejoras que van deformando las reglas. Las notas lo dejan en terreno flojo, que es lo habitual cuando la gracia de un juego es el desorden y no la solidez de sus sistemas. — PRO JANK FOOTY para PS5 / XBOX / SWITCH 2 / SWITCH.</description>
-    </item>
-    <item>
-      <title>KINGDOM HEARTS IV SALE A FINES DE 2027</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">kingdom-hearts-iv-2027</guid>
-      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Square Enix puso fecha a Kingdom Hearts IV: finales de 2027, o sea fuera del alcance de este calendario por ahora. En el mismo anuncio se confirmó una serie de anime original de la saga. La colección de los juegos anteriores, esa sí, sigue en pie para el 8 de octubre.</description>
-    </item>
-    <item>
-      <title>SEGÚN NATETHEHATE, XBOX GUARDA UN ANUNCIO PARA LA GAMESCOM</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">xbox-anuncio-gamescom-2026</guid>
-      <pubDate>Sat, 15 Aug 2026 12:00:00 +0000</pubDate>
-      <description>El filtrador NateTheHate dijo que Xbox tendría listo «un anuncio genial» para la Gamescom, que va del 26 al 30 de agosto. No dio nombres: sólo que sería un juego nuevo de una licencia que ya es de Microsoft, que no es The Elder Scrolls VI ni un remaster de Fallout, que no es un shooter, y que lo estaría haciendo un estudio que hoy no le pertenece. Él mismo aclaró que todavía está tratando de confirmar si el anuncio llega a la feria. Lo confirmado por Xbox es otra cosa: 25 juegos en el evento, entre ellos Gears of War: E-Day, y dos emisiones propias.</description>
-    </item>
-    <item>
-      <title>MARVEL'S WOLVERINE: HABRÁ UNA PS5 EDICIÓN LIMITADA Y ACCESORIOS A JUEGO</title>
-      <link>https://lanzamientos.lat/juegos/marvels-wolverine</link>
-      <guid isPermaLink="false">marvels-wolverine-2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Sony anunció una consola PS5 de edición limitada del juego, junto con accesorios de la misma línea. Es la señal habitual de que el lanzamiento se trata como uno de los grandes del año para la plataforma. — MARVEL'S WOLVERINE para PS5.</description>
-    </item>
-    <item>
-      <title>PHANTOM BLADE ZERO: TIENE SU PROPIO STATE OF PLAY EL 17 DE AGOSTO</title>
-      <link>https://lanzamientos.lat/juegos/phantom-blade-zero</link>
-      <guid isPermaLink="false">phantom-blade-zero-2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Sony le dedica una presentación entera el 17 de agosto. Ya se abrieron las reservas y se publicó un tráiler de once minutos, así que lo del 17 debería traer fecha firme de todo lo que falta. — PHANTOM BLADE ZERO para PS5.</description>
     </item>
   </channel>
 </rss>

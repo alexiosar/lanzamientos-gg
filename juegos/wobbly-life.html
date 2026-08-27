@@ -43,6 +43,15 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -143,6 +152,16 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-26</span>
+            <span class="noticia-titulo">▸ LOS MENSUALES DE PS PLUS DE SEPTIEMBRE: SNIPER ELITE RESISTANCE Y TRES MÁS</span><span class="noticia-cat cat-suscripciones">SUSCRIPCIONES</span>
+          </div>
+          <p class="noticia-texto">Sony anunció los cuatro juegos mensuales de septiembre: Sniper Elite: Resistance en PS5 y PS4, MLB The Show 26 en PS5, Wobbly Life y Chained Echoes. Se pueden reclamar desde el martes 1 de septiembre hasta el lunes 5 de octubre, y una vez reclamados quedan mientras dure la suscripción. Ojo con la diferencia respecto del catálogo Extra y Deluxe, que es otra cosa: estos son los mensuales. Ninguno de los cuatro es un estreno, así que ninguno lleva el distintivo de PS Plus en el calendario. El único que se cruza con nuestra lista es Wobbly Life, pero por otro lado: la versión que entra a PS Plus es la de PlayStation, y la que figura acá es la de Switch 2, que salió el 20 de agosto.</p><a class="noticia-fuente" href="https://blog.latam.playstation.com/2026/08/26/juegos-mensuales-en-playstation-plus-de-septiembre-sniper-elite-resistence-mlb-the-show-26-wobbly-life-chained-echoes/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Un sandbox de mundo abierto donde todo se mueve por física y los personajes son muñecos de trapo. Se consiguen trabajos, se junta plata y se hace desastre, solo o en línea con amigos.</p>
