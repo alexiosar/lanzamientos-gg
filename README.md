@@ -422,8 +422,24 @@ La regla, en `_redirects`:
   portada. `doom-dark-ages` → `doom-the-dark-ages-revelations`, `granblue-fantasy-relink` →
   `granblue-fantasy-relink-endless-ragnarok`.
 
-Para encontrar los que faltan: `git log --diff-filter=D --name-only --pretty=format: -- 'juegos/*.html'`
-lista todas las fichas que existieron y ya no están.
+**Desde el 27/08/2026 el generador avisa solo.** Cuando borra una ficha, mira si `_redirects`
+la cubre, y si no, lo dice en el reporte diario. No puede no borrarla —el juego ya no está—
+pero puede no callarse, que es lo que fallaba: el borrado era silencioso.
+
+Ese silencio costó dos meses. El 23/06/2026, antes de que existiera esta regla, se sacaron
+del calendario cinco juegos de 2025 y sus fichas desaparecieron sin más: `gta-vi`,
+`mario-kart-world`, `metroid-prime-4`, `split-fiction` y `elden-ring-nightreign`. Google ya
+las tenía indexadas y las siguió pidiendo. **Las tres validaciones de "No se ha encontrado
+(404)" que se pidieron en agosto —el 7, el 16 y el 23— fallaron por esas cinco URLs**, y no
+había forma de darse cuenta mirando el sitio: las páginas que sí existen respondían bien.
+
+`gta-vi` era el caso caro: no se había ido del calendario, sólo cambió de id a
+`grand-theft-auto-vi`. Dos meses de 404 en la URL del juego más buscado que tiene el sitio.
+
+Para auditar el pasado, que es como se encontraron: comparar todos los ids que existieron
+alguna vez en el historial de `datos/juegos.js` contra las fichas de hoy y contra `_redirects`.
+`git log --diff-filter=D --name-only --pretty=format: -- 'juegos/*.html'` sirve para lo mismo
+si las fichas se borraron en un commit propio.
 
 ### Después de CUALQUIER cambio en datos/juegos.js
 

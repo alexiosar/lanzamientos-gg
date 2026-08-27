@@ -14,3 +14,14 @@
 /juegos/doom-dark-ages           /juegos/doom-the-dark-ages-revelations            301
 /juegos/granblue-fantasy-relink  /juegos/granblue-fantasy-relink-endless-ragnarok  301
 /juegos/sesame-street-friends-fun     /juegos/sesame-street-amigos-y-risas     301
+
+# Cinco fichas que se borraron el 23/06/2026, antes de que existiera la regla del redirect.
+# Google las tenía indexadas y las siguió pidiendo dos meses: son las que hacían fallar las
+# validaciones de "No se ha encontrado (404)" de agosto.
+# GTA VI sigue en el calendario, sólo cambió de id; las otras cuatro salieron de 2025 y ya no
+# están, así que van a la portada.
+/juegos/gta-vi                   /juegos/grand-theft-auto-vi   301
+/juegos/mario-kart-world         /                             301
+/juegos/metroid-prime-4          /                             301
+/juegos/split-fiction            /                             301
+/juegos/elden-ring-nightreign    /                             301

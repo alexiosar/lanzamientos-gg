@@ -641,13 +641,31 @@ def main():
         (destino / f'{j["id"]}.html').write_text(generar(j, juegos), encoding="utf-8")
         generadas += 1
     # limpiar fichas de juegos que ya no existen
+    #
+    # Y avisar si se van sin redirect. Borrar la ficha en silencio es como se perdieron
+    # cinco URLs el 23/06/2026 —gta-vi, mario-kart-world, metroid-prime-4, split-fiction y
+    # elden-ring-nightreign—: Google ya las tenía indexadas y siguió pidiéndolas durante dos
+    # meses. Las tres validaciones de "No se ha encontrado (404)" que se pidieron en agosto
+    # fallaron por esas cinco, y no había forma de darse cuenta mirando el sitio.
+    #
+    # El script no puede no borrarlas: el juego ya no está. Lo que sí puede es no callarse.
+    redirects = (RAIZ / "_redirects")
+    cubiertas = set(re.findall(r"^\s*(\S+)", redirects.read_text(encoding="utf-8"), re.M)) \
+        if redirects.exists() else set()
     ids = {j["id"] for j in juegos}
-    borradas = 0
+    borradas, sin_redirect = 0, []
     for f in destino.glob("*.html"):
         if f.stem != "juego" and f.stem not in ids:
             f.unlink()
             borradas += 1
+            if f"/juegos/{f.stem}" not in cubiertas:
+                sin_redirect.append(f.stem)
     print(f"{generadas} fichas generadas en juegos/ ({borradas} obsoletas borradas)")
+    for gid in sin_redirect:
+        print(f"  ⚠ /juegos/{gid} se borró y NO tiene redirect en _redirects: va a dar 404.")
+    if sin_redirect:
+        print("    Si el juego se renombró, apuntar a la ficha nueva; si se fue del")
+        print("    calendario, a la portada. Ver 'Si se borra o se renombra un juego' en el README.")
 
 
 if __name__ == "__main__":
