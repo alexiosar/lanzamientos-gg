@@ -57,7 +57,10 @@ function formaCaratula(url) {
   if (!url) return "";
   if (url.indexOf("header") !== -1) return " forma-apaisada";
   if (url.indexOf("nintendo") !== -1) return " forma-cuadrada";
-  return "";  // vertical: es el tamaño por defecto
+  // IGDB entrega 528x704, que es 3:4 y no el 2:3 de Steam. En una caja 2:3 sobra
+  // alto y la tapa queda flotando con un hueco abajo.
+  if (url.indexOf("images.igdb.com") !== -1) return " forma-tapa";
+  return "";  // vertical 2:3: es el tamaño por defecto
 }
 
 function claseMetacritic(n) {

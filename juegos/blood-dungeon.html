@@ -59,9 +59,15 @@
        cargue, o la ficha entera salta hacia abajo cuando llega (eso es CLS). Antes
        la clase .apaisada cambiaba el ancho recién en el onload, con lo cual el salto
        estaba garantizado por diseño. Ahora el hueco no cambia nunca y la carátula se
-       acomoda adentro con object-fit: contain, sea vertical u horizontal. */
-    .portada-page      { width: 200px; height: 220px; flex-shrink: 0; border: 1px solid var(--gris-3);
+       acomoda adentro con object-fit: contain, sea vertical u horizontal.
+       El 26/08/2026 la caja pasó de 200x220 a 200x300: 220 era el promedio de cuando
+       convivían tres formas, y con el 98% del calendario ya vertical le sobraba ancho y le
+       faltaba alto, así que la tapa salía chica y flotando en el medio del hueco. */
+    .portada-page      { width: 200px; height: 300px; flex-shrink: 0; border: 1px solid var(--gris-3);
                          background: var(--gris-1); object-fit: contain; display: block; }
+    /* Las de IGDB son 3:4 y no 2:3: en la caja de 300 quedaban con un hueco abajo. La forma
+       se sabe por la URL, así que el alto se puede reservar sin haber cargado la imagen. */
+    .portada-page.forma-tapa { height: 267px; }
     .video-wrapper     { position: relative; padding-bottom: 56.25%; height: 0; border: 1px solid var(--gris-3); background: var(--negro); }
     .video-wrapper iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
     .volver            { display: inline-block; font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
@@ -73,7 +79,8 @@
     .rel-item          { display: flex; gap: 0.6rem; align-items: center; padding: 5px; border: 1px solid transparent; color: inherit; min-width: 0; }
     .rel-item:hover    { border-color: var(--acento); background: rgba(160,160,255,0.05); }
     .rel-item:hover .rel-titulo { color: var(--acento); }
-    .rel-portada       { width: 44px; height: 44px; object-fit: cover; border: 1px solid var(--gris-3); background: var(--gris-1); flex-shrink: 0; display: block; }
+    /* Vertical como las de las listas: recortada a un cuadrado no se reconoce el juego. */
+    .rel-portada       { width: 44px; height: 66px; object-fit: cover; border: 1px solid var(--gris-3); background: var(--gris-1); flex-shrink: 0; display: block; }
     .rel-info          { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
     .rel-titulo        { color: var(--blanco); font-size: 0.75rem; letter-spacing: 0.5px; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
     .rel-fecha         { color: var(--gris-5); font-size: 0.6875rem; letter-spacing: 1px; }
@@ -111,7 +118,7 @@
       </div>
 
       <div class="juego-hero">
-        <img class="portada-page" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6nb.jpg" alt="Portada de BLOOD DUNGEON" loading="lazy" onerror="this.outerHTML='<span class=&quot;portada-page portada-vacia&quot;></span>'">
+        <img class="portada-page forma-tapa" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6nb.jpg" alt="Portada de BLOOD DUNGEON" loading="lazy" onerror="this.outerHTML='<span class=&quot;portada-page portada-vacia&quot;></span>'">
         <div class="juego-hero-info">
           <h1 class="juego-titulo-page">BLOOD DUNGEON</h1>
           <p class="juego-dev-page">MESSHOF</p>

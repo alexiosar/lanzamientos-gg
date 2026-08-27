@@ -22,6 +22,8 @@
   --gris-7: #999999;
   --amarillo: #ffcc00;
   --font: 'Space Mono', monospace;
+  /* Ancho de la miniatura de las listas; el alto es 1.5 veces esto (2:3). */
+  --mini: 64px;
 }
 
 /* ── JERARQUÍA TIPOGRÁFICA ──
@@ -403,9 +405,14 @@ a:hover { color: var(--blanco); }
   align-items: flex-start;
 }
 
+/* La altura tiene que estar reservada ANTES de que cargue la imagen o la ficha salta
+   (eso es CLS), así que no puede salir de la imagen: sale de la URL, que ya dice de qué
+   fuente viene y por lo tanto qué forma tiene. */
+.ficha-portada.forma-tapa { height: 267px; }
+
 .ficha-portada {
   width: 200px;
-  height: 220px;
+  height: 300px;
   flex-shrink: 0;
   border: 1px solid var(--gris-3);
   background: var(--gris-1);
@@ -663,9 +670,11 @@ a:hover { color: var(--blanco); }
   color: inherit;
 }
 
+/* 2:3, que es la forma de las 251 carátulas de Steam y SteamGridDB. El 3/4 anterior era
+   un promedio entre formas que ya no conviven: les recortaba arriba y abajo a todas. */
 .grilla-marco {
   position: relative;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 2 / 3;
   border: 1px solid var(--gris-3);
   background: var(--gris-1);
   overflow: hidden;
@@ -757,10 +766,16 @@ a:hover { color: var(--blanco); }
   letter-spacing: 1px;
 }
 
-/* ── MINIATURAS EN LISTAS ── */
+/* ── MINIATURAS EN LISTAS ──
+   Eran cuadradas de 52px, de cuando las carátulas venían de tres formas distintas y el
+   cuadrado era el mínimo común denominador. Recortar un arte de tapa a un cuadrado le come
+   los costados y deja el centro: el logo del juego, que es lo que se reconoce de lejos,
+   quedaba partido. Desde que el 98% del calendario es vertical (26/08/2026) la miniatura
+   puede tener la forma de la caja, y con la forma correcta se reconoce el juego sin leer.
+   El ancho manda y el alto sale de él: una sola medida para tocar. */
 .mini-portada {
-  width: 52px;
-  height: 52px;
+  width: var(--mini);
+  height: calc(var(--mini) * 1.5);
   object-fit: cover;
   border: 1px solid var(--gris-3);
   background: var(--gris-1);
@@ -803,6 +818,7 @@ a:hover { color: var(--blanco); }
    sigue recortando, que es lo que mantiene esas cuadrículas parejas. */
 .destacado-portada.forma-apaisada { width: 260px; height: 122px; }
 .destacado-portada.forma-cuadrada { width: 180px; height: 180px; }
+.destacado-portada.forma-tapa     { width: 158px; height: 210px; }
 
 .destacado-info {
   display: flex;
@@ -1013,7 +1029,8 @@ a:hover { color: var(--blanco); }
   .ficha-titulo { font-size: 0.8125rem; }
   .juego-nombre { font-size: 0.75rem; }
   .ficha-cuerpo { flex-direction: column; }
-  .ficha-portada { width: 100px; }
+  .ficha-portada { width: 100px; height: 150px; }
+  .ficha-portada.forma-tapa { height: 133px; }
 
   /* objetivos táctiles más grandes en pantallas chicas */
   .filtro-btn { padding: 10px 14px; }
@@ -1037,7 +1054,7 @@ a:hover { color: var(--blanco); }
 
   .juego-fila {
     display: grid;
-    grid-template-columns: 52px 1fr;
+    grid-template-columns: var(--mini) 1fr;
     column-gap: 0.75rem;
     row-gap: 0.35rem;
     align-items: center;
@@ -1067,12 +1084,13 @@ a:hover { color: var(--blanco); }
   }
 
   .destacado-portada.forma-cuadrada { width: 130px; height: 130px; }
+  .destacado-portada.forma-tapa     { width: 124px; height: 165px; }
   .juego-fila > .plataformas  { grid-column: 2; grid-row: 2; }
 
   /* La de próximos suma la fecha, que va arriba junto al nombre. */
   .proximos-fila {
     display: grid;
-    grid-template-columns: 52px auto 1fr;
+    grid-template-columns: var(--mini) auto 1fr;
     column-gap: 0.75rem;
     row-gap: 0.35rem;
     align-items: center;
@@ -1088,7 +1106,7 @@ a:hover { color: var(--blanco); }
      roba ancho a la columna de texto. */
   .ranking-fila {
     display: grid;
-    grid-template-columns: auto 52px 1fr auto;
+    grid-template-columns: auto var(--mini) 1fr auto;
     column-gap: 0.6rem;
     row-gap: 0.35rem;
     align-items: center;
@@ -1138,7 +1156,7 @@ a:hover { color: var(--blanco); }
 .mini-vacia::before    { font-size: 1.125rem; }
 .portada-vacia::before { font-size: 3rem; }
 
-/* En la grilla y en la ficha entra además el texto; en la miniatura de 52px no. */
+/* En la grilla y en la ficha entra además el texto; en la miniatura no. */
 .grilla-vacia::after,
 .portada-vacia::after {
   content: "SIN CARÁTULA";
