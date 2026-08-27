@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 27 Aug 2026 17:54:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 22:22:10 +0000</lastBuildDate>
     <item>
       <title>BRIGANDINE: ABYSS: DEBUTA CON 71</title>
       <link>https://lanzamientos.lat/juegos/brigandine-abyss</link>
@@ -34,6 +34,13 @@
       <guid isPermaLink="false">metal-gear-solid-master-collection-vol-2-2026-08-27</guid>
       <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
       <description>El puntaje se explica casi entero por una razón que aparece en todas las reseñas: Metal Gear Solid 4 dejó de ser exclusivo de PS3 después de dieciocho años. Peace Walker y Ghost Babel completan el paquete. Las críticas apuntan al continente y no al contenido: menos juegos que el Vol. 1 y ningún menú común entre ellos. — METAL GEAR SOLID: MASTER COLLECTION VOL. 2 para PS5 / XBOX / SWITCH 2 / SWITCH.</description>
+    </item>
+    <item>
+      <title>GRAND THEFT AUTO VI: UNA MIRADA EXTENDIDA SE ESTRENÓ EN NETFLIX, NO EN YOUTUBE</title>
+      <link>https://lanzamientos.lat/juegos/grand-theft-auto-vi</link>
+      <guid isPermaLink="false">grand-theft-auto-vi-2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Rockstar estrenó hoy Grand Theft Auto VI: Una mirada extendida, y eligió Netflix para hacerlo: al canal oficial de YouTube y al sitio del juego llega recién esta noche, a las 22 de Argentina. Está capturado enteramente con imágenes del juego corriendo en PS5, un detalle que Rockstar remarca en el anuncio. La fecha de salida no se movió: sigue el 19 de noviembre en PS5 y Xbox Series X|S. — GRAND THEFT AUTO VI para PS5 / XBOX.</description>
     </item>
     <item>
       <title>BLOOD DUNGEON: DEBUTA CON 77 Y ENTRÓ A GAME PASS EL DÍA UNO</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">marvel-tokon-rocket-datamining</guid>
       <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>El usuario Neoxon publicó en ResetEra capturas del código de la versión de PC de Marvel Tōkon: Fighting Souls. Según ese hallazgo, una línea de diálogo de Kamala Khan trataría a Rocket como «futuro DLC», y aparecerían además trajes «Legacy» y «Classic» para Hulk, Spider-Man, Green Goblin y Doctor Doom, más código de un pase de batalla que el juego hoy no tiene. Arc System Works no confirmó nada de esto, y que algo esté en los archivos no quiere decir que llegue: puede ser contenido descartado o provisional. Lo que sí es oficial es que el juego suma cuatro personajes descargables hasta septiembre de 2027, con Phoenix y Cíclope ya anunciados.</description>
-    </item>
-    <item>
-      <title>VERHO: CURSE OF FACES: 68 DE DEBUT PARA UN HOMENAJE A KING'S FIELD</title>
-      <link>https://lanzamientos.lat/juegos/verho-curse-of-faces</link>
-      <guid isPermaLink="false">verho-curse-of-faces-2026-08-17</guid>
-      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Un RPG de acción en primera persona que copia deliberadamente el aire de los King's Field de PlayStation: polígonos toscos, texturas manchadas y niveles muy verticales. Las reseñas coinciden en que el homenaje está logrado —dicen que se ve, suena y se siente como un King's Field— y el reparo es que quien no tenga esa nostalgia encima va a encontrar el resultado directamente anticuado. Cuesta 24,99 dólares. — VERHO: CURSE OF FACES para SWITCH / XBOX / PS5.</description>
     </item>
   </channel>
 </rss>
