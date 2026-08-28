@@ -3073,6 +3073,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/AKXiKBnzpBQ",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-28",
+        titulo: "ELDEN RING LLEGA A SWITCH 2",
+        texto: "Cuatro años después de su estreno en PS5, PS4, Xbox y PC, Elden Ring llega hoy a Switch 2. Todavía no tiene puntaje propio de esta versión en Metacritic: cuando lo tenga va a aparecer en la ficha, porque los puntajes de un port se cargan aparte y no se heredan del original."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -3087,8 +3094,16 @@ const JUEGOS = [
     descripcion: "¡Ya está aquí el nuevo capítulo de la cautivadora aventura de Tsubasa! Disfruta de una acción futbolística espectacular con 110 personajes disponibles y nuevos supermovimientos alucinantes. Desafía a amigos en el campo o apoya a Tsubasa en su viaje. ¡El balón es tu amigo!",
     trailer: "https://youtube.com/embed/S8ESe_ZsDsQ",
     metacritic: 76,
+    critica: "El acuerdo entre las reseñas es que no hay que medirlo como un juego de fútbol sino como uno de peleas con once por lado —una lo define como Tekken de a once— y que con esa vara funciona muy bien. Es una secuela que mejora a la anterior: el modo historia cubre entero el arco del Mundial Juvenil y los sistemas nuevos le dan más profundidad a los remates especiales. Lo que se repite en contra es el ritmo, porque las interrupciones constantes cortan los partidos, y la cantidad de técnicas, que empina la curva de aprendizaje. Para el que creció con Supercampeones, hay acuerdo en que el espectáculo de la serie está bien capturado.",
     metacriticUsuarios: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobfsb.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-28",
+        titulo: "SALE CON 76 EN METACRITIC",
+        texto: "La prensa lo recibe como una secuela que corrige lo que hacía falta corregir: más contenido, más profundidad en los remates especiales y un modo historia que cubre entero el arco del Mundial Juvenil. El reparo que más se repite es el ritmo, porque los partidos se cortan seguido."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"

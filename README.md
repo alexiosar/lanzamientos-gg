@@ -761,7 +761,7 @@ en este archivo y en la sección "Fuentes de datos habituales".
    |---|---|
    | [blog.latam.playstation.com](https://blog.latam.playstation.com/) | PS Plus, fechas nuevas de PS5, informes de jugabilidad. Es oficial y está en español. |
    | [news.xbox.com](https://news.xbox.com/es-mx/) | Game Pass y anuncios de Xbox. |
-   | [Gematsu](https://www.gematsu.com/) | **Retrasos y fechas nuevas de consola.** Es el que primero los levanta, y son justo el material que le falta a `datos/noticias.js`. |
+   | [Gematsu](https://www.gematsu.com/) | **Retrasos y fechas nuevas de consola.** Es el que primero los levanta, y son justo el material que le falta a `datos/noticias.js`. **Usar el feed, no la página:** `https://www.gematsu.com/feed` con `curl`. La portada está detrás de una verificación anti-bot que el 27 y el 28/08/2026 no dejó pasar al navegador, y esa no se saltea. El feed responde 200, trae las 20 últimas con fecha y es más cómodo de leer. |
    | [nintendo.com/us/nintendo-direct](https://www.nintendo.com/us/nintendo-direct/) | Directs y sus anuncios. |
    | [Vandal](https://vandal.elespanol.com/) y [3DJuegos](https://www.3djuegos.com/) | **Radar, no fuente de verdad.** Cubren mucho más que las anteriores, en español y con el criterio de qué le importa al público hispanohablante: rumores, ediciones, coberturas que Gematsu no toca por su sesgo japonés. |
 

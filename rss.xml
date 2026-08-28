@@ -6,7 +6,21 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 28 Aug 2026 13:17:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 13:43:18 +0000</lastBuildDate>
+    <item>
+      <title>ELDEN RING: ELDEN RING LLEGA A SWITCH 2</title>
+      <link>https://lanzamientos.lat/juegos/elden-ring-switch-2</link>
+      <guid isPermaLink="false">elden-ring-switch-2-2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Cuatro años después de su estreno en PS5, PS4, Xbox y PC, Elden Ring llega hoy a Switch 2. Todavía no tiene puntaje propio de esta versión en Metacritic: cuando lo tenga va a aparecer en la ficha, porque los puntajes de un port se cargan aparte y no se heredan del original. — ELDEN RING para SWITCH 2.</description>
+    </item>
+    <item>
+      <title>CAPTAIN TSUBASA 2: WORLD FIGHTERS: SALE CON 76 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/captain-tsubasa-2-world-fighters</link>
+      <guid isPermaLink="false">captain-tsubasa-2-world-fighters-2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+      <description>La prensa lo recibe como una secuela que corrige lo que hacía falta corregir: más contenido, más profundidad en los remates especiales y un modo historia que cubre entero el arco del Mundial Juvenil. El reparo que más se repite es el ritmo, porque los partidos se cortan seguido. — CAPTAIN TSUBASA 2: WORLD FIGHTERS para PS5 / XBOX / SWITCH.</description>
+    </item>
     <item>
       <title>BRIGANDINE: ABYSS: DEBUTA CON 71</title>
       <link>https://lanzamientos.lat/juegos/brigandine-abyss</link>
@@ -272,20 +286,6 @@
       <guid isPermaLink="false">starsand-island-2026-08-18</guid>
       <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>Un simulador de granja y vida rural al estilo de los clásicos del género, que ya llevaba medio año en PC. La nota lo deja en el pelotón: cumple con lo que promete sin destacarse entre la enorme cantidad de juegos parecidos que salieron los últimos años. — STARSAND ISLAND para PS5 / SWITCH / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>GAME PASS CIERRA AGOSTO CON TRES ESTRENOS EL DÍA UNO</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">game-pass-segunda-quincena-agosto-2026</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Microsoft anunció la segunda tanda del mes. Tres de los que llegan están en el calendario y entran al servicio el mismo día que salen: Vapor World: Over the Mind, hoy, aunque en formato Game Preview y no como versión terminada; Blood Dungeon el 25, lo nuevo de los creadores de Nidhogg; y Resonance: A Plague Tale Legacy el 27. Starsand Island también se suma, el 20, pero salió el 18, así que no lleva el distintivo de estreno en el servicio. El resto de la tanda son juegos que ya existían.</description>
-    </item>
-    <item>
-      <title>UN DATAMINING APUNTA A ROCKET RACCOON COMO DLC DE MARVEL TŌKON</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">marvel-tokon-rocket-datamining</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-      <description>El usuario Neoxon publicó en ResetEra capturas del código de la versión de PC de Marvel Tōkon: Fighting Souls. Según ese hallazgo, una línea de diálogo de Kamala Khan trataría a Rocket como «futuro DLC», y aparecerían además trajes «Legacy» y «Classic» para Hulk, Spider-Man, Green Goblin y Doctor Doom, más código de un pase de batalla que el juego hoy no tiene. Arc System Works no confirmó nada de esto, y que algo esté en los archivos no quiere decir que llegue: puede ser contenido descartado o provisional. Lo que sí es oficial es que el juego suma cuatro personajes descargables hasta septiembre de 2027, con Phoenix y Cíclope ya anunciados.</description>
     </item>
   </channel>
 </rss>
