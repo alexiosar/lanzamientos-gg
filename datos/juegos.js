@@ -513,8 +513,8 @@ const JUEGOS = [
     descripcion: "Juega a la ruleta rusa con un arma del calibre 12. Cuatro entran. Uno sale. Apuesta tu vida para tirar los dados. Buena suerte. El fenómeno indie de terror llega a consolas Xbox con modo multijugador para hasta 4 jugadores.",
     trailer: "https://youtube.com/embed/epucEJY8Auo",
     metacritic: 85,
-    metacriticUsuarios: 7.5,
-    metacriticVotos: 288,
+    metacriticUsuarios: 7.6,
+    metacriticVotos: 289,
     critica: "Las reseñas son de la versión de PC de 2024. La prensa coincide en lo mismo con una regularidad llamativa: la idea —una ruleta rusa con escopeta contra un tipo que reparte— es tan buena que sostiene el juego sola, y la atmósfera hace el resto. Los reparos también son unánimes y son de tamaño: es cortísimo, se agota rápido, y hay quienes sienten que la suerte pesa más que la estrategia. Casi todas las notas terminan diciendo lo mismo, que querrían un diez por ciento más de juego.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835570/library_600x900.jpg",
     noticias: [
@@ -539,7 +539,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1157,
+    metacriticVotos: 1160,
     critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://cdn2.steamgriddb.com/grid/a9f7e2af063303f02fd5d479c8816c79.png",
     noticias: [
@@ -777,7 +777,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/M84RSkUXe0U",
     metacritic: 78,
     metacriticUsuarios: 7.3,
-    metacriticVotos: 232,
+    metacriticVotos: 233,
     critica: "Las reseñas de la versión 1.0 coinciden en que es otro juego que el del acceso anticipado: misiones rehechas, mapa más grande y un final de partida que antes no existía. Lo que elogian es la mezcla de supervivencia y criaturas, y lo sostenido que fue el estudio con las actualizaciones. Los reparos también se repiten: sigue habiendo aspereza técnica y el bucle de juego es implacable, con más grind del que algunos aguantan.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900.jpg",
     noticias: [
@@ -1107,8 +1107,8 @@ const JUEGOS = [
     descripcion: "Un asesinato imposible en un cuarto cerrado: el cuerpo inerte del Capitán Mortuga yace ante un caldero en un extraño submarino lleno de sospechosos. Una aventura de apuntar y clic hecha a mano, plagada de humor y rompecabezas, protagonizada por el Detective Grimoire y su compañera Sally. Resuelve este misterio de los creadores de Tangle Tower y Crow Country.",
     trailer: "https://youtube.com/embed/ljJMXZUEiT8",
     metacritic: 85,
-    metacriticUsuarios: 7.5,
-    metacriticVotos: 17,
+    metacriticUsuarios: 7.6,
+    metacriticVotos: 18,
     critica: "Las reseñas coinciden en que es lo mejor que hizo la serie de Detective Grimoire, incluso por encima de Tangle Tower. Los elogios se reparten parejo: el guion y su humor, el elenco de voces, el arte y unos puzzles que respetan al que los juega. Los reparos son dos y aparecen repetidos: el sistema de porcentaje de avance empuja a rastrillar la pantalla buscando lo que falta, y el ritmo se afloja en el capítulo final.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1696770/library_600x900.jpg",
     noticias: [
@@ -1523,7 +1523,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 81,
     metacriticUsuarios: 9.3,
-    metacriticVotos: 1872,
+    metacriticVotos: 1881,
     critica: "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
     imagen: "https://cdn2.steamgriddb.com/grid/1812e589a2ad581bd076820f05965824.png",
     noticias: [
@@ -1782,7 +1782,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 80,
     metacriticUsuarios: 5.8,
-    metacriticVotos: 664,
+    metacriticVotos: 666,
     critica: "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
     imagen: "https://cdn2.steamgriddb.com/grid/9e00a3de909a5e4ada9324bc7aa1fea2.png",
     noticias: [
@@ -2309,7 +2309,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/3dw0ePZ8GLc",
     metacritic: 73,
     metacriticUsuarios: 6.1,
-    metacriticVotos: 348,
+    metacriticVotos: 349,
     critica: "Es el más discutido de los que tenemos cargados y viene de Game Freak, los de Pokémon, lo que explica parte del ruido. El acuerdo está en el combate y en la relación entre Emma y Kuu, que casi todas las reseñas rescatan. El desacuerdo está en todo lo demás: para la mitad hay un mundo vacío, una historia que no arranca y problemas gráficos, y las notas más duras dicen que no es un renacimiento creativo sino un juego armado imitando a otros mejores. Los jefes se llevan los elogios más consistentes.",
     imagen: "https://cdn2.steamgriddb.com/grid/b1f3099dbc42710895ab03cd265badac.jpg",
     noticias: [
@@ -2339,7 +2339,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/xfzapBQssa0",
     metacritic: 91,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 261,
+    metacriticVotos: 263,
     critica: "El acuerdo es casi total: lo que hace especial a Big Walk no son sus puzzles sino las conversaciones que obliga a tener. Casi todas las reseñas cuentan lo mismo, que los mejores momentos son los que el juego no programó, los que salen de coordinarse mal con un amigo, y varias lo emparentan con Untitled Goose Game, del mismo estudio. El reparo, cuando aparece, es el ritmo: la isla es grande y hay tramos largos donde no pasa nada, algo que se siente más de a dos que en grupo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
     noticias: [
@@ -3086,7 +3086,8 @@ const JUEGOS = [
     desarrollador: "TAMSOFT CORPORATION",
     descripcion: "¡Ya está aquí el nuevo capítulo de la cautivadora aventura de Tsubasa! Disfruta de una acción futbolística espectacular con 110 personajes disponibles y nuevos supermovimientos alucinantes. Desafía a amigos en el campo o apoya a Tsubasa en su viaje. ¡El balón es tu amigo!",
     trailer: "https://youtube.com/embed/S8ESe_ZsDsQ",
-    metacritic: null,
+    metacritic: 76,
+    metacriticUsuarios: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobfsb.jpg",
     gamepass: false,
     psplus: false,
@@ -4217,7 +4218,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/jK0cGKMDMPE",
     metacritic: 87,
     metacriticUsuarios: 8.8,
-    metacriticVotos: 2728,
+    metacriticVotos: 2729,
     critica: "Es el juego con el que la prensa da por vuelto el género narrativo que dejó Telltale: la dirección, las actuaciones y los personajes se llevan los elogios en casi todas las reseñas. Los reparos son de estructura, no de ejecución: hay decisiones que no cambian nada, los mejores personajes aparecen poco y el final deja a varios con gusto a poco. De ahí salen las notas más bajas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
     noticias: [
@@ -5256,14 +5257,14 @@ const JUEGOS = [
     genero: ["ACCION", "AVENTURA", "MUNDO ABIERTO"],
     desarrollador: "ROCKSTAR GAMES",
     descripcion: "El regreso de Rockstar a Vice City: Lucia y su compañero protagonizan la nueva entrega de la saga más influyente del mundo abierto, en un estado de Leonida inspirado en la Florida moderna. Tras dos retrasos, Rockstar confirmó el 19 de noviembre como fecha definitiva, exclusivo de PS5 y Xbox Series X|S en su estreno (la versión de PC todavía no fue anunciada).",
-    trailer: "https://youtube.com/embed/QdBZY2fkU-0",
+    trailer: "https://youtube.com/embed/tJbzMqJGH4k",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/a55e72542860596de2ef8c0d847b6f03.png",
     noticias: [
       {
         fecha: "2026-08-27",
         titulo: "UNA MIRADA EXTENDIDA SE ESTRENÓ EN NETFLIX, NO EN YOUTUBE",
-        texto: "Rockstar estrenó hoy Grand Theft Auto VI: Una mirada extendida, y eligió Netflix para hacerlo: al canal oficial de YouTube y al sitio del juego llega recién esta noche, a las 22 de Argentina. Está capturado enteramente con imágenes del juego corriendo en PS5, un detalle que Rockstar remarca en el anuncio. La fecha de salida no se movió: sigue el 19 de noviembre en PS5 y Xbox Series X|S."
+        texto: "Rockstar estrenó hoy Grand Theft Auto VI: Una mirada extendida, y eligió Netflix para estrenarlo: al canal oficial de YouTube y al sitio del juego llegó unas horas después, esa misma noche. Está capturado enteramente con imágenes del juego corriendo en PS5, un detalle que Rockstar remarca en el anuncio. La fecha de salida no se movió: sigue el 19 de noviembre en PS5 y Xbox Series X|S."
       },
       {
         fecha: "2026-06-25",
