@@ -41,9 +41,29 @@ MIN_VOTOS = 20
 
 
 def metascore(html):
-    """El puntaje de crítica que muestra la página, para verificar que es el juego."""
-    m = re.search(r'title="Metascore (\d+) out of 100"', html)
-    return int(m.group(1)) if m else None
+    """El puntaje de crítica que muestra la página, para verificar que es el juego.
+
+    Anclado al marcador propio del juego y no a la primera aparición del atributo. La página
+    trae unas 24 apariciones de `title="Metascore N out of 100"`: la del juego y las de los
+    carruseles de recomendados, ordenadas de mayor a menor. Cuando el juego TIENE puntaje la
+    suya va primera y las dos lecturas coinciden, pero cuando dice "Metascore TBD" —todavía
+    sin reseñas suficientes— la primera aparición es la del carrusel. Así, el 28/08/2026,
+    Grounded 2 parecía tener 93 y Dungeon Antiqua 95, que eran los primeros de sus listas de
+    recomendados. Ninguno de los dos tiene puntaje.
+
+    Importa porque este valor no sólo verifica: también reescribe `metacritic` cuando cambió.
+    Un juego nuestro que pase a TBD en Metacritic se habría llevado el puntaje de otro.
+    """
+    i = html.find('data-testid="global-score"')
+    if i == -1:
+        return None
+    # La PRIMERA aparición después del ancla, aceptando "TBD" como valor: si sólo se
+    # buscaran dígitos, un "Metascore TBD" no matchea y la búsqueda sigue de largo hasta
+    # el primer número del carrusel, que es el error que se quería evitar.
+    m = re.search(r'title="Metascore (TBD|\d+)', html[i:i + 600])
+    if not m or m.group(1) == "TBD":
+        return None
+    return int(m.group(1))
 
 
 def votos_usuarios(html):

@@ -915,6 +915,13 @@ categoría `SUSCRIPCIONES`.
 
    Si un juego que releases.com anuncia para una fecha no está en esa lista, no se carga.
 
+   **Y no inventar la URL de la carátula.** Con el appid a mano da tentación armar
+   `.../apps/<appid>/library_600x900.jpg` de memoria, pero muchos juegos no tienen la
+   vertical y esa URL da 404. El 28/08/2026 cayeron así cuatro de ocho juegos nuevos
+   —Flamecraft, Train Sim World 7, Graveyard Keeper 2 y Transport Fever 3—. Las agarró
+   `verificar-enlaces.py` antes del deploy, pero el camino corto es dejar `imagen: null`
+   y correr `caratulas-igdb.py`, que las busca donde sí existen.
+
    **Y parte lanzamientos en dos.** Octopath Traveler y Octopath Traveler II figuraban como dos
    juegos distintos el 1 de octubre; la eShop muestra un solo producto, el bundle de los dos,
    que ya teníamos cargado. Lo mismo con Dragon's Dogma 2, que es Dragon's Dogma 2: Dark Arisen.

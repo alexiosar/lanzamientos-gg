@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-28T15:02:03+00:00",
+ "generado": "2026-08-28T17:18:05+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 360,
+ "total": 368,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -2147,7 +2147,7 @@
    "trailer": "https://youtube.com/embed/9CV1BS3tkmQ",
    "metacritic": 81,
    "metacriticUsuarios": 9.3,
-   "metacriticVotos": 1881,
+   "metacriticVotos": 1882,
    "critica": "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
    "imagen": "https://cdn2.steamgriddb.com/grid/1812e589a2ad581bd076820f05965824.png",
    "gamepass": false,
@@ -5922,7 +5922,7 @@
    "trailer": "https://youtube.com/embed/jK0cGKMDMPE",
    "metacritic": 87,
    "metacriticUsuarios": 8.8,
-   "metacriticVotos": 2729,
+   "metacriticVotos": 2730,
    "critica": "Es el juego con el que la prensa da por vuelto el género narrativo que dejó Telltale: la dirección, las actuaciones y los personajes se llevan los elogios en casi todas las reseñas. Los reparos son de estructura, no de ejecución: hay decisiones que no cambian nada, los mejores personajes aparecen poco y el final deja a varios con gusto a poco. De ahí salen las notas más bajas.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
    "gamepass": false,
@@ -9926,6 +9926,186 @@
      "texto": "Desde hoy está disponible en Xbox como Game Preview, incluido en Game Pass Ultimate, a 14,99 dólares para el que lo quiera comprar. La fecha del calendario es la de la versión terminada, que todavía no tiene día confirmado."
     }
    ]
+  },
+  {
+   "id": "fountains",
+   "titulo": "FOUNTAINS",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH",
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG"
+   ],
+   "desarrollador": "JOHN PYWELL",
+   "descripcion": "Un mundo antiguo e interconectado que se descubre peleando: el combate exige precisión y cada zona nueva se gana a pulso. Es la obra de un solo desarrollador, John Pywell, con años de trabajo encima.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1841240/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/fountains"
+  },
+  {
+   "id": "flamecraft",
+   "titulo": "FLAMECRAFT",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "TABLERO",
+    "ESTRATEGIA",
+    "CASUAL"
+   ],
+   "desarrollador": "MONSTER COUCH",
+   "descripcion": "La adaptación del juego de mesa de Manny Vega, para uno a cinco jugadores. Sos guardallamas y tenés que encontrarles el local ideal a los dragones artesanos, que encantan las tiendas del pueblo. Amable, corto y de reglas simples.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9sh0.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/flamecraft"
+  },
+  {
+   "id": "au-revoir",
+   "titulo": "AU REVOIR",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE"
+   ],
+   "desarrollador": "INVISIBLE STUDIO",
+   "descripcion": "Año 2071: Tristan recupera conciencias humanas resolviendo puzles. Un mundo neón-noir de estética low poly noventosa, donde lo que se investiga en cada entorno cambia el final.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079600/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/au-revoir"
+  },
+  {
+   "id": "the-witcher-3-wild-hunt-remastered",
+   "titulo": "THE WITCHER 3: WILD HUNT — REMASTERED",
+   "relanzamiento": "El original salió en 2015 para PS4, Xbox One y PC — esta fecha corresponde a la edición remasterizada de Switch 2",
+   "fecha": "2026-09-29",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "MUNDO ABIERTO",
+    "ACCION"
+   ],
+   "desarrollador": "CD PROJEKT RED",
+   "descripcion": "La remasterización de uno de los RPG de mundo abierto más premiados de la década llega a Switch 2. Geralt de Rivia, el Continente entero y las dos expansiones grandes, Hearts of Stone y Blood and Wine.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocrjd.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/the-witcher-3-wild-hunt-remastered"
+  },
+  {
+   "id": "train-sim-world-7",
+   "titulo": "TRAIN SIM WORLD 7",
+   "fecha": "2026-09-15",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION"
+   ],
+   "desarrollador": "DOVETAIL GAMES",
+   "descripcion": "La entrega anual del simulador de trenes de Dovetail. Rutas reales licenciadas, cabinas modeladas al detalle y la opción de manejar en serio o simplemente pasear mirando el paisaje.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocrgl.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/train-sim-world-7"
+  },
+  {
+   "id": "graveyard-keeper-2",
+   "titulo": "GRAVEYARD KEEPER 2",
+   "fecha": "2026-09-22",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "AVENTURA",
+    "RPG"
+   ],
+   "desarrollador": "LAZY BEAR GAMES",
+   "descripcion": "La secuela del simulador de cementerios medievales menos realista que hay. Se restaura la villa, se gestiona el cementerio, se automatiza la producción y se manda a los muertos vivientes al combate para sacarle provecho al brote de zombis.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobwhy.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/graveyard-keeper-2"
+  },
+  {
+   "id": "transport-fever-3",
+   "titulo": "TRANSPORT FEVER 3",
+   "fecha": "2026-09-29",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "URBAN GAMES",
+   "descripcion": "Más de un siglo de transporte por tierra, mar y aire para armar la red de tus sueños. La tercera entrega es más grande y más profunda, con economía dinámica y mapas que cambian a medida que crecen las ciudades.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9u3u.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/transport-fever-3"
+  },
+  {
+   "id": "deep-dish-dungeon",
+   "titulo": "DEEP DISH DUNGEON",
+   "fecha": "2026-10-13",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "PLATAFORMA"
+   ],
+   "desarrollador": "BEHOLD STUDIOS",
+   "descripcion": "Exploración y supervivencia en una mazmorra hecha a mano, con puzles, fabricación y estructura de metroidvania. Se puede jugar solo o en cooperativo en línea.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/deep-dish-dungeon"
   }
  ]
 }

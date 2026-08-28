@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-28T15:02:03+00:00",
+ "generado": "2026-08-28T17:18:05+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-28",
  "hasta": "2026-09-27",
- "total": 82,
+ "total": 87,
  "juegos": [
   {
    "id": "elden-ring-switch-2",
@@ -1072,6 +1072,27 @@
    "url": "https://lanzamientos.lat/juegos/tcg-card-shop-simulator"
   },
   {
+   "id": "train-sim-world-7",
+   "titulo": "TRAIN SIM WORLD 7",
+   "fecha": "2026-09-15",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION"
+   ],
+   "desarrollador": "DOVETAIL GAMES",
+   "descripcion": "La entrega anual del simulador de trenes de Dovetail. Rutas reales licenciadas, cabinas modeladas al detalle y la opción de manejar en serio o simplemente pasear mirando el paisaje.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocrgl.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/train-sim-world-7"
+  },
+  {
    "id": "gladio-mori",
    "titulo": "GLADIO MORI",
    "relanzamiento": "En PC, en acceso anticipado, desde noviembre de 2024",
@@ -1533,6 +1554,75 @@
    "url": "https://lanzamientos.lat/juegos/patlabor-the-case-files"
   },
   {
+   "id": "fountains",
+   "titulo": "FOUNTAINS",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH",
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG"
+   ],
+   "desarrollador": "JOHN PYWELL",
+   "descripcion": "Un mundo antiguo e interconectado que se descubre peleando: el combate exige precisión y cada zona nueva se gana a pulso. Es la obra de un solo desarrollador, John Pywell, con años de trabajo encima.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1841240/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/fountains"
+  },
+  {
+   "id": "flamecraft",
+   "titulo": "FLAMECRAFT",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "TABLERO",
+    "ESTRATEGIA",
+    "CASUAL"
+   ],
+   "desarrollador": "MONSTER COUCH",
+   "descripcion": "La adaptación del juego de mesa de Manny Vega, para uno a cinco jugadores. Sos guardallamas y tenés que encontrarles el local ideal a los dragones artesanos, que encantan las tiendas del pueblo. Amable, corto y de reglas simples.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9sh0.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/flamecraft"
+  },
+  {
+   "id": "au-revoir",
+   "titulo": "AU REVOIR",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE"
+   ],
+   "desarrollador": "INVISIBLE STUDIO",
+   "descripcion": "Año 2071: Tristan recupera conciencias humanas resolviendo puzles. Un mundo neón-noir de estética low poly noventosa, donde lo que se investiga en cada entorno cambia el final.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079600/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/au-revoir"
+  },
+  {
    "id": "lego-batman-legacy-of-the-dark-knight",
    "titulo": "LEGO BATMAN: LEGACY OF THE DARK KNIGHT",
    "fecha": "2026-09-18",
@@ -1767,6 +1857,29 @@
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/dune-awakening"
+  },
+  {
+   "id": "graveyard-keeper-2",
+   "titulo": "GRAVEYARD KEEPER 2",
+   "fecha": "2026-09-22",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "AVENTURA",
+    "RPG"
+   ],
+   "desarrollador": "LAZY BEAR GAMES",
+   "descripcion": "La secuela del simulador de cementerios medievales menos realista que hay. Se restaura la villa, se gestiona el cementerio, se automatiza la producción y se manda a los muertos vivientes al combate para sacarle provecho al brote de zombis.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobwhy.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/graveyard-keeper-2"
   },
   {
    "id": "sin-reloaded",

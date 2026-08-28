@@ -69,11 +69,16 @@ def cargar_juegos():
 
 
 def es_vertical(url):
-    """Las que ya están bien: Steam, PlayStation, o las que trajo IGDB."""
+    """Las que ya están bien: Steam, PlayStation, IGDB, o las que trajo este mismo script.
+
+    Ojo con la última: faltaba `steamgriddb` y el script no reconocía su propio resultado,
+    así que volvía a consultar los 74 juegos que ya había resuelto en cada corrida. No
+    rompía nada —encontraba la misma imagen y no escribía— pero eran 150 pedidos al pedo.
+    """
     if not url:
         return False
     return ("library_600x900" in url or "image.api.playstation.com" in url
-            or "images.igdb.com" in url)
+            or "images.igdb.com" in url or "steamgriddb" in url)
 
 
 def appid(j):
