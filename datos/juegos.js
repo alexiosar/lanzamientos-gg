@@ -539,7 +539,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1160,
+    metacriticVotos: 1161,
     critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://cdn2.steamgriddb.com/grid/a9f7e2af063303f02fd5d479c8816c79.png",
     noticias: [
@@ -2892,8 +2892,8 @@ const JUEGOS = [
     descripcion: "Once Human es un juego de supervivencia ambientado en un extraño mundo posapocalíptico: recolectá recursos, construí tu refugio y enfrentá criaturas deformadas por una contaminación sobrenatural, en solitario o con amigos. El fenómeno de supervivencia llega por fin a consolas.",
     trailer: "https://youtube.com/embed/XXpfbP9Ml_4",
     metacritic: 71,
-    metacriticUsuarios: 6.1,
-    metacriticVotos: 119,
+    metacriticUsuarios: 6.2,
+    metacriticVotos: 120,
     critica: "Las reseñas son las de la versión de PC de 2024 y están muy repartidas, de 50 a 85. Coinciden en lo que tiene de bueno: un mundo compartido raro, con criaturas de diseño extraño que casi todas destacan, y un bucle de recolectar y construir del que cuesta salir. Y coinciden en lo malo: el combate es flojo, la historia no engancha y buena parte del contenido se siente visto. Las notas más bajas suman problemas técnicos.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2139460/library_600x900.jpg",
     gamepass: false,
@@ -4206,7 +4206,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/C6w_31mWz8A",
     metacritic: 82,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 190,
+    metacriticVotos: 191,
     critica: "Las reseñas son de la versión de PC de 2021 y coinciden en lo central: es un libro jugable, con muy poca interacción más allá de elegir, y su fuerza está enteramente en la escritura. El mundo, esa fantasía oscura con política pseudohistórica, y la idea de acompañar a un personaje de la cuna a la tumba se llevan casi todos los elogios. Los reparos son dos: el apartado visual es pobre, y hay quien se decepcionó con el final por no ser consecuente con las decisiones tomadas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272160/library_600x900.jpg",
     noticias: [
@@ -4903,7 +4903,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/XpqfRsJ_--A",
     metacritic: 81,
     metacriticUsuarios: 8.6,
-    metacriticVotos: 1454,
+    metacriticVotos: 1455,
     critica: "Las reseñas son las de 2001, cuando salió en PC. Lo que elogian no envejeció: un mundo cerrado y creíble, con campamentos enfrentados a los que hay que elegir a cuál sumarse, y una atmósfera oscura que casi todas las notas destacan por encima de lo demás. Lo que critican tampoco envejeció: el control, pensado para teclado y famoso por lo incómodo, y una cantidad de problemas técnicos que en su momento espantaron a más de uno. Varias reseñas dicen lo mismo con distintas palabras: hay que aguantarle las primeras horas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65540/library_600x900.jpg",
     noticias: [

@@ -25,6 +25,10 @@
 //                   de Oxenfree; para el catálogo de PS Plus, la de su juego más fuerte.
 //                2. Si es un evento con video (un Direct, un State of Play), la miniatura
 //                   de YouTube: https://i.ytimg.com/vi/<id>/hqdefault.jpg
+//                   OJO: el recuadro de la tarjeta es 2:3 vertical desde el 28/08/2026, y
+//                   una miniatura de YouTube es 16:9. Se recorta a la franja del medio y
+//                   suele quedar ilegible. Antes de usarla, mirar cómo queda; si no se
+//                   entiende, es mejor dejar la noticia sin imagen.
 //                3. Si no hay nada de lo anterior, se deja sin imagen. Mejor una tarjeta
 //                   sin foto que una foto que no dice nada.
 //

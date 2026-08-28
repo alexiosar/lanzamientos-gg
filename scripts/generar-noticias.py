@@ -179,9 +179,12 @@ def generar(items, juegos):
     .cat-rumores     {{ color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }}
     .noticia-con-portada {{ display: flex; gap: 1rem; align-items: flex-start; }}
     .noticia-cuerpo  {{ min-width: 0; flex: 1; }}
-    .noticia-portada {{ flex-shrink: 0; display: block; width: 72px; height: 72px; border: 1px solid var(--gris-3); background: var(--gris-1); }}
+    /* 2:3 y no cuadrada, por lo mismo que las miniaturas del calendario: recortar un arte
+       de tapa a un cuadrado le come los costados y deja el centro, que es donde no está el
+       logo. Con la forma de la caja se reconoce el juego sin leer el título. */
+    .noticia-portada {{ flex-shrink: 0; display: block; width: 96px; height: 144px; border: 1px solid var(--gris-3); background: var(--gris-1); }}
     .noticia-portada img {{ width: 100%; height: 100%; object-fit: cover; display: block; }}
-    @media (max-width: 600px) {{ .noticia-portada {{ width: 56px; height: 56px; }} }}
+    @media (max-width: 600px) {{ .noticia-portada {{ width: 72px; height: 108px; }} }}
     .noticia-titulo  {{ font-size: 0.875rem; color: var(--blanco); letter-spacing: 1px; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.5; }}
     .noticia-texto   {{ font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; margin-bottom: 0.6rem; }}
     .noticia-pie     {{ display: flex; gap: 0.5rem; flex-wrap: wrap; }}
