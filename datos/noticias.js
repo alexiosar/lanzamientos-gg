@@ -50,6 +50,17 @@
 
 const NOTICIAS = [
   {
+    id: "state-of-play-3-septiembre-2026",
+    fecha: "2026-08-31",
+    categoria: "EVENTOS",
+    titulo: "DOS STATE OF PLAY SEGUIDOS EL 3 DE SEPTIEMBRE",
+    texto: "Sony anunció dos transmisiones al hilo para el jueves 3, desde las 10 de la mañana de Argentina, por YouTube y Twitch. Primero el State of Play con novedades de PlayStation Studios y estudios asociados, que cierra con un vistazo largo a Final Fantasy VII Revelation, lo nuevo de Square Enix. Después el State of Play Japón, otra vez con Yuki Kaji de presentador, dedicado a juegos de estudios de Japón y Asia. Conviene tenerlo en el radar: de acá suelen salir fechas nuevas, que es lo que mueve este calendario. Final Fantasy VII Revelation, por ahora, figura para 2027, así que todavía no entra.",
+    fuente: "https://blog.latam.playstation.com/2026/08/31/state-of-play-y-state-of-play-japon-regresan-el-3-de-septiembre/",
+    imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocbgb.jpg",
+    juegos: []
+  },
+
+  {
     id: "ps-plus-mensuales-septiembre-2026",
     fecha: "2026-08-26",
     categoria: "SUSCRIPCIONES",

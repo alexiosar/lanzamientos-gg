@@ -2,100 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-28T17:18:05+00:00",
+ "generado": "2026-08-31T13:55:55+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-28",
- "hasta": "2026-09-27",
- "total": 87,
+ "desde": "2026-08-31",
+ "hasta": "2026-09-30",
+ "total": 91,
  "juegos": [
-  {
-   "id": "elden-ring-switch-2",
-   "titulo": "ELDEN RING",
-   "fecha": "2026-08-28",
-   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2022 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "60 h (historia) · 136 h (completo)",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "RPG",
-    "MUNDO ABIERTO",
-    "ACCION"
-   ],
-   "desarrollador": "FROMSOFTWARE, INC.",
-   "descripcion": "EL NUEVO JUEGO DE ROL Y ACCIÓN DE AMBIENTACIÓN FANTÁSTICA. Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias. La edición Tarnished de Switch 2 lleva la obra de FromSoftware a la portátil de Nintendo.",
-   "trailer": "https://youtube.com/embed/AKXiKBnzpBQ",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/elden-ring-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-08-28",
-     "titulo": "ELDEN RING LLEGA A SWITCH 2",
-     "texto": "Cuatro años después de su estreno en PS5, PS4, Xbox y PC, Elden Ring llega hoy a Switch 2. Todavía no tiene puntaje propio de esta versión en Metacritic: cuando lo tenga va a aparecer en la ficha, porque los puntajes de un port se cargan aparte y no se heredan del original."
-    }
-   ]
-  },
-  {
-   "id": "captain-tsubasa-2-world-fighters",
-   "titulo": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
-   "fecha": "2026-08-28",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "DEPORTES",
-    "ANIME",
-    "ACCION"
-   ],
-   "desarrollador": "TAMSOFT CORPORATION",
-   "descripcion": "¡Ya está aquí el nuevo capítulo de la cautivadora aventura de Tsubasa! Disfruta de una acción futbolística espectacular con 110 personajes disponibles y nuevos supermovimientos alucinantes. Desafía a amigos en el campo o apoya a Tsubasa en su viaje. ¡El balón es tu amigo!",
-   "trailer": "https://youtube.com/embed/S8ESe_ZsDsQ",
-   "metacritic": 76,
-   "critica": "El acuerdo entre las reseñas es que no hay que medirlo como un juego de fútbol sino como uno de peleas con once por lado —una lo define como Tekken de a once— y que con esa vara funciona muy bien. Es una secuela que mejora a la anterior: el modo historia cubre entero el arco del Mundial Juvenil y los sistemas nuevos le dan más profundidad a los remates especiales. Lo que se repite en contra es el ritmo, porque las interrupciones constantes cortan los partidos, y la cantidad de técnicas, que empina la curva de aprendizaje. Para el que creció con Supercampeones, hay acuerdo en que el espectáculo de la serie está bien capturado.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobfsb.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/captain-tsubasa-2-world-fighters",
-   "noticias": [
-    {
-     "fecha": "2026-08-28",
-     "titulo": "SALE CON 76 EN METACRITIC",
-     "texto": "La prensa lo recibe como una secuela que corrige lo que hacía falta corregir: más contenido, más profundidad en los remates especiales y un modo historia que cubre entero el arco del Mundial Juvenil. El reparo que más se repite es el ritmo, porque los partidos se cortan seguido."
-    }
-   ]
-  },
-  {
-   "id": "flying-fire-shark-toaplan-arcade-garage",
-   "titulo": "FLYING FIRE SHARK!!!: TOAPLAN ARCADE GARAGE",
-   "fecha": "2026-08-29",
-   "plataformas": [
-    "SWITCH",
-    "PS4"
-   ],
-   "genero": [
-    "SHOOTER",
-    "ARCADE",
-    "RETRO"
-   ],
-   "desarrollador": "M2",
-   "descripcion": "Nueva entrega de la línea Toaplan Arcade Garage de M2: el shoot'em up clásico Fire Shark (Same! Same! Same!) vuelve con los agregados, opciones y modos de práctica que caracterizan a las remasterizaciones arcade del estudio.",
-   "trailer": "https://youtube.com/embed/8RtI7cfYeko",
-   "metacritic": null,
-   "imagen": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/poj0vpjjjjth3ruowu1h",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/flying-fire-shark-toaplan-arcade-garage"
-  },
   {
    "id": "lady-death-demonicron",
    "titulo": "LADY DEATH DEMONICRON",
@@ -2175,6 +2088,179 @@
    "psplus": false,
    "alta": "2026-08-18",
    "url": "https://lanzamientos.lat/juegos/the-relic-first-guardian-xbox"
+  },
+  {
+   "id": "minecraft-dungeons-2",
+   "titulo": "MINECRAFT DUNGEONS II",
+   "fecha": "2026-09-29",
+   "plataformas": [
+    "SWITCH",
+    "XBOX",
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "COOP"
+   ],
+   "desarrollador": "MOJANG STUDIOS",
+   "descripcion": "Suelta el pico, coge una espada y lánzate a una nueva aventura en Minecraft Dungeons II. ¡Reserva hoy y obtén 2 aspectos de héroe, la capa Perversa y la mascota Pollo perverso!",
+   "trailer": "https://youtube.com/embed/VyZKYhM0Kv4",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/83e727ba74a653775d25a777ab709211.png",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/minecraft-dungeons-2"
+  },
+  {
+   "id": "toem-2",
+   "titulo": "TOEM 2",
+   "fecha": "2026-09-29",
+   "plataformas": [
+    "SWITCH",
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "SOMETHING WE MADE",
+   "descripcion": "Ponte de nuevo en la piel de un curioso fotógrafo y emprende una nueva aventura en la que descubrirás detalles ocultos, ayudarás a amigos y documentarás las pequeñas maravillas del mundo con TOEM 2, la secuela del aclamado TOEM original.",
+   "trailer": "https://youtube.com/embed/jVGUdY0eht0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2900640/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-27",
+   "url": "https://lanzamientos.lat/juegos/toem-2",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA TIENE FECHA: 29 DE SEPTIEMBRE",
+     "texto": "Something We Made anunció el día oficial. La ficha de la PlayStation Store también lo lista para el 29."
+    }
+   ]
+  },
+  {
+   "id": "way-of-the-hunter-2",
+   "titulo": "WAY OF THE HUNTER 2",
+   "fecha": "2026-09-29",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "SIMULACION",
+    "AVENTURA",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "NINE ROCKS GAMES",
+   "descripcion": "Siente la emoción de la caza y mantente alerta para descubrir las fantásticas especies salvajes que rondan por la naturaleza norteamericana y la sabana africana. Caza y exhibe tus piezas de caza mayor, como alces y búfalos cafre, y de caza menor y aves.",
+   "trailer": "https://youtube.com/embed/pXmR2QV_Cyc",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdqj.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/way-of-the-hunter-2"
+  },
+  {
+   "id": "the-witcher-3-wild-hunt-remastered",
+   "titulo": "THE WITCHER 3: WILD HUNT — REMASTERED",
+   "relanzamiento": "El original salió en 2015 para PS4, Xbox One y PC — esta fecha corresponde a la edición remasterizada de Switch 2",
+   "fecha": "2026-09-29",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "MUNDO ABIERTO",
+    "ACCION"
+   ],
+   "desarrollador": "CD PROJEKT RED",
+   "descripcion": "La remasterización de uno de los RPG de mundo abierto más premiados de la década llega a Switch 2. Geralt de Rivia, el Continente entero y las dos expansiones grandes, Hearts of Stone y Blood and Wine.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocrjd.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/the-witcher-3-wild-hunt-remastered"
+  },
+  {
+   "id": "transport-fever-3",
+   "titulo": "TRANSPORT FEVER 3",
+   "fecha": "2026-09-29",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "URBAN GAMES",
+   "descripcion": "Más de un siglo de transporte por tierra, mar y aire para armar la red de tus sueños. La tercera entrega es más grande y más profunda, con economía dinámica y mapas que cambian a medida que crecen las ciudades.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9u3u.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/transport-fever-3"
+  },
+  {
+   "id": "viractal",
+   "titulo": "VIRACTAL: WILL YOU TRUST YOUR PARTY?",
+   "fecha": "2026-09-30",
+   "relanzamiento": "En PC desde enero de 2026",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL",
+    "INDIE",
+    "RPG",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "STING",
+   "descripcion": "Una aventura estratégica de juego de mesa a través de un encantador mundo en miniatura. Reclutá compañeros, avanzá casillero a casillero y respondé la gran pregunta: ¿vas a confiar en tu equipo?",
+   "trailer": "https://youtube.com/embed/QgszUARemiU",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/13865bc0952b4bf93298826d700594c2.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/viractal"
+  },
+  {
+   "id": "kong-survivor-instinct",
+   "titulo": "KONG: SURVIVOR INSTINCT",
+   "fecha": "2026-09-30",
+   "relanzamiento": "En PS5, Xbox y PC desde 2024",
+   "duracion": "≈ 6,4 h (historia) · 6,9 h (completo)",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "7LEVELS",
+   "descripcion": "En un combate entre monstruos gigantes, nadie está a salvo.Tendrás que sobrevivir en una ciudad que se ha convertido en el campo de batalla de unos titanes usando la fuerza descomunal de Kong y otros monstruos en este juego oficial del Monsterverse ambientado poco después de Godzilla vs. Kong.",
+   "trailer": "https://youtube.com/embed/O5iMN1eKccY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2769080/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/kong-survivor-instinct"
   }
  ]
 }

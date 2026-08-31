@@ -6,7 +6,21 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 28 Aug 2026 17:18:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 13:55:55 +0000</lastBuildDate>
+    <item>
+      <title>IS THIS SEAT TAKEN?: LLEGA A PS5 CON 79 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/is-this-seat-taken</link>
+      <guid isPermaLink="false">is-this-seat-taken-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>El puzle de Poti Poti Studio salió en PC en agosto de 2025 y llega ahora a PS5 con el puntaje ya hecho: 79 sobre quince reseñas. La prensa coincide en que la gracia está en lo simple —sentar gente respetando lo que cada uno pide— y avisa que son unas cinco horas, mejor repartidas en varias sesiones que de un tirón. — IS THIS SEAT TAKEN? para PS5.</description>
+    </item>
+    <item>
+      <title>DOS STATE OF PLAY SEGUIDOS EL 3 DE SEPTIEMBRE</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">state-of-play-3-septiembre-2026</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Sony anunció dos transmisiones al hilo para el jueves 3, desde las 10 de la mañana de Argentina, por YouTube y Twitch. Primero el State of Play con novedades de PlayStation Studios y estudios asociados, que cierra con un vistazo largo a Final Fantasy VII Revelation, lo nuevo de Square Enix. Después el State of Play Japón, otra vez con Yuki Kaji de presentador, dedicado a juegos de estudios de Japón y Asia. Conviene tenerlo en el radar: de acá suelen salir fechas nuevas, que es lo que mueve este calendario. Final Fantasy VII Revelation, por ahora, figura para 2027, así que todavía no entra.</description>
+    </item>
     <item>
       <title>ELDEN RING: ELDEN RING LLEGA A SWITCH 2</title>
       <link>https://lanzamientos.lat/juegos/elden-ring-switch-2</link>
@@ -272,20 +286,6 @@
       <guid isPermaLink="false">the-sinking-city-2-2026-08-18</guid>
       <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>El estudio es ucraniano y desarrolló el juego durante la invasión, con el equipo trabajando desde un país en guerra. Sale a un precio deliberadamente por debajo de un lanzamiento grande. Es terror de supervivencia con Calvin Rafferty, un aventurero ocultista, en un Arkham de los años veinte inundado y en descomposición. Quien compre la edición Premium juega desde el 17, un día antes. — THE SINKING CITY 2 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>PHANTOM BLADE ZERO: EL STATE OF PLAY MOSTRÓ CÓMO SE JUEGA</title>
-      <link>https://lanzamientos.lat/juegos/phantom-blade-zero</link>
-      <guid isPermaLink="false">phantom-blade-zero-2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Sony le dedicó una presentación entera y esta vez se vio jugabilidad y trama en profundidad, no un adelanto de treinta segundos. Sigue en pie para el 29 de octubre en PS5. — PHANTOM BLADE ZERO para PS5.</description>
-    </item>
-    <item>
-      <title>STARSAND ISLAND: 70 DE DEBUT PARA LA VIDA DE CAMPO</title>
-      <link>https://lanzamientos.lat/juegos/starsand-island</link>
-      <guid isPermaLink="false">starsand-island-2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Un simulador de granja y vida rural al estilo de los clásicos del género, que ya llevaba medio año en PC. La nota lo deja en el pelotón: cumple con lo que promete sin destacarse entre la enorme cantidad de juegos parecidos que salieron los últimos años. — STARSAND ISLAND para PS5 / SWITCH / SWITCH 2.</description>
     </item>
   </channel>
 </rss>

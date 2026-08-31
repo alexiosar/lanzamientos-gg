@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -120,6 +121,7 @@
                 <span class="ficha-campo-label">FECHA ESTIMADA</span>
                 <span class="ficha-campo-valor">AGOSTO 2026</span>
                 <span class="relanzamiento">◔ FECHA EXACTA SIN CONFIRMAR</span>
+                <span class="relanzamiento">↺ En PC desde el 7 de agosto de 2025 — esta fecha corresponde a la edición de PS5</span>
               </div>
               <div>
                 <span class="ficha-campo-label">PLATAFORMAS</span>
@@ -133,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">79 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 42 votos">7.5 <span class="badge-quien">USUARIOS</span></span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               
@@ -142,6 +149,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Quince reseñas y un acuerdo raro de ver: a nadie le disgusta. Es un puzle de lógica sobre sentar gente respetando lo que cada uno pide, con reglas simples que arman situaciones cada vez más enredadas, y lo que más se elogia es justamente que no se complica de más. También el dibujo, la música y una historia chiquita que varios destacan sin esperarla. El reparo que se repite es la duración y la repetición: son unas cinco horas y hacia el final las situaciones se parecen entre sí, así que rinde mejor de a ratos que de una sentada.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-31</span>
+            <span class="noticia-titulo">▸ LLEGA A PS5 CON 79 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">El puzle de Poti Poti Studio salió en PC en agosto de 2025 y llega ahora a PS5 con el puntaje ya hecho: 79 sobre quince reseñas. La prensa coincide en que la gracia está en lo simple —sentar gente respetando lo que cada uno pide— y avisa que son unas cinco horas, mejor repartidas en varias sesiones que de un tirón.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Is This Seat Taken? es un juego de puzles en el que tendrás que distribuir a formas de lo más variopintas. ¡Cada una cuenta con sus manías para ofrecerte un reto superdivertido! Da con el sitio ideal para cada forma y descubre nuevos niveles en esta acogedora, pintoresca y cercana experiencia.</p>
