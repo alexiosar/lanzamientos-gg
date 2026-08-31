@@ -2963,7 +2963,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/6lCzpRkoFjw",
     metacritic: 78,
     metacriticUsuarios: 8.0,
-    metacriticVotos: 223,
+    metacriticVotos: 224,
     critica: "Es el más discutido de la semana: hay reseñas de 95 y de 60 describiendo el mismo juego. Todas coinciden en dos cosas. Que la serie cambió de género —menos sigilo y menos ratas, más acción y aventura al estilo Uncharted— y que en lo visual y lo sonoro está a la altura, con la banda sonora de Olivier Derivière llevándose elogios aparte. La discusión es si el cambio le sienta bien. Los que lo bajan repiten tres reparos: arranca muy lento, el combate se vuelve repetitivo y hay problemas de rendimiento. Sophia, la protagonista nueva, gusta casi por unanimidad.",
     imagen: "https://cdn2.steamgriddb.com/grid/19488d75fad434aed855298dad9d9d76.png",
     noticias: [
@@ -3017,8 +3017,8 @@ const JUEGOS = [
     descripcion: "Esta segunda entrega de la colección incluye &quot;Metal Gear Solid 4: Guns of the Patriots&quot; y &quot;Metal Gear Solid: Peace Walker (HD Collection version)&quot;, así como una banda sonora digital y &quot;Metal Gear: Ghost Babel&quot; como contenido extra.",
     trailer: "https://youtube.com/embed/a3AujdsJvjI",
     metacritic: 85,
-    metacriticUsuarios: 9.1,
-    metacriticVotos: 21,
+    metacriticUsuarios: 9.2,
+    metacriticVotos: 22,
     critica: "Casi todas las reseñas dicen lo mismo con distintas palabras: sacar Metal Gear Solid 4 de la PS3 después de dieciocho años ya justifica la compra, y Peace Walker y Ghost Babel vienen de yapa. Las conversiones se elogian sin peros y el trabajo de preservación también. Las quejas no son de los juegos sino del paquete: trae menos títulos que el Vol. 1, los extras son mínimos y no hay un menú común, así que se salta entre media docena de aplicaciones sueltas.",
     noticias: [
       {
@@ -7019,7 +7019,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/FNwyqzYc3so",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996090/library_600x900.jpg",
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-08-18",
     noticias: [
