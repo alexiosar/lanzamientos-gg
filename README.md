@@ -1070,6 +1070,22 @@ y abrir http://localhost:8080
 
 ### Ideas del usuario del 27/08/2026 (sin empezar)
 
+- **Vapor World: Over the Mind — qué fecha va.** Entró a Game Pass el 19/08/2026 en formato
+  Game Preview, "available on day one", según el propio anuncio de Xbox Wire. Nosotros lo
+  tenemos para el 30/09, que sería la versión terminada. La pregunta es cuál de las dos es
+  "el lanzamiento" para este calendario. Hay precedente para las dos respuestas: Grounded 2
+  también entró en Game Preview y su ficha usa la fecha del debut en PS5, o sea que el Game
+  Preview no cuenta; pero si no cuenta, entonces el 30/09 sí es un estreno en el servicio y
+  le faltaría `gamepass: true`. Hoy está sin distintivo y con fecha 30/09, que es la
+  combinación que no cierra con ninguna de las dos lecturas.
+
+- **2027 todavía no aprieta.** Al 31/08/2026 la eShop tiene **un** juego en enero de 2027 y
+  ninguno en febrero ni marzo, así que el paso 9 de la mensual —estrenar el mes siguiente—
+  no tiene con qué. En el calendario hay un solo juego de 2027 (Trine 6, 04/03) y no tiene
+  puntaje, así que tampoco toca el ranking. La decisión sobre filtros y ranking sigue
+  pendiente pero no está bloqueando nada: cuando las fuentes empiecen a poblar 2027 va a
+  haber tiempo de sobra, y conviene tomarla antes de cargar la primera tanda.
+
 - **"Recomendados del mes".** Una selección de lo que vale la pena del mes, que hoy no
   existe: el sitio ordena por fecha y por puntaje, pero no dice qué mirar. Lo que hay que
   decidir antes de programar nada es **de dónde sale la selección**. Con puntaje de

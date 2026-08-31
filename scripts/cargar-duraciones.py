@@ -4,14 +4,22 @@
 El buscador de HLTB bloquea peticiones ingenuas, pero su propia web usa un protocolo
 público en dos pasos que se puede replicar:
 
-  1. GET  /api/bleed/init  ->  {token, hpKey, hpVal}
-  2. POST /api/bleed       con las cabeceras x-auth-token, x-hp-key, x-hp-val
-                           y el par hpKey/hpVal repetido dentro del cuerpo
+  1. GET  /api/search/site/init  ->  {token, hpKey, hpVal}
+  2. POST /api/search/site       con las cabeceras x-auth-token, x-hp-key, x-hp-val
+                                 y el par hpKey/hpVal repetido dentro del cuerpo
 
-El endpoint y los nombres de las cabeceras rotan cada tanto: si un día devuelve 403 en
-todas las consultas, hay que volver a mirar el JavaScript de howlongtobeat.com y
-actualizar `init()` y `buscar()`. Se busca en los chunks de /_next/static/ la llamada
-a fetch que hace la búsqueda.
+El endpoint rota cada tanto y hay que volver a buscarlo. Pasó el 31/08/2026: el que
+estaba empezó a devolver 404. El aviso viejo hablaba de 403, pero puede ser cualquier
+error; lo que importa es que fallen todas las consultas, no una.
+
+Cómo encontrar el nuevo, que esa vez tardó dos minutos:
+
+    curl -s -A "<user agent de navegador>" https://howlongtobeat.com/ > portada.html
+    grep -oE '/_next/static/[^"]+\.js' portada.html | sort -u        # los chunks
+    curl -s "https://howlongtobeat.com<chunk>" | grep -oE '"/api/[a-z/]+"'
+
+El de la búsqueda es el que aparece junto a su propio `/init`. Las cabeceras no
+cambiaron entre una versión y la otra.
 
 Sólo carga un resultado cuando el título coincide en un 82% o más, así no mete la
 duración de otro juego. Lo que queda por debajo lo lista como dudoso y no lo toca.
@@ -51,7 +59,7 @@ def cargar_juegos():
 
 
 def init():
-    r = urllib.request.Request(f"{BASE}/api/bleed/init?t={int(time.time() * 1000)}",
+    r = urllib.request.Request(f"{BASE}/api/search/site/init?t={int(time.time() * 1000)}",
                                headers={"User-Agent": UA, "Referer": BASE + "/"})
     return json.loads(urllib.request.urlopen(r, timeout=20, context=CTX).read())
 
@@ -69,7 +77,7 @@ def buscar(termino, sec):
         "useCache": True}
     body[sec["hpKey"]] = sec["hpVal"]
     r = urllib.request.Request(
-        f"{BASE}/api/bleed", data=json.dumps(body).encode(), method="POST",
+        f"{BASE}/api/search/site", data=json.dumps(body).encode(), method="POST",
         headers={"User-Agent": UA, "Referer": BASE + "/", "Content-Type": "application/json",
                  "x-auth-token": sec["token"], "x-hp-key": sec["hpKey"],
                  "x-hp-val": str(sec["hpVal"])})

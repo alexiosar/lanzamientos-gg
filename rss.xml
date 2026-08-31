@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 31 Aug 2026 13:55:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 14:49:02 +0000</lastBuildDate>
     <item>
       <title>IS THIS SEAT TAKEN?: LLEGA A PS5 CON 79 EN METACRITIC</title>
       <link>https://lanzamientos.lat/juegos/is-this-seat-taken</link>
@@ -225,6 +225,13 @@
       <description>Después de meses sin día confirmado, el estudio anunció que sale el 29 de octubre. — HUNTING SIMULATOR 3 para PS5 / XBOX.</description>
     </item>
     <item>
+      <title>MEXICAN NINJA: SALE CON 69, Y EL HUMOR ES LO QUE PARTE A LA PRENSA</title>
+      <link>https://lanzamientos.lat/juegos/mexican-ninja</link>
+      <guid isPermaLink="false">mexican-ninja-2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Cinco reseñas: cuatro benévolas y una demoledora. El acuerdo está en el combate, en el arte y en el precio, que varias mencionan como parte del argumento a favor. El reparo compartido es que la parte roguelike quedó a medio hacer. Lo que divide es el humor: para la mayoría es parte del encanto y para la reseña más dura es grosería sin gracia apoyada en estereotipos. — MEXICAN NINJA para XBOX.</description>
+    </item>
+    <item>
       <title>WOODO: YA TIENE FECHA: 16 DE SEPTIEMBRE</title>
       <link>https://lanzamientos.lat/juegos/woodo</link>
       <guid isPermaLink="false">woodo-2026-08-20</guid>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">the-sinking-city-2-2026-08-18</guid>
       <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
       <description>El puntaje confirma lo que venían diciendo los adelantos: el estudio ucraniano sacó adelante su juego más sólido justo en las peores condiciones posibles. — THE SINKING CITY 2 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>THE SINKING CITY 2: FROGWARES LO TERMINÓ EN MEDIO DE LA GUERRA</title>
-      <link>https://lanzamientos.lat/juegos/the-sinking-city-2</link>
-      <guid isPermaLink="false">the-sinking-city-2-2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
-      <description>El estudio es ucraniano y desarrolló el juego durante la invasión, con el equipo trabajando desde un país en guerra. Sale a un precio deliberadamente por debajo de un lanzamiento grande. Es terror de supervivencia con Calvin Rafferty, un aventurero ocultista, en un Arkham de los años veinte inundado y en descomposición. Quien compre la edición Premium juega desde el 17, un día antes. — THE SINKING CITY 2 para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

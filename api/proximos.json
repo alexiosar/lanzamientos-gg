@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-31T13:55:55+00:00",
+ "generado": "2026-08-31T14:49:02+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-08-31",
@@ -116,6 +116,7 @@
    "id": "angeline-era",
    "titulo": "ANGELINE ERA",
    "relanzamiento": "En PC desde diciembre de 2025",
+   "duracion": "≈ 14 h (historia) · 18 h (completo)",
    "fecha": "2026-09-02",
    "plataformas": [
     "PS5",
@@ -386,6 +387,7 @@
    "id": "aerea",
    "titulo": "AEREA",
    "relanzamiento": "Original de 2017 en PS4, Xbox One y PC",
+   "duracion": "≈ 12 h (historia) · 23 h (completo)",
    "fecha": "2026-09-03",
    "plataformas": [
     "XBOX",
@@ -505,6 +507,7 @@
    "id": "dream-cage",
    "titulo": "DREAM CAGE",
    "relanzamiento": "En PC desde febrero de 2025",
+   "duracion": "≈ 1,4 h (historia) · 3,7 h (completo)",
    "fecha": "2026-09-04",
    "plataformas": [
     "XBOX",
@@ -852,6 +855,7 @@
    "id": "truck-kun-is-supporting-me-from-another-world-switch-2",
    "titulo": "TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!",
    "relanzamiento": "En Xbox y PC desde el 29 de julio de 2026 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 3,5 h (historia) · 6,9 h (completo)",
    "fecha": "2026-09-14",
    "plataformas": [
     "SWITCH2"
@@ -962,6 +966,7 @@
    "id": "tcg-card-shop-simulator",
    "titulo": "TCG CARD SHOP SIMULATOR",
    "relanzamiento": "En PC desde 2024",
+   "duracion": "≈ 30 h (historia) · 89 h (completo)",
    "fecha": "2026-09-15",
    "plataformas": [
     "PS5",
@@ -1009,6 +1014,7 @@
    "id": "gladio-mori",
    "titulo": "GLADIO MORI",
    "relanzamiento": "En PC, en acceso anticipado, desde noviembre de 2024",
+   "duracion": "≈ 3 h (historia) · 5 h (completo)",
    "fecha": "2026-09-16",
    "plataformas": [
     "PS5",
@@ -1424,6 +1430,7 @@
    "id": "mr-sleepy-man",
    "titulo": "MR. SLEEPY MAN",
    "relanzamiento": "En PC desde marzo de 2026",
+   "duracion": "≈ 6 h (historia) · 21 h (completo)",
    "fecha": "2026-09-17",
    "plataformas": [
     "SWITCH",
@@ -1705,6 +1712,7 @@
    "id": "demeo-x-dungeons-and-dragons-battlemarked",
    "titulo": "DEMEO X DUNGEONS & DRAGONS: BATTLEMARKED",
    "relanzamiento": "En PC desde noviembre de 2025 — esta fecha corresponde a la edición de Xbox",
+   "duracion": "≈ 15 h (historia) · 32 h (completo)",
    "fecha": "2026-09-22",
    "plataformas": [
     "XBOX"
@@ -2069,6 +2077,7 @@
    "id": "the-relic-first-guardian-xbox",
    "titulo": "THE RELIC: FIRST GUARDIAN",
    "relanzamiento": "En PS5 desde julio de 2026 — esta fecha corresponde a la edición de Xbox",
+   "duracion": "≈ 17 h (historia)",
    "fecha": "2026-09-25",
    "plataformas": [
     "XBOX"
