@@ -290,6 +290,7 @@ def main():
 
     # 2) Regenerar
     print("\n── Regenerando fichas y sitemap ──")
+    fallidos = []
     # cargar-meta-trailers.py va PRIMERO: generar-fichas.py lee su caché para
     # declarar el trailer en los datos estructurados. Si no falta ninguno no hace
     # una sola petición, así que en un día normal no cuesta nada.
@@ -298,6 +299,13 @@ def main():
                    "generar-sitemap.py"]:
         r = subprocess.run(["python3", str(RAIZ / "scripts" / script)], capture_output=True, text=True)
         print(" ", r.stdout.strip() or r.stderr.strip())
+        # Un generador que falla no se ve. El 31/08/2026 generar-plataformas.py estuvo un
+        # commit entero con un error de sintaxis: el traceback salía acá, entre veinte
+        # líneas de salida normal, y las cinco páginas de plataforma se quedaron viejas
+        # sin que nada lo dijera. Se ven bien —son la última versión buena— y por eso
+        # nadie lo nota. Ahora corta el paso y lo dice al final, donde se lee.
+        if r.returncode != 0:
+            fallidos.append(script)
 
     # 3) Reporte
     # Los duplicados van primero porque son el error más caro y el que no se ve mirando el
@@ -382,6 +390,11 @@ def main():
     print("            nintendo.com/us/nintendo-direct · vandal.elespanol.com · 3djuegos.com")
     print("  Vandal y 3DJuegos son radar: verificar en la tienda antes de tocar una fecha.")
     print("  De ahí no sale solo la noticia: también juegos que faltan y fechas a corregir.")
+
+    if fallidos:
+        print(f"\n  ⚠⚠ {len(fallidos)} GENERADOR(ES) FALLARON: {', '.join(fallidos)}")
+        print("     Las páginas que producen quedaron como estaban: se ven bien y están viejas.")
+        print("     NO subir hasta arreglarlo. El error está más arriba, en su línea.")
 
     print("\n═══ Siguiente paso: noticias (si hay), commit y deploy ═══")
 
