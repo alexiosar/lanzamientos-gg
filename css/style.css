@@ -766,6 +766,22 @@ a:hover { color: var(--blanco); }
   letter-spacing: 1px;
 }
 
+/* Enlace "◀ VOLVER AL CALENDARIO" que encabeza toda página que no es la portada.
+   Vivía repetido en once lugares —tres generadores y ocho HTML sueltos— con la misma
+   regla copiada, y el 31/08/2026 eso se cobró lo suyo: al armar /recomendados copiando
+   el molde de /noticias, la regla no se copió y el enlace salió con el estilo por
+   omisión del navegador. Acá está una sola vez y una página nueva lo hereda sin hacer
+   nada, que es justo lo que falló. */
+.volver {
+  display: inline-block;
+  font-size: 0.6875rem;
+  color: var(--gris-5);
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.volver:hover { color: var(--acento); }
+
 /* ── MINIATURAS EN LISTAS ──
    Eran cuadradas de 52px, de cuando las carátulas venían de tres formas distintas y el
    cuadrado era el mínimo común denominador. Recortar un arte de tapa a un cuadrado le come

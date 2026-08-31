@@ -142,10 +142,6 @@ def main():
     .rec-titulo      {{ font-size: 0.9375rem; color: var(--blanco); letter-spacing: 1px;
                        font-weight: 700; line-height: 1.5; margin-bottom: 0.5rem; }}
     .rec-texto       {{ font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; margin-top: 0.6rem; }}
-    /* Lo define cada página en su bloque inline, no css/style.css. Sin esto el enlace sale
-       con el estilo por omisión y se nota al lado del resto del sitio. */
-    .volver          {{ display: inline-block; font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }}
-    .volver:hover    {{ color: var(--acento); }}
     @media (max-width: 600px) {{
       .rec           {{ gap: 0.9rem; padding-left: 0.9rem; }}
       .rec-portada   {{ width: 84px; height: 126px; }}

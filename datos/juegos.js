@@ -2343,7 +2343,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/xfzapBQssa0",
     metacritic: 91,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 273,
+    metacriticVotos: 274,
     critica: "El acuerdo es casi total: lo que hace especial a Big Walk no son sus puzzles sino las conversaciones que obliga a tener. Casi todas las reseñas cuentan lo mismo, que los mejores momentos son los que el juego no programó, los que salen de coordinarse mal con un amigo, y varias lo emparentan con Untitled Goose Game, del mismo estudio. El reparo, cuando aparece, es el ritmo: la isla es grande y hay tramos largos donde no pasa nada, algo que se siente más de a dos que en grupo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
     noticias: [
@@ -2733,8 +2733,8 @@ const JUEGOS = [
     descripcion: "The Sinking City 2 se ambienta en los Felices años veinte en este juego de horror y supervivencia cargado de terrores lovecraftianos. Desafía a una deidad sobrenatural y explora los callejones inundados de Arkham mientras te acechan los muertos y sopesas una sola vida frente a toda una ciudad.",
     trailer: "https://youtube.com/embed/2q-pfSpS_J4",
     metacritic: 79,
-    metacriticUsuarios: 8.1,
-    metacriticVotos: 128,
+    metacriticUsuarios: 8.0,
+    metacriticVotos: 129,
     critica: "Frogwares cambió de género y la crítica se lo acepta: esta segunda parte es survival horror al estilo de los Resident Evil modernos, con mejor combate y mejores puzzles que la primera. El reparo que más se repite es lo que quedó en el camino, la investigación de detective a mano suelta que hacía distinto al original. Varias reseñas recuerdan además en qué condiciones se hizo, con el estudio trabajando en Ucrania durante la guerra, y le perdonan la falta de pulido y unas actuaciones desparejas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
     noticias: [
@@ -2936,7 +2936,7 @@ const JUEGOS = [
     desarrollador: "ADGLOBE",
     descripcion: "Elegí una de seis facciones para enfrentar al Imperio Abyssloa. Comandá tus tropas y monstruos en batallas estratégicas por turnos, en la nueva entrega de la saga táctica Brigandine.",
     trailer: "https://youtube.com/embed/5z0L0ba4r8k",
-    metacritic: 71,
+    metacritic: 68,
     metacriticUsuarios: 4.4,
     metacriticVotos: 5,
     critica: "Pocas reseñas y un acuerdo incómodo: el juego es profundo —seis campañas, gestión de ejércitos, mucha personalización— y aun así la mayoría termina decepcionada. El reproche que se repite es que esta entrega buscó ser más accesible y en el camino perdió lo que hacía de la serie un objeto de culto. La reseña más entusiasta lo define mejor que ninguna: mezcla dos géneros pesados, y por eso mismo es imprescindible para quien quiera los dos y difícil de recomendar a quien quiera uno solo.",
@@ -2963,7 +2963,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/6lCzpRkoFjw",
     metacritic: 78,
     metacriticUsuarios: 8.1,
-    metacriticVotos: 247,
+    metacriticVotos: 252,
     critica: "Es el más discutido de la semana: hay reseñas de 95 y de 60 describiendo el mismo juego. Todas coinciden en dos cosas. Que la serie cambió de género —menos sigilo y menos ratas, más acción y aventura al estilo Uncharted— y que en lo visual y lo sonoro está a la altura, con la banda sonora de Olivier Derivière llevándose elogios aparte. La discusión es si el cambio le sienta bien. Los que lo bajan repiten tres reparos: arranca muy lento, el combate se vuelve repetitivo y hay problemas de rendimiento. Sophia, la protagonista nueva, gusta casi por unanimidad.",
     imagen: "https://cdn2.steamgriddb.com/grid/19488d75fad434aed855298dad9d9d76.png",
     noticias: [
@@ -2993,7 +2993,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/ksOBF-T5LrA",
     metacritic: 85,
     metacriticUsuarios: 7.9,
-    metacriticVotos: 105,
+    metacriticVotos: 107,
     critica: "La comparación con XCOM aparece en todas las reseñas, y el veredicto es que aguanta: un juego de tácticas por turnos hecho en serio, no una licencia pegada encima de un género. Lo más elogiado, sin embargo, es lo que menos se esperaba: la historia. Un escuadrón sin usuarios de la Fuerza, personajes que caen bien y una puesta cinematográfica que varios comparan con Andor y Rogue One. Los reparos son parejos y ninguno es de fondo: arranca lento, tiene problemas técnicos —sobre todo en PC— y no reinventa el género. La reseña más dura le critica lo contrario que el resto: que el envoltorio Star Wars es lo menos inspirado del juego.",
     noticias: [
       {
@@ -5928,7 +5928,7 @@ const JUEGOS = [
     desarrollador: "BLACKMILL GAMES",
     descripcion: "Desembarcás en las playas de Galípoli para pelear batallas por objetivos con cincuenta jugadores en los frentes otomanos. Guerra de trincheras y desierto en el shooter más inmersivo de la Primera Guerra Mundial.",
     trailer: "https://youtube.com/embed/hlnSz-JPiBk",
-    metacritic: 82,
+    metacritic: 83,
     metacriticUsuarios: 7.1,
     metacriticVotos: 9,
     critica: "Con pocas reseñas pero muy parejas hacia arriba. Todas destacan lo mismo: es un shooter de la Primera Guerra que se anima a un frente que casi nadie tocó, el otomano, y que va a contramano de la moda —lento, áspero, de trinchera, con armas de época y donde sin equipo no se hace nada—. El trabajo histórico aparece elogiado en todas. La nota más baja, que igual es buena, valora el cuidado del diseño por encima del resultado.",
