@@ -436,6 +436,7 @@ def generar(j, juegos):
       <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
       <nav class="nav">
         <a href="/">INICIO</a>
+        <a href="/recomendados">RECOMENDADOS</a>
         <a href="/noticias">NOTICIAS</a>
         <a href="/ps5">PS5</a>
         <a href="/xbox">XBOX</a>

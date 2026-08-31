@@ -41,6 +41,8 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/verificar-duplicados.py  Juegos cargados dos veces con id distinto
+├── datos/recomendados.js       La selección del mes, elegida a mano
+├── scripts/generar-recomendados.py  Genera recomendados.html
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
 ├── scripts/generar-imagenes-redes.py  Regenera el avatar y la portada de los perfiles
@@ -626,6 +628,29 @@ generadores sola, así que esto sólo hace falta en una edición suelta.
   no cambia nada de lo que se ve en la página, y si entrara en la huella el día que se agregó
   el campo Google habría leído que las 304 URLs cambiaron a la vez.
 
+### Recomendados del mes (`/recomendados`, desde el 31/08/2026)
+
+La selección de lo que vale la pena de cada mes, **elegida a mano**. Vive en
+`datos/recomendados.js` y la arma `scripts/generar-recomendados.py`.
+
+**Por qué no la calcula un script:** el ranking ordena por puntaje de Metacritic y sólo
+muestra juegos ya lanzados, así que del mes que arranca no puede decir nada — y es justo del
+mes que arranca de lo que la gente quiere que le digan algo. Con 106 juegos en septiembre de
+2026, una lista por fecha no ayuda a decidir qué mirar. Si se pudiera calcular, ya lo haría
+el ranking.
+
+**Lo único que justifica la página es el texto.** Sin la línea de por qué está cada juego, son
+doce carátulas que ya están en el calendario. Los datos duros —carátula, fecha, plataformas—
+se leen de `datos/juegos.js`, así que no hay nada duplicado y un retraso se refleja solo.
+
+**Al cambiar de mes** se arma la lista nueva y se actualiza el campo `mes`. Va en la rutina
+mensual. Dos avisos que imprime el generador y conviene mirar:
+
+- si un recomendado ya no sale en el mes de la lista (se retrasó), lo dice — y eso **no se ve
+  mirando la página**, porque la tarjeta sigue igual de prolija con la fecha nueva;
+- si la selección quedó vieja, la página lo dice en vez de hacerla pasar por actual.
+  Adelantarse **no** es un problema: a fin de agosto la de septiembre ya tiene que estar.
+
 ## Difusión: RSS y datos abiertos
 
 Sin redes sociales, la estrategia es que otros encuentren y enlacen el sitio:
@@ -1046,6 +1071,7 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 | **Que esas URLs sigan vivas** | — | **Semanal, paso 9:** `python3 scripts/verificar-enlaces.py` |
 | **Que un juego dado por lanzado haya salido** | — | **Semanal, paso 8 bis:** `python3 scripts/verificar-lanzados.py` |
 | **Que un juego no esté cargado dos veces** | — | **Diaria, automática** (`verificar-duplicados.py` dentro de `actualizar.py`) |
+| **Recomendados del mes** (`datos/recomendados.js`) | — | **Mensual:** armar la lista del mes que entra |
 | `duracion` (HLTB) | Mensual, paso 10 | Mensual, paso 10 (recorre todos, no solo los nuevos) |
 | `descripcion`, `genero`, `desarrollador` | Semanal / Mensual, al cargar | — (no se desactualizan) |
 | Datos estructurados del trailer | — | Diaria, automática (`cargar-meta-trailers.py`) |
@@ -1085,14 +1111,6 @@ y abrir http://localhost:8080
   puntaje, así que tampoco toca el ranking. La decisión sobre filtros y ranking sigue
   pendiente pero no está bloqueando nada: cuando las fuentes empiecen a poblar 2027 va a
   haber tiempo de sobra, y conviene tomarla antes de cargar la primera tanda.
-
-- **"Recomendados del mes".** Una selección de lo que vale la pena del mes, que hoy no
-  existe: el sitio ordena por fecha y por puntaje, pero no dice qué mirar. Lo que hay que
-  decidir antes de programar nada es **de dónde sale la selección**. Con puntaje de
-  Metacritic solo no alcanza: el mes en curso son lanzamientos futuros y todavía no tienen
-  puntaje, así que lo que se destaca del mes que viene es necesariamente criterio propio.
-  Posible corte: los que ya salieron se ordenan por puntaje, y los que faltan se eligen a
-  mano y se marcan como tales. Cuidado con que no termine siendo el ranking con otro nombre.
 
 - **Repensar el ranking para 2027.** Hoy el ranking es una lista por puntaje de Metacritic
   sobre todo el calendario, que son 360 juegos de un solo año. Cuando entre 2027 empiezan a

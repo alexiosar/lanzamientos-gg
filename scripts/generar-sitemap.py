@@ -91,6 +91,13 @@ noticias = RAIZ / "noticias.html"
 urls.append(url("/noticias", noticias.read_text(encoding="utf-8") if noticias.exists() else "noticias",
                 "daily", "0.8"))
 
+# recomendados cambia una vez por mes, pero es contenido editorial y no una página fija
+# como /acerca: se le da prioridad de página de contenido.
+recomendados = RAIZ / "recomendados.html"
+urls.append(url("/recomendados",
+                recomendados.read_text(encoding="utf-8") if recomendados.exists() else "recomendados",
+                "monthly", "0.8"))
+
 for pagina in ["acerca", "api", "widget", "privacidad", "terminos", "archivo"]:
     archivo = RAIZ / f"{pagina}.html"
     contenido = archivo.read_text(encoding="utf-8") if archivo.exists() else pagina
