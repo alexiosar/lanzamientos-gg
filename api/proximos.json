@@ -2,60 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-08-31T21:11:23+00:00",
+ "generado": "2026-09-01T15:17:00+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-08-31",
- "hasta": "2026-09-30",
- "total": 91,
+ "desde": "2026-09-01",
+ "hasta": "2026-10-01",
+ "total": 96,
  "juegos": [
-  {
-   "id": "lady-death-demonicron",
-   "titulo": "LADY DEATH DEMONICRON",
-   "fecha": "2026-08-31",
-   "plataformas": [
-    "PS4",
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "HACK AND SLASH",
-    "COOP"
-   ],
-   "desarrollador": "ART OF PLAY INTERACTIVE",
-   "descripcion": "Hack and slash cooperativo de scroll lateral basado en el cómic Lady Death: 15 niveles de espadazos, magia y demonios para rebanar solo o de a dos.",
-   "trailer": "https://youtube.com/embed/N5RWg98FPpA",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954890/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-21",
-   "url": "https://lanzamientos.lat/juegos/lady-death-demonicron"
-  },
-  {
-   "id": "serious-sam-shatterverse",
-   "titulo": "SERIOUS SAM: SHATTERVERSE",
-   "fecha": "2026-08-31",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "FPS",
-    "ACCION",
-    "COOP",
-    "ROGUELIKE"
-   ],
-   "desarrollador": "BEHAVIOUR INTERACTIVE INC.",
-   "descripcion": "Serious Sam: Shatterverse es un roguelite FPS cooperativo de 1 a 5 jugadores. Arrasa a tu paso, acumula ventajas, cambia las reglas con modificadores y caza a las fuerzas letales de Mental. Cae rápido. Vuelve más fuerte.",
-   "trailer": "https://youtube.com/embed/H8QYZtub3Wo",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobw5w.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/serious-sam-shatterverse"
-  },
   {
    "id": "crimson-moon",
    "titulo": "CRIMSON MOON",
@@ -2270,6 +2223,176 @@
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/kong-survivor-instinct"
+  },
+  {
+   "id": "dont-fret",
+   "titulo": "DON'T FRET",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "HORROR",
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "SCARY KID STUDIOS",
+   "descripcion": "Sos una guitarra con conciencia atrapada en una escuela de música que se volvió pesadilla. Hay que esconderse, distraer a lo que anda suelto y resolver puzzles musicales para ir juntando los pedazos de una memoria rota y entender qué pasó ahí adentro.",
+   "trailer": "https://youtube.com/embed/H1yn3lkikFQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2716830/library_600x900.jpg",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/dont-fret"
+  },
+  {
+   "id": "retrospace",
+   "titulo": "RETROSPACE",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "HORROR",
+    "RPG"
+   ],
+   "desarrollador": "THE WILD GENTLEMEN",
+   "descripcion": "Terror espacial con estética de discoteca setentosa: una estación que se está yendo adentro de un agujero negro, criaturas raras, saltos en el tiempo y bigotes. Se puede jugar infiltrándose sin que nadie te vea o de frente como un mutante, y el juego cambia bastante según cuál de las dos elijas.",
+   "trailer": "https://youtube.com/embed/V5lQxxiH9As",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067820/library_600x900.jpg",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/retrospace"
+  },
+  {
+   "id": "end-of-abyss",
+   "titulo": "END OF ABYSS",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "HORROR"
+   ],
+   "desarrollador": "SECTION 9 INTERACTIVE",
+   "descripcion": "Una aventura de acción y terror de ciencia ficción, hecha a mano con escenarios de plastilina y animación cuadro por cuadro. Publica Epic Games y sale directo en PS5 y Xbox, con las reservas ya abiertas a treinta dólares.",
+   "trailer": "https://youtube.com/embed/z1WYsu9ApLI",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1019/d3ddabf72e33c008f15051439de67eb4d99032c0aedf8bb1.jpg?w=600&thumb=false",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/end-of-abyss"
+  },
+  {
+   "id": "rayman-legends-retold",
+   "titulo": "RAYMAN LEGENDS RETOLD",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "XBOX",
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "CASUAL"
+   ],
+   "desarrollador": "UBISOFT",
+   "descripcion": "Sumérgete en la audaz versión renovada del apreciado juego de plataformas, con nuevos gráficos y una historia reinterpretada. ¡Juega en solitario o en modo cooperativo local con hasta cuatro jugadores, explora un misterioso reino nuevo, disfruta de los nuevos escenarios musicales y mucho más!",
+   "trailer": "https://youtube.com/embed/2_7BQ9hLGkk",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5tb.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/rayman-legends-retold"
+  },
+  {
+   "id": "dynasty-warriors-3-complete-edition-remastered",
+   "titulo": "DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED",
+   "duracion": "≈ 7 h (historia) · 75 h (completo)",
+   "fecha": "2026-10-01",
+   "relanzamiento": "Remake del original de PS2 (2001)",
+   "plataformas": [
+    "SWITCH",
+    "XBOX",
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "KOEI TECMO GAMES CO., LTD.",
+   "descripcion": "Un guerrero que vale por mil, reforjado. Un remake de DYNASTY WARRIORS 3 y DYNASTY WARRIORS 3: Xtreme Legends con gráficos modernos y una acción aún más intensa.",
+   "trailer": "https://youtube.com/embed/UTVVw9fsHVA",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/39e6aeae09daf02e5005b48a5ce309de.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/dynasty-warriors-3-complete-edition-remastered"
+  },
+  {
+   "id": "octopath-traveler-i-ii-bundle",
+   "titulo": "OCTOPATH TRAVELER I + II BUNDLE",
+   "fecha": "2026-10-01",
+   "relanzamiento": "Ambos originales en Switch, PS4/5, Xbox y PC desde 2018 y 2023",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "AVENTURA"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "Dos RPG HD-2D del Team Asano de Square Enix en un solo pack para Switch 2: los aclamados Octopath Traveler y su secuela, cada uno con sus ocho protagonistas y sus historias entrelazadas.",
+   "trailer": "https://youtube.com/embed/vMH8Zve2qAc",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa302.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/octopath-traveler-i-ii-bundle"
+  },
+  {
+   "id": "ghost-of-yotei-complete-edition",
+   "titulo": "GHOST OF YOTEI: EDICIÓN COMPLETA",
+   "relanzamiento": "El juego base salió en PS5 en octubre de 2025",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "SUCKER PUNCH",
+   "descripcion": "La edición completa del juego de Sucker Punch reúne la aventura original de Atsu con todo lo que se le sumó después. Trae la expansión narrativa Echoes of Sekigahara, centrada en el pasado de la protagonista, y Most Wanted, un modo de supervivencia para un jugador con estructura de roguelike. Sale justo el día que el juego base cumple un año.",
+   "trailer": "https://youtube.com/embed/2bQrrWCRkMY",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2723/890df32c227f619c5bd80e9f34ba2be53d0fea4b1615adee.png?w=600&thumb=false",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-13",
+   "url": "https://lanzamientos.lat/juegos/ghost-of-yotei-complete-edition",
+   "noticias": [
+    {
+     "fecha": "2026-08-12",
+     "titulo": "SALE EL 1 DE OCTUBRE, EL DÍA QUE EL ORIGINAL CUMPLE UN AÑO",
+     "texto": "Cuesta 69,99 euros, y quien ya tenga el juego base puede pasarse por 14,99. Ese mismo día llega además una actualización gratuita para todos los jugadores, tengan o no la edición completa."
+    }
+   ]
   }
  ]
 }

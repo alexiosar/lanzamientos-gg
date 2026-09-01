@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -132,6 +133,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">76 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('aggelos-2')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -141,6 +147,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">El acuerdo es que hace bien lo difícil: se siente a metroidvania de los viejos sin sentirse viejo. Se elogian el pixel art de 16 bits, la curva de dificultad y cómo va soltando habilidades nuevas sin explicarlas de más. La reseña más dura no discute nada de eso y apunta a otra cosa: el mapa es poco intuitivo y faltan comodidades que hoy se dan por sentadas.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-01</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 76</span>
+          </div>
+          <p class="noticia-texto">La secuela convence a la prensa por lo mismo que el original: es un metroidvania que se siente a los de antes sin sentirse viejo. Se elogian el pixel art de 16 bits y la curva de dificultad. El reparo que aparece es el mapa, poco intuitivo, y la falta de comodidades que hoy se dan por sentadas.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Los dioses de la luz están a punto de perder la gran batalla contra el Ejército de la Oscuridad, y el Aggelos debe aprender a aceptar su lado oscuro. Explora dos reinos opuestos repletos de secretos, puzles e intensos combates 2D en este juego de plataformas y acción.</p>

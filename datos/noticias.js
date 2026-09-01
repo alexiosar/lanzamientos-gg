@@ -50,6 +50,16 @@
 
 const NOTICIAS = [
   {
+    id: "konami-press-start-3-septiembre-2026",
+    fecha: "2026-09-01",
+    categoria: "EVENTOS",
+    titulo: "KONAMI TAMBIÉN TRANSMITE EL 3, CON CASTLEVANIA Y SILENT HILL",
+    texto: "El mismo día que los dos State of Play, Konami hace su propio Press Start. Muestra tres juegos y dos están en el calendario: Castlevania: Belmont's Curse, que sale el 15 de octubre, y Silent Hill: Townfall, que sale el 24 de septiembre. El tercero es Rev. NOiR. No confirmamos la hora porque la fuente no aclara la zona horaria; el enlace de abajo tiene el detalle. Jueves cargado: si va a moverse alguna fecha del último trimestre, es probable que se mueva ese día.",
+    fuente: "https://www.gematsu.com/2026/08/konami-press-start-live-stream-set-for-september-3-featuring-castlevania-belmonts-curse-silent-hill-townfall-and-rev-noir",
+    juegos: ["castlevania-belmonts-curse", "silent-hill-townfall"]
+  },
+
+  {
     id: "state-of-play-3-septiembre-2026",
     fecha: "2026-08-31",
     categoria: "EVENTOS",

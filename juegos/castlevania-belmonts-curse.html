@@ -43,6 +43,15 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -141,6 +150,16 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-01</span>
+            <span class="noticia-titulo">▸ KONAMI TAMBIÉN TRANSMITE EL 3, CON CASTLEVANIA Y SILENT HILL</span><span class="noticia-cat cat-eventos">EVENTOS</span>
+          </div>
+          <p class="noticia-texto">El mismo día que los dos State of Play, Konami hace su propio Press Start. Muestra tres juegos y dos están en el calendario: Castlevania: Belmont&#x27;s Curse, que sale el 15 de octubre, y Silent Hill: Townfall, que sale el 24 de septiembre. El tercero es Rev. NOiR. No confirmamos la hora porque la fuente no aclara la zona horaria; el enlace de abajo tiene el detalle. Jueves cargado: si va a moverse alguna fecha del último trimestre, es probable que se mueva ese día.</p><a class="noticia-fuente" href="https://www.gematsu.com/2026/08/konami-press-start-live-stream-set-for-september-3-featuring-castlevania-belmonts-curse-silent-hill-townfall-and-rev-noir" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">La maldición carmesí: ¿un futuro negro o brillante? La historia continúa 23 años después de Castlevania Dracula&#x27;s Curse. Sigue a Rose Belmont en un flamante título de acción y exploración 2D de KONAMI, Evil Empire y Motion Twin.</p>

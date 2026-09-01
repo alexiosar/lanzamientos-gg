@@ -15,6 +15,7 @@ una semana son ruido, los de un mes ya dicen algo.
 |---|---|---|---|---|---|---|---|---|
 | 29/07/2026 | 31 | 183 | 176 | 63 | 0 | — | — | 246 |
 | 01/08/2026 | 31 | 183 | 176 | 140 | 0 | 100 | 300 | 291 |
+| 01/09/2026 | — | — | — | — | 30 | — | — | 369 |
 
 ## Cómo leerlo
 
@@ -60,3 +61,10 @@ Ninguno de los dos hace que Google indexe más páginas de golpe.
 | 01/08/2026 | Julio se archivó: la portada arranca en agosto |
 | 03/08/2026 | `lastmod` real por URL en el sitemap: Google puede distinguir qué páginas cambiaron de verdad en vez de tratar las 302 como iguales |
 | 03/08/2026 | **Rastreadores de IA desbloqueados.** Cloudflare inyectaba un `robots.txt` propio que bloqueaba GPTBot, ClaudeBot, Google-Extended, CCBot y otros. Se desactivó *Managed robots.txt* en Security → Settings → AI Crawl Control. No afectaba la indexación normal de Google, pero impedía que el sitio fuera fuente en respuestas de IA, incluidas las de Google |
+| 01/09/2026 | `/recomendados` publicada: la selección del mes elegida a mano, en el sitemap y en la navegación |
+
+**01/09/2026 — fila incompleta a propósito.** Los clics salen del mail de Search Console
+("30 clics en 28 días", recibido el 31/08) y los juegos, del calendario. Las impresiones y
+los números de indexación **no se pudieron leer**: `search.google.com` está bloqueado para
+el navegador de la app, así que Search Console se consulta desde Gmail y por ahí sólo llegan
+los avisos, no los números. Completar esas celdas a mano entrando desde el navegador propio.
