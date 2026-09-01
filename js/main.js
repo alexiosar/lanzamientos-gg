@@ -519,14 +519,28 @@ function renderCalendario() {
   const todosLosDias = mesesOrdenados.flatMap(m => Object.keys(agrupado[m])).sort();
   const proximoKey = todosLosDias.find(d => d > hoyKey) || null;
 
-  // juego DESTACADO: el próximo lanzamiento notable (con noticias); si no hay, el próximo con carátula.
-  // solo en la portada y sin filtros activos
+  // juego DESTACADO: el próximo de los recomendados del mes. Solo en la portada y sin
+  // filtros activos.
+  //
+  // Antes era "el próximo que tenga noticias", y eso no medía lo que parecía. Tener
+  // noticias habla de cobertura previa, no de que el juego valga la pena: el 01/09/2026
+  // el destacado era Avatar Legends en Xbox —el port de un juego de julio, que arrastra
+  // la noticia de aquel lanzamiento— por delante de cuatro recomendados que salían antes.
+  // Un banner que dice "PRÓXIMO DESTACADO" está afirmando algo, y conviene que lo afirme
+  // la lista que alguien eligió a mano y no un efecto secundario del archivo de noticias.
+  //
+  // Si los recomendados del mes ya salieron todos, o la página no cargó la lista, se cae
+  // a la regla vieja: sigue siendo mejor que nada.
   let destacadoHtml = "";
   let idDestacado = null;
   const sinFiltros = filtroActivo === "TODAS" && filtroGenero === "TODOS" && filtroTexto === "";
   if (!MODO_ARCHIVO && sinFiltros) {
     const futuros = JUEGOS.filter(j => !j.estimado && j.fecha > hoyKey).sort((a, b) => a.fecha.localeCompare(b.fecha));
-    const dest = futuros.find(j => j.noticias && j.imagen) || futuros.find(j => j.imagen);
+    const recomendados = (typeof RECOMENDADOS !== "undefined" && RECOMENDADOS.juegos)
+      ? new Set(RECOMENDADOS.juegos.map(r => r.id)) : new Set();
+    const dest = futuros.find(j => recomendados.has(j.id) && j.imagen)
+      || futuros.find(j => j.noticias && j.imagen)
+      || futuros.find(j => j.imagen);
     if (dest) {
       idDestacado = dest.id;
       const f = parseFecha(dest.fecha);

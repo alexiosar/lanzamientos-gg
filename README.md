@@ -630,6 +630,16 @@ generadores sola, así que esto sólo hace falta en una edición suelta.
 
 ### Recomendados del mes (`/recomendados`, desde el 31/08/2026)
 
+**La lista también manda el "PRÓXIMO DESTACADO" de la portada** (desde el 01/09/2026). Antes
+el destacado era *el próximo lanzamiento que tuviera noticias*, y eso no medía lo que
+parecía: tener noticias habla de cobertura previa, no de que el juego valga la pena. El
+01/09 el destacado era Avatar Legends en Xbox —el port de un juego de julio, que arrastra la
+noticia de aquel lanzamiento— por delante de cuatro recomendados que salían antes. Un banner
+que dice "PRÓXIMO DESTACADO" está afirmando algo, y ahora lo afirma la lista elegida a mano.
+
+Por eso `index.html` carga `datos/recomendados.js`. Si la lista no está cargada, o si los
+recomendados del mes ya salieron todos, se cae a la regla vieja.
+
 La selección de lo que vale la pena de cada mes, **elegida a mano**. Vive en
 `datos/recomendados.js` y la arma `scripts/generar-recomendados.py`.
 
