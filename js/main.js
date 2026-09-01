@@ -688,6 +688,7 @@ function renderCalendario() {
         </div>
         <div class="mes-contenido ${abierto ? 'visible' : ''}" id="contenido-${mesKey}">
           ${diasHtml}${estimadosHtml}
+          <a class="mes-ver-todos" href="/${MESES_ES[month - 1].toLowerCase()}-${year}">VER TODOS LOS JUEGOS DE ${nombreMes} ▸</a>
         </div>
       </div>
     `;

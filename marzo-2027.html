@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Todos los juegos que salen en marzo de 2027 para PS5, PS4, Xbox, Switch 2 y Switch: 1 lanzamientos con fecha, plataformas y puntajes.">
+  <title>Juegos que salen en Marzo de 2027 — LANZAMIENTOS.LAT</title>
+  <link rel="canonical" href="https://lanzamientos.lat/marzo-2027">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LANZAMIENTOS.LAT">
+  <meta property="og:title" content="Juegos que salen en Marzo de 2027">
+  <meta property="og:description" content="Todos los juegos que salen en marzo de 2027 para PS5, PS4, Xbox, Switch 2 y Switch: 1 lanzamientos con fecha, plataformas y puntajes.">
+  <meta property="og:url" content="https://lanzamientos.lat/marzo-2027">
+  <meta property="og:image" content="https://lanzamientos.lat/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .pagina-titulo  { font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }
+    .pagina-sub     { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .mes-lista      { max-width: 760px; }
+    .mes-duracion   { font-size: 0.625rem; color: var(--gris-5); letter-spacing: 1px; }
+    .mes-nav        { display: flex; justify-content: space-between; gap: 1rem; margin: 2rem 0 0;
+                      max-width: 760px; font-size: 0.6875rem; letter-spacing: 2px; }
+    .mes-nav a      { color: var(--gris-5); }
+    .mes-nav a:hover { color: var(--acento); }
+    .mes-nav-vacio  { flex: 1; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor">
+      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
+      <a href="/" class="site-logo">LANZAMIENTOS.LAT</a>
+      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
+      <nav class="nav">
+        <a href="/">INICIO</a>
+        <a href="/recomendados">RECOMENDADOS</a>
+        <a href="/noticias">NOTICIAS</a>
+        <a href="/ps5">PS5</a>
+        <a href="/xbox">XBOX</a>
+        <a href="/switch-2">SWITCH 2</a>
+        <a href="/switch">SWITCH</a>
+        <a href="/ps4">PS4</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
+    <h1 class="pagina-titulo">JUEGOS QUE SALEN EN MARZO DE 2027</h1>
+    <p class="pagina-sub">1 JUEGO</p>
+
+    <div class="mes-lista">
+      <div class="dia-label" style="margin-top:0.75rem;">JUE <span>04 MAR</span></div>
+      <a class="fila-plat" href="/juegos/trine-6-together-in-time">
+        <img class="mini-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6o3.jpg" alt="" loading="lazy" decoding="async">
+        <span class="juego-nombre">TRINE 6: TOGETHER IN TIME</span>
+        
+        <div class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-XBOX">XBOX</span></div>
+      </a>
+    </div>
+
+    <div class="mes-nav"><a href="/diciembre-2026">◀ Diciembre</a><span class="mes-nav-vacio"></span></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
+      <span>LANZAMIENTOS.LAT &copy; 2026</span>
+      <span class="footer-links"><a href="/acerca">ACERCA DE</a> · <a href="/api">API</a> · <a href="/widget">WIDGET</a> · <a href="/privacidad">PRIVACIDAD</a> · <a href="/terminos">TÉRMINOS</a> · <a href="/rss.xml">RSS</a></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTema() {
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }
+    function aplicarTema(claro) {
+      document.documentElement.classList.toggle("tema-claro", claro);
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+    }
+    const temaGuardado = localStorage.getItem("tema");
+    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
+    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
+    sistemaClaro.addEventListener("change", ev => {
+      if (!localStorage.getItem("tema")) aplicarTema(ev.matches);
+    });
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");
+  </script>
+</body>
+</html>

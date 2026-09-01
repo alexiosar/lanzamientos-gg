@@ -2352,7 +2352,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/xfzapBQssa0",
     metacritic: 91,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 276,
+    metacriticVotos: 277,
     critica: "El acuerdo es casi total: lo que hace especial a Big Walk no son sus puzzles sino las conversaciones que obliga a tener. Casi todas las reseñas cuentan lo mismo, que los mejores momentos son los que el juego no programó, los que salen de coordinarse mal con un amigo, y varias lo emparentan con Untitled Goose Game, del mismo estudio. El reparo, cuando aparece, es el ritmo: la isla es grande y hay tramos largos donde no pasa nada, algo que se siente más de a dos que en grupo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
     noticias: [
@@ -2971,8 +2971,8 @@ const JUEGOS = [
     descripcion: "Ponte en la piel de Sofía y vive la historia previa a la del galardonado A Plague Tale. Dirígete a la Isla del Minotauro, supera a tus enemigos, descubre antiguos secretos y enfréntate a una criatura mítica en el corazón de una terrible maldición.",
     trailer: "https://youtube.com/embed/6lCzpRkoFjw",
     metacritic: 78,
-    metacriticUsuarios: 8.1,
-    metacriticVotos: 289,
+    metacriticUsuarios: 8.0,
+    metacriticVotos: 293,
     critica: "Es el más discutido de la semana: hay reseñas de 95 y de 60 describiendo el mismo juego. Todas coinciden en dos cosas. Que la serie cambió de género —menos sigilo y menos ratas, más acción y aventura al estilo Uncharted— y que en lo visual y lo sonoro está a la altura, con la banda sonora de Olivier Derivière llevándose elogios aparte. La discusión es si el cambio le sienta bien. Los que lo bajan repiten tres reparos: arranca muy lento, el combate se vuelve repetitivo y hay problemas de rendimiento. Sophia, la protagonista nueva, gusta casi por unanimidad.",
     imagen: "https://cdn2.steamgriddb.com/grid/19488d75fad434aed855298dad9d9d76.png",
     noticias: [

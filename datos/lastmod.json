@@ -1,11 +1,15 @@
 {
  "/": {
-  "hash": "a7c3676ae1fe16fd",
+  "hash": "a0fb340117e95e9e",
   "lastmod": "2026-09-01"
  },
  "/acerca": {
   "hash": "067cec5772b87048",
   "lastmod": "2026-08-31"
+ },
+ "/agosto-2026": {
+  "hash": "8906178c57e4adb0",
+  "lastmod": "2026-09-01"
  },
  "/api": {
   "hash": "ba8eb3127c570ac5",
@@ -14,6 +18,10 @@
  "/archivo": {
   "hash": "9f9753da66d63c5a",
   "lastmod": "2026-08-31"
+ },
+ "/diciembre-2026": {
+  "hash": "18f7e16eac46695a",
+  "lastmod": "2026-09-01"
  },
  "/juegos/007-first-light": {
   "hash": "72a63ad36d88484a",
@@ -132,7 +140,7 @@
   "lastmod": "2026-08-31"
  },
  "/juegos/big-walk": {
-  "hash": "a2a44c12b4a721f1",
+  "hash": "7614fa4aa5311564",
   "lastmod": "2026-09-01"
  },
  "/juegos/bioeden": {
@@ -1020,7 +1028,7 @@
   "lastmod": "2026-08-31"
  },
  "/juegos/resonance-a-plague-tale-legacy": {
-  "hash": "24aca28f24532da9",
+  "hash": "bb65e62553887e9f",
   "lastmod": "2026-09-01"
  },
  "/juegos/retrospace": {
@@ -1491,8 +1499,28 @@
   "hash": "70a3165f4d8257b1",
   "lastmod": "2026-08-31"
  },
+ "/julio-2026": {
+  "hash": "cfd6c08979704a90",
+  "lastmod": "2026-09-01"
+ },
+ "/junio-2026": {
+  "hash": "4557d67a4e439674",
+  "lastmod": "2026-09-01"
+ },
+ "/marzo-2027": {
+  "hash": "a2aca93ee3618e0f",
+  "lastmod": "2026-09-01"
+ },
  "/noticias": {
   "hash": "665b0240d8c7c2ad",
+  "lastmod": "2026-09-01"
+ },
+ "/noviembre-2026": {
+  "hash": "d9cb7f1c3bbc3f2e",
+  "lastmod": "2026-09-01"
+ },
+ "/octubre-2026": {
+  "hash": "486312dc71758496",
   "lastmod": "2026-09-01"
  },
  "/privacidad": {
@@ -1500,23 +1528,27 @@
   "lastmod": "2026-08-31"
  },
  "/ps4": {
-  "hash": "a7c3676ae1fe16fd",
+  "hash": "a0fb340117e95e9e",
   "lastmod": "2026-09-01"
  },
  "/ps5": {
-  "hash": "a7c3676ae1fe16fd",
+  "hash": "a0fb340117e95e9e",
   "lastmod": "2026-09-01"
  },
  "/recomendados": {
   "hash": "4f4be5e412e6a477",
   "lastmod": "2026-08-31"
  },
+ "/septiembre-2026": {
+  "hash": "ba1049ac5113a1d0",
+  "lastmod": "2026-09-01"
+ },
  "/switch": {
-  "hash": "a7c3676ae1fe16fd",
+  "hash": "a0fb340117e95e9e",
   "lastmod": "2026-09-01"
  },
  "/switch-2": {
-  "hash": "a7c3676ae1fe16fd",
+  "hash": "a0fb340117e95e9e",
   "lastmod": "2026-09-01"
  },
  "/terminos": {
@@ -1528,7 +1560,7 @@
   "lastmod": "2026-08-31"
  },
  "/xbox": {
-  "hash": "a7c3676ae1fe16fd",
+  "hash": "a0fb340117e95e9e",
   "lastmod": "2026-09-01"
  }
 }

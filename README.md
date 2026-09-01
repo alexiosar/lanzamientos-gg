@@ -43,6 +43,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/verificar-duplicados.py  Juegos cargados dos veces con id distinto
 ├── datos/recomendados.js       La selección del mes, elegida a mano
 ├── scripts/generar-recomendados.py  Genera recomendados.html
+├── scripts/generar-meses.py    Genera una página por mes (/septiembre-2026…)
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
 ├── scripts/generar-imagenes-redes.py  Regenera el avatar y la portada de los perfiles
@@ -627,6 +628,31 @@ generadores sola, así que esto sólo hace falta en una edición suelta.
   El campo `alta` queda fuera de la huella con la que `generar-sitemap.py` calcula `lastmod`:
   no cambia nada de lo que se ve en la página, y si entrara en la huella el día que se agregó
   el campo Google habría leído que las 304 URLs cambiaron a la vez.
+
+### Una página por mes (`/septiembre-2026`, desde el 01/09/2026)
+
+**Por qué existen.** Al 01/09/2026 el sitio tenía 361 páginas indexadas y 4.870 impresiones,
+pero 32 clics: posición media 28, o sea que aparece en la página 3 de resultados. Eso no se
+arregla con funciones nuevas sino con páginas que apunten a búsquedas donde la competencia
+sea flaca. *"Juegos que salen en septiembre de 2026"* es una de esas: existe, se repite doce
+veces por año y tenemos el dato verificado para contestarla. El sitio no tenía dónde
+recibirla.
+
+**No suman mantenimiento.** Salen enteras de `datos/juegos.js` y se regeneran con la rutina
+diaria: ningún campo nuevo que alguien tenga que llenar. Es la diferencia con la idea de los
+precios, que serían datos nuevos y envejecen en horas.
+
+Los meses pasados también se generan, y ese es el otro motivo: los juegos lanzados salen de
+la portada con sus puntajes y sus resúmenes de crítica, y hasta ahora nadie los miraba.
+
+**El enlace interno importa más que el sitemap.** Cada mes del calendario termina con *"ver
+todos los juegos de…"*. Sin eso Google las encontraría sólo por el sitemap, que es la forma
+más débil de descubrir una página.
+
+**Cuidado con el "mejor puntuado" del subtítulo:** se calcula sólo entre los ya lanzados. Un
+port trae el puntaje del original, así que sin ese filtro un mes futuro anunciaba un mejor
+puntuado que todavía no había salido — septiembre decía "Maestro con 93" el día que se
+generó. Es el mismo cuidado que ya tenían el ranking y el destacado.
 
 ### Recomendados del mes (`/recomendados`, desde el 31/08/2026)
 

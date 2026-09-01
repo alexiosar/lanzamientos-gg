@@ -91,6 +91,11 @@ noticias = RAIZ / "noticias.html"
 urls.append(url("/noticias", noticias.read_text(encoding="utf-8") if noticias.exists() else "noticias",
                 "daily", "0.8"))
 
+# Una página por mes. Cambian con el calendario, así que su huella es su propio HTML.
+# Prioridad de contenido: "juegos que salen en septiembre" es lo que se busca.
+for archivo in sorted(RAIZ.glob("*-20??.html")):
+    urls.append(url(f"/{archivo.stem}", archivo.read_text(encoding="utf-8"), "weekly", "0.8"))
+
 # recomendados cambia una vez por mes, pero es contenido editorial y no una página fija
 # como /acerca: se le da prioridad de página de contenido.
 recomendados = RAIZ / "recomendados.html"

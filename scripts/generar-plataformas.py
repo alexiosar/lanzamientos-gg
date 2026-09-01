@@ -130,9 +130,6 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
     .pagina-titulo {{ font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }}
     .pagina-sub    {{ font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 2rem; }}
     .mes-titulo    {{ display: flex; align-items: center; gap: 0.75rem; color: var(--acento); font-size: 0.875rem; letter-spacing: 3px; margin: 2rem 0 0.5rem; border-bottom: 1px solid var(--gris-2); padding-bottom: 0.5rem; font-weight: normal; }}
-    .fila-plat     {{ display: flex; align-items: center; gap: 0.75rem; padding: 6px 0.75rem; border-left: 2px solid transparent; transition: all 0.1s; flex-wrap: wrap; color: inherit; }}
-    .fila-plat:hover {{ border-left-color: var(--acento); background: rgba(160,160,255,0.05); color: inherit; }}
-    .fila-plat:hover .juego-nombre {{ color: var(--acento); }}
     .link-filtros  {{ display: block; text-align: center; color: var(--gris-5); font-size: 0.6875rem; letter-spacing: 2px; padding: 0.6rem 1rem; border: 1px dashed var(--gris-3); margin: 2rem 0; }}
     .link-filtros:hover {{ color: var(--acento); border-color: var(--acento); }}
   </style>
