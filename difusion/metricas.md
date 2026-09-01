@@ -15,7 +15,7 @@ una semana son ruido, los de un mes ya dicen algo.
 |---|---|---|---|---|---|---|---|---|
 | 29/07/2026 | 31 | 183 | 176 | 63 | 0 | — | — | 246 |
 | 01/08/2026 | 31 | 183 | 176 | 140 | 0 | 100 | 300 | 291 |
-| 01/09/2026 | — | — | — | — | 30 | — | — | 369 |
+| 01/09/2026 | 361 | 602 | 27 | 4.870 | 32 | 240 | 590 | 369 |
 
 ## Cómo leerlo
 
@@ -63,8 +63,37 @@ Ninguno de los dos hace que Google indexe más páginas de golpe.
 | 03/08/2026 | **Rastreadores de IA desbloqueados.** Cloudflare inyectaba un `robots.txt` propio que bloqueaba GPTBot, ClaudeBot, Google-Extended, CCBot y otros. Se desactivó *Managed robots.txt* en Security → Settings → AI Crawl Control. No afectaba la indexación normal de Google, pero impedía que el sitio fuera fuente en respuestas de IA, incluidas las de Google |
 | 01/09/2026 | `/recomendados` publicada: la selección del mes elegida a mano, en el sitemap y en la navegación |
 
-**01/09/2026 — fila incompleta a propósito.** Los clics salen del mail de Search Console
-("30 clics en 28 días", recibido el 31/08) y los juegos, del calendario. Las impresiones y
-los números de indexación **no se pudieron leer**: `search.google.com` está bloqueado para
-el navegador de la app, así que Search Console se consulta desde Gmail y por ahí sólo llegan
-los avisos, no los números. Completar esas celdas a mano entrando desde el navegador propio.
+## Agosto de 2026: el mes en que el sitio entró a Google
+
+Es el primer salto real desde que existe el registro, y conviene dejar dicho de qué está
+hecho antes de que el número se lea solo:
+
+| | 01/08 | 01/09 | |
+|---|---|---|---|
+| Indexadas | 31 | **361** | de un 12% del calendario a prácticamente todo |
+| Impresiones (28 d) | 140 | **4.870** | 35 veces más |
+| Clics (28 d) | 0 | **32** | |
+| Visitas (30 d) | 100 | 240 | |
+| Páginas vistas | 300 | 590 | |
+
+**El "602 sin indexar" asusta y casi todo es correcto.** Queda desarmado acá para no tener
+que investigarlo de nuevo cada mes:
+
+| Motivo | Páginas | Qué es |
+|---|---|---|
+| Página con redirección | 282 | Las variantes `.html` y con barra final de cada URL. Cloudflare las manda solas a la URL limpia. No salen de nuestro sitemap, que no tiene ninguna de las dos formas |
+| Excluida por `noindex` | 273 | El esquema viejo `/juegos/juego?id=X`. Esa plantilla lleva `noindex` a propósito desde que existen las fichas estáticas: Google está obedeciendo, no fallando |
+| Descubierta sin indexar | 27 | Cola normal de rastreo |
+| Rastreada sin indexar | 10 | Ídem |
+| No encontrada (404) | 5 | Las cinco fichas borradas en junio sin redirect. **Ya tienen 301 desde el 27/08**; el "Error" de validación es de la tanda vieja |
+| Error de redirección | 5 | No son nuestras: los doce redirects propios dan un solo salto y terminan en 200 (verificado el 01/09/2026) |
+
+**Lo único mejorable de esa lista** son los 282: Cloudflare responde esas redirecciones con
+**307, que es temporal**. Para canonicalizar, Google prefiere 301, y ante un 307 sigue
+volviendo a pedir la URL vieja — que es probablemente por qué ese número sube en vez de
+estabilizarse. No está claro que se pueda cambiar sin sacarle a Cloudflare el manejo
+automático de URLs limpias, así que queda como pendiente a evaluar y no como algo roto.
+
+**De dónde salieron estos números.** `search.google.com` está bloqueado para el navegador de
+la app, así que los pasó el usuario a mano desde el suyo. Por Gmail llegan los avisos de
+Search Console pero no las cifras.
