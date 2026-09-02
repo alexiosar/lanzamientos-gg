@@ -135,6 +135,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
 
 {plantilla.pie()}
 
+  <script src="/js/favoritos.js"></script>
   <script>
 {plantilla.script_tema()}
   </script>

@@ -167,6 +167,7 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado):
 
 {plantilla.pie()}
 
+  <script src="/js/favoritos.js"></script>
   <script>
 {plantilla.script_tema()}
   </script>

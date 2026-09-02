@@ -47,6 +47,12 @@ function favTiene(id) {
 // El huérfano NO se borra del almacenamiento a propósito: si juegos.js no cargó
 // (conexión cortada, bloqueador), JUEGOS no existe y podar acá le vaciaría la lista
 // a alguien por un problema de red. Se filtra al mostrar, que no rompe nada.
+//
+// Ese mismo caso pasa a propósito en las páginas que sólo necesitan el menú —las de
+// plataforma, las de mes, /acerca y compañía—: cargan este archivo (8 KB) pero no
+// datos/juegos.js (411 KB), que sería mucho peso sólo para validar un contador. Ahí el
+// número del menú es el de ids guardados, sin filtrar. La diferencia aparece únicamente
+// si un juego guardado salió del calendario, y es de uno o dos.
 function favIds() {
   const guardados = favLeer();
   if (typeof JUEGOS === "undefined" || !Array.isArray(JUEGOS)) return guardados;

@@ -219,6 +219,7 @@ def generar(items, juegos):
 
 {plantilla.pie()}
 
+  <script src="/js/favoritos.js"></script>
   <script>
 {plantilla.script_tema()}
   </script>
