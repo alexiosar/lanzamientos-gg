@@ -6,6 +6,51 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 **Dominio:** https://lanzamientos.lat
 **Contacto:** contacto@lanzamientos.lat (Email Routing de Cloudflare, reenvía a la casilla personal)
 
+## Índice
+
+<!-- Se mantiene a mano: no lo genera ningún script. Al agregar o renombrar un `##` o un
+     `###` hay que sumar o corregir su línea acá.
+
+     Las anclas son las que arma GitHub solo: minúsculas, sin puntuación, los espacios pasan
+     a guiones y **los acentos se conservan**. Ojo con dos casos que parecen erratas y no lo
+     son: lo que se borra deja su espacio, así que "Pendientes / ideas" da
+     `pendientes--ideas` y "con `${...}` en" da `con--en`, los dos con guión doble.
+
+     Para comprobarlas sin adivinar, se le pasan los encabezados a la API de GitHub y se leen
+     los id que devuelve:
+         grep -E '^#{2,3} ' README.md | grep -v '^## Índice' > /tmp/t.md
+         python3 -c "import json;print(json.dumps({'text':open('/tmp/t.md').read()}))" > /tmp/p.json
+         curl -s -X POST https://api.github.com/markdown --data @/tmp/p.json \
+           | grep -o 'id="user-content-[^"]*"'
+-->
+
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Cómo agregar un juego](#cómo-agregar-un-juego)
+  - [Fuentes de datos habituales](#fuentes-de-datos-habituales)
+  - [El resumen de la crítica (campo `critica`)](#el-resumen-de-la-crítica-campo-critica)
+  - [Carátulas (campo `imagen`)](#carátulas-campo-imagen)
+  - [Qué entra al calendario y qué no (regla decidida el 13/08/2026)](#qué-entra-al-calendario-y-qué-no-regla-decidida-el-13082026)
+  - [Un juego que sale en varias fechas (regla decidida el 01/08/2026)](#un-juego-que-sale-en-varias-fechas-regla-decidida-el-01082026)
+  - [Y el mismo juego cargado dos veces (regla decidida el 26/08/2026)](#y-el-mismo-juego-cargado-dos-veces-regla-decidida-el-26082026)
+  - [Si se borra o se renombra un juego, va un redirect](#si-se-borra-o-se-renombra-un-juego-va-un-redirect)
+  - [Después de CUALQUIER cambio en datos/juegos.js](#después-de-cualquier-cambio-en-datosjuegosjs)
+- [Funcionalidades](#funcionalidades)
+  - [Una página por mes (`/septiembre-2026`, desde el 01/09/2026)](#una-página-por-mes-septiembre-2026-desde-el-01092026)
+  - [Recomendados del mes (`/recomendados`, desde el 31/08/2026)](#recomendados-del-mes-recomendados-desde-el-31082026)
+  - [Mis juegos (`/mis-juegos`, desde el 02/09/2026)](#mis-juegos-mis-juegos-desde-el-02092026)
+- [Difusión: RSS y datos abiertos](#difusión-rss-y-datos-abiertos)
+- [SEO y redes](#seo-y-redes)
+  - [Los títulos de las fichas apuntan a la cola larga (decidido el 17/08/2026)](#los-títulos-de-las-fichas-apuntan-a-la-cola-larga-decidido-el-17082026)
+- [Leer datos/juegos.js se hace en un solo lugar (desde el 02/09/2026)](#leer-datosjuegosjs-se-hace-en-un-solo-lugar-desde-el-02092026)
+- [El menú y el pie se tocan en un solo lugar (desde el 02/09/2026)](#el-menú-y-el-pie-se-tocan-en-un-solo-lugar-desde-el-02092026)
+- [Nunca dejar URLs con `${...}` en el JavaScript](#nunca-dejar-urls-con--en-el-javascript)
+- [URLs limpias (importante)](#urls-limpias-importante)
+- [Deploy](#deploy)
+- [Mantenimiento](#mantenimiento)
+- [Desarrollo local](#desarrollo-local)
+- [Pendientes / ideas](#pendientes--ideas)
+  - [Ideas del usuario del 27/08/2026 (sin empezar)](#ideas-del-usuario-del-27082026-sin-empezar)
+
 ## Estructura del proyecto
 
 ```
