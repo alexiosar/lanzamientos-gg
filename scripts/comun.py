@@ -18,6 +18,30 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 
 
+def cargar_juegos():
+    """El array JUEGOS de datos/juegos.js, ya como lista de diccionarios.
+
+    Lo necesitan doce scripts y hasta el 02/09/2026 cada uno tenía su copia, en TRES
+    variantes distintas. Daban lo mismo con el archivo de hoy, pero no son equivalentes:
+    nueve cortaban con `.rstrip(";")` —o sea que se rompen si algún día se agrega algo
+    después del array, como el `module.exports` que sí tiene datos/recomendados.js— y dos
+    cortaban en el último `]`. Doce copias que sólo coinciden por casualidad son doce
+    formas de que un cambio de formato rompa la mitad de los scripts y la otra no, en
+    silencio.
+
+    Esta versión es más firme que las tres: se ancla en la declaración `const JUEGOS`, así
+    que no la confunde un `=` que aparezca antes en un comentario, y corta en el último `]`,
+    así que no la molesta lo que venga después.
+
+    El archivo es JavaScript, no JSON: las claves van sin comillas y hay que agregárselas.
+    Van siempre al principio de una línea, que es lo que hace seguro al reemplazo.
+    """
+    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
+    inicio = src.index("[", src.index("const JUEGOS"))
+    cuerpo = src[inicio:src.rindex("]") + 1]
+    return json.loads(re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M))
+
+
 def leer_noticias_propias():
     """Las de datos/noticias.js: PS Plus, Directs, cierres de estudios, rumores.
 

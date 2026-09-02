@@ -37,7 +37,12 @@ import ssl
 import time
 import unicodedata
 import urllib.request
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from comun import cargar_juegos
 
 RAIZ = Path(__file__).resolve().parent.parent
 ARCHIVO = RAIZ / "datos" / "juegos.js"
@@ -50,12 +55,6 @@ UMBRAL = 0.82
 # Juegos donde el dato de HLTB existe pero es engañoso y no se carga nunca.
 # Los MMO dan una "historia principal" de pocas horas que no representa nada.
 EXCLUIDOS = {"final-fantasy-xiv-online"}
-
-
-def cargar_juegos():
-    src = ARCHIVO.read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1].strip().rstrip(";")
-    return json.loads(re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M))
 
 
 def init():

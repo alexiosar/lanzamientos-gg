@@ -17,10 +17,7 @@ Salen tres opciones y se elige la que mejor quede ese día:
 """
 import argparse
 import datetime
-import json
-import re
 import sys
-import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -34,14 +31,7 @@ MESES_ES = ["enero", "febrero", "marzo", "abril", "mayo", "junio",
 TAGS = "#Videojuegos #Lanzamientos #Gaming"
 
 
-def cargar_juegos():
-    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1].strip().rstrip(";")
-    cuerpo = re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M)
-    return json.loads(cuerpo)
-
-
-from comun import PLATS, MINUSCULAS, SIGLAS, ROMANOS, ORDINAL, plat, plats, titulo, _sin_diacriticos
+from comun import MINUSCULAS, ORDINAL, PLATS, ROMANOS, SIGLAS, _sin_diacriticos, cargar_juegos, plat, plats, titulo
 
 
 def armar_lista(cabecera, lineas, link, resumen):

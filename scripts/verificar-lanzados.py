@@ -31,7 +31,12 @@ import re
 import ssl
 import time
 import urllib.request
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from comun import cargar_juegos
 
 RAIZ = Path(__file__).resolve().parent.parent
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -48,13 +53,6 @@ DIAS_SILENCIO = 21
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     return urllib.request.urlopen(req, timeout=20, context=CTX).read().decode("utf-8", "replace")
-
-
-def cargar_juegos():
-    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1].strip().rstrip(";")
-    cuerpo = re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M)
-    return json.loads(cuerpo)
 
 
 def appid(j):

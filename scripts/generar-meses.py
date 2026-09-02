@@ -23,12 +23,12 @@ Se regenera con la rutina diaria (scripts/actualizar.py lo invoca).
 """
 import datetime
 import html as html_mod
-import json
-import re
-from pathlib import Path
 import sys
+from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from comun import cargar_juegos
 
 import plantilla
 
@@ -37,13 +37,6 @@ DOMINIO = "https://lanzamientos.lat"
 MESES_ES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO",
             "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"]
 DIAS_ES = ["DOM", "LUN", "MAR", "MIE", "JUE", "VIE", "SAB"]
-
-
-def cargar_juegos():
-    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1]
-    cuerpo = cuerpo[:cuerpo.rindex("]") + 1].strip()
-    return json.loads(re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M))
 
 
 def e(t):

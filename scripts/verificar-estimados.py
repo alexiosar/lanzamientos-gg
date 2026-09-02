@@ -32,23 +32,19 @@ Uso (desde la raíz del proyecto):
     python3 scripts/verificar-estimados.py
 """
 import datetime
-import json
 import re
 import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from comun import cargar_juegos
 
 RAIZ = Path(__file__).resolve().parent.parent
 
 MESES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO",
          "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"]
 TRIMESTRES = {"PRIMER": (1, 3), "SEGUNDO": (4, 6), "TERCER": (7, 9), "CUARTO": (10, 12)}
-
-
-def cargar_juegos():
-    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1]
-    cuerpo = cuerpo[:cuerpo.rindex("]") + 1].strip()
-    return json.loads(re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M))
 
 
 def ventana(etiqueta):

@@ -46,6 +46,10 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from comun import cargar_juegos
+
 RAIZ = Path(__file__).resolve().parent.parent
 API = "https://api.igdb.com/v4"
 CTX = ssl.create_default_context()
@@ -86,13 +90,6 @@ def norm(t):
     t = unicodedata.normalize("NFD", t.lower())
     t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn")
     return re.sub(r"[^a-z0-9]", "", t)
-
-
-def cargar_juegos():
-    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1].strip().rstrip(";")
-    cuerpo = re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M)
-    return json.loads(cuerpo)
 
 
 def es_vertical(url):

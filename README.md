@@ -37,8 +37,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/cargar-meta-trailers.py  Fecha de subida de cada trailer (para el marcado de video)
 ├── datos/trailers-meta.json    Caché de esas fechas. **Commitearla**: si se pierde hay que
 │                               volver a bajar ~1 MB por trailer
-├── scripts/comun.py           Lo que comparten varios scripts (pasar títulos de MAYÚSCULAS
-│                               a minúsculas respetando siglas y números romanos)
+├── scripts/comun.py           Lo que comparten varios scripts: leer juegos.js y noticias.js,
+│                               y pasar títulos de MAYÚSCULAS a minúsculas respetando siglas
+│                               y números romanos. **cargar_juegos() se importa de acá**
 ├── scripts/plantilla.py        Cabecera, menú, pie y script de tema de los 5 generadores.
 │                               **Al tocar el menú va acá**, y también en las 9 páginas
 │                               sueltas, que siguen con su copia a mano
@@ -851,6 +852,25 @@ entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención a
   `VideoGame` no genera resultados enriquecidos específicos — es normal, no es un error.
   Para ver los datos detectados usar validator.schema.org con la URL de la portada.
 - Tras un deploy con juegos nuevos: Search Console → Sitemaps → enviar `sitemap.xml`.
+
+## Leer datos/juegos.js se hace en un solo lugar (desde el 02/09/2026)
+
+`cargar_juegos()` estaba copiado en doce scripts, **en tres variantes distintas**. Con el
+archivo de hoy las tres daban lo mismo, pero no son equivalentes: nueve cortaban el array con
+`.rstrip(";")` y dos en el último `]`. O sea que el día que el formato cambie —por ejemplo si
+se le agrega un `module.exports` al final, como ya tiene `datos/recomendados.js`— se rompe la
+mitad de los scripts y la otra mitad no, en silencio.
+
+Ahora está una sola vez en `scripts/comun.py`, en una versión más firme que las tres: se
+ancla en la declaración `const JUEGOS` (así no la confunde un `=` que aparezca antes en un
+comentario) y corta en el último `]` (así no la molesta lo que venga después).
+
+**Cómo verificar un cambio acá.** Antes de tocar, cargar los doce módulos y hashear lo que
+devuelve cada `cargar_juegos()`; después de tocar, repetir y comparar. Eso es lo que atrapó
+que al limpiar imports se había borrado el `import sys` que necesitaba `sys.path.insert` en
+cinco scripts. Después, regenerar todo y hacer `diff` contra una copia previa: las 386
+páginas y el sitemap tienen que salir byte a byte iguales, y lo único que puede cambiar son
+las marcas de tiempo de `api/*.json` y el `lastBuildDate` del RSS.
 
 ## El menú y el pie se tocan en un solo lugar (desde el 02/09/2026)
 

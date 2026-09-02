@@ -32,7 +32,12 @@ import re
 import ssl
 import time
 import urllib.request
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from comun import cargar_juegos
 
 RAIZ = Path(__file__).resolve().parent.parent
 CACHE = RAIZ / "datos" / "novedades-steam.json"
@@ -78,13 +83,6 @@ def get(url, intentos=2):
             if i == intentos - 1:
                 raise
             time.sleep(1)
-
-
-def cargar_juegos():
-    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1].strip().rstrip(";")
-    cuerpo = re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M)
-    return json.loads(cuerpo)
 
 
 def appid(j):

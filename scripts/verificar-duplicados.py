@@ -34,20 +34,16 @@ Uso (desde la raíz del proyecto):
 Lo corre `actualizar.py` todos los días, así un duplicado no sobrevive más de una jornada.
 """
 import collections
-import json
 import re
 import sys
 import unicodedata
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from comun import cargar_juegos
+
 RAIZ = Path(__file__).resolve().parent.parent
-
-
-def cargar_juegos():
-    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1].strip().rstrip(";")
-    cuerpo = re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M)
-    return json.loads(cuerpo)
 
 
 def norm(t):

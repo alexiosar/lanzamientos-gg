@@ -12,12 +12,12 @@ Se regenera con la rutina diaria (scripts/actualizar.py lo invoca).
 """
 import datetime
 import html as html_mod
-import json
-import re
-from pathlib import Path
 import sys
+from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from comun import cargar_juegos
 
 import plantilla
 
@@ -35,13 +35,6 @@ PLATAFORMAS = [
     ("SWITCH2", "switch-2.html", "SWITCH 2", "Nintendo Switch 2"),
     ("SWITCH", "switch.html", "SWITCH", "Nintendo Switch"),
 ]
-
-
-def cargar_juegos():
-    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1].strip().rstrip(";")
-    cuerpo = re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M)
-    return json.loads(cuerpo)
 
 
 def e(t):

@@ -13,23 +13,15 @@ La rutina diaria (scripts/actualizar.py) lo invoca automáticamente.
 """
 import datetime
 import json
-import re
 from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-from comun import leer_noticias_propias
+from comun import cargar_juegos, leer_noticias_propias
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
 MAX_ITEMS = 40
-
-
-def cargar_juegos():
-    src = (RAIZ / "datos" / "juegos.js").read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1].strip().rstrip(";")
-    cuerpo = re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M)
-    return json.loads(cuerpo)
 
 
 def plat_label(p):
