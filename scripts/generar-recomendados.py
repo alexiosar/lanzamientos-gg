@@ -26,6 +26,11 @@ import html as html_mod
 import json
 import re
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import plantilla
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
@@ -150,23 +155,7 @@ def main():
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="contenedor">
-      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
-      <a href="/" class="site-logo">LANZAMIENTOS.LAT</a>
-      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
-      <nav class="nav">
-        <a href="/">INICIO</a>
-        <a href="/recomendados" class="activo">RECOMENDADOS</a>
-        <a href="/noticias">NOTICIAS</a>
-        <a href="/ps5">PS5</a>
-        <a href="/xbox">XBOX</a>
-        <a href="/switch-2">SWITCH 2</a>
-        <a href="/switch">SWITCH</a>
-        <a href="/ps4">PS4</a>
-      </nav>
-    </div>
-  </header>
+{plantilla.cabecera("/recomendados")}
 
   <main class="contenedor">
     <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
@@ -182,31 +171,10 @@ def main():
     </div>
   </main>
 
-  <footer class="site-footer">
-    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
-      <span>LANZAMIENTOS.LAT &copy; {hoy.year}</span>
-      <span class="footer-links"><a href="/acerca">ACERCA DE</a> · <a href="/api">API</a> · <a href="/widget">WIDGET</a> · <a href="/privacidad">PRIVACIDAD</a> · <a href="/terminos">TÉRMINOS</a> · <a href="/rss.xml">RSS</a> · <a href="https://cafecito.app/lanzamientos" target="_blank" rel="noopener">CAFECITO</a></span>
-      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
-    </div>
-  </footer>
+{plantilla.pie()}
 
   <script>
-    function toggleTema() {{
-      const claro = document.documentElement.classList.toggle("tema-claro");
-      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
-      localStorage.setItem("tema", claro ? "claro" : "oscuro");
-    }}
-    function aplicarTema(claro) {{
-      document.documentElement.classList.toggle("tema-claro", claro);
-      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
-    }}
-    const temaGuardado = localStorage.getItem("tema");
-    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
-    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
-    sistemaClaro.addEventListener("change", ev => {{
-      if (!localStorage.getItem("tema")) aplicarTema(ev.matches);
-    }});
-    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");
+{plantilla.script_tema()}
   </script>
 </body>
 </html>

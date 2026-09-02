@@ -35,14 +35,14 @@
       <a href="/" class="site-logo">LANZAMIENTOS.LAT</a>
       <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
       <nav class="nav">
-        <a href="/" >INICIO</a>
+        <a href="/">INICIO</a>
         <a href="/recomendados">RECOMENDADOS</a>
         <a href="/noticias">NOTICIAS</a>
         <a href="/ps5">PS5</a>
-        <a href="/ps4">PS4</a>
         <a href="/xbox">XBOX</a>
         <a href="/switch-2" class="activo">SWITCH 2</a>
         <a href="/switch">SWITCH</a>
+        <a href="/ps4">PS4</a>
       </nav>
     </div>
   </header>
@@ -595,8 +595,8 @@
     const temaGuardado = localStorage.getItem("tema");
     const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
     aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
-    sistemaClaro.addEventListener("change", e => {
-      if (!localStorage.getItem("tema")) aplicarTema(e.matches);
+    sistemaClaro.addEventListener("change", ev => {
+      if (!localStorage.getItem("tema")) aplicarTema(ev.matches);
     });
     if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");
   </script>

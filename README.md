@@ -39,6 +39,9 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               volver a bajar ~1 MB por trailer
 ├── scripts/comun.py           Lo que comparten varios scripts (pasar títulos de MAYÚSCULAS
 │                               a minúsculas respetando siglas y números romanos)
+├── scripts/plantilla.py        Cabecera, menú, pie y script de tema de los 5 generadores.
+│                               **Al tocar el menú va acá**, y también en las 9 páginas
+│                               sueltas, que siguen con su copia a mano
 ├── scripts/novedades-steam.py  Lo que anuncian los estudios en Steam (juegos chicos)
 ├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
@@ -848,6 +851,36 @@ entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención a
   `VideoGame` no genera resultados enriquecidos específicos — es normal, no es un error.
   Para ver los datos detectados usar validator.schema.org con la URL de la portada.
 - Tras un deploy con juegos nuevos: Search Console → Sitemaps → enviar `sitemap.xml`.
+
+## El menú y el pie se tocan en un solo lugar (desde el 02/09/2026)
+
+Vivían en catorce copias —cinco generadores más nueve páginas sueltas— y siempre fallaban
+igual: se cambia en trece lugares y el catorceavo queda distinto. Pasó tres veces en dos
+días: `/noticias` salió sin el enlace a RECOMENDADOS (el reemplazo no coincidió porque ahí
+ese enlace llevaba `class="activo"`), `/recomendados` salió con el "volver" sin estilo, y el
+enlace de Cafecito hubo que ponerlo catorce veces.
+
+Ahora los cinco generadores lo sacan de `scripts/plantilla.py`: `cabecera(activo)`, `pie(rss)`
+y `script_tema()`. **Para agregar algo al menú se toca `NAV` y listo.**
+
+Consolidar encontró dos errores que ya estaban y nadie había visto:
+
+- **Las cinco páginas de plataforma tenían el menú en otro orden.** Iteraban su propia lista
+  `PLATAFORMAS`, así que mostraban PS5 · PS4 · XBOX · SWITCH 2 · SWITCH, mientras las otras
+  396 páginas del sitio mostraban PS5 · XBOX · SWITCH 2 · SWITCH · PS4. Ahora todas iguales.
+- **`generar-fichas.py` tenía el año del copyright escrito a mano** (`&copy; 2026`). El 1 de
+  enero, las 371 fichas iban a decir el año pasado hasta que alguien lo notara. Ahora se
+  calcula, como en los otros cuatro.
+
+**Lo que NO cubre, y hay que tener presente:** las nueve páginas escritas a mano (`index`,
+`archivo`, `acerca`, `api`, `widget`, `privacidad`, `terminos`, `404`, `mis-juegos`) siguen
+con su copia. No hay dónde meterles esto sin proceso de build. Si algún día molesta, el
+camino es generarlas también — **no** resolverlo con JavaScript, que deja el menú fuera del
+HTML y por lo tanto fuera de Google.
+
+Cómo verificar un cambio acá: guardar una copia de las páginas generadas antes de tocar,
+regenerar y hacer `diff`. Es lo que dejó ver que las 371 fichas sólo cambiaban en dos
+detalles cosméticos, y que las de plataforma cambiaban en el orden del menú.
 
 ## Nunca dejar URLs con `${...}` en el JavaScript
 

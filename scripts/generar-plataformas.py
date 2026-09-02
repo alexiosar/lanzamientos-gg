@@ -15,6 +15,11 @@ import html as html_mod
 import json
 import re
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import plantilla
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
@@ -54,16 +59,6 @@ def plat_label(p):
 
 def meta_clase(n):
     return "meta-alto" if n >= 75 else ("meta-medio" if n >= 50 else "meta-bajo")
-
-
-def nav_html(activa):
-    links = [f'<a href="/"{" " if activa else ""}>INICIO</a>',
-             '<a href="/recomendados">RECOMENDADOS</a>',
-             '<a href="/noticias">NOTICIAS</a>']
-    for clave, archivo, corto, _ in PLATAFORMAS:
-        act = ' class="activo"' if clave == activa else ""
-        links.append(f'<a href="/{archivo.removesuffix(".html")}"{act}>{corto}</a>')
-    return "\n        ".join(links)
 
 
 def generar(clave, archivo, corto, largo, juegos, mes_actual):
@@ -136,16 +131,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="contenedor">
-      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
-      <a href="/" class="site-logo">LANZAMIENTOS.LAT</a>
-      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
-      <nav class="nav">
-        {nav_html(clave)}
-      </nav>
-    </div>
-  </header>
+{plantilla.cabecera(f"/{archivo.removesuffix('.html')}")}
 
   <main class="contenedor">
     <h1 class="pagina-titulo">LANZAMIENTOS DE {largo.upper()}</h1>
@@ -154,31 +140,10 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
     <a class="link-filtros" href="/?plat={clave}">⚙ VER EN EL CALENDARIO INTERACTIVO (FILTROS Y BÚSQUEDA) →</a>
   </main>
 
-  <footer class="site-footer">
-    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
-      <span>LANZAMIENTOS.LAT &copy; {anio}</span>
-      <span class="footer-links"><a href="/acerca">ACERCA DE</a> · <a href="/api">API</a> · <a href="/widget">WIDGET</a> · <a href="/privacidad">PRIVACIDAD</a> · <a href="/terminos">TÉRMINOS</a> · <a href="/rss.xml">RSS</a> · <a href="https://cafecito.app/lanzamientos" target="_blank" rel="noopener">CAFECITO</a></span>
-      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
-    </div>
-  </footer>
+{plantilla.pie()}
 
   <script>
-    function toggleTema() {{
-      const claro = document.documentElement.classList.toggle("tema-claro");
-      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
-      localStorage.setItem("tema", claro ? "claro" : "oscuro");
-    }}
-    function aplicarTema(claro) {{
-      document.documentElement.classList.toggle("tema-claro", claro);
-      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
-    }}
-    const temaGuardado = localStorage.getItem("tema");
-    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
-    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
-    sistemaClaro.addEventListener("change", e => {{
-      if (!localStorage.getItem("tema")) aplicarTema(e.matches);
-    }});
-    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");
+{plantilla.script_tema()}
   </script>
 </body>
 </html>
