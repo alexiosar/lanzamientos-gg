@@ -103,6 +103,29 @@ def _sin_diacriticos(t):
                    if unicodedata.category(c) != "Mn")
 
 
+def clave_titulo(t):
+    """El título reducido a una sola tira de letras y números, para preguntar si dos
+    entradas son EL MISMO producto.
+
+        'DOOM: The Dark Ages'  ->  'doomthedarkages'
+        'Marvel Tōkon'         ->  'marveltokon'
+
+    Se le van los acentos, los dos puntos, los guiones y los espacios, así que aguanta
+    que un banco de datos escriba el mismo juego con otra puntuación. La usan los dos
+    buscadores de carátulas y el detector de duplicados, y hasta el 02/09/2026 la tenían
+    copiada las tres.
+
+    OJO: `cargar-duraciones.py` tiene otra parecida y NO es esta. Aquella conserva las
+    palabras separadas porque alimenta un SequenceMatcher con umbral 0.82, y aplastar
+    los espacios le cambia el puntaje —o sea, cambia qué juegos reciben duración—. Son
+    dos funciones distintas que compartían nombre, que es peor que estar duplicadas:
+    invita a unificarlas y romper la otra sin que se note.
+    """
+    t = unicodedata.normalize("NFD", t.lower())
+    t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn")
+    return re.sub(r"[^a-z0-9]", "", t)
+
+
 def titulo(j):
     """Los títulos están en MAYÚSCULAS en la base; en redes gritan demasiado."""
     # La clave se compara en mayúsculas porque algunos títulos ya están guardados con su

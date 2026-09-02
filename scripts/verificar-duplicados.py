@@ -36,20 +36,13 @@ Lo corre `actualizar.py` todos los días, así un duplicado no sobrevive más de
 import collections
 import re
 import sys
-import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import cargar_juegos
+from comun import cargar_juegos, clave_titulo
 
 RAIZ = Path(__file__).resolve().parent.parent
-
-
-def norm(t):
-    t = unicodedata.normalize("NFD", t.lower())
-    t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn")
-    return re.sub(r"[^a-z0-9]", "", t)
 
 
 def appid(j):
@@ -59,7 +52,7 @@ def appid(j):
 
 def mismo_producto(j):
     """Las señales de que dos entradas son el mismo juego, no dos juegos parecidos."""
-    claves = [("título", norm(j["titulo"]))]
+    claves = [("título", clave_titulo(j["titulo"]))]
     a = appid(j)
     if a:
         claves.append(("appid de Steam", a))

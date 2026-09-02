@@ -89,7 +89,15 @@ def buscar(termino, sec):
     return json.loads(urllib.request.urlopen(r, timeout=20, context=CTX).read())
 
 
-def norm(t):
+def titulo_en_palabras(t):
+    """El título sin acentos y en minúsculas, pero CON las palabras separadas.
+
+    No usa `clave_titulo()` de comun.py a propósito, aunque se parezcan: aquella aplasta
+    los espacios y esta los conserva, y el resultado alimenta al SequenceMatcher de más
+    abajo contra el umbral de 0.82. Sin los espacios el puntaje cambia, o sea que cambia
+    qué juegos reciben duración y cuáles quedan como dudosos. Se llamaba `norm`, igual
+    que la otra, que es la mejor forma de que alguien las unifique sin darse cuenta.
+    """
     t = "".join(c for c in unicodedata.normalize("NFD", t)
                 if unicodedata.category(c) != "Mn").lower()
     return re.sub(r"[^a-z0-9]+", " ", t).strip()
@@ -145,8 +153,8 @@ def main():
             time.sleep(0.35)
             continue
         mejor = max(datos["data"],
-                    key=lambda g: difflib.SequenceMatcher(None, norm(termino), norm(g["game_name"])).ratio())
-        ratio = difflib.SequenceMatcher(None, norm(termino), norm(mejor["game_name"])).ratio()
+                    key=lambda g: difflib.SequenceMatcher(None, titulo_en_palabras(termino), titulo_en_palabras(g["game_name"])).ratio())
+        ratio = difflib.SequenceMatcher(None, titulo_en_palabras(termino), titulo_en_palabras(mejor["game_name"])).ratio()
         if ratio >= UMBRAL and mejor.get("comp_main", 0) > 0:
             encontrados[j["id"]] = texto_duracion(mejor["comp_main"], mejor.get("comp_100", 0))
             print(f"  ✓ {j['id'][:44]:46} {encontrados[j['id']]}")

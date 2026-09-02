@@ -41,7 +41,8 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 - [Difusión: RSS y datos abiertos](#difusión-rss-y-datos-abiertos)
 - [SEO y redes](#seo-y-redes)
   - [Los títulos de las fichas apuntan a la cola larga (decidido el 17/08/2026)](#los-títulos-de-las-fichas-apuntan-a-la-cola-larga-decidido-el-17082026)
-- [Leer datos/juegos.js se hace en un solo lugar (desde el 02/09/2026)](#leer-datosjuegosjs-se-hace-en-un-solo-lugar-desde-el-02092026)
+- [Lo que comparten los scripts vive en comun.py (desde el 02/09/2026)](#lo-que-comparten-los-scripts-vive-en-comunpy-desde-el-02092026)
+  - [Y `norm()`, que eran DOS funciones con el mismo nombre](#y-norm-que-eran-dos-funciones-con-el-mismo-nombre)
 - [El menú y el pie se tocan en un solo lugar (desde el 02/09/2026)](#el-menú-y-el-pie-se-tocan-en-un-solo-lugar-desde-el-02092026)
 - [Nunca dejar URLs con `${...}` en el JavaScript](#nunca-dejar-urls-con--en-el-javascript)
 - [URLs limpias (importante)](#urls-limpias-importante)
@@ -898,7 +899,7 @@ entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención a
   Para ver los datos detectados usar validator.schema.org con la URL de la portada.
 - Tras un deploy con juegos nuevos: Search Console → Sitemaps → enviar `sitemap.xml`.
 
-## Leer datos/juegos.js se hace en un solo lugar (desde el 02/09/2026)
+## Lo que comparten los scripts vive en comun.py (desde el 02/09/2026)
 
 `cargar_juegos()` estaba copiado en doce scripts, **en tres variantes distintas**. Con el
 archivo de hoy las tres daban lo mismo, pero no son equivalentes: nueve cortaban el array con
@@ -916,6 +917,30 @@ que al limpiar imports se había borrado el `import sys` que necesitaba `sys.pat
 cinco scripts. Después, regenerar todo y hacer `diff` contra una copia previa: las 386
 páginas y el sitemap tienen que salir byte a byte iguales, y lo único que puede cambiar son
 las marcas de tiempo de `api/*.json` y el `lastBuildDate` del RSS.
+
+### Y `norm()`, que eran DOS funciones con el mismo nombre
+
+Estaba en cuatro scripts y parecía el mismo caso, pero no lo era. Tres hacían una cosa y el
+cuarto otra:
+
+| | qué devuelve con `DOOM: The Dark Ages` |
+|---|---|
+| carátulas (×2) y duplicados | `doomthedarkages` |
+| `cargar-duraciones.py` | `doom the dark ages` |
+
+Las tres primeras aplastan todo en una sola tira para preguntar **si dos entradas son el
+mismo producto**; ahí la puntuación estorba. La cuarta conserva las palabras porque su
+resultado va a un `SequenceMatcher` contra un umbral de 0.82, y los espacios cambian el
+puntaje: unificarlas habría cambiado **qué juegos reciben duración** y cuáles quedan como
+dudosos, sin que nada lo avisara.
+
+Dos funciones distintas compartiendo nombre es peor que tenerlas duplicadas: invita a
+unificarlas. Así que las tres iguales pasaron a `comun.clave_titulo()` y la cuarta se quedó
+donde está, renombrada a `titulo_en_palabras()` y con el motivo escrito en su docstring.
+
+**La moraleja para la próxima:** antes de unificar dos funciones que se llaman igual, correr
+las dos sobre los mismos datos y comparar. Acá alcanzó con pasarles los 371 títulos del
+calendario y hashear la salida; el hash de la cuarta ya venía distinto del de las otras tres.
 
 ## El menú y el pie se tocan en un solo lugar (desde el 02/09/2026)
 

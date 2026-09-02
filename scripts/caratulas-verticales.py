@@ -33,14 +33,13 @@ import re
 import ssl
 import sys
 import time
-import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import cargar_juegos
+from comun import cargar_juegos, clave_titulo
 
 RAIZ = Path(__file__).resolve().parent.parent
 API = "https://www.steamgriddb.com/api/v2"
@@ -57,12 +56,6 @@ def get(url):
         "User-Agent": "lanzamientos.lat/1.0 (calendario de lanzamientos)",
     })
     return json.loads(urllib.request.urlopen(req, timeout=20, context=CTX).read().decode("utf-8"))
-
-
-def norm(t):
-    t = unicodedata.normalize("NFD", t.lower())
-    t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn")
-    return re.sub(r"[^a-z0-9]", "", t)
 
 
 def es_vertical(url):
@@ -132,11 +125,11 @@ def buscar(j):
     if not d.get("success") or not d.get("data"):
         return None, "sin resultados"
 
-    objetivo = norm(j["titulo"])
+    objetivo = clave_titulo(j["titulo"])
     esperados = anios_esperados(j)
     candidatos = []
     for cand in d["data"][:8]:
-        n = norm(cand.get("name", ""))
+        n = clave_titulo(cand.get("name", ""))
         if len(n) < 4:
             continue
         parecido = difflib.SequenceMatcher(None, n, objetivo).ratio()

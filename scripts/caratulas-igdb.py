@@ -41,14 +41,13 @@ import re
 import ssl
 import sys
 import time
-import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import cargar_juegos
+from comun import cargar_juegos, clave_titulo
 
 RAIZ = Path(__file__).resolve().parent.parent
 API = "https://api.igdb.com/v4"
@@ -86,12 +85,6 @@ def consultar(tok, cuerpo, endpoint="games"):
     return json.loads(urllib.request.urlopen(req, timeout=20, context=CTX).read())
 
 
-def norm(t):
-    t = unicodedata.normalize("NFD", t.lower())
-    t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn")
-    return re.sub(r"[^a-z0-9]", "", t)
-
-
 def es_vertical(url):
     """Las que ya están bien: Steam 600x900, PlayStation, Xbox, o las que trajo SteamGridDB.
 
@@ -126,11 +119,11 @@ def buscar(tok, j):
     if not datos:
         return None, "sin resultados"
 
-    objetivo = norm(j["titulo"])
+    objetivo = clave_titulo(j["titulo"])
     esperados = anios_esperados(j)
     candidatos = []
     for cand in datos:
-        n = norm(cand.get("name", ""))
+        n = clave_titulo(cand.get("name", ""))
         if len(n) < 4:
             continue
         parecido = difflib.SequenceMatcher(None, n, objetivo).ratio()
