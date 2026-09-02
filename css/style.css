@@ -802,6 +802,74 @@ a:hover { color: var(--blanco); }
 
 .fila-plat:hover .juego-nombre { color: var(--acento); }
 
+/* ── FAVORITOS ──
+   La estrella que guarda un juego en /mis-juegos. Apagada es gris y casi no se ve:
+   está al final de la fila, después de las plataformas, para no competir con el
+   nombre del juego, que es lo que la gente viene a leer. Encendida usa el amarillo,
+   el único color de la paleta que no está tomado por una consola ni por el acento. */
+.btn-fav {
+  border: none;
+  background: none;
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--gris-5);
+  cursor: pointer;
+  padding: 2px 4px;
+  flex-shrink: 0;
+  transition: color 0.15s, transform 0.15s;
+}
+
+.btn-fav:hover        { color: var(--amarillo); transform: scale(1.2); }
+.btn-fav.activo       { color: var(--amarillo); }
+.btn-fav:focus-visible { outline: 1px solid var(--acento); outline-offset: 2px; }
+
+/* En la ficha de juego el botón lleva texto y se alinea con AGENDAR y COMPARTIR. */
+.btn-fav[data-fav-texto] {
+  border: 1px solid var(--gris-5);
+  color: var(--gris-6);
+  font-size: 0.6875rem;
+  letter-spacing: 2px;
+  padding: 5px 16px;
+  /* La versión chica fija line-height:1 para que la estrella sola no engorde la fila.
+     Acá hay que devolverlo: si no, el botón queda 15px más bajo que el AGENDAR y el
+     COMPARTIR que tiene al lado. */
+  line-height: normal;
+}
+
+.btn-fav[data-fav-texto]:hover  { transform: none; border-color: var(--amarillo); color: var(--amarillo); }
+.btn-fav[data-fav-texto].activo { border-color: var(--amarillo); color: var(--amarillo); }
+
+/* Aviso al guardar o quitar. Dura menos de tres segundos y no tapa nada importante:
+   está para que se entienda que el clic hizo algo y para decir una sola vez adónde
+   fue a parar el juego. */
+.fav-aviso {
+  position: fixed;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translate(-50%, 1rem);
+  z-index: 120;
+  background: var(--negro);
+  border: 1px solid var(--amarillo);
+  color: var(--amarillo);
+  font-size: 0.6875rem;
+  letter-spacing: 2px;
+  padding: 8px 16px;
+  max-width: calc(100vw - 2rem);
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.fav-aviso.visible { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.fav-aviso a       { color: var(--blanco); text-decoration: underline; }
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-fav, .fav-aviso { transition: none; }
+  .btn-fav:hover { transform: none; }
+}
+
 /* Enlace "◀ VOLVER AL CALENDARIO" que encabeza toda página que no es la portada.
    Vivía repetido en once lugares —tres generadores y ocho HTML sueltos— con la misma
    regla copiada, y el 31/08/2026 eso se cobró lo suyo: al armar /recomendados copiando
@@ -1106,7 +1174,7 @@ a:hover { color: var(--blanco); }
 
   .juego-fila {
     display: grid;
-    grid-template-columns: var(--mini) 1fr;
+    grid-template-columns: var(--mini) 1fr auto;
     column-gap: 0.75rem;
     row-gap: 0.35rem;
     align-items: center;
@@ -1114,6 +1182,15 @@ a:hover { color: var(--blanco); }
 
   .juego-fila > .mini-portada { grid-column: 1; grid-row: 1 / span 2; }
   .juego-fila > .juego-nombre { grid-column: 2; grid-row: 1; min-width: 0; }
+
+  /* La estrella necesita su propia columna: acá la fila es una grilla con las
+     posiciones puestas a mano, y un hijo sin ubicar se coloca solo en la primera
+     celda libre —la columna de la miniatura, 64px de ancho— debajo de todo. */
+  .juego-fila > .btn-fav {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    padding: 10px 4px;   /* objetivo táctil, igual que el resto de los botones acá */
+  }
 
   /* En 375px una carátula de 140px deja el título en una columna de 143px y se
      parte en dos renglones. A 110 el texto respira y la carátula sigue siendo

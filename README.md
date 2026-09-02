@@ -12,6 +12,8 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── index.html                  Página principal (calendario)
 ├── css/style.css               Todos los estilos (temas oscuro y claro)
 ├── js/main.js                  Lógica del calendario: filtros, buscador, fichas, modal
+├── js/favoritos.js             La estrella y la lista guardada en el navegador (sin cuentas)
+├── mis-juegos.html             Los juegos que guardó quien visita (noindex: es de cada uno)
 ├── datos/juegos.js             Base de datos: array JUEGOS con todos los lanzamientos
 ├── juegos/{id}.html            Fichas estáticas pre-generadas (una por juego, NO editar
 │                               a mano: se regeneran con scripts/generar-fichas.py)
@@ -686,6 +688,49 @@ mensual. Dos avisos que imprime el generador y conviene mirar:
   mirando la página**, porque la tarjeta sigue igual de prolija con la fecha nueva;
 - si la selección quedó vieja, la página lo dice en vez de hacerla pasar por actual.
   Adelantarse **no** es un problema: a fin de agosto la de septiembre ya tiene que estar.
+
+### Mis juegos (`/mis-juegos`, desde el 02/09/2026)
+
+Una lista de favoritos que cada visitante guarda con la estrella. Vive en
+`js/favoritos.js` y la página es `mis-juegos.html`.
+
+**Sin cuentas, y es a propósito.** La idea original era "que la gente pueda crear una cuenta
+y agregar sus juegos favoritos", pero ahí hay dos cosas distintas pegadas y sólo una es la
+interesante. Los favoritos no necesitan cuentas: van en `localStorage`, igual que la
+preferencia de tema. Las cuentas sí romperían lo que hace que este sitio se pueda mantener
+solo — el sitio es estático y todo se regenera desde `datos/juegos.js`; una base de datos
+sería la única parte que no, y si se rompe la gente pierde sus listas. Además obliga a
+reescribir `/privacidad`, que hoy dice que no hay cuentas ni datos personales, y deja la
+función atrás de un registro que la mayoría no completa. Con 32 clics en agosto, eso la
+usaría nadie.
+
+**Lo que se pierde** es la sincronización entre dispositivos y la lista se va si limpian los
+datos de navegación. Lo primero se tapa con el botón *copiar link de la lista*, que arma
+`/mis-juegos?lista=id,id,id`; al abrirlo en el otro aparato se **une** con lo que ya haya
+(unir nunca destruye nada). Sólo entran ids que existan en el calendario: el link lo escribe
+cualquiera.
+
+**Lo que las cuentas darían de verdad** —avisar por mail cuando sale el juego— ya estaba
+resuelto sin cuentas: el `.ics` de cada ficha, y ahora *agendar todos* en un solo archivo.
+El recordatorio lo da el calendario que la persona ya usa.
+
+Detalles que se pagan si se olvidan:
+
+- **La estrella no va dentro de un `<a>`.** Un `<button>` adentro de un enlace es contenido
+  interactivo anidado y el navegador parte el DOM. Por eso está en las filas del calendario
+  (que son `div`), en la ficha desplegable y en la página del juego, pero **no** en la grilla
+  ni en las filas de `/ps5` y `/septiembre-2026`, que son enlaces enteros. En `/mis-juegos`
+  el enlace envuelve sólo carátula y nombre, y la estrella queda afuera.
+- **La ficha de juego sale siempre "sin guardar"**, y `favPintar()` la corrige al cargar. Es
+  un archivo estático y cacheable: al revés, una página cacheada mentiría.
+- **En móvil `.juego-fila` es una grilla** con las posiciones puestas a mano. Un hijo sin
+  ubicar cae en la primera celda libre — la columna de la miniatura, 64px. La estrella tiene
+  su propia columna.
+- **Un id huérfano no se borra.** Si `datos/juegos.js` no cargó, `JUEGOS` no existe y podar
+  le vaciaría la lista a alguien por un problema de red. Se filtra al mostrar (`favIds()`),
+  que es lo que mantiene el contador del menú de acuerdo con la página.
+- **`/mis-juegos` va con `noindex`**: el contenido lo pone cada visitante, así que para
+  Google está siempre vacía.
 
 ## Difusión: RSS y datos abiertos
 

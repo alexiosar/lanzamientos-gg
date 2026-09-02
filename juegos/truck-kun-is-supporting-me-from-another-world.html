@@ -142,6 +142,12 @@
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('truck-kun-is-supporting-me-from-another-world')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
               <button class="btn-trailer" id="btn-compartir" onclick="compartirJuego('truck-kun-is-supporting-me-from-another-world')">⇗ COMPARTIR</button>
+              <!-- La ficha es un archivo estático y cacheable, así que sale siempre en
+                   "sin guardar": favPintar() lo corrige al cargar según lo que haya en
+                   este navegador. Nunca al revés, o una página cacheada mentiría. -->
+              <button class="btn-fav" data-fav="truck-kun-is-supporting-me-from-another-world" data-fav-texto=""
+                      onclick="favAlternar('truck-kun-is-supporting-me-from-another-world', event)" aria-pressed="false"
+                      title="Guardar en MIS JUEGOS" aria-label="Guardar en mis juegos">☆ GUARDAR EN MIS JUEGOS</button>
             </div>
           </div>
         </div>
@@ -302,6 +308,7 @@
   </footer>
 
   <script src="../datos/juegos.js"></script>
+  <script src="../js/favoritos.js"></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

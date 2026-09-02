@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- No se indexa: el contenido lo pone cada visitante en su propio navegador, así que
+       para Google esta página está siempre vacía. Sin noindex sería una URL más
+       compitiendo contra las que sí tienen contenido. -->
+  <meta name="robots" content="noindex, follow">
+  <meta name="description" content="Tu lista de juegos guardados en LANZAMIENTOS.LAT.">
+  <title>Mis Juegos — LANZAMIENTOS.LAT</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#000000">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .pagina-titulo  { font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }
+    .pagina-sub     { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .mes-lista      { max-width: 760px; }
+    .mes-duracion   { font-size: 0.625rem; color: var(--gris-5); letter-spacing: 1px; }
+
+    /* La fila lleva un enlace a la ficha Y un botón para quitar el juego. Un <button>
+       dentro de un <a> es contenido interactivo anidado y el navegador parte el DOM,
+       así que el enlace envuelve sólo la carátula y el nombre, y la estrella queda
+       afuera como hermana. */
+    .fila-link {
+      display: flex; align-items: center; gap: 0.75rem;
+      flex: 1; min-width: 180px; color: inherit;
+    }
+    .fav-acciones { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; max-width: 760px; }
+    .fav-seccion  { font-size: 0.6875rem; color: var(--acento); letter-spacing: 2px;
+                    margin: 1.5rem 0 0.5rem; font-weight: 700; }
+    .fav-vacio    { max-width: 620px; color: var(--gris-6); font-size: 0.8125rem; line-height: 1.7; }
+    .fav-vacio strong { color: var(--blanco); }
+    .fav-vacio .btn-fav { pointer-events: none; }
+    .fav-nota     { max-width: 620px; margin-top: 2.5rem; padding-top: 1.5rem;
+                    border-top: 1px solid var(--gris-2); color: var(--gris-6);
+                    font-size: 0.75rem; line-height: 1.7; }
+    .fav-nota a   { color: var(--acento); }
+    .fav-importar { max-width: 760px; border: 1px solid var(--amarillo); padding: 1rem;
+                    margin-bottom: 1.5rem; }
+    .fav-importar-titulo { color: var(--amarillo); font-size: 0.6875rem; letter-spacing: 2px;
+                           font-weight: 700; display: block; margin-bottom: 0.5rem; }
+    .fav-importar p { color: var(--gris-7); font-size: 0.75rem; line-height: 1.6; margin-bottom: 0.75rem; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="contenedor">
+      <button class="btn-tema" onclick="toggleTema()" id="btn-tema" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
+      <a href="/" class="site-logo">LANZAMIENTOS.LAT</a>
+      <span class="site-tagline">▸ CALENDARIO DE VIDEOJUEGOS EN ESPAÑOL ◂</span>
+      <nav class="nav">
+        <a href="/">INICIO</a>
+        <a href="/recomendados">RECOMENDADOS</a>
+        <a href="/noticias">NOTICIAS</a>
+        <a href="/ps5">PS5</a>
+        <a href="/xbox">XBOX</a>
+        <a href="/switch-2">SWITCH 2</a>
+        <a href="/switch">SWITCH</a>
+        <a href="/ps4">PS4</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
+    <h1 class="pagina-titulo">★ MIS JUEGOS</h1>
+    <p class="pagina-sub" id="sub">CARGANDO...</p>
+
+    <div id="importar"></div>
+    <div class="fav-acciones" id="acciones"></div>
+    <div class="mes-lista" id="lista"></div>
+
+    <p class="fav-nota">
+      Esta lista vive en <strong>este navegador</strong>, no en un servidor: no hace falta
+      registrarse y no sale de tu dispositivo. Eso también quiere decir que no se sincroniza
+      sola con tu teléfono ni con tu compu, y que se borra si limpiás los datos de navegación.
+      Para pasarla de un aparato a otro está el botón de copiar el link.
+      Más detalles en <a href="/privacidad">privacidad</a>.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="contenedor" style="display:flex; justify-content:space-between; width:100%; flex-wrap:wrap; gap:0.5rem;">
+      <span>LANZAMIENTOS.LAT &copy; 2026</span>
+      <span class="footer-links"><a href="/acerca">ACERCA DE</a> · <a href="/api">API</a> · <a href="/widget">WIDGET</a> · <a href="/privacidad">PRIVACIDAD</a> · <a href="/terminos">TÉRMINOS</a> · <a href="/rss.xml">RSS</a> · <a href="https://cafecito.app/lanzamientos" target="_blank" rel="noopener">CAFECITO</a></span>
+      <span>DATOS: STEAM · NINTENDO · METACRITIC · HLTB <span class="cursor"></span></span>
+    </div>
+  </footer>
+
+  <script src="datos/juegos.js"></script>
+  <script src="js/favoritos.js"></script>
+  <script>
+    const MESES_ES = ["ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO",
+                      "JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE"];
+    const DIAS_ES  = ["DOM","LUN","MAR","MIE","JUE","VIE","SAB"];
+
+    function hoyIso() {
+      const h = new Date();
+      return `${h.getFullYear()}-${String(h.getMonth() + 1).padStart(2, "0")}-${String(h.getDate()).padStart(2, "0")}`;
+    }
+
+    function parseFecha(str) {
+      const [y, m, d] = str.split("-").map(Number);
+      return new Date(y, m - 1, d);
+    }
+
+    function escapar(t) {
+      return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+
+    function platClase(p) {
+      return ({ PS5: "plat-PS5", PS4: "plat-PS4", XBOX: "plat-XBOX",
+                SWITCH2: "plat-SWITCH2", SWITCH: "plat-SWITCH" })[p] || "plat-MULTI";
+    }
+    const platLabel = p => p === "SWITCH2" ? "SWITCH 2" : p;
+
+    function misJuegos(ids) {
+      return ids.map(id => JUEGOS.find(j => j.id === id)).filter(Boolean);
+    }
+
+    function filaHtml(j) {
+      const hoy = hoyIso();
+      const f = parseFecha(j.fecha);
+      const cuando = j.estimado
+        ? (j.fechaEstimada || `${MESES_ES[f.getMonth()]} ${f.getFullYear()}`)
+        : `${DIAS_ES[f.getDay()]} ${String(f.getDate()).padStart(2, "0")} ${MESES_ES[f.getMonth()].slice(0, 3)} ${f.getFullYear()}`;
+
+      let falta = "";
+      if (!j.estimado && j.fecha > hoy) {
+        const dias = Math.round((f - parseFecha(hoy)) / 86400000);
+        falta = ` · FALTA${dias === 1 ? "" : "N"} ${dias} DÍA${dias === 1 ? "" : "S"}`;
+      } else if (!j.estimado && j.fecha === hoy) {
+        falta = " · ¡SALE HOY!";
+      }
+
+      const mini = j.imagen
+        ? `<img class="mini-portada" src="${escapar(j.imagen)}" alt="" loading="lazy" decoding="async">`
+        : `<span class="mini-portada mini-vacia"></span>`;
+      const plats = j.plataformas.map(p =>
+        `<span class="plat ${platClase(p)}">${platLabel(p)}</span>`).join("");
+
+      return `<div class="fila-plat">
+        <a class="fila-link" href="/juegos/${j.id}">
+          ${mini}
+          <span class="juego-nombre">${escapar(j.titulo)}</span>
+        </a>
+        <span class="mes-duracion">${cuando}${falta}</span>
+        <div class="plataformas">${plats}</div>
+        ${favBotonHtml(j.id)}
+      </div>`;
+    }
+
+    function seccionHtml(titulo, juegos) {
+      if (!juegos.length) return "";
+      return `<div class="fav-seccion">${titulo} [ ${juegos.length} ]</div>` +
+             juegos.map(filaHtml).join("");
+    }
+
+    // ── ACCIONES ──
+    function agendarTodos() {
+      const hoy = hoyIso();
+      const futuros = misJuegos(favLeer()).filter(j => !j.estimado && j.fecha >= hoy);
+      if (!futuros.length) return;
+      favDescargar(favIcs(futuros), "mis-juegos.ics", "text/calendar;charset=utf-8");
+      favAviso(`${futuros.length} LANZAMIENTO${futuros.length === 1 ? "" : "S"} AL CALENDARIO`, false);
+    }
+
+    function copiarLink() {
+      const url = `${location.origin}/mis-juegos?lista=${favIds().join(",")}`;
+      navigator.clipboard.writeText(url)
+        .then(() => favAviso("LINK COPIADO — ABRILO EN EL OTRO DISPOSITIVO", false))
+        .catch(() => favAviso("NO SE PUDO COPIAR", false));
+    }
+
+    function vaciar() {
+      if (!confirm("¿Vaciar la lista? Se borran los juegos guardados en este navegador.")) return;
+      favGuardar([]);
+      favNav();
+      render();
+      favAviso("LISTA VACIADA", false);
+    }
+
+    // ── IMPORTAR DESDE OTRO DISPOSITIVO ──
+    // Se une con lo que ya había en vez de reemplazarlo: unir nunca destruye nada, y
+    // el caso real es "tengo mi lista en el celular y quiero sumarla en la compu".
+    let idsEntrantes = [];
+
+    function guardarEntrantes() {
+      const lista = favLeer();
+      let nuevos = 0;
+      // Sólo entran los que existen en el calendario: el link lo escribe cualquiera y
+      // no tiene sentido guardar ids fantasma que después no se pueden mostrar.
+      misJuegos(idsEntrantes).forEach(j => {
+        if (lista.indexOf(j.id) === -1) { lista.push(j.id); nuevos++; }
+      });
+      favGuardar(lista);
+      idsEntrantes = [];
+      history.replaceState(null, "", "/mis-juegos");
+      favNav();
+      render();
+      favAviso(nuevos ? `${nuevos} JUEGO${nuevos === 1 ? "" : "S"} AGREGADO${nuevos === 1 ? "" : "S"}` : "YA LOS TENÍAS TODOS", false);
+    }
+
+    function render() {
+      const juegos = misJuegos(favLeer());
+      const hoy = hoyIso();
+      const sub = document.getElementById("sub");
+      const lista = document.getElementById("lista");
+      const acciones = document.getElementById("acciones");
+      const importar = document.getElementById("importar");
+
+      // Bloque de importación: sólo si llegaron con ?lista= y hay algo reconocible.
+      importar.innerHTML = "";
+      if (idsEntrantes.length) {
+        const entrantes = misJuegos(idsEntrantes);
+        if (entrantes.length) {
+          importar.innerHTML = `<div class="fav-importar">
+            <span class="fav-importar-titulo">★ LISTA COMPARTIDA — ${entrantes.length} JUEGO${entrantes.length === 1 ? "" : "S"}</span>
+            <p>Este link trae una lista de otro dispositivo. Al guardarla se suma a la que ya tenés
+               en este navegador; no se borra nada.</p>
+            <button class="btn-trailer" onclick="guardarEntrantes()">＋ GUARDAR EN ESTE DISPOSITIVO</button>
+          </div>`;
+        }
+      }
+
+      if (!juegos.length) {
+        sub.textContent = "TODAVÍA NO GUARDASTE NINGUNO";
+        acciones.innerHTML = "";
+        lista.innerHTML = `<div class="fav-vacio">
+          <p>Tocá la estrella <button class="btn-fav" tabindex="-1" aria-hidden="true">☆</button>
+          que aparece al lado de cada juego —en el calendario o en su ficha— y va a quedar acá.</p>
+          <p style="margin-top:1rem;">Sirve para no perder de vista lo que estás esperando:
+          esta página te los muestra <strong>ordenados por fecha</strong> y con los días que faltan,
+          y con un clic te los pasa a tu calendario.</p>
+          <p style="margin-top:1rem;"><a href="/" class="btn-trailer" style="text-decoration:none;">◀ IR AL CALENDARIO</a></p>
+        </div>`;
+        return;
+      }
+
+      const proximos  = juegos.filter(j => !j.estimado && j.fecha >= hoy).sort((a, b) => a.fecha.localeCompare(b.fecha));
+      const estimados = juegos.filter(j => j.estimado).sort((a, b) => a.fecha.localeCompare(b.fecha));
+      const salidos   = juegos.filter(j => !j.estimado && j.fecha < hoy).sort((a, b) => b.fecha.localeCompare(a.fecha));
+
+      sub.textContent = `${juegos.length} JUEGO${juegos.length === 1 ? "" : "S"} GUARDADO${juegos.length === 1 ? "" : "S"}` +
+                        (proximos.length ? ` · ${proximos.length} TODAVÍA POR SALIR` : "");
+
+      acciones.innerHTML =
+        (proximos.length ? `<button class="btn-trailer" onclick="agendarTodos()">◷ AGENDAR TODOS</button>` : "") +
+        `<button class="btn-trailer" onclick="copiarLink()">⇗ COPIAR LINK DE LA LISTA</button>` +
+        `<button class="btn-trailer" onclick="vaciar()">✕ VACIAR</button>`;
+
+      lista.innerHTML = seccionHtml("▸ POR SALIR", proximos) +
+                        seccionHtml("◔ SIN FECHA CONFIRMADA", estimados) +
+                        seccionHtml("✓ YA DISPONIBLES", salidos);
+    }
+
+    // favoritos.js llama a esto cada vez que la lista cambia (acá o en otra pestaña)
+    function favAlCambiar() { render(); }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const crudo = new URLSearchParams(location.search).get("lista") || "";
+      // Sólo ids con forma de slug, y nunca se imprimen: se usan para buscar en JUEGOS.
+      idsEntrantes = crudo.split(",").filter(x => /^[a-z0-9-]{1,120}$/.test(x)).slice(0, 300);
+      render();
+    });
+
+    function toggleTema() {
+      const claro = document.documentElement.classList.toggle("tema-claro");
+      document.getElementById("btn-tema").textContent = claro ? "☀" : "☾";
+      localStorage.setItem("tema", claro ? "claro" : "oscuro");
+    }
+    function aplicarTema(claro) {
+      document.documentElement.classList.toggle("tema-claro", claro);
+      const btn = document.getElementById("btn-tema");
+      if (btn) btn.textContent = claro ? "☀" : "☾";
+    }
+    const temaGuardado = localStorage.getItem("tema");
+    const sistemaClaro = window.matchMedia("(prefers-color-scheme: light)");
+    aplicarTema(temaGuardado ? temaGuardado === "claro" : sistemaClaro.matches);
+    sistemaClaro.addEventListener("change", ev => {
+      if (!localStorage.getItem("tema")) aplicarTema(ev.matches);
+    });
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js");
+  </script>
+</body>
+</html>

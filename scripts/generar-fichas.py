@@ -490,6 +490,12 @@ def generar(j, juegos):
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               {'' if estimado else f'''<button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('{gid}')" style="display:none">◷ AGENDAR LANZAMIENTO</button>'''}
               <button class="btn-trailer" id="btn-compartir" onclick="compartirJuego('{gid}')">⇗ COMPARTIR</button>
+              <!-- La ficha es un archivo estático y cacheable, así que sale siempre en
+                   "sin guardar": favPintar() lo corrige al cargar según lo que haya en
+                   este navegador. Nunca al revés, o una página cacheada mentiría. -->
+              <button class="btn-fav" data-fav="{gid}" data-fav-texto=""
+                      onclick="favAlternar('{gid}', event)" aria-pressed="false"
+                      title="Guardar en MIS JUEGOS" aria-label="Guardar en mis juegos">☆ GUARDAR EN MIS JUEGOS</button>
             </div>
           </div>
         </div>
@@ -517,6 +523,7 @@ def generar(j, juegos):
   </footer>
 
   <script src="../datos/juegos.js"></script>
+  <script src="../js/favoritos.js"></script>
   <script>
     function toggleTema() {{
       const claro = document.documentElement.classList.toggle("tema-claro");

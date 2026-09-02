@@ -382,6 +382,7 @@ function fichaHtml(j) {
               ${j.trailer ? `<button class="btn-trailer" onclick="abrirTrailer('${j.id}', event)">▶ VER TRAILER</button>` : ""}
               ${!j.estimado && diasHasta(j.fecha) > 0 ? `<button class="btn-trailer" onclick="agendarJuego('${j.id}', event)">◷ AGENDAR</button>` : ""}
               <button class="btn-trailer" onclick="compartirJuego('${j.id}', event)">⇗ COMPARTIR</button>
+              ${favBotonHtml(j.id, true)}
               <a href="/juegos/${j.id}" class="btn-trailer">+ INFO</a>
             </div>
           </div>`;
@@ -645,6 +646,7 @@ function renderCalendario() {
             ${miniaturaHtml(j)}
             <span class="juego-nombre">${j.titulo}${nuevoHtml}</span>
             <div class="plataformas">${platsHtml}</div>
+            ${favBotonHtml(j.id)}
           </div>
           ${fichaHtml(j)}
         `;
@@ -674,6 +676,7 @@ function renderCalendario() {
               ${miniaturaHtml(j)}
               <span class="juego-nombre">${j.titulo}${badgeNuevoHtml(j)}</span>
               <div class="plataformas">${plats}</div>
+              ${favBotonHtml(j.id)}
             </div>
             ${fichaHtml(j)}`;
             }).join("")}
