@@ -43,6 +43,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/verificar-duplicados.py  Juegos cargados dos veces con id distinto
+├── scripts/verificar-favoritos.py  Que la estrella siga enchufada (corre en la diaria)
 ├── datos/recomendados.js       La selección del mes, elegida a mano
 ├── scripts/generar-recomendados.py  Genera recomendados.html
 ├── scripts/generar-meses.py    Genera una página por mes (/septiembre-2026…)
@@ -846,6 +847,14 @@ en este archivo y en la sección "Fuentes de datos habituales".
 1. `python3 scripts/actualizar.py` — refresca puntajes de Metacritic, regenera fichas y
    sitemap, y reporta: debuts con puntaje, lanzamientos de hoy/mañana (candidatos a
    noticias) y faltantes. Este paso no necesita a Claude.
+
+   **Mirar el final.** Si dice `⚠⚠ N PASO(S) FALLARON`, no subir. Son dos cosas distintas:
+   un **generador** que falla deja su página como estaba —se ve bien y está vieja, que es
+   por qué nadie lo nota—, y `verificar-favoritos.py` avisa de algo peor: que la estrella
+   de favoritos se desenchufó y **la portada puede quedar en blanco**. `js/main.js` llama a
+   `favBotonHtml()` en medio del render y esa función vive en `js/favoritos.js`; si se
+   renombra o el script deja de cargarse, el calendario no se dibuja. Ese chequeo no toca
+   la red, así que corre todos los días.
 2. Cargar noticias de los lanzamientos del día y eventos (debuts, Game Pass, betas).
    Las de **un juego** van en su campo `noticias` dentro de `datos/juegos.js`; las que **no
    cuelgan de un lanzamiento** (PS Plus y Game Pass del mes, un Direct, un cierre de estudio)

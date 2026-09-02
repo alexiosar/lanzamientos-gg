@@ -317,6 +317,17 @@ def main():
                        capture_output=True, text=True)
     print(r.stdout.strip() or r.stderr.strip())
 
+    # La estrella de favoritos se llama desde js/main.js pero vive en js/favoritos.js. Si
+    # esa función se renombra o el script deja de cargarse, renderCalendario() tira una
+    # excepción en medio del render y la PORTADA QUEDA EN BLANCO. No se ve fea: no se ve.
+    # El chequeo no toca la red, así que va todos los días.
+    print()
+    r = subprocess.run(["python3", str(RAIZ / "scripts" / "verificar-favoritos.py")],
+                       capture_output=True, text=True)
+    print(r.stdout.strip() or r.stderr.strip())
+    if r.returncode != 0:
+        fallidos.append("verificar-favoritos.py")
+
     lanzan_hoy = [j["id"] for j in juegos if j["fecha"] == hoy]
     lanzan_maniana = [j["id"] for j in juegos if j["fecha"] == maniana]
     print("\n── Candidatos a noticias ──")
@@ -393,8 +404,9 @@ def main():
     print("  De ahí no sale solo la noticia: también juegos que faltan y fechas a corregir.")
 
     if fallidos:
-        print(f"\n  ⚠⚠ {len(fallidos)} GENERADOR(ES) FALLARON: {', '.join(fallidos)}")
-        print("     Las páginas que producen quedaron como estaban: se ven bien y están viejas.")
+        print(f"\n  ⚠⚠ {len(fallidos)} PASO(S) FALLARON: {', '.join(fallidos)}")
+        print("     Un generador que falla deja su página como estaba: se ve bien y está vieja.")
+        print("     verificar-favoritos.py es peor: avisa que la portada puede quedar en blanco.")
         print("     NO subir hasta arreglarlo. El error está más arriba, en su línea.")
 
     print("\n═══ Siguiente paso: noticias (si hay), commit y deploy ═══")
