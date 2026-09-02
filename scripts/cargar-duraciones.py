@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Carga el campo `duracion` desde HowLongToBeat en los juegos que no lo tengan.
+r"""Carga el campo `duracion` desde HowLongToBeat en los juegos que no lo tengan.
+
+Este docstring lleva prefijo r (crudo) a propósito: más abajo hay un comando con `\.` para
+copiar y pegar, y sin ese prefijo Python lo lee como una secuencia de escape que no existe.
+Tiraba un SyntaxWarning cada vez que se importaba —ensuciando la salida de la rutina diaria—
+y en una versión futura de Python va a ser un error. Escapar la barra callaba el aviso pero
+rompía el comando, que es lo único que importa de esa línea.
 
 El buscador de HLTB bloquea peticiones ingenuas, pero su propia web usa un protocolo
 público en dos pasos que se puede replicar:
