@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "105466e8bd619d67",
+  "hash": "78b3e6bbf9d498ec",
   "lastmod": "2026-09-02"
  },
  "/acerca": {
@@ -8,7 +8,7 @@
   "lastmod": "2026-09-02"
  },
  "/agosto-2026": {
-  "hash": "c16ae11a331b87b3",
+  "hash": "fc00dd2ff5d873d2",
   "lastmod": "2026-09-02"
  },
  "/api": {
@@ -743,10 +743,6 @@
   "hash": "7bceea6b74b06d3e",
   "lastmod": "2026-09-02"
  },
- "/juegos/mai-child-of-ages": {
-  "hash": "b5d1236e934a71f7",
-  "lastmod": "2026-09-02"
- },
  "/juegos/mamon-king": {
   "hash": "f359e08ef9cdcfa2",
   "lastmod": "2026-09-02"
@@ -903,10 +899,6 @@
   "hash": "9c2d98dc37643ef3",
   "lastmod": "2026-09-02"
  },
- "/juegos/nomad-drive": {
-  "hash": "2c9689283eb1cde5",
-  "lastmod": "2026-09-02"
- },
  "/juegos/obakeidoro-2-chase-seek": {
   "hash": "398212c7a03480a2",
   "lastmod": "2026-09-02"
@@ -1036,7 +1028,7 @@
   "lastmod": "2026-09-02"
  },
  "/juegos/resonance-a-plague-tale-legacy": {
-  "hash": "f923f5d1d7d5c337",
+  "hash": "3864bcc39ba1c522",
   "lastmod": "2026-09-02"
  },
  "/juegos/retrospace": {
@@ -1064,7 +1056,7 @@
   "lastmod": "2026-09-02"
  },
  "/juegos/roman-sands-rebuild": {
-  "hash": "acf464e369e7b38d",
+  "hash": "9ee07cffb0fcec2b",
   "lastmod": "2026-09-02"
  },
  "/juegos/route16r": {
@@ -1544,11 +1536,11 @@
   "lastmod": "2026-09-02"
  },
  "/ps4": {
-  "hash": "105466e8bd619d67",
+  "hash": "78b3e6bbf9d498ec",
   "lastmod": "2026-09-02"
  },
  "/ps5": {
-  "hash": "105466e8bd619d67",
+  "hash": "78b3e6bbf9d498ec",
   "lastmod": "2026-09-02"
  },
  "/recomendados": {
@@ -1560,11 +1552,11 @@
   "lastmod": "2026-09-02"
  },
  "/switch": {
-  "hash": "105466e8bd619d67",
+  "hash": "78b3e6bbf9d498ec",
   "lastmod": "2026-09-02"
  },
  "/switch-2": {
-  "hash": "105466e8bd619d67",
+  "hash": "78b3e6bbf9d498ec",
   "lastmod": "2026-09-02"
  },
  "/terminos": {
@@ -1576,7 +1568,7 @@
   "lastmod": "2026-09-01"
  },
  "/xbox": {
-  "hash": "105466e8bd619d67",
+  "hash": "78b3e6bbf9d498ec",
   "lastmod": "2026-09-02"
  }
 }

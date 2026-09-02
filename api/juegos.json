@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-02T18:52:10+00:00",
+ "generado": "2026-09-02T18:55:09+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 373,
+ "total": 371,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -7160,32 +7160,6 @@
    ]
   },
   {
-   "id": "mai-child-of-ages",
-   "titulo": "MAI: CHILD OF AGES",
-   "fecha": "2026-08-31",
-   "estimado": true,
-   "fechaEstimada": "AGOSTO 2026",
-   "relanzamiento": "En Switch y PC desde septiembre de 2025 — esta fecha corresponde a las ediciones de PS5 y Xbox",
-   "duracion": "≈ 11 h (historia) · 33 h (completo)",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "CHUBBY PIXEL",
-   "descripcion": "Viaja en el tiempo con Mai y su abuelo para desvelar los misterios del mundo después de la Última Gran Guerra. Descubre los vínculos entre eras remotas y futuros distópicos en una aventura que combina combates emocionantes y plataformas de precisión.",
-   "trailer": "https://youtube.com/embed/jZAgWEG9wPQ",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499550/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-27",
-   "url": "https://lanzamientos.lat/juegos/mai-child-of-ages"
-  },
-  {
    "id": "007-first-light",
    "titulo": "007 FIRST LIGHT",
    "fecha": "2026-09-30",
@@ -9071,30 +9045,6 @@
    "psplus": false,
    "alta": "2026-08-10",
    "url": "https://lanzamientos.lat/juegos/stupid-never-dies"
-  },
-  {
-   "id": "nomad-drive",
-   "titulo": "NOMAD DRIVE",
-   "fecha": "2026-08-31",
-   "estimado": true,
-   "fechaEstimada": "AGOSTO 2026",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE",
-    "SIMULACION"
-   ],
-   "desarrollador": "INDIE DEVIL",
-   "descripcion": "Repara tu autocaravana deteriorada y sal a la carretera en solitario o en cooperativo de 1–4 jugadores a través de un mundo post-apocalíptico generado de manera procedimental. Recoge recursos, personaliza tu autocaravana y sobrevive tanto como puedas.",
-   "trailer": "https://youtube.com/embed/7O6W5ldTg2I",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2223980/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/nomad-drive"
   },
   {
    "id": "diablo-4",

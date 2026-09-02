@@ -8,6 +8,16 @@
 /juegos/creepshow                        /  301
 /juegos/mafia-the-old-country-man-of-honor  /  301
 
+# Sacados el 02/09/2026 por quedarse sin fecha de ningún tipo. No es que se hayan
+# retrasado: nunca tuvieron la fecha que les figuraba.
+#   mai-child-of-ages  la edición de PS5 salió el 18/12/2025, ocho meses antes de lo que
+#                      decíamos y fuera del rango del calendario; la de Xbox no tiene fecha
+#                      (el catálogo de Microsoft devuelve 9998-12-30, su placeholder de TBA).
+#   nomad-drive        la PS Store dice "Fecha de lanzamiento por determinar".
+# Si alguno anuncia fecha, se vuelve a cargar y se saca su línea de acá.
+/juegos/mai-child-of-ages                /  301
+/juegos/nomad-drive                      /  301
+
 # Juegos que cambiaron de id. No se sacaron del calendario: siguen ahí con otro nombre,
 # así que van a su ficha nueva y no a la portada. Los detectó Search Console el 23/08/2026
 # avisando que la validación de "No se ha encontrado (404)" seguía fallando.
