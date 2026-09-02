@@ -5095,11 +5095,9 @@ const JUEGOS = [
   {
     id: "is-this-seat-taken",
     titulo: "IS THIS SEAT TAKEN?",
-    relanzamiento: "En PC desde el 7 de agosto de 2025 — esta fecha corresponde a la edición de PS5",
+    relanzamiento: "En Switch y PC desde el 7 de agosto de 2025 — esta fecha corresponde a la edición de PS5",
     duracion: "≈ 5,3 h (historia) · 6,1 h (completo)",
-    fecha: "2026-08-31",
-    estimado: true,
-    fechaEstimada: "AGOSTO 2026",
+    fecha: "2026-08-06",
     plataformas: ["PS5"],
     genero: ["CASUAL", "INDIE"],
     desarrollador: "POTI POTI STUDIO",
