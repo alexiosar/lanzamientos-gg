@@ -7231,7 +7231,7 @@ const JUEGOS = [
     descripcion: "Una tortuga jubilada se mete al mar a pescar medusas y las vende en su propio negocio. Con lo que junta mejora el equipo, baja más hondo y va destrabando biomas nuevos para ayudar a su aldea. Es de los tranquilos: no hay apuro ni forma de perder, y el avance se siente igual si le dedicás diez minutos o dos horas.",
     trailer: null,
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3862670/e967f8f5201f55f7b098bf3b9a54c8c8f38012b3/header.jpg",
+    imagen: "https://store-images.s-microsoft.com/image/apps.1292.13976576036437000.15d2217e-0f3f-430d-bd96-a7159bbf5985.21ad7a97-9737-45b2-915b-0cf6a29694b2?w=600&h=900&format=jpg",
     gamepass: true,
     psplus: false,
     alta: "2026-09-02"
@@ -7278,7 +7278,7 @@ const JUEGOS = [
     descripcion: "Un armamazos medieval donde las cartas no se juegan y listo: se colocan en un campo de batalla y avanzan solas hacia el enemigo. La que llega hasta el fondo se destruye para siempre y sale del mazo por el resto de la partida, así que sacrificar tropas no es un accidente sino la estrategia. Cada caído queda escrito en la leyenda del reino.",
     trailer: null,
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/0a5dc22c52d71db15651d9b461bac1e354402059/header.jpg",
+    imagen: "https://store-images.s-microsoft.com/image/apps.20206.13929128993190644.5fdad478-5d9a-4e47-b2a4-acc499d07c78.87b72de9-0d97-4e33-9dd0-d85784eb761c?w=600&h=900&format=jpg",
     gamepass: true,
     psplus: false,
     alta: "2026-09-02"

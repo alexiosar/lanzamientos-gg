@@ -238,6 +238,34 @@ sale distinta, ahí se separan los textos.
 que normaliza todo a 200×300 en su propio CDN. Con tres formas distintas —vertical, apaisada
 de 460×215 y cuadrada de Nintendo— las tarjetas quedan disparejas por más que el CSS ayude.
 
+**Antes de ir a los bancos de arte, probar la tienda donde el juego sale.** Se pasó por alto
+hasta el 02/09/2026: si Steam no tiene vertical se saltaba directo a SteamGridDB, que necesita
+clave, y sin la clave a mano el juego se quedaba con la apaisada. Pero **Xbox publica arte 2:3
+propio y no pide autenticación**:
+
+```
+https://displaycatalog.mp.microsoft.com/v7.0/products?bigIds=<STORE_ID>&market=US&languages=en-us&MS-CV=x.1
+```
+
+El `<STORE_ID>` es el código de la URL de la tienda (`.../games/store/shelldiver/9N51NR4GX891`).
+En la respuesta, dentro de `LocalizedProperties[0].Images`, la que sirve es la de
+`ImagePurpose: "Poster"`: viene en 1440×2160 o 720×1080, o sea 2:3 exacto. El servicio
+redimensiona por query, así que conviene pedirla del tamaño del resto del sitio:
+
+```
+<uri>?w=600&h=900&format=jpg
+```
+
+Ojo con el `market`/`languages`: con `market=AR&languages=es-AR` la API devuelve un JSON sin
+la clave `Products`. Con `market=US&languages=en-us` responde bien.
+
+Esa misma respuesta trae `CMSVideos` con el tráiler, pero en DASH y HLS: el sitio embebe
+YouTube o mp4 de Steam, así que no sirve tal cual.
+
+**La PS Store no siempre ayuda:** en un juego anunciado y todavía sin salir sube capturas y
+arte 16:9, y la caja recién cuando se acerca el lanzamiento. Aerial_Knight's Mr Freezy el
+02/09/2026 tenía 41 imágenes en su ficha y las 41 eran 16:9.
+
 Cuando la tienda no tiene vertical, la busca `scripts/caratulas-verticales.py` en SteamGridDB,
 un banco de portadas subidas por la comunidad. **La clave va en `SGDB_API_KEY`, nunca en el
 repo, que es público.** El 26/08/2026 esa pasada llevó las verticales de 168 a 251 de 361.
