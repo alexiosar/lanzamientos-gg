@@ -64,9 +64,9 @@ const NOTICIAS = [
     fecha: "2026-09-01",
     categoria: "SUSCRIPCIONES",
     titulo: "GAME PASS ARRANCA SEPTIEMBRE CON SPEEDRUNNERS 2 EL DÍA UNO",
-    texto: "Microsoft anunció la primera tanda de septiembre y hay tres que se cruzan con el calendario, los tres el mismo día que salen: SpeedRunners 2: King of Speed el 3, y The Royal Writ el 10. El 15 se suma RuneScape: Dragonwilds y, el mismo día, TCG Card Shop Simulator abandona el acceso anticipado y estrena su 1.0 adentro del servicio. Completan Shelldiver, Dice a Million, Call of Duty: Black Ops Cold War y Virtua Fighter 5 R.E.V.O. World Stage. Ojo con Aniimo el 16: no entra al servicio, lo que da es un paquete de recompensas para quien esté suscrito, así que no lleva el distintivo.",
+    texto: "Microsoft anunció la primera tanda de septiembre y varios entran el mismo día que salen: SpeedRunners 2: King of Speed el 3 y The Royal Writ el 10. Shelldiver ya está desde el 1, que es también el día que llegó a Xbox. El 15 se suma RuneScape: Dragonwilds y, el mismo día, TCG Card Shop Simulator abandona el acceso anticipado y estrena su 1.0 adentro del servicio. Completan la tanda Call of Duty: Black Ops Cold War, Virtua Fighter 5 R.E.V.O. World Stage —que no es un estreno: está en Xbox desde octubre de 2025 y ahora entra al catálogo— y Dice a Million, que en Xbox es solo para PC. Ojo con Aniimo el 16: no entra al servicio, lo que da es un paquete de recompensas para quien esté suscrito, así que no lleva el distintivo.",
     fuente: "https://news.xbox.com/en-us/2026/09/01/xbox-game-pass-update-september-wave-1/",
-    juegos: ["speedrunners-2-king-of-speed", "runescape-dragonwilds", "tcg-card-shop-simulator", "aniimo"]
+    juegos: ["speedrunners-2-king-of-speed", "the-royal-writ", "shelldiver", "runescape-dragonwilds", "tcg-card-shop-simulator", "aniimo"]
   },
 
   {

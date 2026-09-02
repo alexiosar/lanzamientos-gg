@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-02T15:28:37+00:00",
+ "generado": "2026-09-02T17:46:15+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 369,
+ "total": 373,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -10218,6 +10218,101 @@
    "psplus": false,
    "alta": "2026-08-31",
    "url": "https://lanzamientos.lat/juegos/power-racing-bundle-4"
+  },
+  {
+   "id": "shelldiver",
+   "titulo": "SHELLDIVER",
+   "relanzamiento": "En PC desde noviembre de 2025",
+   "fecha": "2026-09-01",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "SIMULACION",
+    "RELAX",
+    "CASUAL"
+   ],
+   "desarrollador": "GAGONFE",
+   "descripcion": "Una tortuga jubilada se mete al mar a pescar medusas y las vende en su propio negocio. Con lo que junta mejora el equipo, baja más hondo y va destrabando biomas nuevos para ayudar a su aldea. Es de los tranquilos: no hay apuro ni forma de perder, y el avance se siente igual si le dedicás diez minutos o dos horas.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3862670/e967f8f5201f55f7b098bf3b9a54c8c8f38012b3/header.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-09-02",
+   "url": "https://lanzamientos.lat/juegos/shelldiver"
+  },
+  {
+   "id": "port-of-jumanah",
+   "titulo": "PORT OF JUMANAH",
+   "fecha": "2026-09-07",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "RED DUNES GAMES",
+   "descripcion": "Acción en 2.5D con estructura rogue-lite y una ambientación de mundo árabe que no se ve seguido. Se juega como Mansour, un pibe que termina metido en un viaje para salvar el mundo sin haberlo pedido. Se reclutan compañeros para el barco —hay un gato— y cada uno cambia algo de la travesía.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2998920/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-02",
+   "url": "https://lanzamientos.lat/juegos/port-of-jumanah"
+  },
+  {
+   "id": "aerial-knights-mr-freezy",
+   "titulo": "AERIAL_KNIGHT'S MR FREEZY",
+   "relanzamiento": "En PC desde septiembre de 2026",
+   "fecha": "2026-09-08",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "PUZZLE",
+    "INDIE",
+    "HORROR"
+   ],
+   "desarrollador": "AERIAL_KNIGHT",
+   "descripcion": "Un juego de puzles con humor negro sobre una asesina serial que la ciudad de New Detroit conoce como Mr. Freezy, después de encontrar cientos de cabezas guardadas en heladeras. No se juega a las víctimas: se juega del otro lado del sótano. Lo hace Aerial_Knight, el estudio de una sola persona detrás de Never Yield.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4756010/edee0d22445bfc4685f19fd2ce967710c198efb8/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-02",
+   "url": "https://lanzamientos.lat/juegos/aerial-knights-mr-freezy"
+  },
+  {
+   "id": "the-royal-writ",
+   "titulo": "THE ROYAL WRIT",
+   "relanzamiento": "En PC desde agosto de 2025",
+   "fecha": "2026-09-10",
+   "plataformas": [
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "CARTAS",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "SAVE SLOTH STUDIOS",
+   "descripcion": "Un armamazos medieval donde las cartas no se juegan y listo: se colocan en un campo de batalla y avanzan solas hacia el enemigo. La que llega hasta el fondo se destruye para siempre y sale del mazo por el resto de la partida, así que sacrificar tropas no es un accidente sino la estrategia. Cada caído queda escrito en la leyenda del reino.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3333700/0a5dc22c52d71db15651d9b461bac1e354402059/header.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-09-02",
+   "url": "https://lanzamientos.lat/juegos/the-royal-writ"
   }
  ]
 }
