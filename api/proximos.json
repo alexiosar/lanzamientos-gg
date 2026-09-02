@@ -2,45 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-01T19:50:08+00:00",
+ "generado": "2026-09-02T15:28:37+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-01",
- "hasta": "2026-10-01",
- "total": 96,
+ "desde": "2026-09-02",
+ "hasta": "2026-10-02",
+ "total": 97,
  "juegos": [
-  {
-   "id": "crimson-moon",
-   "titulo": "CRIMSON MOON",
-   "fecha": "2026-09-01",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "RPG",
-    "GOTICO"
-   ],
-   "desarrollador": "PROBABLYMONSTERS",
-   "descripcion": "Un RPG de acción y aventura de tono gótico, habitado por ángeles violentos y dioses muertos. Es el primer juego del estudio fundado por veteranos de Bungie y Sucker Punch, y todavía no tiene día exacto de salida.",
-   "trailer": "https://youtube.com/embed/d0lXLkqcOKw",
-   "metacritic": 73,
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobigu.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/crimson-moon",
-   "noticias": [
-    {
-     "fecha": "2026-08-20",
-     "titulo": "YA TIENE FECHA: 1 DE SEPTIEMBRE",
-     "texto": "El estudio confirmó el día en su propio anuncio, con tráiler de fecha y las ediciones del juego."
-    }
-   ]
-  },
   {
    "id": "moonlighter-2-the-endless-vault",
    "titulo": "MOONLIGHTER 2: THE ENDLESS VAULT",
@@ -59,12 +27,21 @@
    "desarrollador": "DIGITAL SUN",
    "descripcion": "¡Emprende la vida del héroe mercante! Adéntrate en dimensiones colmadas de tesoros y enemigos. Amasa un buen botín, vende las reliquias en tu tienda y reinvierte en mejorar tu equipo para que la siguiente expedición sea aún más fructífera. Con el oro suficiente, quizá algún día puedas volver a casa.",
    "trailer": "https://youtube.com/embed/5bcVLw6WRgs",
-   "metacritic": null,
+   "metacritic": 76,
+   "metacriticUsuarios": null,
+   "critica": "Ojo con el puntaje: son cuatro reseñas, así que todavía dice poco. Las cuatro coinciden en que el doble turno del primero —de día atendés la tienda, de noche bajás a la mazmorra— sigue enganchando igual y que el salto al 3D le sienta bien, con un combate rehecho y una capa de tienda bastante más profunda. Los reparos también se repiten: el grindeo se hace notar con las horas, los tiempos de carga son largos, y no tiene la hondura de un juego dedicado a cada uno de los dos géneros por separado. Dos advertencias concretas: la historia es lo único que no acompaña, y a quien ya lo venía jugando en acceso anticipado esta versión 1.0 le suma poco.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/moonlighter-2-the-endless-vault"
+   "url": "https://lanzamientos.lat/juegos/moonlighter-2-the-endless-vault",
+   "noticias": [
+    {
+     "fecha": "2026-09-02",
+     "titulo": "DEBUTA CON 76 Y LA TIENDA SIGUE SIENDO LO MEJOR",
+     "texto": "Sale hoy en consolas y las primeras reseñas lo ubican en 76. El acuerdo es que la mezcla de mazmorra y mostrador sigue funcionando y que el 3D le queda bien; los reparos son el grindeo, las cargas y una historia que no está a la altura del resto."
+    }
+   ]
   },
   {
    "id": "angeline-era",
@@ -86,12 +63,21 @@
    "desarrollador": "MELOS HAN-TANI",
    "descripcion": "Una aventura de acción en 3D donde cada nivel se esconde a plena vista. Se recorre una tierra llena de secretos que se revelan mirando distinto lo que ya se tenía delante.",
    "trailer": "https://youtube.com/embed/JkK6X_LWMr0",
-   "metacritic": null,
+   "metacritic": 88,
+   "metacriticUsuarios": null,
+   "critica": "El puntaje más alto de la semana, pero armado con cuatro reseñas: hay que tomarlo como un primer indicio. Lo que elogian es el combate, que abandona la esquiva y el parry por el choque cuerpo a cuerpo al estilo de los Ys viejos de Falcom, donde moverse bien y elegir a quién pegarle primero importa más que los reflejos. También el mundo no lineal, la historia y una autoría que se nota. Nadie le marca un defecto, pero sí queda claro para quién es: pide aprender un sistema de combate poco común, te deja encontrar el camino solo y mira al RPG de acción de hace treinta años sin disimularlo.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2393920/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-14",
-   "url": "https://lanzamientos.lat/juegos/angeline-era"
+   "url": "https://lanzamientos.lat/juegos/angeline-era",
+   "noticias": [
+    {
+     "fecha": "2026-09-02",
+     "titulo": "LLEGA A CONSOLAS CON 88, EL MEJOR PUNTAJE DE LA SEMANA",
+     "texto": "Después de nueve meses en PC llega hoy a PS5, PS4, Xbox y Switch, y debuta con 88. Las reseñas destacan el combate de choque al estilo de los Ys clásicos y un mundo que se recorre sin que nadie te marque el camino."
+    }
+   ]
   },
   {
    "id": "the-blood-of-dawnwalker",
@@ -276,7 +262,7 @@
    "trailer": "https://youtube.com/embed/YzXr0kNUN_Q",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/1e8d6e45a63cd6ab81e569fec4e4d220.png",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/speedrunners-2-king-of-speed"
@@ -888,7 +874,7 @@
    "trailer": "https://youtube.com/embed/a46MLlfMt2Y",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/54036554a9858230db7403a506421829.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/runescape-dragonwilds"
@@ -938,7 +924,7 @@
    "trailer": "https://youtube.com/embed/XBAyr9O9BnY",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/library_600x900.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-08-17",
    "url": "https://lanzamientos.lat/juegos/tcg-card-shop-simulator"
@@ -2394,6 +2380,50 @@
      "texto": "Cuesta 69,99 euros, y quien ya tenga el juego base puede pasarse por 14,99. Ese mismo día llega además una actualización gratuita para todos los jugadores, tengan o no la edición completa."
     }
    ]
+  },
+  {
+   "id": "ace-combat-8-wings-of-theve",
+   "titulo": "ACE COMBAT 8: WINGS OF THEVE",
+   "fecha": "2026-10-02",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION"
+   ],
+   "desarrollador": "BANDAI NAMCO ACES INC.",
+   "descripcion": "Supera desafíos y reclama tu sitio entre los ases del aire. Usa poderosas armas en intensos combates aéreos para dominar el campo de batalla. Descubre un formidable modo Campaña con misiones de alto riesgo que en las que tomarás decisiones difíciles, pero también forjarás vínculos con tu escuadrón.",
+   "trailer": "https://youtube.com/embed/cW6zBuO7sb4",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/a5ac85c0f395122aad68367e649fd342.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve"
+  },
+  {
+   "id": "paw-patrol-dino-world-switch-2",
+   "titulo": "PAW PATROL: DINO WORLD",
+   "fecha": "2026-10-02",
+   "relanzamiento": "En PS5, Xbox y PS4 desde el 31 de julio de 2026 — esta fecha corresponde a la edición de Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ACCION",
+    "COOP"
+   ],
+   "desarrollador": "3DCLOUDS",
+   "descripcion": "La edición de Switch 2 de la aventura de la Patrulla Canina en la Isla Dino, dos meses después del resto de las consolas. Mismos minijuegos, misiones y construcción de conjuntos prehistóricos con Rex.",
+   "trailer": "https://youtube.com/embed/2ccwZwR0pv0",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobxhw.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-01",
+   "url": "https://lanzamientos.lat/juegos/paw-patrol-dino-world-switch-2"
   }
  ]
 }

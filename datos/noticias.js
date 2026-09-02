@@ -50,6 +50,26 @@
 
 const NOTICIAS = [
   {
+    id: "no-rest-for-the-wicked-retraso-marzo-2027",
+    fecha: "2026-09-02",
+    categoria: "RETRASOS",
+    titulo: "NO REST FOR THE WICKED SE VA A MARZO DE 2027",
+    texto: "Moon Studios movió la versión 1.0 de octubre de 2026 a marzo de 2027, y el anuncio lo hicieron ellos mismos en Steam. El motivo que dan es que son un equipo chico y que el juego todavía no está donde lo quieren: los meses extra van a rendimiento, al sistema de clases y a pulir el conjunto. De paso prometen más betas cerradas y abiertas en el camino. En el calendario ya movimos la fecha: el juego pasa de octubre a marzo del año que viene.",
+    fuente: "https://store.steampowered.com/news/app/1371980",
+    juegos: ["no-rest-for-the-wicked"]
+  },
+
+  {
+    id: "game-pass-primera-quincena-septiembre-2026",
+    fecha: "2026-09-01",
+    categoria: "SUSCRIPCIONES",
+    titulo: "GAME PASS ARRANCA SEPTIEMBRE CON SPEEDRUNNERS 2 EL DÍA UNO",
+    texto: "Microsoft anunció la primera tanda de septiembre y hay tres que se cruzan con el calendario, los tres el mismo día que salen: SpeedRunners 2: King of Speed el 3, y The Royal Writ el 10. El 15 se suma RuneScape: Dragonwilds y, el mismo día, TCG Card Shop Simulator abandona el acceso anticipado y estrena su 1.0 adentro del servicio. Completan Shelldiver, Dice a Million, Call of Duty: Black Ops Cold War y Virtua Fighter 5 R.E.V.O. World Stage. Ojo con Aniimo el 16: no entra al servicio, lo que da es un paquete de recompensas para quien esté suscrito, así que no lleva el distintivo.",
+    fuente: "https://news.xbox.com/en-us/2026/09/01/xbox-game-pass-update-september-wave-1/",
+    juegos: ["speedrunners-2-king-of-speed", "runescape-dragonwilds", "tcg-card-shop-simulator", "aniimo"]
+  },
+
+  {
     id: "konami-press-start-3-septiembre-2026",
     fecha: "2026-09-01",
     categoria: "EVENTOS",

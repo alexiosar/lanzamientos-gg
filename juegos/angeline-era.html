@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -137,6 +138,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">88 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('angeline-era')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -152,6 +158,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">El puntaje más alto de la semana, pero armado con cuatro reseñas: hay que tomarlo como un primer indicio. Lo que elogian es el combate, que abandona la esquiva y el parry por el choque cuerpo a cuerpo al estilo de los Ys viejos de Falcom, donde moverse bien y elegir a quién pegarle primero importa más que los reflejos. También el mundo no lineal, la historia y una autoría que se nota. Nadie le marca un defecto, pero sí queda claro para quién es: pide aprender un sistema de combate poco común, te deja encontrar el camino solo y mira al RPG de acción de hace treinta años sin disimularlo.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-02</span>
+            <span class="noticia-titulo">▸ LLEGA A CONSOLAS CON 88, EL MEJOR PUNTAJE DE LA SEMANA</span>
+          </div>
+          <p class="noticia-texto">Después de nueve meses en PC llega hoy a PS5, PS4, Xbox y Switch, y debuta con 88. Las reseñas destacan el combate de choque al estilo de los Ys clásicos y un mundo que se recorre sin que nadie te marque el camino.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Una aventura de acción en 3D donde cada nivel se esconde a plena vista. Se recorre una tierra llena de secretos que se revelan mirando distinto lo que ya se tenía delante.</p>
