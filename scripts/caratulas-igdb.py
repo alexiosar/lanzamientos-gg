@@ -96,10 +96,16 @@ def cargar_juegos():
 
 
 def es_vertical(url):
-    """Las que ya están bien: Steam 600x900, PlayStation, o las que trajo SteamGridDB."""
+    """Las que ya están bien: Steam 600x900, PlayStation, Xbox, o las que trajo SteamGridDB.
+
+    `store-images.s-microsoft.com` es la de Xbox (ImagePurpose "Poster", 2:3 exacto) y se
+    agregó el 02/09/2026, el mismo día que se empezó a usar esa fuente. Sin esto el script
+    las contaba como faltantes y podía pisar un 2:3 de Xbox con el 3:4 de IGDB, que es peor.
+    """
     if not url:
         return False
     return ("library_600x900" in url or "image.api.playstation.com" in url
+            or "store-images.s-microsoft.com" in url
             or "steamgriddb" in url or "images.igdb.com" in url)
 
 

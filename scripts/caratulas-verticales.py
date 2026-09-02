@@ -74,10 +74,14 @@ def es_vertical(url):
     Ojo con la última: faltaba `steamgriddb` y el script no reconocía su propio resultado,
     así que volvía a consultar los 74 juegos que ya había resuelto en cada corrida. No
     rompía nada —encontraba la misma imagen y no escribía— pero eran 150 pedidos al pedo.
+
+    `store-images.s-microsoft.com` es la de Xbox (ImagePurpose "Poster", 2:3 exacto) y se
+    agregó el 02/09/2026, el mismo día que se empezó a usar esa fuente.
     """
     if not url:
         return False
     return ("library_600x900" in url or "image.api.playstation.com" in url
+            or "store-images.s-microsoft.com" in url
             or "images.igdb.com" in url or "steamgriddb" in url)
 
 
