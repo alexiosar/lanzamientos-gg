@@ -305,6 +305,25 @@ tercio del alto y quedan peor que la apaisada que venían a reemplazar.
 Ojo con la proporción, que no es idéntica: IGDB entrega 528x704, o sea 3:4, contra el 2:3 de
 Steam. Se le recorta un 11% de ancho y en un arte de tapa no se nota, pero no es lo mismo.
 
+**Los 8 que quedaban al 02/09/2026 no tienen arte en ningún lado, y está chequeado.** Vale la
+pena dejarlo escrito porque desde afuera parece que falta correr algo:
+
+| Juego | SteamGridDB | IGDB |
+|---|---|---|
+| route16r, flying-fire-shark-toaplan-arcade-garage, marupoyo-the-round-chicks-adventure, danger-mouse, power-racing-bundle-4, aerial-knights-mr-freezy | la ficha existe, **0 grids** en cualquier medida | sin resultados o icono cuadrado |
+| spooky-spirit-shooting-gallery, sesame-street-amigos-y-risas | el banco devuelve **otro juego** (Spooky's Jump Scare Mansion, Sesame Street Sports) y el matcher lo rechaza bien | ídem |
+
+Dos cosas que se descartaron ahí y conviene no volver a intentar:
+
+- **No es el filtro de tamaño.** `mejor_grid()` pide `dimensions=600x900` y SteamGridDB también
+  sirve 342x482 y 660x930, así que parecía que aflojando eso aparecían. No: se consultó sin
+  filtro de medida y los seis primeros tienen **cero** grids de cualquier tamaño.
+- **No es el matcher.** Los dos que sí tienen arte son homónimos, y rechazarlos es justo para
+  lo que existe la regla del nombre.
+
+Queda esperar a que la tienda publique la caja. Mr Freezy es el caso típico: PS5 sin salir, la
+PS Store todavía con puras capturas 16:9 y Steam sin `library_600x900`.
+
 Los que ni siquiera así aparecen se buscan a mano, y casi siempre es porque el nombre no
 coincide: nosotros escribimos el título en castellano y la base lo tiene en inglés («El
 Profesor Layton y el Nuevo Mundo a Vapor» es «Professor Layton and the New World of Steam»,
