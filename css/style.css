@@ -120,6 +120,16 @@ a:hover { color: var(--blanco); }
   flex-wrap: wrap;
 }
 
+/* Con el enlace de MIS JUEGOS son NUEVE ítems y con 2rem de separación no entran: la
+   cabecera está fija en 860px —812 útiles— y los nueve textos suman 559, así que los ocho
+   espacios de 32px dan 815 y PS4 se cae solo a un segundo renglón. Se caía por tres píxeles,
+   en cualquier pantalla de escritorio, y lo veía todo el que tuviera un favorito.
+
+   Se aprieta sólo cuando ese enlace está: con los ocho de siempre el menú queda igual que
+   antes. A 24px sobran 61 píxeles, que aguantan hasta un contador de cuatro cifras.
+   La clase la pone favNav() en js/favoritos.js, que es quien sabe si el enlace existe. */
+.nav.con-mis-juegos { gap: 1.5rem; }
+
 .nav a {
   color: var(--acento);
   font-size: 0.75rem;
@@ -1144,7 +1154,12 @@ a:hover { color: var(--blanco); }
 /* ── RESPONSIVE ── */
 @media (max-width: 600px) {
   .site-logo { font-size: 1.125rem; letter-spacing: 3px; }
-  .nav { gap: 1rem; }
+  /* La segunda mitad del selector no sobra: `.nav.con-mis-juegos` de más arriba tiene más
+     especificidad que un `.nav` suelto y le ganaba a esta regla aunque venga después, así
+     que en el teléfono el menú se abría a 24px en vez de 16. Acá el apretado no hace falta:
+     con este ancho el menú va a varios renglones igual, y lo que se busca es que quepan
+     más ítems por renglón. */
+  .nav, .nav.con-mis-juegos { gap: 1rem; }
   .ficha-meta { gap: 1rem; }
   .ficha-titulo { font-size: 0.8125rem; }
   .juego-nombre { font-size: 0.75rem; }

@@ -121,7 +121,12 @@ function favNav() {
   const n = favIds().length;
   let link = document.getElementById("nav-mis-juegos");
 
-  if (!n && !favEnMisJuegos()) {
+  // Nueve ítems no entran con la separación de ocho: el CSS aprieta el menú sólo cuando
+  // este enlace está puesto. Ver `.nav.con-mis-juegos` en css/style.css.
+  const apretar = n > 0 || favEnMisJuegos();
+  nav.classList.toggle("con-mis-juegos", apretar);
+
+  if (!apretar) {
     if (link) link.remove();
     return;
   }
