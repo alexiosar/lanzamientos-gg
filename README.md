@@ -43,6 +43,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/verificar-duplicados.py  Juegos cargados dos veces con id distinto
+├── scripts/verificar-estimados.py  Fechas estimadas vencidas (corre en la diaria)
 ├── scripts/verificar-favoritos.py  Que la estrella siga enchufada (corre en la diaria)
 ├── datos/recomendados.js       La selección del mes, elegida a mano
 ├── scripts/generar-recomendados.py  Genera recomendados.html
@@ -894,6 +895,17 @@ en este archivo y en la sección "Fuentes de datos habituales".
 1. `python3 scripts/actualizar.py` — refresca puntajes de Metacritic, regenera fichas y
    sitemap, y reporta: debuts con puntaje, lanzamientos de hoy/mañana (candidatos a
    noticias) y faltantes. Este paso no necesita a Claude.
+
+   **Mirar los tres chequeos del medio**, que reportan fuerte pero no frenan el deploy:
+   duplicados, fechas estimadas y favoritos. Los tres cubren el mismo tipo de error —**el que
+   no se ve mirando el sitio**— y por eso corren todos los días: ninguno toca la red.
+
+   El de estimados salió del 02/09/2026, cuando el usuario encontró a ojo tres juegos que
+   decían "AGOSTO 2026" con agosto terminado. **Un estimado vencido no se ve roto:** la fila
+   sale prolija, en su bloque "SIN FECHA CONFIRMADA", afirmando que algo sale en un mes que ya
+   pasó, y cuanto más viejo es el dato más convincente parece. Cuando salte uno, **no asumir
+   que se retrasó**: de aquellos tres, uno ya había salido, otro había salido ocho meses
+   ANTES de lo que decíamos y el tercero nunca tuvo esa fecha. Hay que ir a la tienda.
 
    **Mirar el final.** Si dice `⚠⚠ N PASO(S) FALLARON`, no subir. Son dos cosas distintas:
    un **generador** que falla deja su página como estaba —se ve bien y está vieja, que es

@@ -317,6 +317,15 @@ def main():
                        capture_output=True, text=True)
     print(r.stdout.strip() or r.stderr.strip())
 
+    # Hermano del de duplicados y con el mismo modo de falla: un estimado vencido no se ve
+    # roto. La fila sale prolija, en su bloque "SIN FECHA CONFIRMADA", diciendo que un juego
+    # sale en un mes que ya pasó. El 02/09/2026 había tres de "AGOSTO 2026" y los encontró el
+    # usuario mirando la página, no una rutina. Tampoco toca la red.
+    print()
+    r = subprocess.run(["python3", str(RAIZ / "scripts" / "verificar-estimados.py")],
+                       capture_output=True, text=True)
+    print(r.stdout.strip() or r.stderr.strip())
+
     # La estrella de favoritos se llama desde js/main.js pero vive en js/favoritos.js. Si
     # esa función se renombra o el script deja de cargarse, renderCalendario() tira una
     # excepción en medio del render y la PORTADA QUEDA EN BLANCO. No se ve fea: no se ve.
