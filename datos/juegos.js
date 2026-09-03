@@ -7293,5 +7293,20 @@ const JUEGOS = [
     gamepass: true,
     psplus: false,
     alta: "2026-09-02"
+  },
+  {
+    id: "fall-up",
+    titulo: "FALL UP",
+    fecha: "2026-12-03",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["PLATAFORMA", "AVENTURA", "PUZZLE", "INDIE"],
+    desarrollador: "UNICELLULAR GAMES",
+    descripcion: "Un plataformas donde el personaje es un robot al que le instalaron un módulo equivocado: Labi tiene las piernas más cortas y más potentes de toda la fábrica, y se dispara como una bala de cañón. Todo el juego sale de ahí — pisotear enemigos desde el aire, rebotar contra las paredes y encadenar saltos para encontrar la ruta buena. Más adelante aparece una bola que se puede tirar para teletransportarse adonde caiga, y el asunto pasa a ser tanto de planear como de reflejos.",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1835670/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-09-03"
   }
 ];

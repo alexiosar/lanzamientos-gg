@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-03T18:01:19+00:00",
+ "generado": "2026-09-03T18:58:31+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 371,
+ "total": 372,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -10310,6 +10310,30 @@
    "psplus": false,
    "alta": "2026-09-02",
    "url": "https://lanzamientos.lat/juegos/the-royal-writ"
+  },
+  {
+   "id": "fall-up",
+   "titulo": "FALL UP",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "UNICELLULAR GAMES",
+   "descripcion": "Un plataformas donde el personaje es un robot al que le instalaron un módulo equivocado: Labi tiene las piernas más cortas y más potentes de toda la fábrica, y se dispara como una bala de cañón. Todo el juego sale de ahí — pisotear enemigos desde el aire, rebotar contra las paredes y encadenar saltos para encontrar la ruta buena. Más adelante aparece una bola que se puede tirar para teletransportarse adonde caiga, y el asunto pasa a ser tanto de planear como de reflejos.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1835670/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-03",
+   "url": "https://lanzamientos.lat/juegos/fall-up"
   }
  ]
 }
