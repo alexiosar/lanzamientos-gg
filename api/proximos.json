@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-03T18:58:31+00:00",
+ "generado": "2026-09-03T19:32:06+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-03",
  "hasta": "2026-10-03",
- "total": 98,
+ "total": 101,
  "juegos": [
   {
    "id": "the-blood-of-dawnwalker",
@@ -242,7 +242,8 @@
    "desarrollador": "FURYU",
    "descripcion": "La única forma de salvar el mundo es un beso. Un RPG de fantasía ambientado en Amazia, un Tokio fusionado con otro mundo y condenado a un destino fatal, donde te convertís en el salvador elegido, un Prisma, para enfrentar la destrucción.",
    "trailer": "https://youtube.com/embed/wk7xCAkxGI4",
-   "metacritic": null,
+   "metacritic": 69,
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobz0m.jpg",
    "gamepass": false,
    "psplus": false,
@@ -437,6 +438,29 @@
    "url": "https://lanzamientos.lat/juegos/dream-cage"
   },
   {
+   "id": "nhl-27",
+   "titulo": "NHL 27",
+   "fecha": "2026-09-04",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "DEPORTES",
+    "SIMULACION",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "EA VANCOUVER",
+   "descripcion": "La entrega anual del hockey de EA. Como todos los años, lo que cambia está en los detalles del hielo: el motor de físicas, la presentación de la transmisión y los modos de franquicia y de cartas. Si venís de la edición anterior, conviene mirar qué trae de nuevo antes de dar el salto.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.52613.14544549240223014.0ee775ea-048e-4ed6-92c8-89fdb0c782cb.bee6cb63-e68f-4e90-a119-f674a6f9325c?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-03",
+   "url": "https://lanzamientos.lat/juegos/nhl-27"
+  },
+  {
    "id": "port-of-jumanah",
    "titulo": "PORT OF JUMANAH",
    "fecha": "2026-09-07",
@@ -622,6 +646,32 @@
    "psplus": false,
    "alta": "2026-09-02",
    "url": "https://lanzamientos.lat/juegos/aerial-knights-mr-freezy"
+  },
+  {
+   "id": "mewgenics",
+   "titulo": "MEWGENICS",
+   "relanzamiento": "En PC desde febrero de 2026",
+   "fecha": "2026-09-08",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "ROGUELIKE",
+    "POR TURNOS",
+    "INDIE"
+   ],
+   "desarrollador": "EDMUND MCMILLEN GAMES",
+   "descripcion": "Lo nuevo de Edmund McMillen, el de The Binding of Isaac y Super Meat Boy, con Tyler Glaiel. Es un roguelike táctico por turnos donde criás gatos —literalmente, con genética de por medio— para armar el escuadrón que mandás a la mazmorra. Los que sobreviven se cruzan entre sí y las camadas heredan lo bueno y lo horrible, así que cada partida arrastra a la siguiente.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686060/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-03",
+   "url": "https://lanzamientos.lat/juegos/mewgenics"
   },
   {
    "id": "barbarian-saga-the-beastmaster",
@@ -1520,6 +1570,30 @@
    "psplus": false,
    "alta": "2026-08-28",
    "url": "https://lanzamientos.lat/juegos/au-revoir"
+  },
+  {
+   "id": "granblue-fantasy-versus-rising-switch-2",
+   "titulo": "GRANBLUE FANTASY VERSUS: RISING",
+   "relanzamiento": "En PS5, PS4 y PC desde diciembre de 2023 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "LUCHA",
+    "ACCION",
+    "ANIME",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "ARC SYSTEM WORKS",
+   "descripcion": "El juego de pelea de Granblue Fantasy hecho por Arc System Works, los de Guilty Gear, llega a Switch 2. Está pensado para entrar sin saber pelear: hay un esquema de controles simplificado que saca los especiales con un botón, y otro clásico para quien quiera la ejecución completa. Trae rollback y juego cruzado.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2157560/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-03",
+   "url": "https://lanzamientos.lat/juegos/granblue-fantasy-versus-rising-switch-2"
   },
   {
    "id": "lego-batman-legacy-of-the-dark-knight",
