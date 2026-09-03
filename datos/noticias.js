@@ -50,6 +50,16 @@
 
 const NOTICIAS = [
   {
+    id: "state-of-play-resumen-3-septiembre-2026",
+    fecha: "2026-09-03",
+    categoria: "EVENTOS",
+    titulo: "LOS DOS STATE OF PLAY DEJARON MÁS DE 30 JUEGOS, Y CASI TODOS PARA 2027",
+    texto: "Fueron dos transmisiones seguidas y el saldo es raro para un calendario: de los treinta y pico de juegos, casi ninguno sale este año. Final Fantasy VII Revelation, que cierra la trilogía, va al 8 de abril de 2027; Until Dawn 2 y Fate/EXTRA Record al 28 de enero de 2027; Gundam Rogue Orbit al 5 de marzo; Dragon Ball Xenoverse 3 y una expansión de Digimon Story: Time Stranger quedaron en «2027» sin día. Lo que sí toca lo que viene: Dragon Quest Monsters: The Withered World confirmó el 3 de diciembre, Final Fantasy Resonance ratificó el 22 de octubre y soltó el primer capítulo como demo —con Sephiroth anunciado en el elenco—, y la Edición Completa de Ghost of Yōtei llega el 1 de octubre con los dos modos nuevos adentro, Los más buscados y Ecos de Sekigahara. Nada de esto cambió una fecha nuestra: las tres que ya teníamos coincidían.",
+    fuente: "https://blog.latam.playstation.com/2026/09/03/state-of-play-y-state-of-play-japan-todos-los-anuncios-y-trailers/",
+    juegos: ["dragon-quest-monsters-the-withered-world", "final-fantasy-resonance", "ghost-of-yotei-complete-edition", "digimon-story-time-stranger"]
+  },
+
+  {
     id: "no-rest-for-the-wicked-retraso-marzo-2027",
     fecha: "2026-09-02",
     categoria: "RETRASOS",

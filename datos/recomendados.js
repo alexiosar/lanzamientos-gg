@@ -30,7 +30,7 @@ const RECOMENDADOS = {
     },
     {
       id: "orbitals",
-      texto: "Nintendo anunció un exclusivo de Switch 2 y dijo dos palabras: «We are one!». Nada más. Está acá justamente por eso — es lo único del mes de lo que no se sabe nada, y viene de la casa que no suele anunciar al pedo."
+      texto: "Entró a esta lista cuando Nintendo lo había anunciado con dos palabras —«We are one!»— y nada más. Salió el 3 de septiembre con 82 y ahora se entiende la frase: es un cooperativo para DOS, sin modo individual, con un diseño de niveles que las reseñas comparan con It Takes Two. Si tenés con quién jugarlo, era la apuesta buena del mes; si no, no es para vos."
     },
     {
       id: "marsupilami-2-salsa-palombia",

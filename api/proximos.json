@@ -2,83 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-02T21:07:46+00:00",
+ "generado": "2026-09-03T18:01:19+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-02",
- "hasta": "2026-10-02",
- "total": 100,
+ "desde": "2026-09-03",
+ "hasta": "2026-10-03",
+ "total": 98,
  "juegos": [
-  {
-   "id": "moonlighter-2-the-endless-vault",
-   "titulo": "MOONLIGHTER 2: THE ENDLESS VAULT",
-   "fecha": "2026-09-02",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "DIGITAL SUN",
-   "descripcion": "¡Emprende la vida del héroe mercante! Adéntrate en dimensiones colmadas de tesoros y enemigos. Amasa un buen botín, vende las reliquias en tu tienda y reinvierte en mejorar tu equipo para que la siguiente expedición sea aún más fructífera. Con el oro suficiente, quizá algún día puedas volver a casa.",
-   "trailer": "https://youtube.com/embed/5bcVLw6WRgs",
-   "metacritic": 76,
-   "metacriticUsuarios": null,
-   "critica": "Ojo con el puntaje: son cuatro reseñas, así que todavía dice poco. Las cuatro coinciden en que el doble turno del primero —de día atendés la tienda, de noche bajás a la mazmorra— sigue enganchando igual y que el salto al 3D le sienta bien, con un combate rehecho y una capa de tienda bastante más profunda. Los reparos también se repiten: el grindeo se hace notar con las horas, los tiempos de carga son largos, y no tiene la hondura de un juego dedicado a cada uno de los dos géneros por separado. Dos advertencias concretas: la historia es lo único que no acompaña, y a quien ya lo venía jugando en acceso anticipado esta versión 1.0 le suma poco.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/moonlighter-2-the-endless-vault",
-   "noticias": [
-    {
-     "fecha": "2026-09-02",
-     "titulo": "DEBUTA CON 76 Y LA TIENDA SIGUE SIENDO LO MEJOR",
-     "texto": "Sale hoy en consolas y las primeras reseñas lo ubican en 76. El acuerdo es que la mezcla de mazmorra y mostrador sigue funcionando y que el 3D le queda bien; los reparos son el grindeo, las cargas y una historia que no está a la altura del resto."
-    }
-   ]
-  },
-  {
-   "id": "angeline-era",
-   "titulo": "ANGELINE ERA",
-   "relanzamiento": "En PC desde diciembre de 2025",
-   "duracion": "≈ 14 h (historia) · 18 h (completo)",
-   "fecha": "2026-09-02",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "PS4",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "MELOS HAN-TANI",
-   "descripcion": "Una aventura de acción en 3D donde cada nivel se esconde a plena vista. Se recorre una tierra llena de secretos que se revelan mirando distinto lo que ya se tenía delante.",
-   "trailer": "https://youtube.com/embed/JkK6X_LWMr0",
-   "metacritic": 88,
-   "metacriticUsuarios": null,
-   "critica": "El puntaje más alto de la semana, pero armado con cuatro reseñas: hay que tomarlo como un primer indicio. Lo que elogian es el combate, que abandona la esquiva y el parry por el choque cuerpo a cuerpo al estilo de los Ys viejos de Falcom, donde moverse bien y elegir a quién pegarle primero importa más que los reflejos. También el mundo no lineal, la historia y una autoría que se nota. Nadie le marca un defecto, pero sí queda claro para quién es: pide aprender un sistema de combate poco común, te deja encontrar el camino solo y mira al RPG de acción de hace treinta años sin disimularlo.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2393920/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-14",
-   "url": "https://lanzamientos.lat/juegos/angeline-era",
-   "noticias": [
-    {
-     "fecha": "2026-09-02",
-     "titulo": "LLEGA A CONSOLAS CON 88, EL MEJOR PUNTAJE DE LA SEMANA",
-     "texto": "Después de nueve meses en PC llega hoy a PS5, PS4, Xbox y Switch, y debuta con 88. Las reseñas destacan el combate de choque al estilo de los Ys clásicos y un mundo que se recorre sin que nadie te marque el camino."
-    }
-   ]
-  },
   {
    "id": "the-blood-of-dawnwalker",
    "titulo": "THE BLOOD OF DAWNWALKER",
@@ -96,12 +26,21 @@
    "desarrollador": "REBEL WOLVES",
    "descripcion": "The Blood of Dawnwalker es un RPG de acción y fantasía oscura en mundo abierto ambientado en la Europa del siglo XIV. Juegas como Coen, humano de día y vampiro de noche, y luchas por salvar a tu familia en una historia moldeada por tus decisiones.",
    "trailer": "https://youtube.com/embed/te73UInH8H8",
-   "metacritic": null,
+   "metacritic": 83,
+   "metacriticUsuarios": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png",
+   "critica": "Más de treinta reseñas y un acuerdo raro de ver en un debut: Rebel Wolves —armado por gente que hizo The Witcher 3— salió bien parado. Lo que más se elogia es lo que lo hace distinto: el reloj de treinta días que corre mientras jugás, la doble condición de humano de día y vampiro de noche, y decisiones que tienen consecuencias de verdad. También la escritura y los personajes. El reparo que más se repite es de dónde viene: toma mucho de The Witcher 3 y el mundo abierto se siente de fórmula, con misiones secundarias que se parecen entre sí. Se le marcan además animaciones faciales duras y un combate que a la larga se vuelve repetitivo.",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/the-blood-of-dawnwalker"
+   "url": "https://lanzamientos.lat/juegos/the-blood-of-dawnwalker",
+   "noticias": [
+    {
+     "fecha": "2026-09-03",
+     "titulo": "DEBUTA CON 83 Y SE SACA A THE WITCHER DE ENCIMA",
+     "texto": "Sale hoy en PS5 y Xbox con 83 y más de treinta reseñas. El acuerdo es que el reloj de treinta días y la dualidad humano/vampiro le dan identidad propia; el reparo, que el mundo abierto se siente de fórmula y que la deuda con The Witcher 3 se nota."
+    }
+   ]
   },
   {
    "id": "orbitals",
@@ -116,12 +55,21 @@
    "desarrollador": "NINTENDO",
    "descripcion": "Nuevo exclusivo de Switch 2 envuelto en misterio: \"We are one!\" es todo lo que Nintendo adelantó por ahora. Actualizaremos la ficha en cuanto haya detalles oficiales.",
    "trailer": "https://youtube.com/embed/bvMDXtgz1bo",
-   "metacritic": null,
+   "metacritic": 82,
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc9r6.jpg",
+   "critica": "Se sabía poco y salió con 82. Es un juego cooperativo para DOS y sólo para dos: no tiene modo de un jugador, que es el dato a mirar antes de comprarlo. El elogio es parejo para el diseño de niveles —cada uno propone algo nuevo— y para la estética de anime ochentoso, que las reseñas destacan como impecable. La comparación que aparece en casi todas es con It Takes Two y Split Fiction, de Hazelight, y también el matiz: no llega a esa altura de diseño. Los reparos concretos son que la campaña es corta y que la historia no siempre emociona como pretende.",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/orbitals"
+   "url": "https://lanzamientos.lat/juegos/orbitals",
+   "noticias": [
+    {
+     "fecha": "2026-09-03",
+     "titulo": "EL MISTERIO DE NINTENDO ERA UN COOPERATIVO PARA DOS, Y DEBUTA CON 82",
+     "texto": "Se anunció con dos palabras —«We are one!»— y hoy se entiende por qué: es un cooperativo para dos jugadores, sin modo individual. Debuta con 82. Las reseñas lo comparan con It Takes Two y Split Fiction, elogian el diseño de niveles y la estética de anime de los ochenta, y le marcan que la campaña es corta."
+    }
+   ]
   },
   {
    "id": "marsupilami-2-salsa-palombia",
@@ -162,12 +110,22 @@
    "desarrollador": "KOEI TECMO GAMES CO., LTD.",
    "descripcion": "Nuevo RPG de acción de fantasía oscura en los Tres Reinos, de Team NINJA, creadores de Nioh.",
    "trailer": "https://youtube.com/embed/SWRcZN4jMW8",
-   "metacritic": null,
+   "metacritic": 80,
+   "metacriticUsuarios": 6.7,
+   "metacriticVotos": 703,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/library_600x900.jpg",
+   "critica": "El puntaje es el de 2023, cuando salió en las otras consolas, y sigue siendo alto por lo mismo de entonces: Team Ninja armó un soulslike donde el parry no es un recurso más sino el centro de todo, sobre los Tres Reinos y con una capa de fantasía oscura. Se elogia el sistema de moral, que premia arriesgar, y la personalización. Los reparos también vienen de aquella tanda: la curva de dificultad es empinada y está mal repartida, los escenarios son lineales y quedaron viejos, el bestiario es corto y la segunda mitad no sostiene lo de la primera.",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/wo-long-fallen-dynasty"
+   "url": "https://lanzamientos.lat/juegos/wo-long-fallen-dynasty",
+   "noticias": [
+    {
+     "fecha": "2026-09-03",
+     "titulo": "LLEGA A SWITCH 2 EL SOULSLIKE DE TEAM NINJA, CON 80 DE 2023",
+     "texto": "La edición de Switch 2 sale hoy. El puntaje viene del lanzamiento de 2023 en las otras consolas: un soulslike de los Tres Reinos donde el parry es el centro del combate. Los reparos de entonces siguen valiendo — dificultad despareja y escenarios lineales."
+    }
+   ]
   },
   {
    "id": "bioeden",
@@ -343,12 +301,22 @@
    "desarrollador": "SOEDESCO",
    "descripcion": "AereA es un RPG de acción donde la música será tu mejor aliado y tu peor enemigo. Tu misión como discípulo del Gran Maestro Guido será desvelar los misterios de Aezir. Descubre qué ocurre y devuelve los nueve instrumentos esenciales para restaurar el equilibrio y devolver la paz al universo.",
    "trailer": "https://youtube.com/embed/nE3MzsmUNY0",
-   "metacritic": null,
+   "metacritic": 46,
+   "metacriticUsuarios": 4.5,
+   "metacriticVotos": 16,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/573660/library_600x900.jpg",
+   "critica": "El puntaje es el del original de 2017 y no fue bueno entonces ni lo es ahora. Lo único que se rescata parejo es lo artístico: el mundo construido sobre instrumentos musicales y, sobre todo, la banda sonora. De ahí en más los reparos se repiten en todas las reseñas — es un dungeon crawler simple y repetitivo, sin progresión que enganche, con decisiones de diseño flojas y una cantidad de errores que varios medios señalan como el problema principal. Está en el calendario porque llega a consolas nuevas, no porque haya cambiado.",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/aerea"
+   "url": "https://lanzamientos.lat/juegos/aerea",
+   "noticias": [
+    {
+     "fecha": "2026-09-03",
+     "titulo": "VUELVE UN JUEGO DE 2017 QUE NO FUE BIEN RECIBIDO: 46",
+     "texto": "Llega hoy a Xbox, PS5 y Switch el dungeon crawler de instrumentos musicales que salió en 2017. El puntaje es el de entonces. Las reseñas rescatan la banda sonora y el mundo, y coinciden en lo demás: simple, repetitivo y con muchos errores."
+    }
+   ]
   },
   {
    "id": "onimusha-way-of-the-sword",

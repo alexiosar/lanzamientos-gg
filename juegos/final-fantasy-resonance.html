@@ -43,6 +43,15 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -147,6 +156,16 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-03</span>
+            <span class="noticia-titulo">▸ LOS DOS STATE OF PLAY DEJARON MÁS DE 30 JUEGOS, Y CASI TODOS PARA 2027</span><span class="noticia-cat cat-eventos">EVENTOS</span>
+          </div>
+          <p class="noticia-texto">Fueron dos transmisiones seguidas y el saldo es raro para un calendario: de los treinta y pico de juegos, casi ninguno sale este año. Final Fantasy VII Revelation, que cierra la trilogía, va al 8 de abril de 2027; Until Dawn 2 y Fate/EXTRA Record al 28 de enero de 2027; Gundam Rogue Orbit al 5 de marzo; Dragon Ball Xenoverse 3 y una expansión de Digimon Story: Time Stranger quedaron en «2027» sin día. Lo que sí toca lo que viene: Dragon Quest Monsters: The Withered World confirmó el 3 de diciembre, Final Fantasy Resonance ratificó el 22 de octubre y soltó el primer capítulo como demo —con Sephiroth anunciado en el elenco—, y la Edición Completa de Ghost of Yōtei llega el 1 de octubre con los dos modos nuevos adentro, Los más buscados y Ecos de Sekigahara. Nada de esto cambió una fecha nuestra: las tres que ya teníamos coincidían.</p><a class="noticia-fuente" href="https://blog.latam.playstation.com/2026/09/03/state-of-play-y-state-of-play-japan-todos-los-anuncios-y-trailers/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Vuelve al mundo pixelado de FINAL FANTASY, que ha evolucionado a partir de sus raíces clásicas. Viaja con unos compañeros unidos por el destino y recurre a las visiones para que te ayuden a descubrir en el combate la verdad oculta tras una fuerza que amenaza con destruirlo todo.</p>

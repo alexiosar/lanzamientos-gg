@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -137,6 +138,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-bajo" title="Puntaje de la crítica en Metacritic, de 0 a 100">46 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('aerea')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -152,6 +158,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">El puntaje es el del original de 2017 y no fue bueno entonces ni lo es ahora. Lo único que se rescata parejo es lo artístico: el mundo construido sobre instrumentos musicales y, sobre todo, la banda sonora. De ahí en más los reparos se repiten en todas las reseñas — es un dungeon crawler simple y repetitivo, sin progresión que enganche, con decisiones de diseño flojas y una cantidad de errores que varios medios señalan como el problema principal. Está en el calendario porque llega a consolas nuevas, no porque haya cambiado.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-03</span>
+            <span class="noticia-titulo">▸ VUELVE UN JUEGO DE 2017 QUE NO FUE BIEN RECIBIDO: 46</span>
+          </div>
+          <p class="noticia-texto">Llega hoy a Xbox, PS5 y Switch el dungeon crawler de instrumentos musicales que salió en 2017. El puntaje es el de entonces. Las reseñas rescatan la banda sonora y el mundo, y coinciden en lo demás: simple, repetitivo y con muchos errores.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">AereA es un RPG de acción donde la música será tu mejor aliado y tu peor enemigo. Tu misión como discípulo del Gran Maestro Guido será desvelar los misterios de Aezir. Descubre qué ocurre y devuelve los nueve instrumentos esenciales para restaurar el equilibrio y devolver la paz al universo.</p>
