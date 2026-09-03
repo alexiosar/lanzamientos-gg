@@ -126,12 +126,17 @@
           <tr><td><code>desarrollador</code></td><td>string</td><td>Estudio o editora</td></tr>
           <tr><td><code>descripcion</code></td><td>string</td><td>Descripción en español</td></tr>
           <tr><td><code>trailer</code></td><td>string</td><td>URL embebible de YouTube, o <code>null</code></td></tr>
-          <tr><td><code>metacritic</code></td><td>number</td><td>Puntaje de Metacritic, o <code>null</code> si no tiene</td></tr>
+          <tr><td><code>metacritic</code></td><td>number</td><td>Puntaje de la crítica en Metacritic, o <code>null</code> si no tiene</td></tr>
+          <tr><td><code>metacriticUsuarios</code></td><td>number</td><td>Puntaje de los jugadores, de 0 a 10 con un decimal. <code>null</code> si no tiene</td></tr>
+          <tr><td><code>metacriticVotos</code></td><td>number</td><td>Cuántos jugadores lo votaron. Con menos de 20 el sitio no muestra el puntaje, porque dice más sobre quién pasó por ahí que sobre el juego</td></tr>
+          <tr><td><code>metacriticSlug</code></td><td>string</td><td>Sólo cuando el identificador de Metacritic no coincide con el nuestro</td></tr>
+          <tr><td><code>critica</code></td><td>string</td><td>Resumen en español de qué elogia y qué reprocha la prensa. Escrito, no copiado</td></tr>
           <tr><td><code>imagen</code></td><td>string</td><td>URL de la carátula, o <code>null</code></td></tr>
           <tr><td><code>duracion</code></td><td>string</td><td>Duración estimada, cuando se conoce</td></tr>
           <tr><td><code>gamepass</code></td><td>boolean</td><td>Si sale incluido en Xbox Game Pass</td></tr>
           <tr><td><code>psplus</code></td><td>boolean</td><td>Si sale incluido en PlayStation Plus</td></tr>
           <tr><td><code>noticias</code></td><td>array</td><td>Novedades del juego, con <code>fecha</code>, <code>titulo</code> y <code>texto</code></td></tr>
+          <tr><td><code>alta</code></td><td>string</td><td>Cuándo entró al calendario, en formato <code>AAAA-MM-DD</code>. Sirve para pedir sólo lo agregado desde la última vez</td></tr>
           <tr><td><code>url</code></td><td>string</td><td>Enlace a la ficha del juego en el sitio</td></tr>
         </table>
       </div>

@@ -206,6 +206,37 @@ components:
             Metascore de Metacritic, o `null` si no tiene. En los juegos marcados con
             `relanzamiento` el puntaje corresponde a la versión original.
           example: 93
+        metacriticUsuarios:
+          type: [number, "null"]
+          minimum: 0
+          maximum: 10
+          description: |
+            Puntaje de los jugadores en Metacritic, de 0 a 10 con un decimal, o `null`.
+            Va en otra escala que `metacritic`, que es de 0 a 100: no se comparan directo.
+          example: 8.3
+        metacriticVotos:
+          type: [integer, "null"]
+          minimum: 0
+          description: |
+            Cuántos jugadores votaron. Está para poder descartar los puntajes flojos de
+            muestra: el sitio no muestra `metacriticUsuarios` con menos de 20 votos, porque
+            con seis dice más sobre quién pasó por ahí que sobre el juego.
+          example: 281
+        metacriticSlug:
+          type: string
+          description: |
+            El identificador del juego en Metacritic, presente sólo cuando no coincide con
+            nuestro `id`. Si falta, es que son iguales.
+          example: the-legend-of-zelda-ocarina-of-time
+        critica:
+          type: string
+          description: |
+            Resumen en español de qué elogia y qué reprocha la prensa, de dos o tres frases.
+            Está escrito leyendo las reseñas, no copiado de ninguna parte, así que se puede
+            reutilizar citando la fuente. Presente sólo en los juegos que ya tienen puntaje.
+          example: |
+            Las reseñas coinciden en el combate y en el mundo, y le reprochan parejo que la
+            historia arranca lenta.
         imagen:
           type: [string, "null"]
           format: uri
