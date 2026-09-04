@@ -2,323 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-03T20:04:11+00:00",
+ "generado": "2026-09-04T17:22:50+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-03",
- "hasta": "2026-10-03",
- "total": 101,
+ "desde": "2026-09-04",
+ "hasta": "2026-10-04",
+ "total": 90,
  "juegos": [
-  {
-   "id": "the-blood-of-dawnwalker",
-   "titulo": "THE BLOOD OF DAWNWALKER",
-   "fecha": "2026-09-03",
-   "plataformas": [
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "RPG",
-    "ACCION",
-    "MUNDO ABIERTO",
-    "VAMPIROS"
-   ],
-   "desarrollador": "REBEL WOLVES",
-   "descripcion": "The Blood of Dawnwalker es un RPG de acción y fantasía oscura en mundo abierto ambientado en la Europa del siglo XIV. Juegas como Coen, humano de día y vampiro de noche, y luchas por salvar a tu familia en una historia moldeada por tus decisiones.",
-   "trailer": "https://youtube.com/embed/te73UInH8H8",
-   "metacritic": 83,
-   "metacriticUsuarios": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png",
-   "critica": "Más de treinta reseñas y un acuerdo raro de ver en un debut: Rebel Wolves —armado por gente que hizo The Witcher 3— salió bien parado. Lo que más se elogia es lo que lo hace distinto: el reloj de treinta días que corre mientras jugás, la doble condición de humano de día y vampiro de noche, y decisiones que tienen consecuencias de verdad. También la escritura y los personajes. El reparo que más se repite es de dónde viene: toma mucho de The Witcher 3 y el mundo abierto se siente de fórmula, con misiones secundarias que se parecen entre sí. Se le marcan además animaciones faciales duras y un combate que a la larga se vuelve repetitivo.",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/the-blood-of-dawnwalker",
-   "noticias": [
-    {
-     "fecha": "2026-09-03",
-     "titulo": "DEBUTA CON 83 Y SE SACA A THE WITCHER DE ENCIMA",
-     "texto": "Sale hoy en PS5 y Xbox con 83 y más de treinta reseñas. El acuerdo es que el reloj de treinta días y la dualidad humano/vampiro le dan identidad propia; el reparo, que el mundo abierto se siente de fórmula y que la deuda con The Witcher 3 se nota."
-    }
-   ]
-  },
-  {
-   "id": "orbitals",
-   "titulo": "ORBITALS",
-   "fecha": "2026-09-03",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA"
-   ],
-   "desarrollador": "NINTENDO",
-   "descripcion": "Nuevo exclusivo de Switch 2 envuelto en misterio: \"We are one!\" es todo lo que Nintendo adelantó por ahora. Actualizaremos la ficha en cuanto haya detalles oficiales.",
-   "trailer": "https://youtube.com/embed/bvMDXtgz1bo",
-   "metacritic": 82,
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc9r6.jpg",
-   "critica": "Se sabía poco y salió con 82. Es un juego cooperativo para DOS y sólo para dos: no tiene modo de un jugador, que es el dato a mirar antes de comprarlo. El elogio es parejo para el diseño de niveles —cada uno propone algo nuevo— y para la estética de anime ochentoso, que las reseñas destacan como impecable. La comparación que aparece en casi todas es con It Takes Two y Split Fiction, de Hazelight, y también el matiz: no llega a esa altura de diseño. Los reparos concretos son que la campaña es corta y que la historia no siempre emociona como pretende.",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/orbitals",
-   "noticias": [
-    {
-     "fecha": "2026-09-03",
-     "titulo": "EL MISTERIO DE NINTENDO ERA UN COOPERATIVO PARA DOS, Y DEBUTA CON 82",
-     "texto": "Se anunció con dos palabras —«We are one!»— y hoy se entiende por qué: es un cooperativo para dos jugadores, sin modo individual. Debuta con 82. Las reseñas lo comparan con It Takes Two y Split Fiction, elogian el diseño de niveles y la estética de anime de los ochenta, y le marcan que la campaña es corta."
-    }
-   ]
-  },
-  {
-   "id": "marsupilami-2-salsa-palombia",
-   "titulo": "MARSUPILAMI 2 - SALSA PALOMBIA",
-   "fecha": "2026-09-03",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "AVENTURA"
-   ],
-   "desarrollador": "OCELLUS STUDIO",
-   "descripcion": "¡Ayuda a los Marsupilamis a salvar Palombia de la Reina Momia y sus secuaces en este energético juego de plataformas! Una extraña melodía se ha extendido por Palombia... ¡y los animales se han puesto a bailar hasta dejarlo todo patas arriba!",
-   "trailer": "https://youtube.com/embed/G8SvJzrpSG0",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6vp.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/marsupilami-2-salsa-palombia"
-  },
-  {
-   "id": "wo-long-fallen-dynasty",
-   "titulo": "WO LONG: FALLEN DYNASTY",
-   "fecha": "2026-09-03",
-   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2023 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 25 h (historia) · 47 h (completo)",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG"
-   ],
-   "desarrollador": "KOEI TECMO GAMES CO., LTD.",
-   "descripcion": "Nuevo RPG de acción de fantasía oscura en los Tres Reinos, de Team NINJA, creadores de Nioh.",
-   "trailer": "https://youtube.com/embed/SWRcZN4jMW8",
-   "metacritic": 80,
-   "metacriticUsuarios": 6.7,
-   "metacriticVotos": 703,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/library_600x900.jpg",
-   "critica": "El puntaje es el de 2023, cuando salió en las otras consolas, y sigue siendo alto por lo mismo de entonces: Team Ninja armó un soulslike donde el parry no es un recurso más sino el centro de todo, sobre los Tres Reinos y con una capa de fantasía oscura. Se elogia el sistema de moral, que premia arriesgar, y la personalización. Los reparos también vienen de aquella tanda: la curva de dificultad es empinada y está mal repartida, los escenarios son lineales y quedaron viejos, el bestiario es corto y la segunda mitad no sostiene lo de la primera.",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/wo-long-fallen-dynasty",
-   "noticias": [
-    {
-     "fecha": "2026-09-03",
-     "titulo": "LLEGA A SWITCH 2 EL SOULSLIKE DE TEAM NINJA, CON 80 DE 2023",
-     "texto": "La edición de Switch 2 sale hoy. El puntaje viene del lanzamiento de 2023 en las otras consolas: un soulslike de los Tres Reinos donde el parry es el centro del combate. Los reparos de entonces siguen valiendo — dificultad despareja y escenarios lineales."
-    }
-   ]
-  },
-  {
-   "id": "bioeden",
-   "titulo": "BIOEDEN",
-   "fecha": "2026-09-03",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "SIMULACION",
-    "ESTRATEGIA",
-    "RELAX"
-   ],
-   "desarrollador": "BROKEN ARMS GAMES",
-   "descripcion": "Un juego de gestión solarpunk en el que sos el custodio de un planeta que espera ser sanado. Diseñás el bioma justo para cada especie, encadenás ecosistemas que se sostienen solos y usás ese equilibrio para devolver a la vida a animales extinguidos, un rincón del mundo por vez.",
-   "trailer": "https://youtube.com/embed/NhM61qhnIEM",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6vl.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/bioeden"
-  },
-  {
-   "id": "star-racer",
-   "titulo": "STAR RACER",
-   "fecha": "2026-09-03",
-   "relanzamiento": "En PC desde julio de 2025 — esta fecha corresponde a la edición de Switch",
-   "duracion": "≈ 2 h (historia)",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "CARRERAS",
-    "ACCION",
-    "ARCADE",
-    "RETRO"
-   ],
-   "desarrollador": "WHATNOT GAMES",
-   "descripcion": "Un combat racer de estética retro que mezcla velocidad antigravedad y armamento pesado. Circuitos llenos de saltos, atajos y trampas, carreras especiales con reglas disparatadas, multijugador local y un editor para armar tus propias pistas. La banda sonora es de Grant Kirkhope.",
-   "trailer": "https://youtube.com/embed/_p-3-7qNgkU",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2626120/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/star-racer"
-  },
-  {
-   "id": "hashire-hebereke-ex",
-   "titulo": "HASHIRE HEBEREKE: EX",
-   "fecha": "2026-09-03",
-   "relanzamiento": "Remake del Hashire Hebereke de Super Famicom (1994)",
-   "duracion": "≈ 1,2 h (historia)",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "CARRERAS",
-    "ARCADE",
-    "RETRO"
-   ],
-   "desarrollador": "CRT GAMES",
-   "descripcion": "Remake del clásico de Sunsoft para Super Famicom. Elegís entre un elenco de personajes tan raros como adorables y corrés por circuitos repletos de ítems y obstáculos, con el caos del multijugador intacto y una capa gráfica puesta al día.",
-   "trailer": "https://youtube.com/embed/rVcuhl8Tuv4",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/e99c44a4527167035580651d4e5f2f46.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/hashire-hebereke-ex"
-  },
-  {
-   "id": "speedrunners-2-king-of-speed",
-   "titulo": "SPEEDRUNNERS 2: KING OF SPEED",
-   "fecha": "2026-09-03",
-   "plataformas": [
-    "PS5",
-    "SWITCH",
-    "XBOX"
-   ],
-   "genero": [
-    "CARRERAS",
-    "PLATAFORMA",
-    "MULTIJUGADOR",
-    "ARCADE"
-   ],
-   "desarrollador": "FAIR PLAY LABS",
-   "descripcion": "Vuelve el juego de plataformas competitivo. Corrés, saltás y dejás atrás a tus rivales en carreras despiadadas de hasta ocho jugadores, en línea o en el mismo sillón, con gancho, objetos y mapas diseñados al detalle.",
-   "trailer": "https://youtube.com/embed/YzXr0kNUN_Q",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/1e8d6e45a63cd6ab81e569fec4e4d220.png",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/speedrunners-2-king-of-speed"
-  },
-  {
-   "id": "exstetra",
-   "titulo": "EXSTETRA",
-   "fecha": "2026-09-03",
-   "plataformas": [
-    "PS5",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "RPG",
-    "POR TURNOS",
-    "ANIME"
-   ],
-   "desarrollador": "FURYU",
-   "descripcion": "La única forma de salvar el mundo es un beso. Un RPG de fantasía ambientado en Amazia, un Tokio fusionado con otro mundo y condenado a un destino fatal, donde te convertís en el salvador elegido, un Prisma, para enfrentar la destrucción.",
-   "trailer": "https://youtube.com/embed/wk7xCAkxGI4",
-   "metacritic": 69,
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobz0m.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/exstetra"
-  },
-  {
-   "id": "avatar-legends-the-fighting-game-xbox",
-   "titulo": "AVATAR LEGENDS: THE FIGHTING GAME",
-   "fecha": "2026-09-03",
-   "relanzamiento": "En PS5, Switch 2, Switch y PC desde el 23 de julio de 2026 — esta fecha corresponde a la edición de Xbox, que se retrasó",
-   "duracion": "≈ 3,8 h (historia)",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "LUCHA",
-    "ACCION",
-    "ANIME"
-   ],
-   "desarrollador": "GAMEPLAY GROUP INTERNATIONAL",
-   "descripcion": "La edición de Xbox del juego de pelea de Avatar llega mes y medio después que el resto, con soporte de Xbox Play Anywhere: una sola compra vale para consola y PC, con el progreso compartido. Mantiene el juego cruzado con el resto de las plataformas y el mismo plantel de doce personajes.",
-   "trailer": "https://youtube.com/embed/qC0WcvBOt_c",
-   "metacritic": 81,
-   "critica": "Las reseñas se parten en dos y por un motivo que no es el juego: casi todas coinciden en que las peleas son buenas, con mecánicas profundas, personajes bien diferenciados y un respeto por la serie que ningún juego de Avatar había tenido. Y casi todas dicen también que salió sin terminar: faltan modos básicos, no hay partida clasificatoria, los tutoriales explican mal y el plantel es chico. Las notas más bajas no dicen que sea malo, dicen que todavía no está listo.",
-   "imagen": "https://cdn2.steamgriddb.com/grid/438c87f8f4d6d4b0c01c1aa8027033bb.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-01",
-   "url": "https://lanzamientos.lat/juegos/avatar-legends-the-fighting-game-xbox",
-   "noticias": [
-    {
-     "fecha": "2026-08-07",
-     "titulo": "EL MEJOR JUEGO DE PELEA DEL AÑO, SEGÚN LA CRÍTICA",
-     "texto": "La edición de Xbox llega mes y medio después que el resto, con el juego ya evaluado: 78 de promedio sobre 39 críticas en OpenCritic, el puntaje más alto de un juego de pelea en 2026 y el más alto de un juego de Avatar. Los elogios van al combate; los reparos, a la cantidad de contenido y a las opciones."
-    }
-   ]
-  },
-  {
-   "id": "aerea",
-   "titulo": "AEREA",
-   "relanzamiento": "Original de 2017 en PS4, Xbox One y PC",
-   "duracion": "≈ 12 h (historia) · 23 h (completo)",
-   "fecha": "2026-09-03",
-   "plataformas": [
-    "XBOX",
-    "PS5",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG",
-    "MUSICA",
-    "INDIE"
-   ],
-   "desarrollador": "SOEDESCO",
-   "descripcion": "AereA es un RPG de acción donde la música será tu mejor aliado y tu peor enemigo. Tu misión como discípulo del Gran Maestro Guido será desvelar los misterios de Aezir. Descubre qué ocurre y devuelve los nueve instrumentos esenciales para restaurar el equilibrio y devolver la paz al universo.",
-   "trailer": "https://youtube.com/embed/nE3MzsmUNY0",
-   "metacritic": 46,
-   "metacriticUsuarios": 4.5,
-   "metacriticVotos": 16,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/573660/library_600x900.jpg",
-   "critica": "El puntaje es el del original de 2017 y no fue bueno entonces ni lo es ahora. Lo único que se rescata parejo es lo artístico: el mundo construido sobre instrumentos musicales y, sobre todo, la banda sonora. De ahí en más los reparos se repiten en todas las reseñas — es un dungeon crawler simple y repetitivo, sin progresión que enganche, con decisiones de diseño flojas y una cantidad de errores que varios medios señalan como el problema principal. Está en el calendario porque llega a consolas nuevas, no porque haya cambiado.",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/aerea",
-   "noticias": [
-    {
-     "fecha": "2026-09-03",
-     "titulo": "VUELVE UN JUEGO DE 2017 QUE NO FUE BIEN RECIBIDO: 46",
-     "texto": "Llega hoy a Xbox, PS5 y Switch el dungeon crawler de instrumentos musicales que salió en 2017. El puntaje es el de entonces. Las reseñas rescatan la banda sonora y el mundo, y coinciden en lo demás: simple, repetitivo y con muchos errores."
-    }
-   ]
-  },
   {
    "id": "onimusha-way-of-the-sword",
    "titulo": "ONIMUSHA: WAY OF THE SWORD",
@@ -335,12 +25,21 @@
    "desarrollador": "CAPCOM CO., LTD.",
    "descripcion": "Un samurái con un guantelete Oni hará frente a la amenaza de los Genma que se cierne sobre Kioto. Se enfrentará en combates cruentos y encarnizados, mientras busca su razón para luchar. ¿Qué destino le aguarda al final de su camino?",
    "trailer": "https://youtube.com/embed/LNq35HHUtNc",
-   "metacritic": null,
+   "metacritic": 85,
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
+   "critica": "Más de cincuenta reseñas y un acuerdo casi unánime: es el mejor regreso posible después de veinte años sin la saga, y varias lo ponen entre los mejores juegos de acción del año. El elogio se concentra en una sola cosa, el combate — parries que exigen tiempo exacto, el Issen, y capas de mecánicas que se van sumando hasta el final. Se destaca también que Capcom NO lo convirtió en un soulslike, que era el camino fácil. Los reparos son tres y se repiten: los jefes se reutilizan y se notan, el Kioto abierto que hace de eje se siente repetitivo y fuera de tono con las misiones lineales, y la historia es lo más flojo del conjunto. Varias reseñas recomiendan arrancar en dificultad Historia para agarrarle la mano.",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/onimusha-way-of-the-sword"
+   "url": "https://lanzamientos.lat/juegos/onimusha-way-of-the-sword",
+   "noticias": [
+    {
+     "fecha": "2026-09-04",
+     "titulo": "DEBUTA CON 85: VUELVE ONIMUSHA Y LE SALE BIEN",
+     "texto": "Sale hoy en PS5 y Xbox con 85 y más de cincuenta reseñas. El acuerdo es que el combate es lo mejor que hizo Capcom este año y que hicieron bien en no convertirlo en un soulslike. Los reparos: jefes repetidos, un Kioto abierto que se siente de relleno y una historia floja."
+    }
+   ]
   },
   {
    "id": "my-hero-academia-alls-justice",
@@ -357,12 +56,22 @@
    "desarrollador": "BANDAI NAMCO",
    "descripcion": "El nuevo juego de lucha de arena del universo My Hero Academia, sucesor de la serie One's Justice: combates 3D con los héroes y villanos de la U.A. en la nueva consola de Nintendo.",
    "trailer": "https://youtube.com/embed/ElI1_NgeDxU",
-   "metacritic": null,
+   "metacritic": 72,
+   "metacriticUsuarios": 4.6,
+   "metacriticVotos": 37,
    "imagen": "https://cdn2.steamgriddb.com/grid/044cc19989940754a8760f2a713803fc.png",
+   "critica": "Las veinte reseñas dicen casi lo mismo con distinto entusiasmo: es un regalo para quien sigue el anime y poco más. Lo que se elogia es el volumen —sesenta y ocho personajes jugables, varios modos, y la adaptación del arco final de la Guerra— y las peleas tres contra tres, donde cada personaje se siente distinto. Los reparos también son parejos: la cámara se pierde en los combates, la dificultad está mal repartida, y varios señalan que sigue sin ser el juego definitivo de la serie pese a ser mejor que One's Justice 2. El aviso que aparece en casi todas: si no seguís el anime, no vas a entender nada.",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/my-hero-academia-alls-justice"
+   "url": "https://lanzamientos.lat/juegos/my-hero-academia-alls-justice",
+   "noticias": [
+    {
+     "fecha": "2026-09-04",
+     "titulo": "DEBUTA CON 72, PENSADO PARA QUIEN SIGUE EL ANIME",
+     "texto": "Adapta el arco final de la Guerra con 68 personajes jugables y peleas de tres contra tres. Las reseñas coinciden en que es generoso en contenido y fiel al material, y en que la cámara y la dificultad le juegan en contra. Casi todas avisan lo mismo: si no seguís el anime, no es para vos."
+    }
+   ]
   },
   {
    "id": "nba-2k27",
@@ -453,12 +162,21 @@
    "desarrollador": "EA VANCOUVER",
    "descripcion": "La entrega anual del hockey de EA. Como todos los años, lo que cambia está en los detalles del hielo: el motor de físicas, la presentación de la transmisión y los modos de franquicia y de cartas. Si venís de la edición anterior, conviene mirar qué trae de nuevo antes de dar el salto.",
    "trailer": null,
-   "metacritic": null,
+   "metacritic": 65,
+   "metacriticUsuarios": null,
    "imagen": "https://store-images.s-microsoft.com/image/apps.52613.14544549240223014.0ee775ea-048e-4ed6-92c8-89fdb0c782cb.bee6cb63-e68f-4e90-a119-f674a6f9325c?w=600&h=900&format=jpg",
+   "critica": "Seis reseñas y un promedio bajo que se explica solo: las que lo aprueban dicen que mejora respecto de NHL 26 en el hielo y en la presentación de la transmisión, y las que no, que eso ya no alcanza. El reproche más duro y más repetido no es sobre el hockey sino sobre el Hockey Ultimate Team, el modo de cartas: aparece a los pocos minutos con ventanas emergentes y varias reseñas lo describen como el centro real del juego. También se le marca que el modo Franquicia Conectada quedó incompleto y que la serie sigue siendo difícil de empezar para el que no viene de la anterior.",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-03",
-   "url": "https://lanzamientos.lat/juegos/nhl-27"
+   "url": "https://lanzamientos.lat/juegos/nhl-27",
+   "noticias": [
+    {
+     "fecha": "2026-09-04",
+     "titulo": "DEBUTA CON 65 Y LAS RESEÑAS APUNTAN AL MODO DE CARTAS",
+     "texto": "El hockey mejoró respecto del año pasado, pero eso no alcanzó. El reproche que más se repite en las seis reseñas es el Hockey Ultimate Team: aparece a los pocos minutos con ventanas emergentes y varios medios lo describen como el centro real del juego."
+    }
+   ]
   },
   {
    "id": "port-of-jumanah",

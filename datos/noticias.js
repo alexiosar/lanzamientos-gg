@@ -50,6 +50,15 @@
 
 const NOTICIAS = [
   {
+    id: "nintendo-directs-8-y-9-septiembre-2026",
+    fecha: "2026-09-04",
+    categoria: "EVENTOS",
+    titulo: "NINTENDO HACE DOS DIRECTS SEGUIDOS: EL 8 Y EL 9",
+    texto: "El lunes 8 va un Direct dedicado a los 40 años de The Legend of Zelda, de unos 30 minutos, y el martes 9 un Direct general de unos 45. Los dos a las 11 de la mañana de Argentina. Después del segundo hay un Nintendo Treehouse con jugabilidad de lo que hayan mostrado. Vale la pena estar atentos: nuestro calendario tiene 40 juegos con fecha estimada y sin día confirmado, y una buena parte son de Switch y Switch 2. Si alguna de esas se concreta, se corrige acá al día siguiente.",
+    fuente: "https://www.nintendo.com/us/nintendo-direct/"
+  },
+
+  {
     id: "state-of-play-resumen-3-septiembre-2026",
     fecha: "2026-09-03",
     categoria: "EVENTOS",
