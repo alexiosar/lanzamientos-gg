@@ -620,11 +620,19 @@ def main():
         if f.stem != "juego" and f.stem not in ids:
             f.unlink()
             borradas += 1
-            if f"/juegos/{f.stem}" not in cubiertas:
-                sin_redirect.append(f.stem)
+            # Hacen falta LAS DOS: la URL limpia y la que termina en .html. _redirects compara
+            # la ruta exacta, así que una regla para /juegos/x no atrapa /juegos/x.html, y
+            # Google tiene indexadas las dos formas de cuando el sitio usaba la extensión.
+            # Mientras la ficha existe no se nota porque Cloudflare sirve el archivo; el día
+            # que se borra, la variante con .html queda sin nada y da 404. Pasó con tres
+            # fichas y lo encontró Search Console el 06/09/2026, no nosotros.
+            faltan = [v for v in (f"/juegos/{f.stem}", f"/juegos/{f.stem}.html")
+                      if v not in cubiertas]
+            if faltan:
+                sin_redirect.append((f.stem, faltan))
     print(f"{generadas} fichas generadas en juegos/ ({borradas} obsoletas borradas)")
-    for gid in sin_redirect:
-        print(f"  ⚠ /juegos/{gid} se borró y NO tiene redirect en _redirects: va a dar 404.")
+    for gid, faltan in sin_redirect:
+        print(f"  ⚠ {gid} se borró y le falta redirect en _redirects: {', '.join(faltan)}")
     if sin_redirect:
         print("    Si el juego se renombró, apuntar a la ficha nueva; si se fue del")
         print("    calendario, a la portada. Ver 'Si se borra o se renombra un juego' en el README.")

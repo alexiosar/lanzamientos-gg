@@ -35,3 +35,29 @@
 /juegos/metroid-prime-4          /                             301
 /juegos/split-fiction            /                             301
 /juegos/elden-ring-nightreign    /                             301
+
+# ── LA VARIANTE .html ──
+# Cada regla de arriba necesita su gemela con .html, y esto se descubrió tarde: el 06/09/2026
+# Search Console listaba /juegos/sesame-street-friends-fun.html, mafia-...-man-of-honor.html y
+# granblue-fantasy-relink.html como 404, mientras las mismas URLs sin extensión redirigían
+# perfecto.
+#
+# El motivo: _redirects compara la ruta EXACTA, así que /juegos/x no matchea /juegos/x.html.
+# Mientras la ficha existe no se nota, porque Cloudflare resuelve /juegos/x.html sirviendo el
+# archivo. El día que se borra el archivo, la URL con extensión se queda sin nada que servir y
+# sin regla que la atrape: 404. Y Google tiene esas URLs indexadas de cuando el sitio las usaba.
+#
+# Van explícitas y no con comodín: un `/juegos/*.html` taparía también las fichas que SÍ
+# existen y las sacaría de su URL limpia.
+/juegos/creepshow.html                          /  301
+/juegos/mafia-the-old-country-man-of-honor.html /  301
+/juegos/mai-child-of-ages.html                  /  301
+/juegos/nomad-drive.html                        /  301
+/juegos/doom-dark-ages.html                     /juegos/doom-the-dark-ages-revelations  301
+/juegos/granblue-fantasy-relink.html            /juegos/granblue-fantasy-relink-endless-ragnarok  301
+/juegos/sesame-street-friends-fun.html          /juegos/sesame-street-amigos-y-risas  301
+/juegos/gta-vi.html                             /juegos/grand-theft-auto-vi  301
+/juegos/mario-kart-world.html                   /  301
+/juegos/metroid-prime-4.html                    /  301
+/juegos/split-fiction.html                      /  301
+/juegos/elden-ring-nightreign.html              /  301

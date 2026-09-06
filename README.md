@@ -525,6 +525,16 @@ La regla, en `_redirects`:
 - **Juego que cambió de id** y sigue en el calendario: redirect **a su ficha nueva**, no a la
   portada. `doom-dark-ages` → `doom-the-dark-ages-revelations`, `granblue-fantasy-relink` →
   `granblue-fantasy-relink-endless-ragnarok`.
+- **Y SIEMPRE las dos formas de la URL**, con y sin `.html`. `_redirects` compara la ruta
+  exacta, así que una regla para `/juegos/x` no atrapa `/juegos/x.html`.
+
+Esa última costó otro mes. El 06/09/2026 Search Console listaba tres 404 vivos —
+`sesame-street-friends-fun.html`, `mafia-the-old-country-man-of-honor.html` y
+`granblue-fantasy-relink.html`— mientras esas mismas URLs **sin** extensión redirigían
+perfecto. Mientras la ficha existe no se nota, porque Cloudflare resuelve `/juegos/x.html`
+sirviendo el archivo; el día que se borra, la variante con extensión se queda sin nada que
+servir y sin regla que la atrape. Y Google las tiene indexadas de cuando el sitio usaba la
+extensión. Desde ese día el generador exige las dos y las nombra por separado si falta alguna.
 
 **Desde el 27/08/2026 el generador avisa solo.** Cuando borra una ficha, mira si `_redirects`
 la cubre, y si no, lo dice en el reporte diario. No puede no borrarla —el juego ya no está—
@@ -539,6 +549,18 @@ había forma de darse cuenta mirando el sitio: las páginas que sí existen resp
 
 `gta-vi` era el caso caro: no se había ido del calendario, sólo cambió de id a
 `grand-theft-auto-vi`. Dos meses de 404 en la URL del juego más buscado que tiene el sitio.
+
+**Antes de arreglar nada, mirar la columna "Último rastreo".** La mitad de lo que Search
+Console muestra en rojo ya está resuelto y él todavía no volvió a mirar. El 06/09/2026, de
+las cinco URLs con "Error de redirección", las cinco tenían último rastreo del 27 de agosto,
+que es **exactamente el día** en que se subieron sus reglas: Google pasó mientras el cambio
+entraba y se quedó con esa foto. Y de los cinco 404, dos eran fantasmas viejos: `/juegos/`,
+rastreada el 30 de julio y arreglada después, y una URL con `${plataformaSlug(...)}` sin
+interpolar, rastreada el 25 de julio y corregida en el commit `4043c9e`.
+
+El método que funciona: pedir la lista de URLs de la fila, probarlas con `curl` contra el
+sitio en vivo, y recién ahí decidir. Lo que sigue roto se arregla; lo que ya está bien se
+resuelve pidiendo validación y esperando.
 
 Para auditar el pasado, que es como se encontraron: comparar todos los ids que existieron
 alguna vez en el historial de `datos/juegos.js` contra las fichas de hoy y contra `_redirects`.
