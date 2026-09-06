@@ -850,6 +850,52 @@ a:hover { color: var(--blanco); }
 .btn-fav[data-fav-texto]:hover  { transform: none; border-color: var(--amarillo); color: var(--amarillo); }
 .btn-fav[data-fav-texto].activo { border-color: var(--amarillo); color: var(--amarillo); }
 
+/* ── VOLVER ARRIBA ──
+   La portada se scrollea sola hasta el próximo día, y eso deja la cabecera, el destacado y
+   "próximos 7 días" varias pantallas más arriba. Este es el camino de vuelta.
+
+   Aparece recién pasada una pantalla de scroll, así que en una página corta no existe. Va
+   abajo a la derecha, que es donde la mano ya está en el teléfono, y por encima del aviso de
+   favoritos —que va centrado— para que no se pisen cuando salen juntos. */
+.btn-arriba {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  /* Por DEBAJO del modal del trailer, que está en 100. Con un valor mayor el botón quedaba
+     flotando encima del video, que es justo cuando nadie lo necesita. */
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--acento);
+  background: var(--negro);
+  color: var(--acento);
+  font-family: var(--font);
+  font-size: 0.6875rem;
+  letter-spacing: 2px;
+  padding: 9px 14px;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(0.75rem);
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s, background 0.15s, color 0.15s;
+}
+
+.btn-arriba.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.btn-arriba:hover   { background: var(--acento); color: var(--negro); }
+.btn-arriba:focus-visible { outline: 1px solid var(--acento); outline-offset: 2px; }
+
+/* En el teléfono el aviso de favoritos ocupa casi todo el ancho abajo, así que el botón se
+   corre para arriba en vez de quedar debajo de él. */
+@media (max-width: 600px) {
+  .btn-arriba { bottom: 4.25rem; padding: 11px 14px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-arriba { transition: opacity 0.2s; transform: none; }
+  .btn-arriba.visible { transform: none; }
+}
+
 /* Aviso al guardar o quitar. Dura menos de tres segundos y no tapa nada importante:
    está para que se entienda que el clic hizo algo y para decir una sola vez adónde
    fue a parar el juego. */

@@ -708,6 +708,34 @@ function renderCalendario() {
   }
 }
 
+// ── VOLVER ARRIBA ──
+// El scroll automático de renderCalendario es cómodo —te deja parado en el día que viene—
+// pero tiene un costo que no se ve al programarlo: el 06/09/2026 dejaba la portada 4,6
+// pantallas abajo, con la cabecera, el destacado y "próximos 7 días" fuera de vista. O sea
+// que el sitio elegía un juego destacado, le ponía la carátula grande y después scrolleaba
+// por encima. Quien no sabe que eso está arriba, no se entera de que existe.
+//
+// Se arregla con una salida, no sacando el scroll. El botón aparece recién cuando hay más
+// de una pantalla arriba: por debajo de eso subir es un gesto y un botón sobra.
+function botonArriba() {
+  const btn = document.createElement("button");
+  btn.id = "btn-arriba";
+  btn.className = "btn-arriba";
+  btn.type = "button";
+  btn.title = "Volver arriba";
+  btn.setAttribute("aria-label", "Volver al comienzo de la página");
+  btn.innerHTML = '<span aria-hidden="true">▲</span> ARRIBA';
+  btn.addEventListener("click", () => {
+    const quieto = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: quieto ? "auto" : "smooth" });
+  });
+  document.body.appendChild(btn);
+
+  const mostrar = () => btn.classList.toggle("visible", window.scrollY > window.innerHeight);
+  mostrar();
+  window.addEventListener("scroll", mostrar, { passive: true });
+}
+
 // ── TOGGLE MES ──
 function toggleMes(mesKey) {
   const contenido = document.getElementById(`contenido-${mesKey}`);
@@ -798,6 +826,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   generarFiltrosGenero();
   renderCalendario();
+  botonArriba();
 
   const overlay = document.getElementById("modal-overlay");
   if (overlay) overlay.addEventListener("click", function(e) {
