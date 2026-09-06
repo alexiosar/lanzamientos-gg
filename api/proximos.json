@@ -2,182 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-04T17:22:50+00:00",
+ "generado": "2026-09-06T19:55:47+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-04",
- "hasta": "2026-10-04",
- "total": 90,
+ "desde": "2026-09-06",
+ "hasta": "2026-10-06",
+ "total": 87,
  "juegos": [
-  {
-   "id": "onimusha-way-of-the-sword",
-   "titulo": "ONIMUSHA: WAY OF THE SWORD",
-   "fecha": "2026-09-04",
-   "plataformas": [
-    "SWITCH2",
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "CAPCOM CO., LTD.",
-   "descripcion": "Un samurái con un guantelete Oni hará frente a la amenaza de los Genma que se cierne sobre Kioto. Se enfrentará en combates cruentos y encarnizados, mientras busca su razón para luchar. ¿Qué destino le aguarda al final de su camino?",
-   "trailer": "https://youtube.com/embed/LNq35HHUtNc",
-   "metacritic": 85,
-   "metacriticUsuarios": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
-   "critica": "Más de cincuenta reseñas y un acuerdo casi unánime: es el mejor regreso posible después de veinte años sin la saga, y varias lo ponen entre los mejores juegos de acción del año. El elogio se concentra en una sola cosa, el combate — parries que exigen tiempo exacto, el Issen, y capas de mecánicas que se van sumando hasta el final. Se destaca también que Capcom NO lo convirtió en un soulslike, que era el camino fácil. Los reparos son tres y se repiten: los jefes se reutilizan y se notan, el Kioto abierto que hace de eje se siente repetitivo y fuera de tono con las misiones lineales, y la historia es lo más flojo del conjunto. Varias reseñas recomiendan arrancar en dificultad Historia para agarrarle la mano.",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/onimusha-way-of-the-sword",
-   "noticias": [
-    {
-     "fecha": "2026-09-04",
-     "titulo": "DEBUTA CON 85: VUELVE ONIMUSHA Y LE SALE BIEN",
-     "texto": "Sale hoy en PS5 y Xbox con 85 y más de cincuenta reseñas. El acuerdo es que el combate es lo mejor que hizo Capcom este año y que hicieron bien en no convertirlo en un soulslike. Los reparos: jefes repetidos, un Kioto abierto que se siente de relleno y una historia floja."
-    }
-   ]
-  },
-  {
-   "id": "my-hero-academia-alls-justice",
-   "titulo": "MY HERO ACADEMIA: ALL'S JUSTICE",
-   "fecha": "2026-09-04",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "LUCHA",
-    "ANIME",
-    "ACCION"
-   ],
-   "desarrollador": "BANDAI NAMCO",
-   "descripcion": "El nuevo juego de lucha de arena del universo My Hero Academia, sucesor de la serie One's Justice: combates 3D con los héroes y villanos de la U.A. en la nueva consola de Nintendo.",
-   "trailer": "https://youtube.com/embed/ElI1_NgeDxU",
-   "metacritic": 72,
-   "metacriticUsuarios": 4.6,
-   "metacriticVotos": 37,
-   "imagen": "https://cdn2.steamgriddb.com/grid/044cc19989940754a8760f2a713803fc.png",
-   "critica": "Las veinte reseñas dicen casi lo mismo con distinto entusiasmo: es un regalo para quien sigue el anime y poco más. Lo que se elogia es el volumen —sesenta y ocho personajes jugables, varios modos, y la adaptación del arco final de la Guerra— y las peleas tres contra tres, donde cada personaje se siente distinto. Los reparos también son parejos: la cámara se pierde en los combates, la dificultad está mal repartida, y varios señalan que sigue sin ser el juego definitivo de la serie pese a ser mejor que One's Justice 2. El aviso que aparece en casi todas: si no seguís el anime, no vas a entender nada.",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/my-hero-academia-alls-justice",
-   "noticias": [
-    {
-     "fecha": "2026-09-04",
-     "titulo": "DEBUTA CON 72, PENSADO PARA QUIEN SIGUE EL ANIME",
-     "texto": "Adapta el arco final de la Guerra con 68 personajes jugables y peleas de tres contra tres. Las reseñas coinciden en que es generoso en contenido y fiel al material, y en que la cámara y la dificultad le juegan en contra. Casi todas avisan lo mismo: si no seguís el anime, no es para vos."
-    }
-   ]
-  },
-  {
-   "id": "nba-2k27",
-   "titulo": "NBA 2K27",
-   "fecha": "2026-09-04",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "DEPORTES",
-    "SIMULACION"
-   ],
-   "desarrollador": "VISUAL CONCEPTS",
-   "descripcion": "La entrega anual de la NBA vuelve con Mi CARRERA, MyTEAM y Mi NBA como pilares. Victor Wembanyama ocupa la portada estándar, Caitlin Clark la deluxe y Derrick Rose la ultra. Es la primera edición de la serie que deja atrás PS4 y Xbox One.",
-   "trailer": "https://youtube.com/embed/x3VbMlmerXg",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/41f111384c98a213f4b187cf3e952245.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/nba-2k27"
-  },
-  {
-   "id": "isle-of-reveries",
-   "titulo": "ISLE OF REVERIES",
-   "fecha": "2026-09-04",
-   "plataformas": [
-    "XBOX",
-    "PS5",
-    "PS4"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "RPG",
-    "INDIE"
-   ],
-   "desarrollador": "DESERTCUCCO",
-   "descripcion": "Una peregrinación por el cielo hasta la Isla de los Ensueños, donde cualquier deseo se cumple. Mazmorras misteriosas, puzles y un mundo abierto para explorar.",
-   "trailer": "https://youtube.com/embed/BqzYGeTBfjg",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3100970/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/isle-of-reveries"
-  },
-  {
-   "id": "dream-cage",
-   "titulo": "DREAM CAGE",
-   "relanzamiento": "En PC desde febrero de 2025",
-   "duracion": "≈ 1,4 h (historia) · 3,7 h (completo)",
-   "fecha": "2026-09-04",
-   "plataformas": [
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "AVENTURA",
-    "TERROR",
-    "INDIE"
-   ],
-   "desarrollador": "HITORI DE PRODUCTIONS",
-   "descripcion": "Robert convive con alzhéimer precoz y parálisis del sueño. Cada noche que pasa devuelve fragmentos de su memoria, y hay que reconstruir con ellos una historia que el propio protagonista ya no puede sostener.",
-   "trailer": "https://youtube.com/embed/wwm-BMki-L8",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3122170/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-17",
-   "url": "https://lanzamientos.lat/juegos/dream-cage"
-  },
-  {
-   "id": "nhl-27",
-   "titulo": "NHL 27",
-   "fecha": "2026-09-04",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "DEPORTES",
-    "SIMULACION",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "EA VANCOUVER",
-   "descripcion": "La entrega anual del hockey de EA. Como todos los años, lo que cambia está en los detalles del hielo: el motor de físicas, la presentación de la transmisión y los modos de franquicia y de cartas. Si venís de la edición anterior, conviene mirar qué trae de nuevo antes de dar el salto.",
-   "trailer": null,
-   "metacritic": 65,
-   "metacriticUsuarios": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.52613.14544549240223014.0ee775ea-048e-4ed6-92c8-89fdb0c782cb.bee6cb63-e68f-4e90-a119-f674a6f9325c?w=600&h=900&format=jpg",
-   "critica": "Seis reseñas y un promedio bajo que se explica solo: las que lo aprueban dicen que mejora respecto de NHL 26 en el hielo y en la presentación de la transmisión, y las que no, que eso ya no alcanza. El reproche más duro y más repetido no es sobre el hockey sino sobre el Hockey Ultimate Team, el modo de cartas: aparece a los pocos minutos con ventanas emergentes y varias reseñas lo describen como el centro real del juego. También se le marca que el modo Franquicia Conectada quedó incompleto y que la serie sigue siendo difícil de empezar para el que no viene de la anterior.",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-03",
-   "url": "https://lanzamientos.lat/juegos/nhl-27",
-   "noticias": [
-    {
-     "fecha": "2026-09-04",
-     "titulo": "DEBUTA CON 65 Y LAS RESEÑAS APUNTAN AL MODO DE CARTAS",
-     "texto": "El hockey mejoró respecto del año pasado, pero eso no alcanzó. El reproche que más se repite en las seis reseñas es el Hockey Ultimate Team: aparece a los pocos minutos con ventanas emergentes y varios medios lo describen como el centro real del juego."
-    }
-   ]
-  },
   {
    "id": "port-of-jumanah",
    "titulo": "PORT OF JUMANAH",
@@ -2255,6 +2086,74 @@
    "psplus": false,
    "alta": "2026-08-01",
    "url": "https://lanzamientos.lat/juegos/paw-patrol-dino-world-switch-2"
+  },
+  {
+   "id": "gears-of-war-e-day",
+   "titulo": "GEARS OF WAR: E-DAY",
+   "fecha": "2026-10-06",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "THE COALITION",
+   "descripcion": "Experimenta el Día de la Emergencia, la brutal historia original de una de las franquicias de disparos en tercera persona más aclamadas del mundo de los videojuegos.",
+   "trailer": "https://youtube.com/embed/EC20gLfUHeA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/library_600x900.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/gears-of-war-e-day"
+  },
+  {
+   "id": "star-wars-galactic-racer",
+   "titulo": "STAR WARS: GALACTIC RACER",
+   "fecha": "2026-10-06",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "CARRERAS",
+    "DEPORTES"
+   ],
+   "desarrollador": "FUSE GAMES",
+   "descripcion": "STAR WARS: Galactic Racer™ es una vuelta de tuerca a las carreras nacidas en el Borde Exterior. Con la desaparición del Imperio y la reconstrucción de la galaxia, surge la Liga Galáctica: un circuito clandestino donde los sindicatos financian el caos y se forjan los campeones.",
+   "trailer": "https://youtube.com/embed/Je9SLyqRtc0",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/a592d9fe5ade10553913fb1b94f1175c.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/star-wars-galactic-racer"
+  },
+  {
+   "id": "disney-epic-mickey-rebrushed",
+   "titulo": "DISNEY EPIC MICKEY: REBRUSHED",
+   "fecha": "2026-10-06",
+   "relanzamiento": "En Switch, PS5, Xbox y PC desde 2024 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 10 h (historia) · 24 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "PURPLE LAMP",
+   "descripcion": "¡Embárcate en un viaje mágico con Disney Epic Mickey: Rebrushed! ¡Crea tu aventura a golpe de pincel y conviértete en Mickey Mouse para transformar el Páramo en este precioso y actualizado juego de plataformas 3D!",
+   "trailer": "https://youtube.com/embed/j76rpUMA1Gg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1522160/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/disney-epic-mickey-rebrushed"
   }
  ]
 }

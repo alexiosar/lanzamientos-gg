@@ -850,6 +850,21 @@ a:hover { color: var(--blanco); }
 .btn-fav[data-fav-texto]:hover  { transform: none; border-color: var(--amarillo); color: var(--amarillo); }
 .btn-fav[data-fav-texto].activo { border-color: var(--amarillo); color: var(--amarillo); }
 
+/* Aviso de hasta dónde llega el calendario. Va en /archivo, en /acerca y en la página del
+   mes más viejo, que son los tres lugares donde alguien puede toparse con el borde y pensar
+   que faltan juegos. Discreto a propósito: es una aclaración, no una disculpa. */
+.alcance {
+  max-width: 640px;
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 1rem;
+  border-left: 2px solid var(--gris-4);
+  color: var(--gris-6);
+  font-size: 0.75rem;
+  line-height: 1.7;
+}
+
+.alcance strong { color: var(--gris-7); }
+
 /* ── VOLVER ARRIBA ──
    La portada se scrollea sola hasta el próximo día, y eso deja la cabecera, el destacado y
    "próximos 7 días" varias pantallas más arriba. Este es el camino de vuelta.

@@ -77,7 +77,7 @@ def fila(j):
       </a>'''
 
 
-def generar(mes_key, juegos_mes, anterior, siguiente, pasado):
+def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
     y, m = map(int, mes_key.split("-"))
     nombre = MESES_ES[m - 1]
     verbo = "salieron" if pasado else "salen"
@@ -110,6 +110,12 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado):
 
     descripcion = (f"Todos los juegos que {verbo} en {nombre.lower()} de {y} para PS5, PS4, Xbox, "
                    f"Switch 2 y Switch: {total} lanzamientos con fecha, plataformas y puntajes.")
+
+    # En el mes más viejo del calendario se aclara hasta dónde llega. Es el borde: quien
+    # llega ahí y no ve enlace a un mes anterior no sabe si faltan juegos o si no salieron.
+    aviso_alcance = ('    <p class="alcance">Este es el mes más viejo del calendario: el sitio '
+                     'se armó en <strong>junio de 2026</strong> y lo anterior todavía no está '
+                     'cargado.</p>') if primero else ""
 
     def enlace_mes(mk, texto):
         return f'<a href="/{slug(mk)}">{texto}</a>' if mk else '<span class="mes-nav-vacio"></span>'
@@ -157,6 +163,7 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado):
     <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
     <h1 class="pagina-titulo">JUEGOS QUE {verbo.upper()} EN {nombre} DE {y}</h1>
     <p class="pagina-sub">{e(resumen.upper())}</p>
+{aviso_alcance}
 
     <div class="mes-lista">
 {chr(10).join(cuerpo)}
@@ -187,7 +194,7 @@ def main():
     for i, mk in enumerate(claves):
         anterior = claves[i - 1] if i > 0 else None
         siguiente = claves[i + 1] if i < len(claves) - 1 else None
-        html = generar(mk, por_mes[mk], anterior, siguiente, pasado=mk < hoy)
+        html = generar(mk, por_mes[mk], anterior, siguiente, pasado=mk < hoy, primero=(i == 0))
         (RAIZ / f"{slug(mk)}.html").write_text(html, encoding="utf-8")
     print(f"{len(claves)} páginas de mes generadas: {', '.join(slug(k) for k in claves)}")
 
