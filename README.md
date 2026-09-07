@@ -728,13 +728,33 @@ generadores sola, así que esto sólo hace falta en una edición suelta.
   para búsquedas tipo "lanzamientos PS5". El menú del sitio apunta a ellas; cada una linkea
   al calendario interactivo. Se regeneran con `scripts/generar-plataformas.py` (la rutina
   diaria lo hace sola).
-- **Filtros conscientes del archivo**: los botones de género solo se generan con juegos
-  visibles en la portada; si un filtro/búsqueda no tiene resultados próximos pero sí
-  archivados, el mensaje ofrece "BUSCAR EN EL ARCHIVO →" conservando el filtro.
+- **Filtros conscientes del tramo** (`enRangoDePagina()` en `js/main.js`): cada página sabe
+  qué parte del calendario muestra —la portada del mes actual en adelante, el archivo lo
+  anterior— y los botones de género se arman con los géneros que existen **en ese tramo**.
+  Ofrecer los de la portada dentro del archivo mandaría a un filtro vacío, y al revés se
+  esconderían géneros que sí están: al 07/09/2026, ISOMETRICO y WWII solo existen en el
+  archivo y TERROR solo en los meses que vienen.
+  Si un filtro no da resultados de un lado pero sí del otro, el mensaje ofrece el cruce
+  ("BUSCAR EN EL ARCHIVO →" o "VER EN EL CALENDARIO →") **conservando el filtro en la URL**.
 - **Archivo automático** (`archivo.html`): la portada muestra solo el mes actual en
   adelante; los meses pasados se mueven solos al archivo (link punteado arriba del
   calendario). No requiere mantenimiento: es un filtro por fecha, no hay que mover datos.
-  El ranking sigue considerando todos los juegos, archivados incluidos.
+
+  **El archivo tiene la misma columna de filtros que la portada** (desde el 07/09/2026).
+  Antes no la tenía y el filtro se perdía al cruzar: alguien filtraba DEPORTES, tocaba "VER
+  ARCHIVO" y le aparecían todos los meses viejos sin filtrar y sin manera de volver a
+  filtrar. Ahora el link al archivo se lleva la query string —el archivo lee los mismos
+  `?plat`, `?gen`, `?q` y `?vista`— y la columna está para poder cambiarlo desde ahí.
+
+  El encabezado del archivo (el "volver", el h1 y la nota de alcance) va **afuera** de
+  `.layout`, no adentro de `.col-principal`: en móvil la barra de filtros sube arriba de
+  todo con `order: -1`, y adentro de la columna el título de la página quedaba enterrado
+  bajo un bloque de filtros.
+
+  **El ranking se acota distinto en cada página.** En la portada considera todos los juegos,
+  archivados incluidos, porque es "lo mejor del calendario" y no "lo mejor de lo que viene".
+  En el archivo se limita a los meses pasados: el que entra ahí está mirando lo que ya salió,
+  y un ranking con estrenos futuros mezclados no es lo que fue a buscar.
 - **Botón ⇗ COMPARTIR** en todas las fichas: menú nativo del celular (WhatsApp, X, etc.)
   o copia del link en desktop, siempre apuntando a la ficha estática (con su carátula
   en la tarjeta social).

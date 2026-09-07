@@ -37,7 +37,10 @@
     </div>
   </header>
 
-  <main class="contenedor">
+  <main class="contenedor contenedor-ancho">
+    <!-- El encabezado va afuera de las dos columnas a propósito: en móvil los filtros suben
+         arriba de todo (`.sidebar { order: -1 }`), y adentro de la columna el título de la
+         página y el "volver" quedaban debajo de un bloque de filtros. -->
     <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
     <h1 class="pagina-titulo">ARCHIVO</h1>
     <p class="pagina-sub">LANZAMIENTOS DE MESES ANTERIORES — TODOS YA DISPONIBLES</p>
@@ -48,7 +51,55 @@
     <p class="alcance">El calendario arranca en <strong>junio de 2026</strong>, que es cuando
     se armó el sitio. Lo anterior no está cargado todavía: no es que falte, es que no llegamos
     a hacerlo.</p>
-    <div id="calendario"></div>
+
+    <div class="layout">
+
+      <div class="col-principal">
+        <div id="calendario"></div>
+      </div>
+
+      <!-- Los mismos filtros que la portada, y no por simetría: el archivo tiene más juegos
+           que cualquier mes suelto y sin filtros no hay forma de encontrar nada adentro. Hasta
+           el 07/09/2026 esta columna no estaba, así que quien filtraba por género y cruzaba al
+           archivo perdía el filtro y encima se quedaba sin manera de volver a ponerlo.
+           Los botones de género los arma main.js con los géneros que existen ACÁ, que no son
+           los mismos que los de los meses que vienen. -->
+      <aside class="sidebar" aria-label="Filtros">
+        <div class="filtros">
+          <div class="filtros-label">BUSCAR JUEGO:</div>
+          <input type="text" id="buscador" class="buscador" placeholder="JUEGO, ESTUDIO O GÉNERO..." oninput="buscarJuego(this.value)" autocomplete="off">
+        </div>
+
+        <div class="filtros">
+          <div class="filtros-label">VISTA:</div>
+          <div class="filtros-botones">
+            <button class="filtro-btn vista-btn activo" data-vista="calendario" onclick="cambiarVista('calendario')">CALENDARIO</button>
+            <button class="filtro-btn vista-btn" data-vista="grilla" onclick="cambiarVista('grilla')">⊞ GRILLA</button>
+            <button class="filtro-btn vista-btn" data-vista="ranking" onclick="cambiarVista('ranking')">★ RANKING</button>
+          </div>
+        </div>
+
+        <div class="filtros">
+          <div class="filtros-label">FILTRAR POR PLATAFORMA:</div>
+          <div class="filtros-botones">
+            <button class="filtro-btn filtro-btn-plat activo" data-plat="TODAS"   onclick="activarFiltro('TODAS')">TODAS</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="PS5"     onclick="activarFiltro('PS5')">PS5</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="PS4"     onclick="activarFiltro('PS4')">PS4</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="XBOX"    onclick="activarFiltro('XBOX')">XBOX</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="SWITCH2" onclick="activarFiltro('SWITCH2')">SWITCH 2</button>
+            <button class="filtro-btn filtro-btn-plat"        data-plat="SWITCH"  onclick="activarFiltro('SWITCH')">SWITCH</button>
+          </div>
+        </div>
+
+        <div class="filtros">
+          <button class="filtros-label filtros-toggle" id="toggle-genero"
+                  aria-expanded="false" aria-controls="filtros-genero"
+                  onclick="toggleGeneros()">FILTRAR POR GÉNERO:<span class="toggle-flecha">▾</span></button>
+          <div class="filtros-botones" id="filtros-genero"></div>
+        </div>
+      </aside>
+
+    </div>
   </main>
 
   <footer class="site-footer">

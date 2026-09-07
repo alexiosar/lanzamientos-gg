@@ -8,6 +8,14 @@ let rankingPeriodo = "todo"; // todo | mes | 30dias
 // archivo.html declara data-archivo en el body: muestra solo meses pasados
 const MODO_ARCHIVO = !!(document.body && document.body.dataset.archivo);
 
+// Qué tramo del calendario le toca a esta página: la portada muestra del mes actual en
+// adelante y el archivo lo anterior. Lo usan el render, la lista de géneros y el mensaje
+// de "no hay nada", que si no se contradicen entre sí.
+function enRangoDePagina(j) {
+  const mesActual = getMesKeyHoy();
+  return MODO_ARCHIVO ? j.fecha.slice(0, 7) < mesActual : j.fecha.slice(0, 7) >= mesActual;
+}
+
 // ── HELPERS ──
 const MESES_ES = [
   "ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO",
@@ -191,12 +199,12 @@ function activarFiltro(plataforma) {
 // ── FILTRO GÉNERO ──
 function generarFiltrosGenero() {
   const contenedor = document.getElementById("filtros-genero");
-  if (!contenedor) return; // archivo.html no tiene filtros
-  // solo géneros de juegos visibles en la portada (mes actual en adelante),
-  // para no ofrecer filtros que quedarían vacíos por el archivo
-  const mesActual = getMesKeyHoy();
+  if (!contenedor) return;
+  // Solo los géneros que existen en el tramo que muestra ESTA página. Ofrecer los de la
+  // portada dentro del archivo sería mandar a un filtro vacío, y al revés también: los
+  // géneros del archivo no son los mismos que los de los meses que vienen.
   const generos = new Set();
-  JUEGOS.filter(j => j.fecha.slice(0, 7) >= mesActual)
+  JUEGOS.filter(enRangoDePagina)
         .forEach(j => j.genero.forEach(g => generos.add(g)));
   contenedor.innerHTML = ["TODOS", ...Array.from(generos).sort()].map(g => `
     <button class="filtro-btn ${g === filtroGenero ? 'activo' : ''}"
@@ -478,22 +486,29 @@ function renderCalendario() {
   const contenedor = document.getElementById("calendario");
   let juegos = juegosFiltrados();
 
-  // el ranking siempre considera todos los meses (incluido el archivo)
+  // En la portada el ranking considera todos los meses a propósito: es "lo mejor del
+  // calendario", no lo mejor de los meses que vienen. En el archivo eso no aplica —el que
+  // entra ahí está mirando lo que ya salió— así que se acota como el resto de la página.
   if (vistaActiva === "ranking") {
-    contenedor.innerHTML = juegos.length
-      ? renderRanking(juegos)
+    const paraRanking = MODO_ARCHIVO ? juegos.filter(enRangoDePagina) : juegos;
+    contenedor.innerHTML = paraRanking.length
+      ? renderRanking(paraRanking)
       : `<div class="sin-resultados">// NO HAY JUEGOS PARA ESTE FILTRO</div>`;
     return;
   }
 
   // portada: mes actual en adelante; archivo: solo meses anteriores
-  const mesActual = getMesKeyHoy();
-  juegos = juegos.filter(j => MODO_ARCHIVO ? j.fecha.slice(0, 7) < mesActual : j.fecha.slice(0, 7) >= mesActual);
+  juegos = juegos.filter(enRangoDePagina);
 
   if (juegos.length === 0) {
-    const hayEnArchivo = !MODO_ARCHIVO && juegosFiltrados().some(j => j.fecha.slice(0, 7) < mesActual);
-    contenedor.innerHTML = `<div class="sin-resultados">// NO HAY JUEGOS PRÓXIMOS PARA ESTE FILTRO${
-      hayEnArchivo ? ` — <a href="/archivo${window.location.search}">BUSCAR EN EL ARCHIVO →</a>` : ""}</div>`;
+    // Si el filtro no da nada acá pero sí del otro lado, el camino se ofrece con el filtro
+    // puesto. Sin esto el archivo es un callejón: alguien filtra DEPORTES, no hay ninguno en
+    // los meses viejos y el mensaje no dice que en el calendario sí hay.
+    const hayDelOtroLado = juegosFiltrados().some(j => !enRangoDePagina(j));
+    contenedor.innerHTML = `<div class="sin-resultados">// NO HAY JUEGOS ${
+      MODO_ARCHIVO ? "EN EL ARCHIVO" : "PRÓXIMOS"} PARA ESTE FILTRO${
+      hayDelOtroLado ? ` — <a href="${MODO_ARCHIVO ? "/" : "/archivo"}${window.location.search}">${
+        MODO_ARCHIVO ? "VER EN EL CALENDARIO →" : "BUSCAR EN EL ARCHIVO →"}</a>` : ""}</div>`;
     return;
   }
 
@@ -594,10 +609,13 @@ function renderCalendario() {
       ${ocultos > 0 ? `<button class="proximos-mas" onclick="verTodosProximos()">VER LOS ${proximos7.length} DE ESTA SEMANA ▾</button>` : ""}
     </div>` : "";
 
-  // link al archivo (solo en la portada, si hay meses pasados)
-  const hayArchivo = !MODO_ARCHIVO && JUEGOS.some(j => j.fecha.slice(0, 7) < mesActual);
+  // Link al archivo (solo en la portada, si hay meses pasados con este filtro puesto).
+  // Se lleva la búsqueda en la URL: el archivo lee los mismos parámetros, así que el que
+  // venía filtrando DEPORTES sigue viendo deportes del otro lado. Antes el link iba pelado
+  // y el filtro se perdía al cruzar.
+  const hayArchivo = !MODO_ARCHIVO && juegosFiltrados().some(j => j.fecha.slice(0, 7) < mesKeyHoy);
   const archivoHtml = hayArchivo
-    ? `<a class="link-archivo" href="/archivo">≡ LANZAMIENTOS DE MESES ANTERIORES → VER ARCHIVO</a>`
+    ? `<a class="link-archivo" href="/archivo${window.location.search}">≡ LANZAMIENTOS DE MESES ANTERIORES → VER ARCHIVO</a>`
     : "";
 
   contenedor.innerHTML = destacadoHtml + proximosHtml + archivoHtml + mesesOrdenados.map((mesKey, idx) => {
