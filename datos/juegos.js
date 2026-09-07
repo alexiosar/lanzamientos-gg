@@ -3170,6 +3170,11 @@ const JUEGOS = [
     desarrollador: "REBEL WOLVES",
     descripcion: "The Blood of Dawnwalker es un RPG de acción y fantasía oscura en mundo abierto ambientado en la Europa del siglo XIV. Juegas como Coen, humano de día y vampiro de noche, y luchas por salvar a tu familia en una historia moldeada por tus decisiones.",
     trailer: "https://youtube.com/embed/te73UInH8H8",
+    gameplay: {
+      video: "https://youtube.com/embed/_7bfEOyWbpk",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 83,
     metacriticUsuarios: 8.2,
     metacriticVotos: 465,
@@ -3195,6 +3200,11 @@ const JUEGOS = [
     desarrollador: "NINTENDO",
     descripcion: "Nuevo exclusivo de Switch 2 envuelto en misterio: \"We are one!\" es todo lo que Nintendo adelantó por ahora. Actualizaremos la ficha en cuanto haya detalles oficiales.",
     trailer: "https://youtube.com/embed/bvMDXtgz1bo",
+    gameplay: {
+      video: "https://youtube.com/embed/eP0PgqoydiU",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 82,
     metacriticUsuarios: 8.3,
     metacriticVotos: 53,
@@ -3220,6 +3230,11 @@ const JUEGOS = [
     desarrollador: "OCELLUS STUDIO",
     descripcion: "¡Ayuda a los Marsupilamis a salvar Palombia de la Reina Momia y sus secuaces en este energético juego de plataformas! Una extraña melodía se ha extendido por Palombia... ¡y los animales se han puesto a bailar hasta dejarlo todo patas arriba!",
     trailer: "https://youtube.com/embed/G8SvJzrpSG0",
+    gameplay: {
+      video: "https://youtube.com/embed/K2S7bKbfeMc",
+      canal: "Puerta al Sótano",
+      canalUrl: "https://www.youtube.com/@Dan-PuertaAlSotano"
+    },
     metacritic: 79,
     metacriticUsuarios: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6vp.jpg",
@@ -3271,6 +3286,11 @@ const JUEGOS = [
     desarrollador: "CAPCOM CO., LTD.",
     descripcion: "Un samurái con un guantelete Oni hará frente a la amenaza de los Genma que se cierne sobre Kioto. Se enfrentará en combates cruentos y encarnizados, mientras busca su razón para luchar. ¿Qué destino le aguarda al final de su camino?",
     trailer: "https://youtube.com/embed/LNq35HHUtNc",
+    gameplay: {
+      video: "https://youtube.com/embed/YPdXLnfUeV0",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 85,
     metacriticUsuarios: 8.7,
     metacriticVotos: 213,
@@ -6372,6 +6392,11 @@ const JUEGOS = [
     desarrollador: "DIGITAL SUN",
     descripcion: "¡Emprende la vida del héroe mercante! Adéntrate en dimensiones colmadas de tesoros y enemigos. Amasa un buen botín, vende las reliquias en tu tienda y reinvierte en mejorar tu equipo para que la siguiente expedición sea aún más fructífera. Con el oro suficiente, quizá algún día puedas volver a casa.",
     trailer: "https://youtube.com/embed/5bcVLw6WRgs",
+    gameplay: {
+      video: "https://youtube.com/embed/9Rage3PRKYs",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 77,
     metacriticUsuarios: 7.6,
     metacriticVotos: 5,

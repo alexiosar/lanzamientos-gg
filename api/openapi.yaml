@@ -198,6 +198,29 @@ components:
           format: uri
           description: URL de YouTube en formato embebible, o `null` si no hay trailer.
           example: https://youtube.com/embed/jK0cGKMDMPE
+        gameplay:
+          type: object
+          description: |
+            Un video de alguien jugándolo, en español y de un canal de YouTube hispano.
+            No es material nuestro: si se reutiliza, hay que acreditar al canal igual
+            que lo hace la ficha. Ausente en la mayoría de los juegos, y siempre
+            ausente en los que todavía no salieron.
+          required: [video, canal, canalUrl]
+          properties:
+            video:
+              type: string
+              format: uri
+              description: URL de YouTube en formato embebible.
+              example: https://youtube.com/embed/YPdXLnfUeV0
+            canal:
+              type: string
+              description: Nombre del canal, tal como lo escribe su dueño.
+              example: L0k0hGaming
+            canalUrl:
+              type: string
+              format: uri
+              description: Canal de YouTube de quien grabó el video.
+              example: https://www.youtube.com/@l0k0hgaming
         metacritic:
           type: [integer, "null"]
           minimum: 0

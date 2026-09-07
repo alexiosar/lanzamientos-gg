@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verifica que las carátulas y los trailers cargados sigan existiendo.
+"""Verifica que las carátulas, los trailers y los gameplays sigan existiendo.
 
 Ningún otro script mira esto y las URLs se rompen solas: Steam reorganiza sus
 CDN, un estudio borra su video de YouTube, o directamente se cargó mal la URL.
@@ -73,26 +73,37 @@ def main():
     for gid, code, u in rotas:
         print(f"    {code}  {gid}\n         {u}")
 
-    trailers = [(j["id"], j["trailer"]) for j in datos if j.get("trailer")]
-    print(f"\n── Trailers ({len(trailers)}) ──")
-    malos = []
-    for gid, u in trailers:
-        m = re.search(r"embed/([\w-]+)", u)
-        # los ids de YouTube son siempre de 11 caracteres: uno más corto es un
-        # id truncado al cargarlo, y el embed queda roto sin avisar
-        if not m or len(m.group(1)) != 11:
-            malos.append((gid, "id inválido", u))
-            continue
-        r = responde(f"https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={m.group(1)}"
-                     f"&format=json", "GET")
-        if r is not True:
-            malos.append((gid, r, u))
-        time.sleep(0.04)
-    print(f"  rotos: {len(malos)}")
-    for gid, code, u in malos:
-        print(f"    {code}  {gid}\n         {u}")
+    def revisar_videos(pares, rotulo):
+        print(f"\n── {rotulo} ({len(pares)}) ──")
+        malos = []
+        for gid, u in pares:
+            m = re.search(r"embed/([\w-]+)", u)
+            # los ids de YouTube son siempre de 11 caracteres: uno más corto es un
+            # id truncado al cargarlo, y el embed queda roto sin avisar
+            if not m or len(m.group(1)) != 11:
+                malos.append((gid, "id inválido", u))
+                continue
+            r = responde(f"https://www.youtube.com/oembed?url=https://www.youtube.com/watch"
+                         f"?v={m.group(1)}&format=json", "GET")
+            if r is not True:
+                malos.append((gid, r, u))
+            time.sleep(0.04)
+        print(f"  rotos: {len(malos)}")
+        for gid, code, u in malos:
+            print(f"    {code}  {gid}\n         {u}")
+        return malos
 
-    total = len(rotas) + len(malos)
+    malos = revisar_videos([(j["id"], j["trailer"]) for j in datos if j.get("trailer")],
+                           "Trailers")
+
+    # Los gameplays son videos de youtuberos, no de las editoras. Se caen bastante más
+    # seguido: un canal se pasa a privado, hace limpieza o le cae un strike, y el video
+    # desaparece sin que nadie avise. Por eso se revisan igual que los trailers.
+    gameplays = revisar_videos(
+        [(j["id"], j["gameplay"]["video"]) for j in datos if j.get("gameplay")],
+        "Gameplays")
+
+    total = len(rotas) + len(malos) + len(gameplays)
     print(f"\n═══ {'todo en orden' if not total else str(total) + ' enlace(s) para arreglar'} ═══")
     return 1 if total else 0
 

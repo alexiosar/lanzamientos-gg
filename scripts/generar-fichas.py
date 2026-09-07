@@ -305,6 +305,23 @@ def generar(j, juegos):
         </div>
       </div>'''
 
+    # Un gameplay de un youtuber hispano abajo del trailer oficial. El trailer lo armó
+    # la editora para vender: muestra lo mejor de tres segundos por escena y nunca la
+    # parte aburrida. Para saber si un juego te va a gustar hace falta verlo jugado de
+    # verdad, y en español. Va con el nombre del canal y el enlace: es material de otro,
+    # el crédito no es opcional.
+    gameplay_html = ""
+    g = j.get("gameplay")
+    if g:
+        gameplay_html = f'''
+      <div class="seccion">
+        <div class="seccion-titulo">GAMEPLAY EN ESPAÑOL</div>
+        <div class="video-wrapper">
+          <iframe src="{e(g["video"])}" title="Gameplay de {e(j["titulo"])} por {e(g["canal"])}" allowfullscreen allow="autoplay" loading="lazy"></iframe>
+        </div>
+        <p class="video-credito">Video de <a href="{e(g["canalUrl"])}" target="_blank" rel="noopener">{e(g["canal"])}</a>, en su canal de YouTube.</p>
+      </div>'''
+
     rel = relacionados(j, juegos)
     mes_titulo = f"MÁS LANZAMIENTOS DE {MESES_ES[m-1]} {y}"
     rel_html = bloque_rel("JUEGOS RELACIONADOS", rel) + \
@@ -402,6 +419,8 @@ def generar(j, juegos):
     .portada-page.forma-tapa {{ height: 267px; }}
     .video-wrapper     {{ position: relative; padding-bottom: 56.25%; height: 0; border: 1px solid var(--gris-3); background: var(--negro); }}
     .video-wrapper iframe {{ position: absolute; inset: 0; width: 100%; height: 100%; border: none; }}
+    /* El enlace al canal ya sale con el acento por la regla global de `a`. */
+    .video-credito     {{ color: var(--gris-5); font-size: 0.6875rem; letter-spacing: 1px; margin-top: 0.5rem; }}
     .badge-gamepass    {{ color: var(--xbox); }}
     .badge-psplus      {{ color: var(--ps5); }}
     /* Juegos relacionados: la ficha ya no es un callejón sin salida */
@@ -487,7 +506,7 @@ def generar(j, juegos):
         <div class="seccion-titulo">TAGS</div>
         <div class="ficha-tags">{tags_html}</div>
       </div>
-{trailer_html}{rel_html}
+{trailer_html}{gameplay_html}{rel_html}
     </div>
   </main>
 

@@ -141,6 +141,11 @@ Editar `datos/juegos.js` y agregar un objeto al array `JUEGOS`:
   descripcion: "Texto normal en minúsculas...",
   trailer: "https://youtube.com/embed/XXXXXXX",   // formato /embed/, no /watch — o null:
                                                   // el botón VER TRAILER se oculta solo
+  gameplay: {                    // opcional: un youtubero hispano jugándolo (ver abajo)
+    video: "https://youtube.com/embed/XXXXXXX",
+    canal: "L0k0hGaming",
+    canalUrl: "https://www.youtube.com/@l0k0hgaming"
+  },
   metacritic: null,              // número (ej: 82) o null; lo baja y lo refresca actualizar.py
   metacriticUsuarios: null,      // puntaje de los usuarios, de 0 a 10 (ej: 2.6); ídem
   metacriticVotos: null,         // sobre cuántos votos se calculó ese puntaje; ídem
@@ -185,6 +190,16 @@ si están en `null` o ausentes — no rompen nada.
   embebido como `videoRenderer`). Validar siempre que el título del video corresponda al
   juego antes de cargar el ID. Los videos de Steam ya no sirven: son streaming DASH/HLS,
   no reproducibles en un iframe.
+- **Gameplays en español** (campo `gameplay`, ver más abajo): el RSS de cada canal,
+  `youtube.com/feeds/videos.xml?channel_id=UC...`, devuelve los últimos 15 videos con id,
+  título y fecha, sin clave ni límite. El `channel_id` sale de la página del canal
+  (`externalId":"UC...` en el HTML, pidiéndolo con User-Agent de navegador), y de ahí
+  también el handle `@` para `canalUrl`. Para juegos más viejos que esos 15 videos hay que
+  ir a la búsqueda, igual que con los trailers.
+  **Validar siempre con oEmbed** antes de cargar nada:
+  `youtube.com/oembed?url=https://www.youtube.com/watch?v=ID&format=json` devuelve el
+  título y el canal reales, que es la única forma de confirmar que el id no quedó pegado de
+  otro video. Anda desde `curl` aunque youtube.com esté bloqueado en el navegador.
 - **Duración**: HowLongToBeat, con `python3 scripts/cargar-duraciones.py --aplicar`.
   Ya no hace falta cargarla a mano. El buscador de HLTB bloquea peticiones ingenuas, pero
   su propia web usa un protocolo público de dos pasos que el script replica: pide un token
@@ -282,6 +297,45 @@ entre comillas, con el nombre del medio y enlace a **su** reseña, no a Metacrit
 puntaje todavía: The Relic: First Guardian está tres veces en el calendario —PS5, Xbox y
 Switch 2— y las reseñas son del mismo juego. Si más adelante alguna edición se reseña aparte y
 sale distinta, ahí se separan los textos.
+
+### El gameplay en español (campo `gameplay`, desde el 07/09/2026)
+
+El trailer oficial lo hizo la editora para vender: tres segundos por escena, todo en su mejor
+momento y nunca la parte aburrida. Para decidir si un juego te gusta hace falta verlo jugado
+de verdad, y en español. Eso es lo que va abajo del trailer, en el bloque **GAMEPLAY EN
+ESPAÑOL**, con el nombre del canal y el enlace.
+
+**Es material de otro y se acredita siempre.** El bloque no existe sin el crédito visible y sin
+el enlace al canal. La cuenta cierra para los dos lados: el sitio le da al lector el video que
+le falta, y el canal se lleva las reproducciones y un enlace permanente. Los canales de
+gameplay largo viven de que los compartan, así que esto es exactamente lo que piden.
+
+**Qué video se elige, por orden:**
+
+1. **El primero de la serie, no el que salga primero en la búsqueda.** Los canales que suben
+   un juego entero lo parten en directos numerados. Va el `#1` —el de "Impresiones / Primeros
+   Pasos"— porque desde ahí YouTube ofrece el resto. Linkear la parte 4 arranca al lector con
+   spoilers y sin contexto.
+2. **Que sea gameplay comentado, no reseña ni reacción.** Un canal puede tener las tres cosas
+   sobre el mismo juego y los títulos se parecen. Si el video es alguien opinando sobre un
+   trailer, no sirve.
+3. **Español, y mejor si es un canal que ya nombramos.** Al 07/09/2026: L0k0hGaming
+   (`@l0k0hgaming`, `UCHybEMsTlz5LLR7MxOOfGjw`) es la primera opción porque sube juegos
+   enteros y en directo; Puerta al Sótano (`@Dan-PuertaAlSotano`, `UCWDq7BN8dlM-15JrrabxmTg`)
+   cubre lo de Nintendo con gameplay comentado; alexelcapo (`UCdRx6BjmUwdP7pfGIYPRHaQ`) sube
+   directos de lo grande. Caith_Sith (`UCQrWS87-KWTTEpEl7sp_KjA`) es de reacciones y no de
+   gameplay: su canal de partidas, Caith Plays, no sube nada desde septiembre de 2025.
+   Fuera de esos, cualquier canal hispano con un "Juego Completo" decente.
+4. **Sólo juegos ya lanzados.** Antes del estreno no hay gameplay real, sólo demos y previews
+   que después no se parecen a lo que sale.
+
+**Se cargan primero en los recomendados del mes**, que son las fichas más visitadas. Poner uno
+en los 376 juegos es trabajo manual sin vuelta: cada video hay que mirarlo para saber si es el
+que corresponde.
+
+`verificar-enlaces.py` los revisa junto con los trailers, en su propia sección. Se caen más
+seguido que los oficiales: un canal se pasa a privado, hace limpieza o le cae un strike, y el
+video desaparece sin que nadie avise.
 
 ### Carátulas (campo `imagen`)
 
