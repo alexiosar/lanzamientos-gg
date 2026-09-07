@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -132,6 +133,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">79 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('marsupilami-2-salsa-palombia')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -147,6 +153,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Cinco reseñas y un acuerdo tranquilo: es un plataformas 2D prolijo y colorido, fiel a la historieta de Franquin, y de los pocos que se pueden jugar con chicos al lado. Lo que más se destaca es el ritmo y que funciona bien en portátil. Los reparos son de tamaño, no de calidad: es corto, y varias reseñas señalan que el movimiento, la música y el diseño de niveles no siempre encajan al mismo tiempo — cuando lo hacen es muy bueno, cuando no, se siente irregular. Nadie lo trata de imprescindible y nadie lo trata mal.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-07</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 79: PLATAFORMAS PROLIJO Y PARA JUGAR ACOMPAÑADO</span>
+          </div>
+          <p class="noticia-texto">Las reseñas coinciden en lo colorido y en la fidelidad a la historieta, y en que anda muy bien en portátil. Los reparos son que es corto y que el ritmo no siempre encaja. Sigue siendo de los pocos del mes que se puede jugar con chicos al lado.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">¡Ayuda a los Marsupilamis a salvar Palombia de la Reina Momia y sus secuaces en este energético juego de plataformas! Una extraña melodía se ha extendido por Palombia... ¡y los animales se han puesto a bailar hasta dejarlo todo patas arriba!</p>
