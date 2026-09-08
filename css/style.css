@@ -22,8 +22,10 @@
   --gris-7: #999999;
   --amarillo: #ffcc00;
   --font: 'Space Mono', monospace;
-  /* Ancho de la miniatura de las listas; el alto es 1.5 veces esto (2:3). */
-  --mini: 64px;
+  /* Ancho de la miniatura de las listas —calendario, ranking y "próximos 7 días"—; el alto
+     es 1.5 veces esto (2:3). Pasó de 64 a 80 el 08/09/2026: la carátula es lo que hace que
+     una fila se distinga de la de al lado, y a 64 se leía como un ícono. */
+  --mini: 80px;
 }
 
 /* ── JERARQUÍA TIPOGRÁFICA ──
@@ -969,11 +971,15 @@ a:hover { color: var(--blanco); }
    quedaba partido. Desde que el 98% del calendario es vertical (26/08/2026) la miniatura
    puede tener la forma de la caja, y con la forma correcta se reconoce el juego sin leer.
    El ancho manda y el alto sale de él: una sola medida para tocar. */
+/* Las esquinas van apenas redondeadas, no más. El sitio es de estética terminal y todo lo
+   demás sigue en ángulo recto: 4px sobre 80 de ancho ablanda la carátula sin sacarla de
+   tono. Un radio grande la convertiría en un ícono de app, que es otro sitio. */
 .mini-portada {
   width: var(--mini);
   height: calc(var(--mini) * 1.5);
   object-fit: cover;
   border: 1px solid var(--gris-3);
+  border-radius: 4px;
   background: var(--gris-1);
   flex-shrink: 0;
   display: block;

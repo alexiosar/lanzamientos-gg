@@ -509,6 +509,20 @@ tiene puede tenerla cerca de su lanzamiento.
 - En la vista grilla las carátulas horizontales y cuadradas quedan recortadas al centro por
   el `object-fit: cover` del marco 3/4. Se probó mostrarlas enteras sobre un fondo difuminado
   (julio 2026) y **se descartó**: no gustó el resultado. La grilla queda con recorte.
+- **La miniatura de las listas sale de una sola variable, `--mini`** (en `:root`), y de ahí
+  la usan el calendario, el ranking y "próximos 7 días". El alto es 1.5 veces el ancho, o sea
+  2:3, la forma de las carátulas de Steam. **Para cambiarle el tamaño se toca la variable y
+  nada más**, porque las tres grillas de móvil la usan como ancho de columna.
+
+  Pasó de 64 a 80px el 08/09/2026, a pedido del usuario, y con las esquinas apenas
+  redondeadas —`border-radius: 4px`—. A 64 la carátula se leía como un ícono y no aportaba
+  a distinguir una fila de la de al lado, que es para lo único que está ahí.
+
+  **El radio se queda en 4px y no crece.** El sitio es de estética terminal y todo lo demás
+  va en ángulo recto: un radio grande convierte la carátula en ícono de aplicación, que es
+  otro sitio. Por el mismo motivo las carátulas grandes —la grilla, el destacado, los
+  recomendados y la ficha— siguen en escuadra: ahí la imagen es el contenido, no un
+  distintivo al costado de un texto.
 
 ### Qué entra al calendario y qué no (regla decidida el 13/08/2026)
 
