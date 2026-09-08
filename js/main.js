@@ -398,41 +398,79 @@ function fichaHtml(j) {
 
 // ── VISTA GRILLA ──
 // mosaico de carátulas ordenado por fecha
-function renderGrilla(juegos) {
-  const hoyKey = getDiaKeyHoy();
-  const orden = [...juegos].sort((a, b) => a.fecha.localeCompare(b.fecha));
+// La grilla va agrupada por día, con el mismo rótulo que el calendario. Antes era una
+// pared plana de carátulas con la fecha repetida abajo de cada una: linda pero sin
+// estructura, y con la fecha escrita hasta veinte veces seguidas para el mismo día.
+// Con el separador la fecha se dice una vez, se puede barrer "qué sale el 15" de un
+// vistazo, y las tarjetas se quedan con lo suyo, que es la carátula.
+//
+// El rótulo lleva la clase `dia-label` a propósito: así hereda los estilos de [HOY],
+// [PRÓXIMO] y [YA DISPONIBLE] que ya existen para el calendario, y los dos quedan
+// atados. `grilla-sep` sólo agrega que ocupe la fila entera de la grilla.
+function tarjetaGrilla(j, hoyKey) {
+  const portada = j.imagen
+    ? `<img class="grilla-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" decoding="async" onerror="sinCaratula(this,'grilla-portada grilla-vacia')">`
+    : `<span class="grilla-portada grilla-vacia"></span>`;
 
-  const tarjetas = orden.map(j => {
-    const f = parseFecha(j.fecha);
-    const fechaCorta = j.estimado
-      ? (j.fechaEstimada || `${MESES_ES[f.getMonth()]} ${f.getFullYear()}`)
-      : `${DIAS_ES[f.getDay()]} ${String(f.getDate()).padStart(2, "0")} ${MESES_ES[f.getMonth()].slice(0, 3)}`;
+  const badge = j.metacritic
+    ? `<span class="grilla-nota badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>`
+    : "";
 
-    const portada = j.imagen
-      ? `<img class="grilla-portada" src="${j.imagen}" alt="Portada de ${j.titulo}" loading="lazy" decoding="async" onerror="sinCaratula(this,'grilla-portada grilla-vacia')">`
-      : `<span class="grilla-portada grilla-vacia"></span>`;
+  const hoyTag = j.fecha === hoyKey ? `<span class="grilla-hoy">HOY</span>` : "";
 
-    const badge = j.metacritic
-      ? `<span class="grilla-nota badge-metacritic ${claseMetacritic(j.metacritic)}">${j.metacritic}</span>`
-      : "";
-
-    const hoyTag = j.fecha === hoyKey ? `<span class="grilla-hoy">HOY</span>` : "";
-
-    return `
+  return `
       <a class="grilla-item" href="/juegos/${j.id}">
         <div class="grilla-marco">
           ${portada}
           ${badge}
           ${hoyTag}
         </div>
-        <span class="grilla-fecha">${fechaCorta}</span>
         <span class="grilla-titulo">${j.titulo}</span>
         <div class="plataformas">${j.plataformas.map(p =>
           `<span class="plat ${plataformaClass(p)}">${plataformaLabel(p)}</span>`).join("")}</div>
       </a>`;
-  }).join("");
+}
 
-  return `<div class="grilla">${tarjetas}</div>`;
+function renderGrilla(juegos) {
+  const hoyKey = getDiaKeyHoy();
+  const confirmados = juegos.filter(j => !j.estimado).sort((a, b) => a.fecha.localeCompare(b.fecha));
+  const estimados = juegos.filter(j => j.estimado).sort((a, b) => a.fecha.localeCompare(b.fecha));
+
+  const porDia = {};
+  confirmados.forEach(j => (porDia[j.fecha] = porDia[j.fecha] || []).push(j));
+  const dias = Object.keys(porDia).sort();
+  // Mismo criterio que el calendario: el primer día con lanzamientos posterior a hoy.
+  const proximoKey = dias.find(d => d > hoyKey) || null;
+
+  const bloques = dias.map(diaKey => {
+    const f = parseFecha(diaKey);
+    const rotulo = `${DIAS_ES[f.getDay()]} <span>${String(f.getDate()).padStart(2, "0")} `
+                 + `${MESES_ES[f.getMonth()].slice(0, 3)} ${f.getFullYear()}</span>`;
+
+    let indicador = "";
+    if (esHoy(diaKey))            indicador = `<span class="dia-hoy">[ HOY ]</span>`;
+    else if (diaKey === proximoKey) indicador = `<span class="dia-proximo">[ PRÓXIMO ]</span>`;
+    else if (diaKey < hoyKey)     indicador = `<span class="dia-disponible">[ YA DISPONIBLE ]</span>`;
+
+    return `<div class="grilla-sep dia-label ${esHoy(diaKey) ? 'dia-label-hoy' : ''}">${rotulo} ${indicador}</div>`
+         + porDia[diaKey].map(j => tarjetaGrilla(j, hoyKey)).join("");
+  });
+
+  // Los que no tienen día van juntos al final, agrupados por su etiqueta. Mezclados entre
+  // los confirmados harían pasar por fecha lo que es una estimación, que es el error que
+  // el calendario ya evita con su bloque aparte.
+  const porEtiqueta = {};
+  estimados.forEach(j => {
+    const f = parseFecha(j.fecha);
+    const etq = j.fechaEstimada || `${MESES_ES[f.getMonth()]} ${f.getFullYear()}`;
+    (porEtiqueta[etq] = porEtiqueta[etq] || []).push(j);
+  });
+  Object.keys(porEtiqueta).forEach(etq => {
+    bloques.push(`<div class="grilla-sep dia-label">SIN FECHA CONFIRMADA <span class="dia-estimado-tag">[ ${etq} ]</span></div>`
+      + porEtiqueta[etq].map(j => tarjetaGrilla(j, hoyKey)).join(""));
+  });
+
+  return `<div class="grilla">${bloques.join("")}</div>`;
 }
 
 // ── JUEGOS FILTRADOS ──

@@ -723,12 +723,17 @@ a:hover { color: var(--blanco); }
   font-weight: 700;
 }
 
-.grilla-fecha {
-  color: var(--gris-5);
-  font-size: 0.6875rem;
-  letter-spacing: 1px;
-  margin-top: 2px;
+/* El rótulo de día de la grilla. Ocupa la fila entera para que corte de verdad: con las
+   tarjetas alrededor, un rótulo del ancho de una columna se lee como una tarjeta más.
+   Los colores y los indicadores [HOY] / [PRÓXIMO] los trae la clase `dia-label`. */
+.grilla-sep {
+  grid-column: 1 / -1;
+  border-bottom: 1px solid var(--gris-3);
+  padding-bottom: 0.4rem;
+  margin: 1rem 0 -0.25rem;
 }
+
+.grilla-sep:first-child { margin-top: 0; }
 
 .grilla-titulo {
   color: var(--blanco);

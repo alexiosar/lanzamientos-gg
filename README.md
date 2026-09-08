@@ -781,10 +781,30 @@ generadores sola, así que esto sólo hace falta en una edición suelta.
 - **Botón ⇗ COMPARTIR** en todas las fichas: menú nativo del celular (WhatsApp, X, etc.)
   o copia del link en desktop, siempre apuntando a la ficha estática (con su carátula
   en la tarjeta social).
-- **Vista ⊞ GRILLA**: mosaico de carátulas grandes ordenado por fecha, con el puntaje de
+- **Vista ⊞ GRILLA**: mosaico de carátulas grandes **agrupado por día**, con el puntaje de
   Metacritic sobre la portada y una franja "HOY" en los que salen hoy. Respeta filtros,
   búsqueda y el archivo (mismo conjunto que el calendario). Columnas automáticas: ~5 en
   desktop, 2 en móvil.
+
+  **El rótulo de día es de septiembre de 2026** y salió de que el usuario dijo que la grilla
+  le parecía más linda que el calendario *"con la salvedad de la línea de diferencia de
+  fechas"*. Tenía razón: antes cada tarjeta llevaba su propia fecha abajo, así que en un día
+  con veinte lanzamientos la misma fecha se escribía veinte veces y aun así no se veía dónde
+  terminaba un día y empezaba el otro. Ahora la fecha se dice una vez, ocupando la fila
+  entera de la grilla —`grid-column: 1 / -1`, porque un rótulo del ancho de una columna se
+  lee como una tarjeta más—, y la tarjeta se queda con lo suyo, que es la carátula.
+
+  El rótulo lleva la clase `dia-label`, la misma del calendario, **a propósito**: así hereda
+  los estilos de `[ HOY ]`, `[ PRÓXIMO ]` y `[ YA DISPONIBLE ]` en vez de tener una copia que
+  se desincroniza. `grilla-sep` sólo agrega que ocupe la fila entera y la línea de abajo.
+
+  Los estimados van agrupados al final bajo `SIN FECHA CONFIRMADA`, con la misma etiqueta que
+  usa el calendario. Antes se mezclaban entre los confirmados con su etiqueta en chiquito, o
+  sea que la grilla hacía pasar por fecha lo que es una estimación.
+
+  **Lo que la grilla sigue sin tener**, y hay que saberlo antes de proponerla como vista por
+  omisión: la estrella de favoritos y la ficha desplegable. Las dos existen sólo en el
+  calendario, así que quien usa la grilla pierde funciones sin que nada se lo diga.
 - **Vista ★ RANKING**: selector "VISTA" arriba de los filtros; lista los juegos con puntaje
   de Metacritic ordenados de mejor a peor. Respeta los filtros de plataforma/género y el
   buscador, y tiene su propio selector de período (TODO EL CALENDARIO / ESTE MES /
