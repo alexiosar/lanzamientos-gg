@@ -2,36 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-07T18:23:53+00:00",
+ "generado": "2026-09-08T13:31:49+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-07",
- "hasta": "2026-10-07",
- "total": 87,
+ "desde": "2026-09-08",
+ "hasta": "2026-10-08",
+ "total": 97,
  "juegos": [
-  {
-   "id": "port-of-jumanah",
-   "titulo": "PORT OF JUMANAH",
-   "fecha": "2026-09-07",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "RED DUNES GAMES",
-   "descripcion": "Acción en 2.5D con estructura rogue-lite y una ambientación de mundo árabe que no se ve seguido. Se juega como Mansour, un pibe que termina metido en un viaje para salvar el mundo sin haberlo pedido. Se reclutan compañeros para el barco —hay un gato— y cada uno cambia algo de la travesía.",
-   "trailer": "https://youtube.com/embed/EcDH8eoPN5k",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2998920/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-02",
-   "url": "https://lanzamientos.lat/juegos/port-of-jumanah"
-  },
   {
    "id": "sprawl-zero",
    "titulo": "SPRAWL ZERO",
@@ -50,10 +27,19 @@
    "desarrollador": "MAETH",
    "descripcion": "Un shooter frenético que mira a los de principios de los dos mil: nada de coberturas ni de recargar tranquilo, se corre por las paredes y se dispara. Se sobrevive en una ciudad cyberpunk repartida entre los militares y el fanatismo de las sectas, con guantes de gravedad, mejoras cibernéticas y más de cuarenta armas.",
    "trailer": "https://youtube.com/embed/k3ugnU7_Ic0",
-   "metacritic": null,
+   "metacritic": 75,
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobzqw.jpg",
+   "critica": "Un 75 que sale de reseñas que dicen casi lo mismo: como carta de amor a los shooters de los dos mil está logrado, y el bucle de agarrar un arma, vaciarla y tirarla es adictivo cuando funciona. Es más lento que el SPRAWL anterior —cambia el parkour por correr sin límite, bala lenta y guantes de gravedad— y esa decisión divide. Los reparos se repiten: enemigos que cortan el ritmo del combate, decisiones de diseño raras que van apagando el impulso, y una historia y un diseño de niveles que quedan atrás del resto.",
    "alta": "2026-08-19",
-   "url": "https://lanzamientos.lat/juegos/sprawl-zero"
+   "url": "https://lanzamientos.lat/juegos/sprawl-zero",
+   "noticias": [
+    {
+     "fecha": "2026-09-08",
+     "titulo": "DEBUTA CON 75: UN SHOOTER DE LOS DE ANTES",
+     "texto": "Sale hoy en PS5, Xbox y Switch 2 la precuela de SPRAWL, y las reseñas coinciden en que MAETH sabe lo que hace: correr, agarrar un arma, vaciarla y tirarla. Es más lento que el anterior, con bala lenta y guantes de gravedad en lugar del parkour. Le señalan enemigos que frenan el combate y una historia floja."
+    }
+   ]
   },
   {
    "id": "honeycomb-the-world-beyond",
@@ -92,12 +78,21 @@
    "desarrollador": "ILLFONIC",
    "descripcion": "El juego asimétrico de IllFonic (Friday the 13th, Predator: Hunting Grounds) basado en la saga de terror: un jugador encarna a Michael Myers y el resto intenta sobrevivir a la noche de Halloween en Haddonfield.",
    "trailer": "https://youtube.com/embed/ek1ePFp-nBI",
-   "metacritic": null,
+   "metacritic": 72,
+   "metacriticUsuarios": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/69613a8c895590b9d87b5bf7945d9191.png",
+   "critica": "Un 72 con reseñas partidas, y las dos mitades hablan de lo mismo. A favor: Haddonfield está muy bien recreado, la tensión de la espera funciona y ser Michael Myers es exactamente lo que uno espera. En contra: se nota que casi todo el trabajo fue para el asesino y no para el resto del reparto, la inteligencia artificial de los vecinos falla, las partidas se hacen largas y la progresión no convence. La duda de fondo que plantean varias es si IllFonic va a sostenerlo con actualizaciones, que es donde se le cayeron los anteriores. La reseña más dura le apunta al precio y al estado técnico.",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/halloween"
+   "url": "https://lanzamientos.lat/juegos/halloween",
+   "noticias": [
+    {
+     "fecha": "2026-09-08",
+     "titulo": "DEBUTA CON 72 Y LAS RESEÑAS QUEDAN PARTIDAS",
+     "texto": "Sale hoy en PS5 y Xbox el asimétrico de IllFonic. Coinciden en que Haddonfield está bien hecho y en que ser Michael Myers cumple, pero le marcan que los sobrevivientes quedaron por detrás, que la inteligencia artificial falla y que las partidas se estiran. La pregunta que se repite es si el estudio va a sostenerlo con actualizaciones."
+    }
+   ]
   },
   {
    "id": "bus-simulator-27",
@@ -215,12 +210,22 @@
    "desarrollador": "EDMUND MCMILLEN GAMES",
    "descripcion": "Lo nuevo de Edmund McMillen, el de The Binding of Isaac y Super Meat Boy, con Tyler Glaiel. Es un roguelike táctico por turnos donde criás gatos —literalmente, con genética de por medio— para armar el escuadrón que mandás a la mazmorra. Los que sobreviven se cruzan entre sí y las camadas heredan lo bueno y lo horrible, así que cada partida arrastra a la siguiente.",
    "trailer": "https://youtube.com/embed/kNKoHJKs20A",
-   "metacritic": null,
+   "metacritic": 88,
+   "metacriticUsuarios": 8.2,
+   "metacriticVotos": 358,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686060/library_600x900.jpg",
+   "critica": "Casi sesenta reseñas y un 88 que lo pone entre lo mejor del año en su género. Las notas son de la versión de PC de febrero, después de trece años de desarrollo. Lo que repiten todas: la cantidad de contenido es desmedida —más de doscientas horas, cien jefes, mil doscientas habilidades— y la cruza de gatos no es un chiste sino el sistema que sostiene todo, porque cada camada hereda de la anterior y ninguna partida se parece a la de antes. El combate táctico por turnos se compara con Final Fantasy Tactics, y varias reseñas lo señalan como la nueva vara del roguelite táctico. Los reparos son dos y menores al lado de eso: el humor es el de McMillen de principios de los dos mil y a algunos les resulta pesado, y el ritmo se hace largo en tramos.",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-03",
-   "url": "https://lanzamientos.lat/juegos/mewgenics"
+   "url": "https://lanzamientos.lat/juegos/mewgenics",
+   "noticias": [
+    {
+     "fecha": "2026-09-08",
+     "titulo": "DEBUTA CON 88, EL MEJOR PUNTAJE DEL MES HASTA HOY",
+     "texto": "Llega a PS5, Xbox y Switch 2 el roguelike de gatos de Edmund McMillen, el de The Binding of Isaac. Estuvo trece años en desarrollo y en PC salió en febrero con 88 sobre casi sesenta reseñas. El elogio es a la escala —doscientas horas de contenido, cien jefes— y al sistema de cruza, que hace que cada camada arrastre lo que dejó la anterior."
+    }
+   ]
   },
   {
    "id": "barbarian-saga-the-beastmaster",
@@ -1057,7 +1062,6 @@
    "fecha": "2026-09-17",
    "plataformas": [
     "SWITCH",
-    "PS5",
     "XBOX"
    ],
    "genero": [
@@ -2154,6 +2158,267 @@
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/disney-epic-mickey-rebrushed"
+  },
+  {
+   "id": "clive-barkers-hellraiser-revival",
+   "titulo": "CLIVE BARKER'S HELLRAISER: REVIVAL",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION"
+   ],
+   "desarrollador": "SABER INTERACTIVE",
+   "descripcion": "Disfruta de un nuevo capítulo único de la legendaria serie de terror. Hellraiser: Revival de Clive Barker lleva el survival horror de acción en primera persona a otro nivel.",
+   "trailer": "https://youtube.com/embed/TfABHlPa-Bg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/clive-barkers-hellraiser-revival",
+   "noticias": [
+    {
+     "fecha": "2026-08-19",
+     "titulo": "SUMA VERSIÓN DE SWITCH 2 PARA EL MISMO DÍA",
+     "texto": "Saber Interactive y Boss Team Games confirmaron una edición de Switch 2 que sale junto con las de PS5 y Xbox, el 8 de octubre. Pinhead vuelve con la voz de Doug Bradley."
+    }
+   ]
+  },
+  {
+   "id": "echo-weaver",
+   "titulo": "ECHO WEAVER",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "MOONLIGHT KIDS",
+   "descripcion": "El tiempo, tu bien más preciado; los secretos, tus únicas mejoras. Domina el bucle en este Metroidvania basado en el conocimiento. Eres el último tejedor: explota las anomalías temporales y aprovecha lo aprendido para poner fin al ciclo.",
+   "trailer": "https://youtube.com/embed/rSIO3y56Dh4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184080/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/echo-weaver"
+  },
+  {
+   "id": "hell-is-us",
+   "titulo": "HELL IS US",
+   "fecha": "2026-10-08",
+   "relanzamiento": "En PS5, Xbox y PC desde septiembre de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 22 h (historia) · 34 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "ROGUE FACTOR",
+   "descripcion": "La guerra es lo más cercano al infierno en la Tierra, porque esta alberga al peor demonio: la humanidad. En un país aislado y arrasado por luchas internas, descubre los secretos de tu pasado y afronta las repercusiones de una misteriosa calamidad.",
+   "trailer": "https://youtube.com/embed/ha5N-iV1DZY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1620730/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/hell-is-us"
+  },
+  {
+   "id": "earth-defense-force-5",
+   "titulo": "EARTH DEFENSE FORCE 5",
+   "fecha": "2026-10-08",
+   "relanzamiento": "En PS4 y PC desde 2019 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 30 h (historia) · 152 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION"
+   ],
+   "desarrollador": "SANDLOT",
+   "descripcion": "Defendé a la humanidad con uñas y dientes. Este shooter arcade transcurre en un futuro cercano invadido por insectos gigantes y ejércitos alienígenas: elegí entre cuatro clases y desatá un arsenal descomunal, solo o en cooperativo.",
+   "trailer": "https://youtube.com/embed/k2iao4WSFrQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1007040/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/earth-defense-force-5"
+  },
+  {
+   "id": "the-crew-motorfest",
+   "titulo": "THE CREW MOTORFEST",
+   "fecha": "2026-10-08",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2023 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 22 h (historia) · 44 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "CARRERAS"
+   ],
+   "desarrollador": "UBISOFT IVORY TOWER",
+   "descripcion": "The Crew Motorfest es un juego de conducción de mundo abierto ambientado en la isla de O'ahu, Hawái. Experimenta lo mejor que tiene que ofrecer la cultura automovilística mientras compites en intensas carreras, experimentas eventos temáticos y coleccionas cientos de coches emblemáticos.",
+   "trailer": "https://youtube.com/embed/2S-A3z866YI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/the-crew-motorfest"
+  },
+  {
+   "id": "once-upon-a-katamari",
+   "titulo": "ONCE UPON A KATAMARI",
+   "fecha": "2026-10-08",
+   "relanzamiento": "En Switch, PS4/5, Xbox y PC desde octubre de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 7,3 h (historia) · 21 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "CASUAL"
+   ],
+   "desarrollador": "RENGAME",
+   "descripcion": "Érase una vez, un katamari que rodó por el pasado y el presente. En esta historia a través del tiempo, el dicho prevalece: ¡rueda, rueda, rueda! ¡Atraviesa nuevos mundos para adherir lo que te pida el cuerpo y restaurar las estrellas!",
+   "trailer": "https://youtube.com/embed/JQpojKTAvPY",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/d4ab910e81e69b831c517056f3731009.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/once-upon-a-katamari"
+  },
+  {
+   "id": "mamon-king",
+   "titulo": "MAMON KING",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "INDIE",
+    "RPG",
+    "SIMULACION",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "LITMUS CO., LTD.",
+   "descripcion": "Mamon King es un simulador de crianza de monstruos en el que tu objetivo es criar, entrenar y combatir con criaturas para convertirte en el rey de los demonios.",
+   "trailer": "https://youtube.com/embed/C5YjMI8--uw",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coarq4.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/mamon-king"
+  },
+  {
+   "id": "kingdom-hearts-collection",
+   "titulo": "KINGDOM HEARTS COLLECTION [I~III]",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "SWITCH2",
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "ACCION",
+    "AVENTURA",
+    "ANIME"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "La saga completa de Kingdom Hearts reunida en un solo paquete: los tres juegos principales con todo lo que fueron sumando a lo largo de los años, en consolas actuales.",
+   "trailer": "https://youtube.com/embed/qiE8hv-drXs",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocb28.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/kingdom-hearts-collection"
+  },
+  {
+   "id": "silver-pines",
+   "titulo": "SILVER PINES",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "SWITCH",
+    "XBOX"
+   ],
+   "genero": [
+    "HORROR",
+    "AVENTURA",
+    "SUPERVIVENCIA",
+    "INDIE"
+   ],
+   "desarrollador": "WYCH ELM",
+   "descripcion": "Un metroidvania de terror y supervivencia ambientado en un pueblo chico de Estados Unidos. Enfrentás horrores de pesadilla y descifrás enigmas mientras administrás con cuidado unos recursos escasos.",
+   "trailer": "https://youtube.com/embed/y_PVwrQivKE",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/silver-pines"
+  },
+  {
+   "id": "forever-ago",
+   "titulo": "FOREVER AGO",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "THIRD SHIFT",
+   "descripcion": "Después de un revés trágico del destino, Alfred agarra la ruta rumbo al norte buscando redención. Un viaje para un solo jugador.",
+   "trailer": "https://youtube.com/embed/k2Mw71MmiUA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215940/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/forever-ago"
+  },
+  {
+   "id": "order-of-the-sinking-star",
+   "titulo": "ORDER OF THE SINKING STAR",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "THEKLA",
+   "descripcion": "Lo nuevo de Jonathan Blow, el de Braid y The Witness: una aventura de puzles enorme, ambientada en un reino donde el conocimiento se perdió y hay que reconstruirlo pieza por pieza.",
+   "trailer": "https://youtube.com/embed/OIxuGF6CwnU",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc954.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-18",
+   "url": "https://lanzamientos.lat/juegos/order-of-the-sinking-star"
   }
  ]
 }

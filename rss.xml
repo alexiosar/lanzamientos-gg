@@ -6,13 +6,41 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 07 Sep 2026 18:23:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 13:31:49 +0000</lastBuildDate>
+    <item>
+      <title>SPRAWL ZERO: DEBUTA CON 75: UN SHOOTER DE LOS DE ANTES</title>
+      <link>https://lanzamientos.lat/juegos/sprawl-zero</link>
+      <guid isPermaLink="false">sprawl-zero-2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Sale hoy en PS5, Xbox y Switch 2 la precuela de SPRAWL, y las reseñas coinciden en que MAETH sabe lo que hace: correr, agarrar un arma, vaciarla y tirarla. Es más lento que el anterior, con bala lenta y guantes de gravedad en lugar del parkour. Le señalan enemigos que frenan el combate y una historia floja. — SPRAWL ZERO para PS5 / SWITCH 2 / XBOX.</description>
+    </item>
+    <item>
+      <title>HALLOWEEN: DEBUTA CON 72 Y LAS RESEÑAS QUEDAN PARTIDAS</title>
+      <link>https://lanzamientos.lat/juegos/halloween</link>
+      <guid isPermaLink="false">halloween-2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Sale hoy en PS5 y Xbox el asimétrico de IllFonic. Coinciden en que Haddonfield está bien hecho y en que ser Michael Myers cumple, pero le marcan que los sobrevivientes quedaron por detrás, que la inteligencia artificial falla y que las partidas se estiran. La pregunta que se repite es si el estudio va a sostenerlo con actualizaciones. — HALLOWEEN para XBOX / PS5.</description>
+    </item>
+    <item>
+      <title>MEWGENICS: DEBUTA CON 88, EL MEJOR PUNTAJE DEL MES HASTA HOY</title>
+      <link>https://lanzamientos.lat/juegos/mewgenics</link>
+      <guid isPermaLink="false">mewgenics-2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Llega a PS5, Xbox y Switch 2 el roguelike de gatos de Edmund McMillen, el de The Binding of Isaac. Estuvo trece años en desarrollo y en PC salió en febrero con 88 sobre casi sesenta reseñas. El elogio es a la escala —doscientas horas de contenido, cien jefes— y al sistema de cruza, que hace que cada camada arrastre lo que dejó la anterior. — MEWGENICS para PS5 / XBOX / SWITCH 2.</description>
+    </item>
     <item>
       <title>DODO DUCKIE: DEBUTA CON 81 ALTERNANDO ENTRE 2D Y 3D</title>
       <link>https://lanzamientos.lat/juegos/dodo-duckie</link>
       <guid isPermaLink="false">dodo-duckie-2026-09-07</guid>
       <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
       <description>La idea es cambiar de perspectiva entre dos y tres dimensiones, y las cuatro reseñas coinciden en que el diseño de niveles la aprovecha de verdad. Dos de las cuatro le bajan la nota por errores técnicos, no por el diseño. — DODO DUCKIE para XBOX.</description>
+    </item>
+    <item>
+      <title>ONCE HUMAN: ENTRA A GAME PASS</title>
+      <link>https://lanzamientos.lat/juegos/once-human</link>
+      <guid isPermaLink="false">once-human-2026-09-07</guid>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Xbox lo anunció en su blog: el survival de mundo compartido está en Game Pass desde ayer, con beneficios propios para los suscriptores. Es gratuito de por sí, así que lo que suma la suscripción son las ventajas de membresía, no el acceso. Tiene juego cruzado y progreso compartido entre plataformas. — ONCE HUMAN para PS5 / XBOX.</description>
     </item>
     <item>
       <title>MARSUPILAMI 2 - SALSA PALOMBIA: DEBUTA CON 79: PLATAFORMAS PROLIJO Y PARA JUGAR ACOMPAÑADO</title>
@@ -258,34 +286,6 @@
       <guid isPermaLink="false">once-human-2026-08-25</guid>
       <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
       <description>El survival de mundo compartido sale hoy en PS5 y Xbox. El 71 es el de la versión de PC de 2024, y viene de reseñas muy repartidas: elogios para las criaturas y el bucle de construir, palos para el combate y la historia. — ONCE HUMAN para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>GALLIPOLI: DEBUTA CON 80 EN UN FRENTE QUE NADIE CUENTA</title>
-      <link>https://lanzamientos.lat/juegos/gallipoli</link>
-      <guid isPermaLink="false">gallipoli-2026-08-25</guid>
-      <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
-      <description>El shooter de la Primera Guerra ambientado en Galípoli se llevó 80. Las reseñas destacan que elige el frente otomano, que casi ningún juego toca, y que apuesta a lo lento y táctico en vez de a la acción. — GALLIPOLI para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>TERRANIGMA VUELVE EN 2027, TREINTA AÑOS DESPUÉS</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">terranigma-vuelve-2027</guid>
-      <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Clear River Games, junto con Square Enix, anunció el regreso del RPG de acción de 1995. Sale en 2027 para PS5, PS4, Xbox, Switch 2, Switch y PC, así que por ahora queda fuera del alcance de este calendario. Es uno de los clásicos de Super Nintendo que nunca llegó a América, y volver a ponerlo en circulación es noticia por sí solo.</description>
-    </item>
-    <item>
-      <title>BLOODRAYNE: DEFINITIVE COLLECTION: NO SALIÓ EN JULIO: LA EDICIÓN FÍSICA LLEGA EN OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/bloodrayne-definitive-collection</link>
-      <guid isPermaLink="false">bloodrayne-definitive-collection-2026-08-24</guid>
-      <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Teníamos la fecha mal. Strictly Limited Games, que es quien la edita, dice octubre de 2026 sin día exacto. Es una edición física y limitada: no está ni en la PlayStation Store ni en la eShop, se compra en la tienda del editor, en versiones Limited y Deluxe para PS5 y Switch. — BLOODRAYNE: DEFINITIVE COLLECTION para PS5 / SWITCH.</description>
-    </item>
-    <item>
-      <title>KALANORO: SE CORRE DEL 27 DE AGOSTO AL 24 DE SEPTIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/kalanoro</link>
-      <guid isPermaLink="false">kalanoro-2026-08-24</guid>
-      <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Casi un mes de demora. La ficha de la PlayStation Store da el 24 de septiembre y el juego todavía figura como anunciado, sin reservas abiertas. — KALANORO para PS5 / XBOX / SWITCH.</description>
     </item>
   </channel>
 </rss>

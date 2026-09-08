@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">75 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('sprawl-zero')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -149,6 +155,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Un 75 que sale de reseñas que dicen casi lo mismo: como carta de amor a los shooters de los dos mil está logrado, y el bucle de agarrar un arma, vaciarla y tirarla es adictivo cuando funciona. Es más lento que el SPRAWL anterior —cambia el parkour por correr sin límite, bala lenta y guantes de gravedad— y esa decisión divide. Los reparos se repiten: enemigos que cortan el ritmo del combate, decisiones de diseño raras que van apagando el impulso, y una historia y un diseño de niveles que quedan atrás del resto.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-08</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 75: UN SHOOTER DE LOS DE ANTES</span>
+          </div>
+          <p class="noticia-texto">Sale hoy en PS5, Xbox y Switch 2 la precuela de SPRAWL, y las reseñas coinciden en que MAETH sabe lo que hace: correr, agarrar un arma, vaciarla y tirarla. Es más lento que el anterior, con bala lenta y guantes de gravedad en lugar del parkour. Le señalan enemigos que frenan el combate y una historia floja.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Un shooter frenético que mira a los de principios de los dos mil: nada de coberturas ni de recargar tranquilo, se corre por las paredes y se dispara. Se sobrevive en una ciudad cyberpunk repartida entre los militares y el fanatismo de las sectas, con guantes de gravedad, mejoras cibernéticas y más de cuarenta armas.</p>
