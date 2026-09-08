@@ -323,19 +323,38 @@ gameplay largo viven de que los compartan, así que esto es exactamente lo que p
 2. **Que sea gameplay comentado, no reseña ni reacción.** Un canal puede tener las tres cosas
    sobre el mismo juego y los títulos se parecen. Si el video es alguien opinando sobre un
    trailer, no sirve.
-3. **Español, y mejor si es un canal que ya nombramos.** Al 07/09/2026: L0k0hGaming
-   (`@l0k0hgaming`, `UCHybEMsTlz5LLR7MxOOfGjw`) es la primera opción porque sube juegos
-   enteros y en directo; Puerta al Sótano (`@Dan-PuertaAlSotano`, `UCWDq7BN8dlM-15JrrabxmTg`)
-   cubre lo de Nintendo con gameplay comentado; alexelcapo (`UCdRx6BjmUwdP7pfGIYPRHaQ`) sube
-   directos de lo grande. Caith_Sith (`UCQrWS87-KWTTEpEl7sp_KjA`) es de reacciones y no de
-   gameplay: su canal de partidas, Caith Plays, no sube nada desde septiembre de 2025.
-   Fuera de esos, cualquier canal hispano con un "Juego Completo" decente.
+3. **Español, y mejor si es un canal que ya nombramos.** Al 08/09/2026:
+
+   | Canal | Handle / id | Qué cubre |
+   |---|---|---|
+   | L0k0hGaming | `@l0k0hgaming` · `UCHybEMsTlz5LLR7MxOOfGjw` | **Primera opción siempre.** Sube juegos enteros en directo y tiene casi todo lo grande. De los 8 recomendados de agosto tenía 6. |
+   | Puerta al Sótano | `@Dan-PuertaAlSotano` · `UCWDq7BN8dlM-15JrrabxmTg` | Lo de Nintendo, con gameplay comentado |
+   | Arándana | `@Arandana` · `UCOJMH2to2lRy8S8L1RMiKKA` | Directos numerados, mucho Switch 2 y retro |
+   | Shinbu | `@ShinbuIE` · `UCXmjsTNeeBF5ZFjUmcFSDZQ` | Captain Tsubasa / Supercampeones, es su especialidad |
+   | alexelcapo | `UCdRx6BjmUwdP7pfGIYPRHaQ` | Directos de lo grande |
+
+   Caith_Sith (`UCQrWS87-KWTTEpEl7sp_KjA`) **no** sirve: es de reacciones y opinión, y su
+   canal de partidas, Caith Plays, no sube nada desde septiembre de 2025.
+
+   Fuera de esos, cualquier canal hispano con un "Juego Completo" decente — **pero mirarle la
+   descripción del canal antes.** El 08/09/2026 DarkPlayer GamingTV aparecía primero para dos
+   juegos con títulos que decían "Gameplay Español Parte 1", y su propia descripción aclara
+   "gameplays… sin comentarios mayormente". Un gameplay mudo incumple el punto 2 y el bloque
+   se llama GAMEPLAY EN ESPAÑOL justamente por la voz.
+
+   **Truco para encontrar comentados:** buscar los que YouTube marca como "Transmitido". Un
+   directo siempre tiene a alguien hablando, y además suele venir numerado, así que resuelve
+   el punto 1 al mismo tiempo.
 4. **Sólo juegos ya lanzados.** Antes del estreno no hay gameplay real, sólo demos y previews
    que después no se parecen a lo que sale.
 
 **Se cargan primero en los recomendados del mes**, que son las fichas más visitadas. Poner uno
 en los 376 juegos es trabajo manual sin vuelta: cada video hay que mirarlo para saber si es el
-que corresponde.
+que corresponde. Al 08/09/2026 hay 13: los 8 de agosto y 5 de septiembre.
+
+**Un mes cerrado se cubre entero de una sentada**, y es el mejor momento: los juegos ya
+salieron, los canales ya subieron sus series completas y no hay que volver. Agosto se hizo así
+el 08/09/2026 — seis búsquedas al canal de Loko y dos a mano para lo que no había jugado.
 
 `verificar-enlaces.py` los revisa junto con los trailers, en su propia sección. Se caen más
 seguido que los oficiales: un canal se pasa a privado, hace limpieza o le cae un strike, y el
@@ -910,10 +929,21 @@ su propia página.
 que es justo el problema que estamos peleando con la indexación. El generador lo avisa e
 ignora la copia de `anteriores`, pero la que tiene que estar bien es la fuente.
 
-**El texto cambia según el tramo, no sólo el título.** La página del mes en curso habla de
-juegos que todavía no salieron y dice que no hay nota que los ordene; la de un mes cerrado
-dice lo contrario, que las notas ya están y la lista se puede leer con ellas al lado. Es la
-misma diferencia que separa esta página del ranking, corrida un mes.
+**El párrafo de arriba se escribe a mano y nombra juegos.** Va en el campo `intro` de cada
+mes. La primera versión la armaba el generador y explicaba en qué se diferencia esta página
+del ranking del sitio: *"el ranking del sitio ya hace eso y no dice por qué… en cada caso
+decimos qué tiene y qué se le reprocha"*. El usuario la frenó el 08/09/2026 y tenía razón por
+partida doble. **Le habla al lector de nosotros cuando vino a leer de juegos**, y de paso está
+justificando la lista, que es lo que se hace cuando la lista no se sostiene sola. La de agosto
+arranca con Metal Gear Solid 4 saliendo de la PS3 después de dieciocho años. Eso es lo que
+alguien quiere leer.
+
+Vale para todo el sitio, no sólo para acá: **el texto habla de los juegos, nunca de cómo
+funciona el sitio.** Si hace falta explicar por qué una sección existe, el problema es la
+sección.
+
+Si un mes se carga sin `intro` sale una línea genérica de respaldo, para que no quede un
+hueco. Es respaldo, no la opción normal: no puede nombrar un juego.
 
 **El puntaje se muestra sólo si el juego ya salió**, en las dos. Es el mismo cuidado que
 tienen el ranking, el destacado y las páginas de mes: un port arrastra la nota del original,

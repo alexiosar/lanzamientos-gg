@@ -151,8 +151,14 @@ def estilos():
     }'''
 
 
-def pagina(mes, lista, juegos, meses, datos):
-    """Arma una página. `datos` es el objeto entero, que es quien sabe qué URL es cuál."""
+def pagina(datos_mes, juegos, meses, datos):
+    """Arma una página de un mes.
+
+    `datos_mes` es su entrada de recomendados.js —`mes`, `juegos` y opcionalmente `intro`—
+    y `datos` el objeto entero, que es quien sabe qué URL le toca a cada mes.
+    """
+    mes = datos_mes["mes"]
+    lista = datos_mes["juegos"]
     camino = ruta(mes, datos)
     pasado = camino != "/recomendados"
     anio_mes = nombre_mes(mes)
@@ -186,23 +192,22 @@ def pagina(mes, lista, juegos, meses, datos):
     if pasado:
         titulo_h1 = f"MEJORES JUEGOS DE {anio_mes}"
         descripcion = (f"Los {len(elegidos)} mejores juegos de {mes_prosa(mes)} para PS5, "
-                       "Xbox y Switch, elegidos uno por uno: puntajes, plataformas y por qué "
-                       "cada uno vale la pena.")
+                       "Xbox y Switch: puntajes, plataformas, gameplay en español y qué tiene "
+                       "cada uno.")
         title = f"Los Mejores Juegos de {anio_mes.title()} — LANZAMIENTOS.LAT"
-        intro = (f"El mes ya terminó y los puntajes están, así que esta lista se puede leer "
-                 f"con las notas al lado. No están ordenados por puntaje: el ranking del sitio "
-                 f"ya hace eso y no dice por qué. Estos {len(elegidos)} están elegidos uno por "
-                 f"uno, y en cada caso decimos qué tiene y qué se le reprocha.")
+        respaldo = (f"Los {len(elegidos)} juegos de {mes_prosa(mes)} que valieron la pena, "
+                    "con el puntaje de la crítica al lado.")
     else:
         titulo_h1 = f"RECOMENDADOS DE {anio_mes}"
         descripcion = (f"Los {len(elegidos)} juegos de {mes_prosa(mes)} que vale la pena "
-                       "mirar, elegidos uno por uno: fechas, plataformas y por qué cada uno "
-                       "está en la lista.")
+                       "mirar: fechas, plataformas y qué tiene cada uno.")
         title = f"Los Mejores Juegos de {anio_mes.title()} — Recomendados | LANZAMIENTOS.LAT"
-        intro = ("El ranking del sitio ordena por puntaje, y por eso sólo habla de juegos que "
-                 "ya salieron. Esta lista es lo contrario: son los que todavía no salieron y "
-                 "vale la pena tener en el radar. No hay nota que los ordene, así que están "
-                 "elegidos uno por uno y en cada caso decimos por qué.")
+        respaldo = (f"Los {len(elegidos)} juegos de {mes_prosa(mes)} que vale la pena tener "
+                    "en el radar.")
+    # La entrada del mes puede traer su propia `intro`, escrita a mano, y es lo que conviene:
+    # la genérica no puede nombrar un juego y el que llega quiere leer de juegos. La de
+    # respaldo existe para que un mes cargado a las apuradas no quede sin nada arriba.
+    intro = (datos_mes.get("intro") or "").strip() or respaldo
 
     cuerpo = "\n".join(tarjeta(r, j, hoy.isoformat()) for r, j in elegidos)
     sub = (f"{len(elegidos)} JUEGOS ELEGIDOS A MANO" if not pasado
@@ -278,12 +283,12 @@ def main():
     # Del más nuevo al más viejo: el que entra a una página vieja suele querer la actual.
     meses = sorted([actual] + [a["mes"] for a in anteriores], reverse=True)
 
-    nombre, n, anio_mes, vigente = pagina(actual, datos["juegos"], juegos, meses, datos)
+    nombre, n, anio_mes, vigente = pagina(datos, juegos, meses, datos)
     print(f"{nombre} generada: {n} juegos de {anio_mes}"
           + ("" if vigente else "  ⚠ SELECCIÓN VIEJA: armar la del mes en curso"))
 
     for a in sorted(anteriores, key=lambda x: x["mes"], reverse=True):
-        nombre, n, anio_mes, _ = pagina(a["mes"], a["juegos"], juegos, meses, datos)
+        nombre, n, anio_mes, _ = pagina(a, juegos, meses, datos)
         print(f"{nombre} generada: {n} juegos de {anio_mes}")
 
 

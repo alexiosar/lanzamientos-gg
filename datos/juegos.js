@@ -2338,6 +2338,11 @@ const JUEGOS = [
     desarrollador: "GAME FREAK INC.",
     descripcion: "En un Japón posapocalíptico, la última esperanza de la humanidad está en manos de Emma y Koo, su compañero peludo. Vive una intensa aventura en «Beast of Reincarnation», un RPG de acción con combates técnicos y exigentes, protagonizado por una chica y su perro. ¿Qué habrá al final del camino? El primer gran RPG de acción de Game Freak, los creadores de Pokémon.",
     trailer: "https://youtube.com/embed/3dw0ePZ8GLc",
+    gameplay: {
+      video: "https://youtube.com/embed/DLa4-nQeCa8",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 71,
     metacriticUsuarios: 6.1,
     metacriticVotos: 388,
@@ -2425,6 +2430,11 @@ const JUEGOS = [
     desarrollador: "ARC SYSTEM WORKS CO., LTD",
     descripcion: "Reúne a tu equipo de legendarios personajes Marvel en el juego de lucha 4c4 definitivo de PlayStation Studios, Arc System Works y Marvel Games.",
     trailer: "https://youtube.com/embed/cen2Lbmmo_Q",
+    gameplay: {
+      video: "https://youtube.com/embed/N7ozZLaiqD4",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 85,
     metacriticUsuarios: 8.1,
     metacriticVotos: 297,
@@ -2759,6 +2769,11 @@ const JUEGOS = [
     desarrollador: "FROGWARES",
     descripcion: "The Sinking City 2 se ambienta en los Felices años veinte en este juego de horror y supervivencia cargado de terrores lovecraftianos. Desafía a una deidad sobrenatural y explora los callejones inundados de Arkham mientras te acechan los muertos y sopesas una sola vida frente a toda una ciudad.",
     trailer: "https://youtube.com/embed/2q-pfSpS_J4",
+    gameplay: {
+      video: "https://youtube.com/embed/CRqRyYABuxw",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 78,
     metacriticUsuarios: 7.8,
     metacriticVotos: 145,
@@ -2813,6 +2828,11 @@ const JUEGOS = [
     desarrollador: "COLD SYMMETRY",
     descripcion: "Su carne es tu arma. Mortal Shell II es la secuela independiente de un RPG de acción con peleas despiadadas y llenas de adrenalina. Posee guerreros excepcionales, derroca dioses falsos y redime un mundo en destrucción.",
     trailer: "https://youtube.com/embed/KJWAUJhInH0",
+    gameplay: {
+      video: "https://youtube.com/embed/GRYCLB_KmD0",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/3d2acf82fd9669dbe940b4394bde5237.png",
     noticias: [
@@ -2993,6 +3013,11 @@ const JUEGOS = [
     desarrollador: "ASOBO STUDIO",
     descripcion: "Ponte en la piel de Sofía y vive la historia previa a la del galardonado A Plague Tale. Dirígete a la Isla del Minotauro, supera a tus enemigos, descubre antiguos secretos y enfréntate a una criatura mítica en el corazón de una terrible maldición.",
     trailer: "https://youtube.com/embed/6lCzpRkoFjw",
+    gameplay: {
+      video: "https://youtube.com/embed/j8C7gLyeMdg",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 78,
     metacriticUsuarios: 8.1,
     metacriticVotos: 467,
@@ -3023,6 +3048,11 @@ const JUEGOS = [
     desarrollador: "BIT REACTOR",
     descripcion: "Dirige un escuadrón de élite a lo largo de una auténtica y apasionante historia en STAR WARS Zero Company™, un juego táctico por turnos para un jugador ambientado en el ocaso de las Guerras Clon.",
     trailer: "https://youtube.com/embed/ksOBF-T5LrA",
+    gameplay: {
+      video: "https://youtube.com/embed/vcoHhxTk4m8",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 85,
     metacriticUsuarios: 7.9,
     metacriticVotos: 200,
@@ -3048,6 +3078,11 @@ const JUEGOS = [
     desarrollador: "KONAMI",
     descripcion: "Esta segunda entrega de la colección incluye &quot;Metal Gear Solid 4: Guns of the Patriots&quot; y &quot;Metal Gear Solid: Peace Walker (HD Collection version)&quot;, así como una banda sonora digital y &quot;Metal Gear: Ghost Babel&quot; como contenido extra.",
     trailer: "https://youtube.com/embed/a3AujdsJvjI",
+    gameplay: {
+      video: "https://youtube.com/embed/5uE2x-rrIGE",
+      canal: "Arándana",
+      canalUrl: "https://www.youtube.com/@Arandana"
+    },
     metacritic: 85,
     metacriticUsuarios: 8.8,
     metacriticVotos: 46,
@@ -3143,6 +3178,11 @@ const JUEGOS = [
     desarrollador: "TAMSOFT CORPORATION",
     descripcion: "¡Ya está aquí el nuevo capítulo de la cautivadora aventura de Tsubasa! Disfruta de una acción futbolística espectacular con 110 personajes disponibles y nuevos supermovimientos alucinantes. Desafía a amigos en el campo o apoya a Tsubasa en su viaje. ¡El balón es tu amigo!",
     trailer: "https://youtube.com/embed/S8ESe_ZsDsQ",
+    gameplay: {
+      video: "https://youtube.com/embed/npnmlTR3MT8",
+      canal: "Shinbu",
+      canalUrl: "https://www.youtube.com/@ShinbuIE"
+    },
     metacritic: 74,
     metacriticUsuarios: 6.0,
     metacriticVotos: 27,

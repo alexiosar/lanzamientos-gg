@@ -7,6 +7,11 @@
 //
 // Campos:
 //   mes         "AAAA-MM". Lo que manda: /recomendados muestra este mes y nada más.
+//   intro       el párrafo de arriba de la lista. Opcional pero conviene escribirlo, y va
+//               NOMBRANDO JUEGOS. La primera versión explicaba en qué se diferencia esta
+//               página del ranking del sitio, y eso es hablarle al lector de nosotros
+//               cuando vino a leer de juegos: si hay que justificar la lista, la lista no
+//               se sostiene sola. Sin este campo sale una línea genérica de respaldo.
 //   juegos      lista ordenada por fecha de salida, con el id de datos/juegos.js y una línea
 //               propia explicando por qué está. El texto es lo único que justifica la página:
 //               sin él es una lista de doce carátulas que ya están en el calendario.
@@ -28,6 +33,7 @@
 
 const RECOMENDADOS = {
   mes: "2026-09",
+  intro: "Marvel's Wolverine el 15, la primera Fire Emblem pensada para Switch 2 el 17, y Control y Silent Hill el mismo día a fin de mes. Septiembre trae 112 lanzamientos al calendario, y estos doce son los que valen el tiempo.",
   juegos: [
     {
       id: "moonlighter-2-the-endless-vault",
@@ -82,6 +88,7 @@ const RECOMENDADOS = {
   anteriores: [
     {
       mes: "2026-08",
+      intro: "Metal Gear Solid 4 salió de la PS3 después de dieciocho años, Arc System Works hizo un 4 contra 4 de Marvel y Game Freak se animó a un RPG de acción sin Pokémon adentro. Ocho juegos de agosto, con el puntaje de la crítica y un gameplay en español de cada uno.",
       juegos: [
         {
           id: "beast-of-reincarnation",
