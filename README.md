@@ -1593,6 +1593,22 @@ y abrir http://localhost:8080
   le faltaría `gamepass: true`. Hoy está sin distintivo y con fecha 30/09, que es la
   combinación que no cierra con ninguna de las dos lecturas.
 
+- **Anunciados sin respaldo de tienda — revisar en la semanal (chequeado el 08/09/2026).**
+  Los cinco los trajo Gematsu entre el 5 y el 8 de septiembre y **ninguno se cargó**, porque
+  ninguna tienda de consola los lista. No es que estén mal: es que todavía no aparecieron.
+  Se revisan de nuevo en cada semanal y entran en cuanto la tienda los tome.
+
+  | Juego | Lo que dice la fuente | Qué falta |
+  |---|---|---|
+  | Beyond the Dark: Nightwatch | Switch 2, 22 de octubre | No está en la eShop, ni en PS Store, ni en Xbox |
+  | Airframe Ultra | 5 de noviembre | Steam confirma el día, pero es la fecha de PC. Ninguna tienda de consola lo lista, y la página de Steam no nombra consolas |
+  | Yomawari: The Long Night Collection (PS5) | PS5, 5 de noviembre en occidente | La PS Store de AR y la de US sólo tienen la de PS4 |
+  | Yomawari: Lost in the Dark (PS5) | PS5, 5 de noviembre en occidente | Ídem |
+  | Tianji: Shadow of the Ancients | PS5, Switch 2, Switch y PC | No tiene fecha, así que no hay fila de calendario que hacer |
+
+  Los dos Yomawari, cuando entren, van con `relanzamiento`: son juegos de 2018 y 2022 que
+  nunca estuvieron en este calendario, así que alcanza una entrada por juego.
+
 - **2027 todavía no aprieta.** Al 31/08/2026 la eShop tiene **un** juego en enero de 2027 y
   ninguno en febrero ni marzo, así que el paso 9 de la mensual —estrenar el mes siguiente—
   no tiene con qué. En el calendario hay un solo juego de 2027 (Trine 6, 04/03) y no tiene
@@ -1633,7 +1649,19 @@ y abrir http://localhost:8080
   API `storesearch` se saltea) → eShop europea (`searching.nintendo-europe.com`) → ficha de
   PlayStation (`playstation.com/en-us/games/<slug>/`, de donde salen las `image.api.playstation.com`)
   → sitio de la distribuidora.
-- Trailers faltantes (2): Dungeon Antiqua y Mamon King (indies sin trailer propio en YouTube).
+- **Trailers faltantes (1), al 08/09/2026: Power Racing Bundle 4.** Es un paquete barato de
+  la eShop y SuperPowerUpGames no tiene canal de YouTube: de los bundles anteriores sólo hay
+  gameplays de terceros, ninguno oficial. Se revisa cerca del lanzamiento (25/12/2026) y si
+  sigue sin nada, se deja así. **Un trailer de otro juego de la serie no sirve**, que es la
+  tentación cuando la búsqueda devuelve "Power Racing Bundle 2".
+
+  Los otros nueve se cargaron ese día y de ahí salió el método que conviene repetir: buscar
+  por **nombre del juego + estudio**, no sólo por el nombre. Así aparece el canal del
+  desarrollador o de la editora, que es de donde tiene que salir el video — las búsquedas a
+  secas devuelven primero recopiladores tipo TrailerWorlds o Ultimate Game Database, que
+  suben el mismo trailer pero se caen cuando les llega un reclamo. Cuando el estudio no
+  subió nada, el canal oficial de PlayStation o de Xbox tiene el trailer de anuncio, que es
+  lo que resolvió Train Sim World 7.
 - Duraciones (HLTB): quedan 23 ports sin cargar, todos porque HLTB todavía no tiene tiempos
   cronometrados (indies muy chicos). Reintentar en las mensuales con el script.
   **La de GTA VI se resolvió el 01/08/2026 buscándola en el sitio oficial de Rockstar**
