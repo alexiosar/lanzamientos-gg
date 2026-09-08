@@ -575,13 +575,13 @@ const JUEGOS = [
     metacritic: 64,
     metacriticUsuarios: 5.7,
     metacriticVotos: 85,
-    critica: "Es de los peor recibidos que tenemos, y lo llamativo es que ni siquiera los fanáticos de Sword Art Online lo defienden. Las reseñas coinciden en que la idea —vivir el juego mortal desde la piel de un jugador cualquiera— es buena y en que el tono de la serie está bien capturado. Ahí se termina el acuerdo positivo: repetición, misiones sin gracia y sistemas a medio cocinar aparecen en casi todas. La frase que más se repite es que promete algo que después no llega nunca.",
+    critica: "Es de los peor recibidos del año, y lo llamativo es que ni siquiera los fanáticos de Sword Art Online lo defienden. Las reseñas coinciden en que la idea —vivir el juego mortal desde la piel de un jugador cualquiera— es buena y en que el tono de la serie está bien capturado. Ahí se termina el acuerdo positivo: repetición, misiones sin gracia y sistemas a medio cocinar aparecen en casi todas. La frase que más se repite es que promete algo que después no llega nunca.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpxh.jpg",
     noticias: [
       {
         fecha: "2026-07-09",
         titulo: "DEBUT FLOJO: 64 EN METACRITIC",
-        texto: "La adaptación de Sword Art Online divide a la crítica: es el puntaje más bajo entre los lanzamientos del mes en el calendario."
+        texto: "La adaptación de Sword Art Online divide a la crítica: 64 en Metacritic, el más bajo de los estrenos del mes."
       }
     ],
     gamepass: false,
@@ -631,7 +631,7 @@ const JUEGOS = [
       {
         fecha: "2026-07-21",
         titulo: "LA CRÍTICA NO PERDONA: 57 EN METACRITIC",
-        texto: "El regreso del clásico de béisbol de patio se quedó corto: es el puntaje más bajo del calendario, con reparos a la falta de contenido frente al original."
+        texto: "El regreso del clásico de béisbol de patio se quedó corto: uno de los puntajes más bajos del año, con reparos a la falta de contenido frente al original."
       }
     ],
     gamepass: false,
@@ -2346,7 +2346,7 @@ const JUEGOS = [
     metacritic: 71,
     metacriticUsuarios: 6.1,
     metacriticVotos: 388,
-    critica: "Es el más discutido de los que tenemos cargados y viene de Game Freak, los de Pokémon, lo que explica parte del ruido. El acuerdo está en el combate y en la relación entre Emma y Kuu, que casi todas las reseñas rescatan. El desacuerdo está en todo lo demás: para la mitad hay un mundo vacío, una historia que no arranca y problemas gráficos, y las notas más duras dicen que no es un renacimiento creativo sino un juego armado imitando a otros mejores. Los jefes se llevan los elogios más consistentes.",
+    critica: "Es de los estrenos más discutidos del año y viene de Game Freak, los de Pokémon, lo que explica parte del ruido. El acuerdo está en el combate y en la relación entre Emma y Kuu, que casi todas las reseñas rescatan. El desacuerdo está en todo lo demás: para la mitad hay un mundo vacío, una historia que no arranca y problemas gráficos, y las notas más duras dicen que no es un renacimiento creativo sino un juego armado imitando a otros mejores. Los jefes se llevan los elogios más consistentes.",
     imagen: "https://cdn2.steamgriddb.com/grid/b1f3099dbc42710895ab03cd265badac.jpg",
     noticias: [
       {
@@ -3061,7 +3061,7 @@ const JUEGOS = [
       {
         fecha: "2026-08-27",
         titulo: "DEBUTA CON 86 EN METACRITIC",
-        texto: "El debut de Bit Reactor es de lo mejor puntuado del año en el calendario. La prensa lo describe como XCOM en el universo Star Wars hecho en serio, y elogia sobre todo la historia de un escuadrón sin usuarios de la Fuerza. Los reparos que se repiten son el arranque lento y los problemas técnicos en PC."
+        texto: "El debut de Bit Reactor es de lo mejor puntuado del año. La prensa lo describe como XCOM en el universo Star Wars hecho en serio, y elogia sobre todo la historia de un escuadrón sin usuarios de la Fuerza. Los reparos que se repiten son el arranque lento y los problemas técnicos en PC."
       }
     ],
     imagen: "https://cdn2.steamgriddb.com/grid/75d8e84292296f1d00ba61471c8a7e5d.png",
@@ -3162,7 +3162,7 @@ const JUEGOS = [
       {
         fecha: "2026-08-28",
         titulo: "ELDEN RING LLEGA A SWITCH 2",
-        texto: "Cuatro años después de su estreno en PS5, PS4, Xbox y PC, Elden Ring llega hoy a Switch 2. Todavía no tiene puntaje propio de esta versión en Metacritic: cuando lo tenga va a aparecer en la ficha, porque los puntajes de un port se cargan aparte y no se heredan del original."
+        texto: "Cuatro años después de su estreno en PS5, PS4, Xbox y PC, Elden Ring llega hoy a Switch 2. Esta versión todavía no tiene puntaje propio en Metacritic."
       }
     ],
     gamepass: false,
@@ -3252,7 +3252,7 @@ const JUEGOS = [
     plataformas: ["SWITCH2"],
     genero: ["AVENTURA"],
     desarrollador: "NINTENDO",
-    descripcion: "Nuevo exclusivo de Switch 2 envuelto en misterio: \"We are one!\" es todo lo que Nintendo adelantó por ahora. Actualizaremos la ficha en cuanto haya detalles oficiales.",
+    descripcion: "Un cooperativo para dos y sólo para dos: no tiene modo de un jugador. Nintendo lo anunció con dos palabras, «We are one!», y el juego resultó ser eso mismo — dos personajes que dependen uno del otro nivel a nivel, con estética de anime de los ochenta. Las reseñas lo comparan con It Takes Two.",
     trailer: "https://youtube.com/embed/bvMDXtgz1bo",
     gameplay: {
       video: "https://youtube.com/embed/eP0PgqoydiU",
@@ -3710,17 +3710,22 @@ const JUEGOS = [
     titulo: "THE LEGEND OF ZELDA: OCARINA OF TIME",
     relanzamiento: "El original de Nintendo 64 es de 1998 — esta es la edición de Switch 2",
     duracion: "≈ 27 h (historia) · 37 h (completo)",
-    fecha: "2026-12-31",
-    estimado: true,
-    fechaEstimada: "CUARTO TRIMESTRE 2026",
+    fecha: "2026-11-05",
     plataformas: ["SWITCH2"],
     genero: ["AVENTURA", "ACCION", "RPG", "RETRO"],
     desarrollador: "NINTENDO",
-    descripcion: "La edición de Switch 2 del Zelda de Nintendo 64, el que definió cómo se juega una aventura en tres dimensiones. Tiene ficha propia en la eShop, así que es un lanzamiento y no una incorporación al catálogo de Nintendo Switch Online.",
-    trailer: "https://youtube.com/embed/r8eMoxo4ipE",
+    descripcion: "El Zelda de Nintendo 64 rehecho para Switch 2: el que definió cómo se juega una aventura en tres dimensiones, ahora con gráficos y banda sonora nuevos. Link cruza dos épocas de Hyrule buscando la Trifuerza, entre templos llenos de puzles y jefes. La edición suma diálogos que antes no estaban, cinemáticas dobladas al español, una habilidad para correr y una cronología para repasar por dónde va la historia.",
+    trailer: "https://youtube.com/embed/4xtmm2H0W_0",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
-    alta: "2026-08-25"
+    alta: "2026-08-25",
+    noticias: [
+      {
+        fecha: "2026-09-08",
+        titulo: "YA TIENE FECHA: 5 DE NOVIEMBRE",
+        texto: "Nintendo lo confirmó en el Direct por los 40 años de la saga, donde Eiji Aonuma lo mostró jugado durante un cuarto de hora. Es un remake, no un port: gráficos y banda sonora rehechos, cinemáticas dobladas al español, diálogos nuevos y una habilidad para correr. Se estrena junto a una Switch 2 con diseño de la edición 40.º aniversario."
+      }
+    ]
   },
   {
     id: "lords-of-the-fallen-ii",
@@ -3893,7 +3898,7 @@ const JUEGOS = [
       {
         fecha: "2026-08-24",
         titulo: "ES EXCLUSIVO DE PS5 POR AL MENOS SEIS MESES",
-        texto: "La versión de consola sale sólo en PS5 el 24 de septiembre y la exclusividad dura como mínimo medio año, así que la de Xbox no tiene fecha. La tienda de Xbox no lo lista, y en la de PlayStation ya se puede reservar a 49,99 dólares, con una edición Deluxe a 59,99. Cuando se anuncie la de Xbox va a tener su propia entrada en el calendario."
+        texto: "La versión de consola sale sólo en PS5 el 24 de septiembre y la exclusividad dura como mínimo medio año, así que la de Xbox no tiene fecha. La tienda de Xbox no lo lista, y en la de PlayStation ya se puede reservar a 49,99 dólares, con una edición Deluxe a 59,99."
       }
     ]
   },
@@ -6491,7 +6496,7 @@ const JUEGOS = [
     metacriticUsuarios: 4.5,
     metacriticVotos: 16,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/573660/library_600x900.jpg",
-    critica: "El puntaje es el del original de 2017 y no fue bueno entonces ni lo es ahora. Lo único que se rescata parejo es lo artístico: el mundo construido sobre instrumentos musicales y, sobre todo, la banda sonora. De ahí en más los reparos se repiten en todas las reseñas — es un dungeon crawler simple y repetitivo, sin progresión que enganche, con decisiones de diseño flojas y una cantidad de errores que varios medios señalan como el problema principal. Está en el calendario porque llega a consolas nuevas, no porque haya cambiado.",
+    critica: "El puntaje es el del original de 2017 y no fue bueno entonces ni lo es ahora. Lo único que se rescata parejo es lo artístico: el mundo construido sobre instrumentos musicales y, sobre todo, la banda sonora. De ahí en más los reparos se repiten en todas las reseñas — es un dungeon crawler simple y repetitivo, sin progresión que enganche, con decisiones de diseño flojas y una cantidad de errores que varios medios señalan como el problema principal. Es el mismo juego de 2017 llegando a consolas nuevas, sin nada retocado.",
     noticias: [
       {
         fecha: "2026-09-03",
@@ -7125,7 +7130,7 @@ const JUEGOS = [
       {
         fecha: "2026-08-13",
         titulo: "76 DE LA PRENSA Y 5,1 DE LOS JUGADORES",
-        texto: "El contraste es de los más grandes del calendario: la prensa lo aprueba con 76 y los jugadores lo dejan en 5,1 sobre 33 votos. Los medios coinciden en que el modo Franquicia por fin es el que se venía pidiendo hace años y en que el juego en cancha mejoró, pero también en que arrastra errores y fallas de lógica. Del lado de los jugadores el reproche de siempre: pocos cambios de un año al otro."
+        texto: "El contraste entre prensa y jugadores es de los más grandes del año: los medios lo aprueban con 76 y los jugadores lo dejan en 5,1 sobre 33 votos. Los medios coinciden en que el modo Franquicia por fin es el que se venía pidiendo hace años y en que el juego en cancha mejoró, pero también en que arrastra errores y fallas de lógica. Del lado de los jugadores el reproche de siempre: pocos cambios de un año al otro."
       }
     ],
     gamepass: false,
@@ -7217,7 +7222,7 @@ const JUEGOS = [
       {
         fecha: "2026-09-04",
         titulo: "EL ESTUDIO ANUNCIÓ EL 21 DE SEPTIEMBRE",
-        texto: "Liquid Swords puso fecha: 21 de septiembre en PS5 y Xbox. En el calendario sigue como estimado de septiembre a propósito — ni la PlayStation Store ni la de Xbox lo listan todavía con ese día, y acá las fechas se cambian cuando las confirma la tienda. Se corrige en cuanto aparezca."
+        texto: "Liquid Swords puso fecha: 21 de septiembre en PS5 y Xbox. Por ahora lo dice sólo el estudio — ni la PlayStation Store ni la de Xbox lo listan todavía con ese día."
       }
     ],
     gamepass: false,
@@ -7244,7 +7249,7 @@ const JUEGOS = [
       {
         fecha: "2026-08-19",
         titulo: "YA SE PUEDE JUGAR EN ACCESO ANTICIPADO CON GAME PASS",
-        texto: "Desde hoy está disponible en Xbox como Game Preview, incluido en Game Pass Ultimate, a 14,99 dólares para el que lo quiera comprar. La fecha del calendario es la de la versión terminada, que todavía no tiene día confirmado."
+        texto: "Desde hoy está disponible en Xbox como Game Preview, incluido en Game Pass Ultimate, a 14,99 dólares para el que lo quiera comprar. La versión terminada todavía no tiene día confirmado."
       }
     ]
   },

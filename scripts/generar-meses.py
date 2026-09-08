@@ -111,11 +111,12 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
     descripcion = (f"Todos los juegos que {verbo} en {nombre.lower()} de {y} para PS5, PS4, Xbox, "
                    f"Switch 2 y Switch: {total} lanzamientos con fecha, plataformas y puntajes.")
 
-    # En el mes más viejo del calendario se aclara hasta dónde llega. Es el borde: quien
-    # llega ahí y no ve enlace a un mes anterior no sabe si faltan juegos o si no salieron.
-    aviso_alcance = ('    <p class="alcance">Este es el mes más viejo del calendario: el sitio '
-                     'se armó en <strong>junio de 2026</strong> y lo anterior todavía no está '
-                     'cargado.</p>') if primero else ""
+    # En el mes más viejo se aclara hasta dónde llega. Es el borde: quien llega ahí y no ve
+    # enlace a un mes anterior no sabe si faltan juegos o si no salieron.
+    # Dice el dato y nada más. Antes contaba cuándo se armó el sitio y que "todavía no está
+    # cargado", que es hablarle al lector de nosotros cuando vino a mirar juegos.
+    aviso_alcance = ('    <p class="alcance">Los lanzamientos anteriores a <strong>junio de '
+                     '2026</strong> no están listados.</p>') if primero else ""
 
     # Enlace a la selección de ese mes, si existe. Es el enlace interno que más importa de
     # esta página: las dos hablan del mismo mes y la lista elegida a mano es lo que un

@@ -45,7 +45,7 @@ const RECOMENDADOS = {
     },
     {
       id: "orbitals",
-      texto: "Entró a esta lista cuando Nintendo lo había anunciado con dos palabras —«We are one!»— y nada más. Salió el 3 de septiembre con 82 y ahora se entiende la frase: es un cooperativo para DOS, sin modo individual, con un diseño de niveles que las reseñas comparan con It Takes Two. Si tenés con quién jugarlo, era la apuesta buena del mes; si no, no es para vos."
+      texto: "Nintendo lo anunció con dos palabras —«We are one!»— y nada más. Salió el 3 de septiembre con 82 y ahora se entiende la frase: es un cooperativo para DOS, sin modo individual, con un diseño de niveles que las reseñas comparan con It Takes Two. Si tenés con quién jugarlo, es la apuesta buena del mes; si no, no es para vos."
     },
     {
       id: "marsupilami-2-salsa-palombia",
@@ -104,7 +104,7 @@ const RECOMENDADOS = {
         },
         {
           id: "mortal-shell-2",
-          texto: "La secuela del soulslike de Cold Symmetry, el estudio chico que en 2020 se metió a competirle a From Software y salió bien parado. Vuelve la idea que lo hacía distinto: no tenés un personaje, poseés cuerpos ajenos y cada uno pelea diferente. Es el único de esta lista sin nota de Metacritic, así que acá no hay consenso de prensa que valga: está por lo que era el primero."
+          texto: "La secuela del soulslike de Cold Symmetry, el estudio chico que en 2020 se metió a competirle a From Software y salió bien parado. Vuelve la idea que lo hacía distinto: no tenés un personaje, poseés cuerpos ajenos y cada uno pelea diferente. Salió sin reseñas suficientes para tener nota de Metacritic, así que de este todavía no hay veredicto de la prensa."
         },
         {
           id: "resonance-a-plague-tale-legacy",

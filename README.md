@@ -942,6 +942,25 @@ Vale para todo el sitio, no sólo para acá: **el texto habla de los juegos, nun
 funciona el sitio.** Si hace falta explicar por qué una sección existe, el problema es la
 sección.
 
+**El barrido del 08/09/2026.** Se revisaron todos los textos que lee un visitante y salieron
+quince. La forma más común era colgarle al dato una frase sobre el calendario, que además lo
+debilita: *"es el puntaje más bajo del calendario"* dice menos que *"uno de los puntajes más
+bajos del año"*, porque el primero sólo compara contra lo que nosotros cargamos. Otras eran
+puro mecanismo — *"va a aparecer en la ficha, porque los puntajes de un port se cargan
+aparte"*, *"acá las fechas se cambian cuando las confirma la tienda"*, *"actualizaremos la
+ficha en cuanto haya detalles"* — y ninguna sobrevive a la pregunta de qué le aporta al que
+está mirando ese juego. También caían ahí *"nuestra lista"*, *"los que tenemos cargados"* y
+*"queda fuera del alcance de este calendario"*, que se dice mejor con la fecha: *"sale en
+2027"*.
+
+**Qué NO se toca.** La ayuda de una pantalla vacía, el 404, el pie de /noticias y las páginas
+que tratan del sitio (`/acerca`, `/api`, `/widget`, `/privacidad`, `/terminos`) hablan del
+sitio porque ese es su tema o su función. La regla es para el contenido editorial: fichas,
+noticias, recomendados, avisos del calendario.
+
+**Y las descripciones oficiales de las tiendas se dejan como están.** Varias tienen "nuestro
+héroe" o "acá" en su propio texto y no son autorreferencias nuestras: son de la editora.
+
 Si un mes se carga sin `intro` sale una línea genérica de respaldo, para que no quede un
 hueco. Es respaldo, no la opción normal: no puede nombrar un juego.
 

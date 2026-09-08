@@ -212,7 +212,7 @@ def generar(items, juegos):
     <div class="noticias">
 {cuerpo}
       <p class="noticias-pie">Se muestran las {len(visibles)} novedades más recientes de {len(items)}.
-        Las anteriores siguen en la ficha de cada juego.<br>
+        Las anteriores están en la página de cada juego.<br>
         También salen por <a href="/rss.xml">RSS</a>.</p>
     </div>
   </main>
