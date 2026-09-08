@@ -28,6 +28,9 @@
     .mes-nav a      { color: var(--gris-5); }
     .mes-nav a:hover { color: var(--acento); }
     .mes-nav-vacio  { flex: 1; }
+    /* Es un <a> con pinta de botón: hay que apagarle el subrayado de la regla global. */
+    .mes-rec        { margin: -0.75rem 0 1.5rem; }
+    .mes-rec a      { text-decoration: none; display: inline-block; }
   </style>
 </head>
 <body>
@@ -54,6 +57,7 @@
     <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
     <h1 class="pagina-titulo">JUEGOS QUE SALEN EN SEPTIEMBRE DE 2026</h1>
     <p class="pagina-sub">112 JUEGOS · EL MEJOR PUNTUADO ES ANGELINE ERA CON 88</p>
+    <p class="mes-rec"><a class="filtro-btn" href="/recomendados">★ RECOMENDADOS DE SEPTIEMBRE 2026 — ELEGIDOS A MANO</a></p>
 
 
     <div class="mes-lista">

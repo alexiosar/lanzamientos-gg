@@ -59,6 +59,43 @@ def leer_noticias_propias():
     return json.loads(cuerpo)
 
 
+MESES_ES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO",
+            "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"]
+
+
+def leer_recomendados():
+    """El objeto RECOMENDADOS de datos/recomendados.js, ya como diccionario.
+
+    Trae `mes` y `juegos` (la selección en curso) y `anteriores`, la lista de meses ya
+    cerrados con la misma forma. Lo leen dos generadores: el de las páginas de recomendados
+    y el de las páginas de mes, que enlaza a la selección del mes que está mostrando.
+
+    Se ancla en `const RECOMENDADOS` y no en el primer `=`, igual que cargar_juegos(): así
+    un `=` dentro de un comentario de cabecera no la confunde.
+    """
+    archivo = RAIZ / "datos" / "recomendados.js"
+    if not archivo.exists():
+        return {"mes": None, "juegos": [], "anteriores": []}
+    src = archivo.read_text(encoding="utf-8")
+    inicio = src.index("{", src.index("const RECOMENDADOS"))
+    cuerpo = src[inicio:src.rindex("}") + 1]
+    return json.loads(re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M))
+
+
+def ruta_recomendados(mes_key, datos=None):
+    """La URL de la selección de ese mes, o None si ese mes no tiene lista.
+
+    El mes en curso vive en /recomendados y los cerrados en /mejores-juegos-agosto-2026.
+    Las dos formas se arman acá para que no haya dos lugares que sepan cómo se llama la URL.
+    """
+    datos = datos if datos is not None else leer_recomendados()
+    if mes_key == datos.get("mes"):
+        return "/recomendados"
+    if any(a["mes"] == mes_key for a in (datos.get("anteriores") or [])):
+        return f"/mejores-juegos-{MESES_ES[int(mes_key[5:7]) - 1].lower()}-{mes_key[:4]}"
+    return None
+
+
 PLATS = {"PS5": "PS5", "PS4": "PS4", "XBOX": "Xbox", "SWITCH2": "Switch 2", "SWITCH": "Switch"}
 # Palabras que no se capitalizan en medio de un título
 MINUSCULAS = {"of", "the", "and", "in", "on", "a", "an", "to", "for", "from", "at", "by",

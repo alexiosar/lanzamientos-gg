@@ -28,7 +28,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import cargar_juegos
+from comun import cargar_juegos, ruta_recomendados
 
 import plantilla
 
@@ -117,6 +117,15 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
                      'se armó en <strong>junio de 2026</strong> y lo anterior todavía no está '
                      'cargado.</p>') if primero else ""
 
+    # Enlace a la selección de ese mes, si existe. Es el enlace interno que más importa de
+    # esta página: las dos hablan del mismo mes y la lista elegida a mano es lo que un
+    # listado de 64 juegos por fecha no puede dar. Sin esto, /mejores-juegos-agosto-2026
+    # cuelga sólo del sitemap, que es la forma más débil de que Google descubra una página.
+    rec = ruta_recomendados(mes_key)
+    enlace_rec = (f'    <p class="mes-rec"><a class="filtro-btn" href="{rec}">★ '
+                  f'{"LOS MEJORES DE" if pasado else "RECOMENDADOS DE"} {nombre} {y} '
+                  '— ELEGIDOS A MANO</a></p>') if rec else ""
+
     def enlace_mes(mk, texto):
         return f'<a href="/{slug(mk)}">{texto}</a>' if mk else '<span class="mes-nav-vacio"></span>'
 
@@ -153,6 +162,9 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
     .mes-nav a      {{ color: var(--gris-5); }}
     .mes-nav a:hover {{ color: var(--acento); }}
     .mes-nav-vacio  {{ flex: 1; }}
+    /* Es un <a> con pinta de botón: hay que apagarle el subrayado de la regla global. */
+    .mes-rec        {{ margin: -0.75rem 0 1.5rem; }}
+    .mes-rec a      {{ text-decoration: none; display: inline-block; }}
   </style>
 </head>
 <body>
@@ -163,6 +175,7 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
     <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
     <h1 class="pagina-titulo">JUEGOS QUE {verbo.upper()} EN {nombre} DE {y}</h1>
     <p class="pagina-sub">{e(resumen.upper())}</p>
+{enlace_rec}
 {aviso_alcance}
 
     <div class="mes-lista">

@@ -93,7 +93,12 @@ urls.append(url("/noticias", noticias.read_text(encoding="utf-8") if noticias.ex
 
 # Una página por mes. Cambian con el calendario, así que su huella es su propio HTML.
 # Prioridad de contenido: "juegos que salen en septiembre" es lo que se busca.
+# Las de recomendados de meses pasados (mejores-juegos-agosto-2026.html) también terminan
+# en "-2026", así que caen en este glob y hay que sacarlas: no cambian con el calendario
+# ni cada semana, son una selección escrita a mano que se congela cuando el mes termina.
 for archivo in sorted(RAIZ.glob("*-20??.html")):
+    if archivo.name.startswith("mejores-juegos-"):
+        continue
     urls.append(url(f"/{archivo.stem}", archivo.read_text(encoding="utf-8"), "weekly", "0.8"))
 
 # recomendados cambia una vez por mes, pero es contenido editorial y no una página fija
@@ -102,6 +107,12 @@ recomendados = RAIZ / "recomendados.html"
 urls.append(url("/recomendados",
                 recomendados.read_text(encoding="utf-8") if recomendados.exists() else "recomendados",
                 "monthly", "0.8"))
+
+# Los recomendados de meses ya cerrados. El texto está escrito y no se vuelve a tocar, pero
+# los datos duros salen de juegos.js, así que un puntaje nuevo todavía las cambia: "yearly"
+# mentiría. Van con la misma prioridad que /recomendados porque son el mismo contenido.
+for archivo in sorted(RAIZ.glob("mejores-juegos-*.html")):
+    urls.append(url(f"/{archivo.stem}", archivo.read_text(encoding="utf-8"), "monthly", "0.8"))
 
 for pagina in ["acerca", "api", "widget", "privacidad", "terminos", "archivo"]:
     archivo = RAIZ / f"{pagina}.html"

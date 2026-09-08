@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Los 12 juegos de septiembre 2026 que vale la pena mirar, elegidos uno por uno: fechas, plataformas y por qué cada uno está en la lista.">
+  <meta name="description" content="Los 12 juegos de septiembre de 2026 que vale la pena mirar, elegidos uno por uno: fechas, plataformas y por qué cada uno está en la lista.">
   <title>Los Mejores Juegos de Septiembre 2026 — Recomendados | LANZAMIENTOS.LAT</title>
   <link rel="canonical" href="https://lanzamientos.lat/recomendados">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -13,7 +13,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="Los mejores juegos de Septiembre 2026 — LANZAMIENTOS.LAT">
-  <meta property="og:description" content="Los 12 juegos de septiembre 2026 que vale la pena mirar, elegidos uno por uno: fechas, plataformas y por qué cada uno está en la lista.">
+  <meta property="og:description" content="Los 12 juegos de septiembre de 2026 que vale la pena mirar, elegidos uno por uno: fechas, plataformas y por qué cada uno está en la lista.">
   <meta property="og:url" content="https://lanzamientos.lat/recomendados">
   <meta property="og:image" content="https://lanzamientos.lat/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -21,6 +21,9 @@
   <style>
     .pagina-titulo   { font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }
     .pagina-sub      { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .rec-meses       { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.9rem 0 1.5rem; }
+    /* Es un <a>, así que hay que apagarle el subrayado que trae de la regla global. */
+    .rec-meses .filtro-btn { text-decoration: none; display: inline-block; }
     .rec-intro       { font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; max-width: 720px; margin-bottom: 2rem; }
     .rec-aviso       { font-size: 0.75rem; color: var(--amarillo); letter-spacing: 1px; margin-bottom: 1.5rem; }
     .recomendados    { max-width: 720px; }
@@ -36,6 +39,7 @@
                        border: 1px solid var(--gris-3); background: var(--gris-1); display: block; }
     .rec-cuerpo      { min-width: 0; flex: 1; }
     .rec-fecha       { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 0.35rem; }
+    .rec-meta        { border: 1px solid currentColor; padding: 0 5px; margin-left: 0.6rem; letter-spacing: 0; }
     .rec-titulo      { font-size: 0.9375rem; color: var(--blanco); letter-spacing: 1px;
                        font-weight: 700; line-height: 1.5; margin-bottom: 0.5rem; }
     .rec-texto       { font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; margin-top: 0.6rem; }
@@ -67,18 +71,19 @@
 
   <main class="contenedor">
     <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
+    <nav class="rec-meses" aria-label="Recomendados por mes">
+        <a class="filtro-btn activo" href="/recomendados">SEPTIEMBRE 2026</a>
+        <a class="filtro-btn" href="/mejores-juegos-agosto-2026">AGOSTO 2026</a>
+    </nav>
     <h1 class="pagina-titulo">RECOMENDADOS DE SEPTIEMBRE 2026</h1>
     <p class="pagina-sub">12 JUEGOS ELEGIDOS A MANO</p>
-    <p class="rec-intro">El ranking del sitio ordena por puntaje, y por eso sólo habla de
-      juegos que ya salieron. Esta lista es lo contrario: son los que todavía no salieron y
-      vale la pena tener en el radar. No hay nota que los ordene, así que están elegidos uno
-      por uno y en cada caso decimos por qué.</p>
+    <p class="rec-intro">El ranking del sitio ordena por puntaje, y por eso sólo habla de juegos que ya salieron. Esta lista es lo contrario: son los que todavía no salieron y vale la pena tener en el radar. No hay nota que los ordene, así que están elegidos uno por uno y en cada caso decimos por qué.</p>
 
     <div class="recomendados">
       <a class="rec" href="/juegos/moonlighter-2-the-endless-vault">
         <img class="rec-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/library_600x900.jpg" alt="Carátula de MOONLIGHTER 2: THE ENDLESS VAULT" loading="lazy" decoding="async">
         <div class="rec-cuerpo">
-          <div class="rec-fecha">2 DE SEPTIEMBRE</div>
+          <div class="rec-fecha">2 DE SEPTIEMBRE<span class="rec-meta meta-alto">80</span></div>
           <h2 class="rec-titulo">MOONLIGHTER 2: THE ENDLESS VAULT</h2>
           <div class="plataformas"><span class="plat plat-ps5">PS5</span> <span class="plat plat-xbox">Xbox</span> <span class="plat plat-switch2">Switch 2</span></div>
           <p class="rec-texto">El primero se ganó su público con una idea que nadie más estaba haciendo: de día atendés tu tienda y ponés los precios, de noche bajás a la mazmorra a buscar qué vender. La secuela mantiene el doble turno y agranda todo lo demás.</p>
@@ -87,7 +92,7 @@
       <a class="rec" href="/juegos/the-blood-of-dawnwalker">
         <img class="rec-portada" src="https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png" alt="Carátula de THE BLOOD OF DAWNWALKER" loading="lazy" decoding="async">
         <div class="rec-cuerpo">
-          <div class="rec-fecha">3 DE SEPTIEMBRE</div>
+          <div class="rec-fecha">3 DE SEPTIEMBRE<span class="rec-meta meta-alto">83</span></div>
           <h2 class="rec-titulo">THE BLOOD OF DAWNWALKER</h2>
           <div class="plataformas"><span class="plat plat-xbox">Xbox</span> <span class="plat plat-ps5">PS5</span></div>
           <p class="rec-texto">El debut de Rebel Wolves, el estudio que armaron varios de los que hicieron The Witcher 3. Sos Coen, humano de día y vampiro de noche, en la Europa del siglo XIV: el reloj no es decorativo, cambia lo que podés hacer.</p>
@@ -96,7 +101,7 @@
       <a class="rec" href="/juegos/orbitals">
         <img class="rec-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc9r6.jpg" alt="Carátula de ORBITALS" loading="lazy" decoding="async">
         <div class="rec-cuerpo">
-          <div class="rec-fecha">3 DE SEPTIEMBRE</div>
+          <div class="rec-fecha">3 DE SEPTIEMBRE<span class="rec-meta meta-alto">82</span></div>
           <h2 class="rec-titulo">ORBITALS</h2>
           <div class="plataformas"><span class="plat plat-switch2">Switch 2</span></div>
           <p class="rec-texto">Entró a esta lista cuando Nintendo lo había anunciado con dos palabras —«We are one!»— y nada más. Salió el 3 de septiembre con 82 y ahora se entiende la frase: es un cooperativo para DOS, sin modo individual, con un diseño de niveles que las reseñas comparan con It Takes Two. Si tenés con quién jugarlo, era la apuesta buena del mes; si no, no es para vos.</p>
@@ -105,7 +110,7 @@
       <a class="rec" href="/juegos/marsupilami-2-salsa-palombia">
         <img class="rec-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6vp.jpg" alt="Carátula de MARSUPILAMI 2 - SALSA PALOMBIA" loading="lazy" decoding="async">
         <div class="rec-cuerpo">
-          <div class="rec-fecha">3 DE SEPTIEMBRE</div>
+          <div class="rec-fecha">3 DE SEPTIEMBRE<span class="rec-meta meta-alto">79</span></div>
           <h2 class="rec-titulo">MARSUPILAMI 2 - SALSA PALOMBIA</h2>
           <div class="plataformas"><span class="plat plat-ps5">PS5</span> <span class="plat plat-xbox">Xbox</span> <span class="plat plat-switch">Switch</span></div>
           <p class="rec-texto">Plataformas clásico y sin vueltas, de los que ya casi no se hacen para consola. El primero sorprendió por lo prolijo, y este mes es de los pocos que se puede jugar con chicos al lado.</p>
@@ -114,7 +119,7 @@
       <a class="rec" href="/juegos/onimusha-way-of-the-sword">
         <img class="rec-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg" alt="Carátula de ONIMUSHA: WAY OF THE SWORD" loading="lazy" decoding="async">
         <div class="rec-cuerpo">
-          <div class="rec-fecha">4 DE SEPTIEMBRE</div>
+          <div class="rec-fecha">4 DE SEPTIEMBRE<span class="rec-meta meta-alto">85</span></div>
           <h2 class="rec-titulo">ONIMUSHA: WAY OF THE SWORD</h2>
           <div class="plataformas"><span class="plat plat-switch2">Switch 2</span> <span class="plat plat-ps5">PS5</span> <span class="plat plat-xbox">Xbox</span></div>
           <p class="rec-texto">Capcom vuelve a Onimusha veinte años después. Un samurái con el guantelete Oni en el Kioto de los Genma, con la misma receta de combate cuerpo a cuerpo pesado que hizo grande a la saga en PS2.</p>

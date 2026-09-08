@@ -37,6 +37,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 - [Funcionalidades](#funcionalidades)
   - [Una página por mes (`/septiembre-2026`, desde el 01/09/2026)](#una-página-por-mes-septiembre-2026-desde-el-01092026)
   - [Recomendados del mes (`/recomendados`, desde el 31/08/2026)](#recomendados-del-mes-recomendados-desde-el-31082026)
+  - [Los meses pasados tienen su página (`/mejores-juegos-agosto-2026`, desde el 08/09/2026)](#los-meses-pasados-tienen-su-página-mejores-juegos-agosto-2026-desde-el-08092026)
   - [Mis juegos (`/mis-juegos`, desde el 02/09/2026)](#mis-juegos-mis-juegos-desde-el-02092026)
 - [Difusión: RSS y datos abiertos](#difusión-rss-y-datos-abiertos)
 - [SEO y redes](#seo-y-redes)
@@ -83,9 +84,10 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/cargar-meta-trailers.py  Fecha de subida de cada trailer (para el marcado de video)
 ├── datos/trailers-meta.json    Caché de esas fechas. **Commitearla**: si se pierde hay que
 │                               volver a bajar ~1 MB por trailer
-├── scripts/comun.py           Lo que comparten varios scripts: leer juegos.js y noticias.js,
-│                               y pasar títulos de MAYÚSCULAS a minúsculas respetando siglas
-│                               y números romanos. **cargar_juegos() se importa de acá**
+├── scripts/comun.py           Lo que comparten varios scripts: leer juegos.js, noticias.js y
+│                               recomendados.js, saber qué URL le toca a la selección de cada
+│                               mes, y pasar títulos de MAYÚSCULAS a minúsculas respetando
+│                               siglas y números romanos. **cargar_juegos() se importa de acá**
 ├── scripts/plantilla.py        Cabecera, menú, pie y script de tema de los 5 generadores.
 │                               **Al tocar el menú va acá**, y también en las 9 páginas
 │                               sueltas, que siguen con su copia a mano
@@ -95,8 +97,10 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/verificar-duplicados.py  Juegos cargados dos veces con id distinto
 ├── scripts/verificar-estimados.py  Fechas estimadas vencidas (corre en la diaria)
 ├── scripts/verificar-favoritos.py  Que la estrella siga enchufada (corre en la diaria)
-├── datos/recomendados.js       La selección del mes, elegida a mano
-├── scripts/generar-recomendados.py  Genera recomendados.html
+├── datos/recomendados.js       La selección del mes, elegida a mano, más los meses cerrados
+│                               en `anteriores`
+├── scripts/generar-recomendados.py  Genera recomendados.html y una
+│                               mejores-juegos-{mes}-{año}.html por cada mes ya cerrado
 ├── scripts/generar-meses.py    Genera una página por mes (/septiembre-2026…)
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
@@ -884,6 +888,53 @@ mensual. Dos avisos que imprime el generador y conviene mirar:
 - si la selección quedó vieja, la página lo dice en vez de hacerla pasar por actual.
   Adelantarse **no** es un problema: a fin de agosto la de septiembre ya tiene que estar.
 
+### Los meses pasados tienen su página (`/mejores-juegos-agosto-2026`, desde el 08/09/2026)
+
+Hasta el 08/09/2026 los meses viejos se dejaban **comentados** dentro de
+`datos/recomendados.js`, "así queda registro". Registro sin página es lo mismo que nada: la
+selección de agosto era trabajo ya hecho que no leía nadie. Y no envejece como parece —
+cuando el mes terminó los puntajes están, así que **la misma lista dice más que el día que
+se escribió**. Además contesta una búsqueda que existe doce veces por año, *"mejores juegos
+de agosto de 2026"*, y el sitio no tenía dónde recibirla.
+
+**Cómo se cargan.** En `datos/recomendados.js`, al lado de `mes` y `juegos`, va `anteriores`:
+una lista de `{ mes, juegos }` con exactamente la misma forma. Cada entrada se convierte en
+su propia página.
+
+| | URL | Archivo |
+|---|---|---|
+| Mes en curso (`mes`) | `/recomendados` | `recomendados.html` |
+| Meses cerrados (`anteriores`) | `/mejores-juegos-agosto-2026` | `mejores-juegos-agosto-2026.html` |
+
+**Un mes no va en `mes` y en `anteriores` a la vez.** Serían dos URLs con el mismo contenido,
+que es justo el problema que estamos peleando con la indexación. El generador lo avisa e
+ignora la copia de `anteriores`, pero la que tiene que estar bien es la fuente.
+
+**El texto cambia según el tramo, no sólo el título.** La página del mes en curso habla de
+juegos que todavía no salieron y dice que no hay nota que los ordene; la de un mes cerrado
+dice lo contrario, que las notas ya están y la lista se puede leer con ellas al lado. Es la
+misma diferencia que separa esta página del ranking, corrida un mes.
+
+**El puntaje se muestra sólo si el juego ya salió**, en las dos. Es el mismo cuidado que
+tienen el ranking, el destacado y las páginas de mes: un port arrastra la nota del original,
+así que sin ese filtro `/recomendados` mostraría The Witcher 3 en Switch 2 con su 92 de 2015
+tres semanas antes de que salga. Eso no es un puntaje, es un espejismo.
+
+**Los botones de mes son lo que hace que existan de verdad.** Van arriba de todo, abajo del
+"volver al calendario", con el mismo cuadrado que los filtros de la portada, y están en las
+dos páginas. Sin ellos `/mejores-juegos-agosto-2026` colgaría sólo del sitemap, que es la
+forma más débil de que Google descubra una página, y el que llegara ahí no tendría cómo ir a
+la selección del mes en curso.
+
+**Y cada página de mes enlaza a la suya.** `/agosto-2026` lleva a `/mejores-juegos-agosto-2026`
+y `/septiembre-2026` a `/recomendados`, con un botón abajo del subtítulo. Son las dos páginas
+del sitio que hablan del mismo mes, y la elegida a mano da lo que un listado de 64 juegos por
+fecha no puede dar. `comun.ruta_recomendados()` es la que sabe qué URL le toca a cada mes, y
+la usan los dos generadores: la forma de la URL se escribe en un solo lugar.
+
+**Al cambiar de mes**, el que termina se mueve a `anteriores` y se arma la lista nueva en
+`mes`. Va en la rutina mensual, junto con el resto del cambio de mes.
+
 ### Mis juegos (`/mis-juegos`, desde el 02/09/2026)
 
 Una lista de favoritos que cada visitante guarda con la estrella. Vive en
@@ -1006,6 +1057,20 @@ mitad de los scripts y la otra mitad no, en silencio.
 Ahora está una sola vez en `scripts/comun.py`, en una versión más firme que las tres: se
 ancla en la declaración `const JUEGOS` (así no la confunde un `=` que aparezca antes en un
 comentario) y corta en el último `]` (así no la molesta lo que venga después).
+
+**Lo que el lector NO sabe hacer: comentarios.** Convierte el JS en JSON poniéndole comillas
+a las claves, y ahí se acabó el parecido entre los dos formatos. Una línea `//` **adentro**
+del array rompe los doce scripts de una, con un `JSONDecodeError` que nombra un número de
+línea y nada más. Pasó el 08/09/2026 al querer dejar anotado por qué Fountains perdía la PS5.
+Los comentarios van en la cabecera del archivo, arriba de `const JUEGOS`, o en este README —
+que es donde de todos modos se busca el porqué de una regla. Vale igual para
+`datos/recomendados.js`, que se lee de la misma manera.
+
+Con el mismo criterio viven ahí `leer_recomendados()` y `ruta_recomendados()`: la segunda dice
+qué URL le toca a la selección de un mes —`/recomendados` si es el mes en curso,
+`/mejores-juegos-agosto-2026` si ya cerró— y la usan el generador de recomendados y el de las
+páginas de mes. Es una sola función porque **la forma de la URL no puede estar escrita en dos
+lugares**: si se cambia en uno, el otro genera enlaces a páginas que no existen.
 
 **Cómo verificar un cambio acá.** Antes de tocar, cargar los doce módulos y hashear lo que
 devuelve cada `cargar_juegos()`; después de tocar, repetir y comparar. Eso es lo que atrapó
@@ -1412,8 +1477,14 @@ categoría `SUSCRIPCIONES`.
     distinto—, así que hay que ir a la eShop o a la web del estudio de a uno. Van con
     `estimado: true` y su ancla de fin de trimestre. Vale la pena hacerlo de a tandas
     chicas: muchas de esas fechas se van a mover igual antes de confirmarse.
-13. Evaluar archivo/limpieza de meses viejos del calendario.
-14. Repasar la sección "Pendientes / ideas" de este archivo.
+13. **Recomendados:** en `datos/recomendados.js`, mover el mes que termina de `mes` a
+    `anteriores` —tal cual está, no se reescriben los textos— y armar la lista nueva en
+    `mes`. El mes que se archiva se convierte solo en su página
+    `/mejores-juegos-<mes>-<año>`, y esa página vale más que cuando se escribió porque los
+    puntajes ya están. **Ojo con dejar el mismo mes en los dos lugares:** serían dos URLs
+    con el mismo contenido. El generador lo avisa, pero conviene no llegar a eso.
+14. Evaluar archivo/limpieza de meses viejos del calendario.
+15. Repasar la sección "Pendientes / ideas" de este archivo.
 
 **Cuál usar si falta un juego de un mes ya cargado:** la semanal. La mensual solo estrena
 meses nuevos; la semanal es la que vuelve sobre lo ya cargado y tapa los huecos.
@@ -1439,7 +1510,7 @@ Si algo no está en esta tabla, no lo mantiene nadie.
 | **Que esas URLs sigan vivas** | — | **Semanal, paso 9:** `python3 scripts/verificar-enlaces.py` |
 | **Que un juego dado por lanzado haya salido** | — | **Semanal, paso 8 bis:** `python3 scripts/verificar-lanzados.py` |
 | **Que un juego no esté cargado dos veces** | — | **Diaria, automática** (`verificar-duplicados.py` dentro de `actualizar.py`) |
-| **Recomendados del mes** (`datos/recomendados.js`) | — | **Mensual:** armar la lista del mes que entra |
+| **Recomendados del mes** (`datos/recomendados.js`) | — | **Mensual, paso 13:** mover el mes que termina a `anteriores` y armar la lista del que entra |
 | `duracion` (HLTB) | Mensual, paso 10 | Mensual, paso 10 (recorre todos, no solo los nuevos) |
 | `descripcion`, `genero`, `desarrollador` | Semanal / Mensual, al cargar | — (no se desactualizan) |
 | Datos estructurados del trailer | — | Diaria, automática (`cargar-meta-trailers.py`) |

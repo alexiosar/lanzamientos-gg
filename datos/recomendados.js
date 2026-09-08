@@ -6,16 +6,25 @@
 // si se pudiera calcular, ya lo haría el ranking.
 //
 // Campos:
-//   mes     "AAAA-MM". Lo que manda: la página muestra este mes y nada más.
-//   juegos  lista ordenada por fecha de salida, con el id de datos/juegos.js y una línea
-//           propia explicando por qué está. El texto es lo único que justifica la página:
-//           sin él es una lista de doce carátulas que ya están en el calendario.
+//   mes         "AAAA-MM". Lo que manda: /recomendados muestra este mes y nada más.
+//   juegos      lista ordenada por fecha de salida, con el id de datos/juegos.js y una línea
+//               propia explicando por qué está. El texto es lo único que justifica la página:
+//               sin él es una lista de doce carátulas que ya están en el calendario.
+//   anteriores  los meses que ya pasaron, cada uno con la misma forma { mes, juegos }.
+//               Cada uno se convierte en su propia página, /mejores-juegos-agosto-2026 y
+//               así, y todas se enlazan entre sí con los botones de arriba.
 //
-// Los meses viejos se dejan comentados abajo, así queda registro de lo que se recomendó
-// y no hay que buscarlo en el historial de git.
+// Antes los meses viejos se dejaban comentados acá, "así queda registro". Registro sin
+// página es lo mismo que nada: la selección de agosto era trabajo hecho que no leía nadie,
+// y en septiembre los puntajes ya están, o sea que la lista vieja dice MÁS que cuando se
+// escribió. Desde el 08/09/2026 cada mes pasado tiene su URL.
 //
-// Al cambiar de mes: se arma la lista nueva y se actualiza `mes`. Va en la rutina mensual.
-// Si `mes` no coincide con el mes en curso, la página lo dice en vez de mentir.
+// Al cambiar de mes: el mes que termina se mueve a `anteriores` y se arma la lista nueva.
+// Va en la rutina mensual. Si `mes` no coincide con el mes en curso, /recomendados lo dice
+// en vez de mentir.
+//
+// Ojo con no duplicar: un mes NO va en `mes` y en `anteriores` al mismo tiempo. Serían dos
+// URLs con el mismo contenido, que es justo lo que le hace mal a la indexación.
 
 const RECOMENDADOS = {
   mes: "2026-09",
@@ -67,6 +76,46 @@ const RECOMENDADOS = {
     {
       id: "the-witcher-3-wild-hunt-remastered",
       texto: "Uno de los mejores RPG de mundo abierto que se hicieron, remasterizado y entero —con Hearts of Stone y Blood and Wine— y por primera vez portátil de verdad en Switch 2. Si nunca lo jugaste, es la mejor forma de empezar."
+    }
+  ],
+
+  anteriores: [
+    {
+      mes: "2026-08",
+      juegos: [
+        {
+          id: "beast-of-reincarnation",
+          texto: "El primer RPG de acción grande de Game Freak fuera de Pokémon, y el más discutido del mes: cerró en 71 con reseñas que van de un extremo al otro. En lo que coinciden todas es en dos cosas, el combate y la relación entre Emma y su perro Kuu. Lo que le reprochan es el mundo alrededor, que varias describen como vacío. Está en la lista por lo que intenta, no por lo que le salió parejo."
+        },
+        {
+          id: "marvel-tokon-fighting-souls",
+          texto: "Arc System Works, los de Guilty Gear, haciendo un 4 contra 4 de Marvel, y resolvieron lo difícil: se entiende sin haber jugado un juego de peleas en la vida y abajo sigue teniendo la profundidad de siempre. El modo entrenamiento enseña de verdad, que en el género es raro. Lo flojo está afuera del ring, en los modos para un jugador."
+        },
+        {
+          id: "the-sinking-city-2",
+          texto: "Frogwares cambió de género a mitad de camino: la primera era un detective suelto en la ciudad y esta es survival horror del molde de los Resident Evil modernos, con mejor combate y mejores puzzles. Se pierde la investigación a mano, que era lo que la hacía distinta. Está hecha en Ucrania durante la guerra, y varias reseñas le perdonan la falta de pulido por eso."
+        },
+        {
+          id: "mortal-shell-2",
+          texto: "La secuela del soulslike de Cold Symmetry, el estudio chico que en 2020 se metió a competirle a From Software y salió bien parado. Vuelve la idea que lo hacía distinto: no tenés un personaje, poseés cuerpos ajenos y cada uno pelea diferente. Es el único de esta lista sin nota de Metacritic, así que acá no hay consenso de prensa que valga: está por lo que era el primero."
+        },
+        {
+          id: "resonance-a-plague-tale-legacy",
+          texto: "La precuela de A Plague Tale, con Sophia como protagonista, y el otro juego discutido del mes: hay reseñas de 95 y de 60 hablando de lo mismo. El desacuerdo es por el cambio de género —menos sigilo y menos ratas, más acción tipo Uncharted—, no por la factura. En lo visual y en la música nadie discute, y Sophia gusta por unanimidad."
+        },
+        {
+          id: "star-wars-zero-company",
+          texto: "Tácticas por turnos al estilo XCOM en el final de las Guerras Clon, y aguanta la comparación: es un juego del género hecho en serio, no una licencia pegada encima. La sorpresa fue la historia, que varias reseñas ponen a la altura de Andor y Rogue One, con un escuadrón donde nadie usa la Fuerza. Lo que le marcan es que arranca lento y que tiene algún problema técnico."
+        },
+        {
+          id: "metal-gear-solid-master-collection-vol-2",
+          texto: "Metal Gear Solid 4 sale de la PS3 después de dieciocho años, y eso solo ya justifica el paquete. Vienen también Peace Walker y Ghost Babel, y las conversiones se elogiaron sin peros. Las quejas no son de los juegos sino de la caja: trae menos que el Vol. 1 y hay que saltar entre aplicaciones sueltas porque no tiene un menú común."
+        },
+        {
+          id: "captain-tsubasa-2-world-fighters",
+          texto: "El acuerdo de las reseñas es que no hay que medirlo como un juego de fútbol: es uno de peleas con once por lado, y con esa vara funciona. El modo historia cubre entero el Mundial Juvenil y hay 110 personajes. Si creciste con Supercampeones, el espectáculo de la serie está bien capturado; si no, el ritmo cortado te va a molestar."
+        }
+      ]
     }
   ]
 };

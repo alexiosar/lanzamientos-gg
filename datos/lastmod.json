@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "1f7ece82d538cfcf",
+  "hash": "794baff3c5b24b40",
   "lastmod": "2026-09-08"
  },
  "/acerca": {
@@ -8,7 +8,7 @@
   "lastmod": "2026-09-06"
  },
  "/agosto-2026": {
-  "hash": "3d32bc9ede1b6e9f",
+  "hash": "4706c287032f0bfc",
   "lastmod": "2026-09-08"
  },
  "/api": {
@@ -20,8 +20,8 @@
   "lastmod": "2026-09-07"
  },
  "/diciembre-2026": {
-  "hash": "008f518e4a91e494",
-  "lastmod": "2026-09-06"
+  "hash": "cf930e7f364959cb",
+  "lastmod": "2026-09-08"
  },
  "/juegos/007-first-light": {
   "hash": "25c65bbd8db154c9",
@@ -936,11 +936,11 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/onimusha-way-of-the-sword": {
-  "hash": "f996d55f77764230",
+  "hash": "5155ab4a43d4db90",
   "lastmod": "2026-09-08"
  },
  "/juegos/orbitals": {
-  "hash": "c5061fcf754af523",
+  "hash": "4920efad0d6348b5",
   "lastmod": "2026-09-08"
  },
  "/juegos/order-of-the-sinking-star": {
@@ -1044,7 +1044,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/resonance-a-plague-tale-legacy": {
-  "hash": "647939a1794ec8d5",
+  "hash": "5f724ec0663a61ed",
   "lastmod": "2026-09-08"
  },
  "/juegos/retrospace": {
@@ -1200,7 +1200,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/star-wars-zero-company": {
-  "hash": "b5c2cb1e06e85090",
+  "hash": "9bafacc02443fcdd",
   "lastmod": "2026-09-08"
  },
  "/juegos/starbites": {
@@ -1260,7 +1260,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/the-blood-of-dawnwalker": {
-  "hash": "10c922ef60ffcd60",
+  "hash": "4ad9f9a54bc09635",
   "lastmod": "2026-09-08"
  },
  "/juegos/the-caribou-trail": {
@@ -1528,55 +1528,59 @@
   "lastmod": "2026-09-07"
  },
  "/julio-2026": {
-  "hash": "33e47969951b3e6f",
-  "lastmod": "2026-09-07"
+  "hash": "3a1cfad60d333c4d",
+  "lastmod": "2026-09-08"
  },
  "/junio-2026": {
-  "hash": "66607ba36daff1e6",
-  "lastmod": "2026-09-06"
+  "hash": "3bf518f18adf44b4",
+  "lastmod": "2026-09-08"
  },
  "/marzo-2027": {
-  "hash": "366add9c9ebe7383",
-  "lastmod": "2026-09-06"
+  "hash": "20973ec72d206a10",
+  "lastmod": "2026-09-08"
+ },
+ "/mejores-juegos-agosto-2026": {
+  "hash": "b79e2d3c96439b25",
+  "lastmod": "2026-09-08"
  },
  "/noticias": {
   "hash": "6b385ac3f8a06c27",
   "lastmod": "2026-09-08"
  },
  "/noviembre-2026": {
-  "hash": "3a2872e95ac0e9e2",
-  "lastmod": "2026-09-06"
+  "hash": "f27c3ecdfb58401c",
+  "lastmod": "2026-09-08"
  },
  "/octubre-2026": {
-  "hash": "0fae90b465d3570e",
-  "lastmod": "2026-09-06"
+  "hash": "12999d91453bf2b5",
+  "lastmod": "2026-09-08"
  },
  "/privacidad": {
   "hash": "858c6f67afef4839",
   "lastmod": "2026-09-02"
  },
  "/ps4": {
-  "hash": "1f7ece82d538cfcf",
+  "hash": "794baff3c5b24b40",
   "lastmod": "2026-09-08"
  },
  "/ps5": {
-  "hash": "1f7ece82d538cfcf",
+  "hash": "794baff3c5b24b40",
   "lastmod": "2026-09-08"
  },
  "/recomendados": {
-  "hash": "f60b915a5cd153fe",
-  "lastmod": "2026-09-03"
+  "hash": "2aee3de963cb31c6",
+  "lastmod": "2026-09-08"
  },
  "/septiembre-2026": {
-  "hash": "1b0c22129556df37",
+  "hash": "296c61dbbffce1b6",
   "lastmod": "2026-09-08"
  },
  "/switch": {
-  "hash": "1f7ece82d538cfcf",
+  "hash": "794baff3c5b24b40",
   "lastmod": "2026-09-08"
  },
  "/switch-2": {
-  "hash": "1f7ece82d538cfcf",
+  "hash": "794baff3c5b24b40",
   "lastmod": "2026-09-08"
  },
  "/terminos": {
@@ -1588,7 +1592,7 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "1f7ece82d538cfcf",
+  "hash": "794baff3c5b24b40",
   "lastmod": "2026-09-08"
  }
 }

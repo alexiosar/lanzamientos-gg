@@ -1,54 +1,54 @@
 #!/usr/bin/env python3
-"""Genera recomendados.html: la selección del mes, elegida a mano.
+"""Genera las páginas de recomendados: la selección del mes, elegida a mano.
 
-Por qué existe y por qué no es el ranking: el ranking ordena por puntaje de Metacritic y
+Son dos cosas distintas y salen del mismo archivo de datos:
+
+  /recomendados                    el mes en curso (el campo `mes` de recomendados.js)
+  /mejores-juegos-agosto-2026      cada mes ya pasado (la lista `anteriores`)
+
+Por qué existen y por qué no es el ranking: el ranking ordena por puntaje de Metacritic y
 sólo muestra juegos ya lanzados, así que del mes que arranca no puede decir nada. Y es
 justo del mes que arranca de lo que la gente quiere que le digan algo. Con 106 juegos en
 septiembre de 2026, una lista por fecha no ayuda a decidir qué mirar.
 
-Los datos salen de datos/recomendados.js, que trae el mes y una línea propia por juego.
-Todo lo demás —carátula, fecha, plataformas— se lee de datos/juegos.js, así que no hay
-nada duplicado: si un juego se retrasa, esta página se entera sola.
+Por qué los meses pasados también tienen página (desde el 08/09/2026): la lista de agosto
+era trabajo ya hecho que no leía nadie, porque vivía comentada dentro del archivo de datos.
+Y una selección vieja no es peor que una nueva, es distinta: cuando el mes terminó los
+puntajes están, así que la misma lista dice MÁS que el día que se escribió. Además apunta a
+una búsqueda que existe todos los meses —"mejores juegos de agosto de 2026"— y que el sitio
+no tenía dónde recibir.
 
-Se genera estática, igual que /noticias, porque el objetivo es que Google la indexe.
+Los datos duros —carátula, fecha, plataformas, puntaje— se leen de datos/juegos.js, así que
+no hay nada duplicado: si un juego se retrasa, esta página se entera sola.
 
-Si el mes de recomendados.js no es el mes en curso, la página lo dice en vez de hacer
+Se generan estáticas, igual que /noticias, porque el objetivo es que Google las indexe.
+
+Si el mes de recomendados.js no es el mes en curso, /recomendados lo dice en vez de hacer
 pasar por actual una selección vieja.
 
 Uso (desde la raíz del proyecto):
     python3 scripts/generar-recomendados.py
 
 Se regenera con la rutina diaria (scripts/actualizar.py lo invoca). La lista nueva se
-arma en la rutina mensual.
+arma en la rutina mensual, y ahí el mes que termina se mueve a `anteriores`.
 """
 import datetime
 import html as html_mod
-import json
-import re
 from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from comun import MESES_ES, PLATS, cargar_juegos, leer_recomendados, ruta_recomendados
+
 import plantilla
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
-MESES_ES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO",
-            "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"]
-PLATS = {"PS5": "PS5", "PS4": "PS4", "XBOX": "Xbox", "SWITCH2": "Switch 2", "SWITCH": "Switch"}
 
 
 def e(t):
     return html_mod.escape(str(t), quote=True)
-
-
-def _leer(archivo, marca):
-    """Los datos son JS, no JSON: se recorta el objeto y se le ponen comillas a las claves."""
-    src = (RAIZ / "datos" / archivo).read_text(encoding="utf-8")
-    cuerpo = src.split("=", 1)[1]
-    cuerpo = cuerpo[:cuerpo.rindex(marca) + 1].strip()
-    return json.loads(re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M))
 
 
 def fecha_larga(f):
@@ -56,7 +56,22 @@ def fecha_larga(f):
     return f"{int(d)} DE {MESES_ES[int(m) - 1]}"
 
 
-def tarjeta(rec, j):
+def nombre_mes(mes):
+    """"2026-08" → "AGOSTO 2026". Para títulos y botones, que van en mayúsculas."""
+    return MESES_ES[int(mes[5:7]) - 1] + " " + mes[:4]
+
+
+def mes_prosa(mes):
+    """"2026-08" → "agosto de 2026". Para las frases, donde falta el "de" del medio."""
+    return MESES_ES[int(mes[5:7]) - 1].lower() + " de " + mes[:4]
+
+
+def ruta(mes, datos):
+    """La URL de la selección de ese mes. La arma comun.py, que es quien la sabe."""
+    return ruta_recomendados(mes, datos)
+
+
+def tarjeta(rec, j, hoy):
     plats = " ".join(f'<span class="plat plat-{p.lower()}">{e(PLATS.get(p, p))}</span>'
                      for p in j["plataformas"])
     if j.get("imagen"):
@@ -64,10 +79,21 @@ def tarjeta(rec, j):
                    f'alt="Carátula de {e(j["titulo"])}" loading="lazy" decoding="async">')
     else:
         portada = '<span class="rec-portada portada-vacia"></span>'
+    # El puntaje sólo si el juego YA salió, que es el mismo cuidado que tienen el ranking,
+    # el destacado y las páginas de mes: un port arrastra la nota del original, así que sin
+    # este filtro una lista de lanzamientos futuros mostraría notas de juegos que no salieron
+    # —The Witcher 3 en Switch 2 con su 92 de 2015— y eso no es un puntaje, es un espejismo.
+    # En las páginas de meses cerrados salen todos, y ahí es medio motivo de la página: la
+    # lista se escribió sin notas y ahora se puede leer con las notas al lado.
+    nota = ""
+    if j.get("metacritic") and j["fecha"] <= hoy:
+        clase = ("alto" if j["metacritic"] >= 75 else
+                 "medio" if j["metacritic"] >= 50 else "bajo")
+        nota = f'<span class="rec-meta meta-{clase}">{j["metacritic"]}</span>'
     return f'''      <a class="rec" href="/juegos/{e(j["id"])}">
         {portada}
         <div class="rec-cuerpo">
-          <div class="rec-fecha">{e(fecha_larga(j["fecha"]))}</div>
+          <div class="rec-fecha">{e(fecha_larga(j["fecha"]))}{nota}</div>
           <h2 class="rec-titulo">{e(j["titulo"])}</h2>
           <div class="plataformas">{plats}</div>
           <p class="rec-texto">{e(rec["texto"])}</p>
@@ -75,21 +101,69 @@ def tarjeta(rec, j):
       </a>'''
 
 
-def main():
-    juegos = {x["id"]: x for x in _leer("juegos.js", "]")}
-    datos = _leer("recomendados.js", "}")
-    mes = datos["mes"]
-    anio_mes = MESES_ES[int(mes[5:7]) - 1] + " " + mes[:4]
-    hoy = datetime.date.today()
-    # Publicar la selección antes de que empiece el mes es lo normal y no se avisa: a fin
-    # de agosto la de septiembre ya tiene que estar. Lo que sí se avisa es que quedó vieja,
-    # porque una lista de "recomendados del mes" del mes pasado engaña al que llega.
-    vigente = mes >= hoy.strftime("%Y-%m")
+def botones(meses, mes, datos):
+    """Los botones de mes, con el mismo cuadrado que los filtros de la portada.
 
-    faltan = [r["id"] for r in datos["juegos"] if r["id"] not in juegos]
+    Sin esto las páginas de meses pasados no las encuentra nadie: quedarían colgando del
+    sitemap, que es la forma más débil de que Google descubra una página, y un lector que
+    llegó a la de agosto no tendría cómo ir a la de septiembre.
+    """
+    if len(meses) < 2:
+        return ""
+    items = "\n".join(
+        f'        <a class="filtro-btn{" activo" if m == mes else ""}" '
+        f'href="{ruta(m, datos)}">{e(nombre_mes(m))}</a>'
+        for m in meses)
+    return f'''    <nav class="rec-meses" aria-label="Recomendados por mes">
+{items}
+    </nav>
+'''
+
+
+def estilos():
+    return '''    .pagina-titulo   { font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }
+    .pagina-sub      { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }
+    .rec-meses       { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.9rem 0 1.5rem; }
+    /* Es un <a>, así que hay que apagarle el subrayado que trae de la regla global. */
+    .rec-meses .filtro-btn { text-decoration: none; display: inline-block; }
+    .rec-intro       { font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; max-width: 720px; margin-bottom: 2rem; }
+    .rec-aviso       { font-size: 0.75rem; color: var(--amarillo); letter-spacing: 1px; margin-bottom: 1.5rem; }
+    .recomendados    { max-width: 720px; }
+    /* Mismo esqueleto que una tarjeta de noticia: borde a la izquierda, carátula vertical
+       y el texto al lado. La carátula es más grande que en /noticias porque acá la imagen
+       es media razón para entrar. */
+    .rec             { display: flex; gap: 1.25rem; align-items: flex-start; color: inherit;
+                       border-left: 2px solid var(--gris-3); padding: 0 0 1.75rem 1.25rem;
+                       margin-bottom: 1.75rem; transition: border-color 0.1s; }
+    .rec:hover       { border-left-color: var(--acento); }
+    .rec:hover .rec-titulo { color: var(--acento); }
+    .rec-portada     { width: 120px; height: 180px; object-fit: cover; flex-shrink: 0;
+                       border: 1px solid var(--gris-3); background: var(--gris-1); display: block; }
+    .rec-cuerpo      { min-width: 0; flex: 1; }
+    .rec-fecha       { font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 0.35rem; }
+    .rec-meta        { border: 1px solid currentColor; padding: 0 5px; margin-left: 0.6rem; letter-spacing: 0; }
+    .rec-titulo      { font-size: 0.9375rem; color: var(--blanco); letter-spacing: 1px;
+                       font-weight: 700; line-height: 1.5; margin-bottom: 0.5rem; }
+    .rec-texto       { font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; margin-top: 0.6rem; }
+    @media (max-width: 600px) {
+      .rec           { gap: 0.9rem; padding-left: 0.9rem; }
+      .rec-portada   { width: 84px; height: 126px; }
+    }'''
+
+
+def pagina(mes, lista, juegos, meses, datos):
+    """Arma una página. `datos` es el objeto entero, que es quien sabe qué URL es cuál."""
+    camino = ruta(mes, datos)
+    pasado = camino != "/recomendados"
+    anio_mes = nombre_mes(mes)
+    hoy = datetime.date.today()
+    canonica = DOMINIO + camino
+
+    faltan = [r["id"] for r in lista if r["id"] not in juegos]
     if faltan:
-        print(f"  ⚠ {len(faltan)} recomendado(s) que no están en juegos.js: {', '.join(faltan)}")
-    elegidos = [(r, juegos[r["id"]]) for r in datos["juegos"] if r["id"] in juegos]
+        print(f"  ⚠ {len(faltan)} recomendado(s) de {mes} que no están en juegos.js: "
+              f"{', '.join(faltan)}")
+    elegidos = [(r, juegos[r["id"]]) for r in lista if r["id"] in juegos]
     # Por fecha de salida: la página se lee de arriba abajo como el mes que viene.
     elegidos.sort(key=lambda p: p[1]["fecha"])
 
@@ -99,12 +173,40 @@ def main():
     if fuera:
         print(f"  ⚠ {len(fuera)} recomendado(s) que ya no salen en {mes}: {', '.join(fuera)}")
 
-    cuerpo = "\n".join(tarjeta(r, j) for r, j in elegidos)
-    descripcion = (f"Los {len(elegidos)} juegos de {anio_mes.lower()} que vale la pena mirar, "
-                   "elegidos uno por uno: fechas, plataformas y por qué cada uno está en la lista.")
+    # Publicar la selección antes de que empiece el mes es lo normal y no se avisa: a fin
+    # de agosto la de septiembre ya tiene que estar. Lo que sí se avisa es que /recomendados
+    # quedó vieja, porque una lista de "recomendados del mes" del mes pasado engaña al que
+    # llega. En las páginas de meses pasados no hay nada que avisar: dicen el mes en el
+    # título y el lector sabe perfectamente dónde está parado.
+    vigente = pasado or mes >= hoy.strftime("%Y-%m")
     aviso = "" if vigente else (
-        f'      <p class="rec-aviso">Esta selección es de {e(anio_mes.lower())} y quedó vieja. '
+        f'      <p class="rec-aviso">Esta selección es de {e(mes_prosa(mes))} y quedó vieja. '
         'La del mes en curso todavía no se publicó.</p>\n')
+
+    if pasado:
+        titulo_h1 = f"MEJORES JUEGOS DE {anio_mes}"
+        descripcion = (f"Los {len(elegidos)} mejores juegos de {mes_prosa(mes)} para PS5, "
+                       "Xbox y Switch, elegidos uno por uno: puntajes, plataformas y por qué "
+                       "cada uno vale la pena.")
+        title = f"Los Mejores Juegos de {anio_mes.title()} — LANZAMIENTOS.LAT"
+        intro = (f"El mes ya terminó y los puntajes están, así que esta lista se puede leer "
+                 f"con las notas al lado. No están ordenados por puntaje: el ranking del sitio "
+                 f"ya hace eso y no dice por qué. Estos {len(elegidos)} están elegidos uno por "
+                 f"uno, y en cada caso decimos qué tiene y qué se le reprocha.")
+    else:
+        titulo_h1 = f"RECOMENDADOS DE {anio_mes}"
+        descripcion = (f"Los {len(elegidos)} juegos de {mes_prosa(mes)} que vale la pena "
+                       "mirar, elegidos uno por uno: fechas, plataformas y por qué cada uno "
+                       "está en la lista.")
+        title = f"Los Mejores Juegos de {anio_mes.title()} — Recomendados | LANZAMIENTOS.LAT"
+        intro = ("El ranking del sitio ordena por puntaje, y por eso sólo habla de juegos que "
+                 "ya salieron. Esta lista es lo contrario: son los que todavía no salieron y "
+                 "vale la pena tener en el radar. No hay nota que los ordene, así que están "
+                 "elegidos uno por uno y en cada caso decimos por qué.")
+
+    cuerpo = "\n".join(tarjeta(r, j, hoy.isoformat()) for r, j in elegidos)
+    sub = (f"{len(elegidos)} JUEGOS ELEGIDOS A MANO" if not pasado
+           else f"{len(elegidos)} JUEGOS ELEGIDOS A MANO — EL MES YA PASÓ")
 
     html = f'''<!DOCTYPE html>
 <html lang="es">
@@ -112,8 +214,8 @@ def main():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{e(descripcion)}">
-  <title>Los Mejores Juegos de {anio_mes.title()} — Recomendados | LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="{DOMINIO}/recomendados">
+  <title>{e(title)}</title>
+  <link rel="canonical" href="{canonica}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
@@ -122,35 +224,12 @@ def main():
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
   <meta property="og:title" content="Los mejores juegos de {anio_mes.title()} — LANZAMIENTOS.LAT">
   <meta property="og:description" content="{e(descripcion)}">
-  <meta property="og:url" content="{DOMINIO}/recomendados">
+  <meta property="og:url" content="{canonica}">
   <meta property="og:image" content="{DOMINIO}/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    .pagina-titulo   {{ font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }}
-    .pagina-sub      {{ font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }}
-    .rec-intro       {{ font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; max-width: 720px; margin-bottom: 2rem; }}
-    .rec-aviso       {{ font-size: 0.75rem; color: var(--amarillo); letter-spacing: 1px; margin-bottom: 1.5rem; }}
-    .recomendados    {{ max-width: 720px; }}
-    /* Mismo esqueleto que una tarjeta de noticia: borde a la izquierda, carátula vertical
-       y el texto al lado. La carátula es más grande que en /noticias porque acá la imagen
-       es media razón para entrar. */
-    .rec             {{ display: flex; gap: 1.25rem; align-items: flex-start; color: inherit;
-                       border-left: 2px solid var(--gris-3); padding: 0 0 1.75rem 1.25rem;
-                       margin-bottom: 1.75rem; transition: border-color 0.1s; }}
-    .rec:hover       {{ border-left-color: var(--acento); }}
-    .rec:hover .rec-titulo {{ color: var(--acento); }}
-    .rec-portada     {{ width: 120px; height: 180px; object-fit: cover; flex-shrink: 0;
-                       border: 1px solid var(--gris-3); background: var(--gris-1); display: block; }}
-    .rec-cuerpo      {{ min-width: 0; flex: 1; }}
-    .rec-fecha       {{ font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 0.35rem; }}
-    .rec-titulo      {{ font-size: 0.9375rem; color: var(--blanco); letter-spacing: 1px;
-                       font-weight: 700; line-height: 1.5; margin-bottom: 0.5rem; }}
-    .rec-texto       {{ font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; margin-top: 0.6rem; }}
-    @media (max-width: 600px) {{
-      .rec           {{ gap: 0.9rem; padding-left: 0.9rem; }}
-      .rec-portada   {{ width: 84px; height: 126px; }}
-    }}
+{estilos()}
   </style>
 </head>
 <body>
@@ -159,12 +238,9 @@ def main():
 
   <main class="contenedor">
     <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
-    <h1 class="pagina-titulo">RECOMENDADOS DE {e(anio_mes)}</h1>
-    <p class="pagina-sub">{len(elegidos)} JUEGOS ELEGIDOS A MANO</p>
-{aviso}    <p class="rec-intro">El ranking del sitio ordena por puntaje, y por eso sólo habla de
-      juegos que ya salieron. Esta lista es lo contrario: son los que todavía no salieron y
-      vale la pena tener en el radar. No hay nota que los ordene, así que están elegidos uno
-      por uno y en cada caso decimos por qué.</p>
+{botones(meses, mes, datos)}    <h1 class="pagina-titulo">{e(titulo_h1)}</h1>
+    <p class="pagina-sub">{sub}</p>
+{aviso}    <p class="rec-intro">{e(intro)}</p>
 
     <div class="recomendados">
 {cuerpo}
@@ -180,9 +256,35 @@ def main():
 </body>
 </html>
 '''
-    (RAIZ / "recomendados.html").write_text(html, encoding="utf-8")
-    print(f"recomendados.html generada: {len(elegidos)} juegos de {anio_mes}"
+    destino = RAIZ / f"{camino.lstrip('/')}.html"
+    destino.write_text(html, encoding="utf-8")
+    return destino.name, len(elegidos), anio_mes, vigente
+
+
+def main():
+    juegos = {x["id"]: x for x in cargar_juegos()}
+    datos = leer_recomendados()
+    actual = datos["mes"]
+    anteriores = datos.get("anteriores") or []
+
+    # Un mes en las dos listas serían dos URLs con el mismo contenido, que es justo lo que
+    # estamos peleando con la indexación. Se avisa fuerte y se ignora la copia vieja.
+    if any(a["mes"] == actual for a in anteriores):
+        print(f"  ⚠ {actual} está en `mes` Y en `anteriores`: se ignora la copia de "
+              "`anteriores` para no publicar dos URLs iguales")
+        anteriores = [a for a in anteriores if a["mes"] != actual]
+        datos["anteriores"] = anteriores
+
+    # Del más nuevo al más viejo: el que entra a una página vieja suele querer la actual.
+    meses = sorted([actual] + [a["mes"] for a in anteriores], reverse=True)
+
+    nombre, n, anio_mes, vigente = pagina(actual, datos["juegos"], juegos, meses, datos)
+    print(f"{nombre} generada: {n} juegos de {anio_mes}"
           + ("" if vigente else "  ⚠ SELECCIÓN VIEJA: armar la del mes en curso"))
+
+    for a in sorted(anteriores, key=lambda x: x["mes"], reverse=True):
+        nombre, n, anio_mes, _ = pagina(a["mes"], a["juegos"], juegos, meses, datos)
+        print(f"{nombre} generada: {n} juegos de {anio_mes}")
 
 
 if __name__ == "__main__":
