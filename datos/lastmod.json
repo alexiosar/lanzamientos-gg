@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "d21407d0ccbe8800",
+  "hash": "28d54a0450f4fde5",
   "lastmod": "2026-09-09"
  },
  "/abril-2027": {
@@ -28,11 +28,11 @@
   "lastmod": "2026-09-09"
  },
  "/enero-2027": {
-  "hash": "ee89ad08461bb50a",
+  "hash": "9007dffa6968bd08",
   "lastmod": "2026-09-09"
  },
  "/febrero-2027": {
-  "hash": "22e04322f1918ed3",
+  "hash": "065700e578bc32cc",
   "lastmod": "2026-09-09"
  },
  "/juegos/007-first-light": {
@@ -107,8 +107,12 @@
   "hash": "2e8eda997b946c66",
   "lastmod": "2026-09-09"
  },
+ "/juegos/atelier-karia": {
+  "hash": "3478f955b0f157e7",
+  "lastmod": "2026-09-09"
+ },
  "/juegos/attack-on-titan-3": {
-  "hash": "60a894b1e5283988",
+  "hash": "42116c7d5965852d",
   "lastmod": "2026-09-09"
  },
  "/juegos/au-revoir": {
@@ -116,12 +120,12 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/avatar-legends-the-fighting-game": {
-  "hash": "a4c841842c968a15",
-  "lastmod": "2026-09-07"
+  "hash": "bece545564b0b59e",
+  "lastmod": "2026-09-09"
  },
  "/juegos/avatar-legends-the-fighting-game-xbox": {
-  "hash": "426956a6a0937725",
-  "lastmod": "2026-09-07"
+  "hash": "2f5860e7abf180bb",
+  "lastmod": "2026-09-09"
  },
  "/juegos/azure-striker-gunvolt-trilogy-enhanced": {
   "hash": "1189a9b6669581dc",
@@ -176,7 +180,7 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/blue-reflection-quartet": {
-  "hash": "d8d667c07e2fd054",
+  "hash": "f63a7c6d5bc4a33c",
   "lastmod": "2026-09-09"
  },
  "/juegos/blueys-happy-snaps": {
@@ -216,7 +220,7 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/cairn-switch-2": {
-  "hash": "504cbb8bd46fd4a2",
+  "hash": "8a3aa0cd7c98202c",
   "lastmod": "2026-09-09"
  },
  "/juegos/call-of-duty-modern-warfare-4": {
@@ -280,12 +284,16 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/cultic": {
-  "hash": "9cf2cb239c5264a5",
-  "lastmod": "2026-09-07"
+  "hash": "a0ccf9530fcfa991",
+  "lastmod": "2026-09-09"
  },
  "/juegos/d-topia": {
   "hash": "2b0342109b63f27b",
   "lastmod": "2026-09-07"
+ },
+ "/juegos/danganronpa-2x2": {
+  "hash": "45b7201c7d3ea04c",
+  "lastmod": "2026-09-09"
  },
  "/juegos/danger-mouse": {
   "hash": "57b61819b8bd20d1",
@@ -359,6 +367,10 @@
   "hash": "bdfe4f547a302136",
   "lastmod": "2026-09-09"
  },
+ "/juegos/dragon-ball-xenoverse-3": {
+  "hash": "46ba2216e816bf21",
+  "lastmod": "2026-09-09"
+ },
  "/juegos/dragon-quest-monsters-the-withered-world": {
   "hash": "b696199a5d20ad6a",
   "lastmod": "2026-09-09"
@@ -368,7 +380,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/dragons-dogma-2-dark-arisen": {
-  "hash": "0d16ac4ea0f0f2c4",
+  "hash": "95a22063f26b831a",
   "lastmod": "2026-09-09"
  },
  "/juegos/dream-cage": {
@@ -412,7 +424,7 @@
   "lastmod": "2026-09-08"
  },
  "/juegos/elden-ring-switch-2": {
-  "hash": "fab11a756562b6f3",
+  "hash": "10cd06a8021d3453",
   "lastmod": "2026-09-09"
  },
  "/juegos/ember-blade": {
@@ -444,7 +456,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/exstetra": {
-  "hash": "72dbd6a4466ffc7f",
+  "hash": "2afe0aa648030ae1",
   "lastmod": "2026-09-09"
  },
  "/juegos/fall-up": {
@@ -458,6 +470,10 @@
  "/juegos/farming-camp": {
   "hash": "01aa08ea262f7f7b",
   "lastmod": "2026-09-07"
+ },
+ "/juegos/fate-extra-record": {
+  "hash": "678140c902341ce9",
+  "lastmod": "2026-09-09"
  },
  "/juegos/final-fantasy-resonance": {
   "hash": "24ade809c9c2fa66",
@@ -532,8 +548,8 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/geppy-x": {
-  "hash": "3aa4715a87236037",
-  "lastmod": "2026-09-07"
+  "hash": "06a2128566e91bad",
+  "lastmod": "2026-09-09"
  },
  "/juegos/ghetto-zombies-graffiti-squad": {
   "hash": "7232325b01061fb1",
@@ -556,7 +572,7 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/godzilla-destroy-all-monsters-melee-remastered": {
-  "hash": "e5446aabcd05e9c4",
+  "hash": "9624830fe02c4075",
   "lastmod": "2026-09-09"
  },
  "/juegos/golf-with-your-friends-2": {
@@ -576,8 +592,8 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/granblue-fantasy-versus-rising-switch-2": {
-  "hash": "fff9a22938eda357",
-  "lastmod": "2026-09-07"
+  "hash": "d5a8d8a3c00d9f3b",
+  "lastmod": "2026-09-09"
  },
  "/juegos/grand-theft-auto-vi": {
   "hash": "3623fba805e29c27",
@@ -590,6 +606,10 @@
  "/juegos/grounded-2": {
   "hash": "2b8540bb28931deb",
   "lastmod": "2026-09-08"
+ },
+ "/juegos/gundam-rogue-orbit": {
+  "hash": "13207ecbb80f5ccf",
+  "lastmod": "2026-09-09"
  },
  "/juegos/gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection": {
   "hash": "ef58635d7dcb4d1e",
@@ -680,7 +700,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/hyrule-warriors-age-of-calamity-definitive-edition": {
-  "hash": "b1fc9733a5b57ed1",
+  "hash": "6354acedc1a75e33",
   "lastmod": "2026-09-09"
  },
  "/juegos/iracing-arcade": {
@@ -716,7 +736,7 @@
   "lastmod": "2026-09-08"
  },
  "/juegos/kingdom-hearts-iv": {
-  "hash": "5c495d87755e1c0c",
+  "hash": "14bbe78095dcbd28",
   "lastmod": "2026-09-09"
  },
  "/juegos/kirby-and-the-world-beyond": {
@@ -736,8 +756,8 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/kyoto-xanadu": {
-  "hash": "5a30dcbf8a166119",
-  "lastmod": "2026-09-07"
+  "hash": "3502e0f7819fef44",
+  "lastmod": "2026-09-09"
  },
  "/juegos/lady-death-demonicron": {
   "hash": "2661f3500feeceab",
@@ -756,7 +776,7 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/lego-skylines": {
-  "hash": "4004333f7ecdc58b",
+  "hash": "18769e75ec0dd80c",
   "lastmod": "2026-09-09"
  },
  "/juegos/lets-sing-2027": {
@@ -799,6 +819,10 @@
   "hash": "21653ff4bc3d5d97",
   "lastmod": "2026-09-07"
  },
+ "/juegos/maneater-2": {
+  "hash": "efc9c1ffedca521d",
+  "lastmod": "2026-09-09"
+ },
  "/juegos/mariachi-legends": {
   "hash": "a64efd63dbebc167",
   "lastmod": "2026-09-09"
@@ -812,8 +836,8 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/marvel-tokon-fighting-souls": {
-  "hash": "e0250a7ba0ecce1a",
-  "lastmod": "2026-09-08"
+  "hash": "130a9f2f0ffa23cb",
+  "lastmod": "2026-09-09"
  },
  "/juegos/marvels-guardians-of-the-galaxy-switch-2": {
   "hash": "85a483116b29d00b",
@@ -839,8 +863,12 @@
   "hash": "cf74362bf1fbcebf",
   "lastmod": "2026-09-09"
  },
+ "/juegos/metro-2039": {
+  "hash": "711558f38fa3d546",
+  "lastmod": "2026-09-09"
+ },
  "/juegos/metroid-ravenous": {
-  "hash": "ebbc826e42fc08c6",
+  "hash": "c53689ed887703a6",
   "lastmod": "2026-09-09"
  },
  "/juegos/mewgenics": {
@@ -928,7 +956,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/my-hero-academia-alls-justice": {
-  "hash": "055e9206b3fff694",
+  "hash": "071d75e7b6145922",
   "lastmod": "2026-09-09"
  },
  "/juegos/namco-legendary-mountains": {
@@ -964,11 +992,11 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/no-more-room-in-hell-2": {
-  "hash": "dbd19bf77118be0b",
+  "hash": "a5498eae9be4ae1f",
   "lastmod": "2026-09-09"
  },
  "/juegos/no-rest-for-the-wicked": {
-  "hash": "0b3dffae0852ea81",
+  "hash": "73d86faccb508b5e",
   "lastmod": "2026-09-09"
  },
  "/juegos/nomori": {
@@ -1016,8 +1044,8 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/over-requiemz": {
-  "hash": "6b5bdad1647ab153",
-  "lastmod": "2026-09-07"
+  "hash": "060f35e15d689036",
+  "lastmod": "2026-09-09"
  },
  "/juegos/palworld": {
   "hash": "d81216a110a70cf1",
@@ -1056,7 +1084,7 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/pikuniku-2": {
-  "hash": "182201d3fe829a49",
+  "hash": "9f67d4b43ccaabcf",
   "lastmod": "2026-09-09"
  },
  "/juegos/pipistrello-and-the-cursed-yoyo": {
@@ -1068,11 +1096,11 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/pokemon-waves": {
-  "hash": "10683cef3da791ef",
+  "hash": "cda9b69d8d9126c7",
   "lastmod": "2026-09-09"
  },
  "/juegos/pokemon-winds": {
-  "hash": "f5778a5942d8a4b2",
+  "hash": "9571182b17352706",
   "lastmod": "2026-09-09"
  },
  "/juegos/port-of-jumanah": {
@@ -1100,8 +1128,8 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/qliphah-in-providences-shadow": {
-  "hash": "3320a7c5f24fd69f",
-  "lastmod": "2026-09-07"
+  "hash": "a68926416e137e41",
+  "lastmod": "2026-09-09"
  },
  "/juegos/quarantine-zone-the-last-check": {
   "hash": "ee2238b726853c8a",
@@ -1132,7 +1160,7 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/resident-evil-veronica": {
-  "hash": "7d9df32a164fcc36",
+  "hash": "b5f35a4bc788fe39",
   "lastmod": "2026-09-09"
  },
  "/juegos/resonance-a-plague-tale-legacy": {
@@ -1168,7 +1196,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/romancing-saga-3-destinies-united": {
-  "hash": "6b78ce2075dea575",
+  "hash": "8f76ee8d7c01a0d2",
   "lastmod": "2026-09-09"
  },
  "/juegos/route16r": {
@@ -1240,8 +1268,8 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/solo-leveling-arise-overdrive": {
-  "hash": "0028e2ca3a4f5c2f",
-  "lastmod": "2026-09-07"
+  "hash": "b8297255ed5608fb",
+  "lastmod": "2026-09-09"
  },
  "/juegos/soma": {
   "hash": "843c1306102848ef",
@@ -1276,7 +1304,7 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/spyro-a-realm-beyond": {
-  "hash": "2f550bb89122ca4d",
+  "hash": "5dfcd08f6c709c35",
   "lastmod": "2026-09-09"
  },
  "/juegos/stage-tour": {
@@ -1312,11 +1340,11 @@
   "lastmod": "2026-09-08"
  },
  "/juegos/steins-gate-reboot": {
-  "hash": "f8e859b7ea7aba7b",
-  "lastmod": "2026-09-07"
+  "hash": "509a640cca850d41",
+  "lastmod": "2026-09-09"
  },
  "/juegos/steins-gate-reboot-consolas": {
-  "hash": "795a05e33154d615",
+  "hash": "a22eb15f33ecf688",
   "lastmod": "2026-09-09"
  },
  "/juegos/stellar-blade-switch-2": {
@@ -1364,7 +1392,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/the-blood-of-dawnwalker": {
-  "hash": "c33e0e1f0f17b816",
+  "hash": "92b5d8238f0a6e11",
   "lastmod": "2026-09-09"
  },
  "/juegos/the-caribou-trail": {
@@ -1456,7 +1484,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/the-witcher-3-wild-hunt-remastered": {
-  "hash": "8dd73489c92ad039",
+  "hash": "f53c06fad866cd0a",
   "lastmod": "2026-09-09"
  },
  "/juegos/the-witchs-bakery": {
@@ -1480,7 +1508,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/tomb-raider-legacy-of-atlantis": {
-  "hash": "2fcec5c3120c1e08",
+  "hash": "35d94e7bbc71c63d",
   "lastmod": "2026-09-09"
  },
  "/juegos/tomo-endless-blue": {
@@ -1520,8 +1548,8 @@
   "lastmod": "2026-09-08"
  },
  "/juegos/trine-6-together-in-time": {
-  "hash": "83838a62b70d6bfb",
-  "lastmod": "2026-09-07"
+  "hash": "0f9fa8da7ac3d346",
+  "lastmod": "2026-09-09"
  },
  "/juegos/truck-kun-is-supporting-me-from-another-world": {
   "hash": "7196e87f7be87533",
@@ -1536,11 +1564,15 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/turok-origins": {
-  "hash": "262e25c0ae74cef6",
+  "hash": "3a03ece148f6b6e5",
   "lastmod": "2026-09-09"
  },
  "/juegos/two-point-hospital-full-health-collection": {
   "hash": "c7a01e09279eb57f",
+  "lastmod": "2026-09-09"
+ },
+ "/juegos/until-dawn-2": {
+  "hash": "2d5d06570b37d79e",
   "lastmod": "2026-09-09"
  },
  "/juegos/valor-mortis": {
@@ -1628,7 +1660,7 @@
   "lastmod": "2026-09-09"
  },
  "/juegos/xenoblade-genesis": {
-  "hash": "45055ffbe874875e",
+  "hash": "b93bf81dae0bb605",
   "lastmod": "2026-09-09"
  },
  "/juegos/yet-another-zombie-survivors": {
@@ -1640,7 +1672,7 @@
   "lastmod": "2026-09-07"
  },
  "/juegos/yu-gi-oh-tag-force-gx": {
-  "hash": "7b9db6f3ca0984fd",
+  "hash": "98b98877198b11d1",
   "lastmod": "2026-09-09"
  },
  "/julio-2026": {
@@ -1652,7 +1684,7 @@
   "lastmod": "2026-09-08"
  },
  "/marzo-2027": {
-  "hash": "0d92b349c131c3e8",
+  "hash": "bb6eeba40ab1b43d",
   "lastmod": "2026-09-09"
  },
  "/mejores-juegos-agosto-2026": {
@@ -1676,11 +1708,11 @@
   "lastmod": "2026-09-02"
  },
  "/ps4": {
-  "hash": "d21407d0ccbe8800",
+  "hash": "28d54a0450f4fde5",
   "lastmod": "2026-09-09"
  },
  "/ps5": {
-  "hash": "d21407d0ccbe8800",
+  "hash": "28d54a0450f4fde5",
   "lastmod": "2026-09-09"
  },
  "/recomendados": {
@@ -1692,11 +1724,11 @@
   "lastmod": "2026-09-09"
  },
  "/switch": {
-  "hash": "d21407d0ccbe8800",
+  "hash": "28d54a0450f4fde5",
   "lastmod": "2026-09-09"
  },
  "/switch-2": {
-  "hash": "d21407d0ccbe8800",
+  "hash": "28d54a0450f4fde5",
   "lastmod": "2026-09-09"
  },
  "/terminos": {
@@ -1708,7 +1740,7 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "d21407d0ccbe8800",
+  "hash": "28d54a0450f4fde5",
   "lastmod": "2026-09-09"
  }
 }
