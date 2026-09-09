@@ -92,6 +92,13 @@
           </div>
         </div>
 
+        <!-- FILTRO AÑO (se genera desde juegos.js, y la fila se esconde sola si hay un
+             solo año cargado: un filtro con una única opción no filtra nada). -->
+        <div class="filtros" hidden>
+          <div class="filtros-label">FILTRAR POR AÑO:</div>
+          <div class="filtros-botones" id="filtros-anio"></div>
+        </div>
+
         <div class="filtros">
           <button class="filtros-label filtros-toggle" id="toggle-genero"
                   aria-expanded="false" aria-controls="filtros-genero"

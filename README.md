@@ -752,10 +752,10 @@ generadores sola, así que esto sólo hace falta en una edición suelta.
   que viene (respeta los filtros; se oculta si no hay ninguno o en la vista ranking).
 - **Indicadores por día**: `[ HOY ]` (amarillo, parpadea), `[ PRÓXIMO ]` (el primer día
   con lanzamientos después de hoy) y `[ YA DISPONIBLE ]` (verde, días pasados).
-- **Filtros por plataforma y género** (los de género se generan automáticamente desde los
-  datos).
+- **Filtros por plataforma, año y género** (los de año y los de género se generan solos
+  desde los datos, y la fila de año se esconde cuando hay un solo año cargado).
 - **URLs compartibles**: todos los filtros se reflejan en la URL y se pueden combinar —
-  `?plat=PS5&gen=RPG&q=texto&vista=grilla|ranking`. Al cambiar un filtro la URL se actualiza sola
+  `?plat=PS5&gen=RPG&anio=2027&q=texto&vista=grilla|ranking`. Al cambiar un filtro la URL se actualiza sola
   (sin recargar), así cualquier vista se comparte copiando la barra de direcciones. Los
   parámetros inválidos se ignoran sin romper nada.
 - **Buscador**: filtra en vivo por título, desarrollador o género (es texto libre, no hay
@@ -902,6 +902,16 @@ la portada con sus puntajes y sus resúmenes de crítica, y hasta ahora nadie lo
 **El enlace interno importa más que el sitemap.** Cada mes del calendario termina con *"ver
 todos los juegos de…"*. Sin eso Google las encontraría sólo por el sitemap, que es la forma
 más débil de descubrir una página.
+
+**Un mes de puros estimados no tiene página (desde el 09/09/2026).** Los estimados se anclan
+al último día de su ventana, así que un "2027" sin día queda en `2027-12-31` y todos se
+amontonan en diciembre. Con los once anuncios de 2027 del Direct eso armó una
+`/diciembre-2027` titulada *"juegos que salen en diciembre de 2027"* donde ninguno salía en
+diciembre — el cuerpo decía bien SIN FECHA CONFIRMADA, pero el `<h1>`, el `<title>` y la
+meta descripción mentían, que es justo lo que Google lee. Ahora el generador saltea el mes
+si no tiene ni un lanzamiento con día, lo avisa al final, y `main.js` esconde el enlace
+"VER TODOS LOS JUEGOS DE…" de esos meses para no mandar a un 404. Los juegos no se pierden:
+siguen en la portada, en el filtro de año y en su ficha.
 
 **Cuidado con el "mejor puntuado" del subtítulo:** se calcula sólo entre los ya lanzados. Un
 port trae el puntaje del original, así que sin ese filtro un mes futuro anunciaba un mejor
@@ -1643,21 +1653,21 @@ y abrir http://localhost:8080
   Los dos Yomawari, cuando entren, van con `relanzamiento`: son juegos de 2018 y 2022 que
   nunca estuvieron en este calendario, así que alcanza una entrada por juego.
 
-- **2027 todavía no aprieta.** Al 31/08/2026 la eShop tiene **un** juego en enero de 2027 y
-  ninguno en febrero ni marzo, así que el paso 9 de la mensual —estrenar el mes siguiente—
-  no tiene con qué. En el calendario hay un solo juego de 2027 (Trine 6, 04/03) y no tiene
-  puntaje, así que tampoco toca el ranking. La decisión sobre filtros y ranking sigue
-  pendiente pero no está bloqueando nada: cuando las fuentes empiecen a poblar 2027 va a
-  haber tiempo de sobra, y conviene tomarla antes de cargar la primera tanda.
+- **2027 ya está cargado y tiene su filtro (09/09/2026).** El Direct de Nintendo del 9 de
+  septiembre puso seis fechas de 2027 de una sentada, y ahí se resolvió la pregunta que
+  quedaba pendiente: **cómo se lee el calendario con dos años adentro.** La respuesta fue
+  una fila de filtro más, `FILTRAR POR AÑO`, con TODOS / 2026 / 2027.
 
-- **Repensar el ranking para 2027.** Hoy el ranking es una lista por puntaje de Metacritic
-  sobre todo el calendario, que son 360 juegos de un solo año. Cuando entre 2027 empiezan a
-  convivir dos años y la lista deja de significar nada sin decir *de qué*. Hace falta al
-  menos un filtro de año, y probablemente que el ranking pase a ser "lo mejor de 2026" como
-  página propia, que además es contenido que se busca. Va con la pregunta más grande de
-  **cómo se ordenan los filtros cuando haya dos años cargados**: hoy hay plataforma y
-  género, y sumar año a la misma fila puede volverla ilegible en el teléfono. Conviene
-  resolverlo antes de cargar el primer juego de 2027, no después.
+  **Los botones salen de los años que existen**, igual que los de género, y **la fila entera
+  se esconde sola cuando hay un solo año**: un filtro con una única opción no filtra nada y
+  ocupa lugar. Por eso en `/archivo`, que es todo 2026, no se ve.
+
+  Esto también arregla el ranking, que era la otra mitad del problema: era una lista por
+  puntaje sobre todo el calendario y con dos años dejaba de significar nada sin decir de
+  cuál. Ahora se filtra por año y su propio selector de período sigue funcionando encima.
+
+  Se agregó a `index.html` y a `archivo.html`, viaja en la URL como `?anio=2027` y se suma a
+  `sinFiltros`, así el destacado de la portada no aparece cuando hay un año elegido.
 
 - **Creepshow: ¿va o no va en el calendario?** Está cargado para el 13/08/2026 en PS5, PS4,
   Xbox y Switch, pero al 12/08 toda la prensa (Bloody Disgusting, Gizmodo, Engadget, Games

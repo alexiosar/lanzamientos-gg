@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-09T16:40:46+00:00",
+ "generado": "2026-09-09T19:18:04+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 383,
+ "total": 402,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -7979,9 +7979,9 @@
   {
    "id": "turok-origins",
    "titulo": "TUROK: ORIGINS",
-   "fecha": "2026-12-31",
+   "fecha": "2027-12-31",
    "estimado": true,
-   "fechaEstimada": "CUARTO TRIMESTRE 2026",
+   "fechaEstimada": "2027",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -10754,7 +10754,7 @@
    "descripcion": "La edición de Switch 2 del cuarto Pikmin, el que sumó a Oatchi, el perro que carga y pelea. Lo nuevo acá es que a Oatchi se le dan órdenes con la voz, usando el micrófono de la consola, y que viene Academia Dandori, un modo aparte para practicar la organización de tareas que es el corazón de la saga.",
    "trailer": "https://youtube.com/embed/DcXX_Ic1aR8",
    "metacritic": null,
-   "imagen": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/2e43c4664011d4b9c90d583a4897beb6.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-09",
@@ -10782,6 +10782,461 @@
    "psplus": false,
    "alta": "2026-09-09",
    "url": "https://lanzamientos.lat/juegos/monster-hunter-wilds-switch-2"
+  },
+  {
+   "id": "blueys-happy-snaps",
+   "titulo": "BLUEY'S HAPPY SNAPS",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL",
+    "RELAX"
+   ],
+   "desarrollador": "GAMELOFT",
+   "descripcion": "Un juego de sacar fotos con Bluey y Bingo por los lugares que aparecen en la serie. Se recorre, se busca qué retratar y se arma un álbum propio. Está pensado para chicos y para jugarlo al lado de ellos, sin fallar ni perder.",
+   "trailer": "https://youtube.com/embed/8uYZrfXjPfY",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwy.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/blueys-happy-snaps"
+  },
+  {
+   "id": "lego-harry-potter-collection-switch-2",
+   "titulo": "LEGO HARRY POTTER COLLECTION",
+   "relanzamiento": "En consolas desde 2016 y remasterizado en 2024 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-10-16",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "COOP"
+   ],
+   "desarrollador": "TT GAMES",
+   "descripcion": "Los dos juegos de LEGO Harry Potter en un paquete: Años 1-4 y Años 5-7, o sea las siete películas completas. Es la fórmula LEGO de siempre —romper todo, resolver puzles simples y coleccionar— con cooperativo local a pantalla partida, que es como mejor funciona.",
+   "trailer": "https://youtube.com/embed/DSdF1hhuHWY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950340/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/lego-harry-potter-collection-switch-2"
+  },
+  {
+   "id": "stellar-blade-switch-2",
+   "titulo": "STELLAR BLADE: COMPLETE EDITION",
+   "relanzamiento": "En PS5 desde abril de 2024 y en PC desde junio de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-11-05",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG"
+   ],
+   "desarrollador": "SHIFT UP CORPORATION",
+   "descripcion": "EVE baja a una Tierra arrasada a pelearle a los Naytiba. El combate es de parry y contraataque, más cerca de un Nier o un Bayonetta que de un soulslike, y fue lo más elogiado cuando salió en PS5 en 2024. La edición Complete trae el juego con todo lo que se le agregó después.",
+   "trailer": "https://youtube.com/embed/r7FaHEZZaAo",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9wcx.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/stellar-blade-switch-2"
+  },
+  {
+   "id": "metroid-ravenous",
+   "titulo": "METROID RAVENOUS",
+   "fecha": "2027-01-28",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "PLATAFORMA"
+   ],
+   "desarrollador": "NINTENDO",
+   "descripcion": "Samus Aran vuelve en el primer Metroid pensado para Switch 2, anunciado en el Direct de septiembre de 2026 con fecha ya puesta. Nintendo mostró poco: un planeta nuevo, la exploración y el rastreo de siempre, y algo que devora lo que toca.",
+   "trailer": "https://youtube.com/embed/2fezEO5knDg",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocvb8.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/metroid-ravenous"
+  },
+  {
+   "id": "tomb-raider-legacy-of-atlantis",
+   "titulo": "TOMB RAIDER: LEGACY OF ATLANTIS",
+   "fecha": "2027-02-10",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "PLATAFORMA"
+   ],
+   "desarrollador": "CRYSTAL DYNAMICS",
+   "descripcion": "Lara Croft en una Grecia reimaginada, buscando lo que quedó de la Atlántida. Vuelve el peso en la exploración y en las tumbas con puzles, que es de donde salió la saga, con el combate más atrás que en la trilogía anterior.",
+   "trailer": "https://youtube.com/embed/Hl-n_o0xg6U",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob1kg.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/tomb-raider-legacy-of-atlantis"
+  },
+  {
+   "id": "romancing-saga-3-destinies-united",
+   "titulo": "ROMANCING SAGA 3: DESTINIES UNITED",
+   "relanzamiento": "El original de Super Nintendo es de 1995 y se remasterizó en 2019 — esta es la edición nueva",
+   "fecha": "2027-02-16",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "RETRO"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "El tercer Romancing SaGa, el de 1995 que en su momento no salió de Japón. Se elige entre ocho protagonistas y cada uno arma su propia versión de la historia, con un sistema de combate donde las habilidades se aprenden peleando y no subiendo de nivel.",
+   "trailer": "https://youtube.com/embed/n1SOFPOXizc",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocv98.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/romancing-saga-3-destinies-united"
+  },
+  {
+   "id": "yu-gi-oh-tag-force-gx",
+   "titulo": "YU-GI-OH! TAG FORCE GX",
+   "fecha": "2027-02-16",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "CARTAS",
+    "ANIME",
+    "RPG"
+   ],
+   "desarrollador": "KONAMI",
+   "descripcion": "La vuelta de los Tag Force, los Yu-Gi-Oh! de PSP donde además de duelar se hace vida en la Academia de Duelos: se elige compañero, se lo conoce y se pelea en parejas. Está basado en la etapa GX de la serie.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/yu-gi-oh-tag-force-gx"
+  },
+  {
+   "id": "hyrule-warriors-age-of-calamity-definitive-edition",
+   "titulo": "HYRULE WARRIORS: LA ERA DEL CATACLISMO — EDICIÓN DEFINITIVA",
+   "relanzamiento": "En Switch desde noviembre de 2020 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2027-02-25",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "HACK AND SLASH"
+   ],
+   "desarrollador": "KOEI TECMO",
+   "descripcion": "El musou ambientado cien años antes de Breath of the Wild, con la batalla contra el Cataclismo que en aquel juego sólo se contaba. La edición definitiva junta el juego con todo el contenido descargable que salió después.",
+   "trailer": "https://youtube.com/embed/O8-SknQHS2Y",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocv9v.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/hyrule-warriors-age-of-calamity-definitive-edition"
+  },
+  {
+   "id": "final-fantasy-vii-revelation",
+   "titulo": "FINAL FANTASY VII REVELATION",
+   "fecha": "2027-04-08",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "El cierre de la trilogía que empezó con Remake y siguió con Rebirth. Square Enix lo anunció para el 8 de abril de 2027 en el State of Play de septiembre, y en el Direct confirmó que también sale en Switch 2 el mismo día.",
+   "trailer": "https://youtube.com/embed/Ug2-GO6s64Q",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocbgb.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/final-fantasy-vii-revelation"
+  },
+  {
+   "id": "pokemon-winds",
+   "titulo": "POKÉMON WINDS",
+   "fecha": "2027-12-31",
+   "estimado": true,
+   "fechaEstimada": "2027",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "AVENTURA"
+   ],
+   "desarrollador": "GAME FREAK",
+   "descripcion": "Una de las dos mitades de la décima generación de Pokémon, la primera pensada para Switch 2. Se anunció junto a Pokémon Waves y, como siempre en la saga, cada versión tiene sus propios Pokémon exclusivos. Nintendo confirmó 2027 y todavía no dio día.",
+   "trailer": "https://youtube.com/embed/wzJWH9X3Lxc",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobo9k.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/pokemon-winds"
+  },
+  {
+   "id": "pokemon-waves",
+   "titulo": "POKÉMON WAVES",
+   "fecha": "2027-12-31",
+   "estimado": true,
+   "fechaEstimada": "2027",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "AVENTURA"
+   ],
+   "desarrollador": "GAME FREAK",
+   "descripcion": "La otra mitad de la décima generación, hermana de Pokémon Winds. Comparten mundo e historia y se diferencian en qué Pokémon aparecen en cada una, que es la fórmula de la saga desde Rojo y Azul. Sale en 2027, sin día confirmado.",
+   "trailer": "https://youtube.com/embed/wzJWH9X3Lxc",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobo9j.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/pokemon-waves"
+  },
+  {
+   "id": "xenoblade-genesis",
+   "titulo": "XENOBLADE GENESIS",
+   "fecha": "2027-12-31",
+   "estimado": true,
+   "fechaEstimada": "2027",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "MUNDO ABIERTO",
+    "ACCION"
+   ],
+   "desarrollador": "MONOLITH SOFT",
+   "descripcion": "Lo nuevo de Monolith Soft para Switch 2, y por el nombre parece un punto de partida más que una cuarta parte. De momento Nintendo mostró poco: mundos enormes, combate en tiempo real y el sello de la saga, que es dejarte caminar horas antes de que la historia arranque en serio.",
+   "trailer": "https://youtube.com/embed/_oOib9ILoUc",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc8ai.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/xenoblade-genesis"
+  },
+  {
+   "id": "kirby-and-the-world-beyond",
+   "titulo": "KIRBY AND THE WORLD BEYOND",
+   "fecha": "2027-06-30",
+   "estimado": true,
+   "fechaEstimada": "SEGUNDO TRIMESTRE 2027",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "PLATAFORMA"
+   ],
+   "desarrollador": "HAL LABORATORY",
+   "descripcion": "El Kirby en tres dimensiones que sigue a Forgotten Land, con las habilidades de copia de siempre y un mundo abierto para recorrer. Nintendo lo anunció para la primavera boreal de 2027, o sea alrededor de mayo, sin día todavía.",
+   "trailer": "https://youtube.com/embed/ozLDuA0pN5Y",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocvba.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/kirby-and-the-world-beyond"
+  },
+  {
+   "id": "kingdom-hearts-iv",
+   "titulo": "KINGDOM HEARTS IV",
+   "fecha": "2027-12-31",
+   "estimado": true,
+   "fechaEstimada": "2027",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "Sora despierta en Quadratum, una ciudad que parece el Tokio real, y desde ahí arranca la cuarta parte numerada. Square Enix la anunció para fines de 2027 y viene mostrando mundos de a poco, entre ellos el de Coco.",
+   "trailer": "https://youtube.com/embed/lybMpYeO9L8",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocp35.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/kingdom-hearts-iv"
+  },
+  {
+   "id": "spyro-a-realm-beyond",
+   "titulo": "SPYRO: A REALM BEYOND",
+   "fecha": "2027-12-31",
+   "estimado": true,
+   "fechaEstimada": "2027",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA"
+   ],
+   "desarrollador": "TOYS FOR BOB",
+   "descripcion": "El primer Spyro nuevo desde los noventa, sin contar la trilogía rehecha de 2018. Vuelve el plataformas de recorrer mundos abiertos volando y planeando, hecho por el mismo estudio que hizo aquella trilogía.",
+   "trailer": "https://youtube.com/embed/pQlenskhoxI",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7e0.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/spyro-a-realm-beyond"
+  },
+  {
+   "id": "resident-evil-veronica",
+   "titulo": "RESIDENT EVIL VERONICA",
+   "fecha": "2027-12-31",
+   "estimado": true,
+   "fechaEstimada": "2027",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "Capcom rehace Code: Veronica, el de 2000 que en su momento salió en Dreamcast y que quedó como el eslabón que faltaba entre el segundo y el cuarto. Claire Redfield busca a su hermano y termina en una isla prisión de Umbrella.",
+   "trailer": "https://youtube.com/embed/f-HSqQjowBg",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocsoe.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/resident-evil-veronica"
+  },
+  {
+   "id": "lego-skylines",
+   "titulo": "LEGO SKYLINES",
+   "fecha": "2027-12-31",
+   "estimado": true,
+   "fechaEstimada": "2027",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA",
+    "CASUAL"
+   ],
+   "desarrollador": "ICEFLAKE STUDIOS",
+   "descripcion": "Cities: Skylines con piezas de LEGO, hecho por Paradox junto a la marca. Se construye una ciudad con bloques que encajan, así que la simulación de siempre queda envuelta en algo más simple y más de armar que de administrar.",
+   "trailer": "https://youtube.com/embed/4s7Sv_7dBZo",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocriw.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/lego-skylines"
+  },
+  {
+   "id": "pikuniku-2",
+   "titulo": "PIKUNIKU 2",
+   "fecha": "2027-12-31",
+   "estimado": true,
+   "fechaEstimada": "2027",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "PLATAFORMA",
+    "INDIE"
+   ],
+   "desarrollador": "SECTORDUB",
+   "descripcion": "La secuela del absurdo de Devolver, aquel de las piernas larguísimas y el humor seco. Vuelve la exploración con puzles en un mundo de colores planos, ahora con una resistencia de por medio.",
+   "trailer": "https://youtube.com/embed/qWB73ZGDMJA",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ob.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/pikuniku-2"
+  },
+  {
+   "id": "cairn-switch-2",
+   "titulo": "CAIRN",
+   "relanzamiento": "En PS5 y PC desde 2025 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2027-12-31",
+   "estimado": true,
+   "fechaEstimada": "2027",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "SIMULACION",
+    "DEPORTES"
+   ],
+   "desarrollador": "THE GAME BAKERS",
+   "descripcion": "Escalar una montaña que nadie subió, agarre por agarre, midiendo la resistencia y dónde poner cada mano. Lo hicieron los de Furi y Haven, y el eje es el mismo de siempre en ellos: una sola idea llevada hasta el fondo.",
+   "trailer": "https://youtube.com/embed/wqNfImlqR_I",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdqk.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/cairn-switch-2"
   },
   {
    "id": "tmnt-arcade-wrath-of-the-mutants-switch-2",

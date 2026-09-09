@@ -51,6 +51,13 @@
   </url>
 
   <url>
+    <loc>https://lanzamientos.lat/abril-2027</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://lanzamientos.lat/agosto-2026</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -59,6 +66,20 @@
 
   <url>
     <loc>https://lanzamientos.lat/diciembre-2026</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/enero-2027</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/febrero-2027</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -74,13 +95,6 @@
   <url>
     <loc>https://lanzamientos.lat/junio-2026</loc>
     <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://lanzamientos.lat/junio-2027</loc>
-    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -164,7 +178,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/archivo</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -255,7 +269,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/high-on-life-2</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -535,7 +549,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/sprawl-zero</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -584,7 +598,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/sin-reloaded</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -696,7 +710,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/disgaea-mayhem</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -717,7 +731,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/helix-descent-n-ascent</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -780,7 +794,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/bloodrayne-definitive-collection</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -808,7 +822,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/blue-reflection-quartet</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -871,7 +885,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/paw-patrol-dino-world</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -899,7 +913,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/outlaws-handful-of-missions-remaster</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1151,7 +1165,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/elden-ring-switch-2</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1305,7 +1319,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1396,7 +1410,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/the-grinch-2-saving-christmas</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1445,7 +1459,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/garfield-escape-from-monday</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1466,7 +1480,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/minecraft-dungeons-2</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1529,7 +1543,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/two-point-hospital-full-health-collection</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1606,7 +1620,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/console-archives-hercules-no-eikou-ii</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1760,7 +1774,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/dragons-dogma-2-dark-arisen</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1865,7 +1879,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/one-piece-grand-gourmet</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1949,7 +1963,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/007-first-light</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2019,7 +2033,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/call-of-duty-modern-warfare-4</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2299,7 +2313,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/exstetra</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2334,7 +2348,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/sesame-street-amigos-y-risas</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2348,7 +2362,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/paw-patrol-dino-world-switch-2</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2376,7 +2390,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/serious-sam-shatterverse</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2656,7 +2670,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/the-relic-first-guardian-switch-2</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2684,7 +2698,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/flamecraft</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2698,7 +2712,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/the-witcher-3-wild-hunt-remastered</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2740,7 +2754,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/shelldiver</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2844,8 +2858,141 @@
   </url>
 
   <url>
+    <loc>https://lanzamientos.lat/juegos/blueys-happy-snaps</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/lego-harry-potter-collection-switch-2</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/stellar-blade-switch-2</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/metroid-ravenous</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/tomb-raider-legacy-of-atlantis</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/romancing-saga-3-destinies-united</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/yu-gi-oh-tag-force-gx</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/hyrule-warriors-age-of-calamity-definitive-edition</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/final-fantasy-vii-revelation</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/pokemon-winds</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/pokemon-waves</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/xenoblade-genesis</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/kirby-and-the-world-beyond</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/kingdom-hearts-iv</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/spyro-a-realm-beyond</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/resident-evil-veronica</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/lego-skylines</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/pikuniku-2</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/cairn-switch-2</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://lanzamientos.lat/juegos/tmnt-arcade-wrath-of-the-mutants-switch-2</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

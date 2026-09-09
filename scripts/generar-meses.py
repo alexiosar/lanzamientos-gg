@@ -203,7 +203,16 @@ def main():
     por_mes = {}
     for j in juegos:
         por_mes.setdefault(j["fecha"][:7], []).append(j)
-    claves = sorted(por_mes)
+
+    # Un mes donde NINGÚN juego tiene día confirmado no tiene página, y la razón es que
+    # el título mentiría. Los estimados se anclan al último día de su ventana —un "2027"
+    # sin día queda en 2027-12-31—, así que se juntan todos en diciembre y armaban una
+    # página titulada "juegos que salen en diciembre de 2027" donde ninguno sale en
+    # diciembre. Pasó el 09/09/2026 al cargar los once anuncios de 2027 del Direct.
+    # Los juegos no se pierden: siguen en la portada, en el filtro de año y en su ficha.
+    claves = sorted(mk for mk, lista in por_mes.items()
+                    if any(not j.get("estimado") for j in lista))
+    salteados = sorted(set(por_mes) - set(claves))
 
     for i, mk in enumerate(claves):
         anterior = claves[i - 1] if i > 0 else None
@@ -211,6 +220,9 @@ def main():
         html = generar(mk, por_mes[mk], anterior, siguiente, pasado=mk < hoy, primero=(i == 0))
         (RAIZ / f"{slug(mk)}.html").write_text(html, encoding="utf-8")
     print(f"{len(claves)} páginas de mes generadas: {', '.join(slug(k) for k in claves)}")
+    if salteados:
+        print(f"  {len(salteados)} mes(es) sin página, todos sus juegos son estimados: "
+              f"{', '.join(slug(k) for k in salteados)}")
 
 
 if __name__ == "__main__":

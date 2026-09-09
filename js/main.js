@@ -2,6 +2,10 @@
 let filtroActivo = "TODAS";
 let filtroGenero = "TODOS";
 let filtroTexto = "";
+// Año. Existe desde el 09/09/2026, cuando el Direct de Nintendo llenó 2027 de fechas: con
+// dos años cargados, "todos los juegos" deja de ser una respuesta útil y el ranking deja de
+// significar nada sin decir de qué año habla.
+let filtroAnio = "TODOS";
 let vistaActiva = "calendario";
 let rankingPeriodo = "todo"; // todo | mes | 30dias
 
@@ -180,6 +184,7 @@ function actualizarURL() {
   const params = new URLSearchParams();
   if (filtroActivo !== "TODAS")     params.set("plat", filtroActivo);
   if (filtroGenero !== "TODOS")     params.set("gen", filtroGenero);
+  if (filtroAnio !== "TODOS")       params.set("anio", filtroAnio);
   if (filtroTexto !== "")           params.set("q", filtroTexto);
   if (vistaActiva !== "calendario") params.set("vista", vistaActiva);
   const qs = params.toString();
@@ -191,6 +196,36 @@ function activarFiltro(plataforma) {
   filtroActivo = plataforma;
   document.querySelectorAll(".filtro-btn-plat").forEach(b => {
     b.classList.toggle("activo", b.dataset.plat === plataforma);
+  });
+  actualizarURL();
+  renderCalendario();
+}
+
+// ── FILTRO AÑO ──
+// Los botones se arman con los años que EXISTEN en el tramo de esta página, igual que los
+// de género: si un año no tiene juegos, ofrecerlo es mandar a una lista vacía. Con un solo
+// año cargado la fila no se dibuja, porque un filtro con una sola opción no filtra nada.
+function generarFiltrosAnio() {
+  const contenedor = document.getElementById("filtros-anio");
+  if (!contenedor) return;
+  const anios = [...new Set(JUEGOS.filter(enRangoDePagina).map(j => j.fecha.slice(0, 4)))].sort();
+  const fila = contenedor.closest(".filtros");
+  if (anios.length < 2) {
+    if (fila) fila.hidden = true;
+    return;
+  }
+  if (fila) fila.hidden = false;
+  contenedor.innerHTML = ["TODOS", ...anios].map(a => `
+    <button class="filtro-btn ${a === filtroAnio ? 'activo' : ''}"
+            data-anio="${a}"
+            onclick="activarFiltroAnio('${a}')">${a}</button>
+  `).join("");
+}
+
+function activarFiltroAnio(anio) {
+  filtroAnio = anio;
+  document.querySelectorAll("#filtros-anio .filtro-btn").forEach(b => {
+    b.classList.toggle("activo", b.dataset.anio === anio);
   });
   actualizarURL();
   renderCalendario();
@@ -478,10 +513,11 @@ function juegosFiltrados() {
   return JUEGOS.filter(j => {
     const porPlat  = filtroActivo === "TODAS" || j.plataformas.includes(filtroActivo);
     const porGen   = filtroGenero === "TODOS"  || j.genero.includes(filtroGenero);
+    const porAnio  = filtroAnio === "TODOS"    || j.fecha.slice(0, 4) === filtroAnio;
     // busca en título, desarrollador y géneros
     const pajar = `${j.titulo} ${j.desarrollador} ${j.genero.join(" ")}`.toLowerCase();
     const porTexto = filtroTexto === "" || pajar.includes(filtroTexto);
-    return porPlat && porGen && porTexto;
+    return porPlat && porGen && porAnio && porTexto;
   });
 }
 
@@ -587,7 +623,8 @@ function renderCalendario() {
   // a la regla vieja: sigue siendo mejor que nada.
   let destacadoHtml = "";
   let idDestacado = null;
-  const sinFiltros = filtroActivo === "TODAS" && filtroGenero === "TODOS" && filtroTexto === "";
+  const sinFiltros = filtroActivo === "TODAS" && filtroGenero === "TODOS"
+                  && filtroAnio === "TODOS" && filtroTexto === "";
   if (!MODO_ARCHIVO && sinFiltros) {
     const futuros = JUEGOS.filter(j => !j.estimado && j.fecha > hoyKey).sort((a, b) => a.fecha.localeCompare(b.fecha));
     const recomendados = (typeof RECOMENDADOS !== "undefined" && RECOMENDADOS.juegos)
@@ -747,7 +784,7 @@ function renderCalendario() {
         </div>
         <div class="mes-contenido ${abierto ? 'visible' : ''}" id="contenido-${mesKey}">
           ${diasHtml}${estimadosHtml}
-          <a class="mes-ver-todos" href="/${MESES_ES[month - 1].toLowerCase()}-${year}">VER TODOS LOS JUEGOS DE ${nombreMes} ▸</a>
+          ${diasOrdenados.length ? `<a class="mes-ver-todos" href="/${MESES_ES[month - 1].toLowerCase()}-${year}">VER TODOS LOS JUEGOS DE ${nombreMes} ▸</a>` : ""}
         </div>
       </div>
     `;
@@ -865,6 +902,11 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleGeneros();  // si llegan con un género filtrado, que se vea cuál es
   }
 
+  const anioURL = params.get("anio");
+  if (anioURL && JUEGOS.some(j => j.fecha.slice(0, 4) === anioURL)) {
+    filtroAnio = anioURL;
+  }
+
   const qURL = params.get("q");
   if (qURL) {
     filtroTexto = qURL.trim().toLowerCase();
@@ -880,6 +922,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  generarFiltrosAnio();
   generarFiltrosGenero();
   renderCalendario();
   botonArriba();
