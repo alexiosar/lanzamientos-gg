@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">61 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('bus-simulator-27')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -149,6 +155,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas coinciden en dos cosas opuestas y por eso queda en 61. Lo bueno: es lo mejor que hay hoy en simulación de colectivos, con más de cuarenta y cinco modelos con licencia, un mapa grande inspirado en la península ibérica y una sensación de manejo que varias destacan. Lo malo: el estado técnico. La palabra que más se repite es que se siente como un acceso anticipado — errores, un mundo que no termina de estar vivo y sobre todo la inteligencia artificial del resto del tránsito, que es el reparo unánime. La reseña más dura dice que en vez de un buen manejo lo que ofrece es una pila de sistemas accesorios. Casi todas cierran igual: con parches puede llegar a ser el que la saga merece.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-08</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 61: LA MEJOR FLOTA Y EL PEOR ESTADO</span>
+          </div>
+          <p class="noticia-texto">Salió en PS5 y Xbox con más de cuarenta y cinco colectivos con licencia y un mapa nuevo inspirado en España y Portugal, y eso las reseñas se lo reconocen. El problema es técnico: coinciden en que se siente inacabado, con errores y una inteligencia artificial del tránsito que arruina el manejo. Varias dicen que con parches puede terminar siendo bueno.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Conduce autobuses con licencia oficial de fabricantes de renombre y haz que tu empresa de autobuses triunfe. ¡El sistema de transporte público de Felicia Bay cuenta contigo!</p>
