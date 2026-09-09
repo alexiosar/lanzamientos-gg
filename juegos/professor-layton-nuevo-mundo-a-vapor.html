@@ -13,14 +13,14 @@
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
-  <meta property="og:title" content="El Profesor Layton y el Nuevo Mundo a Vapor — CUARTO TRIMESTRE 2026">
+  <meta property="og:title" content="El Profesor Layton y el Nuevo Mundo a Vapor — 10 DICIEMBRE 2026">
   <meta property="og:description" content="El regreso del profesor Layton después de más de una década. Puzles, misterio y una historia nueva ambientada en un mundo movido a vapor, con la…">
   <meta property="og:url" content="https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor">
   <meta property="og:image" content="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co66va.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "EL PROFESOR LAYTON Y EL NUEVO MUNDO A VAPOR", "url": "https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor", "description": "El regreso del profesor Layton después de más de una década. Puzles, misterio y una historia nueva ambientada en un mundo movido a vapor, con la estética y la música que definieron la saga.", "datePublished": "2026-12-31", "gamePlatform": ["SWITCH 2", "SWITCH", "PS5"], "genre": ["PUZZLE", "AVENTURA", "ANIME"], "inLanguage": "es", "author": {"@type": "Organization", "name": "LEVEL-5"}, "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co66va.jpg", "trailer": {"@type": "VideoObject", "name": "El profesor Layton y el Nuevo Mundo a vapor – Tráiler de presentación (Nintendo Switch)", "description": "El regreso del profesor Layton después de más de una década. Puzles, misterio y una historia nueva ambientada en un mundo movido a vapor, con la estética y la música que definieron la saga.", "thumbnailUrl": "https://i.ytimg.com/vi/9Sj0BXBNugQ/hqdefault.jpg", "uploadDate": "2024-11-28T06:00:11-08:00", "embedUrl": "https://youtube.com/embed/9Sj0BXBNugQ"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "EL PROFESOR LAYTON Y EL NUEVO MUNDO A VAPOR", "url": "https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor", "description": "El regreso del profesor Layton después de más de una década. Puzles, misterio y una historia nueva ambientada en un mundo movido a vapor, con la estética y la música que definieron la saga.", "datePublished": "2026-12-10", "gamePlatform": ["SWITCH 2", "SWITCH", "PS5"], "genre": ["PUZZLE", "AVENTURA", "ANIME"], "inLanguage": "es", "author": {"@type": "Organization", "name": "LEVEL-5"}, "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co66va.jpg", "trailer": {"@type": "VideoObject", "name": "El profesor Layton y el Nuevo Mundo a vapor – Tráiler de presentación (Nintendo Switch)", "description": "El regreso del profesor Layton después de más de una década. Puzles, misterio y una historia nueva ambientada en un mundo movido a vapor, con la estética y la música que definieron la saga.", "thumbnailUrl": "https://i.ytimg.com/vi/9Sj0BXBNugQ/hqdefault.jpg", "uploadDate": "2024-11-28T06:00:11-08:00", "embedUrl": "https://youtube.com/embed/9Sj0BXBNugQ"}}</script>
 
   <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
   <link rel="stylesheet" href="../css/style.css">
@@ -43,6 +43,15 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -118,9 +127,9 @@
             <div class="seccion-titulo">DATOS</div>
             <div class="meta-grid">
               <div>
-                <span class="ficha-campo-label">FECHA ESTIMADA</span>
-                <span class="ficha-campo-valor">CUARTO TRIMESTRE 2026</span>
-                <span class="relanzamiento">◔ FECHA EXACTA SIN CONFIRMAR</span>
+                <span class="ficha-campo-label">FECHA DE LANZAMIENTO</span>
+                <span class="ficha-campo-valor">10 DICIEMBRE 2026</span>
+                <span class="cuenta-regresiva" id="regresiva" data-fecha="2026-12-10"></span>
               </div>
               <div>
                 <span class="ficha-campo-label">PLATAFORMAS</span>
@@ -136,7 +145,7 @@
               </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
-              
+              <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('professor-layton-nuevo-mundo-a-vapor')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
               <button class="btn-trailer" id="btn-compartir" onclick="compartirJuego('professor-layton-nuevo-mundo-a-vapor')">⇗ COMPARTIR</button>
               <!-- La ficha es un archivo estático y cacheable, así que sale siempre en
                    "sin guardar": favPintar() lo corrige al cargar según lo que haya en
@@ -149,6 +158,25 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-09</span>
+            <span class="noticia-titulo">▸ YA TIENE DÍA: 10 DE DICIEMBRE</span>
+          </div>
+          <p class="noticia-texto">Nintendo lo confirmó en el Direct. Venía anunciado para fin de 2026 sin día, y ahora la eShop lo lista para el 10 de diciembre. Es el regreso de Layton después de más de una década.</p>
+        </div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-09</span>
+            <span class="noticia-titulo">▸ EL DIRECT LLENÓ OCTUBRE, NOVIEMBRE Y DICIEMBRE DE SWITCH 2</span><span class="noticia-cat cat-eventos">EVENTOS</span>
+          </div>
+          <p class="noticia-texto">Nintendo dedicó el Direct a lo que queda del año y a 2027, y lo del año se puede resumir en una frase: la Switch 2 se lleva casi todo lo grande que faltaba. El 16 de octubre llegan los tres rehechos de Resident Evil —el 2, el 3 y el 4—, el 5 de noviembre Marvel&#x27;s Guardians of the Galaxy en su Encore Edition, el 12 Pikmin 4 con un modo nuevo y con órdenes por voz para Oatchi, y el 4 de diciembre Monster Hunter Wilds. El profesor Layton y el Nuevo Mundo a vapor, que venía sin día, quedó para el 10 de diciembre.
+
+Lo de 2027 fue más largo todavía: Metroid Ravenous el 28 de enero, Danganronpa 2×2 el 14, Tomb Raider: Legacy of Atlantis el 12 de febrero, Persona 4 Revival el 20 de mayo y Kirby and the World Beyond en primavera boreal, además de una versión de Persona 6 para la consola. Esas fechas todavía no entran al calendario, que hoy llega hasta marzo de 2027.</p><a class="noticia-fuente" href="https://www.nintendo.com/us/nintendo-direct/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">El regreso del profesor Layton después de más de una década. Puzles, misterio y una historia nueva ambientada en un mundo movido a vapor, con la estética y la música que definieron la saga.</p>
@@ -168,6 +196,14 @@
       <div class="seccion">
         <div class="seccion-titulo">JUEGOS RELACIONADOS</div>
         <div class="rel-grid">
+          <a class="rel-item" href="/juegos/dragon-quest-monsters-the-withered-world">
+            <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7pv.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">DRAGON QUEST MONSTERS: EL REINO MARCHITO</span>
+              <span class="rel-fecha">03 DIC</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
           <a class="rel-item" href="/juegos/broken-sword-parzivals-stone">
             <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2546810/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -182,14 +218,6 @@
               <span class="rel-titulo">SUBLUSTRUM</span>
               <span class="rel-fecha">CUARTO TRIMESTRE 2026</span>
               <span class="plataformas"><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/dragon-quest-monsters-the-withered-world">
-            <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7pv.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">DRAGON QUEST MONSTERS: EL REINO MARCHITO</span>
-              <span class="rel-fecha">03 DIC</span>
-              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-PS5">PS5</span></span>
             </span>
           </a>
           <a class="rel-item" href="/juegos/steins-gate-reboot-consolas">
@@ -245,6 +273,14 @@
               <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
             </span>
           </a>
+          <a class="rel-item" href="/juegos/monster-hunter-wilds-switch-2">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">MONSTER HUNTER WILDS</span>
+              <span class="rel-fecha">04 DIC</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
           <a class="rel-item" href="/juegos/attack-on-titan-3">
             <img class="rel-portada" src="https://cdn2.steamgriddb.com/grid/cb07accc409bbb4c0adc6afb26cf351b.png" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -259,14 +295,6 @@
               <span class="rel-titulo">POWER RACING BUNDLE 4</span>
               <span class="rel-fecha">25 DIC</span>
               <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/aeterna-lucis">
-            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2710920/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">AETERNA LUCIS</span>
-              <span class="rel-fecha">CUARTO TRIMESTRE 2026</span>
-              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
             </span>
           </a>
         </div>

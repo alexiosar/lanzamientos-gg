@@ -6,13 +6,29 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Wed, 09 Sep 2026 13:44:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 16:40:46 +0000</lastBuildDate>
+    <item>
+      <title>EL PROFESOR LAYTON Y EL NUEVO MUNDO A VAPOR: YA TIENE DÍA: 10 DE DICIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor</link>
+      <guid isPermaLink="false">professor-layton-nuevo-mundo-a-vapor-2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Nintendo lo confirmó en el Direct. Venía anunciado para fin de 2026 sin día, y ahora la eShop lo lista para el 10 de diciembre. Es el regreso de Layton después de más de una década. — EL PROFESOR LAYTON Y EL NUEVO MUNDO A VAPOR para SWITCH 2 / SWITCH / PS5.</description>
+    </item>
     <item>
       <title>CHRONOSCRIPT: THE ENDLESS END: SE RETRASA MEDIO AÑO: PASA A 2027</title>
       <link>https://lanzamientos.lat/juegos/chronoscript-the-endless-end</link>
       <guid isPermaLink="false">chronoscript-the-endless-end-2026-09-09</guid>
       <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
       <description>Shueisha Games y DeskWorks lo movieron de fin de 2026 a principios del verano de 2027, que en el hemisferio norte es alrededor de junio. Todavía no hay día confirmado y la PlayStation Store lo sigue listando como anunciado, sin fecha. — CHRONOSCRIPT: THE ENDLESS END para PS5.</description>
+    </item>
+    <item>
+      <title>EL DIRECT LLENÓ OCTUBRE, NOVIEMBRE Y DICIEMBRE DE SWITCH 2</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">nintendo-direct-9-septiembre-2026</guid>
+      <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Nintendo dedicó el Direct a lo que queda del año y a 2027, y lo del año se puede resumir en una frase: la Switch 2 se lleva casi todo lo grande que faltaba. El 16 de octubre llegan los tres rehechos de Resident Evil —el 2, el 3 y el 4—, el 5 de noviembre Marvel's Guardians of the Galaxy en su Encore Edition, el 12 Pikmin 4 con un modo nuevo y con órdenes por voz para Oatchi, y el 4 de diciembre Monster Hunter Wilds. El profesor Layton y el Nuevo Mundo a vapor, que venía sin día, quedó para el 10 de diciembre.
+
+Lo de 2027 fue más largo todavía: Metroid Ravenous el 28 de enero, Danganronpa 2×2 el 14, Tomb Raider: Legacy of Atlantis el 12 de febrero, Persona 4 Revival el 20 de mayo y Kirby and the World Beyond en primavera boreal, además de una versión de Persona 6 para la consola. Esas fechas todavía no entran al calendario, que hoy llega hasta marzo de 2027.</description>
     </item>
     <item>
       <title>SPRAWL ZERO: DEBUTA CON 75: UN SHOOTER DE LOS DE ANTES</title>
@@ -274,20 +290,6 @@ Ese mismo día sale una Nintendo Switch 2 con diseño de la edición 40.º anive
       <guid isPermaLink="false">brigandine-abyss-2026-08-27</guid>
       <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
       <description>La prensa reconoce la profundidad —seis campañas y una gestión de ejércitos muy trabajada— pero la mayoría termina decepcionada. El reproche que se repite es que esta entrega buscó ser más accesible y perdió por el camino lo que hacía de la serie un objeto de culto. — BRIGANDINE: ABYSS para SWITCH 2 / PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>RESONANCE: A PLAGUE TALE LEGACY: DEBUTA CON 79 Y DIVIDE A LA PRENSA</title>
-      <link>https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy</link>
-      <guid isPermaLink="false">resonance-a-plague-tale-legacy-2026-08-27</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Es el estreno más discutido de la semana: hay reseñas de 95 y de 60. Nadie discute el apartado visual ni la banda sonora de Olivier Derivière; lo que se discute es el giro de la serie hacia la acción, con menos sigilo y menos ratas. Los reparos más repetidos son el arranque lento y el rendimiento. — RESONANCE: A PLAGUE TALE LEGACY para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>STAR WARS ZERO COMPANY: DEBUTA CON 86 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/star-wars-zero-company</link>
-      <guid isPermaLink="false">star-wars-zero-company-2026-08-27</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-      <description>El debut de Bit Reactor es de lo mejor puntuado del año. La prensa lo describe como XCOM en el universo Star Wars hecho en serio, y elogia sobre todo la historia de un escuadrón sin usuarios de la Fuerza. Los reparos que se repiten son el arranque lento y los problemas técnicos en PC. — STAR WARS ZERO COMPANY para XBOX / PS5.</description>
     </item>
   </channel>
 </rss>

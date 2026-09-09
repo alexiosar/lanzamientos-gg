@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-09T13:44:50+00:00",
+ "generado": "2026-09-09T16:40:46+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 377,
+ "total": 383,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -8006,9 +8006,7 @@
   {
    "id": "professor-layton-nuevo-mundo-a-vapor",
    "titulo": "EL PROFESOR LAYTON Y EL NUEVO MUNDO A VAPOR",
-   "fecha": "2026-12-31",
-   "estimado": true,
-   "fechaEstimada": "CUARTO TRIMESTRE 2026",
+   "fecha": "2026-12-10",
    "plataformas": [
     "SWITCH2",
     "SWITCH",
@@ -8027,7 +8025,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor"
+   "url": "https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor",
+   "noticias": [
+    {
+     "fecha": "2026-09-09",
+     "titulo": "YA TIENE DÍA: 10 DE DICIEMBRE",
+     "texto": "Nintendo lo confirmó en el Direct. Venía anunciado para fin de 2026 sin día, y ahora la eShop lo lista para el 10 de diciembre. Es el regreso de Layton después de más de una década."
+    }
+   ]
   },
   {
    "id": "mariachi-legends",
@@ -10641,6 +10646,142 @@
    "psplus": false,
    "alta": "2026-09-09",
    "url": "https://lanzamientos.lat/juegos/nomori"
+  },
+  {
+   "id": "resident-evil-2-switch-2",
+   "titulo": "RESIDENT EVIL 2: DELUXE EDITION",
+   "relanzamiento": "En PS4, Xbox y PC desde enero de 2019 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-10-16",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "El rehecho del clásico de 1998, ahora en Switch 2. Leon Kennedy y Claire Redfield llegan a Raccoon City el día que todo se cae a pedazos, con cámara al hombro y munición contada. El Tyrant persigue por los pasillos de la comisaría y no se lo puede matar, sólo demorar. La edición Deluxe suma los trajes y los extras que salieron aparte.",
+   "trailer": "https://youtube.com/embed/4C10U-O1kZ8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/resident-evil-2-switch-2"
+  },
+  {
+   "id": "resident-evil-3-switch-2",
+   "titulo": "RESIDENT EVIL 3",
+   "relanzamiento": "En PS4, Xbox y PC desde abril de 2020 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-10-16",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "Jill Valentine intenta salir de Raccoon City mientras Umbrella le suelta atrás a Nemesis, que la persigue por toda la ciudad y no para. Es más de acción y más corto que el rehecho de Resident Evil 2, con esquive en lugar de aguantar el golpe. Trae adentro Resident Evil Resistance, el multijugador asimétrico de cuatro contra uno.",
+   "trailer": "https://youtube.com/embed/4C10U-O1kZ8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/resident-evil-3-switch-2"
+  },
+  {
+   "id": "resident-evil-4-switch-2",
+   "titulo": "RESIDENT EVIL 4: GOLD EDITION",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde marzo de 2023 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-10-16",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "Leon vuelve a la aldea a buscar a la hija del presidente, y el rehecho de 2023 es de los mejor recibidos que hizo Capcom: mantiene el ritmo del original de 2005 y le suma parry con el cuchillo y un sigilo que antes no estaba. La edición Gold trae el juego completo, el episodio de Ada y todo lo que salió después.",
+   "trailer": "https://youtube.com/embed/4C10U-O1kZ8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/resident-evil-4-switch-2"
+  },
+  {
+   "id": "marvels-guardians-of-the-galaxy-switch-2",
+   "titulo": "MARVEL'S GUARDIANS OF THE GALAXY: ENCORE EDITION",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde octubre de 2021 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-11-05",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "EIDOS-MONTRÉAL",
+   "descripcion": "Se juega solamente como Star-Lord y a los otros cuatro Guardianes se los manda en combate, que es lo que lo hace distinto de un juego de superhéroes común. La otra mitad son las decisiones de diálogo, que cambian cómo te trata el equipo. Salió en 2021 con muy buenas críticas y quedó como una de las sorpresas de aquel año.",
+   "trailer": "https://youtube.com/embed/y6W0u0eAdv8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088850/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/marvels-guardians-of-the-galaxy-switch-2"
+  },
+  {
+   "id": "pikmin-4-switch-2",
+   "titulo": "PIKMIN 4 — NINTENDO SWITCH 2 EDITION + ACADEMIA DANDORI",
+   "relanzamiento": "En Switch desde julio de 2023 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-11-12",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "AVENTURA"
+   ],
+   "desarrollador": "NINTENDO",
+   "descripcion": "La edición de Switch 2 del cuarto Pikmin, el que sumó a Oatchi, el perro que carga y pelea. Lo nuevo acá es que a Oatchi se le dan órdenes con la voz, usando el micrófono de la consola, y que viene Academia Dandori, un modo aparte para practicar la organización de tareas que es el corazón de la saga.",
+   "trailer": "https://youtube.com/embed/DcXX_Ic1aR8",
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/pikmin-4-switch-2"
+  },
+  {
+   "id": "monster-hunter-wilds-switch-2",
+   "titulo": "MONSTER HUNTER WILDS",
+   "relanzamiento": "En PS5, Xbox y PC desde febrero de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-12-04",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "COOP"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "El Monster Hunter de 2025 llega a Switch 2. Lo que lo separa de los anteriores es que el mundo cambia solo: las tormentas y las estaciones alteran el terreno y el comportamiento de los monstruos en medio de la cacería. Se juega en cooperativo de hasta cuatro y el ciclo de siempre sigue intacto — cazar, hacerse el equipo con lo que dejó el monstruo, cazar algo más grande.",
+   "trailer": "https://youtube.com/embed/4vEnGRYRFS4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/monster-hunter-wilds-switch-2"
   },
   {
    "id": "tmnt-arcade-wrath-of-the-mutants-switch-2",
