@@ -7381,13 +7381,20 @@ const JUEGOS = [
     plataformas: ["SWITCH2"],
     genero: ["RPG", "MUNDO ABIERTO", "ACCION"],
     desarrollador: "CD PROJEKT RED",
-    descripcion: "La remasterización de uno de los RPG de mundo abierto más premiados de la década llega a Switch 2. Geralt de Rivia, el Continente entero y las dos expansiones grandes, Hearts of Stone y Blood and Wine.",
+    descripcion: "La remasterización de uno de los RPG de mundo abierto más premiados de la década llega a Switch 2. Geralt de Rivia, el Continente entero y las dos expansiones grandes, Hearts of Stone y Blood and Wine. El mismo día la remasterización llega también a PS5, Xbox y PC, pero ahí no se vende aparte: es una actualización gratuita para quien ya tenga el juego.",
     trailer: "https://youtube.com/embed/IGk17XQ7IrQ",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocrjd.jpg",
     gamepass: false,
     psplus: false,
-    alta: "2026-08-28"
+    alta: "2026-08-28",
+    noticias: [
+      {
+        fecha: "2026-08-26",
+        titulo: "EN SWITCH 2 SE COMPRA, EN LAS DEMÁS ES GRATIS",
+        texto: "El 29 de septiembre la remasterización llega a todos lados, pero no de la misma forma. En Switch 2 es un producto nuevo que se compra en la eShop, porque lo que había ahí era la versión de Switch 1. En PS5, Xbox, Steam, GOG y Epic es una actualización gratuita para quien ya tenga The Witcher 3, y lo dice CD Projekt en el tráiler de anuncio.\n\nHay un segundo regalo: los que tengan el juego base y no las expansiones se quedan con Hearts of Stone y Blood and Wine sin pagar. Las dos vienen incluidas también en la versión remasterizada. Por eso en el calendario figura sólo en Switch 2 — en las otras consolas no es un lanzamiento sino un parche, y esos no entran."
+      }
+    ]
   },
 
   {
