@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-10T14:23:36+00:00",
+ "generado": "2026-09-10T18:32:44+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 411,
+ "total": 423,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -4721,7 +4721,9 @@
   {
    "id": "screenbound",
    "titulo": "SCREENBOUND",
-   "fecha": "2026-09-10",
+   "fecha": "2026-09-30",
+   "estimado": true,
+   "fechaEstimada": "SEPTIEMBRE 2026",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -10096,7 +10098,8 @@
    "fecha": "2026-10-08",
    "plataformas": [
     "PS5",
-    "XBOX"
+    "XBOX",
+    "SWITCH2"
    ],
    "genero": [
     "AVENTURA",
@@ -11494,6 +11497,273 @@
    "psplus": false,
    "alta": "2026-09-10",
    "url": "https://lanzamientos.lat/juegos/muramasa-revenant-blades"
+  },
+  {
+   "id": "down-pit",
+   "titulo": "DOWN PIT",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ARCADE",
+    "PLATAFORMA",
+    "INDIE"
+   ],
+   "desarrollador": "TACKORAMA",
+   "descripcion": "Un arcade de cavar hacia abajo: se baja por el pozo rompiendo piedra, se junta lo que aparece y se sale a cobrar antes de quedarse sin nada. De los chicos de la eShop, pensado para partidas cortas.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/down-pit"
+  },
+  {
+   "id": "monster-nursery",
+   "titulo": "MONSTER NURSERY",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "RELAX",
+    "SIMULACION",
+    "INDIE"
+   ],
+   "desarrollador": "MIFAGAMES",
+   "descripcion": "Un juego de criar y coleccionar monstruos que avanza solo, incluso con la consola apagada. Doscientas criaturas para completar y diez temas de lo-fi de fondo: está hecho para dejarlo corriendo y volver cada tanto.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmdp.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/monster-nursery"
+  },
+  {
+   "id": "rally-hypercar-bundle",
+   "titulo": "RALLY & HYPERCAR BUNDLE",
+   "fecha": "2026-10-02",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "ARCADE"
+   ],
+   "desarrollador": "SUPERPOWERUPGAMES",
+   "descripcion": "Dos juegos de carreras en un paquete, uno de rally y otro de superdeportivos. Es de los baratos de la eShop, del mismo estudio que arma los Power Racing Bundle.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/rally-hypercar-bundle"
+  },
+  {
+   "id": "screaming-halls-horror",
+   "titulo": "SCREAMING HALLS: HORROR",
+   "fecha": "2026-10-02",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "ARCADE",
+    "INDIE"
+   ],
+   "desarrollador": "DOWNMEADOWSTREET",
+   "descripcion": "Terror de pasillos que no terminan nunca: se avanza por corredores que se repiten con variaciones y hay que notar qué cambió para salir. Corto y de sustos directos.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocq0l.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/screaming-halls-horror"
+  },
+  {
+   "id": "heroic-songs-the-remix",
+   "titulo": "HEROIC SONGS: THE REMIX!",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "SIMULACION",
+    "MUSICA",
+    "ANIME"
+   ],
+   "desarrollador": "FRONTIER WORKS",
+   "descripcion": "Mitad construcción de ciudad, mitad manejo de ídolas: se levanta un santuario en mundos de fantasía y se administra al grupo que canta ahí. Estética de anime y bucle de gestión.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaiqr.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/heroic-songs-the-remix"
+  },
+  {
+   "id": "rainbow-islands-cs",
+   "titulo": "RAINBOW ISLANDS CS",
+   "relanzamiento": "El original de arcade es de 1987 — esta edición junta seis versiones distintas",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ARCADE",
+    "PLATAFORMA",
+    "RETRO"
+   ],
+   "desarrollador": "TAITO",
+   "descripcion": "La secuela de Bubble Bobble, el plataformas de subir haciendo arcoíris que sirven de escalón y de arma. Esta edición trae seis versiones del juego, de la de arcade a las conversiones caseras de la época.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6it5.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/rainbow-islands-cs"
+  },
+  {
+   "id": "horse-club-ride-west",
+   "titulo": "HORSE CLUB RIDE WEST",
+   "fecha": "2026-10-09",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "SIMULACION",
+    "CASUAL"
+   ],
+   "desarrollador": "WILD RIVER GAMES",
+   "descripcion": "Un juego de caballos ambientado en un rancho del oeste: se cuida al animal, se sale a cabalgar y se cumplen encargos por el mapa. Está apuntado a chicos.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmgj.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/horse-club-ride-west"
+  },
+  {
+   "id": "pardon-my-french-toast",
+   "titulo": "PARDON MY FRENCH TOAST",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "REROLLED STUDIO",
+   "descripcion": "Un plataformas en tres dimensiones donde el protagonista es una tostada que se unta cosas encima para conseguir habilidades: dulce de leche para pegarse a las paredes, mermelada para rebotar. La idea entera sale de ahí.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9vev.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/pardon-my-french-toast"
+  },
+  {
+   "id": "fatal-fury-city-of-the-wolves-switch-2",
+   "titulo": "FATAL FURY: CITY OF THE WOLVES",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde abril de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-10-22",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "LUCHA",
+    "ARCADE"
+   ],
+   "desarrollador": "SNK",
+   "descripcion": "La vuelta de Fatal Fury después de veintiséis años, ahora en Switch 2. Pelea uno contra uno en South Town con el sistema REV, que premia atacar sin parar pero castiga pasarse de rosca. Rock Howard vuelve a estar en el centro.",
+   "trailer": "https://youtube.com/embed/ZjjeJMy21Wg",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9z8m.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/fatal-fury-city-of-the-wolves-switch-2"
+  },
+  {
+   "id": "warrior-cats-clans-of-the-forest",
+   "titulo": "WARRIOR CATS: CLANS OF THE FOREST",
+   "fecha": "2026-10-23",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG"
+   ],
+   "desarrollador": "TRAILMARK GAMES",
+   "descripcion": "Basado en Los gatos guerreros, la saga de libros: se juega como un gato de clan, se caza, se pelea por el territorio y se sube de rango. Mundo abierto de bosque con estaciones y jerarquía entre clanes.",
+   "trailer": "https://youtube.com/embed/NlB8mR-bd6E",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmt9.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/warrior-cats-clans-of-the-forest"
+  },
+  {
+   "id": "the-seance-of-blake-manor",
+   "titulo": "THE SÉANCE OF BLAKE MANOR",
+   "fecha": "2026-10-27",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "HORROR"
+   ],
+   "desarrollador": "RAW FURY",
+   "descripcion": "Una investigación en una mansión apartada donde pasa algo que no se explica solo. Se recorre, se junta evidencia y se arma qué pasó, con sesiones de espiritismo de por medio. Lo publica Raw Fury.",
+   "trailer": "https://youtube.com/embed/lKI7DVrhWL8",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/4b21069e4de1d75b74640d2691e9f2d7.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/the-seance-of-blake-manor"
+  },
+  {
+   "id": "tarot-tokens",
+   "titulo": "TAROT TOKENS",
+   "fecha": "2026-11-01",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "TABLERO",
+    "ESTRATEGIA",
+    "INDIE"
+   ],
+   "desarrollador": "TACKORAMA",
+   "descripcion": "Un juego de tablero con fichas y cartas de tarot, armado alrededor del viaje del Loco. Se juegan las cartas por su valor y por lo que significan, que es de donde sale la estrategia.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocvg6.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/tarot-tokens"
   },
   {
    "id": "tmnt-arcade-wrath-of-the-mutants-switch-2",

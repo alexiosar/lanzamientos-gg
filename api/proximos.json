@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-10T14:23:36+00:00",
+ "generado": "2026-09-10T18:32:44+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-10",
  "hasta": "2026-10-10",
- "total": 93,
+ "total": 99,
  "juegos": [
   {
    "id": "the-alighieri-circle-dantes-bloodline",
@@ -29,28 +29,6 @@
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdjw.jpg",
    "alta": "2026-08-19",
    "url": "https://lanzamientos.lat/juegos/the-alighieri-circle-dantes-bloodline"
-  },
-  {
-   "id": "screenbound",
-   "titulo": "SCREENBOUND",
-   "fecha": "2026-09-10",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "INDIE"
-   ],
-   "desarrollador": "CRESCENT MOON GAMES",
-   "descripcion": "¡Screenbound te hará descubrir una realidad dual a través de la Qboy! Resuelve puzles desafiantes y ábrete paso por múltiples niveles en una mezcla de plataformas en 2D y 3D que da origen al primer juego de plataformas en 5D del mundo.",
-   "trailer": "https://youtube.com/embed/x9OWKc0N3b8",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2805070/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/screenbound"
   },
   {
    "id": "the-legend-of-heroes-trails-from-zero",
@@ -1875,6 +1853,50 @@
    ]
   },
   {
+   "id": "down-pit",
+   "titulo": "DOWN PIT",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ARCADE",
+    "PLATAFORMA",
+    "INDIE"
+   ],
+   "desarrollador": "TACKORAMA",
+   "descripcion": "Un arcade de cavar hacia abajo: se baja por el pozo rompiendo piedra, se junta lo que aparece y se sale a cobrar antes de quedarse sin nada. De los chicos de la eShop, pensado para partidas cortas.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/down-pit"
+  },
+  {
+   "id": "monster-nursery",
+   "titulo": "MONSTER NURSERY",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "RELAX",
+    "SIMULACION",
+    "INDIE"
+   ],
+   "desarrollador": "MIFAGAMES",
+   "descripcion": "Un juego de criar y coleccionar monstruos que avanza solo, incluso con la consola apagada. Doscientas criaturas para completar y diez temas de lo-fi de fondo: está hecho para dejarlo corriendo y volver cada tanto.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmdp.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/monster-nursery"
+  },
+  {
    "id": "ace-combat-8-wings-of-theve",
    "titulo": "ACE COMBAT 8: WINGS OF THEVE",
    "fecha": "2026-10-02",
@@ -1917,6 +1939,50 @@
    "psplus": false,
    "alta": "2026-08-01",
    "url": "https://lanzamientos.lat/juegos/paw-patrol-dino-world-switch-2"
+  },
+  {
+   "id": "rally-hypercar-bundle",
+   "titulo": "RALLY & HYPERCAR BUNDLE",
+   "fecha": "2026-10-02",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "ARCADE"
+   ],
+   "desarrollador": "SUPERPOWERUPGAMES",
+   "descripcion": "Dos juegos de carreras en un paquete, uno de rally y otro de superdeportivos. Es de los baratos de la eShop, del mismo estudio que arma los Power Racing Bundle.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/rally-hypercar-bundle"
+  },
+  {
+   "id": "screaming-halls-horror",
+   "titulo": "SCREAMING HALLS: HORROR",
+   "fecha": "2026-10-02",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "ARCADE",
+    "INDIE"
+   ],
+   "desarrollador": "DOWNMEADOWSTREET",
+   "descripcion": "Terror de pasillos que no terminan nunca: se avanza por corredores que se repiten con variaciones y hay que notar qué cambió para salir. Corto y de sustos directos.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocq0l.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/screaming-halls-horror"
   },
   {
    "id": "gears-of-war-e-day",
@@ -2230,7 +2296,8 @@
    "fecha": "2026-10-08",
    "plataformas": [
     "PS5",
-    "XBOX"
+    "XBOX",
+    "SWITCH2"
    ],
    "genero": [
     "AVENTURA",
@@ -2246,6 +2313,51 @@
    "psplus": false,
    "alta": "2026-08-18",
    "url": "https://lanzamientos.lat/juegos/order-of-the-sinking-star"
+  },
+  {
+   "id": "heroic-songs-the-remix",
+   "titulo": "HEROIC SONGS: THE REMIX!",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "SIMULACION",
+    "MUSICA",
+    "ANIME"
+   ],
+   "desarrollador": "FRONTIER WORKS",
+   "descripcion": "Mitad construcción de ciudad, mitad manejo de ídolas: se levanta un santuario en mundos de fantasía y se administra al grupo que canta ahí. Estética de anime y bucle de gestión.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaiqr.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/heroic-songs-the-remix"
+  },
+  {
+   "id": "rainbow-islands-cs",
+   "titulo": "RAINBOW ISLANDS CS",
+   "relanzamiento": "El original de arcade es de 1987 — esta edición junta seis versiones distintas",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ARCADE",
+    "PLATAFORMA",
+    "RETRO"
+   ],
+   "desarrollador": "TAITO",
+   "descripcion": "La secuela de Bubble Bobble, el plataformas de subir haciendo arcoíris que sirven de escalón y de arma. Esta edición trae seis versiones del juego, de la de arcade a las conversiones caseras de la época.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6it5.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/rainbow-islands-cs"
   },
   {
    "id": "dragons-dogma-2-dark-arisen",
@@ -2321,6 +2433,28 @@
    "psplus": false,
    "alta": "2026-08-18",
    "url": "https://lanzamientos.lat/juegos/the-relic-first-guardian-switch-2"
+  },
+  {
+   "id": "horse-club-ride-west",
+   "titulo": "HORSE CLUB RIDE WEST",
+   "fecha": "2026-10-09",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "SIMULACION",
+    "CASUAL"
+   ],
+   "desarrollador": "WILD RIVER GAMES",
+   "descripcion": "Un juego de caballos ambientado en un rancho del oeste: se cuida al animal, se sale a cabalgar y se cumplen encargos por el mapa. Está apuntado a chicos.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmgj.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/horse-club-ride-west"
   },
   {
    "id": "tmnt-arcade-wrath-of-the-mutants-switch-2",
