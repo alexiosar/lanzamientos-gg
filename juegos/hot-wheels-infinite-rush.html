@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">75 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('hot-wheels-infinite-rush')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -149,6 +155,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Casi todas las reseñas usan la misma comparación: es Hot Wheels Unleashed cruzado con Forza Horizon, o sea las pistas de juguete metidas en un mundo abierto. Coinciden en que el resultado funciona — cuatro islas distintas entre sí, montones de autos para desbloquear y un manejo arcade que engancha desde el principio. Los reparos son parejos y menores: no hay historia, se pone repetitivo a la larga y varias aclaran que no le saca el puesto a Forza Horizon.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-10</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 75: HOT WHEELS EN MUNDO ABIERTO</span>
+          </div>
+          <p class="noticia-texto">Sale hoy y la comparación se repite en todas las reseñas: es Hot Wheels Unleashed cruzado con Forza Horizon. Cuatro islas, muchos autos para desbloquear y manejo arcade. Le marcan que no tiene historia y que se hace repetitivo, pero coinciden en que se disfruta.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Explora las cuatro islas caóticas y repletas de eventos y desafíos que te aguardan en este mundo de Hot Wheels™. Consigue vehículos icónicos, forma tu Rush Squad, crea pistas épicas y conviértete en Rush Master.</p>

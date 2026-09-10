@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -139,6 +140,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">81 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 66 votos">8.0 <span class="badge-quien">USUARIOS</span></span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('the-legend-of-heroes-trails-to-azure')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -154,6 +160,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Sale un punto arriba que Trails from Zero y las reseñas explican por qué: cierra todo lo que la anterior dejó abierto, tanto de los personajes como de la trama general, y varias lo ponen entre lo mejor de la saga entera. El combate por turnos también crece respecto del anterior. La condición es la de cualquier segunda parte: hay que haber jugado la primera, porque esto es un final y no un punto de entrada. Los reparos van a la presentación, que sigue siendo la de un juego de hace más de diez años.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-10</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 81, UN PUNTO ARRIBA QUE SU ANTECESOR</span>
+          </div>
+          <p class="noticia-texto">Sale el mismo día que Trails from Zero y es su continuación directa: cierra el arco de Crossbell. Las reseñas dicen que paga todo lo que la primera parte dejó sembrado y varias lo ubican entre lo mejor de la saga. Hay que jugar la anterior primero, esto es un final.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">¡La Sección de Apoyo Especial vuelve con más miembros y más casos que resolver! La calma en Crossbell no dura: nuevas amenazas ponen a prueba a Lloyd y a su equipo en la secuela directa de Trails from Zero.</p>

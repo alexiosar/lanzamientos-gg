@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -139,6 +140,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">80 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 89 votos">7.5 <span class="badge-quien">USUARIOS</span></span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('the-legend-of-heroes-trails-from-zero')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -154,6 +160,20 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas coinciden en dos cosas. Que la espera valió la pena, porque este arco estuvo doce años sin traducirse y era el hueco grande para quien sigue la saga en occidente. Y que Crossbell es de los mejores escenarios que armó Falcom: una ciudad apretada entre dos potencias, con una trama política que se toma su tiempo y personajes que casi todas las reseñas destacan. Los reparos son de la edad del juego — misiones secundarias tediosas y decisiones de diseño que envejecieron mal —, porque debajo sigue siendo un juego pensado para una portátil de hace más de una década.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-10</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 80: LLEGA EL ARCO QUE FALTABA</span>
+          </div>
+          <p class="noticia-texto">Sale hoy junto a Trails to Azure, su continuación directa. Es el arco de Crossbell, que estuvo doce años sin traducirse y era el agujero grande de la saga en occidente. Las reseñas elogian la trama política y los personajes, y le marcan que el diseño de las misiones secundarias se nota viejo.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Cuando Lloyd Bannings es asignado a la Sección de Apoyo Especial de Crossbell, él y sus nuevos compañeros deberán ganarse la confianza de una ciudad atrapada entre dos superpotencias, resolviendo casos mientras una sombra crece bajo la superficie.</p>

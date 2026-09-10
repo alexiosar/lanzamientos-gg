@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
     .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
     .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
@@ -144,6 +145,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor badge-gamepass">GAME PASS ✓</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">80 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('the-royal-writ')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -160,7 +166,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Un roguelike de armar mazos que las reseñas describen igual: agarra ideas conocidas y las cruza de una forma que no se había visto, con carriles, movimiento y palabras clave que hay que combinar para pegar fuerte. Coinciden en que no te lleva de la mano y en que la profundidad recién se ve después de varias partidas. El reparo que aparece es que a veces la partida se termina por algo que no se puede prever ni responder.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-10</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 80 Y ENTRA A GAME PASS EL PRIMER DÍA</span>
+          </div>
+          <p class="noticia-texto">El roguelike de mazos sale hoy con 80 y está en Game Pass desde el estreno. Las reseñas destacan que cruza ideas conocidas de una forma nueva, y avisan que no explica nada: la profundidad aparece recién después de varias partidas.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-09-01</span>

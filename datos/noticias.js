@@ -50,11 +50,28 @@
 
 const NOTICIAS = [
   {
+    id: "ps-plus-catalogo-septiembre-2026",
+    fecha: "2026-09-09",
+    categoria: "SUSCRIPCIONES",
+    titulo: "EL CATÁLOGO DE PS PLUS DE SEPTIEMBRE SUMA RUNESCAPE: DRAGONWILDS EL DÍA QUE SALE",
+    texto: "Sony anunció la tanda de septiembre para los planes Extra y Deluxe, que se puede jugar desde el 15. Entran RuneScape: Dragonwilds, WWE 2K26, Ball x Pit y Date Everything!, entre otros, y Deluxe suma además Mega Man X Command Mission y Metro Redux.\n\nEl que interesa acá es RuneScape: Dragonwilds, porque sale ese mismo 15 de septiembre: entra al servicio el día del estreno, igual que a Game Pass. Los demás son juegos que ya estaban a la venta.",
+    fuente: "https://blog.latam.playstation.com/2026/09/09/catalogo-de-juegos-de-playstation-plus-para-septiembre-runescape-dragonwilds-wwe-2k26-ball-x-pit-date-everything-y-muchos-mas/",
+    juegos: ["runescape-dragonwilds"]
+  },
+  {
+    id: "physint-pasa-a-xbox-2026",
+    fecha: "2026-09-09",
+    categoria: "ANUNCIOS",
+    titulo: "PHYSINT, LO NUEVO DE KOJIMA, PASA DE SONY A XBOX",
+    texto: "Xbox Game Studios va a publicar Physint, el juego de acción y espionaje de Kojima Productions que hasta ahora estaba con PlayStation. Lo anunciaron Xbox y el propio estudio, y Kojima lo presentó como una ampliación del vínculo que ya tenían por OD. Sony se corre del proyecto.\n\nPhysint no tiene fecha ni se sabe en qué consolas sale, así que por ahora no hay nada que cargar. El acuerdo además se extiende a cine y televisión.",
+    fuente: "https://news.xbox.com/en-us/2026/09/09/xbox-and-kojima-productions-expand-partnership-to-publish-physint/"
+  },
+  {
     id: "nintendo-direct-9-septiembre-2026",
     fecha: "2026-09-09",
     categoria: "EVENTOS",
     titulo: "EL DIRECT LLENÓ OCTUBRE, NOVIEMBRE Y DICIEMBRE DE SWITCH 2",
-    texto: "Nintendo dedicó el Direct a lo que queda del año y a 2027, y lo del año se puede resumir en una frase: la Switch 2 se lleva casi todo lo grande que faltaba. El 16 de octubre llegan los tres rehechos de Resident Evil —el 2, el 3 y el 4—, el 5 de noviembre Marvel's Guardians of the Galaxy en su Encore Edition, el 12 Pikmin 4 con un modo nuevo y con órdenes por voz para Oatchi, y el 4 de diciembre Monster Hunter Wilds. El profesor Layton y el Nuevo Mundo a vapor, que venía sin día, quedó para el 10 de diciembre.\n\nLo de 2027 fue más largo todavía: Metroid Ravenous el 28 de enero, Danganronpa 2×2 el 14, Tomb Raider: Legacy of Atlantis el 12 de febrero, Persona 4 Revival el 20 de mayo y Kirby and the World Beyond en primavera boreal, además de una versión de Persona 6 para la consola.",
+    texto: "Nintendo dedicó el Direct a lo que queda del año y a 2027, y lo del año se puede resumir en una frase: la Switch 2 se lleva casi todo lo grande que faltaba. El 16 de octubre llegan los tres rehechos de Resident Evil —el 2, el 3 y el 4—, el 5 de noviembre Marvel's Guardians of the Galaxy en su Encore Edition, el 12 Pikmin 4 con un modo nuevo y con órdenes por voz para Oatchi, y el 4 de diciembre Monster Hunter Wilds. El profesor Layton y el Nuevo Mundo a vapor, que venía sin día, quedó para el 10 de diciembre.\n\nLo de 2027 fue más largo todavía: Metroid Ravenous el 28 de enero, Danganronpa 2×2 el 14, Tomb Raider: Legacy of Atlantis el 10 de febrero, Persona 4 Revival el 20 de mayo y Kirby and the World Beyond en primavera boreal, además de una versión de Persona 6 para la consola.",
     fuente: "https://www.nintendo.com/us/nintendo-direct/",
     juegos: ["resident-evil-4-switch-2", "monster-hunter-wilds-switch-2", "pikmin-4-switch-2", "professor-layton-nuevo-mundo-a-vapor"]
   },
