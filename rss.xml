@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 10 Sep 2026 21:37:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 22:31:36 +0000</lastBuildDate>
+    <item>
+      <title>YET ANOTHER ZOMBIE SURVIVORS: DEBUT CON 79 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/yet-another-zombie-survivors</link>
+      <guid isPermaLink="false">yet-another-zombie-survivors-2026-09-11</guid>
+      <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Entró al medidor con 79, aunque sobre pocas reseñas: en PS5 lo cubrieron apenas un puñado de medios. Las cuatro que están publicadas coinciden en que el escuadrón de tres es lo que lo separa del montón de survivors-likes, y en que se queda sin sorpresas antes de lo que uno querría. — YET ANOTHER ZOMBIE SURVIVORS para PS5 / PS4.</description>
+    </item>
     <item>
       <title>THE LEGEND OF HEROES: TRAILS FROM ZERO: DEBUTA CON 80: LLEGA EL ARCO QUE FALTABA</title>
       <link>https://lanzamientos.lat/juegos/the-legend-of-heroes-trails-from-zero</link>
@@ -41,6 +48,15 @@
       <guid isPermaLink="false">the-royal-writ-2026-09-10</guid>
       <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
       <description>El roguelike de mazos sale hoy con 80 y está en Game Pass desde el estreno. Las reseñas destacan que cruza ideas conocidas de una forma nueva, y avisan que no explica nada: la profundidad aparece recién después de varias partidas. — THE ROYAL WRIT para XBOX / SWITCH.</description>
+    </item>
+    <item>
+      <title>LEVEL-5 VA A REHACER EL PRIMER PROFESOR LAYTON</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">level5-vision-2026-sueno</guid>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
+      <description>En su segunda presentación del año, LEVEL5 VISION 2026 II «Sueño», el estudio anunció un remake de El profesor Layton y la villa misteriosa, el juego con el que arrancó la saga en la Nintendo DS en 2007. Sale en PS5, Switch 2, Switch y PC, sin fecha por ahora. En la misma transmisión mostraron un adelanto de Yo-kai Watch 2: Hado y un tráiler nuevo, más largo, de El profesor Layton y el Nuevo Mundo a vapor, que llega el 10 de diciembre.
+
+Para 2027 dejaron Snack World: Reloaded, una versión rehecha del RPG de mazmorras para PS5, Switch 2 y PC, y Holy Horror Mansion. También anunciaron Inazuma Eleven: Bold Revolution, secuela directa de Victory Road, y avisaron que guardan un «título importante» para los treinta años del estudio, que se cumplen en 2027. Ninguno de esos tiene día todavía.</description>
     </item>
     <item>
       <title>EL PROFESOR LAYTON Y EL NUEVO MUNDO A VAPOR: YA TIENE DÍA: 10 DE DICIEMBRE</title>
@@ -280,20 +296,6 @@ Ese mismo día sale una Nintendo Switch 2 con diseño de la edición 40.º anive
       <guid isPermaLink="false">everspace-2-galactic-edition-2026-09-01</guid>
       <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
       <description>La edición Galactic junta Everspace 2 con todo su contenido descargable, y ese paquete es la mitad de lo que la prensa destaca. La otra mitad es el combate espacial, que se elogia parejo. Los reparos van al ritmo: las misiones de puzles no están a la altura de las de acción. — EVERSPACE 2: GALACTIC EDITION para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>AGGELOS 2: DEBUTA CON 76</title>
-      <link>https://lanzamientos.lat/juegos/aggelos-2</link>
-      <guid isPermaLink="false">aggelos-2-2026-09-01</guid>
-      <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
-      <description>La secuela convence a la prensa por lo mismo que el original: es un metroidvania que se siente a los de antes sin sentirse viejo. Se elogian el pixel art de 16 bits y la curva de dificultad. El reparo que aparece es el mapa, poco intuitivo, y la falta de comodidades que hoy se dan por sentadas. — AGGELOS 2 para PS5 / PS4 / XBOX / SWITCH.</description>
-    </item>
-    <item>
-      <title>CASE SOLVED: THE LONDON FILES: 62 EN METACRITIC, CON UNA RESEÑA QUE LO DESTROZA</title>
-      <link>https://lanzamientos.lat/juegos/case-solved-the-london-files</link>
-      <guid isPermaLink="false">case-solved-the-london-files-2026-09-01</guid>
-      <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Cinco reseñas lo tratan con cariño como lo que es —un puzle detectivesco liviano de un par de horas, con buena ambientación noir— y una lo baja a 20, no por el diseño sino porque no le funcionó: lo describe como roto. El promedio queda en 62 y esconde esa discusión. — CASE SOLVED: THE LONDON FILES para XBOX / PS5 / SWITCH.</description>
     </item>
   </channel>
 </rss>

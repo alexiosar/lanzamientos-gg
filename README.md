@@ -1637,10 +1637,10 @@ y abrir http://localhost:8080
   le faltaría `gamepass: true`. Hoy está sin distintivo y con fecha 30/09, que es la
   combinación que no cierra con ninguna de las dos lecturas.
 
-- **Anunciados sin respaldo de tienda — revisar en la semanal (chequeado el 08/09/2026).**
-  Los cinco los trajo Gematsu entre el 5 y el 8 de septiembre y **ninguno se cargó**, porque
-  ninguna tienda de consola los lista. No es que estén mal: es que todavía no aparecieron.
-  Se revisan de nuevo en cada semanal y entran en cuanto la tienda los tome.
+- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 11/09/2026).**
+  Los trajo Gematsu y **ninguno se cargó**, porque ninguna tienda de consola los lista. No es
+  que estén mal: es que todavía no aparecieron. Se revisan de nuevo en cada semanal y entran
+  en cuanto la tienda los tome.
 
   | Juego | Lo que dice la fuente | Qué falta |
   |---|---|---|
@@ -1649,9 +1649,15 @@ y abrir http://localhost:8080
   | Yomawari: The Long Night Collection (PS5) | PS5, 5 de noviembre en occidente | La PS Store de AR y la de US sólo tienen la de PS4 |
   | Yomawari: Lost in the Dark (PS5) | PS5, 5 de noviembre en occidente | Ídem |
   | Tianji: Shadow of the Ancients | PS5, Switch 2, Switch y PC | No tiene fecha, así que no hay fila de calendario que hacer |
+  | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 
   Los dos Yomawari, cuando entren, van con `relanzamiento`: son juegos de 2018 y 2022 que
   nunca estuvieron en este calendario, así que alcanza una entrada por juego.
+
+  Del LEVEL5 VISION del 10/09 salieron además Snack World: Reloaded, Holy Horror Mansion,
+  Villion: Code, el remake de Layton y la villa misteriosa, Inazuma Eleven: Bold Revolution y
+  Gley Lancer: Overdrive. Ninguno tiene día, así que no hay fila que hacer: quedan contados en
+  la noticia del evento y se cargan cuando aparezca la fecha.
 
 - **2027 ya está cargado y tiene su filtro (09/09/2026).** El Direct de Nintendo del 9 de
   septiembre puso seis fechas de 2027 de una sentada, y ahí se resolvió la pregunta que

@@ -2,213 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-10T21:37:55+00:00",
+ "generado": "2026-09-11T22:31:36+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-10",
- "hasta": "2026-10-10",
- "total": 99,
+ "desde": "2026-09-11",
+ "hasta": "2026-10-11",
+ "total": 93,
  "juegos": [
-  {
-   "id": "the-alighieri-circle-dantes-bloodline",
-   "titulo": "THE ALIGHIERI CIRCLE: DANTE'S BLOODLINE",
-   "fecha": "2026-09-10",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "HORROR",
-    "INDIE"
-   ],
-   "desarrollador": "ONE-O-ONE GAMES",
-   "descripcion": "El mundo lee la Divina Comedia como un poema; para tu familia es una condena. Sos Gabriele Alighieri y te toca sellar las puertas del Infierno. Es una pesadilla psicológica en primera persona donde hay que reconstruir los secretos de tus antepasados para sobrevivir a lo que te tocó heredar.",
-   "trailer": "https://youtube.com/embed/cS6PTKRdkuk",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdjw.jpg",
-   "alta": "2026-08-19",
-   "url": "https://lanzamientos.lat/juegos/the-alighieri-circle-dantes-bloodline"
-  },
-  {
-   "id": "the-legend-of-heroes-trails-from-zero",
-   "titulo": "THE LEGEND OF HEROES: TRAILS FROM ZERO",
-   "fecha": "2026-09-10",
-   "relanzamiento": "En PS4, Switch y PC desde 2022",
-   "duracion": "≈ 38 h (historia) · 79 h (completo)",
-   "plataformas": [
-    "SWITCH2",
-    "PS5"
-   ],
-   "genero": [
-    "RPG",
-    "POR TURNOS"
-   ],
-   "desarrollador": "NIHON FALCOM",
-   "descripcion": "Cuando Lloyd Bannings es asignado a la Sección de Apoyo Especial de Crossbell, él y sus nuevos compañeros deberán ganarse la confianza de una ciudad atrapada entre dos superpotencias, resolviendo casos mientras una sombra crece bajo la superficie.",
-   "trailer": "https://youtube.com/embed/CQWEc9rPhR0",
-   "metacritic": 80,
-   "metacriticUsuarios": 7.5,
-   "metacriticVotos": 89,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1668510/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "critica": "Las reseñas coinciden en dos cosas. Que la espera valió la pena, porque este arco estuvo doce años sin traducirse y era el hueco grande para quien sigue la saga en occidente. Y que Crossbell es de los mejores escenarios que armó Falcom: una ciudad apretada entre dos potencias, con una trama política que se toma su tiempo y personajes que casi todas las reseñas destacan. Los reparos son de la edad del juego — misiones secundarias tediosas y decisiones de diseño que envejecieron mal —, porque debajo sigue siendo un juego pensado para una portátil de hace más de una década.",
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/the-legend-of-heroes-trails-from-zero",
-   "noticias": [
-    {
-     "fecha": "2026-09-10",
-     "titulo": "DEBUTA CON 80: LLEGA EL ARCO QUE FALTABA",
-     "texto": "Sale hoy junto a Trails to Azure, su continuación directa. Es el arco de Crossbell, que estuvo doce años sin traducirse y era el agujero grande de la saga en occidente. Las reseñas elogian la trama política y los personajes, y le marcan que el diseño de las misiones secundarias se nota viejo."
-    }
-   ]
-  },
-  {
-   "id": "the-legend-of-heroes-trails-to-azure",
-   "titulo": "THE LEGEND OF HEROES: TRAILS TO AZURE",
-   "fecha": "2026-09-10",
-   "relanzamiento": "En PS4, Switch y PC desde 2023",
-   "duracion": "≈ 43 h (historia) · 99 h (completo)",
-   "plataformas": [
-    "PS5",
-    "SWITCH2"
-   ],
-   "genero": [
-    "RPG",
-    "POR TURNOS"
-   ],
-   "desarrollador": "NIHON FALCOM",
-   "descripcion": "¡La Sección de Apoyo Especial vuelve con más miembros y más casos que resolver! La calma en Crossbell no dura: nuevas amenazas ponen a prueba a Lloyd y a su equipo en la secuela directa de Trails from Zero.",
-   "trailer": "https://youtube.com/embed/hCNfhSeN7so",
-   "metacritic": 81,
-   "metacriticUsuarios": 8.0,
-   "metacriticVotos": 66,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1668520/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "critica": "Sale un punto arriba que Trails from Zero y las reseñas explican por qué: cierra todo lo que la anterior dejó abierto, tanto de los personajes como de la trama general, y varias lo ponen entre lo mejor de la saga entera. El combate por turnos también crece respecto del anterior. La condición es la de cualquier segunda parte: hay que haber jugado la primera, porque esto es un final y no un punto de entrada. Los reparos van a la presentación, que sigue siendo la de un juego de hace más de diez años.",
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/the-legend-of-heroes-trails-to-azure",
-   "noticias": [
-    {
-     "fecha": "2026-09-10",
-     "titulo": "DEBUTA CON 81, UN PUNTO ARRIBA QUE SU ANTECESOR",
-     "texto": "Sale el mismo día que Trails from Zero y es su continuación directa: cierra el arco de Crossbell. Las reseñas dicen que paga todo lo que la primera parte dejó sembrado y varias lo ubican entre lo mejor de la saga. Hay que jugar la anterior primero, esto es un final."
-    }
-   ]
-  },
-  {
-   "id": "brokenlore-dont-lie",
-   "titulo": "BROKENLORE: DON'T LIE",
-   "fecha": "2026-09-10",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "HORROR",
-    "INDIE"
-   ],
-   "desarrollador": "SERAFINI PRODUCTIONS",
-   "descripcion": "BrokenLore: DON'T LIE es un juego japonés de terror psicológico que explora el trauma, el aislamiento y una realidad fragmentada donde resulta cada vez más difícil distinguir qué es real.",
-   "trailer": "https://youtube.com/embed/oD1j1DgvgJY",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coakzn.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/brokenlore-dont-lie"
-  },
-  {
-   "id": "touhou-koumakyou-new-classic",
-   "titulo": "TOUHOU KOUMAKYOU: NEW CLASSIC",
-   "fecha": "2026-09-10",
-   "plataformas": [
-    "SWITCH",
-    "SWITCH2",
-    "PS5"
-   ],
-   "genero": [
-    "SHOOTER",
-    "ARCADE"
-   ],
-   "desarrollador": "上海アリス幻樂団",
-   "descripcion": "Esquiva las balas, derrota a los enemigos y enfrenta el misterio de la Niebla Escarlata. The Embodiment of Scarlet Devil regresa con música y gráficos renovados. Guía a la sacerdotisa Reimu y la maga Marisa entre pantallas llenas de balas. La banda sonora ha sido readaptada por ZUN.",
-   "trailer": "https://youtube.com/embed/gTYdXwuIr84",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7m0.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/touhou-koumakyou-new-classic"
-  },
-  {
-   "id": "hot-wheels-infinite-rush",
-   "titulo": "HOT WHEELS INFINITE RUSH",
-   "fecha": "2026-09-10",
-   "plataformas": [
-    "SWITCH2",
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "CARRERAS",
-    "ARCADE"
-   ],
-   "desarrollador": "MILESTONE S.R.L.",
-   "descripcion": "Explora las cuatro islas caóticas y repletas de eventos y desafíos que te aguardan en este mundo de Hot Wheels™. Consigue vehículos icónicos, forma tu Rush Squad, crea pistas épicas y conviértete en Rush Master.",
-   "trailer": "https://youtube.com/embed/JUZD3j1HY_4",
-   "metacritic": 75,
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6me.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "critica": "Casi todas las reseñas usan la misma comparación: es Hot Wheels Unleashed cruzado con Forza Horizon, o sea las pistas de juguete metidas en un mundo abierto. Coinciden en que el resultado funciona — cuatro islas distintas entre sí, montones de autos para desbloquear y un manejo arcade que engancha desde el principio. Los reparos son parejos y menores: no hay historia, se pone repetitivo a la larga y varias aclaran que no le saca el puesto a Forza Horizon.",
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/hot-wheels-infinite-rush",
-   "noticias": [
-    {
-     "fecha": "2026-09-10",
-     "titulo": "DEBUTA CON 75: HOT WHEELS EN MUNDO ABIERTO",
-     "texto": "Sale hoy y la comparación se repite en todas las reseñas: es Hot Wheels Unleashed cruzado con Forza Horizon. Cuatro islas, muchos autos para desbloquear y manejo arcade. Le marcan que no tiene historia y que se hace repetitivo, pero coinciden en que se disfruta."
-    }
-   ]
-  },
-  {
-   "id": "the-royal-writ",
-   "titulo": "THE ROYAL WRIT",
-   "relanzamiento": "En PC desde agosto de 2025",
-   "fecha": "2026-09-10",
-   "plataformas": [
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "ESTRATEGIA",
-    "CARTAS",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "SAVE SLOTH STUDIOS",
-   "descripcion": "Un armamazos medieval donde las cartas no se juegan y listo: se colocan en un campo de batalla y avanzan solas hacia el enemigo. La que llega hasta el fondo se destruye para siempre y sale del mazo por el resto de la partida, así que sacrificar tropas no es un accidente sino la estrategia. Cada caído queda escrito en la leyenda del reino.",
-   "trailer": "https://youtube.com/embed/VGMStPU_WcY",
-   "metacritic": 80,
-   "metacriticUsuarios": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.20206.13929128993190644.5fdad478-5d9a-4e47-b2a4-acc499d07c78.87b72de9-0d97-4e33-9dd0-d85784eb761c?w=600&h=900&format=jpg",
-   "gamepass": true,
-   "psplus": false,
-   "critica": "Un roguelike de armar mazos que las reseñas describen igual: agarra ideas conocidas y las cruza de una forma que no se había visto, con carriles, movimiento y palabras clave que hay que combinar para pegar fuerte. Coinciden en que no te lleva de la mano y en que la profundidad recién se ve después de varias partidas. El reparo que aparece es que a veces la partida se termina por algo que no se puede prever ni responder.",
-   "alta": "2026-09-02",
-   "url": "https://lanzamientos.lat/juegos/the-royal-writ",
-   "noticias": [
-    {
-     "fecha": "2026-09-10",
-     "titulo": "DEBUTA CON 80 Y ENTRA A GAME PASS EL PRIMER DÍA",
-     "texto": "El roguelike de mazos sale hoy con 80 y está en Game Pass desde el estreno. Las reseñas destacan que cruza ideas conocidas de una forma nueva, y avisan que no explica nada: la profundidad aparece recién después de varias partidas."
-    }
-   ]
-  },
   {
    "id": "truck-kun-is-supporting-me-from-another-world-switch-2",
    "titulo": "TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!",
@@ -1902,6 +1702,32 @@
    "psplus": false,
    "alta": "2026-09-10",
    "url": "https://lanzamientos.lat/juegos/monster-nursery"
+  },
+  {
+   "id": "moros-protocol",
+   "titulo": "MOROS PROTOCOL",
+   "relanzamiento": "En PC desde septiembre de 2025",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "FPS",
+    "ROGUELIKE",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "PIXEL REIGN",
+   "descripcion": "Un shooter en primera persona que se despierta sin memoria dentro del Orpheus, un buque de guerra a la deriva en el espacio profundo. Se dispara y se patea al ritmo de los FPS de fines de los noventa, pero cada muerte reinicia la corrida y la nave se rearma con pasillos distintos. Los jefes son gigantes y están pensados a la manera de los Souls. Se puede jugar de a dos.",
+   "trailer": "https://youtube.com/embed/vHFTZnZa4-c",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605250/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-11",
+   "url": "https://lanzamientos.lat/juegos/moros-protocol"
   },
   {
    "id": "ace-combat-8-wings-of-theve",

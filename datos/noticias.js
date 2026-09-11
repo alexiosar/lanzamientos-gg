@@ -50,6 +50,15 @@
 
 const NOTICIAS = [
   {
+    id: "level5-vision-2026-sueno",
+    fecha: "2026-09-10",
+    categoria: "EVENTOS",
+    titulo: "LEVEL-5 VA A REHACER EL PRIMER PROFESOR LAYTON",
+    texto: "En su segunda presentación del año, LEVEL5 VISION 2026 II «Sueño», el estudio anunció un remake de El profesor Layton y la villa misteriosa, el juego con el que arrancó la saga en la Nintendo DS en 2007. Sale en PS5, Switch 2, Switch y PC, sin fecha por ahora. En la misma transmisión mostraron un adelanto de Yo-kai Watch 2: Hado y un tráiler nuevo, más largo, de El profesor Layton y el Nuevo Mundo a vapor, que llega el 10 de diciembre.\n\nPara 2027 dejaron Snack World: Reloaded, una versión rehecha del RPG de mazmorras para PS5, Switch 2 y PC, y Holy Horror Mansion. También anunciaron Inazuma Eleven: Bold Revolution, secuela directa de Victory Road, y avisaron que guardan un «título importante» para los treinta años del estudio, que se cumplen en 2027. Ninguno de esos tiene día todavía.",
+    fuente: "https://www.youtube.com/watch?v=z9nITMlt8Fk",
+    juegos: ["professor-layton-nuevo-mundo-a-vapor"]
+  },
+  {
     id: "ps-plus-catalogo-septiembre-2026",
     fecha: "2026-09-09",
     categoria: "SUSCRIPCIONES",
