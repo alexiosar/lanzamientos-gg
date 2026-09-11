@@ -1516,6 +1516,34 @@ categoría `SUSCRIPCIONES`.
    La proporción del 19/08/2026 da una idea de por qué: de 13 juegos "faltantes", 9 no
    existían como lanzamiento; de 18 diferencias de plataforma verificadas, 6 no las respaldaba
    ninguna tienda.
+
+   **Diferencias descartadas: dejarlas anotadas.** El barrido las vuelve a marcar cada semana,
+   así que si no queda escrito que ya se verificaron se pierde el trabajo. Las del barrido del
+   10/09/2026, todas comprobadas el 11/09 y **ninguna se aplica**:
+
+   | Juego | Lo que decía releases.com | Lo que dice la tienda |
+   |---|---|---|
+   | Forever Ago | + Switch 2 | No está en la eShop ni en Nintendo US. Xbox sí, y ya lo teníamos |
+   | Castlevania: Belmont's Curse | + Switch 2 | La eShop y Nintendo US sólo tienen la de Switch |
+   | Ratatan | + PS4, PS5, Xbox | La PS Store no lo encuentra y Xbox da cero resultados |
+   | Tenebris Somnia | + Switch | No está en la eShop ni en Nintendo US |
+   | ONE PIECE: Grand Gourmet | + PS5, Xbox | No está en la PS Store ni en la de Xbox |
+   | Remothered: Red Nun's Legacy | + Switch 2 | No está en ninguna tienda de Nintendo |
+   | Godzilla: Destroy All Monsters Melee Remastered | + Switch | Nintendo US lo vende sólo como producto de Switch 2 |
+   | Barbie Rewind | + PS5, Switch | Nintendo no lo tiene. La PS Store tiene la ficha pero no dice qué consola: el PS5 que figura en el calendario queda por confirmar cuando publiquen el producto |
+   | SOMBRAS: Negative Frames | + Xbox | La tienda de Xbox no lo lista |
+
+   De ese mismo barrido **sí** eran ciertas, y ya están aplicadas: Dynasty Warriors 3
+   Complete Edition Remastered (PS5), Silver Pines (Xbox), Order of the Sinking Star
+   (Switch 2), Echo Weaver (PS4 y Switch 2, además del PS5 que ya tenía), Castlevania:
+   Belmont's Curse (Xbox), Toy Story 3 Complete Edition (PS5), Tales of Eternia Remastered
+   (PS5, Switch y Switch 2), Tenebris Somnia (Xbox), Final Fantasy Resonance (Switch y Xbox),
+   ONE PIECE: Grand Gourmet (Switch) y Hasbro Games Junior Collection (Switch).
+
+   **Ratatan estaba mal cargado de antes** y lo destapó este repaso: figuraba en Switch y para
+   el 15 de octubre, pero Nintendo lo vende como producto de **Switch 2** y con fecha del
+   **14**. Quedó corregido. El barrido no lo marcó porque sólo compara plataformas que sobran,
+   nunca las que están de más en el calendario.
 6. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
 7. **Backlog de carátulas y trailers:** reintentar los que `actualizar.py` lista bajo
    "Faltantes". Suelen ser juegos que todavía no tenían ficha en Steam ni en la eShop cuando

@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-11T22:31:36+00:00",
+ "generado": "2026-09-11T22:58:02+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-11",
@@ -1920,7 +1920,9 @@
    "fecha": "2026-10-08",
    "plataformas": [
     "XBOX",
-    "PS5"
+    "PS5",
+    "PS4",
+    "SWITCH2"
    ],
    "genero": [
     "ACCION",
@@ -1928,7 +1930,7 @@
     "INDIE"
    ],
    "desarrollador": "MOONLIGHT KIDS",
-   "descripcion": "El tiempo, tu bien más preciado; los secretos, tus únicas mejoras. Domina el bucle en este Metroidvania basado en el conocimiento. Eres el último tejedor: explota las anomalías temporales y aprovecha lo aprendido para poner fin al ciclo.",
+   "descripcion": "Un metroidvania de bucle temporal donde no se juntan mejoras sino información: cada vuelta se aprende algo que antes no se sabía y eso es lo que abre camino. Sos el último tejedor y aprovechás las fallas del tiempo para romper el ciclo, así que lo que avanza no es el personaje sino el que está del otro lado del control.",
    "trailer": "https://youtube.com/embed/rSIO3y56Dh4",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184080/library_600x900.jpg",
