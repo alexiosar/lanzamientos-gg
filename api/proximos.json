@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-11T22:58:02+00:00",
+ "generado": "2026-09-14T18:18:43+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-11",
- "hasta": "2026-10-11",
- "total": 93,
+ "desde": "2026-09-14",
+ "hasta": "2026-10-14",
+ "total": 101,
  "juegos": [
   {
    "id": "truck-kun-is-supporting-me-from-another-world-switch-2",
@@ -39,6 +39,54 @@
    ]
   },
   {
+   "id": "ferocious",
+   "titulo": "FEROCIOUS",
+   "relanzamiento": "En PC desde diciembre de 2025",
+   "fecha": "2026-09-14",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "ACCION",
+    "SUPERVIVENCIA",
+    "INDIE"
+   ],
+   "desarrollador": "OMYOG",
+   "descripcion": "Un shooter en primera persona en una isla donde conviven mercenarios y dinosaurios, y los dos son un problema. Hay que sobrevivir en un ecosistema hostil y los tiroteos se arman en medio de la selva. Es de un solo jugador y lo publica tinyBuild.",
+   "trailer": "https://youtube.com/embed/tAh1gguX0jc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1645630/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-14",
+   "url": "https://lanzamientos.lat/juegos/ferocious"
+  },
+  {
+   "id": "beyblade-x-evobattle",
+   "titulo": "BEYBLADE X EVOBATTLE",
+   "relanzamiento": "En Switch y PC desde noviembre de 2025, y en Switch 2 desde enero de 2026 — esta fecha corresponde a la edición de PS5",
+   "fecha": "2026-09-14",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "ANIME",
+    "CASUAL"
+   ],
+   "desarrollador": "GROOVE BOX JAPAN",
+   "descripcion": "El juego oficial de Beyblade X, basado en el animé y en los trompos de juguete de TOMY. Se arman trompos pieza por pieza, se lanzan en el estadio y hay un modo historia además del combate online. Llega a PS5 casi un año después de Switch.",
+   "trailer": "https://youtube.com/embed/n2Zs-xwzSyI",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coao9p.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-14",
+   "url": "https://lanzamientos.lat/juegos/beyblade-x-evobattle"
+  },
+  {
    "id": "marvels-wolverine",
    "titulo": "MARVEL'S WOLVERINE",
    "fecha": "2026-09-15",
@@ -52,13 +100,19 @@
    "desarrollador": "INSOMNIAC GAMES",
    "descripcion": "Lo nuevo de Insomniac Games (Marvel's Spider-Man): Logan desata sus garras en una aventura para adultos, más cruda y visceral que las del trepamuros, exclusiva de PlayStation 5.",
    "trailer": "https://youtube.com/embed/s3pDMUWlA6I",
-   "metacritic": null,
+   "metacritic": 77,
+   "critica": "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/marvels-wolverine",
    "noticias": [
+    {
+     "fecha": "2026-09-14",
+     "titulo": "LLEGA CON 77: MÁS BRUTAL Y MÁS LINEAL QUE SPIDER-MAN",
+     "texto": "Un día antes del estreno ya hay 117 reseñas, y el promedio quedó en 77. Tres de cada cuatro son positivas y ninguna es negativa: la división está entre quienes lo celebran como una aventura de acción cerrada y sin relleno, y quienes le reclaman que no se anima a más. El combate y la violencia convencen a todos; la repetición y la falta de variedad en la segunda mitad son el reparo que más aparece."
+    },
     {
      "fecha": "2026-08-14",
      "titulo": "HABRÁ UNA PS5 EDICIÓN LIMITADA Y ACCESORIOS A JUEGO",
@@ -126,6 +180,38 @@
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/destroy-all-humans-2-reprobed"
+  },
+  {
+   "id": "diablo-4",
+   "titulo": "DIABLO IV: AGE OF HATRED COLLECTION",
+   "relanzamiento": "En PS5, Xbox y PC desde 2023",
+   "duracion": "≈ 26 h (historia) · 195 h (completo)",
+   "fecha": "2026-09-15",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "BLIZZARD ENTERTAINMENT, INC.",
+   "descripcion": "El Diablo de 2023 llega a Switch 2 en una colección, con la campaña por Santuario. Es rol y acción de ver el mapa desde arriba, juntar botín y volver a entrar, y se puede jugar en cooperativo por internet.",
+   "trailer": "https://youtube.com/embed/7RdDpqCmjb4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/diablo-4",
+   "noticias": [
+    {
+     "fecha": "2026-09-12",
+     "titulo": "YA TIENE DÍA: SALE EL 15 DE SEPTIEMBRE",
+     "texto": "Blizzard confirmó que la versión de Switch 2 se llama Age of Hatred Collection y sale el 15 de septiembre. La eShop ya la tiene con esa fecha."
+    }
+   ]
   },
   {
    "id": "tcg-card-shop-simulator",
@@ -1556,30 +1642,6 @@
    "url": "https://lanzamientos.lat/juegos/end-of-abyss"
   },
   {
-   "id": "rayman-legends-retold",
-   "titulo": "RAYMAN LEGENDS RETOLD",
-   "fecha": "2026-10-01",
-   "plataformas": [
-    "XBOX",
-    "SWITCH2",
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "CASUAL"
-   ],
-   "desarrollador": "UBISOFT",
-   "descripcion": "Sumérgete en la audaz versión renovada del apreciado juego de plataformas, con nuevos gráficos y una historia reinterpretada. ¡Juega en solitario o en modo cooperativo local con hasta cuatro jugadores, explora un misterioso reino nuevo, disfruta de los nuevos escenarios musicales y mucho más!",
-   "trailer": "https://youtube.com/embed/2_7BQ9hLGkk",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5tb.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/rayman-legends-retold"
-  },
-  {
    "id": "dynasty-warriors-3-complete-edition-remastered",
    "titulo": "DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED",
    "duracion": "≈ 7 h (historia) · 75 h (completo)",
@@ -2314,6 +2376,154 @@
    "psplus": false,
    "alta": "2026-09-03",
    "url": "https://lanzamientos.lat/juegos/tmnt-arcade-wrath-of-the-mutants-switch-2"
+  },
+  {
+   "id": "valor-mortis",
+   "titulo": "VALOR MORTIS",
+   "fecha": "2026-10-13",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG"
+   ],
+   "desarrollador": "ONE MORE LEVEL",
+   "descripcion": "Valor Mortis es un juego de acción para un jugador de estilo de Souls de los creadores de Ghostrunner. Sé un soldado napoleónico resucitado, usa poderes sobrenaturales, lucha con monstruos y desarma una conspiración que amenaza a la humanidad.",
+   "trailer": "https://youtube.com/embed/_kxjGXZ7Bv8",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/c54a7dc5c4c4703eade452013234d53b.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/valor-mortis"
+  },
+  {
+   "id": "planet-zoo-2",
+   "titulo": "PLANET ZOO 2",
+   "fecha": "2026-10-13",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "FRONTIER DEVELOPMENTS",
+   "descripcion": "Construye un mundo más salvaje en Planet Zoo 2. Crea zoológicos únicos por todo el mundo, llenos de animales asombrosos, aves y especies acuáticas, y luego lleva la experiencia más allá de sus fronteras liberándolos en amplias reservas naturales.",
+   "trailer": "https://youtube.com/embed/G6-yj80Guxg",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/f14b6444d23c8a8b2aeab52d54cf915e.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/planet-zoo-2"
+  },
+  {
+   "id": "spongebob-titans-of-the-tide",
+   "titulo": "SPONGEBOB SQUAREPANTS: TITANS OF THE TIDE",
+   "fecha": "2026-10-13",
+   "relanzamiento": "En PC, PS5 y Xbox desde noviembre de 2025",
+   "duracion": "≈ 5,8 h (historia) · 15 h (completo)",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "PURPLE LAMP",
+   "descripcion": "¡Prepárate para pasar miedo! Un conflicto entre el Holandés Errante y el Rey Neptuno ha desatado el caos en Fondo de Bikini. ¡Alterna entre Bob Esponja y Patricio, combina sus habilidades y evita que Fondo de Bikini se convierta en una ciudad fantasma!",
+   "trailer": "https://youtube.com/embed/wcDpp_9G6V0",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/30ad15654dfe614c9ec13b65d0947cba.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/spongebob-titans-of-the-tide"
+  },
+  {
+   "id": "deep-dish-dungeon",
+   "titulo": "DEEP DISH DUNGEON",
+   "fecha": "2026-10-13",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "PLATAFORMA"
+   ],
+   "desarrollador": "BEHOLD STUDIOS",
+   "descripcion": "Exploración y supervivencia en una mazmorra hecha a mano, con puzles, fabricación y estructura de metroidvania. Se puede jugar solo o en cooperativo en línea.",
+   "trailer": "https://youtube.com/embed/HtN_PLudTUk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-28",
+   "url": "https://lanzamientos.lat/juegos/deep-dish-dungeon"
+  },
+  {
+   "id": "ratatan",
+   "titulo": "RATATAN",
+   "fecha": "2026-10-14",
+   "relanzamiento": "En PC (acceso anticipado) desde 2025",
+   "duracion": "≈ 9 h (historia)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "MUSICA",
+    "ACCION",
+    "ROGUELIKE",
+    "COOP"
+   ],
+   "desarrollador": "RATATA ARTS",
+   "descripcion": "Un roguelike de desplazamiento lateral donde todo se hace al ritmo de la música: se avanza, se pega y se esquiva en el tiempo, y perder el pulso se paga. En pantalla llegan a moverse más de cien personajes a la vez, y se puede jugar de a cuatro por internet. Lo hace el equipo detrás de Patapon, y esta es su salida del acceso anticipado.",
+   "trailer": "https://youtube.com/embed/fUUb7-0DWe8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-09",
+   "url": "https://lanzamientos.lat/juegos/ratatan"
+  },
+  {
+   "id": "the-witchs-bakery",
+   "titulo": "THE WITCH'S BAKERY",
+   "fecha": "2026-10-14",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE",
+    "RPG",
+    "SIMULACION"
+   ],
+   "desarrollador": "SUNNY LAB",
+   "descripcion": "¡The Witch's Bakery es un juego de rol y aventuras en 2D donde vivirás una vida mágica siendo una bruja panadera en París! ¡Gestiona tu tienda, visita calles icónicas y sana los corazones de la gente con tus cruasanes! 🥐",
+   "trailer": "https://youtube.com/embed/52DNO516s34",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-14",
+   "url": "https://lanzamientos.lat/juegos/the-witchs-bakery",
+   "noticias": [
+    {
+     "fecha": "2026-07-31",
+     "titulo": "SE RETRASÓ DOS MESES, AL 14 DE OCTUBRE",
+     "texto": "Estaba anunciado para el 20 de agosto y se movió al 14 de octubre. Sale en PS5, Xbox Series, Switch 2, Switch y PC, con ediciones físicas para PS5, Switch 2 y Switch que incluyen un libro de recetas digital si se compran temprano."
+    }
+   ]
   }
  ]
 }

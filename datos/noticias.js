@@ -50,6 +50,15 @@
 
 const NOTICIAS = [
   {
+    id: "blizzcon-2026-diablo-v-starcraft",
+    fecha: "2026-09-12",
+    categoria: "EVENTOS",
+    titulo: "BLIZZARD ANUNCIÓ DIABLO V Y UN STARCRAFT QUE ES UN SHOOTER",
+    texto: "La ceremonia de apertura de la BlizzCon trajo dos anuncios grandes, los dos lejanos. Diablo V sale en la primavera boreal de 2029 y arranca con Santuario ya caída y Diablo ganador. StarCraft vuelve en 2030, pero no como estrategia: es un shooter de mundo abierto con historia propia. Ninguno de los dos tiene consolas confirmadas.\n\nLo inmediato es Diablo IV, que el 15 de septiembre llega a Switch 2 como Age of Hatred Collection, el mismo día en que arranca una temporada por los treinta años de la saga con los Males Supremos de vuelta. La Amazona se suma como clase en la primera mitad de 2027.",
+    fuente: "https://news.xbox.com/en-us/2026/09/12/blizzcon-2026-opening-ceremony/",
+    juegos: ["diablo-4"]
+  },
+  {
     id: "level5-vision-2026-sueno",
     fecha: "2026-09-10",
     categoria: "EVENTOS",
