@@ -186,7 +186,9 @@ si están en `null` o ausentes — no rompen nada.
   sin competencia. Se cargan como cualquier otro juego, con `relanzamiento` aclarando de qué
   año es el original.
 - **Descripción en español, géneros y desarrollador**: API de Steam
-  (`store.steampowered.com/api/appdetails?appids=NUMERO&l=spanish`).
+  (`store.steampowered.com/api/appdetails?appids=NUMERO&l=spanish`). La descripción de la
+  tienda es **materia prima, no texto final**: se reescribe con las reglas de la sección
+  "Las descripciones ya no se copian de la tienda".
 - **Carátulas**: CDN de Steam (ver abajo) o, para exclusivos de Nintendo, la API de búsqueda
   de la eShop europea (`searching.nintendo-europe.com`, campo `image_url_sq_s`).
 - **Trailers**: búsqueda en YouTube (`youtube.com/results?search_query=NOMBRE+official+trailer`
@@ -1002,8 +1004,21 @@ que tratan del sitio (`/acerca`, `/api`, `/widget`, `/privacidad`, `/terminos`) 
 sitio porque ese es su tema o su función. La regla es para el contenido editorial: fichas,
 noticias, recomendados, avisos del calendario.
 
-**Y las descripciones oficiales de las tiendas se dejan como están.** Varias tienen "nuestro
-héroe" o "acá" en su propio texto y no son autorreferencias nuestras: son de la editora.
+**Las descripciones ya no se copian de la tienda (cambiado el 14/09/2026).** Antes se dejaban
+como las daba Steam o la eShop, y eso llenó el calendario de texto de editora en español de
+España: "¡Sumérgete!", "Únete", "podrás", "construid y explorad", marcas registradas y signos
+de exclamación, al lado de fichas escritas en rioplatense. El 14/09 se reescribieron **unas
+140**. La tienda sigue siendo la fuente de los datos, pero el texto se escribe acá:
+
+- Impersonal o con voseo ("se juega como", "sos Glimmer"), nunca con tú ni vosotros.
+- Sin signos de exclamación, sin ™ ni ®, sin adjetivos de folleto ("épico", "definitivo",
+  "emocionante", "inolvidable").
+- **Sólo con lo que dice la fuente.** Reescribir no es inventar: si la tienda no dice que un
+  juego es por turnos o que se juega en primera persona, la descripción tampoco.
+- Qué es, de qué se trata y qué lo hace distinto. Dos a cuatro oraciones.
+
+Para encontrar las que se escapen, alcanza con buscar en `datos/juegos.js` las formas de tú
+al principio de una oración (Descubre, Explora, Conviértete, Ponte) y los "¡".
 
 Si un mes se carga sin `intro` sale una línea genérica de respaldo, para que no quede un
 hueco. Es respaldo, no la opción normal: no puede nombrar un juego.

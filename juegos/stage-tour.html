@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Stage Tour: fecha de salida, plataformas, puntaje y trailer. Un juego de ritmo que retoma la autopista de notas de toda la vida y le suma vueltas modernas. Busca reavivar la llama de los juegos de instrumentos…">
+  <meta name="description" content="Stage Tour: fecha de salida, plataformas, puntaje y trailer. El regreso de los juegos de instrumentos de plástico, hecho por RedOctane, el estudio que creó Guitar Hero. Se toca guitarra, bajo, batería o voz…">
   <title>Stage Tour en Xbox y PS5: fecha de salida — LANZAMIENTOS.LAT</title>
   <link rel="canonical" href="https://lanzamientos.lat/juegos/stage-tour">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -13,14 +13,14 @@
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
-  <meta property="og:title" content="Stage Tour — CUARTO TRIMESTRE 2026">
-  <meta property="og:description" content="Un juego de ritmo que retoma la autopista de notas de toda la vida y le suma vueltas modernas. Busca reavivar la llama de los juegos de instrumentos…">
+  <meta property="og:title" content="Stage Tour — 10 DICIEMBRE 2026">
+  <meta property="og:description" content="El regreso de los juegos de instrumentos de plástico, hecho por RedOctane, el estudio que creó Guitar Hero. Se toca guitarra, bajo, batería o voz…">
   <meta property="og:url" content="https://lanzamientos.lat/juegos/stage-tour">
   <meta property="og:image" content="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocriy.jpg">
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "STAGE TOUR", "url": "https://lanzamientos.lat/juegos/stage-tour", "description": "Un juego de ritmo que retoma la autopista de notas de toda la vida y le suma vueltas modernas. Busca reavivar la llama de los juegos de instrumentos de plástico con modos nuevos, compañeros de banda variados, profundidad competitiva y eventos por temporada.", "datePublished": "2026-12-31", "gamePlatform": ["XBOX", "PS5"], "genre": ["MUSICA", "ARCADE", "MULTIJUGADOR"], "inLanguage": "es", "author": {"@type": "Organization", "name": "REDOCTANE GAMES"}, "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocriy.jpg", "trailer": {"@type": "VideoObject", "name": "Stage Tour - Official Reveal Trailer | IGN Fan Fest 2026", "description": "Un juego de ritmo que retoma la autopista de notas de toda la vida y le suma vueltas modernas. Busca reavivar la llama de los juegos de instrumentos de plástico con modos nuevos, compañeros de banda v", "thumbnailUrl": "https://i.ytimg.com/vi/4LwvzQVHpso/hqdefault.jpg", "uploadDate": "2026-02-26T11:31:48-08:00", "embedUrl": "https://youtube.com/embed/4LwvzQVHpso"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "STAGE TOUR", "url": "https://lanzamientos.lat/juegos/stage-tour", "description": "El regreso de los juegos de instrumentos de plástico, hecho por RedOctane, el estudio que creó Guitar Hero. Se toca guitarra, bajo, batería o voz sobre la autopista de notas de siempre, con más de noventa canciones con licencia y la posibilidad de armar banda de a varios, en la misma consola o por i", "datePublished": "2026-12-10", "gamePlatform": ["XBOX", "PS5"], "genre": ["MUSICA", "ARCADE", "MULTIJUGADOR"], "inLanguage": "es", "author": {"@type": "Organization", "name": "REDOCTANE GAMES"}, "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocriy.jpg", "trailer": {"@type": "VideoObject", "name": "Stage Tour - Official Launch Date Trailer", "description": "El regreso de los juegos de instrumentos de plástico, hecho por RedOctane, el estudio que creó Guitar Hero. Se toca guitarra, bajo, batería o voz sobre la autopista de notas de siempre, con más de nov", "thumbnailUrl": "https://i.ytimg.com/vi/xU-qK6FyUoM/hqdefault.jpg", "uploadDate": "2026-08-25T12:20:42-07:00", "embedUrl": "https://youtube.com/embed/xU-qK6FyUoM"}}</script>
 
   <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
   <link rel="stylesheet" href="../css/style.css">
@@ -118,9 +118,9 @@
             <div class="seccion-titulo">DATOS</div>
             <div class="meta-grid">
               <div>
-                <span class="ficha-campo-label">FECHA ESTIMADA</span>
-                <span class="ficha-campo-valor">CUARTO TRIMESTRE 2026</span>
-                <span class="relanzamiento">◔ FECHA EXACTA SIN CONFIRMAR</span>
+                <span class="ficha-campo-label">FECHA DE LANZAMIENTO</span>
+                <span class="ficha-campo-valor">10 DICIEMBRE 2026</span>
+                <span class="cuenta-regresiva" id="regresiva" data-fecha="2026-12-10"></span>
               </div>
               <div>
                 <span class="ficha-campo-label">PLATAFORMAS</span>
@@ -136,7 +136,7 @@
               </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
-              
+              <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('stage-tour')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
               <button class="btn-trailer" id="btn-compartir" onclick="compartirJuego('stage-tour')">⇗ COMPARTIR</button>
               <!-- La ficha es un archivo estático y cacheable, así que sale siempre en
                    "sin guardar": favPintar() lo corrige al cargar según lo que haya en
@@ -150,8 +150,25 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-25</span>
+            <span class="noticia-titulo">▸ SALE EL 10 DE DICIEMBRE, CON METALLICA Y LOS ROLLING STONES EN LA LISTA</span>
+          </div>
+          <p class="noticia-texto">RedOctane puso fecha en la gamescom: el 10 de diciembre en PS5 y Xbox. La lista arranca con más de noventa canciones de seis décadas, entre ellas temas de Metallica, The Rolling Stones, Red Hot Chili Peppers, Olivia Rodrigo, blink-182, Paramore, Slipknot y Muse, y el estudio avisó que va a seguir anunciando más antes del estreno. También hay más de 180 guitarras reales de Gibson, Epiphone y Kramer para coleccionar dentro del juego, y una línea propia de instrumentos que ya se puede reservar en la web oficial.</p>
+        </div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-08-25</span>
+            <span class="noticia-titulo">▸ UN MODO GIRA ROGUELITE, KARAOKE Y SE PUEDE JUGAR SIN INSTRUMENTO</span>
+          </div>
+          <p class="noticia-texto">La novedad es el modo gira: una campaña roguelite donde cada recorrido trae decisiones y desafíos distintos para la banda. Aparte están la partida rápida, la práctica y el karaoke. Se juega con guitarra, bajo, batería o micrófono en cuatro dificultades, más un nivel Experto Plus exclusivo de la batería, y el modo arcade permite usar el joystick con cuatro o cinco carriles. El multijugador es cooperativo, local u online, con juego cruzado entre plataformas y cualquier combinación de instrumentos.</p>
+        </div>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
-        <p class="descripcion-page">Un juego de ritmo que retoma la autopista de notas de toda la vida y le suma vueltas modernas. Busca reavivar la llama de los juegos de instrumentos de plástico con modos nuevos, compañeros de banda variados, profundidad competitiva y eventos por temporada.</p>
+        <p class="descripcion-page">El regreso de los juegos de instrumentos de plástico, hecho por RedOctane, el estudio que creó Guitar Hero. Se toca guitarra, bajo, batería o voz sobre la autopista de notas de siempre, con más de noventa canciones con licencia y la posibilidad de armar banda de a varios, en la misma consola o por internet. La novedad es un modo gira con estructura roguelite, donde cada recorrido cambia, y un modo arcade para jugar con el joystick común, sin instrumento.</p>
       </div>
 
       <div class="seccion">
@@ -162,7 +179,7 @@
       <div class="seccion">
         <div class="seccion-titulo">TRAILER OFICIAL</div>
         <div class="video-wrapper">
-          <iframe src="https://youtube.com/embed/4LwvzQVHpso" title="Trailer de STAGE TOUR" allowfullscreen allow="autoplay" loading="lazy"></iframe>
+          <iframe src="https://youtube.com/embed/xU-qK6FyUoM" title="Trailer de STAGE TOUR" allowfullscreen allow="autoplay" loading="lazy"></iframe>
         </div>
       </div>
       <div class="seccion">

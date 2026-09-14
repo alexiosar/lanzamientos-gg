@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-14T18:18:43+00:00",
+ "generado": "2026-09-14T19:12:51+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-14",
@@ -142,7 +142,7 @@
     "COOP"
    ],
    "desarrollador": "JAGEX LTD",
-   "descripcion": "En Ashenfall, un continente olvidado de RuneScape, los dragones han despertado. Reúne, construye, mejora y crea en esta aventura cooperativa de supervivencia. Solo dominando las técnicas de supervivencia y revelando antiguos secretos podrás enfrentarte a la feroz Reina Dragona.",
+   "descripcion": "Un juego cooperativo de supervivencia en Ashenfall, un continente olvidado del mundo de RuneScape donde despertaron los dragones. Se junta material, se construye y se fabrica, y descubriendo secretos antiguos se llega hasta la Reina Dragona.",
    "trailer": "https://youtube.com/embed/a46MLlfMt2Y",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/54036554a9858230db7403a506421829.jpg",
@@ -172,7 +172,7 @@
     "AVENTURA"
    ],
    "desarrollador": "BLACK FOREST GAMES",
-   "descripcion": "Crypto ha vuelto con licencia para sondar. El invasor alienígena regresa, más molón que nunca. Experimenta los marchosos años 60 en toda su gloria químicamente inducida y véngate de la KGB por destruir tu nave nodriza.",
+   "descripcion": "La remake de la segunda parte de Destroy All Humans!. Crypto, el alienígena invasor, vuelve en plenos años sesenta con toda la estética psicodélica de la época, y esta vez va contra la KGB, que le destruyó la nave nodriza.",
    "trailer": "https://youtube.com/embed/7bx83mAM41Y",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266700/library_600x900.jpg",
@@ -391,7 +391,7 @@
     "RPG"
    ],
    "desarrollador": "PAWPRINT STUDIO",
-   "descripcion": "Aniimo is a free-to-play, next-gen creature-catching open-world RPG. Explore the vast continent of Idyll, Twine with unique Aniimo, unlock new abilities. Travel to a sky-floating metropolis, meet other Pathfinders, and battle in exciting competitions. Choose your Aniimo and begin your epic journey!",
+   "descripcion": "Un RPG de mundo abierto gratuito de capturar criaturas, en el continente de Idyll. Se usan las habilidades de las Aniimo para explorar, se visita una ciudad que flota en el cielo y se compite contra otros jugadores.",
    "trailer": "https://youtube.com/embed/Yh5JH0Yz75E",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/275ba20bb50f9c26e0d0f0aa69d0c7e4.png",
@@ -421,7 +421,7 @@
     "INDIE"
    ],
    "desarrollador": "TINY MONKS TALES",
-   "descripcion": "Woodo es como un libro de colorear en 3D que puedes tocar; un cuento relajante narrado a través de dioramas de madera artesanales. Es un mundo acogedor y calmado que te devolverá a tu infancia.",
+   "descripcion": "Un juego tranquilo que funciona como un libro para colorear en 3D: un cuento contado con dioramas de madera hechos a mano, pensado para jugarse sin apuro.",
    "trailer": "https://youtube.com/embed/_F4Bt7GORZA",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/library_600x900.jpg",
@@ -503,7 +503,7 @@
     "POR TURNOS"
    ],
    "desarrollador": "NIHON FALCOM",
-   "descripcion": "¡Descubre el interesantísimo segundo capítulo de la legendaria saga Trails de Nihon Falcom! Estelle Bright emprende un nuevo viaje por Liberl para descubrir la verdad que se oculta tras la desaparición de Joshua y derrotar a la siniestra organización Uroboros.",
+   "descripcion": "El segundo capítulo de Trails in the Sky, de Nihon Falcom. Estelle Bright sale otra vez a recorrer Liberl para averiguar qué pasó con Joshua y enfrentar a la organización Uroboros.",
    "trailer": "https://youtube.com/embed/4fEzsQ6Hv8Y",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/44519406a3f5defa6dcf308d49beef43.png",
@@ -668,7 +668,7 @@
     "RPG"
    ],
    "desarrollador": "AMPLITUDE STUDIOS",
-   "descripcion": "Lleva a tu gente a la victoria en un mundo cambiante en este juego estratégico con facciones asimétricas lideradas por grandes héroes. Erige tu imperio, ejerce influencia política y reúne ejércitos de guerreros para descubrir los oscuros secretos que alberga el planeta.",
+   "descripcion": "Un juego de estrategia por turnos con facciones asimétricas encabezadas por héroes, en un planeta que cambia mientras se juega. Se levanta un imperio, se hace política y se arman ejércitos mientras se descubren los secretos del mundo.",
    "trailer": "https://youtube.com/embed/hIdSmLT-9Vk",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407390/library_600x900.jpg",
@@ -900,7 +900,7 @@
     "CASUAL"
    ],
    "desarrollador": "CASUAL BROTHERS LTD.",
-   "descripcion": "Juega con el Grinch, recoge adornos, usa artefactos y afronta desafíos festivos para crear el árbol de Navidad definitivo para los Quién.",
+   "descripcion": "Un juego de plataformas con el Grinch, donde se juntan adornos, se usan artefactos y se superan desafíos navideños para armar el mejor árbol de Navidad para los Quién.",
    "trailer": "https://youtube.com/embed/a3DI5VfL3TA",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocjdn.jpg",
@@ -948,7 +948,7 @@
     "ACCION"
    ],
    "desarrollador": "ODACLICK GAME STUDIO",
-   "descripcion": "Ponte en la piel de Rick Grimes, Daryl Dixon y Michonne en un juego de lucha arcade ambientado en el universo de The Walking Dead de AMC. Enfréntate a enemigos despiadados como los Salvadores y a hordas de caminantes mientras realizas combos, ataques con armas distintivas y remates devastadores.",
+   "descripcion": "Un beat 'em up arcade en el universo de The Walking Dead de AMC, con Rick Grimes, Daryl Dixon y Michonne. Se pelea contra los Salvadores y hordas de caminantes a fuerza de combos, armas propias de cada personaje y remates.",
    "trailer": "https://youtube.com/embed/0cIM-7u8reA",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmze.jpg",
@@ -1044,7 +1044,7 @@
     "MULTIJUGADOR"
    ],
    "desarrollador": "FUNCOM",
-   "descripcion": "Dune: Awakening es un juego de rol inmersivo de aventura y supervivencia en mundo abierto. Explorad, construid, cread y descubrid una historia cinematográfica de Dune que os hará pasar de la supervivencia a la dominación en el planeta más legendario del universo.",
+   "descripcion": "Un juego de supervivencia y rol en mundo abierto sobre Arrakis. Se explora, se construye y se fabrica para pasar de sobrevivir en el desierto a dominar el planeta, con una historia propia dentro del universo de Dune.",
    "trailer": "https://youtube.com/embed/ztdVjiRpYfo",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/library_600x900.jpg",
@@ -1138,7 +1138,7 @@
     "AVENTURA"
    ],
    "desarrollador": "RED RAKETA STUDIO",
-   "descripcion": "¡Crea un grupo de música con lémures locos y salva a tu isla de una bruja malvada en Kalanoro, una oda al folclore de Madagascar y a su espectacular arte! Únete a este viaje para descubrir el colorido mundo de Lemuria, rescatar a lémures artistas y derrotar a la bruja Raneny gracias a la música.",
+   "descripcion": "Una aventura inspirada en el folclore de Madagascar, donde se arma una banda de lémures músicos para salvar la isla de la bruja Raneny. Se recorre Lemuria rescatando lémures artistas, y la música es el arma.",
    "trailer": "https://youtube.com/embed/Bg_sHaq1u3I",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobys5.jpg",
@@ -1167,7 +1167,7 @@
     "AVENTURA"
    ],
    "desarrollador": "REMEDY ENTERTAINMENT",
-   "descripcion": "Explora un Manhattan deformado al borde de la aniquilación sobrenatural en este emocionante RPG de acción y aventuras. Desata los extraordinarios poderes de Dylan Faden mientras lucha por su humanidad y nuestra supervivencia contra una amenaza cósmica que desafía a la realidad.",
+   "descripcion": "Un RPG de acción en un Manhattan deformado por lo sobrenatural. Se juega con Dylan Faden y sus poderes, en una pelea por sobrevivir a una amenaza cósmica sin perder la humanidad.",
    "trailer": "https://youtube.com/embed/WhQm-ExRz60",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/d7d5d27ed9b44f4646def6eccd765991.png",
@@ -1244,7 +1244,7 @@
     "AVENTURA"
    ],
    "desarrollador": "SQUARE ENIX",
-   "descripcion": "La edición definitiva incluye el aclamadísimo DRAGON QUEST XI, además de escenarios adicionales, una banda sonora orquestal, el modo 2D y más cosas. Ya seas fan de toda la vida o un aventurero recién llegado, esta es la experiencia DQXI definitiva.",
+   "descripcion": "La edición definitiva de Dragon Quest XI: el juego completo más escenarios adicionales, banda sonora orquestal y el modo 2D, que permite recorrer toda la aventura con el estilo de los primeros juegos de la saga.",
    "trailer": "https://youtube.com/embed/73FRi8W1oCM",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295510/library_600x900.jpg",
@@ -1267,7 +1267,7 @@
     "CASUAL"
    ],
    "desarrollador": "OSOME STUDIO",
-   "descripcion": "¡Despierta a Garfield de esta pesadilla llena de verduras en este juego de plataformas 3D! ¡El gato más perezoso del mundo tendrá que esforzarse en Garfield - Escape from Monday!",
+   "descripcion": "Un plataformas en 3D donde Garfield tiene que escapar de una pesadilla llena de verduras, y el gato más vago del mundo no tiene más remedio que moverse.",
    "trailer": "https://youtube.com/embed/aWM1GH3uF2g",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocat5.jpg",
@@ -1411,7 +1411,7 @@
     "COOP"
    ],
    "desarrollador": "MOJANG STUDIOS",
-   "descripcion": "Suelta el pico, coge una espada y lánzate a una nueva aventura en Minecraft Dungeons II. ¡Reserva hoy y obtén 2 aspectos de héroe, la capa Perversa y la mascota Pollo perverso!",
+   "descripcion": "La segunda parte del spin-off de acción de Minecraft: se deja el pico, se agarra la espada y se sale a recorrer mazmorras. La reserva incluye dos aspectos de héroe, una capa y una mascota.",
    "trailer": "https://youtube.com/embed/VyZKYhM0Kv4",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/83e727ba74a653775d25a777ab709211.png",
@@ -1435,7 +1435,7 @@
     "INDIE"
    ],
    "desarrollador": "SOMETHING WE MADE",
-   "descripcion": "Ponte de nuevo en la piel de un curioso fotógrafo y emprende una nueva aventura en la que descubrirás detalles ocultos, ayudarás a amigos y documentarás las pequeñas maravillas del mundo con TOEM 2, la secuela del aclamado TOEM original.",
+   "descripcion": "La secuela de TOEM: otra vez se es un fotógrafo curioso que recorre el mundo encontrando detalles escondidos, ayudando a la gente y retratando las cosas chicas que lo hacen lindo.",
    "trailer": "https://youtube.com/embed/jVGUdY0eht0",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2900640/library_600x900.jpg",
@@ -1465,7 +1465,7 @@
     "MUNDO ABIERTO"
    ],
    "desarrollador": "NINE ROCKS GAMES",
-   "descripcion": "Siente la emoción de la caza y mantente alerta para descubrir las fantásticas especies salvajes que rondan por la naturaleza norteamericana y la sabana africana. Caza y exhibe tus piezas de caza mayor, como alces y búfalos cafre, y de caza menor y aves.",
+   "descripcion": "Un simulador de caza en Norteamérica y la sabana africana. Se rastrean especies de caza mayor, como alces y búfalos cafre, y también de caza menor y aves, y las piezas se exhiben como trofeo.",
    "trailer": "https://youtube.com/embed/pXmR2QV_Cyc",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdqj.jpg",
@@ -1803,7 +1803,7 @@
     "ACCION"
    ],
    "desarrollador": "BANDAI NAMCO ACES INC.",
-   "descripcion": "Supera desafíos y reclama tu sitio entre los ases del aire. Usa poderosas armas en intensos combates aéreos para dominar el campo de batalla. Descubre un formidable modo Campaña con misiones de alto riesgo que en las que tomarás decisiones difíciles, pero también forjarás vínculos con tu escuadrón.",
+   "descripcion": "La nueva entrega de Ace Combat, con combates aéreos intensos y armamento pesado. El centro es una campaña con misiones de alto riesgo, decisiones difíciles y relaciones con el resto del escuadrón.",
    "trailer": "https://youtube.com/embed/cW6zBuO7sb4",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/a5ac85c0f395122aad68367e649fd342.png",
@@ -1891,7 +1891,7 @@
     "AVENTURA"
    ],
    "desarrollador": "THE COALITION",
-   "descripcion": "Experimenta el Día de la Emergencia, la brutal historia original de una de las franquicias de disparos en tercera persona más aclamadas del mundo de los videojuegos.",
+   "descripcion": "La precuela de Gears of War sobre el Día de la Emergencia, el origen brutal de la guerra contra la Horda, en la saga de shooters en tercera persona de Xbox.",
    "trailer": "https://youtube.com/embed/EC20gLfUHeA",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/library_600x900.jpg",
@@ -1915,7 +1915,7 @@
     "DEPORTES"
    ],
    "desarrollador": "FUSE GAMES",
-   "descripcion": "STAR WARS: Galactic Racer™ es una vuelta de tuerca a las carreras nacidas en el Borde Exterior. Con la desaparición del Imperio y la reconstrucción de la galaxia, surge la Liga Galáctica: un circuito clandestino donde los sindicatos financian el caos y se forjan los campeones.",
+   "descripcion": "Un juego de carreras de Star Wars ambientado después de la caída del Imperio. En el Borde Exterior nace la Liga Galáctica, un circuito clandestino financiado por sindicatos criminales donde se hacen los campeones.",
    "trailer": "https://youtube.com/embed/Je9SLyqRtc0",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/a592d9fe5ade10553913fb1b94f1175c.png",
@@ -1938,7 +1938,7 @@
     "AVENTURA"
    ],
    "desarrollador": "PURPLE LAMP",
-   "descripcion": "¡Embárcate en un viaje mágico con Disney Epic Mickey: Rebrushed! ¡Crea tu aventura a golpe de pincel y conviértete en Mickey Mouse para transformar el Páramo en este precioso y actualizado juego de plataformas 3D!",
+   "descripcion": "La remasterización de Epic Mickey, el plataformas en 3D donde Mickey usa un pincel mágico para pintar o borrar partes del escenario y transformar el Páramo.",
    "trailer": "https://youtube.com/embed/j76rpUMA1Gg",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1522160/library_600x900.jpg",
@@ -1960,7 +1960,7 @@
     "ACCION"
    ],
    "desarrollador": "SABER INTERACTIVE",
-   "descripcion": "Disfruta de un nuevo capítulo único de la legendaria serie de terror. Hellraiser: Revival de Clive Barker lleva el survival horror de acción en primera persona a otro nivel.",
+   "descripcion": "Un survival horror de acción en primera persona basado en Hellraiser, la saga de terror de Clive Barker, con una historia nueva.",
    "trailer": "https://youtube.com/embed/TfABHlPa-Bg",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/library_600x900.jpg",
@@ -2015,7 +2015,7 @@
     "AVENTURA"
    ],
    "desarrollador": "ROGUE FACTOR",
-   "descripcion": "La guerra es lo más cercano al infierno en la Tierra, porque esta alberga al peor demonio: la humanidad. En un país aislado y arrasado por luchas internas, descubre los secretos de tu pasado y afronta las repercusiones de una misteriosa calamidad.",
+   "descripcion": "Un juego de acción y aventura en un país aislado, arrasado por una guerra civil y por una calamidad misteriosa. El protagonista busca los secretos de su propio pasado, y el juego parte de una idea: el peor demonio que hay en esa guerra es la gente.",
    "trailer": "https://youtube.com/embed/ha5N-iV1DZY",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1620730/library_600x900.jpg",
@@ -2059,7 +2059,7 @@
     "CARRERAS"
    ],
    "desarrollador": "UBISOFT IVORY TOWER",
-   "descripcion": "The Crew Motorfest es un juego de conducción de mundo abierto ambientado en la isla de O'ahu, Hawái. Experimenta lo mejor que tiene que ofrecer la cultura automovilística mientras compites en intensas carreras, experimentas eventos temáticos y coleccionas cientos de coches emblemáticos.",
+   "descripcion": "Un juego de manejo en mundo abierto ambientado en la isla de O'ahu, en Hawái. Se corren carreras, se participa de eventos temáticos dedicados a distintas culturas del auto y se coleccionan cientos de modelos conocidos.",
    "trailer": "https://youtube.com/embed/2S-A3z866YI",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/library_600x900.jpg",
@@ -2082,7 +2082,7 @@
     "CASUAL"
    ],
    "desarrollador": "RENGAME",
-   "descripcion": "Érase una vez, un katamari que rodó por el pasado y el presente. En esta historia a través del tiempo, el dicho prevalece: ¡rueda, rueda, rueda! ¡Atraviesa nuevos mundos para adherir lo que te pida el cuerpo y restaurar las estrellas!",
+   "descripcion": "Un Katamari que viaja por distintas épocas: se hace rodar la bola por mundos del pasado y del presente, pegándole todo lo que aparezca, para devolver las estrellas al cielo.",
    "trailer": "https://youtube.com/embed/JQpojKTAvPY",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/d4ab910e81e69b831c517056f3731009.jpg",
@@ -2413,7 +2413,7 @@
     "ESTRATEGIA"
    ],
    "desarrollador": "FRONTIER DEVELOPMENTS",
-   "descripcion": "Construye un mundo más salvaje en Planet Zoo 2. Crea zoológicos únicos por todo el mundo, llenos de animales asombrosos, aves y especies acuáticas, y luego lleva la experiencia más allá de sus fronteras liberándolos en amplias reservas naturales.",
+   "descripcion": "La secuela del simulador de zoológicos. Se construyen parques por todo el mundo con animales terrestres, aves y especies acuáticas, y ahora también se los puede liberar en reservas naturales abiertas.",
    "trailer": "https://youtube.com/embed/G6-yj80Guxg",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/f14b6444d23c8a8b2aeab52d54cf915e.png",
@@ -2436,7 +2436,7 @@
     "AVENTURA"
    ],
    "desarrollador": "PURPLE LAMP",
-   "descripcion": "¡Prepárate para pasar miedo! Un conflicto entre el Holandés Errante y el Rey Neptuno ha desatado el caos en Fondo de Bikini. ¡Alterna entre Bob Esponja y Patricio, combina sus habilidades y evita que Fondo de Bikini se convierta en una ciudad fantasma!",
+   "descripcion": "Un plataformas de Bob Esponja con tono de terror. Una pelea entre el Holandés Errante y el Rey Neptuno llenó Fondo de Bikini de caos, y hay que alternar entre Bob Esponja y Patricio, combinando sus habilidades, para que no quede convertida en un pueblo fantasma.",
    "trailer": "https://youtube.com/embed/wcDpp_9G6V0",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/30ad15654dfe614c9ec13b65d0947cba.png",
@@ -2509,7 +2509,7 @@
     "SIMULACION"
    ],
    "desarrollador": "SUNNY LAB",
-   "descripcion": "¡The Witch's Bakery es un juego de rol y aventuras en 2D donde vivirás una vida mágica siendo una bruja panadera en París! ¡Gestiona tu tienda, visita calles icónicas y sana los corazones de la gente con tus cruasanes! 🥐",
+   "descripcion": "Un juego de rol y aventura en 2D donde se es una bruja con panadería en París. Se atiende la tienda, se recorren calles conocidas de la ciudad y se reconforta a la gente con lo que sale del horno.",
    "trailer": "https://youtube.com/embed/52DNO516s34",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/library_600x900.jpg",
