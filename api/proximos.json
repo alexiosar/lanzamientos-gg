@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-15T14:39:37+00:00",
+ "generado": "2026-09-15T21:18:52+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-15",
@@ -23,6 +23,11 @@
    "desarrollador": "INSOMNIAC GAMES",
    "descripcion": "Lo nuevo de Insomniac Games (Marvel's Spider-Man): Logan desata sus garras en una aventura para adultos, más cruda y visceral que las del trepamuros, exclusiva de PlayStation 5.",
    "trailer": "https://youtube.com/embed/s3pDMUWlA6I",
+   "gameplay": {
+    "video": "https://youtube.com/embed/vwez4gW4frA",
+    "canal": "L0k0hGaming",
+    "canalUrl": "https://www.youtube.com/@l0k0hgaming"
+   },
    "metacritic": 77,
    "metacriticUsuarios": null,
    "critica": "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
