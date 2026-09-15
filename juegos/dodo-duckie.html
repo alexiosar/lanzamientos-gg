@@ -155,6 +155,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="dodo-duckie" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Las cuatro reseñas se dividen justo al medio y por eso el 81 engaña un poco. Las dos entusiastas destacan la idea central, que es alternar entre 2D y 3D como base del diseño de niveles, y dicen que no se queda en el truco: el juego que se construye encima funciona. Las dos tibias dicen lo mismo del mecanismo pero se topan con errores: uno de los medios lo señala como el motivo directo de su nota. Si el estudio los corrige, la diferencia entre las dos mitades se achica sola.</p>
@@ -304,6 +316,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

@@ -155,6 +155,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="the-alters-last-variable" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Es una expansión y las reseñas la juzgan como tal, con una división clara. Para la mayoría suma sistemas nuevos —la terraformación, los ciclos, una cadena de producción más exigente— y le da al que ya jugó una razón para volver, a buen precio. Para las notas más bajas pasa lo contrario: gana complejidad y pierde lo que hacía especial al original, con personajes escritos con menos cuidado y menos tensión entre administrar recursos y administrar gente.</p>
@@ -304,6 +316,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

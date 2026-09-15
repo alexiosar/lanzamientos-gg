@@ -155,6 +155,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="the-caribou-trail" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Las reseñas coinciden en separar la historia del juego. La historia —el regimiento de Terranova en Galípoli, un episodio de la Primera Guerra que casi nadie cuenta— se lleva elogios muy fuertes: hay una nota que dice que debería enseñarse en las escuelas. Lo jugable es otra cosa: casi todas las reseñas hablan de mecánicas repetitivas y hasta innecesarias, que estiran una obra que además es corta. La recomendación que más se repite es jugarlo por lo que cuenta, no por cómo se juega.</p>
@@ -304,6 +316,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

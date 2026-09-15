@@ -156,6 +156,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="no-more-room-in-hell-2" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Las reseñas están de acuerdo en el diagnóstico y no en la conclusión. Todas ven lo mismo: un cooperativo de zombis para hasta ocho jugadores, con mapas grandes, objetivos bien pensados y una tensión que se sostiene porque la muerte es definitiva. Y todas ven los mismos problemas: errores, rendimiento flojo y un combate que quedó por debajo de la idea. Ahí se separan. Para las notas altas el conjunto funciona igual; para las más duras el potencial se pierde entre los defectos. Varias señalan además que con joystick se juega bastante peor que con mouse.</p>
@@ -312,6 +324,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

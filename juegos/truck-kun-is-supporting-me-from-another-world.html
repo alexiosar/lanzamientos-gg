@@ -155,6 +155,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="truck-kun-is-supporting-me-from-another-world" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Todas las reseñas coinciden en que el chiste —el camión que en el anime manda a los protagonistas a otro mundo, ahora manejado por vos— es excelente, y en que dura menos que el juego. Los elogios van a lo directo y frenético, con Crazy Taxi como referencia obvia. Los reparos se repiten: el manejo es tosco, la progresión repite, y varias reseñas cuentan que a las dos horas ya vieron todo. Es corto igual, tres o cuatro horas.</p>
@@ -311,6 +323,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

@@ -155,6 +155,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="echoes-of-aincrad" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Es de los peor recibidos del año, y lo llamativo es que ni siquiera los fanáticos de Sword Art Online lo defienden. Las reseñas coinciden en que la idea —vivir el juego mortal desde la piel de un jugador cualquiera— es buena y en que el tono de la serie está bien capturado. Ahí se termina el acuerdo positivo: repetición, misiones sin gracia y sistemas a medio cocinar aparecen en casi todas. La frase que más se repite es que promete algo que después no llega nunca.</p>
@@ -304,6 +316,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

@@ -1,9 +1,19 @@
 {
   "name": "lanzamientos-gg",
   "compatibility_date": "2026-07-07",
+  // El Worker sólo atiende /votos (el botón "¿LO VAS A JUGAR?" de las fichas). Cloudflare
+  // sirve primero cualquier archivo que exista, así que el sitio estático no pasa por acá.
+  "main": "worker/index.js",
   "assets": {
     "directory": ".",
+    "binding": "ASSETS",
     // sirve nuestra 404.html en vez de un 404 vacío para rutas inexistentes
     "not_found_handling": "404-page"
-  }
+  },
+  "durable_objects": {
+    "bindings": [{ "name": "VOTOS", "class_name": "Votos" }]
+  },
+  // La base de votos se crea sola en el primer deploy con esta migración: no hay que crear
+  // nada en el panel de Cloudflare. Una migración ya aplicada no se edita ni se borra.
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Votos"] }]
 }

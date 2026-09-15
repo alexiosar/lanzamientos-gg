@@ -155,6 +155,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="marsupilami-2-salsa-palombia" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Cinco reseñas y un acuerdo tranquilo: es un plataformas 2D prolijo y colorido, fiel a la historieta de Franquin, y de los pocos que se pueden jugar con chicos al lado. Lo que más se destaca es el ritmo y que funciona bien en portátil. Los reparos son de tamaño, no de calidad: es corto, y varias reseñas señalan que el movimiento, la música y el diseño de niveles no siempre encajan al mismo tiempo — cuando lo hacen es muy bueno, cuando no, se siente irregular. Nadie lo trata de imprescindible y nadie lo trata mal.</p>
@@ -311,6 +323,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

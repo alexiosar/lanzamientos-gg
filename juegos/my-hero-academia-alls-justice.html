@@ -155,6 +155,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="my-hero-academia-alls-justice" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Las veinte reseñas dicen casi lo mismo con distinto entusiasmo: es un regalo para quien sigue el anime y poco más. Lo que se elogia es el volumen —sesenta y ocho personajes jugables, varios modos, y la adaptación del arco final de la Guerra— y las peleas tres contra tres, donde cada personaje se siente distinto. Los reparos también son parejos: la cámara se pierde en los combates, la dificultad está mal repartida, y varios señalan que sigue sin ser el juego definitivo de la serie pese a ser mejor que One&#x27;s Justice 2. El aviso que aparece en casi todas: si no seguís el anime, no vas a entender nada.</p>
@@ -304,6 +316,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

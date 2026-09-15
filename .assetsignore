@@ -1,0 +1,4 @@
+# El código del Worker no es parte del sitio: no se sube como archivo público.
+worker
+.wrangler
+node_modules

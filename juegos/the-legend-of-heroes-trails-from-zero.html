@@ -160,6 +160,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="the-legend-of-heroes-trails-from-zero" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Las reseñas coinciden en dos cosas. Que la espera valió la pena, porque este arco estuvo doce años sin traducirse y era el hueco grande para quien sigue la saga en occidente. Y que Crossbell es de los mejores escenarios que armó Falcom: una ciudad apretada entre dos potencias, con una trama política que se toma su tiempo y personajes que casi todas las reseñas destacan. Los reparos son de la edad del juego — misiones secundarias tediosas y decisiones de diseño que envejecieron mal —, porque debajo sigue siendo un juego pensado para una portátil de hace más de una década.</p>
@@ -309,6 +321,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

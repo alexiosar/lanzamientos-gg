@@ -160,6 +160,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="final-fantasy-x-x-2-hd-remaster" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Las reseñas son las de esta remasterización cuando salió, hace más de diez años. La prensa la tomó como un ejemplo de cómo se hace: dos juegos completos, con el contenido internacional que en occidente nunca había llegado, y un trabajo de retoque que va más allá de subirle la resolución. Los reparos apuntan al original, no al remaster: hay quien sostiene que el sistema de combate no envejeció tan bien y que la cámara sigue siendo un problema en varios tramos.</p>
@@ -309,6 +321,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

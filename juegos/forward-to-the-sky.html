@@ -154,6 +154,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="forward-to-the-sky" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Forward to the Sky es una aventura de acción en tercera persona ambientada en las ruinas de una torre celestial. Tu objetivo es recolectar los fragmentos de cristal esparcidos por sus distintos niveles para reconstruir, poco a poco, la historia de la torre y de la princesa que busca alcanzar la cima. Con plataformeo, combate ligero y una estética que recuerda a los cuentos de hadas, cada fragmento recuperado revela un poco más del misterio que envuelve al lugar, hasta que todo se termina de revelar cuando por fin se llega a la cúspide.</p>
@@ -289,6 +301,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

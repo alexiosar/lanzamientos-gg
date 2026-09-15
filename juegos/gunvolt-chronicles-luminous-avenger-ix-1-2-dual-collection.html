@@ -149,6 +149,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Esta colección reúne por primera vez los dos plataformeros de acción en 2D Gunvolt Chronicles: Luminous Avenger iX (2019) y su secuela Luminous Avenger iX 2 (2022), junto con todo el contenido descargable publicado originalmente para ambos. Como novedad exclusiva de esta edición, el modo Batalla Interminable te deja configurar tus propias reglas y enfrentarte a una oleada infinita de jefes aleatorios para poner a prueba tus reflejos. Ambos títulos además reciben ajustes de balance que vuelven el gameplay más ágil y accesible, tanto para quienes los jugaron en su momento como para quienes se suban por primera vez a la acción.</p>
@@ -284,6 +296,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

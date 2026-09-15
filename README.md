@@ -119,7 +119,10 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               sin eso Cloudflare devuelve un 404 vacío.
 ├── favicon.svg                 Ícono del sitio (pestañas y favoritos)
 ├── og-image.png                Imagen que aparece al compartir el link en redes (1200x630)
-└── wrangler.jsonc              Configuración de deploy en Cloudflare (assets estáticos)
+├── worker/index.js             Worker de Cloudflare: sólo atiende /votos ("¿LO VAS A JUGAR?")
+├── js/votos.js                 Los tres botones de la ficha y sus barras de resultado
+├── .assetsignore               Deja el código del Worker fuera de los archivos públicos
+└── wrangler.jsonc              Configuración de deploy en Cloudflare (assets + Worker de votos)
 ```
 
 ## Cómo agregar un juego
@@ -1273,9 +1276,48 @@ generan el aviso "Página con redirección" en Search Console.
 
 ## Deploy
 
-Cloudflare (Wrangler) con `wrangler.jsonc`: sube toda la carpeta como assets estáticos.
-Pendiente evaluar un `.assetsignore` para excluir del deploy los archivos que no son del
-sitio (`scripts/`, `README.md`, el propio `wrangler.jsonc`).
+Cloudflare (Wrangler) con `wrangler.jsonc`: sube toda la carpeta como assets estáticos, más
+un Worker chico que sólo atiende `/votos`. El `.assetsignore` deja afuera `worker/`; los
+demás archivos que no son del sitio (`scripts/`, `README.md`) se siguen subiendo, y excluirlos
+queda pendiente.
+
+### "¿LO VAS A JUGAR?" (desde el 15/09/2026)
+
+Cada ficha tiene tres botones, SÍ / TAL VEZ / NO, y debajo el porcentaje de cada respuesta.
+Salió de una charla sobre abrir comentarios en las fichas: se descartaron porque con el
+tráfico de hoy casi todas las cajas quedarían vacías, porque moderarlos sería una rutina
+diaria más y porque las opciones gratis cargan publicidad (Disqus) o piden cuenta de GitHub
+(Giscus). Los votos dan una señal parecida sin nada que moderar. Los comentarios se
+reconsideran con la lectura de métricas del 1 de octubre.
+
+**Cómo funciona:**
+- `worker/index.js` es un Worker que recibe sólo lo que no es un archivo. Si la ruta es
+  `/votos/<id>` responde; si no, le devuelve el pedido a los assets, así el 404 sigue siendo
+  el de siempre.
+- Los votos viven en un **Durable Object con SQLite**. Se eligió así y no D1 ni KV porque
+  **no hay que crear nada en el panel de Cloudflare**: la base se crea sola en el primer
+  deploy con la migración `v1` de `wrangler.jsonc`. Esa migración no se edita ni se borra
+  nunca; un cambio de esquema va en una migración nueva.
+- Sin cuentas. El navegador genera un identificador al azar y lo manda con el voto, y eso
+  permite cambiar de opinión sin sumar dos veces. Tocar otra vez la opción elegida borra el
+  voto.
+- Sólo acepta ids que existen en `api/juegos.json` y POST desde el propio dominio.
+- **Límite de 60 votos por hora por IP.** No es un voto por IP a propósito: en la región
+  muchas conexiones móviles comparten IP pública entre miles de personas. La IP no se guarda:
+  se anota un hash con una sal que cambia cada día, y la fila se borra a la hora.
+- Los porcentajes aparecen recién con **5 votos**. Con menos, un "100% SÍ" no dice nada.
+- El bloque **sale oculto** en el HTML y `js/votos.js` lo muestra sólo si `/votos` responde.
+  Por eso con `scripts/servidor-local.py` no se ve: ese servidor no corre el Worker.
+
+**Probarlo en local:** `npx wrangler dev` (está como `worker` en `.claude/launch.json`, en el
+puerto 8787). Sirve el sitio y el Worker juntos, con una base local en `.wrangler/state`,
+que no se commitea.
+
+**Si aparece abuso**, el paso siguiente es Turnstile, el control antibots gratis de
+Cloudflare. Eso sí requiere crear el widget en el panel y cargar la clave secreta como
+variable del Worker, por eso no se hizo de entrada.
+
+`/privacidad` explica los votos: si se cambia qué se guarda, hay que actualizarla.
 
 ## Mantenimiento
 

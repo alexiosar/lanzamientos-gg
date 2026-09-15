@@ -1446,3 +1446,31 @@ a:hover { color: var(--blanco); }
   #filtros-genero { display: none; }
   #filtros-genero.abierto { display: flex; }
 }
+
+/* ¿LO VAS A JUGAR? — botones de la ficha y barras de resultado (js/votos.js). Los botones
+   copian la forma de AGENDAR y COMPARTIR para que la ficha no sume un estilo nuevo. */
+.votos-botones { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.btn-voto {
+  border: 1px solid var(--gris-5);
+  background: none;
+  color: var(--gris-6);
+  font-family: var(--font);
+  font-size: 0.6875rem;
+  letter-spacing: 2px;
+  padding: 5px 16px;
+  min-width: 80px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.btn-voto:hover         { border-color: var(--acento); color: var(--acento); }
+.btn-voto.activo        { border-color: var(--blanco); color: var(--blanco); }
+.btn-voto:focus-visible { outline: 1px solid var(--acento); outline-offset: 2px; }
+.votos.enviando .btn-voto { opacity: 0.5; pointer-events: none; }
+.votos-resultado { margin-top: 0.9rem; max-width: 360px; }
+.votos-fila   { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.35rem; }
+.votos-etq    { width: 64px; color: var(--gris-6); font-size: 0.6875rem; letter-spacing: 1px; }
+.votos-barra  { flex: 1; height: 6px; background: var(--gris-2); }
+.votos-barra span { display: block; height: 100%; background: var(--acento); }
+.votos-pct    { width: 36px; text-align: right; color: var(--gris-7); font-size: 0.6875rem; }
+.votos-total  { color: var(--gris-5); font-size: 0.625rem; letter-spacing: 1px; margin-top: 0.4rem; }
+.votos-aviso  { color: var(--gris-6); font-size: 0.6875rem; margin-top: 0.6rem; }

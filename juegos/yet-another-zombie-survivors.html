@@ -160,6 +160,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="yet-another-zombie-survivors" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Las reseñas arrancan todas por el mismo lado: es otro survivors-like y no pretende ser otra cosa. Lo que rescatan es la cantidad de contenido, los personajes que se van desbloqueando y un sistema de mejoras permanentes que engancha, pero sobre todo el escuadrón de tres, que abre sinergias entre clases que el resto del género no tiene. El reparo también se repite: el escenario es convencional, la progresión se vuelve previsible y en pocas horas ya viste casi todo. En cooperativo aguanta bastante más.</p>
@@ -309,6 +321,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

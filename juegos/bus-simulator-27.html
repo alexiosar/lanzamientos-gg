@@ -155,6 +155,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="bus-simulator-27" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
         <p class="critica-texto">Las reseñas coinciden en dos cosas opuestas y por eso queda en 61. Lo bueno: es lo mejor que hay hoy en simulación de colectivos, con más de cuarenta y cinco modelos con licencia, un mapa grande inspirado en la península ibérica y una sensación de manejo que varias destacan. Lo malo: el estado técnico. La palabra que más se repite es que se siente como un acceso anticipado — errores, un mundo que no termina de estar vivo y sobre todo la inteligencia artificial del resto del tránsito, que es el reparo unánime. La reseña más dura dice que en vez de un buen manejo lo que ofrece es una pila de sistemas accesorios. Casi todas cierran igual: con parches puede llegar a ser el que la saga merece.</p>
@@ -304,6 +316,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");

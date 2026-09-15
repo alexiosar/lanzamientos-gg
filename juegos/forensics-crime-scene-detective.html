@@ -149,6 +149,18 @@
         </div>
       </div>
 
+      <!-- Sale oculto: js/votos.js lo muestra sólo si el Worker de /votos responde. -->
+      <div class="seccion votos" id="votos" data-juego="forensics-crime-scene-detective" hidden>
+        <div class="seccion-titulo">¿LO VAS A JUGAR?</div>
+        <div class="votos-botones">
+          <button class="btn-voto" data-voto="si" aria-pressed="false">SÍ</button>
+          <button class="btn-voto" data-voto="talvez" aria-pressed="false">TAL VEZ</button>
+          <button class="btn-voto" data-voto="no" aria-pressed="false">NO</button>
+        </div>
+        <div class="votos-resultado" hidden></div>
+        <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
+      </div>
+
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">En Forensics: Crime Scene Detective sos la autoridad científica que les da a los investigadores los hechos concretos. Tu trabajo empieza cuando las sirenas se apagan y el silencio se instala sobre la escena del crimen. Con cabeza fría y ojo entrenado, entrás a departamentos, bares y sótanos donde ocurrió (o se dice que ocurrió) algo inimaginable. Con herramientas profesionales buscás lo que otros pasan por alto: una huella sutil en una copa de vino, un mensaje borrado en un celular, una mancha de sangre diminuta que pone en duda una declaración. Asegurar la evidencia es solo el comienzo: en el laboratorio comparás perfiles de ADN, reconstruís trayectorias de disparos, desencriptás dispositivos digitales y armás el rompecabezas completo. Tus análisis pueden incriminar culpables o exonerar inocentes, porque no toda escena sangrienta es un asesinato y no todo lo obvio es la verdad.</p>
@@ -284,6 +296,7 @@
 
   <script src="../datos/juegos.js"></script>
   <script src="../js/favoritos.js"></script>
+  <script src="../js/votos.js" defer></script>
   <script>
     function toggleTema() {
       const claro = document.documentElement.classList.toggle("tema-claro");
