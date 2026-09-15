@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 15 Sep 2026 14:05:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 14:39:37 +0000</lastBuildDate>
+    <item>
+      <title>PAPERHEAD: YA NO SALE EL 18 DE SEPTIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/paperhead</link>
+      <guid isPermaLink="false">paperhead-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <description>El tráiler de junio lo anunciaba para el 18 de septiembre en PC y consolas, pero la fecha se corrió: Steam ahora dice 9 de octubre. En PS5 y Xbox las tiendas no tienen día, así que por ahora queda como estimado para octubre. — PAPERHEAD para XBOX / PS5.</description>
+    </item>
     <item>
       <title>007 FIRST LIGHT: LA VERSIÓN DE SWITCH 2 SE RETRASA A MARZO DE 2027</title>
       <link>https://lanzamientos.lat/juegos/007-first-light</link>
@@ -291,13 +298,6 @@ Ese mismo día sale una Nintendo Switch 2 con diseño de la edición 40.º anive
       <guid isPermaLink="false">wo-long-fallen-dynasty-2026-09-03</guid>
       <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
       <description>La edición de Switch 2 sale hoy. El puntaje viene del lanzamiento de 2023 en las otras consolas: un soulslike de los Tres Reinos donde el parry es el centro del combate. Los reparos de entonces siguen valiendo — dificultad despareja y escenarios lineales. — WO LONG: FALLEN DYNASTY para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>ALIENS: FIRETEAM ELITE 2: DEBUTA CON 66: BUEN SISTEMA DE CLASES, MUCHOS ERRORES</title>
-      <link>https://lanzamientos.lat/juegos/aliens-fireteam-elite-2</link>
-      <guid isPermaLink="false">aliens-fireteam-elite-2-2026-09-03</guid>
-      <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Las reseñas se dividen. Coinciden en el sistema de clases y en que suma un cuarto puesto al escuadrón, pero también en los errores técnicos, que en un cooperativo duelen más porque sacan a los jugadores de la partida. Varias señalan que se parece demasiado al primero, de hace cinco años. — ALIENS: FIRETEAM ELITE 2 para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

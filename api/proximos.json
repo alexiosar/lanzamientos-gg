@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-15T14:05:23+00:00",
+ "generado": "2026-09-15T14:39:37+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-15",
  "hasta": "2026-10-15",
- "total": 106,
+ "total": 105,
  "juegos": [
   {
    "id": "marvels-wolverine",
@@ -791,28 +791,6 @@
    "url": "https://lanzamientos.lat/juegos/moomintroll-winters-warmth"
   },
   {
-   "id": "paperhead",
-   "titulo": "PAPERHEAD",
-   "fecha": "2026-09-18",
-   "plataformas": [
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "SHOOTER",
-    "INDIE"
-   ],
-   "desarrollador": "PAPERHEAD TE4M",
-   "descripcion": "En este adorable mundo de cartón, algo se torció irremediablemente... Sírvete de un lápiz prodigioso, una escopeta de toda la vida y demás armas para enfrentar la pesadilla de papel en este shooter de acción indie.",
-   "trailer": "https://youtube.com/embed/Z-zHLhZ9Isw",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/paperhead"
-  },
-  {
    "id": "the-grinch-2-saving-christmas",
    "titulo": "THE GRINCH 2: SAVING CHRISTMAS",
    "fecha": "2026-09-18",
@@ -1130,31 +1108,6 @@
      "texto": "La versión de consola sale sólo en PS5 el 24 de septiembre y la exclusividad dura como mínimo medio año, así que la de Xbox no tiene fecha. La tienda de Xbox no lo lista, y en la de PlayStation ya se puede reservar a 49,99 dólares, con una edición Deluxe a 59,99."
     }
    ]
-  },
-  {
-   "id": "harvest-moon-echoes-of-teradea",
-   "titulo": "HARVEST MOON: ECHOES OF TERADEA",
-   "fecha": "2026-09-24",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "SIMULACION",
-    "RPG",
-    "RELAX"
-   ],
-   "desarrollador": "NATSUME",
-   "descripcion": "La nueva entrega de la histórica saga de granjas de Natsume: cultivá, criá animales y ganate el corazón del pueblo en el mundo de Teradea.",
-   "trailer": "https://youtube.com/embed/gxVbu2AgOwo",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocani.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/harvest-moon-echoes-of-teradea"
   },
   {
    "id": "dragon-quest-xi-echoes-of-an-elusive-age",
@@ -2476,6 +2429,38 @@
    "imagen": "https://cdn2.steamgriddb.com/grid/c9d70429c6c04a1e2e78843b1d70573a.png",
    "alta": "2026-08-24",
    "url": "https://lanzamientos.lat/juegos/the-jackbox-party-pack-12"
+  },
+  {
+   "id": "harvest-moon-echoes-of-teradea",
+   "titulo": "HARVEST MOON: ECHOES OF TERADEA",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RPG",
+    "RELAX"
+   ],
+   "desarrollador": "NATSUME",
+   "descripcion": "La nueva entrega de la saga de granjas de Natsume, con un mundo abierto enorme con cuevas, islas lejanas y pueblos, que no se recorre en un solo día y tiene campamentos para descansar y cocinar. Además de la granja hay diez candidatos para casarse y animales compañeros con habilidades para romper rocas o llegar a zonas escondidas. Arranca en Bloomfield, cuando una niebla misteriosa sale del Bosque de los Ecos.",
+   "trailer": "https://youtube.com/embed/gxVbu2AgOwo",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocani.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/harvest-moon-echoes-of-teradea",
+   "noticias": [
+    {
+     "fecha": "2026-08-25",
+     "titulo": "SE RETRASA AL 15 DE OCTUBRE Y TIENE EDICIÓN DE COLECCIONISTA",
+     "texto": "Natsume movió la salida del 24 de septiembre al 15 de octubre. Lo dijo al anunciar una edición de coleccionista limitada a 500 unidades, con una maceta pintada a mano con forma de Lupo, el lobito del juego, un peluche, un diario, semillas de flores silvestres, un calendario y stickers. La PS Store y la tienda de Xbox ya tienen la fecha nueva."
+    }
+   ]
   },
   {
    "id": "castlevania-belmonts-curse",

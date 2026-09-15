@@ -539,7 +539,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1266,
+    metacriticVotos: 1267,
     critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://cdn2.steamgriddb.com/grid/a9f7e2af063303f02fd5d479c8816c79.png",
     noticias: [
@@ -1846,7 +1846,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 80,
     metacriticUsuarios: 5.8,
-    metacriticVotos: 717,
+    metacriticVotos: 718,
     critica: "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
     imagen: "https://cdn2.steamgriddb.com/grid/9e00a3de909a5e4ada9324bc7aa1fea2.png",
     noticias: [
@@ -3265,7 +3265,7 @@ const JUEGOS = [
     },
     metacritic: 83,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 941,
+    metacriticVotos: 942,
     imagen: "https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png",
     critica: "Más de treinta reseñas y un acuerdo raro de ver en un debut: Rebel Wolves —armado por gente que hizo The Witcher 3— salió bien parado. Lo que más se elogia es lo que lo hace distinto: el reloj de treinta días que corre mientras jugás, la doble condición de humano de día y vampiro de noche, y decisiones que tienen consecuencias de verdad. También la escritura y los personajes. El reparo que más se repite es de dónde viene: toma mucho de The Witcher 3 y el mundo abierto se siente de fórmula, con misiones secundarias que se parecen entre sí. Se le marcan además animaciones faciales duras y un combate que a la larga se vuelve repetitivo.",
     noticias: [
@@ -3323,7 +3323,7 @@ const JUEGOS = [
       canal: "Puerta al Sótano",
       canalUrl: "https://www.youtube.com/@Dan-PuertaAlSotano"
     },
-    metacritic: 81,
+    metacritic: 79,
     metacriticUsuarios: 8.3,
     metacriticVotos: 4,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6vp.jpg",
@@ -3382,7 +3382,7 @@ const JUEGOS = [
     },
     metacritic: 85,
     metacriticUsuarios: 8.6,
-    metacriticVotos: 580,
+    metacriticVotos: 581,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
     critica: "Más de cincuenta reseñas y un acuerdo casi unánime: es el mejor regreso posible después de veinte años sin la saga, y varias lo ponen entre los mejores juegos de acción del año. El elogio se concentra en una sola cosa, el combate — parries que exigen tiempo exacto, el Issen, y capas de mecánicas que se van sumando hasta el final. Se destaca también que Capcom NO lo convirtió en un soulslike, que era el camino fácil. Los reparos son tres y se repiten: los jefes se reutilizan y se notan, el Kioto abierto que hace de eje se siente repetitivo y fuera de tono con las misiones lineales, y la historia es lo más flojo del conjunto. Varias reseñas recomiendan arrancar en dificultad Historia para agarrarle la mano.",
     noticias: [
@@ -3906,14 +3906,23 @@ const JUEGOS = [
   {
     id: "paperhead",
     titulo: "PAPERHEAD",
-    fecha: "2026-09-18",
+    fecha: "2026-10-31",
+    estimado: true,
+    fechaEstimada: "OCTUBRE 2026",
     plataformas: ["XBOX", "PS5"],
     genero: ["SHOOTER", "INDIE"],
     desarrollador: "PAPERHEAD TE4M",
-    descripcion: "En este adorable mundo de cartón, algo se torció irremediablemente... Sírvete de un lápiz prodigioso, una escopeta de toda la vida y demás armas para enfrentar la pesadilla de papel en este shooter de acción indie.",
+    descripcion: "Un boomer shooter de terror en un mundo de cartón que parece tierno hasta que empieza a sangrar. Se recorre un laboratorio abandonado a los escopetazos y a las patadas, y el arma más rara es un lápiz: con él se dibujan bombas para patear, puertas para abrir y palabras en las paredes que cambian el escenario.",
     trailer: "https://youtube.com/embed/Z-zHLhZ9Isw",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-15",
+        titulo: "YA NO SALE EL 18 DE SEPTIEMBRE",
+        texto: "El tráiler de junio lo anunciaba para el 18 de septiembre en PC y consolas, pero la fecha se corrió: Steam ahora dice 9 de octubre. En PS5 y Xbox las tiendas no tienen día, así que por ahora queda como estimado para octubre."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -4015,14 +4024,21 @@ const JUEGOS = [
   {
     id: "harvest-moon-echoes-of-teradea",
     titulo: "HARVEST MOON: ECHOES OF TERADEA",
-    fecha: "2026-09-24",
+    fecha: "2026-10-15",
     plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH"],
     genero: ["SIMULACION", "RPG", "RELAX"],
     desarrollador: "NATSUME",
-    descripcion: "La nueva entrega de la histórica saga de granjas de Natsume: cultivá, criá animales y ganate el corazón del pueblo en el mundo de Teradea.",
+    descripcion: "La nueva entrega de la saga de granjas de Natsume, con un mundo abierto enorme con cuevas, islas lejanas y pueblos, que no se recorre en un solo día y tiene campamentos para descansar y cocinar. Además de la granja hay diez candidatos para casarse y animales compañeros con habilidades para romper rocas o llegar a zonas escondidas. Arranca en Bloomfield, cuando una niebla misteriosa sale del Bosque de los Ecos.",
     trailer: "https://youtube.com/embed/gxVbu2AgOwo",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocani.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-25",
+        titulo: "SE RETRASA AL 15 DE OCTUBRE Y TIENE EDICIÓN DE COLECCIONISTA",
+        texto: "Natsume movió la salida del 24 de septiembre al 15 de octubre. Lo dijo al anunciar una edición de coleccionista limitada a 500 unidades, con una maceta pintada a mano con forma de Lupo, el lobito del juego, un peluche, un diario, semillas de flores silvestres, un calendario y stickers. La PS Store y la tienda de Xbox ya tienen la fecha nueva."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -4540,7 +4556,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/jK0cGKMDMPE",
     metacritic: 87,
     metacriticUsuarios: 8.8,
-    metacriticVotos: 2786,
+    metacriticVotos: 2785,
     critica: "Es el juego con el que la prensa da por vuelto el género narrativo que dejó Telltale: la dirección, las actuaciones y los personajes se llevan los elogios en casi todas las reseñas. Los reparos son de estructura, no de ejecución: hay decisiones que no cambian nada, los mejores personajes aparecen poco y el final deja a varios con gusto a poco. De ahí salen las notas más bajas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
     noticias: [
