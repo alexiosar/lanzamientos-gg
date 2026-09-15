@@ -2,90 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-14T19:12:51+00:00",
+ "generado": "2026-09-15T14:05:23+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-14",
- "hasta": "2026-10-14",
- "total": 101,
+ "desde": "2026-09-15",
+ "hasta": "2026-10-15",
+ "total": 106,
  "juegos": [
-  {
-   "id": "truck-kun-is-supporting-me-from-another-world-switch-2",
-   "titulo": "TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!",
-   "relanzamiento": "En Xbox y PC desde el 29 de julio de 2026 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 3,5 h (historia) · 6,9 h (completo)",
-   "fecha": "2026-09-14",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "ANIME",
-    "INDIE"
-   ],
-   "desarrollador": "STRANGE SCAFFOLD",
-   "descripcion": "La edición de Switch 2 del juego que convierte en mecánica el chiste más repetido del anime: el camión que atropella al protagonista y lo manda a otro mundo, manejado por vos. Llega mes y medio después del estreno en Xbox, con el mismo contenido.",
-   "trailer": "https://youtube.com/embed/Iujy19OLvuc",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc030.jpg",
-   "alta": "2026-08-20",
-   "url": "https://lanzamientos.lat/juegos/truck-kun-is-supporting-me-from-another-world-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-08-20",
-     "titulo": "CONFIRMADA LA EDICIÓN DE SWITCH 2 PARA EL 14 DE SEPTIEMBRE",
-     "texto": "Frosty Pop y Strange Scaffold anunciaron la versión de Switch 2, mes y medio después del estreno en Xbox y PC."
-    }
-   ]
-  },
-  {
-   "id": "ferocious",
-   "titulo": "FEROCIOUS",
-   "relanzamiento": "En PC desde diciembre de 2025",
-   "fecha": "2026-09-14",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "FPS",
-    "ACCION",
-    "SUPERVIVENCIA",
-    "INDIE"
-   ],
-   "desarrollador": "OMYOG",
-   "descripcion": "Un shooter en primera persona en una isla donde conviven mercenarios y dinosaurios, y los dos son un problema. Hay que sobrevivir en un ecosistema hostil y los tiroteos se arman en medio de la selva. Es de un solo jugador y lo publica tinyBuild.",
-   "trailer": "https://youtube.com/embed/tAh1gguX0jc",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1645630/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-14",
-   "url": "https://lanzamientos.lat/juegos/ferocious"
-  },
-  {
-   "id": "beyblade-x-evobattle",
-   "titulo": "BEYBLADE X EVOBATTLE",
-   "relanzamiento": "En Switch y PC desde noviembre de 2025, y en Switch 2 desde enero de 2026 — esta fecha corresponde a la edición de PS5",
-   "fecha": "2026-09-14",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "ANIME",
-    "CASUAL"
-   ],
-   "desarrollador": "GROOVE BOX JAPAN",
-   "descripcion": "El juego oficial de Beyblade X, basado en el animé y en los trompos de juguete de TOMY. Se arman trompos pieza por pieza, se lanzan en el estadio y hay un modo historia además del combate online. Llega a PS5 casi un año después de Switch.",
-   "trailer": "https://youtube.com/embed/n2Zs-xwzSyI",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coao9p.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-14",
-   "url": "https://lanzamientos.lat/juegos/beyblade-x-evobattle"
-  },
   {
    "id": "marvels-wolverine",
    "titulo": "MARVEL'S WOLVERINE",
@@ -101,6 +24,7 @@
    "descripcion": "Lo nuevo de Insomniac Games (Marvel's Spider-Man): Logan desata sus garras en una aventura para adultos, más cruda y visceral que las del trepamuros, exclusiva de PlayStation 5.",
    "trailer": "https://youtube.com/embed/s3pDMUWlA6I",
    "metacritic": 77,
+   "metacriticUsuarios": null,
    "critica": "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
    "gamepass": false,
@@ -174,7 +98,10 @@
    "desarrollador": "BLACK FOREST GAMES",
    "descripcion": "La remake de la segunda parte de Destroy All Humans!. Crypto, el alienígena invasor, vuelve en plenos años sesenta con toda la estética psicodélica de la época, y esta vez va contra la KGB, que le destruyó la nave nodriza.",
    "trailer": "https://youtube.com/embed/7bx83mAM41Y",
-   "metacritic": null,
+   "metacritic": 67,
+   "metacriticUsuarios": 7.1,
+   "metacriticVotos": 77,
+   "critica": "El puntaje es el de la versión de 2022 en PS5 y Xbox. Las reseñas lo tratan como una remake prolija y divertida: gráficos renovados y coloridos, controles simples que responden bien y mucha destrucción por varias ciudades del mundo, con Crypto tan irreverente como siempre. Los reparos se repiten: parte del humor envejeció mal, el diseño de las misiones se nota de otra época y hay algunos problemas técnicos.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266700/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
@@ -2524,6 +2451,203 @@
      "texto": "Estaba anunciado para el 20 de agosto y se movió al 14 de octubre. Sale en PS5, Xbox Series, Switch 2, Switch y PC, con ediciones físicas para PS5, Switch 2 y Switch que incluyen un libro de recetas digital si se compran temprano."
     }
    ]
+  },
+  {
+   "id": "the-jackbox-party-pack-12",
+   "titulo": "THE JACKBOX PARTY PACK 12",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "CASUAL",
+    "MULTIJUGADOR",
+    "ESTRATEGIA",
+    "INDIE"
+   ],
+   "desarrollador": "JACKBOX GAMES",
+   "descripcion": "La duodécima tanda de juegos de fiesta de Jackbox: cinco juegos nuevos que se juegan con el celular como control, sin necesidad de que cada uno tenga el juego. Como siempre, la gracia está en lo que escribe y dibuja la gente que tenés al lado.",
+   "trailer": "https://youtube.com/embed/y4VcEb6k7As",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/c9d70429c6c04a1e2e78843b1d70573a.png",
+   "alta": "2026-08-24",
+   "url": "https://lanzamientos.lat/juegos/the-jackbox-party-pack-12"
+  },
+  {
+   "id": "castlevania-belmonts-curse",
+   "titulo": "CASTLEVANIA: BELMONT'S CURSE",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "PS5",
+    "SWITCH",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG"
+   ],
+   "desarrollador": "KONAMI",
+   "descripcion": "Un Castlevania nuevo de acción y exploración en 2D, hecho por Konami junto a Evil Empire y Motion Twin, los de Dead Cells. La historia pasa 23 años después de Castlevania III: Dracula's Curse y la protagonista es Rose Belmont.",
+   "trailer": "https://youtube.com/embed/ZRgOG0Phue8",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/36368348f3b5677aacd95ca9c51a0c4b.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/castlevania-belmonts-curse"
+  },
+  {
+   "id": "enshrouded",
+   "titulo": "ENSHROUDED",
+   "fecha": "2026-10-15",
+   "relanzamiento": "En PC desde 2024 — debut en consola",
+   "duracion": "≈ 48 h (historia) · 78 h (completo)",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE",
+    "RPG"
+   ],
+   "desarrollador": "KEEN GAMES GMBH",
+   "descripcion": "Un RPG de acción y supervivencia cooperativo para hasta dieciséis jugadores. Se es un Flameborn, la última esperanza de una raza que se muere, en un reino tapado por una niebla corrupta: se pelea contra enemigos, se construyen edificaciones y se va recuperando el mundo.",
+   "trailer": "https://youtube.com/embed/qygf4aICf34",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/enshrouded"
+  },
+  {
+   "id": "tormented-souls-2",
+   "titulo": "TORMENTED SOULS 2",
+   "fecha": "2026-10-15",
+   "relanzamiento": "En PS5, Xbox y PC desde octubre de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 13 h (historia) · 20 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "HORROR",
+    "AVENTURA",
+    "ACCION",
+    "SUPERVIVENCIA"
+   ],
+   "desarrollador": "DUAL EFFECT",
+   "descripcion": "Vuelve Caroline Walker en la secuela de este clásico del terror y la supervivencia. Explorás los restos decadentes de Villa Hess, usás armas improvisadas contra criaturas aterradoras y alterás la realidad para intentar salvar a quien todavía se pueda. La edición de Switch 2 sale en digital y en físico, en formato Game-Key Card.",
+   "trailer": "https://youtube.com/embed/fXKi0lyGox0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2464280/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-30",
+   "url": "https://lanzamientos.lat/juegos/tormented-souls-2"
+  },
+  {
+   "id": "toy-story-3-complete-edition",
+   "titulo": "TOY STORY 3: COMPLETE EDITION",
+   "duracion": "≈ 4,2 h (historia) · 15 h (completo)",
+   "fecha": "2026-10-15",
+   "relanzamiento": "Remaster del juego original de 2010",
+   "plataformas": [
+    "SWITCH",
+    "PS4",
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "DIGITAL ECLIPSE",
+   "descripcion": "La vuelta del juego de Toy Story 3, la aventura en 3D basada en la película de 2010. Tiene un modo historia con momentos de la película y el modo caja de juguetes, un mundo libre en el Oeste del Rodeo de Woody.",
+   "trailer": "https://youtube.com/embed/Kgp9iOHxrFw",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5v1.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/toy-story-3-complete-edition"
+  },
+  {
+   "id": "toy-story-retro-roundup",
+   "titulo": "DISNEY/PIXAR TOY STORY: RETRO ROUNDUP",
+   "relanzamiento": "Recopilación de seis juegos publicados entre 1995 y 2001",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "SWITCH2",
+    "SWITCH",
+    "XBOX"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "ATARI",
+   "descripcion": "Vuelta al cuarto de Andy con Woody, Buzz y compañía. La colección junta seis juegos de los noventa y principios de los dos mil —Toy Story, las dos versiones de Toy Story 2, Buzz Lightyear del Comando Estelar, Toy Story Racer y Bichos— con sus versiones de consola y de portátil, once en total, todas retocadas y con material de archivo sobre cómo se hicieron.",
+   "trailer": "https://youtube.com/embed/Kgp9iOHxrFw",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2922/29e3ecd9dcd397054adce54bf9e89f1bffedfce0283ac772.jpg?w=600&thumb=false",
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/toy-story-retro-roundup"
+  },
+  {
+   "id": "blueys-happy-snaps",
+   "titulo": "BLUEY'S HAPPY SNAPS",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL",
+    "RELAX"
+   ],
+   "desarrollador": "GAMELOFT",
+   "descripcion": "Un juego de sacar fotos con Bluey y Bingo por los lugares que aparecen en la serie. Se recorre, se busca qué retratar y se arma un álbum propio. Está pensado para chicos y para jugarlo al lado de ellos, sin fallar ni perder.",
+   "trailer": "https://youtube.com/embed/8uYZrfXjPfY",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwy.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/blueys-happy-snaps"
+  },
+  {
+   "id": "pardon-my-french-toast",
+   "titulo": "PARDON MY FRENCH TOAST",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "REROLLED STUDIO",
+   "descripcion": "Un plataformas en tres dimensiones donde el protagonista es una tostada que se unta cosas encima para conseguir habilidades: dulce de leche para pegarse a las paredes, mermelada para rebotar. La idea entera sale de ahí.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9vev.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/pardon-my-french-toast"
   }
  ]
 }

@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -139,6 +140,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">67 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 77 votos">7.1 <span class="badge-quien">USUARIOS</span></span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('destroy-all-humans-2-reprobed')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -154,6 +160,10 @@
         </div>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">El puntaje es el de la versión de 2022 en PS5 y Xbox. Las reseñas lo tratan como una remake prolija y divertida: gráficos renovados y coloridos, controles simples que responden bien y mucha destrucción por varias ciudades del mundo, con Crypto tan irreverente como siempre. Los reparos se repiten: parte del humor envejeció mal, el diseño de las misiones se nota de otra época y hay algunos problemas técnicos.</p>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">La remake de la segunda parte de Destroy All Humans!. Crypto, el alienígena invasor, vuelve en plenos años sesenta con toda la estética psicodélica de la época, y esta vez va contra la KGB, que le destruyó la nave nodriza.</p>
