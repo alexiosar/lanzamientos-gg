@@ -1736,6 +1736,8 @@ y abrir http://localhost:8080
   | Tianji: Shadow of the Ancients | PS5, Switch 2, Switch y PC | No tiene fecha, así que no hay fila de calendario que hacer |
   | PAPERHEAD | 18 de septiembre en PC y consolas (tráiler de junio) | **Ya está cargado**, como estimado de octubre desde el 15/09. Steam pasó al 9 de octubre, pero la PS Store dice "por determinar" y Xbox no muestra fecha. Cuando una tienda de consola ponga el día, sacarle `estimado` |
   | Harvest Moon: Echoes of Teradea (Switch y Switch 2) | 15 de octubre (Natsume, 25/08) | PS5 y Xbox ya tienen la fecha en tienda. Las de Nintendo figuran en el comunicado oficial de Natsume y en las reservas de Amazon, pero la eShop todavía no lo lista. Se dejaron cargadas porque la fuente es la editora |
+  | Terranigma | 14 de enero de 2027 en PS5, Xbox, Switch 2 y Switch (Gematsu, 16/09) | La PS Store dice "por determinar", Xbox lo lista sin fecha, Steam dice "próximamente" y la eShop no lo tiene |
+  | Kernel Hearts (PS5 y Switch 2) | Anunciado para las dos | **Ya está cargado**, pero sólo en Xbox: Xbox confirmó el 17/09 con Game Pass. Ni la PS Store ni la eShop lo listan. Cuando aparezcan, van como entrada nueva con `relanzamiento` si la fecha es otra |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 
   Los dos Yomawari, cuando entren, van con `relanzamiento`: son juegos de 2018 y 2022 que

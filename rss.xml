@@ -6,7 +6,28 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 15 Sep 2026 21:18:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 13:36:08 +0000</lastBuildDate>
+    <item>
+      <title>FIRE EMBLEM: FORTUNE'S WEAVE: LLEGA CON 89 Y SIN UNA SOLA RESEÑA NEGATIVA</title>
+      <link>https://lanzamientos.lat/juegos/fire-emblem-fortunes-weave</link>
+      <guid isPermaLink="false">fire-emblem-fortunes-weave-2026-09-16</guid>
+      <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Un día antes del estreno ya tiene 60 reseñas y un promedio de 89. Varias lo ponen entre lo mejor de la saga y lo recomiendan también como puerta de entrada para quien nunca jugó un Fire Emblem. — FIRE EMBLEM: FORTUNE'S WEAVE para SWITCH 2.</description>
+    </item>
+    <item>
+      <title>TRAILS IN THE SKY 2ND CHAPTER: DEBUTA CON 92 Y TODAS LAS RESEÑAS A FAVOR</title>
+      <link>https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter</link>
+      <guid isPermaLink="false">trails-in-the-sky-2nd-chapter-2026-09-16</guid>
+      <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Sale mañana con 92 de promedio sobre doce reseñas, todas positivas. La crítica lo trata como la versión definitiva del final del arco de Estelle y Joshua, y no le encuentra más que detalles: un arranque lento y gráficos sin lujos. — TRAILS IN THE SKY 2ND CHAPTER para SWITCH 2 / SWITCH / PS5.</description>
+    </item>
+    <item>
+      <title>ANIIMO: SALE HOY GRATIS Y DEBUTA CON 78</title>
+      <link>https://lanzamientos.lat/juegos/aniimo</link>
+      <guid isPermaLink="false">aniimo-2026-09-16</guid>
+      <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Llega gratis a PS5, Xbox y Switch 2 con un 78 sobre seis reseñas. La crítica lo recomienda para coleccionar criaturas y explorar sin apuro, y le marca poca tensión y una interfaz incómoda. — ANIIMO para XBOX / PS5 / SWITCH 2.</description>
+    </item>
     <item>
       <title>PAPERHEAD: YA NO SALE EL 18 DE SEPTIEMBRE</title>
       <link>https://lanzamientos.lat/juegos/paperhead</link>
@@ -15,11 +36,27 @@
       <description>El tráiler de junio lo anunciaba para el 18 de septiembre en PC y consolas, pero la fecha se corrió: Steam ahora dice 9 de octubre. En PS5 y Xbox las tiendas no tienen día, así que por ahora queda como estimado para octubre. — PAPERHEAD para XBOX / PS5.</description>
     </item>
     <item>
+      <title>KERNEL HEARTS: SALE EL 17 EN XBOX Y ENTRA A GAME PASS ESE MISMO DÍA</title>
+      <link>https://lanzamientos.lat/juegos/kernel-hearts</link>
+      <guid isPermaLink="false">kernel-hearts-2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Xbox confirmó el 17 de septiembre para Xbox Series y PC, con Game Pass desde el primer día. Las versiones de PS5 y Switch 2 todavía no tienen fecha en sus tiendas. — KERNEL HEARTS para XBOX.</description>
+    </item>
+    <item>
       <title>007 FIRST LIGHT: LA VERSIÓN DE SWITCH 2 SE RETRASA A MARZO DE 2027</title>
       <link>https://lanzamientos.lat/juegos/007-first-light</link>
       <guid isPermaLink="false">007-first-light-2026-09-15</guid>
       <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
       <description>IO Interactive corrió la edición de Switch 2 a marzo de 2027, sin día confirmado. La eShop ya le sacó la fecha y lo muestra como próximamente. — 007 FIRST LIGHT para SWITCH 2.</description>
+    </item>
+    <item>
+      <title>GAME PASS SUMA DUNE: AWAKENING, MINECRAFT DUNGEONS II Y GEARS OF WAR: E-DAY</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">game-pass-septiembre-2026-segunda-tanda</guid>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Xbox anunció la tanda de fin de septiembre y principios de octubre. Cinco llegan el mismo día que salen: Kernel Hearts el 17 de septiembre, Well Dweller el 22, Mad King Redemption el 23 en consolas, Minecraft Dungeons II el 29 y Gears of War: E-Day el 6 de octubre. Dune: Awakening entra el 22, el día de su estreno en consolas.
+
+El resto son juegos que ya estaban a la venta y se suman al plan Premium, como Ninja Gaiden 4, Planet of Lana II y Call of Duty: Black Ops 6, que llega el 25.</description>
     </item>
     <item>
       <title>MARVEL'S WOLVERINE: LLEGA CON 77: MÁS BRUTAL Y MÁS LINEAL QUE SPIDER-MAN</title>
@@ -263,41 +300,6 @@ Ese mismo día sale una Nintendo Switch 2 con diseño de la edición 40.º anive
       <guid isPermaLink="false">samson-a-tyndalston-story-2026-09-04</guid>
       <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
       <description>Liquid Swords puso fecha: 21 de septiembre en PS5 y Xbox. Por ahora lo dice sólo el estudio — ni la PlayStation Store ni la de Xbox lo listan todavía con ese día. — SAMSON: A TYNDALSTON STORY para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>NHL 27: DEBUTA CON 65 Y LAS RESEÑAS APUNTAN AL MODO DE CARTAS</title>
-      <link>https://lanzamientos.lat/juegos/nhl-27</link>
-      <guid isPermaLink="false">nhl-27-2026-09-04</guid>
-      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
-      <description>El hockey mejoró respecto del año pasado, pero eso no alcanzó. El reproche que más se repite en las seis reseñas es el Hockey Ultimate Team: aparece a los pocos minutos con ventanas emergentes y varios medios lo describen como el centro real del juego. — NHL 27 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>NINTENDO HACE DOS DIRECTS SEGUIDOS: EL 8 Y EL 9</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">nintendo-directs-8-y-9-septiembre-2026</guid>
-      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
-      <description>El martes 8 va un Direct dedicado a los 40 años de The Legend of Zelda, de unos 30 minutos, y el miércoles 9 un Direct general de unos 45. Los dos a las 11 de la mañana de Argentina. Después del segundo hay un Nintendo Treehouse con jugabilidad de lo que hayan mostrado. De estas transmisiones suelen salir las fechas de los juegos de Switch y Switch 2 que todavía se anuncian por trimestre y no por día.</description>
-    </item>
-    <item>
-      <title>THE BLOOD OF DAWNWALKER: DEBUTA CON 83 Y SE SACA A THE WITCHER DE ENCIMA</title>
-      <link>https://lanzamientos.lat/juegos/the-blood-of-dawnwalker</link>
-      <guid isPermaLink="false">the-blood-of-dawnwalker-2026-09-03</guid>
-      <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Sale hoy en PS5 y Xbox con 83 y más de treinta reseñas. El acuerdo es que el reloj de treinta días y la dualidad humano/vampiro le dan identidad propia; el reparo, que el mundo abierto se siente de fórmula y que la deuda con The Witcher 3 se nota. — THE BLOOD OF DAWNWALKER para XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>ORBITALS: EL MISTERIO DE NINTENDO ERA UN COOPERATIVO PARA DOS, Y DEBUTA CON 82</title>
-      <link>https://lanzamientos.lat/juegos/orbitals</link>
-      <guid isPermaLink="false">orbitals-2026-09-03</guid>
-      <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Se anunció con dos palabras —«We are one!»— y hoy se entiende por qué: es un cooperativo para dos jugadores, sin modo individual. Debuta con 82. Las reseñas lo comparan con It Takes Two y Split Fiction, elogian el diseño de niveles y la estética de anime de los ochenta, y le marcan que la campaña es corta. — ORBITALS para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>WO LONG: FALLEN DYNASTY: LLEGA A SWITCH 2 EL SOULSLIKE DE TEAM NINJA, CON 80 DE 2023</title>
-      <link>https://lanzamientos.lat/juegos/wo-long-fallen-dynasty</link>
-      <guid isPermaLink="false">wo-long-fallen-dynasty-2026-09-03</guid>
-      <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
-      <description>La edición de Switch 2 sale hoy. El puntaje viene del lanzamiento de 2023 en las otras consolas: un soulslike de los Tres Reinos donde el parry es el centro del combate. Los reparos de entonces siguen valiendo — dificultad despareja y escenarios lineales. — WO LONG: FALLEN DYNASTY para SWITCH 2.</description>
     </item>
   </channel>
 </rss>

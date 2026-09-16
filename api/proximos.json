@@ -2,197 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-15T21:18:52+00:00",
+ "generado": "2026-09-16T13:36:08+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-15",
- "hasta": "2026-10-15",
- "total": 105,
+ "desde": "2026-09-16",
+ "hasta": "2026-10-16",
+ "total": 107,
  "juegos": [
-  {
-   "id": "marvels-wolverine",
-   "titulo": "MARVEL'S WOLVERINE",
-   "fecha": "2026-09-15",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "INSOMNIAC GAMES",
-   "descripcion": "Lo nuevo de Insomniac Games (Marvel's Spider-Man): Logan desata sus garras en una aventura para adultos, más cruda y visceral que las del trepamuros, exclusiva de PlayStation 5.",
-   "trailer": "https://youtube.com/embed/s3pDMUWlA6I",
-   "gameplay": {
-    "video": "https://youtube.com/embed/vwez4gW4frA",
-    "canal": "L0k0hGaming",
-    "canalUrl": "https://www.youtube.com/@l0k0hgaming"
-   },
-   "metacritic": 77,
-   "metacriticUsuarios": null,
-   "critica": "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/marvels-wolverine",
-   "noticias": [
-    {
-     "fecha": "2026-09-14",
-     "titulo": "LLEGA CON 77: MÁS BRUTAL Y MÁS LINEAL QUE SPIDER-MAN",
-     "texto": "Un día antes del estreno ya hay 117 reseñas, y el promedio quedó en 77. Tres de cada cuatro son positivas y ninguna es negativa: la división está entre quienes lo celebran como una aventura de acción cerrada y sin relleno, y quienes le reclaman que no se anima a más. El combate y la violencia convencen a todos; la repetición y la falta de variedad en la segunda mitad son el reparo que más aparece."
-    },
-    {
-     "fecha": "2026-08-14",
-     "titulo": "HABRÁ UNA PS5 EDICIÓN LIMITADA Y ACCESORIOS A JUEGO",
-     "texto": "Sony anunció una consola PS5 de edición limitada del juego, junto con accesorios de la misma línea. Es la señal habitual de que el lanzamiento se trata como uno de los grandes del año para la plataforma."
-    },
-    {
-     "fecha": "2026-08-13",
-     "titulo": "EL COMBATE SE MUEVE POR LA FURIA, Y HAY ENEMIGOS QUE TE APAGAN LA CURACIÓN",
-     "texto": "Insomniac detalló cómo se juega. La furia tiene tres niveles: en el segundo se desbloquea Última Resistencia, que permite curarse con ella al caer, y en el tercero los ataques pegan mucho más fuerte y se habilitan críticos brutales. La vuelta de tuerca son los inhibidores, aparatos que anulan el factor curativo y obligan a pelear sin red. Acompañan Mystique, Dientes de Sable y Jean Grey; el villano es Bolívar Trask, el industrial antimutante. La campaña va de la selva de Telambang a los bajos fondos de Madripoor."
-    }
-   ]
-  },
-  {
-   "id": "runescape-dragonwilds",
-   "titulo": "RUNESCAPE: DRAGONWILDS",
-   "fecha": "2026-09-15",
-   "relanzamiento": "En PC (acceso anticipado) desde 2025",
-   "duracion": "≈ 20 h (historia)",
-   "plataformas": [
-    "SWITCH2",
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SUPERVIVENCIA",
-    "MUNDO ABIERTO",
-    "COOP"
-   ],
-   "desarrollador": "JAGEX LTD",
-   "descripcion": "Un juego cooperativo de supervivencia en Ashenfall, un continente olvidado del mundo de RuneScape donde despertaron los dragones. Se junta material, se construye y se fabrica, y descubriendo secretos antiguos se llega hasta la Reina Dragona.",
-   "trailer": "https://youtube.com/embed/a46MLlfMt2Y",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/54036554a9858230db7403a506421829.jpg",
-   "gamepass": true,
-   "psplus": true,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/runescape-dragonwilds",
-   "noticias": [
-    {
-     "fecha": "2026-09-10",
-     "titulo": "SALE EL 15 Y ESE MISMO DÍA ENTRA A PS PLUS Y A GAME PASS",
-     "texto": "Sony lo confirmó en el catálogo de PlayStation Plus de septiembre y Microsoft ya lo había anunciado para Game Pass el mismo día. O sea que el 15 se puede jugar con cualquiera de las dos suscripciones desde el estreno."
-    }
-   ]
-  },
-  {
-   "id": "destroy-all-humans-2-reprobed",
-   "titulo": "DESTROY ALL HUMANS! 2 - REPROBED",
-   "fecha": "2026-09-15",
-   "relanzamiento": "En PS5, Xbox y PC desde 2022 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 11 h (historia) · 25 h (completo)",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "BLACK FOREST GAMES",
-   "descripcion": "La remake de la segunda parte de Destroy All Humans!. Crypto, el alienígena invasor, vuelve en plenos años sesenta con toda la estética psicodélica de la época, y esta vez va contra la KGB, que le destruyó la nave nodriza.",
-   "trailer": "https://youtube.com/embed/7bx83mAM41Y",
-   "metacritic": 67,
-   "metacriticUsuarios": 7.1,
-   "metacriticVotos": 77,
-   "critica": "El puntaje es el de la versión de 2022 en PS5 y Xbox. Las reseñas lo tratan como una remake prolija y divertida: gráficos renovados y coloridos, controles simples que responden bien y mucha destrucción por varias ciudades del mundo, con Crypto tan irreverente como siempre. Los reparos se repiten: parte del humor envejeció mal, el diseño de las misiones se nota de otra época y hay algunos problemas técnicos.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266700/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/destroy-all-humans-2-reprobed"
-  },
-  {
-   "id": "diablo-4",
-   "titulo": "DIABLO IV: AGE OF HATRED COLLECTION",
-   "relanzamiento": "En PS5, Xbox y PC desde 2023",
-   "duracion": "≈ 26 h (historia) · 195 h (completo)",
-   "fecha": "2026-09-15",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "CASUAL",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "BLIZZARD ENTERTAINMENT, INC.",
-   "descripcion": "El Diablo de 2023 llega a Switch 2 en una colección, con la campaña por Santuario. Es rol y acción de ver el mapa desde arriba, juntar botín y volver a entrar, y se puede jugar en cooperativo por internet.",
-   "trailer": "https://youtube.com/embed/7RdDpqCmjb4",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/diablo-4",
-   "noticias": [
-    {
-     "fecha": "2026-09-12",
-     "titulo": "YA TIENE DÍA: SALE EL 15 DE SEPTIEMBRE",
-     "texto": "Blizzard confirmó que la versión de Switch 2 se llama Age of Hatred Collection y sale el 15 de septiembre. La eShop ya la tiene con esa fecha."
-    }
-   ]
-  },
-  {
-   "id": "tcg-card-shop-simulator",
-   "titulo": "TCG CARD SHOP SIMULATOR",
-   "relanzamiento": "En PC desde 2024",
-   "duracion": "≈ 30 h (historia) · 89 h (completo)",
-   "fecha": "2026-09-15",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "SIMULACION",
-    "CASUAL",
-    "INDIE"
-   ],
-   "desarrollador": "OPNEON GAMES",
-   "descripcion": "Se abre una tienda de juegos de cartas y hay que hacerla andar: llenar las estanterías de sobres, atender la caja, y decidir cuánto stock se vende y cuánto se abre para armar la colección propia.",
-   "trailer": "https://youtube.com/embed/XBAyr9O9BnY",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/library_600x900.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-08-17",
-   "url": "https://lanzamientos.lat/juegos/tcg-card-shop-simulator"
-  },
-  {
-   "id": "train-sim-world-7",
-   "titulo": "TRAIN SIM WORLD 7",
-   "fecha": "2026-09-15",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SIMULACION"
-   ],
-   "desarrollador": "DOVETAIL GAMES",
-   "descripcion": "La entrega anual del simulador de trenes de Dovetail. Rutas reales licenciadas, cabinas modeladas al detalle y la opción de manejar en serio o simplemente pasear mirando el paisaje.",
-   "trailer": "https://youtube.com/embed/hXKOGV8h6J8",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocrgl.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-28",
-   "url": "https://lanzamientos.lat/juegos/train-sim-world-7"
-  },
   {
    "id": "gladio-mori",
    "titulo": "GLADIO MORI",
@@ -262,6 +78,7 @@
    "descripcion": "El paquete completo del simulador de hospitales de Two Point Studios: el juego base más los catorce contenidos descargables publicados hasta ahora. Diseñás clínicas absurdas, curás enfermedades imposibles y lidiás con un personal que rara vez colabora.",
    "trailer": "https://youtube.com/embed/JSkvu2ZwKbA",
    "metacritic": 83,
+   "metacriticUsuarios": null,
    "critica": "El puntaje no es de esta colección sino del juego original de 2018, que es de donde salen las reseñas. La prensa lo recibió como el heredero legítimo de Theme Hospital: el humor absurdo, las enfermedades inventadas y la administración liviana convencieron a casi todos. El reparo se repite con insistencia: hereda también los defectos del original, sobre todo un micromanejo que se vuelve tedioso, y hay quien le reprocha que en veinte años no aprendió a castigar los errores del jugador.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/library_600x900.jpg",
    "gamepass": false,
@@ -325,13 +142,20 @@
    "desarrollador": "PAWPRINT STUDIO",
    "descripcion": "Un RPG de mundo abierto gratuito de capturar criaturas, en el continente de Idyll. Se usan las habilidades de las Aniimo para explorar, se visita una ciudad que flota en el cielo y se compite contra otros jugadores.",
    "trailer": "https://youtube.com/embed/Yh5JH0Yz75E",
-   "metacritic": null,
+   "metacritic": 78,
+   "metacriticUsuarios": null,
+   "critica": "Pocas reseñas y bastante divididas en el tono. Las más entusiastas elogian el diseño de las criaturas, un mundo con mucha vida y un sistema de colección que es simple de entrada pero tan profundo como uno quiera. Los reparos apuntan a una estructura que se siente de escuela, con poco en juego, una interfaz que molesta y lo engorroso que es compartir la partida con amigos. El acuerdo general: para quien busque coleccionar y explorar tranquilo, es un gratuito generoso y muy pulido.",
    "imagen": "https://cdn2.steamgriddb.com/grid/275ba20bb50f9c26e0d0f0aa69d0c7e4.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-10",
    "url": "https://lanzamientos.lat/juegos/aniimo",
    "noticias": [
+    {
+     "fecha": "2026-09-16",
+     "titulo": "SALE HOY GRATIS Y DEBUTA CON 78",
+     "texto": "Llega gratis a PS5, Xbox y Switch 2 con un 78 sobre seis reseñas. La crítica lo recomienda para coleccionar criaturas y explorar sin apuro, y le marca poca tensión y una interfaz incómoda."
+    },
     {
      "fecha": "2026-08-14",
      "titulo": "YA TIENE FECHA: 16 DE SEPTIEMBRE",
@@ -407,13 +231,19 @@
    "desarrollador": "INTELLIGENT SYSTEMS",
    "descripcion": "La nueva entrega de la legendaria saga de estrategia táctica de Intelligent Systems, primera pensada para Switch 2: batallas por turnos en cuadrícula, unidades irremplazables y los vínculos entre personajes que definen a Fire Emblem.",
    "trailer": "https://youtube.com/embed/Rl5_C4sc5zk",
-   "metacritic": null,
+   "metacritic": 89,
+   "critica": "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/fire-emblem-fortunes-weave",
    "noticias": [
+    {
+     "fecha": "2026-09-16",
+     "titulo": "LLEGA CON 89 Y SIN UNA SOLA RESEÑA NEGATIVA",
+     "texto": "Un día antes del estreno ya tiene 60 reseñas y un promedio de 89. Varias lo ponen entre lo mejor de la saga y lo recomiendan también como puerta de entrada para quien nunca jugó un Fire Emblem."
+    },
     {
      "fecha": "2026-08-04",
      "titulo": "EL DIRECT DESTAPÓ QUIÉN ES EL PROTAGONISTA DE VERDAD",
@@ -437,12 +267,20 @@
    "desarrollador": "NIHON FALCOM",
    "descripcion": "El segundo capítulo de Trails in the Sky, de Nihon Falcom. Estelle Bright sale otra vez a recorrer Liberl para averiguar qué pasó con Joshua y enfrentar a la organización Uroboros.",
    "trailer": "https://youtube.com/embed/4fEzsQ6Hv8Y",
-   "metacritic": null,
+   "metacritic": 92,
+   "critica": "Las doce reseñas publicadas son positivas, y varias lo ponen como la entrega que define a toda la saga Trails. Coinciden en que la remake mejora lo que ya había hecho bien la del primer capítulo: combate por turnos más profundo, ritmo más ágil, escenas nuevas y actuación de voces, con una historia que cierra el arco de Estelle y Joshua con mucho peso. Lo que le marcan es poco: los primeros capítulos se hacen lentos, lo visual es modesto y juega a lo seguro.",
    "imagen": "https://cdn2.steamgriddb.com/grid/44519406a3f5defa6dcf308d49beef43.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter"
+   "url": "https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter",
+   "noticias": [
+    {
+     "fecha": "2026-09-16",
+     "titulo": "DEBUTA CON 92 Y TODAS LAS RESEÑAS A FAVOR",
+     "texto": "Sale mañana con 92 de promedio sobre doce reseñas, todas positivas. La crítica lo trata como la versión definitiva del final del arco de Estelle y Joshua, y no le encuentra más que detalles: un arranque lento y gráficos sin lujos."
+    }
+   ]
   },
   {
    "id": "another-eden-begins",
@@ -583,6 +421,37 @@
      "fecha": "2026-07-31",
      "titulo": "FUE EL JUEGO DEL AÑO DE META EN 2024",
      "texto": "El original de realidad virtual se llevó el premio al Juego del Año de Meta en 2024 y promedia 93 en Metacritic. Trae más de treinta piezas que van de Beethoven y Vivaldi a Star Wars y Harry Potter. La versión de Switch cambia el seguimiento de manos por el movimiento de los Joy-Con."
+    }
+   ]
+  },
+  {
+   "id": "kernel-hearts",
+   "titulo": "KERNEL HEARTS",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "ROGUELIKE",
+    "COOP",
+    "ANIME"
+   ],
+   "desarrollador": "EPHEMERA GAMES",
+   "descripcion": "Un RPG de acción roguelike cooperativo para hasta cuatro jugadoras: cuatro chicas mágicas se proponen salvar un mundo que se ahoga en cenizas, eliminando ángeles por el camino. Reunís aliadas, encadenás poderes y vas por Dios.",
+   "trailer": "https://youtube.com/embed/8mdQRFmarws",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/library_600x900.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/kernel-hearts",
+   "noticias": [
+    {
+     "fecha": "2026-09-15",
+     "titulo": "SALE EL 17 EN XBOX Y ENTRA A GAME PASS ESE MISMO DÍA",
+     "texto": "Xbox confirmó el 17 de septiembre para Xbox Series y PC, con Game Pass desde el primer día. Las versiones de PS5 y Switch 2 todavía no tienen fecha en sus tiendas."
     }
    ]
   },
@@ -889,6 +758,7 @@
    "trailer": "https://youtube.com/embed/Wwg5WYvDV_M",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa8qh.jpg",
+   "gamepass": true,
    "alta": "2026-08-24",
    "url": "https://lanzamientos.lat/juegos/well-dweller"
   },
@@ -958,7 +828,7 @@
    "trailer": "https://youtube.com/embed/ztdVjiRpYfo",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/library_600x900.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/dune-awakening"
@@ -985,6 +855,30 @@
    "psplus": false,
    "alta": "2026-08-28",
    "url": "https://lanzamientos.lat/juegos/graveyard-keeper-2"
+  },
+  {
+   "id": "mad-king-redemption",
+   "titulo": "MAD KING REDEMPTION",
+   "relanzamiento": "En PC, en acceso anticipado, desde mayo de 2026",
+   "fecha": "2026-09-23",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "RETRO",
+    "INDIE"
+   ],
+   "desarrollador": "SECRET MISSION",
+   "descripcion": "Un beat 'em up roguelite en pixel art sobre escenarios 2.5D. El rey perdió la cordura intentando revivir a la reina con magia prohibida, y cuatro héroes, cada uno con su estilo de pelea y un pecado propio que redimir, bajan a buscarlo. Cada partida cambia, y entre una y otra se desbloquean héroes, golpes y artefactos.",
+   "trailer": "https://youtube.com/embed/g9MIja4Q-Ck",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369580/library_600x900.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-09-16",
+   "url": "https://lanzamientos.lat/juegos/mad-king-redemption"
   },
   {
    "id": "nomori",
@@ -2638,6 +2532,149 @@
    "psplus": false,
    "alta": "2026-09-10",
    "url": "https://lanzamientos.lat/juegos/pardon-my-french-toast"
+  },
+  {
+   "id": "tales-of-eternia-remastered",
+   "titulo": "TALES OF ETERNIA REMASTERED",
+   "duracion": "≈ 33 h (historia) · 74 h (completo)",
+   "fecha": "2026-10-16",
+   "relanzamiento": "Remaster del clásico de PS1 (2000)",
+   "plataformas": [
+    "PS4",
+    "XBOX",
+    "PS5",
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG"
+   ],
+   "desarrollador": "TOSE CO., LTD.",
+   "descripcion": "La remasterización de Tales of Eternia, el RPG de Bandai Namco. Una catástrofe amenaza con destruir el universo y el viaje decide el destino de dos mundos, Inferia y Celestia.",
+   "trailer": "https://youtube.com/embed/n0Trr5yLK1A",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7n7.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/tales-of-eternia-remastered"
+  },
+  {
+   "id": "tenebris-somnia",
+   "titulo": "TENEBRIS SOMNIA",
+   "fecha": "2026-10-16",
+   "plataformas": [
+    "PS4",
+    "SWITCH2",
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "ANDRÉS BORGHI",
+   "descripcion": "Un survival horror en 2D con escenas filmadas con actores y escenografía real. Se avanza resolviendo acertijos y enfrentando criaturas mientras se destapa una historia perturbadora.",
+   "trailer": "https://youtube.com/embed/A_fQ_gNddbo",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/tenebris-somnia"
+  },
+  {
+   "id": "resident-evil-2-switch-2",
+   "titulo": "RESIDENT EVIL 2: DELUXE EDITION",
+   "relanzamiento": "En PS4, Xbox y PC desde enero de 2019 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-10-16",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "El rehecho del clásico de 1998, ahora en Switch 2. Leon Kennedy y Claire Redfield llegan a Raccoon City el día que todo se cae a pedazos, con cámara al hombro y munición contada. El Tyrant persigue por los pasillos de la comisaría y no se lo puede matar, sólo demorar. La edición Deluxe suma los trajes y los extras que salieron aparte.",
+   "trailer": "https://youtube.com/embed/4C10U-O1kZ8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/resident-evil-2-switch-2"
+  },
+  {
+   "id": "resident-evil-3-switch-2",
+   "titulo": "RESIDENT EVIL 3",
+   "relanzamiento": "En PS4, Xbox y PC desde abril de 2020 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-10-16",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "Jill Valentine intenta salir de Raccoon City mientras Umbrella le suelta atrás a Nemesis, que la persigue por toda la ciudad y no para. Es más de acción y más corto que el rehecho de Resident Evil 2, con esquive en lugar de aguantar el golpe. Trae adentro Resident Evil Resistance, el multijugador asimétrico de cuatro contra uno.",
+   "trailer": "https://youtube.com/embed/4C10U-O1kZ8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/resident-evil-3-switch-2"
+  },
+  {
+   "id": "resident-evil-4-switch-2",
+   "titulo": "RESIDENT EVIL 4: GOLD EDITION",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde marzo de 2023 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-10-16",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "Leon vuelve a la aldea a buscar a la hija del presidente, y el rehecho de 2023 es de los mejor recibidos que hizo Capcom: mantiene el ritmo del original de 2005 y le suma parry con el cuchillo y un sigilo que antes no estaba. La edición Gold trae el juego completo, el episodio de Ada y todo lo que salió después.",
+   "trailer": "https://youtube.com/embed/4C10U-O1kZ8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/resident-evil-4-switch-2"
+  },
+  {
+   "id": "lego-harry-potter-collection-switch-2",
+   "titulo": "LEGO HARRY POTTER COLLECTION",
+   "relanzamiento": "En consolas desde 2016 y remasterizado en 2024 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-10-16",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "COOP"
+   ],
+   "desarrollador": "TT GAMES",
+   "descripcion": "Los dos juegos de LEGO Harry Potter en un paquete: Años 1-4 y Años 5-7, o sea las siete películas completas. Es la fórmula LEGO de siempre —romper todo, resolver puzles simples y coleccionar— con cooperativo local a pantalla partida, que es como mejor funciona.",
+   "trailer": "https://youtube.com/embed/DSdF1hhuHWY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950340/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/lego-harry-potter-collection-switch-2"
   }
  ]
 }

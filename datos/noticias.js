@@ -50,6 +50,15 @@
 
 const NOTICIAS = [
   {
+    id: "game-pass-septiembre-2026-segunda-tanda",
+    fecha: "2026-09-15",
+    categoria: "SUSCRIPCIONES",
+    titulo: "GAME PASS SUMA DUNE: AWAKENING, MINECRAFT DUNGEONS II Y GEARS OF WAR: E-DAY",
+    texto: "Xbox anunció la tanda de fin de septiembre y principios de octubre. Cinco llegan el mismo día que salen: Kernel Hearts el 17 de septiembre, Well Dweller el 22, Mad King Redemption el 23 en consolas, Minecraft Dungeons II el 29 y Gears of War: E-Day el 6 de octubre. Dune: Awakening entra el 22, el día de su estreno en consolas.\n\nEl resto son juegos que ya estaban a la venta y se suman al plan Premium, como Ninja Gaiden 4, Planet of Lana II y Call of Duty: Black Ops 6, que llega el 25.",
+    fuente: "https://news.xbox.com/en-us/2026/09/15/xbox-game-pass-september-2026-wave-2/",
+    juegos: ["gears-of-war-e-day", "minecraft-dungeons-2", "dune-awakening", "kernel-hearts", "well-dweller", "mad-king-redemption"]
+  },
+  {
     id: "blizzcon-2026-diablo-v-starcraft",
     fecha: "2026-09-12",
     categoria: "EVENTOS",
