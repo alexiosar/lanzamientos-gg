@@ -62,6 +62,19 @@ Ninguno de los dos hace que Google indexe más páginas de golpe.
 | 03/08/2026 | `lastmod` real por URL en el sitemap: Google puede distinguir qué páginas cambiaron de verdad en vez de tratar las 302 como iguales |
 | 03/08/2026 | **Rastreadores de IA desbloqueados.** Cloudflare inyectaba un `robots.txt` propio que bloqueaba GPTBot, ClaudeBot, Google-Extended, CCBot y otros. Se desactivó *Managed robots.txt* en Security → Settings → AI Crawl Control. No afectaba la indexación normal de Google, pero impedía que el sitio fuera fuente en respuestas de IA, incluidas las de Google |
 | 01/09/2026 | `/recomendados` publicada: la selección del mes elegida a mano, en el sitemap y en la navegación |
+| 01/09/2026 | **Una página por mes** (`/septiembre-2026` y las demás), en el sitemap. Son las primeras URLs pensadas para búsquedas del tipo "juegos que salen en octubre" |
+| 02/09/2026 | Mis juegos: favoritos guardados en el navegador, con la estrella en todas las páginas |
+| 06/09/2026 | El sitio aclara hasta dónde llega el calendario, y los redirects cubren también la variante `.html` |
+| 07/09/2026 | **Gameplay en español** en las fichas (campo `gameplay`), empezando por los recomendados |
+| 08/09/2026 | `/mejores-juegos-agosto-2026`: primera página de recomendados de un mes cerrado. Mismo día, se sacaron de todos los textos las frases que hablaban del sitio en vez de los juegos |
+| 08/09/2026 | La grilla del calendario pasó a agruparse por día |
+| 09/09/2026 | **2027 entra al calendario**, con filtro por año, tras el Nintendo Direct. Se suman páginas de mes de enero a abril de 2027 |
+| 14/09/2026 | **Unas 140 descripciones reescritas.** Estaban copiadas de Steam o la eShop, con tú, vosotros y signos de exclamación. Es contenido propio donde antes había texto repetido en otras webs |
+| 15/09/2026 | **Votos "¿Lo vas a jugar?"** en todas las fichas, con un Worker de Cloudflare. El bloque carga después de la página y no debería mover la velocidad, pero si cambia algo en Core Web Vitals, empezar a buscar por acá |
+
+Además, a lo largo de septiembre la rutina diaria sumó críticas y noticias a los estrenos del
+día. Al 31/08 había 131 fichas con noticias y 103 con resumen de crítica; al 16/09 son 174 y
+138. No tiene una fecha única, pero es la otra parte del contenido propio del mes.
 
 ## Agosto de 2026: el mes en que el sitio entró a Google
 

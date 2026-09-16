@@ -93,6 +93,8 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               sueltas, que siguen con su copia a mano
 ├── scripts/novedades-steam.py  Lo que anuncian los estudios en Steam (juegos chicos)
 ├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
+├── scripts/buscar-eshop.py     Consulta la eShop: por nombre o todo lo que sale en un rango de fechas
+├── scripts/buscar-youtube.py   Busca videos, verifica ids con oEmbed y lista lo último de un canal
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/verificar-duplicados.py  Juegos cargados dos veces con id distinto
 ├── scripts/verificar-estimados.py  Fechas estimadas vencidas (corre en la diaria)
@@ -346,6 +348,10 @@ gameplay largo viven de que los compartan, así que esto es exactamente lo que p
    juegos con títulos que decían "Gameplay Español Parte 1", y su propia descripción aclara
    "gameplays… sin comentarios mayormente". Un gameplay mudo incumple el punto 2 y el bloque
    se llama GAMEPLAY EN ESPAÑOL justamente por la voz.
+
+   **Las búsquedas van con `scripts/buscar-youtube.py`**: `"texto"` para buscar,
+   `--canal UCHybEMsTlz5LLR7MxOOfGjw` para ver lo último de L0k0h, y `--verificar ID` antes de
+   cargar cualquier video.
 
    **Truco para encontrar comentados:** buscar los que YouTube marca como "Transmitido". Un
    directo siempre tiene a alguien hablando, y además suele venir numerado, así que resuelve
@@ -1392,6 +1398,12 @@ en este archivo y en la sección "Fuentes de datos habituales".
 
       Devuelve una fila por plataforma, así que sirve igual para confirmar una fecha que
       para saber si un juego sale en Switch, en Switch 2 o en las dos.
+
+      **Está armado en `scripts/buscar-eshop.py`** (desde el 16/09/2026; antes se reescribía en
+      cada sesión en una carpeta temporal que se borraba sola):
+      `python3 scripts/buscar-eshop.py "Nombre"` o `--rango 2026-10-01 2026-10-31`. Si no
+      aparece, probar en nintendo.com/us/search con el navegador: la de EE.UU. a veces lo
+      tiene antes (Moros Protocol, Ratatan).
 
    2. **Steam para lo demás que exista en PC**: `appdetails` da fecha, descripción en
       español, géneros y desarrollador. Su campo `type` es el que separa un juego de una
