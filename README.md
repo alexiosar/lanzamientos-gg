@@ -1813,6 +1813,23 @@ y abrir http://localhost:8080
   suben el mismo trailer pero se caen cuando les llega un reclamo. Cuando el estudio no
   subió nada, el canal oficial de PlayStation o de Xbox tiene el trailer de anuncio, que es
   lo que resolvió Train Sim World 7.
+
+  **Repaso del 16/09/2026: de 11 sin trailer se cargaron 4**, todos de canales oficiales
+  (Nintendo of America, Wild River, ReRolled Studio y FWgames). Quedan 7:
+  - **Down Pit, Monster Nursery y Tarot Tokens** tienen su trailer de la eShop, pero sólo
+    subido por *jimfish*, un canal que resube trailers de Nintendo. No se cargaron por la
+    regla de arriba: esos canales se caen con el primer reclamo. Tackorama, el estudio de dos
+    de ellos, no sube nada a YouTube desde hace años. Si en la mensual siguen sin video
+    oficial, es una decisión a tomar: un video que puede caerse o ninguno.
+  - **Power Racing Bundle 4, Rally & Hypercar Bundle, Screaming Halls: Horror y Rainbow
+    Islands CS** no tienen ningún video en YouTube. Los tres primeros son de los baratos de la
+    eShop, que casi nunca suben uno; Rainbow Islands CS es de Taito y puede aparecer cerca del
+    estreno del 8 de octubre.
+
+  **Carátulas cuadradas.** Down Pit y Rally & Hypercar Bundle quedaron con la imagen cuadrada
+  de la eShop y de IGDB: se probaron Steam, SteamGridDB, IGDB y la eShop y no hay vertical en
+  ninguno. Xbox no aplica, porque son juegos que sólo salen en Switch. La caja de la ficha las muestra
+  enteras, con márgenes arriba y abajo.
 - Duraciones (HLTB): quedan 23 ports sin cargar, todos porque HLTB todavía no tiene tiempos
   cronometrados (indies muy chicos). Reintentar en las mensuales con el script.
   **La de GTA VI se resolvió el 01/08/2026 buscándola en el sitio oficial de Rockstar**
