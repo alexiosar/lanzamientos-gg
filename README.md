@@ -1632,7 +1632,8 @@ categoría `SUSCRIPCIONES`.
    Posthumous Investigation y Hope in the City. **Faltaban juegos grandes de 2027** porque ese
    año se cargó desde el Direct y los estimados, nunca con un barrido completo.
 
-   **Dos problemas encontrados por `verificar-lanzados.py`, sin resolver:**
+   **Dos casos dudosos encontrados por `verificar-lanzados.py`. El usuario decidió dejarlos
+   como están (17/09/2026), así que no hay que volver a marcarlos:**
    - **Steins;Gate Re:Boot figura salido en Xbox el 20/08**, pero la tienda de Xbox no lo
      tiene con ningún nombre, y Steam lo da como lanzado en PC el 19/08. Todo indica que ese
      día salió sólo en PC, que por la regla de siempre no entra.
