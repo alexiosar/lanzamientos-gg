@@ -1750,6 +1750,8 @@ y abrir http://localhost:8080
   | Harvest Moon: Echoes of Teradea (Switch y Switch 2) | 15 de octubre (Natsume, 25/08) | PS5 y Xbox ya tienen la fecha en tienda. Las de Nintendo figuran en el comunicado oficial de Natsume y en las reservas de Amazon, pero la eShop todavía no lo lista. Se dejaron cargadas porque la fuente es la editora |
   | Terranigma | 14 de enero de 2027 en PS5, Xbox, Switch 2 y Switch (Gematsu, 16/09) | La PS Store dice "por determinar", Xbox lo lista sin fecha, Steam dice "próximamente" y la eShop no lo tiene |
   | Kernel Hearts (PS5 y Switch 2) | Anunciado para las dos | **Ya está cargado**, pero sólo en Xbox: Xbox confirmó el 17/09 con Game Pass. Ni la PS Store ni la eShop lo listan. Cuando aparezcan, van como entrada nueva con `relanzamiento` si la fecha es otra |
+  | Earth Defense Force 6 (Switch 2) | 28 de enero de 2027 (Gematsu, 17/09) | Ni la eShop europea ni la de EE.UU. lo listan |
+  | Hope in the City | 10 de noviembre en Xbox (Gematsu, 17/09) | La tienda de Xbox tiene la ficha pero sin fecha, y Steam dice "por confirmarse" |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 
   Los dos Yomawari, cuando entren, van con `relanzamiento`: son juegos de 2018 y 2022 que

@@ -88,7 +88,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/cWJR_d9gBZ4",
     metacritic: 81,
     metacriticUsuarios: 8.2,
-    metacriticVotos: 478,
+    metacriticVotos: 483,
     critica: "La prensa lo recibió como el remake que fija la versión definitiva de Star Fox 64: mismas misiones, rehechas con un salto visual grande y la banda sonora orquestada como lo más elogiado del paquete. El cooperativo nuevo aparece bien parado en casi todas las reseñas. Los reparos son de ambición: es fiel hasta el punto de agregar poco, y varias notas señalan que el multijugador competitivo es un agregado simpático y nada más.",
     imagen: "https://cdn2.steamgriddb.com/grid/59b1f821289f6c9d5780419bc58c81e9.png",
     noticias: [
@@ -299,7 +299,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/ZdMwqKiSeEE",
     metacritic: 82,
     metacriticUsuarios: 8.6,
-    metacriticVotos: 144,
+    metacriticVotos: 151,
     critica: "Después de una década sin la serie, el acuerdo es que no perdió el paso. Los elogios van a los más de ochenta minijuegos, a lo pegadiza que es la música y a un multijugador que varias reseñas señalan como lo mejor del paquete. Los reparos son chicos y coinciden: no todos los modos secundarios aciertan. Aparece además una queja de traducción, porque en varios países las letras adaptadas eran parte de la gracia y acá las canciones quedaron en japonés.",
     imagen: "https://cdn2.steamgriddb.com/grid/b26ae72554f51d39b30fee3fab713723.png",
     noticias: [
@@ -471,8 +471,8 @@ const JUEGOS = [
     descripcion: "EL INFIERNO SE CONGELA en DOOM: The Dark Ages | Revelations. El Slayer solo podrá salir de un brutal purgatorio encontrando nuevas fuerzas. Con niveles inéditos, nuevos demonios y la letal lanza de cadenas, también disponible en el Desgarratorio 3.0, esta expansión de la campaña abre una nueva dimensión de combate.",
     trailer: "https://youtube.com/embed/nL_JF1ZNllI",
     metacritic: 91,
-    metacriticUsuarios: 8.7,
-    metacriticVotos: 141,
+    metacriticUsuarios: 8.6,
+    metacriticVotos: 142,
     critica: "La expansión junta lo que los dos DOOM anteriores tenían separado: la movilidad aérea de Eternal y el combate pesado y frontal de The Dark Ages. El arma nueva, la lanza con cadena, se lleva casi todos los elogios, junto con el contenido de fin de partida. Los reparos son menores y coinciden entre sí: arranca lento y la dificultad no perdona a nadie.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc73j.jpg",
     noticias: [
@@ -514,7 +514,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/epucEJY8Auo",
     metacritic: 85,
     metacriticUsuarios: 7.5,
-    metacriticVotos: 292,
+    metacriticVotos: 293,
     critica: "Las reseñas son de la versión de PC de 2024. La prensa coincide en lo mismo con una regularidad llamativa: la idea —una ruleta rusa con escopeta contra un tipo que reparte— es tan buena que sostiene el juego sola, y la atmósfera hace el resto. Los reparos también son unánimes y son de tamaño: es cortísimo, se agota rápido, y hay quienes sienten que la suerte pesa más que la estrategia. Casi todas las notas terminan diciendo lo mismo, que querrían un diez por ciento más de juego.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835570/library_600x900.jpg",
     noticias: [
@@ -539,7 +539,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1273,
+    metacriticVotos: 1280,
     critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://cdn2.steamgriddb.com/grid/a9f7e2af063303f02fd5d479c8816c79.png",
     noticias: [
@@ -751,7 +751,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/fJnpfLErDDQ",
     metacritic: 79,
     metacriticUsuarios: 9.0,
-    metacriticVotos: 917,
+    metacriticVotos: 918,
     critica: "Es el caso inverso al de los juegos de EA: los jugadores lo ponen entre lo mejor del año y la prensa lo dejó en el escalón de abajo. Coinciden en lo bueno, que es el sistema de digievolución, la historia y por fin un presupuesto a la altura de la marca. Las reseñas de puntaje más bajo insisten en dos cosas: el arranque es lento y el diseño es bastante más lineal de lo que promete. Varias marcan también la cantidad de contenido descargable de pago. Para el fan de Digimon, ninguno de los dos reparos alcanza.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/library_600x900.jpg",
     noticias: [
@@ -776,8 +776,8 @@ const JUEGOS = [
     descripcion: "Un juego de supervivencia multijugador en un mundo abierto enorme, lleno de criaturas llamadas Pals que se capturan y sirven para pelear, construir, cultivar y trabajar en fábricas. La versión 1.0 marca su salida definitiva del acceso anticipado.",
     trailer: "https://youtube.com/embed/M84RSkUXe0U",
     metacritic: 79,
-    metacriticUsuarios: 7.5,
-    metacriticVotos: 263,
+    metacriticUsuarios: 7.4,
+    metacriticVotos: 266,
     critica: "Las reseñas de la versión 1.0 coinciden en que es otro juego que el del acceso anticipado: misiones rehechas, mapa más grande y un final de partida que antes no existía. Lo que elogian es la mezcla de supervivencia y criaturas, y lo sostenido que fue el estudio con las actualizaciones. Los reparos también se repiten: sigue habiendo aspereza técnica y el bucle de juego es implacable, con más grind del que algunos aguantan.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900.jpg",
     noticias: [
@@ -1582,7 +1582,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 82,
     metacriticUsuarios: 9.3,
-    metacriticVotos: 1944,
+    metacriticVotos: 1954,
     critica: "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
     imagen: "https://cdn2.steamgriddb.com/grid/1812e589a2ad581bd076820f05965824.png",
     noticias: [
@@ -1850,7 +1850,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 80,
     metacriticUsuarios: 5.8,
-    metacriticVotos: 719,
+    metacriticVotos: 728,
     critica: "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
     imagen: "https://cdn2.steamgriddb.com/grid/9e00a3de909a5e4ada9324bc7aa1fea2.png",
     noticias: [
@@ -1993,7 +1993,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Xjpao-nD5YU",
     metacritic: 83,
     metacriticUsuarios: 8.5,
-    metacriticVotos: 2859,
+    metacriticVotos: 2861,
     critica: "Las reseñas son las de 2017, cuando salió en Switch. Es de los juegos que más divide dentro del elogio: casi todos coinciden en que el mundo, la banda sonora y la ambición son excepcionales, y casi todos aclaran que hay que aguantar para llegar. El combate tarda decenas de horas en abrirse y lo explica mal, los marcadores del mapa confunden, y el tono anime, con su fan service, es lo que más incomodó a la prensa occidental. Las notas más altas dicen lo mismo que las más bajas, sólo que decidieron que valía la pena.",
     imagen: "https://cdn2.steamgriddb.com/grid/5ef6efaa8d75619baf4cb6a9cf2df5a6.png",
     noticias: [
@@ -2219,7 +2219,7 @@ const JUEGOS = [
     desarrollador: "PROJECT CLOUD GAMES",
     descripcion: "Un RPG de acción inspirado en el folclore coreano, con una aventura heroica en el centro.",
     trailer: "https://youtube.com/embed/9BZUDAXO7fk",
-    metacritic: 52,
+    metacritic: 51,
     metacriticUsuarios: 2.5,
     metacriticVotos: 35,
     critica: "Es el peor recibido de todo el calendario y las reseñas no se guardan nada: hay notas de 30 que lo ponen entre lo peor del año. Lo que rescatan, casi todas, es la ambición y la ambientación en la mitología coreana, y hasta las más duras reconocen que hay pasión detrás. El problema es todo lo demás: gráficos que varias comparan con los de dos generaciones atrás, caídas de rendimiento, un mundo abierto que nadie pidió y una historia contada a pedazos. La conclusión que se repite es que quiso hacer demasiado y no le salió casi nada.",
@@ -2382,7 +2382,7 @@ const JUEGOS = [
     },
     metacritic: 71,
     metacriticUsuarios: 6.2,
-    metacriticVotos: 397,
+    metacriticVotos: 400,
     critica: "Es de los estrenos más discutidos del año y viene de Game Freak, los de Pokémon, lo que explica parte del ruido. El acuerdo está en el combate y en la relación entre Emma y Kuu, que casi todas las reseñas rescatan. El desacuerdo está en todo lo demás: para la mitad hay un mundo vacío, una historia que no arranca y problemas gráficos, y las notas más duras dicen que no es un renacimiento creativo sino un juego armado imitando a otros mejores. Los jefes se llevan los elogios más consistentes.",
     imagen: "https://cdn2.steamgriddb.com/grid/b1f3099dbc42710895ab03cd265badac.jpg",
     noticias: [
@@ -2412,7 +2412,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/xfzapBQssa0",
     metacritic: 91,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 321,
+    metacriticVotos: 326,
     critica: "El acuerdo es casi total: lo que hace especial a Big Walk no son sus puzzles sino las conversaciones que obliga a tener. Casi todas las reseñas cuentan lo mismo, que los mejores momentos son los que el juego no programó, los que salen de coordinarse mal con un amigo, y varias lo emparentan con Untitled Goose Game, del mismo estudio. El reparo, cuando aparece, es el ritmo: la isla es grande y hay tramos largos donde no pasa nada, algo que se siente más de a dos que en grupo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1478500/library_600x900.jpg",
     noticias: [
@@ -2474,7 +2474,7 @@ const JUEGOS = [
     },
     metacritic: 85,
     metacriticUsuarios: 8.0,
-    metacriticVotos: 312,
+    metacriticVotos: 316,
     critica: "La prensa coincide en que Arc System Works acertó con lo difícil: que un juego de peleas de 4 contra 4 se entienda sin haber jugado ninguno antes y siga teniendo profundidad para el que compite. Los elogios van al apartado visual, al plantel y a un modo entrenamiento que enseña de verdad. Lo que se le reprocha está afuera del ring: los modos para un jugador quedan cortos y los escenarios no están a la altura del resto. La bronca de los jugadores es otra y es de la versión de PC, que exige cuenta de PSN.",
     imagen: "https://cdn2.steamgriddb.com/grid/714a8a77af865a55fdd1872ee975b056.png",
     noticias: [
@@ -2602,7 +2602,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/wFJ3PZuAjK4",
     metacritic: 80,
     metacriticUsuarios: 7.4,
-    metacriticVotos: 1007,
+    metacriticVotos: 1008,
     critica: "Las reseñas son las de la remasterización de 2025. Hay acuerdo en el trabajo visual, que casi todos elogian, y en que los retoques de juego son bienvenidos. La discusión es sobre qué es esto: para varias reseñas es una máquina del tiempo perfecta para el que jugó Oblivion en 2006, y para otras justamente por eso se queda corta, porque arrastra los errores viejos y suma problemas técnicos nuevos. La conclusión que más se repite es que se disfruta según cuánta nostalgia traiga uno encima.",
     imagen: "https://cdn2.steamgriddb.com/grid/58cb7cce31a29f34ba4d5972d5a3da35.jpg",
     noticias: [
@@ -2680,7 +2680,7 @@ const JUEGOS = [
     descripcion: "Un shooter bélico multijugador ambientado en la guerra de Vietnam, con batallas de 50 contra 50 donde gana el que mejor trabaja en equipo y usa la táctica.",
     trailer: "https://youtube.com/embed/8zdQFX0Li8Q",
     metacritic: 71,
-    metacriticUsuarios: 5.4,
+    metacriticUsuarios: 5.3,
     metacriticVotos: 32,
     critica: "El acuerdo entre las reseñas es que no hay término medio: es un shooter táctico donde sin equipo que se comunique no se hace nada, y eso lo vuelve extraordinario para unos e insoportable para otros. Se elogian la ambientación de Vietnam, el peso que tiene cada muerte y la reconstrucción del caos de la guerra. Los reparos son dos y aparecen en casi todas: el rendimiento del motor y que, más que un sucesor del juego de 2021, es el mismo juego con otro escenario.",
     imagen: "https://cdn2.steamgriddb.com/grid/987e6c2c82acf33d7724a9c305ee79a8.png",
@@ -2813,8 +2813,8 @@ const JUEGOS = [
       canalUrl: "https://www.youtube.com/@l0k0hgaming"
     },
     metacritic: 78,
-    metacriticUsuarios: 7.8,
-    metacriticVotos: 167,
+    metacriticUsuarios: 7.7,
+    metacriticVotos: 171,
     critica: "Frogwares cambió de género y la crítica se lo acepta: esta segunda parte es survival horror al estilo de los Resident Evil modernos, con mejor combate y mejores puzzles que la primera. El reparo que más se repite es lo que quedó en el camino, la investigación de detective a mano suelta que hacía distinto al original. Varias reseñas recuerdan además en qué condiciones se hizo, con el estudio trabajando en Ucrania durante la guerra, y le perdonan la falta de pulido y unas actuaciones desparejas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
     noticias: [
@@ -3058,7 +3058,7 @@ const JUEGOS = [
     },
     metacritic: 78,
     metacriticUsuarios: 8.2,
-    metacriticVotos: 611,
+    metacriticVotos: 628,
     critica: "Es el más discutido de la semana: hay reseñas de 95 y de 60 describiendo el mismo juego. Todas coinciden en dos cosas. Que la serie cambió de género —menos sigilo y menos ratas, más acción y aventura al estilo Uncharted— y que en lo visual y lo sonoro está a la altura, con la banda sonora de Olivier Derivière llevándose elogios aparte. La discusión es si el cambio le sienta bien. Los que lo bajan repiten tres reparos: arranca muy lento, el combate se vuelve repetitivo y hay problemas de rendimiento. Sophia, la protagonista nueva, gusta casi por unanimidad.",
     imagen: "https://cdn2.steamgriddb.com/grid/19488d75fad434aed855298dad9d9d76.png",
     noticias: [
@@ -3093,7 +3093,7 @@ const JUEGOS = [
     },
     metacritic: 85,
     metacriticUsuarios: 7.9,
-    metacriticVotos: 258,
+    metacriticVotos: 264,
     critica: "La comparación con XCOM aparece en todas las reseñas, y el veredicto es que aguanta: un juego de tácticas por turnos hecho en serio, no una licencia pegada encima de un género. Lo más elogiado, sin embargo, es lo que menos se esperaba: la historia. Un escuadrón sin usuarios de la Fuerza, personajes que caen bien y una puesta cinematográfica que varios comparan con Andor y Rogue One. Los reparos son parejos y ninguno es de fondo: arranca lento, tiene problemas técnicos —sobre todo en PC— y no reinventa el género. La reseña más dura le critica lo contrario que el resto: que el envoltorio Star Wars es lo menos inspirado del juego.",
     noticias: [
       {
@@ -3269,7 +3269,7 @@ const JUEGOS = [
     },
     metacritic: 83,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 1002,
+    metacriticVotos: 1050,
     imagen: "https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png",
     critica: "Más de treinta reseñas y un acuerdo raro de ver en un debut: Rebel Wolves —armado por gente que hizo The Witcher 3— salió bien parado. Lo que más se elogia es lo que lo hace distinto: el reloj de treinta días que corre mientras jugás, la doble condición de humano de día y vampiro de noche, y decisiones que tienen consecuencias de verdad. También la escritura y los personajes. El reparo que más se repite es de dónde viene: toma mucho de The Witcher 3 y el mundo abierto se siente de fórmula, con misiones secundarias que se parecen entre sí. Se le marcan además animaciones faciales duras y un combate que a la larga se vuelve repetitivo.",
     noticias: [
@@ -3299,7 +3299,7 @@ const JUEGOS = [
     },
     metacritic: 82,
     metacriticUsuarios: 8.5,
-    metacriticVotos: 98,
+    metacriticVotos: 105,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc9r6.jpg",
     critica: "Se sabía poco y salió con 82. Es un juego cooperativo para DOS y sólo para dos: no tiene modo de un jugador, que es el dato a mirar antes de comprarlo. El elogio es parejo para el diseño de niveles —cada uno propone algo nuevo— y para la estética de anime ochentoso, que las reseñas destacan como impecable. La comparación que aparece en casi todas es con It Takes Two y Split Fiction, de Hazelight, y también el matiz: no llega a esa altura de diseño. Los reparos concretos son que la campaña es corta y que la historia no siempre emociona como pretende.",
     noticias: [
@@ -3328,8 +3328,8 @@ const JUEGOS = [
       canalUrl: "https://www.youtube.com/@l0k0hgaming"
     },
     metacritic: 79,
-    metacriticUsuarios: 8.3,
-    metacriticVotos: 4,
+    metacriticUsuarios: 8.6,
+    metacriticVotos: 5,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6vp.jpg",
     critica: "Cinco reseñas y un acuerdo tranquilo: es un plataformas 2D prolijo y colorido, fiel a la historieta de Franquin, y de los pocos que se pueden jugar con chicos al lado. Lo que más se destaca es el ritmo y que funciona bien en portátil. Los reparos son de tamaño, no de calidad: es corto, y varias reseñas señalan que el movimiento, la música y el diseño de niveles no siempre encajan al mismo tiempo — cuando lo hacen es muy bueno, cuando no, se siente irregular. Nadie lo trata de imprescindible y nadie lo trata mal.",
     noticias: [
@@ -3356,7 +3356,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/SWRcZN4jMW8",
     metacritic: 80,
     metacriticUsuarios: 6.7,
-    metacriticVotos: 708,
+    metacriticVotos: 710,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1448440/library_600x900.jpg",
     critica: "El puntaje es el de 2023, cuando salió en las otras consolas, y sigue siendo alto por lo mismo de entonces: Team Ninja armó un soulslike donde el parry no es un recurso más sino el centro de todo, sobre los Tres Reinos y con una capa de fantasía oscura. Se elogia el sistema de moral, que premia arriesgar, y la personalización. Los reparos también vienen de aquella tanda: la curva de dificultad es empinada y está mal repartida, los escenarios son lineales y quedaron viejos, el bestiario es corto y la segunda mitad no sostiene lo de la primera.",
     noticias: [
@@ -3386,7 +3386,7 @@ const JUEGOS = [
     },
     metacritic: 85,
     metacriticUsuarios: 8.6,
-    metacriticVotos: 631,
+    metacriticVotos: 662,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
     critica: "Más de cincuenta reseñas y un acuerdo casi unánime: es el mejor regreso posible después de veinte años sin la saga, y varias lo ponen entre los mejores juegos de acción del año. El elogio se concentra en una sola cosa, el combate — parries que exigen tiempo exacto, el Issen, y capas de mecánicas que se van sumando hasta el final. Se destaca también que Capcom NO lo convirtió en un soulslike, que era el camino fácil. Los reparos son tres y se repiten: los jefes se reutilizan y se notan, el Kioto abierto que hace de eje se siente repetitivo y fuera de tono con las misiones lineales, y la historia es lo más flojo del conjunto. Varias reseñas recomiendan arrancar en dificultad Historia para agarrarle la mano.",
     noticias: [
@@ -3440,8 +3440,8 @@ const JUEGOS = [
     descripcion: "El juego asimétrico de IllFonic (Friday the 13th, Predator: Hunting Grounds) basado en la saga de terror: un jugador encarna a Michael Myers y el resto intenta sobrevivir a la noche de Halloween en Haddonfield.",
     trailer: "https://youtube.com/embed/ek1ePFp-nBI",
     metacritic: 68,
-    metacriticUsuarios: 7.8,
-    metacriticVotos: 23,
+    metacriticUsuarios: 8.0,
+    metacriticVotos: 28,
     imagen: "https://cdn2.steamgriddb.com/grid/69613a8c895590b9d87b5bf7945d9191.png",
     critica: "Un 72 con reseñas partidas, y las dos mitades hablan de lo mismo. A favor: Haddonfield está muy bien recreado, la tensión de la espera funciona y ser Michael Myers es exactamente lo que uno espera. En contra: se nota que casi todo el trabajo fue para el asesino y no para el resto del reparto, la inteligencia artificial de los vecinos falla, las partidas se hacen largas y la progresión no convence. La duda de fondo que plantean varias es si IllFonic va a sostenerlo con actualizaciones, que es donde se le cayeron los anteriores. La reseña más dura le apunta al precio y al estado técnico.",
     gamepass: false,
@@ -3540,7 +3540,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/CQWEc9rPhR0",
     metacritic: 80,
     metacriticUsuarios: 7.5,
-    metacriticVotos: 89,
+    metacriticVotos: 90,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1668510/library_600x900.jpg",
     gamepass: false,
     psplus: false,
@@ -3626,7 +3626,8 @@ const JUEGOS = [
       canalUrl: "https://www.youtube.com/@l0k0hgaming"
     },
     metacritic: 77,
-    metacriticUsuarios: null,
+    metacriticUsuarios: 6.4,
+    metacriticVotos: 2438,
     critica: "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
@@ -3704,6 +3705,7 @@ const JUEGOS = [
     descripcion: "La nueva entrega de la legendaria saga de estrategia táctica de Intelligent Systems, primera pensada para Switch 2: batallas por turnos en cuadrícula, unidades irremplazables y los vínculos entre personajes que definen a Fire Emblem.",
     trailer: "https://youtube.com/embed/Rl5_C4sc5zk",
     metacritic: 89,
+    metacriticUsuarios: null,
     critica: "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
     noticias: [
@@ -3732,6 +3734,7 @@ const JUEGOS = [
     descripcion: "El segundo capítulo de Trails in the Sky, de Nihon Falcom. Estelle Bright sale otra vez a recorrer Liberl para averiguar qué pasó con Joshua y enfrentar a la organización Uroboros.",
     trailer: "https://youtube.com/embed/4fEzsQ6Hv8Y",
     metacritic: 92,
+    metacriticUsuarios: null,
     critica: "Las doce reseñas publicadas son positivas, y varias lo ponen como la entrega que define a toda la saga Trails. Coinciden en que la remake mejora lo que ya había hecho bien la del primer capítulo: combate por turnos más profundo, ritmo más ágil, escenas nuevas y actuación de voces, con una historia que cierra el arco de Estelle y Joshua con mucho peso. Lo que le marcan es poco: los primeros capítulos se hacen lentos, lo visual es modesto y juega a lo seguro.",
     noticias: [
       {
@@ -3754,11 +3757,36 @@ const JUEGOS = [
     desarrollador: "WRIGHT FLYER STUDIOS",
     descripcion: "Embarcate en un RPG de viajes en el tiempo con batallas por comandos, de los creadores del aclamado Another Eden: una aventura completamente nueva pensada para consolas.",
     trailer: "https://youtube.com/embed/G41po-Mr2_I",
-    metacritic: null,
+    metacritic: 73,
+    critica: "Las reseñas lo reciben como la mejor forma de jugar Another Eden: es la versión sin conexión del juego para celulares, sin el sistema de pagos de gacha, con gráficos mejorados y voces en inglés. Le elogian el combate, con ataques encadenados y el sistema de Valor, los personajes y el estilo artístico, y una historia que avanza a toda velocidad. Los reparos: la primera mitad es más lenta que la segunda, y el diseño de los niveles todavía delata que viene del celular.",
+    noticias: [
+      {
+        fecha: "2026-09-17",
+        titulo: "DEBUT CON 73: EL RPG DE CELULAR SIN GACHA",
+        texto: "Sale hoy con 73 sobre catorce reseñas. Todas coinciden en que es la versión definitiva de Another Eden, sin las compras del original para celulares, y le marcan que el arranque es lento."
+      }
+    ],
+    metacriticUsuarios: null,
     imagen: "https://cdn2.steamgriddb.com/grid/f7df4bd051a7facdd6018b29818d5b5c.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
+  },
+  {
+    id: "zero-parades-for-dead-spies",
+    titulo: "ZERO PARADES: FOR DEAD SPIES",
+    relanzamiento: "En PC desde mayo de 2026 — esta fecha corresponde a la edición de PS5",
+    fecha: "2026-11-03",
+    plataformas: ["PS5"],
+    genero: ["RPG", "AVENTURA", "INDIE"],
+    desarrollador: "ZA/UM",
+    descripcion: "El RPG de espionaje de ZA/UM, el estudio que hizo Disco Elysium. El protagonismo es de Hershel Wilk, alias Cascade, que carga desde hace cinco años con una misión en la que perdió a todo su equipo, hasta que llega un encargo misterioso. Todo se resuelve con tiradas de habilidad, por engaño, violencia o deducción, en una ciudad partida entre tres bandos. En PS5 llega como Director's Cut, con la actualización del mismo nombre.",
+    trailer: "https://youtube.com/embed/C_acH7Wx1Ew",
+    metacritic: null,
+    imagen: "https://cdn2.steamgriddb.com/grid/26ba856ac2a18ce42499c6053aa678e4.png",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-09-17"
   },
   {
     id: "lets-sing-2027",
@@ -3812,6 +3840,21 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355110/a46c5dfbdf4fcb0b8f2a5e6c0bcca051f8fe8a3f/header.jpg",
     alta: "2026-08-25"
+  },
+  {
+    id: "edge-of-memories",
+    titulo: "EDGE OF MEMORIES",
+    fecha: "2026-11-05",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["RPG", "ACCION"],
+    desarrollador: "MIDGAR STUDIO",
+    descripcion: "Un RPG de acción de Midgar Studio, los de Edge of Eternity. Una plaga llamada corrosión arrasó un continente y ahora amenaza a los pueblos nómadas de Avaris. Eline, una susurradora de almas, descubre que puede controlar la corrosión dentro de su propio cuerpo, y con Ysoris, su mentor, y Kanta, un príncipe chamán, sale a frenarla.",
+    trailer: "https://youtube.com/embed/WsbT4fnsCMU",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2738170/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-09-17"
   },
   {
     id: "the-legend-of-zelda-ocarina-of-time-switch-2",
@@ -3895,15 +3938,42 @@ const JUEGOS = [
     ]
   },
   {
+    id: "shape-of-dreams",
+    titulo: "SHAPE OF DREAMS",
+    relanzamiento: "En PC desde septiembre de 2025",
+    fecha: "2026-09-17",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["ACCION", "ROGUELIKE", "COOP", "INDIE"],
+    desarrollador: "LIZARD SMOOTHIE",
+    descripcion: "Un roguelite de acción que mezcla hack and slash con el trabajo en equipo de un MOBA. Se esquivan oleadas de enemigos y se apuntan habilidades a mano por mundos que cambian en cada partida, de campos de lava a montañas nevadas. Cada viajero pelea distinto, y de a cuatro en cooperativo los estilos se combinan. Llega a consolas junto a la actualización Starless Path.",
+    trailer: "https://youtube.com/embed/sUfcplBV6WU",
+    metacritic: 84,
+    metacriticUsuarios: 8.0,
+    metacriticVotos: 23,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444750/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-09-17"
+  },
+  {
     id: "lego-batman-legacy-of-the-dark-knight",
     titulo: "LEGO BATMAN: LEGACY OF THE DARK KNIGHT",
+    relanzamiento: "En PS5, Xbox y PC desde mayo de 2026 — esta fecha corresponde a la edición de Switch 2",
     fecha: "2026-09-18",
     plataformas: ["SWITCH2"],
     genero: ["AVENTURA", "ACCION"],
     desarrollador: "TT GAMES",
-    descripcion: "TT Games vuelve a Gotham: una nueva aventura LEGO protagonizada por Batman que repasa el legado del Caballero Oscuro, con el humor y el cooperativo característicos de la saga.",
+    descripcion: "La aventura LEGO de Batman que salió en mayo en PS5, Xbox y PC llega a Switch 2. TT Games recorre las distintas épocas del personaje, de los cómics a las películas y las series, con una Gotham para explorar y un combate que toma mucho de los Batman: Arkham, sin perder el humor ni el cooperativo de la saga.",
     trailer: "https://youtube.com/embed/DfJaUpW_P00",
-    metacritic: null,
+    metacritic: 83,
+    critica: "El puntaje es el de mayo en PS5, Xbox y PC, sobre 88 reseñas, y ninguna es negativa. La mayoría lo pone entre los mejores juegos LEGO, si no el mejor: una carta de amor a la historia de Batman llena de referencias a cómics, películas y series, con un combate que funciona como un Arkham simplificado y un equilibrio logrado entre chicos y fans grandes. Las reseñas más tibias dicen lo contrario de lo mismo: que por querer conformar a todos no termina de satisfacer a nadie, que juega a lo seguro y que algunos tramos de pelea se hacen aburridos.",
+    noticias: [
+      {
+        fecha: "2026-09-17",
+        titulo: "LLEGA A SWITCH 2 CON EL 83 QUE SACÓ EN MAYO",
+        texto: "La versión de Switch 2 sale mañana, cuatro meses después que en las otras consolas. En mayo la crítica lo recibió con 83 y varias reseñas lo nombraron el mejor juego LEGO hecho hasta ahora."
+      }
+    ],
     imagen: "https://cdn2.steamgriddb.com/grid/e154fe98c470195b99092d884dcf71f5.jpg",
     gamepass: false,
     psplus: false,
@@ -4246,8 +4316,8 @@ const JUEGOS = [
     descripcion: "La entrega anual de la NBA vuelve con Mi CARRERA, MyTEAM y Mi NBA como pilares. Victor Wembanyama ocupa la portada estándar, Caitlin Clark la deluxe y Derrick Rose la ultra. Es la primera edición de la serie que deja atrás PS4 y Xbox One.",
     trailer: "https://youtube.com/embed/x3VbMlmerXg",
     metacritic: 77,
-    metacriticUsuarios: 4.5,
-    metacriticVotos: 29,
+    metacriticUsuarios: 4.6,
+    metacriticVotos: 32,
     imagen: "https://cdn2.steamgriddb.com/grid/41f111384c98a213f4b187cf3e952245.png",
     critica: "Nueve reseñas con un patrón que se repite hace años: la cancha bien, lo de afuera no. Se elogia parejo el salto en la defensa, las animaciones más dinámicas y la app NBA 2K HQ para manejar el MyPLAYER. El reproche es unánime y no es sobre básquet — las microtransacciones. Varias reseñas lo dicen sin vueltas: el juego en la cancha es de los mejores de los últimos años y todo lo que pasa cuando dejás de jugar lo empuja para abajo. También se le marca que los modelos no siempre distinguen los físicos de los jugadores.",
     noticias: [
@@ -4345,6 +4415,8 @@ const JUEGOS = [
     descripcion: "Un JRPG en pixel art con combates clásicos por turnos donde acompañás a Akane y a Bot, su compañero de inteligencia artificial, mientras desentrañan los misterios de un mundo que parece haber olvidado su propia historia.",
     trailer: "https://youtube.com/embed/NorI-ReqhVE",
     metacritic: 72,
+    metacriticUsuarios: 6.3,
+    metacriticVotos: 11,
     critica: "Casi todas las reseñas cuentan lo mismo antes que nada: lo hizo una sola persona durante ocho años, y se nota para bien en el arte, que se lleva elogios enormes en cada nota. El desacuerdo es sobre si eso alcanza. El combate aparece descrito como flojo o desbalanceado en casi todas, y la traducción al inglés como pobre. Para las notas más altas es una odisea con corazón que vale por su mundo; para la más baja es una obra audiovisual preciosa que no logra contar bien lo que quiere contar.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1864000/library_600x900.jpg",
     noticias: [
@@ -4370,6 +4442,8 @@ const JUEGOS = [
     descripcion: "Dirigís una orquesta sinfónica desde el podio de una ópera parisina: una mano lleva la batuta y marca el tempo, la otra da las entradas y maneja los matices. Más de treinta y cinco piezas entre clásicos del repertorio y bandas sonoras conocidas, sin necesidad de saber música.",
     trailer: "https://youtube.com/embed/SWgNeWbNkZ8",
     metacritic: 93,
+    metacriticUsuarios: 9.3,
+    metacriticVotos: 23,
     critica: "Las reseñas que existen son de la versión de realidad virtual de 2024, no de esta: hay que leerlas sabiendo eso. La prensa de VR lo trató como una rareza que salió bien, un juego de ritmo donde en vez de apretar botones se dirige una orquesta con las manos, y coincidió en dos cosas: que la detección de manos responde mejor de lo que el género acostumbra, y que es de los pocos juegos de ritmo accesibles para quien no sabe nada de música. Esta edición cambia las manos por el movimiento de los Joy-Con, así que lo que más se elogiaba es justo lo que habrá que ver.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701700/library_600x900.jpg",
     noticias: [
@@ -4586,7 +4660,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/jK0cGKMDMPE",
     metacritic: 87,
     metacriticUsuarios: 8.8,
-    metacriticVotos: 2788,
+    metacriticVotos: 2792,
     critica: "Es el juego con el que la prensa da por vuelto el género narrativo que dejó Telltale: la dirección, las actuaciones y los personajes se llevan los elogios en casi todas las reseñas. Los reparos son de estructura, no de ejecución: hay decisiones que no cambian nada, los mejores personajes aparecen poco y el final deja a varios con gusto a poco. De ahí salen las notas más bajas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
     noticias: [
@@ -5245,7 +5319,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/BZTfi1jv-EE",
     metacritic: 84,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1728,
+    metacriticVotos: 1729,
     critica: "Las reseñas son las de 2015, cuando lo sacaron los mismos de Amnesia. El consenso es fuerte y bastante inusual: casi todos coinciden en que la historia es de lo mejor que dio la ciencia ficción en videojuegos, con preguntas sobre la identidad y la conciencia que se quedan encima mucho después de terminarlo. El reparo también es unánime: como juego de terror no asusta tanto como Amnesia. Los monstruos son predecibles y esconderse se vuelve trámite, hasta el punto de que muchas reseñas recomendaban jugarlo por la historia y no por el susto.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282140/library_600x900.jpg",
     noticias: [
@@ -5401,7 +5475,7 @@ const JUEGOS = [
     desarrollador: "COLD IRON STUDIOS",
     descripcion: "Esto no es una misión de rescate: es una lucha por la supervivencia. Los xenomorfos acechan en los rincones más oscuros en este shooter cooperativo en tercera persona para tres jugadores, secuela del aclamado Aliens: Fireteam Elite.",
     trailer: "https://youtube.com/embed/bISGUJn3sSk",
-    metacritic: 65,
+    metacritic: 64,
     metacriticUsuarios: 6.8,
     metacriticVotos: 27,
     imagen: "https://cdn2.steamgriddb.com/grid/467e2b770acfd44e128c0c9218584c48.png",
@@ -6757,7 +6831,10 @@ const JUEGOS = [
     desarrollador: "DEVIN SANTI",
     descripcion: "Mr. Sleepy Man se pasó de la hora de dormir y anda desatado. Una aventura de patio de juegos donde el objetivo es hacer el mayor desastre posible y poner al pueblo entero en tu contra.",
     trailer: "https://youtube.com/embed/9RmMhWiXdV8",
-    metacritic: null,
+    metacritic: 77,
+    critica: "Pocas reseñas, y todas en la misma línea: un plataformas raro a propósito, pensado para quien extraña los juegos de Nintendo 64. Le celebran la personalidad y un mundo bizarro distinto a cualquier otro, donde se corre y se arma lío sin que nadie diga qué hacer. Ese es también el reparo: casi no da indicaciones, y jugado como un plataformas común confunde.",
+    metacriticUsuarios: 8.4,
+    metacriticVotos: 11,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1657740/library_600x900.jpg",
     gamepass: false,
     psplus: false,

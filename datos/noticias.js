@@ -50,6 +50,15 @@
 
 const NOTICIAS = [
   {
+    id: "xbox-tokyo-game-show-2026",
+    fecha: "2026-09-17",
+    categoria: "EVENTOS",
+    titulo: "BILL SKARSGÅRD SERÁ EL PROTAGONISTA DE PHYSINT",
+    texto: "Xbox hizo su transmisión del Tokyo Game Show y la cerró con Hideo Kojima en persona: el actor sueco Bill Skarsgård va a interpretar al protagonista de Physint, y se mostró un póster nuevo con él y Charlee Fraser. El juego sigue sin fecha ni consolas confirmadas.\n\nAntes hubo tráiler de la campaña de Call of Duty: Modern Warfare 4, que sale el 23 de octubre con acceso anticipado desde el 16 para quien lo reserve, gameplay nuevo de Wo Long 2 y de Bloodstained: The Scarlet Engagement, este último para 2027, y el mapa de Japón de Crazy Taxi: World Tour. La sorpresa fue Shape of Dreams, que salió ese mismo día en Xbox y PS5.",
+    fuente: "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/",
+    juegos: ["call-of-duty-modern-warfare-4", "wo-long-2-wings-of-ember", "shape-of-dreams"]
+  },
+  {
     id: "game-pass-septiembre-2026-segunda-tanda",
     fecha: "2026-09-15",
     categoria: "SUSCRIPCIONES",

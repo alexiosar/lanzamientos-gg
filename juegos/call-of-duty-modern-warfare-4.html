@@ -43,6 +43,15 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -163,6 +172,15 @@
 
       <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-17</span>
+            <span class="noticia-titulo">▸ BILL SKARSGÅRD SERÁ EL PROTAGONISTA DE PHYSINT</span><span class="noticia-cat cat-eventos">EVENTOS</span>
+          </div>
+          <p class="noticia-texto">Xbox hizo su transmisión del Tokyo Game Show y la cerró con Hideo Kojima en persona: el actor sueco Bill Skarsgård va a interpretar al protagonista de Physint, y se mostró un póster nuevo con él y Charlee Fraser. El juego sigue sin fecha ni consolas confirmadas.
+
+Antes hubo tráiler de la campaña de Call of Duty: Modern Warfare 4, que sale el 23 de octubre con acceso anticipado desde el 16 para quien lo reserve, gameplay nuevo de Wo Long 2 y de Bloodstained: The Scarlet Engagement, este último para 2027, y el mapa de Japón de Crazy Taxi: World Tour. La sorpresa fue Shape of Dreams, que salió ese mismo día en Xbox y PS5.</p><a class="noticia-fuente" href="https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-08-20</span>

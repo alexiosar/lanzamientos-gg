@@ -2,220 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-16T18:51:48+00:00",
+ "generado": "2026-09-17T14:20:19+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-16",
- "hasta": "2026-10-16",
- "total": 107,
+ "desde": "2026-09-17",
+ "hasta": "2026-10-17",
+ "total": 101,
  "juegos": [
-  {
-   "id": "gladio-mori",
-   "titulo": "GLADIO MORI",
-   "relanzamiento": "En PC, en acceso anticipado, desde noviembre de 2024",
-   "duracion": "≈ 3 h (historia) · 5 h (completo)",
-   "fecha": "2026-09-16",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "LUCHA",
-    "MULTIJUGADOR",
-    "INDIE"
-   ],
-   "desarrollador": "PLEBEIAN STUDIO",
-   "descripcion": "Combate multijugador de gladiadores en cámara lenta, con daño localizado órgano por órgano y movimientos que aporta la propia comunidad. Se pelea con armas de filo y cada golpe se ve venir, lo que convierte cada intercambio en una decisión y no en un reflejo.",
-   "trailer": "https://youtube.com/embed/eUl7a-blRrM",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2689120/library_600x900.jpg",
-   "alta": "2026-08-24",
-   "url": "https://lanzamientos.lat/juegos/gladio-mori"
-  },
-  {
-   "id": "roman-sands-rebuild",
-   "titulo": "ROMAN SANDS RE:BUILD",
-   "fecha": "2026-09-16",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "SIMULACION",
-    "INDIE"
-   ],
-   "desarrollador": "ARBITRARY METRIC",
-   "descripcion": "Una aventura que alterna entre un resort de lujo varado al borde del colapso ecológico y una instalación secreta que nadie quiere nombrar. Atendés a los huéspedes de día, atás cabos de noche y tratás de encontrar la salida antes de que el mundo termine de apagarse.",
-   "trailer": "https://youtube.com/embed/zTZ6iqsltLM",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231460/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/roman-sands-rebuild"
-  },
-  {
-   "id": "two-point-hospital-full-health-collection",
-   "titulo": "TWO POINT HOSPITAL: FULL HEALTH COLLECTION",
-   "duracion": "≈ 38 h (historia) · 128 h (completo)",
-   "fecha": "2026-09-16",
-   "relanzamiento": "El juego original salió en 2018 en PC y en 2020 en consolas — esta edición reúne el juego base y sus catorce contenidos descargables",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "SIMULACION",
-    "ESTRATEGIA",
-    "CASUAL"
-   ],
-   "desarrollador": "TWO POINT STUDIOS",
-   "descripcion": "El paquete completo del simulador de hospitales de Two Point Studios: el juego base más los catorce contenidos descargables publicados hasta ahora. Diseñás clínicas absurdas, curás enfermedades imposibles y lidiás con un personal que rara vez colabora.",
-   "trailer": "https://youtube.com/embed/JSkvu2ZwKbA",
-   "metacritic": 83,
-   "metacriticUsuarios": null,
-   "critica": "El puntaje no es de esta colección sino del juego original de 2018, que es de donde salen las reseñas. La prensa lo recibió como el heredero legítimo de Theme Hospital: el humor absurdo, las enfermedades inventadas y la administración liviana convencieron a casi todos. El reparo se repite con insistencia: hereda también los defectos del original, sobre todo un micromanejo que se vuelve tedioso, y hay quien le reprocha que en veinte años no aprendió a castigar los errores del jugador.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/535930/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/two-point-hospital-full-health-collection",
-   "noticias": [
-    {
-     "fecha": "2026-07-31",
-     "titulo": "LA EDICIÓN FÍSICA LLEGA EN NOVIEMBRE",
-     "texto": "La versión digital sale el 16 de septiembre y la física el 6 de noviembre, para Switch 2 y PS5. El paquete suma catorce contenidos entre expansiones grandes, packs de objetos y extras dentro del juego. El original promedia 83 en Metacritic."
-    }
-   ]
-  },
-  {
-   "id": "little-witch-in-the-woods",
-   "titulo": "LITTLE WITCH IN THE WOODS",
-   "fecha": "2026-09-16",
-   "relanzamiento": "En PC y Xbox en acceso anticipado desde 2022, y en PC terminado desde 2025 — esta fecha corresponde a la edición de Switch",
-   "duracion": "≈ 8,7 h (historia) · 37 h (completo)",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "RELAX",
-    "INDIE"
-   ],
-   "desarrollador": "SUNNY SIDE UP",
-   "descripcion": "Encarnás a Ellie, una bruja aprendiz que llega a un bosque encantado para completar su entrenamiento. Recolectá ingredientes, prepará pociones y ayudá a los habitantes del pueblo en esta aventura pixelada de ritmo tranquilo.",
-   "trailer": "https://youtube.com/embed/r1TARFynPc4",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594940/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-27",
-   "url": "https://lanzamientos.lat/juegos/little-witch-in-the-woods",
-   "noticias": [
-    {
-     "fecha": "2026-08-20",
-     "titulo": "YA TIENE DÍA: 16 DE SEPTIEMBRE EN SWITCH",
-     "texto": "SUNNY SIDE UP confirmó fecha y precio para la versión de Switch: 16 de septiembre a 19,99 dólares, con todo el contenido y las mejoras de la versión de PC terminada. De paso anunciaron que el juego pasó el medio millón de copias vendidas."
-    }
-   ]
-  },
-  {
-   "id": "aniimo",
-   "titulo": "ANIIMO",
-   "fecha": "2026-09-16",
-   "plataformas": [
-    "XBOX",
-    "PS5",
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "MULTIJUGADOR",
-    "RPG"
-   ],
-   "desarrollador": "PAWPRINT STUDIO",
-   "descripcion": "Un RPG de mundo abierto gratuito de capturar criaturas, en el continente de Idyll. Se usan las habilidades de las Aniimo para explorar, se visita una ciudad que flota en el cielo y se compite contra otros jugadores.",
-   "trailer": "https://youtube.com/embed/Yh5JH0Yz75E",
-   "metacritic": 78,
-   "metacriticUsuarios": null,
-   "critica": "Pocas reseñas y bastante divididas en el tono. Las más entusiastas elogian el diseño de las criaturas, un mundo con mucha vida y un sistema de colección que es simple de entrada pero tan profundo como uno quiera. Los reparos apuntan a una estructura que se siente de escuela, con poco en juego, una interfaz que molesta y lo engorroso que es compartir la partida con amigos. El acuerdo general: para quien busque coleccionar y explorar tranquilo, es un gratuito generoso y muy pulido.",
-   "imagen": "https://cdn2.steamgriddb.com/grid/275ba20bb50f9c26e0d0f0aa69d0c7e4.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/aniimo",
-   "noticias": [
-    {
-     "fecha": "2026-09-16",
-     "titulo": "SALE HOY GRATIS Y DEBUTA CON 78",
-     "texto": "Llega gratis a PS5, Xbox y Switch 2 con un 78 sobre seis reseñas. La crítica lo recomienda para coleccionar criaturas y explorar sin apuro, y le marca poca tensión y una interfaz incómoda."
-    },
-    {
-     "fecha": "2026-08-14",
-     "titulo": "YA TIENE FECHA: 16 DE SEPTIEMBRE",
-     "texto": "Estaba anunciado para el tercer trimestre sin día. Es un RPG de mundo abierto gratuito con captura de criaturas, del estudio Pawprint."
-    }
-   ]
-  },
-  {
-   "id": "woodo",
-   "titulo": "WOODO",
-   "fecha": "2026-09-16",
-   "plataformas": [
-    "SWITCH",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "CASUAL",
-    "INDIE"
-   ],
-   "desarrollador": "TINY MONKS TALES",
-   "descripcion": "Un juego tranquilo que funciona como un libro para colorear en 3D: un cuento contado con dioramas de madera hechos a mano, pensado para jugarse sin apuro.",
-   "trailer": "https://youtube.com/embed/_F4Bt7GORZA",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/woodo",
-   "noticias": [
-    {
-     "fecha": "2026-08-20",
-     "titulo": "YA TIENE FECHA: 16 DE SEPTIEMBRE",
-     "texto": "El estudio confirmó hoy que la aventura de Foxy por sus recuerdos de infancia sale en cuatro semanas, el 16 de septiembre."
-    }
-   ]
-  },
-  {
-   "id": "monowave",
-   "titulo": "MONOWAVE",
-   "fecha": "2026-09-16",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "PUZZLE",
-    "PLATAFORMA"
-   ],
-   "desarrollador": "STUDIO BBB",
-   "descripcion": "Una aventura de puzles y plataformas construida alrededor del poder de las emociones, con mundos que cambian según el ánimo del personaje. Las versiones de PS5 y Xbox llegan más adelante en 2026.",
-   "trailer": "https://youtube.com/embed/3vzhMB8g8f8",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680440/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-14",
-   "url": "https://lanzamientos.lat/juegos/monowave"
-  },
   {
    "id": "fire-emblem-fortunes-weave",
    "titulo": "FIRE EMBLEM: FORTUNE'S WEAVE",
@@ -232,6 +25,7 @@
    "descripcion": "La nueva entrega de la legendaria saga de estrategia táctica de Intelligent Systems, primera pensada para Switch 2: batallas por turnos en cuadrícula, unidades irremplazables y los vínculos entre personajes que definen a Fire Emblem.",
    "trailer": "https://youtube.com/embed/Rl5_C4sc5zk",
    "metacritic": 89,
+   "metacriticUsuarios": null,
    "critica": "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
    "gamepass": false,
@@ -268,6 +62,7 @@
    "descripcion": "El segundo capítulo de Trails in the Sky, de Nihon Falcom. Estelle Bright sale otra vez a recorrer Liberl para averiguar qué pasó con Joshua y enfrentar a la organización Uroboros.",
    "trailer": "https://youtube.com/embed/4fEzsQ6Hv8Y",
    "metacritic": 92,
+   "metacriticUsuarios": null,
    "critica": "Las doce reseñas publicadas son positivas, y varias lo ponen como la entrega que define a toda la saga Trails. Coinciden en que la remake mejora lo que ya había hecho bien la del primer capítulo: combate por turnos más profundo, ritmo más ágil, escenas nuevas y actuación de voces, con una historia que cierra el arco de Estelle y Joshua con mucho peso. Lo que le marcan es poco: los primeros capítulos se hacen lentos, lo visual es modesto y juega a lo seguro.",
    "imagen": "https://cdn2.steamgriddb.com/grid/44519406a3f5defa6dcf308d49beef43.png",
    "gamepass": false,
@@ -297,12 +92,21 @@
    "desarrollador": "WRIGHT FLYER STUDIOS",
    "descripcion": "Embarcate en un RPG de viajes en el tiempo con batallas por comandos, de los creadores del aclamado Another Eden: una aventura completamente nueva pensada para consolas.",
    "trailer": "https://youtube.com/embed/G41po-Mr2_I",
-   "metacritic": null,
+   "metacritic": 73,
+   "critica": "Las reseñas lo reciben como la mejor forma de jugar Another Eden: es la versión sin conexión del juego para celulares, sin el sistema de pagos de gacha, con gráficos mejorados y voces en inglés. Le elogian el combate, con ataques encadenados y el sistema de Valor, los personajes y el estilo artístico, y una historia que avanza a toda velocidad. Los reparos: la primera mitad es más lenta que la segunda, y el diseño de los niveles todavía delata que viene del celular.",
+   "metacriticUsuarios": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/f7df4bd051a7facdd6018b29818d5b5c.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/another-eden-begins"
+   "url": "https://lanzamientos.lat/juegos/another-eden-begins",
+   "noticias": [
+    {
+     "fecha": "2026-09-17",
+     "titulo": "DEBUT CON 73: EL RPG DE CELULAR SIN GACHA",
+     "texto": "Sale hoy con 73 sobre catorce reseñas. Todas coinciden en que es la versión definitiva de Another Eden, sin las compras del original para celulares, y le marcan que el arranque es lento."
+    }
+   ]
   },
   {
    "id": "akiba-lost",
@@ -333,6 +137,33 @@
      "texto": "IzanagiGames publicó la demo en PS5, y el 26 de agosto llegan las de Switch 2 y Switch junto con las reservas digitales. Ojo con la fecha: el 26 es de la demo, el juego sale el 17 de septiembre. Se confirmó además que Tsukasa Masuko, de la saga Megami Tensei, trabajó en la banda sonora."
     }
    ]
+  },
+  {
+   "id": "shape-of-dreams",
+   "titulo": "SHAPE OF DREAMS",
+   "relanzamiento": "En PC desde septiembre de 2025",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "LIZARD SMOOTHIE",
+   "descripcion": "Un roguelite de acción que mezcla hack and slash con el trabajo en equipo de un MOBA. Se esquivan oleadas de enemigos y se apuntan habilidades a mano por mundos que cambian en cada partida, de campos de lava a montañas nevadas. Cada viajero pelea distinto, y de a cuatro en cooperativo los estilos se combinan. Llega a consolas junto a la actualización Starless Path.",
+   "trailer": "https://youtube.com/embed/sUfcplBV6WU",
+   "metacritic": 84,
+   "metacriticUsuarios": 8.0,
+   "metacriticVotos": 23,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444750/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/shape-of-dreams"
   },
   {
    "id": "sniper-dan",
@@ -377,6 +208,8 @@
    "descripcion": "Un JRPG en pixel art con combates clásicos por turnos donde acompañás a Akane y a Bot, su compañero de inteligencia artificial, mientras desentrañan los misterios de un mundo que parece haber olvidado su propia historia.",
    "trailer": "https://youtube.com/embed/NorI-ReqhVE",
    "metacritic": 72,
+   "metacriticUsuarios": 6.3,
+   "metacriticVotos": 11,
    "critica": "Casi todas las reseñas cuentan lo mismo antes que nada: lo hizo una sola persona durante ocho años, y se nota para bien en el arte, que se lleva elogios enormes en cada nota. El desacuerdo es sobre si eso alcanza. El combate aparece descrito como flojo o desbalanceado en casi todas, y la traducción al inglés como pobre. Para las notas más altas es una odisea con corazón que vale por su mundo; para la más baja es una obra audiovisual preciosa que no logra contar bien lo que quiere contar.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1864000/library_600x900.jpg",
    "gamepass": false,
@@ -410,6 +243,8 @@
    "descripcion": "Dirigís una orquesta sinfónica desde el podio de una ópera parisina: una mano lleva la batuta y marca el tempo, la otra da las entradas y maneja los matices. Más de treinta y cinco piezas entre clásicos del repertorio y bandas sonoras conocidas, sin necesidad de saber música.",
    "trailer": "https://youtube.com/embed/SWgNeWbNkZ8",
    "metacritic": 93,
+   "metacriticUsuarios": 9.3,
+   "metacriticVotos": 23,
    "critica": "Las reseñas que existen son de la versión de realidad virtual de 2024, no de esta: hay que leerlas sabiendo eso. La prensa de VR lo trató como una rareza que salió bien, un juego de ritmo donde en vez de apretar botones se dirige una orquesta con las manos, y coincidió en dos cosas: que la detección de manos responde mejor de lo que el género acostumbra, y que es de los pocos juegos de ritmo accesibles para quien no sabe nada de música. Esta edición cambia las manos por el movimiento de los Joy-Con, así que lo que más se elogiaba es justo lo que habrá que ver.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701700/library_600x900.jpg",
    "gamepass": false,
@@ -496,7 +331,10 @@
    "desarrollador": "DEVIN SANTI",
    "descripcion": "Mr. Sleepy Man se pasó de la hora de dormir y anda desatado. Una aventura de patio de juegos donde el objetivo es hacer el mayor desastre posible y poner al pueblo entero en tu contra.",
    "trailer": "https://youtube.com/embed/9RmMhWiXdV8",
-   "metacritic": null,
+   "metacritic": 77,
+   "critica": "Pocas reseñas, y todas en la misma línea: un plataformas raro a propósito, pensado para quien extraña los juegos de Nintendo 64. Le celebran la personalidad y un mundo bizarro distinto a cualquier otro, donde se corre y se arma lío sin que nadie diga qué hacer. Ese es también el reparo: casi no da indicaciones, y jugado como un plataformas común confunde.",
+   "metacriticUsuarios": 8.4,
+   "metacriticVotos": 11,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1657740/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
@@ -620,6 +458,7 @@
   {
    "id": "lego-batman-legacy-of-the-dark-knight",
    "titulo": "LEGO BATMAN: LEGACY OF THE DARK KNIGHT",
+   "relanzamiento": "En PS5, Xbox y PC desde mayo de 2026 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-09-18",
    "plataformas": [
     "SWITCH2"
@@ -629,14 +468,22 @@
     "ACCION"
    ],
    "desarrollador": "TT GAMES",
-   "descripcion": "TT Games vuelve a Gotham: una nueva aventura LEGO protagonizada por Batman que repasa el legado del Caballero Oscuro, con el humor y el cooperativo característicos de la saga.",
+   "descripcion": "La aventura LEGO de Batman que salió en mayo en PS5, Xbox y PC llega a Switch 2. TT Games recorre las distintas épocas del personaje, de los cómics a las películas y las series, con una Gotham para explorar y un combate que toma mucho de los Batman: Arkham, sin perder el humor ni el cooperativo de la saga.",
    "trailer": "https://youtube.com/embed/DfJaUpW_P00",
-   "metacritic": null,
+   "metacritic": 83,
+   "critica": "El puntaje es el de mayo en PS5, Xbox y PC, sobre 88 reseñas, y ninguna es negativa. La mayoría lo pone entre los mejores juegos LEGO, si no el mejor: una carta de amor a la historia de Batman llena de referencias a cómics, películas y series, con un combate que funciona como un Arkham simplificado y un equilibrio logrado entre chicos y fans grandes. Las reseñas más tibias dicen lo contrario de lo mismo: que por querer conformar a todos no termina de satisfacer a nadie, que juega a lo seguro y que algunos tramos de pelea se hacen aburridos.",
    "imagen": "https://cdn2.steamgriddb.com/grid/e154fe98c470195b99092d884dcf71f5.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/lego-batman-legacy-of-the-dark-knight"
+   "url": "https://lanzamientos.lat/juegos/lego-batman-legacy-of-the-dark-knight",
+   "noticias": [
+    {
+     "fecha": "2026-09-17",
+     "titulo": "LLEGA A SWITCH 2 CON EL 83 QUE SACÓ EN MAYO",
+     "texto": "La versión de Switch 2 sale mañana, cuatro meses después que en las otras consolas. En mayo la crítica lo recibió con 83 y varias reseñas lo nombraron el mejor juego LEGO hecho hasta ahora."
+    }
+   ]
   },
   {
    "id": "moomintroll-winters-warmth",
