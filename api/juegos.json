@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-17T15:33:21+00:00",
+ "generado": "2026-09-17T16:29:30+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 452,
@@ -5126,6 +5126,11 @@
    "desarrollador": "INTELLIGENT SYSTEMS",
    "descripcion": "La nueva entrega de la legendaria saga de estrategia táctica de Intelligent Systems, primera pensada para Switch 2: batallas por turnos en cuadrícula, unidades irremplazables y los vínculos entre personajes que definen a Fire Emblem.",
    "trailer": "https://youtube.com/embed/Rl5_C4sc5zk",
+   "gameplay": {
+    "video": "https://youtube.com/embed/gNn_os8xaok",
+    "canal": "L0k0hGaming",
+    "canalUrl": "https://www.youtube.com/@l0k0hgaming"
+   },
    "metacritic": 89,
    "metacriticUsuarios": null,
    "critica": "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
