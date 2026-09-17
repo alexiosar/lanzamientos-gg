@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-17T14:20:19+00:00",
+ "generado": "2026-09-17T15:33:21+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 432,
+ "total": 452,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -790,8 +790,8 @@
    "descripcion": "Un RPG de acción en Aincrad, el castillo flotante de Sword Art Online, donde cada pelea puede ser la última. Se crea el personaje, se elige el equipo y se combate a fuerza de habilidades y reflejos, sincronizando ataques con un compañero y subiendo de nivel para desbloquear técnicas más fuertes.",
    "trailer": "https://youtube.com/embed/WBW_qjic47E",
    "metacritic": 64,
-   "metacriticUsuarios": 5.8,
-   "metacriticVotos": 86,
+   "metacriticUsuarios": 5.7,
+   "metacriticVotos": 87,
    "critica": "Es de los peor recibidos del año, y lo llamativo es que ni siquiera los fanáticos de Sword Art Online lo defienden. Las reseñas coinciden en que la idea —vivir el juego mortal desde la piel de un jugador cualquiera— es buena y en que el tono de la serie está bien capturado. Ahí se termina el acuerdo positivo: repetición, misiones sin gracia y sistemas a medio cocinar aparecen en casi todas. La frase que más se repite es que promete algo que después no llega nunca.",
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpxh.jpg",
    "gamepass": false,
@@ -1959,6 +1959,29 @@
    "url": "https://lanzamientos.lat/juegos/end-of-abyss"
   },
   {
+   "id": "warhammer-40000-boltgun-2",
+   "titulo": "WARHAMMER 40,000: BOLTGUN 2",
+   "fecha": "2026-10-14",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "ACCION",
+    "RETRO"
+   ],
+   "desarrollador": "AUROCH DIGITAL",
+   "descripcion": "La secuela del shooter retro de Warhammer 40,000, con la estética de los FPS de los noventa. Esta vez hay dos personajes para elegir, cada uno con sus armas y su forma de jugar: Malum Caedo, el marine de la primera parte, o Nyra Veyrath, una hermana de batalla más ágil. La campaña tiene caminos que se ramifican.",
+   "trailer": "https://youtube.com/embed/Qkg4CpTRugE",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9uam.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/warhammer-40000-boltgun-2"
+  },
+  {
    "id": "ratatan",
    "titulo": "RATATAN",
    "fecha": "2026-10-14",
@@ -2222,7 +2245,7 @@
    "trailer": "https://youtube.com/embed/9CV1BS3tkmQ",
    "metacritic": 82,
    "metacriticUsuarios": 9.3,
-   "metacriticVotos": 1954,
+   "metacriticVotos": 1955,
    "critica": "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
    "imagen": "https://cdn2.steamgriddb.com/grid/1812e589a2ad581bd076820f05965824.png",
    "gamepass": false,
@@ -2574,7 +2597,7 @@
    "trailer": "https://youtube.com/embed/HhsxGagHirw",
    "metacritic": 80,
    "metacriticUsuarios": 5.8,
-   "metacriticVotos": 728,
+   "metacriticVotos": 727,
    "critica": "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
    "imagen": "https://cdn2.steamgriddb.com/grid/9e00a3de909a5e4ada9324bc7aa1fea2.png",
    "gamepass": true,
@@ -2648,6 +2671,29 @@
      "texto": "El RPG de extracción de Bellring Games llega día uno a Game Pass, con crossplay y cooperativo. En PS5 no estará incluido en PS Plus al lanzamiento."
     }
    ]
+  },
+  {
+   "id": "chained-beasts",
+   "titulo": "CHAINED BEASTS",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "FEATHERWEIGHT GAMES",
+   "descripcion": "Un roguelite cooperativo de gladiadores para uno a cuatro jugadores, con la vuelta de que todos están encadenados entre sí. Se pelea en el Coliseo usando el escenario, de pinchos a pozos con serpientes, y se tiran armas, urnas y enemigos. Las heridas cambian cómo se juega, y hay que ganarse al público para conseguir la libertad.",
+   "trailer": "https://youtube.com/embed/J5KKhsI1QL8",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coad6n.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/chained-beasts"
   },
   {
    "id": "the-jackbox-party-pack-12",
@@ -4230,7 +4276,7 @@
    },
    "metacritic": 85,
    "metacriticUsuarios": 7.9,
-   "metacriticVotos": 264,
+   "metacriticVotos": 265,
    "critica": "La comparación con XCOM aparece en todas las reseñas, y el veredicto es que aguanta: un juego de tácticas por turnos hecho en serio, no una licencia pegada encima de un género. Lo más elogiado, sin embargo, es lo que menos se esperaba: la historia. Un escuadrón sin usuarios de la Fuerza, personajes que caen bien y una puesta cinematográfica que varios comparan con Andor y Rogue One. Los reparos son parejos y ninguno es de fondo: arranca lento, tiene problemas técnicos —sobre todo en PC— y no reinventa el género. La reseña más dura le critica lo contrario que el resto: que el envoltorio Star Wars es lo menos inspirado del juego.",
    "imagen": "https://cdn2.steamgriddb.com/grid/75d8e84292296f1d00ba61471c8a7e5d.png",
    "gamepass": false,
@@ -4465,7 +4511,7 @@
    },
    "metacritic": 83,
    "metacriticUsuarios": 8.3,
-   "metacriticVotos": 1050,
+   "metacriticVotos": 1052,
    "imagen": "https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png",
    "critica": "Más de treinta reseñas y un acuerdo raro de ver en un debut: Rebel Wolves —armado por gente que hizo The Witcher 3— salió bien parado. Lo que más se elogia es lo que lo hace distinto: el reloj de treinta días que corre mientras jugás, la doble condición de humano de día y vampiro de noche, y decisiones que tienen consecuencias de verdad. También la escritura y los personajes. El reparo que más se repite es de dónde viene: toma mucho de The Witcher 3 y el mundo abierto se siente de fórmula, con misiones secundarias que se parecen entre sí. Se le marcan además animaciones faciales duras y un combate que a la larga se vuelve repetitivo.",
    "gamepass": false,
@@ -4929,8 +4975,8 @@
     "canalUrl": "https://www.youtube.com/@l0k0hgaming"
    },
    "metacritic": 77,
-   "metacriticUsuarios": 6.4,
-   "metacriticVotos": 2438,
+   "metacriticUsuarios": 6.3,
+   "metacriticVotos": 2539,
    "critica": "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
    "gamepass": false,
@@ -5013,6 +5059,57 @@
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/destroy-all-humans-2-reprobed"
+  },
+  {
+   "id": "the-posthumous-investigation",
+   "titulo": "THE POSTHUMOUS INVESTIGATION",
+   "relanzamiento": "En PC desde marzo de 2026 — esta fecha corresponde a la edición de Switch",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "MOTHER GAIA STUDIO",
+   "descripcion": "Un misterio con bucle temporal en el Río de Janeiro de 1937, basado en la obra de Machado de Assis: hay que resolver el asesinato de Brás Cubas en un solo día que se repite. Se aprenden las rutinas de catorce personajes, se buscan sus contradicciones y se conectan pruebas en un tablero, sin que el juego diga cuál es la respuesta.",
+   "trailer": "https://youtube.com/embed/X_HB--abl7Q",
+   "metacritic": 77,
+   "metacriticUsuarios": 8.3,
+   "metacriticVotos": 12,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466900/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/the-posthumous-investigation"
+  },
+  {
+   "id": "fading-echo",
+   "titulo": "FADING ECHO",
+   "relanzamiento": "En PC desde julio de 2026 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG",
+    "INDIE"
+   ],
+   "desarrollador": "EMETERIA",
+   "descripcion": "Un RPG de acción donde el protagonista se transforma en una esfera de agua: surfea por cañerías, se mete por grietas y dispara olas y chorros cargados. El agua se mezcla con lava, residuos tóxicos y la corrupción que amenaza el mundo, y de esas reacciones en cadena sale el combate. Se pasa entre realidades distintas, cada una con sus propias reglas.",
+   "trailer": "https://youtube.com/embed/ziiNiQheYu8",
+   "metacritic": 76,
+   "metacriticUsuarios": 9.3,
+   "metacriticVotos": 9,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpgb.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/fading-echo"
   },
   {
    "id": "fire-emblem-fortunes-weave",
@@ -5179,6 +5276,73 @@
    "url": "https://lanzamientos.lat/juegos/lets-sing-abba"
   },
   {
+   "id": "hope-in-the-city",
+   "titulo": "HOPE IN THE CITY",
+   "fecha": "2026-11-10",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "LOFTY SKY ENTERTAINMENT",
+   "descripcion": "Un misterio narrativo en la ciudad china de Shenyang. Hope Song, de 17 años, vuelve del colegio y encuentra la casa revuelta y a sus padres desaparecidos, sin una nota. Con su mirada de artista junta pistas y destapa lo que se esconde debajo de la calma de su ciudad, en una investigación que no sigue un camino fijo. Lo hace el equipo de Sky of Tides y Eternal Spring.",
+   "trailer": "https://youtube.com/embed/aeSj0-tQqxY",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9y32.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/hope-in-the-city"
+  },
+  {
+   "id": "sonic-pico-park",
+   "titulo": "SONIC PICO PARK",
+   "fecha": "2026-11-11",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "PUZZLE",
+    "PLATAFORMA",
+    "COOP",
+    "CASUAL"
+   ],
+   "desarrollador": "TECOPARK",
+   "descripcion": "PICO PARK, la saga de puzles cooperativos en 2D, se cruza con Sonic. La regla es simple, llegar a la meta, pero ningún nivel se pasa sin coordinarse con los demás. Todos los personajes pueden hacer el giro de Sonic y aparecen mecánicas de sus juegos. Se juega de dos a ocho, en local u online.",
+   "trailer": "https://youtube.com/embed/RFg-S2seDqU",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocowo.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/sonic-pico-park"
+  },
+  {
+   "id": "prinny-party-going-overboard",
+   "titulo": "PRINNY PARTY: GOING OVERBOARD!",
+   "fecha": "2026-11-11",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "CASUAL",
+    "TABLERO",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "NIPPON ICHI SOFTWARE",
+   "descripcion": "Un juego de tablero con los Prinny de Disgaea. Se avanza por el tablero juntando experiencia y equipo para derrotar al Supremo Overboard, pero el mérito se lo lleva sólo quien entrega al jefe, así que la cooperación dura poco: se vale agarrar y tirar a los amigos. Si mueren todos a la vez, pierden todos.",
+   "trailer": "https://youtube.com/embed/XinU3Iy6lek",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocje8.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard"
+  },
+  {
    "id": "moomin-midsummer-madness",
    "titulo": "MOOMIN: MIDSUMMER MADNESS",
    "fecha": "2026-11-12",
@@ -5221,6 +5385,30 @@
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355110/a46c5dfbdf4fcb0b8f2a5e6c0bcca051f8fe8a3f/header.jpg",
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure"
+  },
+  {
+   "id": "kingdom-of-night",
+   "titulo": "KINGDOM OF NIGHT",
+   "relanzamiento": "En PC desde diciembre de 2025",
+   "fecha": "2026-11-05",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "RETRO",
+    "INDIE"
+   ],
+   "desarrollador": "FRIENDS OF SAFETY",
+   "descripcion": "Un RPG de acción en un pueblo de Arizona en 1987, la noche en que una secta invoca por accidente a Baphomet. John sale a pelear contra la invasión demoníaca y a rescatar a sus amigos, y la aventura avanza hora por hora durante lo que puede ser la última noche del mundo, entre demonios, vecinos poseídos y matones del colegio.",
+   "trailer": "https://youtube.com/embed/bFVWYd68J5Q",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1094600/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/kingdom-of-night"
   },
   {
    "id": "edge-of-memories",
@@ -5904,8 +6092,8 @@
    "descripcion": "La entrega anual de la NBA vuelve con Mi CARRERA, MyTEAM y Mi NBA como pilares. Victor Wembanyama ocupa la portada estándar, Caitlin Clark la deluxe y Derrick Rose la ultra. Es la primera edición de la serie que deja atrás PS4 y Xbox One.",
    "trailer": "https://youtube.com/embed/x3VbMlmerXg",
    "metacritic": 77,
-   "metacriticUsuarios": 4.6,
-   "metacriticVotos": 32,
+   "metacriticUsuarios": 4.5,
+   "metacriticVotos": 33,
    "imagen": "https://cdn2.steamgriddb.com/grid/41f111384c98a213f4b187cf3e952245.png",
    "critica": "Nueve reseñas con un patrón que se repite hace años: la cancha bien, lo de afuera no. Se elogia parejo el salto en la defensa, las animaciones más dinámicas y la app NBA 2K HQ para manejar el MyPLAYER. El reproche es unánime y no es sobre básquet — las microtransacciones. Varias reseñas lo dicen sin vueltas: el juego en la cancha es de los mejores de los últimos años y todo lo que pasa cuando dejás de jugar lo empuja para abajo. También se le marca que los modelos no siempre distinguen los físicos de los jugadores.",
    "gamepass": false,
@@ -6124,6 +6312,29 @@
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/qliphah-in-providences-shadow"
+  },
+  {
+   "id": "agefield-high-rock-the-school",
+   "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
+   "relanzamiento": "En PC desde agosto de 2026",
+   "fecha": "2026-09-25",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "REFUGIUM GAMES",
+   "descripcion": "Una aventura de secundaria a principios de los 2000. Sam es el nuevo del colegio de Agefield y le quedan tres meses de clases: hay horarios que cumplir, pero también amigos con los que armar lío, rateadas y una chica a la que conquistar, en un pueblo chico que se recorre libremente.",
+   "trailer": "https://youtube.com/embed/7OU1g4j-ap8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3562580/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/agefield-high-rock-the-school"
   },
   {
    "id": "ea-sports-fc-27",
@@ -6617,6 +6828,29 @@
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/octopath-traveler-i-ii-bundle"
+  },
+  {
+   "id": "agefield-high-rock-the-school-xbox",
+   "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
+   "relanzamiento": "En PC desde agosto de 2026 y en PS5 desde el 25 de septiembre — esta fecha corresponde a la edición de Xbox",
+   "fecha": "2026-10-02",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "REFUGIUM GAMES",
+   "descripcion": "La edición de Xbox llega una semana después que la de PS5, con el mismo juego: los últimos tres meses de secundaria de Sam en el Agefield de principios de los 2000, repartidos entre clases obligatorias, travesuras con los amigos y un pueblo para recorrer.",
+   "trailer": "https://youtube.com/embed/7OU1g4j-ap8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3562580/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/agefield-high-rock-the-school-xbox"
   },
   {
    "id": "ace-combat-8-wings-of-theve",
@@ -7631,6 +7865,28 @@
    ]
   },
   {
+   "id": "road-kings",
+   "titulo": "ROAD KINGS",
+   "fecha": "2027-03-11",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "CARRERAS"
+   ],
+   "desarrollador": "SABER INTERACTIVE",
+   "descripcion": "Un simulador de camiones de 40 toneladas por la costa sur de Estados Unidos, de Jacksonville a Savannah. Se toman encargos, se eligen remolques y rutas, y se lidia con el clima y caminos peligrosos para pasar de novato a transportista con empresa propia. El peso, el desgaste y los frenos cuentan.",
+   "trailer": "https://youtube.com/embed/PoYMFv8V1ag",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaaxo.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/road-kings"
+  },
+  {
    "id": "007-first-light",
    "titulo": "007 FIRST LIGHT",
    "fecha": "2027-03-31",
@@ -7872,6 +8128,29 @@
    "psplus": false,
    "alta": "2026-07-27",
    "url": "https://lanzamientos.lat/juegos/dayz-badlands"
+  },
+  {
+   "id": "rangers-path-national-park-simulator",
+   "titulo": "RANGER'S PATH: NATIONAL PARK SIMULATOR",
+   "relanzamiento": "En PC, en acceso anticipado, desde marzo de 2026",
+   "fecha": "2026-11-17",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "AVENTURA"
+   ],
+   "desarrollador": "TO-GO GAMES",
+   "descripcion": "Un simulador de guardaparques en el Parque Nacional Faremont. Se mantienen senderos, se controlan permisos, se ayuda a los visitantes y se atienden emergencias, desde excursionistas perdidos hasta avisos por animales salvajes, en bosques, praderas y ríos que se recorren con los vehículos del parque.",
+   "trailer": "https://youtube.com/embed/psdgBxit-Ak",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coafye.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/rangers-path-national-park-simulator"
   },
   {
    "id": "grand-theft-auto-vi",
@@ -8684,6 +8963,27 @@
    "psplus": false,
    "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/attack-on-titan-3"
+  },
+  {
+   "id": "9-rip-sequel",
+   "titulo": "9 R.I.P. SEQUEL",
+   "fecha": "2026-10-27",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "NOVELA VISUAL",
+    "ANIME"
+   ],
+   "desarrollador": "IDEA FACTORY",
+   "descripcion": "La continuación de 9 R.I.P., la novela visual de Idea Factory, que retoma la historia y los personajes del primer juego.",
+   "trailer": "https://youtube.com/embed/HpjxMnOqI4U",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coab2m.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/9-rip-sequel"
   },
   {
    "id": "village-in-the-shade",
@@ -11201,6 +11501,96 @@
    "url": "https://lanzamientos.lat/juegos/stellar-blade-switch-2"
   },
   {
+   "id": "tankrat",
+   "titulo": "TANKRAT",
+   "fecha": "2027-01-15",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "SUPERVIVENCIA"
+   ],
+   "desarrollador": "ALPHA CHANNEL",
+   "descripcion": "Un juego de acción en un páramo lleno de monstruos mecánicos, después de una guerra que arrasó con todo. Se controla a Whitaker, una conciencia digital metida en un dron blindado que rescata y maneja tanques de una época perdida. Lo que se desarma de los enemigos se usa para reconstruirse, con la meta de llegar a Highpoint.",
+   "trailer": "https://youtube.com/embed/RtZDfIqxbYE",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cob0ej.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/tankrat"
+  },
+  {
+   "id": "stranger-than-heaven",
+   "titulo": "STRANGER THAN HEAVEN",
+   "fecha": "2027-01-15",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG"
+   ],
+   "desarrollador": "RGG STUDIO",
+   "descripcion": "Lo nuevo del estudio de Yakuza: una historia de cincuenta años sobre gente que no tiene adónde ir. Arranca en San Francisco en 1915, cuando Makoto Daito, hijo de padre estadounidense y madre japonesa, se sube de polizón a un barco para viajar a la tierra de su madre, y recorre cinco épocas y cinco ciudades con combate cuerpo a cuerpo.",
+   "trailer": "https://youtube.com/embed/avpTgTNadh4",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobu6l.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/stranger-than-heaven"
+  },
+  {
+   "id": "wandering-sword",
+   "titulo": "WANDERING SWORD",
+   "relanzamiento": "En PC desde septiembre de 2023 — esta fecha corresponde a la edición de PS5",
+   "fecha": "2027-01-21",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "RETRO",
+    "INDIE"
+   ],
+   "desarrollador": "THE SWORDMAN STUDIO",
+   "descripcion": "Un RPG de artes marciales chinas, del género wuxia, con personajes en pixel art sobre escenarios en 3D. Un joven envenenado por quedar en medio de la pelea entre dos sectas sale a aprender artes marciales, en un recorrido por más de setenta lugares de la China antigua.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876890/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/wandering-sword"
+  },
+  {
+   "id": "tropico-7",
+   "titulo": "TROPICO 7",
+   "fecha": "2027-01-28",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "SIMULACION"
+   ],
+   "desarrollador": "GAMING MINDS STUDIOS",
+   "descripcion": "La vuelta de El Presidente, el dictador con humor de la saga Tropico. Se construye una nación en un archipiélago, se la lleva a través de los siglos y esta vez se puede, literalmente, mover montañas, sin olvidarse de la cuenta en Suiza.",
+   "trailer": "https://youtube.com/embed/6KXyO3uaFRk",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coab61.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/tropico-7"
+  },
+  {
    "id": "metroid-ravenous",
    "titulo": "METROID RAVENOUS",
    "fecha": "2027-01-28",
@@ -11243,6 +11633,27 @@
    "psplus": false,
    "alta": "2026-09-09",
    "url": "https://lanzamientos.lat/juegos/tomb-raider-legacy-of-atlantis"
+  },
+  {
+   "id": "god-of-war-laufey",
+   "titulo": "GOD OF WAR: LAUFEY",
+   "fecha": "2027-02-16",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA"
+   ],
+   "desarrollador": "SANTA MONICA STUDIO",
+   "descripcion": "Un God of War protagonizado por Laufey, conocida como Faye, la madre de Atreus y esposa de Kratos. Después de su muerte despierta en un más allá desconocido y recorre el Everywhen para proteger a los dos.",
+   "trailer": "https://youtube.com/embed/HLMX2w3cwuE",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5rc.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/god-of-war-laufey"
   },
   {
    "id": "romancing-saga-3-destinies-united",
@@ -11291,6 +11702,52 @@
    "psplus": false,
    "alta": "2026-09-09",
    "url": "https://lanzamientos.lat/juegos/yu-gi-oh-tag-force-gx"
+  },
+  {
+   "id": "persona-4-revival",
+   "titulo": "PERSONA 4 REVIVAL",
+   "fecha": "2027-02-18",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "ANIME"
+   ],
+   "desarrollador": "ATLUS",
+   "descripcion": "La remake completa de Persona 4. En Inaba, un pueblo tranquilo de Japón, aparecen cadáveres después de que en las noches de lluvia se emite un programa misterioso, el Canal de Medianoche. Un grupo de estudiantes investiga los crímenes mientras vive su año escolar.",
+   "trailer": "https://youtube.com/embed/ggL7FAdUGJg",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7iu.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/persona-4-revival"
+  },
+  {
+   "id": "fable",
+   "titulo": "FABLE",
+   "fecha": "2027-02-23",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "ACCION",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "PLAYGROUND GAMES",
+   "descripcion": "El regreso de Fable, con un nuevo comienzo a cargo de Playground Games, los de Forza Horizon. Un RPG de acción en un mundo abierto de Albión donde cada decisión cambia el recorrido y la reputación lo es todo, con el humor negro de siempre y ningún final feliz garantizado.",
+   "trailer": "https://youtube.com/embed/3iW1i78zFvk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2769570/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/fable"
   },
   {
    "id": "hyrule-warriors-age-of-calamity-definitive-edition",

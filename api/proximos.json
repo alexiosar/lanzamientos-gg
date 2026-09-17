@@ -2,13 +2,64 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-17T14:20:19+00:00",
+ "generado": "2026-09-17T15:33:21+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-17",
  "hasta": "2026-10-17",
- "total": 101,
+ "total": 107,
  "juegos": [
+  {
+   "id": "the-posthumous-investigation",
+   "titulo": "THE POSTHUMOUS INVESTIGATION",
+   "relanzamiento": "En PC desde marzo de 2026 — esta fecha corresponde a la edición de Switch",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "MOTHER GAIA STUDIO",
+   "descripcion": "Un misterio con bucle temporal en el Río de Janeiro de 1937, basado en la obra de Machado de Assis: hay que resolver el asesinato de Brás Cubas en un solo día que se repite. Se aprenden las rutinas de catorce personajes, se buscan sus contradicciones y se conectan pruebas en un tablero, sin que el juego diga cuál es la respuesta.",
+   "trailer": "https://youtube.com/embed/X_HB--abl7Q",
+   "metacritic": 77,
+   "metacriticUsuarios": 8.3,
+   "metacriticVotos": 12,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466900/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/the-posthumous-investigation"
+  },
+  {
+   "id": "fading-echo",
+   "titulo": "FADING ECHO",
+   "relanzamiento": "En PC desde julio de 2026 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-09-17",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG",
+    "INDIE"
+   ],
+   "desarrollador": "EMETERIA",
+   "descripcion": "Un RPG de acción donde el protagonista se transforma en una esfera de agua: surfea por cañerías, se mete por grietas y dispara olas y chorros cargados. El agua se mezcla con lava, residuos tóxicos y la corrupción que amenaza el mundo, y de esas reacciones en cadena sale el combate. Se pasa entre realidades distintas, cada una con sus propias reglas.",
+   "trailer": "https://youtube.com/embed/ziiNiQheYu8",
+   "metacritic": 76,
+   "metacriticUsuarios": 9.3,
+   "metacriticVotos": 9,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpgb.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/fading-echo"
+  },
   {
    "id": "fire-emblem-fortunes-weave",
    "titulo": "FIRE EMBLEM: FORTUNE'S WEAVE",
@@ -972,6 +1023,29 @@
    "url": "https://lanzamientos.lat/juegos/qliphah-in-providences-shadow"
   },
   {
+   "id": "agefield-high-rock-the-school",
+   "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
+   "relanzamiento": "En PC desde agosto de 2026",
+   "fecha": "2026-09-25",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "REFUGIUM GAMES",
+   "descripcion": "Una aventura de secundaria a principios de los 2000. Sam es el nuevo del colegio de Agefield y le quedan tres meses de clases: hay horarios que cumplir, pero también amigos con los que armar lío, rateadas y una chica a la que conquistar, en un pueblo chico que se recorre libremente.",
+   "trailer": "https://youtube.com/embed/7OU1g4j-ap8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3562580/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/agefield-high-rock-the-school"
+  },
+  {
    "id": "ea-sports-fc-27",
    "titulo": "EA SPORTS FC 27",
    "fecha": "2026-09-25",
@@ -1416,6 +1490,29 @@
    "psplus": false,
    "alta": "2026-09-11",
    "url": "https://lanzamientos.lat/juegos/moros-protocol"
+  },
+  {
+   "id": "agefield-high-rock-the-school-xbox",
+   "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
+   "relanzamiento": "En PC desde agosto de 2026 y en PS5 desde el 25 de septiembre — esta fecha corresponde a la edición de Xbox",
+   "fecha": "2026-10-02",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "REFUGIUM GAMES",
+   "descripcion": "La edición de Xbox llega una semana después que la de PS5, con el mismo juego: los últimos tres meses de secundaria de Sam en el Agefield de principios de los 2000, repartidos entre clases obligatorias, travesuras con los amigos y un pueblo para recorrer.",
+   "trailer": "https://youtube.com/embed/7OU1g4j-ap8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3562580/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/agefield-high-rock-the-school-xbox"
   },
   {
    "id": "ace-combat-8-wings-of-theve",
@@ -2094,6 +2191,29 @@
    "url": "https://lanzamientos.lat/juegos/deep-dish-dungeon"
   },
   {
+   "id": "warhammer-40000-boltgun-2",
+   "titulo": "WARHAMMER 40,000: BOLTGUN 2",
+   "fecha": "2026-10-14",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "ACCION",
+    "RETRO"
+   ],
+   "desarrollador": "AUROCH DIGITAL",
+   "descripcion": "La secuela del shooter retro de Warhammer 40,000, con la estética de los FPS de los noventa. Esta vez hay dos personajes para elegir, cada uno con sus armas y su forma de jugar: Malum Caedo, el marine de la primera parte, o Nyra Veyrath, una hermana de batalla más ágil. La campaña tiene caminos que se ramifican.",
+   "trailer": "https://youtube.com/embed/Qkg4CpTRugE",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9uam.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/warhammer-40000-boltgun-2"
+  },
+  {
    "id": "ratatan",
    "titulo": "RATATAN",
    "fecha": "2026-10-14",
@@ -2150,6 +2270,29 @@
      "texto": "Estaba anunciado para el 20 de agosto y se movió al 14 de octubre. Sale en PS5, Xbox Series, Switch 2, Switch y PC, con ediciones físicas para PS5, Switch 2 y Switch que incluyen un libro de recetas digital si se compran temprano."
     }
    ]
+  },
+  {
+   "id": "chained-beasts",
+   "titulo": "CHAINED BEASTS",
+   "fecha": "2026-10-15",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "FEATHERWEIGHT GAMES",
+   "descripcion": "Un roguelite cooperativo de gladiadores para uno a cuatro jugadores, con la vuelta de que todos están encadenados entre sí. Se pelea en el Coliseo usando el escenario, de pinchos a pozos con serpientes, y se tiran armas, urnas y enemigos. Las heridas cambian cómo se juega, y hay que ganarse al público para conseguir la libertad.",
+   "trailer": "https://youtube.com/embed/J5KKhsI1QL8",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coad6n.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/chained-beasts"
   },
   {
    "id": "the-jackbox-party-pack-12",

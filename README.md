@@ -95,6 +95,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
 ├── scripts/buscar-eshop.py     Consulta la eShop: por nombre o todo lo que sale en un rango de fechas
 ├── scripts/buscar-youtube.py   Busca videos, verifica ids con oEmbed y lista lo último de un canal
+├── scripts/buscar-xbox.py      Consulta el catálogo de Xbox por API: existencia y fecha
 ├── scripts/verificar-enlaces.py  Chequea que las carátulas y trailers cargados sigan vivos
 ├── scripts/verificar-duplicados.py  Juegos cargados dos veces con id distinto
 ├── scripts/verificar-estimados.py  Fechas estimadas vencidas (corre en la diaria)
@@ -1409,7 +1410,12 @@ en este archivo y en la sección "Fuentes de datos habituales".
       español, géneros y desarrollador. Su campo `type` es el que separa un juego de una
       expansión.
 
-   3. **PS Store y Xbox al final, de a uno.** Sus buscadores se arman con JavaScript, así
+   3. **Xbox tiene API, y responde sin navegador** (desde el 17/09/2026):
+      `python3 scripts/buscar-xbox.py "Nombre"`. Devuelve la fecha del catálogo de Microsoft;
+      `9998-12-30` significa "sin día". El 17/09 resolvió en un minuto veinte juegos que antes
+      había que abrir de a uno.
+
+   4. **PS Store al final, de a uno.** Sus buscadores se arman con JavaScript, así
       que hay que **navegar de verdad** a cada búsqueda: pedir la página con `fetch` devuelve
       una cáscara vacía y parece que el juego no existe. En la PS Store el estado "Announced"
       con fecha ya es confirmación suficiente.
@@ -1613,6 +1619,27 @@ categoría `SUSCRIPCIONES`.
    el 15 de octubre, pero Nintendo lo vende como producto de **Switch 2** y con fecha del
    **14**. Quedó corregido. El barrido no lo marcó porque sólo compara plataformas que sobran,
    nunca las que están de más en el calendario.
+   **Barrido del 17/09/2026.** releases.com ya **carga todo en una sola página**: con el panel
+   a 1280×1600 y scroll hasta el fondo, una visita devolvió 813 entradas desde el 15 de
+   septiembre hasta 2030, así que no hace falta recorrer semana por semana. Cruzado contra
+   `api/juegos.json` dio 181 "faltantes", de los que la gran mayoría eran de PC, sin fecha
+   ("Estimated 2026") o títulos que ya teníamos en español.
+
+   **Se cargaron 20**, todos verificados en tienda: God of War: Laufey, Fable, Persona 4
+   Revival, Stranger than Heaven, Warhammer 40,000: Boltgun 2, Tropico 7, Road Kings, TankRat,
+   Wandering Sword, Sonic Pico Park, Prinny Party, Ranger's Path, Kingdom of Night, Chained
+   Beasts, Agefield High (dos entradas, PS5 y Xbox), 9 R.I.P. sequel, Fading Echo, The
+   Posthumous Investigation y Hope in the City. **Faltaban juegos grandes de 2027** porque ese
+   año se cargó desde el Direct y los estimados, nunca con un barrido completo.
+
+   **Dos problemas encontrados por `verificar-lanzados.py`, sin resolver:**
+   - **Steins;Gate Re:Boot figura salido en Xbox el 20/08**, pero la tienda de Xbox no lo
+     tiene con ningún nombre, y Steam lo da como lanzado en PC el 19/08. Todo indica que ese
+     día salió sólo en PC, que por la regla de siempre no entra.
+   - **Disney Dreamlight Valley: Honeyglow Woods es un pack de expansión**, como dice su propia
+     descripción. Xbox lo vende también como "Edición Honeyglow Woods", el juego base con el
+     pack, pero lo que salió el 08/07 es contenido nuevo para un juego de 2022. Por la regla
+     del DLC no debería estar.
 6. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
 7. **Backlog de carátulas y trailers:** reintentar los que `actualizar.py` lista bajo
    "Faltantes". Suelen ser juegos que todavía no tenían ficha en Steam ni en la eShop cuando
@@ -1751,7 +1778,13 @@ y abrir http://localhost:8080
   | Terranigma | 14 de enero de 2027 en PS5, Xbox, Switch 2 y Switch (Gematsu, 16/09) | La PS Store dice "por determinar", Xbox lo lista sin fecha, Steam dice "próximamente" y la eShop no lo tiene |
   | Kernel Hearts (PS5 y Switch 2) | Anunciado para las dos | **Ya está cargado**, pero sólo en Xbox: Xbox confirmó el 17/09 con Game Pass. Ni la PS Store ni la eShop lo listan. Cuando aparezcan, van como entrada nueva con `relanzamiento` si la fecha es otra |
   | Earth Defense Force 6 (Switch 2) | 28 de enero de 2027 (Gematsu, 17/09) | Ni la eShop europea ni la de EE.UU. lo listan |
-  | Hope in the City | 10 de noviembre en Xbox (Gematsu, 17/09) | La tienda de Xbox tiene la ficha pero sin fecha, y Steam dice "por confirmarse" |
+  | Sandwalkers | 24 de septiembre (releases.com) | La PS Store lo tiene con ese día pero no dice si es PS5 o PS4, y ni Xbox ni la eShop lo listan |
+  | Ananta | 15 de enero de 2027 (releases.com) | La PS Store lo tiene para PS5 pero sin fecha |
+  | Just Dance: Decades of Hits | 13 de octubre (releases.com) | Xbox lo lista sin día, la PS Store y la eShop no lo tienen |
+  | Colorbound | 12 de octubre (releases.com) | No está en la PS Store ni en Xbox |
+  | Fading Echo (PS5 y Xbox) | 22 de septiembre (releases.com) | **Ya está cargado en Switch 2.** La PS Store y Xbox lo listan sin fecha. Cuando la tengan, va como entrada nueva con `relanzamiento` |
+  | Prinny Party: Going Overboard! (Switch y Switch 2) | 11 de noviembre | **Ya está cargado en PS5.** NIS America lo anuncia para Nintendo, pero la eShop no lo lista |
+  | Persona 4 Revival (Switch 2) | 20 de mayo de 2027 (Nintendo Direct) | **Ya está cargado en PS5 y Xbox.** Mayo de 2027 todavía no es un mes del calendario |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 
   Los dos Yomawari, cuando entren, van con `relanzamiento`: son juegos de 2018 y 2022 que
