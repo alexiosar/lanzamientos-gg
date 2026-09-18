@@ -2,515 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-17T16:29:30+00:00",
+ "generado": "2026-09-18T13:16:40+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-17",
- "hasta": "2026-10-17",
- "total": 107,
+ "desde": "2026-09-18",
+ "hasta": "2026-10-18",
+ "total": 89,
  "juegos": [
-  {
-   "id": "the-posthumous-investigation",
-   "titulo": "THE POSTHUMOUS INVESTIGATION",
-   "relanzamiento": "En PC desde marzo de 2026 — esta fecha corresponde a la edición de Switch",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "PUZZLE",
-    "INDIE"
-   ],
-   "desarrollador": "MOTHER GAIA STUDIO",
-   "descripcion": "Un misterio con bucle temporal en el Río de Janeiro de 1937, basado en la obra de Machado de Assis: hay que resolver el asesinato de Brás Cubas en un solo día que se repite. Se aprenden las rutinas de catorce personajes, se buscan sus contradicciones y se conectan pruebas en un tablero, sin que el juego diga cuál es la respuesta.",
-   "trailer": "https://youtube.com/embed/X_HB--abl7Q",
-   "metacritic": 77,
-   "metacriticUsuarios": 8.3,
-   "metacriticVotos": 12,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466900/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/the-posthumous-investigation"
-  },
-  {
-   "id": "fading-echo",
-   "titulo": "FADING ECHO",
-   "relanzamiento": "En PC desde julio de 2026 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "RPG",
-    "INDIE"
-   ],
-   "desarrollador": "EMETERIA",
-   "descripcion": "Un RPG de acción donde el protagonista se transforma en una esfera de agua: surfea por cañerías, se mete por grietas y dispara olas y chorros cargados. El agua se mezcla con lava, residuos tóxicos y la corrupción que amenaza el mundo, y de esas reacciones en cadena sale el combate. Se pasa entre realidades distintas, cada una con sus propias reglas.",
-   "trailer": "https://youtube.com/embed/ziiNiQheYu8",
-   "metacritic": 76,
-   "metacriticUsuarios": 9.3,
-   "metacriticVotos": 9,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpgb.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/fading-echo"
-  },
-  {
-   "id": "fire-emblem-fortunes-weave",
-   "titulo": "FIRE EMBLEM: FORTUNE'S WEAVE",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ESTRATEGIA",
-    "RPG",
-    "POR TURNOS"
-   ],
-   "desarrollador": "INTELLIGENT SYSTEMS",
-   "descripcion": "La nueva entrega de la legendaria saga de estrategia táctica de Intelligent Systems, primera pensada para Switch 2: batallas por turnos en cuadrícula, unidades irremplazables y los vínculos entre personajes que definen a Fire Emblem.",
-   "trailer": "https://youtube.com/embed/Rl5_C4sc5zk",
-   "gameplay": {
-    "video": "https://youtube.com/embed/gNn_os8xaok",
-    "canal": "L0k0hGaming",
-    "canalUrl": "https://www.youtube.com/@l0k0hgaming"
-   },
-   "metacritic": 89,
-   "metacriticUsuarios": null,
-   "critica": "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/fire-emblem-fortunes-weave",
-   "noticias": [
-    {
-     "fecha": "2026-09-16",
-     "titulo": "LLEGA CON 89 Y SIN UNA SOLA RESEÑA NEGATIVA",
-     "texto": "Un día antes del estreno ya tiene 60 reseñas y un promedio de 89. Varias lo ponen entre lo mejor de la saga y lo recomiendan también como puerta de entrada para quien nunca jugó un Fire Emblem."
-    },
-    {
-     "fecha": "2026-08-04",
-     "titulo": "EL DIRECT DESTAPÓ QUIÉN ES EL PROTAGONISTA DE VERDAD",
-     "texto": "No es ninguno de los cuatro héroes que se muestran: es un personaje sin nombre que la diosa Sothis invoca cinco años en el futuro, con el mundo ya arrasado, y que vuelve al pasado para reunirlos. Se elige uno de los cuatro para empezar y después se puede saltar entre ellos para ver las historias en paralelo. El sistema de combate es el de Three Houses y suma las Blaze Arts, que se pagan con vida propia."
-    }
-   ]
-  },
-  {
-   "id": "trails-in-the-sky-2nd-chapter",
-   "titulo": "TRAILS IN THE SKY 2ND CHAPTER",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH",
-    "PS5"
-   ],
-   "genero": [
-    "RPG",
-    "POR TURNOS"
-   ],
-   "desarrollador": "NIHON FALCOM",
-   "descripcion": "El segundo capítulo de Trails in the Sky, de Nihon Falcom. Estelle Bright sale otra vez a recorrer Liberl para averiguar qué pasó con Joshua y enfrentar a la organización Uroboros.",
-   "trailer": "https://youtube.com/embed/4fEzsQ6Hv8Y",
-   "metacritic": 92,
-   "metacriticUsuarios": null,
-   "critica": "Las doce reseñas publicadas son positivas, y varias lo ponen como la entrega que define a toda la saga Trails. Coinciden en que la remake mejora lo que ya había hecho bien la del primer capítulo: combate por turnos más profundo, ritmo más ágil, escenas nuevas y actuación de voces, con una historia que cierra el arco de Estelle y Joshua con mucho peso. Lo que le marcan es poco: los primeros capítulos se hacen lentos, lo visual es modesto y juega a lo seguro.",
-   "imagen": "https://cdn2.steamgriddb.com/grid/44519406a3f5defa6dcf308d49beef43.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/trails-in-the-sky-2nd-chapter",
-   "noticias": [
-    {
-     "fecha": "2026-09-16",
-     "titulo": "DEBUTA CON 92 Y TODAS LAS RESEÑAS A FAVOR",
-     "texto": "Sale mañana con 92 de promedio sobre doce reseñas, todas positivas. La crítica lo trata como la versión definitiva del final del arco de Estelle y Joshua, y no le encuentra más que detalles: un arranque lento y gráficos sin lujos."
-    }
-   ]
-  },
-  {
-   "id": "another-eden-begins",
-   "titulo": "ANOTHER EDEN BEGINS",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "RPG",
-    "AVENTURA"
-   ],
-   "desarrollador": "WRIGHT FLYER STUDIOS",
-   "descripcion": "Embarcate en un RPG de viajes en el tiempo con batallas por comandos, de los creadores del aclamado Another Eden: una aventura completamente nueva pensada para consolas.",
-   "trailer": "https://youtube.com/embed/G41po-Mr2_I",
-   "metacritic": 73,
-   "critica": "Las reseñas lo reciben como la mejor forma de jugar Another Eden: es la versión sin conexión del juego para celulares, sin el sistema de pagos de gacha, con gráficos mejorados y voces en inglés. Le elogian el combate, con ataques encadenados y el sistema de Valor, los personajes y el estilo artístico, y una historia que avanza a toda velocidad. Los reparos: la primera mitad es más lenta que la segunda, y el diseño de los niveles todavía delata que viene del celular.",
-   "metacriticUsuarios": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/f7df4bd051a7facdd6018b29818d5b5c.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/another-eden-begins",
-   "noticias": [
-    {
-     "fecha": "2026-09-17",
-     "titulo": "DEBUT CON 73: EL RPG DE CELULAR SIN GACHA",
-     "texto": "Sale hoy con 73 sobre catorce reseñas. Todas coinciden en que es la versión definitiva de Another Eden, sin las compras del original para celulares, y le marcan que el arranque es lento."
-    }
-   ]
-  },
-  {
-   "id": "akiba-lost",
-   "titulo": "AKIBA LOST",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "PS5",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "ANIME"
-   ],
-   "desarrollador": "IZANAGIGAMES",
-   "descripcion": "Hace 13 años, seis chicas desaparecieron en Akihabara en el caso “El Viaje de Akiba”. Daiki Shinjo anuncia un juego live-action sobre el incidente, reuniendo a seis mujeres que representan la subcultura de Akihabara. Pero su historia empieza a filtrarse en la realidad. ¿Se completará AKIBA LOST?",
-   "trailer": "https://youtube.com/embed/6mKaqHQHpbA",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coajhs.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/akiba-lost",
-   "noticias": [
-    {
-     "fecha": "2026-08-20",
-     "titulo": "YA SE PUEDE PROBAR LA DEMO EN PS5",
-     "texto": "IzanagiGames publicó la demo en PS5, y el 26 de agosto llegan las de Switch 2 y Switch junto con las reservas digitales. Ojo con la fecha: el 26 es de la demo, el juego sale el 17 de septiembre. Se confirmó además que Tsukasa Masuko, de la saga Megami Tensei, trabajó en la banda sonora."
-    }
-   ]
-  },
-  {
-   "id": "shape-of-dreams",
-   "titulo": "SHAPE OF DREAMS",
-   "relanzamiento": "En PC desde septiembre de 2025",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "COOP",
-    "INDIE"
-   ],
-   "desarrollador": "LIZARD SMOOTHIE",
-   "descripcion": "Un roguelite de acción que mezcla hack and slash con el trabajo en equipo de un MOBA. Se esquivan oleadas de enemigos y se apuntan habilidades a mano por mundos que cambian en cada partida, de campos de lava a montañas nevadas. Cada viajero pelea distinto, y de a cuatro en cooperativo los estilos se combinan. Llega a consolas junto a la actualización Starless Path.",
-   "trailer": "https://youtube.com/embed/sUfcplBV6WU",
-   "metacritic": 84,
-   "metacriticUsuarios": 8.0,
-   "metacriticVotos": 23,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444750/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/shape-of-dreams"
-  },
-  {
-   "id": "sniper-dan",
-   "titulo": "SNIPER DAN",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "PUZZLE",
-    "CASUAL",
-    "INDIE"
-   ],
-   "desarrollador": "DENKI",
-   "descripcion": "Dan es el manitas del condado Torpeza y resuelve los problemas del vecindario con un rifle de francotirador. Es un juego de objetos ocultos en tres dimensiones: escaneás la escena, encontrás el desastre en curso y lo arreglás de un disparo. Nadie sale herido.",
-   "trailer": "https://youtube.com/embed/Lf4xbBrdTQY",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobfrv.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/sniper-dan"
-  },
-  {
-   "id": "artis-impact",
-   "titulo": "ARTIS IMPACT",
-   "fecha": "2026-09-17",
-   "relanzamiento": "En PC desde agosto de 2025 — esta fecha corresponde a la edición de Switch",
-   "duracion": "≈ 7,6 h (historia) · 23 h (completo)",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "RPG",
-    "POR TURNOS",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "MAS",
-   "descripcion": "Un JRPG en pixel art con combates clásicos por turnos donde acompañás a Akane y a Bot, su compañero de inteligencia artificial, mientras desentrañan los misterios de un mundo que parece haber olvidado su propia historia.",
-   "trailer": "https://youtube.com/embed/NorI-ReqhVE",
-   "metacritic": 72,
-   "metacriticUsuarios": 6.3,
-   "metacriticVotos": 11,
-   "critica": "Casi todas las reseñas cuentan lo mismo antes que nada: lo hizo una sola persona durante ocho años, y se nota para bien en el arte, que se lleva elogios enormes en cada nota. El desacuerdo es sobre si eso alcanza. El combate aparece descrito como flojo o desbalanceado en casi todas, y la traducción al inglés como pobre. Para las notas más altas es una odisea con corazón que vale por su mundo; para la más baja es una obra audiovisual preciosa que no logra contar bien lo que quiere contar.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1864000/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/artis-impact",
-   "noticias": [
-    {
-     "fecha": "2026-08-07",
-     "titulo": "PREMIADO EN BITSUMMIT Y EN LOS RPG MAKER AWARDS",
-     "texto": "Obra de Mas, un desarrollador malayo que trabaja solo. Antes de llegar a Switch se llevó el Vermilion Gate Award en el BitSummit PUNCH y el premio mayor de los RPG Maker Awards 2026. Lo publica Happinet, con edición física en Japón; los idiomas confirmados son inglés, japonés y chino."
-    }
-   ]
-  },
-  {
-   "id": "maestro",
-   "titulo": "MAESTRO",
-   "fecha": "2026-09-17",
-   "relanzamiento": "En realidad virtual desde octubre de 2024 — esta versión se juega con el movimiento de los Joy-Con",
-   "duracion": "≈ 2,5 h (historia) · 4,5 h (completo)",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "MUSICA",
-    "CASUAL",
-    "INDIE"
-   ],
-   "desarrollador": "DOUBLE JACK",
-   "descripcion": "Dirigís una orquesta sinfónica desde el podio de una ópera parisina: una mano lleva la batuta y marca el tempo, la otra da las entradas y maneja los matices. Más de treinta y cinco piezas entre clásicos del repertorio y bandas sonoras conocidas, sin necesidad de saber música.",
-   "trailer": "https://youtube.com/embed/SWgNeWbNkZ8",
-   "metacritic": 93,
-   "metacriticUsuarios": 9.3,
-   "metacriticVotos": 23,
-   "critica": "Las reseñas que existen son de la versión de realidad virtual de 2024, no de esta: hay que leerlas sabiendo eso. La prensa de VR lo trató como una rareza que salió bien, un juego de ritmo donde en vez de apretar botones se dirige una orquesta con las manos, y coincidió en dos cosas: que la detección de manos responde mejor de lo que el género acostumbra, y que es de los pocos juegos de ritmo accesibles para quien no sabe nada de música. Esta edición cambia las manos por el movimiento de los Joy-Con, así que lo que más se elogiaba es justo lo que habrá que ver.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701700/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/maestro",
-   "noticias": [
-    {
-     "fecha": "2026-07-31",
-     "titulo": "FUE EL JUEGO DEL AÑO DE META EN 2024",
-     "texto": "El original de realidad virtual se llevó el premio al Juego del Año de Meta en 2024 y promedia 93 en Metacritic. Trae más de treinta piezas que van de Beethoven y Vivaldi a Star Wars y Harry Potter. La versión de Switch cambia el seguimiento de manos por el movimiento de los Joy-Con."
-    }
-   ]
-  },
-  {
-   "id": "kernel-hearts",
-   "titulo": "KERNEL HEARTS",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG",
-    "ROGUELIKE",
-    "COOP",
-    "ANIME"
-   ],
-   "desarrollador": "EPHEMERA GAMES",
-   "descripcion": "Un RPG de acción roguelike cooperativo para hasta cuatro jugadoras: cuatro chicas mágicas se proponen salvar un mundo que se ahoga en cenizas, eliminando ángeles por el camino. Reunís aliadas, encadenás poderes y vas por Dios.",
-   "trailer": "https://youtube.com/embed/8mdQRFmarws",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/library_600x900.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/kernel-hearts",
-   "noticias": [
-    {
-     "fecha": "2026-09-15",
-     "titulo": "SALE EL 17 EN XBOX Y ENTRA A GAME PASS ESE MISMO DÍA",
-     "texto": "Xbox confirmó el 17 de septiembre para Xbox Series y PC, con Game Pass desde el primer día. Las versiones de PS5 y Switch 2 todavía no tienen fecha en sus tiendas."
-    }
-   ]
-  },
-  {
-   "id": "endless-legend-2",
-   "titulo": "ENDLESS LEGEND 2",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ESTRATEGIA",
-    "POR TURNOS",
-    "RPG"
-   ],
-   "desarrollador": "AMPLITUDE STUDIOS",
-   "descripcion": "Un juego de estrategia por turnos con facciones asimétricas encabezadas por héroes, en un planeta que cambia mientras se juega. Se levanta un imperio, se hace política y se arman ejércitos mientras se descubren los secretos del mundo.",
-   "trailer": "https://youtube.com/embed/hIdSmLT-9Vk",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407390/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/endless-legend-2"
-  },
-  {
-   "id": "mr-sleepy-man",
-   "titulo": "MR. SLEEPY MAN",
-   "relanzamiento": "En PC desde marzo de 2026",
-   "duracion": "≈ 6 h (historia) · 21 h (completo)",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH",
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE",
-    "CASUAL"
-   ],
-   "desarrollador": "DEVIN SANTI",
-   "descripcion": "Mr. Sleepy Man se pasó de la hora de dormir y anda desatado. Una aventura de patio de juegos donde el objetivo es hacer el mayor desastre posible y poner al pueblo entero en tu contra.",
-   "trailer": "https://youtube.com/embed/9RmMhWiXdV8",
-   "metacritic": 77,
-   "critica": "Pocas reseñas, y todas en la misma línea: un plataformas raro a propósito, pensado para quien extraña los juegos de Nintendo 64. Le celebran la personalidad y un mundo bizarro distinto a cualquier otro, donde se corre y se arma lío sin que nadie diga qué hacer. Ese es también el reparo: casi no da indicaciones, y jugado como un plataformas común confunde.",
-   "metacriticUsuarios": 8.4,
-   "metacriticVotos": 11,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1657740/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/mr-sleepy-man"
-  },
-  {
-   "id": "patlabor-the-case-files",
-   "titulo": "PATLABOR THE CASE FILES",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "ANIME",
-    "AVENTURA"
-   ],
-   "desarrollador": "CHIME",
-   "descripcion": "Un juego de acción en 3D que recorre escenas emblemáticas de Mobile Police Patlabor, alternando la perspectiva de los pilotos de robots y la de los policías a pie.",
-   "trailer": "https://youtube.com/embed/R_4kqMHnlrg",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobteq.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-17",
-   "url": "https://lanzamientos.lat/juegos/patlabor-the-case-files"
-  },
-  {
-   "id": "fountains",
-   "titulo": "FOUNTAINS",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "RPG"
-   ],
-   "desarrollador": "JOHN PYWELL",
-   "descripcion": "Un mundo antiguo e interconectado que se descubre peleando: el combate exige precisión y cada zona nueva se gana a pulso. Es la obra de un solo desarrollador, John Pywell, con años de trabajo encima.",
-   "trailer": "https://youtube.com/embed/IDxNTwxgt6I",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1841240/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-28",
-   "url": "https://lanzamientos.lat/juegos/fountains"
-  },
-  {
-   "id": "flamecraft",
-   "titulo": "FLAMECRAFT",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH",
-    "PS5"
-   ],
-   "genero": [
-    "TABLERO",
-    "ESTRATEGIA",
-    "CASUAL"
-   ],
-   "desarrollador": "MONSTER COUCH",
-   "descripcion": "La adaptación del juego de mesa de Manny Vega, para uno a cinco jugadores. Sos guardallamas y tenés que encontrarles el local ideal a los dragones artesanos, que encantan las tiendas del pueblo. Amable, corto y de reglas simples.",
-   "trailer": "https://youtube.com/embed/A0zHLHLjyRU",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9sh0.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-28",
-   "url": "https://lanzamientos.lat/juegos/flamecraft"
-  },
-  {
-   "id": "au-revoir",
-   "titulo": "AU REVOIR",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH",
-    "PS5"
-   ],
-   "genero": [
-    "AVENTURA",
-    "PUZZLE"
-   ],
-   "desarrollador": "INVISIBLE STUDIO",
-   "descripcion": "Año 2071: Tristan recupera conciencias humanas resolviendo puzles. Un mundo neón-noir de estética low poly noventosa, donde lo que se investiga en cada entorno cambia el final.",
-   "trailer": "https://youtube.com/embed/p7UqAQiqMII",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3079600/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-28",
-   "url": "https://lanzamientos.lat/juegos/au-revoir"
-  },
-  {
-   "id": "granblue-fantasy-versus-rising-switch-2",
-   "titulo": "GRANBLUE FANTASY VERSUS: RISING",
-   "relanzamiento": "En PS5, PS4 y PC desde diciembre de 2023 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-09-17",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "LUCHA",
-    "ACCION",
-    "ANIME",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "ARC SYSTEM WORKS",
-   "descripcion": "El juego de pelea de Granblue Fantasy hecho por Arc System Works, los de Guilty Gear, llega a Switch 2. Está pensado para entrar sin saber pelear: hay un esquema de controles simplificado que saca los especiales con un botón, y otro clásico para quien quiera la ejecución completa. Trae rollback y juego cruzado.",
-   "trailer": "https://youtube.com/embed/SbI26Ehde3g",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2157560/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-03",
-   "url": "https://lanzamientos.lat/juegos/granblue-fantasy-versus-rising-switch-2"
-  },
   {
    "id": "lego-batman-legacy-of-the-dark-knight",
    "titulo": "LEGO BATMAN: LEGACY OF THE DARK KNIGHT",
@@ -527,6 +25,8 @@
    "descripcion": "La aventura LEGO de Batman que salió en mayo en PS5, Xbox y PC llega a Switch 2. TT Games recorre las distintas épocas del personaje, de los cómics a las películas y las series, con una Gotham para explorar y un combate que toma mucho de los Batman: Arkham, sin perder el humor ni el cooperativo de la saga.",
    "trailer": "https://youtube.com/embed/DfJaUpW_P00",
    "metacritic": 83,
+   "metacriticUsuarios": 8.3,
+   "metacriticVotos": 696,
    "critica": "El puntaje es el de mayo en PS5, Xbox y PC, sobre 88 reseñas, y ninguna es negativa. La mayoría lo pone entre los mejores juegos LEGO, si no el mejor: una carta de amor a la historia de Batman llena de referencias a cómics, películas y series, con un combate que funciona como un Arkham simplificado y un equilibrio logrado entre chicos y fans grandes. Las reseñas más tibias dicen lo contrario de lo mismo: que por querer conformar a todos no termina de satisfacer a nadie, que juega a lo seguro y que algunos tramos de pelea se hacen aburridos.",
    "imagen": "https://cdn2.steamgriddb.com/grid/e154fe98c470195b99092d884dcf71f5.jpg",
    "gamepass": false,
@@ -558,14 +58,24 @@
     "INDIE"
    ],
    "desarrollador": "HYPER GAMES",
-   "descripcion": "De los creadores de Snufkin: La melodía del Valle de los Mumin, llega una conmovedora y nueva aventura inspirada en las queridas historias de los Mumin de Tove Jansson. Esta vez, acompañarás al mismísimo Mumintroll en una fascinante pero gélida aventura invernal.",
+   "descripcion": "Una aventura invernal con Mumintroll, basada en los libros de Tove Jansson, del mismo estudio que hizo Snufkin: La melodía del Valle de los Mumin. Mumintroll recorre un Valle de los Mumin nevado, un lado que las historias casi nunca muestran, ayudando a los vecinos, con un toque de exploración metroidvania.",
    "trailer": "https://youtube.com/embed/Hu3PZTQ09yk",
-   "metacritic": null,
+   "metacritic": 83,
+   "metacriticUsuarios": 8.0,
+   "metacriticVotos": 13,
+   "critica": "Muy bien recibido, con 22 reseñas. Las críticas destacan que es corto, dulce y precioso de ver, y que captura la doble cara de los Mumin: el encanto de ayudar a los vecinos y la melancolía de un invierno escandinavo solitario. Varias subrayan que el corazón del juego es la familia que Mumintroll va armando en el camino, y que los elementos de metroidvania están bien puestos. Es un juego tranquilo, sin mucho en juego, y así lo recomiendan.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/moomintroll-winters-warmth"
+   "url": "https://lanzamientos.lat/juegos/moomintroll-winters-warmth",
+   "noticias": [
+    {
+     "fecha": "2026-09-18",
+     "titulo": "DEBUT CON 83 EN METACRITIC",
+     "texto": "Sale hoy con 83 sobre 22 reseñas. La crítica lo recomienda como un juego tranquilo y precioso, que muestra un lado del Valle de los Mumin que los libros casi no cuentan: el invierno."
+    }
+   ]
   },
   {
    "id": "the-grinch-2-saving-christmas",
@@ -1626,7 +1136,14 @@
    "gamepass": true,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/gears-of-war-e-day"
+   "url": "https://lanzamientos.lat/juegos/gears-of-war-e-day",
+   "noticias": [
+    {
+     "fecha": "2026-09-17",
+     "titulo": "YA ESTÁ TERMINADO Y SE PUEDE PREINSTALAR DESDE EL 29",
+     "texto": "The Coalition anunció que el juego pasó a gold, es decir, que la versión de lanzamiento está cerrada. La preinstalación arranca el 29 de septiembre, el acceso anticipado de la edición Premium el 1 de octubre y el lanzamiento para todos el 6, también en Game Pass desde el primer día."
+    }
+   ]
   },
   {
    "id": "star-wars-galactic-racer",

@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 17 Sep 2026 16:29:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 13:16:40 +0000</lastBuildDate>
+    <item>
+      <title>MOOMINTROLL: WINTER'S WARMTH: DEBUT CON 83 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/moomintroll-winters-warmth</link>
+      <guid isPermaLink="false">moomintroll-winters-warmth-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Sale hoy con 83 sobre 22 reseñas. La crítica lo recomienda como un juego tranquilo y precioso, que muestra un lado del Valle de los Mumin que los libros casi no cuentan: el invierno. — MOOMINTROLL: WINTER'S WARMTH para PS5 / SWITCH / SWITCH 2.</description>
+    </item>
     <item>
       <title>ANOTHER EDEN BEGINS: DEBUT CON 73: EL RPG DE CELULAR SIN GACHA</title>
       <link>https://lanzamientos.lat/juegos/another-eden-begins</link>
@@ -20,6 +27,13 @@
       <guid isPermaLink="false">lego-batman-legacy-of-the-dark-knight-2026-09-17</guid>
       <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
       <description>La versión de Switch 2 sale mañana, cuatro meses después que en las otras consolas. En mayo la crítica lo recibió con 83 y varias reseñas lo nombraron el mejor juego LEGO hecho hasta ahora. — LEGO BATMAN: LEGACY OF THE DARK KNIGHT para SWITCH 2.</description>
+    </item>
+    <item>
+      <title>GEARS OF WAR: E-DAY: YA ESTÁ TERMINADO Y SE PUEDE PREINSTALAR DESDE EL 29</title>
+      <link>https://lanzamientos.lat/juegos/gears-of-war-e-day</link>
+      <guid isPermaLink="false">gears-of-war-e-day-2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+      <description>The Coalition anunció que el juego pasó a gold, es decir, que la versión de lanzamiento está cerrada. La preinstalación arranca el 29 de septiembre, el acceso anticipado de la edición Premium el 1 de octubre y el lanzamiento para todos el 6, también en Game Pass desde el primer día. — GEARS OF WAR: E-DAY para XBOX.</description>
     </item>
     <item>
       <title>BILL SKARSGÅRD SERÁ EL PROTAGONISTA DE PHYSINT</title>
@@ -288,20 +302,6 @@ Ese mismo día sale una Nintendo Switch 2 con diseño de la edición 40.º anive
       <guid isPermaLink="false">onimusha-way-of-the-sword-2026-09-07</guid>
       <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
       <description>Capcom informó que superó el millón de copias en su primer día. Para una saga que estuvo veinte años sin entregas nuevas, es la señal de que el regreso no era sólo nostalgia: la apuesta le salió. — ONIMUSHA: WAY OF THE SWORD para SWITCH 2 / PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>BIOEDEN: DEBUTA CON 65: BUENA IDEA, POCA VUELTA</title>
-      <link>https://lanzamientos.lat/juegos/bioeden</link>
-      <guid isPermaLink="false">bioeden-2026-09-07</guid>
-      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Es un 4X donde en lugar de conquistar se restaura un planeta. Las reseñas rescatan la idea y lo satisfactorio del bucle, y coinciden en el reparo: las campañas se repiten y las facciones se diferencian poco, así que no invita a jugarlo dos veces. — BIOEDEN para PS5 / XBOX / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>NBA 2K27: DEBUTA CON 76: LA CANCHA BIEN, LO DE AFUERA NO</title>
-      <link>https://lanzamientos.lat/juegos/nba-2k27</link>
-      <guid isPermaLink="false">nba-2k27-2026-09-07</guid>
-      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
-      <description>El acuerdo entre las nueve reseñas es que la defensa dio un salto y que las animaciones son más dinámicas. Y también que las microtransacciones siguen siendo el problema: varios medios dicen que el básquet es de los mejores en años y que todo lo que pasa fuera de la cancha lo arrastra. — NBA 2K27 para PS5 / XBOX / SWITCH 2.</description>
     </item>
   </channel>
 </rss>

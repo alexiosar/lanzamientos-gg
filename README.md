@@ -1779,6 +1779,8 @@ y abrir http://localhost:8080
   | Terranigma | 14 de enero de 2027 en PS5, Xbox, Switch 2 y Switch (Gematsu, 16/09) | La PS Store dice "por determinar", Xbox lo lista sin fecha, Steam dice "próximamente" y la eShop no lo tiene |
   | Kernel Hearts (PS5 y Switch 2) | Anunciado para las dos | **Ya está cargado**, pero sólo en Xbox: Xbox confirmó el 17/09 con Game Pass. Ni la PS Store ni la eShop lo listan. Cuando aparezcan, van como entrada nueva con `relanzamiento` si la fecha es otra |
   | Earth Defense Force 6 (Switch 2) | 28 de enero de 2027 (Gematsu, 17/09) | Ni la eShop europea ni la de EE.UU. lo listan |
+  | Kingdom of Night (PS5) | 5 de noviembre (Gematsu, 17/09) | **Ya está cargado en Xbox y Switch.** La PS Store no lo lista todavía |
+  | Tropico 7 (Switch 2) | Mismo día que PS5 y Xbox, 28 de enero de 2027 (Gematsu, 17/09) | **Ya está cargado en PS5 y Xbox.** Ni la eShop ni Nintendo US lo listan |
   | Sandwalkers | 24 de septiembre (releases.com) | La PS Store lo tiene con ese día pero no dice si es PS5 o PS4, y ni Xbox ni la eShop lo listan |
   | Ananta | 15 de enero de 2027 (releases.com) | La PS Store lo tiene para PS5 pero sin fecha |
   | Just Dance: Decades of Hits | 13 de octubre (releases.com) | Xbox lo lista sin día, la PS Store y la eShop no lo tienen |
