@@ -1461,10 +1461,17 @@ en este archivo y en la sección "Fuentes de datos habituales".
 
    **Sólo cubre Steam.** Los exclusivos de Nintendo y PlayStation quedan afuera y siguen
    dependiendo de las fuentes de arriba.
-3. `python3 scripts/post-diario.py` — imprime tres opciones de posteo para X y Bluesky
-   (lanzamientos del día, lo que viene en la semana, cuenta regresiva) con el conteo de
-   caracteres de cada red. No publica nada: se elige una, se copia y se pega. Correrlo
-   **después** de cargar las noticias, así el texto sale con los datos del día.
+3. `python3 scripts/post-diario.py` — imprime los textos para X y Bluesky con el conteo de
+   caracteres de cada red. No publica nada: se copia y se pega. Correrlo **después** de
+   cargar las noticias, así el texto sale con los datos del día.
+
+   **Son dos posteos por día desde el 18/09/2026.** El primero es informativo y se elige
+   entre A (lanzamientos del día), B (lo que viene en la semana) y C (cuenta regresiva). El
+   segundo es siempre la D, **"¿Lo vas a jugar?"**: invita a votar en la ficha de un juego que
+   sale en los próximos 30 días. Nació porque en la primera semana los votos casi no se
+   usaron: el botón está en la ficha, pero nadie llega a la ficha a votar si no se lo piden.
+   El juego rota por día y nunca repite el de la cuenta regresiva. Cuando junta 5 votos, el
+   posteo cita el porcentaje de "sí", que es lo que da ganas de entrar a ver el resto.
 4. Commit y deploy.
 
 **Mensual, además — suscripciones:**
@@ -1853,12 +1860,14 @@ y abrir http://localhost:8080
   lo que resolvió Train Sim World 7.
 
   **Repaso del 16/09/2026: de 11 sin trailer se cargaron 4**, todos de canales oficiales
-  (Nintendo of America, Wild River, ReRolled Studio y FWgames). Quedan 7:
+  (Nintendo of America, Wild River, ReRolled Studio y FWgames). De los 7 que quedaban:
   - **Down Pit, Monster Nursery y Tarot Tokens** tienen su trailer de la eShop, pero sólo
-    subido por *jimfish*, un canal que resube trailers de Nintendo. No se cargaron por la
-    regla de arriba: esos canales se caen con el primer reclamo. Tackorama, el estudio de dos
-    de ellos, no sube nada a YouTube desde hace años. Si en la mensual siguen sin video
-    oficial, es una decisión a tomar: un video que puede caerse o ninguno.
+    subido por *jimfish*, un canal que resube trailers de Nintendo. **Se cargaron el
+    18/09/2026** por decisión del usuario, como excepción a la regla de arriba: son juegos
+    baratos de la eShop cuyos estudios no suben nada a YouTube, así que la alternativa no era
+    un video oficial sino ninguno. El riesgo de que se caigan lo cubre `verificar-enlaces.py`
+    en la semanal. **La excepción vale sólo cuando el estudio y la editora no tienen canal**:
+    si hay trailer oficial, se usa el oficial.
   - **Power Racing Bundle 4, Rally & Hypercar Bundle, Screaming Halls: Horror y Rainbow
     Islands CS** no tienen ningún video en YouTube. Los tres primeros son de los baratos de la
     eShop, que casi nunca suben uno; Rainbow Islands CS es de Taito y puede aparecer cerca del

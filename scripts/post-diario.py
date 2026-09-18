@@ -9,12 +9,19 @@ Uso (desde la raíz del proyecto):
     python3 scripts/post-diario.py                 # el día de hoy
     python3 scripts/post-diario.py --fecha 2026-08-01
     python3 scripts/post-diario.py --regresiva grand-theft-auto-vi
+    python3 scripts/post-diario.py --votar fable
 
-Salen tres opciones y se elige la que mejor quede ese día:
-  A) los lanzamientos del día
-  B) lo que viene en los próximos 7 días
-  C) cuenta regresiva a un juego grande
+Son dos posteos por día (desde el 18/09/2026):
+  1. El informativo: se elige la que mejor quede entre
+     A) los lanzamientos del día
+     B) lo que viene en los próximos 7 días
+     C) cuenta regresiva a un juego grande
+  2. D) "¿Lo vas a jugar?": invita a votar en la ficha de un juego que sale pronto. Existe
+     para mover los votos, que casi nadie usaba, y de paso da un segundo posteo que no repite
+     el primero. Si el juego ya juntó 5 votos, el posteo cita el porcentaje de "sí".
 """
+import json
+import subprocess
 import argparse
 import datetime
 import sys
@@ -155,11 +162,52 @@ def opcion_regresiva(hoy, juegos, gid=None):
             "link": url(j)}
 
 
+def votos_de(gid):
+    """Los conteos reales del Worker de /votos. Si no responde, el posteo sale sin cifra."""
+    try:
+        salida = subprocess.run(["curl", "-s", "--max-time", "10", f"{SITIO}/votos/{gid}"],
+                                capture_output=True, text=True).stdout
+        datos = json.loads(salida)
+        return datos if isinstance(datos.get("total"), int) else None
+    except Exception:
+        return None
+
+
+def opcion_votar(hoy, juegos, gid=None, evitar=None):
+    """Un juego que sale en los próximos 30 días y tiene noticias cargadas, que es la señal
+    de que es de los que se esperan. Rota por día del año para no repetir, y evita el de la
+    cuenta regresiva para que los dos posteos del día no hablen de lo mismo."""
+    d0 = datetime.date(*map(int, hoy.split("-")))
+    fin = (d0 + datetime.timedelta(days=30)).isoformat()
+    if gid:
+        j = next((x for x in juegos if x["id"] == gid), None)
+        if not j:
+            print(f"  (no existe ningún juego con id '{gid}')")
+            return None
+    else:
+        cand = sorted((x for x in juegos
+                       if not x.get("estimado") and hoy < x["fecha"] <= fin
+                       and x.get("noticias") and x["id"] != evitar),
+                      key=lambda x: (x["fecha"], x["id"]))
+        if not cand:
+            return None
+        j = cand[d0.toordinal() % len(cand)]
+    cuerpo = (f"🗳️ ¿Vas a jugar {titulo(j)}?\n\n"
+              f"Sale el {fecha_larga(j['fecha'])} en {plats(j)}. "
+              f"En su ficha podés votar sí, tal vez o no.")
+    v = votos_de(j["id"])
+    if v and v["total"] >= 5:
+        cuerpo += f"\n\nPor ahora, el {round(v['si'] * 100 / v['total'])}% dice que sí."
+    return {"cuerpo": cuerpo, "link": url(j)}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fecha", default=datetime.date.today().isoformat())
     ap.add_argument("--regresiva", metavar="ID",
                     help="id del juego para la cuenta regresiva (por defecto, el próximo destacado)")
+    ap.add_argument("--votar", metavar="ID",
+                    help="id del juego para el posteo de votos (por defecto, uno que rota)")
     args = ap.parse_args()
 
     juegos = cargar_juegos()
@@ -169,10 +217,13 @@ def main():
     print("Cada opción viene en dos versiones: Bluesky lleva el link adentro; en X va")
     print("aparte, en una respuesta, porque los enlaces le bajan el alcance al posteo.")
 
+    regresiva = opcion_regresiva(hoy, juegos, args.regresiva)
+    evitar = regresiva["link"].rsplit("/", 1)[-1] if regresiva else None
     opciones = [
         ("A · LANZAMIENTOS DE HOY", opcion_hoy(hoy, juegos)),
         ("B · LO QUE VIENE EN 7 DÍAS", opcion_semana(hoy, juegos)),
-        ("C · CUENTA REGRESIVA", opcion_regresiva(hoy, juegos, args.regresiva)),
+        ("C · CUENTA REGRESIVA", regresiva),
+        ("D · ¿LO VAS A JUGAR? (segundo posteo)", opcion_votar(hoy, juegos, args.votar, evitar)),
     ]
     vacias = 0
     for nombre, opcion in opciones:
@@ -184,7 +235,7 @@ def main():
 
     if vacias == len(opciones):
         print("\nNo hay nada para postear hoy. Pasa si no lanza nada en 7 días.")
-    print("\n═══ Elegir una, copiar y publicar ═══")
+    print("\n═══ Posteo 1: una entre A, B y C · Posteo 2: la D, más tarde en el día ═══")
 
 
 if __name__ == "__main__":

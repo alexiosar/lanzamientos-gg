@@ -1247,6 +1247,13 @@ const JUEGOS = [
     metacriticVotos: 4,
     critica: "Pocas reseñas todavía. Le reconocen una relectura interesante de la Divina Comedia, puzles bien pensados y unas pruebas que se destacan, y lo mejor para varias es la relación entre Gabriele y Delilah. El problema en el que coinciden es la duración: unas tres horas no alcanzan para desarrollar lo que plantea, y las pruebas, que son lo mejor, son pocas.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobdjw.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-16",
+        titulo: "DEBUT CON 66: BUENA IDEA, POCAS HORAS",
+        texto: "Las primeras reseñas lo dejan en 66. Le reconocen la relectura de la Divina Comedia y unos puzles bien pensados, pero coinciden en que con unas tres horas de duración no alcanza a desarrollar lo que plantea."
+      }
+    ],
     alta: "2026-08-19"
   },
   {
@@ -3721,6 +3728,13 @@ const JUEGOS = [
     metacriticVotos: 77,
     critica: "El puntaje es el de la versión de 2022 en PS5 y Xbox. Las reseñas lo tratan como una remake prolija y divertida: gráficos renovados y coloridos, controles simples que responden bien y mucha destrucción por varias ciudades del mundo, con Crypto tan irreverente como siempre. Los reparos se repiten: parte del humor envejeció mal, el diseño de las misiones se nota de otra época y hay algunos problemas técnicos.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1266700/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-15",
+        titulo: "LLEGA A SWITCH 2 CUATRO AÑOS DESPUÉS",
+        texto: "La remake que salió en 2022 en PS5, Xbox y PC llega a Switch 2. En su momento la crítica le dio 67: una destrucción muy divertida y un Crypto tan irreverente como siempre, con parte del humor y el diseño de misiones que se notan de otra época."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -6757,6 +6771,13 @@ const JUEGOS = [
     metacriticUsuarios: null,
     critica: "Pocas reseñas, y todas lo tratan como lo que es: un JRPG de la época de PS Vita que llega a occidente más de diez años tarde. Le valoran el ritmo ágil, el combate por filas, la personalización del equipo y un encanto de juego portátil que no se toma todo en serio. El famoso sistema de besos llama la atención pero no le saca todo el jugo a la historia, las mazmorras dividen opiniones y con el tiempo el combate termina dependiendo del modo automático.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobz0m.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-11",
+        titulo: "DEBUT CON 69: UN JRPG DE VITA QUE LLEGA DIEZ AÑOS TARDE",
+        texto: "Con cuatro reseñas, Exstetra quedó en 69. La crítica lo trata como lo que es, un RPG de la época de PS Vita que recién ahora sale en occidente: le gustan el ritmo y el combate por filas, y le marca que el sistema de besos que lo hizo famoso no pesa tanto en la historia."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-31"
@@ -8811,7 +8832,7 @@ const JUEGOS = [
     genero: ["ARCADE","PLATAFORMA","INDIE"],
     desarrollador: "TACKORAMA",
     descripcion: "Un arcade de cavar hacia abajo: se baja por el pozo rompiendo piedra, se junta lo que aparece y se sale a cobrar antes de quedarse sin nada. De los chicos de la eShop, pensado para partidas cortas.",
-    trailer: null,
+    trailer: "https://youtube.com/embed/Nik9s4k0JtQ",
     metacritic: null,
     imagen: "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/qzcd6w4axjyqawykbbx7",
     gamepass: false,
@@ -8826,7 +8847,7 @@ const JUEGOS = [
     genero: ["RELAX","SIMULACION","INDIE"],
     desarrollador: "MIFAGAMES",
     descripcion: "Un juego de criar y coleccionar monstruos que avanza solo, incluso con la consola apagada. Doscientas criaturas para completar y diez temas de lo-fi de fondo: está hecho para dejarlo corriendo y volver cada tanto.",
-    trailer: null,
+    trailer: "https://youtube.com/embed/npGWd-MLISg",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmdp.jpg",
     gamepass: false,
@@ -8994,7 +9015,7 @@ const JUEGOS = [
     genero: ["TABLERO","ESTRATEGIA","INDIE"],
     desarrollador: "TACKORAMA",
     descripcion: "Un juego de tablero con fichas y cartas de tarot, armado alrededor del viaje del Loco. Se juegan las cartas por su valor y por lo que significan, que es de donde sale la estrategia.",
-    trailer: null,
+    trailer: "https://youtube.com/embed/56MCkSzqvKg",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocvg6.jpg",
     gamepass: false,
