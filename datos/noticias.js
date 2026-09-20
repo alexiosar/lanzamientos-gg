@@ -50,6 +50,15 @@
 
 const NOTICIAS = [
   {
+    id: "pc-gaming-show-tokyo-direct-2026",
+    fecha: "2026-09-20",
+    categoria: "EVENTOS",
+    titulo: "VUELVE LUFIA, Y CUATRO JUEGOS PONEN FECHA EN EL PC GAMING SHOW",
+    texto: "El PC Gaming Show: Tokyo Direct de este domingo estuvo lleno de anuncios de PC, pero dejó cuatro que sí llegan a consola. El más inesperado fue Lufia I & II: The Sinistrals Saga, la recopilación de los dos JRPG de los noventa que TAITO prepara para PS5, Switch 2, Switch y PC, con 2027 como fecha.\n\nLos otros tres ya tienen día. Neon Abyss 2 deja el acceso anticipado el 8 de octubre y sale en PS5, Xbox y Switch. Mycopunk, el shooter cooperativo de Devolver Digital, hace lo mismo el 20 de octubre y ese día debuta en PS5. We Were Here Tomorrow, el capítulo nuevo de la serie de puzles para dos, sale también el 20 en PS5 y Xbox.",
+    fuente: "https://www.youtube.com/watch?v=VjrxcYciRAY",
+    juegos: ["lufia-i-ii-the-sinistrals-saga", "neon-abyss-2", "mycopunk", "we-were-here-tomorrow"]
+  },
+  {
     id: "xbox-tokyo-game-show-2026",
     fecha: "2026-09-17",
     categoria: "EVENTOS",

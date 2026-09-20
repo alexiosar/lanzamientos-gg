@@ -1788,11 +1788,14 @@ y abrir http://localhost:8080
   | Earth Defense Force 6 (Switch 2) | 28 de enero de 2027 (Gematsu, 17/09) | Ni la eShop europea ni la de EE.UU. lo listan |
   | Kingdom of Night (PS5) | 5 de noviembre (Gematsu, 17/09) | **Ya está cargado en Xbox y Switch.** La PS Store no lo lista todavía |
   | Tropico 7 (Switch 2) | Mismo día que PS5 y Xbox, 28 de enero de 2027 (Gematsu, 17/09) | **Ya está cargado en PS5 y Xbox.** Ni la eShop ni Nintendo US lo listan |
-  | Sandwalkers | 24 de septiembre (releases.com) | La PS Store lo tiene con ese día pero no dice si es PS5 o PS4, y ni Xbox ni la eShop lo listan |
+  | Sandwalkers (PS) | 24 de septiembre | **Ya está cargado en Xbox**: el Next Week on Xbox del 18/09 lo confirmó para Series X\|S ese día. La PS Store lo tiene con la misma fecha pero con la lista de plataformas vacía, así que no se sabe si es PS5 o PS4. La eShop no lo lista |
   | Ananta | 15 de enero de 2027 (releases.com) | La PS Store lo tiene para PS5 pero sin fecha |
   | Just Dance: Decades of Hits | 13 de octubre (releases.com) | Xbox lo lista sin día, la PS Store y la eShop no lo tienen |
   | Colorbound | 12 de octubre (releases.com) | No está en la PS Store ni en Xbox |
-  | Fading Echo (PS5 y Xbox) | 22 de septiembre (releases.com) | **Ya está cargado en Switch 2.** La PS Store y Xbox lo listan sin fecha. Cuando la tengan, va como entrada nueva con `relanzamiento` |
+  | Fading Echo (PS5) | Sin fecha | **Ya está cargado en Switch 2 y en Xbox**: el Next Week on Xbox del 18/09 confirmó el 22 de septiembre para Series X\|S y de ahí salió la entrada nueva. La PS Store lo tiene para PS5 pero dice "por determinar" |
+  | Neon Abyss 2 (Switch) | 8 de octubre | **Ya está cargado en PS5, Xbox y Switch.** PS y Xbox lo confirman en tienda; lo de Switch sale del tráiler de fecha que Nintendo of America publicó el 20/09, porque la eShop todavía no lo lista |
+  | Lufia I & II: The Sinistrals Saga (Switch 2 y Switch) | 2027 (PC Gaming Show, 20/09) | **Ya está cargado como estimado.** La PS Store lo tiene para PS5 con "2027"; la eShop no lo lista |
+  | Mycopunk (Xbox) | 20 de octubre | **Ya está cargado en PS5.** Gematsu dice "PlayStation 5 y…" y la tienda de Xbox no lo encuentra, así que no se sabe si hay versión de Xbox |
   | Prinny Party: Going Overboard! (Switch y Switch 2) | 11 de noviembre | **Ya está cargado en PS5.** NIS America lo anuncia para Nintendo, pero la eShop no lo lista |
   | Persona 4 Revival (Switch 2) | 20 de mayo de 2027 (Nintendo Direct) | **Ya está cargado en PS5 y Xbox.** Mayo de 2027 todavía no es un mes del calendario |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |

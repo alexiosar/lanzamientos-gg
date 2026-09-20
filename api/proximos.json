@@ -2,153 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-18T13:33:17+00:00",
+ "generado": "2026-09-20T19:58:47+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-18",
- "hasta": "2026-10-18",
+ "desde": "2026-09-20",
+ "hasta": "2026-10-20",
  "total": 89,
  "juegos": [
-  {
-   "id": "lego-batman-legacy-of-the-dark-knight",
-   "titulo": "LEGO BATMAN: LEGACY OF THE DARK KNIGHT",
-   "relanzamiento": "En PS5, Xbox y PC desde mayo de 2026 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-09-18",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "ACCION"
-   ],
-   "desarrollador": "TT GAMES",
-   "descripcion": "La aventura LEGO de Batman que salió en mayo en PS5, Xbox y PC llega a Switch 2. TT Games recorre las distintas épocas del personaje, de los cómics a las películas y las series, con una Gotham para explorar y un combate que toma mucho de los Batman: Arkham, sin perder el humor ni el cooperativo de la saga.",
-   "trailer": "https://youtube.com/embed/DfJaUpW_P00",
-   "metacritic": 83,
-   "metacriticUsuarios": 8.3,
-   "metacriticVotos": 696,
-   "critica": "El puntaje es el de mayo en PS5, Xbox y PC, sobre 88 reseñas, y ninguna es negativa. La mayoría lo pone entre los mejores juegos LEGO, si no el mejor: una carta de amor a la historia de Batman llena de referencias a cómics, películas y series, con un combate que funciona como un Arkham simplificado y un equilibrio logrado entre chicos y fans grandes. Las reseñas más tibias dicen lo contrario de lo mismo: que por querer conformar a todos no termina de satisfacer a nadie, que juega a lo seguro y que algunos tramos de pelea se hacen aburridos.",
-   "imagen": "https://cdn2.steamgriddb.com/grid/e154fe98c470195b99092d884dcf71f5.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/lego-batman-legacy-of-the-dark-knight",
-   "noticias": [
-    {
-     "fecha": "2026-09-17",
-     "titulo": "LLEGA A SWITCH 2 CON EL 83 QUE SACÓ EN MAYO",
-     "texto": "La versión de Switch 2 sale mañana, cuatro meses después que en las otras consolas. En mayo la crítica lo recibió con 83 y varias reseñas lo nombraron el mejor juego LEGO hecho hasta ahora."
-    }
-   ]
-  },
-  {
-   "id": "moomintroll-winters-warmth",
-   "titulo": "MOOMINTROLL: WINTER'S WARMTH",
-   "fecha": "2026-09-18",
-   "relanzamiento": "En PC desde abril de 2026",
-   "duracion": "≈ 4,4 h (historia) · 11 h (completo)",
-   "plataformas": [
-    "PS5",
-    "SWITCH",
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "RELAX",
-    "INDIE"
-   ],
-   "desarrollador": "HYPER GAMES",
-   "descripcion": "Una aventura invernal con Mumintroll, basada en los libros de Tove Jansson, del mismo estudio que hizo Snufkin: La melodía del Valle de los Mumin. Mumintroll recorre un Valle de los Mumin nevado, un lado que las historias casi nunca muestran, ayudando a los vecinos, con un toque de exploración metroidvania.",
-   "trailer": "https://youtube.com/embed/Hu3PZTQ09yk",
-   "metacritic": 83,
-   "metacriticUsuarios": 8.0,
-   "metacriticVotos": 13,
-   "critica": "Muy bien recibido, con 22 reseñas. Las críticas destacan que es corto, dulce y precioso de ver, y que captura la doble cara de los Mumin: el encanto de ayudar a los vecinos y la melancolía de un invierno escandinavo solitario. Varias subrayan que el corazón del juego es la familia que Mumintroll va armando en el camino, y que los elementos de metroidvania están bien puestos. Es un juego tranquilo, sin mucho en juego, y así lo recomiendan.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3256150/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/moomintroll-winters-warmth",
-   "noticias": [
-    {
-     "fecha": "2026-09-18",
-     "titulo": "DEBUT CON 83 EN METACRITIC",
-     "texto": "Sale hoy con 83 sobre 22 reseñas. La crítica lo recomienda como un juego tranquilo y precioso, que muestra un lado del Valle de los Mumin que los libros casi no cuentan: el invierno."
-    }
-   ]
-  },
-  {
-   "id": "the-grinch-2-saving-christmas",
-   "titulo": "THE GRINCH 2: SAVING CHRISTMAS",
-   "fecha": "2026-09-18",
-   "plataformas": [
-    "PS4",
-    "SWITCH",
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "AVENTURA",
-    "CASUAL"
-   ],
-   "desarrollador": "CASUAL BROTHERS LTD.",
-   "descripcion": "Un juego de plataformas con el Grinch, donde se juntan adornos, se usan artefactos y se superan desafíos navideños para armar el mejor árbol de Navidad para los Quién.",
-   "trailer": "https://youtube.com/embed/a3DI5VfL3TA",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocjdn.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/the-grinch-2-saving-christmas"
-  },
-  {
-   "id": "nascar-26",
-   "titulo": "NASCAR 26",
-   "fecha": "2026-09-18",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "CARRERAS",
-    "DEPORTES",
-    "SIMULACION"
-   ],
-   "desarrollador": "IRACING STUDIOS",
-   "descripcion": "El juego oficial de la NASCAR vuelve con las cuatro series nacionales, y modos de carrera, carrera rápida, campeonato y multijugador, más un modo nuevo dedicado a The Chase.",
-   "trailer": "https://youtube.com/embed/f_h_LPYH7iM",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocno9.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/nascar-26"
-  },
-  {
-   "id": "the-walking-dead-streets-of-survival",
-   "titulo": "THE WALKING DEAD: STREETS OF SURVIVAL",
-   "fecha": "2026-09-18",
-   "plataformas": [
-    "SWITCH2",
-    "PS5",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "LUCHA",
-    "ARCADE",
-    "ACCION"
-   ],
-   "desarrollador": "ODACLICK GAME STUDIO",
-   "descripcion": "Un beat 'em up arcade en el universo de The Walking Dead de AMC, con Rick Grimes, Daryl Dixon y Michonne. Se pelea contra los Salvadores y hordas de caminantes a fuerza de combos, armas propias de cada personaje y remates.",
-   "trailer": "https://youtube.com/embed/0cIM-7u8reA",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmze.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/the-walking-dead-streets-of-survival"
-  },
   {
    "id": "well-dweller",
    "titulo": "WELL DWELLER",
@@ -268,6 +128,33 @@
    "psplus": false,
    "alta": "2026-08-28",
    "url": "https://lanzamientos.lat/juegos/graveyard-keeper-2"
+  },
+  {
+   "id": "fading-echo-xbox",
+   "titulo": "FADING ECHO",
+   "relanzamiento": "En PC desde julio de 2026 y en Switch 2 desde el 17 de septiembre — esta fecha corresponde a la edición de Xbox",
+   "fecha": "2026-09-22",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG",
+    "INDIE"
+   ],
+   "desarrollador": "EMETERIA",
+   "descripcion": "Un RPG de acción donde el protagonista se transforma en una esfera de agua: surfea por cañerías, se mete por grietas y dispara olas y chorros cargados. El agua se mezcla con lava, residuos tóxicos y la corrupción que amenaza el mundo, y de esas reacciones en cadena sale el combate. Se pasa entre realidades distintas, cada una con sus propias reglas.",
+   "trailer": "https://youtube.com/embed/ziiNiQheYu8",
+   "metacritic": 76,
+   "metacriticUsuarios": 9.3,
+   "metacriticVotos": 9,
+   "critica": "El puntaje es el de la versión de PC, de julio. Las reseñas lo reciben como una propuesta original: un combate basado en elementos que obliga a experimentar, puzles ingeniosos, una dirección de arte muy vistosa y un mundo con personalidad, con elogios también para las voces. Los reparos son la repetición, la poca variedad de enemigos y una historia y una banda sonora que no están a la altura del resto.",
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpgb.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-20",
+   "url": "https://lanzamientos.lat/juegos/fading-echo-xbox"
   },
   {
    "id": "mad-king-redemption",
@@ -536,6 +423,31 @@
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/qliphah-in-providences-shadow"
+  },
+  {
+   "id": "sandwalkers",
+   "titulo": "SANDWALKERS",
+   "relanzamiento": "En PC desde abril de 2025 — esta fecha corresponde a la edición de Xbox",
+   "fecha": "2026-09-24",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "ESTRATEGIA",
+    "POR TURNOS",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "GOBLINZ STUDIO",
+   "descripcion": "Un roguelike de exploración por turnos. Cada diez años la tribu mka manda caravanas al Phithi, el caos climático que mantiene aisladas entre sí a las tribus de Uwando, con la misión de comerciar, reclamar tierras y plantar un árbol ciudad nuevo que sirva de refugio. Se recluta a cuatro personajes, cada uno con su clase y su habilidad, y se atraviesan lluvia ácida, tormentas, olas de calor, piratas y monstruos.",
+   "trailer": "https://youtube.com/embed/UrF5e97ulTQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1639080/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-20",
+   "url": "https://lanzamientos.lat/juegos/sandwalkers"
   },
   {
    "id": "agefield-high-rock-the-school",
@@ -874,14 +786,21 @@
     "ESTRATEGIA"
    ],
    "desarrollador": "KOEI TECMO GAMES CO., LTD.",
-   "descripcion": "Un guerrero que vale por mil, reforjado. Un remake de DYNASTY WARRIORS 3 y DYNASTY WARRIORS 3: Xtreme Legends con gráficos modernos y una acción aún más intensa.",
+   "descripcion": "Vuelven Dynasty Warriors 3 y su expansión Xtreme Legends, los de PS2 de 2001, con los gráficos rehechos. Es un musou: un guerrero contra cientos de soldados a la vez, en las guerras de los Tres Reinos de China.",
    "trailer": "https://youtube.com/embed/UTVVw9fsHVA",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/39e6aeae09daf02e5005b48a5ce309de.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/dynasty-warriors-3-complete-edition-remastered"
+   "url": "https://lanzamientos.lat/juegos/dynasty-warriors-3-complete-edition-remastered",
+   "noticias": [
+    {
+     "fecha": "2026-09-20",
+     "titulo": "HAY DEMO DESDE EL 24 DE SEPTIEMBRE",
+     "texto": "Koei Tecmo y Omega Force anunciaron una demo que sale el 24 de septiembre, una semana antes del juego."
+    }
+   ]
   },
   {
    "id": "octopath-traveler-i-ii-bundle",
@@ -1502,6 +1421,40 @@
    "url": "https://lanzamientos.lat/juegos/rainbow-islands-cs"
   },
   {
+   "id": "neon-abyss-2",
+   "titulo": "NEON ABYSS 2",
+   "relanzamiento": "En PC, en acceso anticipado, desde julio de 2025 — esta fecha es la de la versión terminada y la de consolas",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "PLATAFORMA",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "VEEWO GAMES",
+   "descripcion": "La secuela del roguelike de acción en dos dimensiones. Se baja por el abismo disparando y juntando objetos que se combinan entre sí, y de esas combinaciones sale cada partida. Suma cooperativo en línea para cuatro, con la opción de separarse por salas distintas, y más estilos de combate que el primero.",
+   "trailer": "https://youtube.com/embed/ZNjygOzJqMQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235200/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-20",
+   "url": "https://lanzamientos.lat/juegos/neon-abyss-2",
+   "noticias": [
+    {
+     "fecha": "2026-09-20",
+     "titulo": "SALE EL 8 DE OCTUBRE",
+     "texto": "Veewo Games y Kepler Interactive pusieron fecha en el PC Gaming Show: Tokyo Direct. El juego deja el acceso anticipado de PC ese mismo día y llega a PS5, Xbox y Switch."
+    }
+   ]
+  },
+  {
    "id": "dragons-dogma-2-dark-arisen",
    "titulo": "DRAGON'S DOGMA 2: DARK ARISEN",
    "fecha": "2026-10-09",
@@ -1894,7 +1847,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/castlevania-belmonts-curse"
+   "url": "https://lanzamientos.lat/juegos/castlevania-belmonts-curse",
+   "noticias": [
+    {
+     "fecha": "2026-09-20",
+     "titulo": "HAY DEMO DESDE EL 1 DE OCTUBRE",
+     "texto": "Konami, Evil Empire y Motion Twin anunciaron una demo para el 1 de octubre, dos semanas antes del lanzamiento."
+    }
+   ]
   },
   {
    "id": "enshrouded",
@@ -2187,6 +2147,69 @@
    "psplus": false,
    "alta": "2026-09-09",
    "url": "https://lanzamientos.lat/juegos/lego-harry-potter-collection-switch-2"
+  },
+  {
+   "id": "we-were-here-tomorrow",
+   "titulo": "WE WERE HERE TOMORROW",
+   "fecha": "2026-10-20",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "PUZZLE",
+    "AVENTURA",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "TOTAL MAYHEM GAMES",
+   "descripcion": "El capítulo nuevo de la serie de puzles cooperativos para dos. Una expedición para rescatar a otros exploradores termina con la pareja atrapada bajo el hielo de la Antártida, y al despertar están en unas instalaciones de Norček Industries, donde el equipo que trabajaba ahí desapareció. Casi siempre separados, los dos se comunican por walkie-talkie: cada uno ve una parte del problema y tiene que describirla para que el otro pueda resolverlo.",
+   "trailer": "https://youtube.com/embed/JaB-nrBJFYo",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-20",
+   "url": "https://lanzamientos.lat/juegos/we-were-here-tomorrow",
+   "noticias": [
+    {
+     "fecha": "2026-09-20",
+     "titulo": "SALE EL 20 DE OCTUBRE",
+     "texto": "Total Mayhem Games puso fecha en el PC Gaming Show: Tokyo Direct. Sale el mismo día en PC, PS5 y Xbox."
+    }
+   ]
+  },
+  {
+   "id": "mycopunk",
+   "titulo": "MYCOPUNK",
+   "relanzamiento": "En PC, en acceso anticipado, desde julio de 2025 — esta fecha es la de la versión terminada y la de PS5",
+   "fecha": "2026-10-20",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "SHOOTER",
+    "FPS",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "PIGEONS AT PLAY",
+   "descripcion": "Un shooter en primera persona de misiones y botín para hasta cuatro. Un grupo de robots descartados es contratado por la corporación SAXON para frenar una catástrofe de hongos que se extiende por todo el planeta. Las armas se mejoran en una grilla que deja armar combinaciones propias, y los enemigos van corrompiendo la tecnología del lugar para usarla en contra del equipo.",
+   "trailer": "https://youtube.com/embed/uggR1kFcdck",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-20",
+   "url": "https://lanzamientos.lat/juegos/mycopunk",
+   "noticias": [
+    {
+     "fecha": "2026-09-20",
+     "titulo": "SALE DEL ACCESO ANTICIPADO EL 20 DE OCTUBRE",
+     "texto": "Devolver Digital puso fecha en el PC Gaming Show: Tokyo Direct. Ese día llega la versión terminada, y con ella el debut en PS5."
+    }
+   ]
   }
  ]
 }
