@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Sun, 20 Sep 2026 19:58:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 14:34:55 +0000</lastBuildDate>
+    <item>
+      <title>BLIGHTED: SE RETRASA A 2027</title>
+      <link>https://lanzamientos.lat/juegos/blighted</link>
+      <guid isPermaLink="false">blighted-2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
+      <description>DrinkBox Studios lo pasó a 2027. Estaba previsto para fines de 2026 y todavía no tiene día; la página de Steam ya dice 2027. — BLIGHTED para XBOX / SWITCH 2 / PS5.</description>
+    </item>
     <item>
       <title>DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED: HAY DEMO DESDE EL 24 DE SEPTIEMBRE</title>
       <link>https://lanzamientos.lat/juegos/dynasty-warriors-3-complete-edition-remastered</link>
@@ -291,15 +298,6 @@ Para 2027 dejaron Snack World: Reloaded, una versión rehecha del RPG de mazmorr
       <description>Sony anunció la tanda de septiembre para los planes Extra y Deluxe, que se puede jugar desde el 15. Entran RuneScape: Dragonwilds, WWE 2K26, Ball x Pit y Date Everything!, entre otros, y Deluxe suma además Mega Man X Command Mission y Metro Redux.
 
 El que interesa acá es RuneScape: Dragonwilds, porque sale ese mismo 15 de septiembre: entra al servicio el día del estreno, igual que a Game Pass. Los demás son juegos que ya estaban a la venta.</description>
-    </item>
-    <item>
-      <title>PHYSINT, LO NUEVO DE KOJIMA, PASA DE SONY A XBOX</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">physint-pasa-a-xbox-2026</guid>
-      <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Xbox Game Studios va a publicar Physint, el juego de acción y espionaje de Kojima Productions que hasta ahora estaba con PlayStation. Lo anunciaron Xbox y el propio estudio, y Kojima lo presentó como una ampliación del vínculo que ya tenían por OD. Sony se corre del proyecto.
-
-Physint no tiene fecha ni se sabe en qué consolas sale, así que por ahora no hay nada que cargar. El acuerdo además se extiende a cine y televisión.</description>
     </item>
   </channel>
 </rss>

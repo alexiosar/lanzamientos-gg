@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-20T19:58:47+00:00",
+ "generado": "2026-09-21T14:34:55+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-20",
- "hasta": "2026-10-20",
- "total": 89,
+ "desde": "2026-09-21",
+ "hasta": "2026-10-21",
+ "total": 90,
  "juegos": [
   {
    "id": "well-dweller",
@@ -2210,6 +2210,28 @@
      "texto": "Devolver Digital puso fecha en el PC Gaming Show: Tokyo Direct. Ese día llega la versión terminada, y con ella el debut en PS5."
     }
    ]
+  },
+  {
+   "id": "stupid-never-dies",
+   "titulo": "STUPID NEVER DIES",
+   "fecha": "2026-10-21",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "AVENTURA"
+   ],
+   "desarrollador": "GPTRACK50 INC.",
+   "descripcion": "Convierte al torpe zombi Davy en una bestia imparable en este RPG de acción de evolución frenética. Devora enemigos, roba sus poderes y salva a la congelada Julia.",
+   "trailer": "https://youtube.com/embed/vPqRLWnV4jk",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc8br.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/stupid-never-dies"
   }
  ]
 }
