@@ -1604,7 +1604,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 82,
     metacriticUsuarios: 9.3,
-    metacriticVotos: 1975,
+    metacriticVotos: 1976,
     critica: "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
     imagen: "https://cdn2.steamgriddb.com/grid/1812e589a2ad581bd076820f05965824.png",
     noticias: [
@@ -2693,7 +2693,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/6Mq_adllBHg",
     metacritic: 78,
     metacriticUsuarios: 8.0,
-    metacriticVotos: 48,
+    metacriticVotos: 49,
     critica: "Todas las reseñas lo ubican en el mismo lugar: un plataformas en 3D que homenajea a los de PlayStation 2, con Kingdom Hearts, Ratchet & Clank y Jak and Daxter nombrados una y otra vez. Los elogios van al movimiento, al diseño de niveles y a la música. Los reparos coinciden con el elogio y son su reverso: se parece tanto a lo que homenajea que no llega a tener voz propia, la progresión es superficial y las recompensas por explorar decepcionan.",
     imagen: "https://cdn2.steamgriddb.com/grid/7077a0f3558c2b01c9b3e700385bb7fc.jpg",
     noticias: [
@@ -2813,6 +2813,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/f_mO3Gn8pM0",
     metacritic: 40,
     metacriticUsuarios: null,
+    critica: "Reseñas negativas casi sin excepción. Le reconocen el combate de tanques, que tiene momentos entretenidos, y la variedad de tanques, armado y munición. Pero los problemas pesan más: muchos errores técnicos, mecánicas poco confiables, misiones que se resumen en ir al próximo objetivo y disparar, gráficos simples y una historia que se toma muy en serio sin la escritura para sostenerlo. La mejor nota la da a quien le gusten mucho los tanques; la peor dice que es tan malo que lo hizo dudar de todo el género.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1416230/library_600x900.jpg",
     gamepass: false,
     psplus: false,
@@ -3306,7 +3307,7 @@ const JUEGOS = [
     },
     metacritic: 83,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 1219,
+    metacriticVotos: 1221,
     imagen: "https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png",
     critica: "Más de treinta reseñas y un acuerdo raro de ver en un debut: Rebel Wolves —armado por gente que hizo The Witcher 3— salió bien parado. Lo que más se elogia es lo que lo hace distinto: el reloj de treinta días que corre mientras jugás, la doble condición de humano de día y vampiro de noche, y decisiones que tienen consecuencias de verdad. También la escritura y los personajes. El reparo que más se repite es de dónde viene: toma mucho de The Witcher 3 y el mundo abierto se siente de fórmula, con misiones secundarias que se parecen entre sí. Se le marcan además animaciones faciales duras y un combate que a la larga se vuelve repetitivo.",
     noticias: [
@@ -3423,7 +3424,7 @@ const JUEGOS = [
     },
     metacritic: 85,
     metacriticUsuarios: 8.6,
-    metacriticVotos: 781,
+    metacriticVotos: 782,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
     critica: "Más de cincuenta reseñas y un acuerdo casi unánime: es el mejor regreso posible después de veinte años sin la saga, y varias lo ponen entre los mejores juegos de acción del año. El elogio se concentra en una sola cosa, el combate — parries que exigen tiempo exacto, el Issen, y capas de mecánicas que se van sumando hasta el final. Se destaca también que Capcom NO lo convirtió en un soulslike, que era el camino fácil. Los reparos son tres y se repiten: los jefes se reutilizan y se notan, el Kioto abierto que hace de eje se siente repetitivo y fuera de tono con las misiones lineales, y la historia es lo más flojo del conjunto. Varias reseñas recomiendan arrancar en dificultad Historia para agarrarle la mano.",
     noticias: [
@@ -3664,7 +3665,7 @@ const JUEGOS = [
     },
     metacritic: 77,
     metacriticUsuarios: 7.0,
-    metacriticVotos: 4846,
+    metacriticVotos: 4870,
     critica: "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
@@ -3754,6 +3755,13 @@ const JUEGOS = [
     metacriticVotos: 12,
     critica: "El puntaje es el de la versión de PC, de marzo. Las reseñas elogian cómo adapta la obra de Machado de Assis en un policial noir, con un bucle temporal que avanza rápido y sin frustrar, y varias lo celebran como un hito del videojuego brasileño. El reparo que más se repite es que el trabajo de detective es más superficial de lo que promete y la parte de apuntar y clic se vuelve repetitiva.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2466900/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-17",
+        titulo: "YA ESTÁ EN SWITCH",
+        texto: "Mother Gaia Studio lo sacó en Switch el 17 de septiembre, casi seis meses después de su salida en PC, y ese mismo día llegó también a celulares."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-17"
@@ -3773,6 +3781,13 @@ const JUEGOS = [
     metacriticVotos: 9,
     critica: "El puntaje es el de la versión de PC, de julio. Las reseñas lo reciben como una propuesta original: un combate basado en elementos que obliga a experimentar, puzles ingeniosos, una dirección de arte muy vistosa y un mundo con personalidad, con elogios también para las voces. Los reparos son la repetición, la poca variedad de enemigos y una historia y una banda sonora que no están a la altura del resto.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpgb.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-18",
+        titulo: "LLEGA A XBOX EL 22 DE SEPTIEMBRE",
+        texto: "Xbox lo incluyó en los lanzamientos de la semana: sale en Xbox Series el 22, cinco días después que en Switch 2. En PS5 está anunciado, pero todavía sin fecha."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-17"
@@ -3793,7 +3808,7 @@ const JUEGOS = [
     },
     metacritic: 89,
     metacriticUsuarios: 9.0,
-    metacriticVotos: 433,
+    metacriticVotos: 436,
     critica: "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
     noticias: [
@@ -3823,7 +3838,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/4fEzsQ6Hv8Y",
     metacritic: 91,
     metacriticUsuarios: 8.6,
-    metacriticVotos: 135,
+    metacriticVotos: 136,
     critica: "Las doce reseñas publicadas son positivas, y varias lo ponen como la entrega que define a toda la saga Trails. Coinciden en que la remake mejora lo que ya había hecho bien la del primer capítulo: combate por turnos más profundo, ritmo más ágil, escenas nuevas y actuación de voces, con una historia que cierra el arco de Estelle y Joshua con mucho peso. Lo que le marcan es poco: los primeros capítulos se hacen lentos, lo visual es modesto y juega a lo seguro.",
     noticias: [
       {
@@ -4104,6 +4119,13 @@ const JUEGOS = [
     metacriticVotos: 27,
     critica: "El puntaje es el de la versión de PC, que salió un año antes. Las reseñas lo destacan como un roguelite con mucho contenido y muy estable para ser un debut: combina lo mejor de los MOBA y los RPG de acción, da herramientas poderosas desde el arranque para evitar la frustración de los primeros intentos y tiene combinaciones de habilidades con mucha profundidad. También valoran el cooperativo, al que se puede entrar y salir en cualquier momento. Los reparos: se vuelve caótico, lleva tiempo entender todos sus sistemas y la historia es lo más flojo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444750/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-17",
+        titulo: "LLEGÓ A CONSOLAS CON THE STARLESS PATH",
+        texto: "Salió por sorpresa en PS5 y Xbox durante la transmisión de Xbox en el Tokyo Game Show, el mismo día que la actualización 1.4, The Starless Path. Trae un viajero nuevo, Cetus, que pelea con el poder del frío, un sistema de progresión ampliado y un final nuevo."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-17"
@@ -4608,7 +4630,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/SWgNeWbNkZ8",
     metacritic: 93,
     metacriticUsuarios: 9.3,
-    metacriticVotos: 23,
+    metacriticVotos: 24,
     critica: "Las reseñas que existen son de la versión de realidad virtual de 2024, no de esta: hay que leerlas sabiendo eso. La prensa de VR lo trató como una rareza que salió bien, un juego de ritmo donde en vez de apretar botones se dirige una orquesta con las manos, y coincidió en dos cosas: que la detección de manos responde mejor de lo que el género acostumbra, y que es de los pocos juegos de ritmo accesibles para quien no sabe nada de música. Esta edición cambia las manos por el movimiento de los Joy-Con, así que lo que más se elogiaba es justo lo que habrá que ver.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701700/library_600x900.jpg",
     noticias: [
@@ -7104,7 +7126,7 @@ const JUEGOS = [
     relanzamiento: "En PC desde marzo de 2026",
     duracion: "≈ 6 h (historia) · 21 h (completo)",
     fecha: "2026-09-17",
-    plataformas: ["SWITCH", "SWITCH2"],
+    plataformas: ["SWITCH"],
     genero: ["AVENTURA", "INDIE", "CASUAL"],
     desarrollador: "DEVIN SANTI",
     descripcion: "Mr. Sleepy Man se pasó de la hora de dormir y anda desatado. Una aventura de patio de juegos donde el objetivo es hacer el mayor desastre posible y poner al pueblo entero en tu contra.",
@@ -7116,6 +7138,13 @@ const JUEGOS = [
     metacriticUsuarios: 8.4,
     metacriticVotos: 11,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1657740/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-17",
+        titulo: "YA ESTÁ EN SWITCH",
+        texto: "Devin Santi, su creador, anunció la llegada a Switch el 17 de septiembre, después de meses aprendiendo a llevar el juego a una consola. En PC está desde marzo."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -7199,8 +7228,8 @@ const JUEGOS = [
     descripcion: "Un RPG de mundo abierto gratuito de capturar criaturas, en el continente de Idyll. Se usan las habilidades de las Aniimo para explorar, se visita una ciudad que flota en el cielo y se compite contra otros jugadores.",
     trailer: "https://youtube.com/embed/Yh5JH0Yz75E",
     metacritic: 78,
-    metacriticUsuarios: 7.5,
-    metacriticVotos: 42,
+    metacriticUsuarios: 7.4,
+    metacriticVotos: 43,
     critica: "Pocas reseñas y bastante divididas en el tono. Las más entusiastas elogian el diseño de las criaturas, un mundo con mucha vida y un sistema de colección que es simple de entrada pero tan profundo como uno quiera. Los reparos apuntan a una estructura que se siente de escuela, con poco en juego, una interfaz que molesta y lo engorroso que es compartir la partida con amigos. El acuerdo general: para quien busque coleccionar y explorar tranquilo, es un gratuito generoso y muy pulido.",
     imagen: "https://cdn2.steamgriddb.com/grid/275ba20bb50f9c26e0d0f0aa69d0c7e4.png",
     noticias: [
@@ -9092,6 +9121,13 @@ const JUEGOS = [
     metacriticVotos: 9,
     critica: "El puntaje es el de la versión de PC, de julio. Las reseñas lo reciben como una propuesta original: un combate basado en elementos que obliga a experimentar, puzles ingeniosos, una dirección de arte muy vistosa y un mundo con personalidad, con elogios también para las voces. Los reparos son la repetición, la poca variedad de enemigos y una historia y una banda sonora que no están a la altura del resto.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobpgb.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-18",
+        titulo: "SALE EL 22 DE SEPTIEMBRE EN XBOX",
+        texto: "Xbox lo incluyó en los lanzamientos de la semana, con fecha 22 de septiembre para Xbox Series, cinco días después de la salida en Switch 2. En PS5 está anunciado, pero todavía sin fecha."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-20"

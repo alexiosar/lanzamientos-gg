@@ -110,7 +110,9 @@ SIGLAS = {"EA", "NBA", "LEGO", "TOEM", "DLC", "MLB", "NFL", "NHL", "UFC", "WWE",
 # las deduzca desde MAYÚSCULAS: van a mano. "IRACING" no es ni Iracing ni IRACING.
 CASO_PROPIO = {"IRACING": "iRacing", "PLAYSTATION": "PlayStation", "XBOX": "Xbox",
                "MOTOGP": "MotoGP", "MXGP": "MXGP", "MYSTBOUND": "Mystbound",
-               "RETROSPACE": "RetroSpace"}
+               "RETROSPACE": "RetroSpace",
+               # Sin vocales pasaría por sigla: "MR. Sleepy Man".
+               "MR": "Mr", "MRS": "Mrs", "DR": "Dr"}
 # Cuando la palabra suelta es ambigua, la excepción va por título completo. "SIN" acá es
 # el nombre del juego de 1998, pero en español es una preposición: si estuviera en
 # CASO_PROPIO, cualquier título con "sin" saldría "SiN".

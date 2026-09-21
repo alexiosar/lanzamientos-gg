@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-21T14:34:55+00:00",
+ "generado": "2026-09-21T15:29:21+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-21",
@@ -154,7 +154,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-20",
-   "url": "https://lanzamientos.lat/juegos/fading-echo-xbox"
+   "url": "https://lanzamientos.lat/juegos/fading-echo-xbox",
+   "noticias": [
+    {
+     "fecha": "2026-09-18",
+     "titulo": "SALE EL 22 DE SEPTIEMBRE EN XBOX",
+     "texto": "Xbox lo incluyó en los lanzamientos de la semana, con fecha 22 de septiembre para Xbox Series, cinco días después de la salida en Switch 2. En PS5 está anunciado, pero todavía sin fecha."
+    }
+   ]
   },
   {
    "id": "mad-king-redemption",
