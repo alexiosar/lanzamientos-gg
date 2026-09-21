@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-21T15:29:21+00:00",
+ "generado": "2026-09-21T16:05:43+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-21",
@@ -133,6 +133,7 @@
    "id": "fading-echo-xbox",
    "titulo": "FADING ECHO",
    "relanzamiento": "En PC desde julio de 2026 y en Switch 2 desde el 17 de septiembre — esta fecha corresponde a la edición de Xbox",
+   "duracion": "≈ 6,5 h (historia)",
    "fecha": "2026-09-22",
    "plataformas": [
     "XBOX"
@@ -213,6 +214,7 @@
   {
    "id": "sin-reloaded",
    "titulo": "SIN: RELOADED",
+   "duracion": "≈ 7,2 h (historia) · 12 h (completo)",
    "relanzamiento": "Remasterización del juego de 1998",
    "fecha": "2026-09-24",
    "plataformas": [
@@ -460,6 +462,7 @@
    "id": "agefield-high-rock-the-school",
    "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
    "relanzamiento": "En PC desde agosto de 2026",
+   "duracion": "≈ 19 h (historia)",
    "fecha": "2026-09-25",
    "plataformas": [
     "PS5"
@@ -611,6 +614,7 @@
   {
    "id": "the-witcher-3-wild-hunt-remastered",
    "titulo": "THE WITCHER 3: WILD HUNT — REMASTERED",
+   "duracion": "≈ 52 h (historia) · 175 h (completo)",
    "relanzamiento": "El original salió en 2015 para PS4, Xbox One y PC — esta fecha corresponde a la edición remasterizada de Switch 2",
    "fecha": "2026-09-29",
    "plataformas": [
@@ -835,6 +839,7 @@
   {
    "id": "ghost-of-yotei-complete-edition",
    "titulo": "GHOST OF YOTEI: EDICIÓN COMPLETA",
+   "duracion": "≈ 30 h (historia) · 60 h (completo)",
    "relanzamiento": "El juego base salió en PS5 en octubre de 2025",
    "fecha": "2026-10-01",
    "plataformas": [
@@ -910,6 +915,7 @@
    "id": "moros-protocol",
    "titulo": "MOROS PROTOCOL",
    "relanzamiento": "En PC desde septiembre de 2025",
+   "duracion": "≈ 7 h (historia) · 20 h (completo)",
    "fecha": "2026-10-01",
    "plataformas": [
     "PS5",
@@ -936,6 +942,7 @@
    "id": "agefield-high-rock-the-school-xbox",
    "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
    "relanzamiento": "En PC desde agosto de 2026 y en PS5 desde el 25 de septiembre — esta fecha corresponde a la edición de Xbox",
+   "duracion": "≈ 19 h (historia)",
    "fecha": "2026-10-02",
    "plataformas": [
     "XBOX"
@@ -1431,6 +1438,7 @@
    "id": "neon-abyss-2",
    "titulo": "NEON ABYSS 2",
    "relanzamiento": "En PC, en acceso anticipado, desde julio de 2025 — esta fecha es la de la versión terminada y la de consolas",
+   "duracion": "≈ 4 h (historia)",
    "fecha": "2026-10-08",
    "plataformas": [
     "PS5",
@@ -1561,6 +1569,7 @@
   {
    "id": "tmnt-arcade-wrath-of-the-mutants-switch-2",
    "titulo": "TMNT ARCADE: WRATH OF THE MUTANTS",
+   "duracion": "≈ 1,2 h (historia) · 7 h (completo)",
    "relanzamiento": "En consolas y PC desde abril de 2024, y en salas de arcade desde 2017 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-10-09",
    "plataformas": [
@@ -2066,6 +2075,7 @@
   {
    "id": "resident-evil-2-switch-2",
    "titulo": "RESIDENT EVIL 2: DELUXE EDITION",
+   "duracion": "≈ 8,9 h (historia) · 37 h (completo)",
    "relanzamiento": "En PS4, Xbox y PC desde enero de 2019 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-10-16",
    "plataformas": [
@@ -2090,6 +2100,7 @@
    "id": "resident-evil-3-switch-2",
    "titulo": "RESIDENT EVIL 3",
    "relanzamiento": "En PS4, Xbox y PC desde abril de 2020 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 6 h (historia) · 20 h (completo)",
    "fecha": "2026-10-16",
    "plataformas": [
     "SWITCH2"
@@ -2112,6 +2123,7 @@
   {
    "id": "resident-evil-4-switch-2",
    "titulo": "RESIDENT EVIL 4: GOLD EDITION",
+   "duracion": "≈ 16 h (historia) · 65 h (completo)",
    "relanzamiento": "En PS5, PS4, Xbox y PC desde marzo de 2023 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-10-16",
    "plataformas": [
@@ -2136,6 +2148,7 @@
    "id": "lego-harry-potter-collection-switch-2",
    "titulo": "LEGO HARRY POTTER COLLECTION",
    "relanzamiento": "En consolas desde 2016 y remasterizado en 2024 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 26 h (historia) · 53 h (completo)",
    "fecha": "2026-10-16",
    "plataformas": [
     "SWITCH2"

@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-21T15:29:21+00:00",
+ "generado": "2026-09-21T16:05:43+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 458,
@@ -413,7 +413,7 @@
    "trailer": "https://youtube.com/embed/ZdMwqKiSeEE",
    "metacritic": 82,
    "metacriticUsuarios": 8.6,
-   "metacriticVotos": 149,
+   "metacriticVotos": 147,
    "critica": "Después de una década sin la serie, el acuerdo es que no perdió el paso. Los elogios van a los más de ochenta minijuegos, a lo pegadiza que es la música y a un multijugador que varias reseñas señalan como lo mejor del paquete. Los reparos son chicos y coinciden: no todos los modos secundarios aciertan. Aparece además una queja de traducción, porque en varios países las letras adaptadas eran parte de la gracia y acá las canciones quedaron en japonés.",
    "imagen": "https://cdn2.steamgriddb.com/grid/b26ae72554f51d39b30fee3fab713723.png",
    "gamepass": false,
@@ -1034,7 +1034,7 @@
    "trailer": "https://youtube.com/embed/fJnpfLErDDQ",
    "metacritic": 79,
    "metacriticUsuarios": 9.0,
-   "metacriticVotos": 918,
+   "metacriticVotos": 919,
    "critica": "Es el caso inverso al de los juegos de EA: los jugadores lo ponen entre lo mejor del año y la prensa lo dejó en el escalón de abajo. Coinciden en lo bueno, que es el sistema de digievolución, la historia y por fin un presupuesto a la altura de la marca. Las reseñas de puntaje más bajo insisten en dos cosas: el arranque es lento y el diseño es bastante más lineal de lo que promete. Varias marcan también la cantidad de contenido descargable de pago. Para el fan de Digimon, ninguno de los dos reparos alcanza.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/library_600x900.jpg",
    "gamepass": false,
@@ -1069,7 +1069,7 @@
    "trailer": "https://youtube.com/embed/M84RSkUXe0U",
    "metacritic": 79,
    "metacriticUsuarios": 7.4,
-   "metacriticVotos": 276,
+   "metacriticVotos": 277,
    "critica": "Las reseñas de la versión 1.0 coinciden en que es otro juego que el del acceso anticipado: misiones rehechas, mapa más grande y un final de partida que antes no existía. Lo que elogian es la mezcla de supervivencia y criaturas, y lo sostenido que fue el estudio con las actualizaciones. Los reparos también se repiten: sigue habiendo aspereza técnica y el bucle de juego es implacable, con más grind del que algunos aguantan.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/library_600x900.jpg",
    "gamepass": true,
@@ -1432,6 +1432,7 @@
   {
    "id": "everspace-2-galactic-edition",
    "titulo": "EVERSPACE 2: GALACTIC EDITION",
+   "duracion": "≈ 29 h (historia) · 68 h (completo)",
    "relanzamiento": "En PC desde 2023 y en PS5 y Xbox desde 2024 — esta edición junta el juego con sus dos expansiones",
    "fecha": "2026-08-12",
    "plataformas": [
@@ -1756,6 +1757,7 @@
    "id": "ferocious",
    "titulo": "FEROCIOUS",
    "relanzamiento": "En PC desde diciembre de 2025",
+   "duracion": "≈ 11 h (historia)",
    "fecha": "2026-09-14",
    "plataformas": [
     "PS5",
@@ -1781,6 +1783,7 @@
    "id": "beyblade-x-evobattle",
    "titulo": "BEYBLADE X EVOBATTLE",
    "relanzamiento": "En Switch y PC desde noviembre de 2025, y en Switch 2 desde enero de 2026 — esta fecha corresponde a la edición de PS5",
+   "duracion": "≈ 12 h (historia)",
    "fecha": "2026-09-14",
    "plataformas": [
     "PS5"
@@ -1877,6 +1880,7 @@
   {
    "id": "sin-reloaded",
    "titulo": "SIN: RELOADED",
+   "duracion": "≈ 7,2 h (historia) · 12 h (completo)",
    "relanzamiento": "Remasterización del juego de 1998",
    "fecha": "2026-09-24",
    "plataformas": [
@@ -2219,8 +2223,8 @@
    "descripcion": "Un juego de supervivencia y terraformación para entre uno y diez jugadores. Se cae en un planeta inhóspito, se juntan recursos y se arma una base, y después hay que generar oxígeno, calor y presión hasta convertirlo en un lugar habitable.",
    "trailer": "https://youtube.com/embed/2AxSBrHMMt0",
    "metacritic": 81,
-   "metacriticUsuarios": 6.2,
-   "metacriticVotos": 142,
+   "metacriticUsuarios": 6.3,
+   "metacriticVotos": 143,
    "critica": "La prensa lo trata como lo que es: un juego de supervivencia tranquilo donde el objetivo es convertir una roca muerta en un planeta habitable, y ver el cielo cambiar de color es la recompensa. Coinciden en que engancha y en que le falta un cierre: varias reseñas piden un objetivo final o una historia que sostenga el tramo largo. La distancia con el puntaje de los jugadores es engañosa: la mayoría de las notas más bajas son de la versión de PC y se quejan de un cambio de requisitos que dejó a gente sin poder abrir el juego que ya había comprado, algo que no tiene nada que ver con esta edición.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284190/library_600x900.jpg",
    "gamepass": false,
@@ -2252,7 +2256,7 @@
    "trailer": "https://youtube.com/embed/9CV1BS3tkmQ",
    "metacritic": 82,
    "metacriticUsuarios": 9.3,
-   "metacriticVotos": 1976,
+   "metacriticVotos": 1969,
    "critica": "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
    "imagen": "https://cdn2.steamgriddb.com/grid/1812e589a2ad581bd076820f05965824.png",
    "gamepass": false,
@@ -2820,7 +2824,7 @@
    "trailer": "https://youtube.com/embed/Xjpao-nD5YU",
    "metacritic": 83,
    "metacriticUsuarios": 8.5,
-   "metacriticVotos": 2863,
+   "metacriticVotos": 2862,
    "critica": "Las reseñas son las de 2017, cuando salió en Switch. Es de los juegos que más divide dentro del elogio: casi todos coinciden en que el mundo, la banda sonora y la ambición son excepcionales, y casi todos aclaran que hay que aguantar para llegar. El combate tarda decenas de horas en abrirse y lo explica mal, los marcadores del mapa confunden, y el tono anime, con su fan service, es lo que más incomodó a la prensa occidental. Las notas más altas dicen lo mismo que las más bajas, sólo que decidieron que valía la pena.",
    "imagen": "https://cdn2.steamgriddb.com/grid/5ef6efaa8d75619baf4cb6a9cf2df5a6.png",
    "gamepass": false,
@@ -3308,6 +3312,7 @@
    "titulo": "BRAVE ESCAPE",
    "fecha": "2026-07-24",
    "relanzamiento": "En PC desde 2025",
+   "duracion": "≈ 22 h (historia)",
    "plataformas": [
     "XBOX",
     "PS5"
@@ -4984,7 +4989,7 @@
    },
    "metacritic": 77,
    "metacriticUsuarios": 7.0,
-   "metacriticVotos": 4870,
+   "metacriticVotos": 4827,
    "critica": "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
    "gamepass": false,
@@ -5079,6 +5084,7 @@
    "id": "the-posthumous-investigation",
    "titulo": "THE POSTHUMOUS INVESTIGATION",
    "relanzamiento": "En PC desde marzo de 2026 — esta fecha corresponde a la edición de Switch",
+   "duracion": "≈ 13 h (historia) · 14 h (completo)",
    "fecha": "2026-09-17",
    "plataformas": [
     "SWITCH"
@@ -5112,6 +5118,7 @@
    "id": "fading-echo",
    "titulo": "FADING ECHO",
    "relanzamiento": "En PC desde julio de 2026 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 6,5 h (historia)",
    "fecha": "2026-09-17",
    "plataformas": [
     "SWITCH2"
@@ -5202,7 +5209,7 @@
    "trailer": "https://youtube.com/embed/4fEzsQ6Hv8Y",
    "metacritic": 91,
    "metacriticUsuarios": 8.6,
-   "metacriticVotos": 136,
+   "metacriticVotos": 137,
    "critica": "Las doce reseñas publicadas son positivas, y varias lo ponen como la entrega que define a toda la saga Trails. Coinciden en que la remake mejora lo que ya había hecho bien la del primer capítulo: combate por turnos más profundo, ritmo más ágil, escenas nuevas y actuación de voces, con una historia que cierra el arco de Estelle y Joshua con mucho peso. Lo que le marcan es poco: los primeros capítulos se hacen lentos, lo visual es modesto y juega a lo seguro.",
    "imagen": "https://cdn2.steamgriddb.com/grid/44519406a3f5defa6dcf308d49beef43.png",
    "gamepass": false,
@@ -5253,6 +5260,7 @@
    "id": "zero-parades-for-dead-spies",
    "titulo": "ZERO PARADES: FOR DEAD SPIES",
    "relanzamiento": "En PC desde mayo de 2026 — esta fecha corresponde a la edición de PS5",
+   "duracion": "≈ 21 h (historia) · 38 h (completo)",
    "fecha": "2026-11-03",
    "plataformas": [
     "PS5"
@@ -5429,6 +5437,7 @@
    "id": "kingdom-of-night",
    "titulo": "KINGDOM OF NIGHT",
    "relanzamiento": "En PC desde diciembre de 2025",
+   "duracion": "≈ 12 h (historia) · 18 h (completo)",
    "fecha": "2026-11-05",
    "plataformas": [
     "XBOX",
@@ -5592,6 +5601,7 @@
    "id": "shape-of-dreams",
    "titulo": "SHAPE OF DREAMS",
    "relanzamiento": "En PC desde septiembre de 2025",
+   "duracion": "≈ 8,4 h (historia) · 57 h (completo)",
    "fecha": "2026-09-17",
    "plataformas": [
     "PS5",
@@ -5627,6 +5637,7 @@
    "id": "lego-batman-legacy-of-the-dark-knight",
    "titulo": "LEGO BATMAN: LEGACY OF THE DARK KNIGHT",
    "relanzamiento": "En PS5, Xbox y PC desde mayo de 2026 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 13 h (historia) · 34 h (completo)",
    "fecha": "2026-09-18",
    "plataformas": [
     "SWITCH2"
@@ -6377,6 +6388,7 @@
    "id": "agefield-high-rock-the-school",
    "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
    "relanzamiento": "En PC desde agosto de 2026",
+   "duracion": "≈ 19 h (historia)",
    "fecha": "2026-09-25",
    "plataformas": [
     "PS5"
@@ -6900,6 +6912,7 @@
    "id": "agefield-high-rock-the-school-xbox",
    "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
    "relanzamiento": "En PC desde agosto de 2026 y en PS5 desde el 25 de septiembre — esta fecha corresponde a la edición de Xbox",
+   "duracion": "≈ 19 h (historia)",
    "fecha": "2026-10-02",
    "plataformas": [
     "XBOX"
@@ -8340,6 +8353,7 @@
   {
    "id": "cotton-reboot",
    "titulo": "COTTON REBOOT!",
+   "duracion": "≈ 1,8 h (historia)",
    "fecha": "2026-10-22",
    "relanzamiento": "En Switch, PS4 y PC desde 2021 — esta fecha corresponde a las ediciones de Switch 2 y PS5",
    "plataformas": [
@@ -10342,6 +10356,7 @@
   {
    "id": "ghost-of-yotei-complete-edition",
    "titulo": "GHOST OF YOTEI: EDICIÓN COMPLETA",
+   "duracion": "≈ 30 h (historia) · 60 h (completo)",
    "relanzamiento": "El juego base salió en PS5 en octubre de 2025",
    "fecha": "2026-10-01",
    "plataformas": [
@@ -10990,6 +11005,7 @@
   {
    "id": "the-witcher-3-wild-hunt-remastered",
    "titulo": "THE WITCHER 3: WILD HUNT — REMASTERED",
+   "duracion": "≈ 52 h (historia) · 175 h (completo)",
    "relanzamiento": "El original salió en 2015 para PS4, Xbox One y PC — esta fecha corresponde a la edición remasterizada de Switch 2",
    "fecha": "2026-09-29",
    "plataformas": [
@@ -11131,6 +11147,7 @@
    "id": "shelldiver",
    "titulo": "SHELLDIVER",
    "relanzamiento": "En PC desde noviembre de 2025",
+   "duracion": "≈ 3,6 h (historia) · 4,2 h (completo)",
    "fecha": "2026-09-01",
    "plataformas": [
     "XBOX"
@@ -11201,6 +11218,7 @@
    "id": "the-royal-writ",
    "titulo": "THE ROYAL WRIT",
    "relanzamiento": "En PC desde agosto de 2025",
+   "duracion": "≈ 3,5 h (historia)",
    "fecha": "2026-09-10",
    "plataformas": [
     "XBOX",
@@ -11292,6 +11310,7 @@
    "id": "mewgenics",
    "titulo": "MEWGENICS",
    "relanzamiento": "En PC desde febrero de 2026",
+   "duracion": "≈ 82 h (historia) · 284 h (completo)",
    "fecha": "2026-09-08",
    "plataformas": [
     "PS5",
@@ -11328,6 +11347,7 @@
    "id": "granblue-fantasy-versus-rising-switch-2",
    "titulo": "GRANBLUE FANTASY VERSUS: RISING",
    "relanzamiento": "En PS5, PS4 y PC desde diciembre de 2023 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 12 h (historia)",
    "fecha": "2026-09-17",
    "plataformas": [
     "SWITCH2"
@@ -11398,6 +11418,7 @@
   {
    "id": "resident-evil-2-switch-2",
    "titulo": "RESIDENT EVIL 2: DELUXE EDITION",
+   "duracion": "≈ 8,9 h (historia) · 37 h (completo)",
    "relanzamiento": "En PS4, Xbox y PC desde enero de 2019 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-10-16",
    "plataformas": [
@@ -11422,6 +11443,7 @@
    "id": "resident-evil-3-switch-2",
    "titulo": "RESIDENT EVIL 3",
    "relanzamiento": "En PS4, Xbox y PC desde abril de 2020 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 6 h (historia) · 20 h (completo)",
    "fecha": "2026-10-16",
    "plataformas": [
     "SWITCH2"
@@ -11444,6 +11466,7 @@
   {
    "id": "resident-evil-4-switch-2",
    "titulo": "RESIDENT EVIL 4: GOLD EDITION",
+   "duracion": "≈ 16 h (historia) · 65 h (completo)",
    "relanzamiento": "En PS5, PS4, Xbox y PC desde marzo de 2023 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-10-16",
    "plataformas": [
@@ -11467,6 +11490,7 @@
   {
    "id": "marvels-guardians-of-the-galaxy-switch-2",
    "titulo": "MARVEL'S GUARDIANS OF THE GALAXY: ENCORE EDITION",
+   "duracion": "≈ 18 h (historia) · 26 h (completo)",
    "relanzamiento": "En PS5, PS4, Xbox y PC desde octubre de 2021 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-11-05",
    "plataformas": [
@@ -11489,6 +11513,7 @@
   {
    "id": "pikmin-4-switch-2",
    "titulo": "PIKMIN 4 — NINTENDO SWITCH 2 EDITION + ACADEMIA DANDORI",
+   "duracion": "≈ 18 h (historia) · 40 h (completo)",
    "relanzamiento": "En Switch desde julio de 2023 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-11-12",
    "plataformas": [
@@ -11512,6 +11537,7 @@
    "id": "monster-hunter-wilds-switch-2",
    "titulo": "MONSTER HUNTER WILDS",
    "relanzamiento": "En PS5, Xbox y PC desde febrero de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 18 h (historia) · 115 h (completo)",
    "fecha": "2026-12-04",
    "plataformas": [
     "SWITCH2"
@@ -11560,6 +11586,7 @@
    "id": "lego-harry-potter-collection-switch-2",
    "titulo": "LEGO HARRY POTTER COLLECTION",
    "relanzamiento": "En consolas desde 2016 y remasterizado en 2024 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 26 h (historia) · 53 h (completo)",
    "fecha": "2026-10-16",
    "plataformas": [
     "SWITCH2"
@@ -11582,6 +11609,7 @@
   {
    "id": "stellar-blade-switch-2",
    "titulo": "STELLAR BLADE: COMPLETE EDITION",
+   "duracion": "≈ 23 h (historia) · 57 h (completo)",
    "relanzamiento": "En PS5 desde abril de 2024 y en PC desde junio de 2025 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-11-05",
    "plataformas": [
@@ -11658,6 +11686,7 @@
    "id": "wandering-sword",
    "titulo": "WANDERING SWORD",
    "relanzamiento": "En PC desde septiembre de 2023 — esta fecha corresponde a la edición de PS5",
+   "duracion": "≈ 43 h (historia) · 99 h (completo)",
    "fecha": "2027-01-21",
    "plataformas": [
     "PS5"
@@ -11868,6 +11897,7 @@
   {
    "id": "hyrule-warriors-age-of-calamity-definitive-edition",
    "titulo": "HYRULE WARRIORS: LA ERA DEL CATACLISMO — EDICIÓN DEFINITIVA",
+   "duracion": "≈ 25 h (historia) · 77 h (completo)",
    "relanzamiento": "En Switch desde noviembre de 2020 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2027-02-25",
    "plataformas": [
@@ -12158,6 +12188,7 @@
    "id": "cairn-switch-2",
    "titulo": "CAIRN",
    "relanzamiento": "En PS5 y PC desde 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 12 h (historia) · 21 h (completo)",
    "fecha": "2027-12-31",
    "estimado": true,
    "fechaEstimada": "2027",
@@ -12460,6 +12491,7 @@
    "id": "moros-protocol",
    "titulo": "MOROS PROTOCOL",
    "relanzamiento": "En PC desde septiembre de 2025",
+   "duracion": "≈ 7 h (historia) · 20 h (completo)",
    "fecha": "2026-10-01",
    "plataformas": [
     "PS5",
@@ -12619,6 +12651,7 @@
    "id": "fatal-fury-city-of-the-wolves-switch-2",
    "titulo": "FATAL FURY: CITY OF THE WOLVES",
    "relanzamiento": "En PS5, PS4, Xbox y PC desde abril de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 6,7 h (historia) · 25 h (completo)",
    "fecha": "2026-10-22",
    "plataformas": [
     "SWITCH2"
@@ -12708,6 +12741,7 @@
   {
    "id": "tmnt-arcade-wrath-of-the-mutants-switch-2",
    "titulo": "TMNT ARCADE: WRATH OF THE MUTANTS",
+   "duracion": "≈ 1,2 h (historia) · 7 h (completo)",
    "relanzamiento": "En consolas y PC desde abril de 2024, y en salas de arcade desde 2017 — esta fecha corresponde a la edición de Switch 2",
    "fecha": "2026-10-09",
    "plataformas": [
@@ -12733,6 +12767,7 @@
    "id": "fading-echo-xbox",
    "titulo": "FADING ECHO",
    "relanzamiento": "En PC desde julio de 2026 y en Switch 2 desde el 17 de septiembre — esta fecha corresponde a la edición de Xbox",
+   "duracion": "≈ 6,5 h (historia)",
    "fecha": "2026-09-22",
    "plataformas": [
     "XBOX"
@@ -12792,6 +12827,7 @@
    "id": "neon-abyss-2",
    "titulo": "NEON ABYSS 2",
    "relanzamiento": "En PC, en acceso anticipado, desde julio de 2025 — esta fecha es la de la versión terminada y la de consolas",
+   "duracion": "≈ 4 h (historia)",
    "fecha": "2026-10-08",
    "plataformas": [
     "PS5",
