@@ -50,6 +50,15 @@
 
 const NOTICIAS = [
   {
+    id: "xbox-reestructuracion-septiembre-2026",
+    fecha: "2026-09-22",
+    categoria: "ANUNCIOS",
+    titulo: "XBOX RECORTA 268 PUESTOS Y PROPONE CERRAR NINJA THEORY",
+    texto: "Xbox anunció una nueva ronda de despidos: 268 puestos entre Halo Studios, otros estudios propios y áreas de gestión. También reorganiza sus estudios. Activision pasa a encargarse del próximo Halo con un equipo nuevo, separado del de Call of Duty, y suma a Rare y World's Edge. Obsidian queda bajo Bethesda y sigue con Grounded y con un Fallout nuevo hecho junto a Bethesda Game Studios. Playground y Turn 10 se fusionan en un solo estudio dedicado a Forza y Fable.\n\nLo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta y Xbox abrió la consulta con sus empleados para cerrarla, aunque dice que sigue buscando alternativas. Undead Labs, en cambio, se independizó con un editor nuevo y State of Decay 3 va a salir en Game Pass desde el primer día. Ninguno de los juegos con fecha en el calendario cambió.",
+    fuente: "https://news.xbox.com/en-us/2026/09/22/continuing-our-reset/",
+    juegos: ["fable", "halo-campaign-evolved", "grounded-2"]
+  },
+  {
     id: "pc-gaming-show-tokyo-direct-2026",
     fecha: "2026-09-20",
     categoria: "EVENTOS",

@@ -43,6 +43,15 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -161,6 +170,18 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-09-22</span>
+            <span class="noticia-titulo">▸ XBOX RECORTA 268 PUESTOS Y PROPONE CERRAR NINJA THEORY</span><span class="noticia-cat cat-anuncios">ANUNCIOS</span>
+          </div>
+          <p class="noticia-texto">Xbox anunció una nueva ronda de despidos: 268 puestos entre Halo Studios, otros estudios propios y áreas de gestión. También reorganiza sus estudios. Activision pasa a encargarse del próximo Halo con un equipo nuevo, separado del de Call of Duty, y suma a Rare y World&#x27;s Edge. Obsidian queda bajo Bethesda y sigue con Grounded y con un Fallout nuevo hecho junto a Bethesda Game Studios. Playground y Turn 10 se fusionan en un solo estudio dedicado a Forza y Fable.
+
+Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta y Xbox abrió la consulta con sus empleados para cerrarla, aunque dice que sigue buscando alternativas. Undead Labs, en cambio, se independizó con un editor nuevo y State of Decay 3 va a salir en Game Pass desde el primer día. Ninguno de los juegos con fecha en el calendario cambió.</p><a class="noticia-fuente" href="https://news.xbox.com/en-us/2026/09/22/continuing-our-reset/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">El regreso de Fable, con un nuevo comienzo a cargo de Playground Games, los de Forza Horizon. Un RPG de acción en un mundo abierto de Albión donde cada decisión cambia el recorrido y la reputación lo es todo, con el humor negro de siempre y ningún final feliz garantizado.</p>

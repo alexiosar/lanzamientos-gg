@@ -6,7 +6,23 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 21 Sep 2026 16:05:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 14:33:58 +0000</lastBuildDate>
+    <item>
+      <title>DUNE: AWAKENING: LLEGA A CONSOLAS CON MODO PARA UN JUGADOR</title>
+      <link>https://lanzamientos.lat/juegos/dune-awakening</link>
+      <guid isPermaLink="false">dune-awakening-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Funcom lo estrena en PS5 y Xbox, donde además entra en Game Pass, con una actualización grande: un modo para un jugador completo con tres niveles de dificultad o reglas a medida (tormentas de arena, recolección, experiencia, durabilidad de objetos), el final del Libro Uno para jugar la historia entera de corrido, recompensas nuevas en las misiones y mejoras en el combate. — DUNE: AWAKENING para XBOX / PS5.</description>
+    </item>
+    <item>
+      <title>XBOX RECORTA 268 PUESTOS Y PROPONE CERRAR NINJA THEORY</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">xbox-reestructuracion-septiembre-2026</guid>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Xbox anunció una nueva ronda de despidos: 268 puestos entre Halo Studios, otros estudios propios y áreas de gestión. También reorganiza sus estudios. Activision pasa a encargarse del próximo Halo con un equipo nuevo, separado del de Call of Duty, y suma a Rare y World's Edge. Obsidian queda bajo Bethesda y sigue con Grounded y con un Fallout nuevo hecho junto a Bethesda Game Studios. Playground y Turn 10 se fusionan en un solo estudio dedicado a Forza y Fable.
+
+Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta y Xbox abrió la consulta con sus empleados para cerrarla, aunque dice que sigue buscando alternativas. Undead Labs, en cambio, se independizó con un editor nuevo y State of Decay 3 va a salir en Game Pass desde el primer día. Ninguno de los juegos con fecha en el calendario cambió.</description>
+    </item>
     <item>
       <title>BLIGHTED: SE RETRASA A 2027</title>
       <link>https://lanzamientos.lat/juegos/blighted</link>
@@ -280,20 +296,6 @@ Lo inmediato es Diablo IV, que el 15 de septiembre llega a Switch 2 como Age of 
       <guid isPermaLink="false">the-legend-of-heroes-trails-to-azure-2026-09-10</guid>
       <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
       <description>Sale el mismo día que Trails from Zero y es su continuación directa: cierra el arco de Crossbell. Las reseñas dicen que paga todo lo que la primera parte dejó sembrado y varias lo ubican entre lo mejor de la saga. Hay que jugar la anterior primero, esto es un final. — THE LEGEND OF HEROES: TRAILS TO AZURE para PS5 / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>RUNESCAPE: DRAGONWILDS: SALE EL 15 Y ESE MISMO DÍA ENTRA A PS PLUS Y A GAME PASS</title>
-      <link>https://lanzamientos.lat/juegos/runescape-dragonwilds</link>
-      <guid isPermaLink="false">runescape-dragonwilds-2026-09-10</guid>
-      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Sony lo confirmó en el catálogo de PlayStation Plus de septiembre y Microsoft ya lo había anunciado para Game Pass el mismo día. O sea que el 15 se puede jugar con cualquiera de las dos suscripciones desde el estreno. — RUNESCAPE: DRAGONWILDS para SWITCH 2 / PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>HOT WHEELS INFINITE RUSH: DEBUTA CON 75: HOT WHEELS EN MUNDO ABIERTO</title>
-      <link>https://lanzamientos.lat/juegos/hot-wheels-infinite-rush</link>
-      <guid isPermaLink="false">hot-wheels-infinite-rush-2026-09-10</guid>
-      <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Sale hoy y la comparación se repite en todas las reseñas: es Hot Wheels Unleashed cruzado con Forza Horizon. Cuatro islas, muchos autos para desbloquear y manejo arcade. Le marcan que no tiene historia y que se hace repetitivo, pero coinciden en que se disfruta. — HOT WHEELS INFINITE RUSH para SWITCH 2 / XBOX / PS5.</description>
     </item>
   </channel>
 </rss>
