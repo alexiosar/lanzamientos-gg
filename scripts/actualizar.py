@@ -103,7 +103,35 @@ def puntaje_usuarios(html):
     return nota if 0 <= nota <= 10 else None   # red de seguridad: esto va de 0 a 10
 
 
+def validar_js():
+    """Que el navegador pueda leer los archivos de datos. Los scripts de Python los leen
+    con regex y aguantan casi cualquier cosa: el 22/09/2026 una comilla sin cerrar en
+    datos/juegos.js pasó toda la rutina sin un aviso y dejó la portada vacía en producción.
+    Si esto falla, NO se hace deploy."""
+    try:
+        subprocess.run(["node", "--version"], capture_output=True, check=True)
+    except (OSError, subprocess.CalledProcessError):
+        print("⚠ node no está instalado: no se pudo validar la sintaxis de datos/*.js\n")
+        return
+    rotos = []
+    for nombre in ("juegos.js", "noticias.js", "recomendados.js"):
+        ruta = RAIZ / "datos" / nombre
+        if not ruta.exists():
+            continue
+        r = subprocess.run(["node", "--check", str(ruta)], capture_output=True, text=True)
+        if r.returncode:
+            rotos.append((nombre, r.stderr.strip().splitlines()[:4]))
+    if rotos:
+        print("✗ ERROR DE SINTAXIS: el sitio no va a cargar. No hacer deploy.\n")
+        for nombre, lineas in rotos:
+            print(f"  datos/{nombre}")
+            for l in lineas:
+                print(f"    {l}")
+        raise SystemExit(1)
+
+
 def main():
+    validar_js()
     hoy = datetime.date.today().isoformat()
     maniana = (datetime.date.today() + datetime.timedelta(days=1)).isoformat()
     src = ARCHIVO.read_text(encoding="utf-8")

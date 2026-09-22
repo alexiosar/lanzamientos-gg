@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-22T14:33:58+00:00",
+ "generado": "2026-09-22T17:49:34+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-22",
@@ -35,7 +35,14 @@
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa8qh.jpg",
    "gamepass": true,
    "alta": "2026-08-24",
-   "url": "https://lanzamientos.lat/juegos/well-dweller"
+   "url": "https://lanzamientos.lat/juegos/well-dweller",
+   "noticias": [
+    {
+     "fecha": "2026-09-15",
+     "titulo": "ENTRA EN GAME PASS EL DÍA QUE SALE",
+     "texto": "Xbox lo incluyó en la tanda de Game Pass de fines de septiembre: está en el servicio desde el 22, el mismo día del lanzamiento. Lo hizo Kyle Thompson, que antes había hecho Crypt Custodian, y la demo que circuló en el Steam Next Fest de junio se fue ajustando con lo que pedían los jugadores."
+    }
+   ]
   },
   {
    "id": "demeo-x-dungeons-and-dragons-battlemarked",
@@ -62,7 +69,14 @@
    "critica": "El puntaje es el de la versión de PC, de noviembre. Las reseñas lo reciben como un juego táctico por turnos que captura bien una partida de mesa con amigos: miniaturas, dados, cartas en lugar de hojas de personaje y dos campañas con buenos momentos, además de partidas sueltas para volver. Brilla en cooperativo, y ya no hace falta realidad virtual para jugarlo. Los reparos son la cámara, un sistema de progresión que se queda corto, enemigos a veces demasiado fuertes y bastante caos cuando se juega de a muchos.",
    "imagen": "https://cdn2.steamgriddb.com/grid/d34e9520cb82668542e3a8b297c538ee.jpg",
    "alta": "2026-08-24",
-   "url": "https://lanzamientos.lat/juegos/demeo-x-dungeons-and-dragons-battlemarked"
+   "url": "https://lanzamientos.lat/juegos/demeo-x-dungeons-and-dragons-battlemarked",
+   "noticias": [
+    {
+     "fecha": "2026-09-22",
+     "titulo": "EN PC YA SALIÓ LA TERCERA CAMPAÑA",
+     "texto": "El mismo día del estreno en Xbox, Resolution Games lanzó en PC Campaign III: Twilight's End, una campaña paga que cierra el primer arco de la historia. Va desde Mithral Hall a las Marcas de Plata persiguiendo un caos que amenaza a la realidad misma."
+    }
+   ]
   },
   {
    "id": "rivage",
@@ -108,7 +122,7 @@
    "trailer": "https://youtube.com/embed/ztdVjiRpYfo",
    "metacritic": 78,
    "metacriticUsuarios": 6.1,
-   "metacriticVotos": 224,
+   "metacriticVotos": 227,
    "critica": "El puntaje es el de la versión de PC, de 2025. Las reseñas lo ven como una adaptación muy fiel de Dune en forma de supervivencia en línea: un Arrakis enorme para explorar, construcción, crafteo, la amenaza constante de los gusanos y una capa política en la que Atreides y Harkonnen se disputan el control del servidor cada semana. Coinciden en que exige paciencia, porque arranca lento y castiga a quien no planifica. Los reparos son errores técnicos, problemas de conexión, controles algo torpes y un combate y un final de juego que todavía necesitan ajustes.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/library_600x900.jpg",
    "gamepass": true,
@@ -146,7 +160,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-28",
-   "url": "https://lanzamientos.lat/juegos/graveyard-keeper-2"
+   "url": "https://lanzamientos.lat/juegos/graveyard-keeper-2",
+   "noticias": [
+    {
+     "fecha": "2026-09-14",
+     "titulo": "HUBO DEMO UNA SEMANA ANTES",
+     "texto": "Lazy Bear Games publicó una demo ocho días antes del lanzamiento. Deja recorrer el pueblo, probar el crafteo, cavar y decorar tumbas y dirigir por primera vez un ejército de muertos vivos, que en esta secuela sirve para defender el pueblo de los zombis."
+    }
+   ]
   },
   {
    "id": "fading-echo-xbox",
