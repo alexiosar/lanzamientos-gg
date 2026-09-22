@@ -17,6 +17,49 @@ una semana son ruido, los de un mes ya dicen algo.
 | 01/08/2026 | 31 | 183 | 176 | 140 | 0 | 100 | 300 | 291 |
 | 01/09/2026 | 361 | 602 | 27 | 4.870 | 32 | 240 | 590 | 369 |
 
+## Objetivos para el 01/10/2026 (escritos el 22/09/2026)
+
+Anotados antes de ver los números, para no acomodar la vara después. Son objetivos, no
+pronósticos: buena parte de esto no se controla desde el sitio.
+
+**Agosto fue el mes de la indexación y septiembre fue un mes de contenido.** Entraron 89
+juegos, se reescribieron unas 140 descripciones y se sumaron noticias y crítica en muchas
+fichas, más las páginas de mes y 2027. Eso no se ve en "indexadas": se ve en posición y en
+clics. Este mes el número que importa deja de ser las impresiones y pasa a ser el clic.
+
+| Métrica | 01/09 | Bien | Muy bien | Mala señal |
+|---|---|---|---|---|
+| Indexadas | 361 | 420 | 450+ | menos de 380 |
+| Impresiones (28 d) | 4.870 | 9.000 | 15.000+ | menos de 6.000 |
+| Clics (28 d) | 32 | 100 | 200+ | menos de 60 |
+| CTR | 0,65% | ~1% | 1,5% | que baje mientras suben las impresiones |
+| Visitas (30 d) | 240 | 500 | 800+ | menos de 350 |
+| Páginas vistas | 590 | 1.300 | 2.000+ | que caiga la relación con las visitas |
+
+Las 420 indexadas no son crecimiento puro: el calendario pasó de 369 a 458 juegos, así que
+hay 89 fichas nuevas haciendo cola. Quedarse en 361 con 89 páginas más sí sería un problema.
+
+**Tres cosas a mirar aparte de la tabla:**
+
+1. **Páginas por visita.** El 01/09 eran 2,46. Si sube, el enlazado interno y las páginas de
+   mes están funcionando. Si baja mientras crecen las visitas, es tráfico que entra a una
+   ficha y se va.
+2. **`/octubre-2026` sola, no dentro del total.** Es la primera página de mes que llega
+   estrenada al mes que le toca, y "juegos que salen en octubre" se busca a fin de septiembre
+   y en los primeros días del mes.
+3. **"Descubierta sin indexar".** Estaba en 27. Con 89 fichas nuevas puede subir a 50 o 60 sin
+   que pase nada; si se dispara a 150, ahí hay que mirar.
+
+**Los votos todavía no se miden.** Se publicaron el 15/09 y en la primera semana juntaron tres
+en diez fichas; los dos posteos diarios existen recién desde el 18. Octubre es el primer mes
+con datos reales: se anotan como columna nueva desde el 01/10, sin objetivo, para tener contra
+qué comparar en noviembre.
+
+**Si los clics no llegan, no es motivo para tocar nada.** Son lo más difícil de mover y lo que
+más depende de cosas ajenas: qué juegos grandes salen, si alguien enlaza el sitio, cómo
+reparte Google. Si octubre da 60 clics pero las impresiones y la posición siguieron subiendo,
+el mes fue bueno igual.
+
 ## Cómo leerlo
 
 **El orden en que mejoran las cosas es siempre el mismo:** primero suben las impresiones,
