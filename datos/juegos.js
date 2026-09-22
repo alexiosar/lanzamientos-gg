@@ -1341,6 +1341,13 @@ const JUEGOS = [
     metacriticUsuarios: null,
     critica: "De las mejores recepciones del mes. Las reseñas lo ponen entre los metroidvanias más pulidos de los últimos años: ritmo muy fluido, un combate fácil de agarrar, enemigos con mucho diseño y una exploración que siempre tiene algo para descubrir, además de una historia contada con personajes muy queribles. Lo recomiendan en especial a quien jugó Crypt Custodian, el juego anterior del mismo estudio. El único reparo es que es más lineal y directo que otros del género, y a los veteranos puede quedarles corto de profundidad.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa8qh.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-15",
+        titulo: "ENTRA EN GAME PASS EL DÍA QUE SALE",
+        texto: "Xbox lo incluyó en la tanda de Game Pass de fines de septiembre: está en el servicio desde el 22, el mismo día del lanzamiento. Lo hizo Kyle Thompson, que antes había hecho Crypt Custodian, y la demo que circuló en el Steam Next Fest de junio se fue ajustando con lo que pedían los jugadores."
+      }
+    ],
     gamepass: true,
     alta: "2026-08-24"
   },
@@ -1360,7 +1367,14 @@ const JUEGOS = [
     metacriticVotos: 14,
     critica: "El puntaje es el de la versión de PC, de noviembre. Las reseñas lo reciben como un juego táctico por turnos que captura bien una partida de mesa con amigos: miniaturas, dados, cartas en lugar de hojas de personaje y dos campañas con buenos momentos, además de partidas sueltas para volver. Brilla en cooperativo, y ya no hace falta realidad virtual para jugarlo. Los reparos son la cámara, un sistema de progresión que se queda corto, enemigos a veces demasiado fuertes y bastante caos cuando se juega de a muchos.",
     imagen: "https://cdn2.steamgriddb.com/grid/d34e9520cb82668542e3a8b297c538ee.jpg",
-    alta: "2026-08-24"
+    alta: "2026-08-24    noticias: [
+      {
+        fecha: "2026-09-22",
+        titulo: "EN PC YA SALIÓ LA TERCERA CAMPAÑA",
+        texto: "El mismo día del estreno en Xbox, Resolution Games lanzó en PC Campaign III: Twilight's End, una campaña paga que cierra el primer arco de la historia. Va desde Mithral Hall a las Marcas de Plata persiguiendo un caos que amenaza a la realidad misma."
+      }
+    ],
+"
   },
   {
     id: "sin-reloaded",
@@ -3320,7 +3334,7 @@ const JUEGOS = [
     },
     metacritic: 83,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 1239,
+    metacriticVotos: 1240,
     imagen: "https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png",
     critica: "Más de treinta reseñas y un acuerdo raro de ver en un debut: Rebel Wolves —armado por gente que hizo The Witcher 3— salió bien parado. Lo que más se elogia es lo que lo hace distinto: el reloj de treinta días que corre mientras jugás, la doble condición de humano de día y vampiro de noche, y decisiones que tienen consecuencias de verdad. También la escritura y los personajes. El reparo que más se repite es de dónde viene: toma mucho de The Witcher 3 y el mundo abierto se siente de fórmula, con misiones secundarias que se parecen entre sí. Se le marcan además animaciones faciales duras y un combate que a la larga se vuelve repetitivo.",
     noticias: [
@@ -3678,7 +3692,7 @@ const JUEGOS = [
     },
     metacritic: 77,
     metacriticUsuarios: 7.1,
-    metacriticVotos: 5060,
+    metacriticVotos: 5066,
     critica: "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
@@ -3823,7 +3837,7 @@ const JUEGOS = [
     },
     metacritic: 89,
     metacriticUsuarios: 9.0,
-    metacriticVotos: 490,
+    metacriticVotos: 491,
     critica: "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
     noticias: [
@@ -8000,6 +8014,13 @@ const JUEGOS = [
     metacriticUsuarios: null,
     critica: "Recepción buena, con reparos. Las reseñas destacan el humor negro, la historia y las mejoras sobre el primero, que escuchó a los jugadores: moverse es más rápido, hay viaje rápido, voces y hasta defensa de torres con los muertos vivos. El reparo que se repite es el mismo que tenía el original: todo lleva demasiados pasos y la rutina se vuelve pesada. Para la mayoría ese exceso de sistemas se perdona, y para la reseña más dura es justamente lo que lo arruina.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobwhy.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-14",
+        titulo: "HUBO DEMO UNA SEMANA ANTES",
+        texto: "Lazy Bear Games publicó una demo ocho días antes del lanzamiento. Deja recorrer el pueblo, probar el crafteo, cavar y decorar tumbas y dirigir por primera vez un ejército de muertos vivos, que en esta secuela sirve para defender el pueblo de los zombis."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-28"
