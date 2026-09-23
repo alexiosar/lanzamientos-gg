@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 22 Sep 2026 17:49:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 13:13:56 +0000</lastBuildDate>
+    <item>
+      <title>CLIVE BARKER'S HELLRAISER: REVIVAL: CUATRO MINUTOS DE GAMEPLAY, Y HAY DEMO EN PC</title>
+      <link>https://lanzamientos.lat/juegos/clive-barkers-hellraiser-revival</link>
+      <guid isPermaLink="false">clive-barkers-hellraiser-revival-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Saber Interactive publicó un repaso del gameplay. El combate mezcla armas cuerpo a cuerpo y de fuego con esquivar, buscar munición, poner trampas y negociar mejoras, contra cultistas y otras criaturas. La caja de la Configuración Génesis funciona como poder sobrenatural: lanza objetos, prende fuego a los enemigos y acumula sufrimiento para desatar las cadenas del infierno. En Steam ya hay una demo. — CLIVE BARKER'S HELLRAISER: REVIVAL para PS5 / XBOX / SWITCH 2.</description>
+    </item>
     <item>
       <title>DEMEO X DUNGEONS &amp; DRAGONS: BATTLEMARKED: EN PC YA SALIÓ LA TERCERA CAMPAÑA</title>
       <link>https://lanzamientos.lat/juegos/demeo-x-dungeons-and-dragons-battlemarked</link>
@@ -36,6 +43,13 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
       <guid isPermaLink="false">blighted-2026-09-21</guid>
       <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
       <description>DrinkBox Studios lo pasó a 2027. Estaba previsto para fines de 2026 y todavía no tiene día; la página de Steam ya dice 2027. — BLIGHTED para XBOX / SWITCH 2 / PS5.</description>
+    </item>
+    <item>
+      <title>MAD KING REDEMPTION: YA ESTÁ EN XBOX, Y HOY ENTRA EN GAME PASS</title>
+      <link>https://lanzamientos.lat/juegos/mad-king-redemption</link>
+      <guid isPermaLink="false">mad-king-redemption-2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Secret Mission lo sacó en Xbox el 21 de septiembre y avisó que entraba en Game Pass el 23. Venía de cuatro meses de acceso anticipado en PC, donde la última actualización grande sumó progresión, historia, esbirros, reliquias y varias ranuras de guardado. — MAD KING REDEMPTION para XBOX.</description>
     </item>
     <item>
       <title>DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED: HAY DEMO DESDE EL 24 DE SEPTIEMBRE</title>
@@ -103,11 +117,11 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
 Los otros tres ya tienen día. Neon Abyss 2 deja el acceso anticipado el 8 de octubre y sale en PS5, Xbox y Switch. Mycopunk, el shooter cooperativo de Devolver Digital, hace lo mismo el 20 de octubre y ese día debuta en PS5. We Were Here Tomorrow, el capítulo nuevo de la serie de puzles para dos, sale también el 20 en PS5 y Xbox.</description>
     </item>
     <item>
-      <title>FADING ECHO: LLEGA A XBOX EL 22 DE SEPTIEMBRE</title>
+      <title>FADING ECHO: TAMBIÉN SALIÓ EN PS5 Y XBOX</title>
       <link>https://lanzamientos.lat/juegos/fading-echo</link>
       <guid isPermaLink="false">fading-echo-2026-09-18</guid>
       <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Xbox lo incluyó en los lanzamientos de la semana: sale en Xbox Series el 22, cinco días después que en Switch 2. En PS5 está anunciado, pero todavía sin fecha. — FADING ECHO para SWITCH 2.</description>
+      <description>El 22 de septiembre salió también en PS5 y en Xbox Series, cinco días después que en Switch 2. — FADING ECHO para SWITCH 2.</description>
     </item>
     <item>
       <title>MOOMINTROLL: WINTER'S WARMTH: DEBUT CON 83 EN METACRITIC</title>
@@ -117,11 +131,11 @@ Los otros tres ya tienen día. Neon Abyss 2 deja el acceso anticipado el 8 de oc
       <description>Sale hoy con 83 sobre 22 reseñas. La crítica lo recomienda como un juego tranquilo y precioso, que muestra un lado del Valle de los Mumin que los libros casi no cuentan: el invierno. — MOOMINTROLL: WINTER'S WARMTH para PS5 / SWITCH / SWITCH 2.</description>
     </item>
     <item>
-      <title>FADING ECHO: SALE EL 22 DE SEPTIEMBRE EN XBOX</title>
-      <link>https://lanzamientos.lat/juegos/fading-echo-xbox</link>
-      <guid isPermaLink="false">fading-echo-xbox-2026-09-18</guid>
+      <title>FADING ECHO: YA ESTÁ EN PS5 Y XBOX</title>
+      <link>https://lanzamientos.lat/juegos/fading-echo-consolas</link>
+      <guid isPermaLink="false">fading-echo-consolas-2026-09-18</guid>
       <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Xbox lo incluyó en los lanzamientos de la semana, con fecha 22 de septiembre para Xbox Series, cinco días después de la salida en Switch 2. En PS5 está anunciado, pero todavía sin fecha. — FADING ECHO para XBOX.</description>
+      <description>Salió el 22 de septiembre en PS5 y en Xbox Series, cinco días después de la edición de Switch 2. El blog de PlayStation lo anunció ese mismo día y en la PlayStation Store ya está a la venta. — FADING ECHO para PS5 / XBOX.</description>
     </item>
     <item>
       <title>THE POSTHUMOUS INVESTIGATION: YA ESTÁ EN SWITCH</title>
@@ -280,22 +294,6 @@ El resto son juegos que ya estaban a la venta y se suman al plan Premium, como N
       <guid isPermaLink="false">diablo-4-2026-09-12</guid>
       <pubDate>Sat, 12 Sep 2026 12:00:00 +0000</pubDate>
       <description>Blizzard confirmó que la versión de Switch 2 se llama Age of Hatred Collection y sale el 15 de septiembre. La eShop ya la tiene con esa fecha. — DIABLO IV: AGE OF HATRED COLLECTION para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>BLIZZARD ANUNCIÓ DIABLO V Y UN STARCRAFT QUE ES UN SHOOTER</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">blizzcon-2026-diablo-v-starcraft</guid>
-      <pubDate>Sat, 12 Sep 2026 12:00:00 +0000</pubDate>
-      <description>La ceremonia de apertura de la BlizzCon trajo dos anuncios grandes, los dos lejanos. Diablo V sale en la primavera boreal de 2029 y arranca con Santuario ya caída y Diablo ganador. StarCraft vuelve en 2030, pero no como estrategia: es un shooter de mundo abierto con historia propia. Ninguno de los dos tiene consolas confirmadas.
-
-Lo inmediato es Diablo IV, que el 15 de septiembre llega a Switch 2 como Age of Hatred Collection, el mismo día en que arranca una temporada por los treinta años de la saga con los Males Supremos de vuelta. La Amazona se suma como clase en la primera mitad de 2027.</description>
-    </item>
-    <item>
-      <title>YET ANOTHER ZOMBIE SURVIVORS: DEBUT CON 79 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/yet-another-zombie-survivors</link>
-      <guid isPermaLink="false">yet-another-zombie-survivors-2026-09-11</guid>
-      <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Entró al medidor con 79, aunque sobre pocas reseñas: en PS5 lo cubrieron apenas un puñado de medios. Las cuatro que están publicadas coinciden en que el escuadrón de tres es lo que lo separa del montón de survivors-likes, y en que se queda sin sorpresas antes de lo que uno querría. — YET ANOTHER ZOMBIE SURVIVORS para PS5 / PS4.</description>
     </item>
   </channel>
 </rss>
