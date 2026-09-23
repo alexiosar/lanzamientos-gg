@@ -135,6 +135,7 @@ def main():
     hoy = datetime.date.today().isoformat()
     maniana = (datetime.date.today() + datetime.timedelta(days=1)).isoformat()
     src = ARCHIVO.read_text(encoding="utf-8")
+    src_al_leer = src   # para no pisar ediciones hechas mientras esto corría (ver más abajo)
 
     entradas = re.findall(
         r'id: "([^"]+)",\s*titulo: "([^"]+)",\s*(?:relanzamiento[^\n]*\n\s*)?(?:duracion[^\n]*\n\s*)?fecha: "([^"]+)",', src)
@@ -314,7 +315,16 @@ def main():
         patron = re.compile(r'(id: "' + re.escape(gid) + r'",.*?)metacritic: null,', re.S)
         src = patron.sub(lambda m: m.group(1) + f"metacritic: {score},", src, count=1)
     if aplicados or selladas or usuarios or criticas:
-        ARCHIVO.write_text(src, encoding="utf-8")
+        # La consulta a Metacritic tarda varios minutos y `src` es la foto del archivo al
+        # arrancar. Si alguien editó datos/juegos.js mientras tanto, escribirla borra esa
+        # edición sin dejar rastro: pasó el 23/09/2026 y se perdió el renombre de una ficha.
+        # Ante la duda, se pierden los puntajes de esta corrida —que se vuelven a consultar
+        # en la próxima— y no el trabajo a mano.
+        if ARCHIVO.read_text(encoding="utf-8") != src_al_leer:
+            print("\n⚠ datos/juegos.js cambió mientras corría esto: NO se escribieron los")
+            print("  puntajes para no pisar esa edición. Volver a correr el script.")
+        else:
+            ARCHIVO.write_text(src, encoding="utf-8")
 
     # 2) Regenerar
     print("\n── Regenerando fichas y sitemap ──")

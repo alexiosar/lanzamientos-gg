@@ -3451,7 +3451,7 @@ const JUEGOS = [
     },
     metacritic: 85,
     metacriticUsuarios: 8.5,
-    metacriticVotos: 821,
+    metacriticVotos: 822,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
     critica: "Más de cincuenta reseñas y un acuerdo casi unánime: es el mejor regreso posible después de veinte años sin la saga, y varias lo ponen entre los mejores juegos de acción del año. El elogio se concentra en una sola cosa, el combate — parries que exigen tiempo exacto, el Issen, y capas de mecánicas que se van sumando hasta el final. Se destaca también que Capcom NO lo convirtió en un soulslike, que era el camino fácil. Los reparos son tres y se repiten: los jefes se reutilizan y se notan, el Kioto abierto que hace de eje se siente repetitivo y fuera de tono con las misiones lineales, y la historia es lo más flojo del conjunto. Varias reseñas recomiendan arrancar en dificultad Historia para agarrarle la mano.",
     noticias: [
@@ -3692,7 +3692,7 @@ const JUEGOS = [
     },
     metacritic: 76,
     metacriticUsuarios: 6.7,
-    metacriticVotos: 4559,
+    metacriticVotos: 4560,
     critica: "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
@@ -3837,7 +3837,7 @@ const JUEGOS = [
     },
     metacritic: 89,
     metacriticUsuarios: 8.9,
-    metacriticVotos: 540,
+    metacriticVotos: 541,
     critica: "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
     noticias: [
@@ -4813,7 +4813,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9hSoFKn8cTk",
     metacritic: 86,
     metacriticUsuarios: 8.2,
-    metacriticVotos: 207,
+    metacriticVotos: 208,
     critica: "Las reseñas son las del remake de 2023, que en esta fecha llega a Switch 2. El acuerdo es amplio y va en la misma dirección: es un ejemplo de cómo rehacer un RPG viejo sin traicionarlo. Se elogian la mezcla de personajes en píxeles con escenarios en 3D, la música rearreglada y un sistema de combate que envejeció mejor que el resto. Los reparos son los del original que el remake decidió no tocar: la exploración se siente anticuada y la historia cae en el cliché en su tramo final.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2238900/library_600x900.jpg",
     noticias: [
