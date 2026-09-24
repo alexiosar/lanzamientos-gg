@@ -539,7 +539,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1322,
+    metacriticVotos: 1323,
     critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://cdn2.steamgriddb.com/grid/a9f7e2af063303f02fd5d479c8816c79.png",
     noticias: [
@@ -3124,7 +3124,7 @@ const JUEGOS = [
     },
     metacritic: 78,
     metacriticUsuarios: 8.2,
-    metacriticVotos: 714,
+    metacriticVotos: 715,
     critica: "Es el más discutido de la semana: hay reseñas de 95 y de 60 describiendo el mismo juego. Todas coinciden en dos cosas. Que la serie cambió de género —menos sigilo y menos ratas, más acción y aventura al estilo Uncharted— y que en lo visual y lo sonoro está a la altura, con la banda sonora de Olivier Derivière llevándose elogios aparte. La discusión es si el cambio le sienta bien. Los que lo bajan repiten tres reparos: arranca muy lento, el combate se vuelve repetitivo y hay problemas de rendimiento. Sophia, la protagonista nueva, gusta casi por unanimidad.",
     imagen: "https://cdn2.steamgriddb.com/grid/19488d75fad434aed855298dad9d9d76.png",
     noticias: [
@@ -3579,9 +3579,9 @@ const JUEGOS = [
   {
     id: "screenbound",
     titulo: "SCREENBOUND",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "SEPTIEMBRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["PS5", "XBOX"],
     genero: ["PLATAFORMA", "INDIE"],
     desarrollador: "CRESCENT MOON GAMES",
@@ -3589,6 +3589,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/x9OWKc0N3b8",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2805070/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN SEPTIEMBRE",
+        texto: "No salió en septiembre y todavía no tiene fecha nueva. La PlayStation Store y la tienda de Xbox lo listan como anunciado, sin día."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -3693,7 +3700,7 @@ const JUEGOS = [
     },
     metacritic: 76,
     metacriticUsuarios: 6.8,
-    metacriticVotos: 4696,
+    metacriticVotos: 4700,
     critica: "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
@@ -3838,7 +3845,7 @@ const JUEGOS = [
     },
     metacritic: 89,
     metacriticUsuarios: 8.9,
-    metacriticVotos: 586,
+    metacriticVotos: 587,
     critica: "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
     noticias: [
@@ -3868,7 +3875,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/4fEzsQ6Hv8Y",
     metacritic: 91,
     metacriticUsuarios: 8.7,
-    metacriticVotos: 170,
+    metacriticVotos: 169,
     critica: "Las doce reseñas publicadas son positivas, y varias lo ponen como la entrega que define a toda la saga Trails. Coinciden en que la remake mejora lo que ya había hecho bien la del primer capítulo: combate por turnos más profundo, ritmo más ágil, escenas nuevas y actuación de voces, con una historia que cierra el arco de Estelle y Joshua con mucho peso. Lo que le marcan es poco: los primeros capítulos se hacen lentos, lo visual es modesto y juega a lo seguro.",
     noticias: [
       {
@@ -4406,7 +4413,7 @@ const JUEGOS = [
     desarrollador: "OSOME STUDIO",
     descripcion: "Un plataformas en 3D donde Garfield tiene que escapar de una pesadilla llena de verduras, y el gato más vago del mundo no tiene más remedio que moverse.",
     trailer: "https://youtube.com/embed/aWM1GH3uF2g",
-    metacritic: 67,
+    metacritic: 68,
     metacriticUsuarios: null,
     critica: "Reseñas divididas, según a quién se le hable. Es un plataformas en 3D pensado para los más chicos, con un humor que funciona, buena variedad de niveles, unas diez horas de juego y cosas para coleccionar que invitan a completarlo. Varias lo comparan con los plataformas de la época de PS3. Para las reseñas más duras es demasiado simple y fácil, chato de principio a fin, y el carisma del personaje no alcanza para disimularlo.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocat5.jpg",
@@ -4805,9 +4812,9 @@ const JUEGOS = [
   {
     id: "rogue-reigns",
     titulo: "ROGUE REIGNS",
-    fecha: "2026-09-30",
+    fecha: "2026-10-31",
     estimado: true,
-    fechaEstimada: "SEPTIEMBRE 2026",
+    fechaEstimada: "OCTUBRE 2026",
     plataformas: ["PS5", "XBOX", "SWITCH"],
     genero: ["ESTRATEGIA", "ROGUELIKE", "CARTAS", "INDIE"],
     desarrollador: "VENN STUDIOS",
@@ -4815,6 +4822,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/-3RypP7ReQ0",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc0i7.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "SE CORRE A OCTUBRE",
+        texto: "No salió en septiembre. Steam lo tiene ahora para el 28 de octubre, pero las tiendas de consola todavía no le pusieron fecha, así que el día puede cambiar en PS5, Xbox y Switch."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-28"
@@ -5847,7 +5861,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/k6WzQvpoiBk",
     metacritic: 79,
     metacriticUsuarios: 7.6,
-    metacriticVotos: 42,
+    metacriticVotos: 43,
     critica: "Quince reseñas y un acuerdo raro de ver: a nadie le disgusta. Es un puzle de lógica sobre sentar gente respetando lo que cada uno pide, con reglas simples que arman situaciones cada vez más enredadas, y lo que más se elogia es justamente que no se complica de más. También el dibujo, la música y una historia chiquita que varios destacan sin esperarla. El reparo que se repite es la duración y la repetición: son unas cinco horas y hacia el final las situaciones se parecen entre sí, así que rinde mejor de a ratos que de una sentada.",
     metacriticUsuarios: 7.5,
     metacriticVotos: 42,
@@ -5927,16 +5941,23 @@ const JUEGOS = [
   {
     id: "kyoto-xanadu",
     titulo: "KYOTO XANADU",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
-    plataformas: ["SWITCH2", "PS5"],
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
+    plataformas: ["SWITCH2", "SWITCH", "PS5"],
     genero: ["RPG", "ACCION", "ANIME"],
     desarrollador: "NIHON FALCOM",
     descripcion: "Nihon Falcom traslada la saga Xanadu a un Kioto moderno donde lo sobrenatural irrumpe en la vida cotidiana: acción, exploración y vínculos entre personajes en un action RPG de los creadores de Trails y Ys.",
     trailer: "https://youtube.com/embed/CelHI1lRCYQ",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/2be600be2944a07207e14700b0b8558d.png",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "SIN FECHA TODAVÍA, PERO SIGUE EN 2026",
+        texto: "No salió en el tercer trimestre. La eShop lo lista para Switch con salida en 2026 y sin día, y en la PlayStation Store todavía no aparece."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-27"
@@ -5968,16 +5989,23 @@ const JUEGOS = [
   {
     id: "solo-leveling-arise-overdrive",
     titulo: "SOLO LEVELING: ARISE OVERDRIVE",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
-    plataformas: ["PS5", "XBOX"],
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
+    plataformas: ["PS5"],
     genero: ["ACCION", "RPG", "ANIME"],
     desarrollador: "NETMARBLE NEO",
     descripcion: "Un RPG de acción basado en Solo Leveling, el webtoon con más de 14.000 millones de vistas. Se sigue al protagonista desde sus comienzos como cazador de rango E.",
     trailer: "https://youtube.com/embed/B22MqQQK5eE",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2373990/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "La versión de Xbox ya salió, en noviembre de 2025, junto con la de PC. La de PS5 no salió en el tercer trimestre y todavía no aparece en la PlayStation Store."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-27"
@@ -7327,9 +7355,9 @@ const JUEGOS = [
   {
     id: "he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction",
     titulo: "HE-MAN AND THE MASTERS OF THE UNIVERSE: DRAGON PEARL OF DESTRUCTION",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["PS4", "XBOX", "PS5", "SWITCH2"],
     genero: ["ACCION"],
     desarrollador: "BITMAP BUREAU",
@@ -7337,6 +7365,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/D37CMwPC6iE",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/e23b734348e038fb338f5305585c4647.png",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "No salió en el tercer trimestre y todavía no tiene fecha nueva. Ninguna tienda de consola lo lista y en Steam figura como próximamente."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -7344,9 +7379,9 @@ const JUEGOS = [
   {
     id: "endurance-motorsport-series",
     titulo: "ENDURANCE MOTORSPORT SERIES",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["PS5", "XBOX"],
     genero: ["SIMULACION", "DEPORTES"],
     desarrollador: "KT RACING",
@@ -7354,6 +7389,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/J-ifjJjj328",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2228250/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "No salió en el tercer trimestre y todavía no tiene fecha nueva. Nacon siguió mostrando circuitos, y la PlayStation Store y la tienda de Xbox lo listan sin día."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -7385,9 +7427,9 @@ const JUEGOS = [
   {
     id: "danger-mouse",
     titulo: "DANGER MOUSE",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["PS4", "PS5", "SWITCH", "XBOX"],
     genero: ["ACCION", "AVENTURA", "CASUAL"],
     desarrollador: "ART OF PLAY INTERACTIVE",
@@ -7395,6 +7437,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/zSdGKM3TckQ",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3975060/ab93b539814a85f3bbefdb55e00f01f5081c4b03/header.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "No salió en el tercer trimestre y todavía no tiene fecha nueva. Ninguna tienda de consola lo lista y en Steam figura como próximamente."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -7402,9 +7451,9 @@ const JUEGOS = [
   {
     id: "ember-blade",
     titulo: "EMBER AND BLADE",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["PS5", "XBOX", "SWITCH2"],
     genero: ["ACCION", "RPG"],
     desarrollador: "LINE GAMES CORPORATION",
@@ -7412,6 +7461,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/iqdMpH1g2dg",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/d73e8fdfcf0e56f4c95db8f5ad923b16.png",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "No salió en el tercer trimestre y todavía no tiene fecha nueva. Ninguna tienda de consola lo lista y en Steam figura como próximamente."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -7419,9 +7475,9 @@ const JUEGOS = [
   {
     id: "lifted",
     titulo: "LIFTED",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["PS5", "SWITCH2", "XBOX"],
     genero: ["ACCION", "AVENTURA", "INDIE"],
     desarrollador: "ADVENTURE WORKS L.L.C.",
@@ -7429,6 +7485,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/694K_CVmmME",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184020/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "En PC salió el 22 de julio, pero las versiones de consola no llegaron en el tercer trimestre y todavía no tienen fecha: ninguna tienda las lista."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -7436,9 +7499,9 @@ const JUEGOS = [
   {
     id: "road-truckers-new-beginning",
     titulo: "ROAD TRUCKERS: NEW BEGINNING",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["PS5"],
     genero: ["RPG", "SIMULACION"],
     desarrollador: "ROAD STUDIO S.A.",
@@ -7446,6 +7509,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/hb9biVh1nu8",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa65z.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "No salió en el tercer trimestre y todavía no tiene fecha nueva. Road Studio abrió una prueba abierta en Steam y la PlayStation Store todavía no lo lista."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -7453,9 +7523,9 @@ const JUEGOS = [
   {
     id: "super-battle-golf",
     titulo: "SUPER BATTLE GOLF",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["SWITCH2", "XBOX", "PS5"],
     genero: ["CASUAL", "INDIE", "DEPORTES"],
     desarrollador: "BRIMSTONE",
@@ -7463,6 +7533,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/nyYtqpj0-wE",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/31c2798f33bcbfa79b1840656b709249.png",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "En PC está desde febrero, pero las versiones de consola no llegaron en el tercer trimestre. La tienda de Xbox lo lista sin día."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -7494,9 +7571,9 @@ const JUEGOS = [
   {
     id: "whirlight-no-time-to-trip",
     titulo: "WHIRLIGHT - NO TIME TO TRIP",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["SWITCH", "PS5", "XBOX"],
     genero: ["AVENTURA", "CASUAL", "INDIE"],
     desarrollador: "IMAGINARYLAB",
@@ -7504,6 +7581,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/_dekbtZxs9w",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2706980/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "En PC está desde mayo, pero las versiones de consola no llegaron en el tercer trimestre. La tienda de Xbox lo lista sin día."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -7894,17 +7978,24 @@ const JUEGOS = [
   {
     id: "samson-a-tyndalston-story",
     titulo: "SAMSON: A TYNDALSTON STORY",
-    fecha: "2026-09-30",
-    estimado: true,
-    fechaEstimada: "SEPTIEMBRE 2026",
+    relanzamiento: "En PC desde abril de 2026 — esta fecha corresponde a las ediciones de PS5 y Xbox",
+    fecha: "2026-09-21",
     plataformas: ["PS5", "XBOX"],
     genero: ["ACCION", "AVENTURA", "CARRERAS"],
     desarrollador: "LIQUID SWORDS",
     descripcion: "Samson vuelve a Tyndalston, la ciudad que lo formó y de la que se fue. Cada pelea se gana por poco y cada huida depende de manejar bien; es lo primero del estudio de Christofer Sundberg, uno de los fundadores de Avalanche.",
     trailer: "https://youtube.com/embed/OQ4z_yQE5Xo",
-    metacritic: null,
+    metacritic: 51,
+    metacriticUsuarios: 5.1,
+    metacriticVotos: 185,
+    critica: "El puntaje es el de la versión de PC, de abril. Reseñas divididas: un juego de crimen urbano chico y sin pretensiones, con aire a los de fines de los noventa, que para unas cumple con lo básico y se agradece por lo acotado, y para otras es una oportunidad perdida. Coinciden en que pelear y sacar autos de la calle es lo más divertido. Los reparos son muchos: un combate cuerpo a cuerpo torpe, una historia que casi no se entiende, sistemas que no terminan de encajar y problemas técnicos en el lanzamiento, varios ya corregidos con parches.",
     imagen: "https://cdn2.steamgriddb.com/grid/8517b0c3024ac2369e40a05dee2799f8.png",
     noticias: [
+      {
+        fecha: "2026-09-21",
+        titulo: "YA ESTÁ A LA VENTA",
+        texto: "Salió el 21 de septiembre, la fecha que había dado el estudio: la PlayStation Store y la tienda de Xbox lo tienen a la venta desde ese día, a 24,99 dólares."
+      },
       {
         fecha: "2026-09-04",
         titulo: "EL ESTUDIO ANUNCIÓ EL 21 DE SEPTIEMBRE",
@@ -7918,9 +8009,9 @@ const JUEGOS = [
   {
     id: "vapor-world-over-the-mind",
     titulo: "VAPOR WORLD: OVER THE MIND",
-    fecha: "2026-09-30",
+    fecha: "2026-12-31",
     estimado: true,
-    fechaEstimada: "TERCER TRIMESTRE 2026",
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["XBOX"],
     genero: ["ACCION", "AVENTURA", "INDIE"],
     desarrollador: "ALIVE",
@@ -7932,6 +8023,11 @@ const JUEGOS = [
     psplus: false,
     alta: "2026-08-18",
     noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
+        texto: "En PC salió completo el 18 de agosto y en Xbox se puede jugar en acceso anticipado desde abril, pero la versión terminada de Xbox todavía no tiene fecha."
+      },
       {
         fecha: "2026-08-19",
         titulo: "YA SE PUEDE JUGAR EN ACCESO ANTICIPADO CON GAME PASS",
