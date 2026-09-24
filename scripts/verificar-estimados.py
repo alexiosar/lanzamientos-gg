@@ -25,6 +25,11 @@ Qué mira:
   2. **La etiqueta no coincide con la fecha**: `fechaEstimada` dice "OCTUBRE 2026" pero
      `fecha` cae en septiembre. La etiqueta es lo que se lee y la fecha es lo que ordena; si
      no coinciden, el juego aparece en el mes equivocado con el cartel del mes correcto.
+  3. **Estimados por vencer**: los que vencen en los próximos 7 días. Se agregó el
+     24/09/2026: el punto 1 recién avisa cuando el mes ya terminó, y ese día quedaban 14
+     juegos de septiembre y del tercer trimestre sin revisar que hubo que salir a buscar a
+     mano. Con una semana de aviso, el cierre del mes llega con eso resuelto. No cuenta
+     como falla: es un aviso para revisarlos en la tienda antes de que venzan.
 
 No toca la red, así que va en la rutina diaria.
 
@@ -45,6 +50,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 MESES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO",
          "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"]
 TRIMESTRES = {"PRIMER": (1, 3), "SEGUNDO": (4, 6), "TERCER": (7, 9), "CUARTO": (10, 12)}
+AVISO_DIAS = 7
 
 
 def ventana(etiqueta):
@@ -102,6 +108,18 @@ def main():
             print(f"  ⚠ {j['id']:42} dice «{j['fechaEstimada']}» pero ordena por {j['fecha']}")
         print("\n  El cartel lo lee la gente y la fecha decide en qué mes aparece: si no")
         print("  coinciden, el juego sale en el mes equivocado con el cartel del correcto.\n")
+
+    # 3) Por vencer: la fecha de orden es el último día de la ventana, así que alcanza con
+    # mirar si cae en los próximos 7 días.
+    limite = (datetime.date.fromisoformat(hoy) + datetime.timedelta(days=AVISO_DIAS)).isoformat()
+    por_vencer = sorted((j for j in estimados if hoy <= j["fecha"] <= limite),
+                        key=lambda j: (j["fecha"], j["id"]))
+    if por_vencer:
+        print(f"── {len(por_vencer)} estimado(s) que vencen en los próximos {AVISO_DIAS} días ──")
+        for j in por_vencer:
+            print(f"  · {j['id']:42} «{j.get('fechaEstimada', '?')}» · {'/'.join(j['plataformas'])}")
+        print("\n  Revisarlos en la tienda antes de que termine el plazo: si ya tienen día, se")
+        print("  confirma; si se corrieron, se cambia la etiqueta con una novedad que lo cuente.\n")
 
     if not vencidos and not incoherentes:
         print("  ✓ ninguno vencido, ninguno en desacuerdo con su etiqueta")

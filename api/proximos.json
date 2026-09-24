@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-24T19:34:40+00:00",
+ "generado": "2026-09-24T20:11:06+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-24",
  "hasta": "2026-10-24",
- "total": 99,
+ "total": 101,
  "juegos": [
   {
    "id": "sin-reloaded",
@@ -773,6 +773,65 @@
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/octopath-traveler-i-ii-bundle"
+  },
+  {
+   "id": "mxgp-26",
+   "titulo": "MXGP 26",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "CARRERAS",
+    "SIMULACION",
+    "DEPORTES"
+   ],
+   "desarrollador": "ARTEFACTS STUDIO",
+   "descripcion": "El juego oficial del campeonato de motocross de 2026, con todos sus circuitos y pilotos. Apuesta por la simulación: se siente cada salto, cada bache y cada impacto.",
+   "trailer": "https://youtube.com/embed/gXnWAOR3HPQ",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocjkc.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-27",
+   "url": "https://lanzamientos.lat/juegos/mxgp-26",
+   "noticias": [
+    {
+     "fecha": "2026-09-24",
+     "titulo": "SALE EL 1 DE OCTUBRE",
+     "texto": "Ya tiene día: la PlayStation Store y la tienda de Xbox lo ponen el 1 de octubre. En Xbox, la Fox Holeshot Edition da acceso anticipado desde el 28 de septiembre."
+    }
+   ]
+  },
+  {
+   "id": "muchi-muchi-pork-pinksweets-boosted",
+   "titulo": "MUCHI MUCHI PORK! & PINKSWEETS BOOSTED",
+   "relanzamiento": "Originales de recreativa de Cave (2007)",
+   "fecha": "2026-10-01",
+   "plataformas": [
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION"
+   ],
+   "desarrollador": "CITY CONNECTION",
+   "descripcion": "Hardcore yet cute Danmaku shooting makes a grand comeback!",
+   "trailer": "https://youtube.com/embed/6RiiKUIGsig",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc60z.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/muchi-muchi-pork-pinksweets-boosted",
+   "noticias": [
+    {
+     "fecha": "2026-09-24",
+     "titulo": "SALE EL 1 DE OCTUBRE",
+     "texto": "Ya tiene día: la eShop y la PlayStation Store lo ponen el 1 de octubre."
+    }
+   ]
   },
   {
    "id": "ghost-of-yotei-complete-edition",

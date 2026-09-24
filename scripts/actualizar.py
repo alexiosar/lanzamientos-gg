@@ -17,6 +17,7 @@ import datetime
 import re
 import ssl
 import subprocess
+import sys
 import time
 import urllib.request
 from pathlib import Path
@@ -121,6 +122,16 @@ def validar_js():
         r = subprocess.run(["node", "--check", str(ruta)], capture_output=True, text=True)
         if r.returncode:
             rotos.append((nombre, r.stderr.strip().splitlines()[:4]))
+    # Node no alcanza: una coma doble ("},,") es un hueco válido en un array de JavaScript,
+    # pero el lector de Python que usan todos los generadores la rechaza, y la rutina se
+    # cae a la mitad con fichas a medio regenerar. Pasó el 24/09/2026 al borrar un juego.
+    sys.path.insert(0, str(RAIZ / "scripts"))
+    from comun import cargar_juegos
+    try:
+        cargar_juegos()
+    except Exception as e:
+        rotos.append(("juegos.js", [f"el lector de Python no lo puede leer: {e}",
+                                    "buscar una coma doble o un bloque mal cerrado"]))
     if rotos:
         print("✗ ERROR DE SINTAXIS: el sitio no va a cargar. No hacer deploy.\n")
         for nombre, lineas in rotos:

@@ -1628,7 +1628,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 82,
     metacriticUsuarios: 9.3,
-    metacriticVotos: 1984,
+    metacriticVotos: 1985,
     critica: "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
     imagen: "https://cdn2.steamgriddb.com/grid/1812e589a2ad581bd076820f05965824.png",
     noticias: [
@@ -2664,7 +2664,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/wFJ3PZuAjK4",
     metacritic: 80,
     metacriticUsuarios: 7.4,
-    metacriticVotos: 1011,
+    metacriticVotos: 1012,
     critica: "Las reseñas son las de la remasterización de 2025. Hay acuerdo en el trabajo visual, que casi todos elogian, y en que los retoques de juego son bienvenidos. La discusión es sobre qué es esto: para varias reseñas es una máquina del tiempo perfecta para el que jugó Oblivion en 2006, y para otras justamente por eso se queda corta, porque arrastra los errores viejos y suma problemas técnicos nuevos. La conclusión que más se repite es que se disfruta según cuánta nostalgia traiga uno encima.",
     imagen: "https://cdn2.steamgriddb.com/grid/58cb7cce31a29f34ba4d5972d5a3da35.jpg",
     noticias: [
@@ -2880,7 +2880,7 @@ const JUEGOS = [
     },
     metacritic: 78,
     metacriticUsuarios: 7.8,
-    metacriticVotos: 179,
+    metacriticVotos: 180,
     critica: "Frogwares cambió de género y la crítica se lo acepta: esta segunda parte es survival horror al estilo de los Resident Evil modernos, con mejor combate y mejores puzzles que la primera. El reparo que más se repite es lo que quedó en el camino, la investigación de detective a mano suelta que hacía distinto al original. Varias reseñas recuerdan además en qué condiciones se hizo, con el estudio trabajando en Ucrania durante la guerra, y le perdonan la falta de pulido y unas actuaciones desparejas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
     noticias: [
@@ -3700,7 +3700,7 @@ const JUEGOS = [
     },
     metacritic: 76,
     metacriticUsuarios: 6.8,
-    metacriticVotos: 4700,
+    metacriticVotos: 4703,
     critica: "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
@@ -3845,7 +3845,7 @@ const JUEGOS = [
     },
     metacritic: 89,
     metacriticUsuarios: 8.9,
-    metacriticVotos: 587,
+    metacriticVotos: 586,
     critica: "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
     noticias: [
@@ -6032,9 +6032,9 @@ const JUEGOS = [
   {
     id: "neverway",
     titulo: "NEVERWAY",
-    fecha: "2026-10-31",
+    fecha: "2027-12-31",
     estimado: true,
-    fechaEstimada: "OCTUBRE 2026",
+    fechaEstimada: "2027",
     plataformas: ["SWITCH"],
     genero: ["AVENTURA", "INDIE", "RPG"],
     desarrollador: "COLDBLOOD INC.",
@@ -6042,6 +6042,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/c-ZYBv3qzN8",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2318330/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "SE VA A 2027",
+        texto: "Ya no sale en octubre: la página de Steam lo tiene ahora para 2027, sin día, y la eShop todavía no lo lista."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-27"
@@ -6049,9 +6056,7 @@ const JUEGOS = [
   {
     id: "mxgp-26",
     titulo: "MXGP 26",
-    fecha: "2026-10-31",
-    estimado: true,
-    fechaEstimada: "OCTUBRE 2026",
+    fecha: "2026-10-01",
     plataformas: ["XBOX", "PS5"],
     genero: ["CARRERAS", "SIMULACION", "DEPORTES"],
     desarrollador: "ARTEFACTS STUDIO",
@@ -6059,23 +6064,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/gXnWAOR3HPQ",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocjkc.jpg",
-    gamepass: false,
-    psplus: false,
-    alta: "2026-07-27"
-  },
-  {
-    id: "dayz-badlands",
-    titulo: "DAYZ BADLANDS",
-    fecha: "2026-10-31",
-    estimado: true,
-    fechaEstimada: "OCTUBRE 2026",
-    plataformas: ["PS5", "XBOX"],
-    genero: ["ACCION", "AVENTURA", "MULTIJUGADOR"],
-    desarrollador: "BOHEMIA INTERACTIVE",
-    descripcion: "DayZ lleva la supervivencia a Nasdará, un desierto de 267 kilómetros cuadrados. Se pelea por el control del territorio, se hacen alianzas que duran poco y se aprovechan los restos de guerras viejas, cuidando cada gota de agua y cada bala.",
-    trailer: "https://youtube.com/embed/xFY5wv99QKI",
-    metacritic: null,
-    imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa1o0.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "SALE EL 1 DE OCTUBRE",
+        texto: "Ya tiene día: la PlayStation Store y la tienda de Xbox lo ponen el 1 de octubre. En Xbox, la Fox Holeshot Edition da acceso anticipado desde el 28 de septiembre."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-27"
@@ -7596,9 +7591,7 @@ const JUEGOS = [
     id: "muchi-muchi-pork-pinksweets-boosted",
     titulo: "MUCHI MUCHI PORK! & PINKSWEETS BOOSTED",
     relanzamiento: "Originales de recreativa de Cave (2007)",
-    fecha: "2026-10-31",
-    estimado: true,
-    fechaEstimada: "OCTUBRE 2026",
+    fecha: "2026-10-01",
     plataformas: ["SWITCH", "PS5"],
     genero: ["ACCION"],
     desarrollador: "CITY CONNECTION",
@@ -7606,6 +7599,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/6RiiKUIGsig",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc60z.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "SALE EL 1 DE OCTUBRE",
+        texto: "Ya tiene día: la eShop y la PlayStation Store lo ponen el 1 de octubre."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
