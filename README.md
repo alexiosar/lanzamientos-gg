@@ -1795,6 +1795,10 @@ y abrir http://localhost:8080
   | Fading Echo (PS5) | Sin fecha | **Ya está cargado en Switch 2 y en Xbox**: el Next Week on Xbox del 18/09 confirmó el 22 de septiembre para Series X\|S y de ahí salió la entrada nueva. La PS Store lo tiene para PS5 pero dice "por determinar" |
   | Neon Abyss 2 (Switch) | 8 de octubre | **Ya está cargado en PS5, Xbox y Switch.** PS y Xbox lo confirman en tienda; lo de Switch sale del tráiler de fecha que Nintendo of America publicó el 20/09, porque la eShop todavía no lo lista |
   | Lufia I & II: The Sinistrals Saga (Switch 2 y Switch) | 2027 (PC Gaming Show, 20/09) | **Ya está cargado como estimado.** La PS Store lo tiene para PS5 con "2027"; la eShop no lo lista |
+  | Console Archives: Karate Champ (Switch 2) | 24 de septiembre (Gematsu, 23/09) | **Ya está cargado en PS5**, que ese día ya lo tenía a la venta. Ni la eShop europea ni la de Nintendo US lo listan |
+  | Arcade Archives 2: Xevious 3D/G (Switch 2) | 24 de septiembre (Gematsu, 23/09) | **Ya está cargado en PS5 y Xbox**, las dos con el juego a la venta. Ni la eShop europea ni la de Nintendo US lo listan |
+  | Heartworm | 1 de octubre en PS5, Xbox, Switch 2, PS4, Xbox One y Switch (Gematsu, 23/09) | Ninguna tienda de consola lo lista todavía: ni la PS Store, ni Xbox, ni la eShop |
+  | Titan Quest II | 19 de enero de 2027 en PS5 y Xbox (Gematsu, 23/09) | La PS Store dice "por determinar" y Xbox tiene una ficha vieja del acceso anticipado de PC, sin la fecha nueva |
   | Mycopunk (Xbox) | 20 de octubre | **Ya está cargado en PS5.** Gematsu dice "PlayStation 5 y…" y la tienda de Xbox no lo encuentra, así que no se sabe si hay versión de Xbox |
   | Prinny Party: Going Overboard! (Switch y Switch 2) | 11 de noviembre | **Ya está cargado en PS5.** NIS America lo anuncia para Nintendo, pero la eShop no lo lista |
   | Persona 4 Revival (Switch 2) | 20 de mayo de 2027 (Nintendo Direct) | **Ya está cargado en PS5 y Xbox.** Mayo de 2027 todavía no es un mes del calendario |
