@@ -191,6 +191,16 @@ si están en `null` o ausentes — no rompen nada.
   en español**, que es exactamente donde el sitio convierte. Son unas cincuenta páginas al año
   sin competencia. Se cargan como cualquier otro juego, con `relanzamiento` aclarando de qué
   año es el original.
+
+  **Sólo de acá en adelante** (decidido el 24/09/2026). Entre junio y septiembre salieron
+  unas cuarenta que nunca se cargaron. El usuario decidió no ir a buscarlas: se cargan las
+  que salgan desde el 24/09, que es cuando la regla empezó a cumplirse de verdad. El barrido
+  semanal no tiene que marcar como faltantes las anteriores a esa fecha.
+
+  Salen casi siempre los jueves, y la PS Store y la tienda de Xbox las publican **el mismo
+  día**, no antes. Por eso se cargan en la rutina diaria del jueves, cuando ya tienen ficha y
+  carátula. La eShop suele tardar más, así que la versión de Switch 2 puede quedar para
+  después, anotada en la tabla de pendientes.
 - **Descripción en español, géneros y desarrollador**: API de Steam
   (`store.steampowered.com/api/appdetails?appids=NUMERO&l=spanish`). La descripción de la
   tienda es **materia prima, no texto final**: se reescribe con las reglas de la sección
@@ -1696,10 +1706,9 @@ categoría `SUSCRIPCIONES`.
    | Path of Exile 2 | PS5 y Xbox el 11/12 | Es la versión 1.0 de un juego que ya está en consolas desde 2024, en acceso anticipado: no es un lanzamiento nuevo |
    | Jurassic World Evolution 3: Prehistoric East · BALL x PIT: Risen Ballbylon · Cairn: Deep Water | — | Expansiones |
 
-   **Queda pendiente una decisión: las reediciones de HAMSTER que faltan.** Por la regla del
-   25/08 entran todas, pero desde junio salieron unas cuarenta entre Arcade Archives 2,
-   Console Archives y EGGCONSOLE, y en el calendario hay cuatro. Se le planteó al usuario
-   el 24/09 como tarea aparte, porque cargarlas bien lleva tiempo.
+   **Las reediciones de HAMSTER que faltaban** (unas cuarenta entre junio y septiembre, con
+   cuatro cargadas) **no se van a buscar**: el usuario decidió el 24/09 cargarlas sólo de
+   ahí en adelante. Está explicado en "Fuentes de datos habituales".
 6. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
 7. **Backlog de carátulas y trailers:** reintentar los que `actualizar.py` lista bajo
    "Faltantes". Suelen ser juegos que todavía no tenían ficha en Steam ni en la eShop cuando
