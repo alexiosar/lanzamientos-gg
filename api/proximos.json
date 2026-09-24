@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-24T13:38:55+00:00",
+ "generado": "2026-09-24T18:25:39+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-24",
  "hasta": "2026-10-24",
- "total": 93,
+ "total": 99,
  "juegos": [
   {
    "id": "sin-reloaded",
@@ -80,7 +80,7 @@
    "desarrollador": "REMEDY ENTERTAINMENT",
    "descripcion": "Un RPG de acción en un Manhattan deformado por lo sobrenatural. Se juega con Dylan Faden y sus poderes, en una pelea por sobrevivir a una amenaza cósmica sin perder la humanidad.",
    "trailer": "https://youtube.com/embed/WhQm-ExRz60",
-   "metacritic": 84,
+   "metacritic": 83,
    "metacriticUsuarios": null,
    "critica": "Una de las mejores recepciones del año. Las reseñas lo consideran lo mejor que hizo Remedy: un RPG de acción que se anima a cambiar de género respecto al primero sin perder la identidad del estudio, con un combate cuerpo a cuerpo nuevo que da para muchas combinaciones, una forma de moverse por Manhattan muy divertida y una dirección de arte de lo más fuerte del año. También elogian el elenco y la historia, tan rara como siempre. Los reparos son menores y casi no aparecen.",
    "imagen": "https://cdn2.steamgriddb.com/grid/d7d5d27ed9b44f4646def6eccd765991.png",
@@ -397,6 +397,31 @@
    "url": "https://lanzamientos.lat/juegos/the-relic-first-guardian-xbox"
   },
   {
+   "id": "keep-driving",
+   "titulo": "KEEP DRIVING",
+   "relanzamiento": "En PC desde febrero de 2025 — esta fecha corresponde a la edición de Xbox",
+   "fecha": "2026-09-28",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "SIMULACION",
+    "INDIE",
+    "CASUAL"
+   ],
+   "desarrollador": "YCJY GAMES",
+   "descripcion": "Un RPG de gestión sobre un viaje en auto a través del país, con aire de los primeros años 2000. Se levanta a gente que hace dedo, se hacen changas por el camino, se arregla y se mejora el auto y se elige la ruta en el mapa. Los problemas del viaje se resuelven con habilidades, objetos y los propios acompañantes, sin apuro.",
+   "trailer": "https://youtube.com/embed/EWqXkxl1BRY",
+   "metacritic": 84,
+   "critica": "El puntaje es el de la versión de PC, de 2025. Las reseñas lo reciben como una joya: captura muy bien la sensación de un viaje en ruta, con personajes memorables, una gestión de recursos que exige y una de las mejores bandas sonoras y ambientaciones del año. Los reparos son de comodidad: no se puede alejar el mapa y cuesta seguir las misiones.",
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2756920/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-24",
+   "url": "https://lanzamientos.lat/juegos/keep-driving"
+  },
+  {
    "id": "minecraft-dungeons-2",
    "titulo": "MINECRAFT DUNGEONS II",
    "fecha": "2026-09-29",
@@ -576,6 +601,55 @@
    "psplus": false,
    "alta": "2026-07-16",
    "url": "https://lanzamientos.lat/juegos/kong-survivor-instinct"
+  },
+  {
+   "id": "middle-earth-shadow-of-mordor-switch-2",
+   "titulo": "MIDDLE-EARTH: SHADOW OF MORDOR GAME OF THE YEAR EDITION",
+   "relanzamiento": "En consolas y PC desde 2014 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-09-30",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "MONOLITH PRODUCTIONS",
+   "descripcion": "Un juego de acción en mundo abierto en la Tierra Media. Talion pelea por Mordor ligado a un espíritu cuya verdad hay que descubrir, y en el camino aparecen los orígenes de los Anillos de Poder, hasta llegar a enfrentar a Sauron. Lo que lo hizo famoso es el sistema Némesis, que le da a cada orco enemigo su propia historia con el jugador. La edición trae el contenido que salió después.",
+   "trailer": "https://youtube.com/embed/bq2P2VvFTMg",
+   "metacritic": 84,
+   "critica": "El puntaje es el de la versión original, de 2014. Las reseñas lo recibieron como uno de los mejores juegos de ese año y, para varias, el mejor juego de El Señor de los Anillos hasta entonces. El combate toma lo mejor de la saga Batman Arkham, y lo que lo eleva es el sistema Némesis, que arma historias propias con cada orco enemigo. Las reseñas casi no le marcaron reparos.",
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/241930/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-24",
+   "url": "https://lanzamientos.lat/juegos/middle-earth-shadow-of-mordor-switch-2"
+  },
+  {
+   "id": "middle-earth-shadow-of-war-definitive-edition-switch-2",
+   "titulo": "MIDDLE-EARTH: SHADOW OF WAR DEFINITIVE EDITION",
+   "relanzamiento": "En consolas y PC desde 2017 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-09-30",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "MUNDO ABIERTO",
+    "RPG"
+   ],
+   "desarrollador": "MONOLITH PRODUCTIONS",
+   "descripcion": "La secuela de Shadow of Mordor. Talion forja un nuevo Anillo de Poder, arma su propio ejército de orcos para conquistar fortalezas en batallas grandes y enfrenta a Sauron y a los Nazgûl. El sistema Némesis vuelve más grande, con historias propias para cada enemigo y cada seguidor. La edición definitiva trae todo el contenido que salió después.",
+   "trailer": "https://youtube.com/embed/HmIdzplCp-o",
+   "metacritic": 80,
+   "critica": "El puntaje es el de la versión original, de 2017. Las reseñas lo ven como una secuela que supera al primero en casi todo: el sistema Némesis más profundo y menos repetitivo, un combate excelente, una escala enorme con batallas por fortalezas y mucha libertad. El reparo que aparece es para los fans de Tolkien: se toma bastantes libertades con la historia original.",
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356190/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-24",
+   "url": "https://lanzamientos.lat/juegos/middle-earth-shadow-of-war-definitive-edition-switch-2"
   },
   {
    "id": "dont-fret",
@@ -990,6 +1064,30 @@
    "url": "https://lanzamientos.lat/juegos/disney-epic-mickey-rebrushed"
   },
   {
+   "id": "quern-undying-thoughts",
+   "titulo": "QUERN - UNDYING THOUGHTS",
+   "relanzamiento": "En PC desde noviembre de 2016 — esta fecha corresponde a la edición de Switch",
+   "fecha": "2026-10-06",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "PUZZLE",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "ZADBOX ENTERTAINMENT",
+   "descripcion": "Una aventura de puzles en primera persona en la línea de Myst y Riven. Se llega a una isla por un portal que se cierra detrás, y para entender qué pasó ahí hay que explorarla y resolver puzles cada vez más complejos, con mecanismos que se reutilizan en distintos lugares.",
+   "trailer": "https://youtube.com/embed/zGV1Ei-NO5s",
+   "metacritic": 83,
+   "critica": "El puntaje es el de la versión de PC, de 2016. Las reseñas lo destacan como un juego de puzles hecho con mucho oficio, con una atmósfera que atrapa y puzles que forman un todo en lugar de una lista suelta de desafíos. Lo recomiendan en especial a quien disfrutó Myst y Riven. El único reparo es justamente ese: es un homenaje que no inventa nada nuevo.",
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/512790/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-24",
+   "url": "https://lanzamientos.lat/juegos/quern-undying-thoughts"
+  },
+  {
    "id": "clive-barkers-hellraiser-revival",
    "titulo": "CLIVE BARKER'S HELLRAISER: REVIVAL",
    "fecha": "2026-10-08",
@@ -1339,6 +1437,32 @@
    ]
   },
   {
+   "id": "deck-of-haunts",
+   "titulo": "DECK OF HAUNTS",
+   "relanzamiento": "En PC desde mayo de 2025 — esta fecha corresponde a la edición de Xbox",
+   "fecha": "2026-10-08",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "CARTAS",
+    "ROGUELIKE",
+    "HORROR",
+    "INDIE"
+   ],
+   "desarrollador": "MANTIS",
+   "descripcion": "Un roguelike de construcción de mazos donde se juega del lado de la casa embrujada. De día se diseña el laberinto de la mansión y de noche se atrae a los visitantes y se usan cartas para convocar espíritus, mover pasillos y asustarlos hasta quebrarlos, mientras se protege el corazón de la casa. Con lo que se les saca, la casa crece y atrae enemigos más peligrosos.",
+   "trailer": "https://youtube.com/embed/ZBtX20ivIZQ",
+   "metacritic": 73,
+   "critica": "El puntaje es el de la versión de PC, de 2025. Las reseñas celebran la idea de ser la casa embrujada y la parte de construir la mansión, que para varias es lo más divertido, además de cartas creativas. Los reparos: la historia es casi inexistente, la tensión no escala, se depende mucho del azar de las cartas y a la larga se vuelve repetitivo.",
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3179730/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-24",
+   "url": "https://lanzamientos.lat/juegos/deck-of-haunts"
+  },
+  {
    "id": "dragons-dogma-2-dark-arisen",
    "titulo": "DRAGON'S DOGMA 2: DARK ARISEN",
    "fecha": "2026-10-09",
@@ -1371,6 +1495,7 @@
    "plataformas": [
     "PS5",
     "PS4",
+    "XBOX",
     "SWITCH"
    ],
    "genero": [
@@ -1418,7 +1543,9 @@
    "titulo": "HORSE CLUB RIDE WEST",
    "fecha": "2026-10-09",
    "plataformas": [
-    "SWITCH"
+    "SWITCH",
+    "PS5",
+    "XBOX"
    ],
    "genero": [
     "AVENTURA",
@@ -1849,6 +1976,7 @@
    "fecha": "2026-10-15",
    "plataformas": [
     "PS5",
+    "PS4",
     "XBOX",
     "SWITCH2",
     "SWITCH"
@@ -2036,6 +2164,28 @@
    "psplus": false,
    "alta": "2026-09-09",
    "url": "https://lanzamientos.lat/juegos/lego-harry-potter-collection-switch-2"
+  },
+  {
+   "id": "beamng-drive",
+   "titulo": "BEAMNG.DRIVE",
+   "relanzamiento": "En PC, en acceso anticipado, desde mayo de 2015 — esta fecha corresponde a la edición de PS5",
+   "fecha": "2026-10-19",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "SIMULACION",
+    "CARRERAS"
+   ],
+   "desarrollador": "BEAMNG",
+   "descripcion": "Un simulador de manejo basado en física de cuerpos blandos: los vehículos se deforman como uno real cuando chocan. Más que un juego de carreras es un arenero para manejar, probar y romper.",
+   "trailer": "https://youtube.com/embed/8bLmLxRDj4I",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-24",
+   "url": "https://lanzamientos.lat/juegos/beamng-drive"
   },
   {
    "id": "we-were-here-tomorrow",

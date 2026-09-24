@@ -190,17 +190,24 @@ def main():
             anios_esperados = {j["fecha"][:4]} | set(
                 re.findall(r"\b((?:19|20)\d{2})\b", j["rel_texto"]))
             ok = anio_mc in anios_esperados or anio_mc == "?"
-            aplicados[gid] = int(rv.group(1))
-            marca = "" if ok else f"   ⚠ REVISAR: Metacritic dice {anio_mc}, esperábamos {sorted(anios_esperados)}"
-            if not ok:
+            # Si el año no cuadra NO se carga: casi siempre es otro juego. Metacritic
+            # redirige los slugs que no existen al más parecido, y el 24/09/2026
+            # "console-archives-karate-champ" cayó en el Karate Champ de 2010, que es otro
+            # producto. Antes se cargaba igual y se avisaba, y eso obligaba a deshacerlo a
+            # mano en cada corrida. Si el puntaje es el correcto, se pone a mano.
+            if ok:
+                aplicados[gid] = int(rv.group(1))
+                print(f"  ★ NUEVO PUNTAJE {gid}: {rv.group(1)}  (Metacritic {anio_mc})")
+            else:
                 sospechosos.append(gid)
-            print(f"  ★ NUEVO PUNTAJE {gid}: {rv.group(1)}  (Metacritic {anio_mc}){marca}")
+                print(f"  ⚠ NO SE CARGA {gid}: {rv.group(1)}  (Metacritic dice {anio_mc}, "
+                      f"esperábamos {sorted(anios_esperados)})")
         except Exception:
             pass  # 404 = la página no existe con ese slug; queda para revisión manual
         time.sleep(0.4)
     if sospechosos:
-        print(f"\n  ⚠ {len(sospechosos)} puntaje(s) con año que no cuadra: {', '.join(sospechosos)}")
-        print("    Verificar a mano antes del commit — puede ser otro juego de la misma saga.")
+        print(f"\n  ⚠ {len(sospechosos)} puntaje(s) con año que no cuadra, sin cargar: {', '.join(sospechosos)}")
+        print("    Si alguno es el juego correcto, cargarlo a mano en datos/juegos.js.")
     if not aplicados:
         print("  (sin puntajes nuevos)")
 

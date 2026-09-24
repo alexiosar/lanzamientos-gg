@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 24 Sep 2026 13:38:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 18:25:39 +0000</lastBuildDate>
+    <item>
+      <title>TOMB RAIDER: LEGACY OF ATLANTIS: SALE EL 12 DE FEBRERO, Y TAMBIÉN EN PS5 Y XBOX</title>
+      <link>https://lanzamientos.lat/juegos/tomb-raider-legacy-of-atlantis</link>
+      <guid isPermaLink="false">tomb-raider-legacy-of-atlantis-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Sale el 12 de febrero de 2027 en las tres consolas. El 10 es el acceso anticipado de la edición Deluxe, que en Switch 2 empieza dos días antes. La PlayStation Store y la tienda de Xbox ya lo tienen en preventa para ese mismo día. — TOMB RAIDER: LEGACY OF ATLANTIS para PS5 / XBOX / SWITCH 2.</description>
+    </item>
     <item>
       <title>CLIVE BARKER'S HELLRAISER: REVIVAL: CUATRO MINUTOS DE GAMEPLAY, Y HAY DEMO EN PC</title>
       <link>https://lanzamientos.lat/juegos/clive-barkers-hellraiser-revival</link>
@@ -287,13 +294,6 @@ El resto son juegos que ya estaban a la venta y se suman al plan Premium, como N
       <guid isPermaLink="false">graveyard-keeper-2-2026-09-14</guid>
       <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
       <description>Lazy Bear Games publicó una demo ocho días antes del lanzamiento. Deja recorrer el pueblo, probar el crafteo, cavar y decorar tumbas y dirigir por primera vez un ejército de muertos vivos, que en esta secuela sirve para defender el pueblo de los zombis. — GRAVEYARD KEEPER 2 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>DIABLO IV: AGE OF HATRED COLLECTION: YA TIENE DÍA: SALE EL 15 DE SEPTIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/diablo-4</link>
-      <guid isPermaLink="false">diablo-4-2026-09-12</guid>
-      <pubDate>Sat, 12 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Blizzard confirmó que la versión de Switch 2 se llama Age of Hatred Collection y sale el 15 de septiembre. La eShop ya la tiene con esa fecha. — DIABLO IV: AGE OF HATRED COLLECTION para SWITCH 2.</description>
     </item>
   </channel>
 </rss>

@@ -1648,6 +1648,58 @@ categoría `SUSCRIPCIONES`.
      descripción. Xbox lo vende también como "Edición Honeyglow Woods", el juego base con el
      pack, pero lo que salió el 08/07 es contenido nuevo para un juego de 2022. Por la regla
      del DLC no debería estar.
+   **Barrido del 24/09/2026: la página ya no carga todo con scroll.** Esa semana mostraba
+   sólo lo que quedaba del trimestre y cortaba en los bloques "Estimated", por más scroll que
+   se hiciera. Lo que sí anda es el endpoint que la propia página usa para traer cada día,
+   que se puede llamar con `fetch` desde una pestaña abierta en releases.com (pestaña
+   abierta, no `curl`, que sigue dando 403):
+
+   ```js
+   // Code: un día (Y2026-M10-D8), un mes estimado (Y2026-M10), un trimestre (Y2026-Q4)
+   // o un año (Y2027). Un día sin juegos no devuelve grupo.
+   fetch(`/partial/Releases.Www.PL.Calendar.Group?Code=${code}&Category=games` +
+         `&Section=Calendar&Interval=Dates&Direction=Forward&GroupMode=Feed`,
+         {method: 'POST', headers: {'X-Requested-With': 'XMLHttpRequest'}})
+   // plataformas completas: .RWPCC-CalendarItems-TypeAndVersionsControl-Version
+   // (en pantalla se cortan con "+2", pero en el HTML están todas)
+   ```
+
+   Hay que recorrer un día por vez, del día de hoy al último mes cargado, más los códigos de
+   los meses, trimestres y años estimados: unos 230 pedidos, que tardan un par de minutos.
+   El navegador corta cualquier script que pase de 45 segundos, así que el recorrido se
+   lanza sin esperarlo, guarda el avance en `window` y se consulta después.
+
+   **Resultado:** 659 entradas. **Se cargaron 9**, todos verificados en tienda:
+   Middle-earth: Shadow of Mordor y Shadow of War (las dos para Switch 2), Keep Driving
+   (Xbox), Deck of Haunts (Xbox), Quern - Undying Thoughts (Switch), BeamNG.drive (PS5),
+   The Ascent Ultimate Edition (Switch 2), Eternal Anima (PS5) y EXODUS (PS5 y Xbox).
+   **Plataformas sumadas:** Xbox a Sesame Street: Alegría y Amigos, Horse Club Ride West,
+   Romancing SaGa 3 y Final Fantasy VII Revelation; PS5 a Horse Club; PS4 a Bluey's Happy
+   Snaps. **Tomb Raider: Legacy of Atlantis** estaba el 10/02 en Switch 2 y el lanzamiento
+   es el 12 en las tres consolas: el 10 es el acceso anticipado de la Deluxe.
+
+   Diferencias del mismo barrido que **no respalda ninguna tienda**, comprobadas el 24/09:
+
+   | Juego | Lo que decía releases.com | Lo que dice la tienda |
+   |---|---|---|
+   | Chained Beasts | + Xbox, Switch | No está en la tienda de Xbox ni en la eShop |
+   | Cotton Reboot! High Tension! | + PS4, Switch | No está en la eShop |
+   | Rogue Reigns · Stage Tour · Wo Long 2 | + Switch 2 | Ninguno está en la eShop |
+   | Sonic Pico Park · Fate/EXTRA Record · Muramasa: Revenant Blades | + Switch y Switch 2 | Ninguno está en la eShop |
+   | Danganronpa 2x2 | + Switch, Switch 2, Xbox | No está en la eShop ni en Xbox |
+   | Wandering Sword | + Switch, Xbox, Switch 2 | Ídem |
+   | Dragon Quest Monsters: The Withered World | + Xbox | Xbox no lo lista |
+   | Silent Hill: Townfall | + Switch 2 y Xbox el 24/03/2027 | Ni la eShop ni Xbox lo tienen. Coincide con el fin de la exclusividad de seis meses, pero sin tienda no se carga |
+   | The Wolf Among Us Remastered | + PS4 | La PS Store lo tiene sólo para PS5 |
+   | It Takes Two | Switch 2 el 15/10 | No hay ninguna edición nueva en Nintendo |
+   | Magical Craft · Million Depth | Switch | No están en la eShop ni en Nintendo US |
+   | Path of Exile 2 | PS5 y Xbox el 11/12 | Es la versión 1.0 de un juego que ya está en consolas desde 2024, en acceso anticipado: no es un lanzamiento nuevo |
+   | Jurassic World Evolution 3: Prehistoric East · BALL x PIT: Risen Ballbylon · Cairn: Deep Water | — | Expansiones |
+
+   **Queda pendiente una decisión: las reediciones de HAMSTER que faltan.** Por la regla del
+   25/08 entran todas, pero desde junio salieron unas cuarenta entre Arcade Archives 2,
+   Console Archives y EGGCONSOLE, y en el calendario hay cuatro. Se le planteó al usuario
+   el 24/09 como tarea aparte, porque cargarlas bien lleva tiempo.
 6. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
 7. **Backlog de carátulas y trailers:** reintentar los que `actualizar.py` lista bajo
    "Faltantes". Suelen ser juegos que todavía no tenían ficha en Steam ni en la eShop cuando
@@ -1782,7 +1834,6 @@ y abrir http://localhost:8080
   | Yomawari: Lost in the Dark (PS5) | PS5, 5 de noviembre en occidente | Ídem |
   | Tianji: Shadow of the Ancients | PS5, Switch 2, Switch y PC | No tiene fecha, así que no hay fila de calendario que hacer |
   | PAPERHEAD | 18 de septiembre en PC y consolas (tráiler de junio) | **Ya está cargado**, como estimado de octubre desde el 15/09. Steam pasó al 9 de octubre, pero la PS Store dice "por determinar" y Xbox no muestra fecha. Cuando una tienda de consola ponga el día, sacarle `estimado` |
-  | Harvest Moon: Echoes of Teradea (Switch y Switch 2) | 15 de octubre (Natsume, 25/08) | PS5 y Xbox ya tienen la fecha en tienda. Las de Nintendo figuran en el comunicado oficial de Natsume y en las reservas de Amazon, pero la eShop todavía no lo lista. Se dejaron cargadas porque la fuente es la editora |
   | Terranigma | 14 de enero de 2027 en PS5, Xbox, Switch 2 y Switch (Gematsu, 16/09) | La PS Store dice "por determinar", Xbox lo lista sin fecha, Steam dice "próximamente" y la eShop no lo tiene |
   | Kernel Hearts (PS5 y Switch 2) | Anunciado para las dos | **Ya está cargado**, pero sólo en Xbox: Xbox confirmó el 17/09 con Game Pass. Ni la PS Store ni la eShop lo listan. Cuando aparezcan, van como entrada nueva con `relanzamiento` si la fecha es otra |
   | Earth Defense Force 6 (Switch 2) | 28 de enero de 2027 (Gematsu, 17/09) | Ni la eShop europea ni la de EE.UU. lo listan |
@@ -1792,15 +1843,21 @@ y abrir http://localhost:8080
   | Ananta | 15 de enero de 2027 (releases.com) | La PS Store lo tiene para PS5 pero sin fecha |
   | Just Dance: Decades of Hits | 13 de octubre (releases.com) | Xbox lo lista sin día, la PS Store y la eShop no lo tienen |
   | Colorbound | 12 de octubre (releases.com) | No está en la PS Store ni en Xbox |
-  | Fading Echo (PS5) | Sin fecha | **Ya está cargado en Switch 2 y en Xbox**: el Next Week on Xbox del 18/09 confirmó el 22 de septiembre para Series X\|S y de ahí salió la entrada nueva. La PS Store lo tiene para PS5 pero dice "por determinar" |
   | Neon Abyss 2 (Switch) | 8 de octubre | **Ya está cargado en PS5, Xbox y Switch.** PS y Xbox lo confirman en tienda; lo de Switch sale del tráiler de fecha que Nintendo of America publicó el 20/09, porque la eShop todavía no lo lista |
   | Lufia I & II: The Sinistrals Saga (Switch 2 y Switch) | 2027 (PC Gaming Show, 20/09) | **Ya está cargado como estimado.** La PS Store lo tiene para PS5 con "2027"; la eShop no lo lista |
   | Console Archives: Karate Champ (Switch 2) | 24 de septiembre (Gematsu, 23/09) | **Ya está cargado en PS5**, que ese día ya lo tenía a la venta. Ni la eShop europea ni la de Nintendo US lo listan |
   | Arcade Archives 2: Xevious 3D/G (Switch 2) | 24 de septiembre (Gematsu, 23/09) | **Ya está cargado en PS5 y Xbox**, las dos con el juego a la venta. Ni la eShop europea ni la de Nintendo US lo listan |
   | Heartworm | 1 de octubre en PS5, Xbox, Switch 2, PS4, Xbox One y Switch (Gematsu, 23/09) | Ninguna tienda de consola lo lista todavía: ni la PS Store, ni Xbox, ni la eShop |
   | Titan Quest II | 19 de enero de 2027 en PS5 y Xbox (Gematsu, 23/09) | La PS Store dice "por determinar" y Xbox tiene una ficha vieja del acceso anticipado de PC, sin la fecha nueva |
+  | Harvest Moon: Echoes of Teradea (Switch 2) | 15 de octubre (Natsume, 25/08) | La de Switch ya está en la eShop desde el 24/09. La de Switch 2 sigue cargada por el comunicado de Natsume, pero todavía sin ficha de tienda |
+  | Keep Driving (PS5 y Switch) | 28 de septiembre | **Ya está cargado en Xbox.** YCJY Games lo anunció para las tres, pero la PS Store y la eShop no lo listan |
+  | Deck of Haunts (PS y Switch) | 8 de octubre | **Ya está cargado en Xbox.** La PS Store tiene la fecha pero sin decir si es PS4 o PS5, y Nintendo no lo lista |
+  | Fangtopia | 26 de octubre en PS5 y Switch 2 (releases.com) | La PS Store tiene la fecha pero no la plataforma, y Nintendo no lo lista |
+  | The House of Tesla: Definitive Edition | 19 de noviembre en PS4 y PS5 (releases.com) | La PS Store tiene la fecha pero no la plataforma |
+  | Eternal Anima (Switch 2 y Xbox) | 4 de marzo de 2027 | **Ya está cargado en PS5.** Se mostró en el Nintendo Direct del 9/09, pero la eShop y Xbox no lo listan |
+  | Alpha Nomos · Curse of Resthaven · Time to Wake Up | Octubre (releases.com) | Las tiendas los tienen pero sin fecha |
   | Mycopunk (Xbox) | 20 de octubre | **Ya está cargado en PS5.** Gematsu dice "PlayStation 5 y…" y la tienda de Xbox no lo encuentra, así que no se sabe si hay versión de Xbox |
-  | Prinny Party: Going Overboard! (Switch y Switch 2) | 11 de noviembre | **Ya está cargado en PS5.** NIS America lo anuncia para Nintendo, pero la eShop no lo lista |
+  | Prinny Party: Going Overboard! (Switch 2) | 11 de noviembre | **Ya está cargado en PS5 y Switch**: la eShop sumó la de Switch el 24/09. La de Switch 2 sigue sin ficha de tienda |
   | Persona 4 Revival (Switch 2) | 20 de mayo de 2027 (Nintendo Direct) | **Ya está cargado en PS5 y Xbox.** Mayo de 2027 todavía no es un mes del calendario |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 
