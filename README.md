@@ -1769,6 +1769,11 @@ categoría `SUSCRIPCIONES`.
     `/mejores-juegos-<mes>-<año>`, y esa página vale más que cuando se escribió porque los
     puntajes ya están. **Ojo con dejar el mismo mes en los dos lugares:** serían dos URLs
     con el mismo contenido. El generador lo avisa, pero conviene no llegar a eso.
+
+    **Si la lista nueva ya está elegida, está en `proximo`** (desde el 25/09/2026, cuando
+    octubre se eligió cinco días antes). Ese día sólo hay que moverla: `proximo` pasa a
+    `mes`, `intro` y `juegos`, y el campo `proximo` se borra. Antes de publicarla, mirar si
+    algún juego de la lista cambió de fecha y se fue del mes.
 14. Evaluar archivo/limpieza de meses viejos del calendario.
 15. Repasar la sección "Pendientes / ideas" de este archivo.
 

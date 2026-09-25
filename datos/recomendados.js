@@ -28,6 +28,12 @@
 // Va en la rutina mensual. Si `mes` no coincide con el mes en curso, /recomendados lo dice
 // en vez de mentir.
 //
+//   proximo     opcional: la selección del mes que viene, ya elegida pero todavía no
+//               publicada. Los generadores la ignoran. En la rutina mensual, el mes que
+//               termina pasa a `anteriores`, `proximo` pasa a ser `mes`/`intro`/`juegos`
+//               y el campo se borra. Sirve para no elegir todo el primer día del mes.
+//               Comentarios dentro del objeto no: el lector de Python no los acepta.
+//
 // Ojo con no duplicar: un mes NO va en `mes` y en `anteriores` al mismo tiempo. Serían dos
 // URLs con el mismo contenido, que es justo lo que le hace mal a la indexación.
 
@@ -85,6 +91,56 @@ const RECOMENDADOS = {
     }
   ],
 
+  proximo: {
+    mes: "2026-10",
+    intro: "Gears of War: E-Day el 6, un Castlevania nuevo con los de Dead Cells el 15, Call of Duty el 23 y Phantom Blade Zero cerrando el mes. Octubre trae más de noventa lanzamientos al calendario, y estos once son los que valen el tiempo.",
+    juegos: [
+      {
+        id: "ace-combat-8-wings-of-theve",
+        texto: "La primera entrega nueva de la saga desde Ace Combat 7, de 2019. Combates aéreos con armamento pesado y una campaña armada alrededor del escuadrón: misiones de alto riesgo, decisiones difíciles y relaciones con los compañeros de vuelo."
+      },
+      {
+        id: "gears-of-war-e-day",
+        texto: "Gears vuelve al principio de todo: el Día de la Emergencia, cuando empieza la guerra contra la Horda. The Coalition ya lo tiene terminado y entra en Game Pass el mismo día, así que si tenés el servicio lo jugás sin pagar aparte."
+      },
+      {
+        id: "star-wars-galactic-racer",
+        texto: "Carreras de Star Wars con historia propia, después de la caída del Imperio: la Liga Galáctica es un circuito clandestino del Borde Exterior que financian los sindicatos criminales, y ahí se hacen los campeones."
+      },
+      {
+        id: "kingdom-hearts-collection",
+        texto: "Los tres juegos principales de Kingdom Hearts con todo lo que se les fue sumando, juntos y en consolas actuales. Para quien nunca la jugó es la forma más directa de entrar a una saga que, de tantas entregas, se volvió difícil de seguir."
+      },
+      {
+        id: "planet-zoo-2",
+        texto: "El simulador de zoológicos de Frontier vuelve con una idea nueva: además de armar el parque, los animales se pueden liberar en reservas naturales abiertas. Es de los que se juegan sin apuro y durante meses."
+      },
+      {
+        id: "castlevania-belmonts-curse",
+        texto: "Un Castlevania nuevo en 2D hecho con Evil Empire y Motion Twin, los de Dead Cells, que es casi la mejor garantía posible para este tipo de juego. Lo protagoniza Rose Belmont, 23 años después de Dracula's Curse, y hay demo desde el 1 de octubre para probarlo antes."
+      },
+      {
+        id: "final-fantasy-resonance",
+        texto: "Un Final Fantasy nuevo en pixel art que parte de los clásicos y los lleva más lejos, en todas las consolas, incluida la primera Switch. Para quien extraña los Final Fantasy de antes, es la apuesta del mes."
+      },
+      {
+        id: "nintendo-switch-sports-resort",
+        texto: "La secuela de Switch Sports, exclusiva de Switch 2, con deportes nuevos y controles de movimiento renovados. Es el juego del mes para jugar con gente en el living, a cualquier edad."
+      },
+      {
+        id: "call-of-duty-modern-warfare-4",
+        texto: "El lanzamiento más grande del mes. La campaña pasa en la península de Corea, con el capitán Price actuando por fuera de los canales oficiales, y vuelve el modo DMZ. Quien lo reservó puede jugarlo desde el 16, una semana antes."
+      },
+      {
+        id: "phantom-blade-zero",
+        texto: "Acción de artes marciales muy rápida, con la narrativa de las historias wuxia de fondo: Soul tiene 66 días de vida y los usa para desenredar una conspiración. Sony le dedicó un State of Play entero en agosto, y es exclusivo de PS5."
+      },
+      {
+        id: "the-wolf-among-us-remastered",
+        texto: "El policial de Telltale de 2013, con Bigby Wolf investigando en Fabletown, donde los personajes del folclore son reales y cada decisión pesa. Vuelve con el apartado técnico al día y en todas las consolas."
+      }
+    ]
+  },
   anteriores: [
     {
       mes: "2026-08",
