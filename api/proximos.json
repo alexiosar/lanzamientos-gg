@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-25T14:42:05+00:00",
+ "generado": "2026-09-25T15:16:47+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-25",
@@ -796,7 +796,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/star-wars-galactic-racer"
+   "url": "https://lanzamientos.lat/juegos/star-wars-galactic-racer",
+   "noticias": [
+    {
+     "fecha": "2026-09-11",
+     "titulo": "PRESENTÓ LOS SKIM SPEEDERS",
+     "texto": "Un tráiler nuevo mostró los skim speeders, una clase de vehículo a mitad de camino entre las motos deslizadoras, que son las más rápidas, y los landspeeders, más pesados. Su ventaja es que doblan con facilidad en las curvas cerradas. Sale el 6 de octubre en PS5, Xbox y PC."
+    }
+   ]
   },
   {
    "id": "disney-epic-mickey-rebrushed",
@@ -1040,7 +1047,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/kingdom-hearts-collection"
+   "url": "https://lanzamientos.lat/juegos/kingdom-hearts-collection",
+   "noticias": [
+    {
+     "fecha": "2026-06-09",
+     "titulo": "QUÉ TRAE LA COLECCIÓN",
+     "texto": "Square Enix confirmó que junta Kingdom Hearts HD 1.5+2.5 ReMIX, Kingdom Hearts HD 2.8 Final Chapter Prologue y Kingdom Hearts III con la expansión Re Mind. Los tres también se venden por separado, y en Switch 2 hay una demo de Kingdom Hearts III + Re Mind."
+    }
+   ]
   },
   {
    "id": "silver-pines",
@@ -1396,7 +1410,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/planet-zoo-2"
+   "url": "https://lanzamientos.lat/juegos/planet-zoo-2",
+   "noticias": [
+    {
+     "fecha": "2026-09-17",
+     "titulo": "YA SE PUEDE RESERVAR",
+     "texto": "Frontier viene mostrando el juego con videos semanales: especies nuevas, el centro veterinario y una visita al centro científico del zoológico de Chester sobre su trabajo de conservación. Lo nuevo respecto del primero son las aves que vuelan, las especies totalmente acuáticas y las reservas naturales fuera del zoológico."
+    }
+   ]
   },
   {
    "id": "spongebob-titans-of-the-tide",
@@ -2059,7 +2080,19 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/final-fantasy-resonance"
+   "url": "https://lanzamientos.lat/juegos/final-fantasy-resonance",
+   "noticias": [
+    {
+     "fecha": "2026-09-23",
+     "titulo": "ZIDANE, DE FINAL FANTASY IX, PELEA EN EL GRUPO",
+     "texto": "Square Enix mostró cómo funciona Zidane: su Visión se activa en el Santuario de la Luz y desde ahí pelea junto al grupo con sus propias habilidades."
+    },
+    {
+     "fecha": "2026-09-03",
+     "titulo": "HAY DEMO GRATIS CON EL PRIMER CAPÍTULO",
+     "texto": "Square Enix publicó una demo gratuita con el primer capítulo completo, y la partida se pasa al juego final. Es el primer Final Fantasy en HD-2D, la mezcla de pixel art y escenarios en 3D de la compañía."
+    }
+   ]
   },
   {
    "id": "nintendo-switch-sports-resort",
@@ -2081,7 +2114,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/nintendo-switch-sports-resort"
+   "url": "https://lanzamientos.lat/juegos/nintendo-switch-sports-resort",
+   "noticias": [
+    {
+     "fecha": "2026-09-09",
+     "titulo": "LO QUE MOSTRÓ EL NINTENDO DIRECT",
+     "texto": "En el Direct del 9 de septiembre se presentó el modo Island Crown, para enfrentar a los campeones de la isla, y además se puede personalizar al Mii o al compañero, sacar fotos en los puntos turísticos y recorrer la isla libremente. En el Treehouse de ese día se jugaron, entre otros, el paseo turístico, la lucha de pulgares y el tenis de mesa."
+    }
+   ]
   },
   {
    "id": "azure-striker-gunvolt-trilogy-enhanced",

@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 25 Sep 2026 14:42:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 15:16:47 +0000</lastBuildDate>
     <item>
       <title>SCREENBOUND: NO SALIÓ EN SEPTIEMBRE</title>
       <link>https://lanzamientos.lat/juegos/screenbound</link>
@@ -155,6 +155,13 @@
       <description>Saber Interactive publicó un repaso del gameplay. El combate mezcla armas cuerpo a cuerpo y de fuego con esquivar, buscar munición, poner trampas y negociar mejoras, contra cultistas y otras criaturas. La caja de la Configuración Génesis funciona como poder sobrenatural: lanza objetos, prende fuego a los enemigos y acumula sufrimiento para desatar las cadenas del infierno. En Steam ya hay una demo. — CLIVE BARKER'S HELLRAISER: REVIVAL para PS5 / XBOX / SWITCH 2.</description>
     </item>
     <item>
+      <title>FINAL FANTASY RESONANCE: ZIDANE, DE FINAL FANTASY IX, PELEA EN EL GRUPO</title>
+      <link>https://lanzamientos.lat/juegos/final-fantasy-resonance</link>
+      <guid isPermaLink="false">final-fantasy-resonance-2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Square Enix mostró cómo funciona Zidane: su Visión se activa en el Santuario de la Luz y desde ahí pelea junto al grupo con sus propias habilidades. — FINAL FANTASY RESONANCE para SWITCH 2 / PS5 / SWITCH / XBOX.</description>
+    </item>
+    <item>
       <title>DEMEO X DUNGEONS &amp; DRAGONS: BATTLEMARKED: EN PC YA SALIÓ LA TERCERA CAMPAÑA</title>
       <link>https://lanzamientos.lat/juegos/demeo-x-dungeons-and-dragons-battlemarked</link>
       <guid isPermaLink="false">demeo-x-dungeons-and-dragons-battlemarked-2026-09-22</guid>
@@ -283,13 +290,6 @@ Los otros tres ya tienen día. Neon Abyss 2 deja el acceso anticipado el 8 de oc
       <guid isPermaLink="false">fading-echo-consolas-2026-09-18</guid>
       <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
       <description>Salió el 22 de septiembre en PS5 y en Xbox Series, cinco días después de la edición de Switch 2. El blog de PlayStation lo anunció ese mismo día y en la PlayStation Store ya está a la venta. — FADING ECHO para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>THE POSTHUMOUS INVESTIGATION: YA ESTÁ EN SWITCH</title>
-      <link>https://lanzamientos.lat/juegos/the-posthumous-investigation</link>
-      <guid isPermaLink="false">the-posthumous-investigation-2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Mother Gaia Studio lo sacó en Switch el 17 de septiembre, casi seis meses después de su salida en PC, y ese mismo día llegó también a celulares. — THE POSTHUMOUS INVESTIGATION para SWITCH.</description>
     </item>
   </channel>
 </rss>

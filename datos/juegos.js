@@ -539,7 +539,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/U9EmVkQ5v54",
     metacritic: 83,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 1326,
+    metacriticVotos: 1325,
     critica: "Casi todas las reseñas usan la misma vara y le va bien: un remake sirve cuando reemplaza al original en la cabeza del que lo jugó, y este lo hace. Se elogian el Caribe rehecho, el detalle y un combate más exigente que el de 2013. Lo interesante es el matiz que se repite: lo que sigue funcionando no es el Assassin's Creed sino la aventura de piratas, y las mecánicas más propias de la serie son justo las que peor envejecieron.",
     imagen: "https://cdn2.steamgriddb.com/grid/a9f7e2af063303f02fd5d479c8816c79.png",
     noticias: [
@@ -3125,7 +3125,7 @@ const JUEGOS = [
     },
     metacritic: 78,
     metacriticUsuarios: 8.2,
-    metacriticVotos: 720,
+    metacriticVotos: 721,
     critica: "Es el más discutido de la semana: hay reseñas de 95 y de 60 describiendo el mismo juego. Todas coinciden en dos cosas. Que la serie cambió de género —menos sigilo y menos ratas, más acción y aventura al estilo Uncharted— y que en lo visual y lo sonoro está a la altura, con la banda sonora de Olivier Derivière llevándose elogios aparte. La discusión es si el cambio le sienta bien. Los que lo bajan repiten tres reparos: arranca muy lento, el combate se vuelve repetitivo y hay problemas de rendimiento. Sophia, la protagonista nueva, gusta casi por unanimidad.",
     imagen: "https://cdn2.steamgriddb.com/grid/19488d75fad434aed855298dad9d9d76.png",
     noticias: [
@@ -3701,7 +3701,7 @@ const JUEGOS = [
     },
     metacritic: 76,
     metacriticUsuarios: 6.8,
-    metacriticVotos: 4788,
+    metacriticVotos: 4791,
     critica: "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
@@ -3846,7 +3846,7 @@ const JUEGOS = [
     },
     metacritic: 89,
     metacriticUsuarios: 8.9,
-    metacriticVotos: 603,
+    metacriticVotos: 604,
     critica: "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
     noticias: [
@@ -4950,7 +4950,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/jK0cGKMDMPE",
     metacritic: 87,
     metacriticUsuarios: 8.8,
-    metacriticVotos: 2826,
+    metacriticVotos: 2827,
     critica: "Es el juego con el que la prensa da por vuelto el género narrativo que dejó Telltale: la dirección, las actuaciones y los personajes se llevan los elogios en casi todas las reseñas. Los reparos son de estructura, no de ejecución: hay decisiones que no cambian nada, los mejores personajes aparecen poco y el final deja a varios con gusto a poco. De ahí salen las notas más bajas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2592160/library_600x900.jpg",
     noticias: [
@@ -5197,6 +5197,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Je9SLyqRtc0",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/a592d9fe5ade10553913fb1b94f1175c.png",
+    noticias: [
+      {
+        fecha: "2026-09-11",
+        titulo: "PRESENTÓ LOS SKIM SPEEDERS",
+        texto: "Un tráiler nuevo mostró los skim speeders, una clase de vehículo a mitad de camino entre las motos deslizadoras, que son las más rápidas, y los landspeeders, más pesados. Su ventaja es que doblan con facilidad en las curvas cerradas. Sale el 6 de octubre en PS5, Xbox y PC."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-24"
@@ -5386,6 +5393,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/G6-yj80Guxg",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/f14b6444d23c8a8b2aeab52d54cf915e.png",
+    noticias: [
+      {
+        fecha: "2026-09-17",
+        titulo: "YA SE PUEDE RESERVAR",
+        texto: "Frontier viene mostrando el juego con videos semanales: especies nuevas, el centro veterinario y una visita al centro científico del zoológico de Chester sobre su trabajo de conservación. Lo nuevo respecto del primero son las aves que vuelan, las especies totalmente acuáticas y las reservas naturales fuera del zoológico."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-24"
@@ -5537,6 +5551,18 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/wbsfQYI_IIY",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7q4.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-23",
+        titulo: "ZIDANE, DE FINAL FANTASY IX, PELEA EN EL GRUPO",
+        texto: "Square Enix mostró cómo funciona Zidane: su Visión se activa en el Santuario de la Luz y desde ahí pelea junto al grupo con sus propias habilidades."
+      },
+      {
+        fecha: "2026-09-03",
+        titulo: "HAY DEMO GRATIS CON EL PRIMER CAPÍTULO",
+        texto: "Square Enix publicó una demo gratuita con el primer capítulo completo, y la partida se pasa al juego final. Es el primer Final Fantasy en HD-2D, la mezcla de pixel art y escenarios en 3D de la compañía."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-24"
@@ -5552,6 +5578,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/XNcXNZJV6IE",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7mb.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-09",
+        titulo: "LO QUE MOSTRÓ EL NINTENDO DIRECT",
+        texto: "En el Direct del 9 de septiembre se presentó el modo Island Crown, para enfrentar a los campeones de la isla, y además se puede personalizar al Mii o al compañero, sacar fotos en los puntos turísticos y recorrer la isla libremente. En el Treehouse de ese día se jugaron, entre otros, el paseo turístico, la lucha de pulgares y el tenis de mesa."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-24"
@@ -6433,6 +6466,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/AFWTFkneaCo",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6r3.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-26",
+        titulo: "FECHA EN LA GAMESCOM, Y UN MODO NOIR",
+        texto: "Telltale puso fecha en la gamescom: 29 de octubre. El tráiler presentó a los sospechosos del caso y adelantó un Modo Noir."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-31"
@@ -6973,6 +7013,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/qiE8hv-drXs",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocb28.jpg",
+    noticias: [
+      {
+        fecha: "2026-06-09",
+        titulo: "QUÉ TRAE LA COLECCIÓN",
+        texto: "Square Enix confirmó que junta Kingdom Hearts HD 1.5+2.5 ReMIX, Kingdom Hearts HD 2.8 Final Chapter Prologue y Kingdom Hearts III con la expansión Re Mind. Los tres también se venden por separado, y en Switch 2 hay una demo de Kingdom Hearts III + Re Mind."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-31"
