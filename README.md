@@ -1770,10 +1770,13 @@ categoría `SUSCRIPCIONES`.
     puntajes ya están. **Ojo con dejar el mismo mes en los dos lugares:** serían dos URLs
     con el mismo contenido. El generador lo avisa, pero conviene no llegar a eso.
 
-    **Si la lista nueva ya está elegida, está en `proximo`** (desde el 25/09/2026, cuando
-    octubre se eligió cinco días antes). Ese día sólo hay que moverla: `proximo` pasa a
-    `mes`, `intro` y `juegos`, y el campo `proximo` se borra. Antes de publicarla, mirar si
-    algún juego de la lista cambió de fecha y se fue del mes.
+    **La lista del mes que viene se puede publicar unos días antes** (decidido el 25/09/2026:
+    octubre se publicó ese día para compartirlo en redes antes de que arranque el mes). Se
+    hace el mismo movimiento de siempre, sólo que antes: el mes en curso pasa a `anteriores`
+    y el nuevo entra en `mes`. La página del mes archivado no dice "el mes ya pasó" hasta que
+    termina de verdad. Si se elige pero todavía no se quiere publicar, va en `proximo`, que
+    los generadores ignoran. En cualquier caso, en la rutina mensual mirar si algún juego de
+    la lista cambió de fecha y se fue del mes.
 14. Evaluar archivo/limpieza de meses viejos del calendario.
 15. Repasar la sección "Pendientes / ideas" de este archivo.
 

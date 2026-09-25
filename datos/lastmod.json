@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "8d4d19a0366736db",
+  "hash": "c13033fc053b32f9",
   "lastmod": "2026-09-25"
  },
  "/abril-2027": {
@@ -560,7 +560,7 @@
   "lastmod": "2026-09-15"
  },
  "/juegos/fire-emblem-fortunes-weave": {
-  "hash": "b58352fdac8d2329",
+  "hash": "184e5ce7e620dd94",
   "lastmod": "2026-09-25"
  },
  "/juegos/flamecraft": {
@@ -936,15 +936,15 @@
   "lastmod": "2026-09-17"
  },
  "/juegos/marvel-tokon-fighting-souls": {
-  "hash": "35c0db911a3343b4",
-  "lastmod": "2026-09-24"
+  "hash": "adfb84f9e6bd734a",
+  "lastmod": "2026-09-25"
  },
  "/juegos/marvels-guardians-of-the-galaxy-switch-2": {
   "hash": "d3f48f327d18d1aa",
   "lastmod": "2026-09-21"
  },
  "/juegos/marvels-wolverine": {
-  "hash": "aa4ddc008a59a66e",
+  "hash": "7cb39876cc1949a7",
   "lastmod": "2026-09-25"
  },
  "/juegos/mavrix": {
@@ -1156,7 +1156,7 @@
   "lastmod": "2026-09-24"
  },
  "/juegos/onimusha-way-of-the-sword": {
-  "hash": "99a2a0e5cb338cb6",
+  "hash": "89ae6678b8e1dfac",
   "lastmod": "2026-09-25"
  },
  "/juegos/orbitals": {
@@ -1680,7 +1680,7 @@
   "lastmod": "2026-09-16"
  },
  "/juegos/the-sinking-city-2": {
-  "hash": "75641a3e074412a8",
+  "hash": "a028c3651640303a",
   "lastmod": "2026-09-25"
  },
  "/juegos/the-walking-dead-streets-of-survival": {
@@ -1920,8 +1920,12 @@
   "lastmod": "2026-09-24"
  },
  "/mejores-juegos-agosto-2026": {
-  "hash": "38fb2fbc4cd190fa",
-  "lastmod": "2026-09-14"
+  "hash": "a929588d92e0726c",
+  "lastmod": "2026-09-25"
+ },
+ "/mejores-juegos-septiembre-2026": {
+  "hash": "e266baef5aa5e05e",
+  "lastmod": "2026-09-25"
  },
  "/noticias": {
   "hash": "b76ce4a0c3cf7a0b",
@@ -1932,7 +1936,7 @@
   "lastmod": "2026-09-24"
  },
  "/octubre-2026": {
-  "hash": "4d88726c6a961dcb",
+  "hash": "3a43f0e05c22ba79",
   "lastmod": "2026-09-25"
  },
  "/privacidad": {
@@ -1940,27 +1944,27 @@
   "lastmod": "2026-09-15"
  },
  "/ps4": {
-  "hash": "8d4d19a0366736db",
+  "hash": "c13033fc053b32f9",
   "lastmod": "2026-09-25"
  },
  "/ps5": {
-  "hash": "8d4d19a0366736db",
+  "hash": "c13033fc053b32f9",
   "lastmod": "2026-09-25"
  },
  "/recomendados": {
-  "hash": "d2395866ccffd874",
-  "lastmod": "2026-09-24"
+  "hash": "a92599a91a472122",
+  "lastmod": "2026-09-25"
  },
  "/septiembre-2026": {
-  "hash": "145c05770a7c0c64",
+  "hash": "0ae27d08dff191de",
   "lastmod": "2026-09-25"
  },
  "/switch": {
-  "hash": "8d4d19a0366736db",
+  "hash": "c13033fc053b32f9",
   "lastmod": "2026-09-25"
  },
  "/switch-2": {
-  "hash": "8d4d19a0366736db",
+  "hash": "c13033fc053b32f9",
   "lastmod": "2026-09-25"
  },
  "/terminos": {
@@ -1972,7 +1976,7 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "8d4d19a0366736db",
+  "hash": "c13033fc053b32f9",
   "lastmod": "2026-09-25"
  }
 }

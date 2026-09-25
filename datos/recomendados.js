@@ -29,119 +29,118 @@
 // en vez de mentir.
 //
 //   proximo     opcional: la selección del mes que viene, ya elegida pero todavía no
-//               publicada. Los generadores la ignoran. En la rutina mensual, el mes que
-//               termina pasa a `anteriores`, `proximo` pasa a ser `mes`/`intro`/`juegos`
-//               y el campo se borra. Sirve para no elegir todo el primer día del mes.
+//               publicada. Los generadores la ignoran. Al publicarla, el mes en curso pasa
+//               a `anteriores`, `proximo` pasa a ser `mes`/`intro`/`juegos` y el campo se
+//               borra. Se puede publicar unos días antes de que empiece el mes.
 //               Comentarios dentro del objeto no: el lector de Python no los acepta.
 //
 // Ojo con no duplicar: un mes NO va en `mes` y en `anteriores` al mismo tiempo. Serían dos
 // URLs con el mismo contenido, que es justo lo que le hace mal a la indexación.
 
 const RECOMENDADOS = {
-  mes: "2026-09",
-  intro: "Marvel's Wolverine el 15, la primera Fire Emblem pensada para Switch 2 el 17, y Control y Silent Hill el mismo día a fin de mes. Septiembre trae 112 lanzamientos al calendario, y estos doce son los que valen el tiempo.",
+  mes: "2026-10",
+  intro: "Gears of War: E-Day el 6, un Castlevania nuevo con los de Dead Cells el 15, Call of Duty el 23 y Phantom Blade Zero cerrando el mes. Octubre trae más de noventa lanzamientos al calendario, y estos once son los que valen el tiempo.",
   juegos: [
     {
-      id: "moonlighter-2-the-endless-vault",
-      texto: "El primero se ganó su público con una idea que nadie más estaba haciendo: de día atendés tu tienda y ponés los precios, de noche bajás a la mazmorra a buscar qué vender. La secuela mantiene el doble turno y agranda todo lo demás."
+      id: "ace-combat-8-wings-of-theve",
+      texto: "La primera entrega nueva de la saga desde Ace Combat 7, de 2019. Combates aéreos con armamento pesado y una campaña armada alrededor del escuadrón: misiones de alto riesgo, decisiones difíciles y relaciones con los compañeros de vuelo."
     },
     {
-      id: "the-blood-of-dawnwalker",
-      texto: "El debut de Rebel Wolves, el estudio que armaron varios de los que hicieron The Witcher 3. Sos Coen, humano de día y vampiro de noche, en la Europa del siglo XIV: el reloj no es decorativo, cambia lo que podés hacer."
+      id: "gears-of-war-e-day",
+      texto: "Gears vuelve al principio de todo: el Día de la Emergencia, cuando empieza la guerra contra la Horda. The Coalition ya lo tiene terminado y entra en Game Pass el mismo día, así que si tenés el servicio lo jugás sin pagar aparte."
     },
     {
-      id: "orbitals",
-      texto: "Nintendo lo anunció con dos palabras —«We are one!»— y nada más. Salió el 3 de septiembre con 82 y ahora se entiende la frase: es un cooperativo para DOS, sin modo individual, con un diseño de niveles que las reseñas comparan con It Takes Two. Si tenés con quién jugarlo, es la apuesta buena del mes; si no, no es para vos."
+      id: "star-wars-galactic-racer",
+      texto: "Carreras de Star Wars con historia propia, después de la caída del Imperio: la Liga Galáctica es un circuito clandestino del Borde Exterior que financian los sindicatos criminales, y ahí se hacen los campeones."
     },
     {
-      id: "marsupilami-2-salsa-palombia",
-      texto: "Plataformas clásico y sin vueltas, de los que ya casi no se hacen para consola. El primero sorprendió por lo prolijo, y este mes es de los pocos que se puede jugar con chicos al lado."
+      id: "kingdom-hearts-collection",
+      texto: "Los tres juegos principales de Kingdom Hearts con todo lo que se les fue sumando, juntos y en consolas actuales. Para quien nunca la jugó es la forma más directa de entrar a una saga que, de tantas entregas, se volvió difícil de seguir."
     },
     {
-      id: "onimusha-way-of-the-sword",
-      texto: "Capcom vuelve a Onimusha veinte años después. Un samurái con el guantelete Oni en el Kioto de los Genma, con la misma receta de combate cuerpo a cuerpo pesado que hizo grande a la saga en PS2."
+      id: "planet-zoo-2",
+      texto: "El simulador de zoológicos de Frontier vuelve con una idea nueva: además de armar el parque, los animales se pueden liberar en reservas naturales abiertas. Es de los que se juegan sin apuro y durante meses."
     },
     {
-      id: "marvels-wolverine",
-      texto: "Lo nuevo de Insomniac después de los dos Spider-Man, y el tono es el opuesto: crudo, adulto y con las garras a la vista. Es el exclusivo grande de PS5 del año y llega sin haber mostrado casi nada."
+      id: "castlevania-belmonts-curse",
+      texto: "Un Castlevania nuevo en 2D hecho con Evil Empire y Motion Twin, los de Dead Cells, que es casi la mejor garantía posible para este tipo de juego. Lo protagoniza Rose Belmont, 23 años después de Dracula's Curse, y hay demo desde el 1 de octubre para probarlo antes."
     },
     {
-      id: "fire-emblem-fortunes-weave",
-      texto: "La primera Fire Emblem pensada para Switch 2. Estrategia por turnos en cuadrícula, unidades que si mueren no vuelven, y los vínculos entre personajes pesando tanto como las estadísticas."
+      id: "final-fantasy-resonance",
+      texto: "Un Final Fantasy nuevo en pixel art que parte de los clásicos y los lleva más lejos, en todas las consolas, incluida la primera Switch. Para quien extraña los Final Fantasy de antes, es la apuesta del mes."
     },
     {
-      id: "graveyard-keeper-2",
-      texto: "La secuela del simulador de cementerios más incómodo que existe. El primero se reía de Stardew Valley haciéndote administrar un negocio con los muertos del pueblo; este suma automatización y zombis a las órdenes."
+      id: "nintendo-switch-sports-resort",
+      texto: "La secuela de Switch Sports, exclusiva de Switch 2, con deportes nuevos y controles de movimiento renovados. Es el juego del mes para jugar con gente en el living, a cualquier edad."
     },
     {
-      id: "control-resonant",
-      texto: "Remedy vuelve a la Casa Inmemorial, esta vez con Dylan Faden y un Manhattan deformado. Del mismo estudio que Alan Wake 2, que es probablemente lo mejor que hicieron."
+      id: "call-of-duty-modern-warfare-4",
+      texto: "El lanzamiento más grande del mes. La campaña pasa en la península de Corea, con el capitán Price actuando por fuera de los canales oficiales, y vuelve el modo DMZ. Quien lo reservó puede jugarlo desde el 16, una semana antes."
     },
     {
-      id: "silent-hill-townfall",
-      texto: "El otro Silent Hill, el que no es remake. Lo hace Screen Burn, no Bloober, y se aleja del molde: menos pueblo con niebla y más una isla, un tipo que vuelve a arreglar algo y un descenso que se pone incómodo rápido."
+      id: "phantom-blade-zero",
+      texto: "Acción de artes marciales muy rápida, con la narrativa de las historias wuxia de fondo: Soul tiene 66 días de vida y los usa para desenredar una conspiración. Sony le dedicó un State of Play entero en agosto, y es exclusivo de PS5."
     },
     {
-      id: "garfield-escape-from-monday",
-      texto: "Un plataformas 3D de Garfield en el que hay que despertarlo de una pesadilla de verduras. Está en la lista sin ironía: el mes tiene doce juegos de vampiros, samuráis y demonios, y este es el único que se ríe."
-    },
-    {
-      id: "the-witcher-3-wild-hunt-remastered",
-      texto: "Uno de los mejores RPG de mundo abierto que se hicieron, remasterizado y entero —con Hearts of Stone y Blood and Wine— y por primera vez portátil de verdad en Switch 2. Si nunca lo jugaste, es la mejor forma de empezar."
+      id: "the-wolf-among-us-remastered",
+      texto: "El policial de Telltale de 2013, con Bigby Wolf investigando en Fabletown, donde los personajes del folclore son reales y cada decisión pesa. Vuelve con el apartado técnico al día y en todas las consolas."
     }
   ],
-
-  proximo: {
-    mes: "2026-10",
-    intro: "Gears of War: E-Day el 6, un Castlevania nuevo con los de Dead Cells el 15, Call of Duty el 23 y Phantom Blade Zero cerrando el mes. Octubre trae más de noventa lanzamientos al calendario, y estos once son los que valen el tiempo.",
-    juegos: [
-      {
-        id: "ace-combat-8-wings-of-theve",
-        texto: "La primera entrega nueva de la saga desde Ace Combat 7, de 2019. Combates aéreos con armamento pesado y una campaña armada alrededor del escuadrón: misiones de alto riesgo, decisiones difíciles y relaciones con los compañeros de vuelo."
-      },
-      {
-        id: "gears-of-war-e-day",
-        texto: "Gears vuelve al principio de todo: el Día de la Emergencia, cuando empieza la guerra contra la Horda. The Coalition ya lo tiene terminado y entra en Game Pass el mismo día, así que si tenés el servicio lo jugás sin pagar aparte."
-      },
-      {
-        id: "star-wars-galactic-racer",
-        texto: "Carreras de Star Wars con historia propia, después de la caída del Imperio: la Liga Galáctica es un circuito clandestino del Borde Exterior que financian los sindicatos criminales, y ahí se hacen los campeones."
-      },
-      {
-        id: "kingdom-hearts-collection",
-        texto: "Los tres juegos principales de Kingdom Hearts con todo lo que se les fue sumando, juntos y en consolas actuales. Para quien nunca la jugó es la forma más directa de entrar a una saga que, de tantas entregas, se volvió difícil de seguir."
-      },
-      {
-        id: "planet-zoo-2",
-        texto: "El simulador de zoológicos de Frontier vuelve con una idea nueva: además de armar el parque, los animales se pueden liberar en reservas naturales abiertas. Es de los que se juegan sin apuro y durante meses."
-      },
-      {
-        id: "castlevania-belmonts-curse",
-        texto: "Un Castlevania nuevo en 2D hecho con Evil Empire y Motion Twin, los de Dead Cells, que es casi la mejor garantía posible para este tipo de juego. Lo protagoniza Rose Belmont, 23 años después de Dracula's Curse, y hay demo desde el 1 de octubre para probarlo antes."
-      },
-      {
-        id: "final-fantasy-resonance",
-        texto: "Un Final Fantasy nuevo en pixel art que parte de los clásicos y los lleva más lejos, en todas las consolas, incluida la primera Switch. Para quien extraña los Final Fantasy de antes, es la apuesta del mes."
-      },
-      {
-        id: "nintendo-switch-sports-resort",
-        texto: "La secuela de Switch Sports, exclusiva de Switch 2, con deportes nuevos y controles de movimiento renovados. Es el juego del mes para jugar con gente en el living, a cualquier edad."
-      },
-      {
-        id: "call-of-duty-modern-warfare-4",
-        texto: "El lanzamiento más grande del mes. La campaña pasa en la península de Corea, con el capitán Price actuando por fuera de los canales oficiales, y vuelve el modo DMZ. Quien lo reservó puede jugarlo desde el 16, una semana antes."
-      },
-      {
-        id: "phantom-blade-zero",
-        texto: "Acción de artes marciales muy rápida, con la narrativa de las historias wuxia de fondo: Soul tiene 66 días de vida y los usa para desenredar una conspiración. Sony le dedicó un State of Play entero en agosto, y es exclusivo de PS5."
-      },
-      {
-        id: "the-wolf-among-us-remastered",
-        texto: "El policial de Telltale de 2013, con Bigby Wolf investigando en Fabletown, donde los personajes del folclore son reales y cada decisión pesa. Vuelve con el apartado técnico al día y en todas las consolas."
-      }
-    ]
-  },
   anteriores: [
+    {
+      mes: "2026-09",
+      intro: "Marvel's Wolverine el 15, la primera Fire Emblem pensada para Switch 2 el 17, y Control y Silent Hill el mismo día a fin de mes. Septiembre trae 112 lanzamientos al calendario, y estos doce son los que valen el tiempo.",
+      juegos: [
+        {
+          id: "moonlighter-2-the-endless-vault",
+          texto: "El primero se ganó su público con una idea que nadie más estaba haciendo: de día atendés tu tienda y ponés los precios, de noche bajás a la mazmorra a buscar qué vender. La secuela mantiene el doble turno y agranda todo lo demás."
+        },
+        {
+          id: "the-blood-of-dawnwalker",
+          texto: "El debut de Rebel Wolves, el estudio que armaron varios de los que hicieron The Witcher 3. Sos Coen, humano de día y vampiro de noche, en la Europa del siglo XIV: el reloj no es decorativo, cambia lo que podés hacer."
+        },
+        {
+          id: "orbitals",
+          texto: "Nintendo lo anunció con dos palabras —«We are one!»— y nada más. Salió el 3 de septiembre con 82 y ahora se entiende la frase: es un cooperativo para DOS, sin modo individual, con un diseño de niveles que las reseñas comparan con It Takes Two. Si tenés con quién jugarlo, es la apuesta buena del mes; si no, no es para vos."
+        },
+        {
+          id: "marsupilami-2-salsa-palombia",
+          texto: "Plataformas clásico y sin vueltas, de los que ya casi no se hacen para consola. El primero sorprendió por lo prolijo, y este mes es de los pocos que se puede jugar con chicos al lado."
+        },
+        {
+          id: "onimusha-way-of-the-sword",
+          texto: "Capcom vuelve a Onimusha veinte años después. Un samurái con el guantelete Oni en el Kioto de los Genma, con la misma receta de combate cuerpo a cuerpo pesado que hizo grande a la saga en PS2."
+        },
+        {
+          id: "marvels-wolverine",
+          texto: "Lo nuevo de Insomniac después de los dos Spider-Man, y el tono es el opuesto: crudo, adulto y con las garras a la vista. Es el exclusivo grande de PS5 del año y llega sin haber mostrado casi nada."
+        },
+        {
+          id: "fire-emblem-fortunes-weave",
+          texto: "La primera Fire Emblem pensada para Switch 2. Estrategia por turnos en cuadrícula, unidades que si mueren no vuelven, y los vínculos entre personajes pesando tanto como las estadísticas."
+        },
+        {
+          id: "graveyard-keeper-2",
+          texto: "La secuela del simulador de cementerios más incómodo que existe. El primero se reía de Stardew Valley haciéndote administrar un negocio con los muertos del pueblo; este suma automatización y zombis a las órdenes."
+        },
+        {
+          id: "control-resonant",
+          texto: "Remedy vuelve a la Casa Inmemorial, esta vez con Dylan Faden y un Manhattan deformado. Del mismo estudio que Alan Wake 2, que es probablemente lo mejor que hicieron."
+        },
+        {
+          id: "silent-hill-townfall",
+          texto: "El otro Silent Hill, el que no es remake. Lo hace Screen Burn, no Bloober, y se aleja del molde: menos pueblo con niebla y más una isla, un tipo que vuelve a arreglar algo y un descenso que se pone incómodo rápido."
+        },
+        {
+          id: "garfield-escape-from-monday",
+          texto: "Un plataformas 3D de Garfield en el que hay que despertarlo de una pesadilla de verduras. Está en la lista sin ironía: el mes tiene doce juegos de vampiros, samuráis y demonios, y este es el único que se ríe."
+        },
+        {
+          id: "the-witcher-3-wild-hunt-remastered",
+          texto: "Uno de los mejores RPG de mundo abierto que se hicieron, remasterizado y entero —con Hearts of Stone y Blood and Wine— y por primera vez portátil de verdad en Switch 2. Si nunca lo jugaste, es la mejor forma de empezar."
+        }
+      ]
+    },
     {
       mes: "2026-08",
       intro: "Metal Gear Solid 4 salió de la PS3 después de dieciocho años, Arc System Works hizo un 4 contra 4 de Marvel y Game Freak se animó a un RPG de acción sin Pokémon adentro. Ocho juegos de agosto, con el puntaje de la crítica y un gameplay en español de cada uno.",

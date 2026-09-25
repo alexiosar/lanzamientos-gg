@@ -210,8 +210,11 @@ def pagina(datos_mes, juegos, meses, datos):
     intro = (datos_mes.get("intro") or "").strip() or respaldo
 
     cuerpo = "\n".join(tarjeta(r, j, hoy.isoformat()) for r, j in elegidos)
-    sub = (f"{len(elegidos)} JUEGOS ELEGIDOS A MANO" if not pasado
-           else f"{len(elegidos)} JUEGOS ELEGIDOS A MANO — EL MES YA PASÓ")
+    # "El mes ya pasó" sólo si terminó de verdad. Desde el 25/09/2026 la lista del mes que
+    # viene se puede publicar unos días antes, y el mes que se archiva todavía está en curso.
+    termino = mes < hoy.strftime("%Y-%m")
+    sub = (f"{len(elegidos)} JUEGOS ELEGIDOS A MANO — EL MES YA PASÓ" if pasado and termino
+           else f"{len(elegidos)} JUEGOS ELEGIDOS A MANO")
 
     html = f'''<!DOCTYPE html>
 <html lang="es">

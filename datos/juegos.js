@@ -2536,7 +2536,7 @@ const JUEGOS = [
     },
     metacritic: 85,
     metacriticUsuarios: 8.0,
-    metacriticVotos: 325,
+    metacriticVotos: 324,
     critica: "La prensa coincide en que Arc System Works acertó con lo difícil: que un juego de peleas de 4 contra 4 se entienda sin haber jugado ninguno antes y siga teniendo profundidad para el que compite. Los elogios van al apartado visual, al plantel y a un modo entrenamiento que enseña de verdad. Lo que se le reprocha está afuera del ring: los modos para un jugador quedan cortos y los escenarios no están a la altura del resto. La bronca de los jugadores es otra y es de la versión de PC, que exige cuenta de PSN.",
     imagen: "https://cdn2.steamgriddb.com/grid/714a8a77af865a55fdd1872ee975b056.png",
     noticias: [
@@ -2881,7 +2881,7 @@ const JUEGOS = [
     },
     metacritic: 78,
     metacriticUsuarios: 7.8,
-    metacriticVotos: 181,
+    metacriticVotos: 180,
     critica: "Frogwares cambió de género y la crítica se lo acepta: esta segunda parte es survival horror al estilo de los Resident Evil modernos, con mejor combate y mejores puzzles que la primera. El reparo que más se repite es lo que quedó en el camino, la investigación de detective a mano suelta que hacía distinto al original. Varias reseñas recuerdan además en qué condiciones se hizo, con el estudio trabajando en Ucrania durante la guerra, y le perdonan la falta de pulido y unas actuaciones desparejas.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825860/library_600x900.jpg",
     noticias: [
@@ -3453,7 +3453,7 @@ const JUEGOS = [
     },
     metacritic: 85,
     metacriticUsuarios: 8.6,
-    metacriticVotos: 849,
+    metacriticVotos: 850,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/library_600x900.jpg",
     critica: "Más de cincuenta reseñas y un acuerdo casi unánime: es el mejor regreso posible después de veinte años sin la saga, y varias lo ponen entre los mejores juegos de acción del año. El elogio se concentra en una sola cosa, el combate — parries que exigen tiempo exacto, el Issen, y capas de mecánicas que se van sumando hasta el final. Se destaca también que Capcom NO lo convirtió en un soulslike, que era el camino fácil. Los reparos son tres y se repiten: los jefes se reutilizan y se notan, el Kioto abierto que hace de eje se siente repetitivo y fuera de tono con las misiones lineales, y la historia es lo más flojo del conjunto. Varias reseñas recomiendan arrancar en dificultad Historia para agarrarle la mano.",
     noticias: [
@@ -3701,7 +3701,7 @@ const JUEGOS = [
     },
     metacritic: 76,
     metacriticUsuarios: 6.8,
-    metacriticVotos: 4784,
+    metacriticVotos: 4788,
     critica: "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
@@ -3846,7 +3846,7 @@ const JUEGOS = [
     },
     metacritic: 89,
     metacriticUsuarios: 8.9,
-    metacriticVotos: 602,
+    metacriticVotos: 603,
     critica: "Casi unánime: de 60 reseñas, 55 son positivas y ninguna negativa. Lo que más se repite es la escala, que varias comparan con tener cuatro juegos en uno: las campañas de los cuatro señores de la llama, Dietrich, Theodora, Cai y Leda, desembocan en una quinta, y así y todo el ritmo no se cae gracias a las mazmorras y la exploración entre batallas. El combate por turnos se lleva los mayores elogios, igual que la escritura. Los reparos son chicos: algún detalle flojo de presentación, el sistema Overblaze algo desbalanceado y un tamaño que a más de uno le puede resultar demasiado.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ma.jpg",
     noticias: [
