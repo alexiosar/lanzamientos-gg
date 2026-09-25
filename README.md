@@ -1860,11 +1860,12 @@ y abrir http://localhost:8080
   | Titan Quest II | 19 de enero de 2027 en PS5 y Xbox (Gematsu, 23/09) | La PS Store dice "por determinar" y Xbox tiene una ficha vieja del acceso anticipado de PC, sin la fecha nueva |
   | Harvest Moon: Echoes of Teradea (Switch 2) | 15 de octubre (Natsume, 25/08) | La de Switch ya está en la eShop desde el 24/09. La de Switch 2 sigue cargada por el comunicado de Natsume, pero todavía sin ficha de tienda |
   | Keep Driving (PS5 y Switch) | 28 de septiembre | **Ya está cargado en Xbox.** YCJY Games lo anunció para las tres, pero la PS Store y la eShop no lo listan |
-  | Deck of Haunts (PS y Switch) | 8 de octubre | **Ya está cargado en Xbox.** La PS Store tiene la fecha pero sin decir si es PS4 o PS5, y Nintendo no lo lista |
+  | Deck of Haunts (Switch y Switch 2) | 8 de octubre (DANGEN, 24/09) | **Ya está cargado en PS5 y Xbox**: el anuncio del 24/09 confirmó que la ficha sin plataforma de la PS Store es la de PS5. La eShop no lo lista |
   | Fangtopia | 26 de octubre en PS5 y Switch 2 (releases.com) | La PS Store tiene la fecha pero no la plataforma, y Nintendo no lo lista |
   | The House of Tesla: Definitive Edition | 19 de noviembre en PS4 y PS5 (releases.com) | La PS Store tiene la fecha pero no la plataforma |
   | Eternal Anima (Switch 2 y Xbox) | 4 de marzo de 2027 | **Ya está cargado en PS5.** Se mostró en el Nintendo Direct del 9/09, pero la eShop y Xbox no lo listan |
-  | Alpha Nomos · Curse of Resthaven · Time to Wake Up | Octubre (releases.com) | Las tiendas los tienen pero sin fecha |
+  | Alpha Nomos | 12 de octubre en PS5 y Xbox (Gematsu, 24/09) | La PS Store y Xbox lo listan sin fecha |
+  | Curse of Resthaven · Time to Wake Up | Octubre (releases.com) | Las tiendas los tienen pero sin fecha |
   | Mycopunk (Xbox) | 20 de octubre | **Ya está cargado en PS5.** Gematsu dice "PlayStation 5 y…" y la tienda de Xbox no lo encuentra, así que no se sabe si hay versión de Xbox |
   | Prinny Party: Going Overboard! (Switch 2) | 11 de noviembre | **Ya está cargado en PS5 y Switch**: la eShop sumó la de Switch el 24/09. La de Switch 2 sigue sin ficha de tienda |
   | Persona 4 Revival (Switch 2) | 20 de mayo de 2027 (Nintendo Direct) | **Ya está cargado en PS5 y Xbox.** Mayo de 2027 todavía no es un mes del calendario |

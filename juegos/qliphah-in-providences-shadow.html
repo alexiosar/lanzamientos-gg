@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">57 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('qliphah-in-providences-shadow')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -161,6 +167,10 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Pocas reseñas y, en su mayoría, en contra. Todas le reconocen un sistema de combate distinto a cualquier otro, basado en contraataques sobre una línea de tiempo. Pero para casi todas lo que al principio es interesante se vuelve repetitivo: cada pelea termina siendo la misma secuencia, algunas se estiran de más y las mecánicas especiales no siempre funcionan como deberían. La investigación y la progresión tampoco convencen. Lleva unas dieciséis horas.</p>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">En un Tokio arrasado por lo que llaman el Colapso del Mundo, el repartidor Souma Hoshigami sobrevive al ataque de una Aberración y queda a mitad de camino entre lo humano y lo otro. Un RPG táctico donde se manipula la línea temporal y cada contraataque se decide en tiempo real.</p>
