@@ -3336,7 +3336,7 @@ const JUEGOS = [
     },
     metacritic: 83,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 1342,
+    metacriticVotos: 1343,
     imagen: "https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png",
     critica: "Más de treinta reseñas y un acuerdo raro de ver en un debut: Rebel Wolves —armado por gente que hizo The Witcher 3— salió bien parado. Lo que más se elogia es lo que lo hace distinto: el reloj de treinta días que corre mientras jugás, la doble condición de humano de día y vampiro de noche, y decisiones que tienen consecuencias de verdad. También la escritura y los personajes. El reparo que más se repite es de dónde viene: toma mucho de The Witcher 3 y el mundo abierto se siente de fórmula, con misiones secundarias que se parecen entre sí. Se le marcan además animaciones faciales duras y un combate que a la larga se vuelve repetitivo.",
     noticias: [
@@ -4302,7 +4302,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/WhQm-ExRz60",
     metacritic: 83,
     metacriticUsuarios: 8.8,
-    metacriticVotos: 413,
+    metacriticVotos: 414,
     critica: "Una de las mejores recepciones del año. Las reseñas lo consideran lo mejor que hizo Remedy: un RPG de acción que se anima a cambiar de género respecto al primero sin perder la identidad del estudio, con un combate cuerpo a cuerpo nuevo que da para muchas combinaciones, una forma de moverse por Manhattan muy divertida y una dirección de arte de lo más fuerte del año. También elogian el elenco y la historia, tan rara como siempre. Los reparos son menores y casi no aparecen.",
     imagen: "https://cdn2.steamgriddb.com/grid/d7d5d27ed9b44f4646def6eccd765991.png",
     gamepass: false,
@@ -4325,7 +4325,7 @@ const JUEGOS = [
     },
     metacritic: 81,
     metacriticUsuarios: 7.5,
-    metacriticVotos: 282,
+    metacriticVotos: 283,
     critica: "Muy buena recepción. Para una reseña es el mejor Silent Hill desde la trilogía original, y para todas es un paso valiente: el cambio a primera persona y el pueblo escocés lo vuelven más angustiante que nunca, con una historia impredecible, puzles bien integrados y un mapa semiabierto lleno de rincones tensos. Hay quien lo compara con Alien: Isolation y con los Resident Evil en primera persona. Los reparos: el sigilo pesa más que el combate, algo que no a todos los fans les va a gustar, y el reparto de recursos es desparejo en algunos tramos.",
     imagen: "https://cdn2.steamgriddb.com/grid/49e830db0b18619b94d3c6e899096dc7.png",
     gamepass: false,
@@ -6854,8 +6854,8 @@ const JUEGOS = [
     descripcion: "Desembarcás en las playas de Galípoli para pelear batallas por objetivos con cincuenta jugadores en los frentes otomanos. Guerra de trincheras y desierto en el shooter más inmersivo de la Primera Guerra Mundial.",
     trailer: "https://youtube.com/embed/hlnSz-JPiBk",
     metacritic: 80,
-    metacriticUsuarios: 7.0,
-    metacriticVotos: 9,
+    metacriticUsuarios: 7.3,
+    metacriticVotos: 10,
     critica: "Con pocas reseñas pero muy parejas hacia arriba. Todas destacan lo mismo: es un shooter de la Primera Guerra que se anima a un frente que casi nadie tocó, el otomano, y que va a contramano de la moda —lento, áspero, de trinchera, con armas de época y donde sin equipo no se hace nada—. El trabajo histórico aparece elogiado en todas. La nota más baja, que igual es buena, valora el cuidado del diseño por encima del resultado.",
     imagen: "https://cdn2.steamgriddb.com/grid/5e3530bd466b2d2c59d586141d4d9083.png",
     gamepass: false,
@@ -9603,6 +9603,13 @@ const JUEGOS = [
     metacritic: 84,
     critica: "El puntaje es el de la versión original, de 2014. Las reseñas lo recibieron como uno de los mejores juegos de ese año y, para varias, el mejor juego de El Señor de los Anillos hasta entonces. El combate toma lo mejor de la saga Batman Arkham, y lo que lo eleva es el sistema Némesis, que arma historias propias con cada orco enemigo. Las reseñas casi no le marcaron reparos.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/241930/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-22",
+        titulo: "SALE EL 30 CON SHADOW OF WAR, Y A MITAD DE PRECIO EN PREVENTA",
+        texto: "Aspyr anunció los dos Middle-earth para Switch 2 el mismo día, el 30 de septiembre. Se venden por separado o juntos en el Shadow Bundle, y quien los reserva antes del lanzamiento paga la mitad: en la eShop de Estados Unidos este quedó a 9,99 dólares y el paquete con los dos, a 34,99."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-24"
@@ -9620,6 +9627,13 @@ const JUEGOS = [
     metacritic: 80,
     critica: "El puntaje es el de la versión original, de 2017. Las reseñas lo ven como una secuela que supera al primero en casi todo: el sistema Némesis más profundo y menos repetitivo, un combate excelente, una escala enorme con batallas por fortalezas y mucha libertad. El reparo que aparece es para los fans de Tolkien: se toma bastantes libertades con la historia original.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356190/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-22",
+        titulo: "SALE EL 30 CON SHADOW OF MORDOR, Y A MITAD DE PRECIO EN PREVENTA",
+        texto: "Aspyr anunció los dos Middle-earth para Switch 2 el mismo día, el 30 de septiembre. Se venden por separado o juntos en el Shadow Bundle, y quien los reserva antes del lanzamiento paga la mitad: en la eShop de Estados Unidos este quedó a 24,99 dólares y el paquete con los dos, a 34,99."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-24"

@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-27T14:55:28+00:00",
+ "generado": "2026-09-27T15:08:07+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-27",
@@ -244,7 +244,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-24",
-   "url": "https://lanzamientos.lat/juegos/middle-earth-shadow-of-mordor-switch-2"
+   "url": "https://lanzamientos.lat/juegos/middle-earth-shadow-of-mordor-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-09-22",
+     "titulo": "SALE EL 30 CON SHADOW OF WAR, Y A MITAD DE PRECIO EN PREVENTA",
+     "texto": "Aspyr anunció los dos Middle-earth para Switch 2 el mismo día, el 30 de septiembre. Se venden por separado o juntos en el Shadow Bundle, y quien los reserva antes del lanzamiento paga la mitad: en la eShop de Estados Unidos este quedó a 9,99 dólares y el paquete con los dos, a 34,99."
+    }
+   ]
   },
   {
    "id": "middle-earth-shadow-of-war-definitive-edition-switch-2",
@@ -269,7 +276,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-24",
-   "url": "https://lanzamientos.lat/juegos/middle-earth-shadow-of-war-definitive-edition-switch-2"
+   "url": "https://lanzamientos.lat/juegos/middle-earth-shadow-of-war-definitive-edition-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-09-22",
+     "titulo": "SALE EL 30 CON SHADOW OF MORDOR, Y A MITAD DE PRECIO EN PREVENTA",
+     "texto": "Aspyr anunció los dos Middle-earth para Switch 2 el mismo día, el 30 de septiembre. Se venden por separado o juntos en el Shadow Bundle, y quien los reserva antes del lanzamiento paga la mitad: en la eShop de Estados Unidos este quedó a 24,99 dólares y el paquete con los dos, a 34,99."
+    }
+   ]
   },
   {
    "id": "dont-fret",
