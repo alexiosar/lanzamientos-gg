@@ -6,7 +6,21 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 25 Sep 2026 15:16:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 14:55:28 +0000</lastBuildDate>
+    <item>
+      <title>MINECRAFT DUNGEONS II: LA PRIMERA DIMENSIÓN NUEVA DE MINECRAFT EN 14 AÑOS ARRANCA ACÁ</title>
+      <link>https://lanzamientos.lat/juegos/minecraft-dungeons-2</link>
+      <guid isPermaLink="false">minecraft-dungeons-2-2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
+      <description>En Minecraft LIVE, Mojang mostró más de la Sift, la primera dimensión nueva de Minecraft en más de 14 años. Se estrena en Dungeons II, con biomas como Meadows y Carapace, criaturas nuevas y reglas propias que afectan al personaje, y en 2027 va a llegar también al Minecraft de siempre. — MINECRAFT DUNGEONS II para SWITCH / XBOX / SWITCH 2 / PS5.</description>
+    </item>
+    <item>
+      <title>ACE COMBAT 8: WINGS OF THEVE: UNA HISTORIA EN PRIMERA PERSONA</title>
+      <link>https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve</link>
+      <guid isPermaLink="false">ace-combat-8-wings-of-theve-2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+      <description>La campaña cambia la forma de contar: el protagonista es un piloto rescatado a la deriva por el portaaviones Endurance, al que ponen de navegante de Jan «Rex» Cope, el Wings of Theve, un as que en realidad es una herramienta de propaganda con órdenes de no pelear. Cuando Cope muere en un derribo, el protagonista hereda su apodo. Bandai Namco también publicó un repaso de cinco minutos de cómo se juega. — ACE COMBAT 8: WINGS OF THEVE para XBOX / PS5.</description>
+    </item>
     <item>
       <title>SCREENBOUND: NO SALIÓ EN SEPTIEMBRE</title>
       <link>https://lanzamientos.lat/juegos/screenbound</link>
@@ -276,20 +290,6 @@ Los otros tres ya tienen día. Neon Abyss 2 deja el acceso anticipado el 8 de oc
       <guid isPermaLink="false">fading-echo-2026-09-18</guid>
       <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
       <description>El 22 de septiembre salió también en PS5 y en Xbox Series, cinco días después que en Switch 2. — FADING ECHO para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>MOOMINTROLL: WINTER'S WARMTH: DEBUT CON 83 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/moomintroll-winters-warmth</link>
-      <guid isPermaLink="false">moomintroll-winters-warmth-2026-09-18</guid>
-      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Sale hoy con 83 sobre 22 reseñas. La crítica lo recomienda como un juego tranquilo y precioso, que muestra un lado del Valle de los Mumin que los libros casi no cuentan: el invierno. — MOOMINTROLL: WINTER'S WARMTH para PS5 / SWITCH / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>FADING ECHO: YA ESTÁ EN PS5 Y XBOX</title>
-      <link>https://lanzamientos.lat/juegos/fading-echo-consolas</link>
-      <guid isPermaLink="false">fading-echo-consolas-2026-09-18</guid>
-      <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Salió el 22 de septiembre en PS5 y en Xbox Series, cinco días después de la edición de Switch 2. El blog de PlayStation lo anunció ese mismo día y en la PlayStation Store ya está a la venta. — FADING ECHO para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

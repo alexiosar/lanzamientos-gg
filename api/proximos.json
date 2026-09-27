@@ -2,92 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-25T15:16:47+00:00",
+ "generado": "2026-09-27T14:55:28+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-25",
- "hasta": "2026-10-25",
- "total": 89,
+ "desde": "2026-09-27",
+ "hasta": "2026-10-27",
+ "total": 90,
  "juegos": [
-  {
-   "id": "agefield-high-rock-the-school",
-   "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
-   "relanzamiento": "En PC desde agosto de 2026",
-   "duracion": "≈ 19 h (historia)",
-   "fecha": "2026-09-25",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "REFUGIUM GAMES",
-   "descripcion": "Una aventura de secundaria a principios de los 2000. Sam es el nuevo del colegio de Agefield y le quedan tres meses de clases: hay horarios que cumplir, pero también amigos con los que armar lío, rateadas y una chica a la que conquistar, en un pueblo chico que se recorre libremente.",
-   "trailer": "https://youtube.com/embed/7OU1g4j-ap8",
-   "metacritic": 27,
-   "metacriticUsuarios": 3.2,
-   "metacriticVotos": 17,
-   "critica": "El puntaje es el de la versión de PC, de agosto. De los peores del año: las reseñas lo ven como un intento fallido de heredero de Bully. Algunas le reconocen la ambientación, un homenaje a las comedias adolescentes de los 2000, algo de humor y variedad de actividades, pero todas coinciden en que está plagado de problemas técnicos: misiones y mecánicas rotas, un combate torpe, un sigilo que no funciona y un diseño que en muchos tramos lo vuelve casi injugable.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3562580/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/agefield-high-rock-the-school"
-  },
-  {
-   "id": "ea-sports-fc-27",
-   "titulo": "EA SPORTS FC 27",
-   "fecha": "2026-09-25",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "DEPORTES",
-    "SIMULACION"
-   ],
-   "desarrollador": "EA CANADA",
-   "descripcion": "La nueva edición del simulador de fútbol de EA suma The Grounds, un espacio donde la calle y el estadio se cruzan, y promete más control en todos los modos. Mbappé y Bellingham comparten la portada. Acceso anticipado desde el 18 de septiembre con las ediciones Ultimate.",
-   "trailer": "https://youtube.com/embed/MOclJJ7IpSY",
-   "metacritic": 78,
-   "metacriticUsuarios": null,
-   "critica": "Buena recepción. Las reseñas coinciden en que es la entrega en la que la serie reconoce los errores de las anteriores y los corrige: más control manual, una defensa con menos ayuda de la inteligencia artificial, mejores movimientos en ataque y un mercado de pases renovado. El modo Carrera es lo que más creció, y The Grounds, el modo nuevo, suma variedad. Los reparos: no es el salto visual que algunos esperaban, The Grounds no está a la altura de su ambición y quedan problemas de balance y técnicos.",
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coclf3.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/ea-sports-fc-27"
-  },
-  {
-   "id": "the-relic-first-guardian-xbox",
-   "titulo": "THE RELIC: FIRST GUARDIAN",
-   "relanzamiento": "En PS5 desde julio de 2026 — esta fecha corresponde a la edición de Xbox",
-   "duracion": "≈ 17 h (historia)",
-   "fecha": "2026-09-25",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG",
-    "AVENTURA"
-   ],
-   "desarrollador": "PERFECT WORLD GAMES",
-   "descripcion": "La edición de Xbox del RPG de acción de Perfect World, casi dos meses después de su estreno en PlayStation.",
-   "trailer": "https://youtube.com/embed/9BZUDAXO7fk",
-   "metacritic": null,
-   "critica": "Es el peor recibido de todo el calendario y las reseñas no se guardan nada: hay notas de 30 que lo ponen entre lo peor del año. Lo que rescatan, casi todas, es la ambición y la ambientación en la mitología coreana, y hasta las más duras reconocen que hay pasión detrás. El problema es todo lo demás: gráficos que varias comparan con los de dos generaciones atrás, caídas de rendimiento, un mundo abierto que nadie pidió y una historia contada a pedazos. La conclusión que se repite es que quiso hacer demasiado y no le salió casi nada.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-18",
-   "url": "https://lanzamientos.lat/juegos/the-relic-first-guardian-xbox"
-  },
   {
    "id": "keep-driving",
    "titulo": "KEEP DRIVING",
@@ -136,7 +57,14 @@
    "gamepass": true,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/minecraft-dungeons-2"
+   "url": "https://lanzamientos.lat/juegos/minecraft-dungeons-2",
+   "noticias": [
+    {
+     "fecha": "2026-09-26",
+     "titulo": "LA PRIMERA DIMENSIÓN NUEVA DE MINECRAFT EN 14 AÑOS ARRANCA ACÁ",
+     "texto": "En Minecraft LIVE, Mojang mostró más de la Sift, la primera dimensión nueva de Minecraft en más de 14 años. Se estrena en Dungeons II, con biomas como Meadows y Carapace, criaturas nuevas y reglas propias que afectan al personaje, y en 2027 va a llegar también al Minecraft de siempre."
+    }
+   ]
   },
   {
    "id": "toem-2",
@@ -672,6 +600,11 @@
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve",
    "noticias": [
+    {
+     "fecha": "2026-09-25",
+     "titulo": "UNA HISTORIA EN PRIMERA PERSONA",
+     "texto": "La campaña cambia la forma de contar: el protagonista es un piloto rescatado a la deriva por el portaaviones Endurance, al que ponen de navegante de Jan «Rex» Cope, el Wings of Theve, un as que en realidad es una herramienta de propaganda con órdenes de no pelear. Cuando Cope muere en un derribo, el protagonista hereda su apodo. Bandai Namco también publicó un repaso de cinco minutos de cómo se juega."
+    },
     {
      "fecha": "2026-09-24",
      "titulo": "LA CINEMÁTICA DE APERTURA, A UNA SEMANA DE SALIR",
@@ -2296,6 +2229,96 @@
    "psplus": false,
    "alta": "2026-09-10",
    "url": "https://lanzamientos.lat/juegos/warrior-cats-clans-of-the-forest"
+  },
+  {
+   "id": "9-rip-sequel",
+   "titulo": "9 R.I.P. SEQUEL",
+   "fecha": "2026-10-27",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "NOVELA VISUAL",
+    "ANIME"
+   ],
+   "desarrollador": "IDEA FACTORY",
+   "descripcion": "La continuación de 9 R.I.P., la novela visual de Idea Factory, que retoma la historia y los personajes del primer juego.",
+   "trailer": "https://youtube.com/embed/HpjxMnOqI4U",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coab2m.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/9-rip-sequel"
+  },
+  {
+   "id": "village-in-the-shade",
+   "titulo": "VILLAGE IN THE SHADE",
+   "fecha": "2026-10-27",
+   "plataformas": [
+    "PS5",
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "AVENTURA",
+    "HORROR"
+   ],
+   "desarrollador": "NIPPON ICHI SOFTWARE",
+   "descripcion": "Un simulador de granja en un pueblo japonés tranquilo. Eso sí: más vale que sigas las reglas del lugar, o vas a tener que atenerte a las consecuencias.",
+   "trailer": "https://youtube.com/embed/z0QNuVRSa3M",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtql.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/village-in-the-shade"
+  },
+  {
+   "id": "remothered-red-nuns-legacy",
+   "titulo": "REMOTHERED: RED NUN'S LEGACY",
+   "fecha": "2026-10-27",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "TERROR",
+    "AVENTURA",
+    "ACCION"
+   ],
+   "desarrollador": "STORMIND GAMES",
+   "descripcion": "Secuestraron a tu hija. La búsqueda te mete en una pesadilla de la que hay que salir vivo mientras se destapa la verdad detrás de la monja roja.",
+   "trailer": "https://youtube.com/embed/PEBcT6E6u6c",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobrbr.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-17",
+   "url": "https://lanzamientos.lat/juegos/remothered-red-nuns-legacy"
+  },
+  {
+   "id": "the-seance-of-blake-manor",
+   "titulo": "THE SÉANCE OF BLAKE MANOR",
+   "fecha": "2026-10-27",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "HORROR"
+   ],
+   "desarrollador": "RAW FURY",
+   "descripcion": "Una investigación en una mansión apartada donde pasa algo que no se explica solo. Se recorre, se junta evidencia y se arma qué pasó, con sesiones de espiritismo de por medio. Lo publica Raw Fury.",
+   "trailer": "https://youtube.com/embed/lKI7DVrhWL8",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/4b21069e4de1d75b74640d2691e9f2d7.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/the-seance-of-blake-manor"
   }
  ]
 }
