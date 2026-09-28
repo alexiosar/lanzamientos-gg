@@ -2,11 +2,11 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-27T15:08:07+00:00",
+ "generado": "2026-09-28T15:02:22+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-27",
- "hasta": "2026-10-27",
+ "desde": "2026-09-28",
+ "hasta": "2026-10-28",
  "total": 90,
  "juegos": [
   {
@@ -27,6 +27,8 @@
    "descripcion": "Un RPG de gestión sobre un viaje en auto a través del país, con aire de los primeros años 2000. Se levanta a gente que hace dedo, se hacen changas por el camino, se arregla y se mejora el auto y se elige la ruta en el mapa. Los problemas del viaje se resuelven con habilidades, objetos y los propios acompañantes, sin apuro.",
    "trailer": "https://youtube.com/embed/EWqXkxl1BRY",
    "metacritic": 84,
+   "metacriticUsuarios": 7.3,
+   "metacriticVotos": 43,
    "critica": "El puntaje es el de la versión de PC, de 2025. Las reseñas lo reciben como una joya: captura muy bien la sensación de un viaje en ruta, con personajes memorables, una gestión de recursos que exige y una de las mejores bandas sonoras y ambientaciones del año. Los reparos son de comodidad: no se puede alejar el mapa y cuesta seguir las misiones.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2756920/library_600x900.jpg",
    "gamepass": false,

@@ -6,7 +6,21 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Sun, 27 Sep 2026 15:08:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 15:02:22 +0000</lastBuildDate>
+    <item>
+      <title>GOD OF WAR: LAUFEY: LAS RESERVAS ABREN EL 29 DE SEPTIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/god-of-war-laufey</link>
+      <guid isPermaLink="false">god-of-war-laufey-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Sony abre las reservas el 29 a las 10 de la mañana, hora local, en digital y en físico. Quien lo reserve se lleva un conjunto de armadura, una apariencia para Phranque y un paquete de recursos, y la Edición Digital Deluxe suma otro conjunto de armadura con espada, un minilibro de arte y la banda sonora. También se mostró el arco serpentino de Faye, que puede acumular hasta cinco flechas en una sola salva. — GOD OF WAR: LAUFEY para PS5.</description>
+    </item>
+    <item>
+      <title>SURI: THE SEVENTH NOTE: SALE EL 30 DE OCTUBRE EN PS5</title>
+      <link>https://lanzamientos.lat/juegos/suri-the-seventh-note</link>
+      <guid isPermaLink="false">suri-the-seventh-note-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Tathvamasi Studios, que lo hizo con el apoyo del programa Hero Project de PlayStation India, puso fecha después de cuatro años de desarrollo. En PC sale el mismo día. — SURI: THE SEVENTH NOTE para PS5.</description>
+    </item>
     <item>
       <title>MINECRAFT DUNGEONS II: LA PRIMERA DIMENSIÓN NUEVA DE MINECRAFT EN 14 AÑOS ARRANCA ACÁ</title>
       <link>https://lanzamientos.lat/juegos/minecraft-dungeons-2</link>
@@ -274,20 +288,6 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
       <guid isPermaLink="false">we-were-here-tomorrow-2026-09-20</guid>
       <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
       <description>Total Mayhem Games puso fecha en el PC Gaming Show: Tokyo Direct. Sale el mismo día en PC, PS5 y Xbox. — WE WERE HERE TOMORROW para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>MYCOPUNK: SALE DEL ACCESO ANTICIPADO EL 20 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/mycopunk</link>
-      <guid isPermaLink="false">mycopunk-2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Devolver Digital puso fecha en el PC Gaming Show: Tokyo Direct. Ese día llega la versión terminada, y con ella el debut en PS5. — MYCOPUNK para PS5.</description>
-    </item>
-    <item>
-      <title>LUFIA I &amp; II: THE SINISTRALS SAGA: TAITO ANUNCIÓ LA RECOPILACIÓN</title>
-      <link>https://lanzamientos.lat/juegos/lufia-i-ii-the-sinistrals-saga</link>
-      <guid isPermaLink="false">lufia-i-ii-the-sinistrals-saga-2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Se presentó en el PC Gaming Show: Tokyo Direct, para PS5, Switch 2, Switch y PC, con 2027 como fecha. La edita Clear River Games y por ahora la única ficha de tienda es la de la PlayStation Store. — LUFIA I &amp; II: THE SINISTRALS SAGA para PS5 / SWITCH 2 / SWITCH.</description>
     </item>
   </channel>
 </rss>
