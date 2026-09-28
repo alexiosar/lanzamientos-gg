@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 28 Sep 2026 15:02:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 17:19:31 +0000</lastBuildDate>
     <item>
       <title>GOD OF WAR: LAUFEY: LAS RESERVAS ABREN EL 29 DE SEPTIEMBRE</title>
       <link>https://lanzamientos.lat/juegos/god-of-war-laufey</link>
@@ -176,6 +176,20 @@
       <description>DANGEN Entertainment lo confirmó para el 8 de octubre en PS5, Xbox Series y Xbox One, y también anunció versiones de Switch y Switch 2 que la eShop todavía no lista. — DECK OF HAUNTS para PS5 / XBOX.</description>
     </item>
     <item>
+      <title>BEAMNG.DRIVE: LLEGA A PS5 EL 19 DE OCTUBRE, EN ACCESO ANTICIPADO</title>
+      <link>https://lanzamientos.lat/juegos/beamng-drive</link>
+      <guid isPermaLink="false">beamng-drive-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+      <description>BeamNG confirmó que la versión de PS5 sale el 19 de octubre en acceso anticipado, la misma etapa en la que sigue en PC desde 2015. Allá, en julio, recibió su actualización más grande, la 0.39, con sombras y gráficos renovados, una interfaz nueva y un vehículo más. — BEAMNG.DRIVE para PS5.</description>
+    </item>
+    <item>
+      <title>THE ASCENT ULTIMATE EDITION: YA TIENE FICHA EN LA ESHOP</title>
+      <link>https://lanzamientos.lat/juegos/the-ascent-switch-2</link>
+      <guid isPermaLink="false">the-ascent-switch-2-2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Nintendo lo lista para el 2 de diciembre en Switch 2, con la campaña completa para jugar solo o en cooperativo con hasta tres amigos, en el televisor o en modo portátil. — THE ASCENT ULTIMATE EDITION para SWITCH 2.</description>
+    </item>
+    <item>
       <title>CLIVE BARKER'S HELLRAISER: REVIVAL: CUATRO MINUTOS DE GAMEPLAY, Y HAY DEMO EN PC</title>
       <link>https://lanzamientos.lat/juegos/clive-barkers-hellraiser-revival</link>
       <guid isPermaLink="false">clive-barkers-hellraiser-revival-2026-09-23</guid>
@@ -274,20 +288,6 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
       <guid isPermaLink="false">persona-4-revival-2026-09-20</guid>
       <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
       <description>ATLUS emitió el segundo episodio del Persona 4 Revival Broadcast, dedicado a los integrantes del equipo de investigación y a contenido nuevo. Las reservas ya están abiertas en PS5 y Xbox, y la edición de Switch 2 sigue anunciada para el 20 de mayo de 2027. — PERSONA 4 REVIVAL para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>NEON ABYSS 2: SALE EL 8 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/neon-abyss-2</link>
-      <guid isPermaLink="false">neon-abyss-2-2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Veewo Games y Kepler Interactive pusieron fecha en el PC Gaming Show: Tokyo Direct. El juego deja el acceso anticipado de PC ese mismo día y llega a PS5, Xbox y Switch. — NEON ABYSS 2 para PS5 / XBOX / SWITCH.</description>
-    </item>
-    <item>
-      <title>WE WERE HERE TOMORROW: SALE EL 20 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/we-were-here-tomorrow</link>
-      <guid isPermaLink="false">we-were-here-tomorrow-2026-09-20</guid>
-      <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Total Mayhem Games puso fecha en el PC Gaming Show: Tokyo Direct. Sale el mismo día en PC, PS5 y Xbox. — WE WERE HERE TOMORROW para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

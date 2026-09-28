@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-28T15:02:22+00:00",
+ "generado": "2026-09-28T17:19:31+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-28",
@@ -1921,7 +1921,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-24",
-   "url": "https://lanzamientos.lat/juegos/beamng-drive"
+   "url": "https://lanzamientos.lat/juegos/beamng-drive",
+   "noticias": [
+    {
+     "fecha": "2026-09-24",
+     "titulo": "LLEGA A PS5 EL 19 DE OCTUBRE, EN ACCESO ANTICIPADO",
+     "texto": "BeamNG confirmó que la versión de PS5 sale el 19 de octubre en acceso anticipado, la misma etapa en la que sigue en PC desde 2015. Allá, en julio, recibió su actualización más grande, la 0.39, con sombras y gráficos renovados, una interfaz nueva y un vehículo más."
+    }
+   ]
   },
   {
    "id": "we-were-here-tomorrow",
