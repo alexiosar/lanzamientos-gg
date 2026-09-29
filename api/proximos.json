@@ -2,40 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-28T17:19:31+00:00",
+ "generado": "2026-09-29T14:03:20+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-28",
- "hasta": "2026-10-28",
- "total": 90,
+ "desde": "2026-09-29",
+ "hasta": "2026-10-29",
+ "total": 95,
  "juegos": [
-  {
-   "id": "keep-driving",
-   "titulo": "KEEP DRIVING",
-   "relanzamiento": "En PC desde febrero de 2025 — esta fecha corresponde a la edición de Xbox",
-   "fecha": "2026-09-28",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "RPG",
-    "SIMULACION",
-    "INDIE",
-    "CASUAL"
-   ],
-   "desarrollador": "YCJY GAMES",
-   "descripcion": "Un RPG de gestión sobre un viaje en auto a través del país, con aire de los primeros años 2000. Se levanta a gente que hace dedo, se hacen changas por el camino, se arregla y se mejora el auto y se elige la ruta en el mapa. Los problemas del viaje se resuelven con habilidades, objetos y los propios acompañantes, sin apuro.",
-   "trailer": "https://youtube.com/embed/EWqXkxl1BRY",
-   "metacritic": 84,
-   "metacriticUsuarios": 7.3,
-   "metacriticVotos": 43,
-   "critica": "El puntaje es el de la versión de PC, de 2025. Las reseñas lo reciben como una joya: captura muy bien la sensación de un viaje en ruta, con personajes memorables, una gestión de recursos que exige y una de las mejores bandas sonoras y ambientaciones del año. Los reparos son de comodidad: no se puede alejar el mapa y cuesta seguir las misiones.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2756920/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-24",
-   "url": "https://lanzamientos.lat/juegos/keep-driving"
-  },
   {
    "id": "minecraft-dungeons-2",
    "titulo": "MINECRAFT DUNGEONS II",
@@ -85,7 +58,9 @@
    "desarrollador": "SOMETHING WE MADE",
    "descripcion": "La secuela de TOEM: otra vez se es un fotógrafo curioso que recorre el mundo encontrando detalles escondidos, ayudando a la gente y retratando las cosas chicas que lo hacen lindo.",
    "trailer": "https://youtube.com/embed/jVGUdY0eht0",
-   "metacritic": null,
+   "metacritic": 85,
+   "metacriticUsuarios": null,
+   "critica": "Muy buena recepción. Las reseñas lo ven como una secuela que respeta lo que hizo querible al primero y lo amplía: una aventura tranquila en la que se explora sacando fotos, con mundos más grandes, herramientas nuevas, puzles bien pensados y una música que atrapa. Lo describen como unas vacaciones del mundo real. El reparo que se repite es que es corto, y para alguna reseña no se anima a innovar mucho.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2900640/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
@@ -139,7 +114,9 @@
    "desarrollador": "CD PROJEKT RED",
    "descripcion": "La remasterización de uno de los RPG de mundo abierto más premiados de la década llega a Switch 2. Geralt de Rivia, el Continente entero y las dos expansiones grandes, Hearts of Stone y Blood and Wine. El mismo día la remasterización llega también a PS5, Xbox y PC, pero ahí no se vende aparte: es una actualización gratuita para quien ya tenga el juego.",
    "trailer": "https://youtube.com/embed/IGk17XQ7IrQ",
-   "metacritic": null,
+   "metacritic": 94,
+   "metacriticUsuarios": null,
+   "critica": "La mejor recepción del mes. Las reseñas lo tratan como la edición definitiva de uno de los mejores RPG de la historia: mucho más que una mejora de resolución, con un apartado visual renovado, tecnologías nuevas y ajustes de comodidad, y con las dos expansiones, Hearts of Stone y Blood and Wine. Para varias, sigue a la altura de cualquier mundo abierto actual. El único reparo que se repite es que el combate y el movimiento muestran los años.",
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocrjd.jpg",
    "gamepass": false,
    "psplus": false,
@@ -168,7 +145,9 @@
    "desarrollador": "URBAN GAMES",
    "descripcion": "Más de un siglo de transporte por tierra, mar y aire para armar la red de tus sueños. La tercera entrega es más grande y más profunda, con economía dinámica y mapas que cambian a medida que crecen las ciudades.",
    "trailer": "https://youtube.com/embed/Hcgff2-44rU",
-   "metacritic": null,
+   "metacritic": 84,
+   "metacriticUsuarios": null,
+   "critica": "Muy buena recepción entre los fans del género. Las reseñas destacan que armar un imperio de transporte es muy gratificante: herramientas intuitivas, desafíos de logística que exigen planificar, una campaña histórica que enseña a jugar y un modo libre con mucha rejugabilidad. Es la entrega más pulida y vistosa de la serie, con una interfaz mejorada que ayuda a los nuevos. Los reparos: los menús abruman al principio, cuesta arrancar y todavía le falta algo de variedad.",
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9u3u.jpg",
    "gamepass": false,
    "psplus": false,
@@ -2342,6 +2321,174 @@
    "psplus": false,
    "alta": "2026-09-10",
    "url": "https://lanzamientos.lat/juegos/the-seance-of-blake-manor"
+  },
+  {
+   "id": "phantom-blade-zero",
+   "titulo": "PHANTOM BLADE ZERO",
+   "fecha": "2026-10-29",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG"
+   ],
+   "desarrollador": "S-GAME STUDIO",
+   "descripcion": "Un juego de acción de S-Game hecho en Unreal Engine 5, que mezcla la narrativa de las historias wuxia con combates muy rápidos. Se juega como Soul, un guerrero al que le quedan 66 días de vida y que se cruza con asesinos y conspiraciones.",
+   "trailer": "https://youtube.com/embed/EZr1HXkEahs",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/c2ca23c951caaa036189141224933bb8.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/phantom-blade-zero",
+   "noticias": [
+    {
+     "fecha": "2026-08-18",
+     "titulo": "EL STATE OF PLAY MOSTRÓ CÓMO SE JUEGA",
+     "texto": "Sony le dedicó una presentación entera y esta vez se vio jugabilidad y trama en profundidad, no un adelanto de treinta segundos. Sigue en pie para el 29 de octubre en PS5."
+    },
+    {
+     "fecha": "2026-08-14",
+     "titulo": "TIENE SU PROPIO STATE OF PLAY EL 17 DE AGOSTO",
+     "texto": "Sony le dedica una presentación entera el 17 de agosto. Ya se abrieron las reservas y se publicó un tráiler de once minutos, así que lo del 17 debería traer fecha firme de todo lo que falta."
+    }
+   ]
+  },
+  {
+   "id": "anomalith",
+   "titulo": "ANOMALITH",
+   "fecha": "2026-10-29",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG"
+   ],
+   "desarrollador": "FURYU CORPORATION",
+   "descripcion": "ANOMALITH es un shooter en tercera persona de supervivencia ambientado en un Japón impregnado de folclore y anomalías sobrenaturales: explorá, recolectá recursos y enfrentá lo inexplicable para sobrevivir.",
+   "trailer": "https://youtube.com/embed/1hrRMm5horM",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc3jf.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/anomalith"
+  },
+  {
+   "id": "steins-gate-reboot-consolas",
+   "titulo": "STEINS;GATE RE:BOOT",
+   "fecha": "2026-10-29",
+   "relanzamiento": "En Xbox y PC desde el 20 de agosto de 2026 — esta fecha corresponde a las ediciones de PS5, PS4, Switch 2 y Switch",
+   "duracion": "≈ 24 h (historia) · 25 h (completo)",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ANIME",
+    "NOVELA VISUAL"
+   ],
+   "desarrollador": "MAGES. INC.",
+   "descripcion": "La novela visual de viajes en el tiempo vuelve renovada, con los gráficos rehechos por completo. Parte del guion de Steins;Gate Elite, con el ritmo narrativo reajustado y una línea de mundo y un final completamente nuevos. Las ediciones de PS5, Switch 2 y Switch salen en digital y en físico.",
+   "trailer": "https://youtube.com/embed/2X-X5C4jG0A",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/9995b8e98cdbf0889fcde03a245597b9.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-30",
+   "url": "https://lanzamientos.lat/juegos/steins-gate-reboot-consolas"
+  },
+  {
+   "id": "hello-kitty-party-land",
+   "titulo": "HELLO KITTY PARTY LAND",
+   "fecha": "2026-10-29",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "CASUAL",
+    "MULTIJUGADOR",
+    "COOP"
+   ],
+   "desarrollador": "SANRIO",
+   "descripcion": "Un parque de atracciones lleno de minijuegos con Hello Kitty y el resto de los personajes de Sanrio, pensado para jugar en compañía y sin complicaciones.",
+   "trailer": "https://youtube.com/embed/IUhxPbhtDEU",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7oa.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-30",
+   "url": "https://lanzamientos.lat/juegos/hello-kitty-party-land"
+  },
+  {
+   "id": "the-wolf-among-us-remastered",
+   "titulo": "THE WOLF AMONG US REMASTERED",
+   "duracion": "≈ 8,6 h (historia) · 11 h (completo)",
+   "fecha": "2026-10-29",
+   "relanzamiento": "En PC y consolas desde 2013",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "POINT AND CLICK",
+    "GOTICO"
+   ],
+   "desarrollador": "TELLTALE",
+   "descripcion": "La remasterización del policial de Telltale de 2013. Bigby Wolf investiga en Fabletown, donde los personajes del folclore existen de verdad, y las decisiones cambian cómo sigue la historia. Vuelve con el apartado técnico puesto al día.",
+   "trailer": "https://youtube.com/embed/AFWTFkneaCo",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6r3.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/the-wolf-among-us-remastered",
+   "noticias": [
+    {
+     "fecha": "2026-08-26",
+     "titulo": "FECHA EN LA GAMESCOM, Y UN MODO NOIR",
+     "texto": "Telltale puso fecha en la gamescom: 29 de octubre. El tráiler presentó a los sospechosos del caso y adelantó un Modo Noir."
+    }
+   ]
+  },
+  {
+   "id": "hunting-simulator-3",
+   "titulo": "HUNTING SIMULATOR 3",
+   "fecha": "2026-10-29",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "NACON STUDIO GHENT",
+   "descripcion": "Un juego de mundo abierto para vivir la caza con tu perro al lado. Elegís el equipo entre marcas oficiales y explorás la naturaleza buscando la próxima presa.",
+   "trailer": "https://youtube.com/embed/0GH3kg1vRwU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482760/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/hunting-simulator-3",
+   "noticias": [
+    {
+     "fecha": "2026-08-20",
+     "titulo": "YA TIENE FECHA: 29 DE OCTUBRE",
+     "texto": "Después de meses sin día confirmado, el estudio anunció que sale el 29 de octubre."
+    }
+   ]
   }
  ]
 }

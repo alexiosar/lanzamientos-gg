@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -139,6 +140,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">71 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('sin-reloaded')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -166,6 +172,10 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Recepción correcta, sin entusiasmo. Nightdive hizo un buen trabajo de remasterización, y las reseñas rescatan lo que el original tenía de ambicioso: niveles amplios con caminos alternativos, terminales para interactuar y decisiones que cambian las misiones siguientes. Pero el juego de 1998 nunca fue de los grandes: los tiroteos y el diseño de niveles muestran la edad, y la remasterización no esconde esos defectos.</p>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Nightdive vuelve a hacer lo suyo, esta vez con el shooter de 1998 de Ritual Entertainment: un FPS con historia, personajes que se recuerdan, enemigos desagradables y un arsenal que en su momento exprimió el motor de Quake II hasta donde daba. Rehecho de arriba abajo, con todo lo que se le pide hoy a un remaster.</p>

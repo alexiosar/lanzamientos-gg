@@ -1874,6 +1874,7 @@ y abrir http://localhost:8080
   | Eternal Anima (Switch 2 y Xbox) | 4 de marzo de 2027 | **Ya está cargado en PS5.** Se mostró en el Nintendo Direct del 9/09, pero la eShop y Xbox no lo listan |
   | Alpha Nomos | 12 de octubre en PS5 y Xbox (Gematsu, 24/09) | La PS Store y Xbox lo listan sin fecha |
   | Curse of Resthaven · Time to Wake Up | Octubre (releases.com) | Las tiendas los tienen pero sin fecha |
+  | Remothered: Tormented Fathers Remastered y Broken Porcelain Remastered | Primer trimestre de 2027 en PS5, Xbox y otras (Gematsu, 29/09) | Xbox lista el primero sin fecha, y ni la PS Store ni la eShop los tienen todavía |
   | Mycopunk (Xbox) | 20 de octubre | **Ya está cargado en PS5.** Gematsu dice "PlayStation 5 y…" y la tienda de Xbox no lo encuentra, así que no se sabe si hay versión de Xbox |
   | Prinny Party: Going Overboard! (Switch 2) | 11 de noviembre | **Ya está cargado en PS5 y Switch**: la eShop sumó la de Switch el 24/09. La de Switch 2 sigue sin ficha de tienda |
   | Persona 4 Revival (Switch 2) | 20 de mayo de 2027 (Nintendo Direct) | **Ya está cargado en PS5 y Xbox.** Mayo de 2027 todavía no es un mes del calendario |
