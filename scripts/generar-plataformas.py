@@ -17,7 +17,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import cargar_juegos
+from comun import cargar_juegos, paginas_plataforma_mes, ruta_plataforma_mes
 
 import plantilla
 
@@ -54,7 +54,7 @@ def meta_clase(n):
     return "meta-alto" if n >= 75 else ("meta-medio" if n >= 50 else "meta-bajo")
 
 
-def generar(clave, archivo, corto, largo, juegos, mes_actual):
+def generar(clave, archivo, corto, largo, juegos, mes_actual, por_plataforma=None):
     lista = sorted([j for j in juegos if clave in j["plataformas"] and j["fecha"][:7] >= mes_actual],
                    key=lambda j: j["fecha"])
     anio = datetime.date.today().year
@@ -67,7 +67,11 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
     cuerpo = []
     for mes_key in sorted(meses):
         y, m = map(int, mes_key.split("-"))
-        cuerpo.append(f'<h2 class="mes-titulo">{MESES_ES[m-1]} {y} <span class="mes-contador">[ {len(meses[mes_key])} JUEGO{"S" if len(meses[mes_key]) != 1 else ""} ]</span></h2>')
+        # Si ese mes tiene su página de consola (/ps5-octubre-2026), el título la enlaza.
+        titulo_mes = f'{MESES_ES[m-1]} {y}'
+        if por_plataforma and (clave, mes_key) in por_plataforma:
+            titulo_mes = f'<a href="{ruta_plataforma_mes(clave, mes_key)}">{titulo_mes}</a>'
+        cuerpo.append(f'<h2 class="mes-titulo">{titulo_mes} <span class="mes-contador">[ {len(meses[mes_key])} JUEGO{"S" if len(meses[mes_key]) != 1 else ""} ]</span></h2>')
         dia_previo = None
         for j in meses[mes_key]:
             yy, mm, dd = map(int, j["fecha"].split("-"))
@@ -120,6 +124,8 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
     .mes-titulo    {{ display: flex; align-items: center; gap: 0.75rem; color: var(--acento); font-size: 0.875rem; letter-spacing: 3px; margin: 2rem 0 0.5rem; border-bottom: 1px solid var(--gris-2); padding-bottom: 0.5rem; font-weight: normal; }}
     .link-filtros  {{ display: block; text-align: center; color: var(--gris-5); font-size: 0.6875rem; letter-spacing: 2px; padding: 0.6rem 1rem; border: 1px dashed var(--gris-3); margin: 2rem 0; }}
     .link-filtros:hover {{ color: var(--acento); border-color: var(--acento); }}
+    .mes-titulo a  {{ color: inherit; text-decoration: none; border-bottom: 1px dashed currentColor; }}
+    .mes-titulo a:hover {{ color: var(--blanco); }}
   </style>
 </head>
 <body>
@@ -147,8 +153,10 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual):
 def main():
     juegos = cargar_juegos()
     mes_actual = datetime.date.today().strftime("%Y-%m")
+    por_plataforma = paginas_plataforma_mes(juegos, mes_actual)
     for clave, archivo, corto, largo in PLATAFORMAS:
-        (RAIZ / archivo).write_text(generar(clave, archivo, corto, largo, juegos, mes_actual), encoding="utf-8")
+        (RAIZ / archivo).write_text(generar(clave, archivo, corto, largo, juegos, mes_actual, por_plataforma),
+                                    encoding="utf-8")
         print(f"{archivo} generada")
 
 

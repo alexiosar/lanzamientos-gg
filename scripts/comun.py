@@ -97,6 +97,39 @@ def ruta_recomendados(mes_key, datos=None):
 
 
 PLATS = {"PS5": "PS5", "PS4": "PS4", "XBOX": "Xbox", "SWITCH2": "Switch 2", "SWITCH": "Switch"}
+# Slug de URL de cada plataforma: /ps5-octubre-2026, /switch-2-octubre-2026.
+PLAT_SLUG = {"PS5": "ps5", "PS4": "ps4", "XBOX": "xbox", "SWITCH2": "switch-2", "SWITCH": "switch"}
+
+# Páginas por consola y mes (desde el 29/09/2026): "juegos de PS5 que salen en octubre" es
+# una búsqueda que existe y que la página del mes, con todas las consolas mezcladas, no
+# contesta de frente. Sólo se generan con al menos este número de juegos con día confirmado
+# de esa consola en ese mes: con menos, la página es una lista de dos filas que no le sirve
+# a nadie y que Google lee como contenido flaco. Y sólo del mes en curso en adelante, que
+# es cuando se busca; los meses pasados ya tienen su página general.
+MINIMO_PLAT_MES = 5
+
+
+def paginas_plataforma_mes(juegos, mes_actual):
+    """{(plataforma, "AAAA-MM"): [juegos]} de las páginas por consola y mes que existen.
+
+    Vive acá porque la usan dos generadores: el de meses, que arma las páginas y las enlaza
+    desde la del mes, y el de plataformas, que enlaza desde /ps5 a "PS5 en octubre". Si
+    cada uno decidiera por su cuenta cuáles existen, tarde o temprano uno enlazaría a una
+    página que el otro no generó.
+    """
+    grupos = {}
+    for j in juegos:
+        mk = j["fecha"][:7]
+        if mk < mes_actual:
+            continue
+        for p in j["plataformas"]:
+            grupos.setdefault((p, mk), []).append(j)
+    return {k: v for k, v in grupos.items()
+            if sum(1 for j in v if not j.get("estimado")) >= MINIMO_PLAT_MES}
+
+
+def ruta_plataforma_mes(plataforma, mes_key):
+    return f"/{PLAT_SLUG[plataforma]}-{MESES_ES[int(mes_key[5:7]) - 1].lower()}-{mes_key[:4]}"
 # Palabras que no se capitalizan en medio de un título
 MINUSCULAS = {"of", "the", "and", "in", "on", "a", "an", "to", "for", "from", "at", "by",
               "de", "del", "la", "el", "los", "las", "y", "en", "un", "una", "por", "con",

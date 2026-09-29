@@ -351,7 +351,8 @@ def main():
     # declarar el trailer en los datos estructurados. Si no falta ninguno no hace
     # una sola petición, así que en un día normal no cuesta nada.
     for script in ["cargar-meta-trailers.py", "generar-fichas.py", "generar-plataformas.py",
-                   "generar-noticias.py", "generar-recomendados.py", "generar-meses.py",
+                   "generar-noticias.py", "generar-recomendados.py", "generar-suscripciones.py",
+                   "generar-meses.py",
                    "generar-feeds.py",
                    "generar-sitemap.py"]:
         r = subprocess.run(["python3", str(RAIZ / "scripts" / script)], capture_output=True, text=True)

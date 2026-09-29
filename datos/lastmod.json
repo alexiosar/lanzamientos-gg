@@ -1,18 +1,18 @@
 {
  "/": {
-  "hash": "0d1db709f5def19e",
+  "hash": "81e20ac39c78143d",
   "lastmod": "2026-09-29"
  },
  "/abril-2027": {
-  "hash": "f142cd377287ddde",
-  "lastmod": "2026-09-24"
+  "hash": "f12cb87d52eee9ec",
+  "lastmod": "2026-09-29"
  },
  "/acerca": {
   "hash": "713da73d863469c8",
   "lastmod": "2026-09-06"
  },
  "/agosto-2026": {
-  "hash": "c4e17c7b551ef5b6",
+  "hash": "d798a138bd224040",
   "lastmod": "2026-09-29"
  },
  "/api": {
@@ -24,16 +24,16 @@
   "lastmod": "2026-09-09"
  },
  "/diciembre-2026": {
-  "hash": "2803487bbd679500",
-  "lastmod": "2026-09-24"
+  "hash": "05ebfe571120dba2",
+  "lastmod": "2026-09-29"
  },
  "/enero-2027": {
-  "hash": "62613eafee5d3432",
-  "lastmod": "2026-09-21"
+  "hash": "73a2847043308dc8",
+  "lastmod": "2026-09-29"
  },
  "/febrero-2027": {
-  "hash": "cc1bf057c7c38474",
-  "lastmod": "2026-09-24"
+  "hash": "57ee696278520a0b",
+  "lastmod": "2026-09-29"
  },
  "/juegos/007-first-light": {
   "hash": "91b36c52f688e9b0",
@@ -236,8 +236,8 @@
   "lastmod": "2026-09-25"
  },
  "/juegos/buckshot-roulette": {
-  "hash": "6a20cfd0186ffd4f",
-  "lastmod": "2026-09-24"
+  "hash": "afc3a0d9db5cc53a",
+  "lastmod": "2026-09-29"
  },
  "/juegos/bus-simulator-27": {
   "hash": "ac28bfb9277872c8",
@@ -292,7 +292,7 @@
   "lastmod": "2026-09-24"
  },
  "/juegos/control-resonant": {
-  "hash": "2b0bb2400d457f4f",
+  "hash": "81cfbe731b3c5f9e",
   "lastmod": "2026-09-29"
  },
  "/juegos/cotton-reboot": {
@@ -440,11 +440,11 @@
   "lastmod": "2026-09-24"
  },
  "/juegos/ea-sports-college-football-27": {
-  "hash": "a4bee5a45190ac00",
-  "lastmod": "2026-09-24"
+  "hash": "78abdbf272f1a9a4",
+  "lastmod": "2026-09-29"
  },
  "/juegos/ea-sports-fc-27": {
-  "hash": "0029820d363e0995",
+  "hash": "daae03c357668088",
   "lastmod": "2026-09-29"
  },
  "/juegos/earth-defense-force-5": {
@@ -696,7 +696,7 @@
   "lastmod": "2026-09-29"
  },
  "/juegos/halo-campaign-evolved": {
-  "hash": "3fe0e3bcdcedc511",
+  "hash": "c163e7994cd429e8",
   "lastmod": "2026-09-29"
  },
  "/juegos/harvest-moon-echoes-of-teradea": {
@@ -944,7 +944,7 @@
   "lastmod": "2026-09-21"
  },
  "/juegos/marvels-wolverine": {
-  "hash": "0827f80587b0bbce",
+  "hash": "0a297489708f49a7",
   "lastmod": "2026-09-29"
  },
  "/juegos/mavrix": {
@@ -1160,7 +1160,7 @@
   "lastmod": "2026-09-29"
  },
  "/juegos/orbitals": {
-  "hash": "dc6a612e09336c79",
+  "hash": "8e7142fbdcbc50c6",
   "lastmod": "2026-09-29"
  },
  "/juegos/order-of-the-sinking-star": {
@@ -1420,7 +1420,7 @@
   "lastmod": "2026-09-27"
  },
  "/juegos/silent-hill-townfall": {
-  "hash": "13d8a0e176e69d22",
+  "hash": "c1b50ee4bced6dcf",
   "lastmod": "2026-09-29"
  },
  "/juegos/silver-pines": {
@@ -1592,7 +1592,7 @@
   "lastmod": "2026-09-28"
  },
  "/juegos/the-blood-of-dawnwalker": {
-  "hash": "99bb1150cb7ea498",
+  "hash": "07485d4b983f7dc2",
   "lastmod": "2026-09-29"
  },
  "/juegos/the-caribou-trail": {
@@ -1744,7 +1744,7 @@
   "lastmod": "2026-09-16"
  },
  "/juegos/trails-in-the-sky-2nd-chapter": {
-  "hash": "5ca0c5e3c30d5e8d",
+  "hash": "b051629ee915c319",
   "lastmod": "2026-09-29"
  },
  "/juegos/train-sim-world-7": {
@@ -1912,16 +1912,16 @@
   "lastmod": "2026-09-23"
  },
  "/julio-2026": {
-  "hash": "65408c7a103ed335",
-  "lastmod": "2026-09-27"
+  "hash": "8f82dfcb23af6bd1",
+  "lastmod": "2026-09-29"
  },
  "/junio-2026": {
-  "hash": "0823f6496356f769",
-  "lastmod": "2026-09-08"
+  "hash": "57267f1cbce46d47",
+  "lastmod": "2026-09-29"
  },
  "/marzo-2027": {
-  "hash": "18bf70f08c329761",
-  "lastmod": "2026-09-24"
+  "hash": "391ffb9b35364bbc",
+  "lastmod": "2026-09-29"
  },
  "/mejores-juegos-agosto-2026": {
   "hash": "a929588d92e0726c",
@@ -1936,23 +1936,59 @@
   "lastmod": "2026-09-28"
  },
  "/noviembre-2026": {
-  "hash": "63031d7c417d5301",
-  "lastmod": "2026-09-24"
+  "hash": "fcb4dcda8d4e09fd",
+  "lastmod": "2026-09-29"
  },
  "/octubre-2026": {
-  "hash": "9b57973086ef2904",
-  "lastmod": "2026-09-28"
+  "hash": "cd7d50a103e6056a",
+  "lastmod": "2026-09-29"
  },
  "/privacidad": {
   "hash": "895447e8c060f74d",
   "lastmod": "2026-09-15"
  },
  "/ps4": {
-  "hash": "0d1db709f5def19e",
+  "hash": "81e20ac39c78143d",
+  "lastmod": "2026-09-29"
+ },
+ "/ps4-octubre-2026": {
+  "hash": "e337f9e3b11ee73b",
+  "lastmod": "2026-09-29"
+ },
+ "/ps4-septiembre-2026": {
+  "hash": "2fa59f5593499f91",
   "lastmod": "2026-09-29"
  },
  "/ps5": {
-  "hash": "0d1db709f5def19e",
+  "hash": "81e20ac39c78143d",
+  "lastmod": "2026-09-29"
+ },
+ "/ps5-diciembre-2026": {
+  "hash": "6163513cdbcfc41b",
+  "lastmod": "2026-09-29"
+ },
+ "/ps5-enero-2027": {
+  "hash": "590d9cad7be37422",
+  "lastmod": "2026-09-29"
+ },
+ "/ps5-febrero-2027": {
+  "hash": "88e20b4ec62c527d",
+  "lastmod": "2026-09-29"
+ },
+ "/ps5-marzo-2027": {
+  "hash": "29d6d61c5a7a2e72",
+  "lastmod": "2026-09-29"
+ },
+ "/ps5-noviembre-2026": {
+  "hash": "ecd0c454b559c6f9",
+  "lastmod": "2026-09-29"
+ },
+ "/ps5-octubre-2026": {
+  "hash": "29cbb794b6a7864f",
+  "lastmod": "2026-09-29"
+ },
+ "/ps5-septiembre-2026": {
+  "hash": "85de4d752e1d2b27",
   "lastmod": "2026-09-29"
  },
  "/recomendados": {
@@ -1960,15 +1996,43 @@
   "lastmod": "2026-09-25"
  },
  "/septiembre-2026": {
-  "hash": "0bf3a5a48ceb654f",
+  "hash": "534e593b72377e64",
   "lastmod": "2026-09-29"
  },
  "/switch": {
-  "hash": "0d1db709f5def19e",
+  "hash": "81e20ac39c78143d",
   "lastmod": "2026-09-29"
  },
  "/switch-2": {
-  "hash": "0d1db709f5def19e",
+  "hash": "81e20ac39c78143d",
+  "lastmod": "2026-09-29"
+ },
+ "/switch-2-diciembre-2026": {
+  "hash": "78f57f022a07a391",
+  "lastmod": "2026-09-29"
+ },
+ "/switch-2-noviembre-2026": {
+  "hash": "74a05c65d69f6a98",
+  "lastmod": "2026-09-29"
+ },
+ "/switch-2-octubre-2026": {
+  "hash": "3f993b67a1d8d2c9",
+  "lastmod": "2026-09-29"
+ },
+ "/switch-2-septiembre-2026": {
+  "hash": "106174f2d7ed62bc",
+  "lastmod": "2026-09-29"
+ },
+ "/switch-noviembre-2026": {
+  "hash": "d5c2306964ea37f7",
+  "lastmod": "2026-09-29"
+ },
+ "/switch-octubre-2026": {
+  "hash": "13d6d3b9239a5525",
+  "lastmod": "2026-09-29"
+ },
+ "/switch-septiembre-2026": {
+  "hash": "673443d95cc437ad",
   "lastmod": "2026-09-29"
  },
  "/terminos": {
@@ -1980,7 +2044,23 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "0d1db709f5def19e",
+  "hash": "81e20ac39c78143d",
+  "lastmod": "2026-09-29"
+ },
+ "/xbox-febrero-2027": {
+  "hash": "52f6e3f54f90c25e",
+  "lastmod": "2026-09-29"
+ },
+ "/xbox-noviembre-2026": {
+  "hash": "34aedb32fedec54f",
+  "lastmod": "2026-09-29"
+ },
+ "/xbox-octubre-2026": {
+  "hash": "438f5f45f2336a37",
+  "lastmod": "2026-09-29"
+ },
+ "/xbox-septiembre-2026": {
+  "hash": "8cfae05827334f82",
   "lastmod": "2026-09-29"
  }
 }

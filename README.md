@@ -104,7 +104,10 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               en `anteriores`
 ├── scripts/generar-recomendados.py  Genera recomendados.html y una
 │                               mejores-juegos-{mes}-{año}.html por cada mes ya cerrado
-├── scripts/generar-meses.py    Genera una página por mes (/septiembre-2026…)
+├── datos/suscripciones.js      PS Plus y Game Pass de cada mes, tanda por tanda
+├── scripts/generar-suscripciones.py  Genera /ps-plus-{mes}-{año} y /game-pass-{mes}-{año}
+├── scripts/generar-meses.py    Genera una página por mes (/septiembre-2026…) y, desde el
+│                               29/09/2026, una por consola y mes (/ps5-octubre-2026…)
 ├── scripts/post-diario.py      Arma el texto del posteo diario para X y Bluesky (no publica)
 ├── scripts/cargar-duraciones.py  Carga el campo `duracion` desde HowLongToBeat
 ├── scripts/generar-imagenes-redes.py  Regenera el avatar y la portada de los perfiles
@@ -1495,10 +1498,34 @@ por mes y hay que ir a buscarlo:
   Los juegos mensuales se anuncian unos días antes de que empiecen.
 - **Game Pass**, dos veces por mes: [news.xbox.com](https://news.xbox.com/es-mx/).
 
-De cada anuncio salen dos cosas: marcar `psplus: true` o `gamepass: true` en los juegos del
+De cada anuncio salen tres cosas: marcar `psplus: true` o `gamepass: true` en los juegos del
 calendario que aparezcan (solo los que **se estrenan** en el servicio; el catálogo viejo no
-va, porque esto es un calendario de lanzamientos), y una entrada en `datos/noticias.js` con
-categoría `SUSCRIPCIONES`.
+va, porque esto es un calendario de lanzamientos), una entrada en `datos/noticias.js` con
+categoría `SUSCRIPCIONES`, y **la tanda completa en `datos/suscripciones.js`** (desde el
+29/09/2026). De ahí salen `/ps-plus-octubre-2026` y `/game-pass-octubre-2026`, una página por
+servicio y por mes, porque "PS Plus octubre 2026" es una búsqueda que vuelve todos los meses.
+Ahí sí van **todos** los juegos de la tanda, estén o no en el calendario, porque quien lo
+busca quiere la lista entera: los del calendario llevan su `id` y enlazan a la ficha, los
+demás van con `id: null`. Cada anuncio es una tanda nueva dentro del mes (mensuales,
+catálogo Extra y Premium, primera y segunda tanda de Game Pass). Un mes sin tandas no genera
+página. Lo arma `scripts/generar-suscripciones.py` y la página del mes lo enlaza sola.
+
+**Semanal, también — mirar qué pide la gente (desde el 29/09/2026):** el usuario pasa una
+captura de Search Console → Rendimiento → Comparar "últimos 7 días contra los 7 anteriores",
+pestañas **Páginas** y **Consultas**. Sirve para poner el esfuerzo donde hay búsquedas: una
+ficha que gana impresiones (NASCAR 26 a fines de septiembre) merece novedades, gameplay y
+crítica antes que otra que nadie mira, y una consulta que aparece sin página que la conteste
+(por ejemplo "juegos ps5 octubre") es la pista de qué página falta. Una vez por semana
+alcanza: con estos volúmenes, los datos de un día son ruido.
+
+**Páginas por consola y mes (desde el 29/09/2026):** `/ps5-octubre-2026`,
+`/switch-2-noviembre-2026` y así, para búsquedas como "juegos de PS5 de octubre". Las arma
+`generar-meses.py` sin ningún dato nuevo: sólo del mes en curso en adelante, y sólo cuando
+esa consola tiene al menos 5 juegos con día confirmado ese mes (`MINIMO_PLAT_MES` en
+`comun.py`). Con menos, la página sería una lista de dos filas que Google lee como
+contenido flaco. Se enlazan desde la página del mes y desde `/ps5`, `/xbox`, etc., y las
+que dejan de corresponder se borran solas. Se decidió empezar así y **medir antes de
+ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
 
 **Semanal:**
 5. Barrido de releases.com de **todos los meses ya cargados en el calendario**, no solo del

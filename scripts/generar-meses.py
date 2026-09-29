@@ -28,7 +28,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import cargar_juegos, ruta_recomendados
+from comun import (PLATS, cargar_juegos, paginas_plataforma_mes, ruta_plataforma_mes,
+                   ruta_recomendados)
 
 import plantilla
 
@@ -77,11 +78,16 @@ def fila(j):
       </a>'''
 
 
-def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
+def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False,
+            plataforma=None, por_plataforma=None):
+    """La página de un mes. Con `plataforma`, la de esa consola sola en ese mes
+    (/ps5-octubre-2026); sin ella, la general con todas (/octubre-2026)."""
     y, m = map(int, mes_key.split("-"))
     nombre = MESES_ES[m - 1]
     verbo = "salieron" if pasado else "salen"
     total = len(juegos_mes)
+    consola = PLATS[plataforma] if plataforma else None
+    ruta = ruta_plataforma_mes(plataforma, mes_key) if plataforma else f"/{slug(mes_key)}"
 
     cuerpo, dia_previo = [], None
     for j in sorted(juegos_mes, key=lambda x: (x.get("estimado", False), x["fecha"], x["titulo"])):
@@ -108,15 +114,21 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
         mejor = max(con_puntaje, key=lambda j: j["metacritic"])
         resumen += f" · el mejor puntuado es {mejor['titulo'].title()} con {mejor['metacritic']}"
 
-    descripcion = (f"Todos los juegos que {verbo} en {nombre.lower()} de {y} para PS5, PS4, Xbox, "
-                   f"Switch 2 y Switch: {total} lanzamientos con fecha, plataformas y puntajes.")
+    if consola:
+        descripcion = (f"Los juegos de {consola} que {verbo} en {nombre.lower()} de {y}: "
+                       f"{total} lanzamientos con fecha, puntajes y ficha de cada uno.")
+        titulo = f"Juegos de {consola} que {verbo} en {nombre.title()} de {y}"
+    else:
+        descripcion = (f"Todos los juegos que {verbo} en {nombre.lower()} de {y} para PS5, PS4, Xbox, "
+                       f"Switch 2 y Switch: {total} lanzamientos con fecha, plataformas y puntajes.")
+        titulo = f"Juegos que {verbo} en {nombre.title()} de {y}"
 
     # En el mes más viejo se aclara hasta dónde llega. Es el borde: quien llega ahí y no ve
     # enlace a un mes anterior no sabe si faltan juegos o si no salieron.
     # Dice el dato y nada más. Antes contaba cuándo se armó el sitio y que "todavía no está
     # cargado", que es hablarle al lector de nosotros cuando vino a mirar juegos.
     aviso_alcance = ('    <p class="alcance">Los lanzamientos anteriores a <strong>junio de '
-                     '2026</strong> no están listados.</p>') if primero else ""
+                     '2026</strong> no están listados.</p>') if primero and not consola else ""
 
     # Enlace a la selección de ese mes, si existe. Es el enlace interno que más importa de
     # esta página: las dos hablan del mismo mes y la lista elegida a mano es lo que un
@@ -127,8 +139,34 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
                   f'{"LOS MEJORES DE" if pasado else "RECOMENDADOS DE"} {nombre} {y} '
                   '— ELEGIDOS A MANO</a></p>') if rec else ""
 
+    # Enlaces cruzados entre la página general del mes y las de cada consola. Desde la
+    # general se llega a cada consola; desde la de una consola, a la general y a las otras.
+    # Son los enlaces que hacen que Google encuentre estas páginas sin depender del sitemap.
+    otras = [p for p in PLATS if por_plataforma and (p, mes_key) in por_plataforma and p != plataforma]
+    # PS Plus y Game Pass de ese mes, si ya tienen página (las arma generar-suscripciones.py,
+    # que corre antes). Van en la general y en la de su consola.
+    subs = []
+    for pref, texto, consolas in (("ps-plus", "PS PLUS", {"PS5", "PS4"}), ("game-pass", "GAME PASS", {"XBOX"})):
+        if (RAIZ / f"{pref}-{nombre.lower()}-{y}.html").exists() and (not plataforma or plataforma in consolas):
+            subs.append(f'<a class="filtro-btn" href="/{pref}-{nombre.lower()}-{y}">{texto} DE {nombre}</a>')
+    enlace_subs = ('    <p class="mes-plats">' + ' '.join(subs) + '</p>') if subs else ""
+
+    if otras or consola:
+        botones = []
+        if consola:
+            botones.append(f'<a class="filtro-btn" href="/{slug(mes_key)}">TODAS LAS CONSOLAS</a>')
+        botones += [f'<a class="filtro-btn" href="{ruta_plataforma_mes(p, mes_key)}">'
+                    f'{PLATS[p].upper()}</a>' for p in otras]
+        enlace_plats = ('    <p class="mes-plats"><span>' + ('OTRAS CONSOLAS' if consola else 'POR CONSOLA')
+                        + '</span> ' + ' '.join(botones) + '</p>')
+    else:
+        enlace_plats = ""
+
     def enlace_mes(mk, texto):
-        return f'<a href="/{slug(mk)}">{texto}</a>' if mk else '<span class="mes-nav-vacio"></span>'
+        if not mk:
+            return '<span class="mes-nav-vacio"></span>'
+        href = ruta_plataforma_mes(plataforma, mk) if plataforma else f"/{slug(mk)}"
+        return f'<a href="{href}">{texto}</a>'
 
     navegacion = (f'    <div class="mes-nav">{enlace_mes(anterior, "◀ " + MESES_ES[int(anterior[5:7]) - 1].title() if anterior else "")}'
                   f'{enlace_mes(siguiente, MESES_ES[int(siguiente[5:7]) - 1].title() + " ▶" if siguiente else "")}</div>')
@@ -139,17 +177,17 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{e(descripcion)}">
-  <title>Juegos que {verbo} en {nombre.title()} de {y} — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="{DOMINIO}/{slug(mes_key)}">
+  <title>{titulo} — LANZAMIENTOS.LAT</title>
+  <link rel="canonical" href="{DOMINIO}{ruta}">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">
   <link rel="apple-touch-icon" href="/icon-192.png">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="LANZAMIENTOS.LAT">
-  <meta property="og:title" content="Juegos que {verbo} en {nombre.title()} de {y}">
+  <meta property="og:title" content="{titulo}">
   <meta property="og:description" content="{e(descripcion)}">
-  <meta property="og:url" content="{DOMINIO}/{slug(mes_key)}">
+  <meta property="og:url" content="{DOMINIO}{ruta}">
   <meta property="og:image" content="{DOMINIO}/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="css/style.css">
@@ -166,6 +204,9 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
     /* Es un <a> con pinta de botón: hay que apagarle el subrayado de la regla global. */
     .mes-rec        {{ margin: -0.75rem 0 1.5rem; }}
     .mes-rec a      {{ text-decoration: none; display: inline-block; }}
+    .mes-plats      {{ margin: -0.75rem 0 1.5rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; }}
+    .mes-plats span {{ font-size: 0.625rem; color: var(--gris-5); letter-spacing: 2px; margin-right: 0.25rem; }}
+    .mes-plats a    {{ text-decoration: none; }}
   </style>
 </head>
 <body>
@@ -174,9 +215,11 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False):
 
   <main class="contenedor">
     <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
-    <h1 class="pagina-titulo">JUEGOS QUE {verbo.upper()} EN {nombre} DE {y}</h1>
+    <h1 class="pagina-titulo">{e(titulo.upper())}</h1>
     <p class="pagina-sub">{e(resumen.upper())}</p>
 {enlace_rec}
+{enlace_plats}
+{enlace_subs}
 {aviso_alcance}
 
     <div class="mes-lista">
@@ -214,12 +257,37 @@ def main():
                     if any(not j.get("estimado") for j in lista))
     salteados = sorted(set(por_mes) - set(claves))
 
+    por_plataforma = paginas_plataforma_mes(juegos, hoy)
     for i, mk in enumerate(claves):
         anterior = claves[i - 1] if i > 0 else None
         siguiente = claves[i + 1] if i < len(claves) - 1 else None
-        html = generar(mk, por_mes[mk], anterior, siguiente, pasado=mk < hoy, primero=(i == 0))
+        html = generar(mk, por_mes[mk], anterior, siguiente, pasado=mk < hoy, primero=(i == 0),
+                       por_plataforma=por_plataforma)
         (RAIZ / f"{slug(mk)}.html").write_text(html, encoding="utf-8")
     print(f"{len(claves)} páginas de mes generadas: {', '.join(slug(k) for k in claves)}")
+
+    # Las de cada consola. La navegación salta entre los meses de ESA consola que tienen
+    # página, no entre todos: si noviembre de Switch no llega al mínimo, de octubre se
+    # pasa directo a diciembre.
+    generadas = set()
+    for p in PLATS:
+        meses_p = sorted(mk for (pp, mk) in por_plataforma if pp == p)
+        for i, mk in enumerate(meses_p):
+            html = generar(mk, por_plataforma[(p, mk)],
+                           meses_p[i - 1] if i > 0 else None,
+                           meses_p[i + 1] if i < len(meses_p) - 1 else None,
+                           pasado=mk < hoy, plataforma=p, por_plataforma=por_plataforma)
+            archivo = ruta_plataforma_mes(p, mk).lstrip("/") + ".html"
+            (RAIZ / archivo).write_text(html, encoding="utf-8")
+            generadas.add(archivo)
+    # Las que quedaron de corridas anteriores y ya no corresponden (el mes pasó o bajó del
+    # mínimo) se borran: si no, siguen en el sitemap, que las junta por nombre de archivo.
+    viejas = [f for f in RAIZ.glob("*-20??.html")
+              if f.name.split("-")[0] in {"ps5", "ps4", "xbox", "switch"} and f.name not in generadas]
+    for f in viejas:
+        f.unlink()
+    print(f"  {len(generadas)} páginas por consola y mes"
+          + (f" ({len(viejas)} viejas borradas)" if viejas else ""))
     if salteados:
         print(f"  {len(salteados)} mes(es) sin página, todos sus juegos son estimados: "
               f"{', '.join(slug(k) for k in salteados)}")

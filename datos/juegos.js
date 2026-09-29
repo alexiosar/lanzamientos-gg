@@ -514,7 +514,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/epucEJY8Auo",
     metacritic: 85,
     metacriticUsuarios: 7.5,
-    metacriticVotos: 296,
+    metacriticVotos: 297,
     critica: "Las reseñas son de la versión de PC de 2024. La prensa coincide en lo mismo con una regularidad llamativa: la idea —una ruleta rusa con escopeta contra un tipo que reparte— es tan buena que sostiene el juego sola, y la atmósfera hace el resto. Los reparos también son unánimes y son de tamaño: es cortísimo, se agota rápido, y hay quienes sienten que la suerte pesa más que la estrategia. Casi todas las notas terminan diciendo lo mismo, que querrían un diez por ciento más de juego.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835570/library_600x900.jpg",
     noticias: [
@@ -663,8 +663,8 @@ const JUEGOS = [
     descripcion: "EA Sports College Football 27 te mete de lleno en la era moderna del fútbol americano universitario, donde la ambición personal se cruza con el orgullo por los colores del programa. Armá tu propio proyecto deportivo con el nuevo Dynasty Blueprint, asumí nuevas posiciones con una personalización más profunda en el modo Road to Glory, y divertite con las mascotas de cada universidad en Mascot Mashup, todo envuelto en la pompa y las tradiciones que hacen del día de partido una fiesta universitaria.",
     trailer: "https://youtube.com/embed/a-JpwwMa5aM",
     metacritic: 78,
-    metacriticUsuarios: 2.5,
-    metacriticVotos: 92,
+    metacriticUsuarios: 2.6,
+    metacriticVotos: 93,
     critica: "Dentro de la cancha no hay discusión: la prensa dice que se juega mejor que nunca, con la defensa rehecha, y que en presentación y ambiente no tiene rival. Las críticas apuntan a lo de afuera, a modos que se volvieron planillas de cálculo y a lo poco que se agregó para un tercer año. La distancia con los jugadores, que lo hunden, no es por cómo se juega sino por el bolsillo: microtransacciones metidas en los modos de un jugador, que la prensa mencionó al pasar y ellos tomaron como una traición.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6ks.jpg",
     noticias: [
@@ -1899,7 +1899,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/HhsxGagHirw",
     metacritic: 80,
     metacriticUsuarios: 5.8,
-    metacriticVotos: 756,
+    metacriticVotos: 757,
     critica: "La prensa lo trata como un homenaje bien hecho: la campaña de 2001 reconstruida en Unreal Engine 5, con misiones nuevas que se integran sin desentonar, y un reparo que se repite en casi todas las reseñas, que no hay multijugador competitivo. En PS5 varias marcaron problemas de rendimiento en el estreno. Los jugadores lo puntúan mucho más abajo y sus motivos son otros: la falta de multijugador, los cosméticos de pago y los cambios de tono y de guion respecto del original.",
     imagen: "https://cdn2.steamgriddb.com/grid/9e00a3de909a5e4ada9324bc7aa1fea2.png",
     noticias: [
@@ -3339,7 +3339,7 @@ const JUEGOS = [
     },
     metacritic: 83,
     metacriticUsuarios: 8.3,
-    metacriticVotos: 1376,
+    metacriticVotos: 1378,
     imagen: "https://cdn2.steamgriddb.com/grid/e74a8a198685e8ec579be9ea2952c32f.png",
     critica: "Más de treinta reseñas y un acuerdo raro de ver en un debut: Rebel Wolves —armado por gente que hizo The Witcher 3— salió bien parado. Lo que más se elogia es lo que lo hace distinto: el reloj de treinta días que corre mientras jugás, la doble condición de humano de día y vampiro de noche, y decisiones que tienen consecuencias de verdad. También la escritura y los personajes. El reparo que más se repite es de dónde viene: toma mucho de The Witcher 3 y el mundo abierto se siente de fórmula, con misiones secundarias que se parecen entre sí. Se le marcan además animaciones faciales duras y un combate que a la larga se vuelve repetitivo.",
     noticias: [
@@ -3369,7 +3369,7 @@ const JUEGOS = [
     },
     metacritic: 82,
     metacriticUsuarios: 8.4,
-    metacriticVotos: 138,
+    metacriticVotos: 139,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc9r6.jpg",
     critica: "Se sabía poco y salió con 82. Es un juego cooperativo para DOS y sólo para dos: no tiene modo de un jugador, que es el dato a mirar antes de comprarlo. El elogio es parejo para el diseño de niveles —cada uno propone algo nuevo— y para la estética de anime ochentoso, que las reseñas destacan como impecable. La comparación que aparece en casi todas es con It Takes Two y Split Fiction, de Hazelight, y también el matiz: no llega a esa altura de diseño. Los reparos concretos son que la campaña es corta y que la historia no siempre emociona como pretende.",
     noticias: [
@@ -3704,7 +3704,7 @@ const JUEGOS = [
     },
     metacritic: 76,
     metacriticUsuarios: 6.8,
-    metacriticVotos: 5116,
+    metacriticVotos: 5118,
     critica: "Casi todas las reseñas lo reciben como un juego de acción de los de antes: lineal, con una campaña cerrada y sin mundo abierto, bastante más acotado que los Spider-Man del mismo estudio. Lo que nadie discute es el combate, rápido y muy sangriento, ni la puesta en escena, y la mayoría también elogia la actuación y una historia de Logan que se anima a salirse de lo conocido. Los reparos se repiten en las notas más bajas: se vuelve repetitivo, le falta variedad hacia el final, el ritmo se estira y para varios el combate es más vistoso que profundo. Más de uno lo termina poniendo entre lo más flojo de Insomniac, aunque sin dejar de recomendarlo.",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202510/0721/ab0526f97f49e5e810c13b4f7367970f95346b2440baf18b.jpg?w=600&thumb=false",
     noticias: [
@@ -3882,7 +3882,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/4fEzsQ6Hv8Y",
     metacritic: 91,
     metacriticUsuarios: 8.9,
-    metacriticVotos: 207,
+    metacriticVotos: 209,
     critica: "Las doce reseñas publicadas son positivas, y varias lo ponen como la entrega que define a toda la saga Trails. Coinciden en que la remake mejora lo que ya había hecho bien la del primer capítulo: combate por turnos más profundo, ritmo más ágil, escenas nuevas y actuación de voces, con una historia que cierra el arco de Estelle y Joshua con mucho peso. Lo que le marcan es poco: los primeros capítulos se hacen lentos, lo visual es modesto y juega a lo seguro.",
     noticias: [
       {
@@ -4308,7 +4308,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/WhQm-ExRz60",
     metacritic: 83,
     metacriticUsuarios: 8.9,
-    metacriticVotos: 638,
+    metacriticVotos: 639,
     critica: "Una de las mejores recepciones del año. Las reseñas lo consideran lo mejor que hizo Remedy: un RPG de acción que se anima a cambiar de género respecto al primero sin perder la identidad del estudio, con un combate cuerpo a cuerpo nuevo que da para muchas combinaciones, una forma de moverse por Manhattan muy divertida y una dirección de arte de lo más fuerte del año. También elogian el elenco y la historia, tan rara como siempre. Los reparos son menores y casi no aparecen.",
     imagen: "https://cdn2.steamgriddb.com/grid/d7d5d27ed9b44f4646def6eccd765991.png",
     gamepass: false,
@@ -4331,7 +4331,7 @@ const JUEGOS = [
     },
     metacritic: 81,
     metacriticUsuarios: 7.2,
-    metacriticVotos: 406,
+    metacriticVotos: 407,
     critica: "Muy buena recepción. Para una reseña es el mejor Silent Hill desde la trilogía original, y para todas es un paso valiente: el cambio a primera persona y el pueblo escocés lo vuelven más angustiante que nunca, con una historia impredecible, puzles bien integrados y un mapa semiabierto lleno de rincones tensos. Hay quien lo compara con Alien: Isolation y con los Resident Evil en primera persona. Los reparos: el sigilo pesa más que el combate, algo que no a todos los fans les va a gustar, y el reparto de recursos es desparejo en algunos tramos.",
     imagen: "https://cdn2.steamgriddb.com/grid/49e830db0b18619b94d3c6e899096dc7.png",
     gamepass: false,
@@ -4780,7 +4780,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/MOclJJ7IpSY",
     metacritic: 76,
     metacriticUsuarios: 2.8,
-    metacriticVotos: 84,
+    metacriticVotos: 85,
     critica: "Buena recepción. Las reseñas coinciden en que es la entrega en la que la serie reconoce los errores de las anteriores y los corrige: más control manual, una defensa con menos ayuda de la inteligencia artificial, mejores movimientos en ataque y un mercado de pases renovado. El modo Carrera es lo que más creció, y The Grounds, el modo nuevo, suma variedad. Los reparos: no es el salto visual que algunos esperaban, The Grounds no está a la altura de su ambición y quedan problemas de balance y técnicos.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coclf3.jpg",
     gamepass: false,
