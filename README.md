@@ -1515,6 +1515,15 @@ imágenes de la ficha. En la noticia va la carátula del juego más fuerte. Cada
 catálogo Extra y Premium, primera y segunda tanda de Game Pass). Un mes sin tandas no genera
 página. Lo arma `scripts/generar-suscripciones.py` y la página del mes lo enlaza sola.
 
+A la página se llega por tres lados, y los tres se mantienen solos (desde el 30/09/2026):
+la **noticia** del anuncio lleva `pagina: "/ps-plus-octubre-2026"` y su tarjeta enlaza
+primero ahí (en el RSS, el ítem apunta a esa página); la **portada** tiene un bloque "PS PLUS
+Y GAME PASS" en la columna lateral, que `generar-suscripciones.py` reescribe entre los
+marcadores `SUSCRIPCIONES:INICIO` y `SUSCRIPCIONES:FIN` de `index.html` con las páginas del
+mes en curso y del siguiente (el siguiente porque el anuncio sale antes de que empiece el
+mes); y la **página del mes** y las de PS5/PS4/Xbox de ese mes, con un botón. Por eso en
+`actualizar.py` las suscripciones se generan antes que las noticias.
+
 **Semanal, también — mirar qué pide la gente (desde el 29/09/2026):** el usuario pasa una
 captura de Search Console → Rendimiento → Comparar "últimos 7 días contra los 7 anteriores",
 pestañas **Páginas** y **Consultas**. Sirve para poner el esfuerzo donde hay búsquedas: una

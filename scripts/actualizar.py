@@ -350,8 +350,10 @@ def main():
     # cargar-meta-trailers.py va PRIMERO: generar-fichas.py lee su caché para
     # declarar el trailer en los datos estructurados. Si no falta ninguno no hace
     # una sola petición, así que en un día normal no cuesta nada.
+    # generar-suscripciones.py va antes que generar-noticias.py: la tarjeta de la noticia
+    # de PS Plus toma el título de la página del mes, y la página tiene que existir.
     for script in ["cargar-meta-trailers.py", "generar-fichas.py", "generar-plataformas.py",
-                   "generar-noticias.py", "generar-recomendados.py", "generar-suscripciones.py",
+                   "generar-suscripciones.py", "generar-noticias.py", "generar-recomendados.py",
                    "generar-meses.py",
                    "generar-feeds.py",
                    "generar-sitemap.py"]:

@@ -68,6 +68,7 @@ def recolectar():
                 "juegos": [j["id"]],
                 "fuente": None,
                 "imagen": None,
+                "pagina": None,
             })
 
     for n in leer_noticias_propias():
@@ -79,6 +80,7 @@ def recolectar():
             "juegos": n.get("juegos") or [],
             "fuente": n.get("fuente"),
             "imagen": n.get("imagen"),
+            "pagina": n.get("pagina"),
         })
 
     # Un id mal escrito en el campo `juegos` de datos/noticias.js no rompe nada:
@@ -88,9 +90,26 @@ def recolectar():
     if huerfanos:
         print("  ⚠ ids que no existen en datos/juegos.js: " + ", ".join(huerfanos))
 
+    # Lo mismo con `pagina`: si la página no existe, el enlace no se dibuja y hay que
+    # enterarse por acá. Pasa si el mes de suscripciones todavía no tiene tandas.
+    rotas = sorted({n["pagina"] for n in items if n.get("pagina") and not titulo_pagina(n["pagina"])})
+    if rotas:
+        print("  ⚠ páginas que no existen (campo `pagina`): " + ", ".join(rotas))
+
     # a igual fecha, primero las propias: son las que ordenan el día
-    items.sort(key=lambda x: (x["fecha"], x["categoria"] == "JUEGOS"), reverse=True)
+    items.sort(key=lambda x: (x["fecha"], x["categoria"] != "JUEGOS"), reverse=True)
     return items, juegos
+
+
+def titulo_pagina(ruta):
+    """El h1 de una página propia del sitio ("PS PLUS OCTUBRE 2026"), para usarlo de texto
+    del enlace. None si la página no existe. Por eso generar-suscripciones.py corre antes
+    que este script en actualizar.py."""
+    archivo = RAIZ / (ruta.strip("/") + ".html")
+    if not archivo.is_file():
+        return None
+    m = re.search(r"<h1[^>]*>(.*?)</h1>", archivo.read_text(encoding="utf-8"), re.S)
+    return html_mod.unescape(m.group(1).strip()) if m else None
 
 
 def fecha_larga(iso):
@@ -102,6 +121,11 @@ def tarjeta(n, juegos):
     enlaces = "".join(
         f'<a class="noticia-juego" href="/juegos/{g}">{e(juegos[g]["titulo"])}</a>'
         for g in n["juegos"] if g in juegos)
+    # La página propia que junta el tema entero (la lista completa de PS Plus del mes), si
+    # la noticia la tiene. Va primero: es a donde quiere ir el que leyó la noticia.
+    titulo = titulo_pagina(n["pagina"]) if n.get("pagina") else None
+    if titulo:
+        enlaces = f'<a class="noticia-juego noticia-pagina" href="{e(n["pagina"])}">{e(titulo)} →</a>' + enlaces
     fuente = (f'<a class="noticia-fuente" href="{e(n["fuente"])}" rel="nofollow noopener" '
               f'target="_blank">FUENTE ↗</a>') if n.get("fuente") else ""
 
@@ -195,6 +219,7 @@ def generar(items, juegos):
     .noticia-pie     {{ display: flex; gap: 0.5rem; flex-wrap: wrap; }}
     .noticia-juego   {{ font-size: 0.6875rem; letter-spacing: 1px; border: 1px solid var(--gris-4); color: var(--gris-6); padding: 2px 8px; }}
     .noticia-juego:hover {{ border-color: var(--acento); color: var(--acento); }}
+    .noticia-pagina  {{ color: var(--acento); border-color: var(--acento); }}
     .noticia-fuente  {{ font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); padding: 2px 8px; }}
     .noticia-fuente:hover {{ color: var(--acento); }}
     .noticias-pie    {{ font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 1px; line-height: 1.9; border-top: 1px solid var(--gris-2); padding-top: 1rem; margin-top: 1rem; }}

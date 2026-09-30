@@ -16,6 +16,11 @@
 //   texto      uno o dos párrafos, en español rioplatense
 //   fuente     URL de donde salió el dato: siempre la oficial si existe
 //   juegos     ids de datos/juegos.js que menciona (opcional); se enlazan solos
+//   pagina     ruta de una página propia que junta el tema entero (opcional), por ejemplo
+//              "/ps-plus-octubre-2026". La tarjeta la enlaza primero, con el título de esa
+//              página. Va siempre en las de PS Plus y Game Pass desde octubre de 2026: el que
+//              lee el anuncio quiere la lista completa, y es el enlace interno que hace que
+//              Google llegue a esas páginas. Si la página no existe, avisa y no dibuja nada.
 //   imagen     URL de una imagen para la tarjeta (opcional). Sólo hace falta cuando la
 //              noticia NO cita ningún juego del calendario: si cita alguno, se usa su
 //              carátula sola. Qué poner, en este orden:
@@ -56,6 +61,7 @@ const NOTICIAS = [
     titulo: "LOS MENSUALES DE PS PLUS DE OCTUBRE: F1 25, HUNT: SHOWDOWN 1896 Y EARTH DEFENSE FORCE",
     texto: "Sony anunció los tres juegos mensuales de octubre: F1 25 y Hunt: Showdown 1896 en PS5, y Earth Defense Force: World Brothers 2 en PS5 y PS4. Se pueden reclamar desde el martes 6 de octubre hasta el lunes 2 de noviembre con cualquier plan, y una vez reclamados quedan mientras dure la suscripción. Ninguno es un estreno: los tres ya estaban a la venta.\n\nLos de septiembre, Sniper Elite: Resistance, MLB The Show 26, Wobbly Life y Chained Echoes, se pueden sumar a la biblioteca hasta el lunes 5 de octubre. Además, para Halloween hay paquetes de objetos de terror gratis con PS Plus, para quien tenga el juego, en Call of Duty: Warzone, Hunt: Showdown 1896 y Overwatch 2.",
     fuente: "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2/",
+    pagina: "/ps-plus-octubre-2026",
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202602/2009/ffb302a93b80b00487c680187bc959557d32fbaa39e51238.png"
   },
   {

@@ -234,6 +234,12 @@ a:hover { color: var(--blanco); }
   transition: all 0.1s;
 }
 
+/* Cuando es un enlace a otra página (PS Plus del mes en la portada) y no un filtro. */
+a.filtro-btn {
+  text-decoration: none;
+  display: inline-block;
+}
+
 .filtro-btn:hover {
   border-color: var(--acento);
   color: var(--acento);

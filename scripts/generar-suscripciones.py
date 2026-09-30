@@ -189,6 +189,47 @@ def pagina(entrada, fichas, meses_servicio):
 '''
 
 
+INICIO_PORTADA = "<!-- SUSCRIPCIONES:INICIO — lo escribe scripts/generar-suscripciones.py, no editar a mano -->"
+FIN_PORTADA = "<!-- SUSCRIPCIONES:FIN -->"
+
+
+def portada(datos):
+    """Escribe en index.html los botones a las páginas del mes en curso y del siguiente.
+
+    El siguiente también, porque Sony y Xbox anuncian antes de que empiece el mes: el
+    30/09 ya existe la de octubre y es la que se busca. Va en HTML estático entre dos
+    marcadores, y no armado con JavaScript, para que Google siga el enlace desde la
+    portada, que es la página que más rastrea. Sin páginas vigentes, el bloque queda vacío."""
+    hoy = datetime.date.today()
+    sig = (hoy.replace(day=1) + datetime.timedelta(days=32)).replace(day=1)
+    vigentes = {f"{hoy:%Y-%m}", f"{sig:%Y-%m}"}
+    orden = list(SERVICIOS)
+    elegidos = sorted((d for d in datos if d["mes"] in vigentes),
+                      key=lambda d: (d["mes"], orden.index(d["servicio"])))
+    if elegidos:
+        botones = "\n".join(
+            f'            <a class="filtro-btn" href="{ruta(d["servicio"], d["mes"])}">'
+            f'{SERVICIOS[d["servicio"]]["nombre"].upper()} DE {MESES_ES[int(d["mes"][5:7]) - 1].upper()}</a>'
+            for d in elegidos)
+        bloque = (f'{INICIO_PORTADA}\n        <div class="filtros">\n'
+                  f'          <div class="filtros-label">PS PLUS Y GAME PASS:</div>\n'
+                  f'          <div class="filtros-botones">\n{botones}\n          </div>\n        </div>\n'
+                  f'        {FIN_PORTADA}')
+    else:
+        bloque = f"{INICIO_PORTADA}\n        {FIN_PORTADA}"
+    index = RAIZ / "index.html"
+    src = index.read_text(encoding="utf-8")
+    if INICIO_PORTADA not in src or FIN_PORTADA not in src:
+        print("  ⚠ index.html no tiene los marcadores de SUSCRIPCIONES: la portada no enlaza las páginas")
+        return
+    a = src.index(INICIO_PORTADA)
+    b = src.index(FIN_PORTADA) + len(FIN_PORTADA)
+    nuevo = src[:a] + bloque + src[b:]
+    if nuevo != src:
+        index.write_text(nuevo, encoding="utf-8")
+    print(f"  portada: {', '.join(ruta(d['servicio'], d['mes']) for d in elegidos) or 'sin páginas vigentes'}")
+
+
 def main():
     datos = [d for d in leer() if d.get("tandas")]
     fichas = {j["id"]: j for j in cargar_juegos()}
@@ -208,6 +249,7 @@ def main():
     print(f"  {len(generadas)} página(s) de PS Plus y Game Pass"
           + (f": {', '.join(sorted(g[:-5] for g in generadas))}" if generadas else "")
           + (f" ({len(viejas)} viejas borradas)" if viejas else ""))
+    portada(datos)
 
 
 if __name__ == "__main__":

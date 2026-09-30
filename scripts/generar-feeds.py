@@ -45,8 +45,9 @@ def generar_rss(juegos):
         y, m, d = map(int, fecha.split("-"))
         pub = datetime.datetime(y, m, d, 12, 0, tzinfo=datetime.timezone.utc)
         if j is None:
-            # noticia propia: no tiene ficha adonde apuntar, va a la página de novedades
-            enlace = f"{DOMINIO}/noticias"
+            # noticia propia: no tiene ficha adonde apuntar. Si tiene página propia (la de
+            # PS Plus del mes) va ahí; si no, a la página de novedades.
+            enlace = f"{DOMINIO}{n['pagina']}" if n.get("pagina") else f"{DOMINIO}/noticias"
             titulo = escape(n["titulo"])
             desc = n["texto"]
             guid = n["id"]
