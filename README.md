@@ -1495,7 +1495,9 @@ entraban a Game Pass el día del estreno sin tenerlo marcado. Los servicios anun
 por mes y hay que ir a buscarlo:
 
 - **PS Plus**, a fin de mes: [blog.latam.playstation.com](https://blog.latam.playstation.com/).
-  Los juegos mensuales se anuncian unos días antes de que empiecen.
+  Los juegos mensuales se anuncian unos días antes de que empiecen, en general **el último
+  miércoles del mes, cerca del mediodía de Argentina**: una rutina diaria de ese miércoles
+  hecha a la mañana todavía no los encuentra, así que hay que volver a mirar después.
 - **Game Pass**, dos veces por mes: [news.xbox.com](https://news.xbox.com/es-mx/).
 
 De cada anuncio salen tres cosas: marcar `psplus: true` o `gamepass: true` en los juegos del
@@ -1905,6 +1907,10 @@ y abrir http://localhost:8080
   | Mycopunk (Xbox) | 20 de octubre | **Ya está cargado en PS5.** Gematsu dice "PlayStation 5 y…" y la tienda de Xbox no lo encuentra, así que no se sabe si hay versión de Xbox |
   | Prinny Party: Going Overboard! (Switch 2) | 11 de noviembre | **Ya está cargado en PS5 y Switch**: la eShop sumó la de Switch el 24/09. La de Switch 2 sigue sin ficha de tienda |
   | Persona 4 Revival (Switch 2) | 20 de mayo de 2027 (Nintendo Direct) | **Ya está cargado en PS5 y Xbox.** Mayo de 2027 todavía no es un mes del calendario |
+  | Queen's Domain (Xbox y Switch 2) | 30 de octubre (Gematsu, 30/09) | **Ya está cargado en las tres.** La PS Store lo tiene para PS5 pero "por determinar" y Steam confirma el 30 de octubre; ni Xbox ni la eShop lo listan |
+  | Deep Rock Galactic: Survivor (Switch 2) | 7 de octubre en PS5, Switch 2 y Switch (Gematsu, 29/09) | **Ya está cargado en las tres.** La PS Store confirma el 7 para PS5; la de Switch figura en Nintendo US para el 9, y la de Switch 2 no tiene ficha de tienda todavía |
+  | Console Archives Chack'n Pop · Arcade Archives 2 Balloon Bomber | 1 de octubre (Gematsu, 30/09): el primero en PS5 y Switch 2, el segundo en PS5, Xbox y Switch 2 | Ninguna tienda los lista todavía. HAMSTER los pone a la venta el mismo día, así que se cargan en la diaria del 1/10 si ya aparecen |
+  | Eternal Palace Sakura (Switch) | 5 de noviembre (Gematsu, 30/09) | Steam tiene el 4 de noviembre para PC; la eShop y Nintendo US no lo listan |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 
   Los dos Yomawari, cuando entren, van con `relanzamiento`: son juegos de 2018 y 2022 que
