@@ -69,7 +69,9 @@ def fecha_corta(f):
 
 def tarjeta(item, fichas):
     j = fichas.get(item.get("id")) if item.get("id") else None
-    imagen = (j or {}).get("imagen")
+    # Casi ningún juego de suscripción está en el calendario (son de años anteriores), así
+    # que el archivo de datos puede traer su propia carátula; la de la ficha manda si existe.
+    imagen = (j or {}).get("imagen") or item.get("imagen")
     portada = (f'<img class="rec-portada" src="{e(imagen)}" alt="Carátula de {e(item["titulo"])}" '
                f'loading="lazy" decoding="async">') if imagen else '<span class="rec-portada portada-vacia"></span>'
     plats = " ".join(f'<span class="plat plat-{p.lower()}">{e(PLATS.get(p, p))}</span>'

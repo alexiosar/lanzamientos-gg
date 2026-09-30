@@ -1508,7 +1508,10 @@ categoría `SUSCRIPCIONES`, y **la tanda completa en `datos/suscripciones.js`** 
 servicio y por mes, porque "PS Plus octubre 2026" es una búsqueda que vuelve todos los meses.
 Ahí sí van **todos** los juegos de la tanda, estén o no en el calendario, porque quien lo
 busca quiere la lista entera: los del calendario llevan su `id` y enlazan a la ficha, los
-demás van con `id: null`. Cada anuncio es una tanda nueva dentro del mes (mensuales,
+demás van con `id: null` y su propia `imagen` vertical: casi ningún juego de suscripción está
+en el calendario, y sin carátula la tarjeta queda vacía. Primero Steam `library_600x900`; si
+Steam no la tiene (F1 25 no la tiene), la PS Store suele tener una de 444×666 entre las
+imágenes de la ficha. En la noticia va la carátula del juego más fuerte. Cada anuncio es una tanda nueva dentro del mes (mensuales,
 catálogo Extra y Premium, primera y segunda tanda de Game Pass). Un mes sin tandas no genera
 página. Lo arma `scripts/generar-suscripciones.py` y la página del mes lo enlaza sola.
 

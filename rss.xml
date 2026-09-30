@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Wed, 30 Sep 2026 15:08:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 16:28:35 +0000</lastBuildDate>
     <item>
       <title>KONG: SURVIVOR INSTINCT: SALE HOY EN SWITCH</title>
       <link>https://lanzamientos.lat/juegos/kong-survivor-instinct</link>
@@ -55,6 +55,15 @@
       <guid isPermaLink="false">neighbors-suburban-warfare-2026-09-30</guid>
       <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
       <description>Dejó el acceso anticipado de PC y llegó a consolas el 29 de septiembre, gratis y con compras dentro del juego. Se juega solo online, y en PS5 hace falta PS Plus. — NEIGHBORS: SUBURBAN WARFARE para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>LOS MENSUALES DE PS PLUS DE OCTUBRE: F1 25, HUNT: SHOWDOWN 1896 Y EARTH DEFENSE FORCE</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">ps-plus-mensuales-octubre-2026</guid>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Sony anunció los tres juegos mensuales de octubre: F1 25 y Hunt: Showdown 1896 en PS5, y Earth Defense Force: World Brothers 2 en PS5 y PS4. Se pueden reclamar desde el martes 6 de octubre hasta el lunes 2 de noviembre con cualquier plan, y una vez reclamados quedan mientras dure la suscripción. Ninguno es un estreno: los tres ya estaban a la venta.
+
+Los de septiembre, Sniper Elite: Resistance, MLB The Show 26, Wobbly Life y Chained Echoes, se pueden sumar a la biblioteca hasta el lunes 5 de octubre. Además, para Halloween hay paquetes de objetos de terror gratis con PS Plus, para quien tenga el juego, en Call of Duty: Warzone, Hunt: Showdown 1896 y Overwatch 2.</description>
     </item>
     <item>
       <title>CONTROL RESONANT: LA NUEVA YORK DE REMEDY SE LLAMA STRANGE YORK</title>
@@ -279,13 +288,6 @@
       <guid isPermaLink="false">vapor-world-over-the-mind-2026-09-24</guid>
       <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
       <description>En PC salió completo el 18 de agosto y en Xbox se puede jugar en acceso anticipado desde abril, pero la versión terminada de Xbox todavía no tiene fecha. — VAPOR WORLD: OVER THE MIND para XBOX.</description>
-    </item>
-    <item>
-      <title>TOMB RAIDER: LEGACY OF ATLANTIS: SALE EL 12 DE FEBRERO, Y TAMBIÉN EN PS5 Y XBOX</title>
-      <link>https://lanzamientos.lat/juegos/tomb-raider-legacy-of-atlantis</link>
-      <guid isPermaLink="false">tomb-raider-legacy-of-atlantis-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Sale el 12 de febrero de 2027 en las tres consolas. El 10 es el acceso anticipado de la edición Deluxe, que en Switch 2 empieza dos días antes. La PlayStation Store y la tienda de Xbox ya lo tienen en preventa para ese mismo día. — TOMB RAIDER: LEGACY OF ATLANTIS para PS5 / XBOX / SWITCH 2.</description>
     </item>
   </channel>
 </rss>
