@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-30T14:26:20+00:00",
+ "generado": "2026-09-30T15:08:10+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-09-30",
@@ -643,7 +643,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-24",
-   "url": "https://lanzamientos.lat/juegos/quern-undying-thoughts"
+   "url": "https://lanzamientos.lat/juegos/quern-undying-thoughts",
+   "noticias": [
+    {
+     "fecha": "2026-09-30",
+     "titulo": "SALE EL 6 DE OCTUBRE EN SWITCH",
+     "texto": "Llega a Switch casi diez años después del estreno en PC, de noviembre de 2016."
+    }
+   ]
   },
   {
    "id": "deep-rock-galactic-survivor",

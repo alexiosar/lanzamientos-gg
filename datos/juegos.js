@@ -1631,7 +1631,7 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/9CV1BS3tkmQ",
     metacritic: 82,
     metacriticUsuarios: 9.3,
-    metacriticVotos: 1992,
+    metacriticVotos: 1993,
     critica: "El acuerdo es que el desprendimiento funciona: la tinta de Splatoon adaptada a un juego de saqueo y progresión para jugar solo o en cooperativo, sin el multijugador competitivo que a mucha gente la echaba atrás. Se elogian el manejo, la personalización y lo bien que escala la dificultad. El reparo que se repite es de ambición: varias reseñas dicen que podría haber ido más lejos con la fórmula. Los jugadores lo puntúan bastante más alto que la prensa, y su queja más común es que querían más.",
     imagen: "https://cdn2.steamgriddb.com/grid/1812e589a2ad581bd076820f05965824.png",
     noticias: [
@@ -2775,8 +2775,8 @@ const JUEGOS = [
     descripcion: "Rivage es un juego de aventuras y puzles que transcurre en ARES, una estación espacial atrapada en un extraño fenómeno. Cuando Miranda despierta y se da cuenta de que su tripulación ha desaparecido, trata de averiguar su paradero explorando los alrededores y resolviendo intrincados puzles.",
     trailer: "https://youtube.com/embed/6_2nregu6xg",
     metacritic: 66,
-    metacriticUsuarios: 6.7,
-    metacriticVotos: 6,
+    metacriticUsuarios: 6.9,
+    metacriticVotos: 7,
     critica: "Reseñas muy repartidas. Es un juego de puzles de ciencia ficción con bucles temporales, hecho por un estudio de dos personas en su primer proyecto. Todas coinciden en que se ve muy bien, en las voces y en la atmósfera, calma pero inquietante, de una estación espacial vacía. Lo que las divide son los puzles: para algunas es de lo mejor en su tipo, para otras son desparejos, algunos se estiran de más, y ciertas decisiones de diseño lo vuelven más frustrante que entretenido.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay6k.jpg",
     gamepass: false,
@@ -3163,7 +3163,7 @@ const JUEGOS = [
     },
     metacritic: 85,
     metacriticUsuarios: 8.0,
-    metacriticVotos: 305,
+    metacriticVotos: 306,
     critica: "La comparación con XCOM aparece en todas las reseñas, y el veredicto es que aguanta: un juego de tácticas por turnos hecho en serio, no una licencia pegada encima de un género. Lo más elogiado, sin embargo, es lo que menos se esperaba: la historia. Un escuadrón sin usuarios de la Fuerza, personajes que caen bien y una puesta cinematográfica que varios comparan con Andor y Rogue One. Los reparos son parejos y ninguno es de fondo: arranca lento, tiene problemas técnicos —sobre todo en PC— y no reinventa el género. La reseña más dura le critica lo contrario que el resto: que el envoltorio Star Wars es lo menos inspirado del juego.",
     noticias: [
       {
@@ -4310,9 +4310,31 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/WhQm-ExRz60",
     metacritic: 83,
     metacriticUsuarios: 9.0,
-    metacriticVotos: 703,
+    metacriticVotos: 705,
     critica: "Una de las mejores recepciones del año. Las reseñas lo consideran lo mejor que hizo Remedy: un RPG de acción que se anima a cambiar de género respecto al primero sin perder la identidad del estudio, con un combate cuerpo a cuerpo nuevo que da para muchas combinaciones, una forma de moverse por Manhattan muy divertida y una dirección de arte de lo más fuerte del año. También elogian el elenco y la historia, tan rara como siempre. Los reparos son menores y casi no aparecen.",
     imagen: "https://cdn2.steamgriddb.com/grid/d7d5d27ed9b44f4646def6eccd765991.png",
+    noticias: [
+      {
+        fecha: "2026-09-29",
+        titulo: "LA NUEVA YORK DE REMEDY SE LLAMA STRANGE YORK",
+        texto: "En una entrevista con el blog de PlayStation, el equipo explicó que su Manhattan no busca ser fiel al real: es una versión retro de película, con cabinas telefónicas que en la ciudad verdadera ya no existen. La zona más normal, La Central, está a propósito en el medio del mapa para que lo paranormal resalte más a su alrededor."
+      },
+      {
+        fecha: "2026-09-25",
+        titulo: "NEW GAME++ EN OCTUBRE Y MODO FOTO EN NOVIEMBRE",
+        texto: "Remedy contó sus primeros planes después del estreno. En octubre llega un New Game++ para encadenar partidas nuevas sin borrar el progreso, porque hoy el New Game+ se puede hacer una sola vez. El modo foto, que quedó afuera del lanzamiento para priorizar el estado del juego, llega en noviembre, y más adelante habrá más ropa para Dylan."
+      },
+      {
+        fecha: "2026-09-24",
+        titulo: "PARCHE DE LANZAMIENTO: ENEMIGOS MENOS DUROS",
+        texto: "Con el juego ya en manos de muchos jugadores, Remedy sacó la actualización 1.3.3 el mismo día del estreno: bajó la vida de la mayoría de los enemigos y de los jefes Dancer y Deserter, hace falta menos para aturdirlos y Dylan pega más fuerte. También abarató redistribuir las mejoras. Para ajustar más, el modo Asistencia regula la agresividad enemiga y el daño recibido."
+      },
+      {
+        fecha: "2026-09-15",
+        titulo: "HASTA 60 FPS EN PS5 Y MODO EQUILIBRADO EN PS5 PRO",
+        texto: "Remedy detalló la versión de PS5: modo rendimiento a 60 FPS en 1440p y modo calidad a 30 FPS en 4K. En PS5 Pro usa PSSR, llega a 60 FPS en 4K y suma un modo equilibrado de 40 FPS con trazado de rayos para pantallas de 120 Hz. La historia principal lleva entre 25 y 35 horas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -4411,6 +4433,13 @@ const JUEGOS = [
     metacriticVotos: 1179,
     critica: "El puntaje es el de la edición definitiva en Switch, de 2019, que es la que llega a Switch 2. Las reseñas lo tratan como un JRPG ejemplar: un mundo rico, combates por turnos muy sólidos, un ritmo impecable para la cantidad de contenido que tiene, y una puerta de entrada ideal para quien nunca jugó la saga, con guiños para quien sí. La edición definitiva sumó escenarios, banda sonora orquestal y el modo 2D. El reparo es que no inventa nada: apuesta todo a la tradición.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295510/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "YA ESTÁ EN SWITCH 2, CON MODOS DE GRÁFICOS Y RENDIMIENTO",
+        texto: "Salió el 24 de septiembre como producto aparte del de Switch. Trae todo lo de la Definitive Edition, con los capítulos nuevos para los compañeros, las voces en japonés, el modo 2D y la banda sonora orquestal, y suma modos para priorizar gráficos o rendimiento."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -4449,6 +4478,13 @@ const JUEGOS = [
     metacriticVotos: 253,
     critica: "El puntaje es el de la versión de 2025. De las recepciones más altas de ese año: las reseñas lo ponen entre los mejores juegos de acción y plataformas en 2D en mucho tiempo, con un arte dibujado a mano que llama la atención y un combate de combos fácil de agarrar pero con mucha profundidad, que se aprende jugando. Los niveles tienen algo de metroidvania, con habilidades nuevas que abren caminos, y hay modos extra exigentes. Lo único que se le marca es una historia de manual, que igual le queda bien al tono.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2361770/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "YA ESTÁ EN SWITCH 2, CON 1080P EN PORTÁTIL",
+        texto: "La versión de Switch 2 salió el 24 de septiembre. La mejora que anuncia SEGA es la resolución en modo portátil, que sube a 1080p."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -4795,6 +4831,13 @@ const JUEGOS = [
     metacriticVotos: 102,
     critica: "Buena recepción. Las reseñas coinciden en que es la entrega en la que la serie reconoce los errores de las anteriores y los corrige: más control manual, una defensa con menos ayuda de la inteligencia artificial, mejores movimientos en ataque y un mercado de pases renovado. El modo Carrera es lo que más creció, y The Grounds, el modo nuevo, suma variedad. Los reparos: no es el salto visual que algunos esperaban, The Grounds no está a la altura de su ambición y quedan problemas de balance y técnicos.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coclf3.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-29",
+        titulo: "EA CORRIGE EL MODO CARRERA",
+        texto: "En su primer informe del modo carrera, EA dijo que arregla los jugadores generados que aparecen con una valoración más alta de la esperada, que va a rediseñar la pantalla de gestión del equipo y que revisa lo rápido que los jugadores piden irse por falta de minutos. La resistencia y la valoración dinámica, dos sistemas nuevos que dividen opiniones, por ahora no se tocan."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-28"
@@ -8242,6 +8285,18 @@ const JUEGOS = [
     metacriticUsuarios: null,
     critica: "Buena recepción, para el público de siempre. Las reseñas destacan el realismo, la sensación de manejar en cabina, los paisajes y las rutas, y dos cosas nuevas: un esquema de controles para principiantes que la vuelve la entrega más accesible, y el clima en tiempo real. Los reparos: los tutoriales son lentos, cuesta aprenderlo, trae pocas novedades para quien jugó las anteriores y las rutas extra se venden aparte, caras como siempre.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocrgl.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-29",
+        titulo: "JAPÓN LLEGA POR PRIMERA VEZ, CON LA LÍNEA TADAMI",
+        texto: "Es la primera ruta japonesa de la serie: 88 km de vía única y 28 estaciones en la prefectura de Fukushima, a bordo del KiHa 40, un diésel de manejo mecánico que se arranca a la vieja usanza. Se vende aparte, a 39,99 dólares."
+      },
+      {
+        fecha: "2026-09-29",
+        titulo: "UN PARCHE POR SEMANA EN TODAS LAS PLATAFORMAS",
+        texto: "Dovetail sigue con actualizaciones semanales. La del 29 de septiembre arregla los controles para principiantes y las texturas borrosas de varias locomotoras, y acelera la vuelta al menú en Xbox. La próxima apunta al rendimiento de la ruta de Núremberg."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-28"
@@ -8286,6 +8341,13 @@ const JUEGOS = [
     metacriticUsuarios: null,
     critica: "Muy buena recepción entre los fans del género. Las reseñas destacan que armar un imperio de transporte es muy gratificante: herramientas intuitivas, desafíos de logística que exigen planificar, una campaña histórica que enseña a jugar y un modo libre con mucha rejugabilidad. Es la entrega más pulida y vistosa de la serie, con una interfaz mejorada que ayuda a los nuevos. Los reparos: los menús abruman al principio, cuesta arrancar y todavía le falta algo de variedad.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9u3u.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-29",
+        titulo: "SALIÓ EN PS5, XBOX Y PC EL MISMO DÍA",
+        texto: "Urban Games lo lanzó el 29 de septiembre en las tres plataformas a la vez. Según el estudio, parte del equipo lleva media vida dedicada a la serie."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-28"
@@ -9694,6 +9756,13 @@ const JUEGOS = [
     metacriticVotos: 43,
     critica: "El puntaje es el de la versión de PC, de 2025. Las reseñas lo reciben como una joya: captura muy bien la sensación de un viaje en ruta, con personajes memorables, una gestión de recursos que exige y una de las mejores bandas sonoras y ambientaciones del año. Los reparos son de comodidad: no se puede alejar el mapa y cuesta seguir las misiones.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2756920/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-28",
+        titulo: "YA ESTÁ EN XBOX",
+        texto: "Salió el 28 de septiembre, un año y medio después del estreno en PC. YCJY Games lo anunció también para PS5 y Switch, que todavía no tienen fecha."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-24"
@@ -9735,6 +9804,13 @@ const JUEGOS = [
     metacritic: 83,
     critica: "El puntaje es el de la versión de PC, de 2016. Las reseñas lo destacan como un juego de puzles hecho con mucho oficio, con una atmósfera que atrapa y puzles que forman un todo en lugar de una lista suelta de desafíos. Lo recomiendan en especial a quien disfrutó Myst y Riven. El único reparo es justamente ese: es un homenaje que no inventa nada nuevo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/512790/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-30",
+        titulo: "SALE EL 6 DE OCTUBRE EN SWITCH",
+        texto: "Llega a Switch casi diez años después del estreno en PC, de noviembre de 2016."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-24"
