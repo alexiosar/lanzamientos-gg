@@ -1326,6 +1326,18 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/eUl7a-blRrM",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2689120/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-16",
+        titulo: "LO QUE VIENE: UNA ARENA NUEVA Y EL EDITOR DE MOVIMIENTOS EN CONSOLAS",
+        texto: "Plebeian Studio adelantó los planes después del lanzamiento: una arena nueva, más armas, actualizaciones grandes periódicas y el editor de movimientos, que hasta ahora existía solo en PC, también en consolas. Desde el estreno ya salieron tres parches de arreglos."
+      },
+      {
+        fecha: "2026-09-16",
+        titulo: "SALIÓ EN PS5 Y XBOX, CON JUEGO CRUZADO",
+        texto: "Dejó el acceso anticipado de PC y llegó a consolas con 31 estilos de armas, 15 piezas de armadura y 6 arenas. Se juega de a cuatro en la misma consola, con bots si faltan jugadores, u online con juego cruzado entre PC, PlayStation y Xbox, y tiene una campaña contra rivales en varias dificultades. Lo hizo una sola persona, LittleLegatus."
+      }
+    ],
     alta: "2026-08-24"
   },
   {
@@ -3687,14 +3699,27 @@ const JUEGOS = [
   {
     id: "touhou-koumakyou-new-classic",
     titulo: "TOUHOU KOUMAKYOU: NEW CLASSIC",
-    fecha: "2026-09-10",
+    fecha: "2026-09-09",
+    relanzamiento: "Remake del original de PC de 2002",
     plataformas: ["SWITCH", "SWITCH2", "PS5"],
     genero: ["SHOOTER", "ARCADE"],
-    desarrollador: "上海アリス幻樂団",
-    descripcion: "Esquiva las balas, derrota a los enemigos y enfrenta el misterio de la Niebla Escarlata. The Embodiment of Scarlet Devil regresa con música y gráficos renovados. Guía a la sacerdotisa Reimu y la maga Marisa entre pantallas llenas de balas. La banda sonora ha sido readaptada por ZUN.",
+    desarrollador: "TEAM SHANGHAI ALICE",
+    descripcion: "La nueva versión de The Embodiment of Scarlet Devil, el Touhou de PC de 2002: un shooter vertical de los que llenan la pantalla de balas. Gensokyo quedó envuelta en una niebla escarlata y hay que resolver el incidente con Reimu, la sacerdotisa del santuario Hakurei, o con Marisa, la maga del Bosque de la Magia, cada una con sus propios disparos y bombas. Esta edición sube la resolución, trae toda la música rearreglada por ZUN, el creador de la serie, y suma un modo con vidas infinitas. También incluye la versión Classic, que conserva el juego de 2002 tal cual, con los textos en japonés.",
     trailer: "https://youtube.com/embed/gTYdXwuIr84",
+    gameplay: {
+      video: "https://youtube.com/embed/yCuBr-5_JM0",
+      canal: "FireArturo",
+      canalUrl: "https://www.youtube.com/@FireArturo"
+    },
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7m0.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-09",
+        titulo: "SALIÓ EL 9 DE SEPTIEMBRE, CON EL ORIGINAL DE 2002 INCLUIDO",
+        texto: "Llegó a PS5, Switch 2 y Switch, y es el debut de Touhou Koumakyou en consolas de Nintendo. Además de la versión nueva trae la Classic, que conserva el juego de 2002 con los textos en japonés. En Switch y Switch 2 son productos separados: las partidas guardadas no pasan de una a otra y no hay paquete de mejora."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"
@@ -5633,12 +5658,24 @@ const JUEGOS = [
     titulo: "TENEBRIS SOMNIA",
     fecha: "2026-10-16",
     plataformas: ["PS4", "SWITCH2", "PS5", "XBOX"],
-    genero: ["AVENTURA", "INDIE"],
-    desarrollador: "ANDRÉS BORGHI",
-    descripcion: "Un survival horror en 2D con escenas filmadas con actores y escenografía real. Se avanza resolviendo acertijos y enfrentando criaturas mientras se destapa una historia perturbadora.",
+    genero: ["AVENTURA", "HORROR", "RETRO", "INDIE"],
+    desarrollador: "ANDRÉS BORGHI Y SAIBOT STUDIOS",
+    descripcion: "Un survival horror en 2D al estilo de los primeros Resident Evil y Silent Hill, pero con el aspecto de un juego de NES. Se avanza resolviendo acertijos y enfrentando criaturas, y en los momentos clave el juego se corta para dar paso a escenas filmadas con actores, efectos prácticos y escenografía real, rodadas en Buenos Aires por un equipo de cine argentino. Lo crearon Andrés Borghi y Tobías Rusjan, y lo publica New Blood.",
     trailer: "https://youtube.com/embed/A_fQ_gNddbo",
+    gameplay: {
+      video: "https://youtube.com/embed/yCBJmEH4cbw",
+      canal: "SantyPa Games",
+      canalUrl: "https://www.youtube.com/@SantyPa10"
+    },
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "PRECIO REGIONAL PARA LATINOAMÉRICA Y EDICIÓN FÍSICA",
+        texto: "Sale el 16 de octubre a 24,99 dólares, con un 20% de descuento en el lanzamiento. New Blood prometió precios regionales agresivos en Latinoamérica para que lo juegue la mayor cantidad de gente posible, y dijo que va a intentar mantenerlos en consolas. Va a tener versiones físicas, con el arte de tapa definitivo de Dakota Lee."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-24"
@@ -6145,18 +6182,24 @@ const JUEGOS = [
     fecha: "2026-12-31",
     estimado: true,
     fechaEstimada: "CUARTO TRIMESTRE 2026",
-    plataformas: ["PS5"],
+    relanzamiento: "En PC desde noviembre de 2025",
+    plataformas: ["PS5", "XBOX"],
     genero: ["ACCION", "RPG", "ANIME"],
     desarrollador: "NETMARBLE NEO",
     descripcion: "Un RPG de acción basado en Solo Leveling, el webtoon con más de 14.000 millones de vistas. Se sigue al protagonista desde sus comienzos como cazador de rango E.",
     trailer: "https://youtube.com/embed/B22MqQQK5eE",
+    gameplay: {
+      video: "https://youtube.com/embed/X1PIGN_d12s",
+      canal: "elKate",
+      canalUrl: "https://www.youtube.com/@elKateYT"
+    },
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2373990/library_600x900.jpg",
     noticias: [
       {
         fecha: "2026-09-24",
         titulo: "NO SALIÓ EN EL TERCER TRIMESTRE",
-        texto: "La versión de Xbox ya salió, en noviembre de 2025, junto con la de PC. La de PS5 no salió en el tercer trimestre y todavía no aparece en la PlayStation Store."
+        texto: "Netmarble había anunciado las versiones de PS5 y Xbox Series para el tercer trimestre, entre julio y septiembre, y ninguna de las dos apareció todavía en las tiendas. En PC salió en noviembre de 2025."
       }
     ],
     gamepass: false,

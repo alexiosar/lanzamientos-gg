@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-01T14:38:50+00:00",
+ "generado": "2026-10-01T15:30:33+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-01",
@@ -1709,17 +1709,31 @@
    ],
    "genero": [
     "AVENTURA",
+    "HORROR",
+    "RETRO",
     "INDIE"
    ],
-   "desarrollador": "ANDRÉS BORGHI",
-   "descripcion": "Un survival horror en 2D con escenas filmadas con actores y escenografía real. Se avanza resolviendo acertijos y enfrentando criaturas mientras se destapa una historia perturbadora.",
+   "desarrollador": "ANDRÉS BORGHI Y SAIBOT STUDIOS",
+   "descripcion": "Un survival horror en 2D al estilo de los primeros Resident Evil y Silent Hill, pero con el aspecto de un juego de NES. Se avanza resolviendo acertijos y enfrentando criaturas, y en los momentos clave el juego se corta para dar paso a escenas filmadas con actores, efectos prácticos y escenografía real, rodadas en Buenos Aires por un equipo de cine argentino. Lo crearon Andrés Borghi y Tobías Rusjan, y lo publica New Blood.",
    "trailer": "https://youtube.com/embed/A_fQ_gNddbo",
+   "gameplay": {
+    "video": "https://youtube.com/embed/yCBJmEH4cbw",
+    "canal": "SantyPa Games",
+    "canalUrl": "https://www.youtube.com/@SantyPa10"
+   },
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/tenebris-somnia"
+   "url": "https://lanzamientos.lat/juegos/tenebris-somnia",
+   "noticias": [
+    {
+     "fecha": "2026-09-24",
+     "titulo": "PRECIO REGIONAL PARA LATINOAMÉRICA Y EDICIÓN FÍSICA",
+     "texto": "Sale el 16 de octubre a 24,99 dólares, con un 20% de descuento en el lanzamiento. New Blood prometió precios regionales agresivos en Latinoamérica para que lo juegue la mayor cantidad de gente posible, y dijo que va a intentar mantenerlos en consolas. Va a tener versiones físicas, con el arte de tapa definitivo de Dakota Lee."
+    }
+   ]
   },
   {
    "id": "resident-evil-2-switch-2",
