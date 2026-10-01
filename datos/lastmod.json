@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "00954907d4468333",
+  "hash": "bb7939de3cf49a36",
   "lastmod": "2026-10-01"
  },
  "/abril-2027": {
@@ -24,8 +24,8 @@
   "lastmod": "2026-09-09"
  },
  "/diciembre-2026": {
-  "hash": "05ebfe571120dba2",
-  "lastmod": "2026-09-29"
+  "hash": "0006eadbfc788236",
+  "lastmod": "2026-10-01"
  },
  "/enero-2027": {
   "hash": "73a2847043308dc8",
@@ -104,7 +104,7 @@
   "lastmod": "2026-09-17"
  },
  "/juegos/antonblast": {
-  "hash": "7b72c9a31458fc8f",
+  "hash": "532516b436c656ee",
   "lastmod": "2026-10-01"
  },
  "/juegos/apidya-special": {
@@ -352,7 +352,7 @@
   "lastmod": "2026-09-15"
  },
  "/juegos/deck-of-haunts": {
-  "hash": "1a7ffbd5c36e025a",
+  "hash": "9fb091d96ae0b3ff",
   "lastmod": "2026-10-01"
  },
  "/juegos/deep-dish-dungeon": {
@@ -360,7 +360,7 @@
   "lastmod": "2026-10-01"
  },
  "/juegos/deep-rock-galactic-survivor": {
-  "hash": "578d15d822890733",
+  "hash": "4a1df7b4b8c1361e",
   "lastmod": "2026-10-01"
  },
  "/juegos/defender-of-the-crown-the-legend-returns": {
@@ -828,7 +828,7 @@
   "lastmod": "2026-09-23"
  },
  "/juegos/isles-of-sea-and-sky": {
-  "hash": "80a8e3a0413055b4",
+  "hash": "1d3a8461119de8e9",
   "lastmod": "2026-10-01"
  },
  "/juegos/jurassic-world-evolution-2": {
@@ -844,8 +844,8 @@
   "lastmod": "2026-09-24"
  },
  "/juegos/keep-driving": {
-  "hash": "a3240d9a43a702c5",
-  "lastmod": "2026-09-30"
+  "hash": "c871815b7f723537",
+  "lastmod": "2026-10-01"
  },
  "/juegos/kena-scars-of-kosmora": {
   "hash": "05735d2ab5d387df",
@@ -1020,12 +1020,12 @@
   "lastmod": "2026-09-20"
  },
  "/juegos/middle-earth-shadow-of-mordor-switch-2": {
-  "hash": "5aa15917aec18dee",
-  "lastmod": "2026-09-27"
+  "hash": "4d66c1ed31266a17",
+  "lastmod": "2026-10-01"
  },
  "/juegos/middle-earth-shadow-of-war-definitive-edition-switch-2": {
-  "hash": "7b5c79a33c87d6b5",
-  "lastmod": "2026-09-27"
+  "hash": "d2612ca03005d49a",
+  "lastmod": "2026-10-01"
  },
  "/juegos/mind-diver": {
   "hash": "ef315ac054c9b61e",
@@ -1232,7 +1232,7 @@
   "lastmod": "2026-09-21"
  },
  "/juegos/paperhead": {
-  "hash": "74f0814a6a63e878",
+  "hash": "2ab480eb5d4ce9f7",
   "lastmod": "2026-10-01"
  },
  "/juegos/pardon-my-french-toast": {
@@ -1328,7 +1328,7 @@
   "lastmod": "2026-10-01"
  },
  "/juegos/quern-undying-thoughts": {
-  "hash": "73ae7d4599b41e58",
+  "hash": "1b46c5aac9e213a0",
   "lastmod": "2026-10-01"
  },
  "/juegos/rainbow-islands-cs": {
@@ -1636,7 +1636,7 @@
   "lastmod": "2026-09-18"
  },
  "/juegos/the-ascent-switch-2": {
-  "hash": "b61d54f85b512ae0",
+  "hash": "af10c3d0e8c65dc3",
   "lastmod": "2026-10-01"
  },
  "/juegos/the-blood-of-dawnwalker": {
@@ -1980,7 +1980,7 @@
   "lastmod": "2026-10-01"
  },
  "/noticias": {
-  "hash": "142f1630d167e9f7",
+  "hash": "955d33ebe2fbc5aa",
   "lastmod": "2026-10-01"
  },
  "/noviembre-2026": {
@@ -1988,7 +1988,7 @@
   "lastmod": "2026-10-01"
  },
  "/octubre-2026": {
-  "hash": "0bb9cebbaf6f4112",
+  "hash": "23e92c6a466958b4",
   "lastmod": "2026-10-01"
  },
  "/privacidad": {
@@ -2000,15 +2000,19 @@
   "lastmod": "2026-10-01"
  },
  "/ps4": {
-  "hash": "00954907d4468333",
+  "hash": "bb7939de3cf49a36",
   "lastmod": "2026-10-01"
  },
  "/ps4-octubre-2026": {
-  "hash": "93a99af45ab32ffd",
+  "hash": "887ca4e1f4bfc9df",
+  "lastmod": "2026-10-01"
+ },
+ "/ps4-septiembre-2026": {
+  "hash": "22e7ae86b2df33b3",
   "lastmod": "2026-10-01"
  },
  "/ps5": {
-  "hash": "00954907d4468333",
+  "hash": "bb7939de3cf49a36",
   "lastmod": "2026-10-01"
  },
  "/ps5-diciembre-2026": {
@@ -2032,7 +2036,11 @@
   "lastmod": "2026-10-01"
  },
  "/ps5-octubre-2026": {
-  "hash": "5baaa8e00189cfce",
+  "hash": "c0cfe1805410629e",
+  "lastmod": "2026-10-01"
+ },
+ "/ps5-septiembre-2026": {
+  "hash": "3764b6cea1559138",
   "lastmod": "2026-10-01"
  },
  "/recomendados": {
@@ -2040,27 +2048,31 @@
   "lastmod": "2026-09-25"
  },
  "/septiembre-2026": {
-  "hash": "e91534fcad3e10ad",
+  "hash": "95c5aaf2d3d22e79",
   "lastmod": "2026-10-01"
  },
  "/switch": {
-  "hash": "00954907d4468333",
+  "hash": "bb7939de3cf49a36",
   "lastmod": "2026-10-01"
  },
  "/switch-2": {
-  "hash": "00954907d4468333",
+  "hash": "bb7939de3cf49a36",
   "lastmod": "2026-10-01"
  },
  "/switch-2-diciembre-2026": {
-  "hash": "78f57f022a07a391",
-  "lastmod": "2026-09-29"
+  "hash": "e8f7b1eb7ba0ae8c",
+  "lastmod": "2026-10-01"
  },
  "/switch-2-noviembre-2026": {
   "hash": "74a05c65d69f6a98",
   "lastmod": "2026-09-29"
  },
  "/switch-2-octubre-2026": {
-  "hash": "08351b8f762168b2",
+  "hash": "cd22e819cb28cc7a",
+  "lastmod": "2026-10-01"
+ },
+ "/switch-2-septiembre-2026": {
+  "hash": "2daa19e32d5d3999",
   "lastmod": "2026-10-01"
  },
  "/switch-noviembre-2026": {
@@ -2068,7 +2080,11 @@
   "lastmod": "2026-09-29"
  },
  "/switch-octubre-2026": {
-  "hash": "e169d96ccc9674ca",
+  "hash": "cb974e63afeb8d81",
+  "lastmod": "2026-10-01"
+ },
+ "/switch-septiembre-2026": {
+  "hash": "b240e68a22b6d643",
   "lastmod": "2026-10-01"
  },
  "/terminos": {
@@ -2080,7 +2096,7 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "00954907d4468333",
+  "hash": "bb7939de3cf49a36",
   "lastmod": "2026-10-01"
  },
  "/xbox-febrero-2027": {
@@ -2096,7 +2112,11 @@
   "lastmod": "2026-10-01"
  },
  "/xbox-octubre-2026": {
-  "hash": "46b6cdc3944ddb01",
+  "hash": "57d3360cb8b8bd4d",
+  "lastmod": "2026-10-01"
+ },
+ "/xbox-septiembre-2026": {
+  "hash": "b60cffb7b01e93c0",
   "lastmod": "2026-10-01"
  }
 }

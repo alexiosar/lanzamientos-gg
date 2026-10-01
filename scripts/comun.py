@@ -109,7 +109,14 @@ PLAT_SLUG = {"PS5": "ps5", "PS4": "ps4", "XBOX": "xbox", "SWITCH2": "switch-2", 
 MINIMO_PLAT_MES = 5
 
 
-def paginas_plataforma_mes(juegos, mes_actual):
+# Primer mes con páginas por consola. Desde el 01/10/2026 los meses que pasan quedan como
+# archivo ("juegos de PS5 que salieron en septiembre"), igual que las páginas de mes
+# generales: borrarlas dejaba 404 en URLs que ya estaban en el sitemap. Hacia atrás no se
+# generan (junio a agosto) porque la idea era medir antes de ampliarlas.
+PRIMER_MES_PLAT = "2026-09"
+
+
+def paginas_plataforma_mes(juegos):
     """{(plataforma, "AAAA-MM"): [juegos]} de las páginas por consola y mes que existen.
 
     Vive acá porque la usan dos generadores: el de meses, que arma las páginas y las enlaza
@@ -120,7 +127,7 @@ def paginas_plataforma_mes(juegos, mes_actual):
     grupos = {}
     for j in juegos:
         mk = j["fecha"][:7]
-        if mk < mes_actual:
+        if mk < PRIMER_MES_PLAT:
             continue
         for p in j["plataformas"]:
             grupos.setdefault((p, mk), []).append(j)

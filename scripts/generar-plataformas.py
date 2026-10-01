@@ -153,7 +153,7 @@ def generar(clave, archivo, corto, largo, juegos, mes_actual, por_plataforma=Non
 def main():
     juegos = cargar_juegos()
     mes_actual = datetime.date.today().strftime("%Y-%m")
-    por_plataforma = paginas_plataforma_mes(juegos, mes_actual)
+    por_plataforma = paginas_plataforma_mes(juegos)
     for clave, archivo, corto, largo in PLATAFORMAS:
         (RAIZ / archivo).write_text(generar(clave, archivo, corto, largo, juegos, mes_actual, por_plataforma),
                                     encoding="utf-8")

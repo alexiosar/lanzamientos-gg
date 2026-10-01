@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-01T14:19:11+00:00",
+ "generado": "2026-10-01T14:38:50+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-01",
  "hasta": "2026-10-31",
- "total": 96,
+ "total": 97,
  "juegos": [
   {
    "id": "dont-fret",
@@ -590,6 +590,7 @@
    "id": "quern-undying-thoughts",
    "titulo": "QUERN - UNDYING THOUGHTS",
    "relanzamiento": "En PC desde noviembre de 2016 — esta fecha corresponde a la edición de Switch",
+   "duracion": "≈ 14 h (historia) · 15 h (completo)",
    "fecha": "2026-10-06",
    "plataformas": [
     "SWITCH"
@@ -637,6 +638,7 @@
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/library_600x900.jpg",
    "relanzamiento": "En Xbox y PC desde 2025",
+   "duracion": "≈ 22 h (historia) · 159 h (completo)",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-30",
@@ -1009,6 +1011,7 @@
    "id": "deck-of-haunts",
    "titulo": "DECK OF HAUNTS",
    "relanzamiento": "En PC desde mayo de 2025 — esta fecha corresponde a las ediciones de PS5 y Xbox",
+   "duracion": "≈ 2,7 h (historia)",
    "fecha": "2026-10-08",
    "plataformas": [
     "PS5",
@@ -1057,6 +1060,7 @@
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1233070/library_600x900.jpg",
    "relanzamiento": "En PC desde 2024",
+   "duracion": "≈ 15 h (historia) · 27 h (completo)",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-30",
@@ -1066,6 +1070,40 @@
      "fecha": "2026-09-30",
      "titulo": "LLEGA A SWITCH EL 8 DE OCTUBRE",
      "texto": "Cicada Games, el estudio de Kioto que lo desarrolló, lo trae a Switch dos años después del estreno en PC."
+    }
+   ]
+  },
+  {
+   "id": "paperhead",
+   "titulo": "PAPERHEAD",
+   "fecha": "2026-10-09",
+   "plataformas": [
+    "XBOX",
+    "PS5"
+   ],
+   "genero": [
+    "SHOOTER",
+    "INDIE"
+   ],
+   "desarrollador": "PAPERHEAD TE4M",
+   "descripcion": "Un boomer shooter de terror en un mundo de cartón que parece tierno hasta que empieza a sangrar. Se recorre un laboratorio abandonado a los escopetazos y a las patadas, y el arma más rara es un lápiz: con él se dibujan bombas para patear, puertas para abrir y palabras en las paredes que cambian el escenario.",
+   "trailer": "https://youtube.com/embed/Z-zHLhZ9Isw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-16",
+   "url": "https://lanzamientos.lat/juegos/paperhead",
+   "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "YA TIENE DÍA: 9 DE OCTUBRE",
+     "texto": "La tienda de Xbox confirmó el 9 de octubre, la misma fecha que tiene en Steam. La PS Store todavía dice solo octubre, sin día."
+    },
+    {
+     "fecha": "2026-09-15",
+     "titulo": "YA NO SALE EL 18 DE SEPTIEMBRE",
+     "texto": "El tráiler de junio lo anunciaba para el 18 de septiembre en PC y consolas, pero la fecha se corrió: Steam ahora dice 9 de octubre. En PS5 y Xbox las tiendas no tienen día, así que por ahora queda como estimado para octubre."
     }
    ]
   },

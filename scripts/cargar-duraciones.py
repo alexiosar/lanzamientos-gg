@@ -59,8 +59,9 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 UMBRAL = 0.82
 
 # Juegos donde el dato de HLTB existe pero es engañoso y no se carga nunca.
-# Los MMO dan una "historia principal" de pocas horas que no representa nada.
-EXCLUIDOS = {"final-fantasy-xiv-online"}
+# Los MMO dan una "historia principal" de pocas horas que no representa nada, y lo mismo
+# los simuladores sin historia (BeamNG.drive marcaba "6,2 h de historia").
+EXCLUIDOS = {"final-fantasy-xiv-online", "beamng-drive"}
 
 
 def init():
@@ -80,12 +81,17 @@ def buscar(termino, sec):
             "users": {"sortCategory": "postcount"}, "lists": {"sortCategory": "follows"},
             "filter": "", "sort": 0, "randomizer": 0},
         "useCache": True}
-    body[sec["hpKey"]] = sec["hpVal"]
+    headers = {"User-Agent": UA, "Referer": BASE + "/", "Content-Type": "application/json",
+               "x-auth-token": sec["token"]}
+    # Desde el 01/10/2026 el init devuelve sólo el token, sin hpKey/hpVal. Se mandan si
+    # vienen, por si vuelven; exigirlos hacía fallar todas las búsquedas con un KeyError
+    # que el script contaba como "sin resultado".
+    if "hpKey" in sec:
+        body[sec["hpKey"]] = sec["hpVal"]
+        headers.update({"x-hp-key": sec["hpKey"], "x-hp-val": str(sec["hpVal"])})
     r = urllib.request.Request(
         f"{BASE}/api/search/site", data=json.dumps(body).encode(), method="POST",
-        headers={"User-Agent": UA, "Referer": BASE + "/", "Content-Type": "application/json",
-                 "x-auth-token": sec["token"], "x-hp-key": sec["hpKey"],
-                 "x-hp-val": str(sec["hpVal"])})
+        headers=headers)
     return json.loads(urllib.request.urlopen(r, timeout=20, context=CTX).read())
 
 
@@ -131,6 +137,7 @@ def main():
 
     sec = init()
     encontrados, dudosos, sin_datos = {}, [], []
+    errores = 0
     for j in pendientes:
         # el sufijo de las ediciones de Switch 2 no existe en HLTB
         termino = re.sub(r"\s*[—-]\s*NINTENDO SWITCH 2 EDITION", "", j["titulo"])
@@ -140,6 +147,7 @@ def main():
                 datos = buscar(termino, sec)
                 break
             except Exception as e:
+                errores += intento == 2 or getattr(e, "code", 0) != 403
                 if getattr(e, "code", 0) == 403 and intento == 1:
                     try:
                         sec = init()      # el token dura poco: se renueva y se reintenta
@@ -163,6 +171,12 @@ def main():
             dudosos.append((j["id"], mejor["game_name"], motivo))
         time.sleep(0.35)
 
+    # Que fallen TODAS no es "HLTB no tiene estos juegos": es que cambió el protocolo. Pasó
+    # el 31/08/2026 (endpoint nuevo) y el 01/10/2026 (el init dejó de mandar hpKey/hpVal), y
+    # las dos veces la salida decía "sin resultado" como si nada.
+    if pendientes and errores >= len(pendientes):
+        print("\n  ⚠⚠ FALLARON TODAS LAS CONSULTAS: HLTB cambió algo. No cargar nada y revisar"
+              " init() y buscar() con el procedimiento del principio de este archivo.")
     print(f"\n── Resumen ──\n  encontrados: {len(encontrados)}"
           f"  |  dudosos: {len(dudosos)}  |  sin resultado: {len(sin_datos)}")
     if dudosos:

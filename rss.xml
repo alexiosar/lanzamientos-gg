@@ -6,13 +6,20 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 01 Oct 2026 14:19:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 14:38:50 +0000</lastBuildDate>
     <item>
       <title>END OF ABYSS: SALE HOY Y DEBUTA CON 78</title>
       <link>https://lanzamientos.lat/juegos/end-of-abyss</link>
       <guid isPermaLink="false">end-of-abyss-2026-10-01</guid>
       <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
       <description>Llega hoy a PS5 y Xbox con un 78 sobre diez reseñas. La prensa destaca la atmósfera y el mapa interconectado, y le marca bugs y un diseño que a veces confunde. — END OF ABYSS para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>PAPERHEAD: YA TIENE DÍA: 9 DE OCTUBRE</title>
+      <link>https://lanzamientos.lat/juegos/paperhead</link>
+      <guid isPermaLink="false">paperhead-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+      <description>La tienda de Xbox confirmó el 9 de octubre, la misma fecha que tiene en Steam. La PS Store todavía dice solo octubre, sin día. — PAPERHEAD para XBOX / PS5.</description>
     </item>
     <item>
       <title>KERNEL HEARTS: YA ESTÁ EN PS5, Y LA CRÍTICA LE PONE 73</title>
@@ -281,13 +288,6 @@ Los de septiembre, Sniper Elite: Resistance, MLB The Show 26, Wobbly Life y Chai
       <guid isPermaLink="false">kyoto-xanadu-2026-09-24</guid>
       <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
       <description>No salió en el tercer trimestre. La eShop lo lista para Switch con salida en 2026 y sin día, y en la PlayStation Store todavía no aparece. — KYOTO XANADU para SWITCH 2 / SWITCH / PS5.</description>
-    </item>
-    <item>
-      <title>SOLO LEVELING: ARISE OVERDRIVE: NO SALIÓ EN EL TERCER TRIMESTRE</title>
-      <link>https://lanzamientos.lat/juegos/solo-leveling-arise-overdrive</link>
-      <guid isPermaLink="false">solo-leveling-arise-overdrive-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>La versión de Xbox ya salió, en noviembre de 2025, junto con la de PC. La de PS5 no salió en el tercer trimestre y todavía no aparece en la PlayStation Store. — SOLO LEVELING: ARISE OVERDRIVE para PS5.</description>
     </item>
   </channel>
 </rss>

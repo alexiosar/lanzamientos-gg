@@ -257,7 +257,7 @@ def main():
                     if any(not j.get("estimado") for j in lista))
     salteados = sorted(set(por_mes) - set(claves))
 
-    por_plataforma = paginas_plataforma_mes(juegos, hoy)
+    por_plataforma = paginas_plataforma_mes(juegos)
     for i, mk in enumerate(claves):
         anterior = claves[i - 1] if i > 0 else None
         siguiente = claves[i + 1] if i < len(claves) - 1 else None

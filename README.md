@@ -1534,11 +1534,13 @@ alcanza: con estos volúmenes, los datos de un día son ruido.
 
 **Páginas por consola y mes (desde el 29/09/2026):** `/ps5-octubre-2026`,
 `/switch-2-noviembre-2026` y así, para búsquedas como "juegos de PS5 de octubre". Las arma
-`generar-meses.py` sin ningún dato nuevo: sólo del mes en curso en adelante, y sólo cuando
+`generar-meses.py` sin ningún dato nuevo: desde septiembre de 2026 en adelante (`PRIMER_MES_PLAT`), y sólo cuando
 esa consola tiene al menos 5 juegos con día confirmado ese mes (`MINIMO_PLAT_MES` en
 `comun.py`). Con menos, la página sería una lista de dos filas que Google lee como
-contenido flaco. Se enlazan desde la página del mes y desde `/ps5`, `/xbox`, etc., y las
-que dejan de corresponder se borran solas. Se decidió empezar así y **medir antes de
+contenido flaco. Se enlazan desde la página del mes y desde `/ps5`, `/xbox`, etc. Los meses que pasan **quedan
+como archivo** ("juegos de PS5 que salieron en septiembre"), igual que las páginas de mes
+generales: lo decidió el usuario el 01/10/2026, cuando el cambio de mes borró las cuatro de
+septiembre. Sólo se borra una si la consola baja de 5 juegos con día ese mes. Se decidió empezar así y **medir antes de
 ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
 
 **Semanal:**
@@ -1870,15 +1872,6 @@ y abrir http://localhost:8080
 
 ### Ideas del usuario del 27/08/2026 (sin empezar)
 
-- **Vapor World: Over the Mind — qué fecha va.** Entró a Game Pass el 19/08/2026 en formato
-  Game Preview, "available on day one", según el propio anuncio de Xbox Wire. Nosotros lo
-  tenemos para el 30/09, que sería la versión terminada. La pregunta es cuál de las dos es
-  "el lanzamiento" para este calendario. Hay precedente para las dos respuestas: Grounded 2
-  también entró en Game Preview y su ficha usa la fecha del debut en PS5, o sea que el Game
-  Preview no cuenta; pero si no cuenta, entonces el 30/09 sí es un estreno en el servicio y
-  le faltaría `gamepass: true`. Hoy está sin distintivo y con fecha 30/09, que es la
-  combinación que no cierra con ninguna de las dos lecturas.
-
 - **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 11/09/2026).**
   Los trajo Gematsu y **ninguno se cargó**, porque ninguna tienda de consola los lista. No es
   que estén mal: es que todavía no aparecieron. Se revisan de nuevo en cada semanal y entran
@@ -1891,7 +1884,6 @@ y abrir http://localhost:8080
   | Yomawari: The Long Night Collection (PS5) | PS5, 5 de noviembre en occidente | La PS Store de AR y la de US sólo tienen la de PS4 |
   | Yomawari: Lost in the Dark (PS5) | PS5, 5 de noviembre en occidente | Ídem |
   | Tianji: Shadow of the Ancients | PS5, Switch 2, Switch y PC | No tiene fecha, así que no hay fila de calendario que hacer |
-  | PAPERHEAD | 18 de septiembre en PC y consolas (tráiler de junio) | **Ya está cargado**, como estimado de octubre desde el 15/09. Steam pasó al 9 de octubre, pero la PS Store dice "por determinar" y Xbox no muestra fecha. Cuando una tienda de consola ponga el día, sacarle `estimado` |
   | Terranigma | 14 de enero de 2027 en PS5, Xbox, Switch 2 y Switch (Gematsu, 16/09) | La PS Store dice "por determinar", Xbox lo lista sin fecha, Steam dice "próximamente" y la eShop no lo tiene |
   | Kernel Hearts (Switch 2) | Anunciado junto con PS5 | **Ya está cargado en Xbox y PS5.** La de PS5 apareció a la venta el 1/10, con reseñas de PS5 desde el 28/09; se sumó a la misma entrada porque no se sabe si salió otro día. La eShop no lo lista |
   | Earth Defense Force 6 (Switch 2) | 28 de enero de 2027 (Gematsu, 17/09) | Ni la eShop europea ni la de EE.UU. lo listan |
@@ -1955,25 +1947,8 @@ y abrir http://localhost:8080
   Se agregó a `index.html` y a `archivo.html`, viaja en la URL como `?anio=2027` y se suma a
   `sinFiltros`, así el destacado de la portada no aparece cuando hay un año elegido.
 
-- **Creepshow: ¿va o no va en el calendario?** Está cargado para el 13/08/2026 en PS5, PS4,
-  Xbox y Switch, pero al 12/08 toda la prensa (Bloody Disgusting, Gizmodo, Engadget, Games
-  Press) anuncia el lanzamiento **solo en PC vía Steam**, y no aparece ni en la PS Store ni
-  en la eShop europea. El único rastro de consola es una ficha de PS5 en GameFAQs, que crea
-  páginas por plataforma a partir de anuncios y a veces se adelanta. Como esto es un
-  calendario de consolas, o se le corrigen las plataformas o sale de la lista. Verificar
-  después del 13: si no salió en consolas, borrarlo hasta que haya fecha real.
-
-- **Carátulas faltantes (3)**, con lo ya descartado el 07/08/2026 para no repetir la búsqueda:
-  - *BloodRayne: Definitive Collection* — no existe carátula propia. En PS Store solo están los
-    tres juegos por separado (es un bundle físico de Strictly Limited, no un producto digital),
-    Ziggurat publica un compuesto de las tres carátulas juntas (1900×900) y Strictly Limited
-    solo tiene fotos cuadradas de la caja. Nada sirve como carátula única.
-  - *Harvest Moon: Echoes of Teradea* — la tienda de Natsume tiene tres imágenes 3000×3000,
-    pero las tres son promocionales con el peluche de regalo al lado, no la carátula sola.
-    Todavía no está en Steam ni en la eShop pese a tener reservas abiertas.
-  - *Flying Fire Shark!!!: Toaplan Arcade Garage* — sale el 29/08 y no está en ninguna tienda
-    todavía. El anterior de la serie (Kyukyoku TigerHeli) sí está en la eShop europea, así que
-    lo más probable es que aparezca ahí cerca del lanzamiento.
+- **Carátulas: las tres que faltaban (BloodRayne, Harvest Moon, Flying Fire Shark) ya están
+  cargadas (revisado el 01/10/2026).** Queda el método, para la próxima que falte:
 
   **Dónde buscar, en este orden:** Steam (`/search/?term=` incluye los "próximamente", que la
   API `storesearch` se saltea) → eShop europea (`searching.nintendo-europe.com`) → ficha de

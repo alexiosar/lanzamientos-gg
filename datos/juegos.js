@@ -4245,9 +4245,7 @@ const JUEGOS = [
   {
     id: "paperhead",
     titulo: "PAPERHEAD",
-    fecha: "2026-10-31",
-    estimado: true,
-    fechaEstimada: "OCTUBRE 2026",
+    fecha: "2026-10-09",
     plataformas: ["XBOX", "PS5"],
     genero: ["SHOOTER", "INDIE"],
     desarrollador: "PAPERHEAD TE4M",
@@ -4256,6 +4254,11 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/library_600x900.jpg",
     noticias: [
+      {
+        fecha: "2026-10-01",
+        titulo: "YA TIENE DÍA: 9 DE OCTUBRE",
+        texto: "La tienda de Xbox confirmó el 9 de octubre, la misma fecha que tiene en Steam. La PS Store todavía dice solo octubre, sin día."
+      },
       {
         fecha: "2026-09-15",
         titulo: "YA NO SALE EL 18 DE SEPTIEMBRE",
@@ -9741,6 +9744,7 @@ const JUEGOS = [
     id: "middle-earth-shadow-of-mordor-switch-2",
     titulo: "MIDDLE-EARTH: SHADOW OF MORDOR GAME OF THE YEAR EDITION",
     relanzamiento: "En consolas y PC desde 2014 — esta fecha corresponde a la edición de Switch 2",
+    duracion: "≈ 17 h (historia) · 38 h (completo)",
     fecha: "2026-09-30",
     plataformas: ["SWITCH2"],
     genero: ["ACCION", "AVENTURA", "MUNDO ABIERTO"],
@@ -9765,6 +9769,7 @@ const JUEGOS = [
     id: "middle-earth-shadow-of-war-definitive-edition-switch-2",
     titulo: "MIDDLE-EARTH: SHADOW OF WAR DEFINITIVE EDITION",
     relanzamiento: "En consolas y PC desde 2017 — esta fecha corresponde a la edición de Switch 2",
+    duracion: "≈ 21 h (historia) · 57 h (completo)",
     fecha: "2026-09-30",
     plataformas: ["SWITCH2"],
     genero: ["ACCION", "AVENTURA", "MUNDO ABIERTO", "RPG"],
@@ -9789,6 +9794,7 @@ const JUEGOS = [
     id: "keep-driving",
     titulo: "KEEP DRIVING",
     relanzamiento: "En PC desde febrero de 2025 — esta fecha corresponde a la edición de Xbox",
+    duracion: "≈ 3,5 h (historia) · 24 h (completo)",
     fecha: "2026-09-28",
     plataformas: ["XBOX"],
     genero: ["RPG", "SIMULACION", "INDIE", "CASUAL"],
@@ -9815,6 +9821,7 @@ const JUEGOS = [
     id: "deck-of-haunts",
     titulo: "DECK OF HAUNTS",
     relanzamiento: "En PC desde mayo de 2025 — esta fecha corresponde a las ediciones de PS5 y Xbox",
+    duracion: "≈ 2,7 h (historia)",
     fecha: "2026-10-08",
     plataformas: ["PS5", "XBOX"],
     genero: ["ESTRATEGIA", "CARTAS", "ROGUELIKE", "HORROR", "INDIE"],
@@ -9839,6 +9846,7 @@ const JUEGOS = [
     id: "quern-undying-thoughts",
     titulo: "QUERN - UNDYING THOUGHTS",
     relanzamiento: "En PC desde noviembre de 2016 — esta fecha corresponde a la edición de Switch",
+    duracion: "≈ 14 h (historia) · 15 h (completo)",
     fecha: "2026-10-06",
     plataformas: ["SWITCH"],
     genero: ["PUZZLE", "AVENTURA", "INDIE"],
@@ -9886,6 +9894,7 @@ const JUEGOS = [
     id: "the-ascent-switch-2",
     titulo: "THE ASCENT ULTIMATE EDITION",
     relanzamiento: "En PC y Xbox desde julio de 2021 y en PlayStation desde 2022 — esta fecha corresponde a la edición de Switch 2",
+    duracion: "≈ 12 h (historia) · 26 h (completo)",
     fecha: "2026-12-02",
     plataformas: ["SWITCH2"],
     genero: ["ACCION", "RPG", "SHOOTER", "COOP"],
@@ -10006,6 +10015,7 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/library_600x900.jpg",
     relanzamiento: "En Xbox y PC desde 2025",
+    duracion: "≈ 22 h (historia) · 159 h (completo)",
     noticias: [
       {
         fecha: "2026-09-30",
@@ -10029,6 +10039,7 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1233070/library_600x900.jpg",
     relanzamiento: "En PC desde 2024",
+    duracion: "≈ 15 h (historia) · 27 h (completo)",
     noticias: [
       {
         fecha: "2026-09-30",
@@ -10203,6 +10214,7 @@ const JUEGOS = [
     estimado: true,
     fechaEstimada: "OCTUBRE 2026",
     relanzamiento: "En Switch y PC desde 2024",
+    duracion: "≈ 7,2 h (historia) · 25 h (completo)",
     plataformas: ["PS5", "PS4"],
     genero: ["PLATAFORMA", "ACCION", "INDIE"],
     desarrollador: "SUMMITSPHERE",
