@@ -16,7 +16,7 @@ una semana son ruido, los de un mes ya dicen algo.
 | 29/07/2026 | 31 | 183 | 176 | 63 | 0 | — | — | 246 |
 | 01/08/2026 | 31 | 183 | 176 | 140 | 0 | 100 | 300 | 291 |
 | 01/09/2026 | 361 | 602 | 27 | 4.870 | 32 | 240 | 590 | 369 |
-| 01/10/2026 | 425 | 672 | — | 12.900 | 108 | 500 | — | 481 |
+| 01/10/2026 | 425 | 672 | — | 12.900 | 108 | 500 | 1.090 | 481 |
 
 ## Objetivos para el 01/10/2026 (escritos el 22/09/2026)
 
@@ -133,7 +133,7 @@ día. Al 31/08 había 131 fichas con noticias y 103 con resumen de crítica; al 
 | CTR | 0,65% | ~1% | **0,8%** | subió, sin llegar |
 | Posición media | — | — | **11,8** | en agosto era 27,7 |
 | Visitas (30 d) | 240 | 500 | **500** | bien, justo |
-| Páginas vistas | 590 | 1.300 | — | no se anotó |
+| Páginas vistas | 590 | 1.300 | **1.090** | debajo de "bien"; 2,18 por visita contra 2,46 en agosto |
 
 **Se cumplió todo lo que se midió, y con seis días perdidos.** Desde el 24/09 Google casi no
 muestra el sitio (ver la caída en la tabla de cambios), y aun así el mes pasó los objetivos:
@@ -155,6 +155,13 @@ menos una impresión.
 visitas por día del 24 al 30, contra 10 a 20 el resto del mes. No vienen del buscador: son
 los posteos diarios y el tráfico directo. La mitad de las visitas es de Argentina (240 de
 500), después Estados Unidos (110) y Japón (60).
+
+**Las páginas por visita bajaron (2,46 → 2,18), pero el promedio esconde dos públicos.**
+Argentina hace 820 páginas vistas en 240 visitas, unas 3,4 por visita: el que entra recorre.
+Estados Unidos (120 en 110) y Japón (60 en 60) ven una sola página y se van, un patrón que
+en buena parte son rastreadores y no gente. Ojo también con que las visitas del propio
+usuario cuentan dentro de Argentina. El número a seguir en noviembre es el de Argentina
+solo, no el total.
 
 **Para el 08/10:** si Google vuelve, la tabla dice que el mes iba para "muy bien". Si no
 vuelve, el contenido sigue sumando igual y la canonical de la portada es lo primero a probar.
