@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -139,6 +140,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">68 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('moros-protocol')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -166,6 +172,20 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de PC de 2025. La prensa coincide en que el tiroteo es rápido y contundente, con buena atmósfera, estética retro y jefes que exigen moverse. Los reparos se repiten en casi todas: poca variedad de salas y enemigos, una progresión roguelite muy básica, mejoras mezquinas y armas desbalanceadas, y una reseña advierte que jugado solo rinde menos.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-01</span>
+            <span class="noticia-titulo">▸ SALE HOY EN PS5 Y SWITCH 2</span>
+          </div>
+          <p class="noticia-texto">Llega un año después del estreno en PC, donde la prensa le valoró el tiroteo y la atmósfera y le marcó la repetición de salas y enemigos.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Un shooter en primera persona que se despierta sin memoria dentro del Orpheus, un buque de guerra a la deriva en el espacio profundo. Se dispara y se patea al ritmo de los FPS de fines de los noventa, pero cada muerte reinicia la corrida y la nave se rearma con pasillos distintos. Los jefes son gigantes y están pensados a la manera de los Souls. Se puede jugar de a dos.</p>
@@ -238,6 +258,22 @@
       <div class="seccion">
         <div class="seccion-titulo">MÁS LANZAMIENTOS DE OCTUBRE 2026</div>
         <div class="rel-grid">
+          <a class="rel-item" href="/juegos/arcade-archives-2-balloon-bomber">
+            <img class="rel-portada" src="https://store-images.s-microsoft.com/image/apps.52309.13729490386732297.e63bfc73-f612-4229-a06b-0fbd871ab6e3.fbb4aba6-1e1f-4ce3-ad97-2999d2413b4a?w=600&amp;h=900&amp;format=jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">ARCADE ARCHIVES 2: BALLOON BOMBER</span>
+              <span class="rel-fecha">01 OCT</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/console-archives-chackn-pop">
+            <img class="rel-portada" src="https://image.api.playstation.com/vulcan/ap/rnd/202609/1703/a24035c8b131a93d17519dc17e26732b7d5df3064f680e61.jpg?w=600&amp;thumb=false" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">CONSOLE ARCHIVES: CHACK&#x27;N POP</span>
+              <span class="rel-fecha">01 OCT</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
           <a class="rel-item" href="/juegos/dont-fret">
             <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2716830/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -268,22 +304,6 @@
               <span class="rel-titulo">END OF ABYSS</span>
               <span class="rel-fecha">01 OCT</span>
               <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/ghost-of-yotei-complete-edition">
-            <img class="rel-portada" src="https://image.api.playstation.com/vulcan/ap/rnd/202607/2723/890df32c227f619c5bd80e9f34ba2be53d0fea4b1615adee.png?w=600&amp;thumb=false" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">GHOST OF YOTEI: EDICIÓN COMPLETA</span>
-              <span class="rel-fecha">01 OCT</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/monster-nursery">
-            <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmdp.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">MONSTER NURSERY</span>
-              <span class="rel-fecha">01 OCT</span>
-              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span></span>
             </span>
           </a>
         </div>

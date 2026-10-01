@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -139,6 +140,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">74 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('dynasty-warriors-3-complete-edition-remastered')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -167,7 +173,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas lo ven como una remasterización bien hecha: los gráficos rehechos en Unreal Engine 5 y los agregados de comodidad modernizan el original sin traicionarlo, y conserva la pantalla dividida y el doblaje en inglés de la época. El reparo se repite en casi todas: el combate no cambió, y repetir los mismos combos en campos de batalla enormes y muchas veces vacíos se vuelve monótono hoy.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-01</span>
+            <span class="noticia-titulo">▸ SALE HOY Y DEBUTA CON 74</span>
+          </div>
+          <p class="noticia-texto">Llega a PS5, Xbox, Switch 2 y Switch con un 74 sobre siete reseñas: la prensa celebra los gráficos rehechos y le marca un combate que se repite.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-09-20</span>
@@ -248,6 +265,22 @@
       <div class="seccion">
         <div class="seccion-titulo">MÁS LANZAMIENTOS DE OCTUBRE 2026</div>
         <div class="rel-grid">
+          <a class="rel-item" href="/juegos/arcade-archives-2-balloon-bomber">
+            <img class="rel-portada" src="https://store-images.s-microsoft.com/image/apps.52309.13729490386732297.e63bfc73-f612-4229-a06b-0fbd871ab6e3.fbb4aba6-1e1f-4ce3-ad97-2999d2413b4a?w=600&amp;h=900&amp;format=jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">ARCADE ARCHIVES 2: BALLOON BOMBER</span>
+              <span class="rel-fecha">01 OCT</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/console-archives-chackn-pop">
+            <img class="rel-portada" src="https://image.api.playstation.com/vulcan/ap/rnd/202609/1703/a24035c8b131a93d17519dc17e26732b7d5df3064f680e61.jpg?w=600&amp;thumb=false" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">CONSOLE ARCHIVES: CHACK&#x27;N POP</span>
+              <span class="rel-fecha">01 OCT</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span></span>
+            </span>
+          </a>
           <a class="rel-item" href="/juegos/dont-fret">
             <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2716830/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -278,22 +311,6 @@
               <span class="rel-titulo">GHOST OF YOTEI: EDICIÓN COMPLETA</span>
               <span class="rel-fecha">01 OCT</span>
               <span class="plataformas"><span class="plat plat-PS5">PS5</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/monster-nursery">
-            <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmdp.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">MONSTER NURSERY</span>
-              <span class="rel-fecha">01 OCT</span>
-              <span class="plataformas"><span class="plat plat-SWITCH">SWITCH</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/moros-protocol">
-            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605250/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">MOROS PROTOCOL</span>
-              <span class="rel-fecha">01 OCT</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
             </span>
           </a>
         </div>

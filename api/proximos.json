@@ -2,135 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-09-30T16:52:01+00:00",
+ "generado": "2026-10-01T14:19:11+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-09-30",
- "hasta": "2026-10-30",
+ "desde": "2026-10-01",
+ "hasta": "2026-10-31",
  "total": 96,
  "juegos": [
-  {
-   "id": "viractal",
-   "titulo": "VIRACTAL: WILL YOU TRUST YOUR PARTY?",
-   "fecha": "2026-09-30",
-   "relanzamiento": "En PC desde enero de 2026",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "CASUAL",
-    "INDIE",
-    "RPG",
-    "ESTRATEGIA"
-   ],
-   "desarrollador": "STING",
-   "descripcion": "Una aventura de estrategia con forma de juego de mesa, en un mundo en miniatura. Se reclutan compañeros, se avanza casillero a casillero y, como dice el subtítulo, en algún momento hay que decidir si confiar en el propio grupo.",
-   "trailer": "https://youtube.com/embed/QgszUARemiU",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/13865bc0952b4bf93298826d700594c2.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/viractal"
-  },
-  {
-   "id": "kong-survivor-instinct",
-   "titulo": "KONG: SURVIVOR INSTINCT",
-   "fecha": "2026-09-30",
-   "relanzamiento": "En PS5, Xbox y PC desde 2024",
-   "duracion": "≈ 6,4 h (historia) · 6,9 h (completo)",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "7LEVELS",
-   "descripcion": "Un juego oficial del Monsterverse, ambientado poco después de Godzilla vs. Kong. No se controla a los titanes: se juega con un humano que tiene que sobrevivir en una ciudad convertida en su campo de batalla, entre saltos, escapes y edificios que se vienen abajo. Tiene estructura de metroidvania.",
-   "trailer": "https://youtube.com/embed/O5iMN1eKccY",
-   "metacritic": 75,
-   "metacriticUsuarios": 7.9,
-   "metacriticVotos": 24,
-   "critica": "Las reseñas son de la versión de PC de 2024. La prensa lo recibió como una sorpresa para un juego con licencia: lo más elogiado es la escala, ver a los titanes desde alguien diminuto, y un diseño de niveles que aprovecha las persecuciones. También se valora que use la licencia sin poner al jugador en el lugar de Kong. Los reparos se repiten: una historia que casi nadie defiende, un plataformeo algo errático justo en las persecuciones y un metroidvania muy simple, con poca profundidad en los niveles.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2769080/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/kong-survivor-instinct",
-   "noticias": [
-    {
-     "fecha": "2026-09-30",
-     "titulo": "SALE HOY EN SWITCH",
-     "texto": "Llega dos años después del estreno en PS5, Xbox y PC, donde la prensa lo recibió como una sorpresa para un juego con licencia, con reparos a la historia y al plataformeo."
-    }
-   ]
-  },
-  {
-   "id": "middle-earth-shadow-of-mordor-switch-2",
-   "titulo": "MIDDLE-EARTH: SHADOW OF MORDOR GAME OF THE YEAR EDITION",
-   "relanzamiento": "En consolas y PC desde 2014 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-09-30",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "MUNDO ABIERTO"
-   ],
-   "desarrollador": "MONOLITH PRODUCTIONS",
-   "descripcion": "Un juego de acción en mundo abierto en la Tierra Media. Talion pelea por Mordor ligado a un espíritu cuya verdad hay que descubrir, y en el camino aparecen los orígenes de los Anillos de Poder, hasta llegar a enfrentar a Sauron. Lo que lo hizo famoso es el sistema Némesis, que le da a cada orco enemigo su propia historia con el jugador. La edición trae el contenido que salió después.",
-   "trailer": "https://youtube.com/embed/bq2P2VvFTMg",
-   "metacritic": 84,
-   "critica": "El puntaje es el de la versión original, de 2014. Las reseñas lo recibieron como uno de los mejores juegos de ese año y, para varias, el mejor juego de El Señor de los Anillos hasta entonces. El combate toma lo mejor de la saga Batman Arkham, y lo que lo eleva es el sistema Némesis, que arma historias propias con cada orco enemigo. Las reseñas casi no le marcaron reparos.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/241930/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-24",
-   "url": "https://lanzamientos.lat/juegos/middle-earth-shadow-of-mordor-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-09-22",
-     "titulo": "SALE EL 30 CON SHADOW OF WAR, Y A MITAD DE PRECIO EN PREVENTA",
-     "texto": "Aspyr anunció los dos Middle-earth para Switch 2 el mismo día, el 30 de septiembre. Se venden por separado o juntos en el Shadow Bundle, y quien los reserva antes del lanzamiento paga la mitad: en la eShop de Estados Unidos este quedó a 9,99 dólares y el paquete con los dos, a 34,99."
-    }
-   ]
-  },
-  {
-   "id": "middle-earth-shadow-of-war-definitive-edition-switch-2",
-   "titulo": "MIDDLE-EARTH: SHADOW OF WAR DEFINITIVE EDITION",
-   "relanzamiento": "En consolas y PC desde 2017 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-09-30",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "MUNDO ABIERTO",
-    "RPG"
-   ],
-   "desarrollador": "MONOLITH PRODUCTIONS",
-   "descripcion": "La secuela de Shadow of Mordor. Talion forja un nuevo Anillo de Poder, arma su propio ejército de orcos para conquistar fortalezas en batallas grandes y enfrenta a Sauron y a los Nazgûl. El sistema Némesis vuelve más grande, con historias propias para cada enemigo y cada seguidor. La edición definitiva trae todo el contenido que salió después.",
-   "trailer": "https://youtube.com/embed/HmIdzplCp-o",
-   "metacritic": 80,
-   "critica": "El puntaje es el de la versión original, de 2017. Las reseñas lo ven como una secuela que supera al primero en casi todo: el sistema Némesis más profundo y menos repetitivo, un combate excelente, una escala enorme con batallas por fortalezas y mucha libertad. El reparo que aparece es para los fans de Tolkien: se toma bastantes libertades con la historia original.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356190/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-24",
-   "url": "https://lanzamientos.lat/juegos/middle-earth-shadow-of-war-definitive-edition-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-09-22",
-     "titulo": "SALE EL 30 CON SHADOW OF MORDOR, Y A MITAD DE PRECIO EN PREVENTA",
-     "texto": "Aspyr anunció los dos Middle-earth para Switch 2 el mismo día, el 30 de septiembre. Se venden por separado o juntos en el Shadow Bundle, y quien los reserva antes del lanzamiento paga la mitad: en la eShop de Estados Unidos este quedó a 24,99 dólares y el paquete con los dos, a 34,99."
-    }
-   ]
-  },
   {
    "id": "dont-fret",
    "titulo": "DON'T FRET",
@@ -192,10 +70,19 @@
    "desarrollador": "SECTION 9 INTERACTIVE",
    "descripcion": "Una aventura de acción y terror de ciencia ficción, hecha a mano con escenarios de plastilina y animación cuadro por cuadro. Publica Epic Games y sale directo en PS5 y Xbox, con las reservas ya abiertas a treinta dólares.",
    "trailer": "https://youtube.com/embed/z1WYsu9ApLI",
-   "metacritic": null,
+   "metacritic": 78,
+   "metacriticUsuarios": null,
+   "critica": "La prensa lo recibió como una de las sorpresas del año en el terror: mezcla survival horror y metroidvania con la escuela de Little Nightmares, y lo más elogiado es la atmósfera opresiva, el diseño inquietante de los enemigos y un mapa interconectado lleno de secretos. Los reparos aparecen en las notas más bajas: un mapa confuso y con errores, bugs, bastante ida y vuelta por zonas ya recorridas y un estilo que no explica casi nada, gratificante para unos y frustrante para otros.",
    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1019/d3ddabf72e33c008f15051439de67eb4d99032c0aedf8bb1.jpg?w=600&thumb=false",
    "alta": "2026-08-19",
-   "url": "https://lanzamientos.lat/juegos/end-of-abyss"
+   "url": "https://lanzamientos.lat/juegos/end-of-abyss",
+   "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "SALE HOY Y DEBUTA CON 78",
+     "texto": "Llega hoy a PS5 y Xbox con un 78 sobre diez reseñas. La prensa destaca la atmósfera y el mapa interconectado, y le marca bugs y un diseño que a veces confunde."
+    }
+   ]
   },
   {
    "id": "dynasty-warriors-3-complete-edition-remastered",
@@ -217,13 +104,20 @@
    "desarrollador": "KOEI TECMO GAMES CO., LTD.",
    "descripcion": "Vuelven Dynasty Warriors 3 y su expansión Xtreme Legends, los de PS2 de 2001, con los gráficos rehechos. Es un musou: un guerrero contra cientos de soldados a la vez, en las guerras de los Tres Reinos de China.",
    "trailer": "https://youtube.com/embed/UTVVw9fsHVA",
-   "metacritic": null,
+   "metacritic": 74,
+   "metacriticUsuarios": null,
+   "critica": "Las reseñas lo ven como una remasterización bien hecha: los gráficos rehechos en Unreal Engine 5 y los agregados de comodidad modernizan el original sin traicionarlo, y conserva la pantalla dividida y el doblaje en inglés de la época. El reparo se repite en casi todas: el combate no cambió, y repetir los mismos combos en campos de batalla enormes y muchas veces vacíos se vuelve monótono hoy.",
    "imagen": "https://cdn2.steamgriddb.com/grid/39e6aeae09daf02e5005b48a5ce309de.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/dynasty-warriors-3-complete-edition-remastered",
    "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "SALE HOY Y DEBUTA CON 74",
+     "texto": "Llega a PS5, Xbox, Switch 2 y Switch con un 74 sobre siete reseñas: la prensa celebra los gráficos rehechos y le marca un combate que se repite."
+    },
     {
      "fecha": "2026-09-20",
      "titulo": "HAY DEMO DESDE EL 24 DE SEPTIEMBRE",
@@ -408,12 +302,83 @@
    "desarrollador": "PIXEL REIGN",
    "descripcion": "Un shooter en primera persona que se despierta sin memoria dentro del Orpheus, un buque de guerra a la deriva en el espacio profundo. Se dispara y se patea al ritmo de los FPS de fines de los noventa, pero cada muerte reinicia la corrida y la nave se rearma con pasillos distintos. Los jefes son gigantes y están pensados a la manera de los Souls. Se puede jugar de a dos.",
    "trailer": "https://youtube.com/embed/vHFTZnZa4-c",
-   "metacritic": null,
+   "metacritic": 68,
+   "metacriticUsuarios": 4.5,
+   "metacriticVotos": 4,
+   "critica": "Las reseñas son de la versión de PC de 2025. La prensa coincide en que el tiroteo es rápido y contundente, con buena atmósfera, estética retro y jefes que exigen moverse. Los reparos se repiten en casi todas: poca variedad de salas y enemigos, una progresión roguelite muy básica, mejoras mezquinas y armas desbalanceadas, y una reseña advierte que jugado solo rinde menos.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1605250/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-11",
-   "url": "https://lanzamientos.lat/juegos/moros-protocol"
+   "url": "https://lanzamientos.lat/juegos/moros-protocol",
+   "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "SALE HOY EN PS5 Y SWITCH 2",
+     "texto": "Llega un año después del estreno en PC, donde la prensa le valoró el tiroteo y la atmósfera y le marcó la repetición de salas y enemigos."
+    }
+   ]
+  },
+  {
+   "id": "console-archives-chackn-pop",
+   "titulo": "CONSOLE ARCHIVES: CHACK'N POP",
+   "fecha": "2026-10-01",
+   "relanzamiento": "La versión hogareña de TAITO es de 1985 — esta es la reedición para consolas actuales",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "RETRO"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "Chack'n Pop en la versión de TAITO para una consola hogareña de 8 bits, de 1985. Chack'n recorre un laberinto para recuperar el corazón que se llevó Beluga: puede correr por paredes y techo para esquivar a los enemigos, y tira bombas que se pueden hacer explotar varias a la vez. Usa la ROM japonesa, que ya traía el texto en inglés.",
+   "trailer": "https://youtube.com/embed/89l8WgGEZos",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1703/a24035c8b131a93d17519dc17e26732b7d5df3064f680e61.jpg?w=600&thumb=false",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-01",
+   "url": "https://lanzamientos.lat/juegos/console-archives-chackn-pop",
+   "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "SALIÓ HOY EN PS5",
+     "texto": "HAMSTER lo puso a la venta el 1 de octubre en PS5. También lo anunció para Switch 2, que todavía no tiene ficha en la eShop."
+    }
+   ]
+  },
+  {
+   "id": "arcade-archives-2-balloon-bomber",
+   "titulo": "ARCADE ARCHIVES 2: BALLOON BOMBER",
+   "fecha": "2026-10-01",
+   "relanzamiento": "Original de recreativa de TAITO, 1980",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX"
+   ],
+   "genero": [
+    "SHOOTER",
+    "RETRO",
+    "ARCADE"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "El shooter de recreativa de TAITO de 1980. Se maneja un cañón antiaéreo contra bombas que bajan colgadas de globos, y hay que pegarle a la bomba y no al globo: si el disparo revienta el globo, la bomba cae y abre un pozo en el suelo que le corta el paso al cañón.",
+   "trailer": "https://youtube.com/embed/MLQ--XxNqVA",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.52309.13729490386732297.e63bfc73-f612-4229-a06b-0fbd871ab6e3.fbb4aba6-1e1f-4ce3-ad97-2999d2413b4a?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-01",
+   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-balloon-bomber",
+   "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
+     "texto": "HAMSTER lo lanzó el 1 de octubre: en PS5 y Xbox como Arcade Archives 2, y en PS4 dentro de la serie original. La versión de Switch 2 todavía no tiene ficha en la eShop."
+    }
+   ]
   },
   {
    "id": "agefield-high-rock-the-school-xbox",
@@ -2089,6 +2054,37 @@
    "url": "https://lanzamientos.lat/juegos/fatal-fury-city-of-the-wolves-switch-2"
   },
   {
+   "id": "moadra",
+   "titulo": "MOADRA",
+   "fecha": "2026-10-22",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "GLOOMSOFT",
+   "descripcion": "Un metroidvania de ciencia ficción inspirado en Alien. Se recorre Protea VI, un planeta olvidado lleno de criaturas extrañas y peligros mortales, en busca de redención y de un pecado enterrado en sus profundidades.",
+   "trailer": "https://youtube.com/embed/8dXRq1_zVd0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1713730/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-01",
+   "url": "https://lanzamientos.lat/juegos/moadra",
+   "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "SALE EL 22 DE OCTUBRE",
+     "texto": "Gloomsoft puso fecha para PS5, Xbox, Switch y PC."
+    }
+   ]
+  },
+  {
    "id": "one-piece-grand-gourmet",
    "titulo": "ONE PIECE: GRAND GOURMET",
    "fecha": "2026-10-23",
@@ -2532,6 +2528,39 @@
      "fecha": "2026-09-30",
      "titulo": "SALE EL 30 DE OCTUBRE",
      "texto": "Future Friends Games puso fecha y anunció las versiones de consola: PS5, Xbox Series y Switch 2. En PC sale el mismo día."
+    }
+   ]
+  },
+  {
+   "id": "asylum",
+   "titulo": "ASYLUM",
+   "fecha": "2026-10-30",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "PS4",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "HORROR",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "SENSCAPE",
+   "descripcion": "Una aventura de terror en primera persona de los creadores de Scratches, ambientada en el Instituto Mental Hanwell, un hospital psiquiátrico enorme y en decadencia. Se juega con un ex paciente que tiene visiones extrañas: hay que explorar el edificio, investigar su pasado y resolver acertijos. Es terror de ritmo pausado, con influencias de Lovecraft, el cine de Hammer y el terror europeo de los ochenta.",
+   "trailer": "https://youtube.com/embed/PdaAAy9069k",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.49180.13915026531015961.22f4f66a-24dd-4f93-bd86-6756e2022410.eb7fabba-8fc2-4351-875d-9acc7fddac59?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-01",
+   "url": "https://lanzamientos.lat/juegos/asylum",
+   "noticias": [
+    {
+     "fecha": "2026-09-30",
+     "titulo": "SALE EL 30 DE OCTUBRE",
+     "texto": "Senscape puso fecha para PS5, Xbox, PS4 y Switch, después de quince años de desarrollo."
     }
    ]
   }

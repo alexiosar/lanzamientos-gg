@@ -1893,7 +1893,7 @@ y abrir http://localhost:8080
   | Tianji: Shadow of the Ancients | PS5, Switch 2, Switch y PC | No tiene fecha, así que no hay fila de calendario que hacer |
   | PAPERHEAD | 18 de septiembre en PC y consolas (tráiler de junio) | **Ya está cargado**, como estimado de octubre desde el 15/09. Steam pasó al 9 de octubre, pero la PS Store dice "por determinar" y Xbox no muestra fecha. Cuando una tienda de consola ponga el día, sacarle `estimado` |
   | Terranigma | 14 de enero de 2027 en PS5, Xbox, Switch 2 y Switch (Gematsu, 16/09) | La PS Store dice "por determinar", Xbox lo lista sin fecha, Steam dice "próximamente" y la eShop no lo tiene |
-  | Kernel Hearts (PS5 y Switch 2) | Anunciado para las dos | **Ya está cargado**, pero sólo en Xbox: Xbox confirmó el 17/09 con Game Pass. Ni la PS Store ni la eShop lo listan. Cuando aparezcan, van como entrada nueva con `relanzamiento` si la fecha es otra |
+  | Kernel Hearts (Switch 2) | Anunciado junto con PS5 | **Ya está cargado en Xbox y PS5.** La de PS5 apareció a la venta el 1/10, con reseñas de PS5 desde el 28/09; se sumó a la misma entrada porque no se sabe si salió otro día. La eShop no lo lista |
   | Earth Defense Force 6 (Switch 2) | 28 de enero de 2027 (Gematsu, 17/09) | Ni la eShop europea ni la de EE.UU. lo listan |
   | Kingdom of Night (PS5) | 5 de noviembre (Gematsu, 17/09) | **Ya está cargado en Xbox y Switch.** La PS Store no lo lista todavía |
   | Tropico 7 (Switch 2) | Mismo día que PS5 y Xbox, 28 de enero de 2027 (Gematsu, 17/09) | **Ya está cargado en PS5 y Xbox.** Ni la eShop ni Nintendo US lo listan |
@@ -1921,7 +1921,13 @@ y abrir http://localhost:8080
   | Persona 4 Revival (Switch 2) | 20 de mayo de 2027 (Nintendo Direct) | **Ya está cargado en PS5 y Xbox.** Mayo de 2027 todavía no es un mes del calendario |
   | Queen's Domain (Xbox y Switch 2) | 30 de octubre (Gematsu, 30/09) | **Ya está cargado en las tres.** La PS Store lo tiene para PS5 pero "por determinar" y Steam confirma el 30 de octubre; ni Xbox ni la eShop lo listan |
   | Deep Rock Galactic: Survivor (Switch 2) | 7 de octubre en PS5, Switch 2 y Switch (Gematsu, 29/09) | **Ya está cargado en las tres.** La PS Store confirma el 7 para PS5; la de Switch figura en Nintendo US para el 9, y la de Switch 2 no tiene ficha de tienda todavía |
-  | Console Archives Chack'n Pop · Arcade Archives 2 Balloon Bomber | 1 de octubre (Gematsu, 30/09): el primero en PS5 y Switch 2, el segundo en PS5, Xbox y Switch 2 | Ninguna tienda los lista todavía. HAMSTER los pone a la venta el mismo día, así que se cargan en la diaria del 1/10 si ya aparecen |
+  | Console Archives Chack'n Pop (Switch 2) | 1 de octubre (Gematsu, 30/09) | **Ya está cargado en PS5**, que el 1/10 ya lo tenía a la venta. La eShop no lo lista |
+  | Arcade Archives 2 Balloon Bomber (Switch 2) | 1 de octubre (Gematsu, 30/09) | **Ya está cargado en PS5, PS4 y Xbox**, las tres a la venta el 1/10. La eShop no lo lista |
+  | Moadra (Switch) | 22 de octubre (Gematsu, 1/10) | **Ya está cargado en las tres.** PS5 y Xbox confirman el día; la eShop y Nintendo US no lo listan |
+  | ASYLUM (PS5, PS4 y Switch) | 30 de octubre (Gematsu, 30/09) | **Ya está cargado en las cuatro.** Xbox confirma el día; la PS Store dice "por determinar" y la eShop no lo lista |
+  | Grave Seasons (Xbox y Switch) | 9 de marzo de 2027 (Gematsu, 30/09) | **Ya está cargado.** La PS Store y Steam confirman el día; Xbox lo lista sin día y la eShop no lo tiene. Gematsu corta la lista de consolas en "Switch…", así que puede haber versión de Switch 2 |
+  | Football Manager 27 (PS5) | 10 de noviembre (Gematsu, 30/09) | **Ya está cargado en PS5 y Xbox.** Steam confirma el día; Xbox lo lista sin día y la PS Store no lo tiene |
+  | Gaelco Sports Collection | 22 de octubre (Gematsu, 1/10) | **No se cargó**: la PS Store y Steam dicen "octubre de 2026" sin día, y Gematsu corta la lista de consolas. Xbox y la eShop no lo tienen |
   | Eternal Palace Sakura (Switch) | 5 de noviembre (Gematsu, 30/09) | Steam tiene el 4 de noviembre para PC; la eShop y Nintendo US no lo listan |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 

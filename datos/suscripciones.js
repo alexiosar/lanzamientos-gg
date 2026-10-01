@@ -44,7 +44,7 @@ const SUSCRIPCIONES = [
         nombre: "JUEGOS MENSUALES",
         detalle: "Del martes 6 de octubre al lunes 2 de noviembre, con cualquier plan de PS Plus: Essential, Extra o Deluxe. Sony avisa que la lista puede cambiar según la región.",
         anunciado: "2026-09-30",
-        fuente: "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2/",
+        fuente: "https://blog.latam.playstation.com/2026/09/30/juegos-mensuales-en-playstation-plus-de-octubre-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2/",
         juegos: [
           {
             titulo: "F1 25",
