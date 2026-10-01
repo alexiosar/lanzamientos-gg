@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-01T15:30:33+00:00",
+ "generado": "2026-10-01T16:12:14+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 481,
@@ -7177,14 +7177,20 @@
    ],
    "desarrollador": "THE COALITION",
    "descripcion": "La precuela de Gears of War sobre el Día de la Emergencia, el origen brutal de la guerra contra la Horda, en la saga de shooters en tercera persona de Xbox.",
-   "trailer": "https://youtube.com/embed/EC20gLfUHeA",
-   "metacritic": null,
+   "trailer": "https://youtube.com/embed/TOEuNKz3XW8",
+   "metacritic": 88,
+   "critica": "La prensa lo recibe como la mejor campaña de la serie, o muy cerca: una precuela del Día de la Emergencia con Marcus y Dom, más oscura e íntima, con la caída de Kalona como escenario. Se elogian los personajes nuevos, la movilidad renovada con un botón de salto propio y el apartado visual. Los reparos aparecen en las reseñas más tibias: zonas abiertas y misiones secundarias sin peso, que a algunos les recuerdan lo más flojo de Gears 5, algún diálogo torpe y servidores del multijugador que no estaban listos para probarlo antes del estreno.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/library_600x900.jpg",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/gears-of-war-e-day",
    "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "ACCESO ANTICIPADO DESDE HOY Y DEBUTA CON 88",
+     "texto": "Desde el 1 de octubre lo juegan quienes compraron la edición Premium y los suscriptores de Game Pass con la mejora Premium. El estreno general es el 6, cuando entra a Game Pass Ultimate y PC Game Pass. Llega con 88 en Metacritic sobre más de 50 reseñas, varias con nota perfecta. La campaña se juega solo, en pantalla dividida para dos en consola o de a cuatro online, y suma Horda Asedio, cooperativo para cuatro con clases, y Versus de 4 contra 4."
+    },
     {
      "fecha": "2026-09-17",
      "titulo": "YA ESTÁ TERMINADO Y SE PUEDE PREINSTALAR DESDE EL 29",

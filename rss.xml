@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 01 Oct 2026 15:30:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 16:12:14 +0000</lastBuildDate>
     <item>
       <title>END OF ABYSS: SALE HOY Y DEBUTA CON 78</title>
       <link>https://lanzamientos.lat/juegos/end-of-abyss</link>
@@ -34,6 +34,13 @@
       <guid isPermaLink="false">dynasty-warriors-3-complete-edition-remastered-2026-10-01</guid>
       <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
       <description>Llega a PS5, Xbox, Switch 2 y Switch con un 74 sobre siete reseñas: la prensa celebra los gráficos rehechos y le marca un combate que se repite. — DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED para SWITCH / XBOX / SWITCH 2 / PS5.</description>
+    </item>
+    <item>
+      <title>GEARS OF WAR: E-DAY: ACCESO ANTICIPADO DESDE HOY Y DEBUTA CON 88</title>
+      <link>https://lanzamientos.lat/juegos/gears-of-war-e-day</link>
+      <guid isPermaLink="false">gears-of-war-e-day-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Desde el 1 de octubre lo juegan quienes compraron la edición Premium y los suscriptores de Game Pass con la mejora Premium. El estreno general es el 6, cuando entra a Game Pass Ultimate y PC Game Pass. Llega con 88 en Metacritic sobre más de 50 reseñas, varias con nota perfecta. La campaña se juega solo, en pantalla dividida para dos en consola o de a cuatro online, y suma Horda Asedio, cooperativo para cuatro con clases, y Versus de 4 contra 4. — GEARS OF WAR: E-DAY para XBOX.</description>
     </item>
     <item>
       <title>NASCAR 26: LA CRÍTICA LE PONE 73</title>
@@ -281,13 +288,6 @@ Los de septiembre, Sniper Elite: Resistance, MLB The Show 26, Wobbly Life y Chai
       <guid isPermaLink="false">ace-combat-8-wings-of-theve-2026-09-24</guid>
       <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
       <description>Bandai Namco publicó la cinemática con la que arranca el juego, que sale el 2 de octubre en PS5 y Xbox. — ACE COMBAT 8: WINGS OF THEVE para XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>TENEBRIS SOMNIA: PRECIO REGIONAL PARA LATINOAMÉRICA Y EDICIÓN FÍSICA</title>
-      <link>https://lanzamientos.lat/juegos/tenebris-somnia</link>
-      <guid isPermaLink="false">tenebris-somnia-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Sale el 16 de octubre a 24,99 dólares, con un 20% de descuento en el lanzamiento. New Blood prometió precios regionales agresivos en Latinoamérica para que lo juegue la mayor cantidad de gente posible, y dijo que va a intentar mantenerlos en consolas. Va a tener versiones físicas, con el arte de tapa definitivo de Dakota Lee. — TENEBRIS SOMNIA para PS4 / SWITCH 2 / PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>
