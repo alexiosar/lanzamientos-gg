@@ -16,6 +16,7 @@ una semana son ruido, los de un mes ya dicen algo.
 | 29/07/2026 | 31 | 183 | 176 | 63 | 0 | — | — | 246 |
 | 01/08/2026 | 31 | 183 | 176 | 140 | 0 | 100 | 300 | 291 |
 | 01/09/2026 | 361 | 602 | 27 | 4.870 | 32 | 240 | 590 | 369 |
+| 01/10/2026 | 425 | 672 | — | 12.900 | 108 | 500 | — | 481 |
 
 ## Objetivos para el 01/10/2026 (escritos el 22/09/2026)
 
@@ -114,10 +115,49 @@ Ninguno de los dos hace que Google indexe más páginas de golpe.
 | 09/09/2026 | **2027 entra al calendario**, con filtro por año, tras el Nintendo Direct. Se suman páginas de mes de enero a abril de 2027 |
 | 14/09/2026 | **Unas 140 descripciones reescritas.** Estaban copiadas de Steam o la eShop, con tú, vosotros y signos de exclamación. Es contenido propio donde antes había texto repetido en otras webs |
 | 15/09/2026 | **Votos "¿Lo vas a jugar?"** en todas las fichas, con un Worker de Cloudflare. El bloque carga después de la página y no debería mover la velocidad, pero si cambia algo en Core Web Vitals, empezar a buscar por acá |
+| 24/09/2026 | **Caída de Google**: las impresiones pasan de ~600 a ~30 por día y los clics desde Google a cero. Técnicamente todo verificado sano; se decidió no tocar nada y revisar el 08/10 |
+| 29/09/2026 | **Páginas por consola y mes** (`/ps5-octubre-2026` y las demás) y estructura de PS Plus / Game Pass del mes |
+| 30/09/2026 | `/ps-plus-octubre-2026`, enlazada desde la noticia, la portada y el RSS |
 
 Además, a lo largo de septiembre la rutina diaria sumó críticas y noticias a los estrenos del
 día. Al 31/08 había 131 fichas con noticias y 103 con resumen de crítica; al 16/09 son 174 y
 138. No tiene una fecha única, pero es la otra parte del contenido propio del mes.
+
+## Septiembre de 2026 contra los objetivos (leído el 01/10/2026)
+
+| Métrica | 01/09 | Objetivo "bien" | 01/10 | |
+|---|---|---|---|---|
+| Indexadas | 361 | 420 | **425** | bien (dato de Search Console del 20/09) |
+| Impresiones (28 d) | 4.870 | 9.000 | **12.900** | bien, cerca de "muy bien" |
+| Clics (28 d) | 32 | 100 | **108** | bien |
+| CTR | 0,65% | ~1% | **0,8%** | subió, sin llegar |
+| Posición media | — | — | **11,8** | en agosto era 27,7 |
+| Visitas (30 d) | 240 | 500 | **500** | bien, justo |
+| Páginas vistas | 590 | 1.300 | — | no se anotó |
+
+**Se cumplió todo lo que se midió, y con seis días perdidos.** Desde el 24/09 Google casi no
+muestra el sitio (ver la caída en la tabla de cambios), y aun así el mes pasó los objetivos:
+hasta el 23/09 venía a ~600 impresiones por día, un ritmo que daba unas 16.000 en 28 días,
+es decir "muy bien". Lo mismo con los clics: 108 casi todos antes del 24.
+
+**La posición pasó de 27,7 a 11,8.** Es el dato más importante del mes: es la diferencia
+entre la tercera página de resultados y el borde de la primera. Es lo que explica que los
+clics se hayan triplicado, más que las impresiones.
+
+**Qué páginas trajeron los clics.** La portada concentra un tercio (35 de 108, 2.265
+impresiones). Después vienen fichas sueltas, casi todas de juegos que salían ese mes y con
+pocos competidores en español: NASCAR 26 (8), Solo Leveling: Arise Overdrive (6), Kernel
+Hearts (6), Touhou Koumakyou (4), Train Sim World 7 (4). `/noviembre-2026` ya aparece con
+2 clics y 287 impresiones: las páginas de mes empiezan a trabajar. Hay 302 páginas con al
+menos una impresión.
+
+**Las visitas crecieron al final del mes, con Google en cero.** Cloudflare marca 40 a 60
+visitas por día del 24 al 30, contra 10 a 20 el resto del mes. No vienen del buscador: son
+los posteos diarios y el tráfico directo. La mitad de las visitas es de Argentina (240 de
+500), después Estados Unidos (110) y Japón (60).
+
+**Para el 08/10:** si Google vuelve, la tabla dice que el mes iba para "muy bien". Si no
+vuelve, el contenido sigue sumando igual y la canonical de la portada es lo primero a probar.
 
 ## Agosto de 2026: el mes en que el sitio entró a Google
 
