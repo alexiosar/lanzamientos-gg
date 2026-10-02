@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-02T14:09:01+00:00",
+ "generado": "2026-10-02T14:40:26+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 488,
@@ -5961,6 +5961,11 @@
    "url": "https://lanzamientos.lat/juegos/silent-hill-townfall",
    "noticias": [
     {
+     "fecha": "2026-10-02",
+     "titulo": "SALIÓ EN PS5 Y PC; XBOX Y SWITCH 2, SIN FECHA",
+     "texto": "Salió el 24 de septiembre en PS5 y PC, con 81 en la crítica. En consolas es exclusivo de PS5 por al menos seis meses, así que una versión de Xbox o de Switch 2 no podría salir antes de fines de marzo de 2027, y Konami todavía no confirmó ninguna de las dos."
+    },
+    {
      "fecha": "2026-08-24",
      "titulo": "ES EXCLUSIVO DE PS5 POR AL MENOS SEIS MESES",
      "texto": "La versión de consola sale sólo en PS5 el 24 de septiembre y la exclusividad dura como mínimo medio año, así que la de Xbox no tiene fecha. La tienda de Xbox no lo lista, y en la de PlayStation ya se puede reservar a 49,99 dólares, con una edición Deluxe a 59,99."
@@ -10300,7 +10305,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/the-walking-dead-streets-of-survival"
+   "url": "https://lanzamientos.lat/juegos/the-walking-dead-streets-of-survival",
+   "noticias": [
+    {
+     "fecha": "2026-09-18",
+     "titulo": "SALIÓ, CON NEGAN COMO PERSONAJE SECRETO",
+     "texto": "Salió el 18 de septiembre en PS5, Xbox, Switch 2, Switch y PC. La campaña es para un jugador: doce niveles inspirados en la guerra contra los Salvadores, por Alexandria, Hilltop y el Santuario. Se juega con Rick, Daryl o Michonne, y al terminarla por primera vez se desbloquea Negan, con su bate Lucille. Después hay un modo Juego+ y varias dificultades para volver a jugarlo."
+    }
+   ]
   },
   {
    "id": "way-of-the-hunter-2",

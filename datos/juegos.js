@@ -4414,6 +4414,11 @@ const JUEGOS = [
     alta: "2026-07-16",
     noticias: [
       {
+        fecha: "2026-10-02",
+        titulo: "SALIÓ EN PS5 Y PC; XBOX Y SWITCH 2, SIN FECHA",
+        texto: "Salió el 24 de septiembre en PS5 y PC, con 81 en la crítica. En consolas es exclusivo de PS5 por al menos seis meses, así que una versión de Xbox o de Switch 2 no podría salir antes de fines de marzo de 2027, y Konami todavía no confirmó ninguna de las dos."
+      },
+      {
         fecha: "2026-08-24",
         titulo: "ES EXCLUSIVO DE PS5 POR AL MENOS SEIS MESES",
         texto: "La versión de consola sale sólo en PS5 el 24 de septiembre y la exclusividad dura como mínimo medio año, así que la de Xbox no tiene fecha. La tienda de Xbox no lo lista, y en la de PlayStation ya se puede reservar a 49,99 dólares, con una edición Deluxe a 59,99."
@@ -7530,6 +7535,13 @@ const JUEGOS = [
     metacriticVotos: 6,
     critica: "Reseñas divididas. Es un beat 'em up de desplazamiento lateral con estética retro y algunos elementos de RPG, y para varias es de los mejores juegos basados en The Walking Dead, sobre todo para quien sigue la serie. Los reparos se repiten: el combate es básico y repetitivo, apuntar con las armas de fuego frustra, hay poca variedad de enemigos y personajes, y la campaña es corta, de doce niveles y unas tres horas, con poco para volver a jugar.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmze.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-18",
+        titulo: "SALIÓ, CON NEGAN COMO PERSONAJE SECRETO",
+        texto: "Salió el 18 de septiembre en PS5, Xbox, Switch 2, Switch y PC. La campaña es para un jugador: doce niveles inspirados en la guerra contra los Salvadores, por Alexandria, Hilltop y el Santuario. Se juega con Rick, Daryl o Michonne, y al terminarla por primera vez se desbloquea Negan, con su bate Lucille. Después hay un modo Juego+ y varias dificultades para volver a jugarlo."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"

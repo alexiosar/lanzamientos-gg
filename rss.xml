@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 02 Oct 2026 14:09:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 14:40:26 +0000</lastBuildDate>
     <item>
       <title>RATATAN: TAMBIÉN SALE EN PS5 Y XBOX EL 14</title>
       <link>https://lanzamientos.lat/juegos/ratatan</link>
@@ -20,6 +20,13 @@
       <guid isPermaLink="false">akiba-lost-2026-10-02</guid>
       <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
       <description>Con las primeras reseñas, todas de PC, la prensa destaca el misterio y el material filmado, y le marca escenas repetidas y un ritmo irregular. — AKIBA LOST para PS5 / SWITCH 2 / SWITCH.</description>
+    </item>
+    <item>
+      <title>SILENT HILL: TOWNFALL: SALIÓ EN PS5 Y PC; XBOX Y SWITCH 2, SIN FECHA</title>
+      <link>https://lanzamientos.lat/juegos/silent-hill-townfall</link>
+      <guid isPermaLink="false">silent-hill-townfall-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Salió el 24 de septiembre en PS5 y PC, con 81 en la crítica. En consolas es exclusivo de PS5 por al menos seis meses, así que una versión de Xbox o de Switch 2 no podría salir antes de fines de marzo de 2027, y Konami todavía no confirmó ninguna de las dos. — SILENT HILL: TOWNFALL para PS5.</description>
     </item>
     <item>
       <title>ACE COMBAT 8: WINGS OF THEVE: SALE HOY Y DEBUTA CON 88</title>
@@ -281,13 +288,6 @@ Los de septiembre, Sniper Elite: Resistance, MLB The Show 26, Wobbly Life y Chai
       <guid isPermaLink="false">train-sim-world-7-2026-09-29</guid>
       <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
       <description>Dovetail sigue con actualizaciones semanales. La del 29 de septiembre arregla los controles para principiantes y las texturas borrosas de varias locomotoras, y acelera la vuelta al menú en Xbox. La próxima apunta al rendimiento de la ruta de Núremberg. — TRAIN SIM WORLD 7 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>TRANSPORT FEVER 3: SALIÓ EN PS5, XBOX Y PC EL MISMO DÍA</title>
-      <link>https://lanzamientos.lat/juegos/transport-fever-3</link>
-      <guid isPermaLink="false">transport-fever-3-2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Urban Games lo lanzó el 29 de septiembre en las tres plataformas a la vez. Según el estudio, parte del equipo lleva media vida dedicada a la serie. — TRANSPORT FEVER 3 para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>
