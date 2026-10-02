@@ -1476,13 +1476,20 @@ const JUEGOS = [
     fecha: "2026-10-14",
     relanzamiento: "En PC (acceso anticipado) desde 2025",
     duracion: "≈ 9 h (historia)",
-    plataformas: ["SWITCH2"],
+    plataformas: ["SWITCH2", "PS5", "XBOX"],
     genero: ["MUSICA", "ACCION", "ROGUELIKE", "COOP"],
     desarrollador: "RATATA ARTS",
     descripcion: "Un roguelike de desplazamiento lateral donde todo se hace al ritmo de la música: se avanza, se pega y se esquiva en el tiempo, y perder el pulso se paga. En pantalla llegan a moverse más de cien personajes a la vez, y se puede jugar de a cuatro por internet. Lo hace el equipo detrás de Patapon, y esta es su salida del acceso anticipado.",
     trailer: "https://youtube.com/embed/fUUb7-0DWe8",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-02",
+        titulo: "TAMBIÉN SALE EN PS5 Y XBOX EL 14",
+        texto: "La PS Store y la tienda de Xbox ya lo tienen para el 14 de octubre, el mismo día que en Switch 2."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-09"
@@ -5320,6 +5327,11 @@ const JUEGOS = [
     desarrollador: "THE COALITION",
     descripcion: "La precuela de Gears of War sobre el Día de la Emergencia, el origen brutal de la guerra contra la Horda, en la saga de shooters en tercera persona de Xbox.",
     trailer: "https://youtube.com/embed/TOEuNKz3XW8",
+    gameplay: {
+      video: "https://youtube.com/embed/ghPe0GKfXwg",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 88,
     critica: "La prensa lo recibe como la mejor campaña de la serie, o muy cerca: una precuela del Día de la Emergencia con Marcus y Dom, más oscura e íntima, con la caída de Kalona como escenario. Se elogian los personajes nuevos, la movilidad renovada con un botón de salto propio y el apartado visual. Los reparos aparecen en las reseñas más tibias: zonas abiertas y misiones secundarias sin peso, que a algunos les recuerdan lo más flojo de Gears 5, algún diálogo torpe y servidores del multijugador que no estaban listos para probarlo antes del estreno.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/library_600x900.jpg",
@@ -6653,9 +6665,7 @@ const JUEGOS = [
   {
     id: "hela-of-mice-and-magic",
     titulo: "HELA: OF MICE & MAGIC",
-    fecha: "2026-12-31",
-    estimado: true,
-    fechaEstimada: "CUARTO TRIMESTRE 2026",
+    fecha: "2026-12-01",
     plataformas: ["XBOX", "SWITCH2", "PS5"],
     genero: ["AVENTURA", "PLATAFORMA", "RELAX", "INDIE"],
     desarrollador: "WINDUP",
@@ -6663,6 +6673,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/kqbuJw2J8lQ",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-02",
+        titulo: "YA TIENE DÍA: 1 DE DICIEMBRE",
+        texto: "La tienda de Xbox confirmó el 1 de diciembre."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-31"
@@ -9868,10 +9885,10 @@ const JUEGOS = [
   {
     id: "keep-driving",
     titulo: "KEEP DRIVING",
-    relanzamiento: "En PC desde febrero de 2025 — esta fecha corresponde a la edición de Xbox",
+    relanzamiento: "En PC desde febrero de 2025",
     duracion: "≈ 3,5 h (historia) · 24 h (completo)",
     fecha: "2026-09-28",
-    plataformas: ["XBOX"],
+    plataformas: ["XBOX", "PS5", "SWITCH"],
     genero: ["RPG", "SIMULACION", "INDIE", "CASUAL"],
     desarrollador: "YCJY GAMES",
     descripcion: "Un RPG de gestión sobre un viaje en auto a través del país, con aire de los primeros años 2000. Se levanta a gente que hace dedo, se hacen changas por el camino, se arregla y se mejora el auto y se elige la ruta en el mapa. Los problemas del viaje se resuelven con habilidades, objetos y los propios acompañantes, sin apuro.",
@@ -9884,8 +9901,8 @@ const JUEGOS = [
     noticias: [
       {
         fecha: "2026-09-28",
-        titulo: "YA ESTÁ EN XBOX",
-        texto: "Salió el 28 de septiembre, un año y medio después del estreno en PC. YCJY Games lo anunció también para PS5 y Switch, que todavía no tienen fecha."
+        titulo: "YA ESTÁ EN XBOX, PS5 Y SWITCH",
+        texto: "Salió el 28 de septiembre en Xbox, PS5 y Switch a la vez, un año y medio después del estreno en PC."
       }
     ],
     gamepass: false,
@@ -10394,6 +10411,96 @@ const JUEGOS = [
         fecha: "2026-10-01",
         titulo: "SALE EL 2 DE FEBRERO DE 2027, Y YA HAY DEMO EN PS5",
         texto: "Focus Entertainment puso fecha y publicó una demo gratis en PS5. Cuesta 29,99 dólares, y quien lo reserva se lleva un aspecto especial para el protagonista."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-02"
+  },
+  {
+    id: "gear-club-unlimited-3",
+    titulo: "GEAR.CLUB UNLIMITED 3",
+    fecha: "2026-10-08",
+    relanzamiento: "En Switch 2 desde febrero de 2026",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["CARRERAS", "SIMULACION"],
+    desarrollador: "EDEN GAMES",
+    descripcion: "La tercera entrega de la serie de carreras de Nacon, que por primera vez sale de Europa: el modo historia lleva el club a Japón, además de la costa francesa del Mediterráneo. Hay más de 40 autos de marcas reales para personalizar a fondo, desde la pintura y las llantas hasta la mecánica, y suma un modo nuevo en autopista que obliga a esquivar el tráfico a toda velocidad.",
+    trailer: "https://youtube.com/embed/pm1lWwrp69s",
+    metacritic: null,
+    imagen: "https://store-images.s-microsoft.com/image/apps.35810.14385252290974176.9e7b9e11-f89e-44cd-aa05-646247a2a662.3870a838-866f-4eb2-8d2b-729ee0ee423f?w=600&h=900&format=jpg",
+    noticias: [
+      {
+        fecha: "2026-10-02",
+        titulo: "LLEGA A PS5 Y XBOX EL 8 DE OCTUBRE",
+        texto: "Después de salir en Switch 2 en febrero, llega a PS5, Xbox y PC. En PS5 Pro tiene versión mejorada."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-02"
+  },
+  {
+    id: "sturmjager",
+    titulo: "STURMJÄGER",
+    fecha: "2027-01-14",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["SHOOTER", "ARCADE", "INDIE"],
+    desarrollador: "BYTEPRODUCT",
+    descripcion: "Un shoot 'em up de ciencia ficción sin vueltas: diez misiones, del espacio profundo al fondo del océano, cada una con su estética, su música y su jefe. Se juega solo o de a dos en la misma consola, con tres modos y tres dificultades, y un sistema de puntaje que premia el juego agresivo: multiplicadores por matar rápido, por encadenar bajas, por arriesgarse de cerca y por no morir, con tablas de récords online.",
+    trailer: "https://youtube.com/embed/wUaPTTermyc",
+    metacritic: null,
+    imagen: "https://store-images.s-microsoft.com/image/apps.13404.13682458034564141.ffe96b51-623b-4c72-b706-51d07f795533.f0ba4bb0-3048-42c3-afe1-728c1c556b17?w=600&h=900&format=jpg",
+    noticias: [
+      {
+        fecha: "2026-09-30",
+        titulo: "SALE EL 14 DE ENERO DE 2027",
+        texto: "Byteproduct lo anunció con fecha para PS5, Xbox y PC."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-02"
+  },
+  {
+    id: "heartworm",
+    titulo: "HEARTWORM",
+    fecha: "2026-10-01",
+    relanzamiento: "En PC desde julio de 2025",
+    plataformas: ["PS5", "PS4", "XBOX"],
+    genero: ["HORROR", "AVENTURA", "RETRO", "INDIE"],
+    desarrollador: "VINCENT ADINOLFI",
+    descripcion: "Un survival horror a la manera de los noventa, con homenajes a Silent Hill y Resident Evil. Sam no puede superar la muerte de su abuelo y, siguiendo la pista de un foro de internet, llega a una casa en la montaña que promete contacto con el más allá. Se combina cámara fija con vista sobre el hombro, se explora y se resuelven puzzles clásicos, y la única defensa es una cámara de fotos. Dura de cuatro a seis horas, con varios finales, y tiene controles de tanque y filtro de píxeles opcionales para quien lo quiera más retro.",
+    trailer: "https://youtube.com/embed/B7oS1NunyNg",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1257030/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-01",
+        titulo: "SALIÓ EN PS5, PS4 Y XBOX",
+        texto: "Llegó a consolas el 1 de octubre, a 14,99 dólares, un año después del estreno en PC. DreadXP también lo anunció para Switch 2 y Switch, que todavía no tienen ficha en la eShop."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-02"
+  },
+  {
+    id: "colorbound",
+    titulo: "COLORBOUND",
+    fecha: "2026-10-12",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["PUZZLE", "PLATAFORMA", "INDIE"],
+    desarrollador: "PANPIPE STUDIO",
+    descripcion: "Un juego de plataformas y puzzles en el que el color cambia el mundo. Anku quiere reunir a la banda de su abuelo, un músico muy querido que murió, para darle un concierto de despedida, y para encontrar a cada integrante recorre paisajes distintos juntando colores: cada color que se suma a la paleta transforma el escenario y abre caminos nuevos.",
+    trailer: "https://youtube.com/embed/clYNpKpMRDw",
+    metacritic: null,
+    imagen: "https://store-images.s-microsoft.com/image/apps.21015.13794004821354326.8502a05e-8f86-4d7a-8478-db72bf81d91a.3900c10d-87fb-4132-adcd-c4a47ef39eae?w=600&h=900&format=jpg",
+    noticias: [
+      {
+        fecha: "2026-10-02",
+        titulo: "SALE EL 12 DE OCTUBRE",
+        texto: "La tienda de Xbox y Steam confirman el 12 de octubre. La PS Store ya tiene la ficha de PS5, todavía sin día."
       }
     ],
     gamepass: false,

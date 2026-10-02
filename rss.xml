@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 02 Oct 2026 13:22:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 14:09:01 +0000</lastBuildDate>
+    <item>
+      <title>RATATAN: TAMBIÉN SALE EN PS5 Y XBOX EL 14</title>
+      <link>https://lanzamientos.lat/juegos/ratatan</link>
+      <guid isPermaLink="false">ratatan-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+      <description>La PS Store y la tienda de Xbox ya lo tienen para el 14 de octubre, el mismo día que en Switch 2. — RATATAN para SWITCH 2 / PS5 / XBOX.</description>
+    </item>
     <item>
       <title>AKIBA LOST: LA CRÍTICA LE PONE 81</title>
       <link>https://lanzamientos.lat/juegos/akiba-lost</link>
@@ -20,6 +27,27 @@
       <guid isPermaLink="false">ace-combat-8-wings-of-theve-2026-10-02</guid>
       <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
       <description>Llega a PS5 y Xbox con un 88 sobre más de sesenta reseñas, varias con nota perfecta. La prensa destaca el combate aéreo, una campaña de treinta misiones con una historia más personal y la música, y le marca escenas que cortan el ritmo. — ACE COMBAT 8: WINGS OF THEVE para XBOX / PS5.</description>
+    </item>
+    <item>
+      <title>HELA: OF MICE &amp; MAGIC: YA TIENE DÍA: 1 DE DICIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/hela-of-mice-and-magic</link>
+      <guid isPermaLink="false">hela-of-mice-and-magic-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+      <description>La tienda de Xbox confirmó el 1 de diciembre. — HELA: OF MICE &amp; MAGIC para XBOX / SWITCH 2 / PS5.</description>
+    </item>
+    <item>
+      <title>GEAR.CLUB UNLIMITED 3: LLEGA A PS5 Y XBOX EL 8 DE OCTUBRE</title>
+      <link>https://lanzamientos.lat/juegos/gear-club-unlimited-3</link>
+      <guid isPermaLink="false">gear-club-unlimited-3-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Después de salir en Switch 2 en febrero, llega a PS5, Xbox y PC. En PS5 Pro tiene versión mejorada. — GEAR.CLUB UNLIMITED 3 para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>COLORBOUND: SALE EL 12 DE OCTUBRE</title>
+      <link>https://lanzamientos.lat/juegos/colorbound</link>
+      <guid isPermaLink="false">colorbound-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+      <description>La tienda de Xbox y Steam confirman el 12 de octubre. La PS Store ya tiene la ficha de PS5, todavía sin día. — COLORBOUND para PS5 / XBOX.</description>
     </item>
     <item>
       <title>END OF ABYSS: SALE HOY Y DEBUTA CON 78</title>
@@ -127,6 +155,13 @@
       <description>Focus Entertainment puso fecha y publicó una demo gratis en PS5. Cuesta 29,99 dólares, y quien lo reserva se lleva un aspecto especial para el protagonista. — ELTA: DEFY ALL GODS para PS5 / XBOX.</description>
     </item>
     <item>
+      <title>HEARTWORM: SALIÓ EN PS5, PS4 Y XBOX</title>
+      <link>https://lanzamientos.lat/juegos/heartworm</link>
+      <guid isPermaLink="false">heartworm-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Llegó a consolas el 1 de octubre, a 14,99 dólares, un año después del estreno en PC. DreadXP también lo anunció para Switch 2 y Switch, que todavía no tienen ficha en la eShop. — HEARTWORM para PS5 / PS4 / XBOX.</description>
+    </item>
+    <item>
       <title>KONG: SURVIVOR INSTINCT: SALE HOY EN SWITCH</title>
       <link>https://lanzamientos.lat/juegos/kong-survivor-instinct</link>
       <guid isPermaLink="false">kong-survivor-instinct-2026-09-30</guid>
@@ -204,6 +239,13 @@
       <description>Joystick Ventures lo anunció para mediados de octubre, todavía sin día. En Switch y PC salió en diciembre de 2024. — ANTONBLAST para PS5 / PS4.</description>
     </item>
     <item>
+      <title>STURMJÄGER: SALE EL 14 DE ENERO DE 2027</title>
+      <link>https://lanzamientos.lat/juegos/sturmjager</link>
+      <guid isPermaLink="false">sturmjager-2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+      <description>Byteproduct lo anunció con fecha para PS5, Xbox y PC. — STURMJÄGER para PS5 / XBOX.</description>
+    </item>
+    <item>
       <title>LOS MENSUALES DE PS PLUS DE OCTUBRE: F1 25, HUNT: SHOWDOWN 1896 Y EARTH DEFENSE FORCE</title>
       <link>https://lanzamientos.lat/ps-plus-octubre-2026</link>
       <guid isPermaLink="false">ps-plus-mensuales-octubre-2026</guid>
@@ -246,48 +288,6 @@ Los de septiembre, Sniper Elite: Resistance, MLB The Show 26, Wobbly Life y Chai
       <guid isPermaLink="false">transport-fever-3-2026-09-29</guid>
       <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
       <description>Urban Games lo lanzó el 29 de septiembre en las tres plataformas a la vez. Según el estudio, parte del equipo lleva media vida dedicada a la serie. — TRANSPORT FEVER 3 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>GOD OF WAR: LAUFEY: LAS RESERVAS ABREN EL 29 DE SEPTIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/god-of-war-laufey</link>
-      <guid isPermaLink="false">god-of-war-laufey-2026-09-28</guid>
-      <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Sony abre las reservas el 29 a las 10 de la mañana, hora local, en digital y en físico. Quien lo reserve se lleva un conjunto de armadura, una apariencia para Phranque y un paquete de recursos, y la Edición Digital Deluxe suma otro conjunto de armadura con espada, un minilibro de arte y la banda sonora. También se mostró el arco serpentino de Faye, que puede acumular hasta cinco flechas en una sola salva. — GOD OF WAR: LAUFEY para PS5.</description>
-    </item>
-    <item>
-      <title>KEEP DRIVING: YA ESTÁ EN XBOX</title>
-      <link>https://lanzamientos.lat/juegos/keep-driving</link>
-      <guid isPermaLink="false">keep-driving-2026-09-28</guid>
-      <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Salió el 28 de septiembre, un año y medio después del estreno en PC. YCJY Games lo anunció también para PS5 y Switch, que todavía no tienen fecha. — KEEP DRIVING para XBOX.</description>
-    </item>
-    <item>
-      <title>SURI: THE SEVENTH NOTE: SALE EL 30 DE OCTUBRE EN PS5</title>
-      <link>https://lanzamientos.lat/juegos/suri-the-seventh-note</link>
-      <guid isPermaLink="false">suri-the-seventh-note-2026-09-28</guid>
-      <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Tathvamasi Studios, que lo hizo con el apoyo del programa Hero Project de PlayStation India, puso fecha después de cuatro años de desarrollo. En PC sale el mismo día. — SURI: THE SEVENTH NOTE para PS5.</description>
-    </item>
-    <item>
-      <title>MINECRAFT DUNGEONS II: LA PRIMERA DIMENSIÓN NUEVA DE MINECRAFT EN 14 AÑOS ARRANCA ACÁ</title>
-      <link>https://lanzamientos.lat/juegos/minecraft-dungeons-2</link>
-      <guid isPermaLink="false">minecraft-dungeons-2-2026-09-26</guid>
-      <pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
-      <description>En Minecraft LIVE, Mojang mostró más de la Sift, la primera dimensión nueva de Minecraft en más de 14 años. Se estrena en Dungeons II, con biomas como Meadows y Carapace, criaturas nuevas y reglas propias que afectan al personaje, y en 2027 va a llegar también al Minecraft de siempre. — MINECRAFT DUNGEONS II para SWITCH / XBOX / SWITCH 2 / PS5.</description>
-    </item>
-    <item>
-      <title>CONTROL RESONANT: NEW GAME++ EN OCTUBRE Y MODO FOTO EN NOVIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/control-resonant</link>
-      <guid isPermaLink="false">control-resonant-2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Remedy contó sus primeros planes después del estreno. En octubre llega un New Game++ para encadenar partidas nuevas sin borrar el progreso, porque hoy el New Game+ se puede hacer una sola vez. El modo foto, que quedó afuera del lanzamiento para priorizar el estado del juego, llega en noviembre, y más adelante habrá más ropa para Dylan. — CONTROL RESONANT para XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>ACE COMBAT 8: WINGS OF THEVE: UNA HISTORIA EN PRIMERA PERSONA</title>
-      <link>https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve</link>
-      <guid isPermaLink="false">ace-combat-8-wings-of-theve-2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
-      <description>La campaña cambia la forma de contar: el protagonista es un piloto rescatado a la deriva por el portaaviones Endurance, al que ponen de navegante de Jan «Rex» Cope, el Wings of Theve, un as que en realidad es una herramienta de propaganda con órdenes de no pelear. Cuando Cope muere en un derribo, el protagonista hereda su apodo. Bandai Namco también publicó un repaso de cinco minutos de cómo se juega. — ACE COMBAT 8: WINGS OF THEVE para XBOX / PS5.</description>
     </item>
   </channel>
 </rss>
