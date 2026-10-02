@@ -115,7 +115,7 @@ def validar_js():
         print("⚠ node no está instalado: no se pudo validar la sintaxis de datos/*.js\n")
         return
     rotos = []
-    for nombre in ("juegos.js", "noticias.js", "recomendados.js"):
+    for nombre in ("juegos.js", "noticias.js", "recomendados.js", "suscripciones.js", "meses.js"):
         ruta = RAIZ / "datos" / nombre
         if not ruta.exists():
             continue

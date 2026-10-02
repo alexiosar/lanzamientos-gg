@@ -55,6 +55,15 @@
 
 const NOTICIAS = [
   {
+    id: "ps5-qssr-escalado-ia",
+    fecha: "2026-10-01",
+    categoria: "ANUNCIOS",
+    titulo: "EL ESCALADO POR IA DE LA PS5 PRO LLEGA A LA PS5 COMÚN",
+    texto: "Sony anunció QSSR, una versión más liviana de PSSR, el escalado por inteligencia artificial que hasta ahora era exclusivo de la PS5 Pro. Mejora el detalle y la estabilidad de la imagen en la PS5 común, aunque PSSR sigue siendo superior en la Pro. Nació de Project Amethyst, la colaboración de Sony con AMD.\n\nLos primeros juegos en usarlo son Marvel's Wolverine y Ghost of Yōtei, que ya tienen parches con QSSR como opción gráfica. Sony dice que va a estar disponible para todos los estudios que hacen juegos de PlayStation.",
+    fuente: "https://blog.latam.playstation.com/2026/10/01/la-optimizacion-de-ia-llega-a-ps5/",
+    juegos: ["marvels-wolverine", "ghost-of-yotei-complete-edition"]
+  },
+  {
     id: "ps-plus-mensuales-octubre-2026",
     fecha: "2026-09-30",
     categoria: "SUSCRIPCIONES",

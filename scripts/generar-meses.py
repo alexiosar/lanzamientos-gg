@@ -23,6 +23,8 @@ Se regenera con la rutina diaria (scripts/actualizar.py lo invoca).
 """
 import datetime
 import html as html_mod
+import json
+import re
 import sys
 from pathlib import Path
 
@@ -38,6 +40,33 @@ DOMINIO = "https://lanzamientos.lat"
 MESES_ES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO",
             "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"]
 DIAS_ES = ["DOM", "LUN", "MAR", "MIE", "JUE", "VIE", "SAB"]
+
+
+def leer_intros():
+    """{"AAAA-MM": "párrafo"} de datos/meses.js, con el mismo truco que cargar_juegos():
+    se ancla en la declaración y se le ponen comillas a las claves para leerlo como JSON."""
+    archivo = RAIZ / "datos" / "meses.js"
+    if not archivo.exists():
+        return {}
+    src = archivo.read_text(encoding="utf-8")
+    inicio = src.index("[", src.index("const MESES_INTRO"))
+    cuerpo = src[inicio:src.index("];", inicio) + 1]
+    datos = json.loads(re.sub(r"^(\s*)([a-zA-Z_]\w*):", r'\1"\2":', cuerpo, flags=re.M))
+    return {d["mes"]: d["intro"] for d in datos}
+
+
+def revisar_intros(intros, juegos):
+    """Avisa si un intro nombra (con el título completo) un juego que ya no sale ese mes.
+    Es el error que no se ve: el párrafo sigue prolijo diciendo "el 19 sale tal juego"
+    después de que el juego se retrasó."""
+    for mes, texto in intros.items():
+        bajo = texto.lower()
+        for j in juegos:
+            if len(j["titulo"]) >= 6 and j["titulo"].lower() in bajo and j["fecha"][:7] != mes:
+                # el mismo juego puede estar en el calendario más de una vez (otra edición);
+                # sólo se avisa si ninguna de sus entradas cae en ese mes
+                if not any(o["titulo"] == j["titulo"] and o["fecha"][:7] == mes for o in juegos):
+                    print(f"  ⚠ el intro de {mes} nombra {j['titulo']}, que ahora es del {j['fecha']}")
 
 
 def e(t):
@@ -79,7 +108,7 @@ def fila(j):
 
 
 def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False,
-            plataforma=None, por_plataforma=None):
+            plataforma=None, por_plataforma=None, intro=None):
     """La página de un mes. Con `plataforma`, la de esa consola sola en ese mes
     (/ps5-octubre-2026); sin ella, la general con todas (/octubre-2026)."""
     y, m = map(int, mes_key.split("-"))
@@ -135,6 +164,9 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False,
     # listado de 64 juegos por fecha no puede dar. Sin esto, /mejores-juegos-agosto-2026
     # cuelga sólo del sitemap, que es la forma más débil de que Google descubra una página.
     rec = ruta_recomendados(mes_key)
+    # El párrafo propio del mes (datos/meses.js), sólo en la página general: nombra juegos
+    # de todas las consolas, y en /ps5-noviembre-2026 hablaría de juegos que no están.
+    bloque_intro = (f'    <p class="mes-intro">{e(intro)}</p>\n' if intro and not plataforma else "")
     enlace_rec = (f'    <p class="mes-rec"><a class="filtro-btn" href="{rec}">★ '
                   f'{"LOS MEJORES DE" if pasado else "RECOMENDADOS DE"} {nombre} {y} '
                   '— ELEGIDOS A MANO</a></p>') if rec else ""
@@ -195,6 +227,7 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False,
     .pagina-titulo  {{ font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }}
     .pagina-sub     {{ font-size: 0.6875rem; color: var(--gris-5); letter-spacing: 2px; margin-bottom: 1.5rem; }}
     .mes-lista      {{ max-width: 760px; }}
+    .mes-intro      {{ font-size: 0.8125rem; color: var(--gris-7); line-height: 1.9; max-width: 720px; margin: -0.5rem 0 1.75rem; }}
     .mes-duracion   {{ font-size: 0.625rem; color: var(--gris-5); letter-spacing: 1px; }}
     .mes-nav        {{ display: flex; justify-content: space-between; gap: 1rem; margin: 2rem 0 0;
                       max-width: 760px; font-size: 0.6875rem; letter-spacing: 2px; }}
@@ -217,7 +250,7 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False,
     <a href="/" class="volver">◀ VOLVER AL CALENDARIO</a>
     <h1 class="pagina-titulo">{e(titulo.upper())}</h1>
     <p class="pagina-sub">{e(resumen.upper())}</p>
-{enlace_rec}
+{bloque_intro}{enlace_rec}
 {enlace_plats}
 {enlace_subs}
 {aviso_alcance}
@@ -258,11 +291,13 @@ def main():
     salteados = sorted(set(por_mes) - set(claves))
 
     por_plataforma = paginas_plataforma_mes(juegos)
+    intros = leer_intros()
+    revisar_intros(intros, juegos)
     for i, mk in enumerate(claves):
         anterior = claves[i - 1] if i > 0 else None
         siguiente = claves[i + 1] if i < len(claves) - 1 else None
         html = generar(mk, por_mes[mk], anterior, siguiente, pasado=mk < hoy, primero=(i == 0),
-                       por_plataforma=por_plataforma)
+                       por_plataforma=por_plataforma, intro=intros.get(mk))
         (RAIZ / f"{slug(mk)}.html").write_text(html, encoding="utf-8")
     print(f"{len(claves)} páginas de mes generadas: {', '.join(slug(k) for k in claves)}")
 
@@ -280,8 +315,8 @@ def main():
             archivo = ruta_plataforma_mes(p, mk).lstrip("/") + ".html"
             (RAIZ / archivo).write_text(html, encoding="utf-8")
             generadas.add(archivo)
-    # Las que quedaron de corridas anteriores y ya no corresponden (el mes pasó o bajó del
-    # mínimo) se borran: si no, siguen en el sitemap, que las junta por nombre de archivo.
+    # Las que quedaron de corridas anteriores y ya no corresponden (bajaron del mínimo de
+    # juegos, o el mes es anterior a PRIMER_MES_PLAT) se borran: si no, siguen en el sitemap, que las junta por nombre de archivo.
     viejas = [f for f in RAIZ.glob("*-20??.html")
               if f.name.split("-")[0] in {"ps5", "ps4", "xbox", "switch"} and f.name not in generadas]
     for f in viejas:

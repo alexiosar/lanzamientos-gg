@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 02 Oct 2026 14:40:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 18:53:20 +0000</lastBuildDate>
     <item>
       <title>RATATAN: TAMBIÉN SALE EN PS5 Y XBOX EL 14</title>
       <link>https://lanzamientos.lat/juegos/ratatan</link>
@@ -169,6 +169,15 @@
       <description>Llegó a consolas el 1 de octubre, a 14,99 dólares, un año después del estreno en PC. DreadXP también lo anunció para Switch 2 y Switch, que todavía no tienen ficha en la eShop. — HEARTWORM para PS5 / PS4 / XBOX.</description>
     </item>
     <item>
+      <title>EL ESCALADO POR IA DE LA PS5 PRO LLEGA A LA PS5 COMÚN</title>
+      <link>https://lanzamientos.lat/noticias</link>
+      <guid isPermaLink="false">ps5-qssr-escalado-ia</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Sony anunció QSSR, una versión más liviana de PSSR, el escalado por inteligencia artificial que hasta ahora era exclusivo de la PS5 Pro. Mejora el detalle y la estabilidad de la imagen en la PS5 común, aunque PSSR sigue siendo superior en la Pro. Nació de Project Amethyst, la colaboración de Sony con AMD.
+
+Los primeros juegos en usarlo son Marvel's Wolverine y Ghost of Yōtei, que ya tienen parches con QSSR como opción gráfica. Sony dice que va a estar disponible para todos los estudios que hacen juegos de PlayStation.</description>
+    </item>
+    <item>
       <title>KONG: SURVIVOR INSTINCT: SALE HOY EN SWITCH</title>
       <link>https://lanzamientos.lat/juegos/kong-survivor-instinct</link>
       <guid isPermaLink="false">kong-survivor-instinct-2026-09-30</guid>
@@ -281,13 +290,6 @@ Los de septiembre, Sniper Elite: Resistance, MLB The Show 26, Wobbly Life y Chai
       <guid isPermaLink="false">train-sim-world-7-2026-09-29</guid>
       <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
       <description>Es la primera ruta japonesa de la serie: 88 km de vía única y 28 estaciones en la prefectura de Fukushima, a bordo del KiHa 40, un diésel de manejo mecánico que se arranca a la vieja usanza. Se vende aparte, a 39,99 dólares. — TRAIN SIM WORLD 7 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>TRAIN SIM WORLD 7: UN PARCHE POR SEMANA EN TODAS LAS PLATAFORMAS</title>
-      <link>https://lanzamientos.lat/juegos/train-sim-world-7</link>
-      <guid isPermaLink="false">train-sim-world-7-2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Dovetail sigue con actualizaciones semanales. La del 29 de septiembre arregla los controles para principiantes y las texturas borrosas de varias locomotoras, y acelera la vuelta al menú en Xbox. La próxima apunta al rendimiento de la ruta de Núremberg. — TRAIN SIM WORLD 7 para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

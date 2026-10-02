@@ -105,6 +105,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 ├── scripts/generar-recomendados.py  Genera recomendados.html y una
 │                               mejores-juegos-{mes}-{año}.html por cada mes ya cerrado
 ├── datos/suscripciones.js      PS Plus y Game Pass de cada mes, tanda por tanda
+├── datos/meses.js             el párrafo de introducción de cada página de mes
 ├── scripts/generar-suscripciones.py  Genera /ps-plus-{mes}-{año} y /game-pass-{mes}-{año}
 ├── scripts/generar-meses.py    Genera una página por mes (/septiembre-2026…) y, desde el
 │                               29/09/2026, una por consola y mes (/ps5-octubre-2026…)
@@ -1791,6 +1792,12 @@ ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
 **Mensual (fin de mes):**
 9. Cargar el mes siguiente completo desde releases.com (el que todavía no existe en el
    calendario). A partir de ahí ese mes entra en el barrido semanal del punto 5.
+   **Y escribirle la introducción en `datos/meses.js`** (desde el 02/10/2026): un párrafo
+   que nombre los juegos fuertes del mes y sus días, como el intro de los recomendados. Va
+   arriba de la lista en `/noviembre-2026` y las demás, que antes eran sólo enlaces y no
+   contestaban "qué sale en noviembre". Si un juego nombrado cambia de mes,
+   `generar-meses.py` lo avisa (busca el título completo dentro del texto), y hay que
+   corregir el párrafo.
 10. Duraciones: `python3 scripts/cargar-duraciones.py --aplicar`. Recorre **todos** los
     ports sin `duracion`, no solo los del mes nuevo, así que cubre el mes recién cargado y
     el backlog de una sola pasada. Tarda unos minutos (consulta de a uno, con pausa).
