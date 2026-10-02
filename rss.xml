@@ -6,7 +6,21 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 01 Oct 2026 16:12:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 13:22:19 +0000</lastBuildDate>
+    <item>
+      <title>AKIBA LOST: LA CRÍTICA LE PONE 81</title>
+      <link>https://lanzamientos.lat/juegos/akiba-lost</link>
+      <guid isPermaLink="false">akiba-lost-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Con las primeras reseñas, todas de PC, la prensa destaca el misterio y el material filmado, y le marca escenas repetidas y un ritmo irregular. — AKIBA LOST para PS5 / SWITCH 2 / SWITCH.</description>
+    </item>
+    <item>
+      <title>ACE COMBAT 8: WINGS OF THEVE: SALE HOY Y DEBUTA CON 88</title>
+      <link>https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve</link>
+      <guid isPermaLink="false">ace-combat-8-wings-of-theve-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Llega a PS5 y Xbox con un 88 sobre más de sesenta reseñas, varias con nota perfecta. La prensa destaca el combate aéreo, una campaña de treinta misiones con una historia más personal y la música, y le marca escenas que cortan el ritmo. — ACE COMBAT 8: WINGS OF THEVE para XBOX / PS5.</description>
+    </item>
     <item>
       <title>END OF ABYSS: SALE HOY Y DEBUTA CON 78</title>
       <link>https://lanzamientos.lat/juegos/end-of-abyss</link>
@@ -50,6 +64,13 @@
       <description>Con las primeras reseñas de PS5, la prensa lo ve mejor que NASCAR 25 y bien equilibrado entre simulación y arcade, pero corto en modos de juego. — NASCAR 26 para PS5 / XBOX.</description>
     </item>
     <item>
+      <title>GHOST OF YOTEI: EDICIÓN COMPLETA: SALIÓ CON 85 EN LA CRÍTICA</title>
+      <link>https://lanzamientos.lat/juegos/ghost-of-yotei-complete-edition</link>
+      <guid isPermaLink="false">ghost-of-yotei-complete-edition-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Salió el 1 de octubre, al cumplirse un año del original, con 85 sobre diecinueve reseñas. Trae la expansión Echoes of Sekigahara y el modo Most Wanted, y quien ya tiene el juego puede pasarse por 10 dólares. — GHOST OF YOTEI: EDICIÓN COMPLETA para PS5.</description>
+    </item>
+    <item>
       <title>MOROS PROTOCOL: SALE HOY EN PS5 Y SWITCH 2</title>
       <link>https://lanzamientos.lat/juegos/moros-protocol</link>
       <guid isPermaLink="false">moros-protocol-2026-10-01</guid>
@@ -83,6 +104,27 @@
       <guid isPermaLink="false">kena-scars-of-kosmora-2026-10-01</guid>
       <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
       <description>Ember Lab dijo que necesita más tiempo para pulir un juego bastante más grande que Bridge of Spirits. Junto con el anuncio contó más de la historia: Kena viaja a Kosmora porque Orfio cree que la isla guarda las respuestas que buscan los dos. También sale en PC. — KENA: SCARS OF KOSMORA para PS5.</description>
+    </item>
+    <item>
+      <title>CROC 2: KINGDOM OF THE GOBBOS: SALE EL 29 DE OCTUBRE</title>
+      <link>https://lanzamientos.lat/juegos/croc-2-kingdom-of-the-gobbos</link>
+      <guid isPermaLink="false">croc-2-kingdom-of-the-gobbos-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Argonaut Games puso fecha a la remasterización: sale el mismo día en PS5, PS4, Xbox y PC. — CROC 2: KINGDOM OF THE GOBBOS para PS5 / PS4 / XBOX.</description>
+    </item>
+    <item>
+      <title>VOID/BREAKER: SALE EL 4 DE NOVIEMBRE Y DEBUTA EN PS5</title>
+      <link>https://lanzamientos.lat/juegos/void-breaker</link>
+      <guid isPermaLink="false">void-breaker-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Ese día deja el acceso anticipado de PC y el Game Preview de Xbox, y llega por primera vez a PS5. — VOID/BREAKER para PS5.</description>
+    </item>
+    <item>
+      <title>ELTA: DEFY ALL GODS: SALE EL 2 DE FEBRERO DE 2027, Y YA HAY DEMO EN PS5</title>
+      <link>https://lanzamientos.lat/juegos/elta-defy-all-gods</link>
+      <guid isPermaLink="false">elta-defy-all-gods-2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Focus Entertainment puso fecha y publicó una demo gratis en PS5. Cuesta 29,99 dólares, y quien lo reserva se lleva un aspecto especial para el protagonista. — ELTA: DEFY ALL GODS para PS5 / XBOX.</description>
     </item>
     <item>
       <title>KONG: SURVIVOR INSTINCT: SALE HOY EN SWITCH</title>
@@ -246,48 +288,6 @@ Los de septiembre, Sniper Elite: Resistance, MLB The Show 26, Wobbly Life y Chai
       <guid isPermaLink="false">ace-combat-8-wings-of-theve-2026-09-25</guid>
       <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
       <description>La campaña cambia la forma de contar: el protagonista es un piloto rescatado a la deriva por el portaaviones Endurance, al que ponen de navegante de Jan «Rex» Cope, el Wings of Theve, un as que en realidad es una herramienta de propaganda con órdenes de no pelear. Cuando Cope muere en un derribo, el protagonista hereda su apodo. Bandai Namco también publicó un repaso de cinco minutos de cómo se juega. — ACE COMBAT 8: WINGS OF THEVE para XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>SCREENBOUND: NO SALIÓ EN SEPTIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/screenbound</link>
-      <guid isPermaLink="false">screenbound-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>No salió en septiembre y todavía no tiene fecha nueva. La PlayStation Store y la tienda de Xbox lo listan como anunciado, sin día. — SCREENBOUND para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>CONTROL RESONANT: PARCHE DE LANZAMIENTO: ENEMIGOS MENOS DUROS</title>
-      <link>https://lanzamientos.lat/juegos/control-resonant</link>
-      <guid isPermaLink="false">control-resonant-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Con el juego ya en manos de muchos jugadores, Remedy sacó la actualización 1.3.3 el mismo día del estreno: bajó la vida de la mayoría de los enemigos y de los jefes Dancer y Deserter, hace falta menos para aturdirlos y Dylan pega más fuerte. También abarató redistribuir las mejoras. Para ajustar más, el modo Asistencia regula la agresividad enemiga y el daño recibido. — CONTROL RESONANT para XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>DRAGON QUEST XI: ECHOES OF AN ELUSIVE AGE: YA ESTÁ EN SWITCH 2, CON MODOS DE GRÁFICOS Y RENDIMIENTO</title>
-      <link>https://lanzamientos.lat/juegos/dragon-quest-xi-echoes-of-an-elusive-age</link>
-      <guid isPermaLink="false">dragon-quest-xi-echoes-of-an-elusive-age-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Salió el 24 de septiembre como producto aparte del de Switch. Trae todo lo de la Definitive Edition, con los capítulos nuevos para los compañeros, las voces en japonés, el modo 2D y la banda sonora orquestal, y suma modos para priorizar gráficos o rendimiento. — DRAGON QUEST XI: ECHOES OF AN ELUSIVE AGE para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>SHINOBI: ART OF VENGEANCE: YA ESTÁ EN SWITCH 2, CON 1080P EN PORTÁTIL</title>
-      <link>https://lanzamientos.lat/juegos/shinobi-art-of-vengeance</link>
-      <guid isPermaLink="false">shinobi-art-of-vengeance-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>La versión de Switch 2 salió el 24 de septiembre. La mejora que anuncia SEGA es la resolución en modo portátil, que sube a 1080p. — SHINOBI: ART OF VENGEANCE para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>ROGUE REIGNS: SE CORRE A OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/rogue-reigns</link>
-      <guid isPermaLink="false">rogue-reigns-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>No salió en septiembre. Steam lo tiene ahora para el 28 de octubre, pero las tiendas de consola todavía no le pusieron fecha, así que el día puede cambiar en PS5, Xbox y Switch. — ROGUE REIGNS para PS5 / XBOX / SWITCH.</description>
-    </item>
-    <item>
-      <title>ACE COMBAT 8: WINGS OF THEVE: LA CINEMÁTICA DE APERTURA, A UNA SEMANA DE SALIR</title>
-      <link>https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve</link>
-      <guid isPermaLink="false">ace-combat-8-wings-of-theve-2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Bandai Namco publicó la cinemática con la que arranca el juego, que sale el 2 de octubre en PS5 y Xbox. — ACE COMBAT 8: WINGS OF THEVE para XBOX / PS5.</description>
     </item>
   </channel>
 </rss>

@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
     .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
     .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
@@ -148,6 +149,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">85 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('ghost-of-yotei-complete-edition')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -176,7 +182,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">La prensa la ve como la mejor forma de jugar Ghost of Yōtei: Echoes of Sekigahara, la expansión de historia, profundiza en el pasado de Atsu y suma una región nueva, y Most Wanted agrega un modo de estilo roguelike, además del multijugador gratuito. Los reparos son de valor: la expansión no llega a la altura narrativa del juego base, Most Wanted convence menos de lo esperado y, para quien ya exprimió el original, no es una compra imprescindible.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-01</span>
+            <span class="noticia-titulo">▸ SALIÓ CON 85 EN LA CRÍTICA</span>
+          </div>
+          <p class="noticia-texto">Salió el 1 de octubre, al cumplirse un año del original, con 85 sobre diecinueve reseñas. Trae la expansión Echoes of Sekigahara y el modo Most Wanted, y quien ya tiene el juego puede pasarse por 10 dólares.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-09-03</span>

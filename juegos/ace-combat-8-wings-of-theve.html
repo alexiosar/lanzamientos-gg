@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">88 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('ace-combat-8-wings-of-theve')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -162,7 +168,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">La prensa lo recibe como lo mejor de la serie o muy cerca. El combate aéreo sigue siendo lo más adictivo, con controles muy precisos, y la campaña de treinta misiones suma variedad, con misiones en aviones de apoyo y una historia más personal sobre guerra, propaganda y heroísmo fabricado; la música y lo visual se elogian en casi todas las reseñas. Vuelven las órdenes al escuadrón y hay más aviones y armas especiales. Los reparos son menores: escenas que cortan el ritmo, algo de melodrama, cierta repetición, una apuesta conservadora después del éxito de Ace Combat 7 y problemas de resolución en consolas.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-02</span>
+            <span class="noticia-titulo">▸ SALE HOY Y DEBUTA CON 88</span>
+          </div>
+          <p class="noticia-texto">Llega a PS5 y Xbox con un 88 sobre más de sesenta reseñas, varias con nota perfecta. La prensa destaca el combate aéreo, una campaña de treinta misiones con una historia más personal y la música, y le marca escenas que cortan el ritmo.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-09-25</span>
@@ -193,6 +210,13 @@
         <div class="video-wrapper">
           <iframe src="https://youtube.com/embed/cW6zBuO7sb4" title="Trailer de ACE COMBAT 8: WINGS OF THEVE" allowfullscreen allow="autoplay" loading="lazy"></iframe>
         </div>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">GAMEPLAY EN ESPAÑOL</div>
+        <div class="video-wrapper">
+          <iframe src="https://youtube.com/embed/sf46wZNzk2M" title="Gameplay de ACE COMBAT 8: WINGS OF THEVE por DarkPlayer GamingTV" allowfullscreen allow="autoplay" loading="lazy"></iframe>
+        </div>
+        <p class="video-credito">Video de <a href="https://www.youtube.com/@DarkPlayerTV" target="_blank" rel="noopener">DarkPlayer GamingTV</a>, en su canal de YouTube.</p>
       </div>
       <div class="seccion">
         <div class="seccion-titulo">JUEGOS RELACIONADOS</div>

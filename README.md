@@ -1921,6 +1921,8 @@ y abrir http://localhost:8080
   | Football Manager 27 (PS5) | 10 de noviembre (Gematsu, 30/09) | **Ya está cargado en PS5 y Xbox.** Steam confirma el día; Xbox lo lista sin día y la PS Store no lo tiene |
   | Gaelco Sports Collection | 22 de octubre (Gematsu, 1/10) | **No se cargó**: la PS Store y Steam dicen "octubre de 2026" sin día, y Gematsu corta la lista de consolas. Xbox y la eShop no lo tienen |
   | Tenebris Somnia (Switch) | 16 de octubre en Switch y Switch 2 (GoNintendo) | **Ya está cargado en PS5, PS4, Xbox y Switch 2.** La eShop y Nintendo US no tienen ficha de ninguna de las dos versiones de Nintendo |
+  | Metro Redux (PS5 y Xbox Series) | 29 de octubre (Gematsu, 1/10) | **No se cargó**: la PS Store sólo tiene la versión de PS4 de 2014 y Xbox no lista la nueva. Cuando aparezca, va con `relanzamiento` como las ediciones de Switch 2 |
+  | Croc 2: Kingdom of the Gobbos | 29 de octubre (Gematsu y Steam, 1/10) | **Ya está cargado en PS5, PS4 y Xbox.** Steam confirma el día; la PS Store dice "por determinar" y Xbox lo lista sin día. La eShop no lo tiene |
   | Eternal Palace Sakura (Switch) | 5 de noviembre (Gematsu, 30/09) | Steam tiene el 4 de noviembre para PC; la eShop y Nintendo US no lo listan |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 
