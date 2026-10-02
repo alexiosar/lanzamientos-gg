@@ -18,6 +18,10 @@
 
 const MESES_INTRO = [
   {
+    mes: "2026-09",
+    intro: "Septiembre fue el mes más cargado del año, con 112 lanzamientos. Entre los estrenos, lo mejor puntuado fue Trails in the Sky 2nd Chapter, con 90, seguido por Fire Emblem: Fortune's Weave y Well Dweller, con 89; Onimusha: Way of the Sword sacó 85, Control Resonant y The Blood of Dawnwalker 83, y Silent Hill: Townfall 81. Marvel's Wolverine se quedó en 75. Entre las versiones nuevas de juegos que ya existían, The Witcher 3 Remastered para Switch 2 y Maestro llegaron a 93."
+  },
+  {
     mes: "2026-10",
     intro: "Octubre trae más de cien juegos. Arrancó con Ace Combat 8: Wings of Theve, que debutó con 88 en la crítica, y el 6 siguen Gears of War: E-Day y Star Wars: Galactic Racer. El 8 sale la colección de Kingdom Hearts, el 15 Castlevania: Belmont's Curse, el 22 Final Fantasy Resonance y Nintendo Switch Sports Resort, el 23 Call of Duty: Modern Warfare 4, y el 29 cierran Phantom Blade Zero y la remasterización de The Wolf Among Us."
   },
@@ -32,6 +36,18 @@ const MESES_INTRO = [
   {
     mes: "2027-01",
     intro: "Enero de 2027 tiene su semana fuerte a mitad de mes: el 14 sale Danganronpa 2x2 y el 15 Stranger Than Heaven, lo nuevo del estudio de Like a Dragon. El cierre es el 28, con Until Dawn 2 en PS5, Metroid Ravenous en Switch 2, Tropico 7 y Fate/EXTRA Record."
+  },
+  {
+    mes: "2027-02",
+    intro: "Febrero de 2027 es de los meses más fuertes del año. El 16 sale God of War: Laufey en PS5, el mismo día que Romancing SaGa 3: Destinies United, y una semana después, el 23, llega Fable a Xbox y PS5. Antes, el 4 sale Metro 2039 y el 12 Tomb Raider: Legacy of Atlantis. El 18 es el turno de Persona 4 Revival, y el 25 cierran la edición de Switch 2 de Hyrule Warriors: La era del cataclismo y Atelier Karia."
+  },
+  {
+    mes: "2027-03",
+    intro: "Marzo de 2027 se concentra en su primera semana: el 4 salen Wo Long 2: Wings of Ember, Trine 6: Together in Time y Eternal Anima, y el 5 Gundam Rogue Orbit. El 9 llega Grave Seasons, un simulador de granja con un asesino serial sobrenatural suelto en el pueblo, y el 11 Road Kings."
+  },
+  {
+    mes: "2027-04",
+    intro: "Abril de 2027 tiene dos días marcados: el 7 sale EXODUS, el RPG de ciencia ficción de Archetype Entertainment, y el 8 Final Fantasy VII Revelation en PS5, Xbox y Switch 2. El 21 llega Melty Blood: Twi-Lumina."
   }
 ];
 
