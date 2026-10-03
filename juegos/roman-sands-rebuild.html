@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">76 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('roman-sands-rebuild')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -161,6 +167,20 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de PC. La prensa lo recibe como una rareza fascinante: convierte un trabajo rutinario de atención al público en una exploración psicológica de la rutina, la supervivencia y la identidad, con dos realidades que se cruzan, una estética de principios de los 2000, humor negro, buena música y personajes extraños. El reparo que se repite es que el trabajo repetitivo puede volverse un obstáculo, y la reseña más dura dice que no lleva sus misterios hasta el final.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-03</span>
+            <span class="noticia-titulo">▸ LA CRÍTICA LE PONE 76</span>
+          </div>
+          <p class="noticia-texto">Con las primeras reseñas, todas de PC, la prensa lo destaca como una experiencia psicológica extraña y atrapante, y le marca lo repetitivo de su rutina de trabajo.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Una aventura que alterna entre un resort de lujo varado al borde del colapso ecológico y una instalación secreta que nadie quiere nombrar. Atendés a los huéspedes de día, atás cabos de noche y tratás de encontrar la salida antes de que el mundo termine de apagarse.</p>
@@ -196,6 +216,14 @@
               <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
             </span>
           </a>
+          <a class="rel-item" href="/juegos/titanic-escape-simulator">
+            <img class="rel-portada" src="https://store-images.s-microsoft.com/image/apps.41197.14169097010196939.ec3a0483-8e79-4a26-ac1e-bad65f656365.a166191b-dd4a-4510-8773-3ab7c1eaaefd?w=600&amp;h=900&amp;format=jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">TITANIC ESCAPE SIMULATOR</span>
+              <span class="rel-fecha">07 OCT</span>
+              <span class="plataformas"><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
           <a class="rel-item" href="/juegos/back-to-the-dawn">
             <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1735700/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -220,14 +248,6 @@
               <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span></span>
             </span>
           </a>
-          <a class="rel-item" href="/juegos/angeline-era">
-            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2393920/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">ANGELINE ERA</span>
-              <span class="rel-fecha">02 SEP</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-PS4">PS4</span></span>
-            </span>
-          </a>
         </div>
       </div>
       <div class="seccion">
@@ -247,6 +267,14 @@
               <span class="rel-titulo">SHELLDIVER</span>
               <span class="rel-fecha">01 SEP</span>
               <span class="plataformas"><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/angeline-era">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2393920/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">ANGELINE ERA</span>
+              <span class="rel-fecha">02 SEP</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-PS4">PS4</span></span>
             </span>
           </a>
           <a class="rel-item" href="/juegos/moonlighter-2-the-endless-vault">
@@ -271,14 +299,6 @@
               <span class="rel-titulo">AVATAR LEGENDS: THE FIGHTING GAME</span>
               <span class="rel-fecha">03 SEP</span>
               <span class="plataformas"><span class="plat plat-XBOX">XBOX</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/bioeden">
-            <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6vl.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">BIOEDEN</span>
-              <span class="rel-fecha">03 SEP</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
             </span>
           </a>
         </div>

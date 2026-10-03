@@ -2,149 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-02T18:53:20+00:00",
+ "generado": "2026-10-03T22:41:00+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-02",
- "hasta": "2026-11-01",
- "total": 88,
+ "desde": "2026-10-03",
+ "hasta": "2026-11-02",
+ "total": 93,
  "juegos": [
-  {
-   "id": "agefield-high-rock-the-school-xbox",
-   "titulo": "AGEFIELD HIGH: ROCK THE SCHOOL",
-   "relanzamiento": "En PC desde agosto de 2026 y en PS5 desde el 25 de septiembre — esta fecha corresponde a la edición de Xbox",
-   "duracion": "≈ 19 h (historia)",
-   "fecha": "2026-10-02",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "REFUGIUM GAMES",
-   "descripcion": "La edición de Xbox llega una semana después que la de PS5, con el mismo juego: los últimos tres meses de secundaria de Sam en el Agefield de principios de los 2000, repartidos entre clases obligatorias, travesuras con los amigos y un pueblo para recorrer.",
-   "trailer": "https://youtube.com/embed/7OU1g4j-ap8",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3562580/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/agefield-high-rock-the-school-xbox"
-  },
-  {
-   "id": "ace-combat-8-wings-of-theve",
-   "titulo": "ACE COMBAT 8: WINGS OF THEVE",
-   "fecha": "2026-10-02",
-   "plataformas": [
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "ACCION"
-   ],
-   "desarrollador": "BANDAI NAMCO ACES INC.",
-   "descripcion": "La nueva entrega de Ace Combat, con combates aéreos intensos y armamento pesado. El centro es una campaña con misiones de alto riesgo, decisiones difíciles y relaciones con el resto del escuadrón.",
-   "trailer": "https://youtube.com/embed/cW6zBuO7sb4",
-   "gameplay": {
-    "video": "https://youtube.com/embed/sf46wZNzk2M",
-    "canal": "DarkPlayer GamingTV",
-    "canalUrl": "https://www.youtube.com/@DarkPlayerTV"
-   },
-   "metacritic": 88,
-   "metacriticUsuarios": null,
-   "critica": "La prensa lo recibe como lo mejor de la serie o muy cerca. El combate aéreo sigue siendo lo más adictivo, con controles muy precisos, y la campaña de treinta misiones suma variedad, con misiones en aviones de apoyo y una historia más personal sobre guerra, propaganda y heroísmo fabricado; la música y lo visual se elogian en casi todas las reseñas. Vuelven las órdenes al escuadrón y hay más aviones y armas especiales. Los reparos son menores: escenas que cortan el ritmo, algo de melodrama, cierta repetición, una apuesta conservadora después del éxito de Ace Combat 7 y problemas de resolución en consolas.",
-   "imagen": "https://cdn2.steamgriddb.com/grid/a5ac85c0f395122aad68367e649fd342.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve",
-   "noticias": [
-    {
-     "fecha": "2026-10-02",
-     "titulo": "SALE HOY Y DEBUTA CON 88",
-     "texto": "Llega a PS5 y Xbox con un 88 sobre más de sesenta reseñas, varias con nota perfecta. La prensa destaca el combate aéreo, una campaña de treinta misiones con una historia más personal y la música, y le marca escenas que cortan el ritmo."
-    },
-    {
-     "fecha": "2026-09-25",
-     "titulo": "UNA HISTORIA EN PRIMERA PERSONA",
-     "texto": "La campaña cambia la forma de contar: el protagonista es un piloto rescatado a la deriva por el portaaviones Endurance, al que ponen de navegante de Jan «Rex» Cope, el Wings of Theve, un as que en realidad es una herramienta de propaganda con órdenes de no pelear. Cuando Cope muere en un derribo, el protagonista hereda su apodo. Bandai Namco también publicó un repaso de cinco minutos de cómo se juega."
-    },
-    {
-     "fecha": "2026-09-24",
-     "titulo": "LA CINEMÁTICA DE APERTURA, A UNA SEMANA DE SALIR",
-     "texto": "Bandai Namco publicó la cinemática con la que arranca el juego, que sale el 2 de octubre en PS5 y Xbox."
-    }
-   ]
-  },
-  {
-   "id": "paw-patrol-dino-world-switch-2",
-   "titulo": "PAW PATROL: DINO WORLD",
-   "fecha": "2026-10-02",
-   "relanzamiento": "En PS5, Xbox y PS4 desde el 31 de julio de 2026 — esta fecha corresponde a la edición de Switch 2",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "ACCION",
-    "COOP"
-   ],
-   "desarrollador": "3DCLOUDS",
-   "descripcion": "La edición de Switch 2 de la aventura de la Patrulla Canina en la Isla Dino, dos meses después del resto de las consolas. Mismos minijuegos, misiones y construcción de conjuntos prehistóricos con Rex.",
-   "trailer": "https://youtube.com/embed/2ccwZwR0pv0",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobxhw.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-01",
-   "url": "https://lanzamientos.lat/juegos/paw-patrol-dino-world-switch-2"
-  },
-  {
-   "id": "rally-hypercar-bundle",
-   "titulo": "RALLY & HYPERCAR BUNDLE",
-   "fecha": "2026-10-02",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "CARRERAS",
-    "ARCADE"
-   ],
-   "desarrollador": "SUPERPOWERUPGAMES",
-   "descripcion": "Dos juegos de carreras en un paquete, uno de rally y otro de superdeportivos. Es de los baratos de la eShop, del mismo estudio que arma los Power Racing Bundle.",
-   "trailer": null,
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocm19.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/rally-hypercar-bundle"
-  },
-  {
-   "id": "screaming-halls-horror",
-   "titulo": "SCREAMING HALLS: HORROR",
-   "fecha": "2026-10-02",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "HORROR",
-    "ACCION",
-    "ARCADE",
-    "INDIE"
-   ],
-   "desarrollador": "DOWNMEADOWSTREET",
-   "descripcion": "Terror de pasillos que no terminan nunca: se avanza por corredores que se repiten con variaciones y hay que notar qué cambió para salir. Corto y de sustos directos.",
-   "trailer": null,
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocq0l.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/screaming-halls-horror"
-  },
   {
    "id": "gears-of-war-e-day",
    "titulo": "GEARS OF WAR: E-DAY",
@@ -239,6 +103,42 @@
    "url": "https://lanzamientos.lat/juegos/disney-epic-mickey-rebrushed"
   },
   {
+   "id": "kingdom-hearts-collection",
+   "titulo": "KINGDOM HEARTS COLLECTION [I~III]",
+   "fecha": "2026-10-06",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "ACCION",
+    "AVENTURA",
+    "ANIME"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "La saga completa de Kingdom Hearts reunida en un solo paquete: los tres juegos principales con todo lo que fueron sumando a lo largo de los años, en consolas actuales.",
+   "trailer": "https://youtube.com/embed/qiE8hv-drXs",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocb28.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/kingdom-hearts-collection",
+   "noticias": [
+    {
+     "fecha": "2026-10-03",
+     "titulo": "SALE EL 6 EN PS5 Y XBOX, Y EL 8 EN SWITCH 2",
+     "texto": "La PS Store y la tienda de Xbox lo tienen para el 6 de octubre. En Switch 2, la eShop y Nintendo confirman el 8."
+    },
+    {
+     "fecha": "2026-06-09",
+     "titulo": "QUÉ TRAE LA COLECCIÓN",
+     "texto": "Square Enix confirmó que junta Kingdom Hearts HD 1.5+2.5 ReMIX, Kingdom Hearts HD 2.8 Final Chapter Prologue y Kingdom Hearts III con la expansión Re Mind. Los tres también se venden por separado, y en Switch 2 hay una demo de Kingdom Hearts III + Re Mind."
+    }
+   ]
+  },
+  {
    "id": "quern-undying-thoughts",
    "titulo": "QUERN - UNDYING THOUGHTS",
    "relanzamiento": "En PC desde noviembre de 2016 — esta fecha corresponde a la edición de Switch",
@@ -304,6 +204,97 @@
    ]
   },
   {
+   "id": "hidden-dogs",
+   "titulo": "HIDDEN DOGS",
+   "fecha": "2026-10-07",
+   "relanzamiento": "En PC desde septiembre de 2025",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "PUZZLE",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "ADMIRAL EGG GAMES",
+   "descripcion": "Un juego de buscar objetos escondidos en una campiña inglesa dibujada a mano: hay más de 500 perros y objetos repartidos en 15 niveles, y a medida que se encuentran el mapa se llena de vida, con aviones, barcos y trenes. La excusa es ayudar a Labby a hacer un videojuego para perros, y si algo no aparece está el silbato para perros como pista.",
+   "trailer": "https://youtube.com/embed/w5ywXi6BVrI",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.60633.13798319223921984.7d9dc0ec-36b9-4d37-8520-6948918a215a.eba5a698-b74a-4e1b-a477-8aa0a3869176?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/hidden-dogs",
+   "noticias": [
+    {
+     "fecha": "2026-10-02",
+     "titulo": "SALE EL 7 EN XBOX Y EL 8 EN SWITCH",
+     "texto": "La tienda de Xbox lo tiene para el 7 de octubre y la eShop para el 8. En PC salió en septiembre de 2025."
+    }
+   ]
+  },
+  {
+   "id": "titanic-escape-simulator",
+   "titulo": "TITANIC ESCAPE SIMULATOR",
+   "fecha": "2026-10-07",
+   "relanzamiento": "En PC desde agosto de 2026",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "SIMULACION",
+    "INDIE"
+   ],
+   "desarrollador": "MAGICPROSTUDIO",
+   "descripcion": "Un misterio a bordo del Titanic la noche del 14 de abril de 1912. El protagonista es un investigador privado que, durante el viaje, se encuentra con una muerte sospechosa: hay que interrogar pasajeros, revisar camarotes y seguir pistas desde la primera clase hasta las cubiertas inferiores, mientras el barco se acerca a su final.",
+   "trailer": "https://youtube.com/embed/xRgKooCKJ_Q",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.41197.14169097010196939.ec3a0483-8e79-4a26-ac1e-bad65f656365.a166191b-dd4a-4510-8773-3ab7c1eaaefd?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/titanic-escape-simulator",
+   "noticias": [
+    {
+     "fecha": "2026-10-02",
+     "titulo": "LLEGA A XBOX EL 7 DE OCTUBRE",
+     "texto": "Sale en Xbox dos meses después del estreno en PC. La PS Store lo lista para 2026, todavía sin día."
+    }
+   ]
+  },
+  {
+   "id": "voltaire-the-vegan-vampire",
+   "titulo": "VOLTAIRE: THE VEGAN VAMPIRE",
+   "fecha": "2026-10-07",
+   "relanzamiento": "En PC desde 2023 y en Switch desde 2024; también está en PS5",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "SIMULACION",
+    "INDIE"
+   ],
+   "desarrollador": "JANDUSOFT",
+   "descripcion": "Una mezcla de acción, granja y roguelite ambientada en Transilvania. Voltaire, el hijo menor de Drácula, deja la sangre por una dieta a base de plantas solo para llevarle la contra a su padre, y con la ayuda de los tíos Frank y Stein se escapa para arrancar su propia vida: de día se cultiva y de noche se defiende la cosecha, con arte dibujado a mano y humor macabro.",
+   "trailer": "https://youtube.com/embed/8iWirHVeDMY",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.15274.14073636970543458.ec8a562c-31a3-4cf6-b1e4-4f2679b0cdd6.4adfc98e-26f3-4430-acae-99f805def1c0?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/voltaire-the-vegan-vampire",
+   "noticias": [
+    {
+     "fecha": "2026-10-02",
+     "titulo": "LLEGA A XBOX EL 7 DE OCTUBRE",
+     "texto": "Después de PC, Switch y PS5, el 7 de octubre sale también en Xbox."
+    }
+   ]
+  },
+  {
    "id": "clive-barkers-hellraiser-revival",
    "titulo": "CLIVE BARKER'S HELLRAISER: REVIVAL",
    "fecha": "2026-10-08",
@@ -357,10 +348,17 @@
    "trailer": "https://youtube.com/embed/rSIO3y56Dh4",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2184080/library_600x900.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/echo-weaver"
+   "url": "https://lanzamientos.lat/juegos/echo-weaver",
+   "noticias": [
+    {
+     "fecha": "2026-10-02",
+     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
+     "texto": "Xbox confirmó que llega a Game Pass el 8 de octubre, el mismo día del estreno."
+    }
+   ]
   },
   {
    "id": "hell-is-us",
@@ -476,13 +474,12 @@
    "url": "https://lanzamientos.lat/juegos/mamon-king"
   },
   {
-   "id": "kingdom-hearts-collection",
+   "id": "kingdom-hearts-collection-switch-2",
    "titulo": "KINGDOM HEARTS COLLECTION [I~III]",
    "fecha": "2026-10-08",
+   "relanzamiento": "En PS5 y Xbox desde el 6 de octubre de 2026 — esta fecha corresponde a la edición de Switch 2",
    "plataformas": [
-    "SWITCH2",
-    "XBOX",
-    "PS5"
+    "SWITCH2"
    ],
    "genero": [
     "RPG",
@@ -497,9 +494,14 @@
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocb28.jpg",
    "gamepass": false,
    "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/kingdom-hearts-collection",
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/kingdom-hearts-collection-switch-2",
    "noticias": [
+    {
+     "fecha": "2026-10-03",
+     "titulo": "SALE EL 6 EN PS5 Y XBOX, Y EL 8 EN SWITCH 2",
+     "texto": "La PS Store y la tienda de Xbox lo tienen para el 6 de octubre. En Switch 2, la eShop y Nintendo confirman el 8."
+    },
     {
      "fecha": "2026-06-09",
      "titulo": "QUÉ TRAE LA COLECCIÓN",
@@ -756,6 +758,127 @@
    ]
   },
   {
+   "id": "hidden-dogs-switch",
+   "titulo": "HIDDEN DOGS",
+   "fecha": "2026-10-08",
+   "relanzamiento": "En PC desde septiembre de 2025 y en Xbox desde el 7 de octubre de 2026 — esta fecha corresponde a la edición de Switch",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "PUZZLE",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "ADMIRAL EGG GAMES",
+   "descripcion": "Un juego de buscar objetos escondidos en una campiña inglesa dibujada a mano: hay más de 500 perros y objetos repartidos en 15 niveles, y a medida que se encuentran el mapa se llena de vida, con aviones, barcos y trenes. La excusa es ayudar a Labby a hacer un videojuego para perros, y si algo no aparece está el silbato para perros como pista.",
+   "trailer": "https://youtube.com/embed/w5ywXi6BVrI",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.60633.13798319223921984.7d9dc0ec-36b9-4d37-8520-6948918a215a.eba5a698-b74a-4e1b-a477-8aa0a3869176?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/hidden-dogs-switch",
+   "noticias": [
+    {
+     "fecha": "2026-10-02",
+     "titulo": "SALE EL 7 EN XBOX Y EL 8 EN SWITCH",
+     "texto": "La tienda de Xbox lo tiene para el 7 de octubre y la eShop para el 8. En PC salió en septiembre de 2025."
+    }
+   ]
+  },
+  {
+   "id": "mypopgoes",
+   "titulo": "MYPOPGOES",
+   "fecha": "2026-10-08",
+   "relanzamiento": "En PC desde agosto de 2024",
+   "plataformas": [
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "SIMULACION",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "KANE CARTER",
+   "descripcion": "Un spin-off oficial de Five Nights at Freddy's, hecho por fans dentro del programa Fazbear Fanverse. Es un juego corto de manejar recursos con forma de mascota virtual: Popgoes, una comadreja que vive en un juguete de pantalla LCD, necesita pizza, bebidas y entretenimiento, y si no los recibe se desmaya. O algo peor. Suma una colección de minijuegos.",
+   "trailer": "https://youtube.com/embed/2CINF33_St4",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.32408.14238298347191908.a33c0bbf-d6d2-48a5-a555-488456116a36.de7ad824-6c13-4e29-a14f-c7d461a6213c?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/mypopgoes",
+   "noticias": [
+    {
+     "fecha": "2026-10-02",
+     "titulo": "LLEGA A CONSOLAS EL 8 DE OCTUBRE",
+     "texto": "Sale el mismo día en Xbox y Switch, dos años después del estreno en PC. La PS Store también lo tiene para el 8, todavía sin la plataforma confirmada."
+    }
+   ]
+  },
+  {
+   "id": "thunder-hoop-collection",
+   "titulo": "THUNDER HOOP COLLECTION",
+   "fecha": "2026-10-08",
+   "relanzamiento": "Reúne el original de 1992 y su secuela de 1994",
+   "plataformas": [
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "ACCION",
+    "RETRO"
+   ],
+   "desarrollador": "QUBYTE INTERACTIVE",
+   "descripcion": "Los dos Thunder Hoop juntos: plataformas y disparos contra los mutantes del profesor Genbreak, con el chico de laboratorio del original de 1992 y la versión adulta del héroe en la secuela de 1994, TH Strikes Back. La colección suma guardado en cualquier momento y otras comodidades modernas.",
+   "trailer": "https://youtube.com/embed/wp1PR2npxag",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.50666.14514070282526087.0afb9900-f99c-47ad-b512-8bbb3013c9cd.aea01087-e757-480c-85dd-7c47c8c55dfe?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/thunder-hoop-collection",
+   "noticias": [
+    {
+     "fecha": "2026-10-02",
+     "titulo": "SALE EL 8 DE OCTUBRE",
+     "texto": "QUByte lo saca el mismo día en Xbox, Switch y PC."
+    }
+   ]
+  },
+  {
+   "id": "ultimate-admiral-dreadnoughts",
+   "titulo": "ULTIMATE ADMIRAL: DREADNOUGHTS",
+   "fecha": "2026-10-08",
+   "relanzamiento": "En PC desde enero de 2023",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "SIMULACION"
+   ],
+   "desarrollador": "GAME-LABS",
+   "descripcion": "Estrategia naval que gira alrededor del diseño de barcos: se construyen acorazados realistas, desde réplicas como el HMS Dreadnought hasta diseños inventados, para diez naciones y con tecnología de 1890 a 1950, y después se los manda a batallas con un modelo de combate muy detallado. La campaña suma la economía y la estrategia de la guerra.",
+   "trailer": "https://youtube.com/embed/YPSaaF8cYOI",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.34019.14506293422076803.2032cc2e-3413-4f14-92e4-feb0f106605b.39f9a465-0fe1-476f-8211-9cefc7c179c7?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/ultimate-admiral-dreadnoughts",
+   "noticias": [
+    {
+     "fecha": "2026-10-02",
+     "titulo": "LLEGA A XBOX EL 8 DE OCTUBRE",
+     "texto": "Sale en consolas casi cuatro años después del estreno en PC. La PS Store también lo lista, todavía sin día."
+    }
+   ]
+  },
+  {
    "id": "paperhead",
    "titulo": "PAPERHEAD",
    "fecha": "2026-10-09",
@@ -913,6 +1036,49 @@
    "psplus": false,
    "alta": "2026-09-03",
    "url": "https://lanzamientos.lat/juegos/tmnt-arcade-wrath-of-the-mutants-switch-2"
+  },
+  {
+   "id": "cozy-meowmory",
+   "titulo": "COZY MEOWMORY",
+   "fecha": "2026-10-09",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "PUZZLE",
+    "CASUAL",
+    "RELAX"
+   ],
+   "desarrollador": "LUKAVERSE",
+   "descripcion": "Un juego tranquilo de encontrar diferencias entre habitaciones llenas de gatos: objetos que se mueven, desaparecen, giran o cambian de color. Algunos niveles muestran las dos habitaciones juntas y otros obligan a memorizar una antes de ver la otra, con ayudas para cuando se complica.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.23217.13659597671065926.bd6a9990-5006-4946-bd42-d2dea44cd524.a661d0ea-9c63-47a4-bf46-0a850184bc2a?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/cozy-meowmory"
+  },
+  {
+   "id": "whisker-mess",
+   "titulo": "WHISKER MESS",
+   "fecha": "2026-10-09",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "PUZZLE",
+    "CASUAL"
+   ],
+   "desarrollador": "AFIL GAMES",
+   "descripcion": "Un puzzle de encastrar piezas con forma de gato en un tablero: completar líneas horizontales, verticales y, en algunos niveles, diagonales, despeja piezas y juguetes y hace lugar para las siguientes. Los bloqueadores funcionan como paredes extra y cambian cómo se pueden armar las líneas.",
+   "trailer": "https://youtube.com/embed/9TIzgwnrIdM",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.17197.13631340793729352.de577d83-ac09-4601-9fe3-7943ca8829ab.c355ccb9-8c5a-461f-97b8-9f303597f627?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-03",
+   "url": "https://lanzamientos.lat/juegos/whisker-mess"
   },
   {
    "id": "colorbound",

@@ -23,7 +23,7 @@ const MESES_INTRO = [
   },
   {
     mes: "2026-10",
-    intro: "Octubre trae más de cien juegos. Arrancó con Ace Combat 8: Wings of Theve, que debutó con 88 en la crítica, y el 6 siguen Gears of War: E-Day y Star Wars: Galactic Racer. El 8 sale la colección de Kingdom Hearts, el 15 Castlevania: Belmont's Curse, el 22 Final Fantasy Resonance y Nintendo Switch Sports Resort, el 23 Call of Duty: Modern Warfare 4, y el 29 cierran Phantom Blade Zero y la remasterización de The Wolf Among Us."
+    intro: "Octubre trae más de cien juegos. Arrancó con Ace Combat 8: Wings of Theve, que debutó con 88 en la crítica, y el 6 siguen Gears of War: E-Day, Star Wars: Galactic Racer y la colección de Kingdom Hearts, que en Switch 2 llega el 8. El 15 sale Castlevania: Belmont's Curse, el 22 Final Fantasy Resonance y Nintendo Switch Sports Resort, el 23 Call of Duty: Modern Warfare 4, y el 29 cierran Phantom Blade Zero y la remasterización de The Wolf Among Us."
   },
   {
     mes: "2026-11",

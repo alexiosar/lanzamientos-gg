@@ -44,6 +44,15 @@
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
     .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -138,7 +147,7 @@
             <div>
               <span class="ficha-campo-label">METACRITIC</span>
               <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">75 <span class="badge-quien">CRÍTICA</span></span>
-              <span class="badge-metacritic meta-medio" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 5294 votos">6.7 <span class="badge-quien">USUARIOS</span></span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 5392 votos">6.7 <span class="badge-quien">USUARIOS</span></span>
             </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
@@ -173,6 +182,15 @@
       </div>
       <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-01</span>
+            <span class="noticia-titulo">▸ EL ESCALADO POR IA DE LA PS5 PRO LLEGA A LA PS5 COMÚN</span><span class="noticia-cat cat-anuncios">ANUNCIOS</span>
+          </div>
+          <p class="noticia-texto">Sony anunció QSSR, una versión más liviana de PSSR, el escalado por inteligencia artificial que hasta ahora era exclusivo de la PS5 Pro. Mejora el detalle y la estabilidad de la imagen en la PS5 común, aunque PSSR sigue siendo superior en la Pro. Nació de Project Amethyst, la colaboración de Sony con AMD.
+
+Los primeros juegos en usarlo son Marvel&#x27;s Wolverine y Ghost of Yōtei, que ya tienen parches con QSSR como opción gráfica. Sony dice que va a estar disponible para todos los estudios que hacen juegos de PlayStation.</p><a class="noticia-fuente" href="https://blog.latam.playstation.com/2026/10/01/la-optimizacion-de-ia-llega-a-ps5/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-09-14</span>
