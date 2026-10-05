@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-03T22:41:00+00:00",
+ "generado": "2026-10-05T15:52:48+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-03",
- "hasta": "2026-11-02",
- "total": 93,
+ "desde": "2026-10-05",
+ "hasta": "2026-11-04",
+ "total": 100,
  "juegos": [
   {
    "id": "gears-of-war-e-day",
@@ -65,13 +65,19 @@
    "desarrollador": "FUSE GAMES",
    "descripcion": "Un juego de carreras de Star Wars ambientado después de la caída del Imperio. En el Borde Exterior nace la Liga Galáctica, un circuito clandestino financiado por sindicatos criminales donde se hacen los campeones.",
    "trailer": "https://youtube.com/embed/Je9SLyqRtc0",
-   "metacritic": null,
+   "metacritic": 88,
+   "critica": "La prensa lo recibe como el juego de carreras de Star Wars que se esperaba desde Episode I: Racer, y varias reseñas lo comparan con Burnout. Se elogian la sensación de velocidad, un manejo distinto para cada vehículo, una campaña por partidas con estructura roguelite que siempre trae algo nuevo, un multijugador sólido y escenarios como Jakku o Crait. Los reparos se repiten en las notas más bajas: poca variedad de pistas, que con el tiempo se nota, pocas carreras de pods, algunos modos clásicos que se extrañan y segmentos a pie flojos.",
    "imagen": "https://cdn2.steamgriddb.com/grid/a592d9fe5ade10553913fb1b94f1175c.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/star-wars-galactic-racer",
    "noticias": [
+    {
+     "fecha": "2026-10-05",
+     "titulo": "SALE MAÑANA Y DEBUTA CON 88",
+     "texto": "Llega el 6 de octubre a PS5 y Xbox con 88 en Metacritic sobre más de sesenta reseñas. La prensa celebra la velocidad y la campaña roguelite, y le marca poca variedad de pistas."
+    },
     {
      "fecha": "2026-09-11",
      "titulo": "PRESENTÓ LOS SKIM SPEEDERS",
@@ -1748,6 +1754,68 @@
    ]
   },
   {
+   "id": "dunecrawl",
+   "titulo": "DUNECRAWL",
+   "fecha": "2026-10-19",
+   "relanzamiento": "En PC desde enero de 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "ALIENTRAP",
+   "descripcion": "Una aventura de acción cooperativa para hasta cuatro, online o en la misma consola, en la que se cruza un desierto a bordo de un cangrejo gigante cargado de cañones. Se exploran islas oasis y mazmorras, se defienden pueblos de bandidos y de hordas de insectos, y se ayuda a los peregrinos Polloi en su guerra contra el Ceramista. Solo también se puede, con un compañero fantasma que da una mano.",
+   "trailer": "https://youtube.com/embed/ttwLu8Y8J_s",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833200/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-05",
+   "url": "https://lanzamientos.lat/juegos/dunecrawl",
+   "noticias": [
+    {
+     "fecha": "2026-10-05",
+     "titulo": "SALE EL 19 DE OCTUBRE EN PS5 Y XBOX",
+     "texto": "Alientrap puso fecha para PS5 y Xbox. Las versiones de Switch 2 y Switch llegan más adelante en 2026, sin día todavía. En PC está desde enero."
+    }
+   ]
+  },
+  {
+   "id": "frostpunk-switch",
+   "titulo": "FROSTPUNK",
+   "fecha": "2026-10-19",
+   "relanzamiento": "En PC desde 2018 y en PS4 y Xbox One desde 2019 — esta fecha corresponde a la edición de Switch",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "SIMULACION",
+    "SUPERVIVENCIA"
+   ],
+   "desarrollador": "11 BIT STUDIOS",
+   "descripcion": "Un juego de supervivencia de una sociedad en un mundo congelado. Se gobierna la última ciudad de la Tierra, construida alrededor de un generador de vapor: hay que juntar recursos para que la gente no muera de frío, promulgar leyes y explorar los alrededores, y casi siempre lo eficiente choca con lo humano. Cada decisión tiene un precio.",
+   "trailer": "https://youtube.com/embed/_LdRNF9LKyA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-05",
+   "url": "https://lanzamientos.lat/juegos/frostpunk-switch",
+   "noticias": [
+    {
+     "fecha": "2026-10-05",
+     "titulo": "LLEGA A SWITCH EL 19 DE OCTUBRE",
+     "texto": "11 bit studios puso fecha a la versión de Switch del primer Frostpunk, ocho años después del estreno en PC."
+    }
+   ]
+  },
+  {
    "id": "we-were-here-tomorrow",
    "titulo": "WE WERE HERE TOMORROW",
    "fecha": "2026-10-20",
@@ -2556,6 +2624,128 @@
    "psplus": false,
    "alta": "2026-09-10",
    "url": "https://lanzamientos.lat/juegos/tarot-tokens"
+  },
+  {
+   "id": "zero-parades-for-dead-spies",
+   "titulo": "ZERO PARADES: FOR DEAD SPIES",
+   "relanzamiento": "En PC desde mayo de 2026 — esta fecha corresponde a la edición de PS5",
+   "duracion": "≈ 21 h (historia) · 38 h (completo)",
+   "fecha": "2026-11-03",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "ZA/UM",
+   "descripcion": "El RPG de espionaje de ZA/UM, el estudio que hizo Disco Elysium. El protagonismo es de Hershel Wilk, alias Cascade, que carga desde hace cinco años con una misión en la que perdió a todo su equipo, hasta que llega un encargo misterioso. Todo se resuelve con tiradas de habilidad, por engaño, violencia o deducción, en una ciudad partida entre tres bandos. En PS5 llega como Director's Cut, con la actualización del mismo nombre.",
+   "trailer": "https://youtube.com/embed/C_acH7Wx1Ew",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/26ba856ac2a18ce42499c6053aa678e4.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/zero-parades-for-dead-spies"
+  },
+  {
+   "id": "lets-sing-2027",
+   "titulo": "LET'S SING 2027",
+   "fecha": "2026-11-03",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "MUSICA",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "VOXLER",
+   "descripcion": "La entrega anual del karaoke de Ravenscourt, con la lista de temas actualizada y los modos de siempre para cantar de a varios. Se juega con micrófonos o con el celular como micrófono, que es lo que lo hace fácil de sacar en una juntada.",
+   "trailer": "https://youtube.com/embed/d16zccHDscM",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1s.jpg",
+   "alta": "2026-08-25",
+   "url": "https://lanzamientos.lat/juegos/lets-sing-2027"
+  },
+  {
+   "id": "lets-sing-abba",
+   "titulo": "LET'S SING ABBA",
+   "relanzamiento": "El original salió en octubre de 2022 — esta es la edición de Switch 2",
+   "fecha": "2026-11-03",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "MUSICA",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "VOXLER",
+   "descripcion": "Un Let's Sing dedicado entero a ABBA, con el repertorio del grupo sueco en vez de la lista variada de la entrega anual. Mismo formato: se canta de a varios, con micrófonos o usando el celular.",
+   "trailer": "https://youtube.com/embed/A0ZONw-vPmE",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1w.jpg",
+   "alta": "2026-08-25",
+   "url": "https://lanzamientos.lat/juegos/lets-sing-abba"
+  },
+  {
+   "id": "godzilla-destroy-all-monsters-melee-remastered",
+   "titulo": "GODZILLA: DESTROY ALL MONSTERS MELEE REMASTERED",
+   "duracion": "≈ 1,1 h (historia) · 4,1 h (completo)",
+   "fecha": "2026-11-03",
+   "relanzamiento": "Remaster del clásico de GameCube y Xbox (2002)",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "LUCHA",
+    "ACCION"
+   ],
+   "desarrollador": "PIPEWORKS STUDIOS",
+   "descripcion": "La remasterización del juego de peleas de monstruos gigantes de Godzilla. Se elige un monstruo y se destroza la ciudad a golpes, contra amigos en local o en el multijugador online nuevo.",
+   "trailer": "https://youtube.com/embed/8N9QN4X1pIk",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/49a971f590a2340c314be8d59a676c7f.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/godzilla-destroy-all-monsters-melee-remastered"
+  },
+  {
+   "id": "void-breaker",
+   "titulo": "VOID/BREAKER",
+   "fecha": "2026-11-04",
+   "relanzamiento": "En acceso anticipado en PC desde 2025 y en Game Preview en Xbox",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "SHOOTER",
+    "FPS",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "STUBBY GAMES",
+   "descripcion": "Un shooter roguelite en primera persona, rápido y con mucha movilidad. Una IA hostil tiene al protagonista atrapado en un ciclo sin fin de peleas contra máquinas, y la única forma de escapar es romper el sistema. Las armas se modifican casi sin límite combinando mods para armar sinergias, y los escenarios se pueden destruir.",
+   "trailer": "https://youtube.com/embed/kSkke3Bv84o",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.20544.13536036111571877.589d3b26-235b-491c-b54b-52bb688c551a.75e42099-ab23-4790-9d28-58ea2fa9077d?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-02",
+   "url": "https://lanzamientos.lat/juegos/void-breaker",
+   "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "SALE EL 4 DE NOVIEMBRE Y DEBUTA EN PS5",
+     "texto": "Ese día deja el acceso anticipado de PC y el Game Preview de Xbox, y llega por primera vez a PS5."
+    }
+   ]
   }
  ]
 }

@@ -6,7 +6,28 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Sat, 03 Oct 2026 22:41:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 15:52:48 +0000</lastBuildDate>
+    <item>
+      <title>STAR WARS: GALACTIC RACER: SALE MAÑANA Y DEBUTA CON 88</title>
+      <link>https://lanzamientos.lat/juegos/star-wars-galactic-racer</link>
+      <guid isPermaLink="false">star-wars-galactic-racer-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Llega el 6 de octubre a PS5 y Xbox con 88 en Metacritic sobre más de sesenta reseñas. La prensa celebra la velocidad y la campaña roguelite, y le marca poca variedad de pistas. — STAR WARS: GALACTIC RACER para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>DUNECRAWL: SALE EL 19 DE OCTUBRE EN PS5 Y XBOX</title>
+      <link>https://lanzamientos.lat/juegos/dunecrawl</link>
+      <guid isPermaLink="false">dunecrawl-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Alientrap puso fecha para PS5 y Xbox. Las versiones de Switch 2 y Switch llegan más adelante en 2026, sin día todavía. En PC está desde enero. — DUNECRAWL para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>FROSTPUNK: LLEGA A SWITCH EL 19 DE OCTUBRE</title>
+      <link>https://lanzamientos.lat/juegos/frostpunk-switch</link>
+      <guid isPermaLink="false">frostpunk-switch-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+      <description>11 bit studios puso fecha a la versión de Switch del primer Frostpunk, ocho años después del estreno en PC. — FROSTPUNK para SWITCH.</description>
+    </item>
     <item>
       <title>ROMAN SANDS RE:BUILD: LA CRÍTICA LE PONE 76</title>
       <link>https://lanzamientos.lat/juegos/roman-sands-rebuild</link>
@@ -267,27 +288,6 @@ Los primeros juegos en usarlo son Marvel's Wolverine y Ghost of Yōtei, que ya t
       <guid isPermaLink="false">kong-survivor-instinct-2026-09-30</guid>
       <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
       <description>Llega dos años después del estreno en PS5, Xbox y PC, donde la prensa lo recibió como una sorpresa para un juego con licencia, con reparos a la historia y al plataformeo. — KONG: SURVIVOR INSTINCT para SWITCH.</description>
-    </item>
-    <item>
-      <title>MONOWAVE: LA CRÍTICA LE PONE 76</title>
-      <link>https://lanzamientos.lat/juegos/monowave</link>
-      <guid isPermaLink="false">monowave-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Con las primeras reseñas de la versión de Switch, la prensa lo recomienda como un plataformas de puzzles simpático y accesible, y le marca controles flotantes. En PS5 y Xbox llega más adelante. — MONOWAVE para SWITCH.</description>
-    </item>
-    <item>
-      <title>QUERN - UNDYING THOUGHTS: SALE EL 6 DE OCTUBRE EN SWITCH</title>
-      <link>https://lanzamientos.lat/juegos/quern-undying-thoughts</link>
-      <guid isPermaLink="false">quern-undying-thoughts-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Llega a Switch casi diez años después del estreno en PC, de noviembre de 2016. — QUERN - UNDYING THOUGHTS para SWITCH.</description>
-    </item>
-    <item>
-      <title>QUEEN'S DOMAIN: SALE EL 30 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/queens-domain</link>
-      <guid isPermaLink="false">queens-domain-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Future Friends Games puso fecha y anunció las versiones de consola: PS5, Xbox Series y Switch 2. En PC sale el mismo día. — QUEEN'S DOMAIN para PS5 / XBOX / SWITCH 2.</description>
     </item>
   </channel>
 </rss>

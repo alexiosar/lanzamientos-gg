@@ -1929,6 +1929,8 @@ y abrir http://localhost:8080
   | Metro Redux (PS5 y Xbox Series) | 29 de octubre (Gematsu, 1/10) | **No se cargó**: la PS Store sólo tiene la versión de PS4 de 2014 y Xbox no lista la nueva. Cuando aparezca, va con `relanzamiento` como las ediciones de Switch 2 |
   | Croc 2: Kingdom of the Gobbos | 29 de octubre (Gematsu y Steam, 1/10) | **Ya está cargado en PS5, PS4 y Xbox.** Steam confirma el día; la PS Store dice "por determinar" y Xbox lo lista sin día. La eShop no lo tiene |
   | Sturmjäger (Switch) | 14 de enero de 2027 (releases.com) | **Ya está cargado en PS5 y Xbox**, que confirman el día. La eShop no lo tiene |
+  | Psikyo Memories | 18 de febrero de 2027 en PS5 y Switch 2 (Gematsu, 5/10) | **No se cargó**: ni la PS Store ni la eShop ni Nintendo US lo listan todavía |
+  | DuneCrawl (Switch 2 y Switch) | Más adelante en 2026 (Gematsu, 5/10) | **Ya está cargado en PS5 y Xbox**, que salen el 19/10. Las de Nintendo no tienen día ni ficha |
   | Eternal Palace Sakura (Switch) | 5 de noviembre (Gematsu, 30/09) | Steam tiene el 4 de noviembre para PC; la eShop y Nintendo US no lo listan |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 
