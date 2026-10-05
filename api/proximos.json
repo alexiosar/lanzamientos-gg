@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-05T16:56:33+00:00",
+ "generado": "2026-10-05T22:23:36+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-05",
@@ -99,7 +99,7 @@
     "AVENTURA"
    ],
    "desarrollador": "PURPLE LAMP",
-   "descripcion": "La remasterización de Epic Mickey, el plataformas en 3D donde Mickey usa un pincel mágico para pintar o borrar partes del escenario y transformar el Páramo.",
+   "descripcion": "La remasterización de Epic Mickey, el plataformas en 3D en el que Mickey recorre el Páramo, un mundo de personajes de Disney olvidados, con un pincel mágico: la pintura restaura el escenario y el disolvente lo borra para descubrir secretos. Lo que se elige pintar o borrar cambia el destino de Mickey y del Páramo, y en el camino aparece Oswald, el conejo afortunado, la primera creación de Walt Disney.",
    "trailer": "https://youtube.com/embed/j76rpUMA1Gg",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1522160/library_600x900.jpg",
@@ -402,7 +402,7 @@
     "ACCION"
    ],
    "desarrollador": "SANDLOT",
-   "descripcion": "Defendé a la humanidad con uñas y dientes. Este shooter arcade transcurre en un futuro cercano invadido por insectos gigantes y ejércitos alienígenas: elegí entre cuatro clases y desatá un arsenal descomunal, solo o en cooperativo.",
+   "descripcion": "Un shooter arcade de defensa de la Tierra. En 2022 el planeta sufre una invasión de insectos gigantes y de los Primers, los primeros alienígenas humanoides de la serie, y hay que frenarla como soldado de la EDF. Hay cuatro clases y un arsenal enorme, con más misiones y armas que cualquier entrega anterior, y todo se puede jugar en cooperativo online para cuatro o en pantalla dividida.",
    "trailer": "https://youtube.com/embed/k2iao4WSFrQ",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1007040/library_600x900.jpg",
@@ -424,7 +424,7 @@
     "CARRERAS"
    ],
    "desarrollador": "UBISOFT IVORY TOWER",
-   "descripcion": "Un juego de manejo en mundo abierto ambientado en la isla de O'ahu, en Hawái. Se corren carreras, se participa de eventos temáticos dedicados a distintas culturas del auto y se coleccionan cientos de modelos conocidos.",
+   "descripcion": "Un juego de manejo en mundo abierto en la isla de O'ahu, en Hawái: carreras por las calles de Honolulu, por laderas cubiertas de ceniza volcánica y en circuitos de derrape. Está armado en campañas temáticas dedicadas a distintas culturas del auto, como los muscle cars norteamericanos, las carreras callejeras al estilo japonés o los clásicos, y hay cientos de modelos para coleccionar y personalizar.",
    "trailer": "https://youtube.com/embed/2S-A3z866YI",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/library_600x900.jpg",
@@ -447,7 +447,7 @@
     "CASUAL"
    ],
    "desarrollador": "RENGAME",
-   "descripcion": "Un Katamari que viaja por distintas épocas: se hace rodar la bola por mundos del pasado y del presente, pegándole todo lo que aparezca, para devolver las estrellas al cielo.",
+   "descripcion": "Un Katamari que viaja en el tiempo. El Rey aplastó sin querer la Tierra, la Luna y varios planetas jugando con un pergamino, y hay que rodar la bola por el Jurásico, la edad de hielo, el Japón histórico y otras épocas, pegándole todo lo que aparezca, para rearmar las estrellas del cielo. Trae herramientas nuevas, como un imán que atrae los objetos cercanos, y se puede jugar con el Príncipe o con cualquiera de sus 68 primos, que se personalizan.",
    "trailer": "https://youtube.com/embed/JQpojKTAvPY",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/d4ab910e81e69b831c517056f3731009.jpg",
@@ -470,7 +470,7 @@
     "ESTRATEGIA"
    ],
    "desarrollador": "LITMUS CO., LTD.",
-   "descripcion": "Mamon King es un simulador de crianza de monstruos en el que tu objetivo es criar, entrenar y combatir con criaturas para convertirte en el rey de los demonios.",
+   "descripcion": "Un simulador de crianza de monstruos: se crían y entrenan Mamons, criaturas invocadas de otro mundo, a veces con cariño y a veces con mano dura, para ganar torneos y coronarse rey. Hay 38 Mamons, cada uno con su aspecto, sus fortalezas de entrenamiento y su propia esperanza de vida, más de 170 habilidades que evolucionan con el uso y peleas uno contra uno por comandos, donde administrar los puntos de habilidad es clave.",
    "trailer": "https://youtube.com/embed/C5YjMI8--uw",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coarq4.jpg",
@@ -532,7 +532,7 @@
     "INDIE"
    ],
    "desarrollador": "WYCH ELM",
-   "descripcion": "Un metroidvania de terror y supervivencia ambientado en un pueblo chico de Estados Unidos. Enfrentás horrores de pesadilla y descifrás enigmas mientras administrás con cuidado unos recursos escasos.",
+   "descripcion": "Un survival horror con exploración de metroidvania, en un pueblo medio abandonado de Estados Unidos. El detective privado Red Walker llega a Silver Pines para encontrar a Eddie Velvet, un músico desaparecido, y el caso lo arrastra a una pesadilla. Hay que pelear o huir, juntar recursos escasos y resolver enigmas, y con mejores herramientas y armas se van abriendo puertas y caminos hacia nuevas zonas del pueblo.",
    "trailer": "https://youtube.com/embed/y_PVwrQivKE",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/library_600x900.jpg",
@@ -554,7 +554,7 @@
     "INDIE"
    ],
    "desarrollador": "THIRD SHIFT",
-   "descripcion": "Después de un revés trágico del destino, Alfred agarra la ruta rumbo al norte buscando redención. Un viaje para un solo jugador.",
+   "descripcion": "Después de un golpe del destino, Alfred sale a la ruta rumbo al norte en busca de redención. Es un viaje para un jugador por bosques y desiertos, con personajes que tienen sus propias historias y que se van conociendo en el camino, todos con voces de actores. Con la vieja cámara instantánea de Alfred se sacan fotos para guardar recuerdos, y la historia habla de sueños rotos, pérdida y arrepentimiento, pero también de amistad.",
    "trailer": "https://youtube.com/embed/k2Mw71MmiUA",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215940/library_600x900.jpg",
@@ -578,7 +578,7 @@
     "INDIE"
    ],
    "desarrollador": "THEKLA",
-   "descripcion": "Lo nuevo de Jonathan Blow, el de Braid y The Witness: una aventura de puzles enorme, ambientada en un reino donde el conocimiento se perdió y hay que reconstruirlo pieza por pieza.",
+   "descripcion": "Lo nuevo de Jonathan Blow, el de Braid y The Witness: una aventura de puzzles enorme, con más de mil hechos a mano. Se recorren cuatro mundos, cada uno con su propia mecánica, sus personajes y su historia, y a medida que se avanza se fusionan entre sí y sus reglas se combinan para formar puzzles nuevos. No hay un orden obligatorio: se puede dejar un desafío y volver más tarde, cuando se entienda algo más del mundo.",
    "trailer": "https://youtube.com/embed/OIxuGF6CwnU",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc954.jpg",
@@ -600,7 +600,7 @@
     "ANIME"
    ],
    "desarrollador": "FRONTIER WORKS",
-   "descripcion": "Mitad construcción de ciudad, mitad manejo de ídolas: se levanta un santuario en mundos de fantasía y se administra al grupo que canta ahí. Estética de anime y bucle de gestión.",
+   "descripcion": "Mitad construcción de ciudades, mitad juego de ídolos. Hay que convertir el Vacío, una tierra desolada, en un santuario para fans, con rutas, viviendas y más de 50 edificios que producen y procesan recursos, mientras se acompaña a Akari Sunohara en su camino para convertirse en ídolo. Las ídolos con escenario propio cantan y bailan en la ciudad, potencian los edificios cercanos y salen de gira o dan conciertos que se juegan al ritmo de la música.",
    "trailer": "https://youtube.com/embed/mJwjH73KwEM",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coaiqr.jpg",
@@ -623,7 +623,7 @@
     "RETRO"
    ],
    "desarrollador": "TAITO",
-   "descripcion": "La secuela de Bubble Bobble, el plataformas de subir haciendo arcoíris que sirven de escalón y de arma. Esta edición trae seis versiones del juego, de la de arcade a las conversiones caseras de la época.",
+   "descripcion": "La secuela de Bubble Bobble, el arcade de TAITO de 1987: Bubby y Bobby, ya de vuelta en su forma humana, suben cada nivel lanzando arcoíris que sirven de arma y de escalón. Esta colección junta varias versiones caseras de la época, las de 8 y 16 bits y una de Mega Drive que nunca salió en cartucho, con 24 ranuras de guardado por versión, una ayuda que muestra dónde están los diamantes y la opción de arrancar con mejoras.",
    "trailer": null,
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co6it5.jpg",
@@ -935,7 +935,7 @@
     "MUNDO ABIERTO"
    ],
    "desarrollador": "CAPCOM",
-   "descripcion": "La expansión definitiva de Dragon's Dogma 2 de Capcom: el mundo abierto de fantasía épica regresa con nuevo contenido, y por primera vez en Switch 2. Comandá a tus Peones en un viaje sin igual como el Arisen.",
+   "descripcion": "La edición completa de Dragon's Dogma 2, el RPG de acción de mundo abierto de Capcom, con la expansión Dark Arisen incluida y por primera vez en Switch 2. Se arma un Ascendido a gusto, se elige vocación y se viaja con peones, compañeros que maneja la máquina y que se pueden personalizar. La expansión suma Norgan, una región nevada en el norte donde una aliada llamada Eir lleva a investigar al Dragón Caído, y doce desafíos de mazmorras en el mapa principal.",
    "trailer": "https://youtube.com/embed/Ob9pYAlIHZM",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/df099083450295b1ead6bc471c031a88.png",
@@ -960,7 +960,7 @@
     "COOP"
    ],
    "desarrollador": "INFINIGON",
-   "descripcion": "Un lugar para jugar, reír y crecer con Elmo y sus amigos: explorás su mundo, cultivás porotos mágicos, cocinás platos y ayudás a organizar una fiesta para todo el barrio.",
+   "descripcion": "Un juego para chicos en el barrio de Plaza Sésamo, con Elmo, Abby, el Conde, el Monstruo de las galletas y el resto. Se arranca en el departamento propio y se van abriendo lugares: se planta un poroto mágico gigante en el jardín de Abby, se buscan herramientas y patitos de goma en la huerta comunitaria, se practican números y puzzles en la mansión del Conde y se cocina en el camión de comida del Monstruo de las galletas. Las recompensas sirven para decorar la casa.",
    "trailer": "https://youtube.com/embed/gV_FEcIXG6k",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930330/cd60211759658ad9032d6b4950dbb29df2da1262/header_spanish.jpg",
@@ -1009,7 +1009,7 @@
     "CASUAL"
    ],
    "desarrollador": "WILD RIVER GAMES",
-   "descripcion": "Un juego de caballos ambientado en un rancho del oeste: se cuida al animal, se sale a cabalgar y se cumplen encargos por el mapa. Está apuntado a chicos.",
+   "descripcion": "Un juego de caballos para chicos ambientado en el Lejano Oeste: las amigas del Horse Club, Hannah, Sofia, Sarah y Lisa, viajan al rancho Wild River. Se recorre el mapa a caballo, se ayuda a la gente, se aprende equitación western y se compite en el gran torneo, con pruebas de barriles y de estacas, además de tiro con arco, pintura y guitarra. Hay seis caballos, cada uno con su carácter, y muchas opciones para personalizar al jinete y al animal.",
    "trailer": "https://youtube.com/embed/HX-3ES4iO68",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmgj.jpg",
@@ -1130,7 +1130,7 @@
     "RPG"
    ],
    "desarrollador": "ONE MORE LEVEL",
-   "descripcion": "Valor Mortis es un juego de acción para un jugador de estilo de Souls de los creadores de Ghostrunner. Sé un soldado napoleónico resucitado, usa poderes sobrenaturales, lucha con monstruos y desarma una conspiración que amenaza a la humanidad.",
+   "descripcion": "Un juego de acción a la manera de los Souls, de los creadores de Ghostrunner. William, un soldado del ejército de Napoleón, resucita en una versión alternativa de la Europa del siglo XIX, arrasada por una plaga cuyo poder ahora le corre por las venas. El combate se apoya en paradas, esquives y remates con muchas armas, más habilidades sobrenaturales, y cada muerte sirve para hacerse más fuerte. Los enemigos son engendros de la Guardia Eterna de Napoleón, y la historia mezcla personajes reales con terror.",
    "trailer": "https://youtube.com/embed/_kxjGXZ7Bv8",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/c54a7dc5c4c4703eade452013234d53b.png",
@@ -1204,7 +1204,7 @@
     "PLATAFORMA"
    ],
    "desarrollador": "BEHOLD STUDIOS",
-   "descripcion": "Exploración y supervivencia en una mazmorra hecha a mano, con puzles, fabricación y estructura de metroidvania. Se puede jugar solo o en cooperativo en línea.",
+   "descripcion": "Exploración de mazmorras solo o con hasta dos amigos online. Se baja a juntar recursos, se vuelve al campamento a planear la próxima salida junto al fuego y, con lo que se encuentra, se fabrican herramientas y se cocinan platos que dan fuerzas para seguir, porque la comida es clave para avanzar. Abajo esperan pasadizos, puzzles y un misterio escondido entre las sombras.",
    "trailer": "https://youtube.com/embed/HtN_PLudTUk",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/library_600x900.jpg",
@@ -1480,7 +1480,7 @@
     "AVENTURA"
    ],
    "desarrollador": "DIGITAL ECLIPSE",
-   "descripcion": "La vuelta del juego de Toy Story 3, la aventura en 3D basada en la película de 2010. Tiene un modo historia con momentos de la película y el modo caja de juguetes, un mundo libre en el Oeste del Rodeo de Woody.",
+   "descripcion": "La vuelta del juego de Toy Story 3, la aventura en 3D basada en la película de 2010, con gráficos mejorados. En el modo historia se alterna entre Woody, Buzz y Jessie, cada uno con su habilidad, en momentos de la película como el rescate del tren o el basural, y en el modo caja de juguetes se arma libremente el Oeste del Rodeo de Woody. Se puede jugar de a dos en cooperativo.",
    "trailer": "https://youtube.com/embed/Kgp9iOHxrFw",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5v1.jpg",
@@ -1532,7 +1532,7 @@
     "RELAX"
    ],
    "desarrollador": "GAMELOFT",
-   "descripcion": "Un juego de sacar fotos con Bluey y Bingo por los lugares que aparecen en la serie. Se recorre, se busca qué retratar y se arma un álbum propio. Está pensado para chicos y para jugarlo al lado de ellos, sin fallar ni perder.",
+   "descripcion": "Un juego de sacar fotos para chicos con Bluey y Bingo, que encontraron la vieja cámara de su papá. Se recorren lugares conocidos de la serie y se retratan sus juegos y los animales que aparecen, y cada foto queda guardada en el álbum de recuerdos de Bluey. No se puede fallar ni perder: está pensado para jugarlo con los chicos al lado.",
    "trailer": "https://youtube.com/embed/8uYZrfXjPfY",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwy.jpg",
@@ -1559,7 +1559,7 @@
     "RPG"
    ],
    "desarrollador": "TOSE CO., LTD.",
-   "descripcion": "La remasterización de Tales of Eternia, el RPG de Bandai Namco. Una catástrofe amenaza con destruir el universo y el viaje decide el destino de dos mundos, Inferia y Celestia.",
+   "descripcion": "La primera remasterización de Tales of Eternia, el RPG de Namco del año 2000. El mundo de Eternia está partido en dos reinos aislados, Inferia y Celestia. En una aldea inferiana, Reid y su amiga de la infancia Farah conocen a Meredy, una chica misteriosa, y el viaje para entender de dónde viene termina enfrentando una catástrofe que amenaza a los dos mundos. El combate es en 2D, rápido, con combos encadenados y coordinación con el grupo, y la remasterización suma comodidades que lo hacen más fácil de jugar.",
    "trailer": "https://youtube.com/embed/n0Trr5yLK1A",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7n7.jpg",
@@ -1869,7 +1869,7 @@
     "AVENTURA"
    ],
    "desarrollador": "GPTRACK50 INC.",
-   "descripcion": "Convierte al torpe zombi Davy en una bestia imparable en este RPG de acción de evolución frenética. Devora enemigos, roba sus poderes y salva a la congelada Julia.",
+   "descripcion": "Un RPG de acción en 3D con un protagonista particular: Davy, el zombi más débil del mundo, que se enamora de Julia, una universitaria que murió congelada durante la Gran Guerra. Para revivirla tiene que bajar a una mazmorra y derrotar a KOM, el Rey de los Monstruos. En cada incursión se hace más fuerte: modifica su cuerpo y devora monstruos de élite para robarles los poderes, siempre contra reloj.",
    "trailer": "https://youtube.com/embed/vPqRLWnV4jk",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc8br.jpg",
@@ -1955,7 +1955,7 @@
     "AVENTURA"
    ],
    "desarrollador": "INTI CREATES CO., LTD.",
-   "descripcion": "Azure Striker Gunvolt Trilogy Enhanced es una colección de tres juegos de plataformas y acción 2D: Azure Striker Gunvolt (2014), Azure Striker Gunvolt 2 (2016) y Azure Striker Gunvolt 3 (2022), reunidos por primera vez con todos los DLC incluidos.",
+   "descripcion": "Los tres Azure Striker Gunvolt juntos, de 2014, 2016 y 2022: plataformas y acción en 2D, con todos sus DLC incluidos por primera vez. La serie cuenta su historia en diálogos durante las misiones y tiene decenas de canciones cantadas por los propios personajes. Esta edición suma ajustes de combate hechos por el director, voces y canciones mejoradas y los dramas de audio que antes solo habían salido en Japón.",
    "trailer": "https://youtube.com/embed/nR16rAl_vLM",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/74c2332a45194579034d079bd325b62a.png",
@@ -1981,7 +1981,7 @@
     "ESTRATEGIA"
    ],
    "desarrollador": "METAL HEAD GAMES",
-   "descripcion": "Back to the Dawn es un RPG cargado de historia ambientado en una prisión de máxima seguridad gobernada por reclusos. Sos un periodista zorro encarcelado por saber demasiado: sobreviví, hacé alianzas y planeá tu fuga.",
+   "descripcion": "Un RPG de fuga de una prisión de máxima seguridad manejada por tres pandillas. Se elige entre dos protagonistas, Thomas, un periodista atrapado en una red de mentiras, y Bob, un agente encubierto, y cada historia dura más de veinte horas. Hay que sobrevivir, investigar, tratar con 47 presos y destapar una conspiración que puede tumbar a la ciudad entera, con más de cien misiones y varias rutas de escape.",
    "trailer": "https://youtube.com/embed/HxXgHF91Hxk",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1735700/library_600x900.jpg",
@@ -2006,7 +2006,7 @@
     "RETRO"
    ],
    "desarrollador": "ROCKET-ENGINE",
-   "descripcion": "Remasterización completa de Cotton: Fantastic Night Dreams, el juego que inauguró el subgénero de las brujas voladoras hace más de treinta años. Conserva el diseño original y le suma un apartado visual puesto al día y modos nuevos. Sale en digital y en físico.",
+   "descripcion": "Remasterización completa de Cotton: Fantastic Night Dreams, el shooter que inauguró el subgénero de las brujas voladoras hace más de treinta años. Tiene tres modos: el original, que emula la versión de 1993 de la computadora X68000 de Sharp; uno arreglado, en pantalla ancha y con gráficos y personajes rediseñados; y una contrarreloj de dos o cinco minutos con tabla de puntajes online. Sale en digital y en físico.",
    "trailer": "https://youtube.com/embed/gNh21pIs2pA",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1656820/library_600x900.jpg",
@@ -2029,7 +2029,7 @@
     "ARCADE"
    ],
    "desarrollador": "SNK",
-   "descripcion": "La vuelta de Fatal Fury después de veintiséis años, ahora en Switch 2. Pelea uno contra uno en South Town con el sistema REV, que premia atacar sin parar pero castiga pasarse de rosca. Rock Howard vuelve a estar en el centro.",
+   "descripcion": "La vuelta de Fatal Fury veintiséis años después de Garou: Mark of the Wolves, ahora en Switch 2. Es pelea uno contra uno en South Town con el sistema REV, que da muchas opciones de ataque desde el primer segundo pero se sobrecalienta si se abusa de él. Tiene dos esquemas de control: uno arcade, con comandos precisos, y otro simplificado para quien recién empieza. Rock Howard vuelve a estar en el centro de la historia.",
    "trailer": "https://youtube.com/embed/ZjjeJMy21Wg",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9z8m.jpg",
@@ -2082,7 +2082,7 @@
     "SIMULACION"
    ],
    "desarrollador": "KAIROSOFT CO.,LTD",
-   "descripcion": "Un simulador de gestión en el mundo de One Piece: con los Sombrero de Paja se arma el mejor restaurante flotante de los mares. Se juntan ingredientes, se diseñan platos y se decora el local para que los clientes vuelvan.",
+   "descripcion": "Un simulador de restaurante en el mundo de One Piece: con los Sombrero de Paja hay que convertir el segundo local del Baratie, el restaurante flotante, en el mejor de los mares. Se eligen ingredientes y se cocina con Sanji, se arman menús con platos de la serie y recetas que aprovechan los poderes de las frutas del Diablo, y el local se decora con más de 200 muebles y objetos.",
    "trailer": "https://youtube.com/embed/gaQqFfKj-SA",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7mu.jpg",
@@ -2206,7 +2206,7 @@
     "ACCION"
    ],
    "desarrollador": "STORMIND GAMES",
-   "descripcion": "Secuestraron a tu hija. La búsqueda te mete en una pesadilla de la que hay que salir vivo mientras se destapa la verdad detrás de la monja roja.",
+   "descripcion": "Un survival horror en tercera persona a la manera de los clásicos, pero con controles modernos. La búsqueda de una hija secuestrada lleva a un convento siciliano donde nació el mito de la Monja Roja. Hay que esconderse, escapar y contraatacar en el momento justo frente a los acechadores, resolver acertijos para abrir zonas nuevas y usar poderes de hipnosis para leer recuerdos olvidados y revelar caminos ocultos.",
    "trailer": "https://youtube.com/embed/PEBcT6E6u6c",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobrbr.jpg",
@@ -2318,7 +2318,7 @@
     "RPG"
    ],
    "desarrollador": "FURYU CORPORATION",
-   "descripcion": "ANOMALITH es un shooter en tercera persona de supervivencia ambientado en un Japón impregnado de folclore y anomalías sobrenaturales: explorá, recolectá recursos y enfrentá lo inexplicable para sobrevivir.",
+   "descripcion": "Un shooter de supervivencia en tercera persona ambientado en un Japón donde aparecen de golpe las Zonas Anómalas. Reona Minazuki, de 17 años, busca a su mejor amiga, Arisa, que desapareció dentro de una, y para eso entra como Buceadora a la oficina del gobierno que las combate. En su primera incursión es la única sobreviviente y despierta un poder extraño. A partir de ahí hay que explorar las zonas, juntar recursos y averiguar de dónde salen.",
    "trailer": "https://youtube.com/embed/1hrRMm5horM",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc3jf.jpg",
@@ -2723,7 +2723,7 @@
     "ACCION"
    ],
    "desarrollador": "PIPEWORKS STUDIOS",
-   "descripcion": "La remasterización del juego de peleas de monstruos gigantes de Godzilla. Se elige un monstruo y se destroza la ciudad a golpes, contra amigos en local o en el multijugador online nuevo.",
+   "descripcion": "La remasterización del juego de peleas de monstruos gigantes de 2002, hecha por Pipeworks, el estudio original, junto con Atari. Se elige un monstruo y se pelea en ocho escenarios, cada uno de día y de noche: ciudades reales, la Isla de los Monstruos y la nave nodriza alienígena. Cada monstruo tiene sus golpes, sus rayos y un modo furia, y el escenario también se usa: se puede revolear un rascacielos. Al multijugador local le suma uno online.",
    "trailer": "https://youtube.com/embed/8N9QN4X1pIk",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/49a971f590a2340c314be8d59a676c7f.png",
