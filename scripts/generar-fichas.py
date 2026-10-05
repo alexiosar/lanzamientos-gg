@@ -19,7 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import cargar_juegos, leer_noticias_propias, plat, titulo as titulo_normal
+from comun import cargar_juegos, ficha_flaca, leer_noticias_propias, plat, titulo as titulo_normal
 import plantilla
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -357,6 +357,9 @@ def generar(j, juegos):
             "embedUrl": j["trailer"],
         }
 
+    # Ficha casi vacía: visible para la gente, fuera del índice de Google (ver ficha_flaca).
+    robots = '\n  <meta name="robots" content="noindex, follow">' if ficha_flaca(j) else ""
+
     return f'''<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -364,7 +367,7 @@ def generar(j, juegos):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{e(titulo_normal(j))}: fecha de salida, plataformas, puntaje y trailer. {e(desc_corta)}">
   <title>{e(titulo_pestania(j))}</title>
-  <link rel="canonical" href="{url}">
+  <link rel="canonical" href="{url}">{robots}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">

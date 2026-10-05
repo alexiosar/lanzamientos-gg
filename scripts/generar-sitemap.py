@@ -20,7 +20,11 @@ import datetime
 import hashlib
 import json
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from comun import cargar_juegos, ficha_flaca
 
 RAIZ = Path(__file__).resolve().parent.parent
 DOMINIO = "https://lanzamientos.lat"
@@ -96,8 +100,11 @@ urls.append(url("/noticias", noticias.read_text(encoding="utf-8") if noticias.ex
 # Las de recomendados de meses pasados (mejores-juegos-agosto-2026.html) también terminan
 # en "-2026", así que caen en este glob y hay que sacarlas: no cambian con el calendario
 # ni cada semana, son una selección escrita a mano que se congela cuando el mes termina.
+# Las páginas por consola y mes (/ps5-octubre-2026) llevan noindex desde el 05/10/2026 y
+# no van: un sitemap no debe ofrecer URLs que se piden no indexar.
+POR_CONSOLA = ("ps5-", "ps4-", "xbox-", "switch-")
 for archivo in sorted(RAIZ.glob("*-20??.html")):
-    if archivo.name.startswith("mejores-juegos-"):
+    if archivo.name.startswith("mejores-juegos-") or archivo.name.startswith(POR_CONSOLA):
         continue
     urls.append(url(f"/{archivo.stem}", archivo.read_text(encoding="utf-8"), "weekly", "0.8"))
 
@@ -123,7 +130,11 @@ for pagina in ["acerca", "api", "widget", "privacidad", "terminos", "archivo"]:
 # las fichas muestran también las noticias de datos/noticias.js que las citan, el
 # bloque dejó de contar toda la historia: un rumor nuevo cambia la página y el
 # bloque del juego queda igual. Con el HTML no hay forma de que se escape un cambio.
+# Las fichas flacas llevan noindex (ver ficha_flaca en comun.py) y tampoco van.
+flacas = {j["id"] for j in cargar_juegos() if ficha_flaca(j)}
 for i in ids:
+    if i in flacas:
+        continue
     ficha = RAIZ / "juegos" / f"{i}.html"
     contenido = ficha.read_text(encoding="utf-8") if ficha.exists() else bloques.get(i, i)
     urls.append(url(f"/juegos/{i}", contenido, "weekly", "0.8"))
@@ -139,6 +150,7 @@ xml = (
 CACHE.write_text(json.dumps(actual, indent=1, sort_keys=True), encoding="utf-8")
 
 nuevas = len(actual) - len([k for k in actual if k in previo])
-print(f"sitemap.xml actualizado: {len(ids)} juegos + portada = {len(urls)} URLs")
+print(f"sitemap.xml actualizado: {len(ids) - len(flacas)} juegos ({len(flacas)} fichas flacas fuera, "
+      f"con noindex) + portada = {len(urls)} URLs")
 print(f"  lastmod: {cambiadas} URLs cambiaron hoy, {nuevas} nuevas, "
       f"{len(actual) - cambiadas - nuevas} sin cambios")

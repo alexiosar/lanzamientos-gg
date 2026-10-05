@@ -109,6 +109,26 @@ PLAT_SLUG = {"PS5": "ps5", "PS4": "ps4", "XBOX": "xbox", "SWITCH2": "switch-2", 
 MINIMO_PLAT_MES = 5
 
 
+# FICHAS FLACAS Y NOINDEX (05/10/2026)
+#
+# El 24/09/2026 Google lanzó su "September 2026 spam update" y el tráfico desde el buscador
+# cayó a casi cero ese mismo día. Esa actualización castiga el "contenido en serie con poco
+# valor": muchas páginas de plantilla con casi nada propio. De 499 fichas, 134 eran eso: dos
+# líneas de descripción y ninguna noticia, crítica ni gameplay. Esas fichas siguen
+# existiendo y enlazadas para la gente, pero llevan `noindex, follow` y salen del sitemap,
+# para que Google evalúe el sitio por las páginas que sí tienen contenido. En cuanto una
+# ficha suma una noticia, una crítica, un gameplay o una descripción más larga, vuelve sola
+# al índice: no hay que acordarse de nada.
+MIN_PALABRAS_FICHA = 45
+
+
+def ficha_flaca(j):
+    """True si la ficha casi no tiene contenido propio. La usan generar-fichas.py (para el
+    noindex) y generar-sitemap.py (para sacarla), así deciden siempre lo mismo."""
+    return (len((j.get("descripcion") or "").split()) < MIN_PALABRAS_FICHA
+            and not j.get("noticias") and not j.get("critica") and not j.get("gameplay"))
+
+
 # Primer mes con páginas por consola. Desde el 01/10/2026 los meses que pasan quedan como
 # archivo ("juegos de PS5 que salieron en septiembre"), igual que las páginas de mes
 # generales: borrarlas dejaba 404 en URLs que ya estaban en el sitemap. Hacia atrás no se

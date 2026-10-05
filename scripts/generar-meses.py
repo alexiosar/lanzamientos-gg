@@ -166,6 +166,10 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False,
     rec = ruta_recomendados(mes_key)
     # El párrafo propio del mes (datos/meses.js), sólo en la página general: nombra juegos
     # de todas las consolas, y en /ps5-noviembre-2026 hablaría de juegos que no están.
+    # Las de cada consola son un subconjunto de plantilla de la página del mes: justo el
+    # patrón de "páginas puerta" que castigó el spam update del 24/09/2026. Quedan para la
+    # gente (se enlazan desde /ps5 y desde el mes), pero fuera del índice y del sitemap.
+    robots = '\n  <meta name="robots" content="noindex, follow">' if plataforma else ""
     bloque_intro = (f'    <p class="mes-intro">{e(intro)}</p>\n' if intro and not plataforma else "")
     enlace_rec = (f'    <p class="mes-rec"><a class="filtro-btn" href="{rec}">★ '
                   f'{"LOS MEJORES DE" if pasado else "RECOMENDADOS DE"} {nombre} {y} '
@@ -210,7 +214,7 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False,
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{e(descripcion)}">
   <title>{titulo} — LANZAMIENTOS.LAT</title>
-  <link rel="canonical" href="{DOMINIO}{ruta}">
+  <link rel="canonical" href="{DOMINIO}{ruta}">{robots}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#000000">

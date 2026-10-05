@@ -1127,6 +1127,31 @@ Sin redes sociales, la estrategia es que otros encuentren y enlacen el sitio:
 
 ## SEO y redes
 
+### La caída del 24/09/2026 y el noindex de las páginas flacas (05/10/2026)
+
+El 24/09/2026 el tráfico desde Google pasó de ~600 impresiones diarias a ~30 y los clics a
+cero. El 29/09 se descartó todo lo técnico y se leyó como una sacudida de rankings. El 05/10
+apareció la causa probable: el **September 2026 spam update** de Google empezó ese mismo
+24/09 a las 9:15 (Pacífico) y terminaba alrededor del 08/10. Apunta a "scaled content abuse"
+(muchas páginas de plantilla con poco propio) y a "doorway pages". El usuario revisó
+Acciones manuales y Problemas de seguridad en Search Console: vacíos, así que es algorítmico.
+
+Lo que se hizo, sin borrar nada para la gente:
+
+- **Las fichas flacas llevan `noindex, follow` y salen del sitemap.** Flaca = menos de 45
+  palabras de descripción y ni noticias, ni crítica, ni gameplay (`ficha_flaca()` en
+  `comun.py`, la única definición; la usan `generar-fichas.py` y `generar-sitemap.py`). Eran
+  134 de 499. **Vuelven solas al índice** en cuanto suman cualquiera de esas cosas: cargar
+  una noticia en un juego chico ahora también es recuperar una página para Google.
+- **Las páginas por consola y mes también llevan `noindex, follow`** y salen del sitemap:
+  son un subconjunto de plantilla de la página del mes, el patrón exacto de "página puerta".
+  Siguen enlazadas desde `/ps5` y desde cada mes.
+
+Según Google, la recuperación de un spam update lleva **meses**, y la evaluación conviene
+hacerla una semana después de que termine el despliegue. No esperar que el gráfico suba en
+días. Lo que más ayuda es lo que el sitio ya hace: crítica, noticias, introducciones de mes
+y gameplay, todo escrito a mano.
+
 ### Los títulos de las fichas apuntan a la cola larga (decidido el 17/08/2026)
 
 Los datos de Search Console a 3 meses fueron concluyentes: **los 13 clics vinieron todos de
@@ -1545,7 +1570,8 @@ crítica antes que otra que nadie mira, y una consulta que aparece sin página q
 (por ejemplo "juegos ps5 octubre") es la pista de qué página falta. Una vez por semana
 alcanza: con estos volúmenes, los datos de un día son ruido.
 
-**Páginas por consola y mes (desde el 29/09/2026):** `/ps5-octubre-2026`,
+**Páginas por consola y mes (desde el 29/09/2026; con `noindex` desde el 05/10/2026, ver "La
+caída del 24/09/2026" en la sección de SEO):** `/ps5-octubre-2026`,
 `/switch-2-noviembre-2026` y así, para búsquedas como "juegos de PS5 de octubre". Las arma
 `generar-meses.py` sin ningún dato nuevo: desde septiembre de 2026 en adelante (`PRIMER_MES_PLAT`), y sólo cuando
 esa consola tiene al menos 5 juegos con día confirmado ese mes (`MINIMO_PLAT_MES` en

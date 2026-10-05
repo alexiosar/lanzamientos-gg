@@ -115,9 +115,10 @@ Ninguno de los dos hace que Google indexe más páginas de golpe.
 | 09/09/2026 | **2027 entra al calendario**, con filtro por año, tras el Nintendo Direct. Se suman páginas de mes de enero a abril de 2027 |
 | 14/09/2026 | **Unas 140 descripciones reescritas.** Estaban copiadas de Steam o la eShop, con tú, vosotros y signos de exclamación. Es contenido propio donde antes había texto repetido en otras webs |
 | 15/09/2026 | **Votos "¿Lo vas a jugar?"** en todas las fichas, con un Worker de Cloudflare. El bloque carga después de la página y no debería mover la velocidad, pero si cambia algo en Core Web Vitals, empezar a buscar por acá |
-| 24/09/2026 | **Caída de Google**: las impresiones pasan de ~600 a ~30 por día y los clics desde Google a cero. Técnicamente todo verificado sano; se decidió no tocar nada y revisar el 08/10 |
+| 24/09/2026 | **Caída de Google**: las impresiones pasan de ~600 a ~30 por día y los clics desde Google a cero. Coincide al minuto con el **September 2026 spam update** de Google (empezó el 24/09 a las 9:15 del Pacífico y terminó cerca del 08/10), que castiga páginas de plantilla con poco contenido propio. Algorítmico: Acciones manuales y Problemas de seguridad, vacíos |
 | 29/09/2026 | **Páginas por consola y mes** (`/ps5-octubre-2026` y las demás) y estructura de PS Plus / Game Pass del mes |
 | 30/09/2026 | `/ps-plus-octubre-2026`, enlazada desde la noticia, la portada y el RSS |
+| 05/10/2026 | **`noindex, follow` y fuera del sitemap para 134 fichas flacas y las 22 páginas por consola y mes.** El sitemap pasa de 549 a 393 URLs. Las fichas vuelven solas al índice cuando suman noticia, crítica, gameplay o una descripción más larga. Si en Search Console bajan las "indexadas" en las semanas siguientes, es esto y es a propósito: no es un problema nuevo |
 
 Además, a lo largo de septiembre la rutina diaria sumó críticas y noticias a los estrenos del
 día. Al 31/08 había 131 fichas con noticias y 103 con resumen de crítica; al 16/09 son 174 y
@@ -163,8 +164,11 @@ en buena parte son rastreadores y no gente. Ojo también con que las visitas del
 usuario cuentan dentro de Argentina. El número a seguir en noviembre es el de Argentina
 solo, no el total.
 
-**Para el 08/10:** si Google vuelve, la tabla dice que el mes iba para "muy bien". Si no
-vuelve, el contenido sigue sumando igual y la canonical de la portada es lo primero a probar.
+**Para el 15/10:** la caída resultó ser, con toda probabilidad, el spam update del 24/09
+(ver la tabla de cambios). La recuperación de esos golpes lleva meses, así que la lectura del
+15/10 no busca que el gráfico vuelva, sino señales: que las fichas con contenido sigan
+indexadas y que las impresiones dejen de estar en cero. **En noviembre las "indexadas"
+pueden bajar** por el noindex del 05/10, y es a propósito.
 
 ## Agosto de 2026: el mes en que el sitio entró a Google
 
