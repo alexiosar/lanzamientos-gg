@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-05T15:52:48+00:00",
+ "generado": "2026-10-05T16:39:02+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-05",
@@ -2260,6 +2260,41 @@
    "url": "https://lanzamientos.lat/juegos/the-seance-of-blake-manor"
   },
   {
+   "id": "steins-gate-reboot",
+   "titulo": "STEINS;GATE RE:BOOT",
+   "fecha": "2026-10-29",
+   "relanzamiento": "En PC desde agosto de 2026",
+   "duracion": "≈ 24 h (historia) · 25 h (completo)",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ANIME",
+    "NOVELA VISUAL"
+   ],
+   "desarrollador": "MAGES. INC.",
+   "descripcion": "La novela visual de viajes en el tiempo vuelve renovada, con los gráficos rehechos por completo. Parte del guion de Steins;Gate Elite, con el ritmo narrativo reajustado y una línea de mundo y un final completamente nuevos. Las ediciones de PS5, Switch 2 y Switch salen en digital y en físico.",
+   "trailer": "https://youtube.com/embed/2X-X5C4jG0A",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/9995b8e98cdbf0889fcde03a245597b9.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-14",
+   "url": "https://lanzamientos.lat/juegos/steins-gate-reboot",
+   "noticias": [
+    {
+     "fecha": "2026-10-05",
+     "titulo": "SALE EL 29 DE OCTUBRE EN CONSOLAS",
+     "texto": "La versión de Xbox estaba anunciada para el 20 de agosto, junto con la de PC, pero se retrasó para salir con las demás consolas: el 29 de octubre llega a Xbox, PS5, PS4, Switch 2 y Switch. En PC está desde agosto. Hay edición física para PS5, Switch 2 y Switch, a 59,99 dólares, y una SteelBook a 69,99."
+    }
+   ]
+  },
+  {
    "id": "phantom-blade-zero",
    "titulo": "PHANTOM BLADE ZERO",
    "fecha": "2026-10-29",
@@ -2313,33 +2348,6 @@
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/anomalith"
-  },
-  {
-   "id": "steins-gate-reboot-consolas",
-   "titulo": "STEINS;GATE RE:BOOT",
-   "fecha": "2026-10-29",
-   "relanzamiento": "En Xbox y PC desde el 20 de agosto de 2026 — esta fecha corresponde a las ediciones de PS5, PS4, Switch 2 y Switch",
-   "duracion": "≈ 24 h (historia) · 25 h (completo)",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "ANIME",
-    "NOVELA VISUAL"
-   ],
-   "desarrollador": "MAGES. INC.",
-   "descripcion": "La novela visual de viajes en el tiempo vuelve renovada, con los gráficos rehechos por completo. Parte del guion de Steins;Gate Elite, con el ritmo narrativo reajustado y una línea de mundo y un final completamente nuevos. Las ediciones de PS5, Switch 2 y Switch salen en digital y en físico.",
-   "trailer": "https://youtube.com/embed/2X-X5C4jG0A",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/9995b8e98cdbf0889fcde03a245597b9.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-30",
-   "url": "https://lanzamientos.lat/juegos/steins-gate-reboot-consolas"
   },
   {
    "id": "hello-kitty-party-land",

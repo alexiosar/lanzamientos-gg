@@ -1410,7 +1410,9 @@ const JUEGOS = [
   {
     id: "dont-fret",
     titulo: "DON'T FRET",
-    fecha: "2026-10-01",
+    fecha: "2026-12-31",
+    estimado: true,
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
     plataformas: ["PS5", "XBOX"],
     genero: ["HORROR", "AVENTURA", "PUZZLE", "INDIE"],
     desarrollador: "SCARY KID STUDIOS",
@@ -1418,6 +1420,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/H1yn3lkikFQ",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2716830/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-12",
+        titulo: "SE RETRASÓ: AHORA SALE EN EL INVIERNO DE 2026",
+        texto: "Digital Pajamas lo retrasó el 12 de agosto, siete semanas antes del 1 de octubre que tenía anunciado. La nueva ventana es el invierno de 2026, sin día: la PS Store dice «por determinar» y Xbox no muestra fecha."
+      }
+    ],
     alta: "2026-08-19"
   },
   {
@@ -1524,7 +1533,7 @@ const JUEGOS = [
     id: "geppy-x",
     titulo: "70S-STYLE ROBOT ANIME GEPPY-X",
     fecha: "2026-07-16",
-    plataformas: ["PS4", "XBOX"],
+    plataformas: ["PS5", "PS4", "SWITCH"],
     genero: ["SHOOTER", "ARCADE", "ANIME"],
     desarrollador: "IMPLICIT CONVERSION",
     descripcion: "Regresa Geppy-X: The Super Boosted Armor, el shoot'em up japonés que homenajea al anime de robots gigantes de los años 70, estructurado en episodios como una serie animada de la época. Un clásico de culto de Sega Saturn que llega por primera vez a consolas modernas.",
@@ -2986,14 +2995,23 @@ const JUEGOS = [
   {
     id: "steins-gate-reboot",
     titulo: "STEINS;GATE RE:BOOT",
-    fecha: "2026-08-20",
-    plataformas: ["XBOX"],
+    fecha: "2026-10-29",
+    relanzamiento: "En PC desde agosto de 2026",
+    duracion: "≈ 24 h (historia) · 25 h (completo)",
+    plataformas: ["PS5", "PS4", "XBOX", "SWITCH2", "SWITCH"],
     genero: ["AVENTURA", "ANIME", "NOVELA VISUAL"],
     desarrollador: "MAGES. INC.",
-    descripcion: "La novela visual de viajes en el tiempo vuelve renovada, con los gráficos rehechos por completo.",
+    descripcion: "La novela visual de viajes en el tiempo vuelve renovada, con los gráficos rehechos por completo. Parte del guion de Steins;Gate Elite, con el ritmo narrativo reajustado y una línea de mundo y un final completamente nuevos. Las ediciones de PS5, Switch 2 y Switch salen en digital y en físico.",
     trailer: "https://youtube.com/embed/2X-X5C4jG0A",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/9995b8e98cdbf0889fcde03a245597b9.png",
+    noticias: [
+      {
+        fecha: "2026-10-05",
+        titulo: "SALE EL 29 DE OCTUBRE EN CONSOLAS",
+        texto: "La versión de Xbox estaba anunciada para el 20 de agosto, junto con la de PC, pero se retrasó para salir con las demás consolas: el 29 de octubre llega a Xbox, PS5, PS4, Switch 2 y Switch. En PC está desde agosto. Hay edición física para PS5, Switch 2 y Switch, a 59,99 dólares, y una SteelBook a 69,99."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -3693,7 +3711,7 @@ const JUEGOS = [
     id: "brokenlore-dont-lie",
     titulo: "BROKENLORE: DON'T LIE",
     fecha: "2026-09-10",
-    plataformas: ["PS5", "XBOX"],
+    plataformas: ["PS5"],
     genero: ["HORROR", "INDIE"],
     desarrollador: "SERAFINI PRODUCTIONS",
     descripcion: "BrokenLore: DON'T LIE es un juego japonés de terror psicológico que explora el trauma, el aislamiento y una realidad fragmentada donde resulta cada vez más difícil distinguir qué es real.",
@@ -4712,8 +4730,10 @@ const JUEGOS = [
   {
     id: "ova-magica",
     titulo: "OVA MAGICA",
-    fecha: "2026-09-08",
-    relanzamiento: "En PC desde mayo de 2026 — esta fecha corresponde a las ediciones de consola",
+    fecha: "2026-12-31",
+    estimado: true,
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
+    relanzamiento: "En PC desde mayo de 2026",
     plataformas: ["PS5", "PS4", "XBOX", "SWITCH2", "SWITCH"],
     genero: ["RPG", "SIMULACION", "RELAX", "INDIE"],
     desarrollador: "CLAUDIATHEDEV",
@@ -4721,6 +4741,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/nPSI0okfs5E",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299170/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-05",
+        titulo: "LAS VERSIONES DE CONSOLA TODAVÍA NO SALIERON",
+        texto: "Estaban anunciadas para el 8 de septiembre, pero no aparecieron: la PS Store lo lista para 2026, sin día, y la tienda de Xbox y la eShop todavía no lo tienen. En PC está desde mayo."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-28"
@@ -6412,23 +6439,6 @@ const JUEGOS = [
         texto: "El acceso anticipado a la beta empieza el 21 de agosto y la fase abierta y gratuita el 28. Esta vez también se puede jugar en Switch 2, que es la novedad para el que espera la versión de Nintendo."
       }
     ]
-  },
-  {
-    id: "steins-gate-reboot-consolas",
-    titulo: "STEINS;GATE RE:BOOT",
-    fecha: "2026-10-29",
-    relanzamiento: "En Xbox y PC desde el 20 de agosto de 2026 — esta fecha corresponde a las ediciones de PS5, PS4, Switch 2 y Switch",
-    duracion: "≈ 24 h (historia) · 25 h (completo)",
-    plataformas: ["PS5", "PS4", "SWITCH2", "SWITCH"],
-    genero: ["AVENTURA", "ANIME", "NOVELA VISUAL"],
-    desarrollador: "MAGES. INC.",
-    descripcion: "La novela visual de viajes en el tiempo vuelve renovada, con los gráficos rehechos por completo. Parte del guion de Steins;Gate Elite, con el ritmo narrativo reajustado y una línea de mundo y un final completamente nuevos. Las ediciones de PS5, Switch 2 y Switch salen en digital y en físico.",
-    trailer: "https://youtube.com/embed/2X-X5C4jG0A",
-    metacritic: null,
-    imagen: "https://cdn2.steamgriddb.com/grid/9995b8e98cdbf0889fcde03a245597b9.png",
-    gamepass: false,
-    psplus: false,
-    alta: "2026-07-30"
   },
   {
     id: "cotton-reboot",

@@ -1781,6 +1781,25 @@ ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
      no miró nadie —Flesh Made Fear está en la PS Store a 19,99 y es de esos— pero es la única
      forma de agarrar a los que no están en Steam, que es el caso de Ratatan y BloodRayne. Se
      verifica en la tienda de su plataforma; si no aparece en ninguna, la fecha está mal.
+
+   **La primera revisión completa de esa lista, el 05/10/2026, encontró cinco errores en 39
+   juegos**, y la mayoría eran del mismo tipo:
+
+   - **Retrasos que nadie cargó.** Steins;Gate Re:Boot figuraba en Xbox el 20/08, que era la
+     fecha oficial hasta que la versión de Xbox se pasó al 29/10 con el resto de las
+     consolas; Don't Fret se pasó del 1/10 al "invierno de 2026" el 12/08; las versiones de
+     consola de OVA Magica no salieron el 8/09. Ninguno tenía noticias, así que ningún
+     chequeo diario los miraba. Steins;Gate además tenía una segunda entrada para las otras
+     consolas el mismo 29/10: se fusionaron en la más vieja, con 301 desde la otra.
+   - **Microsoft Store no es Xbox.** Pariente del anterior, encontrado unos días antes: Solo
+     Leveling: Arise Overdrive figuraba como ya salido en Xbox porque la ficha de Microsoft
+     Store era la de **PC** (`Windows.Desktop`). Antes de dar por buena una fecha de la
+     tienda de Microsoft, mirar la plataforma en `displaycatalog` (`AllowedPlatforms`), o que
+     `buscar-xbox.py` lo encuentre como juego de consola.
+   - **Plataformas de más.** Geppy-X figuraba en Xbox, donde sólo existe la demo (y le
+     faltaban PS5 y Switch, que sí salieron); BrokenLore: DON'T LIE sólo está en PS5.
+
+   El resto de la lista estaba bien: indies que salieron y nadie reseñó.
 9. **Enlaces vivos:** `python3 scripts/verificar-enlaces.py`. Comprueba que las 315
    carátulas y los 293 trailers cargados sigan respondiendo. Las URLs se rompen solas —Steam
    reorganiza sus CDN, un estudio borra su video— y **no se nota mirando el sitio**: una
@@ -1931,6 +1950,9 @@ y abrir http://localhost:8080
   | Sturmjäger (Switch) | 14 de enero de 2027 (releases.com) | **Ya está cargado en PS5 y Xbox**, que confirman el día. La eShop no lo tiene |
   | Psikyo Memories | 18 de febrero de 2027 en PS5 y Switch 2 (Gematsu, 5/10) | **No se cargó**: ni la PS Store ni la eShop ni Nintendo US lo listan todavía |
   | DuneCrawl (Switch 2 y Switch) | Más adelante en 2026 (Gematsu, 5/10) | **Ya está cargado en PS5 y Xbox**, que salen el 19/10. Las de Nintendo no tienen día ni ficha |
+  | Steins;Gate Re:Boot (Xbox, Switch 2 y Switch) | 29 de octubre (Spike Chunsoft; RPG Site, Xbox retrasado desde el 20/08) | **Ya está cargado en las cinco.** La PS Store tiene el día pero no la plataforma; Xbox y las tiendas de Nintendo no lo listan todavía |
+  | Geppy-X (Xbox) | Salió el 16/07 en PS5, PS4 y Switch | En Xbox sólo está la demo. Se sacó Xbox de la ficha el 05/10 |
+  | BrokenLore: DON'T LIE (Xbox) | Salió el 10/09 en PS5 | La tienda de Xbox no lo tiene. Se sacó Xbox de la ficha el 05/10 |
   | Eternal Palace Sakura (Switch) | 5 de noviembre (Gematsu, 30/09) | Steam tiene el 4 de noviembre para PC; la eShop y Nintendo US no lo listan |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 

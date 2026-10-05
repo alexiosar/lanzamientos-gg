@@ -6,7 +6,21 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 05 Oct 2026 15:52:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 16:39:02 +0000</lastBuildDate>
+    <item>
+      <title>STEINS;GATE RE:BOOT: SALE EL 29 DE OCTUBRE EN CONSOLAS</title>
+      <link>https://lanzamientos.lat/juegos/steins-gate-reboot</link>
+      <guid isPermaLink="false">steins-gate-reboot-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+      <description>La versión de Xbox estaba anunciada para el 20 de agosto, junto con la de PC, pero se retrasó para salir con las demás consolas: el 29 de octubre llega a Xbox, PS5, PS4, Switch 2 y Switch. En PC está desde agosto. Hay edición física para PS5, Switch 2 y Switch, a 59,99 dólares, y una SteelBook a 69,99. — STEINS;GATE RE:BOOT para PS5 / PS4 / XBOX / SWITCH 2 / SWITCH.</description>
+    </item>
+    <item>
+      <title>OVA MAGICA: LAS VERSIONES DE CONSOLA TODAVÍA NO SALIERON</title>
+      <link>https://lanzamientos.lat/juegos/ova-magica</link>
+      <guid isPermaLink="false">ova-magica-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Estaban anunciadas para el 8 de septiembre, pero no aparecieron: la PS Store lo lista para 2026, sin día, y la tienda de Xbox y la eShop todavía no lo tienen. En PC está desde mayo. — OVA MAGICA para PS5 / PS4 / XBOX / SWITCH 2 / SWITCH.</description>
+    </item>
     <item>
       <title>STAR WARS: GALACTIC RACER: SALE MAÑANA Y DEBUTA CON 88</title>
       <link>https://lanzamientos.lat/juegos/star-wars-galactic-racer</link>
@@ -272,22 +286,6 @@
       <guid isPermaLink="false">heartworm-2026-10-01</guid>
       <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
       <description>Llegó a consolas el 1 de octubre, a 14,99 dólares, un año después del estreno en PC. DreadXP también lo anunció para Switch 2 y Switch, que todavía no tienen ficha en la eShop. — HEARTWORM para PS5 / PS4 / XBOX.</description>
-    </item>
-    <item>
-      <title>EL ESCALADO POR IA DE LA PS5 PRO LLEGA A LA PS5 COMÚN</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">ps5-qssr-escalado-ia</guid>
-      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Sony anunció QSSR, una versión más liviana de PSSR, el escalado por inteligencia artificial que hasta ahora era exclusivo de la PS5 Pro. Mejora el detalle y la estabilidad de la imagen en la PS5 común, aunque PSSR sigue siendo superior en la Pro. Nació de Project Amethyst, la colaboración de Sony con AMD.
-
-Los primeros juegos en usarlo son Marvel's Wolverine y Ghost of Yōtei, que ya tienen parches con QSSR como opción gráfica. Sony dice que va a estar disponible para todos los estudios que hacen juegos de PlayStation.</description>
-    </item>
-    <item>
-      <title>KONG: SURVIVOR INSTINCT: SALE HOY EN SWITCH</title>
-      <link>https://lanzamientos.lat/juegos/kong-survivor-instinct</link>
-      <guid isPermaLink="false">kong-survivor-instinct-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
-      <description>Llega dos años después del estreno en PS5, Xbox y PC, donde la prensa lo recibió como una sorpresa para un juego con licencia, con reparos a la historia y al plataformeo. — KONG: SURVIVOR INSTINCT para SWITCH.</description>
     </item>
   </channel>
 </rss>
