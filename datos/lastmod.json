@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "69437dc4cc763d3c",
+  "hash": "260dff373a244812",
   "lastmod": "2026-10-05"
  },
  "/abril-2027": {
@@ -142,6 +142,10 @@
  "/juegos/backyard-baseball": {
   "hash": "1f57000e9649a29e",
   "lastmod": "2026-09-24"
+ },
+ "/juegos/barbie-rewind": {
+  "hash": "bee3f53895d3747a",
+  "lastmod": "2026-10-05"
  },
  "/juegos/beamng-drive": {
   "hash": "802b4679c4359139",
@@ -575,6 +579,10 @@
   "hash": "e8a25724ce9f54dd",
   "lastmod": "2026-10-05"
  },
+ "/juegos/goodboy-galaxy": {
+  "hash": "0ec68cf417758d21",
+  "lastmod": "2026-10-05"
+ },
  "/juegos/gothic-classic": {
   "hash": "d85ac86778a59c71",
   "lastmod": "2026-10-03"
@@ -623,6 +631,10 @@
   "hash": "202aebd73ef08c13",
   "lastmod": "2026-10-05"
  },
+ "/juegos/hasbro-games-junior-collection": {
+  "hash": "66faa673440bbc0b",
+  "lastmod": "2026-10-05"
+ },
  "/juegos/he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction": {
   "hash": "89e722bdab98764d",
   "lastmod": "2026-10-02"
@@ -655,6 +667,10 @@
   "hash": "c10fb4ee86b403b2",
   "lastmod": "2026-09-27"
  },
+ "/juegos/hello-kitty-party-land": {
+  "hash": "d4753d25ef24da66",
+  "lastmod": "2026-10-05"
+ },
  "/juegos/heroic-songs-the-remix": {
   "hash": "b7c2bd0a806d0530",
   "lastmod": "2026-10-05"
@@ -685,6 +701,10 @@
  },
  "/juegos/house-flipper-remastered-collection": {
   "hash": "75054fb0aed82085",
+  "lastmod": "2026-10-05"
+ },
+ "/juegos/hubert": {
+  "hash": "075bc3b9d3a159a3",
   "lastmod": "2026-10-05"
  },
  "/juegos/hunting-simulator-3": {
@@ -811,6 +831,10 @@
   "hash": "2f45b425f751244b",
   "lastmod": "2026-09-18"
  },
+ "/juegos/marupoyo-the-round-chicks-adventure": {
+  "hash": "df3beb1d4ec4034b",
+  "lastmod": "2026-10-05"
+ },
  "/juegos/marvel-tokon-fighting-souls": {
   "hash": "5f6a3e3e785b2980",
   "lastmod": "2026-10-05"
@@ -878,6 +902,10 @@
  "/juegos/montabi": {
   "hash": "1ea5716eb624c05a",
   "lastmod": "2026-09-24"
+ },
+ "/juegos/moomin-midsummer-madness": {
+  "hash": "480547309995cde6",
+  "lastmod": "2026-10-05"
  },
  "/juegos/moomintroll-winters-warmth": {
   "hash": "054214718e26181b",
@@ -1323,6 +1351,10 @@
   "hash": "63e1dd1fe4cd4ba5",
   "lastmod": "2026-10-02"
  },
+ "/juegos/tarot-tokens": {
+  "hash": "1ccb60b58661beef",
+  "lastmod": "2026-10-05"
+ },
  "/juegos/teeto": {
   "hash": "34dc7d7a5773c75c",
   "lastmod": "2026-09-15"
@@ -1354,6 +1386,10 @@
  "/juegos/the-caribou-trail": {
   "hash": "dbe45201553a590f",
   "lastmod": "2026-09-15"
+ },
+ "/juegos/the-cat-in-the-hat-rainy-day-mayhem": {
+  "hash": "c508b6fd802aed68",
+  "lastmod": "2026-10-05"
  },
  "/juegos/the-crew-motorfest": {
   "hash": "7ebf01b7ce5438af",
@@ -1422,6 +1458,10 @@
  "/juegos/the-royal-writ": {
   "hash": "4f2b8605fbaaedd4",
   "lastmod": "2026-09-25"
+ },
+ "/juegos/the-seance-of-blake-manor": {
+  "hash": "961a0e39a0594761",
+  "lastmod": "2026-10-05"
  },
  "/juegos/the-sinking-city-2": {
   "hash": "5c3a0f71492e2a71",
@@ -1531,6 +1571,10 @@
   "hash": "d65db32b216c8732",
   "lastmod": "2026-09-15"
  },
+ "/juegos/village-in-the-shade": {
+  "hash": "a10e5f888fd5ce4f",
+  "lastmod": "2026-10-05"
+ },
  "/juegos/void-breaker": {
   "hash": "40b8f07107e35530",
   "lastmod": "2026-10-02"
@@ -1549,6 +1593,10 @@
  },
  "/juegos/warhammer-40000-boltgun-2": {
   "hash": "660decb8f44120c4",
+  "lastmod": "2026-10-05"
+ },
+ "/juegos/warrior-cats-clans-of-the-forest": {
+  "hash": "dbfd636d470de598",
   "lastmod": "2026-10-05"
  },
  "/juegos/we-were-here-tomorrow": {
@@ -1644,11 +1692,11 @@
   "lastmod": "2026-10-01"
  },
  "/ps4": {
-  "hash": "69437dc4cc763d3c",
+  "hash": "260dff373a244812",
   "lastmod": "2026-10-05"
  },
  "/ps5": {
-  "hash": "69437dc4cc763d3c",
+  "hash": "260dff373a244812",
   "lastmod": "2026-10-05"
  },
  "/recomendados": {
@@ -1660,11 +1708,11 @@
   "lastmod": "2026-10-05"
  },
  "/switch": {
-  "hash": "69437dc4cc763d3c",
+  "hash": "260dff373a244812",
   "lastmod": "2026-10-05"
  },
  "/switch-2": {
-  "hash": "69437dc4cc763d3c",
+  "hash": "260dff373a244812",
   "lastmod": "2026-10-05"
  },
  "/terminos": {
@@ -1676,7 +1724,7 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "69437dc4cc763d3c",
+  "hash": "260dff373a244812",
   "lastmod": "2026-10-05"
  }
 }
