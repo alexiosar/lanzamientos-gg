@@ -385,6 +385,18 @@ def main():
                        capture_output=True, text=True)
     print(r.stdout.strip() or r.stderr.strip())
 
+    # Los próximos 14 días contra las tiendas de Xbox y Nintendo (desde el 05/10/2026). Es el
+    # único chequeo que mira hacia adelante: atrapa el retraso antes de que el juego aparezca
+    # como lanzado en la portada y en el posteo del día. Toca la red y tarda un minuto y medio;
+    # si falla, no frena nada.
+    print()
+    try:
+        r = subprocess.run(["python3", str(RAIZ / "scripts" / "verificar-proximos.py")],
+                           capture_output=True, text=True, timeout=600)
+        print(r.stdout.strip() or r.stderr.strip())
+    except subprocess.TimeoutExpired:
+        print("⚠ verificar-proximos.py tardó más de 10 minutos y se cortó: correrlo a mano")
+
     # La estrella de favoritos se llama desde js/main.js pero vive en js/favoritos.js. Si
     # esa función se renombra o el script deja de cargarse, renderCalendario() tira una
     # excepción en medio del render y la PORTADA QUEDA EN BLANCO. No se ve fea: no se ve.

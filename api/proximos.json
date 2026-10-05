@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-05T16:39:02+00:00",
+ "generado": "2026-10-05T16:56:33+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-05",
@@ -1542,28 +1542,6 @@
    "url": "https://lanzamientos.lat/juegos/blueys-happy-snaps"
   },
   {
-   "id": "pardon-my-french-toast",
-   "titulo": "PARDON MY FRENCH TOAST",
-   "fecha": "2026-10-15",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "REROLLED STUDIO",
-   "descripcion": "Un plataformas en tres dimensiones donde el protagonista es una tostada que se unta cosas encima para conseguir habilidades: dulce de leche para pegarse a las paredes, mermelada para rebotar. La idea entera sale de ahí.",
-   "trailer": "https://youtube.com/embed/wzp6lq877KI",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9vev.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/pardon-my-french-toast"
-  },
-  {
    "id": "tales-of-eternia-remastered",
    "titulo": "TALES OF ETERNIA REMASTERED",
    "duracion": "≈ 33 h (historia) · 74 h (completo)",
@@ -2432,6 +2410,36 @@
      "fecha": "2026-08-20",
      "titulo": "YA TIENE FECHA: 29 DE OCTUBRE",
      "texto": "Después de meses sin día confirmado, el estudio anunció que sale el 29 de octubre."
+    }
+   ]
+  },
+  {
+   "id": "pardon-my-french-toast",
+   "titulo": "PARDON MY FRENCH TOAST",
+   "fecha": "2026-10-29",
+   "relanzamiento": "En PC desde diciembre de 2025",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "REROLLED STUDIO",
+   "descripcion": "Un plataformas en tres dimensiones donde el protagonista es una tostada que se unta cosas encima para conseguir habilidades: dulce de leche para pegarse a las paredes, mermelada para rebotar. La idea entera sale de ahí.",
+   "trailer": "https://youtube.com/embed/wzp6lq877KI",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9vev.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-10",
+   "url": "https://lanzamientos.lat/juegos/pardon-my-french-toast",
+   "noticias": [
+    {
+     "fecha": "2026-10-05",
+     "titulo": "SE CORRE AL 29 DE OCTUBRE",
+     "texto": "La eShop y la tienda de Nintendo de Estados Unidos lo tienen ahora para el 29 de octubre, dos semanas después de lo anunciado. En PC salió en diciembre de 2025."
     }
    ]
   },

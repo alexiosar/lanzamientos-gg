@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 05 Oct 2026 16:39:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 16:56:33 +0000</lastBuildDate>
     <item>
       <title>STEINS;GATE RE:BOOT: SALE EL 29 DE OCTUBRE EN CONSOLAS</title>
       <link>https://lanzamientos.lat/juegos/steins-gate-reboot</link>
@@ -27,6 +27,13 @@
       <guid isPermaLink="false">star-wars-galactic-racer-2026-10-05</guid>
       <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
       <description>Llega el 6 de octubre a PS5 y Xbox con 88 en Metacritic sobre más de sesenta reseñas. La prensa celebra la velocidad y la campaña roguelite, y le marca poca variedad de pistas. — STAR WARS: GALACTIC RACER para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>PARDON MY FRENCH TOAST: SE CORRE AL 29 DE OCTUBRE</title>
+      <link>https://lanzamientos.lat/juegos/pardon-my-french-toast</link>
+      <guid isPermaLink="false">pardon-my-french-toast-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+      <description>La eShop y la tienda de Nintendo de Estados Unidos lo tienen ahora para el 29 de octubre, dos semanas después de lo anunciado. En PC salió en diciembre de 2025. — PARDON MY FRENCH TOAST para SWITCH.</description>
     </item>
     <item>
       <title>DUNECRAWL: SALE EL 19 DE OCTUBRE EN PS5 Y XBOX</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">elta-defy-all-gods-2026-10-01</guid>
       <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
       <description>Focus Entertainment puso fecha y publicó una demo gratis en PS5. Cuesta 29,99 dólares, y quien lo reserva se lleva un aspecto especial para el protagonista. — ELTA: DEFY ALL GODS para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>HEARTWORM: SALIÓ EN PS5, PS4 Y XBOX</title>
-      <link>https://lanzamientos.lat/juegos/heartworm</link>
-      <guid isPermaLink="false">heartworm-2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Llegó a consolas el 1 de octubre, a 14,99 dólares, un año después del estreno en PC. DreadXP también lo anunció para Switch 2 y Switch, que todavía no tienen ficha en la eShop. — HEARTWORM para PS5 / PS4 / XBOX.</description>
     </item>
   </channel>
 </rss>

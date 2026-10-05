@@ -9653,7 +9653,8 @@ const JUEGOS = [
   {
     id: "pardon-my-french-toast",
     titulo: "PARDON MY FRENCH TOAST",
-    fecha: "2026-10-15",
+    fecha: "2026-10-29",
+    relanzamiento: "En PC desde diciembre de 2025",
     plataformas: ["SWITCH"],
     genero: ["PLATAFORMA","AVENTURA","INDIE"],
     desarrollador: "REROLLED STUDIO",
@@ -9661,6 +9662,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/wzp6lq877KI",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9vev.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-05",
+        titulo: "SE CORRE AL 29 DE OCTUBRE",
+        texto: "La eShop y la tienda de Nintendo de Estados Unidos lo tienen ahora para el 29 de octubre, dos semanas después de lo anunciado. En PC salió en diciembre de 2025."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-10"

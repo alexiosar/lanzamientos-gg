@@ -93,6 +93,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               sueltas, que siguen con su copia a mano
 ├── scripts/novedades-steam.py  Lo que anuncian los estudios en Steam (juegos chicos)
 ├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
+├── scripts/verificar-proximos.py  Los próximos 14 días contra las tiendas de Xbox y Nintendo
 ├── scripts/buscar-eshop.py     Consulta la eShop: por nombre o todo lo que sale en un rango de fechas
 ├── scripts/buscar-youtube.py   Busca videos, verifica ids con oEmbed y lista lo último de un canal
 ├── scripts/buscar-xbox.py      Consulta el catálogo de Xbox por API: existencia y fecha
@@ -1361,6 +1362,17 @@ en este archivo y en la sección "Fuentes de datos habituales".
    pasó, y cuanto más viejo es el dato más convincente parece. Cuando salte uno, **no asumir
    que se retrasó**: de aquellos tres, uno ya había salido, otro había salido ocho meses
    ANTES de lo que decíamos y el tercero nunca tuvo esa fecha. Hay que ir a la tienda.
+
+   **Y mirar el cuarto, el de los próximos 14 días contra las tiendas** (`verificar-proximos.py`,
+   desde el 05/10/2026). A diferencia de los otros tres, toca la red: pregunta a Xbox y a la
+   eShop por cada juego con día de las próximas dos semanas y avisa si la tienda tiene otra
+   fecha, dice "sin día" o la ficha de Microsoft es sólo de PC. Salió de la revisión de los
+   "dados por lanzados", donde el error más común resultó ser **el retraso que nadie cargó**
+   (Don't Fret, Steins;Gate). La primera corrida encontró uno más en el acto: Pardon My
+   French Toast, que figuraba el 15/10 y las dos tiendas de Nintendo tenían el 29. Las
+   alertas se verifican igual a mano: Xbox a veces da como fecha el día en que abrió la
+   reserva, y lo que "no encuentra" no prueba nada (nombres traducidos, signos raros).
+   PlayStation no entra porque la PS Store no responde sin navegador.
 
    **Mirar el final.** Si dice `⚠⚠ N PASO(S) FALLARON`, no subir. Son dos cosas distintas:
    un **generador** que falla deja su página como estaba —se ve bien y está vieja, que es
