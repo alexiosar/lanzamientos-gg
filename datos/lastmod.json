@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "34f9fd771e0f6e56",
+  "hash": "7122b6863fe4d598",
   "lastmod": "2026-10-06"
  },
  "/abril-2027": {
@@ -208,8 +208,8 @@
   "lastmod": "2026-10-06"
  },
  "/juegos/call-of-duty-modern-warfare-4": {
-  "hash": "1ec5a911dd87e90e",
-  "lastmod": "2026-10-05"
+  "hash": "cfa0fd22c2fa4182",
+  "lastmod": "2026-10-06"
  },
  "/juegos/captain-tsubasa-2-world-fighters": {
   "hash": "11ff96030fa538df",
@@ -600,8 +600,8 @@
   "lastmod": "2026-09-21"
  },
  "/juegos/grand-theft-auto-vi": {
-  "hash": "c657948270ae7dd6",
-  "lastmod": "2026-10-02"
+  "hash": "4d95cc84e6b69369",
+  "lastmod": "2026-10-06"
  },
  "/juegos/grave-seasons": {
   "hash": "2eac55e072dc8749",
@@ -618,6 +618,10 @@
  "/juegos/grounded-2": {
   "hash": "02d6094e33a06705",
   "lastmod": "2026-09-22"
+ },
+ "/juegos/gundam-rogue-orbit": {
+  "hash": "ad711033ca48917f",
+  "lastmod": "2026-10-06"
  },
  "/juegos/gunvolt-chronicles-luminous-avenger-ix-1-2-dual-collection": {
   "hash": "150f30de53afe857",
@@ -1076,8 +1080,8 @@
   "lastmod": "2026-10-06"
  },
  "/juegos/persona-4-revival": {
-  "hash": "525bf5f89e437f94",
-  "lastmod": "2026-10-02"
+  "hash": "ae16c330b03ba194",
+  "lastmod": "2026-10-06"
  },
  "/juegos/phantom-blade-zero": {
   "hash": "99698c84f719ceef",
@@ -1336,8 +1340,8 @@
   "lastmod": "2026-10-03"
  },
  "/juegos/stranger-than-heaven": {
-  "hash": "22b2b3afc6fbb33a",
-  "lastmod": "2026-10-03"
+  "hash": "7ab726b6c0193e65",
+  "lastmod": "2026-10-06"
  },
  "/juegos/stupid-never-dies": {
   "hash": "b77b8144f5515a64",
@@ -1688,7 +1692,7 @@
   "lastmod": "2026-10-06"
  },
  "/noticias": {
-  "hash": "6651ed64c4cd1657",
+  "hash": "293db3a6ae1b6584",
   "lastmod": "2026-10-06"
  },
  "/noviembre-2026": {
@@ -1708,11 +1712,11 @@
   "lastmod": "2026-10-01"
  },
  "/ps4": {
-  "hash": "34f9fd771e0f6e56",
+  "hash": "7122b6863fe4d598",
   "lastmod": "2026-10-06"
  },
  "/ps5": {
-  "hash": "34f9fd771e0f6e56",
+  "hash": "7122b6863fe4d598",
   "lastmod": "2026-10-06"
  },
  "/recomendados": {
@@ -1724,11 +1728,11 @@
   "lastmod": "2026-10-06"
  },
  "/switch": {
-  "hash": "34f9fd771e0f6e56",
+  "hash": "7122b6863fe4d598",
   "lastmod": "2026-10-06"
  },
  "/switch-2": {
-  "hash": "34f9fd771e0f6e56",
+  "hash": "7122b6863fe4d598",
   "lastmod": "2026-10-06"
  },
  "/terminos": {
@@ -1740,7 +1744,7 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "34f9fd771e0f6e56",
+  "hash": "7122b6863fe4d598",
   "lastmod": "2026-10-06"
  }
 }

@@ -1886,14 +1886,14 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/grand-theft-auto-vi</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://lanzamientos.lat/juegos/call-of-duty-modern-warfare-4</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2558,7 +2558,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/stranger-than-heaven</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2593,7 +2593,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/persona-4-revival</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2622,6 +2622,13 @@
   <url>
     <loc>https://lanzamientos.lat/juegos/wo-long-2-wings-of-ember</loc>
     <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/gundam-rogue-orbit</loc>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

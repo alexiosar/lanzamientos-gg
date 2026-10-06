@@ -6442,6 +6442,11 @@ const JUEGOS = [
     imagen: "https://cdn2.steamgriddb.com/grid/a55e72542860596de2ef8c0d847b6f03.png",
     noticias: [
       {
+        fecha: "2026-10-02",
+        titulo: "LOS MIAMI HEAT JUEGAN COMO VICE CITY UN DÍA ANTES DEL ESTRENO",
+        texto: "El 18 de noviembre, la noche anterior al lanzamiento, los Miami Heat reciben a los Milwaukee Bucks con uniformes y una cancha de Vice City, la versión de Miami del juego. La noche se llama «A Night in Vice City» y el partido se transmite por ESPN. El equipo además sacó una colección de 14 prendas inspirada en el juego."
+      },
+      {
         fecha: "2026-08-27",
         titulo: "UNA MIRADA EXTENDIDA SE ESTRENÓ EN NETFLIX, NO EN YOUTUBE",
         texto: "Rockstar estrenó hoy Grand Theft Auto VI: Una mirada extendida, y eligió Netflix para estrenarlo: al canal oficial de YouTube y al sitio del juego llegó unas horas después, esa misma noche. Está capturado enteramente con imágenes del juego corriendo en PS5, un detalle que Rockstar remarca en el anuncio. La fecha de salida no se movió: sigue el 19 de noviembre en PS5 y Xbox Series X|S."
@@ -6481,6 +6486,11 @@ const JUEGOS = [
     psplus: false,
     alta: "2026-07-30",
     noticias: [
+      {
+        fecha: "2026-10-05",
+        titulo: "CÓMO FUNCIONA DMZ, EL MODO DE EXTRACCIÓN",
+        texto: "DMZ sale el 23 de octubre junto con la campaña y el multijugador. Se arma desde una base de operaciones que crece con cada despliegue en Hajin, con armero, vendedor, impresora 3D y tabla de jefes, y tiene una progresión propia del nivel 1 al 70. Se puede salir a misiones de historia, a operaciones dinámicas para ganar dinero o a explorar libre, y cada zona tiene un nivel de amenaza: hacer ruido trae una respuesta enemiga más violenta."
+      },
       {
         fecha: "2026-08-20",
         titulo: "LA BETA ARRANCA EL 21 Y SE ABRE A TODOS EL 28",
@@ -9030,7 +9040,14 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/avpTgTNadh4",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobu6l.jpg",
-    gamepass: false,
+    noticias: [
+      {
+        fecha: "2026-10-02",
+        titulo: "GAMEPLAY DE OSAKA EN 1943",
+        texto: "SEGA mostró la tercera de las cinco épocas del juego: el barrio de Minami, en Osaka, en plena guerra, entre teatros, escasez, callejones oscuros y el bajo mundo. El combate deja usar cada mano casi por separado, para bloquear con una y contraatacar con la otra, y Makoto, que tiene talento musical, junta sonidos del ambiente para componer canciones. Sale el 15 de enero de 2027 y entra a Game Pass ese mismo día."
+      }
+    ],
+    gamepass: true,
     psplus: false,
     alta: "2026-09-17"
   },
@@ -9168,6 +9185,11 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7iu.jpg",
     noticias: [
+      {
+        fecha: "2026-10-03",
+        titulo: "TRÁILER «SHADOW» Y UNA CANCIÓN NUEVA",
+        texto: "ATLUS mostró las versiones Sombra de los integrantes del grupo y fragmentos de la historia, con el secuestrador de Inaba conectado al mundo de las sombras, al ritmo de un tema compuesto para el remake. Sale el 18 de febrero de 2027 en PS5, Xbox y PC, y el 20 de mayo en Switch 2. Trae todos los eventos con voces, incluidos los Social Links, música nueva de Ryota Kozuka y el Baton Pass de Persona 5."
+      },
       {
         fecha: "2026-09-20",
         titulo: "SEGUNDO PROGRAMA: MÁS DEL EQUIPO DE INVESTIGACIÓN",
@@ -9510,9 +9532,16 @@ const JUEGOS = [
     genero: ["ACCION", "ANIME", "SHOOTER"],
     desarrollador: "BANDAI NAMCO",
     descripcion: "Acción de mechas en el universo Gundam, anunciada en el State of Play de septiembre con fecha para el 5 de marzo de 2027. Se pilotea en combate espacial y en superficie.",
-    trailer: "https://youtube.com/embed/GhvI403SgeI",
+    trailer: "https://youtube.com/embed/0SdEiVX1e2g",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6ls.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-06",
+        titulo: "UNA MISIÓN COMPLETA EN TRES MINUTOS",
+        texto: "Bandai Namco mostró una misión de punta a punta: la previa a bordo de la nave Stellarvane, el combate con movilidad en todas las direcciones contra oleadas de enemigos y los Apocalypse, enemigos gigantes con puntos débiles propios. Antes de salir se personalizan armas, estructura, habilidades y colores del Gundam Helix, y en combate se activan el Over-rise y la descarga de la unidad AP. Sale el 5 de marzo de 2027."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
