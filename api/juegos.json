@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-06T15:01:45+00:00",
+ "generado": "2026-10-06T15:14:16+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 501,
@@ -229,7 +229,7 @@
     "PUZZLE"
    ],
    "desarrollador": "BEXIDE",
-   "descripcion": "Un puzle en 3D con los personajes de los arcade de Namco de los ochenta pasados a vóxeles. Se lanzan, se apilan y se fusionan bloques buscando la puntuación más alta.",
+   "descripcion": "Un juego de puzzles en 3D con los personajes de los arcade clásicos de Namco convertidos en vóxeles: Pac-Man, Dig Dug, Xevious, Mappy y The Tower of Druaga. Se tiran cápsulas al tablero y, cuando dos piezas iguales chocan, se fusionan en una más grande. La gracia es apilar sin que nada se caiga del campo y buscar el puntaje más alto.",
    "trailer": "https://youtube.com/embed/Zx4ejRlUjq0",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc846.jpg",
@@ -353,7 +353,7 @@
     "MUSICA"
    ],
    "desarrollador": "DEATHBULGE",
-   "descripcion": "Un juego de rol con temática musical que combina elementos macabros y sádicos. La historia gira en torno a una batalla musical a muerte, donde los participantes pueden atacar y ser atacados con música.",
+   "descripcion": "Un RPG por turnos con temática musical y humor negro. Faye, Ian y Briff, una banda de tres amigos bastante disfuncional, se meten sin saberlo en una batalla de bandas maldita, donde todos los participantes atacan con música y pelean a muerte. El grupo se arma con nueve clases musicales, cada una con sus ataques, sus ventajas y su ropa, del músico callejero que alienta al resto al que hace mucho daño a lo bruto.",
    "trailer": "https://youtube.com/embed/atVHSKXhv30",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1083790/library_600x900.jpg",
@@ -526,7 +526,7 @@
     "INDIE"
    ],
    "desarrollador": "ALAWAR",
-   "descripcion": "La secuela de Wall World: se baja por dentro de un muro misterioso con una araña robot, juntando artefactos y tecnología para mejorar el traje y el vehículo, y peleando contra los monstruos de las profundidades hasta llegar al fondo.",
+   "descripcion": "La secuela de Wall World, un roguelite de minería: se baja por el interior de un muro misterioso a bordo de una araña robot, por minas generadas al azar, extrayendo recursos y encontrando tecnología nueva. Con eso se mejoran la araña y el exotraje para aguantar las hordas de monstruos que atacan, mientras se exploran biomas distintos y se descubren los secretos de las profundidades.",
    "trailer": "https://youtube.com/embed/PWsHA1R1Fl8",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3467710/library_600x900.jpg",
@@ -970,7 +970,7 @@
     "RPG"
    ],
    "desarrollador": "BLUM ENTERTAINMENT",
-   "descripcion": "Un juego de supervivencia y gestión al frente de un asentamiento vikingo. Se junta material, se construye, se fabrica, se caza y se saquea, siempre con los dioses de por medio, para que el clan aguante la dureza de la naturaleza.",
+   "descripcion": "Un juego de supervivencia y gestión vikingo. Una serie de desgracias deja al protagonista en una costa desconocida, que hay que convertir en hogar y fortaleza: se reúne lo que queda del clan, se fabrica, se construye, se caza y se sale de expedición. Además de la dureza de la naturaleza, hay que sostener las tradiciones y la fe frente a fanáticos cristianos hostiles.",
    "trailer": "https://youtube.com/embed/o8CzpzRNzlw",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304430/library_600x900.jpg",
@@ -2197,7 +2197,7 @@
     "INDIE"
    ],
    "desarrollador": "JANDUSOFT",
-   "descripcion": "Un juego de granja en un planeta propio, comprado casi regalado en las afueras de la galaxia. La idea es dejar atrás la ciudad superpoblada y empezar una vida rural cultivando esa roca.",
+   "descripcion": "Un juego de granja en un planeta comprado a precio de ganga: una vieja roca agrícola abandonada en un sistema solar de las afueras. Se llega con una nave gastada y un droide asistente, y hay que restaurarla: cortar yuyos, despejar caminos, recuperar las plantaciones y arreglar lo que el tiempo destruyó, hasta convertirla en una hacienda próspera.",
    "trailer": "https://youtube.com/embed/zGhvLMyg758",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2252680/library_600x900.jpg",
@@ -2221,7 +2221,7 @@
     "INDIE"
    ],
    "desarrollador": "DISRUPTIVE GAMES",
-   "descripcion": "Un cooperativo para cuatro jugadores de terror de extracción en el Triángulo de las Bermudas. Todo gira alrededor de un único vehículo compartido y de una física caótica que vuelve las leyes de la naturaleza en contra del grupo, entre gritos y risas.",
+   "descripcion": "Un cooperativo de extracción para cuatro en el Triángulo de las Bermudas. La Corporación Trustwell manda a los Wreck Runners a misiones supuestamente seguras para recuperar restos extraños, y lo que encuentran es un mundo maldito partido por la Niebla, con ruinas, criaturas y secretos. Todo funciona con física: el botín se arrastra con un gancho hasta el único vehículo del grupo, y cada lanzamiento puede salir muy mal.",
    "trailer": "https://youtube.com/embed/UIoMzMEyctg",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc0b9.jpg",
@@ -2245,7 +2245,7 @@
     "PUZZLE"
    ],
    "desarrollador": "SWING SWING SUBMARINE",
-   "descripcion": "Hola, soy Fael... Escucha, esto va a sonar extraño, pero... creo que estoy perdido en el apartamento. Ahora mismo no sé dónde estoy. ¿Puedes venir a ayudarme? Una aventura narrativa e intimista sobre la búsqueda de un amigo.",
+   "descripcion": "Una aventura de puzzles surrealista a puertas cerradas. Todo arranca con un mensaje de voz extraño de Fael, el compañero de departamento, que dice estar perdido adentro del departamento. De a poco, el lugar que parecía conocido se multiplica en un laberinto lleno de acertijos, y hay que avanzar habitación por habitación descifrando las pistas que va dejando.",
    "trailer": "https://youtube.com/embed/nayBwXzl-Ys",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2521170/library_600x900.jpg",
@@ -2268,7 +2268,7 @@
     "ARCADE"
    ],
    "desarrollador": "THIRD KIND GAMES",
-   "descripcion": "Un juego de mountain bike hecho por ciclistas, con controles de doble stick pensados para trucos grandes. Se anda con amigos o se compite en tablas mundiales, y superando desafíos se consiguen patrocinios de marcas reales.",
+   "descripcion": "Un juego de mountain bike en un mundo abierto de 100 kilómetros cuadrados, con pistas de descenso, recorridos de slopestyle y varios bike parks, hecho por ciclistas. Los controles de doble stick están pensados para trucos grandes. Se anda con amigos, se descubren desafíos escondidos, se compite en rankings mundiales y se desbloquean objetos raros y patrocinios.",
    "trailer": "https://youtube.com/embed/tCD0vZN-K-U",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2926900/library_600x900.jpg",
@@ -2602,7 +2602,7 @@
     "ESTRATEGIA"
    ],
    "desarrollador": "BONE NAIL",
-   "descripcion": "Administrá un hotel muy particular y contratá empleados como la mismísima Muerte, un dragón, una cazadora de espíritus y una mucama bioroide. Un simulador de gestión con encanto lovecraftiano.",
+   "descripcion": "Un simulador de gestión con aire lovecraftiano. Se hereda una villa abandonada cargada de deudas oscuras y se la convierte en hotel, con empleados como la Muerte, un dragón, una cazadora de espíritus y una mucama bioroide. Llegan huéspedes extraños con sus propios eventos, y la plata sale de la minería, las aventuras, la alquimia y el restaurante. Consultar a los oráculos ayuda, pero baja la cordura.",
    "trailer": "https://youtube.com/embed/_wJ-TmzhJQg",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2194530/library_600x900.jpg",
@@ -2623,7 +2623,7 @@
     "SIMULACION"
    ],
    "desarrollador": "ROCKWATER",
-   "descripcion": "Un simulador de pool con física realista y control preciso. Trae bola 8, bola 9 y otras modalidades, se juega solo, en local u online con juego cruzado, y suma un modo carrera largo y muchas opciones de personalización.",
+   "descripcion": "La secuela de Pure Pool, un simulador de pool con un motor de física rehecho que reproduce el efecto, la rotación y el control de la bola, y gráficos de hasta 8K nativos. Trae bola 8, bola 9 y otras modalidades, un modo carrera con cientos de eventos, juego local y online con juego cruzado, y muchas opciones de personalización.",
    "trailer": "https://youtube.com/embed/a7_0PDYg7y4",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coakle.jpg",
@@ -2715,7 +2715,7 @@
     "INDIE"
    ],
    "desarrollador": "GAZUNTYPE",
-   "descripcion": "Explorá hermosos laberintos, descubrí objetos únicos y ayudá a otros exploradores a completar misiones secundarias insólitas en esta aventura tranquila de exploración.",
+   "descripcion": "Una aventura tranquila de laberintos. Se dice que el Dios del Laberinto vive en el punto más al norte del mundo y le concede un deseo a quien llegue, y Dara se propone ser ella. Con objetos mágicos y tecnológicos se recorren laberintos y mundos amplios, y en el camino se ayuda a otros exploradores con encargos insólitos. Está pensada para jugar sin apuro.",
    "trailer": "https://youtube.com/embed/dkZgVioEGIM",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041730/library_600x900.jpg",
@@ -3062,7 +3062,7 @@
     "INDIE"
    ],
    "desarrollador": "FIRELINE GAMES",
-   "descripcion": "Un juego tranquilo de manejar un vivero chico. Se cuidan y se venden plantas de muchas variedades, se ayuda a los clientes a encontrar la que buscan y se decora el local de mil maneras.",
+   "descripcion": "Un juego tranquilo de manejar un vivero, con plantas reales de muchas variedades. Se cuidan las plantas mientras crecen y florecen, se las vende y se ayuda a los clientes, que muchas veces no saben bien qué buscan, a encontrar la indicada. El local se decora de muchas maneras hasta convertirlo en un lugar acogedor.",
    "trailer": "https://youtube.com/embed/zOi4PqrXiO8",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/c6936f77f9dd8d29c148ebd627b5a624.png",
@@ -3087,7 +3087,7 @@
     "INDIE"
    ],
    "desarrollador": "THE ROOT STUDIOS",
-   "descripcion": "Un roguelite de hordas donde se arma un escuadrón de criaturas elementales. Los Fragmentos que se eligen dan habilidades nuevas según cómo combinen entre sí, y las reliquias terminan de definir la partida en cada escenario.",
+   "descripcion": "Un roguelite de hordas en el que se arma un escuadrón de criaturas elementales. Hay más de 20 Shards, de fuego, electricidad, agua, naturaleza y cristal, que se suman al equipo derrotando a los jefes, y sus rasgos se combinan para destrabar efectos y habilidades nuevas. Las reliquias terminan de definir cada partida.",
    "trailer": "https://youtube.com/embed/l2gLokNpTIY",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3363560/library_600x900.jpg",
@@ -3113,7 +3113,7 @@
     "INDIE"
    ],
    "desarrollador": "SHIROMOFU FACTORY",
-   "descripcion": "Un RPG sencillo inspirado en los Wizardry y Final Fantasy de los años 80 y 90: mazmorras, combate por turnos y estética retro para los nostálgicos del género clásico.",
+   "descripcion": "Un RPG de mazmorras con pixel art y música chiptune a la manera de los años ochenta y noventa. Los mapas en 2D se van revelando según lo que ve el grupo, se generan al azar y hay muchas profesiones para armar el grupo con libertad, así que se puede jugar una y otra vez. Va al grano: combate y exploración, sin escenas de relleno y con controles ágiles.",
    "trailer": "https://youtube.com/embed/jrM2SHAjvwA",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3198540/library_600x900.jpg",
@@ -3268,7 +3268,7 @@
     "AVENTURA"
    ],
    "desarrollador": "IRON FROG",
-   "descripcion": "Un juego de las Winx con combate mágico y puzles. Se juega con las seis integrantes del club, cada una con sus propias habilidades.",
+   "descripcion": "Un juego de las Winx con combate mágico, puzzles y cooperativo para dos. Se juega con las seis integrantes del club, cada una con sus propias habilidades mágicas, y se puede cambiar libremente entre ellas durante la partida para aprovechar la que mejor sirve en cada momento. Se recorren escenarios conocidos de la serie.",
    "trailer": "https://youtube.com/embed/VR0i6lthTDM",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobhh6.jpg",
@@ -3323,7 +3323,7 @@
     "ESTRATEGIA"
    ],
    "desarrollador": "ALAWAR",
-   "descripcion": "Un spin-off de Beholder, la serie de vigilar a los demás en un régimen autoritario. Esta vez se es el conductor de un tren: se controla a los pasajeros, se denuncian incidentes y se cumplen misiones para el Ministerio, que sólo acepta resultados.",
+   "descripcion": "Un spin-off de Beholder, la serie de vigilar a los demás en un régimen autoritario. Esta vez se es el conductor de un tren legendario: hay que mantener el orden en el vagón, ayudar a los pasajeros y decidir qué hacer con los que viajan sin boleto, con informes, intimidación, requisas y expulsiones como herramientas. Y el director siempre tiene razón.",
    "trailer": "https://youtube.com/embed/9ezzCHW2rE8",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2825530/library_600x900.jpg",
@@ -3407,7 +3407,7 @@
     "INDIE"
    ],
    "desarrollador": "HIT START STUDIOS",
-   "descripcion": "Un plataformas cooperativo pensado para superarse en equipo, escapando de niveles cada vez más exigentes junto a amigos.",
+   "descripcion": "Un plataformas cooperativo exigente para dos jugadores, con cientos de niveles llenos de trampas. Colin y Floyd tienen que sincronizar cada paso, salto y escalada: Floyd tiene un impulso y Colin una soga para trepar, y las dos habilidades son necesarias para pasar. En el camino hay coleccionables y secretos.",
    "trailer": "https://youtube.com/embed/noqrebWKFKw",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1354260/library_600x900.jpg",
@@ -3622,7 +3622,7 @@
     "ESTRATEGIA"
    ],
    "desarrollador": "LUDOGRAM",
-   "descripcion": "Un roguelite de supervivencia y defensa de torres donde la ciudad que se protege va sobre ruedas. Se juntan recursos, se refuerzan las defensas y se mejora todo mientras las hordas avanzan, con la meta de llegar al Arco a tiempo.",
+   "descripcion": "Un roguelite de supervivencia y defensa de torres en el que la ciudad que se protege va sobre ruedas y no puede detenerse. Se juntan recursos, se eligen, ubican y mejoran distritos y se equipan defensas para alejar de las puertas a un ejército oscuro interminable, mientras la ciudad avanza hacia el Arco.",
    "trailer": "https://youtube.com/embed/P33pMKtwmLE",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/b82959244a8d32cfb974a8e330e8f38a.png",
@@ -3642,7 +3642,7 @@
     "ACCION"
    ],
    "desarrollador": "WIT ONE",
-   "descripcion": "La vuelta de Route-16 Turbo, un juego de NES de hace más de cuarenta años, con la jugabilidad original intacta, gráficos rehechos por completo y algunos agregados.",
+   "descripcion": "La vuelta de Route-16 Turbo, un juego de NES de hace más de cuarenta años, con la jugabilidad original intacta, gráficos rehechos por completo y la música remezclada. Se maneja el MAD X-R, que ahora tiene poderes nuevos, para frenar a una organización malvada que volvió a la vida, y suma un modo versus local.",
    "trailer": "https://youtube.com/embed/Gi-5BgQe9yU",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4307330/58a63a96dbcbaff8701765d3e26e1a1dce96b902/header.jpg",
@@ -3979,7 +3979,7 @@
     "ESTRATEGIA"
    ],
    "desarrollador": "PARALLEL 45 GAMES",
-   "descripcion": "Un tower defense roguelike donde el mapa se construye mientras se defiende la fortaleza de una invasión alienígena. Hay treinta héroes para elegir y torres que se van mejorando oleada tras oleada.",
+   "descripcion": "Un tower defense roguelike contra la invasión de los Artronidos. El mapa se arma mientras se juega: se agregan y modifican losas de terreno para crear embudos que obligan a los enemigos a pasar bajo la artillería. Hay treinta héroes para elegir, torres que se mejoran oleada tras oleada y partidas que nunca salen iguales.",
    "trailer": "https://youtube.com/embed/FbO0ffQIaLk",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3226530/library_600x900.jpg",
@@ -4283,7 +4283,7 @@
     "RETRO"
    ],
    "desarrollador": "TEAM APIDYA",
-   "descripcion": "Apidya regresa en un remake auténtico de píxeles a 24 bits: el shoot'em up de culto de Amiga vuelve reconstruido desde cero para consolas modernas.",
+   "descripcion": "La vuelta de Apidya, el shoot'em up de culto de 1992 para computadoras, en una remake de pixel art de 24 bits hecha desde cero pero fiel al original. Lo hace el equipo original junto con un fanático convertido en desarrollador, a partir de una versión para consolas de los noventa que había quedado abandonada, con arte nuevo y efectos de sonido agregados.",
    "trailer": "https://youtube.com/embed/ZUP-wVaUxpU",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocdqn.jpg",
@@ -6982,7 +6982,7 @@
     "CASUAL"
    ],
    "desarrollador": "EGG HATCHER",
-   "descripcion": "Preparás a la próxima monarca del Reino Volcánico: descubrí sus pasatiempos, entrenala para el combate y hacete amiga de los ciudadanos que algún día gobernará, en este querido simulador de crianza.",
+   "descripcion": "Un simulador de crianza en el Reino Volcánico, una tierra medieval próspera bendecida por la Diosa del Volcán. Después de la muerte de su esposa, el protagonista queda solo a cargo de su hija, la futura monarca, y las decisiones sobre su vida definen en qué se convierte: se descubren pasatiempos con ella, se la entrena para el combate y se la ayuda con los estudios.",
    "trailer": "https://youtube.com/embed/4WLyF94hjd0",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669980/library_600x900.jpg",
@@ -7004,7 +7004,7 @@
     "AVENTURA"
    ],
    "desarrollador": "SECRET CHARACTER",
-   "descripcion": "Neko Odyssey: imperdible para los entusiastas de los gatos. Esta aventura casual gira en torno a fotografiar y conocer a los michis del barrio, cada uno con su personalidad.",
+   "descripcion": "Un juego casual para quienes aman a los gatos: se recorre una ciudad buscando gatos para fotografiarlos y subir las fotos a una red social dentro del juego, donde reciben me gusta. Cada gato tiene su personalidad, y el pixel art sobre escenarios en 3D le da un aire de animación japonesa.",
    "trailer": "https://youtube.com/embed/Tke32alC0BQ",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2476350/library_600x900.jpg",
@@ -7094,7 +7094,7 @@
     "COOP"
    ],
    "desarrollador": "ART OF PLAY INTERACTIVE",
-   "descripcion": "Hack and slash cooperativo de scroll lateral basado en el cómic Lady Death: 15 niveles de espadazos, magia y demonios para rebanar solo o de a dos.",
+   "descripcion": "Un hack and slash de scroll lateral basado en el cómic de Lady Death, con quince niveles para jugar solo o de a dos. Perseguida a través del tiempo y de la realidad, Lady Death se abre paso entre hordas de demonios a espadazos y con hechicería oscura, mientras desentraña un misterio que la lleva a su enemigo más peligroso. Toma lo mejor de los arcade de los noventa.",
    "trailer": "https://youtube.com/embed/N5RWg98FPpA",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2954890/library_600x900.jpg",
@@ -9823,7 +9823,7 @@
     "COOP"
    ],
    "desarrollador": "LASER GUIDED GAMES",
-   "descripcion": "Un RPG de acción de fantasía oscura ambientado en los restos de una realidad hecha pedazos. Combate pesado y de precisión, reinos variados y jefes exigentes, en solitario o junto a otros jugadores.",
+   "descripcion": "Un RPG de acción de fantasía oscura en una realidad rota en pedazos por la ambición de sus habitantes. Guiado por una voz misteriosa, hay que recorrer esos reinos, reconstruir el pasado y enfrentar a los responsables. El combate es pesado y de precisión: cada arma tiene su peso, su velocidad y sus movimientos, de las mazas a dos manos a las lanzas y las varitas mágicas.",
    "trailer": "https://youtube.com/embed/jUBmShHtHAM",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1879860/library_600x900.jpg",
@@ -10202,7 +10202,7 @@
     "INDIE"
    ],
    "desarrollador": "テスカトリポカ",
-   "descripcion": "Un roguelite de construcción de mazos donde hay que sobrevivir siete días jugando al chinchirorin, un juego de dados japonés, apostando sangre contra una chica que no quiere que te vayas nunca.",
+   "descripcion": "Un roguelite de dados en el que hay que sobrevivir siete días de apuestas a muerte. Una chica que no quiere que te vayas nunca propone un juego simple: tirar dados apostando un poco de sangre en cada mano. Se arma un mazo de dados, las reglas cambian cada día, hacer trampa está permitido y las monedas que se ganan sirven para mejorar las chances.",
    "trailer": "https://youtube.com/embed/wWh06nl7vUo",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3394770/library_600x900.jpg",
@@ -10969,7 +10969,7 @@
     "COOP"
    ],
    "desarrollador": "ASPYR MEDIA",
-   "descripcion": "Una sombra crece en el norte. La reedición del cooperativo de 2011 ambientado en la Tierra Media, con una guerra que se extiende más allá de lo que cuenta la novela y tres héroes que se reparten el trabajo sucio.",
+   "descripcion": "La reedición de La Guerra del Norte, el cooperativo de 2011 ambientado en la Tierra Media. Mientras Frodo y Sam viajan a Mordor, en el norte crece otra amenaza: Agandaûr, un númenóreano negro al servicio de Sauron, reunió un ejército en las ruinas de Fornost. Tres héroes, que se pueden jugar en cooperativo, salen a frenarlo en una Tierra Media más oscura y brutal.",
    "trailer": "https://youtube.com/embed/I3Bk2E3fJT4",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coco7i.jpg",
@@ -10994,7 +10994,7 @@
     "PUZZLE"
    ],
    "desarrollador": "INDOOR SUNGLASSES",
-   "descripcion": "Investigá una mente rota para resolver un caso enrevesado. Se deduce la verdad reconstruyendo recuerdos perdidos, entrando y saliendo de escenas que se contradicen entre sí.",
+   "descripcion": "Una investigación adentro de una mente. Con una tecnología experimental, el protagonista recorre el Mar de la Conciencia de Lina para recuperar sus recuerdos y resolver una serie de desapariciones sin precedentes. A cada recuerdo le falta un detalle clave, que puede estar en cualquier lado, y completarlo es lo que permite avanzar y armar el caso.",
    "trailer": "https://youtube.com/embed/zjyFQZcqbxA",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2259330/library_600x900.jpg",
@@ -11087,7 +11087,7 @@
     "INDIE"
    ],
    "desarrollador": "GD STUDIO",
-   "descripcion": "Un juego tranquilo de decorar y ordenar casas. Los vecinos van dejando pedidos —una mudanza, un cuarto que rehacer— y el trabajo es acomodar los muebles hasta que cada espacio funcione y se vea bien.",
+   "descripcion": "Un juego tranquilo de decorar y ordenar en el Pueblo del Susurro. Se trabaja de ayudante doméstico, con encargos de todo tipo: mudanzas, limpiar y ordenar habitaciones, acondicionar tiendas nuevas y hasta buscar gatos. Cada trabajo da recompensas y muebles para decorar un espacio propio, y en el camino se conocen las historias de los vecinos.",
    "trailer": "https://youtube.com/embed/5BAs28YwULY",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2589500/library_600x900.jpg",
@@ -11173,7 +11173,7 @@
     "MUNDO ABIERTO"
    ],
    "desarrollador": "RUBBERBANDGAMES",
-   "descripcion": "Un sandbox de mundo abierto donde todo se mueve por física y los personajes son muñecos de trapo. Se consiguen trabajos, se junta plata y se hace desastre, solo o en línea con amigos.",
+   "descripcion": "Un sandbox de mundo abierto con física y personajes que se tambalean. La abuela echa al protagonista de casa para que consiga trabajo y algún día se compre una casa, y a partir de ahí hay más de cien misiones y trabajos, más de noventa vehículos, minijuegos y secretos. Se juega solo, de a cuatro online o en pantalla dividida.",
    "trailer": "https://youtube.com/embed/2invlS5ks04",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1211020/library_600x900.jpg",
@@ -11238,7 +11238,7 @@
     "INDIE"
    ],
    "desarrollador": "FOGO GAMES",
-   "descripcion": "Un shooter de vista cenital donde los zombis explotan en baba verde que va pintando la pantalla, con un arsenal desmedido y estética de grafiti.",
+   "descripcion": "Un shooter de vista cenital con humor y mucho color: un escuadrón de pibes mutantes del barrio es la última esperanza de la humanidad en un apocalipsis zombi. Se revientan zombis raros con armas ridículas, se pintan grafitis por la ciudad y cada misión termina con un jefe zombi enorme. Los cuatro personajes tienen poderes y estilos de juego distintos.",
    "trailer": "https://youtube.com/embed/bdOUjhmwhFk",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047820/library_600x900.jpg",

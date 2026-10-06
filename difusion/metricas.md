@@ -119,6 +119,7 @@ Ninguno de los dos hace que Google indexe más páginas de golpe.
 | 29/09/2026 | **Páginas por consola y mes** (`/ps5-octubre-2026` y las demás) y estructura de PS Plus / Game Pass del mes |
 | 30/09/2026 | `/ps-plus-octubre-2026`, enlazada desde la noticia, la portada y el RSS |
 | 05/10/2026 | **`noindex, follow` y fuera del sitemap para 134 fichas flacas y las 22 páginas por consola y mes.** El sitemap pasa de 549 a 393 URLs. Las fichas vuelven solas al índice cuando suman noticia, crítica, gameplay o una descripción más larga. Si en Search Console bajan las "indexadas" en las semanas siguientes, es esto y es a propósito: no es un problema nuevo |
+| 06/10/2026 | **84 fichas vuelven al índice**: se les escribió una descripción propia desde la ficha oficial (de 45 a 85 palabras) y dejaron de ser flacas. Primero las de juegos de octubre y noviembre, después las de junio a septiembre. De 134 flacas quedan 50, casi todas de 2027 o sin información en ninguna tienda. El sitemap pasa de 393 a 479 URLs. Si en octubre suben las "indexadas" o las impresiones de fichas chicas, es esto |
 
 Además, a lo largo de septiembre la rutina diaria sumó críticas y noticias a los estrenos del
 día. Al 31/08 había 131 fichas con noticias y 103 con resumen de crítica; al 16/09 son 174 y
@@ -168,7 +169,8 @@ solo, no el total.
 (ver la tabla de cambios). La recuperación de esos golpes lleva meses, así que la lectura del
 15/10 no busca que el gráfico vuelva, sino señales: que las fichas con contenido sigan
 indexadas y que las impresiones dejen de estar en cero. **En noviembre las "indexadas"
-pueden bajar** por el noindex del 05/10, y es a propósito.
+pueden moverse en los dos sentidos**: bajar por el noindex del 05/10 y volver a subir por las
+84 fichas recuperadas el 06/10. Las dos cosas son a propósito.
 
 ## Agosto de 2026: el mes en que el sitio entró a Google
 
