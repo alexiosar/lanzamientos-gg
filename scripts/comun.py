@@ -180,6 +180,9 @@ CASO_PROPIO = {"IRACING": "iRacing", "PLAYSTATION": "PlayStation", "XBOX": "Xbox
 # CASO_PROPIO, cualquier título con "sin" saldría "SiN".
 TITULO_EXACTO = {
     "SIN: RELOADED": "SiN: Reloaded",
+    # "[I~III]" junta dos romanos con un signo en el medio: el limpiador lo lee como "IIII"
+    # y salía "[I~Iii]" en la pestaña y en el posteo del día.
+    "KINGDOM HEARTS COLLECTION [I~III]": "Kingdom Hearts Collection [I~III]",
     "1000XRESIST": "1000xRESIST",
     # "kun" es un honorífico japonés y va en minúscula; después de un guion no se
     # puede deducir, porque Yog-Sothoth sí lleva mayúscula.

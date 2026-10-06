@@ -1991,6 +1991,8 @@ y abrir http://localhost:8080
   | Steins;Gate Re:Boot (Xbox, Switch 2 y Switch) | 29 de octubre (Spike Chunsoft; RPG Site, Xbox retrasado desde el 20/08) | **Ya está cargado en las cinco.** La PS Store tiene el día pero no la plataforma; Xbox y las tiendas de Nintendo no lo listan todavía |
   | Geppy-X (Xbox) | Salió el 16/07 en PS5, PS4 y Switch | En Xbox sólo está la demo. Se sacó Xbox de la ficha el 05/10 |
   | BrokenLore: DON'T LIE (Xbox) | Salió el 10/09 en PS5 | La tienda de Xbox no lo tiene. Se sacó Xbox de la ficha el 05/10 |
+  | Warhammer Survivors (Switch 2) | 10 de noviembre (blog de PlayStation y Steam, 6/10) | **Ya está cargado en PS5, Xbox y Switch 2.** Steam confirma el día; la PS Store y Xbox lo listan sin día y la eShop no lo tiene |
+  | Angelian Trigger | PS5 en 2027 (Gematsu, 6/10) | **No se cargó**: la PS Store no lo lista. En PC sale el 10/12 |
   | Eternal Palace Sakura (Switch) | 5 de noviembre (Gematsu, 30/09) | Steam tiene el 4 de noviembre para PC; la eShop y Nintendo US no lo listan |
   | Aeterna Lucis | 3 de diciembre (Gematsu, 10/09) | **Ya está cargado**, pero como estimado a fin de año. La PS Store lo tiene con fecha "2026" a secas y Xbox no lo lista. Cuando la tienda ponga el día, sacarle `estimado` |
 
