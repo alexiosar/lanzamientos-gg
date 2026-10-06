@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "7122b6863fe4d598",
+  "hash": "d1cfff63759db88b",
   "lastmod": "2026-10-06"
  },
  "/abril-2027": {
@@ -123,6 +123,10 @@
   "hash": "10fb0a9dd9a24772",
   "lastmod": "2026-10-05"
  },
+ "/juegos/au-revoir": {
+  "hash": "580a01759ebfc93a",
+  "lastmod": "2026-10-06"
+ },
  "/juegos/avatar-legends-the-fighting-game": {
   "hash": "2df0bd72d7822dc7",
   "lastmod": "2026-10-02"
@@ -198,6 +202,10 @@
  "/juegos/brigandine-abyss": {
   "hash": "226dda80c84b17b2",
   "lastmod": "2026-09-20"
+ },
+ "/juegos/brokenlore-dont-lie": {
+  "hash": "5b90a78f9c24f529",
+  "lastmod": "2026-10-06"
  },
  "/juegos/buckshot-roulette": {
   "hash": "bc440d8daea9150f",
@@ -483,6 +491,10 @@
   "hash": "e98175f2a53b8c56",
   "lastmod": "2026-10-05"
  },
+ "/juegos/farming-camp": {
+  "hash": "7d74a1e6af0385dd",
+  "lastmod": "2026-10-06"
+ },
  "/juegos/fatal-fury-city-of-the-wolves-switch-2": {
   "hash": "73ebcc83d9bb930f",
   "lastmod": "2026-10-05"
@@ -509,6 +521,10 @@
  },
  "/juegos/fire-emblem-fortunes-weave": {
   "hash": "4390828799ec75fe",
+  "lastmod": "2026-10-06"
+ },
+ "/juegos/flamecraft": {
+  "hash": "b7d9575d06af6d5b",
   "lastmod": "2026-10-06"
  },
  "/juegos/flesh-made-fear": {
@@ -911,6 +927,10 @@
   "hash": "9dc1e92171525cb6",
   "lastmod": "2026-10-02"
  },
+ "/juegos/monster-nursery": {
+  "hash": "ddcf0cbf2ca83c1e",
+  "lastmod": "2026-10-06"
+ },
  "/juegos/montabi": {
   "hash": "1ea5716eb624c05a",
   "lastmod": "2026-09-24"
@@ -1023,6 +1043,10 @@
   "hash": "792aff3fc8e9fe83",
   "lastmod": "2026-09-15"
  },
+ "/juegos/octopath-traveler-i-ii-bundle": {
+  "hash": "b0f410592deeb6c7",
+  "lastmod": "2026-10-06"
+ },
  "/juegos/once-human": {
   "hash": "03890a3ad7ecc007",
   "lastmod": "2026-10-03"
@@ -1074,6 +1098,10 @@
  "/juegos/parkasaurus": {
   "hash": "51652d07ecd1f882",
   "lastmod": "2026-10-05"
+ },
+ "/juegos/patlabor-the-case-files": {
+  "hash": "2dab80b42cdaeeff",
+  "lastmod": "2026-10-06"
  },
  "/juegos/paw-patrol-dino-world": {
   "hash": "4829bf667ec260da",
@@ -1371,6 +1399,10 @@
   "hash": "1ccb60b58661beef",
   "lastmod": "2026-10-05"
  },
+ "/juegos/tcg-card-shop-simulator": {
+  "hash": "ba4836cd405760e0",
+  "lastmod": "2026-10-06"
+ },
  "/juegos/teeto": {
   "hash": "34dc7d7a5773c75c",
   "lastmod": "2026-09-15"
@@ -1414,6 +1446,10 @@
  "/juegos/the-elder-scrolls-iv-oblivion-remastered": {
   "hash": "2db9b9156b63fe31",
   "lastmod": "2026-10-05"
+ },
+ "/juegos/the-grinch-2-saving-christmas": {
+  "hash": "ec7d22634bff1749",
+  "lastmod": "2026-10-06"
  },
  "/juegos/the-jackbox-party-pack-12": {
   "hash": "05f395c795285add",
@@ -1591,6 +1627,10 @@
   "hash": "a10e5f888fd5ce4f",
   "lastmod": "2026-10-05"
  },
+ "/juegos/viractal": {
+  "hash": "97632868dfa324b1",
+  "lastmod": "2026-10-06"
+ },
  "/juegos/void-breaker": {
   "hash": "40b8f07107e35530",
   "lastmod": "2026-10-02"
@@ -1618,6 +1658,10 @@
  "/juegos/warrior-cats-clans-of-the-forest": {
   "hash": "dbfd636d470de598",
   "lastmod": "2026-10-05"
+ },
+ "/juegos/way-of-the-hunter-2": {
+  "hash": "bee4fee7bbae211e",
+  "lastmod": "2026-10-06"
  },
  "/juegos/we-were-here-tomorrow": {
   "hash": "b241465131d98bc2",
@@ -1712,11 +1756,11 @@
   "lastmod": "2026-10-01"
  },
  "/ps4": {
-  "hash": "7122b6863fe4d598",
+  "hash": "d1cfff63759db88b",
   "lastmod": "2026-10-06"
  },
  "/ps5": {
-  "hash": "7122b6863fe4d598",
+  "hash": "d1cfff63759db88b",
   "lastmod": "2026-10-06"
  },
  "/recomendados": {
@@ -1728,11 +1772,11 @@
   "lastmod": "2026-10-06"
  },
  "/switch": {
-  "hash": "7122b6863fe4d598",
+  "hash": "d1cfff63759db88b",
   "lastmod": "2026-10-06"
  },
  "/switch-2": {
-  "hash": "7122b6863fe4d598",
+  "hash": "d1cfff63759db88b",
   "lastmod": "2026-10-06"
  },
  "/terminos": {
@@ -1744,7 +1788,7 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "7122b6863fe4d598",
+  "hash": "d1cfff63759db88b",
   "lastmod": "2026-10-06"
  }
 }
