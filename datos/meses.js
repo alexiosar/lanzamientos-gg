@@ -18,6 +18,18 @@
 
 const MESES_INTRO = [
   {
+    mes: "2026-06",
+    intro: "El cierre de junio trajo uno de los puntajes más altos del año: el 24 salió Deltarune: Chapter 5 en Switch 2 y PS5, con 96 en la crítica, y el 25 llegó Star Fox, la versión rehecha de Star Fox 64 para Switch 2, con 81. Esa misma semana salieron The Necromancer's Tale, con 77, Gecko Gods, con 73, y el 30 Momento, con 78, en las cuatro consolas."
+  },
+  {
+    mes: "2026-07",
+    intro: "Julio tuvo 88 lanzamientos. Entre los estrenos, lo mejor puntuado fue DOOM: The Dark Ages | Revelations, con 91, el 7; después vinieron DENSHATTACK!, con 88, y The Mermaid Mask, con 85. El 9 coincidieron Assassin's Creed Black Flag Resynced y Granblue Fantasy: Relink – Endless Ragnarok, los dos con 83, y en Switch 2 Rhythm Heaven Groove y Splatoon Raiders sacaron 82. El 28 llegó Halo: Campaign Evolved, con 80, también en PS5. Entre las versiones nuevas de juegos que ya existían, Dispatch sacó 87 en Xbox y Star Ocean: The Second Story R 86 en Switch 2."
+  },
+  {
+    mes: "2026-08",
+    intro: "Agosto tuvo 63 lanzamientos y arrancó fuerte: el 4 salió Big Walk, el juego de caminar en cooperativo de los creadores de Untitled Goose Game, con 91. El 6 Marvel Tōkon: Fighting Souls sacó 85 en PS5, y el 27 coincidieron Metal Gear Solid: Master Collection Vol. 2, con 85, y Star Wars Zero Company, con 84. También fue un mes de llegadas a Switch 2: Lies of P el 6, Oblivion Remastered el 11 y Elden Ring el 28. Grounded 2 debutó en PS5 el 11, y Kynseed llegó a consolas con 89."
+  },
+  {
     mes: "2026-09",
     intro: "Septiembre fue el mes más cargado del año, con 112 lanzamientos. Entre los estrenos, lo mejor puntuado fue Trails in the Sky 2nd Chapter, con 90, seguido por Fire Emblem: Fortune's Weave y Well Dweller, con 89; Onimusha: Way of the Sword sacó 85, Control Resonant y The Blood of Dawnwalker 83, y Silent Hill: Townfall 81. Marvel's Wolverine se quedó en 75. Entre las versiones nuevas de juegos que ya existían, The Witcher 3 Remastered para Switch 2 y Maestro llegaron a 93."
   },
