@@ -1132,9 +1132,18 @@ Sin redes sociales, la estrategia es que otros encuentren y enlacen el sitio:
 El 24/09/2026 el tráfico desde Google pasó de ~600 impresiones diarias a ~30 y los clics a
 cero. El 29/09 se descartó todo lo técnico y se leyó como una sacudida de rankings. El 05/10
 apareció la causa probable: el **September 2026 spam update** de Google empezó ese mismo
-24/09 a las 9:15 (Pacífico) y terminaba alrededor del 08/10. Apunta a "scaled content abuse"
-(muchas páginas de plantilla con poco propio) y a "doorway pages". El usuario revisó
+24/09, cerca del mediodía de la costa este de EE. UU., con un despliegue de hasta dos semanas
+(anuncio: https://status.search.google.com/incidents/XhUDXP7A67iHCD2kmbVu). El usuario revisó
 Acciones manuales y Problemas de seguridad en Search Console: vacíos, así que es algorítmico.
+
+**Ojo con lo que se sabe y lo que no (corregido el 07/10/2026).** Google sólo dijo que el
+update es global y va contra sitios que violan sus políticas de spam; **no dijo qué conducta
+castiga**. Que el problema sean las páginas de plantilla con poco contenido es una deducción
+nuestra: de esas políticas, las que mejor encajan con este sitio son "scaled content abuse"
+(muchas páginas en serie con poco valor propio) y "doorway pages" (páginas puerta), descritas
+en https://developers.google.com/search/docs/essentials/spam-policies. Lo que sí es un hecho
+es la coincidencia de fechas. El noindex de abajo es una medida de precaución con esa lectura,
+no la respuesta a un diagnóstico de Google.
 
 Lo que se hizo, sin borrar nada para la gente:
 
@@ -1144,7 +1153,8 @@ Lo que se hizo, sin borrar nada para la gente:
   134 de 499. **Vuelven solas al índice** en cuanto suman cualquiera de esas cosas: cargar
   una noticia en un juego chico ahora también es recuperar una página para Google.
 - **Las páginas por consola y mes también llevan `noindex, follow`** y salen del sitemap:
-  son un subconjunto de plantilla de la página del mes, el patrón exacto de "página puerta".
+  son un subconjunto de plantilla de la página del mes, que es como Google describe una
+  "página puerta".
   Siguen enlazadas desde `/ps5` y desde cada mes.
 
 Según Google, la recuperación de un spam update lleva **meses**, y la evaluación conviene

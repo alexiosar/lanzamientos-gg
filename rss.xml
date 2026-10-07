@@ -6,13 +6,34 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Wed, 07 Oct 2026 16:26:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:53:16 +0000</lastBuildDate>
     <item>
       <title>CHAINED BEASTS: TAMBIÉN EN XBOX, Y EN GAME PASS DESDE EL PRIMER DÍA</title>
       <link>https://lanzamientos.lat/juegos/chained-beasts</link>
       <guid isPermaLink="false">chained-beasts-2026-10-07</guid>
       <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
       <description>Xbox lo confirmó en la tanda de Game Pass de octubre: sale el 15 en Xbox Series y entra al servicio ese mismo día, en Ultimate y PC Game Pass. — CHAINED BEASTS para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>MARIACHI LEGENDS: EN PC SALE EL 27 DE ABRIL DE 2027</title>
+      <link>https://lanzamientos.lat/juegos/mariachi-legends</link>
+      <guid isPermaLink="false">mariachi-legends-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Steam ya tiene el día para PC. En consolas todavía no hay fecha: la tienda de Xbox lo lista sin día y la PS Store no lo tiene, así que en PS5, Xbox y Switch queda estimado para el mismo mes. — MARIACHI LEGENDS para PS5 / SWITCH / XBOX.</description>
+    </item>
+    <item>
+      <title>BESTIARIO: SE VA A 2027</title>
+      <link>https://lanzamientos.lat/juegos/bestiario</link>
+      <guid isPermaLink="false">bestiario-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Steam lo lista para 2027. Las tiendas de consola todavía no tienen fecha. — BESTIARIO para XBOX / SWITCH / SWITCH 2 / PS5.</description>
+    </item>
+    <item>
+      <title>SUBLUSTRUM: PREVISTO PARA EL PRIMER TRIMESTRE DE 2027</title>
+      <link>https://lanzamientos.lat/juegos/sublustrum</link>
+      <guid isPermaLink="false">sublustrum-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Steam lo lista para el primer trimestre de 2027. La PS Store y Xbox todavía no tienen fecha. — SUBLUSTRUM para XBOX / SWITCH / SWITCH 2 / PS5.</description>
     </item>
     <item>
       <title>DEEP ROCK GALACTIC: SURVIVOR: LLEGA A PS5, SWITCH 2 Y SWITCH CON 86 EN METACRITIC</title>
@@ -267,27 +288,6 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
       <guid isPermaLink="false">titanic-escape-simulator-2026-10-02</guid>
       <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
       <description>Sale en Xbox dos meses después del estreno en PC. La PS Store lo lista para 2026, todavía sin día. — TITANIC ESCAPE SIMULATOR para XBOX.</description>
-    </item>
-    <item>
-      <title>VOLTAIRE: THE VEGAN VAMPIRE: LLEGA A XBOX EL 7 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/voltaire-the-vegan-vampire</link>
-      <guid isPermaLink="false">voltaire-the-vegan-vampire-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Después de PC, Switch y PS5, el 7 de octubre sale también en Xbox. — VOLTAIRE: THE VEGAN VAMPIRE para XBOX.</description>
-    </item>
-    <item>
-      <title>MYPOPGOES: LLEGA A CONSOLAS EL 8 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/mypopgoes</link>
-      <guid isPermaLink="false">mypopgoes-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Sale el mismo día en Xbox y Switch, dos años después del estreno en PC. La PS Store también lo tiene para el 8, todavía sin la plataforma confirmada. — MYPOPGOES para XBOX / SWITCH.</description>
-    </item>
-    <item>
-      <title>THUNDER HOOP COLLECTION: SALE EL 8 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/thunder-hoop-collection</link>
-      <guid isPermaLink="false">thunder-hoop-collection-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-      <description>QUByte lo saca el mismo día en Xbox, Switch y PC. — THUNDER HOOP COLLECTION para XBOX / SWITCH.</description>
     </item>
   </channel>
 </rss>

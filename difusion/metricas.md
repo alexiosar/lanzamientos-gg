@@ -115,11 +115,12 @@ Ninguno de los dos hace que Google indexe más páginas de golpe.
 | 09/09/2026 | **2027 entra al calendario**, con filtro por año, tras el Nintendo Direct. Se suman páginas de mes de enero a abril de 2027 |
 | 14/09/2026 | **Unas 140 descripciones reescritas.** Estaban copiadas de Steam o la eShop, con tú, vosotros y signos de exclamación. Es contenido propio donde antes había texto repetido en otras webs |
 | 15/09/2026 | **Votos "¿Lo vas a jugar?"** en todas las fichas, con un Worker de Cloudflare. El bloque carga después de la página y no debería mover la velocidad, pero si cambia algo en Core Web Vitals, empezar a buscar por acá |
-| 24/09/2026 | **Caída de Google**: las impresiones pasan de ~600 a ~30 por día y los clics desde Google a cero. Coincide al minuto con el **September 2026 spam update** de Google (empezó el 24/09 a las 9:15 del Pacífico y terminó cerca del 08/10), que castiga páginas de plantilla con poco contenido propio. Algorítmico: Acciones manuales y Problemas de seguridad, vacíos |
+| 24/09/2026 | **Caída de Google**: las impresiones pasan de ~600 a ~30 por día y los clics desde Google a cero. Coincide con el día en que empezó el **September 2026 spam update** de Google (24/09, despliegue de hasta dos semanas). Google no dijo qué castiga: que sean las páginas de plantilla con poco contenido propio es una deducción nuestra a partir de sus políticas de spam (corregido el 07/10). Algorítmico: Acciones manuales y Problemas de seguridad, vacíos |
 | 29/09/2026 | **Páginas por consola y mes** (`/ps5-octubre-2026` y las demás) y estructura de PS Plus / Game Pass del mes |
 | 30/09/2026 | `/ps-plus-octubre-2026`, enlazada desde la noticia, la portada y el RSS |
 | 05/10/2026 | **`noindex, follow` y fuera del sitemap para 134 fichas flacas y las 22 páginas por consola y mes.** El sitemap pasa de 549 a 393 URLs. Las fichas vuelven solas al índice cuando suman noticia, crítica, gameplay o una descripción más larga. Si en Search Console bajan las "indexadas" en las semanas siguientes, es esto y es a propósito: no es un problema nuevo |
 | 06/10/2026 | **84 fichas vuelven al índice**: se les escribió una descripción propia desde la ficha oficial (de 45 a 85 palabras) y dejaron de ser flacas. Primero las de juegos de octubre y noviembre, después las de junio a septiembre. De 134 flacas quedan 50, casi todas de 2027 o sin información en ninguna tienda. El sitemap pasa de 393 a 479 URLs. Si en octubre suben las "indexadas" o las impresiones de fichas chicas, es esto |
+| 07/10/2026 | **14 fichas flacas más vuelven al índice** con descripción propia, sacada de Steam y la PS Store. Quedan 36, casi todas de 2027 o juegos chicos de la eShop sin ficha en otra tienda. El sitemap pasa de 479 a 496 URLs, contando también `/game-pass-octubre-2026` y dos juegos nuevos del día. De paso se corrigieron tres estimados que Steam ya pasó a 2027: Mariachi Legends, Bestiario y Sublustrum |
 
 Además, a lo largo de septiembre la rutina diaria sumó críticas y noticias a los estrenos del
 día. Al 31/08 había 131 fichas con noticias y 103 con resumen de crítica; al 16/09 son 174 y
@@ -165,8 +166,8 @@ en buena parte son rastreadores y no gente. Ojo también con que las visitas del
 usuario cuentan dentro de Argentina. El número a seguir en noviembre es el de Argentina
 solo, no el total.
 
-**Para el 15/10:** la caída resultó ser, con toda probabilidad, el spam update del 24/09
-(ver la tabla de cambios). La recuperación de esos golpes lleva meses, así que la lectura del
+**Para el 15/10:** lo más probable es que la caída sea el spam update del 24/09 (ver la
+tabla de cambios): la fecha coincide, aunque Google no dijo qué castiga ese update. La recuperación de esos golpes lleva meses, así que la lectura del
 15/10 no busca que el gráfico vuelva, sino señales: que las fichas con contenido sigan
 indexadas y que las impresiones dejen de estar en cero. **En noviembre las "indexadas"
 pueden moverse en los dos sentidos**: bajar por el noindex del 05/10 y volver a subir por las
