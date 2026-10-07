@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Wed, 07 Oct 2026 16:53:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 17:06:59 +0000</lastBuildDate>
     <item>
       <title>CHAINED BEASTS: TAMBIÉN EN XBOX, Y EN GAME PASS DESDE EL PRIMER DÍA</title>
       <link>https://lanzamientos.lat/juegos/chained-beasts</link>
@@ -94,6 +94,13 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
       <description>La remasterización de 2024 llega a Switch 2. En las otras consolas tiene 76 en la crítica, que destacó el mundo y las mejoras y le marcó un diseño que acusa los años. — DISNEY EPIC MICKEY: REBRUSHED para SWITCH 2.</description>
     </item>
     <item>
+      <title>ENDLESS LEGEND 2: PARCHES CASI SEMANALES Y MASCOTAS GRATIS</title>
+      <link>https://lanzamientos.lat/juegos/endless-legend-2</link>
+      <guid isPermaLink="false">endless-legend-2-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Amplitude sigue sacando parches de arreglos desde la 1.0, armados con lo que reporta la comunidad. El del 1 de octubre sumó gratis las mascotas del Welcome Pack: compañeros sólo estéticos que acompañan a los héroes, se activan o desactivan desde la gestión de contenido y aparecen en partidas nuevas. El del 6 agregó navegación con control en las tarjetas de protectorado de las facciones menores, pensada para Steam Deck y consolas. Las notas salen en Steam y no dicen cuándo llega cada parche a PS5 y Xbox. — ENDLESS LEGEND 2 para PS5 / XBOX.</description>
+    </item>
+    <item>
       <title>GUNDAM ROGUE ORBIT: UNA MISIÓN COMPLETA EN TRES MINUTOS</title>
       <link>https://lanzamientos.lat/juegos/gundam-rogue-orbit</link>
       <guid isPermaLink="false">gundam-rogue-orbit-2026-10-06</guid>
@@ -127,6 +134,13 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
       <guid isPermaLink="false">ova-magica-2026-10-05</guid>
       <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
       <description>Estaban anunciadas para el 8 de septiembre, pero no aparecieron: la PS Store lo lista para 2026, sin día, y la tienda de Xbox y la eShop todavía no lo tienen. En PC está desde mayo. — OVA MAGICA para PS5 / PS4 / XBOX / SWITCH 2 / SWITCH.</description>
+    </item>
+    <item>
+      <title>QLIPHAH IN PROVIDENCE'S SHADOW: VERSIÓN 1.04: ZONA DE PRÁCTICA Y ATAQUES MÁS FÁCILES DE VER</title>
+      <link>https://lanzamientos.lat/juegos/qliphah-in-providences-shadow</link>
+      <guid isPermaLink="false">qliphah-in-providences-shadow-2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+      <description>UNITEPLUS publicó en Steam la versión 1.04. Suma una zona de práctica en el menú para probar habilidades, hace más fáciles de usar las habilidades de ataque que se consiguen al avanzar, mejora la visibilidad de los ataques proyectados sobre el suelo y agrega flechas durante la detención del tiempo para ver a qué jugador apunta cada enemigo. También deja ajustar la velocidad de la cámara lenta. Por ahora está anunciada sólo para PC. — QLIPHAH IN PROVIDENCE'S SHADOW para PS5 / SWITCH.</description>
     </item>
     <item>
       <title>STAR WARS: GALACTIC RACER: SALE MAÑANA Y DEBUTA CON 88</title>
@@ -274,20 +288,6 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
       <guid isPermaLink="false">hidden-dogs-2026-10-02</guid>
       <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
       <description>La tienda de Xbox lo tiene para el 7 de octubre y la eShop para el 8. En PC salió en septiembre de 2025. — HIDDEN DOGS para XBOX.</description>
-    </item>
-    <item>
-      <title>HIDDEN DOGS: SALE EL 7 EN XBOX Y EL 8 EN SWITCH</title>
-      <link>https://lanzamientos.lat/juegos/hidden-dogs-switch</link>
-      <guid isPermaLink="false">hidden-dogs-switch-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-      <description>La tienda de Xbox lo tiene para el 7 de octubre y la eShop para el 8. En PC salió en septiembre de 2025. — HIDDEN DOGS para SWITCH.</description>
-    </item>
-    <item>
-      <title>TITANIC ESCAPE SIMULATOR: LLEGA A XBOX EL 7 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/titanic-escape-simulator</link>
-      <guid isPermaLink="false">titanic-escape-simulator-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Sale en Xbox dos meses después del estreno en PC. La PS Store lo lista para 2026, todavía sin día. — TITANIC ESCAPE SIMULATOR para XBOX.</description>
     </item>
   </channel>
 </rss>

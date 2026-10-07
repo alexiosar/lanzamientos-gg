@@ -2844,6 +2844,13 @@ const JUEGOS = [
     metacriticVotos: 7,
     critica: "Reseñas muy repartidas. Es un juego de puzles de ciencia ficción con bucles temporales, hecho por un estudio de dos personas en su primer proyecto. Todas coinciden en que se ve muy bien, en las voces y en la atmósfera, calma pero inquietante, de una estación espacial vacía. Lo que las divide son los puzles: para algunas es de lo mejor en su tipo, para otras son desparejos, algunos se estiran de más, y ciertas decisiones de diseño lo vuelven más frustrante que entretenido.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coay6k.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-30",
+        titulo: "LOS PROBLEMAS DE IMAGEN DEL LANZAMIENTO, CORREGIDOS EN PC",
+        texto: "Salió el 22 de septiembre en PS5, Xbox Series y PC, después de juntar 200.000 deseados entre todas las plataformas. En PC arrancó con imagen borrosa y con grano, y Exnilo lo corrigió en tres parches. El último, del 30 de septiembre, suma además opciones para daltónicos en varios puzles y sube el volumen del código Morse. Las notas no mencionan las versiones de consola."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -2912,6 +2919,13 @@ const JUEGOS = [
     metacriticUsuarios: null,
     critica: "Reseñas negativas casi sin excepción. Le reconocen el combate de tanques, que tiene momentos entretenidos, y la variedad de tanques, armado y munición. Pero los problemas pesan más: muchos errores técnicos, mecánicas poco confiables, misiones que se resumen en ir al próximo objetivo y disparar, gráficos simples y una historia que se toma muy en serio sin la escritura para sostenerlo. La mejor nota la da a quien le gusten mucho los tanques; la peor dice que es tan malo que lo hizo dudar de todo el género.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1416230/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-16",
+        titulo: "LAS MEJORAS DE LA VERSIÓN DE CONSOLA LLEGAN A PC",
+        texto: "La actualización 1.2.0 llevó a la versión de PC, que está desde 2021, las mejoras con las que salió en PS5 y Xbox Series en agosto: textos revisados en chino y japonés, controles alineados con los de consola, soporte para el DualSense y más estabilidad."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -4851,6 +4865,13 @@ const JUEGOS = [
     metacriticUsuarios: null,
     critica: "Pocas reseñas y casi todas a favor. Es un juego de objetos escondidos en el que todo se hace a través de la mira de un rifle, y la idea, absurda a propósito, funciona: los objetivos son divertidos, algunos cuestan encontrarlos pero de forma justa, y los controles son precisos. Lo recomiendan también para jugar en familia. El reparo es que mirar todo el tiempo por la mira achica la vista del escenario y, para alguna reseña, se vuelve aburrido rápido.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobfrv.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "PRIMER PARCHE: JEFES MÁS ACCESIBLES Y MÁS TIEMPO EN LAS EMERGENCIAS",
+        texto: "PQube y Denki sacaron en Steam el primer parche, con cambios pedidos por los jugadores: la vista ya no se reinicia al pasar del rifle a la cámara, las emergencias del día 2 en Central City y en el aeropuerto dan más tiempo, el jefe de Funky Farm es más fácil y el del aeropuerto pasa de tres a cinco vidas. Las notas no dicen cuándo llega a las consolas."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-28"
@@ -4922,6 +4943,13 @@ const JUEGOS = [
     metacriticUsuarios: null,
     critica: "Pocas reseñas y, en su mayoría, en contra. Todas le reconocen un sistema de combate distinto a cualquier otro, basado en contraataques sobre una línea de tiempo. Pero para casi todas lo que al principio es interesante se vuelve repetitivo: cada pelea termina siendo la misma secuencia, algunas se estiran de más y las mecánicas especiales no siempre funcionan como deberían. La investigación y la progresión tampoco convencen. Lleva unas dieciséis horas.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocbbz.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-05",
+        titulo: "VERSIÓN 1.04: ZONA DE PRÁCTICA Y ATAQUES MÁS FÁCILES DE VER",
+        texto: "UNITEPLUS publicó en Steam la versión 1.04. Suma una zona de práctica en el menú para probar habilidades, hace más fáciles de usar las habilidades de ataque que se consiguen al avanzar, mejora la visibilidad de los ataques proyectados sobre el suelo y agrega flechas durante la detención del tiempo para ver a qué jugador apunta cada enemigo. También deja ajustar la velocidad de la cámara lenta. Por ahora está anunciada sólo para PC."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-28"
@@ -7643,6 +7671,13 @@ const JUEGOS = [
     metacriticVotos: 14,
     critica: "Buena recepción, con varias reseñas hechas sobre el acceso anticipado de PC. Es un 4X por turnos, y le destacan ocho facciones que se juegan de forma distinta, un desarrollo de ciudades complejo y atrapante, y ese enganche de siempre de un turno más. Para los fans de Amplitude es de lo mejor del estudio. Los reparos: arranca muy bien pero a la larga atrapa menos, y el peso que le da a la historia, que cambia cada partida, a los jugadores más tradicionales del género no les va a gustar.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3407390/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-06",
+        titulo: "PARCHES CASI SEMANALES Y MASCOTAS GRATIS",
+        texto: "Amplitude sigue sacando parches de arreglos desde la 1.0, armados con lo que reporta la comunidad. El del 1 de octubre sumó gratis las mascotas del Welcome Pack: compañeros sólo estéticos que acompañan a los héroes, se activan o desactivan desde la gestión de contenido y aparecen en partidas nuevas. El del 6 agregó navegación con control en las tarjetas de protectorado de las facciones menores, pensada para Steam Deck y consolas. Las notas salen en Steam y no dicen cuándo llega cada parche a PS5 y Xbox."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-10"
@@ -8300,7 +8335,7 @@ const JUEGOS = [
     plataformas: ["XBOX", "PS5"],
     genero: ["AVENTURA", "TERROR", "INDIE"],
     desarrollador: "HITORI DE PRODUCTIONS",
-    descripcion: "Robert convive con alzhéimer precoz y parálisis del sueño. Cada noche que pasa devuelve fragmentos de su memoria, y hay que reconstruir con ellos una historia que el propio protagonista ya no puede sostener.",
+    descripcion: "Un juego de terror sobre la parálisis del sueño, armado a partir de charlas con gente que la sufrió. Robert, de 50 años, arrastra hace años problemas de memoria e insomnio, depende de la medicación y a veces no distingue la realidad de las alucinaciones. Hay que aguantar cinco noches, cada una con un demonio distinto, sin hacer ruido, porque el micrófono capta cada sonido. Encontrar las más de 25 anomalías desbloquea el final verdadero, uno de los dos que tiene.",
     trailer: "https://youtube.com/embed/wwm-BMki-L8",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3122170/library_600x900.jpg",

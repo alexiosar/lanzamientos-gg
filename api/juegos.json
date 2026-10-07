@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-07T16:53:16+00:00",
+ "generado": "2026-10-07T17:06:59+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 503,
@@ -3877,7 +3877,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/rivage"
+   "url": "https://lanzamientos.lat/juegos/rivage",
+   "noticias": [
+    {
+     "fecha": "2026-09-30",
+     "titulo": "LOS PROBLEMAS DE IMAGEN DEL LANZAMIENTO, CORREGIDOS EN PC",
+     "texto": "Salió el 22 de septiembre en PS5, Xbox Series y PC, después de juntar 200.000 deseados entre todas las plataformas. En PC arrancó con imagen borrosa y con grano, y Exnilo lo corrigió en tres parches. El último, del 30 de septiembre, suma además opciones para daltónicos en varios puzles y sube el volumen del código Morse. Las notas no mencionan las versiones de consola."
+    }
+   ]
   },
   {
    "id": "wild-blue-skies",
@@ -3969,7 +3976,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/panzer-knights-commanders-edition"
+   "url": "https://lanzamientos.lat/juegos/panzer-knights-commanders-edition",
+   "noticias": [
+    {
+     "fecha": "2026-09-16",
+     "titulo": "LAS MEJORAS DE LA VERSIÓN DE CONSOLA LLEGAN A PC",
+     "texto": "La actualización 1.2.0 llevó a la versión de PC, que está desde 2021, las mejoras con las que salió en PS5 y Xbox Series en agosto: textos revisados en chino y japonés, controles alineados con los de consola, soporte para el DualSense y más estabilidad."
+    }
+   ]
   },
   {
    "id": "tower-dominion",
@@ -6550,7 +6564,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/sniper-dan"
+   "url": "https://lanzamientos.lat/juegos/sniper-dan",
+   "noticias": [
+    {
+     "fecha": "2026-09-24",
+     "titulo": "PRIMER PARCHE: JEFES MÁS ACCESIBLES Y MÁS TIEMPO EN LAS EMERGENCIAS",
+     "texto": "PQube y Denki sacaron en Steam el primer parche, con cambios pedidos por los jugadores: la vista ya no se reinicia al pasar del rifle a la cámara, las emergencias del día 2 en Central City y en el aeropuerto dan más tiempo, el jefe de Funky Farm es más fácil y el del aeropuerto pasa de tres a cinco vidas. Las notas no dicen cuándo llega a las consolas."
+    }
+   ]
   },
   {
    "id": "artis-impact",
@@ -6645,7 +6666,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/qliphah-in-providences-shadow"
+   "url": "https://lanzamientos.lat/juegos/qliphah-in-providences-shadow",
+   "noticias": [
+    {
+     "fecha": "2026-10-05",
+     "titulo": "VERSIÓN 1.04: ZONA DE PRÁCTICA Y ATAQUES MÁS FÁCILES DE VER",
+     "texto": "UNITEPLUS publicó en Steam la versión 1.04. Suma una zona de práctica en el menú para probar habilidades, hace más fáciles de usar las habilidades de ataque que se consiguen al avanzar, mejora la visibilidad de los ataques proyectados sobre el suelo y agrega flechas durante la detención del tiempo para ver a qué jugador apunta cada enemigo. También deja ajustar la velocidad de la cámara lenta. Por ahora está anunciada sólo para PC."
+    }
+   ]
   },
   {
    "id": "agefield-high-rock-the-school",
@@ -10400,7 +10428,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/endless-legend-2"
+   "url": "https://lanzamientos.lat/juegos/endless-legend-2",
+   "noticias": [
+    {
+     "fecha": "2026-10-06",
+     "titulo": "PARCHES CASI SEMANALES Y MASCOTAS GRATIS",
+     "texto": "Amplitude sigue sacando parches de arreglos desde la 1.0, armados con lo que reporta la comunidad. El del 1 de octubre sumó gratis las mascotas del Welcome Pack: compañeros sólo estéticos que acompañan a los héroes, se activan o desactivan desde la gestión de contenido y aparecen en partidas nuevas. El del 6 agregó navegación con control en las tarjetas de protectorado de las facciones menores, pensada para Steam Deck y consolas. Las notas salen en Steam y no dicen cuándo llega cada parche a PS5 y Xbox."
+    }
+   ]
   },
   {
    "id": "mr-sleepy-man",
@@ -11292,7 +11327,7 @@
     "INDIE"
    ],
    "desarrollador": "HITORI DE PRODUCTIONS",
-   "descripcion": "Robert convive con alzhéimer precoz y parálisis del sueño. Cada noche que pasa devuelve fragmentos de su memoria, y hay que reconstruir con ellos una historia que el propio protagonista ya no puede sostener.",
+   "descripcion": "Un juego de terror sobre la parálisis del sueño, armado a partir de charlas con gente que la sufrió. Robert, de 50 años, arrastra hace años problemas de memoria e insomnio, depende de la medicación y a veces no distingue la realidad de las alucinaciones. Hay que aguantar cinco noches, cada una con un demonio distinto, sin hacer ruido, porque el micrófono capta cada sonido. Encontrar las más de 25 anomalías desbloquea el final verdadero, uno de los dos que tiene.",
    "trailer": "https://youtube.com/embed/wwm-BMki-L8",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3122170/library_600x900.jpg",

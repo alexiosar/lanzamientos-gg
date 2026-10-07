@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "9f044a20fe30d28f",
+  "hash": "3e3fad950c4e1fff",
   "lastmod": "2026-10-07"
  },
  "/abril-2027": {
@@ -435,6 +435,10 @@
   "hash": "9e8a4c19b0520915",
   "lastmod": "2026-10-05"
  },
+ "/juegos/dream-cage": {
+  "hash": "274bac6964f9cdae",
+  "lastmod": "2026-10-07"
+ },
  "/juegos/dune-awakening": {
   "hash": "00f6fe341dbe362a",
   "lastmod": "2026-10-07"
@@ -496,8 +500,8 @@
   "lastmod": "2026-10-07"
  },
  "/juegos/endless-legend-2": {
-  "hash": "aee6dcb8e9f0473e",
-  "lastmod": "2026-10-02"
+  "hash": "97c24532d86705be",
+  "lastmod": "2026-10-07"
  },
  "/juegos/endurance-motorsport-series": {
   "hash": "8977d38f627489af",
@@ -1208,8 +1212,8 @@
   "lastmod": "2026-10-05"
  },
  "/juegos/panzer-knights-commanders-edition": {
-  "hash": "8d577f1d2d2c18e5",
-  "lastmod": "2026-10-03"
+  "hash": "cd3811933232a0f4",
+  "lastmod": "2026-10-07"
  },
  "/juegos/paperhead": {
   "hash": "9b7f48d1ab870f81",
@@ -1276,8 +1280,8 @@
   "lastmod": "2026-10-06"
  },
  "/juegos/qliphah-in-providences-shadow": {
-  "hash": "676fd20ff8cae46d",
-  "lastmod": "2026-09-30"
+  "hash": "98f8487c5eba2c7d",
+  "lastmod": "2026-10-07"
  },
  "/juegos/quarantine-zone-the-last-check": {
   "hash": "f55e6004a7697ac7",
@@ -1340,8 +1344,8 @@
   "lastmod": "2026-10-02"
  },
  "/juegos/rivage": {
-  "hash": "6f61f6351481a931",
-  "lastmod": "2026-10-05"
+  "hash": "ad2cf10586e020ba",
+  "lastmod": "2026-10-07"
  },
  "/juegos/road-kings": {
   "hash": "c475fe2fb4d1c60c",
@@ -1436,8 +1440,8 @@
   "lastmod": "2026-10-07"
  },
  "/juegos/sniper-dan": {
-  "hash": "1f714f3851e6edea",
-  "lastmod": "2026-10-03"
+  "hash": "aa95fd908222b018",
+  "lastmod": "2026-10-07"
  },
  "/juegos/solo-leveling-arise-overdrive": {
   "hash": "2c4c5e66359ad2a7",
@@ -1928,7 +1932,7 @@
   "lastmod": "2026-10-06"
  },
  "/noticias": {
-  "hash": "b5b6cb2e2551e907",
+  "hash": "66b327f95ba28d7d",
   "lastmod": "2026-10-07"
  },
  "/noviembre-2026": {
@@ -1948,11 +1952,11 @@
   "lastmod": "2026-10-01"
  },
  "/ps4": {
-  "hash": "9f044a20fe30d28f",
+  "hash": "3e3fad950c4e1fff",
   "lastmod": "2026-10-07"
  },
  "/ps5": {
-  "hash": "9f044a20fe30d28f",
+  "hash": "3e3fad950c4e1fff",
   "lastmod": "2026-10-07"
  },
  "/recomendados": {
@@ -1964,11 +1968,11 @@
   "lastmod": "2026-10-07"
  },
  "/switch": {
-  "hash": "9f044a20fe30d28f",
+  "hash": "3e3fad950c4e1fff",
   "lastmod": "2026-10-07"
  },
  "/switch-2": {
-  "hash": "9f044a20fe30d28f",
+  "hash": "3e3fad950c4e1fff",
   "lastmod": "2026-10-07"
  },
  "/terminos": {
@@ -1980,7 +1984,7 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "9f044a20fe30d28f",
+  "hash": "3e3fad950c4e1fff",
   "lastmod": "2026-10-07"
  }
 }

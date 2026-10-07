@@ -1060,7 +1060,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/rivage</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1081,7 +1081,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/panzer-knights-commanders-edition</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1627,7 +1627,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/sniper-dan</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1648,7 +1648,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/qliphah-in-providences-shadow</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2495,7 +2495,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/endless-legend-2</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2692,6 +2692,13 @@
   <url>
     <loc>https://lanzamientos.lat/juegos/ghetto-zombies-graffiti-squad</loc>
     <lastmod>2026-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/dream-cage</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
