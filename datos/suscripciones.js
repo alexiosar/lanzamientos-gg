@@ -73,6 +73,101 @@ const SUSCRIPCIONES = [
         ]
       }
     ]
+  },
+  {
+    servicio: "gamepass",
+    mes: "2026-10",
+    intro: "Lo más fuerte de Game Pass en octubre son los estrenos del primer día: Gears of War: E-Day el 6, Echo Weaver, Forever Ago y Neon Abyss 2 el 8, Valor Mortis y Deep Dish Dungeon el 13, y Bluey's Happy Snaps y Chained Beasts el 15. Además entra Battlefield 6 el 13, y Keeper se suma a Premium el 2. Casi todo llega a Ultimate y PC Game Pass; Neon Abyss 2 y Keeper también a Premium. El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem y Pacific Drive.",
+    tandas: [
+      {
+        nombre: "ANUNCIADOS EN SEPTIEMBRE",
+        detalle: "De la tanda que Xbox anunció el 15 de septiembre, estos dos entran en octubre.",
+        anunciado: "2026-09-15",
+        fuente: "https://news.xbox.com/en-us/2026/09/15/xbox-game-pass-september-2026-wave-2/",
+        juegos: [
+          {
+            titulo: "Keeper",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-10-02",
+            texto: "Ya estaba en Ultimate y PC Game Pass, y desde el 2 de octubre también se juega con Premium. La aventura de Double Fine en la que un faro olvidado despierta y recorre una isla junto a un ave marina, una historia contada sin palabras.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.44400.13566978592979529.a309a78d-6446-4646-b4cf-5f86cff39735.4294039d-21f3-4d7d-9443-6cda909325bb?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Gears of War: E-Day",
+            id: "gears-of-war-e-day",
+            plataformas: ["XBOX"],
+            entra: "2026-10-06",
+            texto: "Entra el día de su estreno, en Ultimate y PC Game Pass. La precuela de la saga: Marcus Fenix y Dom Santiago en el Día de la Emergencia, catorce años antes del primer Gears."
+          }
+        ]
+      },
+      {
+        nombre: "PRIMERA TANDA DE OCTUBRE",
+        detalle: "Anunciada el 7 de octubre. Salvo que se aclare otra cosa, cada juego entra a Ultimate y PC Game Pass. El 16 llega también Beyond These Stars, sólo para PC Game Pass. El 15 se van A Plague Tale: Requiem, Clair Obscur: Expedition 33, Crime Scene Cleaner, Donut County, Evil West, Pacific Drive, Superball y The Casting of Frank Stone.",
+        anunciado: "2026-10-07",
+        fuente: "https://news.xbox.com/en-us/2026/10/07/xbox-game-pass-october-2026-wave-1/",
+        juegos: [
+          {
+            titulo: "Echo Weaver",
+            id: "echo-weaver",
+            plataformas: ["XBOX"],
+            entra: "2026-10-08",
+            texto: "Entra el día que sale. Un metroidvania de bucle temporal donde lo que se junta no son mejoras sino información para romper el ciclo."
+          },
+          {
+            titulo: "Forever Ago",
+            id: "forever-ago",
+            plataformas: ["XBOX"],
+            entra: "2026-10-08",
+            texto: "Entra el día que sale. Un viaje en ruta para un jugador: Alfred va hacia el norte buscando redención y guarda recuerdos con su cámara instantánea."
+          },
+          {
+            titulo: "Neon Abyss 2",
+            id: "neon-abyss-2",
+            plataformas: ["XBOX"],
+            entra: "2026-10-08",
+            texto: "Entra el día que deja el acceso anticipado y llega a consolas, también en Premium. Roguelike de acción en 2D con objetos que se combinan entre sí y cooperativo para cuatro."
+          },
+          {
+            titulo: "Battlefield 6",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-10-13",
+            texto: "El Battlefield de 2025: guerra a gran escala, combate cerrado y destrucción del escenario. Ultimate trae EA Play incluido, con recompensas propias dentro del juego.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/library_600x900.jpg"
+          },
+          {
+            titulo: "Deep Dish Dungeon",
+            id: "deep-dish-dungeon",
+            plataformas: ["XBOX"],
+            entra: "2026-10-13",
+            texto: "Entra el día que sale. Exploración de una mazmorra llena de puzles, solo o en cooperativo online, donde lo que se cocina es clave para seguir bajando."
+          },
+          {
+            titulo: "Valor Mortis",
+            id: "valor-mortis",
+            plataformas: ["XBOX"],
+            entra: "2026-10-13",
+            texto: "Entra el día que sale. Acción en primera persona a la manera de los Souls, de los creadores de Ghostrunner, con un soldado de Napoleón que vuelve de la muerte."
+          },
+          {
+            titulo: "Bluey's Happy Snaps",
+            id: "blueys-happy-snaps",
+            plataformas: ["XBOX"],
+            entra: "2026-10-15",
+            texto: "Entra el día que sale. Un juego de sacar fotos con Bluey y Bingo por lugares de la serie, pensado para chicos y para jugar de a dos."
+          },
+          {
+            titulo: "Chained Beasts",
+            id: "chained-beasts",
+            plataformas: ["XBOX"],
+            entra: "2026-10-15",
+            texto: "Entra el día que sale. Un roguelite de gladiadores para hasta cuatro jugadores que pelean encadenados entre sí."
+          }
+        ]
+      }
+    ]
   }
 ];
 

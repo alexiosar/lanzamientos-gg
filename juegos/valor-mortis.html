@@ -43,6 +43,15 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -132,7 +141,7 @@
               </div>
               <div>
                 <span class="ficha-campo-label">INCLUIDO EN</span>
-                <span class="ficha-campo-valor">—</span>
+                <span class="ficha-campo-valor badge-gamepass">GAME PASS ✓</span>
               </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
@@ -162,13 +171,25 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-07</span>
+            <span class="noticia-titulo">▸ GAME PASS SUMA BATTLEFIELD 6 Y SEIS ESTRENOS EL DÍA UNO EN OCTUBRE</span><span class="noticia-cat cat-suscripciones">SUSCRIPCIONES</span>
+          </div>
+          <p class="noticia-texto">Xbox anunció la primera tanda de octubre. Seis juegos entran el mismo día que salen: Echo Weaver y Forever Ago el 8, Valor Mortis y Deep Dish Dungeon el 13, y Bluey&#x27;s Happy Snaps y Chained Beasts el 15. El 8 llega también Neon Abyss 2, que ese día deja el acceso anticipado y debuta en consolas, y el 13 entra Battlefield 6.
+
+El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, Pacific Drive y Evil West. Gears of War: E-Day, que salió el 6, está en el servicio desde el primer día.</p><a class="noticia-fuente" href="https://news.xbox.com/en-us/2026/10/07/xbox-game-pass-october-2026-wave-1/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Un juego de acción a la manera de los Souls, de los creadores de Ghostrunner. William, un soldado del ejército de Napoleón, resucita en una versión alternativa de la Europa del siglo XIX, arrasada por una plaga cuyo poder ahora le corre por las venas. El combate se apoya en paradas, esquives y remates con muchas armas, más habilidades sobrenaturales, y cada muerte sirve para hacerse más fuerte. Los enemigos son engendros de la Guardia Eterna de Napoleón, y la historia mezcla personajes reales con terror.</p>
       </div>
 
       <div class="seccion">
         <div class="seccion-titulo">TAGS</div>
-        <div class="ficha-tags"><span class="tag">ACCION</span><span class="tag">AVENTURA</span><span class="tag">RPG</span><span class="plat plat-PS5" style="font-size:0.6875rem;padding:2px 7px;">PS5</span><span class="plat plat-XBOX" style="font-size:0.6875rem;padding:2px 7px;">XBOX</span></div>
+        <div class="ficha-tags"><span class="tag">ACCION</span><span class="tag">AVENTURA</span><span class="tag">RPG</span><span class="plat plat-PS5" style="font-size:0.6875rem;padding:2px 7px;">PS5</span><span class="plat plat-XBOX" style="font-size:0.6875rem;padding:2px 7px;">XBOX</span><span class="tag tag-gamepass">GAME PASS</span></div>
       </div>
 
       <div class="seccion">

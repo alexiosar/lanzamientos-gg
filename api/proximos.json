@@ -2,200 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-06T15:14:16+00:00",
+ "generado": "2026-10-07T16:26:11+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-06",
- "hasta": "2026-11-05",
- "total": 106,
+ "desde": "2026-10-07",
+ "hasta": "2026-11-06",
+ "total": 103,
  "juegos": [
-  {
-   "id": "gears-of-war-e-day",
-   "titulo": "GEARS OF WAR: E-DAY",
-   "fecha": "2026-10-06",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "THE COALITION",
-   "descripcion": "La precuela de Gears of War sobre el Día de la Emergencia, el origen brutal de la guerra contra la Horda, en la saga de shooters en tercera persona de Xbox.",
-   "trailer": "https://youtube.com/embed/TOEuNKz3XW8",
-   "gameplay": {
-    "video": "https://youtube.com/embed/ghPe0GKfXwg",
-    "canal": "L0k0hGaming",
-    "canalUrl": "https://www.youtube.com/@l0k0hgaming"
-   },
-   "metacritic": 87,
-   "metacriticUsuarios": 8.5,
-   "metacriticVotos": 4,
-   "critica": "La prensa lo recibe como la mejor campaña de la serie, o muy cerca: una precuela del Día de la Emergencia con Marcus y Dom, más oscura e íntima, con la caída de Kalona como escenario. Se elogian los personajes nuevos, la movilidad renovada con un botón de salto propio y el apartado visual. Los reparos aparecen en las reseñas más tibias: zonas abiertas y misiones secundarias sin peso, que a algunos les recuerdan lo más flojo de Gears 5, algún diálogo torpe y servidores del multijugador que no estaban listos para probarlo antes del estreno.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3010850/library_600x900.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/gears-of-war-e-day",
-   "noticias": [
-    {
-     "fecha": "2026-10-01",
-     "titulo": "ACCESO ANTICIPADO DESDE HOY Y DEBUTA CON 88",
-     "texto": "Desde el 1 de octubre lo juegan quienes compraron la edición Premium y los suscriptores de Game Pass con la mejora Premium. El estreno general es el 6, cuando entra a Game Pass Ultimate y PC Game Pass. Llega con 88 en Metacritic sobre más de 50 reseñas, varias con nota perfecta. La campaña se juega solo, en pantalla dividida para dos en consola o de a cuatro online, y suma Horda Asedio, cooperativo para cuatro con clases, y Versus de 4 contra 4."
-    },
-    {
-     "fecha": "2026-09-17",
-     "titulo": "YA ESTÁ TERMINADO Y SE PUEDE PREINSTALAR DESDE EL 29",
-     "texto": "The Coalition anunció que el juego pasó a gold, es decir, que la versión de lanzamiento está cerrada. La preinstalación arranca el 29 de septiembre, el acceso anticipado de la edición Premium el 1 de octubre y el lanzamiento para todos el 6, también en Game Pass desde el primer día."
-    }
-   ]
-  },
-  {
-   "id": "star-wars-galactic-racer",
-   "titulo": "STAR WARS: GALACTIC RACER",
-   "fecha": "2026-10-06",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "CARRERAS",
-    "DEPORTES"
-   ],
-   "desarrollador": "FUSE GAMES",
-   "descripcion": "Un juego de carreras de Star Wars ambientado después de la caída del Imperio. En el Borde Exterior nace la Liga Galáctica, un circuito clandestino financiado por sindicatos criminales donde se hacen los campeones.",
-   "trailer": "https://youtube.com/embed/pR-V3j-sc7s",
-   "gameplay": {
-    "video": "https://youtube.com/embed/rkozbGrFnek",
-    "canal": "Andariel",
-    "canalUrl": "https://www.youtube.com/@Andariel"
-   },
-   "metacritic": 88,
-   "metacriticUsuarios": null,
-   "critica": "La prensa lo recibe como el juego de carreras de Star Wars que se esperaba desde Episode I: Racer, y varias reseñas lo comparan con Burnout. Se elogian la sensación de velocidad, un manejo distinto para cada vehículo, una campaña por partidas con estructura roguelite que siempre trae algo nuevo, un multijugador sólido y escenarios como Jakku o Crait. Los reparos se repiten en las notas más bajas: poca variedad de pistas, que con el tiempo se nota, pocas carreras de pods, algunos modos clásicos que se extrañan y segmentos a pie flojos.",
-   "imagen": "https://cdn2.steamgriddb.com/grid/a592d9fe5ade10553913fb1b94f1175c.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/star-wars-galactic-racer",
-   "noticias": [
-    {
-     "fecha": "2026-10-05",
-     "titulo": "SALE MAÑANA Y DEBUTA CON 88",
-     "texto": "Llega el 6 de octubre a PS5 y Xbox con 88 en Metacritic sobre más de sesenta reseñas. La prensa celebra la velocidad y la campaña roguelite, y le marca poca variedad de pistas."
-    },
-    {
-     "fecha": "2026-09-11",
-     "titulo": "PRESENTÓ LOS SKIM SPEEDERS",
-     "texto": "Un tráiler nuevo mostró los skim speeders, una clase de vehículo a mitad de camino entre las motos deslizadoras, que son las más rápidas, y los landspeeders, más pesados. Su ventaja es que doblan con facilidad en las curvas cerradas. Sale el 6 de octubre en PS5, Xbox y PC."
-    }
-   ]
-  },
-  {
-   "id": "disney-epic-mickey-rebrushed",
-   "titulo": "DISNEY EPIC MICKEY: REBRUSHED",
-   "fecha": "2026-10-06",
-   "relanzamiento": "En Switch, PS5, Xbox y PC desde 2024 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 10 h (historia) · 24 h (completo)",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "PURPLE LAMP",
-   "descripcion": "La remasterización de Epic Mickey, el plataformas en 3D en el que Mickey recorre el Páramo, un mundo de personajes de Disney olvidados, con un pincel mágico: la pintura restaura el escenario y el disolvente lo borra para descubrir secretos. Lo que se elige pintar o borrar cambia el destino de Mickey y del Páramo, y en el camino aparece Oswald, el conejo afortunado, la primera creación de Walt Disney.",
-   "trailer": "https://youtube.com/embed/j76rpUMA1Gg",
-   "metacritic": 76,
-   "metacriticUsuarios": 7.5,
-   "metacriticVotos": 181,
-   "critica": "Las reseñas son de la versión de 2024 para las otras consolas. La prensa la ve como una buena remasterización: los gráficos rehechos, el doble salto y las mejoras de comodidad hacen más disfrutable al original de Wii, y el mundo del Páramo, con su tono más oscuro y sus guiños a los parques de Disney, sigue siendo lo mejor. Los reparos vienen de la base: es tan fiel que arrastra problemas de diseño de su época, tiene poco desafío y hay quienes lo encuentran repetitivo, sin voces y con algún error grave hacia el final.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1522160/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/disney-epic-mickey-rebrushed",
-   "noticias": [
-    {
-     "fecha": "2026-10-06",
-     "titulo": "SALE HOY EN SWITCH 2",
-     "texto": "La remasterización de 2024 llega a Switch 2. En las otras consolas tiene 76 en la crítica, que destacó el mundo y las mejoras y le marcó un diseño que acusa los años."
-    }
-   ]
-  },
-  {
-   "id": "kingdom-hearts-collection",
-   "titulo": "KINGDOM HEARTS COLLECTION [I~III]",
-   "fecha": "2026-10-06",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "RPG",
-    "ACCION",
-    "AVENTURA",
-    "ANIME"
-   ],
-   "desarrollador": "SQUARE ENIX",
-   "descripcion": "La saga completa de Kingdom Hearts reunida en un solo paquete: los tres juegos principales con todo lo que fueron sumando a lo largo de los años, en consolas actuales.",
-   "trailer": "https://youtube.com/embed/qiE8hv-drXs",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocb28.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/kingdom-hearts-collection",
-   "noticias": [
-    {
-     "fecha": "2026-10-03",
-     "titulo": "SALE EL 6 EN PS5 Y XBOX, Y EL 8 EN SWITCH 2",
-     "texto": "La PS Store y la tienda de Xbox lo tienen para el 6 de octubre. En Switch 2, la eShop y Nintendo confirman el 8."
-    },
-    {
-     "fecha": "2026-06-09",
-     "titulo": "QUÉ TRAE LA COLECCIÓN",
-     "texto": "Square Enix confirmó que junta Kingdom Hearts HD 1.5+2.5 ReMIX, Kingdom Hearts HD 2.8 Final Chapter Prologue y Kingdom Hearts III con la expansión Re Mind. Los tres también se venden por separado, y en Switch 2 hay una demo de Kingdom Hearts III + Re Mind."
-    }
-   ]
-  },
-  {
-   "id": "quern-undying-thoughts",
-   "titulo": "QUERN - UNDYING THOUGHTS",
-   "relanzamiento": "En PC desde noviembre de 2016 — esta fecha corresponde a la edición de Switch",
-   "duracion": "≈ 14 h (historia) · 15 h (completo)",
-   "fecha": "2026-10-06",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "PUZZLE",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "ZADBOX ENTERTAINMENT",
-   "descripcion": "Una aventura de puzles en primera persona en la línea de Myst y Riven. Se llega a una isla por un portal que se cierra detrás, y para entender qué pasó ahí hay que explorarla y resolver puzles cada vez más complejos, con mecanismos que se reutilizan en distintos lugares.",
-   "trailer": "https://youtube.com/embed/zGV1Ei-NO5s",
-   "metacritic": 83,
-   "metacriticUsuarios": 8.4,
-   "metacriticVotos": 44,
-   "critica": "El puntaje es el de la versión de PC, de 2016. Las reseñas lo destacan como un juego de puzles hecho con mucho oficio, con una atmósfera que atrapa y puzles que forman un todo en lugar de una lista suelta de desafíos. Lo recomiendan en especial a quien disfrutó Myst y Riven. El único reparo es justamente ese: es un homenaje que no inventa nada nuevo.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/512790/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-24",
-   "url": "https://lanzamientos.lat/juegos/quern-undying-thoughts",
-   "noticias": [
-    {
-     "fecha": "2026-09-30",
-     "titulo": "SALE EL 6 DE OCTUBRE EN SWITCH",
-     "texto": "Llega a Switch casi diez años después del estreno en PC, de noviembre de 2016."
-    }
-   ]
-  },
   {
    "id": "deep-rock-galactic-survivor",
    "titulo": "DEEP ROCK GALACTIC: SURVIVOR",
@@ -213,7 +26,10 @@
    "desarrollador": "FUNDAY GAMES",
    "descripcion": "Un auto-shooter de supervivencia para un jugador, derivado de Deep Rock Galactic y con vista cenital. Las armas disparan solas: el trabajo es moverse entre las oleadas de alienígenas del planeta Hoxxes, excavar las paredes de las cuevas en busca de minerales y juntar mejoras. Cada misión tiene objetivos que cumplir antes de volver a tiempo a la cápsula, y las cuevas y las oleadas se generan al azar en cada partida.",
    "trailer": "https://youtube.com/embed/rsfKZS-rgo4",
-   "metacritic": null,
+   "metacritic": 86,
+   "critica": "Las reseñas son de la versión de PC de 2025. La prensa lo pone entre los mejores del género que abrió Vampire Survivors, y más de una nota dice que le discute el trono. Se elogia que se traiga el humor, la personalidad de las clases y la atmósfera de las cuevas del Deep Rock Galactic original, y que la excavación de minerales le sume una capa que otros auto-shooters no tienen. Los reparos: se extraña la cooperación del original, es difícil, y los biomas y las misiones se repiten y estiran la progresión.",
+   "metacriticUsuarios": 7.2,
+   "metacriticVotos": 65,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/library_600x900.jpg",
    "relanzamiento": "En Xbox y PC desde 2025",
    "duracion": "≈ 22 h (historia) · 159 h (completo)",
@@ -222,6 +38,11 @@
    "alta": "2026-09-30",
    "url": "https://lanzamientos.lat/juegos/deep-rock-galactic-survivor",
    "noticias": [
+    {
+     "fecha": "2026-10-07",
+     "titulo": "LLEGA A PS5, SWITCH 2 Y SWITCH CON 86 EN METACRITIC",
+     "texto": "Salió hoy en las tres consolas con el puntaje que juntó en PC, donde está desde septiembre de 2025: 86 sobre once reseñas. Las versiones de consola todavía no tienen notas propias."
+    },
     {
      "fecha": "2026-09-30",
      "titulo": "LLEGA A PS5, SWITCH 2 Y SWITCH EL 7 DE OCTUBRE",
@@ -578,7 +399,7 @@
    "trailer": "https://youtube.com/embed/k2Mw71MmiUA",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215940/library_600x900.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/forever-ago"
@@ -675,7 +496,7 @@
    "trailer": "https://youtube.com/embed/ZNjygOzJqMQ",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235200/library_600x900.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-09-20",
    "url": "https://lanzamientos.lat/juegos/neon-abyss-2",
@@ -901,6 +722,36 @@
      "fecha": "2026-10-02",
      "titulo": "LLEGA A XBOX EL 8 DE OCTUBRE",
      "texto": "Sale en consolas casi cuatro años después del estreno en PC. La PS Store también lo lista, todavía sin día."
+    }
+   ]
+  },
+  {
+   "id": "arcade-archives-2-fighting-golf",
+   "titulo": "ARCADE ARCHIVES 2: FIGHTING GOLF",
+   "fecha": "2026-10-08",
+   "relanzamiento": "Original de recreativa de SNK, 1988",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "DEPORTES",
+    "RETRO",
+    "ARCADE"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "El golf de recreativa de SNK de 1988. Se elige entre cuatro personajes, cada uno más fuerte en distancia o en precisión, y se juegan 18 hoyos con tres tipos de rough, búnkers, mar, ríos y bosque. Antes de cada hoyo aparecen consejos y el juego elige solo el palo según la distancia a la bandera. Como el resto de Arcade Archives 2, suma un modo contrarreloj a los de siempre.",
+   "trailer": "https://youtube.com/embed/CUt9geCnRyQ",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.3080.13572008654891879.4a0e64ff-3e49-4bb5-a65b-e20c376a9f38.9d7c7478-d984-4df0-9c9f-478705c093f6?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-07",
+   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-fighting-golf",
+   "noticias": [
+    {
+     "fecha": "2026-10-07",
+     "titulo": "SALE EL 8 DE OCTUBRE",
+     "texto": "HAMSTER lo anunció para PS5 y Xbox como Arcade Archives 2, y para otras consolas en la serie original. Por ahora sólo la tienda de Xbox lo tiene listado."
     }
    ]
   },
@@ -1154,7 +1005,7 @@
    "trailer": "https://youtube.com/embed/_kxjGXZ7Bv8",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/c54a7dc5c4c4703eade452013234d53b.png",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/valor-mortis"
@@ -1228,7 +1079,7 @@
    "trailer": "https://youtube.com/embed/HtN_PLudTUk",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/library_600x900.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-08-28",
    "url": "https://lanzamientos.lat/juegos/deep-dish-dungeon"
@@ -1328,7 +1179,8 @@
    "titulo": "CHAINED BEASTS",
    "fecha": "2026-10-15",
    "plataformas": [
-    "PS5"
+    "PS5",
+    "XBOX"
    ],
    "genero": [
     "ACCION",
@@ -1341,10 +1193,17 @@
    "trailer": "https://youtube.com/embed/J5KKhsI1QL8",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coad6n.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/chained-beasts"
+   "url": "https://lanzamientos.lat/juegos/chained-beasts",
+   "noticias": [
+    {
+     "fecha": "2026-10-07",
+     "titulo": "TAMBIÉN EN XBOX, Y EN GAME PASS DESDE EL PRIMER DÍA",
+     "texto": "Xbox lo confirmó en la tanda de Game Pass de octubre: sale el 15 en Xbox Series y entra al servicio ese mismo día, en Ultimate y PC Game Pass."
+    }
+   ]
   },
   {
    "id": "the-jackbox-party-pack-12",
@@ -1556,7 +1415,7 @@
    "trailer": "https://youtube.com/embed/8uYZrfXjPfY",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwy.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-09-09",
    "url": "https://lanzamientos.lat/juegos/blueys-happy-snaps"
@@ -2944,6 +2803,31 @@
      "texto": "La demo de la edición de Switch 2 ya está en la eShop. SHIFT UP además mostró un video de la colaboración con Bayonetta, que es una actualización gratuita, y Nintendo publicó su propio tráiler para la consola."
     }
    ]
+  },
+  {
+   "id": "hasbro-games-junior-collection",
+   "titulo": "HASBRO GAMES JUNIOR COLLECTION",
+   "fecha": "2026-11-06",
+   "plataformas": [
+    "XBOX",
+    "PS5",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "TABLERO",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "CASUAL BROTHERS",
+   "descripcion": "Tres juegos de mesa clásicos de Hasbro en versión para los más chicos: Monopoly Junior, para comprar lugares y ganar plata con solo tirar el dado; Cluedo Junior, para buscar pistas y descartar sospechosos; y The Game of Life Junior, para girar la ruleta y elegir el camino juntando estrellas. Se juega solo o con otros en la misma consola.",
+   "trailer": "https://youtube.com/embed/OhYII4UeVzY",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocm0w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/hasbro-games-junior-collection"
   }
  ]
 }

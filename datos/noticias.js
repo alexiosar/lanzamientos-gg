@@ -55,6 +55,16 @@
 
 const NOTICIAS = [
   {
+    id: "game-pass-octubre-2026-primera-tanda",
+    fecha: "2026-10-07",
+    categoria: "SUSCRIPCIONES",
+    titulo: "GAME PASS SUMA BATTLEFIELD 6 Y SEIS ESTRENOS EL DÍA UNO EN OCTUBRE",
+    texto: "Xbox anunció la primera tanda de octubre. Seis juegos entran el mismo día que salen: Echo Weaver y Forever Ago el 8, Valor Mortis y Deep Dish Dungeon el 13, y Bluey's Happy Snaps y Chained Beasts el 15. El 8 llega también Neon Abyss 2, que ese día deja el acceso anticipado y debuta en consolas, y el 13 entra Battlefield 6.\n\nEl 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, Pacific Drive y Evil West. Gears of War: E-Day, que salió el 6, está en el servicio desde el primer día.",
+    fuente: "https://news.xbox.com/en-us/2026/10/07/xbox-game-pass-october-2026-wave-1/",
+    juegos: ["echo-weaver", "forever-ago", "valor-mortis", "deep-dish-dungeon", "blueys-happy-snaps", "chained-beasts", "neon-abyss-2", "gears-of-war-e-day"],
+    pagina: "/game-pass-octubre-2026"
+  },
+  {
     id: "ps5-qssr-escalado-ia",
     fecha: "2026-10-01",
     categoria: "ANUNCIOS",

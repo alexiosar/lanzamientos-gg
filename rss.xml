@@ -6,7 +6,44 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 06 Oct 2026 15:14:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:26:11 +0000</lastBuildDate>
+    <item>
+      <title>CHAINED BEASTS: TAMBIÉN EN XBOX, Y EN GAME PASS DESDE EL PRIMER DÍA</title>
+      <link>https://lanzamientos.lat/juegos/chained-beasts</link>
+      <guid isPermaLink="false">chained-beasts-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Xbox lo confirmó en la tanda de Game Pass de octubre: sale el 15 en Xbox Series y entra al servicio ese mismo día, en Ultimate y PC Game Pass. — CHAINED BEASTS para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>DEEP ROCK GALACTIC: SURVIVOR: LLEGA A PS5, SWITCH 2 Y SWITCH CON 86 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/deep-rock-galactic-survivor</link>
+      <guid isPermaLink="false">deep-rock-galactic-survivor-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Salió hoy en las tres consolas con el puntaje que juntó en PC, donde está desde septiembre de 2025: 86 sobre once reseñas. Las versiones de consola todavía no tienen notas propias. — DEEP ROCK GALACTIC: SURVIVOR para PS5 / SWITCH 2 / SWITCH.</description>
+    </item>
+    <item>
+      <title>AT FATE'S END: SE RETRASA A 2027</title>
+      <link>https://lanzamientos.lat/juegos/at-fates-end</link>
+      <guid isPermaLink="false">at-fates-end-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Thunder Lotus lo pasó para 2027 y, mientras tanto, sacó una demo en PC. — AT FATE'S END para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>ARCADE ARCHIVES 2: FIGHTING GOLF: SALE EL 8 DE OCTUBRE</title>
+      <link>https://lanzamientos.lat/juegos/arcade-archives-2-fighting-golf</link>
+      <guid isPermaLink="false">arcade-archives-2-fighting-golf-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <description>HAMSTER lo anunció para PS5 y Xbox como Arcade Archives 2, y para otras consolas en la serie original. Por ahora sólo la tienda de Xbox lo tiene listado. — ARCADE ARCHIVES 2: FIGHTING GOLF para XBOX.</description>
+    </item>
+    <item>
+      <title>GAME PASS SUMA BATTLEFIELD 6 Y SEIS ESTRENOS EL DÍA UNO EN OCTUBRE</title>
+      <link>https://lanzamientos.lat/game-pass-octubre-2026</link>
+      <guid isPermaLink="false">game-pass-octubre-2026-primera-tanda</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Xbox anunció la primera tanda de octubre. Seis juegos entran el mismo día que salen: Echo Weaver y Forever Ago el 8, Valor Mortis y Deep Dish Dungeon el 13, y Bluey's Happy Snaps y Chained Beasts el 15. El 8 llega también Neon Abyss 2, que ese día deja el acceso anticipado y debuta en consolas, y el 13 entra Battlefield 6.
+
+El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, Pacific Drive y Evil West. Gears of War: E-Day, que salió el 6, está en el servicio desde el primer día.</description>
+    </item>
     <item>
       <title>RETROSPACE: LA CRÍTICA LE PONE 74</title>
       <link>https://lanzamientos.lat/juegos/retrospace</link>
@@ -251,41 +288,6 @@
       <guid isPermaLink="false">thunder-hoop-collection-2026-10-02</guid>
       <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
       <description>QUByte lo saca el mismo día en Xbox, Switch y PC. — THUNDER HOOP COLLECTION para XBOX / SWITCH.</description>
-    </item>
-    <item>
-      <title>ULTIMATE ADMIRAL: DREADNOUGHTS: LLEGA A XBOX EL 8 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/ultimate-admiral-dreadnoughts</link>
-      <guid isPermaLink="false">ultimate-admiral-dreadnoughts-2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Sale en consolas casi cuatro años después del estreno en PC. La PS Store también lo lista, todavía sin día. — ULTIMATE ADMIRAL: DREADNOUGHTS para XBOX.</description>
-    </item>
-    <item>
-      <title>END OF ABYSS: SALE HOY Y DEBUTA CON 78</title>
-      <link>https://lanzamientos.lat/juegos/end-of-abyss</link>
-      <guid isPermaLink="false">end-of-abyss-2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Llega hoy a PS5 y Xbox con un 78 sobre diez reseñas. La prensa destaca la atmósfera y el mapa interconectado, y le marca bugs y un diseño que a veces confunde. — END OF ABYSS para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>PAPERHEAD: YA TIENE DÍA: 9 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/paperhead</link>
-      <guid isPermaLink="false">paperhead-2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-      <description>La tienda de Xbox confirmó el 9 de octubre, la misma fecha que tiene en Steam. La PS Store todavía dice solo octubre, sin día. — PAPERHEAD para XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>KERNEL HEARTS: YA ESTÁ EN PS5, Y LA CRÍTICA LE PONE 73</title>
-      <link>https://lanzamientos.lat/juegos/kernel-hearts</link>
-      <guid isPermaLink="false">kernel-hearts-2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-      <description>La versión de PS5 ya está a la venta, con cooperativo online para hasta cuatro. Las primeras reseñas, todas de PS5, destacan el estilo y el combate, y recomiendan jugarlo acompañado. — KERNEL HEARTS para XBOX / PS5.</description>
-    </item>
-    <item>
-      <title>DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED: SALE HOY Y DEBUTA CON 74</title>
-      <link>https://lanzamientos.lat/juegos/dynasty-warriors-3-complete-edition-remastered</link>
-      <guid isPermaLink="false">dynasty-warriors-3-complete-edition-remastered-2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Llega a PS5, Xbox, Switch 2 y Switch con un 74 sobre siete reseñas: la prensa celebra los gráficos rehechos y le marca un combate que se repite. — DYNASTY WARRIORS 3: COMPLETE EDITION REMASTERED para SWITCH / XBOX / SWITCH 2 / PS5.</description>
     </item>
   </channel>
 </rss>
