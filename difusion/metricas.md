@@ -173,6 +173,34 @@ indexadas y que las impresiones dejen de estar en cero. **En noviembre las "inde
 pueden moverse en los dos sentidos**: bajar por el noindex del 05/10 y volver a subir por las
 84 fichas recuperadas el 06/10. Las dos cosas son a propósito.
 
+### Lectura semanal del 08/10/2026 (datos de Search Console con 31 horas de atraso)
+
+| | 7 días anteriores | Últimos 7 días |
+|---|---|---|
+| Clics | 8 | **0** |
+| Impresiones | 1.180 | **242** |
+| Posición media | 12,8 | **59,4** |
+
+Ojo con la comparación: los 7 días anteriores arrancan el 23/09, así que sus dos primeros
+días son de antes de la caída y se llevan casi todo (los 8 clics y ~1.000 impresiones).
+
+- **No es una desindexación, es una degradación.** El sitio sigue apareciendo, pero la
+  posición media pasó de ~13 a ~59: de la primera página a la sexta. Encaja con un ajuste
+  algorítmico de todo el sitio, no con páginas puntuales que se cayeron.
+- **Hay una señal chica de movimiento.** En el gráfico de 3 meses las impresiones pasan de
+  ~10 por día a fines de septiembre a ~40-50 en los primeros días de octubre. Es poco y puede
+  ser ruido, pero va en la dirección correcta.
+- **La portada concentra casi todo** (168 de 242 impresiones), con las búsquedas genéricas:
+  "proximos lanzamientos videojuegos", "juegos lanzamientos", "ultimos juegos". `/switch`
+  pasa de 3 a 15. Las fichas sueltas casi no aparecen.
+- **3 meses:** 146 clics y 19.100 impresiones, CTR 0,8%, posición 15,9.
+- **Cloudflare, 30 días:** 530 visitas y 990 páginas vistas, casi igual que septiembre (500 y
+  1.090): el tráfico que no viene de Google se sostiene. Core Web Vitals: LCP e INP 100% bien,
+  pero **CLS tiene una parte en rojo**, que vale la pena mirar (ver pendientes).
+
+Nada de esto cambia el plan: la lectura de verdad es el 15/10, una semana después de que
+termine el despliegue del update, y no se espera recuperación antes de semanas o meses.
+
 ## Agosto de 2026: el mes en que el sitio entró a Google
 
 Es el primer salto real desde que existe el registro, y conviene dejar dicho de qué está
