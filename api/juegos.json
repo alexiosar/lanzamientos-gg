@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-08T15:02:25+00:00",
+ "generado": "2026-10-08T15:42:56+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 505,
+ "total": 511,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -5612,7 +5612,7 @@
    ],
    "desarrollador": "FRIENDS OF SAFETY",
    "descripcion": "Un RPG de acción en un pueblo de Arizona en 1987, la noche en que una secta invoca por accidente a Baphomet. John sale a pelear contra la invasión demoníaca y a rescatar a sus amigos, y la aventura avanza hora por hora durante lo que puede ser la última noche del mundo, entre demonios, vecinos poseídos y matones del colegio.",
-   "trailer": "https://youtube.com/embed/bFVWYd68J5Q",
+   "trailer": "https://youtube.com/embed/H2eeqQDleSo",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1094600/library_600x900.jpg",
    "gamepass": false,
@@ -13976,7 +13976,7 @@
    ],
    "desarrollador": "MANTIS",
    "descripcion": "Un roguelike de construcción de mazos donde se juega del lado de la casa embrujada. De día se diseña el laberinto de la mansión y de noche se atrae a los visitantes y se usan cartas para convocar espíritus, mover pasillos y asustarlos hasta quebrarlos, mientras se protege el corazón de la casa. Con lo que se les saca, la casa crece y atrae enemigos más peligrosos.",
-   "trailer": "https://youtube.com/embed/ZBtX20ivIZQ",
+   "trailer": "https://youtube.com/embed/wkDy-72igjo",
    "metacritic": 73,
    "metacriticUsuarios": 5.7,
    "metacriticVotos": 6,
@@ -14702,7 +14702,8 @@
    "fecha": "2027-01-14",
    "plataformas": [
     "PS5",
-    "XBOX"
+    "XBOX",
+    "SWITCH"
    ],
    "genero": [
     "SHOOTER",
@@ -14986,7 +14987,8 @@
    "fecha": "2026-10-08",
    "relanzamiento": "En PC desde enero de 2023",
    "plataformas": [
-    "XBOX"
+    "XBOX",
+    "PS5"
    ],
    "genero": [
     "ESTRATEGIA",
@@ -15299,6 +15301,178 @@
      "texto": "HAMSTER lo puso a la venta el 8 de octubre en PS5. También lo anunció para Switch 2, que todavía no tiene ficha en la eShop."
     }
    ]
+  },
+  {
+   "id": "yar-forgotten-throne",
+   "titulo": "YAR: FORGOTTEN THRONE",
+   "fecha": "2026-10-14",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "HONOR GAMES",
+   "descripcion": "Un RPG de mundo abierto con historia, en las tierras de Borea. Se elige entre guerrero, volkhv o arquero y se investiga el origen de la oscuridad que envenena bosques y animales, a lo largo de más de cien misiones y uniéndose a una de dos facciones. Hay biomas distintos y tres asentamientos grandes, y muchos oficios para aprender: alquimia, cocina, herrería, encantamiento, pesca y joyería, entre otros. La dificultad va de un modo centrado en la historia a uno exigente con guardado limitado.",
+   "trailer": "https://youtube.com/embed/Nsiw3wCoeMg",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.10010.14489496100042140.9dede2a9-8baa-48d8-b8df-1df9dcc25f26.7d5af20c-d16d-4dcd-b2cc-6d01c5fdc7d4?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-08",
+   "url": "https://lanzamientos.lat/juegos/yar-forgotten-throne",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SALE EL 14 DE OCTUBRE",
+     "texto": "Axyos Games lo puso a la venta para el 14 de octubre en PS5 y Xbox Series."
+    }
+   ]
+  },
+  {
+   "id": "just-dance-decades-of-hits",
+   "titulo": "JUST DANCE: DECADES OF HITS",
+   "fecha": "2026-10-13",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "MUSICA",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "UBISOFT",
+   "descripcion": "La entrega de Just Dance armada por décadas: seis, cada una con su estética y su lista de canciones, que se pueden recorrer por separado o mezclar en una lista propia. Suma un Modo Aventura con historia que va pasando por las décadas. Entre los temas están NUEVAYoL de Bad Bunny, Manchild de Sabrina Carpenter, Danza Kuduro, Feel Good Inc. de Gorillaz, Bye Bye Bye de *NSYNC, Wannabe de las Spice Girls y Mamma Mia de ABBA, con coreografías de distinta dificultad.",
+   "trailer": "https://youtube.com/embed/j2gOAliuT34",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.22459.13999831559822150.719990a4-831b-43cb-93a7-ae8ee32b06fd.7575e6c8-4e9f-4e56-9027-04154ac77530?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-08",
+   "url": "https://lanzamientos.lat/juegos/just-dance-decades-of-hits",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SALE EL 13 DE OCTUBRE EN XBOX",
+     "texto": "La tienda de Xbox ya tiene el día. La PS Store y la eShop todavía no lo listan."
+    }
+   ]
+  },
+  {
+   "id": "frankenstein-awakening-of-horror",
+   "titulo": "FRANKENSTEIN: AWAKENING OF HORROR",
+   "fecha": "2026-10-20",
+   "plataformas": [
+    "PS5",
+    "PS4"
+   ],
+   "genero": [
+    "TERROR",
+    "SUPERVIVENCIA",
+    "INDIE"
+   ],
+   "desarrollador": "WITENOVASTUDIO",
+   "descripcion": "Un survival horror en tercera persona en una versión alternativa de 1855. En plena guerra de Crimea, el gobierno británico recurre a los experimentos de Victor Frankenstein para conseguir un arma nueva, y el proyecto sale mal. El protagonista despierta sin memoria en un hospital militar de Edimburgo con la misión de encontrar a Frankenstein y frenarlo, mientras criaturas que parecen reconocerlo y documentos sueltos ponen en duda su pasado. La munición y la curación escasean, se pelea con revólver y armas cuerpo a cuerpo, y hay puzles del entorno y trampas.",
+   "trailer": "https://youtube.com/embed/vEeht5p2LaU",
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-08",
+   "url": "https://lanzamientos.lat/juegos/frankenstein-awakening-of-horror",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SALE EL 20 DE OCTUBRE",
+     "texto": "La PS Store ya lo tiene a la venta anticipada para el 20 de octubre, en PS5 y PS4."
+    }
+   ]
+  },
+  {
+   "id": "hazard-levels",
+   "titulo": "HAZARD LEVELS",
+   "fecha": "2026-11-12",
+   "relanzamiento": "En PC, en acceso anticipado — esta fecha es la de la versión terminada y la de consolas",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "TERROR",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "WALES INTERACTIVE",
+   "descripcion": "Un survival horror cooperativo para uno a cuatro jugadores, basado en físicas. Debajo de un pub británico funciona una cervecería secreta, y para abastecerla hay que bajar a grietas inestables que llevan a otras dimensiones, juntar ingredientes raros y volver antes de la última ronda. Cada grieta se genera al azar, con biomas, peligros y criaturas distintos; un guante gravitatorio sirve para agarrar y lanzar varios objetos a la vez, y con lo que se junta se preparan tragos que dan habilidades o desatan el caos. Tiene chat de voz por proximidad.",
+   "trailer": "https://youtube.com/embed/RAwpbhynS0M",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.43354.14251935469670557.27dc1ecf-941c-4e6e-bfac-73935ff464dd.d14b7513-c468-4e87-bd77-c77d86fca44a?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-08",
+   "url": "https://lanzamientos.lat/juegos/hazard-levels",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "LA 1.0 SALE EL 12 DE NOVIEMBRE",
+     "texto": "Wales Interactive le puso fecha a la versión terminada, que ese día llega también a PS5 y Xbox Series. Xbox confirma el día; la PS Store dice noviembre."
+    }
+   ]
+  },
+  {
+   "id": "brokenlore-ascend",
+   "titulo": "BROKENLORE: ASCEND",
+   "fecha": "2027-01-31",
+   "estimado": true,
+   "fechaEstimada": "ENERO 2027",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "TERROR",
+    "INDIE"
+   ],
+   "desarrollador": "SERAFINI PRODUCTIONS",
+   "descripcion": "Terror psicológico en primera persona. Ren y Yui, dos escaladores japoneses de azoteas famosos por su canal SKYLIMIT, suben de noche la Torre Elysium, el rascacielos más alto de Japón, para grabar el video definitivo. En el ascenso aparece una Rokurokubi, una mujer de cuello de serpiente y máscara ornamentada que encarna su miedo a ser olvidados. Se combinan escalada realista, aferrarse a salientes angostos y sigilo para esconderse de su mirada.",
+   "trailer": "https://youtube.com/embed/myKIY1PeA2w",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2321/2abeb9bb103ac4ed0430304aa20b496e26e2c54c56403288.jpg?w=600&thumb=false",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-08",
+   "url": "https://lanzamientos.lat/juegos/brokenlore-ascend",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SALE EN ENERO DE 2027",
+     "texto": "Ya tiene tráiler de fecha. La PS Store lo lista para enero de 2027 y Steam para el 6 de enero en PC; la tienda de Xbox todavía no lo tiene."
+    }
+   ]
+  },
+  {
+   "id": "rudolph-the-red-nosed-reindeer-switch-2",
+   "titulo": "RUDOLPH THE RED-NOSED REINDEER",
+   "fecha": "2026-10-16",
+   "relanzamiento": "En Xbox y PC desde septiembre de 2025 — esta fecha corresponde a la Holiday Play Edition de Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "CASUAL",
+    "COOP"
+   ],
+   "desarrollador": "HEADLESS CHICKEN GAMES",
+   "descripcion": "Una aventura navideña para toda la familia basada en el especial animado de 1964. Rudolph y sus amigos recorren cuatro reinos invernales del cuento, entre ellos Christmastown y la Isla de los Juguetes Inadaptados, superando desafíos para salvar la Navidad de un desastre inesperado. Es de exploración tranquila y se puede jugar en cooperativo. La Holiday Play Edition, la versión para Switch 2, suma el contenido extra del reino del rey Moonracer.",
+   "trailer": "https://youtube.com/embed/JcwTEdN12xY",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.17472.14258147675203711.86d9a88a-adf6-4a1e-afc8-cee45ca892ee.40347d24-e960-46e1-9269-a269ddac277e?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-08",
+   "url": "https://lanzamientos.lat/juegos/rudolph-the-red-nosed-reindeer-switch-2"
   }
  ]
 }

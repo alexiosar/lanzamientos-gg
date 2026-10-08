@@ -1798,6 +1798,18 @@ ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
    | Path of Exile 2 | PS5 y Xbox el 11/12 | Es la versión 1.0 de un juego que ya está en consolas desde 2024, en acceso anticipado: no es un lanzamiento nuevo |
    | Jurassic World Evolution 3: Prehistoric East · BALL x PIT: Risen Ballbylon · Cairn: Deep Water | — | Expansiones |
 
+
+   **Barrido del 08/10/2026** (mismo método, del 8/10 al 30/04/2027 más los códigos de mes,
+   trimestre y año): 521 entradas, 366 de consola. **Se cargaron 6**, todos verificados en
+   tienda: YAR: Forgotten Throne (PS5 y Xbox), Just Dance: Decades of Hits (Xbox), Frankenstein:
+   Awakening of Horror (PS5 y PS4), Hazard Levels (PS5 y Xbox), BrokenLore: ASCEND (PS5, estimado
+   enero de 2027) y la Holiday Play Edition de Rudolph the Red-Nosed Reindeer (Switch 2).
+   **Plataformas sumadas:** Switch a Sturmjäger y PS5 a Ultimate Admiral: Dreadnoughts. Casi
+   todas las demás diferencias ya estaban en las tablas de descartes de arriba o en la de
+   pendientes. Se comparó contra `api/juegos.json` del sitio publicado, que se puede leer
+   con `fetch` desde la misma pestaña de releases.com: así el cruce se hace entero en el
+   navegador, sin copiar 366 filas a mano. **Ojo:** salir de releases.com a otra página
+   borra lo que quedó en `window`; verificar en las tiendas después de anotar el cruce.
    **Las reediciones de HAMSTER que faltaban** (unas cuarenta entre junio y septiembre, con
    cuatro cargadas) **no se van a buscar**: el usuario decidió el 24/09 cargarlas sólo de
    ahí en adelante. Está explicado en "Fuentes de datos habituales".
@@ -1961,11 +1973,11 @@ y abrir http://localhost:8080
   | Terranigma | 14 de enero de 2027 en PS5, Xbox, Switch 2 y Switch (Gematsu, 16/09) | La PS Store dice "por determinar", Xbox lo lista sin fecha, Steam dice "próximamente" y la eShop no lo tiene |
   | Kernel Hearts (Switch 2) | Anunciado junto con PS5 | **Ya está cargado en Xbox y PS5.** La de PS5 apareció a la venta el 1/10, con reseñas de PS5 desde el 28/09; se sumó a la misma entrada porque no se sabe si salió otro día. La eShop no lo lista |
   | Earth Defense Force 6 (Switch 2) | 28 de enero de 2027 (Gematsu, 17/09) | Ni la eShop europea ni la de EE.UU. lo listan |
-  | Kingdom of Night (PS5) | 5 de noviembre (Gematsu, 17/09) | **Ya está cargado en Xbox y Switch.** La PS Store no lo lista todavía |
+  | Kingdom of Night (PS5) | 5 de noviembre (Gematsu, 17/09) | **Ya está cargado en Xbox y Switch.** Desde el 08/10 la PS Store tiene el día, pero la ficha no dice qué consola |
   | Tropico 7 (Switch 2) | Mismo día que PS5 y Xbox, 28 de enero de 2027 (Gematsu, 17/09) | **Ya está cargado en PS5 y Xbox.** Ni la eShop ni Nintendo US lo listan |
   | Sandwalkers (PS) | 24 de septiembre | **Ya está cargado en Xbox**: el Next Week on Xbox del 18/09 lo confirmó para Series X\|S ese día. La PS Store lo tiene con la misma fecha pero con la lista de plataformas vacía, así que no se sabe si es PS5 o PS4. La eShop no lo lista |
   | Ananta | 15 de enero de 2027 (releases.com) | La PS Store lo tiene para PS5 pero sin fecha |
-  | Just Dance: Decades of Hits | 13 de octubre (releases.com) | Xbox lo lista sin día, la PS Store y la eShop no lo tienen |
+  | Just Dance: Decades of Hits (PS5 y Switch) | 13 de octubre (releases.com) | **Ya está cargado en Xbox**, que tiene el día desde el 08/10. La PS Store y la eShop todavía no lo listan |
   | Colorbound (Switch 2, Switch y PS4) | 12 de octubre (releases.com) | **Ya está cargado en PS5 y Xbox.** Xbox y Steam confirman el día; la PS Store tiene la ficha de PS5 sin día. Las demás no tienen ficha |
   | Lufia I & II: The Sinistrals Saga (Switch 2 y Switch) | 2027 (PC Gaming Show, 20/09) | **Ya está cargado como estimado.** La PS Store lo tiene para PS5 con "2027"; la eShop no lo lista |
   | Console Archives: Karate Champ (Switch 2) | 24 de septiembre (Gematsu, 23/09) | **Ya está cargado en PS5**, que ese día ya lo tenía a la venta. Ni la eShop europea ni la de Nintendo US lo listan |
@@ -1983,19 +1995,21 @@ y abrir http://localhost:8080
   | Mycopunk (Xbox) | 20 de octubre | **Ya está cargado en PS5.** Gematsu dice "PlayStation 5 y…" y la tienda de Xbox no lo encuentra, así que no se sabe si hay versión de Xbox |
   | Prinny Party: Going Overboard! (Switch 2) | 11 de noviembre | **Ya está cargado en PS5 y Switch**: la eShop sumó la de Switch el 24/09. La de Switch 2 sigue sin ficha de tienda |
   | Persona 4 Revival (Switch 2) | 20 de mayo de 2027 (Nintendo Direct) | **Ya está cargado en PS5 y Xbox.** Mayo de 2027 todavía no es un mes del calendario |
-  | Queen's Domain (Xbox y Switch 2) | 30 de octubre (Gematsu, 30/09) | **Ya está cargado en las tres.** La PS Store lo tiene para PS5 pero "por determinar" y Steam confirma el 30 de octubre; ni Xbox ni la eShop lo listan |
+  | Queen's Domain (Switch 2) | 30 de octubre (Gematsu, 30/09) | **Ya está cargado en las tres.** Xbox confirma el día desde el 08/10, igual que Steam; la PS Store dice "por determinar" y la eShop no lo lista |
   | Deep Rock Galactic: Survivor (Switch 2) | 7 de octubre en PS5, Switch 2 y Switch (Gematsu, 29/09) | **Ya está cargado en las tres.** La PS Store confirma el 7 para PS5; la de Switch figura en Nintendo US para el 9, y la de Switch 2 no tiene ficha de tienda todavía |
   | Console Archives Chack'n Pop (Switch 2) | 1 de octubre (Gematsu, 30/09) | **Ya está cargado en PS5**, que el 1/10 ya lo tenía a la venta. La eShop no lo lista |
   | Arcade Archives 2 Balloon Bomber (Switch 2) | 1 de octubre (Gematsu, 30/09) | **Ya está cargado en PS5, PS4 y Xbox**, las tres a la venta el 1/10. La eShop no lo lista |
   | Moadra (Switch) | 22 de octubre (Gematsu, 1/10) | **Ya está cargado en las tres.** PS5 y Xbox confirman el día; la eShop y Nintendo US no lo listan |
   | ASYLUM (PS5, PS4 y Switch) | 30 de octubre (Gematsu, 30/09) | **Ya está cargado en las cuatro.** Xbox confirma el día; la PS Store dice "por determinar" y la eShop no lo lista |
   | Grave Seasons (Xbox y Switch) | 9 de marzo de 2027 (Gematsu, 30/09) | **Ya está cargado.** La PS Store y Steam confirman el día; Xbox lo lista sin día y la eShop no lo tiene. Gematsu corta la lista de consolas en "Switch…", así que puede haber versión de Switch 2 |
-  | Football Manager 27 (PS5) | 10 de noviembre (Gematsu, 30/09) | **Ya está cargado en PS5 y Xbox.** Steam confirma el día; Xbox lo lista sin día y la PS Store no lo tiene |
-  | Gaelco Sports Collection | 22 de octubre (Gematsu, 1/10) | **No se cargó**: la PS Store y Steam dicen "octubre de 2026" sin día, y Gematsu corta la lista de consolas. Xbox y la eShop no lo tienen |
+  | Football Manager 27 (PS5) | 10 de noviembre (Gematsu, 30/09) | **Ya está cargado en PS5 y Xbox.** Steam y, desde el 08/10, Xbox confirman el día; la PS Store no lo tiene |
+  | Gaelco Sports Collection | 22 de octubre (Gematsu, 1/10) | **No se cargó**: la PS Store y Steam dicen "octubre de 2026" sin día, y el 08/10 Xbox lo lista para el **21 de enero de 2027**. Las fuentes no coinciden; esperar a que la PS Store ponga el día |
   | Tenebris Somnia (Switch) | 16 de octubre en Switch y Switch 2 (GoNintendo) | **Ya está cargado en PS5, PS4, Xbox y Switch 2.** La eShop y Nintendo US no tienen ficha de ninguna de las dos versiones de Nintendo |
   | Metro Redux (PS5 y Xbox Series) | 29 de octubre (Gematsu, 1/10) | **No se cargó**: la PS Store sólo tiene la versión de PS4 de 2014 y Xbox no lista la nueva. Cuando aparezca, va con `relanzamiento` como las ediciones de Switch 2 |
   | Croc 2: Kingdom of the Gobbos | 29 de octubre (Gematsu y Steam, 1/10) | **Ya está cargado en PS5, PS4 y Xbox.** Steam confirma el día; la PS Store dice "por determinar" y Xbox lo lista sin día. La eShop no lo tiene |
-  | Sturmjäger (Switch) | 14 de enero de 2027 (releases.com) | **Ya está cargado en PS5 y Xbox**, que confirman el día. La eShop no lo tiene |
+  | Sturmjäger | 14 de enero de 2027 (releases.com) | **Ya está cargado en PS5, Xbox y Switch**: la eShop lo sumó con el mismo día el 08/10. Se puede sacar de la tabla |
+  | Nomad Drive | 20 de octubre en PS5 (releases.com, 08/10) | La PS Store lo tiene "por determinar" y Xbox no lo lista |
+  | Fountains (Switch 2) | 24 de septiembre (eShop, 08/10) | La eShop tiene una "Nintendo Switch 2 Edition" con fecha propia, una semana después de la de Switch. Por la regla de una fecha por entrada iría aparte, pero la ficha de Fountains es flaca: **decidir si vale la pena** |
   | Psikyo Memories | 18 de febrero de 2027 en PS5 y Switch 2 (Gematsu, 5/10) | **No se cargó**: ni la PS Store ni la eShop ni Nintendo US lo listan todavía |
   | DuneCrawl (Switch 2 y Switch) | Más adelante en 2026 (Gematsu, 5/10) | **Ya está cargado en PS5 y Xbox**, que salen el 19/10. Las de Nintendo no tienen día ni ficha |
   | Steins;Gate Re:Boot (Xbox, Switch 2 y Switch) | 29 de octubre (Spike Chunsoft; RPG Site, Xbox retrasado desde el 20/08) | **Ya está cargado en las cinco.** La PS Store tiene el día pero no la plataforma; Xbox y las tiendas de Nintendo no lo listan todavía |
