@@ -2,145 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-07T17:06:59+00:00",
+ "generado": "2026-10-08T15:02:25+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-07",
- "hasta": "2026-11-06",
- "total": 103,
+ "desde": "2026-10-08",
+ "hasta": "2026-11-07",
+ "total": 100,
  "juegos": [
-  {
-   "id": "deep-rock-galactic-survivor",
-   "titulo": "DEEP ROCK GALACTIC: SURVIVOR",
-   "fecha": "2026-10-07",
-   "plataformas": [
-    "PS5",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "FUNDAY GAMES",
-   "descripcion": "Un auto-shooter de supervivencia para un jugador, derivado de Deep Rock Galactic y con vista cenital. Las armas disparan solas: el trabajo es moverse entre las oleadas de alienígenas del planeta Hoxxes, excavar las paredes de las cuevas en busca de minerales y juntar mejoras. Cada misión tiene objetivos que cumplir antes de volver a tiempo a la cápsula, y las cuevas y las oleadas se generan al azar en cada partida.",
-   "trailer": "https://youtube.com/embed/rsfKZS-rgo4",
-   "metacritic": 86,
-   "critica": "Las reseñas son de la versión de PC de 2025. La prensa lo pone entre los mejores del género que abrió Vampire Survivors, y más de una nota dice que le discute el trono. Se elogia que se traiga el humor, la personalidad de las clases y la atmósfera de las cuevas del Deep Rock Galactic original, y que la excavación de minerales le sume una capa que otros auto-shooters no tienen. Los reparos: se extraña la cooperación del original, es difícil, y los biomas y las misiones se repiten y estiran la progresión.",
-   "metacriticUsuarios": 7.2,
-   "metacriticVotos": 65,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321470/library_600x900.jpg",
-   "relanzamiento": "En Xbox y PC desde 2025",
-   "duracion": "≈ 22 h (historia) · 159 h (completo)",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-30",
-   "url": "https://lanzamientos.lat/juegos/deep-rock-galactic-survivor",
-   "noticias": [
-    {
-     "fecha": "2026-10-07",
-     "titulo": "LLEGA A PS5, SWITCH 2 Y SWITCH CON 86 EN METACRITIC",
-     "texto": "Salió hoy en las tres consolas con el puntaje que juntó en PC, donde está desde septiembre de 2025: 86 sobre once reseñas. Las versiones de consola todavía no tienen notas propias."
-    },
-    {
-     "fecha": "2026-09-30",
-     "titulo": "LLEGA A PS5, SWITCH 2 Y SWITCH EL 7 DE OCTUBRE",
-     "texto": "Ghost Ship Publishing lo anunció con un tráiler nuevo. En Xbox y PC está disponible desde septiembre de 2025."
-    }
-   ]
-  },
-  {
-   "id": "hidden-dogs",
-   "titulo": "HIDDEN DOGS",
-   "fecha": "2026-10-07",
-   "relanzamiento": "En PC desde septiembre de 2025",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "PUZZLE",
-    "CASUAL",
-    "INDIE"
-   ],
-   "desarrollador": "ADMIRAL EGG GAMES",
-   "descripcion": "Un juego de buscar objetos escondidos en una campiña inglesa dibujada a mano: hay más de 500 perros y objetos repartidos en 15 niveles, y a medida que se encuentran el mapa se llena de vida, con aviones, barcos y trenes. La excusa es ayudar a Labby a hacer un videojuego para perros, y si algo no aparece está el silbato para perros como pista.",
-   "trailer": "https://youtube.com/embed/w5ywXi6BVrI",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.60633.13798319223921984.7d9dc0ec-36b9-4d37-8520-6948918a215a.eba5a698-b74a-4e1b-a477-8aa0a3869176?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-03",
-   "url": "https://lanzamientos.lat/juegos/hidden-dogs",
-   "noticias": [
-    {
-     "fecha": "2026-10-02",
-     "titulo": "SALE EL 7 EN XBOX Y EL 8 EN SWITCH",
-     "texto": "La tienda de Xbox lo tiene para el 7 de octubre y la eShop para el 8. En PC salió en septiembre de 2025."
-    }
-   ]
-  },
-  {
-   "id": "titanic-escape-simulator",
-   "titulo": "TITANIC ESCAPE SIMULATOR",
-   "fecha": "2026-10-07",
-   "relanzamiento": "En PC desde agosto de 2026",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "SIMULACION",
-    "INDIE"
-   ],
-   "desarrollador": "MAGICPROSTUDIO",
-   "descripcion": "Un misterio a bordo del Titanic la noche del 14 de abril de 1912. El protagonista es un investigador privado que, durante el viaje, se encuentra con una muerte sospechosa: hay que interrogar pasajeros, revisar camarotes y seguir pistas desde la primera clase hasta las cubiertas inferiores, mientras el barco se acerca a su final.",
-   "trailer": "https://youtube.com/embed/xRgKooCKJ_Q",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.41197.14169097010196939.ec3a0483-8e79-4a26-ac1e-bad65f656365.a166191b-dd4a-4510-8773-3ab7c1eaaefd?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-03",
-   "url": "https://lanzamientos.lat/juegos/titanic-escape-simulator",
-   "noticias": [
-    {
-     "fecha": "2026-10-02",
-     "titulo": "LLEGA A XBOX EL 7 DE OCTUBRE",
-     "texto": "Sale en Xbox dos meses después del estreno en PC. La PS Store lo lista para 2026, todavía sin día."
-    }
-   ]
-  },
-  {
-   "id": "voltaire-the-vegan-vampire",
-   "titulo": "VOLTAIRE: THE VEGAN VAMPIRE",
-   "fecha": "2026-10-07",
-   "relanzamiento": "En PC desde 2023 y en Switch desde 2024; también está en PS5",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "SIMULACION",
-    "INDIE"
-   ],
-   "desarrollador": "JANDUSOFT",
-   "descripcion": "Una mezcla de acción, granja y roguelite ambientada en Transilvania. Voltaire, el hijo menor de Drácula, deja la sangre por una dieta a base de plantas solo para llevarle la contra a su padre, y con la ayuda de los tíos Frank y Stein se escapa para arrancar su propia vida: de día se cultiva y de noche se defiende la cosecha, con arte dibujado a mano y humor macabro.",
-   "trailer": "https://youtube.com/embed/8iWirHVeDMY",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.15274.14073636970543458.ec8a562c-31a3-4cf6-b1e4-4f2679b0cdd6.4adfc98e-26f3-4430-acae-99f805def1c0?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-03",
-   "url": "https://lanzamientos.lat/juegos/voltaire-the-vegan-vampire",
-   "noticias": [
-    {
-     "fecha": "2026-10-02",
-     "titulo": "LLEGA A XBOX EL 7 DE OCTUBRE",
-     "texto": "Después de PC, Switch y PS5, el 7 de octubre sale también en Xbox."
-    }
-   ]
-  },
   {
    "id": "clive-barkers-hellraiser-revival",
    "titulo": "CLIVE BARKER'S HELLRAISER: REVIVAL",
@@ -156,13 +24,20 @@
    "desarrollador": "SABER INTERACTIVE",
    "descripcion": "Un survival horror de acción en primera persona basado en Hellraiser, la saga de terror de Clive Barker, con una historia nueva.",
    "trailer": "https://youtube.com/embed/TfABHlPa-Bg",
-   "metacritic": null,
+   "metacritic": 69,
+   "critica": "La prensa está partida al medio. Los que lo defienden lo ven como una adaptación fiel del universo de Clive Barker, con los cenobitas y el Laberinto como lo mejor, una atmósfera opresiva y una estructura de survival horror que mira mucho a Resident Evil 4 Remake. Los que lo bajan dicen que funciona mientras el protagonista es vulnerable y se cae cuando la acción le gana al terror: combate desbalanceado, puzles irritantes, mecánicas viejas y un tramo final apurado. Casi todos avisan que no es para estómagos sensibles.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/clive-barkers-hellraiser-revival",
    "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SALIÓ CON 69 Y LA CRÍTICA DIVIDIDA",
+     "texto": "Salió hoy en PS5, Xbox y Switch 2. Las treinta reseñas van de 90 a 45: las más altas lo ven como una adaptación fiel y un buen survival horror, las más bajas como una oportunidad perdida."
+    },
     {
      "fecha": "2026-09-23",
      "titulo": "CUATRO MINUTOS DE GAMEPLAY, Y HAY DEMO EN PC",
@@ -223,12 +98,22 @@
    "desarrollador": "ROGUE FACTOR",
    "descripcion": "Un juego de acción y aventura en un país aislado, arrasado por una guerra civil y por una calamidad misteriosa. El protagonista busca los secretos de su propio pasado, y el juego parte de una idea: el peor demonio que hay en esa guerra es la gente.",
    "trailer": "https://youtube.com/embed/ha5N-iV1DZY",
-   "metacritic": null,
+   "metacritic": 77,
+   "critica": "Las reseñas son de la versión de PS5 de 2025. Lo que separa a la crítica es su apuesta central: no hay mapa ni marcadores de misión, y hay que orientarse mirando el mundo. Para muchos es lo mejor del juego, junto con una guerra civil de aire noventoso mezclada con horror sobrenatural, un mundo muy trabajado, puzles a lo Resident Evil y mazmorras a lo Zelda. Para otros esa falta de guía vuelve tediosa la exploración, y le reclaman un combate simple y repetitivo, poca variedad de enemigos, ritmo lento y una historia que no llega a ningún lado.",
+   "metacriticUsuarios": 7.7,
+   "metacriticVotos": 533,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1620730/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/hell-is-us"
+   "url": "https://lanzamientos.lat/juegos/hell-is-us",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "LLEGA A SWITCH 2",
+     "texto": "La versión de Switch 2 salió hoy. El 77 de Metacritic es el de la versión de PS5 de 2025; esta edición todavía no tiene notas propias."
+    }
+   ]
   },
   {
    "id": "earth-defense-force-5",
@@ -267,12 +152,22 @@
    "desarrollador": "UBISOFT IVORY TOWER",
    "descripcion": "Un juego de manejo en mundo abierto en la isla de O'ahu, en Hawái: carreras por las calles de Honolulu, por laderas cubiertas de ceniza volcánica y en circuitos de derrape. Está armado en campañas temáticas dedicadas a distintas culturas del auto, como los muscle cars norteamericanos, las carreras callejeras al estilo japonés o los clásicos, y hay cientos de modelos para coleccionar y personalizar.",
    "trailer": "https://youtube.com/embed/2S-A3z866YI",
-   "metacritic": null,
+   "metacritic": 76,
+   "critica": "Las reseñas son de la versión de PS5 de 2023. Se lo reconoce como el mejor The Crew: una Oahu linda y variada, listas de eventos temáticas que guían sin dejar perdido a nadie y una enorme cantidad de autos y disciplinas, del barro a la Fórmula 1. El reparo constante es que se parece demasiado a Forza Horizon sin igualarlo, y varias notas suman un manejo que no convence, una inteligencia artificial rara, poca interacción con otros jugadores y la obligación de estar siempre conectado.",
+   "metacriticUsuarios": 7.1,
+   "metacriticVotos": 755,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/the-crew-motorfest"
+   "url": "https://lanzamientos.lat/juegos/the-crew-motorfest",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "LLEGA A SWITCH 2",
+     "texto": "La versión de Switch 2 salió hoy. El 76 de Metacritic es el de la versión de PS5 de 2023; esta edición todavía no tiene notas propias."
+    }
+   ]
   },
   {
    "id": "once-upon-a-katamari",
@@ -290,12 +185,22 @@
    "desarrollador": "RENGAME",
    "descripcion": "Un Katamari que viaja en el tiempo. El Rey aplastó sin querer la Tierra, la Luna y varios planetas jugando con un pergamino, y hay que rodar la bola por el Jurásico, la edad de hielo, el Japón histórico y otras épocas, pegándole todo lo que aparezca, para rearmar las estrellas del cielo. Trae herramientas nuevas, como un imán que atrae los objetos cercanos, y se puede jugar con el Príncipe o con cualquiera de sus 68 primos, que se personalizan.",
    "trailer": "https://youtube.com/embed/JQpojKTAvPY",
-   "metacritic": null,
+   "metacritic": 79,
+   "critica": "Las reseñas son de la versión de PS5 de octubre de 2025. La mayoría lo celebra como una vuelta segura de la saga después de los remasters: rodar la bola por distintas épocas, del antiguo Egipto a la Edad de Piedra, sigue siendo igual de divertido, con el humor y la música de siempre y algunas ideas nuevas, como la personalización y los modos online. Los reparos son que innova poco, que la cámara y los controles molestan, que la progresión bloqueada cansa y que algunos niveles se repiten.",
+   "metacriticUsuarios": 7.8,
+   "metacriticVotos": 25,
    "imagen": "https://cdn2.steamgriddb.com/grid/d4ab910e81e69b831c517056f3731009.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/once-upon-a-katamari"
+   "url": "https://lanzamientos.lat/juegos/once-upon-a-katamari",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "LLEGA A SWITCH 2",
+     "texto": "La versión de Switch 2 salió hoy. El 79 de Metacritic es el de la versión de PS5 de 2025; esta edición todavía no tiene notas propias."
+    }
+   ]
   },
   {
    "id": "mamon-king",
@@ -375,12 +280,21 @@
    "desarrollador": "WYCH ELM",
    "descripcion": "Un survival horror con exploración de metroidvania, en un pueblo medio abandonado de Estados Unidos. El detective privado Red Walker llega a Silver Pines para encontrar a Eddie Velvet, un músico desaparecido, y el caso lo arrastra a una pesadilla. Hay que pelear o huir, juntar recursos escasos y resolver enigmas, y con mejores herramientas y armas se van abriendo puertas y caminos hacia nuevas zonas del pueblo.",
    "trailer": "https://youtube.com/embed/y_PVwrQivKE",
-   "metacritic": null,
+   "metacritic": 84,
+   "critica": "Las reseñas son de la versión de PC. Lo reciben como una vuelta lograda al survival horror de los noventa, con Silent Hill y Resident Evil a la vista, pero en dos dimensiones y con mucho de metroidvania. Se elogian la atmósfera, una historia que va de Twin Peaks a Expediente X, los puzles y un pueblo que premia recordar caminos y leer documentos, con recursos escasos e inventario limitado. Los reparos van al combate, torpe y demasiado frecuente, a la puntería sin mira y a que la mezcla de terror y metroidvania no convence a todos.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/silver-pines"
+   "url": "https://lanzamientos.lat/juegos/silver-pines",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SALIÓ CON 84 EN METACRITIC",
+     "texto": "Salió hoy en PS5, Xbox, Switch 2 y Switch. Las quince reseñas son de PC, y casi todas lo comparan con los primeros Silent Hill y Resident Evil."
+    }
+   ]
   },
   {
    "id": "forever-ago",
@@ -397,12 +311,21 @@
    "desarrollador": "THIRD SHIFT",
    "descripcion": "Después de un golpe del destino, Alfred sale a la ruta rumbo al norte en busca de redención. Es un viaje para un jugador por bosques y desiertos, con personajes que tienen sus propias historias y que se van conociendo en el camino, todos con voces de actores. Con la vieja cámara instantánea de Alfred se sacan fotos para guardar recuerdos, y la historia habla de sueños rotos, pérdida y arrepentimiento, pero también de amistad.",
    "trailer": "https://youtube.com/embed/k2Mw71MmiUA",
-   "metacritic": null,
+   "metacritic": 73,
+   "critica": "La prensa coincide en lo emocional: es un viaje en ruta sobre la vejez, el duelo y el amor, bien escrito, con buenas actuaciones de voz y una banda sonora que acompaña. Donde se separa es en lo que queda cuando se le saca esa capa. Varias reseñas marcan que casi no hay jugabilidad ni decisiones, que el ritmo se apura hacia el final y que hay problemas técnicos, y las notas más bajas dicen que, sin la melancolía, los personajes son convencionales. Es el primer juego de Third Shift.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215940/library_600x900.jpg",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/forever-ago"
+   "url": "https://lanzamientos.lat/juegos/forever-ago",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SALIÓ CON 73 Y ENTRÓ A GAME PASS",
+     "texto": "Salió hoy en PS5 y Xbox, y en Xbox entró a Game Pass el mismo día. Las notas van de 90 a 50: todas elogian la historia y las voces, y las más bajas le reclaman falta de jugabilidad."
+    }
+   ]
   },
   {
    "id": "order-of-the-sinking-star",
@@ -421,12 +344,21 @@
    "desarrollador": "THEKLA",
    "descripcion": "Lo nuevo de Jonathan Blow, el de Braid y The Witness: una aventura de puzzles enorme, con más de mil hechos a mano. Se recorren cuatro mundos, cada uno con su propia mecánica, sus personajes y su historia, y a medida que se avanza se fusionan entre sí y sus reglas se combinan para formar puzzles nuevos. No hay un orden obligatorio: se puede dejar un desafío y volver más tarde, cuando se entienda algo más del mundo.",
    "trailer": "https://youtube.com/embed/OIxuGF6CwnU",
-   "metacritic": null,
+   "metacritic": 83,
+   "critica": "Las reseñas son de la versión de PC. Para buena parte de la prensa es de los mejores juegos de puzles en años, en la línea de los Sokoban, The Witness y Braid: cuatro mundos con mecánicas, estilo e historia propios que se van cruzando, un mapa interconectado y más de mil puzles, con contenido después de los créditos. Los reparos se repiten: no da pistas, la dificultad sube mucho, algunos puzles frustran, la historia no termina de funcionar y le habría venido bien un recorte. Una reseña lo baja a 40 por inflado.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc954.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-18",
-   "url": "https://lanzamientos.lat/juegos/order-of-the-sinking-star"
+   "url": "https://lanzamientos.lat/juegos/order-of-the-sinking-star",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SALIÓ CON 83 EN METACRITIC",
+     "texto": "Salió hoy en PS5, Xbox y Switch 2. Las reseñas, de PC, van de dos 100 a un 40, y varias lo ponen entre los mejores juegos de puzles del año."
+    }
+   ]
   },
   {
    "id": "heroic-songs-the-remix",
@@ -494,13 +426,20 @@
    "desarrollador": "VEEWO GAMES",
    "descripcion": "La secuela del roguelike de acción en dos dimensiones. Se baja por el abismo disparando y juntando objetos que se combinan entre sí, y de esas combinaciones sale cada partida. Suma cooperativo en línea para cuatro, con la opción de separarse por salas distintas, y más estilos de combate que el primero.",
    "trailer": "https://youtube.com/embed/ZNjygOzJqMQ",
-   "metacritic": null,
+   "metacritic": 81,
+   "critica": "Pocas reseñas por ahora, cinco, todas de PS5. Coinciden en que es más Neon Abyss: combate frenético, objetos al azar que se combinan entre sí y muchos sistemas de progresión, con cambios en las mejoras permanentes y una forma nueva de jugar. Los reparos son que no innova en la estructura, que las mejoras de cada partida son más graduales que para armar builds de verdad y que, una vez encontrada la combinación justa, la dificultad se cae.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235200/library_600x900.jpg",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-09-20",
    "url": "https://lanzamientos.lat/juegos/neon-abyss-2",
    "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "DEJA EL ACCESO ANTICIPADO CON 81",
+     "texto": "Salió hoy la versión terminada, junto con la de PS5, Xbox y Switch, y en Xbox entró a Game Pass ese mismo día. Las cinco reseñas publicadas, todas de PS5, van de 75 a 85."
+    },
     {
      "fecha": "2026-09-20",
      "titulo": "SALE EL 8 DE OCTUBRE",
@@ -529,6 +468,8 @@
    "descripcion": "Un roguelike de construcción de mazos donde se juega del lado de la casa embrujada. De día se diseña el laberinto de la mansión y de noche se atrae a los visitantes y se usan cartas para convocar espíritus, mover pasillos y asustarlos hasta quebrarlos, mientras se protege el corazón de la casa. Con lo que se les saca, la casa crece y atrae enemigos más peligrosos.",
    "trailer": "https://youtube.com/embed/ZBtX20ivIZQ",
    "metacritic": 73,
+   "metacriticUsuarios": 5.7,
+   "metacriticVotos": 6,
    "critica": "El puntaje es el de la versión de PC, de 2025. Las reseñas celebran la idea de ser la casa embrujada y la parte de construir la mansión, que para varias es lo más divertido, además de cartas creativas. Los reparos: la historia es casi inexistente, la tensión no escala, se depende mucho del azar de las cartas y a la larga se vuelve repetitivo.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3179730/library_600x900.jpg",
    "gamepass": false,
@@ -558,7 +499,10 @@
    "desarrollador": "CICADA GAMES",
    "descripcion": "Una aventura de puzzles de mundo abierto en medio del océano. El protagonista despierta como náufrago en una isla sin saber cómo llegó, y desde ahí se recorren islas antiguas resolviendo puzzles de empujar bloques al estilo sokoban. No hay un orden fijo: si un puzzle se traba, se puede ir a otra zona y volver más tarde, y los poderes y compañeros que se consiguen en el camino cambian la forma de encarar los rompecabezas.",
    "trailer": "https://youtube.com/embed/euaG9rsGrfA",
-   "metacritic": null,
+   "metacritic": 85,
+   "critica": "Las reseñas son de la versión de PC de 2024, y son pocas. Lo describen como un juego de empujar bloques al estilo Sokoban llevado a un mundo abierto de islas, con una estética de 8 bits que recuerda a los Zelda clásicos, puzles ingeniosos que nunca se ponen pedantes y mecánicas nuevas que aparecen todo el tiempo. El único reparo que se repite es que a veces no queda claro qué hace falta para avanzar.",
+   "metacriticUsuarios": 6.7,
+   "metacriticVotos": 15,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1233070/library_600x900.jpg",
    "relanzamiento": "En PC desde 2024",
    "duracion": "≈ 15 h (historia) · 27 h (completo)",
@@ -567,6 +511,11 @@
    "alta": "2026-09-30",
    "url": "https://lanzamientos.lat/juegos/isles-of-sea-and-sky",
    "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "LLEGA A SWITCH CON 85",
+     "texto": "Salió hoy en Switch. El 85 es el de la versión de PC de 2024, sobre seis reseñas."
+    },
     {
      "fecha": "2026-09-30",
      "titulo": "LLEGA A SWITCH EL 8 DE OCTUBRE",
@@ -731,6 +680,8 @@
    "fecha": "2026-10-08",
    "relanzamiento": "Original de recreativa de SNK, 1988",
    "plataformas": [
+    "PS5",
+    "PS4",
     "XBOX"
    ],
    "genero": [
@@ -749,9 +700,43 @@
    "url": "https://lanzamientos.lat/juegos/arcade-archives-2-fighting-golf",
    "noticias": [
     {
+     "fecha": "2026-10-08",
+     "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
+     "texto": "En PS5 y Xbox salió como Arcade Archives 2, y en PS4 dentro de la serie original. La versión de Switch todavía no aparece en la eShop."
+    },
+    {
      "fecha": "2026-10-07",
      "titulo": "SALE EL 8 DE OCTUBRE",
      "texto": "HAMSTER lo anunció para PS5 y Xbox como Arcade Archives 2, y para otras consolas en la serie original. Por ahora sólo la tienda de Xbox lo tiene listado."
+    }
+   ]
+  },
+  {
+   "id": "console-archives-ripple-island",
+   "titulo": "CONSOLE ARCHIVES: RIPPLE ISLAND",
+   "fecha": "2026-10-08",
+   "relanzamiento": "La versión hogareña de SUNSOFT es de 1988 — esta es la reedición para consolas actuales",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "RETRO"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "La aventura de SUNSOFT de 1988 para una consola hogareña de 8 bits, en la serie Console Archives. Kyle tiene que rescatar a la princesa Nasareru, secuestrada por un monstruo que se hace llamar Emperador Groaker, y devolverle la paz a Ripple Island, y se avanza eligiendo entre nueve comandos. El juego está sólo en japonés; el menú de opciones y el manual sí vienen en español. Se puede guardar en cualquier momento y cambiar la disposición de los botones.",
+   "trailer": "https://youtube.com/embed/_9qTs8OByOo",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202609/2502/333686b228b70811f9608743e3bbdbd6eaeed083c6f16618.jpg?w=600&thumb=false",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-08",
+   "url": "https://lanzamientos.lat/juegos/console-archives-ripple-island",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SALIÓ HOY EN PS5",
+     "texto": "HAMSTER lo puso a la venta el 8 de octubre en PS5. También lo anunció para Switch 2, que todavía no tiene ficha en la eShop."
     }
    ]
   },
@@ -2211,7 +2196,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/anomalith"
+   "url": "https://lanzamientos.lat/juegos/anomalith",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "HAY DEMO EN PS5 Y SWITCH 2",
+     "texto": "Ya se puede bajar una demo antes de la salida del 29 de octubre."
+    }
+   ]
   },
   {
    "id": "hello-kitty-party-land",

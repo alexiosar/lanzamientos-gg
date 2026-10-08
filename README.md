@@ -1946,7 +1946,7 @@ y abrir http://localhost:8080
 
 ### Ideas del usuario del 27/08/2026 (sin empezar)
 
-- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 07/10/2026).**
+- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 08/10/2026).**
   Los trajo Gematsu y **ninguno se cargó**, porque ninguna tienda de consola los lista. No es
   que estén mal: es que todavía no aparecieron. Se revisan de nuevo en cada semanal y entran
   en cuanto la tienda los tome.
@@ -2003,8 +2003,9 @@ y abrir http://localhost:8080
   | BrokenLore: DON'T LIE (Xbox) | Salió el 10/09 en PS5 | La tienda de Xbox no lo tiene. Se sacó Xbox de la ficha el 05/10 |
   | Warhammer Survivors (Switch 2) | 10 de noviembre (blog de PlayStation y Steam, 6/10) | **Ya está cargado en PS5, Xbox y Switch 2.** Steam confirma el día; la PS Store y Xbox lo listan sin día y la eShop no lo tiene |
   | Angelian Trigger | PS5 en 2027 (Gematsu, 6/10) | **No se cargó**: la PS Store no lo lista. En PC sale el 10/12 |
-  | Arcade Archives 2: Fighting Golf (PS5, más PS4 y Switch como Arcade Archives) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en Xbox**, la única tienda que lo lista. HAMSTER suele aparecer en la PS Store y la eShop el mismo día: sumar plataformas en la diaria del 8 |
-  | Console Archives Ripple Island (PS5 y Switch 2) | 8 de octubre (Gematsu, 7/10) | **No se cargó**: ni la PS Store ni la eShop lo listan. Revisar el 8, igual que Fighting Golf |
+  | Arcade Archives 2: Fighting Golf (Switch) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en PS5, PS4 y Xbox**, que lo listan desde el 8. La eShop no lo tiene |
+  | Console Archives Ripple Island (Switch 2) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en PS5**, que lo lista desde el 8. La eShop no lo tiene |
+  | Spyder: Agent 8 (Switch 2) | 11 de febrero de 2027 (Gematsu, 8/10) | **Ya está cargado en PS5 y Xbox**, que confirman el día. La eShop no lo tiene |
   | My Friendly Neighborhood (Switch 2) | 22 de octubre (Gematsu, 6/10) | **No se cargó**: la eShop y Nintendo US no lo listan. Salió en 2025 en las otras consolas, así que entra con `relanzamiento` |
   | At Fate's End | 2027 (Gematsu, 6/10; antes 2026) | **Ya está cargado como estimado 2027 en PS5 y Xbox.** La PS Store dice "2027"; Xbox lo lista sin día y sin plataforma, pero se presentó en el Xbox Games Showcase 2025 |
   | Eternal Palace Sakura (Switch) | 5 de noviembre (Gematsu, 30/09) | Steam tiene el 4 de noviembre para PC; la eShop y Nintendo US no lo listan |

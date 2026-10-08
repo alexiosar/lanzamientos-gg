@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -139,6 +140,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">79 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 25 votos">7.8 <span class="badge-quien">USUARIOS</span></span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('once-upon-a-katamari')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -166,6 +172,20 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de PS5 de octubre de 2025. La mayoría lo celebra como una vuelta segura de la saga después de los remasters: rodar la bola por distintas épocas, del antiguo Egipto a la Edad de Piedra, sigue siendo igual de divertido, con el humor y la música de siempre y algunas ideas nuevas, como la personalización y los modos online. Los reparos son que innova poco, que la cámara y los controles molestan, que la progresión bloqueada cansa y que algunos niveles se repiten.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-08</span>
+            <span class="noticia-titulo">▸ LLEGA A SWITCH 2</span>
+          </div>
+          <p class="noticia-texto">La versión de Switch 2 salió hoy. El 79 de Metacritic es el de la versión de PS5 de 2025; esta edición todavía no tiene notas propias.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Un Katamari que viaja en el tiempo. El Rey aplastó sin querer la Tierra, la Luna y varios planetas jugando con un pergamino, y hay que rodar la bola por el Jurásico, la edad de hielo, el Japón histórico y otras épocas, pegándole todo lo que aparezca, para rearmar las estrellas del cielo. Trae herramientas nuevas, como un imán que atrae los objetos cercanos, y se puede jugar con el Príncipe o con cualquiera de sus 68 primos, que se personalizan.</p>

@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -139,6 +140,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">77 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 533 votos">7.7 <span class="badge-quien">USUARIOS</span></span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('hell-is-us')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -166,6 +172,20 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de PS5 de 2025. Lo que separa a la crítica es su apuesta central: no hay mapa ni marcadores de misión, y hay que orientarse mirando el mundo. Para muchos es lo mejor del juego, junto con una guerra civil de aire noventoso mezclada con horror sobrenatural, un mundo muy trabajado, puzles a lo Resident Evil y mazmorras a lo Zelda. Para otros esa falta de guía vuelve tediosa la exploración, y le reclaman un combate simple y repetitivo, poca variedad de enemigos, ritmo lento y una historia que no llega a ningún lado.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-08</span>
+            <span class="noticia-titulo">▸ LLEGA A SWITCH 2</span>
+          </div>
+          <p class="noticia-texto">La versión de Switch 2 salió hoy. El 77 de Metacritic es el de la versión de PS5 de 2025; esta edición todavía no tiene notas propias.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Un juego de acción y aventura en un país aislado, arrasado por una guerra civil y por una calamidad misteriosa. El protagonista busca los secretos de su propio pasado, y el juego parte de una idea: el peor demonio que hay en esa guerra es la gente.</p>
