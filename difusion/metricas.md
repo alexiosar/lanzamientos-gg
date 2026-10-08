@@ -121,6 +121,7 @@ Ninguno de los dos hace que Google indexe más páginas de golpe.
 | 05/10/2026 | **`noindex, follow` y fuera del sitemap para 134 fichas flacas y las 22 páginas por consola y mes.** El sitemap pasa de 549 a 393 URLs. Las fichas vuelven solas al índice cuando suman noticia, crítica, gameplay o una descripción más larga. Si en Search Console bajan las "indexadas" en las semanas siguientes, es esto y es a propósito: no es un problema nuevo |
 | 06/10/2026 | **84 fichas vuelven al índice**: se les escribió una descripción propia desde la ficha oficial (de 45 a 85 palabras) y dejaron de ser flacas. Primero las de juegos de octubre y noviembre, después las de junio a septiembre. De 134 flacas quedan 50, casi todas de 2027 o sin información en ninguna tienda. El sitemap pasa de 393 a 479 URLs. Si en octubre suben las "indexadas" o las impresiones de fichas chicas, es esto |
 | 07/10/2026 | **15 fichas flacas más vuelven al índice** con descripción propia, sacada de Steam, la PS Store y Xbox. Quedan 35, casi todas de 2027 o juegos chicos de la eShop sin ficha en otra tienda. El sitemap pasa de 479 a 497 URLs, contando también `/game-pass-octubre-2026` y dos juegos nuevos del día. De paso se corrigieron tres estimados que Steam ya pasó a 2027: Mariachi Legends, Bestiario y Sublustrum |
+| 08/10/2026 | **Canónica en la portada y arreglo del CLS de la portada.** Cloudflare marcaba 19% de visitas a `/` con CLS malo (el pie y el `main` saltaban cuando terminaba de bajar `juegos.js`). Ahora `#calendario` reserva el alto de la pantalla mientras está vacío. Si en Core Web Vitals el rojo del CLS baja en las semanas siguientes, es esto |
 
 Además, a lo largo de septiembre la rutina diaria sumó críticas y noticias a los estrenos del
 día. Al 31/08 había 131 fichas con noticias y 103 con resumen de crítica; al 16/09 son 174 y
@@ -196,7 +197,7 @@ días son de antes de la caída y se llevan casi todo (los 8 clics y ~1.000 impr
 - **3 meses:** 146 clics y 19.100 impresiones, CTR 0,8%, posición 15,9.
 - **Cloudflare, 30 días:** 530 visitas y 990 páginas vistas, casi igual que septiembre (500 y
   1.090): el tráfico que no viene de Google se sostiene. Core Web Vitals: LCP e INP 100% bien,
-  pero **CLS tiene una parte en rojo**, que vale la pena mirar (ver pendientes).
+  pero **CLS tiene una parte en rojo**: era toda de la portada y se arregló el mismo día (ver la tabla de cambios).
 
 Nada de esto cambia el plan: la lectura de verdad es el 15/10, una semana después de que
 termine el despliegue del update, y no se espera recuperación antes de semanas o meses.

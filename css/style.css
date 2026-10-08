@@ -181,6 +181,14 @@ a:hover { color: var(--blanco); }
   min-width: 0;
 }
 
+/* Reserva el alto del calendario mientras juegos.js (casi 700 KB) termina de bajar. Sin
+   esto, en un celular lento la portada se pinta con el calendario vacío y el pie a la
+   vista, y cuando llegan los datos todo salta: el 08/10/2026 Cloudflare marcaba un 19% de
+   visitas a la portada con CLS malo, con el pie y el main como elementos que se movían.
+   Con el pie fuera de pantalla, ese salto ya no cuenta. :empty hace que sólo aplique antes
+   del primer render, así que una búsqueda sin resultados no deja un hueco. */
+#calendario:empty { min-height: 100vh; }
+
 .sidebar {
   width: 270px;
   flex-shrink: 0;
