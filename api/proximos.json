@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-08T15:42:56+00:00",
+ "generado": "2026-10-08T18:30:33+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-08",
@@ -280,6 +280,11 @@
    "desarrollador": "WYCH ELM",
    "descripcion": "Un survival horror con exploración de metroidvania, en un pueblo medio abandonado de Estados Unidos. El detective privado Red Walker llega a Silver Pines para encontrar a Eddie Velvet, un músico desaparecido, y el caso lo arrastra a una pesadilla. Hay que pelear o huir, juntar recursos escasos y resolver enigmas, y con mejores herramientas y armas se van abriendo puertas y caminos hacia nuevas zonas del pueblo.",
    "trailer": "https://youtube.com/embed/y_PVwrQivKE",
+   "gameplay": {
+    "video": "https://youtube.com/embed/BAt1Y-nmnZU",
+    "canal": "L0k0hGaming",
+    "canalUrl": "https://www.youtube.com/@l0k0hgaming"
+   },
    "metacritic": 84,
    "critica": "Las reseñas son de la versión de PC. Lo reciben como una vuelta lograda al survival horror de los noventa, con Silent Hill y Resident Evil a la vista, pero en dos dimensiones y con mucho de metroidvania. Se elogian la atmósfera, una historia que va de Twin Peaks a Expediente X, los puzles y un pueblo que premia recordar caminos y leer documentos, con recursos escasos e inventario limitado. Los reparos van al combate, torpe y demasiado frecuente, a la puntería sin mira y a que la mezcla de terror y metroidvania no convence a todos.",
    "metacriticUsuarios": null,

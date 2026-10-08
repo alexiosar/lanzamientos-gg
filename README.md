@@ -1045,6 +1045,16 @@ de exclamación, al lado de fichas escritas en rioplatense. El 14/09 se reescrib
 Para encontrar las que se escapen, alcanza con buscar en `datos/juegos.js` las formas de tú
 al principio de una oración (Descubre, Explora, Conviértete, Ponte) y los "¡".
 
+**Eso no alcanza para las copias en tercera persona** (corregido el 08/10/2026). Ese día la
+búsqueda de tú y "¡" dio el catálogo casi limpio, pero comparar cada descripción contra la
+de Steam encontró **16 copiadas**, varias textuales: Onimusha, Wo Long, Metaphor, The Sinking
+City 2, No Rest for the Wicked, Kusan, Elden Ring y Lies of P en Switch 2, y Danger Mouse,
+que estaba en inglés. Se reescribieron todas. El método: el appid sale de la URL de la
+carátula (`/apps/<appid>/`), se pide `appdetails` con `l=spanish`, y se mide qué parte de los
+grupos de seis palabras seguidas de nuestra descripción aparece en el texto de Steam. Desde
+0,4 es copia; entre 0,15 y 0,3 suele ser una frase suelta y hay que mirarla. Steam corta si
+se le pide rápido: con una pausa de 1,6 segundos los 214 juegos pasan sin fallas.
+
 Si un mes se carga sin `intro` sale una línea genérica de respaldo, para que no quede un
 hueco. Es respaldo, no la opción normal: no puede nombrar un juego.
 
@@ -2009,7 +2019,7 @@ y abrir http://localhost:8080
   | Croc 2: Kingdom of the Gobbos | 29 de octubre (Gematsu y Steam, 1/10) | **Ya está cargado en PS5, PS4 y Xbox.** Steam confirma el día; la PS Store dice "por determinar" y Xbox lo lista sin día. La eShop no lo tiene |
   | Sturmjäger | 14 de enero de 2027 (releases.com) | **Ya está cargado en PS5, Xbox y Switch**: la eShop lo sumó con el mismo día el 08/10. Se puede sacar de la tabla |
   | Nomad Drive | 20 de octubre en PS5 (releases.com, 08/10) | La PS Store lo tiene "por determinar" y Xbox no lo lista |
-  | Fountains (Switch 2) | 24 de septiembre (eShop, 08/10) | La eShop tiene una "Nintendo Switch 2 Edition" con fecha propia, una semana después de la de Switch. Por la regla de una fecha por entrada iría aparte, pero la ficha de Fountains es flaca: **decidir si vale la pena** |
+  | Fountains (Switch 2) | 24 de septiembre (eShop, 08/10) | **Cargado el 08/10 como entrada aparte** (`fountains-switch-2`): la eShop la vende como producto propio, una semana después de la de Switch. Se puede sacar de la tabla |
   | Psikyo Memories | 18 de febrero de 2027 en PS5 y Switch 2 (Gematsu, 5/10) | **No se cargó**: ni la PS Store ni la eShop ni Nintendo US lo listan todavía |
   | DuneCrawl (Switch 2 y Switch) | Más adelante en 2026 (Gematsu, 5/10) | **Ya está cargado en PS5 y Xbox**, que salen el 19/10. Las de Nintendo no tienen día ni ficha |
   | Steins;Gate Re:Boot (Xbox, Switch 2 y Switch) | 29 de octubre (Spike Chunsoft; RPG Site, Xbox retrasado desde el 20/08) | **Ya está cargado en las cinco.** La PS Store tiene el día pero no la plataforma; Xbox y las tiendas de Nintendo no lo listan todavía |
