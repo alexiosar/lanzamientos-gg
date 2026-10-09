@@ -1069,6 +1069,8 @@ const JUEGOS = [
         texto: "La edición Galactic junta Everspace 2 con todo su contenido descargable, y ese paquete es la mitad de lo que la prensa destaca. La otra mitad es el combate espacial, que se elogia parejo. Los reparos van al ritmo: las misiones de puzles no están a la altura de las de acción."
       }
     ],
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19"
   },
   {
@@ -1084,6 +1086,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/7WjiFT5P1jk",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1320140/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19"
   },
   {
@@ -1196,6 +1200,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/BHWbusQRLOE",
     metacritic: null,
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202608/0708/ad638e47b3c490cc1f4bdcf51dd9a99f3f18d7fb573b29dc.jpg?w=600&thumb=false",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-25"
   },
   {
@@ -1212,6 +1218,8 @@ const JUEGOS = [
     metacriticVotos: 12,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobzqw.jpg",
     critica: "Un 75 que sale de reseñas que dicen casi lo mismo: como carta de amor a los shooters de los dos mil está logrado, y el bucle de agarrar un arma, vaciarla y tirarla es adictivo cuando funciona. Es más lento que el SPRAWL anterior —cambia el parkour por correr sin límite, bala lenta y guantes de gravedad— y esa decisión divide. Los reparos se repiten: enemigos que cortan el ritmo del combate, decisiones de diseño raras que van apagando el impulso, y una historia y un diseño de niveles que quedan atrás del resto.",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19",
     noticias: [
       {
@@ -1232,6 +1240,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/QUBjMmhZkhU",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510440/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-24"
   },
   {
@@ -1255,6 +1265,8 @@ const JUEGOS = [
         texto: "Las primeras reseñas lo dejan en 66. Le reconocen la relectura de la Divina Comedia y unos puzles bien pensados, pero coinciden en que con unas tres horas de duración no alcanza a desarrollar lo que plantea."
       }
     ],
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19"
   },
   {
@@ -1277,6 +1289,8 @@ const JUEGOS = [
         texto: "Frosty Pop y Strange Scaffold anunciaron la versión de Switch 2, mes y medio después del estreno en Xbox y PC."
       }
     ],
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-20"
   },
   {
@@ -1338,6 +1352,8 @@ const JUEGOS = [
         texto: "Dejó el acceso anticipado de PC y llegó a consolas con 31 estilos de armas, 15 piezas de armadura y 6 arenas. Se juega de a cuatro en la misma consola, con bots si faltan jugadores, u online con juego cruzado entre PC, PlayStation y Xbox, y tiene una campaña contra rivales en varias dificultades. Lo hizo una sola persona, LittleLegatus."
       }
     ],
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-24"
   },
   {
@@ -1367,6 +1383,7 @@ const JUEGOS = [
       }
     ],
     gamepass: true,
+    psplus: false,
     alta: "2026-08-24"
   },
   {
@@ -1392,6 +1409,8 @@ const JUEGOS = [
         texto: "El mismo día del estreno en Xbox, Resolution Games lanzó en PC Campaign III: Twilight's End, una campaña paga que cierra el primer arco de la historia. Va desde Mithral Hall a las Marcas de Plata persiguiendo un caos que amenaza a la realidad misma."
       }
     ],
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-24"
   },
   {
@@ -1410,6 +1429,8 @@ const JUEGOS = [
     metacriticVotos: 8,
     critica: "Recepción correcta, sin entusiasmo. Nightdive hizo un buen trabajo de remasterización, y las reseñas rescatan lo que el original tenía de ambicioso: niveles amplios con caminos alternativos, terminales para interactuar y decisiones que cambian las misiones siguientes. Pero el juego de 1998 nunca fue de los grandes: los tiroteos y el diseño de niveles muestran la edad, y la remasterización no esconde esos defectos.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632950/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19"
   },
   {
@@ -1432,6 +1453,8 @@ const JUEGOS = [
         texto: "Digital Pajamas lo retrasó el 12 de agosto, siete semanas antes del 1 de octubre que tenía anunciado. La nueva ventana es el invierno de 2026, sin día: la PS Store dice «por determinar» y Xbox no muestra fecha."
       }
     ],
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19"
   },
   {
@@ -1455,6 +1478,8 @@ const JUEGOS = [
         texto: "Con las primeras reseñas, todas de PC, la prensa lo destaca como un immersive sim a la vieja usanza con mucha libertad, y le marca que se apoya demasiado en sus referencias."
       }
     ],
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19"
   },
   {
@@ -1483,6 +1508,8 @@ const JUEGOS = [
         texto: "Llega hoy a PS5 y Xbox con un 78 sobre diez reseñas. La prensa destaca la atmósfera y el mapa interconectado, y le marca bugs y un diseño que a veces confunde."
       }
     ],
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19"
   },
   {
@@ -2063,6 +2090,8 @@ const JUEGOS = [
         texto: "Son We Forgot a Card, para armar tarjetas de saludo absurdas; MegaPals, de adivinar cómo piensan los demás; Debate and Switch, de debates; Idol Factions, trivia por equipos a los gritos, y Hyperface, de deformar selfies para responder consignas. Todos son para 2 a 8 jugadores."
       }
     ],
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-24"
   },
   {
@@ -3102,6 +3131,8 @@ const JUEGOS = [
     metacriticVotos: 68,
     critica: "Casi todas las reseñas lo describen igual: un metroidvania que imita a los juegos de Game Boy Advance y que, a diferencia de la mayoría de los que lo intentan, no se queda en la nostalgia. Los elogios van al yoyó, que sirve de arma y de herramienta a la vez, al diseño de niveles y a la música. Los reparos son dos y aparecen en las notas más bajas: la dificultad da saltos bruscos y el control cuesta al principio. Del bucle de juego se dice que se siente anticuado, aunque quien lo dice igual lo recomienda.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2870350/library_600x900.jpg",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19",
     noticias: [
       {
@@ -3126,6 +3157,8 @@ const JUEGOS = [
     metacriticVotos: 11,
     critica: "Las reseñas coinciden en para quién es y en qué le falta. A favor: los autos y circuitos con licencia miniaturizados quedan simpáticos, se entiende sin saber nada de carreras y el modo carrera sorprende por lo profundo. En contra, con bastante acuerdo: la conducción está tan simplificada que se pierde el peso, las carreras son cortas, el multijugador no aporta y la inteligencia artificial de los rivales es agresiva de forma injusta. La frase que más se repite es que con iRacing en el nombre uno esperaba algo más.",
     imagen: "https://cdn2.steamgriddb.com/grid/e83c026baf22d160be272edff5ac9b82.png",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19",
     noticias: [
       {
@@ -4091,6 +4124,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/d16zccHDscM",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1s.jpg",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-25"
   },
   {
@@ -4105,6 +4140,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/A0ZONw-vPmE",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1w.jpg",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-25"
   },
   {
@@ -4163,6 +4200,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/q7myAcZfmEQ",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6tu.jpg",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-24"
   },
   {
@@ -4176,6 +4215,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/K9njOxhigCU",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355110/a46c5dfbdf4fcb0b8f2a5e6c0bcca051f8fe8a3f/header.jpg",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-25"
   },
   {
@@ -4223,6 +4264,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/4xtmm2H0W_0",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-25",
     noticias: [
       {
@@ -4245,6 +4288,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/7ncv_eS96lw",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/974a65ab5adb4212bc9d98207200ea18.png",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-25"
   },
   {
@@ -5924,6 +5969,8 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Kgp9iOHxrFw",
     metacritic: null,
     imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202605/2922/29e3ecd9dcd397054adce54bf9e89f1bffedfce0283ac772.jpg?w=600&thumb=false",
+    gamepass: false,
+    psplus: false,
     alta: "2026-08-19"
   },
   {
