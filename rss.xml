@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 09 Oct 2026 14:05:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 14:33:20 +0000</lastBuildDate>
     <item>
       <title>ACE COMBAT 8: WINGS OF THEVE: SUPERÓ EL MILLÓN DE COPIAS</title>
       <link>https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve</link>
@@ -55,6 +55,13 @@
       <guid isPermaLink="false">once-upon-a-katamari-2026-10-08</guid>
       <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
       <description>La versión de Switch 2 salió hoy. El 79 de Metacritic es el de la versión de PS5 de 2025; esta edición todavía no tiene notas propias. — ONCE UPON A KATAMARI para SWITCH 2.</description>
+    </item>
+    <item>
+      <title>ENSHROUDED: LA 1.0 SUMA MAGIA NUEVA Y MECANISMOS PARA CONSTRUIR</title>
+      <link>https://lanzamientos.lat/juegos/enshrouded</link>
+      <guid isPermaLink="false">enshrouded-2026-10-08</guid>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+      <description>La versión 1.0, la que llega a PS5, trae Sparkworks: palancas, placas de presión, puertas y trampas que se conectan entre sí para armar mecanismos en las construcciones. También suma nueve hechizos para los magos, entre ellos invocaciones de tótems y de esqueletos. — ENSHROUDED para PS5.</description>
     </item>
     <item>
       <title>ANOMALITH: HAY DEMO EN PS5 Y SWITCH 2</title>
@@ -281,13 +288,6 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
       <guid isPermaLink="false">warhammer-survivors-2026-10-06</guid>
       <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>Auroch Digital puso fecha y presentó personajes nuevos. Sale en PS5, Xbox, Switch 2 y PC, y en Xbox ya hay demo. — WARHAMMER SURVIVORS para PS5 / XBOX / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>GRIMKEEP: SALE EL 30 DE NOVIEMBRE EN PS5</title>
-      <link>https://lanzamientos.lat/juegos/grimkeep</link>
-      <guid isPermaLink="false">grimkeep-2026-10-06</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Resolution Games puso fecha para PS5 y PC. — GRIMKEEP para PS5.</description>
     </item>
   </channel>
 </rss>

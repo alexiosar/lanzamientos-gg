@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-09T14:05:44+00:00",
+ "generado": "2026-10-09T14:33:20+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-09",
@@ -271,7 +271,19 @@
    "gamepass": true,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/valor-mortis"
+   "url": "https://lanzamientos.lat/juegos/valor-mortis",
+   "noticias": [
+    {
+     "fecha": "2026-09-30",
+     "titulo": "VINCENT CASSEL ES NAPOLEÓN",
+     "texto": "El estudio presentó el elenco de voces: Vincent Cassel hace de Napoleón Bonaparte; Jennifer English, la Shadowheart de Baldur's Gate 3 y la Maelle de Clair Obscur, es la Shrike, y James Alexander pone la voz de William, el protagonista. También mostró un tráiler que repasa los sistemas: combate soulslike en primera persona con espadas, armas de fuego y magia en las dos manos, atajos, secretos y misiones secundarias."
+    },
+    {
+     "fecha": "2026-09-17",
+     "titulo": "CUESTA 39,99 DÓLARES Y NO TIENE PREVENTA",
+     "texto": "One More Level dice que la campaña dura unas 20 horas y que eligió un precio menor al de un lanzamiento grande por lo cargado del fin de año. No habrá reservas: se compra recién el día de salida."
+    }
+   ]
   },
   {
    "id": "planet-zoo-2",
@@ -397,7 +409,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/warhammer-40000-boltgun-2"
+   "url": "https://lanzamientos.lat/juegos/warhammer-40000-boltgun-2",
+   "noticias": [
+    {
+     "fecha": "2026-09-23",
+     "titulo": "MÁS DE 30 NIVELES Y UNA CAMPAÑA QUE SE RAMIFICA",
+     "texto": "Auroch Digital repasó lo nuevo de la secuela: se elige qué planeta visitar, así que en una sola partida no se ve todo; hay más de 40 enemigos nuevos de los cuatro dioses del Caos, Nurgle, Tzeentch, Khorne y Slaanesh, jefes más trabajados y, en algunos planetas, soldados de la Death Korps of Krieg que pelean al lado del protagonista."
+    }
+   ]
   },
   {
    "id": "ratatan",
@@ -549,7 +568,14 @@
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/c9d70429c6c04a1e2e78843b1d70573a.png",
    "alta": "2026-08-24",
-   "url": "https://lanzamientos.lat/juegos/the-jackbox-party-pack-12"
+   "url": "https://lanzamientos.lat/juegos/the-jackbox-party-pack-12",
+   "noticias": [
+    {
+     "fecha": "2026-10-01",
+     "titulo": "LOS CINCO JUEGOS DEL PACK",
+     "texto": "Son We Forgot a Card, para armar tarjetas de saludo absurdas; MegaPals, de adivinar cómo piensan los demás; Debate and Switch, de debates; Idol Factions, trivia por equipos a los gritos, y Hyperface, de deformar selfies para responder consignas. Todos son para 2 a 8 jugadores."
+    }
+   ]
   },
   {
    "id": "harvest-moon-echoes-of-teradea",
@@ -636,7 +662,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/enshrouded"
+   "url": "https://lanzamientos.lat/juegos/enshrouded",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "LA 1.0 SUMA MAGIA NUEVA Y MECANISMOS PARA CONSTRUIR",
+     "texto": "La versión 1.0, la que llega a PS5, trae Sparkworks: palancas, placas de presión, puertas y trampas que se conectan entre sí para armar mecanismos en las construcciones. También suma nueve hechizos para los magos, entre ellos invocaciones de tótems y de esqueletos."
+    }
+   ]
   },
   {
    "id": "tormented-souls-2",
@@ -739,7 +772,14 @@
    "gamepass": true,
    "psplus": false,
    "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/blueys-happy-snaps"
+   "url": "https://lanzamientos.lat/juegos/blueys-happy-snaps",
+   "noticias": [
+    {
+     "fecha": "2026-10-05",
+     "titulo": "EL TRÁILER MÁS COMPLETO, CON BINDI IRWIN",
+     "texto": "Salió el tráiler que más muestra del juego, hecho junto con Bindi Irwin: se recorre Brisbane, se juega con Bluey, Bingo y sus amigos y se sacan fotos con la vieja cámara de papá para armar el álbum."
+    }
+   ]
   },
   {
    "id": "tales-of-eternia-remastered",

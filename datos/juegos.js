@@ -1496,6 +1496,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/Qkg4CpTRugE",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9uam.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-23",
+        titulo: "MÁS DE 30 NIVELES Y UNA CAMPAÑA QUE SE RAMIFICA",
+        texto: "Auroch Digital repasó lo nuevo de la secuela: se elige qué planeta visitar, así que en una sola partida no se ve todo; hay más de 40 enemigos nuevos de los cuatro dioses del Caos, Nurgle, Tzeentch, Khorne y Slaanesh, jefes más trabajados y, en algunos planetas, soldados de la Death Korps of Krieg que pelean al lado del protagonista."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-17"
@@ -2049,6 +2056,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/y4VcEb6k7As",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/c9d70429c6c04a1e2e78843b1d70573a.png",
+    noticias: [
+      {
+        fecha: "2026-10-01",
+        titulo: "LOS CINCO JUEGOS DEL PACK",
+        texto: "Son We Forgot a Card, para armar tarjetas de saludo absurdas; MegaPals, de adivinar cómo piensan los demás; Debate and Switch, de debates; Idol Factions, trivia por equipos a los gritos, y Hyperface, de deformar selfies para responder consignas. Todos son para 2 a 8 jugadores."
+      }
+    ],
     alta: "2026-08-24"
   },
   {
@@ -5763,6 +5777,18 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/_kxjGXZ7Bv8",
     metacritic: null,
     imagen: "https://cdn2.steamgriddb.com/grid/c54a7dc5c4c4703eade452013234d53b.png",
+    noticias: [
+      {
+        fecha: "2026-09-30",
+        titulo: "VINCENT CASSEL ES NAPOLEÓN",
+        texto: "El estudio presentó el elenco de voces: Vincent Cassel hace de Napoleón Bonaparte; Jennifer English, la Shadowheart de Baldur's Gate 3 y la Maelle de Clair Obscur, es la Shrike, y James Alexander pone la voz de William, el protagonista. También mostró un tráiler que repasa los sistemas: combate soulslike en primera persona con espadas, armas de fuego y magia en las dos manos, atajos, secretos y misiones secundarias."
+      },
+      {
+        fecha: "2026-09-17",
+        titulo: "CUESTA 39,99 DÓLARES Y NO TIENE PREVENTA",
+        texto: "One More Level dice que la campaña dura unas 20 horas y que eligió un precio menor al de un lanzamiento grande por lo cargado del fin de año. No habrá reservas: se compra recién el día de salida."
+      }
+    ],
     gamepass: true,
     psplus: false,
     alta: "2026-07-24"
@@ -5841,6 +5867,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/qygf4aICf34",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-08",
+        titulo: "LA 1.0 SUMA MAGIA NUEVA Y MECANISMOS PARA CONSTRUIR",
+        texto: "La versión 1.0, la que llega a PS5, trae Sparkworks: palancas, placas de presión, puertas y trampas que se conectan entre sí para armar mecanismos en las construcciones. También suma nueve hechizos para los magos, entre ellos invocaciones de tótems y de esqueletos."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-24"
@@ -9157,6 +9190,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/8uYZrfXjPfY",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwy.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-05",
+        titulo: "EL TRÁILER MÁS COMPLETO, CON BINDI IRWIN",
+        texto: "Salió el tráiler que más muestra del juego, hecho junto con Bindi Irwin: se recorre Brisbane, se juega con Bluey, Bingo y sus amigos y se sacan fotos con la vieja cámara de papá para armar el álbum."
+      }
+    ],
     gamepass: true,
     psplus: false,
     alta: "2026-09-09"
