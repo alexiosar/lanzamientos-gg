@@ -567,6 +567,17 @@ Mafia: The Old Country - Man of Honor se fue (es una expansión de 10 dólares q
 juego base). En el barrido semanal ya se descartan por esto Vampire Survivors: Legacy of the
 Bloodmoon, Dragon Ball Xenoverse 2 - Future Saga Chapter 4 y similares.
 
+**3. Los juegos de relleno de las tiendas (decidido el 09/10/2026).** Simuladores genéricos,
+solitarios, packs de minijuegos y similares que entran a la tienda sin anuncio ni cobertura:
+Cleaning Simulator, Weekend Solitaire: Voyage, Supercar Collection Simulator, Tingus Goose,
+Swarm Me, My Recycling Center 2. Aparecen de a quince en el "Next Week on Xbox" de cada
+viernes y en los barridos. **No se cargan**: tendrían una descripción floja, nadie los busca,
+y sumarlos de a montones es el contenido en serie y de poco valor que el sitio intenta no
+tener desde la caída del 24/09 (ver la sección de SEO). La vara práctica: si no hay un
+anuncio, un tráiler de lanzamiento de su estudio o editora, ni cobertura en Gematsu o en los
+blogs oficiales, no entra. Un indie chico con anuncio propio, como DESOLUS o Creepy Tale:
+Snow Child, sí entra.
+
 **Si hay que borrar un juego ya cargado:** además de sacarlo de `datos/juegos.js`, agregar su
 URL a `_redirects` apuntando a la portada. `generar-fichas.py` borra la ficha sola, pero Google
 ya tiene esa URL indexada y sin la redirección queda un 404.
