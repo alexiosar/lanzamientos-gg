@@ -120,7 +120,9 @@ def consultar_eshop(titulo, switch2):
     for d in docs:
         # nsuid 7005… son paquetes ("Nintendo Switch 2 Edition" que se compra aparte, bundles):
         # su fecha no es la del juego. Harvest Moon: Echoes of Teradea daba 14/09 por eso.
-        if (d.get("nsuid_txt") or [""])[0].startswith("7005"):
+        # 7007… son ediciones con acceso anticipado: Modern Warfare 4 daba el 16/10, que es el
+        # día en que juegan los que reservaron, no el lanzamiento (09/10/2026).
+        if (d.get("nsuid_txt") or [""])[0].startswith(("7005", "7007")):
             continue
         sistemas = " ".join(d.get("system_names_txt") or [])
         es_s2 = "Switch 2" in sistemas

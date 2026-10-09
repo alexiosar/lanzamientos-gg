@@ -1968,7 +1968,7 @@ y abrir http://localhost:8080
 
 ### Ideas del usuario del 27/08/2026 (sin empezar)
 
-- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 08/10/2026).**
+- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 09/10/2026).**
   Los trajo Gematsu y **ninguno se cargó**, porque ninguna tienda de consola los lista. No es
   que estén mal: es que todavía no aparecieron. Se revisan de nuevo en cada semanal y entran
   en cuanto la tienda los tome.
@@ -2020,6 +2020,10 @@ y abrir http://localhost:8080
   | Sturmjäger | 14 de enero de 2027 (releases.com) | **Ya está cargado en PS5, Xbox y Switch**: la eShop lo sumó con el mismo día el 08/10. Se puede sacar de la tabla |
   | Nomad Drive | 20 de octubre en PS5 (releases.com, 08/10) | La PS Store lo tiene "por determinar" y Xbox no lo lista |
   | Fountains (Switch 2) | 24 de septiembre (eShop, 08/10) | **Cargado el 08/10 como entrada aparte** (`fountains-switch-2`): la eShop la vende como producto propio, una semana después de la de Switch. Se puede sacar de la tabla |
+  | The Road of Dust and Sorrow · Waltz and Jam | 3 de diciembre (Gematsu, 8/10) | La PS Store tiene el día pero la ficha no dice qué consola, igual que Fangtopia. Waltz and Jam se anunció también para Switch 2, que la eShop no lista |
+  | SULFUR | 28 de octubre, sale del acceso anticipado (Gematsu, 8/10) | La PS Store (PS5 y PS4) y Xbox lo listan sin fecha |
+  | Rockbeasts | Enero de 2027 (Gematsu, 8/10) | La PS Store y Xbox lo listan sin fecha |
+  | PRISON OF HUSKS | 27 de enero de 2027 en PS5 (Gematsu, 8/10) | La PS Store dice "2027" a secas |
   | Psikyo Memories | 18 de febrero de 2027 en PS5 y Switch 2 (Gematsu, 5/10) | **No se cargó**: ni la PS Store ni la eShop ni Nintendo US lo listan todavía |
   | DuneCrawl (Switch 2 y Switch) | Más adelante en 2026 (Gematsu, 5/10) | **Ya está cargado en PS5 y Xbox**, que salen el 19/10. Las de Nintendo no tienen día ni ficha |
   | Steins;Gate Re:Boot (Xbox, Switch 2 y Switch) | 29 de octubre (Spike Chunsoft; RPG Site, Xbox retrasado desde el 20/08) | **Ya está cargado en las cinco.** La PS Store tiene el día pero no la plataforma; Xbox y las tiendas de Nintendo no lo listan todavía |
