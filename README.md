@@ -1999,7 +1999,7 @@ y abrir http://localhost:8080
   | Fangtopia | 26 de octubre en PS5 y Switch 2 (releases.com) | La PS Store tiene la fecha pero no la plataforma, y Nintendo no lo lista |
   | The House of Tesla: Definitive Edition | 19 de noviembre en PS4 y PS5 (releases.com) | La PS Store tiene la fecha pero no la plataforma |
   | Eternal Anima (Switch 2 y Xbox) | 4 de marzo de 2027 | **Ya está cargado en PS5.** Se mostró en el Nintendo Direct del 9/09, pero la eShop y Xbox no lo listan |
-  | Alpha Nomos | 12 de octubre en PS5 y Xbox (Gematsu, 24/09) | La PS Store y Xbox lo listan sin fecha |
+  | Alpha Nomos | 12 de octubre en PS5 y Xbox (Gematsu, 24/09; Next Week on Xbox, 9/10) | Xbox Wire lo confirma para el 12, pero el buscador de la tienda de Xbox no lo encuentra y la PS Store lo lista sin fecha |
   | Curse of Resthaven · Time to Wake Up | Octubre (releases.com) | Las tiendas los tienen pero sin fecha |
   | Remothered: Tormented Fathers Remastered y Broken Porcelain Remastered | Primer trimestre de 2027 en PS5, Xbox y otras (Gematsu, 29/09) | Xbox lista el primero sin fecha, y ni la PS Store ni la eShop los tienen todavía |
   | Mycopunk (Xbox) | 20 de octubre | **Ya está cargado en PS5.** Gematsu dice "PlayStation 5 y…" y la tienda de Xbox no lo encuentra, así que no se sabe si hay versión de Xbox |

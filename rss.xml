@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 09 Oct 2026 14:33:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 15:03:15 +0000</lastBuildDate>
     <item>
       <title>ACE COMBAT 8: WINGS OF THEVE: SUPERÓ EL MILLÓN DE COPIAS</title>
       <link>https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve</link>
@@ -27,6 +27,13 @@
       <guid isPermaLink="false">dragons-dogma-2-dark-arisen-2026-10-09</guid>
       <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
       <description>Salió hoy en PS5, Xbox y Switch 2. Las 23 reseñas, de PS5, van de 100 a 70, y casi todas coinciden en que es la mejor versión del juego. — DRAGON'S DOGMA 2: DARK ARISEN para PS5 / XBOX / SWITCH 2.</description>
+    </item>
+    <item>
+      <title>DESOLUS: SALE EL 15 DE OCTUBRE</title>
+      <link>https://lanzamientos.lat/juegos/desolus</link>
+      <guid isPermaLink="false">desolus-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Xbox lo incluyó en sus estrenos de la semana. Sale el mismo día en PS5, Xbox Series y PC. — DESOLUS para PS5 / XBOX.</description>
     </item>
     <item>
       <title>CLIVE BARKER'S HELLRAISER: REVIVAL: SALIÓ CON 69 Y LA CRÍTICA DIVIDIDA</title>
@@ -281,13 +288,6 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
       <guid isPermaLink="false">gundam-rogue-orbit-2026-10-06</guid>
       <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>Bandai Namco mostró una misión de punta a punta: la previa a bordo de la nave Stellarvane, el combate con movilidad en todas las direcciones contra oleadas de enemigos y los Apocalypse, enemigos gigantes con puntos débiles propios. Antes de salir se personalizan armas, estructura, habilidades y colores del Gundam Helix, y en combate se activan el Over-rise y la descarga de la unidad AP. Sale el 5 de marzo de 2027. — GUNDAM ROGUE ORBIT para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>WARHAMMER SURVIVORS: SALE EL 10 DE NOVIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/warhammer-survivors</link>
-      <guid isPermaLink="false">warhammer-survivors-2026-10-06</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Auroch Digital puso fecha y presentó personajes nuevos. Sale en PS5, Xbox, Switch 2 y PC, y en Xbox ya hay demo. — WARHAMMER SURVIVORS para PS5 / XBOX / SWITCH 2.</description>
     </item>
   </channel>
 </rss>

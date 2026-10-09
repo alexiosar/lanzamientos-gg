@@ -11483,5 +11483,58 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     alta: "2026-10-09"
+  },
+  {
+    id: "desolus",
+    titulo: "DESOLUS",
+    fecha: "2026-10-15",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["PUZZLE", "AVENTURA", "INDIE"],
+    desarrollador: "MARK J. MAYERS",
+    descripcion: "Un juego de puzles en primera persona en una ciudad de arquitectura gótica partida entre el pasado y el futuro. Un cataclismo fracturó la realidad y abrió portales hacia otras épocas, y los puzles, a la manera de Escher, se resuelven con agujeros negros y viajando en el tiempo hacia adelante y hacia atrás para reconstruir edificios. Con hologramas se mueven portales enormes entre los pisos de catedrales medio derrumbadas, para atravesar estructuras que sólo existen en ciertos momentos, junto al guardián de la ciudad.",
+    trailer: "https://youtube.com/embed/39KXUVp9U4M",
+    metacritic: null,
+    imagen: "https://store-images.s-microsoft.com/image/apps.16391.14484827712843203.fd112db3-ecd0-410c-a63b-e63c1e778a9d.650431a5-d205-4551-975a-301b8444734e?w=600&h=900&format=jpg",
+    noticias: [
+      {
+        fecha: "2026-10-09",
+        titulo: "SALE EL 15 DE OCTUBRE",
+        texto: "Xbox lo incluyó en sus estrenos de la semana. Sale el mismo día en PS5, Xbox Series y PC."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-09"
+  },
+  {
+    id: "creepy-tale-snow-child",
+    titulo: "CREEPY TALE: SNOW CHILD",
+    fecha: "2026-10-15",
+    relanzamiento: "En PC desde mayo de 2026",
+    plataformas: ["PS5", "PS4", "XBOX"],
+    genero: ["AVENTURA", "PUZZLE", "INDIE"],
+    desarrollador: "CREEPY BROTHERS",
+    descripcion: "Una aventura de puzles con humor negro y atmósfera siniestra, con la estética de un cuento infantil pero más oscuro y retorcido. Blizzy, un chico valiente, viaja al Infierno a derrotar al Mal en persona. Hay acertijos, minijuegos que piden ingenio, agilidad y sigilo, trampas mortales y habitantes peligrosos de un reino de otro mundo, con misiones que se entrelazan con la acción.",
+    trailer: "https://youtube.com/embed/mbcmo7hOXgA",
+    metacritic: null,
+    imagen: "https://store-images.s-microsoft.com/image/apps.2436.14403140815475178.f41a01c7-b36d-411d-8307-cc731c1bf25b.20005abe-38b8-47bc-b9f7-59436e1ae8e8?w=600&h=900&format=jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-09"
+  },
+  {
+    id: "wolfsschanze-operation-gotterdammerung",
+    titulo: "WOLFSSCHANZE – OPERATION GÖTTERDÄMMERUNG",
+    fecha: "2026-10-15",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["SHOOTER", "WWII", "ACCION"],
+    desarrollador: "POLYGON ART",
+    descripcion: "Un shooter ambientado en Prusia Oriental en 1944. Un soldado de élite se abre paso por la Guarida del Lobo, el centro de poder aislado de la cúpula nazi, entre instalaciones vigiladas, posiciones defensivas y búnkeres, con misiones cortas de tiroteos intensos, explosivos, vehículos y cañones. Los objetivos son oficiales y generales de alto rango, hasta el enfrentamiento final con Hitler. La Guarida está reconstruida a partir de planos originales y datos satelitales.",
+    trailer: "https://youtube.com/embed/jAcRzF51n1Q",
+    metacritic: null,
+    imagen: "https://store-images.s-microsoft.com/image/apps.26667.14169909366497300.ba84dc7a-a762-4a99-804a-8891b10e943c.6f9bda3f-2aa7-4d35-9593-eb78adfca07b?w=600&h=900&format=jpg",
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-09"
   }
 ];
