@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 09 Oct 2026 15:03:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 13:48:29 +0000</lastBuildDate>
+    <item>
+      <title>HE-MAN AND THE MASTERS OF THE UNIVERSE: DRAGON PEARL OF DESTRUCTION: SALE EL 4 DE FEBRERO DE 2027</title>
+      <link>https://lanzamientos.lat/juegos/he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction</link>
+      <guid isPermaLink="false">he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction-2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Ya tiene día, después de no salir en el tercer trimestre de 2026 como estaba previsto. La PS Store lo confirma para PS5 y PS4, igual que Steam para PC; las tiendas de Xbox y Switch 2 todavía no lo listan. — HE-MAN AND THE MASTERS OF THE UNIVERSE: DRAGON PEARL OF DESTRUCTION para PS4 / XBOX / PS5 / SWITCH 2.</description>
+    </item>
     <item>
       <title>ACE COMBAT 8: WINGS OF THEVE: SUPERÓ EL MILLÓN DE COPIAS</title>
       <link>https://lanzamientos.lat/juegos/ace-combat-8-wings-of-theve</link>
@@ -281,13 +288,6 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
       <guid isPermaLink="false">endless-legend-2-2026-10-06</guid>
       <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
       <description>Amplitude sigue sacando parches de arreglos desde la 1.0, armados con lo que reporta la comunidad. El del 1 de octubre sumó gratis las mascotas del Welcome Pack: compañeros sólo estéticos que acompañan a los héroes, se activan o desactivan desde la gestión de contenido y aparecen en partidas nuevas. El del 6 agregó navegación con control en las tarjetas de protectorado de las facciones menores, pensada para Steam Deck y consolas. Las notas salen en Steam y no dicen cuándo llega cada parche a PS5 y Xbox. — ENDLESS LEGEND 2 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>GUNDAM ROGUE ORBIT: UNA MISIÓN COMPLETA EN TRES MINUTOS</title>
-      <link>https://lanzamientos.lat/juegos/gundam-rogue-orbit</link>
-      <guid isPermaLink="false">gundam-rogue-orbit-2026-10-06</guid>
-      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Bandai Namco mostró una misión de punta a punta: la previa a bordo de la nave Stellarvane, el combate con movilidad en todas las direcciones contra oleadas de enemigos y los Apocalypse, enemigos gigantes con puntos débiles propios. Antes de salir se personalizan armas, estructura, habilidades y colores del Gundam Helix, y en combate se activan el Over-rise y la descarga de la unidad AP. Sale el 5 de marzo de 2027. — GUNDAM ROGUE ORBIT para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

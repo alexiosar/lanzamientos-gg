@@ -2,224 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-09T15:03:15+00:00",
+ "generado": "2026-10-12T13:48:29+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-09",
- "hasta": "2026-11-08",
- "total": 84,
+ "desde": "2026-10-12",
+ "hasta": "2026-11-11",
+ "total": 81,
  "juegos": [
-  {
-   "id": "paperhead",
-   "titulo": "PAPERHEAD",
-   "fecha": "2026-10-09",
-   "plataformas": [
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "SHOOTER",
-    "INDIE"
-   ],
-   "desarrollador": "PAPERHEAD TE4M",
-   "descripcion": "Un boomer shooter de terror en un mundo de cartón que parece tierno hasta que empieza a sangrar. Se recorre un laboratorio abandonado a los escopetazos y a las patadas, y el arma más rara es un lápiz: con él se dibujan bombas para patear, puertas para abrir y palabras en las paredes que cambian el escenario.",
-   "trailer": "https://youtube.com/embed/Z-zHLhZ9Isw",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2680280/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/paperhead",
-   "noticias": [
-    {
-     "fecha": "2026-10-01",
-     "titulo": "YA TIENE DÍA: 9 DE OCTUBRE",
-     "texto": "La tienda de Xbox confirmó el 9 de octubre, la misma fecha que tiene en Steam. La PS Store todavía dice solo octubre, sin día."
-    },
-    {
-     "fecha": "2026-09-15",
-     "titulo": "YA NO SALE EL 18 DE SEPTIEMBRE",
-     "texto": "El tráiler de junio lo anunciaba para el 18 de septiembre en PC y consolas, pero la fecha se corrió: Steam ahora dice 9 de octubre. En PS5 y Xbox las tiendas no tienen día, así que por ahora queda como estimado para octubre."
-    }
-   ]
-  },
-  {
-   "id": "dragons-dogma-2-dark-arisen",
-   "titulo": "DRAGON'S DOGMA 2: DARK ARISEN",
-   "fecha": "2026-10-09",
-   "relanzamiento": "Dragon's Dogma 2 base en PS5, Xbox y PC desde 2024; esta edición Dark Arisen suma contenido nuevo",
-   "duracion": "≈ 37 h (historia) · 110 h (completo)",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "RPG",
-    "ACCION",
-    "MUNDO ABIERTO"
-   ],
-   "desarrollador": "CAPCOM",
-   "descripcion": "La edición completa de Dragon's Dogma 2, el RPG de acción de mundo abierto de Capcom, con la expansión Dark Arisen incluida y por primera vez en Switch 2. Se arma un Ascendido a gusto, se elige vocación y se viaja con peones, compañeros que maneja la máquina y que se pueden personalizar. La expansión suma Norgan, una región nevada en el norte donde una aliada llamada Eir lleva a investigar al Dragón Caído, y doce desafíos de mazmorras en el mapa principal.",
-   "trailer": "https://youtube.com/embed/Ob9pYAlIHZM",
-   "metacritic": 83,
-   "critica": "La prensa lo recibe como una expansión grande que además mejora el juego base: una región nueva, Norgan, helada y hostil, con un clima que pesa, decenas de horas de contenido, una historia mejor que la del original, un sistema de botín nuevo, los desafíos de Lost Rites y mejoras de calidad de vida que limaron asperezas. Varias reseñas lo ponen entre lo mejor de Capcom en años. Los reparos: no trae vocaciones nuevas ni ideas de combate distintas, la dificultad es despareja, los encuentros no dan respiro y el botín llena el inventario.",
-   "metacriticUsuarios": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/df099083450295b1ead6bc471c031a88.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/dragons-dogma-2-dark-arisen",
-   "noticias": [
-    {
-     "fecha": "2026-10-09",
-     "titulo": "SALIÓ CON 83 EN METACRITIC",
-     "texto": "Salió hoy en PS5, Xbox y Switch 2. Las 23 reseñas, de PS5, van de 100 a 70, y casi todas coinciden en que es la mejor versión del juego."
-    }
-   ]
-  },
-  {
-   "id": "sesame-street-amigos-y-risas",
-   "titulo": "SESAME STREET: AMIGOS Y RISAS",
-   "fecha": "2026-10-09",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "CASUAL",
-    "AVENTURA",
-    "COOP"
-   ],
-   "desarrollador": "INFINIGON",
-   "descripcion": "Un juego para chicos en el barrio de Plaza Sésamo, con Elmo, Abby, el Conde, el Monstruo de las galletas y el resto. Se arranca en el departamento propio y se van abriendo lugares: se planta un poroto mágico gigante en el jardín de Abby, se buscan herramientas y patitos de goma en la huerta comunitaria, se practican números y puzzles en la mansión del Conde y se cocina en el camión de comida del Monstruo de las galletas. Las recompensas sirven para decorar la casa.",
-   "trailer": "https://youtube.com/embed/gV_FEcIXG6k",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930330/cd60211759658ad9032d6b4950dbb29df2da1262/header_spanish.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/sesame-street-amigos-y-risas"
-  },
-  {
-   "id": "the-relic-first-guardian-switch-2",
-   "titulo": "THE RELIC: FIRST GUARDIAN",
-   "relanzamiento": "En PS5 desde julio de 2026 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 17 h (historia)",
-   "fecha": "2026-10-09",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG",
-    "AVENTURA"
-   ],
-   "desarrollador": "PERFECT WORLD GAMES",
-   "descripcion": "La edición de Switch 2 del RPG de acción de Perfect World, la última de las tres en llegar.",
-   "trailer": "https://youtube.com/embed/9BZUDAXO7fk",
-   "metacritic": null,
-   "critica": "Es el peor recibido de todo el calendario y las reseñas no se guardan nada: hay notas de 30 que lo ponen entre lo peor del año. Lo que rescatan, casi todas, es la ambición y la ambientación en la mitología coreana, y hasta las más duras reconocen que hay pasión detrás. El problema es todo lo demás: gráficos que varias comparan con los de dos generaciones atrás, caídas de rendimiento, un mundo abierto que nadie pidió y una historia contada a pedazos. La conclusión que se repite es que quiso hacer demasiado y no le salió casi nada.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2827820/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-18",
-   "url": "https://lanzamientos.lat/juegos/the-relic-first-guardian-switch-2"
-  },
-  {
-   "id": "horse-club-ride-west",
-   "titulo": "HORSE CLUB RIDE WEST",
-   "fecha": "2026-10-09",
-   "plataformas": [
-    "SWITCH",
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "SIMULACION",
-    "CASUAL"
-   ],
-   "desarrollador": "WILD RIVER GAMES",
-   "descripcion": "Un juego de caballos para chicos ambientado en el Lejano Oeste: las amigas del Horse Club, Hannah, Sofia, Sarah y Lisa, viajan al rancho Wild River. Se recorre el mapa a caballo, se ayuda a la gente, se aprende equitación western y se compite en el gran torneo, con pruebas de barriles y de estacas, además de tiro con arco, pintura y guitarra. Hay seis caballos, cada uno con su carácter, y muchas opciones para personalizar al jinete y al animal.",
-   "trailer": "https://youtube.com/embed/HX-3ES4iO68",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmgj.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/horse-club-ride-west"
-  },
-  {
-   "id": "tmnt-arcade-wrath-of-the-mutants-switch-2",
-   "titulo": "TMNT ARCADE: WRATH OF THE MUTANTS",
-   "duracion": "≈ 1,2 h (historia) · 7 h (completo)",
-   "relanzamiento": "En consolas y PC desde abril de 2024, y en salas de arcade desde 2017 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-10-09",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "ARCADE",
-    "COOP",
-    "RETRO"
-   ],
-   "desarrollador": "CRADLE GAMES",
-   "descripcion": "El beat 'em up de las Tortugas que salió en las salas de arcade en 2017 y pasó a consolas en 2024, ahora en Switch 2. Se juega con Leonardo, Michelangelo, Donatello o Raphael, en cooperativo local, y está declaradamente inspirado en Turtles in Time. La versión de consola agregó tres niveles y seis peleas contra jefes que el original no tenía.",
-   "trailer": "https://youtube.com/embed/K9iBGnKyKOk",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527580/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-03",
-   "url": "https://lanzamientos.lat/juegos/tmnt-arcade-wrath-of-the-mutants-switch-2"
-  },
-  {
-   "id": "cozy-meowmory",
-   "titulo": "COZY MEOWMORY",
-   "fecha": "2026-10-09",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "PUZZLE",
-    "CASUAL",
-    "RELAX"
-   ],
-   "desarrollador": "LUKAVERSE",
-   "descripcion": "Un juego tranquilo de encontrar diferencias entre habitaciones llenas de gatos: objetos que se mueven, desaparecen, giran o cambian de color. Algunos niveles muestran las dos habitaciones juntas y otros obligan a memorizar una antes de ver la otra, con ayudas para cuando se complica.",
-   "trailer": null,
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.23217.13659597671065926.bd6a9990-5006-4946-bd42-d2dea44cd524.a661d0ea-9c63-47a4-bf46-0a850184bc2a?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-03",
-   "url": "https://lanzamientos.lat/juegos/cozy-meowmory"
-  },
-  {
-   "id": "whisker-mess",
-   "titulo": "WHISKER MESS",
-   "fecha": "2026-10-09",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "PUZZLE",
-    "CASUAL"
-   ],
-   "desarrollador": "AFIL GAMES",
-   "descripcion": "Un puzzle de encastrar piezas con forma de gato en un tablero: completar líneas horizontales, verticales y, en algunos niveles, diagonales, despeja piezas y juguetes y hace lugar para las siguientes. Los bloqueadores funcionan como paredes extra y cambian cómo se pueden armar las líneas.",
-   "trailer": "https://youtube.com/embed/9TIzgwnrIdM",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.17197.13631340793729352.de577d83-ac09-4601-9fe3-7943ca8829ab.c355ccb9-8c5a-461f-97b8-9f303597f627?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-03",
-   "url": "https://lanzamientos.lat/juegos/whisker-mess"
-  },
   {
    "id": "colorbound",
    "titulo": "COLORBOUND",
@@ -567,6 +356,8 @@
    "trailer": "https://youtube.com/embed/y4VcEb6k7As",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/c9d70429c6c04a1e2e78843b1d70573a.png",
+   "gamepass": false,
+   "psplus": false,
    "alta": "2026-08-24",
    "url": "https://lanzamientos.lat/juegos/the-jackbox-party-pack-12",
    "noticias": [
@@ -745,6 +536,8 @@
    "trailer": "https://youtube.com/embed/Kgp9iOHxrFw",
    "metacritic": null,
    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2922/29e3ecd9dcd397054adce54bf9e89f1bffedfce0283ac772.jpg?w=600&thumb=false",
+   "gamepass": false,
+   "psplus": false,
    "alta": "2026-08-19",
    "url": "https://lanzamientos.lat/juegos/toy-story-retro-roundup"
   },
@@ -2068,6 +1861,8 @@
    "trailer": "https://youtube.com/embed/d16zccHDscM",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1s.jpg",
+   "gamepass": false,
+   "psplus": false,
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/lets-sing-2027"
   },
@@ -2089,6 +1884,8 @@
    "trailer": "https://youtube.com/embed/A0ZONw-vPmE",
    "metacritic": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1w.jpg",
+   "gamepass": false,
+   "psplus": false,
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/lets-sing-abba"
   },
@@ -2216,6 +2013,8 @@
    "trailer": "https://youtube.com/embed/4xtmm2H0W_0",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
+   "gamepass": false,
+   "psplus": false,
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/the-legend-of-zelda-ocarina-of-time-switch-2",
    "noticias": [
@@ -2327,6 +2126,135 @@
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/hasbro-games-junior-collection"
+  },
+  {
+   "id": "hope-in-the-city",
+   "titulo": "HOPE IN THE CITY",
+   "fecha": "2026-11-10",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "LOFTY SKY ENTERTAINMENT",
+   "descripcion": "Un misterio narrativo en la ciudad china de Shenyang. Hope Song, de 17 años, vuelve del colegio y encuentra la casa revuelta y a sus padres desaparecidos, sin una nota. Con su mirada de artista junta pistas y destapa lo que se esconde debajo de la calma de su ciudad, en una investigación que no sigue un camino fijo. Lo hace el equipo de Sky of Tides y Eternal Spring.",
+   "trailer": "https://youtube.com/embed/aeSj0-tQqxY",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9y32.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/hope-in-the-city"
+  },
+  {
+   "id": "football-manager-27",
+   "titulo": "FOOTBALL MANAGER 27",
+   "fecha": "2026-11-10",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "DEPORTES",
+    "SIMULACION",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "SPORTS INTERACTIVE",
+   "descripcion": "La entrega anual del simulador de gestión de fútbol de Sports Interactive. Esta vez el foco está en la interfaz, con menos clics, una navegación más directa y pantallas rediseñadas, y en la ambientación de los días de partido.",
+   "trailer": "https://youtube.com/embed/9rdMzTr0sAg",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.47586.13984136076613493.b5146129-a992-4e04-8b43-ffa40460c569.40797f8e-48ea-47e2-aab8-9ea6e13f5a79?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-01",
+   "url": "https://lanzamientos.lat/juegos/football-manager-27",
+   "noticias": [
+    {
+     "fecha": "2026-09-30",
+     "titulo": "SALE EL 10 DE NOVIEMBRE",
+     "texto": "SEGA puso fecha para PS5, Xbox, PC y celulares."
+    }
+   ]
+  },
+  {
+   "id": "warhammer-survivors",
+   "titulo": "WARHAMMER SURVIVORS",
+   "fecha": "2026-11-10",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "AUROCH DIGITAL",
+   "descripcion": "Un survivors-like, a la manera de Vampire Survivors, en los universos de Warhammer 40,000 y Age of Sigmar. Se juega con personajes de las dos sagas, incluido Malum Caedo de Boltgun, se juntan y evolucionan armas como el bólter o la espada sierra y se aguantan oleadas interminables de enemigos. Lo hace Auroch Digital, el estudio de Boltgun, junto con poncle, los creadores de Vampire Survivors, en pixel art.",
+   "trailer": "https://youtube.com/embed/XvvWBS2uMw8",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.63012.13865289401901694.ec4fd4fe-95aa-4110-a6b3-96d9a78df1a3.0a17bc32-56e3-46a1-8aae-d4edfc5689e8?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-06",
+   "url": "https://lanzamientos.lat/juegos/warhammer-survivors",
+   "noticias": [
+    {
+     "fecha": "2026-10-06",
+     "titulo": "SALE EL 10 DE NOVIEMBRE",
+     "texto": "Auroch Digital puso fecha y presentó personajes nuevos. Sale en PS5, Xbox, Switch 2 y PC, y en Xbox ya hay demo."
+    }
+   ]
+  },
+  {
+   "id": "sonic-pico-park",
+   "titulo": "SONIC PICO PARK",
+   "fecha": "2026-11-11",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "PUZZLE",
+    "PLATAFORMA",
+    "COOP",
+    "CASUAL"
+   ],
+   "desarrollador": "TECOPARK",
+   "descripcion": "PICO PARK, la saga de puzles cooperativos en 2D, se cruza con Sonic. La regla es simple, llegar a la meta, pero ningún nivel se pasa sin coordinarse con los demás. Todos los personajes pueden hacer el giro de Sonic y aparecen mecánicas de sus juegos. Se juega de dos a ocho, en local u online.",
+   "trailer": "https://youtube.com/embed/RFg-S2seDqU",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocowo.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/sonic-pico-park"
+  },
+  {
+   "id": "prinny-party-going-overboard",
+   "titulo": "PRINNY PARTY: GOING OVERBOARD!",
+   "fecha": "2026-11-11",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "CASUAL",
+    "TABLERO",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "NIPPON ICHI SOFTWARE",
+   "descripcion": "Un juego de tablero con los Prinny de Disgaea. Se avanza por el tablero juntando experiencia y equipo para derrotar al Supremo Overboard, pero el mérito se lo lleva sólo quien entrega al jefe, así que la cooperación dura poco: se vale agarrar y tirar a los amigos. Si mueren todos a la vez, pierden todos.",
+   "trailer": "https://youtube.com/embed/XinU3Iy6lek",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocje8.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard"
   }
  ]
 }
