@@ -229,6 +229,20 @@ Opciones para decidir el 15/10: pedir indexación a mano de las páginas clave (
 conseguir enlaces externos (el mensaje a @fran.pw sigue pendiente) y evaluar achicar el índice
 a lo que tiene valor propio (crítica, noticias, gameplay, meses y suscripciones).
 
+**Qué separa a las indexadas de las que no (12/10/2026):** la fecha de salida del juego, no el
+contenido de la ficha. Fichas no flacas indexadas, por mes de salida: junio 42%, **julio 24%,
+agosto 33%**, septiembre 75%, octubre 58%, noviembre en adelante y estimados entre 33% y 73%.
+El 82% de las "rastreadas sin indexar" son de juegos salidos en julio o agosto; el 82% de las
+indexadas son de juegos de septiembre en adelante. **Las descartadas tienen más crítica que
+las indexadas (67% contra 39%)**; descripción, noticias, gameplay y duración están parejos. Las
+"descubiertas" son otra cosa: casi todas se cargaron después del 24/09 o son de juegos futuros,
+y todavía no se rastrearon.
+
+Lectura: una ficha vale mientras contesta "cuándo sale". Pasados uno o dos meses del
+lanzamiento, Google la ve como un resumen de lo que ya tienen Metacritic o IGN y la saca. Para
+decidir el 15/10: poner `noindex` a las fichas de juegos salidos hace más de unos 60 días,
+o no tocar nada y dejar que Google decida.
+
 Nada de esto cambia el plan: la lectura de verdad es el 15/10, una semana después de que
 termine el despliegue del update, y no se espera recuperación antes de semanas o meses.
 
