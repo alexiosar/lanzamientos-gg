@@ -199,6 +199,36 @@ días son de antes de la caída y se llevan casi todo (los 8 clics y ~1.000 impr
   1.090): el tráfico que no viene de Google se sostiene. Core Web Vitals: LCP e INP 100% bien,
   pero **CLS tiene una parte en rojo**: era toda de la portada y se arregló el mismo día (ver la tabla de cambios).
 
+### Indexación al 12/10/2026: no son sólo las fichas flacas
+
+Indexadas: **293** (eran 425 el 01/10). Sin indexar: 857. Por motivo, contra el 01/09:
+
+| Motivo | 01/09 | 12/10 |
+|---|---|---|
+| Página con redirección | 282 | 316 |
+| Excluida por `noindex` | 273 | 273 (el noindex del 05/10 todavía no se procesó) |
+| **Rastreada: actualmente sin indexar** | 10 | **141** |
+| **Descubierta: actualmente sin indexar** | 27 | **117** |
+| 404 / error de redirección | 5 / 5 | 5 / 5 |
+
+Cruzando los CSV exportados contra `datos/juegos.js`:
+
+- **Rastreadas sin indexar (141): 101 son fichas con contenido**, nunca flacas — Denshattack
+  (88), Kynseed, Teeto, Gothic Classic, Momento —, 25 son flacas ya recuperadas, 3 flacas de
+  hoy, 9 la portada con `?plat=` y otras sueltas, 2 URLs `.html` y 1 página de mes. El último
+  rastreo de casi todas es de agosto (76) o septiembre (53): **Google no las volvió a visitar,
+  las sacó del índice al reevaluar el sitio.**
+- **Descubiertas sin indexar (117): nunca rastreadas.** 84 fichas con contenido, 23
+  recuperadas y páginas clave: `/octubre-2026`, `/septiembre-2026`, `/ps-plus-octubre-2026`,
+  `/game-pass-octubre-2026`, `/recomendados`.
+
+**Lectura:** es una degradación de todo el sitio, no sólo de las fichas flacas. Google bajó la
+confianza y la prioridad de rastreo de todo el dominio, que es el patrón de un golpe de calidad
+después de un spam update. El `noindex` y las descripciones ayudan, pero no alcanzan solos.
+Opciones para decidir el 15/10: pedir indexación a mano de las páginas clave (unas 10 por día),
+conseguir enlaces externos (el mensaje a @fran.pw sigue pendiente) y evaluar achicar el índice
+a lo que tiene valor propio (crítica, noticias, gameplay, meses y suscripciones).
+
 Nada de esto cambia el plan: la lectura de verdad es el 15/10, una semana después de que
 termine el despliegue del update, y no se espera recuperación antes de semanas o meses.
 
