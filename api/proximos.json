@@ -2,43 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-12T13:48:29+00:00",
+ "generado": "2026-10-13T14:28:09+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-12",
- "hasta": "2026-11-11",
- "total": 81,
+ "desde": "2026-10-13",
+ "hasta": "2026-11-12",
+ "total": 87,
  "juegos": [
-  {
-   "id": "colorbound",
-   "titulo": "COLORBOUND",
-   "fecha": "2026-10-12",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "PUZZLE",
-    "PLATAFORMA",
-    "INDIE"
-   ],
-   "desarrollador": "PANPIPE STUDIO",
-   "descripcion": "Un juego de plataformas y puzzles en el que el color cambia el mundo. Anku quiere reunir a la banda de su abuelo, un músico muy querido que murió, para darle un concierto de despedida, y para encontrar a cada integrante recorre paisajes distintos juntando colores: cada color que se suma a la paleta transforma el escenario y abre caminos nuevos.",
-   "trailer": "https://youtube.com/embed/clYNpKpMRDw",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.21015.13794004821354326.8502a05e-8f86-4d7a-8478-db72bf81d91a.3900c10d-87fb-4132-adcd-c4a47ef39eae?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-02",
-   "url": "https://lanzamientos.lat/juegos/colorbound",
-   "noticias": [
-    {
-     "fecha": "2026-10-02",
-     "titulo": "SALE EL 12 DE OCTUBRE",
-     "texto": "La tienda de Xbox y Steam confirman el 12 de octubre. La PS Store ya tiene la ficha de PS5, todavía sin día."
-    }
-   ]
-  },
   {
    "id": "valor-mortis",
    "titulo": "VALOR MORTIS",
@@ -55,13 +25,20 @@
    "desarrollador": "ONE MORE LEVEL",
    "descripcion": "Un juego de acción a la manera de los Souls, de los creadores de Ghostrunner. William, un soldado del ejército de Napoleón, resucita en una versión alternativa de la Europa del siglo XIX, arrasada por una plaga cuyo poder ahora le corre por las venas. El combate se apoya en paradas, esquives y remates con muchas armas, más habilidades sobrenaturales, y cada muerte sirve para hacerse más fuerte. Los enemigos son engendros de la Guardia Eterna de Napoleón, y la historia mezcla personajes reales con terror.",
    "trailer": "https://youtube.com/embed/_kxjGXZ7Bv8",
-   "metacritic": null,
+   "metacritic": 77,
+   "critica": "Las reseñas son de PC. La mayoría lo recibe como un soulslike que encuentra su lugar gracias a la primera persona: un combate de paradas rápido y satisfactorio que mezcla espadas, armas de fuego y magia, la movilidad heredada de Ghostrunner, buen diseño de niveles y una Europa napoleónica alternativa y oscura, con una historia sobre la brutalidad de la guerra y buenas actuaciones. Los reparos: jefes desbalanceados y muertes que se sienten injustas, pocos tipos de enemigos, armas y habilidades poco aprovechadas, problemas de rendimiento, una cámara incómoda por momentos y una campaña larga que pierde fuerza en la mitad.",
+   "metacriticUsuarios": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/c54a7dc5c4c4703eade452013234d53b.png",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/valor-mortis",
    "noticias": [
+    {
+     "fecha": "2026-10-13",
+     "titulo": "SALIÓ CON 77 EN METACRITIC",
+     "texto": "Salió hoy en PS5 y Xbox, donde entra a Game Pass el mismo día. Las 40 reseñas, todas de PC, van de 90 a 50: el combate en primera persona convence casi siempre, y lo que se discute son los jefes y el ritmo de la segunda mitad."
+    },
     {
      "fecha": "2026-09-30",
      "titulo": "VINCENT CASSEL ES NAPOLEÓN",
@@ -2103,6 +2080,64 @@
    ]
   },
   {
+   "id": "escape-academy-2-back-2-school",
+   "titulo": "ESCAPE ACADEMY 2: BACK 2 SCHOOL",
+   "fecha": "2026-11-05",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "PUZZLE",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "COIN CREW GAMES",
+   "descripcion": "La secuela de Escape Academy, que convierte sus salas de escape en un juego de mundo abierto: la academia clandestina de escapismo se recorre libremente, con una campaña nueva de salas diseñadas por el equipo de puzles del primero. Como no son salas reales, no tienen que respetar ninguna norma de seguridad, así que hay techos con pinchos, caídas de treinta metros y, lo peor de todo, exámenes finales.",
+   "trailer": "https://youtube.com/embed/Aer93YCNrRI",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.32075.14607328992338706.a7a9f492-6e2c-4b94-ab21-d3b4889e76fe.303a41a4-14bb-4486-a564-6e3cc7dbf83a?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-13",
+   "url": "https://lanzamientos.lat/juegos/escape-academy-2-back-2-school",
+   "noticias": [
+    {
+     "fecha": "2026-10-13",
+     "titulo": "LLEGA A PS5 EL 5 DE NOVIEMBRE",
+     "texto": "Se anunció en el blog de PlayStation, con un tráiler. La PS Store todavía no tiene el día y la tienda de Xbox lo lista sin fecha."
+    }
+   ]
+  },
+  {
+   "id": "chivalware",
+   "titulo": "CHIVALWARE",
+   "fecha": "2026-11-05",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ROGUELIKE",
+    "ESTRATEGIA",
+    "INDIE"
+   ],
+   "desarrollador": "REGAL PIGEON",
+   "descripcion": "Un roguelite de acción rápida con estrategia de emparejar casillas. Un disqueballero, guerrero capaz de usar armas de disquete, sale a terminar con un rey enloquecido por el poder y la soledad, mientras unos fallos técnicos extraños sugieren que hay algo más en juego. Se llevan hasta tres armas de colores distintos y, en un campo de batalla cuadriculado, se emparejan casillas del mismo color para cargarlas: cuantas más, más ataques, mientras hay que esquivar los golpes enemigos. Tiene cinco personajes, ochenta armas, más de 150 mejoras y cuatro biomas con sus jefes.",
+   "trailer": "https://youtube.com/embed/a3oWY6e_ROM",
+   "metacritic": null,
+   "imagen": null,
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-13",
+   "url": "https://lanzamientos.lat/juegos/chivalware",
+   "noticias": [
+    {
+     "fecha": "2026-10-12",
+     "titulo": "SALE EL 5 DE NOVIEMBRE EN SWITCH 2",
+     "texto": "Dotemu y The Arcade Crew le pusieron fecha a la versión de Switch 2, que sale junto con la de PC. La eShop ya confirma el día."
+    }
+   ]
+  },
+  {
    "id": "hasbro-games-junior-collection",
    "titulo": "HASBRO GAMES JUNIOR COLLECTION",
    "fecha": "2026-11-06",
@@ -2255,6 +2290,139 @@
    "psplus": false,
    "alta": "2026-09-17",
    "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard"
+  },
+  {
+   "id": "moomin-midsummer-madness",
+   "titulo": "MOOMIN: MIDSUMMER MADNESS",
+   "fecha": "2026-11-12",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "POINT AND CLICK",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "CROSSBRIDGE GAME STUDIOS",
+   "descripcion": "Una aventura gráfica tranquila para todas las edades, con los Mumin. Mumintroll y la Pequeña My tienen que escapar de una gran inundación y encontrar el camino de vuelta a su casa, en el Valle de los Mumin. El viaje pasa por lugares pintados a mano, con amigos conocidos y caras nuevas, y es una historia sobre la sinceridad, la compasión y la curiosidad.",
+   "trailer": "https://youtube.com/embed/q7myAcZfmEQ",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6tu.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-24",
+   "url": "https://lanzamientos.lat/juegos/moomin-midsummer-madness"
+  },
+  {
+   "id": "metaphor-refantazio",
+   "titulo": "METAPHOR: REFANTAZIO",
+   "fecha": "2026-11-12",
+   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2024 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 60 h (historia) · 100 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "AVENTURA"
+   ],
+   "desarrollador": "ATLUS",
+   "descripcion": "El RPG de fantasía de ATLUS, del equipo de Persona 3, 4 y 5, llega a Switch 2. Después del asesinato del rey, el próximo monarca se elige en el Torneo por el Trono, y el protagonista entra a disputarlo junto a un grupo de personajes. El combate mezcla turnos y acción en tiempo real, y el grupo se personaliza con arquetipos, poderes mágicos que cada uno despierta. Se viaja en un surcador acorazado entre mazmorras y pueblos, y el tiempo se reparte entre misiones y mazmorras de día y los vínculos con el grupo.",
+   "trailer": "https://youtube.com/embed/SjbgJaYi4NE",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/metaphor-refantazio",
+   "noticias": [
+    {
+     "fecha": "2026-10-13",
+     "titulo": "DEMO DEL PRÓLOGO EN SWITCH 2",
+     "texto": "Ya se puede bajar la demo \"Prologue\" en Switch 2, un mes antes del lanzamiento del 12 de noviembre."
+    }
+   ]
+  },
+  {
+   "id": "barbie-rewind",
+   "titulo": "BARBIE REWIND",
+   "fecha": "2026-11-12",
+   "plataformas": [
+    "XBOX",
+    "PS4",
+    "PS5"
+   ],
+   "genero": [
+    "CASUAL",
+    "AVENTURA",
+    "RETRO"
+   ],
+   "desarrollador": "DIGITAL ECLIPSE",
+   "descripcion": "Un juego tranquilo de decorar la DreamHouse de Barbie con objetos de los más de 65 años de historia de la muñeca, en pixel art de estilo retro. Se elige entre tres diseños para la fachada, las paredes y los pisos, que se pueden mezclar habitación por habitación, y además trae una colección de juegos clásicos de Barbie para volver a jugar.",
+   "trailer": "https://youtube.com/embed/zBymaS2mCaI",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc771.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/barbie-rewind"
+  },
+  {
+   "id": "pikmin-4-switch-2",
+   "titulo": "PIKMIN 4 — NINTENDO SWITCH 2 EDITION + ACADEMIA DANDORI",
+   "duracion": "≈ 18 h (historia) · 40 h (completo)",
+   "relanzamiento": "En Switch desde julio de 2023 — esta fecha corresponde a la edición de Switch 2",
+   "fecha": "2026-11-12",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "AVENTURA"
+   ],
+   "desarrollador": "NINTENDO",
+   "descripcion": "La edición de Switch 2 del cuarto Pikmin, el que sumó a Oatchi, el perro que carga y pelea. Lo nuevo acá es que a Oatchi se le dan órdenes con la voz, usando el micrófono de la consola, y que viene Academia Dandori, un modo aparte para practicar la organización de tareas que es el corazón de la saga.",
+   "trailer": "https://youtube.com/embed/DcXX_Ic1aR8",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/2e43c4664011d4b9c90d583a4897beb6.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/pikmin-4-switch-2"
+  },
+  {
+   "id": "hazard-levels",
+   "titulo": "HAZARD LEVELS",
+   "fecha": "2026-11-12",
+   "relanzamiento": "En PC, en acceso anticipado — esta fecha es la de la versión terminada y la de consolas",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "TERROR",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "WALES INTERACTIVE",
+   "descripcion": "Un survival horror cooperativo para uno a cuatro jugadores, basado en físicas. Debajo de un pub británico funciona una cervecería secreta, y para abastecerla hay que bajar a grietas inestables que llevan a otras dimensiones, juntar ingredientes raros y volver antes de la última ronda. Cada grieta se genera al azar, con biomas, peligros y criaturas distintos; un guante gravitatorio sirve para agarrar y lanzar varios objetos a la vez, y con lo que se junta se preparan tragos que dan habilidades o desatan el caos. Tiene chat de voz por proximidad.",
+   "trailer": "https://youtube.com/embed/RAwpbhynS0M",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.43354.14251935469670557.27dc1ecf-941c-4e6e-bfac-73935ff464dd.d14b7513-c468-4e87-bd77-c77d86fca44a?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-08",
+   "url": "https://lanzamientos.lat/juegos/hazard-levels",
+   "noticias": [
+    {
+     "fecha": "2026-10-08",
+     "titulo": "LA 1.0 SALE EL 12 DE NOVIEMBRE",
+     "texto": "Wales Interactive le puso fecha a la versión terminada, que ese día llega también a PS5 y Xbox Series. Xbox confirma el día; la PS Store dice noviembre."
+    }
+   ]
   }
  ]
 }
