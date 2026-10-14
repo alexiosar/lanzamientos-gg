@@ -1429,6 +1429,13 @@ const JUEGOS = [
     metacriticVotos: 7,
     critica: "Recepción correcta, sin entusiasmo. Nightdive hizo un buen trabajo de remasterización, y las reseñas rescatan lo que el original tenía de ambicioso: niveles amplios con caminos alternativos, terminales para interactuar y decisiones que cambian las misiones siguientes. Pero el juego de 1998 nunca fue de los grandes: los tiroteos y el diseño de niveles muestran la edad, y la remasterización no esconde esos defectos.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632950/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "SALIÓ CON LA EXPANSIÓN WAGES OF SIN INCLUIDA",
+        texto: "Nightdive y Atari lo lanzaron el 24 de septiembre en PS5, PS4, Xbox, Switch y PC. Trae el juego original y Wages of SiN, el paquete de misiones extra en el que el coronel Blade se enfrenta a un jefe mafioso, las dos cosas con texturas y modelos nuevos y controles al día. Debutó con 70 en Metacritic."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-19"
@@ -4672,7 +4679,7 @@ const JUEGOS = [
     plataformas: ["XBOX", "PS5", "SWITCH"],
     genero: ["AVENTURA", "CASUAL"],
     desarrollador: "OSOME STUDIO",
-    descripcion: "Un plataformas en 3D donde Garfield tiene que escapar de una pesadilla llena de verduras, y el gato más vago del mundo no tiene más remedio que moverse.",
+    descripcion: "Un plataformas en 3D donde el gato más vago del mundo no tiene más remedio que moverse. Jon le sirvió lasaña de espinaca con una receta del chef Monday, y Garfield cae en una pesadilla llena de verduras y golosinas sin azúcar: para despertarse y recuperar el gusto tiene que comer lasañas a lo largo de tres mundos y decenas de niveles. Salta, trepa paredes y se hace bola, y con los disfraces de pavo, surfista y vaquero puede planear, deslizarse sobre el agua y usar un lazo. Jon, Odie, Arlene y Pookie ayudan; Nermal y Squeak estorban. Lo que se junta sirve para redecorar la casa de Jon.",
     trailer: "https://youtube.com/embed/aWM1GH3uF2g",
     gameplay: {
       video: "https://youtube.com/embed/cBe9LWrbkNQ",
@@ -4684,6 +4691,13 @@ const JUEGOS = [
     metacriticVotos: 9,
     critica: "Reseñas divididas, según a quién se le hable. Es un plataformas en 3D pensado para los más chicos, con un humor que funciona, buena variedad de niveles, unas diez horas de juego y cosas para coleccionar que invitan a completarlo. Varias lo comparan con los plataformas de la época de PS3. Para las reseñas más duras es demasiado simple y fácil, chato de principio a fin, y el carisma del personaje no alcanza para disimularlo.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocat5.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-24",
+        titulo: "SALIÓ EN PS5, XBOX Y SWITCH",
+        texto: "Microids lo puso a la venta el 24 de septiembre en PS5, Xbox Series, Switch y PC. Debutó con 67 en Metacritic: las reseñas lo recomiendan para los más chicos y le critican que es demasiado simple."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-16"

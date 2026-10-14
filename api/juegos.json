@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-14T17:01:47+00:00",
+ "generado": "2026-10-14T17:22:57+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 525,
@@ -1962,7 +1962,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-19",
-   "url": "https://lanzamientos.lat/juegos/sin-reloaded"
+   "url": "https://lanzamientos.lat/juegos/sin-reloaded",
+   "noticias": [
+    {
+     "fecha": "2026-09-24",
+     "titulo": "SALIÓ CON LA EXPANSIÓN WAGES OF SIN INCLUIDA",
+     "texto": "Nightdive y Atari lo lanzaron el 24 de septiembre en PS5, PS4, Xbox, Switch y PC. Trae el juego original y Wages of SiN, el paquete de misiones extra en el que el coronel Blade se enfrenta a un jefe mafioso, las dos cosas con texturas y modelos nuevos y controles al día. Debutó con 70 en Metacritic."
+    }
+   ]
   },
   {
    "id": "dont-fret",
@@ -6256,7 +6263,7 @@
     "CASUAL"
    ],
    "desarrollador": "OSOME STUDIO",
-   "descripcion": "Un plataformas en 3D donde Garfield tiene que escapar de una pesadilla llena de verduras, y el gato más vago del mundo no tiene más remedio que moverse.",
+   "descripcion": "Un plataformas en 3D donde el gato más vago del mundo no tiene más remedio que moverse. Jon le sirvió lasaña de espinaca con una receta del chef Monday, y Garfield cae en una pesadilla llena de verduras y golosinas sin azúcar: para despertarse y recuperar el gusto tiene que comer lasañas a lo largo de tres mundos y decenas de niveles. Salta, trepa paredes y se hace bola, y con los disfraces de pavo, surfista y vaquero puede planear, deslizarse sobre el agua y usar un lazo. Jon, Odie, Arlene y Pookie ayudan; Nermal y Squeak estorban. Lo que se junta sirve para redecorar la casa de Jon.",
    "trailer": "https://youtube.com/embed/aWM1GH3uF2g",
    "gameplay": {
     "video": "https://youtube.com/embed/cBe9LWrbkNQ",
@@ -6271,7 +6278,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/garfield-escape-from-monday"
+   "url": "https://lanzamientos.lat/juegos/garfield-escape-from-monday",
+   "noticias": [
+    {
+     "fecha": "2026-09-24",
+     "titulo": "SALIÓ EN PS5, XBOX Y SWITCH",
+     "texto": "Microids lo puso a la venta el 24 de septiembre en PS5, Xbox Series, Switch y PC. Debutó con 67 en Metacritic: las reseñas lo recomiendan para los más chicos y le critican que es demasiado simple."
+    }
+   ]
   },
   {
    "id": "shinobi-art-of-vengeance",
