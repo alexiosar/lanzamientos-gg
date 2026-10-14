@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-14T17:31:58+00:00",
+ "generado": "2026-10-14T17:41:28+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-14",
@@ -1808,7 +1808,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-25",
-   "url": "https://lanzamientos.lat/juegos/lets-sing-abba"
+   "url": "https://lanzamientos.lat/juegos/lets-sing-abba",
+   "noticias": [
+    {
+     "fecha": "2026-08-07",
+     "titulo": "SALE EL 3 DE NOVIEMBRE, CON 32 CANCIONES",
+     "texto": "THQ Nordic anunció la versión de Switch 2 para el 3 de noviembre, el mismo día que Let's Sing 2027. Trae 32 canciones de ABBA, entre ellas I Have a Dream, y siete modos de juego, en el año en que Dancing Queen cumple 50. Se vende en una edición con dos micrófonos y en otra digital sin ellos."
+    }
+   ]
   },
   {
    "id": "godzilla-destroy-all-monsters-melee-remastered",

@@ -4164,6 +4164,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/A0ZONw-vPmE",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1w.jpg",
+    noticias: [
+      {
+        fecha: "2026-08-07",
+        titulo: "SALE EL 3 DE NOVIEMBRE, CON 32 CANCIONES",
+        texto: "THQ Nordic anunció la versión de Switch 2 para el 3 de noviembre, el mismo día que Let's Sing 2027. Trae 32 canciones de ABBA, entre ellas I Have a Dream, y siete modos de juego, en el año en que Dancing Queen cumple 50. Se vende en una edición con dos micrófonos y en otra digital sin ellos."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-25"
@@ -9453,6 +9460,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/2fezEO5knDg",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocvb8.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-09",
+        titulo: "SALE EL 28 DE ENERO, CON EDICIÓN ESPECIAL Y AMIIBO",
+        texto: "Nintendo lo anunció en el Direct del 9 de septiembre como el nuevo Metroid en 2D, el primero de ese estilo desde Metroid Dread, de 2021. Sale sólo en Switch 2, y el mismo día llegan una edición especial y una línea de amiibo. Nintendo no dijo qué estudio lo hace."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
@@ -9587,6 +9601,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/O8-SknQHS2Y",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocv9v.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-09",
+        titulo: "SALE EL 25 DE FEBRERO, CON UNA DIFICULTAD NUEVA",
+        texto: "Nintendo y Koei Tecmo la anunciaron en el Direct del 9 de septiembre. Además de los agregados que ya habían salido, suma una dificultad nueva, más enemigos por batalla y mejor rendimiento. Quien tiene el juego de Switch la puede comprar con descuento y seguir con su partida guardada."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
@@ -9634,6 +9655,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/wzJWH9X3Lxc",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobo9k.jpg",
+    noticias: [
+      {
+        fecha: "2026-02-27",
+        titulo: "LOS INICIALES SON BROWT, POMBON Y GECQUA",
+        texto: "Se anunció en el Pokémon Presents del 27 de febrero, por los 30 años de la saga, junto con Pokémon Waves. La región nueva tiene cuevas, playas y zonas bajo el agua, y los tres iniciales son Browt, de tipo planta, Pombon, de fuego, y Gecqua, de agua. Las dos versiones salen a la vez en todo el mundo en 2027, sólo en Switch 2."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
@@ -9651,6 +9679,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/wzJWH9X3Lxc",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobo9j.jpg",
+    noticias: [
+      {
+        fecha: "2026-02-27",
+        titulo: "LOS INICIALES SON BROWT, POMBON Y GECQUA",
+        texto: "Se anunció en el Pokémon Presents del 27 de febrero, por los 30 años de la saga, junto con Pokémon Winds. Es el comienzo de la décima generación: una región nueva con cuevas, playas y zonas bajo el agua, y tres iniciales, Browt, de tipo planta, Pombon, de fuego, y Gecqua, de agua. Salen a la vez en todo el mundo en 2027, sólo en Switch 2."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
@@ -9681,10 +9716,17 @@ const JUEGOS = [
     plataformas: ["SWITCH2"],
     genero: ["ACCION", "AVENTURA", "PLATAFORMA"],
     desarrollador: "HAL LABORATORY",
-    descripcion: "El Kirby en tres dimensiones que sigue a Forgotten Land, con las habilidades de copia de siempre y un mundo abierto para recorrer. Nintendo lo anunció para la primavera boreal de 2027, o sea alrededor de mayo, sin día todavía.",
+    descripcion: "El Kirby en tres dimensiones que sigue a Forgotten Land, con las habilidades de copia de siempre y mundos amplios para explorar con libertad. Nintendo lo anunció para la primavera boreal de 2027, o sea alrededor de mayo, sin día todavía.",
     trailer: "https://youtube.com/embed/ozLDuA0pN5Y",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocvba.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-09",
+        titulo: "FUE EL CIERRE DEL DIRECT DE SEPTIEMBRE",
+        texto: "Nintendo lo dejó para el final del Direct del 9 de septiembre. El tráiler muestra a Kirby recorriendo escenarios amplios y copiando habilidades hasta que el cielo se agrieta, como si el mundo fuera un decorado, y aparece un compañero flotante nuevo con el que sale a averiguar qué hay del otro lado. Sale en la primavera boreal de 2027, sin día."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
@@ -9814,11 +9856,18 @@ const JUEGOS = [
     fecha: "2027-01-28",
     plataformas: ["PS5"],
     genero: ["HORROR", "AVENTURA", "NOVELA VISUAL"],
-    desarrollador: "BALLISTIC MOON",
-    descripcion: "La secuela del terror de decisiones de 2015, donde cada elección define quién llega vivo al final y quién no. Sony la anunció en el State of Play de septiembre con fecha para el 28 de enero de 2027.",
+    desarrollador: "FIRESPRITE",
+    descripcion: "La secuela del terror de decisiones de 2015, donde cada elección define quién llega vivo al final y quién no. Esta vez el grupo es Dead True, ocho youtubers que se hicieron conocidos fingiendo encuentros con fantasmas, y el destino es Akishima, una isla del Pacífico Sur abandonada desde que un resort de lujo cerró en circunstancias raras en los setenta.",
     trailer: "https://youtube.com/embed/uQQywJ1Hotk",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coctve.jpg",
+    noticias: [
+      {
+        fecha: "2026-09-03",
+        titulo: "SALE EL 28 DE ENERO, CON GUION COMPARTIDO CON LOS CREADORES DE DISPATCH",
+        texto: "Sony le puso fecha en el State of Play de septiembre, tres meses después de anunciarla. La hace Firesprite, y la historia se escribió con AdHoc Studio, el estudio de Dispatch. Arranca en el sanatorio Blackwood del primer juego y vuelve Peter Stormare como el doctor Hill. La reserva abrió el 10 de septiembre, con una edición Digital Deluxe que suma trajes de neón para el grupo y un modo que repasa cada muerte posible."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"

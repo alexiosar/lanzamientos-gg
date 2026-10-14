@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "248af137c08d78cf",
+  "hash": "39f27aa2aef5bc96",
   "lastmod": "2026-10-14"
  },
  "/abril-2027": {
@@ -903,6 +903,10 @@
   "hash": "cd0a1ca012c69254",
   "lastmod": "2026-09-15"
  },
+ "/juegos/hyrule-warriors-age-of-calamity-definitive-edition": {
+  "hash": "66055dfabca210ab",
+  "lastmod": "2026-10-14"
+ },
  "/juegos/iracing-arcade": {
   "hash": "953ad0baefda508c",
   "lastmod": "2026-10-02"
@@ -967,6 +971,10 @@
   "hash": "9787ee9cb18e6443",
   "lastmod": "2026-10-14"
  },
+ "/juegos/kirby-and-the-world-beyond": {
+  "hash": "a7dad5f9c004771c",
+  "lastmod": "2026-10-14"
+ },
  "/juegos/kong-survivor-instinct": {
   "hash": "2d9a4c48eaeb5ab6",
   "lastmod": "2026-10-12"
@@ -1006,6 +1014,10 @@
  "/juegos/lets-sing-2027": {
   "hash": "16b71a71d6d8ccaa",
   "lastmod": "2026-10-13"
+ },
+ "/juegos/lets-sing-abba": {
+  "hash": "4a8083242febf8c6",
+  "lastmod": "2026-10-14"
  },
  "/juegos/lies-of-p-switch-2": {
   "hash": "7c1f6d28282623b3",
@@ -1098,6 +1110,10 @@
  "/juegos/metro-2039": {
   "hash": "7f75ecf9ad1b98fc",
   "lastmod": "2026-10-12"
+ },
+ "/juegos/metroid-ravenous": {
+  "hash": "16bd9980adb5dd15",
+  "lastmod": "2026-10-14"
  },
  "/juegos/mewgenics": {
   "hash": "8693384a67f51dce",
@@ -1365,6 +1381,14 @@
  },
  "/juegos/planet-zoo-2": {
   "hash": "f431121658d66dc1",
+  "lastmod": "2026-10-14"
+ },
+ "/juegos/pokemon-waves": {
+  "hash": "f02abc471ea9c65d",
+  "lastmod": "2026-10-14"
+ },
+ "/juegos/pokemon-winds": {
+  "hash": "d5fcb39ce80dae04",
   "lastmod": "2026-10-14"
  },
  "/juegos/port-of-jumanah": {
@@ -1923,6 +1947,10 @@
   "hash": "2d9d9ab52738a453",
   "lastmod": "2026-10-08"
  },
+ "/juegos/until-dawn-2": {
+  "hash": "ac64f61831ee34e2",
+  "lastmod": "2026-10-14"
+ },
  "/juegos/valor-mortis": {
   "hash": "9671da7165f9a3cd",
   "lastmod": "2026-10-14"
@@ -2092,7 +2120,7 @@
   "lastmod": "2026-10-12"
  },
  "/noticias": {
-  "hash": "b5730503bdd17ab7",
+  "hash": "f9b640aa97c62888",
   "lastmod": "2026-10-14"
  },
  "/noviembre-2026": {
@@ -2112,11 +2140,11 @@
   "lastmod": "2026-10-14"
  },
  "/ps4": {
-  "hash": "248af137c08d78cf",
+  "hash": "39f27aa2aef5bc96",
   "lastmod": "2026-10-14"
  },
  "/ps5": {
-  "hash": "248af137c08d78cf",
+  "hash": "39f27aa2aef5bc96",
   "lastmod": "2026-10-14"
  },
  "/recomendados": {
@@ -2128,11 +2156,11 @@
   "lastmod": "2026-10-14"
  },
  "/switch": {
-  "hash": "248af137c08d78cf",
+  "hash": "39f27aa2aef5bc96",
   "lastmod": "2026-10-14"
  },
  "/switch-2": {
-  "hash": "248af137c08d78cf",
+  "hash": "39f27aa2aef5bc96",
   "lastmod": "2026-10-14"
  },
  "/terminos": {
@@ -2144,7 +2172,7 @@
   "lastmod": "2026-09-02"
  },
  "/xbox": {
-  "hash": "248af137c08d78cf",
+  "hash": "39f27aa2aef5bc96",
   "lastmod": "2026-10-14"
  }
 }
