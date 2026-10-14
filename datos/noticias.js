@@ -55,6 +55,16 @@
 
 const NOTICIAS = [
   {
+    id: "ps-plus-catalogo-octubre-2026",
+    fecha: "2026-10-14",
+    categoria: "SUSCRIPCIONES",
+    titulo: "EL CATÁLOGO DE PS PLUS DE OCTUBRE TRAE MAFIA: THE OLD COUNTRY, HORIZON FORBIDDEN WEST Y MYCOPUNK EL DÍA QUE SALE",
+    texto: "Sony anunció la tanda de octubre para los planes Extra y Deluxe, que se juega desde el martes 20. Entran Mafia: The Old Country, Horizon Forbidden West, Poppy Playtime: Capítulo 2, The Midnight Walk, Tales of Arise con la expansión Beyond the Dawn y Monster Energy Supercross 25, y Deluxe suma Dino Crisis 2 y RollerCoaster Tycoon 3 Complete Edition.\n\nEl estreno es Mycopunk: ese mismo 20 deja el acceso anticipado en PC, debuta en PS5 y entra al catálogo el primer día. Deluxe agrega además pruebas por tiempo limitado de Resonance: A Plague Tale Legacy y Mortal Shell II.",
+    fuente: "https://blog.latam.playstation.com/2026/10/14/catalogo-de-juegos-de-playstation-plus-para-octubre-mafia-el-viejo-continente-horizon-forbidden-west-mycopunk-y-mucho-mas/",
+    juegos: ["mycopunk", "resonance-a-plague-tale-legacy", "mortal-shell-2"],
+    pagina: "/ps-plus-octubre-2026"
+  },
+  {
     id: "game-pass-octubre-2026-primera-tanda",
     fecha: "2026-10-07",
     categoria: "SUSCRIPCIONES",

@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-14T15:16:34+00:00",
+ "generado": "2026-10-14T17:01:47+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-14",
@@ -855,10 +855,15 @@
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/library_600x900.jpg",
    "gamepass": false,
-   "psplus": false,
+   "psplus": true,
    "alta": "2026-09-20",
    "url": "https://lanzamientos.lat/juegos/mycopunk",
    "noticias": [
+    {
+     "fecha": "2026-10-14",
+     "titulo": "ENTRA A PS PLUS EXTRA EL DÍA QUE SALE",
+     "texto": "Sony lo confirmó en el catálogo de octubre: desde el 20, el mismo día del estreno en PS5, se juega con PS Plus Extra y Deluxe."
+    },
     {
      "fecha": "2026-09-20",
      "titulo": "SALE DEL ACCESO ANTICIPADO EL 20 DE OCTUBRE",

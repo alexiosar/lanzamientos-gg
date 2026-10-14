@@ -3089,6 +3089,11 @@ const JUEGOS = [
     imagen: "https://cdn2.steamgriddb.com/grid/3d2acf82fd9669dbe940b4394bde5237.png",
     noticias: [
       {
+        fecha: "2026-10-14",
+        titulo: "PRUEBA GRATIS EN PS PLUS DELUXE DESDE EL 20",
+        texto: "Sony lo sumó a las pruebas de juego de PS Plus Deluxe: desde el martes 20 de octubre se puede jugar un tiempo limitado sin comprarlo."
+      },
+      {
         fecha: "2026-07-10",
         titulo: "PRECIO CONFIRMADO: 50 DÓLARES",
         texto: "El soulslike de Cold Symmetry confirmó precio, mundo abierto y acceso anticipado de 3 días para quienes reserven. No estará en Game Pass al lanzamiento, a diferencia del primero."
@@ -3289,6 +3294,11 @@ const JUEGOS = [
     critica: "Es el más discutido de la semana: hay reseñas de 95 y de 60 describiendo el mismo juego. Todas coinciden en dos cosas. Que la serie cambió de género —menos sigilo y menos ratas, más acción y aventura al estilo Uncharted— y que en lo visual y lo sonoro está a la altura, con la banda sonora de Olivier Derivière llevándose elogios aparte. La discusión es si el cambio le sienta bien. Los que lo bajan repiten tres reparos: arranca muy lento, el combate se vuelve repetitivo y hay problemas de rendimiento. Sophia, la protagonista nueva, gusta casi por unanimidad.",
     imagen: "https://cdn2.steamgriddb.com/grid/19488d75fad434aed855298dad9d9d76.png",
     noticias: [
+      {
+        fecha: "2026-10-14",
+        titulo: "PRUEBA GRATIS EN PS PLUS DELUXE DESDE EL 20",
+        texto: "Sony lo sumó a las pruebas de juego de PS Plus Deluxe: desde el martes 20 de octubre se puede jugar un tiempo limitado sin comprarlo."
+      },
       {
         fecha: "2026-08-27",
         titulo: "DEBUTA CON 79 Y DIVIDE A LA PRENSA",
@@ -5814,6 +5824,11 @@ const JUEGOS = [
     desarrollador: "CAPCOM",
     descripcion: "La edición completa de Dragon's Dogma 2, el RPG de acción de mundo abierto de Capcom, con la expansión Dark Arisen incluida y por primera vez en Switch 2. Se arma un Ascendido a gusto, se elige vocación y se viaja con peones, compañeros que maneja la máquina y que se pueden personalizar. La expansión suma Norgan, una región nevada en el norte donde una aliada llamada Eir lleva a investigar al Dragón Caído, y doce desafíos de mazmorras en el mapa principal.",
     trailer: "https://youtube.com/embed/Ob9pYAlIHZM",
+    gameplay: {
+      video: "https://youtube.com/embed/WtwhdlzIOWY",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 84,
     metacriticUsuarios: 9.3,
     metacriticVotos: 48,
@@ -5840,6 +5855,11 @@ const JUEGOS = [
     desarrollador: "ONE MORE LEVEL",
     descripcion: "Un juego de acción a la manera de los Souls, de los creadores de Ghostrunner. William, un soldado del ejército de Napoleón, resucita en una versión alternativa de la Europa del siglo XIX, arrasada por una plaga cuyo poder ahora le corre por las venas. El combate se apoya en paradas, esquives y remates con muchas armas, más habilidades sobrenaturales, y cada muerte sirve para hacerse más fuerte. Los enemigos son engendros de la Guardia Eterna de Napoleón, y la historia mezcla personajes reales con terror.",
     trailer: "https://youtube.com/embed/_kxjGXZ7Bv8",
+    gameplay: {
+      video: "https://youtube.com/embed/Hk7TArwopqo",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 77,
     critica: "Las reseñas son de PC. La mayoría lo recibe como un soulslike que encuentra su lugar gracias a la primera persona: un combate de paradas rápido y satisfactorio que mezcla espadas, armas de fuego y magia, la movilidad heredada de Ghostrunner, buen diseño de niveles y una Europa napoleónica alternativa y oscura, con una historia sobre la brutalidad de la guerra y buenas actuaciones. Los reparos: jefes desbalanceados y muertes que se sienten injustas, pocos tipos de enemigos, armas y habilidades poco aprovechadas, problemas de rendimiento, una cámara incómoda por momentos y una campaña larga que pierde fuerza en la mitad.",
     metacriticUsuarios: null,
@@ -10275,13 +10295,18 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/library_600x900.jpg",
     noticias: [
       {
+        fecha: "2026-10-14",
+        titulo: "ENTRA A PS PLUS EXTRA EL DÍA QUE SALE",
+        texto: "Sony lo confirmó en el catálogo de octubre: desde el 20, el mismo día del estreno en PS5, se juega con PS Plus Extra y Deluxe."
+      },
+      {
         fecha: "2026-09-20",
         titulo: "SALE DEL ACCESO ANTICIPADO EL 20 DE OCTUBRE",
         texto: "Devolver Digital puso fecha en el PC Gaming Show: Tokyo Direct. Ese día llega la versión terminada, y con ella el debut en PS5."
       }
     ],
     gamepass: false,
-    psplus: false,
+    psplus: true,
     alta: "2026-09-20"
   },
   {

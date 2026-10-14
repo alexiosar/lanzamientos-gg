@@ -38,7 +38,7 @@ const SUSCRIPCIONES = [
   {
     servicio: "psplus",
     mes: "2026-10",
-    intro: "Los juegos mensuales de PS Plus de octubre son F1 25, Hunt: Showdown 1896 y Earth Defense Force: World Brothers 2. Se pueden reclamar desde el martes 6 de octubre hasta el lunes 2 de noviembre con cualquier plan, y una vez reclamados quedan en la biblioteca mientras dure la suscripción. Ninguno es un estreno: los tres ya estaban a la venta.",
+    intro: "Los juegos mensuales de PS Plus de octubre son F1 25, Hunt: Showdown 1896 y Earth Defense Force: World Brothers 2, para reclamar del martes 6 de octubre al lunes 2 de noviembre con cualquier plan. El catálogo de Extra y Deluxe suma desde el martes 20 Mafia: The Old Country, Horizon Forbidden West, Tales of Arise con Beyond the Dawn y Mycopunk, que entra el mismo día que sale en PS5. Deluxe agrega Dino Crisis 2 y RollerCoaster Tycoon 3.",
     tandas: [
       {
         nombre: "JUEGOS MENSUALES",
@@ -69,6 +69,85 @@ const SUSCRIPCIONES = [
             entra: null,
             texto: "La versión en bloques de Earth Defense Force: se arma un equipo de cuatro soldados de toda la saga y se pelea contra enemigos gigantes hechos de vóxeles. Tiene cooperativo online para cuatro y pantalla dividida para dos.",
             imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2370170/library_600x900.jpg"
+          }
+        ]
+      },
+      {
+        nombre: "CATÁLOGO EXTRA Y DELUXE",
+        detalle: "Desde el martes 20 de octubre, con PS Plus Extra o Deluxe; los dos últimos son sólo para Deluxe. Ese día Deluxe suma además pruebas por tiempo limitado de Resonance: A Plague Tale Legacy y Mortal Shell II. Sony avisa que la lista puede cambiar según la región.",
+        anunciado: "2026-10-14",
+        fuente: "https://blog.latam.playstation.com/2026/10/14/catalogo-de-juegos-de-playstation-plus-para-octubre-mafia-el-viejo-continente-horizon-forbidden-west-mycopunk-y-mucho-mas/",
+        juegos: [
+          {
+            titulo: "Mafia: el viejo continente",
+            id: null,
+            plataformas: ["PS5"],
+            entra: null,
+            texto: "La precuela de la saga Mafia (Mafia: The Old Country), en la Sicilia de 1900: Enzo Fava pelea por hacerse un lugar en una familia mafiosa, en una aventura de acción en tercera persona muy apoyada en la historia.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/library_600x900.jpg"
+          },
+          {
+            titulo: "Horizon Forbidden West",
+            id: null,
+            plataformas: ["PS5",  "PS4"],
+            entra: null,
+            texto: "La segunda aventura de Aloy, en el Oeste Prohibido: un mundo abierto posapocalíptico con máquinas más grandes, tribus nuevas y un enemigo que parece invencible.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/library_600x900.jpg"
+          },
+          {
+            titulo: "Mycopunk",
+            id: "mycopunk",
+            plataformas: ["PS5"],
+            entra: null,
+            texto: "Entra el día que sale: el 20 deja el acceso anticipado en PC y debuta en PS5. Un shooter cooperativo para cuatro contra una plaga de hongos alienígenas, con cientos de mejoras para las armas."
+          },
+          {
+            titulo: "Poppy Playtime: Capítulo 2",
+            id: null,
+            plataformas: ["PS5",  "PS4"],
+            entra: null,
+            texto: "La segunda parte del terror en la fábrica de juguetes Playtime Co.: más abajo, con puzles, una mano extensible para engancharse y colgarse, y juguetes que persiguen.",
+            imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202408/2820/a308e999cc0872aac44aa6e95715a5ecc2b0974fc9b7e001.png"
+          },
+          {
+            titulo: "The Midnight Walk",
+            id: null,
+            plataformas: ["PS5"],
+            entra: null,
+            texto: "Una aventura de fantasía oscura hecha con arcilla real y animación cuadro a cuadro, de los creadores de Lost in Random. Se acompaña a Potboy, una criatura con forma de farol, a lo largo de cinco historias. También se juega con PS VR2.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2863640/library_600x900.jpg"
+          },
+          {
+            titulo: "Tales of Arise – Beyond the Dawn Edition",
+            id: null,
+            plataformas: ["PS5",  "PS4"],
+            entra: null,
+            texto: "El JRPG de la saga Tales con la expansión Beyond the Dawn incluida. Dos personas de mundos enfrentados se unen contra Rena, que gobierna Dahna desde hace 300 años.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/740130/library_600x900.jpg"
+          },
+          {
+            titulo: "Monster Energy Supercross 25 – The Official Video Game",
+            id: null,
+            plataformas: ["PS5"],
+            entra: null,
+            texto: "El juego oficial del supercross, con pistas que reproducen las del campeonato, los pilotos de la temporada y un modo carrera con rivalidades.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2581370/library_600x900.jpg"
+          },
+          {
+            titulo: "Dino Crisis 2",
+            id: null,
+            plataformas: ["PS5",  "PS4"],
+            entra: null,
+            texto: "Sólo Deluxe. Después de un accidente temporal que hace desaparecer un centro de investigación, Regina y Dylan pelean contra más de diez especies de dinosaurios entre junglas, cavernas y lagos del Cretácico.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4249140/54e18b7c8196fc17aac75dfce6a7d0caca8c1303/library_capsule_2x.jpg"
+          },
+          {
+            titulo: "RollerCoaster Tycoon 3 Complete Edition",
+            id: null,
+            plataformas: ["PS5",  "PS4"],
+            entra: null,
+            texto: "Sólo Deluxe. Se diseña y administra un parque de diversiones: montañas rusas, tiendas, personal y finanzas en decenas de escenarios, o un modo libre sin preocuparse por la plata.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368820/library_600x900.jpg"
           }
         ]
       }
