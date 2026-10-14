@@ -2,158 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-13T14:28:09+00:00",
+ "generado": "2026-10-14T15:16:34+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-13",
- "hasta": "2026-11-12",
- "total": 87,
+ "desde": "2026-10-14",
+ "hasta": "2026-11-13",
+ "total": 84,
  "juegos": [
-  {
-   "id": "valor-mortis",
-   "titulo": "VALOR MORTIS",
-   "fecha": "2026-10-13",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "RPG"
-   ],
-   "desarrollador": "ONE MORE LEVEL",
-   "descripcion": "Un juego de acción a la manera de los Souls, de los creadores de Ghostrunner. William, un soldado del ejército de Napoleón, resucita en una versión alternativa de la Europa del siglo XIX, arrasada por una plaga cuyo poder ahora le corre por las venas. El combate se apoya en paradas, esquives y remates con muchas armas, más habilidades sobrenaturales, y cada muerte sirve para hacerse más fuerte. Los enemigos son engendros de la Guardia Eterna de Napoleón, y la historia mezcla personajes reales con terror.",
-   "trailer": "https://youtube.com/embed/_kxjGXZ7Bv8",
-   "metacritic": 77,
-   "critica": "Las reseñas son de PC. La mayoría lo recibe como un soulslike que encuentra su lugar gracias a la primera persona: un combate de paradas rápido y satisfactorio que mezcla espadas, armas de fuego y magia, la movilidad heredada de Ghostrunner, buen diseño de niveles y una Europa napoleónica alternativa y oscura, con una historia sobre la brutalidad de la guerra y buenas actuaciones. Los reparos: jefes desbalanceados y muertes que se sienten injustas, pocos tipos de enemigos, armas y habilidades poco aprovechadas, problemas de rendimiento, una cámara incómoda por momentos y una campaña larga que pierde fuerza en la mitad.",
-   "metacriticUsuarios": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/c54a7dc5c4c4703eade452013234d53b.png",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/valor-mortis",
-   "noticias": [
-    {
-     "fecha": "2026-10-13",
-     "titulo": "SALIÓ CON 77 EN METACRITIC",
-     "texto": "Salió hoy en PS5 y Xbox, donde entra a Game Pass el mismo día. Las 40 reseñas, todas de PC, van de 90 a 50: el combate en primera persona convence casi siempre, y lo que se discute son los jefes y el ritmo de la segunda mitad."
-    },
-    {
-     "fecha": "2026-09-30",
-     "titulo": "VINCENT CASSEL ES NAPOLEÓN",
-     "texto": "El estudio presentó el elenco de voces: Vincent Cassel hace de Napoleón Bonaparte; Jennifer English, la Shadowheart de Baldur's Gate 3 y la Maelle de Clair Obscur, es la Shrike, y James Alexander pone la voz de William, el protagonista. También mostró un tráiler que repasa los sistemas: combate soulslike en primera persona con espadas, armas de fuego y magia en las dos manos, atajos, secretos y misiones secundarias."
-    },
-    {
-     "fecha": "2026-09-17",
-     "titulo": "CUESTA 39,99 DÓLARES Y NO TIENE PREVENTA",
-     "texto": "One More Level dice que la campaña dura unas 20 horas y que eligió un precio menor al de un lanzamiento grande por lo cargado del fin de año. No habrá reservas: se compra recién el día de salida."
-    }
-   ]
-  },
-  {
-   "id": "planet-zoo-2",
-   "titulo": "PLANET ZOO 2",
-   "fecha": "2026-10-13",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SIMULACION",
-    "ESTRATEGIA"
-   ],
-   "desarrollador": "FRONTIER DEVELOPMENTS",
-   "descripcion": "La secuela del simulador de zoológicos. Se construyen parques por todo el mundo con animales terrestres, aves y especies acuáticas, y ahora también se los puede liberar en reservas naturales abiertas.",
-   "trailer": "https://youtube.com/embed/G6-yj80Guxg",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/f14b6444d23c8a8b2aeab52d54cf915e.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/planet-zoo-2",
-   "noticias": [
-    {
-     "fecha": "2026-09-17",
-     "titulo": "YA SE PUEDE RESERVAR",
-     "texto": "Frontier viene mostrando el juego con videos semanales: especies nuevas, el centro veterinario y una visita al centro científico del zoológico de Chester sobre su trabajo de conservación. Lo nuevo respecto del primero son las aves que vuelan, las especies totalmente acuáticas y las reservas naturales fuera del zoológico."
-    }
-   ]
-  },
-  {
-   "id": "spongebob-titans-of-the-tide",
-   "titulo": "SPONGEBOB SQUAREPANTS: TITANS OF THE TIDE",
-   "fecha": "2026-10-13",
-   "relanzamiento": "En PC, PS5 y Xbox desde noviembre de 2025",
-   "duracion": "≈ 5,8 h (historia) · 15 h (completo)",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "PURPLE LAMP",
-   "descripcion": "Un plataformas de Bob Esponja con tono de terror. Una pelea entre el Holandés Errante y el Rey Neptuno llenó Fondo de Bikini de caos, y hay que alternar entre Bob Esponja y Patricio, combinando sus habilidades, para que no quede convertida en un pueblo fantasma.",
-   "trailer": "https://youtube.com/embed/wcDpp_9G6V0",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/30ad15654dfe614c9ec13b65d0947cba.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/spongebob-titans-of-the-tide"
-  },
-  {
-   "id": "deep-dish-dungeon",
-   "titulo": "DEEP DISH DUNGEON",
-   "fecha": "2026-10-13",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "PUZZLE",
-    "PLATAFORMA"
-   ],
-   "desarrollador": "BEHOLD STUDIOS",
-   "descripcion": "Exploración de mazmorras solo o con hasta dos amigos online. Se baja a juntar recursos, se vuelve al campamento a planear la próxima salida junto al fuego y, con lo que se encuentra, se fabrican herramientas y se cocinan platos que dan fuerzas para seguir, porque la comida es clave para avanzar. Abajo esperan pasadizos, puzzles y un misterio escondido entre las sombras.",
-   "trailer": "https://youtube.com/embed/HtN_PLudTUk",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871520/library_600x900.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-08-28",
-   "url": "https://lanzamientos.lat/juegos/deep-dish-dungeon"
-  },
-  {
-   "id": "just-dance-decades-of-hits",
-   "titulo": "JUST DANCE: DECADES OF HITS",
-   "fecha": "2026-10-13",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "MUSICA",
-    "CASUAL",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "UBISOFT",
-   "descripcion": "La entrega de Just Dance armada por décadas: seis, cada una con su estética y su lista de canciones, que se pueden recorrer por separado o mezclar en una lista propia. Suma un Modo Aventura con historia que va pasando por las décadas. Entre los temas están NUEVAYoL de Bad Bunny, Manchild de Sabrina Carpenter, Danza Kuduro, Feel Good Inc. de Gorillaz, Bye Bye Bye de *NSYNC, Wannabe de las Spice Girls y Mamma Mia de ABBA, con coreografías de distinta dificultad.",
-   "trailer": "https://youtube.com/embed/j2gOAliuT34",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.22459.13999831559822150.719990a4-831b-43cb-93a7-ae8ee32b06fd.7575e6c8-4e9f-4e56-9027-04154ac77530?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-08",
-   "url": "https://lanzamientos.lat/juegos/just-dance-decades-of-hits",
-   "noticias": [
-    {
-     "fecha": "2026-10-08",
-     "titulo": "SALE EL 13 DE OCTUBRE EN XBOX",
-     "texto": "La tienda de Xbox ya tiene el día. La PS Store y la eShop todavía no lo listan."
-    }
-   ]
-  },
   {
    "id": "warhammer-40000-boltgun-2",
    "titulo": "WARHAMMER 40,000: BOLTGUN 2",
@@ -204,13 +59,20 @@
    "desarrollador": "RATATA ARTS",
    "descripcion": "Un roguelike de desplazamiento lateral donde todo se hace al ritmo de la música: se avanza, se pega y se esquiva en el tiempo, y perder el pulso se paga. En pantalla llegan a moverse más de cien personajes a la vez, y se puede jugar de a cuatro por internet. Lo hace el equipo detrás de Patapon, y esta es su salida del acceso anticipado.",
    "trailer": "https://youtube.com/embed/fUUb7-0DWe8",
-   "metacritic": null,
+   "metacritic": 79,
+   "critica": "Las reseñas son de la versión de Switch 2. Lo reciben como un heredero de Patapon que no se limita a copiarlo: el ritmo de siempre, ahora dentro de un roguelike, funciona y engancha, y se destacan el color de los personajes y la cantidad de opciones para armar el ejército. Los reparos van a que se vuelve demasiado caótico, a que hay que repetir bastante para mejorar y a la falta de pulido, con algunos problemas de rendimiento en Switch 2 que no todas las reseñas notaron.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-09",
    "url": "https://lanzamientos.lat/juegos/ratatan",
    "noticias": [
+    {
+     "fecha": "2026-10-14",
+     "titulo": "DEBUTA CON 79 EN METACRITIC",
+     "texto": "Salió hoy en Switch 2, PS5 y Xbox Series con 79 de promedio, sobre reseñas de la versión de Switch 2. La mayoría lo ubica a la altura de Patapon, con el caos en pantalla y la falta de pulido como lo más discutido."
+    },
     {
      "fecha": "2026-10-02",
      "titulo": "TAMBIÉN SALE EN PS5 Y XBOX EL 14",
@@ -548,6 +410,43 @@
      "fecha": "2026-10-05",
      "titulo": "EL TRÁILER MÁS COMPLETO, CON BINDI IRWIN",
      "texto": "Salió el tráiler que más muestra del juego, hecho junto con Bindi Irwin: se recorre Brisbane, se juega con Bluey, Bingo y sus amigos y se sacan fotos con la vieja cámara de papá para armar el álbum."
+    }
+   ]
+  },
+  {
+   "id": "antonblast",
+   "titulo": "ANTONBLAST",
+   "fecha": "2026-10-15",
+   "relanzamiento": "En Switch y PC desde 2024",
+   "duracion": "≈ 7,2 h (historia) · 25 h (completo)",
+   "plataformas": [
+    "PS5",
+    "PS4"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "ACCION",
+    "INDIE"
+   ],
+   "desarrollador": "SUMMITSPHERE",
+   "descripcion": "Un plataformas de acción a toda velocidad en el que lo importante es romper todo. Se juega con Dynamite Anton, o con su compañera Annie, y un martillo enorme para demoler mundos raros, pelear con jefes que ocupan toda la pantalla y recuperar los espíritus que les robó Satán.",
+   "trailer": "https://youtube.com/embed/6nnjueEx8Gw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1887400/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-01",
+   "url": "https://lanzamientos.lat/juegos/antonblast",
+   "noticias": [
+    {
+     "fecha": "2026-10-14",
+     "titulo": "SALE EL 15 DE OCTUBRE",
+     "texto": "Joystick Ventures le puso día a la versión de PS5 y PS4: el 15 de octubre. La PS Store todavía no muestra la fecha."
+    },
+    {
+     "fecha": "2026-09-30",
+     "titulo": "LLEGA A PS5 Y PS4 A MEDIADOS DE OCTUBRE",
+     "texto": "Joystick Ventures lo anunció para mediados de octubre, todavía sin día. En Switch y PC salió en diciembre de 2024."
     }
    ]
   },
@@ -1020,6 +919,38 @@
    "url": "https://lanzamientos.lat/juegos/stupid-never-dies"
   },
   {
+   "id": "the-killing-stone",
+   "titulo": "THE KILLING STONE",
+   "fecha": "2026-10-21",
+   "relanzamiento": "En PC (acceso anticipado) desde febrero de 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "CARTAS",
+    "ESTRATEGIA",
+    "HORROR",
+    "INDIE"
+   ],
+   "desarrollador": "QUESTION",
+   "descripcion": "Un juego de cartas sobre un tablero ceremonial, en una región perdida del círculo polar ártico en el siglo XVII. En el centro está la Fanghella, la piedra del título, y se pelea con estatuillas animadas de criaturas mágicas, hechizos y cánticos; una reserva permite apilar unidades y guardar mejoras sobre la línea de batalla para usarlas después, y entre partidas se negocian maldiciones y favores para el mazo. La historia avanza en primera persona: se es un Maven, un maestro de las artes oscuras y el último amigo de Mariken Svangård, y se recorre su mansión hablando con la familia y con animales familiares para entender cómo fueron sus últimos días. Se puede elegir entre un inglés del siglo XVII y uno moderno.",
+   "trailer": "https://youtube.com/embed/sgReLTbcFxY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2781470/a11dd2d426b642b1302dc9a342e243751ff5167b/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-14",
+   "url": "https://lanzamientos.lat/juegos/the-killing-stone",
+   "noticias": [
+    {
+     "fecha": "2026-10-14",
+     "titulo": "SALE DEL ACCESO ANTICIPADO EL 21 DE OCTUBRE",
+     "texto": "Question anunció la versión completa para el 21 de octubre en PS5, Xbox Series y PC. La PS Store ya tiene la ficha, todavía sin fecha. Es de los creadores de The Blackout Club y The Magic Circle."
+    }
+   ]
+  },
+  {
    "id": "final-fantasy-resonance",
    "titulo": "FINAL FANTASY RESONANCE",
    "fecha": "2026-10-22",
@@ -1368,7 +1299,8 @@
    "fecha": "2026-10-27",
    "relanzamiento": "En PC desde octubre de 2025",
    "plataformas": [
-    "SWITCH2"
+    "SWITCH2",
+    "XBOX"
    ],
    "genero": [
     "AVENTURA",
@@ -1380,10 +1312,17 @@
    "trailer": "https://youtube.com/embed/lKI7DVrhWL8",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/4b21069e4de1d75b74640d2691e9f2d7.png",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/the-seance-of-blake-manor"
+   "url": "https://lanzamientos.lat/juegos/the-seance-of-blake-manor",
+   "noticias": [
+    {
+     "fecha": "2026-10-14",
+     "titulo": "TAMBIÉN SALE EN XBOX, Y ENTRA A GAME PASS",
+     "texto": "Raw Fury confirmó en Xbox Wire que llega a Xbox Series el 27 de octubre, el mismo día que en Switch 2, y que entra a Game Pass desde el lanzamiento. La tienda de Xbox ya lo tiene con esa fecha."
+    }
+   ]
   },
   {
    "id": "steins-gate-reboot",
@@ -1987,7 +1926,7 @@
    ],
    "desarrollador": "NINTENDO",
    "descripcion": "El Zelda de Nintendo 64 rehecho para Switch 2: el que definió cómo se juega una aventura en tres dimensiones, ahora con gráficos y banda sonora nuevos. Link cruza dos épocas de Hyrule buscando la Trifuerza, entre templos llenos de puzles y jefes. La edición suma diálogos que antes no estaban, cinemáticas dobladas al español, una habilidad para correr y una cronología para repasar por dónde va la historia.",
-   "trailer": "https://youtube.com/embed/4xtmm2H0W_0",
+   "trailer": "https://youtube.com/embed/FrzKHacg1i4",
    "metacritic": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
    "gamepass": false,
@@ -1995,6 +1934,11 @@
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/the-legend-of-zelda-ocarina-of-time-switch-2",
    "noticias": [
+    {
+     "fecha": "2026-10-14",
+     "titulo": "UN TRÁILER DE CINCO MINUTOS",
+     "texto": "Nintendo publicó un tráiler general que repasa el juego durante cinco minutos, a tres semanas del lanzamiento."
+    },
     {
      "fecha": "2026-09-08",
      "titulo": "YA TIENE FECHA: 5 DE NOVIEMBRE",
