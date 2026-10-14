@@ -11257,7 +11257,7 @@ const JUEGOS = [
     genero: ["PUZZLE", "CASUAL", "RELAX"],
     desarrollador: "LUKAVERSE",
     descripcion: "Un juego tranquilo de encontrar diferencias entre habitaciones llenas de gatos: objetos que se mueven, desaparecen, giran o cambian de color. Algunos niveles muestran las dos habitaciones juntas y otros obligan a memorizar una antes de ver la otra, con ayudas para cuando se complica.",
-    trailer: null,
+    trailer: "https://youtube.com/embed/myxciCCJ6qE",
     metacritic: null,
     imagen: "https://store-images.s-microsoft.com/image/apps.23217.13659597671065926.bd6a9990-5006-4946-bd42-d2dea44cd524.a661d0ea-9c63-47a4-bf46-0a850184bc2a?w=600&h=900&format=jpg",
     gamepass: false,
