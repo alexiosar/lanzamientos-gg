@@ -279,10 +279,10 @@ videojuegos", "ultimos juegos"), todas en baja, más fichas sueltas con 3 impres
   ya salidos.
 
 **Lectura:** el pedido a mano es lo único que mostró efecto medible: 9 de 10 en tres días.
-Conviene seguir con tandas de 10 por día, priorizando lo que se busca ahora. La opción de
-`noindex` para fichas de juegos ya salidos pierde apoyo en los datos de esta semana, porque
-también se caen fichas de juegos de octubre y futuros; queda como dato, la decisión es del
-usuario. Siguen pendientes los enlaces externos.
+Conviene seguir con tandas de 10 por día, priorizando lo que se busca ahora. El `noindex`
+para fichas de juegos ya salidos **quedó descartado** (el usuario, 15/10: nunca le gustó), y
+los datos de esta semana tampoco lo apoyaban: también se caen fichas de juegos de octubre y
+futuros. Siguen pendientes los enlaces externos.
 
 ## Agosto de 2026: el mes en que el sitio entró a Google
 
