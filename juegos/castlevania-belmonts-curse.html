@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
     .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
     .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
@@ -143,6 +144,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">85 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('castlevania-belmonts-curse')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -171,7 +177,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Una de las vueltas más celebradas del año. Para la mayoría, Evil Empire acertó con un Castlevania en 2D que respeta la historia de la saga y tiene identidad propia: Rose Belmont como protagonista, un combate ágil, las cartas de tarot de Sypha para absorber habilidades, un mundo interconectado lleno de secretos y una banda sonora muy elogiada. Varias lo comparan con Symphony of the Night. Los reparos son menores: poca variedad de armas, saltos que castigan mucho, un equilibrio que puede frustrar y, para unas pocas reseñas, que no aporta nada nuevo en un género lleno de metroidvanias.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-15</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 85 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">Salió hoy con 85 de promedio sobre más de cincuenta reseñas, casi todas de PS5, y varias con la nota máxima. Es el regreso de Castlevania en 2D después de más de una década.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-09-20</span>

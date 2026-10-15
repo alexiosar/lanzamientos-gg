@@ -1979,7 +1979,7 @@ y abrir http://localhost:8080
 
 ### Ideas del usuario del 27/08/2026 (sin empezar)
 
-- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 09/10/2026).**
+- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 15/10/2026).**
   Los trajo Gematsu y **ninguno se cargó**, porque ninguna tienda de consola los lista. No es
   que estén mal: es que todavía no aparecieron. Se revisan de nuevo en cada semanal y entran
   en cuanto la tienda los tome.
@@ -2043,6 +2043,14 @@ y abrir http://localhost:8080
   | Warhammer Survivors (Switch 2) | 10 de noviembre (blog de PlayStation y Steam, 6/10) | **Ya está cargado en PS5, Xbox y Switch 2.** Steam confirma el día; la PS Store y Xbox lo listan sin día y la eShop no lo tiene |
   | Angelian Trigger | PS5 en 2027 (Gematsu, 6/10) | **No se cargó**: la PS Store no lo lista. En PC sale el 10/12 |
   | Arcade Archives 2: Fighting Golf (Switch) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en PS5, PS4 y Xbox**, que lo listan desde el 8. La eShop no lo tiene |
+  | Arcade Archives 2: Thundercade (Switch 2) | 15 de octubre (Gematsu, 14/10) | **Ya está cargado en PS5, PS4 y Xbox**, las tres a la venta el 15. La eShop no lo tiene |
+  | Console Archives: The Drug Store (Switch 2) | 15 de octubre (Gematsu, 14/10) | **Ya está cargado en PS5**, a la venta el 15. La eShop no lo tiene |
+  | Red Rooster | PS5, Xbox, Switch 2 y PC (Gematsu, 14/10) | Recién anunciado: sin fecha y sin ficha en ninguna tienda |
+  | Forge of the Fae | Marzo de 2027 en PS5, Xbox, PS4 y otras (Gematsu, 15/10) | Ni la PS Store ni Xbox lo listan, y Steam dice "por anunciar" |
+  | Lair of the Leviathan · Drova II: Torn Lands | PS5, Xbox, PS4, Xbox One, Switch y PC (Gematsu, 15/10) | Sin fecha, así que no hay fila de calendario que hacer |
+  | holoVillage: Our Cozy Days (Switch 2) | 22 de octubre (Gematsu, 15/10) | La eShop no lo lista. En PC salió en abril |
+  | Reverie in the Moonlight | 19 de noviembre en Switch 2 y Switch (Gematsu, 15/10) | La eShop no lo lista. En PC salió en noviembre de 2025 |
+  | Hokko Spaces | 29 de octubre en Switch (Gematsu, 15/10) | La eShop no lo lista; Steam confirma el día para PC |
   | Console Archives Ripple Island (Switch 2) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en PS5**, que lo lista desde el 8. La eShop no lo tiene |
   | Spyder: Agent 8 (Switch 2) | 11 de febrero de 2027 (Gematsu, 8/10) | **Ya está cargado en PS5 y Xbox**, que confirman el día. La eShop no lo tiene |
   | My Friendly Neighborhood (Switch 2) | 22 de octubre (Gematsu, 6/10) | **No se cargó**: la eShop y Nintendo US no lo listan. Salió en 2025 en las otras consolas, así que entra con `relanzamiento` |

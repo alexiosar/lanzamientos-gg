@@ -2,146 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-14T18:01:40+00:00",
+ "generado": "2026-10-15T15:22:49+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-14",
- "hasta": "2026-11-13",
- "total": 84,
+ "desde": "2026-10-15",
+ "hasta": "2026-11-14",
+ "total": 81,
  "juegos": [
-  {
-   "id": "warhammer-40000-boltgun-2",
-   "titulo": "WARHAMMER 40,000: BOLTGUN 2",
-   "fecha": "2026-10-14",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "FPS",
-    "ACCION",
-    "RETRO"
-   ],
-   "desarrollador": "AUROCH DIGITAL",
-   "descripcion": "La secuela del shooter retro de Warhammer 40,000, con la estética de los FPS de los noventa. Esta vez hay dos personajes para elegir, cada uno con sus armas y su forma de jugar: Malum Caedo, el marine de la primera parte, o Nyra Veyrath, una hermana de batalla más ágil. La campaña tiene caminos que se ramifican.",
-   "trailer": "https://youtube.com/embed/Qkg4CpTRugE",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9uam.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/warhammer-40000-boltgun-2",
-   "noticias": [
-    {
-     "fecha": "2026-09-23",
-     "titulo": "MÁS DE 30 NIVELES Y UNA CAMPAÑA QUE SE RAMIFICA",
-     "texto": "Auroch Digital repasó lo nuevo de la secuela: se elige qué planeta visitar, así que en una sola partida no se ve todo; hay más de 40 enemigos nuevos de los cuatro dioses del Caos, Nurgle, Tzeentch, Khorne y Slaanesh, jefes más trabajados y, en algunos planetas, soldados de la Death Korps of Krieg que pelean al lado del protagonista."
-    }
-   ]
-  },
-  {
-   "id": "ratatan",
-   "titulo": "RATATAN",
-   "fecha": "2026-10-14",
-   "relanzamiento": "En PC (acceso anticipado) desde 2025",
-   "duracion": "≈ 9 h (historia)",
-   "plataformas": [
-    "SWITCH2",
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "MUSICA",
-    "ACCION",
-    "ROGUELIKE",
-    "COOP"
-   ],
-   "desarrollador": "RATATA ARTS",
-   "descripcion": "Un roguelike de desplazamiento lateral donde todo se hace al ritmo de la música: se avanza, se pega y se esquiva en el tiempo, y perder el pulso se paga. En pantalla llegan a moverse más de cien personajes a la vez, y se puede jugar de a cuatro por internet. Lo hace el equipo detrás de Patapon, y esta es su salida del acceso anticipado.",
-   "trailer": "https://youtube.com/embed/fUUb7-0DWe8",
-   "metacritic": 79,
-   "critica": "Las reseñas son de la versión de Switch 2. Lo reciben como un heredero de Patapon que no se limita a copiarlo: el ritmo de siempre, ahora dentro de un roguelike, funciona y engancha, y se destacan el color de los personajes y la cantidad de opciones para armar el ejército. Los reparos van a que se vuelve demasiado caótico, a que hay que repetir bastante para mejorar y a la falta de pulido, con algunos problemas de rendimiento en Switch 2 que no todas las reseñas notaron.",
-   "metacriticUsuarios": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2949320/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-09",
-   "url": "https://lanzamientos.lat/juegos/ratatan",
-   "noticias": [
-    {
-     "fecha": "2026-10-14",
-     "titulo": "DEBUTA CON 79 EN METACRITIC",
-     "texto": "Salió hoy en Switch 2, PS5 y Xbox Series con 79 de promedio, sobre reseñas de la versión de Switch 2. La mayoría lo ubica a la altura de Patapon, con el caos en pantalla y la falta de pulido como lo más discutido."
-    },
-    {
-     "fecha": "2026-10-02",
-     "titulo": "TAMBIÉN SALE EN PS5 Y XBOX EL 14",
-     "texto": "La PS Store y la tienda de Xbox ya lo tienen para el 14 de octubre, el mismo día que en Switch 2."
-    }
-   ]
-  },
-  {
-   "id": "the-witchs-bakery",
-   "titulo": "THE WITCH'S BAKERY",
-   "fecha": "2026-10-14",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE",
-    "RPG",
-    "SIMULACION"
-   ],
-   "desarrollador": "SUNNY LAB",
-   "descripcion": "Un juego de rol y aventura en 2D donde se es una bruja con panadería en París. Se atiende la tienda, se recorren calles conocidas de la ciudad y se reconforta a la gente con lo que sale del horno.",
-   "trailer": "https://youtube.com/embed/52DNO516s34",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2967950/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/the-witchs-bakery",
-   "noticias": [
-    {
-     "fecha": "2026-07-31",
-     "titulo": "SE RETRASÓ DOS MESES, AL 14 DE OCTUBRE",
-     "texto": "Estaba anunciado para el 20 de agosto y se movió al 14 de octubre. Sale en PS5, Xbox Series, Switch 2, Switch y PC, con ediciones físicas para PS5, Switch 2 y Switch que incluyen un libro de recetas digital si se compran temprano."
-    }
-   ]
-  },
-  {
-   "id": "yar-forgotten-throne",
-   "titulo": "YAR: FORGOTTEN THRONE",
-   "fecha": "2026-10-14",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "RPG",
-    "MUNDO ABIERTO"
-   ],
-   "desarrollador": "HONOR GAMES",
-   "descripcion": "Un RPG de mundo abierto con historia, en las tierras de Borea. Se elige entre guerrero, volkhv o arquero y se investiga el origen de la oscuridad que envenena bosques y animales, a lo largo de más de cien misiones y uniéndose a una de dos facciones. Hay biomas distintos y tres asentamientos grandes, y muchos oficios para aprender: alquimia, cocina, herrería, encantamiento, pesca y joyería, entre otros. La dificultad va de un modo centrado en la historia a uno exigente con guardado limitado.",
-   "trailer": "https://youtube.com/embed/Nsiw3wCoeMg",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.10010.14489496100042140.9dede2a9-8baa-48d8-b8df-1df9dcc25f26.7d5af20c-d16d-4dcd-b2cc-6d01c5fdc7d4?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-08",
-   "url": "https://lanzamientos.lat/juegos/yar-forgotten-throne",
-   "noticias": [
-    {
-     "fecha": "2026-10-08",
-     "titulo": "SALE EL 14 DE OCTUBRE",
-     "texto": "Axyos Games lo puso a la venta para el 14 de octubre en PS5 y Xbox Series."
-    }
-   ]
-  },
   {
    "id": "chained-beasts",
    "titulo": "CHAINED BEASTS",
@@ -255,13 +122,20 @@
    "desarrollador": "KONAMI",
    "descripcion": "Un Castlevania nuevo de acción y exploración en 2D, hecho por Konami junto a Evil Empire y Motion Twin, los de Dead Cells. La historia pasa 23 años después de Castlevania III: Dracula's Curse y la protagonista es Rose Belmont.",
    "trailer": "https://youtube.com/embed/ZRgOG0Phue8",
-   "metacritic": null,
+   "metacritic": 85,
+   "critica": "Una de las vueltas más celebradas del año. Para la mayoría, Evil Empire acertó con un Castlevania en 2D que respeta la historia de la saga y tiene identidad propia: Rose Belmont como protagonista, un combate ágil, las cartas de tarot de Sypha para absorber habilidades, un mundo interconectado lleno de secretos y una banda sonora muy elogiada. Varias lo comparan con Symphony of the Night. Los reparos son menores: poca variedad de armas, saltos que castigan mucho, un equilibrio que puede frustrar y, para unas pocas reseñas, que no aporta nada nuevo en un género lleno de metroidvanias.",
+   "metacriticUsuarios": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/36368348f3b5677aacd95ca9c51a0c4b.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/castlevania-belmonts-curse",
    "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "DEBUTA CON 85 EN METACRITIC",
+     "texto": "Salió hoy con 85 de promedio sobre más de cincuenta reseñas, casi todas de PS5, y varias con la nota máxima. Es el regreso de Castlevania en 2D después de más de una década."
+    },
     {
      "fecha": "2026-09-20",
      "titulo": "HAY DEMO DESDE EL 1 DE OCTUBRE",
@@ -287,13 +161,20 @@
    "desarrollador": "KEEN GAMES GMBH",
    "descripcion": "Un RPG de acción y supervivencia cooperativo para hasta dieciséis jugadores. Se es un Flameborn, la última esperanza de una raza que se muere, en un reino tapado por una niebla corrupta: se pelea contra enemigos, se construyen edificaciones y se va recuperando el mundo.",
    "trailer": "https://youtube.com/embed/qygf4aICf34",
-   "metacritic": null,
+   "metacritic": 89,
+   "critica": "Las reseñas son de la versión de PC. Lo ponen entre los mejores juegos de supervivencia y construcción: un mundo abierto con mucha atmósfera, una construcción con vóxeles a la altura de Minecraft y una progresión de RPG de acción que funciona solo o en grupo. Destacan que los dos años de acceso anticipado le sentaron bien y que deja la supervivencia en segundo plano para darle lugar a la exploración. Los reparos van a un combate con poca profundidad y a que el mundo de vóxeles muestra sus límites.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/enshrouded",
    "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "LLEGA A PS5 CON 89 EN METACRITIC",
+     "texto": "Salió hoy en PS5 con 89 de promedio en Metacritic, sobre reseñas de la versión de PC, que pasó dos años en acceso anticipado. Es el puntaje más alto de los estrenos de octubre."
+    },
     {
      "fecha": "2026-10-08",
      "titulo": "LA 1.0 SUMA MAGIA NUEVA Y MECANISMOS PARA CONSTRUIR",
@@ -319,12 +200,22 @@
    "desarrollador": "DUAL EFFECT",
    "descripcion": "Vuelve Caroline Walker en la secuela de este clásico del terror y la supervivencia. Explorás los restos decadentes de Villa Hess, usás armas improvisadas contra criaturas aterradoras y alterás la realidad para intentar salvar a quien todavía se pueda. La edición de Switch 2 sale en digital y en físico, en formato Game-Key Card.",
    "trailer": "https://youtube.com/embed/fXKi0lyGox0",
-   "metacritic": null,
+   "metacritic": 78,
+   "critica": "Las reseñas son de la versión de PC de 2025. Lo reciben como una carta de amor al survival horror clásico, a la manera de Resident Evil y Silent Hill, y coinciden en que supera al primero: mejor diseño del mundo, buen ritmo, puzles ingeniosos y mucha atmósfera. Lo hace el estudio chileno Dual Effect. Los reparos van a los guardados limitados, que suben la tensión pero también frustran, y a algunos enfrentamientos que se vuelven molestos.",
+   "metacriticUsuarios": 7.9,
+   "metacriticVotos": 129,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2464280/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-30",
-   "url": "https://lanzamientos.lat/juegos/tormented-souls-2"
+   "url": "https://lanzamientos.lat/juegos/tormented-souls-2",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALIÓ HOY EN SWITCH 2",
+     "texto": "La versión de Switch 2 ya está a la venta. En Metacritic tiene 78, el promedio de las reseñas de la versión de PC de 2025."
+    }
+   ]
   },
   {
    "id": "toy-story-3-complete-edition",
@@ -399,13 +290,20 @@
    "desarrollador": "GAMELOFT",
    "descripcion": "Un juego de sacar fotos para chicos con Bluey y Bingo, que encontraron la vieja cámara de su papá. Se recorren lugares conocidos de la serie y se retratan sus juegos y los animales que aparecen, y cada foto queda guardada en el álbum de recuerdos de Bluey. No se puede fallar ni perder: está pensado para jugarlo con los chicos al lado.",
    "trailer": "https://youtube.com/embed/8uYZrfXjPfY",
-   "metacritic": null,
+   "metacritic": 77,
+   "critica": "Las reseñas son de la versión de Switch 2. Coinciden en que captura el espíritu de la serie y está hecho con cuidado: fotos para sacar, secretos para encontrar, un álbum para completar y un menú con actividades para repetir con los chicos fuera de la pantalla. Es para fans de Bluey y para jugar con los más chicos. Los reparos van a que se siente como un juego de tableta agrandado y a que, para quien no conoce la serie, hay mejores opciones.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwy.jpg",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-09-09",
    "url": "https://lanzamientos.lat/juegos/blueys-happy-snaps",
    "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "DEBUTA CON 77 EN METACRITIC",
+     "texto": "Salió hoy en todas las consolas y entró a Game Pass el mismo día. Debutó con 77 de promedio sobre reseñas de la versión de Switch 2."
+    },
     {
      "fecha": "2026-10-05",
      "titulo": "EL TRÁILER MÁS COMPLETO, CON BINDI IRWIN",
@@ -431,13 +329,21 @@
    "desarrollador": "SUMMITSPHERE",
    "descripcion": "Un plataformas de acción a toda velocidad en el que lo importante es romper todo. Se juega con Dynamite Anton, o con su compañera Annie, y un martillo enorme para demoler mundos raros, pelear con jefes que ocupan toda la pantalla y recuperar los espíritus que les robó Satán.",
    "trailer": "https://youtube.com/embed/6nnjueEx8Gw",
-   "metacritic": null,
+   "metacritic": 87,
+   "critica": "Las reseñas son de la versión de PC de 2024. Lo celebran como un heredero de Wario Land con identidad propia: plataformas en 2D a toda velocidad, niveles pensados para romperlo todo, jefes enormes y un humor irreverente. Varias lo ponen entre los mejores plataformas de los últimos años, con la advertencia de que es difícil y pide práctica para dominarlo. Los reparos van al caos, que a veces se pasa de rosca, y a los jefes, que cortan el ritmo.",
+   "metacriticUsuarios": 8.4,
+   "metacriticVotos": 40,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1887400/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-10-01",
    "url": "https://lanzamientos.lat/juegos/antonblast",
    "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALIÓ HOY EN PS5 Y PS4",
+     "texto": "Ya está a la venta en PS5 y PS4. En Metacritic tiene 87, el promedio de las reseñas de la versión de PC de 2024."
+    },
     {
      "fecha": "2026-10-14",
      "titulo": "SALE EL 15 DE OCTUBRE",
@@ -527,6 +433,67 @@
    "psplus": false,
    "alta": "2026-10-09",
    "url": "https://lanzamientos.lat/juegos/wolfsschanze-operation-gotterdammerung"
+  },
+  {
+   "id": "arcade-archives-2-thundercade",
+   "titulo": "ARCADE ARCHIVES 2: THUNDERCADE",
+   "fecha": "2026-10-15",
+   "relanzamiento": "Original de recreativa de SETA, 1987",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX"
+   ],
+   "genero": [
+    "SHOOTER",
+    "RETRO",
+    "ARCADE"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "El shooter de recreativa de SETA de 1987. Como parte de unas fuerzas especiales, se maneja una moto a toda velocidad armada con ametralladoras, rumbo a la fortaleza enemiga. Al destruir edificios aparecen sidecares con cañones que se enganchan a la moto: algunos disparan más lejos y otros sólo hacia los costados, así que conviene elegir según la situación. Como el resto de Arcade Archives 2, suma un modo contrarreloj a los de siempre.",
+   "trailer": "https://youtube.com/embed/0qGg6_NzmCY",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.27380.14176643983416865.bb095152-ee6f-4e6a-9d62-c9f7107afc16.16d2b4a2-a1cb-4531-9876-899997ea8bb8?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-15",
+   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-thundercade",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
+     "texto": "En PS5 y Xbox salió como Arcade Archives 2, y en PS4 dentro de la serie original. HAMSTER lo anunció también para Switch 2, que todavía no aparece en la eShop."
+    }
+   ]
+  },
+  {
+   "id": "console-archives-the-drug-store",
+   "titulo": "CONSOLE ARCHIVES: THE DRUG STORE",
+   "fecha": "2026-10-15",
+   "relanzamiento": "La versión de HUMAN es de 1998 — esta es la reedición para consolas actuales",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RETRO"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "La simulación de HUMAN de 1998 para una consola hogareña de 32 bits, en la serie Console Archives. Se maneja una farmacia con la meta de abrir muchos locales y hacer crecer el capital, eligiendo la ubicación, los productos y el tipo de clientela de cada zona; si la relación con algún empleado es buena, hasta pueden aparecer productos propios. El juego está sólo en japonés; el menú de opciones y el manual sí vienen en español. Se puede guardar en cualquier momento y cambiar la disposición de los botones.",
+   "trailer": "https://youtube.com/embed/dbHdewywwtc",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0203/4430350485ba6817edee6596c4e8ca3b5ed3409831439f64.jpg?w=600&thumb=false",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-15",
+   "url": "https://lanzamientos.lat/juegos/console-archives-the-drug-store",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALIÓ HOY EN PS5",
+     "texto": "HAMSTER lo puso a la venta el 15 de octubre en PS5. También lo anunció para Switch 2, que todavía no tiene ficha en la eShop."
+    }
+   ]
   },
   {
    "id": "tales-of-eternia-remastered",
@@ -1898,28 +1865,6 @@
    "psplus": false,
    "alta": "2026-09-17",
    "url": "https://lanzamientos.lat/juegos/kingdom-of-night"
-  },
-  {
-   "id": "edge-of-memories",
-   "titulo": "EDGE OF MEMORIES",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "RPG",
-    "ACCION"
-   ],
-   "desarrollador": "MIDGAR STUDIO",
-   "descripcion": "Un RPG de acción de Midgar Studio, los de Edge of Eternity. Una plaga llamada corrosión arrasó un continente y ahora amenaza a los pueblos nómadas de Avaris. Eline, una susurradora de almas, descubre que puede controlar la corrosión dentro de su propio cuerpo, y con Ysoris, su mentor, y Kanta, un príncipe chamán, sale a frenarla.",
-   "trailer": "https://youtube.com/embed/WsbT4fnsCMU",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2738170/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/edge-of-memories"
   },
   {
    "id": "the-legend-of-zelda-ocarina-of-time-switch-2",
