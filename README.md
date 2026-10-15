@@ -1831,6 +1831,26 @@ ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
    con `fetch` desde la misma pestaña de releases.com: así el cruce se hace entero en el
    navegador, sin copiar 366 filas a mano. **Ojo:** salir de releases.com a otra página
    borra lo que quedó en `window`; verificar en las tiendas después de anotar el cruce.
+   **Barrido del 15/10/2026** (mismo método, del 15/10 al 30/04/2027 más los códigos de mes,
+   trimestre y año): 523 entradas, 364 de consola. **Se cargaron 5**, todos verificados en
+   tienda: Dog Man: Bark in Action (PS5, PS4, Xbox y Switch, 27/10), Hunter's Moon (PS5, 26/10),
+   Planted! (PS5 y Xbox, 29/10), Terrible Lizards (Xbox, 29/10) y The End of the Sun (Xbox,
+   4/11). **Corregidos:** Whirlight pasa de estimado a 12/11 (eShop), Sonic Pico Park del 11 al
+   12/11 (PS Store), y se sumó Xbox a Escape Academy 2 y a Warrior Cats. Los trimestres y los
+   "2027" sin mes quedan para el backlog de la mensual (paso 12 bis). Diferencias de este
+   barrido que **no respalda ninguna tienda**, además de las que ya estaban en las tablas:
+
+   | Juego | Lo que decía releases.com | Lo que dice la tienda |
+   |---|---|---|
+   | Warhammer 40,000: Boltgun (Switch 2) · Hell is Us (Switch 2) · Cities: Skylines (Switch 2) · Harold Halibut · Eriksholm · Bubble Bobble 4 Friends: The Baron is Back · Shin chan (los dos) · Castlebound · Tom the Postgirl · Outbreak: Dead City · Piece by Piece | Switch o Switch 2, con día | Ninguno está en la eShop europea |
+   | Supermarket Simulator · Among Us Story: On Guard · Rogue Reigns (28/10) | Con día | No están en la PS Store ni en la tienda de Xbox |
+   | VOID/BREAKER | + Xbox el 4/11 | Xbox lo vende como "versión preliminar" (Game Preview): es acceso anticipado, no un lanzamiento |
+   | Arizona Sunshine Remake | PS5, Xbox y Switch 2 el 21/01/2027 | La PS Store tiene un "Arizona Sunshine" de PS5 en preventa para esa fecha, pero en Steam el remake es de realidad virtual y la ficha de PS no lo aclara. Xbox y la eShop no lo listan |
+   | Reshine · Gravhounds · RACCOIN | Con día o mes | Las tiendas los listan sin fecha |
+   | Frostpunk | + Switch 2 | La eShop sólo tiene la de Switch, que ya está cargada |
+   | Terrible Lizards (PS5) | + PS5 | La PS Store tiene el 29/10 pero no dice qué consola. Quedó cargado sólo en Xbox |
+   | Crimson Desert Enhanced · DayZ Badlands · BALL x PIT: Risen Ballbylon · Cairn: Deep Water · Lightyear Frontier | — | Expansiones, actualizaciones o un 1.0 de un juego que ya estaba en consola |
+
    **Las reediciones de HAMSTER que faltaban** (unas cuarenta entre junio y septiembre, con
    cuatro cargadas) **no se van a buscar**: el usuario decidió el 24/09 cargarlas sólo de
    ahí en adelante. Está explicado en "Fuentes de datos habituales".

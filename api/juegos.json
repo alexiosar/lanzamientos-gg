@@ -2,10 +2,10 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-15T15:22:49+00:00",
+ "generado": "2026-10-15T16:28:37+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "total": 528,
+ "total": 533,
  "juegos": [
   {
    "id": "the-necromancers-tale",
@@ -5605,7 +5605,7 @@
   {
    "id": "sonic-pico-park",
    "titulo": "SONIC PICO PARK",
-   "fecha": "2026-11-11",
+   "fecha": "2026-11-12",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -5624,7 +5624,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/sonic-pico-park"
+   "url": "https://lanzamientos.lat/juegos/sonic-pico-park",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALE EL 12 DE NOVIEMBRE",
+     "texto": "La PS Store lo tiene para el 12 de noviembre, un día después de lo que figuraba. La tienda de Xbox lo lista sin día."
+    }
+   ]
   },
   {
    "id": "prinny-party-going-overboard",
@@ -11240,9 +11247,7 @@
   {
    "id": "whirlight-no-time-to-trip",
    "titulo": "WHIRLIGHT - NO TIME TO TRIP",
-   "fecha": "2026-12-31",
-   "estimado": true,
-   "fechaEstimada": "CUARTO TRIMESTRE 2026",
+   "fecha": "2026-11-12",
    "plataformas": [
     "SWITCH",
     "PS5",
@@ -11263,6 +11268,11 @@
    "alta": "2026-08-10",
    "url": "https://lanzamientos.lat/juegos/whirlight-no-time-to-trip",
    "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "LAS VERSIONES DE CONSOLA SALEN EL 12 DE NOVIEMBRE",
+     "texto": "La eShop ya tiene la versión de Switch para el 12 de noviembre. La tienda de Xbox lo lista sin día y la PS Store todavía no lo tiene."
+    },
     {
      "fecha": "2026-09-24",
      "titulo": "NO SALIÓ EN EL TERCER TRIMESTRE",
@@ -13834,7 +13844,8 @@
    "plataformas": [
     "SWITCH2",
     "SWITCH",
-    "PS5"
+    "PS5",
+    "XBOX"
    ],
    "genero": [
     "ACCION",
@@ -13849,7 +13860,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/warrior-cats-clans-of-the-forest"
+   "url": "https://lanzamientos.lat/juegos/warrior-cats-clans-of-the-forest",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "TAMBIÉN SALE EN XBOX",
+     "texto": "La tienda de Xbox lo lista para el 23 de octubre, el mismo día que en las demás consolas, junto con una Feral Edition."
+    }
+   ]
   },
   {
    "id": "the-seance-of-blake-manor",
@@ -15948,7 +15966,8 @@
    "titulo": "ESCAPE ACADEMY 2: BACK 2 SCHOOL",
    "fecha": "2026-11-05",
    "plataformas": [
-    "PS5"
+    "PS5",
+    "XBOX"
    ],
    "genero": [
     "PUZZLE",
@@ -15965,6 +15984,11 @@
    "alta": "2026-10-13",
    "url": "https://lanzamientos.lat/juegos/escape-academy-2-back-2-school",
    "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "TAMBIÉN SALE EN XBOX",
+     "texto": "La tienda de Xbox ya tiene la edición Deluxe para el 5 de noviembre, el mismo día que en PS5."
+    },
     {
      "fecha": "2026-10-13",
      "titulo": "LLEGA A PS5 EL 5 DE NOVIEMBRE",
@@ -16315,6 +16339,156 @@
      "fecha": "2026-10-14",
      "titulo": "SALE EN 2027 EN PS5 Y XBOX",
      "texto": "Big Fan lo confirmó para diciembre en PC y para 2027 en PS5 y Xbox Series. La PS Store y la tienda de Xbox ya tienen la ficha, sin fecha."
+    }
+   ]
+  },
+  {
+   "id": "dog-man-bark-in-action",
+   "titulo": "DOG MAN: BARK IN ACTION",
+   "fecha": "2026-10-27",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "PLATAFORMA",
+    "CASUAL"
+   ],
+   "desarrollador": "FLOOR 84",
+   "descripcion": "Un juego de acción con estética de historieta basado en Dog Man, los cómics de Dav Pilkey, el autor del Capitán Calzoncillos. El Doctor Escoria llenó la ciudad de pantallas hipnóticas para controlar a la gente, y Dog Man, mitad perro y mitad hombre, sale a frenarlo. Se alterna entre Dog Man y sus Superamigos, Peque Pedrito y 80-HD, cada uno con habilidades propias para pasar obstáculos, y se puede llamar a otros personajes de los cómics hasta sumar diez. Hay jefes y artilugios que dan habilidades nuevas.",
+   "trailer": "https://youtube.com/embed/56ztJ_sIF3g",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4782240/dbbf0d6bcb0a7ab40b724d8b57c3a5075a1b4d90/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-15",
+   "url": "https://lanzamientos.lat/juegos/dog-man-bark-in-action",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALE EL 27 DE OCTUBRE",
+     "texto": "La eShop y Steam lo tienen para el 27 de octubre. La PS Store lo lista para octubre en PS5 y PS4, y la tienda de Xbox sin día."
+    }
+   ]
+  },
+  {
+   "id": "hunters-moon",
+   "titulo": "HUNTER'S MOON",
+   "fecha": "2026-10-26",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "HORROR",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "TWIN SWANS",
+   "descripcion": "Una aventura de terror folclórico en primera persona que transcurre en una sola noche. Se juega con Lilith Thorne, una mujer acusada de brujería que tiene que escapar por una aldea del siglo XVII, bosques y páramos sin que la vean, perseguida por el general cazador de brujas, el magistrado del pueblo y un cazador local. En el camino aparecen personajes enmascarados con ropa de época y se escuchan a escondidas las historias de un pueblo golpeado por la guerra y la desgracia.",
+   "trailer": "https://youtube.com/embed/bKMaeHoJY2A",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1415/bf512cc15feb849e4a36c376c761828391e3f17dad1a99a6.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-15",
+   "url": "https://lanzamientos.lat/juegos/hunters-moon",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALE EL 26 DE OCTUBRE EN PS5",
+     "texto": "Se anunció en el State of Play de septiembre. La PS Store ya lo tiene para el 26 de octubre."
+    }
+   ]
+  },
+  {
+   "id": "terrible-lizards",
+   "titulo": "TERRIBLE LIZARDS",
+   "fecha": "2026-10-29",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "HORROR",
+    "ACCION",
+    "INDIE"
+   ],
+   "desarrollador": "WDR STUDIOS",
+   "descripcion": "Terror con parkour en primera persona en Dalton's Dinos, un parque de dinosaurios al costado de la Ruta 66, en Nuevo México, en 1992. El auto se rompe lejos de todo, el personal desapareció y una voz en un teléfono pide ayuda para encontrar a un chico perdido. Adentro hay criaturas que cazan y persiguen, y para sobrevivir hay que correr, saltar y trepar sin frenar.",
+   "trailer": "https://youtube.com/embed/nAEerNJJwW0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920220/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-15",
+   "url": "https://lanzamientos.lat/juegos/terrible-lizards",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALE EL 29 DE OCTUBRE",
+     "texto": "Steam confirma el 29 de octubre y la tienda de Xbox lo lista. La PS Store tiene la misma fecha pero la ficha no dice para qué consola."
+    }
+   ]
+  },
+  {
+   "id": "planted",
+   "titulo": "PLANTED!",
+   "fecha": "2026-10-29",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "MULTIJUGADOR",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "CLOTH CAT GAMES",
+   "descripcion": "Un juego de fiesta donde las huertas son arenas y las plantas, armas. Se reclama una parcela, se siembra y se defiende el territorio: cada semilla es una decisión entre una cosecha segura o un cultivo arriesgado que puede dar vuelta la partida, o dejar que los demás trabajen y robarles. Se abona con estrategia, se cultivan plantas gigantes y después se les tiran a los rivales, con la advertencia de que cuanto más grande la cosecha, más llama la atención.",
+   "trailer": "https://youtube.com/embed/TMnZTQZ3mYw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448000/3128a4de9247fb716b6402757f96c74845114e92/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-15",
+   "url": "https://lanzamientos.lat/juegos/planted",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALE EL 29 DE OCTUBRE",
+     "texto": "La PS Store y Steam lo tienen para el 29 de octubre. La tienda de Xbox lo lista sin día."
+    }
+   ]
+  },
+  {
+   "id": "the-end-of-the-sun",
+   "titulo": "THE END OF THE SUN",
+   "fecha": "2026-11-04",
+   "relanzamiento": "En PC desde enero de 2025",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "THE END OF THE SUN FORGE",
+   "descripcion": "Una aventura de exploración en primera persona en un mundo de fantasía eslava. Se encarna a un Ashter, un mago de fuego que maneja el tiempo y llega a una aldea donde la realidad está distorsionada y de los habitantes sólo quedan fogones humeantes. A través del fuego se ven rastros, seres míticos y espíritus de lo que pasó, y con eso hay que resolver acertijos y cambiar el destino del pueblo.",
+   "trailer": "https://youtube.com/embed/9kCB2tUoTts",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/912840/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-15",
+   "url": "https://lanzamientos.lat/juegos/the-end-of-the-sun",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "LLEGA A XBOX EL 4 DE NOVIEMBRE",
+     "texto": "Se anunció para Xbox Series en un tráiler de ID@Xbox, y la tienda ya lo tiene para el 4 de noviembre. En PC salió en enero de 2025."
     }
    ]
   }
