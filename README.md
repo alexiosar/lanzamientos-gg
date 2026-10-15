@@ -1066,6 +1066,15 @@ grupos de seis palabras seguidas de nuestra descripción aparece en el texto de 
 0,4 es copia; entre 0,15 y 0,3 suele ser una frase suelta y hay que mirarla. Steam corta si
 se le pide rápido: con una pausa de 1,6 segundos los 214 juegos pasan sin fallas.
 
+**Y tampoco alcanza para las traducciones al voseo** (15/10/2026). Ese día aparecieron 36
+descripciones copiadas que la comparación con Steam en español no ve, porque son el texto en
+inglés traducido y pasado al voseo: "Unite a un equipo…", "Hacé trucos, girá y deslizate…",
+"¿Alguna vez te preguntaste…?". Una más estaba en inglés sin traducir (Muchi Muchi Pork). Las
+señales que las delatan: arrancar con un imperativo (Unite, Metete, Viví, Acompañá, Reclutá),
+preguntas retóricas, "te espera", "te sumerge", "aclamado", "única", "alocada", y "Bienvenido
+a…". El voseo narrativo propio ("Sos Glimmer, un pajarito…") está permitido; el problema es el
+folleto traducido. Se reescribieron todas desde la tienda en inglés.
+
 Si un mes se carga sin `intro` sale una línea genérica de respaldo, para que no quede un
 hueco. Es respaldo, no la opción normal: no puede nombrar un juego.
 
