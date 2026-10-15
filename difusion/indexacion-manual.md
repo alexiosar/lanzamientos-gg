@@ -20,6 +20,9 @@ estrenos recientes.
 
 ## Día 1
 
+**Resultado al 15/10:** 9 de 10 salieron de las listas de "sin indexar". Sigue afuera Order of
+the Sinking Star, que pasa al día 5.
+
 - [ ] https://lanzamientos.lat/octubre-2026
 - [ ] https://lanzamientos.lat/ps-plus-octubre-2026
 - [ ] https://lanzamientos.lat/game-pass-octubre-2026
@@ -69,6 +72,36 @@ estrenos recientes.
 - [ ] https://lanzamientos.lat/juegos/star-ocean-the-second-story-r
 - [ ] https://lanzamientos.lat/juegos/buckshot-roulette
 - [ ] https://lanzamientos.lat/juegos/xenoblade-chronicles-2
+
+## Día 5 (desde el 16/10)
+
+Las siete fichas grandes que el 14/10 dejaron de ser flacas tienen todavía el `noindex` viejo en
+la última visita de Google: pedirlas es la forma de que lo vea sacado. Más las que se cayeron
+esta semana siendo de octubre.
+
+- [ ] https://lanzamientos.lat/juegos/metroid-ravenous
+- [ ] https://lanzamientos.lat/juegos/until-dawn-2
+- [ ] https://lanzamientos.lat/juegos/pokemon-winds
+- [ ] https://lanzamientos.lat/juegos/pokemon-waves
+- [ ] https://lanzamientos.lat/juegos/kirby-and-the-world-beyond
+- [ ] https://lanzamientos.lat/juegos/hyrule-warriors-age-of-calamity-definitive-edition
+- [ ] https://lanzamientos.lat/juegos/ghost-of-yotei-complete-edition
+- [ ] https://lanzamientos.lat/juegos/dragons-dogma-2-dark-arisen
+- [ ] https://lanzamientos.lat/juegos/kingdom-hearts-collection
+- [ ] https://lanzamientos.lat/juegos/order-of-the-sinking-star
+
+## Día 6
+
+- [ ] https://lanzamientos.lat/juegos/lets-sing-abba
+- [ ] https://lanzamientos.lat/juegos/he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction
+- [ ] https://lanzamientos.lat/juegos/the-alters-last-variable
+- [ ] https://lanzamientos.lat/juegos/assassins-creed-black-flag-resynced
+- [ ] https://lanzamientos.lat/juegos/pipistrello-and-the-cursed-yoyo
+- [ ] https://lanzamientos.lat/juegos/moonlighter-2-the-endless-vault
+- [ ] https://lanzamientos.lat/juegos/soma
+- [ ] https://lanzamientos.lat/juegos/cloverpit
+- [ ] https://lanzamientos.lat/juegos/gallipoli
+- [ ] https://lanzamientos.lat/juegos/monowave
 
 ## Lo que no se pide
 

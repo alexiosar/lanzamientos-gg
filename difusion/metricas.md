@@ -246,6 +246,44 @@ o no tocar nada y dejar que Google decida.
 Nada de esto cambia el plan: la lectura de verdad es el 15/10, una semana después de que
 termine el despliegue del update, y no se espera recuperación antes de semanas o meses.
 
+### Lectura del 15/10/2026: el pedido a mano funciona, el sitio sigue sin volver
+
+**Rendimiento (3 meses):** 146 clics, 19.200 impresiones, CTR 0,8%, posición 16,3. El gráfico
+sigue plano desde el 24/09: ningún clic en los últimos 7 días y unas 20-50 impresiones por día,
+con un repunte chico el último día que todavía no dice nada. La portada bajó de 179 a 85
+impresiones contra la semana anterior; `/noticias` aparece por primera vez, con 39. Las
+consultas siguen siendo las genéricas ("juegos lanzamientos", "proximos lanzamientos
+videojuegos", "ultimos juegos"), todas en baja, más fichas sueltas con 3 impresiones
+(Stupid Never Dies, Hellraiser Revival, Moadra).
+
+**Indexación (CSV del 15/10; el gráfico llega hasta el 11/10):**
+
+| Motivo | 12/10 | 15/10 |
+|---|---|---|
+| Rastreada: actualmente sin indexar | 141 | **162** (+21, el salto fue el 09/10) |
+| Descubierta: actualmente sin indexar | 117 | 114 |
+
+- **Las 10 del día 1 de pedidos a mano (12/10): 9 salieron de las dos listas.** `/octubre-2026`,
+  `/ps-plus-octubre-2026`, `/game-pass-octubre-2026`, `/recomendados`, Deep Rock Galactic:
+  Survivor, Isles of Sea and Sky, Well Dweller, The Witcher 3 Remastered y Trails in the Sky 2nd
+  Chapter. Sólo Order of the Sinking Star sigue en "descubierta". Salir de la lista casi
+  seguro quiere decir indexada; para confirmarlo, alcanza con inspeccionar dos o tres.
+- **De los días 2 a 4 (pedidos del 13 al 15/10) salieron 3 de 30** (`/febrero-2027`, Kynseed,
+  Dispatch), pero esos pedidos son posteriores a casi todos los datos del export: se leen la
+  semana que viene.
+- **Entraron 33 páginas nuevas a las listas**, 30 de ellas a "rastreada sin indexar". **El
+  patrón del 12/10 ya no alcanza para explicarlas:** hay juegos de julio y agosto (The Alters,
+  SOMA, Cloverpit), pero también de octubre (Dragon's Dogma 2: Dark Arisen, Ghost of Yōtei
+  Complete Edition, Kingdom Hearts Collection) y futuros (He-Man, Whirlight, Marupoyo). 14 de
+  las 33 tienen crítica. La degradación sigue alcanzando a todo el sitio, no sólo a los juegos
+  ya salidos.
+
+**Lectura:** el pedido a mano es lo único que mostró efecto medible: 9 de 10 en tres días.
+Conviene seguir con tandas de 10 por día, priorizando lo que se busca ahora. La opción de
+`noindex` para fichas de juegos ya salidos pierde apoyo en los datos de esta semana, porque
+también se caen fichas de juegos de octubre y futuros; queda como dato, la decisión es del
+usuario. Siguen pendientes los enlaces externos.
+
 ## Agosto de 2026: el mes en que el sitio entró a Google
 
 Es el primer salto real desde que existe el registro, y conviene dejar dicho de qué está
