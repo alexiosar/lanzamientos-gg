@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">79 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('tenebris-somnia')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -162,7 +168,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de PC. Lo reciben como una vuelta lograda al survival horror clásico, en pixel art de 8 bits, y coinciden en que lo que lo distingue son las escenas filmadas con actores: el trabajo de Tobías Rusjan y la cámara de Andrés Borghi, de Saibot Studios, sostienen la historia y la tensión. Los reparos van a puzles a veces demasiado crípticos, a un combate algo torpe y a mecánicas que, por fieles a los noventa, no perdonan.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-16</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 79 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">Salió hoy en PS5, PS4, Xbox, Switch 2 y PC, y debutó con 79 sobre reseñas de la versión de PC. Es de Saibot Studios, el estudio argentino de Tobías Rusjan y Andrés Borghi, y lo más elogiado son sus escenas filmadas con actores.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-09-24</span>
@@ -205,6 +222,14 @@
               <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span></span>
             </span>
           </a>
+          <a class="rel-item" href="/juegos/hail-to-the-rainbow">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1699230/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">HAIL TO THE RAINBOW</span>
+              <span class="rel-fecha">21 OCT</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
           <a class="rel-item" href="/juegos/silver-pines">
             <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -235,14 +260,6 @@
               <span class="rel-titulo">THE ALIGHIERI CIRCLE: DANTE&#x27;S BLOODLINE</span>
               <span class="rel-fecha">10 SEP</span>
               <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/sombras-negative-frames">
-            <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc9g1.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">SOMBRAS: NEGATIVE FRAMES</span>
-              <span class="rel-fecha">03 DIC</span>
-              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-PS5">PS5</span></span>
             </span>
           </a>
         </div>

@@ -2,499 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-15T17:53:20+00:00",
+ "generado": "2026-10-16T22:29:46+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-15",
- "hasta": "2026-11-14",
- "total": 87,
+ "desde": "2026-10-16",
+ "hasta": "2026-11-15",
+ "total": 79,
  "juegos": [
-  {
-   "id": "chained-beasts",
-   "titulo": "CHAINED BEASTS",
-   "fecha": "2026-10-15",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "COOP",
-    "INDIE"
-   ],
-   "desarrollador": "FEATHERWEIGHT GAMES",
-   "descripcion": "Un roguelite cooperativo de gladiadores para uno a cuatro jugadores, con la vuelta de que todos están encadenados entre sí. Se pelea en el Coliseo usando el escenario, de pinchos a pozos con serpientes, y se tiran armas, urnas y enemigos. Las heridas cambian cómo se juega, y hay que ganarse al público para conseguir la libertad.",
-   "trailer": "https://youtube.com/embed/J5KKhsI1QL8",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coad6n.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/chained-beasts",
-   "noticias": [
-    {
-     "fecha": "2026-10-07",
-     "titulo": "TAMBIÉN EN XBOX, Y EN GAME PASS DESDE EL PRIMER DÍA",
-     "texto": "Xbox lo confirmó en la tanda de Game Pass de octubre: sale el 15 en Xbox Series y entra al servicio ese mismo día, en Ultimate y PC Game Pass."
-    }
-   ]
-  },
-  {
-   "id": "the-jackbox-party-pack-12",
-   "titulo": "THE JACKBOX PARTY PACK 12",
-   "fecha": "2026-10-15",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "CASUAL",
-    "MULTIJUGADOR",
-    "ESTRATEGIA",
-    "INDIE"
-   ],
-   "desarrollador": "JACKBOX GAMES",
-   "descripcion": "La duodécima tanda de juegos de fiesta de Jackbox: cinco juegos nuevos que se juegan con el celular como control, sin necesidad de que cada uno tenga el juego. Como siempre, la gracia está en lo que escribe y dibuja la gente que tenés al lado.",
-   "trailer": "https://youtube.com/embed/y4VcEb6k7As",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/c9d70429c6c04a1e2e78843b1d70573a.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-24",
-   "url": "https://lanzamientos.lat/juegos/the-jackbox-party-pack-12",
-   "noticias": [
-    {
-     "fecha": "2026-10-01",
-     "titulo": "LOS CINCO JUEGOS DEL PACK",
-     "texto": "Son We Forgot a Card, para armar tarjetas de saludo absurdas; MegaPals, de adivinar cómo piensan los demás; Debate and Switch, de debates; Idol Factions, trivia por equipos a los gritos, y Hyperface, de deformar selfies para responder consignas. Todos son para 2 a 8 jugadores."
-    }
-   ]
-  },
-  {
-   "id": "harvest-moon-echoes-of-teradea",
-   "titulo": "HARVEST MOON: ECHOES OF TERADEA",
-   "fecha": "2026-10-15",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "SIMULACION",
-    "RPG",
-    "RELAX"
-   ],
-   "desarrollador": "NATSUME",
-   "descripcion": "La nueva entrega de la saga de granjas de Natsume, con un mundo abierto enorme con cuevas, islas lejanas y pueblos, que no se recorre en un solo día y tiene campamentos para descansar y cocinar. Además de la granja hay diez candidatos para casarse y animales compañeros con habilidades para romper rocas o llegar a zonas escondidas. Arranca en Bloomfield, cuando una niebla misteriosa sale del Bosque de los Ecos.",
-   "trailer": "https://youtube.com/embed/gxVbu2AgOwo",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocani.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-16",
-   "url": "https://lanzamientos.lat/juegos/harvest-moon-echoes-of-teradea",
-   "noticias": [
-    {
-     "fecha": "2026-08-25",
-     "titulo": "SE RETRASA AL 15 DE OCTUBRE Y TIENE EDICIÓN DE COLECCIONISTA",
-     "texto": "Natsume movió la salida del 24 de septiembre al 15 de octubre. Lo dijo al anunciar una edición de coleccionista limitada a 500 unidades, con una maceta pintada a mano con forma de Lupo, el lobito del juego, un peluche, un diario, semillas de flores silvestres, un calendario y stickers. La PS Store y la tienda de Xbox ya tienen la fecha nueva."
-    }
-   ]
-  },
-  {
-   "id": "castlevania-belmonts-curse",
-   "titulo": "CASTLEVANIA: BELMONT'S CURSE",
-   "fecha": "2026-10-15",
-   "plataformas": [
-    "PS5",
-    "SWITCH",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG"
-   ],
-   "desarrollador": "KONAMI",
-   "descripcion": "Un Castlevania nuevo de acción y exploración en 2D, hecho por Konami junto a Evil Empire y Motion Twin, los de Dead Cells. La historia pasa 23 años después de Castlevania III: Dracula's Curse y la protagonista es Rose Belmont.",
-   "trailer": "https://youtube.com/embed/ZRgOG0Phue8",
-   "metacritic": 85,
-   "critica": "Una de las vueltas más celebradas del año. Para la mayoría, Evil Empire acertó con un Castlevania en 2D que respeta la historia de la saga y tiene identidad propia: Rose Belmont como protagonista, un combate ágil, las cartas de tarot de Sypha para absorber habilidades, un mundo interconectado lleno de secretos y una banda sonora muy elogiada. Varias lo comparan con Symphony of the Night. Los reparos son menores: poca variedad de armas, saltos que castigan mucho, un equilibrio que puede frustrar y, para unas pocas reseñas, que no aporta nada nuevo en un género lleno de metroidvanias.",
-   "metacriticUsuarios": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/36368348f3b5677aacd95ca9c51a0c4b.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/castlevania-belmonts-curse",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "DEBUTA CON 85 EN METACRITIC",
-     "texto": "Salió hoy con 85 de promedio sobre más de cincuenta reseñas, casi todas de PS5, y varias con la nota máxima. Es el regreso de Castlevania en 2D después de más de una década."
-    },
-    {
-     "fecha": "2026-09-20",
-     "titulo": "HAY DEMO DESDE EL 1 DE OCTUBRE",
-     "texto": "Konami, Evil Empire y Motion Twin anunciaron una demo para el 1 de octubre, dos semanas antes del lanzamiento."
-    }
-   ]
-  },
-  {
-   "id": "enshrouded",
-   "titulo": "ENSHROUDED",
-   "fecha": "2026-10-15",
-   "relanzamiento": "En PC desde 2024 — debut en consola",
-   "duracion": "≈ 48 h (historia) · 78 h (completo)",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "INDIE",
-    "RPG"
-   ],
-   "desarrollador": "KEEN GAMES GMBH",
-   "descripcion": "Un RPG de acción y supervivencia cooperativo para hasta dieciséis jugadores. Se es un Flameborn, la última esperanza de una raza que se muere, en un reino tapado por una niebla corrupta: se pelea contra enemigos, se construyen edificaciones y se va recuperando el mundo.",
-   "trailer": "https://youtube.com/embed/qygf4aICf34",
-   "metacritic": 89,
-   "critica": "Las reseñas son de la versión de PC. Lo ponen entre los mejores juegos de supervivencia y construcción: un mundo abierto con mucha atmósfera, una construcción con vóxeles a la altura de Minecraft y una progresión de RPG de acción que funciona solo o en grupo. Destacan que los dos años de acceso anticipado le sentaron bien y que deja la supervivencia en segundo plano para darle lugar a la exploración. Los reparos van a un combate con poca profundidad y a que el mundo de vóxeles muestra sus límites.",
-   "metacriticUsuarios": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/enshrouded",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "LLEGA A PS5 CON 89 EN METACRITIC",
-     "texto": "Salió hoy en PS5 con 89 de promedio en Metacritic, sobre reseñas de la versión de PC, que pasó dos años en acceso anticipado. Es el puntaje más alto de los estrenos de octubre."
-    },
-    {
-     "fecha": "2026-10-08",
-     "titulo": "LA 1.0 SUMA MAGIA NUEVA Y MECANISMOS PARA CONSTRUIR",
-     "texto": "La versión 1.0, la que llega a PS5, trae Sparkworks: palancas, placas de presión, puertas y trampas que se conectan entre sí para armar mecanismos en las construcciones. También suma nueve hechizos para los magos, entre ellos invocaciones de tótems y de esqueletos."
-    }
-   ]
-  },
-  {
-   "id": "tormented-souls-2",
-   "titulo": "TORMENTED SOULS 2",
-   "fecha": "2026-10-15",
-   "relanzamiento": "En PS5, Xbox y PC desde octubre de 2025 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 13 h (historia) · 20 h (completo)",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "HORROR",
-    "AVENTURA",
-    "ACCION",
-    "SUPERVIVENCIA"
-   ],
-   "desarrollador": "DUAL EFFECT",
-   "descripcion": "La secuela del survival horror de Dual Effect. Después de lo que pasó en el hospital Wildberger, Caroline Walker quiere una vida normal con su hermana Anna, pero Anna tiene visiones violentas y hace dibujos que se vuelven realidad. Para curarla, Caroline viaja a Villa Hess, un pueblo perdido en las montañas del sur de Chile, a una clínica con un secreto. Se recorren un convento, un shopping abandonado y una escuela vacía, se cambia entre realidades para alterar el pasado y abrir caminos, y se pelea con armas improvisadas como una clavadora o una motosierra.",
-   "trailer": "https://youtube.com/embed/fXKi0lyGox0",
-   "metacritic": 78,
-   "critica": "Las reseñas son de la versión de PC de 2025. Lo reciben como una carta de amor al survival horror clásico, a la manera de Resident Evil y Silent Hill, y coinciden en que supera al primero: mejor diseño del mundo, buen ritmo, puzles ingeniosos y mucha atmósfera. Lo hace el estudio chileno Dual Effect. Los reparos van a los guardados limitados, que suben la tensión pero también frustran, y a algunos enfrentamientos que se vuelven molestos.",
-   "metacriticUsuarios": 7.9,
-   "metacriticVotos": 129,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2464280/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-30",
-   "url": "https://lanzamientos.lat/juegos/tormented-souls-2",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALIÓ HOY EN SWITCH 2",
-     "texto": "La versión de Switch 2 ya está a la venta. En Metacritic tiene 78, el promedio de las reseñas de la versión de PC de 2025."
-    }
-   ]
-  },
-  {
-   "id": "toy-story-3-complete-edition",
-   "titulo": "TOY STORY 3: COMPLETE EDITION",
-   "duracion": "≈ 4,2 h (historia) · 15 h (completo)",
-   "fecha": "2026-10-15",
-   "relanzamiento": "Remaster del juego original de 2010",
-   "plataformas": [
-    "SWITCH",
-    "PS4",
-    "XBOX",
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "DIGITAL ECLIPSE",
-   "descripcion": "La vuelta del juego de Toy Story 3, la aventura en 3D basada en la película de 2010, con gráficos mejorados. En el modo historia se alterna entre Woody, Buzz y Jessie, cada uno con su habilidad, en momentos de la película como el rescate del tren o el basural, y en el modo caja de juguetes se arma libremente el Oeste del Rodeo de Woody. Se puede jugar de a dos en cooperativo.",
-   "trailer": "https://youtube.com/embed/Kgp9iOHxrFw",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5v1.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/toy-story-3-complete-edition"
-  },
-  {
-   "id": "toy-story-retro-roundup",
-   "titulo": "DISNEY/PIXAR TOY STORY: RETRO ROUNDUP",
-   "relanzamiento": "Recopilación de seis juegos publicados entre 1995 y 2001",
-   "fecha": "2026-10-15",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "SWITCH2",
-    "SWITCH",
-    "XBOX"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "AVENTURA",
-    "ARCADE",
-    "RETRO"
-   ],
-   "desarrollador": "ATARI",
-   "descripcion": "Vuelta al cuarto de Andy con Woody, Buzz y compañía. La colección junta seis juegos de los noventa y principios de los dos mil —Toy Story, las dos versiones de Toy Story 2, Buzz Lightyear del Comando Estelar, Toy Story Racer y Bichos— con sus versiones de consola y de portátil, once en total, todas retocadas y con material de archivo sobre cómo se hicieron.",
-   "trailer": "https://youtube.com/embed/Kgp9iOHxrFw",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2922/29e3ecd9dcd397054adce54bf9e89f1bffedfce0283ac772.jpg?w=600&thumb=false",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-19",
-   "url": "https://lanzamientos.lat/juegos/toy-story-retro-roundup"
-  },
-  {
-   "id": "blueys-happy-snaps",
-   "titulo": "BLUEY'S HAPPY SNAPS",
-   "fecha": "2026-10-15",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "CASUAL",
-    "RELAX"
-   ],
-   "desarrollador": "GAMELOFT",
-   "descripcion": "Un juego de sacar fotos para chicos con Bluey y Bingo, que encontraron la vieja cámara de su papá. Se recorren lugares conocidos de la serie y se retratan sus juegos y los animales que aparecen, y cada foto queda guardada en el álbum de recuerdos de Bluey. No se puede fallar ni perder: está pensado para jugarlo con los chicos al lado.",
-   "trailer": "https://youtube.com/embed/8uYZrfXjPfY",
-   "metacritic": 77,
-   "critica": "Las reseñas son de la versión de Switch 2. Coinciden en que captura el espíritu de la serie y está hecho con cuidado: fotos para sacar, secretos para encontrar, un álbum para completar y un menú con actividades para repetir con los chicos fuera de la pantalla. Es para fans de Bluey y para jugar con los más chicos. Los reparos van a que se siente como un juego de tableta agrandado y a que, para quien no conoce la serie, hay mejores opciones.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtwy.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/blueys-happy-snaps",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "DEBUTA CON 77 EN METACRITIC",
-     "texto": "Salió hoy en todas las consolas y entró a Game Pass el mismo día. Debutó con 77 de promedio sobre reseñas de la versión de Switch 2."
-    },
-    {
-     "fecha": "2026-10-05",
-     "titulo": "EL TRÁILER MÁS COMPLETO, CON BINDI IRWIN",
-     "texto": "Salió el tráiler que más muestra del juego, hecho junto con Bindi Irwin: se recorre Brisbane, se juega con Bluey, Bingo y sus amigos y se sacan fotos con la vieja cámara de papá para armar el álbum."
-    }
-   ]
-  },
-  {
-   "id": "antonblast",
-   "titulo": "ANTONBLAST",
-   "fecha": "2026-10-15",
-   "relanzamiento": "En Switch y PC desde 2024",
-   "duracion": "≈ 7,2 h (historia) · 25 h (completo)",
-   "plataformas": [
-    "PS5",
-    "PS4"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "ACCION",
-    "INDIE"
-   ],
-   "desarrollador": "SUMMITSPHERE",
-   "descripcion": "Un plataformas de acción a toda velocidad en el que lo importante es romper todo. Se juega con Dynamite Anton, o con su compañera Annie, y un martillo enorme para demoler mundos raros, pelear con jefes que ocupan toda la pantalla y recuperar los espíritus que les robó Satán.",
-   "trailer": "https://youtube.com/embed/6nnjueEx8Gw",
-   "metacritic": 87,
-   "critica": "Las reseñas son de la versión de PC de 2024. Lo celebran como un heredero de Wario Land con identidad propia: plataformas en 2D a toda velocidad, niveles pensados para romperlo todo, jefes enormes y un humor irreverente. Varias lo ponen entre los mejores plataformas de los últimos años, con la advertencia de que es difícil y pide práctica para dominarlo. Los reparos van al caos, que a veces se pasa de rosca, y a los jefes, que cortan el ritmo.",
-   "metacriticUsuarios": 8.4,
-   "metacriticVotos": 40,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1887400/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-01",
-   "url": "https://lanzamientos.lat/juegos/antonblast",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALIÓ HOY EN PS5 Y PS4",
-     "texto": "Ya está a la venta en PS5 y PS4. En Metacritic tiene 87, el promedio de las reseñas de la versión de PC de 2024."
-    },
-    {
-     "fecha": "2026-10-14",
-     "titulo": "SALE EL 15 DE OCTUBRE",
-     "texto": "Joystick Ventures le puso día a la versión de PS5 y PS4: el 15 de octubre. La PS Store todavía no muestra la fecha."
-    },
-    {
-     "fecha": "2026-09-30",
-     "titulo": "LLEGA A PS5 Y PS4 A MEDIADOS DE OCTUBRE",
-     "texto": "Joystick Ventures lo anunció para mediados de octubre, todavía sin día. En Switch y PC salió en diciembre de 2024."
-    }
-   ]
-  },
-  {
-   "id": "desolus",
-   "titulo": "DESOLUS",
-   "fecha": "2026-10-15",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "PUZZLE",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "MARK J. MAYERS",
-   "descripcion": "Un juego de puzles en primera persona en una ciudad de arquitectura gótica partida entre el pasado y el futuro. Un cataclismo fracturó la realidad y abrió portales hacia otras épocas, y los puzles, a la manera de Escher, se resuelven con agujeros negros y viajando en el tiempo hacia adelante y hacia atrás para reconstruir edificios. Con hologramas se mueven portales enormes entre los pisos de catedrales medio derrumbadas, para atravesar estructuras que sólo existen en ciertos momentos, junto al guardián de la ciudad.",
-   "trailer": "https://youtube.com/embed/39KXUVp9U4M",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.16391.14484827712843203.fd112db3-ecd0-410c-a63b-e63c1e778a9d.650431a5-d205-4551-975a-301b8444734e?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-09",
-   "url": "https://lanzamientos.lat/juegos/desolus",
-   "noticias": [
-    {
-     "fecha": "2026-10-09",
-     "titulo": "SALE EL 15 DE OCTUBRE",
-     "texto": "Xbox lo incluyó en sus estrenos de la semana. Sale el mismo día en PS5, Xbox Series y PC."
-    }
-   ]
-  },
-  {
-   "id": "creepy-tale-snow-child",
-   "titulo": "CREEPY TALE: SNOW CHILD",
-   "fecha": "2026-10-15",
-   "relanzamiento": "En PC desde mayo de 2026",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "PUZZLE",
-    "INDIE"
-   ],
-   "desarrollador": "CREEPY BROTHERS",
-   "descripcion": "Una aventura de puzles con humor negro y atmósfera siniestra, con la estética de un cuento infantil pero más oscuro y retorcido. Blizzy, un chico valiente, viaja al Infierno a derrotar al Mal en persona. Hay acertijos, minijuegos que piden ingenio, agilidad y sigilo, trampas mortales y habitantes peligrosos de un reino de otro mundo, con misiones que se entrelazan con la acción.",
-   "trailer": "https://youtube.com/embed/mbcmo7hOXgA",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.2436.14403140815475178.f41a01c7-b36d-411d-8307-cc731c1bf25b.20005abe-38b8-47bc-b9f7-59436e1ae8e8?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-09",
-   "url": "https://lanzamientos.lat/juegos/creepy-tale-snow-child"
-  },
-  {
-   "id": "wolfsschanze-operation-gotterdammerung",
-   "titulo": "WOLFSSCHANZE – OPERATION GÖTTERDÄMMERUNG",
-   "fecha": "2026-10-15",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SHOOTER",
-    "WWII",
-    "ACCION"
-   ],
-   "desarrollador": "POLYGON ART",
-   "descripcion": "Un shooter ambientado en Prusia Oriental en 1944. Un soldado de élite se abre paso por la Guarida del Lobo, el centro de poder aislado de la cúpula nazi, entre instalaciones vigiladas, posiciones defensivas y búnkeres, con misiones cortas de tiroteos intensos, explosivos, vehículos y cañones. Los objetivos son oficiales y generales de alto rango, hasta el enfrentamiento final con Hitler. La Guarida está reconstruida a partir de planos originales y datos satelitales.",
-   "trailer": "https://youtube.com/embed/jAcRzF51n1Q",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.26667.14169909366497300.ba84dc7a-a762-4a99-804a-8891b10e943c.6f9bda3f-2aa7-4d35-9593-eb78adfca07b?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-09",
-   "url": "https://lanzamientos.lat/juegos/wolfsschanze-operation-gotterdammerung"
-  },
-  {
-   "id": "arcade-archives-2-thundercade",
-   "titulo": "ARCADE ARCHIVES 2: THUNDERCADE",
-   "fecha": "2026-10-15",
-   "relanzamiento": "Original de recreativa de SETA, 1987",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX"
-   ],
-   "genero": [
-    "SHOOTER",
-    "RETRO",
-    "ARCADE"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "El shooter de recreativa de SETA de 1987. Como parte de unas fuerzas especiales, se maneja una moto a toda velocidad armada con ametralladoras, rumbo a la fortaleza enemiga. Al destruir edificios aparecen sidecares con cañones que se enganchan a la moto: algunos disparan más lejos y otros sólo hacia los costados, así que conviene elegir según la situación. Como el resto de Arcade Archives 2, suma un modo contrarreloj a los de siempre.",
-   "trailer": "https://youtube.com/embed/0qGg6_NzmCY",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.27380.14176643983416865.bb095152-ee6f-4e6a-9d62-c9f7107afc16.16d2b4a2-a1cb-4531-9876-899997ea8bb8?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-15",
-   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-thundercade",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
-     "texto": "En PS5 y Xbox salió como Arcade Archives 2, y en PS4 dentro de la serie original. HAMSTER lo anunció también para Switch 2, que todavía no aparece en la eShop."
-    }
-   ]
-  },
-  {
-   "id": "console-archives-the-drug-store",
-   "titulo": "CONSOLE ARCHIVES: THE DRUG STORE",
-   "fecha": "2026-10-15",
-   "relanzamiento": "La versión de HUMAN es de 1998 — esta es la reedición para consolas actuales",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "SIMULACION",
-    "RETRO"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "La simulación de HUMAN de 1998 para una consola hogareña de 32 bits, en la serie Console Archives. Se maneja una farmacia con la meta de abrir muchos locales y hacer crecer el capital, eligiendo la ubicación, los productos y el tipo de clientela de cada zona; si la relación con algún empleado es buena, hasta pueden aparecer productos propios. El juego está sólo en japonés; el menú de opciones y el manual sí vienen en español. Se puede guardar en cualquier momento y cambiar la disposición de los botones.",
-   "trailer": "https://youtube.com/embed/dbHdewywwtc",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0203/4430350485ba6817edee6596c4e8ca3b5ed3409831439f64.jpg?w=600&thumb=false",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-15",
-   "url": "https://lanzamientos.lat/juegos/console-archives-the-drug-store",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALIÓ HOY EN PS5",
-     "texto": "HAMSTER lo puso a la venta el 15 de octubre en PS5. También lo anunció para Switch 2, que todavía no tiene ficha en la eShop."
-    }
-   ]
-  },
   {
    "id": "tales-of-eternia-remastered",
    "titulo": "TALES OF ETERNIA REMASTERED",
@@ -515,12 +29,21 @@
    "desarrollador": "TOSE CO., LTD.",
    "descripcion": "La primera remasterización de Tales of Eternia, el RPG de Namco del año 2000. El mundo de Eternia está partido en dos reinos aislados, Inferia y Celestia. En una aldea inferiana, Reid y su amiga de la infancia Farah conocen a Meredy, una chica misteriosa, y el viaje para entender de dónde viene termina enfrentando una catástrofe que amenaza a los dos mundos. El combate es en 2D, rápido, con combos encadenados y coordinación con el grupo, y la remasterización suma comodidades que lo hacen más fácil de jugar.",
    "trailer": "https://youtube.com/embed/n0Trr5yLK1A",
-   "metacritic": null,
+   "metacritic": 76,
+   "critica": "Las reseñas son de la versión de PS5. Lo reciben como una reedición respetuosa de uno de los Tales en 2D más queridos: el combate en tiempo real sigue siendo divertido, el elenco tiene encanto y el ritmo es ágil, con mejoras de comodidad y opciones para ajustar la experiencia. Recupera además contenido que se había recortado en la versión norteamericana. Los reparos van a que se nota la edad de un juego de PlayStation 1, con mecánicas anticuadas y una dificultad simple, y a que no trae contenido nuevo de peso.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7n7.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/tales-of-eternia-remastered"
+   "url": "https://lanzamientos.lat/juegos/tales-of-eternia-remastered",
+   "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "DEBUTA CON 76 EN METACRITIC",
+     "texto": "Salió hoy en PS5, PS4, Xbox, Switch 2, Switch y PC, y debutó con 76 sobre reseñas de la versión de PS5. Es la primera vez que un Tales en 2D llega a consolas actuales."
+    }
+   ]
   },
   {
    "id": "tenebris-somnia",
@@ -546,13 +69,20 @@
     "canal": "SantyPa Games",
     "canalUrl": "https://www.youtube.com/@SantyPa10"
    },
-   "metacritic": null,
+   "metacritic": 79,
+   "critica": "Las reseñas son de la versión de PC. Lo reciben como una vuelta lograda al survival horror clásico, en pixel art de 8 bits, y coinciden en que lo que lo distingue son las escenas filmadas con actores: el trabajo de Tobías Rusjan y la cámara de Andrés Borghi, de Saibot Studios, sostienen la historia y la tensión. Los reparos van a puzles a veces demasiado crípticos, a un combate algo torpe y a mecánicas que, por fieles a los noventa, no perdonan.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/tenebris-somnia",
    "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "DEBUTA CON 79 EN METACRITIC",
+     "texto": "Salió hoy en PS5, PS4, Xbox, Switch 2 y PC, y debutó con 79 sobre reseñas de la versión de PC. Es de Saibot Studios, el estudio argentino de Tobías Rusjan y Andrés Borghi, y lo más elogiado son sus escenas filmadas con actores."
+    },
     {
      "fecha": "2026-09-24",
      "titulo": "PRECIO REGIONAL PARA LATINOAMÉRICA Y EDICIÓN FÍSICA",
@@ -680,6 +210,37 @@
    "url": "https://lanzamientos.lat/juegos/rudolph-the-red-nosed-reindeer-switch-2"
   },
   {
+   "id": "heavy-metal-death-can",
+   "titulo": "HEAVY METAL DEATH CAN",
+   "fecha": "2026-10-16",
+   "relanzamiento": "En PC desde mayo de 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "HORROR",
+    "SUPERVIVENCIA",
+    "RETRO"
+   ],
+   "desarrollador": "KRUFS PRODUCTIONS",
+   "descripcion": "Un survival horror a la manera de los de PlayStation 1, en un submarino de una Suecia alternativa de fines de los setenta. Con la nave varada en el fondo del mar de Noruega, hay que sobrevivir a la Sludge, una sustancia que poseyó a la tripulación y la convirtió en zombis, buscar sobrevivientes y descubrir qué desató la locura. Cámaras fijas, munición escasa, inventario limitado y llaves improvisadas: cada bala cuenta.",
+   "trailer": "https://youtube.com/embed/GUk_YPhKYDY",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1612/a76024340268c093596cf327862667891dab84221492851b.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-16",
+   "url": "https://lanzamientos.lat/juegos/heavy-metal-death-can",
+   "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "SALIÓ HOY EN PS5 Y XBOX",
+     "texto": "Ya está a la venta en PS5 y Xbox Series. En PC salió en mayo."
+    }
+   ]
+  },
+  {
    "id": "beamng-drive",
    "titulo": "BEAMNG.DRIVE",
    "relanzamiento": "En PC, en acceso anticipado, desde mayo de 2015 — esta fecha corresponde a la edición de PS5, que también sale en acceso anticipado",
@@ -767,6 +328,36 @@
      "fecha": "2026-10-05",
      "titulo": "LLEGA A SWITCH EL 19 DE OCTUBRE",
      "texto": "11 bit studios puso fecha a la versión de Switch del primer Frostpunk, ocho años después del estreno en PC."
+    }
+   ]
+  },
+  {
+   "id": "shoresy-legends-of-the-north",
+   "titulo": "SHORESY: LEGENDS OF THE NORTH",
+   "fecha": "2026-10-19",
+   "relanzamiento": "En PC desde noviembre de 2025",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "DEPORTES",
+    "RPG",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "TREEWOOD GAMES",
+   "descripcion": "Un RPG de hockey basado en Shoresy, la serie de televisión. En el modo historia se crea un jugador que se pone la camiseta de los Sudbury Blueberry Bulldogs para jugar al lado de Shoresy y derrotar a los Hockey Godz, subiendo atributos y desbloqueando equipo en un viaje por el país con jefes para vencer. El modo Shinny es multijugador local, competitivo o cooperativo, con un equipo de personajes de la serie y una barra de pelea para noquear rivales. Está pensado como homenaje a los juegos de deportes de antes.",
+   "trailer": "https://youtube.com/embed/MaXju2FjdWM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1538010/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-16",
+   "url": "https://lanzamientos.lat/juegos/shoresy-legends-of-the-north",
+   "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "LLEGA A XBOX EL 19 DE OCTUBRE",
+     "texto": "Xbox lo incluyó en los estrenos de la semana del 19 de octubre, y la tienda ya tiene la fecha."
     }
    ]
   },
@@ -919,6 +510,69 @@
      "fecha": "2026-10-14",
      "titulo": "SALE DEL ACCESO ANTICIPADO EL 21 DE OCTUBRE",
      "texto": "Question anunció la versión completa para el 21 de octubre en PS5, Xbox Series y PC. La PS Store ya tiene la ficha, todavía sin fecha. Es de los creadores de The Blackout Club y The Magic Circle."
+    }
+   ]
+  },
+  {
+   "id": "mortal-sin",
+   "titulo": "MORTAL SIN",
+   "fecha": "2026-10-21",
+   "relanzamiento": "En PC desde agosto de 2025",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "NIKOLA TODOROVIC",
+   "descripcion": "Un roguelite de acción con combate cuerpo a cuerpo rápido y sangriento: cortes, golpes y patadas que se encadenan en remates. Los niveles se generan al azar, con misiones aleatorias y cientos de salas hechas a mano, y hay clases para desbloquear, del Berserker con espadón al Pirata con pistola, cada una con su forma de jugar y sus combinaciones. La estética imita a una novela gráfica, y se puede cambiar.",
+   "trailer": "https://youtube.com/embed/4Iyzi35wOcI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1494810/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-16",
+   "url": "https://lanzamientos.lat/juegos/mortal-sin",
+   "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "LLEGA A XBOX EL 21 DE OCTUBRE",
+     "texto": "La tienda de Xbox lo tiene para el 21 de octubre. La PS Store también lista esa fecha, pero la ficha no dice para qué consola."
+    }
+   ]
+  },
+  {
+   "id": "hail-to-the-rainbow",
+   "titulo": "HAIL TO THE RAINBOW",
+   "fecha": "2026-10-21",
+   "relanzamiento": "En PC desde noviembre de 2025",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "HORROR",
+    "SHOOTER",
+    "INDIE"
+   ],
+   "desarrollador": "SERGEY NOSKOV",
+   "descripcion": "Una aventura en primera persona con historia, terror y disparos, en un mundo cyberpunk posapocalíptico. Ignat, un joven que perdió a sus padres, aprendió a sobrevivir solo entre los pocos que quedaron después de la guerra, hasta que un correo electrónico inesperado le cambia la vida. Se explora el entorno, se leen registros electrónicos, se resuelven puzles técnicos y se mejora el inventario, mientras se reviven los recuerdos y los dilemas morales del protagonista.",
+   "trailer": "https://youtube.com/embed/VS3YyLLb_Sg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1699230/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-16",
+   "url": "https://lanzamientos.lat/juegos/hail-to-the-rainbow",
+   "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "SALE EL 21 DE OCTUBRE",
+     "texto": "La PS Store lo tiene para el 21 de octubre en PS5 y PS4, y la tienda de Xbox también."
     }
    ]
   },
@@ -1201,6 +855,67 @@
      "fecha": "2026-10-15",
      "titulo": "TAMBIÉN SALE EN XBOX",
      "texto": "La tienda de Xbox lo lista para el 23 de octubre, el mismo día que en las demás consolas, junto con una Feral Edition."
+    }
+   ]
+  },
+  {
+   "id": "vixen-357",
+   "titulo": "VIXEN 357",
+   "fecha": "2026-10-23",
+   "relanzamiento": "Original de Mega Drive",
+   "plataformas": [
+    "PS5",
+    "PS4"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "POR TURNOS",
+    "RETRO"
+   ],
+   "desarrollador": "SHINYUDEN",
+   "descripcion": "Un juego de estrategia por turnos con mechas, en el año 2396. Los Vector, unidades blindadas de alta movilidad desarrolladas en secreto para reemplazar a los SERD, son el centro de la historia: una unidad misteriosa ataca la base de la Slash Unit, que se entrenaba para pilotearlos. Son 16 niveles de táctica, cualquier Vector se le puede asignar a cualquier personaje y la muerte es permanente. La reedición suma una galería con ilustraciones del original, rebobinado, avance rápido y trucos.",
+   "trailer": "https://youtube.com/embed/s4wXTrKWVxQ",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202609/3023/eeedf45c13ee59531a583fa961c7d376c36c3eaa9025ffa9.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-16",
+   "url": "https://lanzamientos.lat/juegos/vixen-357",
+   "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "SALE EL 23 DE OCTUBRE",
+     "texto": "Ratalaika Games lo anunció para PS5, Xbox Series, PS4, Xbox One, Switch y PC. Por ahora sólo la PS Store tiene la fecha."
+    }
+   ]
+  },
+  {
+   "id": "brave-dungeon-dark-witchs-story-combat",
+   "titulo": "BRAVE DUNGEON + DARK WITCH'S STORY: COMBAT",
+   "fecha": "2026-10-24",
+   "relanzamiento": "En PC desde 2021",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "INDIE",
+    "RETRO"
+   ],
+   "desarrollador": "INSIDE SYSTEM",
+   "descripcion": "Dos RPG de mazmorras de INSIDE SYSTEM, los creadores de la saga Legend of Dark Witch, en un solo paquete. En Brave Dungeon, Al recorre los laberintos de la isla Belfer en busca de Objetos Mágicos, recipientes que guardan cristales Syega demasiado poderosos, hasta llegar a Godshill, la mazmorra más temida. El combate es fácil de agarrar, con personajes jugables distintos, mucha personalización, desafíos para quien quiera completarlo todo y un sistema de fabricación con materiales que dejan los enemigos. Lo acompaña Dark Witch's Story: Combat.",
+   "trailer": "https://youtube.com/embed/76rt8tNV-pQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1712820/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-16",
+   "url": "https://lanzamientos.lat/juegos/brave-dungeon-dark-witchs-story-combat",
+   "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "LLEGA A PS5 EL 24 DE OCTUBRE",
+     "texto": "La PS Store ya lo tiene para el 24 de octubre. En PC salió en 2021."
     }
    ]
   },
@@ -1493,9 +1208,7 @@
    "relanzamiento": "En PC y consolas desde 2013",
    "plataformas": [
     "PS5",
-    "XBOX",
-    "SWITCH",
-    "SWITCH2"
+    "XBOX"
    ],
    "genero": [
     "AVENTURA",
@@ -1512,6 +1225,11 @@
    "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/the-wolf-among-us-remastered",
    "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "LA VERSIÓN DE SWITCH SE RETRASA SIN FECHA",
+     "texto": "Telltale postergó las versiones de Switch, que ya no salen el 29 de octubre y todavía no tienen fecha nueva. En PS5, Xbox Series y PC sigue el 29."
+    },
     {
      "fecha": "2026-08-26",
      "titulo": "FECHA EN LA GAMESCOM, Y UN MODO NOIR",
@@ -1810,6 +1528,39 @@
      "fecha": "2026-09-30",
      "titulo": "SALE EL 30 DE OCTUBRE",
      "texto": "Senscape puso fecha para PS5, Xbox, PS4 y Switch, después de quince años de desarrollo."
+    }
+   ]
+  },
+  {
+   "id": "horrorvale-deadluxe-edition",
+   "titulo": "HORRORVALE: DEADLUXE EDITION",
+   "fecha": "2026-10-31",
+   "relanzamiento": "En PC desde 2024",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "HORROR",
+    "INDIE"
+   ],
+   "desarrollador": "BATWORKS SOFTWARE",
+   "descripcion": "Un RPG por turnos de terror con humor: en HorrorVale los vecinos son zombis, el correo lo traen monstruos reanimados y hay fantasmas en el baño. Alice viaja al inframundo para salvar a Scruffy, su perro zombi, de unos monstruos que invadieron el pueblo. La historia tiene cuatro actos y más de 50 horas, con más de 30 compañeros para reclutar, cada uno con habilidades propias, 60 misiones secundarias y experiencia compartida por todo el grupo. Esta es la edición que lo lleva a consolas.",
+   "trailer": "https://youtube.com/embed/q4CRINSfeaw",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1114650/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-16",
+   "url": "https://lanzamientos.lat/juegos/horrorvale-deadluxe-edition",
+   "noticias": [
+    {
+     "fecha": "2026-10-16",
+     "titulo": "SALE EL 31 DE OCTUBRE",
+     "texto": "La PS Store ya tiene la fecha y la tienda de Xbox lo lista sin día. Se anunció también para Switch."
     }
    ]
   },
