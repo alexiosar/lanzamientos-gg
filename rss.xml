@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 16 Oct 2026 22:29:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:34:06 +0000</lastBuildDate>
+    <item>
+      <title>JUST DANCE: DECADES OF HITS: DEBUTA CON 76, Y SALIÓ TAMBIÉN EN PS5 Y SWITCH</title>
+      <link>https://lanzamientos.lat/juegos/just-dance-decades-of-hits</link>
+      <guid isPermaLink="false">just-dance-decades-of-hits-2026-10-18</guid>
+      <pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Salió el 13 de octubre también en PS5 y Switch, no sólo en Xbox: la PS Store y la tienda de Nintendo lo confirman. Debutó con 76 en Metacritic, sobre cuatro reseñas de la versión de Switch. — JUST DANCE: DECADES OF HITS para XBOX / PS5 / SWITCH.</description>
+    </item>
     <item>
       <title>THE JACKBOX PARTY PACK 12: DEBUTA CON 78 EN METACRITIC</title>
       <link>https://lanzamientos.lat/juegos/the-jackbox-party-pack-12</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">mycopunk-2026-10-14</guid>
       <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
       <description>Sony lo confirmó en el catálogo de octubre: desde el 20, el mismo día del estreno en PS5, se juega con PS Plus Extra y Deluxe. — MYCOPUNK para PS5.</description>
-    </item>
-    <item>
-      <title>ANTONBLAST: SALE EL 15 DE OCTUBRE</title>
-      <link>https://lanzamientos.lat/juegos/antonblast</link>
-      <guid isPermaLink="false">antonblast-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Joystick Ventures le puso día a la versión de PS5 y PS4: el 15 de octubre. La PS Store todavía no muestra la fecha. — ANTONBLAST para PS5 / PS4.</description>
     </item>
   </channel>
 </rss>

@@ -2,244 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-16T22:29:46+00:00",
+ "generado": "2026-10-18T19:34:06+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-16",
- "hasta": "2026-11-15",
- "total": 79,
+ "desde": "2026-10-18",
+ "hasta": "2026-11-17",
+ "total": 72,
  "juegos": [
-  {
-   "id": "tales-of-eternia-remastered",
-   "titulo": "TALES OF ETERNIA REMASTERED",
-   "duracion": "≈ 33 h (historia) · 74 h (completo)",
-   "fecha": "2026-10-16",
-   "relanzamiento": "Remaster del clásico de PS1 (2000)",
-   "plataformas": [
-    "PS4",
-    "XBOX",
-    "PS5",
-    "SWITCH",
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG"
-   ],
-   "desarrollador": "TOSE CO., LTD.",
-   "descripcion": "La primera remasterización de Tales of Eternia, el RPG de Namco del año 2000. El mundo de Eternia está partido en dos reinos aislados, Inferia y Celestia. En una aldea inferiana, Reid y su amiga de la infancia Farah conocen a Meredy, una chica misteriosa, y el viaje para entender de dónde viene termina enfrentando una catástrofe que amenaza a los dos mundos. El combate es en 2D, rápido, con combos encadenados y coordinación con el grupo, y la remasterización suma comodidades que lo hacen más fácil de jugar.",
-   "trailer": "https://youtube.com/embed/n0Trr5yLK1A",
-   "metacritic": 76,
-   "critica": "Las reseñas son de la versión de PS5. Lo reciben como una reedición respetuosa de uno de los Tales en 2D más queridos: el combate en tiempo real sigue siendo divertido, el elenco tiene encanto y el ritmo es ágil, con mejoras de comodidad y opciones para ajustar la experiencia. Recupera además contenido que se había recortado en la versión norteamericana. Los reparos van a que se nota la edad de un juego de PlayStation 1, con mecánicas anticuadas y una dificultad simple, y a que no trae contenido nuevo de peso.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7n7.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/tales-of-eternia-remastered",
-   "noticias": [
-    {
-     "fecha": "2026-10-16",
-     "titulo": "DEBUTA CON 76 EN METACRITIC",
-     "texto": "Salió hoy en PS5, PS4, Xbox, Switch 2, Switch y PC, y debutó con 76 sobre reseñas de la versión de PS5. Es la primera vez que un Tales en 2D llega a consolas actuales."
-    }
-   ]
-  },
-  {
-   "id": "tenebris-somnia",
-   "titulo": "TENEBRIS SOMNIA",
-   "fecha": "2026-10-16",
-   "plataformas": [
-    "PS4",
-    "SWITCH2",
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "HORROR",
-    "RETRO",
-    "INDIE"
-   ],
-   "desarrollador": "ANDRÉS BORGHI Y SAIBOT STUDIOS",
-   "descripcion": "Un survival horror en 2D al estilo de los primeros Resident Evil y Silent Hill, pero con el aspecto de un juego de NES. Se avanza resolviendo acertijos y enfrentando criaturas, y en los momentos clave el juego se corta para dar paso a escenas filmadas con actores, efectos prácticos y escenografía real, rodadas en Buenos Aires por un equipo de cine argentino. Lo crearon Andrés Borghi y Tobías Rusjan, y lo publica New Blood.",
-   "trailer": "https://youtube.com/embed/A_fQ_gNddbo",
-   "gameplay": {
-    "video": "https://youtube.com/embed/yCBJmEH4cbw",
-    "canal": "SantyPa Games",
-    "canalUrl": "https://www.youtube.com/@SantyPa10"
-   },
-   "metacritic": 79,
-   "critica": "Las reseñas son de la versión de PC. Lo reciben como una vuelta lograda al survival horror clásico, en pixel art de 8 bits, y coinciden en que lo que lo distingue son las escenas filmadas con actores: el trabajo de Tobías Rusjan y la cámara de Andrés Borghi, de Saibot Studios, sostienen la historia y la tensión. Los reparos van a puzles a veces demasiado crípticos, a un combate algo torpe y a mecánicas que, por fieles a los noventa, no perdonan.",
-   "metacriticUsuarios": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2121510/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/tenebris-somnia",
-   "noticias": [
-    {
-     "fecha": "2026-10-16",
-     "titulo": "DEBUTA CON 79 EN METACRITIC",
-     "texto": "Salió hoy en PS5, PS4, Xbox, Switch 2 y PC, y debutó con 79 sobre reseñas de la versión de PC. Es de Saibot Studios, el estudio argentino de Tobías Rusjan y Andrés Borghi, y lo más elogiado son sus escenas filmadas con actores."
-    },
-    {
-     "fecha": "2026-09-24",
-     "titulo": "PRECIO REGIONAL PARA LATINOAMÉRICA Y EDICIÓN FÍSICA",
-     "texto": "Sale el 16 de octubre a 24,99 dólares, con un 20% de descuento en el lanzamiento. New Blood prometió precios regionales agresivos en Latinoamérica para que lo juegue la mayor cantidad de gente posible, y dijo que va a intentar mantenerlos en consolas. Va a tener versiones físicas, con el arte de tapa definitivo de Dakota Lee."
-    }
-   ]
-  },
-  {
-   "id": "resident-evil-2-switch-2",
-   "titulo": "RESIDENT EVIL 2: DELUXE EDITION",
-   "duracion": "≈ 8,9 h (historia) · 37 h (completo)",
-   "relanzamiento": "En PS4, Xbox y PC desde enero de 2019 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-10-16",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "HORROR",
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "CAPCOM CO., LTD.",
-   "descripcion": "El rehecho del clásico de 1998, ahora en Switch 2. Leon Kennedy y Claire Redfield llegan a Raccoon City el día que todo se cae a pedazos, con cámara al hombro y munición contada. El Tyrant persigue por los pasillos de la comisaría y no se lo puede matar, sólo demorar. La edición Deluxe suma los trajes y los extras que salieron aparte.",
-   "trailer": "https://youtube.com/embed/4C10U-O1kZ8",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/resident-evil-2-switch-2"
-  },
-  {
-   "id": "resident-evil-3-switch-2",
-   "titulo": "RESIDENT EVIL 3",
-   "relanzamiento": "En PS4, Xbox y PC desde abril de 2020 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 6 h (historia) · 20 h (completo)",
-   "fecha": "2026-10-16",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "HORROR",
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "CAPCOM CO., LTD.",
-   "descripcion": "Jill Valentine intenta salir de Raccoon City mientras Umbrella le suelta atrás a Nemesis, que la persigue por toda la ciudad y no para. Es más de acción y más corto que el rehecho de Resident Evil 2, con esquive en lugar de aguantar el golpe. Trae adentro Resident Evil Resistance, el multijugador asimétrico de cuatro contra uno.",
-   "trailer": "https://youtube.com/embed/4C10U-O1kZ8",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/resident-evil-3-switch-2"
-  },
-  {
-   "id": "resident-evil-4-switch-2",
-   "titulo": "RESIDENT EVIL 4: GOLD EDITION",
-   "duracion": "≈ 16 h (historia) · 65 h (completo)",
-   "relanzamiento": "En PS5, PS4, Xbox y PC desde marzo de 2023 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-10-16",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "HORROR",
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "CAPCOM CO., LTD.",
-   "descripcion": "Leon vuelve a la aldea a buscar a la hija del presidente, y el rehecho de 2023 es de los mejor recibidos que hizo Capcom: mantiene el ritmo del original de 2005 y le suma parry con el cuchillo y un sigilo que antes no estaba. La edición Gold trae el juego completo, el episodio de Ada y todo lo que salió después.",
-   "trailer": "https://youtube.com/embed/4C10U-O1kZ8",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/resident-evil-4-switch-2"
-  },
-  {
-   "id": "lego-harry-potter-collection-switch-2",
-   "titulo": "LEGO HARRY POTTER COLLECTION",
-   "relanzamiento": "En consolas desde 2016 y remasterizado en 2024 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 26 h (historia) · 53 h (completo)",
-   "fecha": "2026-10-16",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "COOP"
-   ],
-   "desarrollador": "TT GAMES",
-   "descripcion": "Los dos juegos de LEGO Harry Potter en un paquete: Años 1-4 y Años 5-7, o sea las siete películas completas. Es la fórmula LEGO de siempre —romper todo, resolver puzles simples y coleccionar— con cooperativo local a pantalla partida, que es como mejor funciona.",
-   "trailer": "https://youtube.com/embed/DSdF1hhuHWY",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950340/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/lego-harry-potter-collection-switch-2"
-  },
-  {
-   "id": "rudolph-the-red-nosed-reindeer-switch-2",
-   "titulo": "RUDOLPH THE RED-NOSED REINDEER",
-   "fecha": "2026-10-16",
-   "relanzamiento": "En Xbox y PC desde septiembre de 2025 — esta fecha corresponde a la Holiday Play Edition de Switch 2",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "CASUAL",
-    "COOP"
-   ],
-   "desarrollador": "HEADLESS CHICKEN GAMES",
-   "descripcion": "Una aventura navideña para toda la familia basada en el especial animado de 1964. Rudolph y sus amigos recorren cuatro reinos invernales del cuento, entre ellos Christmastown y la Isla de los Juguetes Inadaptados, superando desafíos para salvar la Navidad de un desastre inesperado. Es de exploración tranquila y se puede jugar en cooperativo. La Holiday Play Edition, la versión para Switch 2, suma el contenido extra del reino del rey Moonracer.",
-   "trailer": "https://youtube.com/embed/JcwTEdN12xY",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.17472.14258147675203711.86d9a88a-adf6-4a1e-afc8-cee45ca892ee.40347d24-e960-46e1-9269-a269ddac277e?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-08",
-   "url": "https://lanzamientos.lat/juegos/rudolph-the-red-nosed-reindeer-switch-2"
-  },
-  {
-   "id": "heavy-metal-death-can",
-   "titulo": "HEAVY METAL DEATH CAN",
-   "fecha": "2026-10-16",
-   "relanzamiento": "En PC desde mayo de 2026",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "HORROR",
-    "SUPERVIVENCIA",
-    "RETRO"
-   ],
-   "desarrollador": "KRUFS PRODUCTIONS",
-   "descripcion": "Un survival horror a la manera de los de PlayStation 1, en un submarino de una Suecia alternativa de fines de los setenta. Con la nave varada en el fondo del mar de Noruega, hay que sobrevivir a la Sludge, una sustancia que poseyó a la tripulación y la convirtió en zombis, buscar sobrevivientes y descubrir qué desató la locura. Cámaras fijas, munición escasa, inventario limitado y llaves improvisadas: cada bala cuenta.",
-   "trailer": "https://youtube.com/embed/GUk_YPhKYDY",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202609/1612/a76024340268c093596cf327862667891dab84221492851b.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-16",
-   "url": "https://lanzamientos.lat/juegos/heavy-metal-death-can",
-   "noticias": [
-    {
-     "fecha": "2026-10-16",
-     "titulo": "SALIÓ HOY EN PS5 Y XBOX",
-     "texto": "Ya está a la venta en PS5 y Xbox Series. En PC salió en mayo."
-    }
-   ]
-  },
   {
    "id": "beamng-drive",
    "titulo": "BEAMNG.DRIVE",
@@ -2282,6 +2051,29 @@
      "texto": "Wales Interactive le puso fecha a la versión terminada, que ese día llega también a PS5 y Xbox Series. Xbox confirma el día; la PS Store dice noviembre."
     }
    ]
+  },
+  {
+   "id": "rangers-path-national-park-simulator",
+   "titulo": "RANGER'S PATH: NATIONAL PARK SIMULATOR",
+   "relanzamiento": "En PC, en acceso anticipado, desde marzo de 2026",
+   "fecha": "2026-11-17",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "AVENTURA"
+   ],
+   "desarrollador": "TO-GO GAMES",
+   "descripcion": "Un simulador de guardaparques en el Parque Nacional Faremont. Se mantienen senderos, se controlan permisos, se ayuda a los visitantes y se atienden emergencias, desde excursionistas perdidos hasta avisos por animales salvajes, en bosques, praderas y ríos que se recorren con los vehículos del parque.",
+   "trailer": "https://youtube.com/embed/psdgBxit-Ak",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coafye.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/rangers-path-national-park-simulator"
   }
  ]
 }

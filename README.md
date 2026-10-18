@@ -2027,7 +2027,7 @@ y abrir http://localhost:8080
   | Tropico 7 (Switch 2) | Mismo día que PS5 y Xbox, 28 de enero de 2027 (Gematsu, 17/09) | **Ya está cargado en PS5 y Xbox.** Ni la eShop ni Nintendo US lo listan |
   | Sandwalkers (PS) | 24 de septiembre | **Ya está cargado en Xbox**: el Next Week on Xbox del 18/09 lo confirmó para Series X\|S ese día. La PS Store lo tiene con la misma fecha pero con la lista de plataformas vacía, así que no se sabe si es PS5 o PS4. La eShop no lo lista |
   | Ananta | 15 de enero de 2027 (releases.com) | La PS Store lo tiene para PS5 pero sin fecha |
-  | Just Dance: Decades of Hits (PS5 y Switch) | 13 de octubre (releases.com) | **Ya está cargado en Xbox**, que tiene el día desde el 08/10. La PS Store y la eShop todavía no lo listan |
+  | Just Dance: Decades of Hits (PS5 y Switch) | 13 de octubre (releases.com) | **Resuelto el 18/10:** la PS Store y Nintendo US lo tienen desde el 13, y se sumaron a la ficha. Se puede sacar de la tabla |
   | Colorbound (Switch 2, Switch y PS4) | 12 de octubre (releases.com) | **Ya está cargado en PS5 y Xbox.** Xbox y Steam confirman el día; la PS Store tiene la ficha de PS5 sin día. Las demás no tienen ficha |
   | Lufia I & II: The Sinistrals Saga (Switch 2 y Switch) | 2027 (PC Gaming Show, 20/09) | **Ya está cargado como estimado.** La PS Store lo tiene para PS5 con "2027"; la eShop no lo lista |
   | Console Archives: Karate Champ (Switch 2) | 24 de septiembre (Gematsu, 23/09) | **Ya está cargado en PS5**, que ese día ya lo tenía a la venta. Ni la eShop europea ni la de Nintendo US lo listan |
