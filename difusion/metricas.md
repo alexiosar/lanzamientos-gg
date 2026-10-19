@@ -268,9 +268,10 @@ videojuegos", "ultimos juegos"), todas en baja, más fichas sueltas con 3 impres
   Survivor, Isles of Sea and Sky, Well Dweller, The Witcher 3 Remastered y Trails in the Sky 2nd
   Chapter. Sólo Order of the Sinking Star sigue en "descubierta". Salir de la lista casi
   seguro quiere decir indexada; para confirmarlo, alcanza con inspeccionar dos o tres.
-- **De los días 2 a 4 (pedidos del 13 al 15/10) salieron 3 de 30** (`/febrero-2027`, Kynseed,
-  Dispatch), pero esos pedidos son posteriores a casi todos los datos del export: se leen la
-  semana que viene.
+- **Los días 2 a 4 no se pidieron** (corregido el 19/10: el usuario pidió sólo el día 1 y,
+  el 19/10, el día 6). Esas 30 URLs quedan como grupo de control: **salieron 3 de 30 solas**
+  (`/febrero-2027`, Kynseed, Dispatch), contra **9 de 10 pedidas a mano**. Es la prueba más
+  clara de que el pedido funciona.
 - **Entraron 33 páginas nuevas a las listas**, 30 de ellas a "rastreada sin indexar". **El
   patrón del 12/10 ya no alcanza para explicarlas:** hay juegos de julio y agosto (The Alters,
   SOMA, Cloverpit), pero también de octubre (Dragon's Dogma 2: Dark Arisen, Ghost of Yōtei
@@ -278,7 +279,7 @@ videojuegos", "ultimos juegos"), todas en baja, más fichas sueltas con 3 impres
   las 33 tienen crítica. La degradación sigue alcanzando a todo el sitio, no sólo a los juegos
   ya salidos.
 
-**Lectura:** el pedido a mano es lo único que mostró efecto medible: 9 de 10 en tres días.
+**Lectura:** el pedido a mano es lo único que mostró efecto medible: 9 de 10 en tres días, contra 3 de 30 sin pedir.
 Conviene seguir con tandas de 10 por día, priorizando lo que se busca ahora. El `noindex`
 para fichas de juegos ya salidos **quedó descartado** (el usuario, 15/10: nunca le gustó), y
 los datos de esta semana tampoco lo apoyaban: también se caen fichas de juegos de octubre y

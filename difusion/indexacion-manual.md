@@ -18,6 +18,9 @@ semanas siguen afuera páginas pedidas a mano, el problema no es que Google no l
 El orden pone primero lo que más se busca ahora: el mes en curso, las suscripciones y los
 estrenos recientes.
 
+**Estado al 19/10/2026:** pedidos el **día 1** (12/10) y el **día 6** (19/10). Los días 2, 3, 4
+y 5 **no se pidieron todavía**. Orden para seguir, de a uno por día: día 5, día 2, día 3, día 4.
+
 ## Día 1
 
 **Resultado al 15/10:** 9 de 10 salieron de las listas de "sin indexar". Sigue afuera Order of
@@ -90,7 +93,7 @@ esta semana siendo de octubre.
 - [ ] https://lanzamientos.lat/juegos/kingdom-hearts-collection
 - [ ] https://lanzamientos.lat/juegos/order-of-the-sinking-star
 
-## Día 6
+## Día 6 (pedido el 19/10)
 
 - [ ] https://lanzamientos.lat/juegos/lets-sing-abba
 - [ ] https://lanzamientos.lat/juegos/he-man-and-the-masters-of-the-universe-dragon-pearl-of-destruction
