@@ -93,6 +93,7 @@ Sitio 100% estático: HTML, CSS y JavaScript puro, sin frameworks ni proceso de 
 │                               sueltas, que siguen con su copia a mano
 ├── scripts/novedades-steam.py  Lo que anuncian los estudios en Steam (juegos chicos)
 ├── scripts/verificar-lanzados.py  Juegos dados por lanzados que capaz no salieron
+├── scripts/verificar-titulos.py   Mayúsculas de los títulos en redes contra el nombre de Steam
 ├── scripts/verificar-proximos.py  Los próximos 14 días contra las tiendas de Xbox y Nintendo
 ├── scripts/buscar-eshop.py     Consulta la eShop: por nombre o todo lo que sale en un rango de fechas
 ├── scripts/buscar-youtube.py   Busca videos, verifica ids con oEmbed y lista lo último de un canal
@@ -1864,6 +1865,12 @@ ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
    cuatro cargadas) **no se van a buscar**: el usuario decidió el 24/09 cargarlas sólo de
    ahí en adelante. Está explicado en "Fuentes de datos habituales".
 6. Trailers, carátulas y campo `relanzamiento` de lo que se haya agregado.
+   Y los títulos: `python3 scripts/verificar-titulos.py --desde <fecha de la semanal anterior>`
+   compara cómo sale cada juego nuevo en los posteos y en la pestaña contra el nombre de
+   Steam. Las grafías con mayúsculas en el medio (BeamNG.drive, DuneCrawl, CloverPit) no se
+   deducen de las MAYÚSCULAS de la base y van a mano en `CASO_PROPIO` o `TITULO_EXACTO` de
+   `comun.py`; hasta el 19/10/2026 se descubrían recién al ver el posteo. Los nombres
+   oficiales todo en mayúsculas (SOMA, ELDEN RING) quedan en formato título a propósito.
 7. **Backlog de carátulas y trailers:** reintentar los que `actualizar.py` lista bajo
    "Faltantes". Suelen ser juegos que todavía no tenían ficha en Steam ni en la eShop cuando
    se cargaron; a medida que las tiendas publican assets, aparecen. Es un minuto de trabajo.

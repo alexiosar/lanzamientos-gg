@@ -174,7 +174,13 @@ CASO_PROPIO = {"IRACING": "iRacing", "PLAYSTATION": "PlayStation", "XBOX": "Xbox
                # Sin vocales pasaría por sigla: "MR. Sleepy Man".
                "MR": "Mr", "MRS": "Mrs", "DR": "Dr",
                # La grafía oficial lleva la "e" en minúscula después del guion.
-               "MIDDLEEARTH": "Middle-earth"}
+               "MIDDLEEARTH": "Middle-earth",
+               # Mayúsculas en el medio de la palabra, tal como las escribe Steam. Salieron
+               # el 19/10/2026 de comparar todos los títulos contra el nombre de Steam: la
+               # regla daba "Beamng.Drive" y "Dunecrawl" en los posteos.
+               "BEAMNGDRIVE": "BeamNG.drive", "DUNECRAWL": "DuneCrawl",
+               "GRIMKEEP": "GrimKeep", "CLOVERPIT": "CloverPit",
+               "REFANTAZIO": "ReFantazio", "AEREA": "AereA"}
 # Cuando la palabra suelta es ambigua, la excepción va por título completo. "SIN" acá es
 # el nombre del juego de 1998, pero en español es una preposición: si estuviera en
 # CASO_PROPIO, cualquier título con "sin" saldría "SiN".
@@ -188,6 +194,10 @@ TITULO_EXACTO = {
     # puede deducir, porque Yog-Sothoth sí lleva mayúscula.
     "TRUCK-KUN IS SUPPORTING ME FROM ANOTHER WORLD?!":
         "Truck-kun Is Supporting Me from Another World?!",
+    # "Freestyle" suelto es una palabra común (Monster Truck Freestyle); la mayúscula del
+    # medio es sólo de este juego. "is" en minúscula es la grafía oficial de Hell is Us.
+    "FREESTYLE FOOTBALL 2": "FreeStyle Football 2",
+    "HELL IS US": "Hell is Us",
 }
 
 
