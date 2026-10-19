@@ -6,7 +6,28 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:34:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 16:43:27 +0000</lastBuildDate>
+    <item>
+      <title>HARVEST MOON: ECHOES OF TERADEA: DEBUTA CON 76 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/harvest-moon-echoes-of-teradea</link>
+      <guid isPermaLink="false">harvest-moon-echoes-of-teradea-2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Salió el 15 de octubre y debutó con 76, sobre cuatro reseñas de la versión de Switch 2. Lo más elogiado es la exploración del mundo abierto; lo más criticado, el rendimiento en esa consola. — HARVEST MOON: ECHOES OF TERADEA para PS5 / XBOX / SWITCH 2 / SWITCH.</description>
+    </item>
+    <item>
+      <title>DUNECRAWL: LLEGA A CONSOLAS CON 58 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/dunecrawl</link>
+      <guid isPermaLink="false">dunecrawl-2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Salió hoy en PS5 y Xbox Series. En Metacritic tiene 58, el promedio de la versión de PC: las reseñas lo recomiendan sólo para jugar con un grupo completo. — DUNECRAWL para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>FARAWAY: SALE EL 5 DE NOVIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/faraway</link>
+      <guid isPermaLink="false">faraway-2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Annapurna Interactive le puso fecha en PS5, Xbox Series, Switch 2, Switch y PC. La PS Store y la tienda de Xbox ya lo tienen para el 5 de noviembre; la eShop todavía no. — FARAWAY para PS5 / XBOX.</description>
+    </item>
     <item>
       <title>JUST DANCE: DECADES OF HITS: DEBUTA CON 76, Y SALIÓ TAMBIÉN EN PS5 Y SWITCH</title>
       <link>https://lanzamientos.lat/juegos/just-dance-decades-of-hits</link>
@@ -265,27 +286,6 @@
       <guid isPermaLink="false">the-legend-of-zelda-ocarina-of-time-switch-2-2026-10-14</guid>
       <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
       <description>Nintendo publicó un tráiler general que repasa el juego durante cinco minutos, a tres semanas del lanzamiento. — THE LEGEND OF ZELDA: OCARINA OF TIME para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>PLANET ZOO 2: DEBUTA CON 85 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/planet-zoo-2</link>
-      <guid isPermaLink="false">planet-zoo-2-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Salió el 13 de octubre en PS5, Xbox Series y PC, y debutó con 85 de promedio, sobre reseñas de la versión de PC. Es uno de los puntajes más altos del mes. — PLANET ZOO 2 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>THE SÉANCE OF BLAKE MANOR: TAMBIÉN SALE EN XBOX, Y ENTRA A GAME PASS</title>
-      <link>https://lanzamientos.lat/juegos/the-seance-of-blake-manor</link>
-      <guid isPermaLink="false">the-seance-of-blake-manor-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Raw Fury confirmó en Xbox Wire que llega a Xbox Series el 27 de octubre, el mismo día que en Switch 2, y que entra a Game Pass desde el lanzamiento. La tienda de Xbox ya lo tiene con esa fecha. — THE SÉANCE OF BLAKE MANOR para SWITCH 2 / XBOX.</description>
-    </item>
-    <item>
-      <title>MYCOPUNK: ENTRA A PS PLUS EXTRA EL DÍA QUE SALE</title>
-      <link>https://lanzamientos.lat/juegos/mycopunk</link>
-      <guid isPermaLink="false">mycopunk-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Sony lo confirmó en el catálogo de octubre: desde el 20, el mismo día del estreno en PS5, se juega con PS Plus Extra y Deluxe. — MYCOPUNK para PS5.</description>
     </item>
   </channel>
 </rss>

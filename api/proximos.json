@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-18T19:34:06+00:00",
+ "generado": "2026-10-19T16:43:27+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-18",
- "hasta": "2026-11-17",
- "total": 72,
+ "desde": "2026-10-19",
+ "hasta": "2026-11-18",
+ "total": 73,
  "juegos": [
   {
    "id": "beamng-drive",
@@ -56,13 +56,21 @@
    "desarrollador": "ALIENTRAP",
    "descripcion": "Una aventura de acción cooperativa para hasta cuatro, online o en la misma consola, en la que se cruza un desierto a bordo de un cangrejo gigante cargado de cañones. Se exploran islas oasis y mazmorras, se defienden pueblos de bandidos y de hordas de insectos, y se ayuda a los peregrinos Polloi en su guerra contra el Ceramista. Solo también se puede, con un compañero fantasma que da una mano.",
    "trailer": "https://youtube.com/embed/ttwLu8Y8J_s",
-   "metacritic": null,
+   "metacritic": 58,
+   "critica": "Las reseñas son de la versión de PC, que salió en enero, y están divididas. Todas reconocen una idea llamativa, pilotear cangrejos gigantes de guerra por un mundo abierto, con buena presentación y un cooperativo caótico que funciona con el grupo completo. Los reparos pesan más: juego repetitivo, progresión floja, mecánicas que no terminan de desarrollarse y una inteligencia artificial lenta que se nota al jugar solo o de a dos.",
+   "metacriticUsuarios": 6.0,
+   "metacriticVotos": 4,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833200/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-10-05",
    "url": "https://lanzamientos.lat/juegos/dunecrawl",
    "noticias": [
+    {
+     "fecha": "2026-10-19",
+     "titulo": "LLEGA A CONSOLAS CON 58 EN METACRITIC",
+     "texto": "Salió hoy en PS5 y Xbox Series. En Metacritic tiene 58, el promedio de la versión de PC: las reseñas lo recomiendan sólo para jugar con un grupo completo."
+    },
     {
      "fecha": "2026-10-05",
      "titulo": "SALE EL 19 DE OCTUBRE EN PS5 Y XBOX",
@@ -1719,6 +1727,36 @@
      "fecha": "2026-10-12",
      "titulo": "SALE EL 5 DE NOVIEMBRE EN SWITCH 2",
      "texto": "Dotemu y The Arcade Crew le pusieron fecha a la versión de Switch 2, que sale junto con la de PC. La eShop ya confirma el día."
+    }
+   ]
+  },
+  {
+   "id": "faraway",
+   "titulo": "FARAWAY",
+   "fecha": "2026-11-05",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ARCADE",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "STEPH THIRION",
+   "descripcion": "Un arcade de puntaje infinito, generado al azar, sobre una estrella fugaz que arma constelaciones para seguir viva. Se conectan estrellas para recoger su energía, estirar la vida y sumar puntos; las constelaciones se dibujan con libertad y hay técnicas avanzadas que arriesgan más a cambio de más energía. Las reglas son simples y los controles fluidos, pero dominarlo cuesta: cada partida arranca de cero en un universo que se genera según cómo se juega, y con más habilidad llegan más velocidad y regiones más difíciles. Es de Steph Thirion y lo publica Annapurna Interactive.",
+   "trailer": "https://youtube.com/embed/rqoOKaOrgoI",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.28996.14200503875502482.80908a4d-7242-450f-b329-0065041d2f49.a47a9068-078b-4f6f-896e-e328034eb827?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-19",
+   "url": "https://lanzamientos.lat/juegos/faraway",
+   "noticias": [
+    {
+     "fecha": "2026-10-19",
+     "titulo": "SALE EL 5 DE NOVIEMBRE",
+     "texto": "Annapurna Interactive le puso fecha en PS5, Xbox Series, Switch 2, Switch y PC. La PS Store y la tienda de Xbox ya lo tienen para el 5 de noviembre; la eShop todavía no."
     }
    ]
   },
