@@ -2,142 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-19T16:43:27+00:00",
+ "generado": "2026-10-20T14:30:10+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-19",
- "hasta": "2026-11-18",
- "total": 73,
+ "desde": "2026-10-20",
+ "hasta": "2026-11-19",
+ "total": 70,
  "juegos": [
-  {
-   "id": "beamng-drive",
-   "titulo": "BEAMNG.DRIVE",
-   "relanzamiento": "En PC, en acceso anticipado, desde mayo de 2015 — esta fecha corresponde a la edición de PS5, que también sale en acceso anticipado",
-   "fecha": "2026-10-19",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "SIMULACION",
-    "CARRERAS"
-   ],
-   "desarrollador": "BEAMNG",
-   "descripcion": "Un simulador de manejo basado en física de cuerpos blandos: los vehículos se deforman como uno real cuando chocan. Más que un juego de carreras es un arenero para manejar, probar y romper.",
-   "trailer": "https://youtube.com/embed/8bLmLxRDj4I",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-24",
-   "url": "https://lanzamientos.lat/juegos/beamng-drive",
-   "noticias": [
-    {
-     "fecha": "2026-09-24",
-     "titulo": "LLEGA A PS5 EL 19 DE OCTUBRE, EN ACCESO ANTICIPADO",
-     "texto": "BeamNG confirmó que la versión de PS5 sale el 19 de octubre en acceso anticipado, la misma etapa en la que sigue en PC desde 2015. Allá, en julio, recibió su actualización más grande, la 0.39, con sombras y gráficos renovados, una interfaz nueva y un vehículo más."
-    }
-   ]
-  },
-  {
-   "id": "dunecrawl",
-   "titulo": "DUNECRAWL",
-   "fecha": "2026-10-19",
-   "relanzamiento": "En PC desde enero de 2026",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "COOP",
-    "INDIE"
-   ],
-   "desarrollador": "ALIENTRAP",
-   "descripcion": "Una aventura de acción cooperativa para hasta cuatro, online o en la misma consola, en la que se cruza un desierto a bordo de un cangrejo gigante cargado de cañones. Se exploran islas oasis y mazmorras, se defienden pueblos de bandidos y de hordas de insectos, y se ayuda a los peregrinos Polloi en su guerra contra el Ceramista. Solo también se puede, con un compañero fantasma que da una mano.",
-   "trailer": "https://youtube.com/embed/ttwLu8Y8J_s",
-   "metacritic": 58,
-   "critica": "Las reseñas son de la versión de PC, que salió en enero, y están divididas. Todas reconocen una idea llamativa, pilotear cangrejos gigantes de guerra por un mundo abierto, con buena presentación y un cooperativo caótico que funciona con el grupo completo. Los reparos pesan más: juego repetitivo, progresión floja, mecánicas que no terminan de desarrollarse y una inteligencia artificial lenta que se nota al jugar solo o de a dos.",
-   "metacriticUsuarios": 6.0,
-   "metacriticVotos": 4,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1833200/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-05",
-   "url": "https://lanzamientos.lat/juegos/dunecrawl",
-   "noticias": [
-    {
-     "fecha": "2026-10-19",
-     "titulo": "LLEGA A CONSOLAS CON 58 EN METACRITIC",
-     "texto": "Salió hoy en PS5 y Xbox Series. En Metacritic tiene 58, el promedio de la versión de PC: las reseñas lo recomiendan sólo para jugar con un grupo completo."
-    },
-    {
-     "fecha": "2026-10-05",
-     "titulo": "SALE EL 19 DE OCTUBRE EN PS5 Y XBOX",
-     "texto": "Alientrap puso fecha para PS5 y Xbox. Las versiones de Switch 2 y Switch llegan más adelante en 2026, sin día todavía. En PC está desde enero."
-    }
-   ]
-  },
-  {
-   "id": "frostpunk-switch",
-   "titulo": "FROSTPUNK",
-   "fecha": "2026-10-19",
-   "relanzamiento": "En PC desde 2018 y en PS4 y Xbox One desde 2019 — esta fecha corresponde a la edición de Switch",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "ESTRATEGIA",
-    "SIMULACION",
-    "SUPERVIVENCIA"
-   ],
-   "desarrollador": "11 BIT STUDIOS",
-   "descripcion": "Un juego de supervivencia de una sociedad en un mundo congelado. Se gobierna la última ciudad de la Tierra, construida alrededor de un generador de vapor: hay que juntar recursos para que la gente no muera de frío, promulgar leyes y explorar los alrededores, y casi siempre lo eficiente choca con lo humano. Cada decisión tiene un precio.",
-   "trailer": "https://youtube.com/embed/_LdRNF9LKyA",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-05",
-   "url": "https://lanzamientos.lat/juegos/frostpunk-switch",
-   "noticias": [
-    {
-     "fecha": "2026-10-05",
-     "titulo": "LLEGA A SWITCH EL 19 DE OCTUBRE",
-     "texto": "11 bit studios puso fecha a la versión de Switch del primer Frostpunk, ocho años después del estreno en PC."
-    }
-   ]
-  },
-  {
-   "id": "shoresy-legends-of-the-north",
-   "titulo": "SHORESY: LEGENDS OF THE NORTH",
-   "fecha": "2026-10-19",
-   "relanzamiento": "En PC desde noviembre de 2025",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "DEPORTES",
-    "RPG",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "TREEWOOD GAMES",
-   "descripcion": "Un RPG de hockey basado en Shoresy, la serie de televisión. En el modo historia se crea un jugador que se pone la camiseta de los Sudbury Blueberry Bulldogs para jugar al lado de Shoresy y derrotar a los Hockey Godz, subiendo atributos y desbloqueando equipo en un viaje por el país con jefes para vencer. El modo Shinny es multijugador local, competitivo o cooperativo, con un equipo de personajes de la serie y una barra de pelea para noquear rivales. Está pensado como homenaje a los juegos de deportes de antes.",
-   "trailer": "https://youtube.com/embed/MaXju2FjdWM",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1538010/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-16",
-   "url": "https://lanzamientos.lat/juegos/shoresy-legends-of-the-north",
-   "noticias": [
-    {
-     "fecha": "2026-10-16",
-     "titulo": "LLEGA A XBOX EL 19 DE OCTUBRE",
-     "texto": "Xbox lo incluyó en los estrenos de la semana del 19 de octubre, y la tienda ya tiene la fecha."
-    }
-   ]
-  },
   {
    "id": "we-were-here-tomorrow",
    "titulo": "WE WERE HERE TOMORROW",
@@ -1717,7 +1588,7 @@
    "descripcion": "Un roguelite de acción rápida con estrategia de emparejar casillas. Un disqueballero, guerrero capaz de usar armas de disquete, sale a terminar con un rey enloquecido por el poder y la soledad, mientras unos fallos técnicos extraños sugieren que hay algo más en juego. Se llevan hasta tres armas de colores distintos y, en un campo de batalla cuadriculado, se emparejan casillas del mismo color para cargarlas: cuantas más, más ataques, mientras hay que esquivar los golpes enemigos. Tiene cinco personajes, ochenta armas, más de 150 mejoras y cuatro biomas con sus jefes.",
    "trailer": "https://youtube.com/embed/a3oWY6e_ROM",
    "metacritic": null,
-   "imagen": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3591900/bfaf3c4f62c982f00ab090872d6fb13932579be2/library_capsule_2x.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-10-13",
@@ -2112,6 +1983,66 @@
    "psplus": false,
    "alta": "2026-09-17",
    "url": "https://lanzamientos.lat/juegos/rangers-path-national-park-simulator"
+  },
+  {
+   "id": "grand-theft-auto-vi",
+   "titulo": "GRAND THEFT AUTO VI",
+   "fecha": "2026-11-19",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "ROCKSTAR GAMES",
+   "descripcion": "El regreso de Rockstar a Vice City: Lucia y su compañero protagonizan la nueva entrega de la saga más influyente del mundo abierto, en un estado de Leonida inspirado en la Florida moderna. Tras dos retrasos, Rockstar confirmó el 19 de noviembre como fecha definitiva, exclusivo de PS5 y Xbox Series X|S en su estreno (la versión de PC todavía no fue anunciada).",
+   "trailer": "https://youtube.com/embed/rz1B4B2yBZY",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/a55e72542860596de2ef8c0d847b6f03.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SALIÓ EL TRÁILER DE LANZAMIENTO",
+     "texto": "Rockstar publicó el tráiler de lanzamiento, a poco más de un mes del estreno del 19 de noviembre en PS5 y Xbox Series."
+    },
+    {
+     "fecha": "2026-10-08",
+     "titulo": "SEIS RADIOS Y, POR PRIMERA VEZ, PODCASTS",
+     "texto": "Rockstar presentó seis de las emisoras: Cocoteo FM, de música latina actual, de la bachata y el merengue al dembow y el reguetón; Back Country Radio, de country; AfroBank FM, de música africana; The Chamber 106.6, de metal; Flash FM, la de pop de siempre en Vice City, y Dirty South Classics, de rap del sur. Por primera vez en la saga habrá podcasts a demanda, y la radio también se va a poder escuchar caminando, con auriculares conectados al teléfono de Jason y Lucía."
+    },
+    {
+     "fecha": "2026-10-02",
+     "titulo": "LOS MIAMI HEAT JUEGAN COMO VICE CITY UN DÍA ANTES DEL ESTRENO",
+     "texto": "El 18 de noviembre, la noche anterior al lanzamiento, los Miami Heat reciben a los Milwaukee Bucks con uniformes y una cancha de Vice City, la versión de Miami del juego. La noche se llama «A Night in Vice City» y el partido se transmite por ESPN. El equipo además sacó una colección de 14 prendas inspirada en el juego."
+    },
+    {
+     "fecha": "2026-08-27",
+     "titulo": "UNA MIRADA EXTENDIDA SE ESTRENÓ EN NETFLIX, NO EN YOUTUBE",
+     "texto": "Rockstar estrenó hoy Grand Theft Auto VI: Una mirada extendida, y eligió Netflix para estrenarlo: al canal oficial de YouTube y al sitio del juego llegó unas horas después, esa misma noche. Está capturado enteramente con imágenes del juego corriendo en PS5, un detalle que Rockstar remarca en el anuncio. La fecha de salida no se movió: sigue el 19 de noviembre en PS5 y Xbox Series X|S."
+    },
+    {
+     "fecha": "2026-06-25",
+     "titulo": "PRECIO OFICIAL Y ARRANCA LA PREVENTA",
+     "texto": "La edición estándar cuesta 79,99 dólares y la Ultimate 99,99. La Ultimate suma vehículos como el Vapid Dominator Buggy del 67, el Grotti Cheetah del 95, la moto Dinka Enduro y el bote Shitzu Squalo, las armas Hawk & Little Morgan y acceso a locaciones como Paradise Garage y el taller Rideout Customs. Quien reserve antes del 20 de noviembre recibe el Pack Vintage, y la preventa digital regala un mes de GTA+."
+    },
+    {
+     "fecha": "2026-06-25",
+     "titulo": "LA EDICIÓN FÍSICA VIENE SIN DISCO",
+     "texto": "La versión en caja sale el 12 de noviembre, una semana antes que la digital, pero las cajas van vacías: adentro solo hay un código de descarga para PS5 o Xbox. No hay disco."
+    },
+    {
+     "fecha": "2025-11-06",
+     "titulo": "SE RETRASÓ POR SEGUNDA VEZ, AHORA AL 19 DE NOVIEMBRE",
+     "texto": "Rockstar movió el lanzamiento seis meses, de mayo a noviembre de 2026. Ya se había corrido antes desde el otoño boreal de 2025. El comunicado pidió disculpas por la espera y dijo que los meses extra permitirían terminar el juego con el nivel de pulido esperado."
+    }
+   ]
   }
  ]
 }

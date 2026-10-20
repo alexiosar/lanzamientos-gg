@@ -2015,7 +2015,7 @@ y abrir http://localhost:8080
 
 ### Ideas del usuario del 27/08/2026 (sin empezar)
 
-- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 16/10/2026).**
+- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 20/10/2026).**
   Los trajo Gematsu y **ninguno se cargó**, porque ninguna tienda de consola los lista. No es
   que estén mal: es que todavía no aparecieron. Se revisan de nuevo en cada semanal y entran
   en cuanto la tienda los tome.
@@ -2093,6 +2093,7 @@ y abrir http://localhost:8080
   | Vixen 357 (Xbox y Switch) · HorrorVale: Deadluxe Edition (Switch) | 23/10 y 31/10 (Gematsu, 16/10) | **Ya están cargados en PlayStation** (y HorrorVale en Xbox). La eShop no tiene ninguno, y Xbox no lista Vixen 357 |
   | Mortal Sin (PS) | 21 de octubre | **Ya está cargado en Xbox.** La PS Store tiene la fecha pero no dice para qué consola |
   | The Wolf Among Us Remastered (Switch 2 y Switch) | Se retrasó sin fecha (Gematsu, 16/10) | **Se sacaron Switch y Switch 2 de la ficha el 16/10**: sigue el 29/10 en PS5 y Xbox |
+  | Ys VIII: Lacrimosa of DANA (Switch 2) | 25 de febrero de 2027 (Gematsu, 20/10) | La eShop sólo tiene la de Switch de 2018 |
   | Console Archives Ripple Island (Switch 2) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en PS5**, que lo lista desde el 8. La eShop no lo tiene |
   | Spyder: Agent 8 (Switch 2) | 11 de febrero de 2027 (Gematsu, 8/10) | **Ya está cargado en PS5 y Xbox**, que confirman el día. La eShop no lo tiene |
   | My Friendly Neighborhood (Switch 2) | 22 de octubre (Gematsu, 6/10) | **No se cargó**: la eShop y Nintendo US no lo listan. Salió en 2025 en las otras consolas, así que entra con `relanzamiento` |

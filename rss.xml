@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Mon, 19 Oct 2026 16:43:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 14:30:10 +0000</lastBuildDate>
+    <item>
+      <title>PALWORLD: LA PRÓXIMA GRAN ACTUALIZACIÓN, SIDE BY SIDE, LLEGA EN EL INVIERNO BOREAL</title>
+      <link>https://lanzamientos.lat/juegos/palworld</link>
+      <guid isPermaLink="false">palworld-2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Pocketpair anunció la próxima actualización grande de Palworld, Side by Side, para este invierno del hemisferio norte, todavía sin fecha. — PALWORLD para PS5 / XBOX.</description>
+    </item>
     <item>
       <title>HARVEST MOON: ECHOES OF TERADEA: DEBUTA CON 76 EN METACRITIC</title>
       <link>https://lanzamientos.lat/juegos/harvest-moon-echoes-of-teradea</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">resonance-a-plague-tale-legacy-2026-10-14</guid>
       <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
       <description>Sony lo sumó a las pruebas de juego de PS Plus Deluxe: desde el martes 20 de octubre se puede jugar un tiempo limitado sin comprarlo. — RESONANCE: A PLAGUE TALE LEGACY para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>THE LEGEND OF ZELDA: OCARINA OF TIME: UN TRÁILER DE CINCO MINUTOS</title>
-      <link>https://lanzamientos.lat/juegos/the-legend-of-zelda-ocarina-of-time-switch-2</link>
-      <guid isPermaLink="false">the-legend-of-zelda-ocarina-of-time-switch-2-2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Nintendo publicó un tráiler general que repasa el juego durante cinco minutos, a tres semanas del lanzamiento. — THE LEGEND OF ZELDA: OCARINA OF TIME para SWITCH 2.</description>
     </item>
   </channel>
 </rss>
