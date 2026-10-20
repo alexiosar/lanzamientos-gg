@@ -18,8 +18,11 @@ semanas siguen afuera páginas pedidas a mano, el problema no es que Google no l
 El orden pone primero lo que más se busca ahora: el mes en curso, las suscripciones y los
 estrenos recientes.
 
-**Estado al 19/10/2026:** pedidos el **día 1** (12/10) y el **día 6** (19/10). Los días 2, 3, 4
-y 5 **no se pidieron todavía**. Orden para seguir, de a uno por día: día 5, día 2, día 3, día 4.
+**Estado al 20/10/2026:** pedidos el **día 1** (12/10), el **día 6** (19/10) y, del día 5, sólo
+Metroid Ravenous (20/10): la cuota de Search Console se cortó en la segunda URL, porque no
+habían pasado 24 horas desde los diez del 19. **La cuota es de unas 10 por cada 24 horas
+corridas, no por día de calendario**: conviene pedir siempre a la misma hora. Faltan las
+otras 9 del día 5 y los días 2, 3 y 4.
 
 ## Día 1
 
@@ -82,7 +85,7 @@ Las siete fichas grandes que el 14/10 dejaron de ser flacas tienen todavía el `
 la última visita de Google: pedirlas es la forma de que lo vea sacado. Más las que se cayeron
 esta semana siendo de octubre.
 
-- [ ] https://lanzamientos.lat/juegos/metroid-ravenous
+- [x] https://lanzamientos.lat/juegos/metroid-ravenous (20/10)
 - [ ] https://lanzamientos.lat/juegos/until-dawn-2
 - [ ] https://lanzamientos.lat/juegos/pokemon-winds
 - [ ] https://lanzamientos.lat/juegos/pokemon-waves
