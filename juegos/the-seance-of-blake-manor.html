@@ -43,6 +43,15 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
+    .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
+    .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
+    .cat-anuncios      { color: var(--ps5); border-color: var(--ps5); }
+    .cat-eventos       { color: var(--amarillo); border-color: var(--amarillo); }
+    /* El borde punteado dice "esto no está confirmado" sin tener que leer nada. */
+    .cat-rumores       { color: var(--gris-6); border-color: var(--gris-5); border-style: dashed; }
+    .noticia-fuente    { display: inline-block; margin-top: 0.4rem; font-size: 0.6875rem; letter-spacing: 1px; color: var(--gris-5); }
+    .noticia-fuente:hover { color: var(--acento); }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -164,6 +173,22 @@
 
       <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-21</span>
+            <span class="noticia-titulo">▸ CONFIRMADO EN GAME PASS EL 27</span>
+          </div>
+          <p class="noticia-texto">Xbox lo confirmó en la segunda tanda de octubre: entra el 27 a Game Pass Ultimate, Premium y PC Game Pass, el día que sale.</p>
+        </div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-20</span>
+            <span class="noticia-titulo">▸ GAME PASS SUMA FINAL FANTASY VII REMAKE Y CUATRO ESTRENOS EL DÍA UNO</span><span class="noticia-cat cat-suscripciones">SUSCRIPCIONES</span>
+          </div>
+          <p class="noticia-texto">Xbox anunció la segunda tanda de octubre. Entran el día que salen The Séance of Blake Manor el 27, Mouthwashing y Terrible Lizards el 29, y Pit of Goblin el 3 de noviembre. También se suman Final Fantasy VII Remake Intergrade el 29, Dodo Duckie el 22 y Plants vs. Zombies: Replanted, este último por EA Play.
+
+El 31 se van varios clásicos de LucasArts —Day of the Tentacle, Full Throttle y Grim Fandango—, además de Deep Rock Galactic, Lego Star Wars: The Skywalker Saga y Wartales.</p><a class="noticia-fuente" href="https://news.xbox.com/en-us/2026/10/20/xbox-game-pass-october-2026-wave-2/" target="_blank" rel="noopener nofollow">FUENTE ↗</a>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-10-14</span>

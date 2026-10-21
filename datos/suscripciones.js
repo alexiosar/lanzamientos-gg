@@ -156,7 +156,7 @@ const SUSCRIPCIONES = [
   {
     servicio: "gamepass",
     mes: "2026-10",
-    intro: "Lo más fuerte de Game Pass en octubre son los estrenos del primer día: Gears of War: E-Day el 6, Echo Weaver, Forever Ago y Neon Abyss 2 el 8, Valor Mortis y Deep Dish Dungeon el 13, y Bluey's Happy Snaps y Chained Beasts el 15. Además entra Battlefield 6 el 13, y Keeper se suma a Premium el 2. Casi todo llega a Ultimate y PC Game Pass; Neon Abyss 2 y Keeper también a Premium. El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem y Pacific Drive.",
+    intro: "Lo más fuerte de Game Pass en octubre son los estrenos del primer día: Gears of War: E-Day el 6, Echo Weaver, Forever Ago y Neon Abyss 2 el 8, Valor Mortis y Deep Dish Dungeon el 13, Bluey's Happy Snaps y Chained Beasts el 15, The Séance of Blake Manor el 27, Mouthwashing y Terrible Lizards el 29, y Pit of Goblin el 3 de noviembre. Además entran Battlefield 6 el 13 y Final Fantasy VII Remake Intergrade el 29. El 15 se fueron Clair Obscur: Expedition 33 y A Plague Tale: Requiem, entre otros, y el 31 se van Grim Fandango Remastered, Deep Rock Galactic y Lego Star Wars: The Skywalker Saga.",
     tandas: [
       {
         nombre: "ANUNCIADOS EN SEPTIEMBRE",
@@ -243,6 +243,81 @@ const SUSCRIPCIONES = [
             plataformas: ["XBOX"],
             entra: "2026-10-15",
             texto: "Entra el día que sale. Un roguelite de gladiadores para hasta cuatro jugadores que pelean encadenados entre sí."
+          }
+        ]
+      },
+      {
+        nombre: "SEGUNDA TANDA DE OCTUBRE",
+        detalle: "Anunciada el 20 de octubre. Salvo que se aclare otra cosa, cada juego entra a Ultimate, Premium y PC Game Pass. El 31 se van Day of the Tentacle Remastered, Full Throttle Remastered, Grim Fandango Remastered, Deep Rock Galactic, Lego Star Wars: The Skywalker Saga, Wartales y otros; el 10 de noviembre, Football Manager 26.",
+        anunciado: "2026-10-20",
+        fuente: "https://news.xbox.com/en-us/2026/10/20/xbox-game-pass-october-2026-wave-2/",
+        juegos: [
+          {
+            titulo: "Sandustry",
+            id: null,
+            plataformas: ["PC"],
+            entra: "2026-10-21",
+            texto: "Sólo PC, en acceso anticipado: ya estaba en Ultimate y PC Game Pass y ahora suma Premium. Un juego de fábricas en mundos de arena totalmente destructibles.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/8836172e9ba1cac149cad8aaa8c43d1e7cecb078/library_capsule_2x.jpg"
+          },
+          {
+            titulo: "Dodo Duckie",
+            id: "dodo-duckie",
+            plataformas: ["XBOX"],
+            entra: "2026-10-22",
+            texto: "Un plataformas de puzles en el que un pato cambia entre 2D y 3D para rescatar a sus amigas gallinas. Salió en julio y entra a Ultimate, Premium y PC Game Pass."
+          },
+          {
+            titulo: "Scramble Knights Online",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-10-26",
+            texto: "Entra el día que sale, en acceso anticipado: un RPG de acción online para jugar con amigos en el reino de Terracott.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379350/5ae55ff27f6174a7beb3130e42a66fc247eb3754/library_capsule_2x.jpg"
+          },
+          {
+            titulo: "The Séance of Blake Manor",
+            id: "the-seance-of-blake-manor",
+            plataformas: ["XBOX"],
+            entra: "2026-10-27",
+            texto: "Entra el día que sale. Un misterio sobrenatural en la Irlanda de 1897: una huésped desaparecida en una mansión donde se prepara una sesión de espiritismo."
+          },
+          {
+            titulo: "Final Fantasy VII Remake Intergrade",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-10-29",
+            texto: "La primera parte del remake de Final Fantasy VII, hasta la huida de Midgar, con combate que mezcla acción en tiempo real y comandos. Está en Xbox desde enero.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Mouthwashing",
+            id: "mouthwashing",
+            plataformas: ["XBOX"],
+            entra: "2026-10-29",
+            texto: "Entra el día que llega a consolas. Terror psicológico en un carguero espacial varado, con una tripulación de cinco condenada por su capitán."
+          },
+          {
+            titulo: "Plants vs. Zombies: Replanted",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-10-29",
+            texto: "Sólo Ultimate y PC Game Pass, a través de EA Play. La versión en alta definición del clásico de plantas contra zombis, con niveles nuevos.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/4239904dc76eae613171cd3dec950b9e0abfbd5f/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Terrible Lizards",
+            id: "terrible-lizards",
+            plataformas: ["XBOX"],
+            entra: "2026-10-29",
+            texto: "Entra el día que sale, sólo en Ultimate y PC Game Pass. Terror con parkour en un parque de dinosaurios abandonado de la Ruta 66."
+          },
+          {
+            titulo: "Pit of Goblin",
+            id: "pit-of-goblin",
+            plataformas: ["XBOX"],
+            entra: "2026-11-03",
+            texto: "Entra el día que llega a Xbox. Un cooperativo de terror para cuatro goblins que bajan a mazmorras a buscar comida para su Rey Reina."
           }
         ]
       }

@@ -2,111 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-20T14:30:10+00:00",
+ "generado": "2026-10-21T14:08:52+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-20",
- "hasta": "2026-11-19",
+ "desde": "2026-10-21",
+ "hasta": "2026-11-20",
  "total": 70,
  "juegos": [
-  {
-   "id": "we-were-here-tomorrow",
-   "titulo": "WE WERE HERE TOMORROW",
-   "fecha": "2026-10-20",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "PUZZLE",
-    "AVENTURA",
-    "COOP",
-    "INDIE"
-   ],
-   "desarrollador": "TOTAL MAYHEM GAMES",
-   "descripcion": "El capítulo nuevo de la serie de puzles cooperativos para dos. Una expedición para rescatar a otros exploradores termina con la pareja atrapada bajo el hielo de la Antártida, y al despertar están en unas instalaciones de Norček Industries, donde el equipo que trabajaba ahí desapareció. Casi siempre separados, los dos se comunican por walkie-talkie: cada uno ve una parte del problema y tiene que describirla para que el otro pueda resolverlo.",
-   "trailer": "https://youtube.com/embed/JaB-nrBJFYo",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315050/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-20",
-   "url": "https://lanzamientos.lat/juegos/we-were-here-tomorrow",
-   "noticias": [
-    {
-     "fecha": "2026-09-20",
-     "titulo": "SALE EL 20 DE OCTUBRE",
-     "texto": "Total Mayhem Games puso fecha en el PC Gaming Show: Tokyo Direct. Sale el mismo día en PC, PS5 y Xbox."
-    }
-   ]
-  },
-  {
-   "id": "mycopunk",
-   "titulo": "MYCOPUNK",
-   "relanzamiento": "En PC, en acceso anticipado, desde julio de 2025 — esta fecha es la de la versión terminada y la de PS5",
-   "fecha": "2026-10-20",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "SHOOTER",
-    "FPS",
-    "COOP",
-    "INDIE"
-   ],
-   "desarrollador": "PIGEONS AT PLAY",
-   "descripcion": "Un shooter en primera persona de misiones y botín para hasta cuatro. Un grupo de robots descartados es contratado por la corporación SAXON para frenar una catástrofe de hongos que se extiende por todo el planeta. Las armas se mejoran en una grilla que deja armar combinaciones propias, y los enemigos van corrompiendo la tecnología del lugar para usarla en contra del equipo.",
-   "trailer": "https://youtube.com/embed/uggR1kFcdck",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3247750/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": true,
-   "alta": "2026-09-20",
-   "url": "https://lanzamientos.lat/juegos/mycopunk",
-   "noticias": [
-    {
-     "fecha": "2026-10-14",
-     "titulo": "ENTRA A PS PLUS EXTRA EL DÍA QUE SALE",
-     "texto": "Sony lo confirmó en el catálogo de octubre: desde el 20, el mismo día del estreno en PS5, se juega con PS Plus Extra y Deluxe."
-    },
-    {
-     "fecha": "2026-09-20",
-     "titulo": "SALE DEL ACCESO ANTICIPADO EL 20 DE OCTUBRE",
-     "texto": "Devolver Digital puso fecha en el PC Gaming Show: Tokyo Direct. Ese día llega la versión terminada, y con ella el debut en PS5."
-    }
-   ]
-  },
-  {
-   "id": "frankenstein-awakening-of-horror",
-   "titulo": "FRANKENSTEIN: AWAKENING OF HORROR",
-   "fecha": "2026-10-20",
-   "plataformas": [
-    "PS5",
-    "PS4"
-   ],
-   "genero": [
-    "TERROR",
-    "SUPERVIVENCIA",
-    "INDIE"
-   ],
-   "desarrollador": "WITENOVASTUDIO",
-   "descripcion": "Un survival horror en tercera persona en una versión alternativa de 1855. En plena guerra de Crimea, el gobierno británico recurre a los experimentos de Victor Frankenstein para conseguir un arma nueva, y el proyecto sale mal. El protagonista despierta sin memoria en un hospital militar de Edimburgo con la misión de encontrar a Frankenstein y frenarlo, mientras criaturas que parecen reconocerlo y documentos sueltos ponen en duda su pasado. La munición y la curación escasean, se pelea con revólver y armas cuerpo a cuerpo, y hay puzles del entorno y trampas.",
-   "trailer": "https://youtube.com/embed/vEeht5p2LaU",
-   "metacritic": null,
-   "imagen": null,
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-08",
-   "url": "https://lanzamientos.lat/juegos/frankenstein-awakening-of-horror",
-   "noticias": [
-    {
-     "fecha": "2026-10-08",
-     "titulo": "SALE EL 20 DE OCTUBRE",
-     "texto": "La PS Store ya lo tiene a la venta anticipada para el 20 de octubre, en PS5 y PS4."
-    }
-   ]
-  },
   {
    "id": "stupid-never-dies",
    "titulo": "STUPID NEVER DIES",
@@ -122,12 +24,21 @@
    "desarrollador": "GPTRACK50 INC.",
    "descripcion": "Un RPG de acción en 3D con un protagonista particular: Davy, el zombi más débil del mundo, que se enamora de Julia, una universitaria que murió congelada durante la Gran Guerra. Para revivirla tiene que bajar a una mazmorra y derrotar a KOM, el Rey de los Monstruos. En cada incursión se hace más fuerte: modifica su cuerpo y devora monstruos de élite para robarles los poderes, siempre contra reloj.",
    "trailer": "https://youtube.com/embed/vPqRLWnV4jk",
-   "metacritic": null,
+   "metacritic": 66,
+   "critica": "Las reseñas son de la versión de PS5 y están muy repartidas, de 85 a 30. Lo que gusta es la personalidad: el humor absurdo, la estética punk muy colorida y las transformaciones de Davy, que le dan ritmo y variedad a las peleas, en el primer juego de GPTRACK50. Lo que no convence es la estructura roguelite: corridas repetitivas, límites de tiempo que aprietan, sistemas de progresión que se enciman y una puntería sin fijación de blanco que frustra.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc8br.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/stupid-never-dies"
+   "url": "https://lanzamientos.lat/juegos/stupid-never-dies",
+   "noticias": [
+    {
+     "fecha": "2026-10-21",
+     "titulo": "DEBUTA CON 66 Y RESEÑAS DIVIDIDAS",
+     "texto": "Salió hoy en PS5 y debutó con 66 sobre más de 25 reseñas, con puntajes que van de 85 a 30: unos destacan el humor y las transformaciones, otros la repetición de las corridas."
+    }
+   ]
   },
   {
    "id": "the-killing-stone",
@@ -690,6 +601,11 @@
    "url": "https://lanzamientos.lat/juegos/the-seance-of-blake-manor",
    "noticias": [
     {
+     "fecha": "2026-10-21",
+     "titulo": "CONFIRMADO EN GAME PASS EL 27",
+     "texto": "Xbox lo confirmó en la segunda tanda de octubre: entra el 27 a Game Pass Ultimate, Premium y PC Game Pass, el día que sale."
+    },
+    {
      "fecha": "2026-10-14",
      "titulo": "TAMBIÉN SALE EN XBOX, Y ENTRA A GAME PASS",
      "texto": "Raw Fury confirmó en Xbox Wire que llega a Xbox Series el 27 de octubre, el mismo día que en Switch 2, y que entra a Game Pass desde el lanzamiento. La tienda de Xbox ya lo tiene con esa fecha."
@@ -993,11 +909,16 @@
    "trailer": "https://youtube.com/embed/nAEerNJJwW0",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920220/library_600x900.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-10-15",
    "url": "https://lanzamientos.lat/juegos/terrible-lizards",
    "noticias": [
+    {
+     "fecha": "2026-10-21",
+     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
+     "texto": "Xbox lo incluyó en la segunda tanda de octubre: el 29 se juega con Game Pass Ultimate y PC Game Pass, el mismo día del estreno."
+    },
     {
      "fecha": "2026-10-15",
      "titulo": "SALE EL 29 DE OCTUBRE",
@@ -1032,6 +953,38 @@
      "fecha": "2026-10-15",
      "titulo": "SALE EL 29 DE OCTUBRE",
      "texto": "La PS Store y Steam lo tienen para el 29 de octubre. La tienda de Xbox lo lista sin día."
+    }
+   ]
+  },
+  {
+   "id": "mouthwashing",
+   "titulo": "MOUTHWASHING",
+   "fecha": "2026-10-29",
+   "relanzamiento": "En PC desde 2024",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX"
+   ],
+   "genero": [
+    "HORROR",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "WRONG ORGAN",
+   "descripcion": "Un terror psicológico en primera persona a bordo del Tulpar, un carguero espacial varado. El capitán Curly intentó llevarse a toda la tripulación con él y fracasó: quedó mutilado, sin poder hablar y a merced de los cinco tripulantes que condenó a una muerte lenta. No hay rescate posible, la energía dura seis meses y la comida mucho menos. La historia se reconstruye entre lo que pasó en la nave y lo que se ve, que no siempre es confiable. Vendió más de 800.000 copias en PC y ganó premios a la mejor narrativa.",
+   "trailer": "https://youtube.com/embed/m2AROQzEl3c",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475490/library_600x900_2x.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-10-21",
+   "url": "https://lanzamientos.lat/juegos/mouthwashing",
+   "noticias": [
+    {
+     "fecha": "2026-10-21",
+     "titulo": "LLEGA A CONSOLAS EL 29 DE OCTUBRE, Y A GAME PASS",
+     "texto": "CRITICAL REFLEX lo anunció para el 29 en Xbox Series, Xbox One, PS5, PS4 y Switch, y entra a Game Pass el día que sale. La tienda de Xbox tiene la fecha; la PS Store lo lista sin día."
     }
    ]
   },
@@ -1241,7 +1194,8 @@
    "duracion": "≈ 21 h (historia) · 38 h (completo)",
    "fecha": "2026-11-03",
    "plataformas": [
-    "PS5"
+    "PS5",
+    "XBOX"
    ],
    "genero": [
     "RPG",
@@ -1256,7 +1210,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/zero-parades-for-dead-spies"
+   "url": "https://lanzamientos.lat/juegos/zero-parades-for-dead-spies",
+   "noticias": [
+    {
+     "fecha": "2026-10-21",
+     "titulo": "TAMBIÉN SALE EN XBOX EL 3 DE NOVIEMBRE",
+     "texto": "ZA/UM anunció en el ID@Xbox Showcase que la Director's Cut llega también a Xbox Series el 3 de noviembre, el mismo día que en PS5. Suma unas 40.000 palabras de historia nueva, un modo Backstage y voces completas en inglés."
+    }
+   ]
   },
   {
    "id": "lets-sing-2027",
@@ -1335,6 +1296,36 @@
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/godzilla-destroy-all-monsters-melee-remastered"
+  },
+  {
+   "id": "pit-of-goblin",
+   "titulo": "PIT OF GOBLIN",
+   "fecha": "2026-11-03",
+   "relanzamiento": "En PC desde diciembre de 2024",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "HORROR",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "FRIENDLY FOE",
+   "descripcion": "Un cooperativo de terror para hasta cuatro jugadores en el que se juega como un goblin miserable. Hay que bajar a criptas, cavernas y ruinas embrujadas a juntar comida para el estómago sin fondo del Rey Reina, esquivando trampas y escapando de monstruos, y después encontrar el camino de vuelta. Cada bajada es distinta y más difícil cuanto más hondo se va, y se puede jugar en equipo o traicionar al grupo. Si no se lo alimenta, el próximo plato puede ser uno.",
+   "trailer": "https://youtube.com/embed/INTiwldYalc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253530/3849a983fb4ae2d3bdcbbaa5d78531447ca0b927/library_capsule_2x.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-10-21",
+   "url": "https://lanzamientos.lat/juegos/pit-of-goblin",
+   "noticias": [
+    {
+     "fecha": "2026-10-21",
+     "titulo": "LLEGA A XBOX Y GAME PASS EL 3 DE NOVIEMBRE",
+     "texto": "Xbox lo incluyó en la segunda tanda de Game Pass de octubre: el 3 de noviembre entra a Ultimate, Premium y PC Game Pass. La PS Store también tiene una ficha, sin fecha ni consola."
+    }
+   ]
   },
   {
    "id": "void-breaker",
@@ -1735,6 +1726,37 @@
      "fecha": "2026-10-06",
      "titulo": "SALE EL 10 DE NOVIEMBRE",
      "texto": "Auroch Digital puso fecha y presentó personajes nuevos. Sale en PS5, Xbox, Switch 2 y PC, y en Xbox ya hay demo."
+    }
+   ]
+  },
+  {
+   "id": "shrek-2-remastered",
+   "titulo": "SHREK 2 REMASTERED",
+   "fecha": "2026-11-10",
+   "relanzamiento": "Remasterización del juego de 2004",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "COOP"
+   ],
+   "desarrollador": "ASPYR",
+   "descripcion": "La remasterización del juego de Shrek 2 de 2004, una aventura de acción cooperativa basada en la película de DreamWorks. Se recorre el reino de Muy Muy Lejano, del pantano de Shrek al castillo de Fiona, con los personajes de la saga a golpes, tirando y pateando enemigos. Tiene gráficos rehechos en 4K, un modo foto, un modo de trucos y cooperativo para hasta cuatro, en la misma pantalla, online o mezclado.",
+   "trailer": "https://youtube.com/embed/6qjCMqy1fAk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/c2ab691a8ed252da54eee927f37d5aa86e54e79e/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-21",
+   "url": "https://lanzamientos.lat/juegos/shrek-2-remastered",
+   "noticias": [
+    {
+     "fecha": "2026-10-21",
+     "titulo": "SALE EL 10 DE NOVIEMBRE",
+     "texto": "Aspyr lo anunció para PS5, Xbox Series, Switch 2, Switch y PC. La PS Store y la tienda de Xbox ya lo tienen en preventa para el 10 de noviembre; la eShop todavía no."
     }
    ]
   },

@@ -55,6 +55,16 @@
 
 const NOTICIAS = [
   {
+    id: "game-pass-octubre-2026-segunda-tanda",
+    fecha: "2026-10-20",
+    categoria: "SUSCRIPCIONES",
+    titulo: "GAME PASS SUMA FINAL FANTASY VII REMAKE Y CUATRO ESTRENOS EL DÍA UNO",
+    texto: "Xbox anunció la segunda tanda de octubre. Entran el día que salen The Séance of Blake Manor el 27, Mouthwashing y Terrible Lizards el 29, y Pit of Goblin el 3 de noviembre. También se suman Final Fantasy VII Remake Intergrade el 29, Dodo Duckie el 22 y Plants vs. Zombies: Replanted, este último por EA Play.\n\nEl 31 se van varios clásicos de LucasArts —Day of the Tentacle, Full Throttle y Grim Fandango—, además de Deep Rock Galactic, Lego Star Wars: The Skywalker Saga y Wartales.",
+    fuente: "https://news.xbox.com/en-us/2026/10/20/xbox-game-pass-october-2026-wave-2/",
+    juegos: ["the-seance-of-blake-manor", "mouthwashing", "terrible-lizards", "pit-of-goblin", "dodo-duckie"],
+    pagina: "/game-pass-octubre-2026"
+  },
+  {
     id: "ps-plus-catalogo-octubre-2026",
     fecha: "2026-10-14",
     categoria: "SUSCRIPCIONES",
