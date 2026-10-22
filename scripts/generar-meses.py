@@ -30,7 +30,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import (PLATS, cargar_juegos, paginas_plataforma_mes, ruta_plataforma_mes,
+from comun import (MINIMO_MES, PLATS, cargar_juegos, paginas_plataforma_mes, ruta_plataforma_mes,
                    ruta_recomendados)
 
 import plantilla
@@ -290,9 +290,17 @@ def main():
     # página titulada "juegos que salen en diciembre de 2027" donde ninguno sale en
     # diciembre. Pasó el 09/09/2026 al cargar los once anuncios de 2027 del Direct.
     # Los juegos no se pierden: siguen en la portada, en el filtro de año y en su ficha.
+    # Y desde el 21/10/2026, tampoco un mes con menos de MINIMO_MES juegos con día: una
+    # página de mes con un solo juego es contenido flaco para Google.
     claves = sorted(mk for mk, lista in por_mes.items()
-                    if any(not j.get("estimado") for j in lista))
+                    if sum(1 for j in lista if not j.get("estimado")) >= MINIMO_MES)
     salteados = sorted(set(por_mes) - set(claves))
+    # Las que quedaron de corridas anteriores y ya no llegan al mínimo se borran, igual
+    # que las de consola: si no, siguen en el sitemap.
+    for mk in salteados:
+        vieja = RAIZ / f"{slug(mk)}.html"
+        if vieja.exists():
+            vieja.unlink()
 
     por_plataforma = paginas_plataforma_mes(juegos)
     intros = leer_intros()
@@ -328,7 +336,7 @@ def main():
     print(f"  {len(generadas)} páginas por consola y mes"
           + (f" ({len(viejas)} viejas borradas)" if viejas else ""))
     if salteados:
-        print(f"  {len(salteados)} mes(es) sin página, todos sus juegos son estimados: "
+        print(f"  {len(salteados)} mes(es) sin página, con menos de {MINIMO_MES} juegos con día: "
               f"{', '.join(slug(k) for k in salteados)}")
 
 

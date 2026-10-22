@@ -556,6 +556,15 @@ function agruparPorMesYDia(juegos) {
   return mapa;
 }
 
+// Un mes tiene página sólo si tiene al menos MINIMO_MES juegos con día, contando todas las
+// consolas: es la misma regla que MINIMO_MES en scripts/comun.py (21/10/2026). Si no, el
+// enlace "VER TODOS" mandaría a un 404. Se cuenta sobre JUEGOS y no sobre lo filtrado,
+// porque la página existe aunque el filtro de consola deje menos juegos a la vista.
+const MINIMO_MES = 3;
+function tienePaginaMes(mesKey) {
+  return JUEGOS.filter(j => !j.estimado && j.fecha.startsWith(mesKey)).length >= MINIMO_MES;
+}
+
 function renderCalendario() {
   const contenedor = document.getElementById("calendario");
   let juegos = juegosFiltrados();
@@ -784,7 +793,7 @@ function renderCalendario() {
         </div>
         <div class="mes-contenido ${abierto ? 'visible' : ''}" id="contenido-${mesKey}">
           ${diasHtml}${estimadosHtml}
-          ${diasOrdenados.length ? `<a class="mes-ver-todos" href="/${MESES_ES[month - 1].toLowerCase()}-${year}">VER TODOS LOS JUEGOS DE ${nombreMes} ▸</a>` : ""}
+          ${tienePaginaMes(mesKey) ? `<a class="mes-ver-todos" href="/${MESES_ES[month - 1].toLowerCase()}-${year}">VER TODOS LOS JUEGOS DE ${nombreMes} ▸</a>` : ""}
         </div>
       </div>
     `;

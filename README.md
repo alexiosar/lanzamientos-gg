@@ -942,6 +942,15 @@ la portada con sus puntajes y sus resúmenes de crítica, y hasta ahora nadie lo
 todos los juegos de…"*. Sin eso Google las encontraría sólo por el sitemap, que es la forma
 más débil de descubrir una página.
 
+**Y un mes con menos de 3 juegos con día tampoco (desde el 21/10/2026).** Ese día Rustown, con
+fecha el 30/06/2027, abrió solo una `/junio-2027` con un único juego con día: una página flaca,
+justo lo que se evita desde la caída de Google. El mínimo es `MINIMO_MES` en `comun.py` y vale
+3, no 5 como el de las páginas por consola, para no borrar `/abril-2027`, que ya existía con
+tres juegos y estaba en la lista de pedidos de indexación. `main.js` usa la misma cuenta
+(`tienePaginaMes`) para mostrar o no el enlace "VER TODOS LOS JUEGOS DE…", sobre todos los
+juegos y no sobre los filtrados por consola. Si un mes baja del mínimo, el generador borra la
+página vieja. Cuando el mes llega a tres, la página se arma sola.
+
 **Un mes de puros estimados no tiene página (desde el 09/09/2026).** Los estimados se anclan
 al último día de su ventana, así que un "2027" sin día queda en `2027-12-31` y todos se
 amontonan en diciembre. Con los once anuncios de 2027 del Direct eso armó una

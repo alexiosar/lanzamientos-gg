@@ -107,6 +107,11 @@ PLAT_SLUG = {"PS5": "ps5", "PS4": "ps4", "XBOX": "xbox", "SWITCH2": "switch-2", 
 # a nadie y que Google lee como contenido flaco. Y sólo del mes en curso en adelante, que
 # es cuando se busca; los meses pasados ya tienen su página general.
 MINIMO_PLAT_MES = 5
+# Una página de mes general pide menos que una por consola, porque junta las cinco. Con
+# uno o dos juegos con día es una página flaca (21/10/2026: Rustown abrió /junio-2027
+# solo). Es 3 y no 5 para no borrar /abril-2027, que ya existía con tres y estaba en la
+# lista de pedidos de indexación. Cuando el mes llega al mínimo, la página se arma sola.
+MINIMO_MES = 3
 
 
 # FICHAS FLACAS Y NOINDEX (05/10/2026)
