@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-22T16:51:13+00:00",
+ "generado": "2026-10-22T18:29:19+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-10-22",
  "hasta": "2026-11-21",
- "total": 71,
+ "total": 73,
  "juegos": [
   {
    "id": "final-fantasy-resonance",
@@ -327,6 +327,36 @@
    ]
   },
   {
+   "id": "demons-night-fever",
+   "titulo": "DEMONS' NIGHT FEVER",
+   "fecha": "2026-10-22",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "RPG",
+    "POR TURNOS"
+   ],
+   "desarrollador": "DRECOM",
+   "descripcion": "Un RPG táctico por turnos sobre grilla donde la estrategia pasa por sacrificar a los propios aliados. Giga Super Death, el demonio más malvado de todos, estaba a un paso de matar a Dios cuando lo convirtieron en un bebé indefenso, y ahora tiene que recuperar su poder y aplastar a un falso dios con máscara de justicia. El sistema de explotación de peones premia la crueldad: cuantas más fechorías, más fuerte se vuelve el ejército.",
+   "trailer": "https://youtube.com/embed/3R-wufCoqBE",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3502620/aebc0ad5e44f5e4965989c66f9695ee17c6552d3/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-22",
+   "url": "https://lanzamientos.lat/juegos/demons-night-fever",
+   "noticias": [
+    {
+     "fecha": "2026-10-22",
+     "titulo": "SALIÓ HOY EN PS5 Y SWITCH",
+     "texto": "Arc System Works lo puso a la venta el 22 de octubre en PS5, Switch y PC. La PS Store y la eShop lo confirman."
+    }
+   ]
+  },
+  {
    "id": "one-piece-grand-gourmet",
    "titulo": "ONE PIECE: GRAND GOURMET",
    "fecha": "2026-10-23",
@@ -445,6 +475,37 @@
      "fecha": "2026-10-16",
      "titulo": "SALE EL 23 DE OCTUBRE",
      "texto": "Ratalaika Games lo anunció para PS5, Xbox Series, PS4, Xbox One, Switch y PC. Por ahora sólo la PS Store tiene la fecha."
+    }
+   ]
+  },
+  {
+   "id": "the-walking-trade",
+   "titulo": "THE WALKING TRADE",
+   "fecha": "2026-10-23",
+   "relanzamiento": "En PC desde marzo de 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ACCION",
+    "INDIE"
+   ],
+   "desarrollador": "MICROWAVE GAMES",
+   "descripcion": "Un simulador de tienda en pleno apocalipsis zombi. Se diseña el local, se ordenan las góndolas, se ponen precios y se atiende a los clientes, mientras de vez en cuando los zombis atacan y hay que defender el negocio con armas cuerpo a cuerpo, de fuego o lo que haya a mano. Se contratan sobrevivientes para buscar suministros, atender o vigilar, se fabrican armas y barricadas, y se elige entre ayudar a la comunidad o aprovecharse con precios abusivos.",
+   "trailer": "https://youtube.com/embed/vx4o-TPMU94",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3398110/05a0f5349ab95aa3e7c23b993e690ec373ce73bb/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-22",
+   "url": "https://lanzamientos.lat/juegos/the-walking-trade",
+   "noticias": [
+    {
+     "fecha": "2026-10-22",
+     "titulo": "SALE EL 23 DE OCTUBRE",
+     "texto": "La PS Store y la tienda de Xbox lo tienen para el 23 de octubre. En PC salió en marzo."
     }
    ]
   },

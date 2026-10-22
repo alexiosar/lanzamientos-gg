@@ -1870,6 +1870,18 @@ ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
    | Terrible Lizards (PS5) | + PS5 | La PS Store tiene el 29/10 pero no dice qué consola. Quedó cargado sólo en Xbox |
    | Crimson Desert Enhanced · DayZ Badlands · BALL x PIT: Risen Ballbylon · Cairn: Deep Water · Lightyear Frontier | — | Expansiones, actualizaciones o un 1.0 de un juego que ya estaba en consola |
 
+   **Barrido del 22/10/2026** (del 22/10 al 30/04/2027 más los códigos de mes): 282 entradas.
+   **Se cargaron 6**: Demons' Night Fever (PS5 y Switch, 22/10), Duskpunk (PS5, 20/10), The
+   Walking Trade (PS5 y Xbox, 23/10), Gothic 3 Classic (PS5 y Xbox, 24/11), Guns of Eschaton
+   (PS5 y Xbox, 8/12) y la versión de Switch 2 de Remothered: Red Nun's Legacy (3/12, entrada
+   aparte). Se sumó Xbox a Yet Another Zombie Survivors, a la venta desde el 20/08. **No se
+   cargaron**: Hitman: Absolution, Cult of the Lamb, Riders Republic y Shadow of the Tomb Raider
+   en Switch 2, Tingus Goose, Tape to Tape, Hillthorn, Lelu y Kloa, porque la eShop no los lista;
+   Ancestors (PS5, Xbox y Switch 2 el 8/12), porque la de Xbox es la de 2019 y no hay ficha
+   nueva; y Tomb Raider: Definitive Survivor Trilogy (Switch 2, 22/10), que la eShop lista con
+   número de paquete (7007) sin decir qué trae: el Definitive Edition ya está en Switch 2 desde
+   noviembre de 2025, y Rise y Shadow no tienen ficha propia. Revisar en la próxima semanal.
+
    **Las reediciones de HAMSTER que faltaban** (unas cuarenta entre junio y septiembre, con
    cuatro cargadas) **no se van a buscar**: el usuario decidió el 24/09 cargarlas sólo de
    ahí en adelante. Está explicado en "Fuentes de datos habituales".

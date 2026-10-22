@@ -185,7 +185,7 @@ CASO_PROPIO = {"IRACING": "iRacing", "PLAYSTATION": "PlayStation", "XBOX": "Xbox
                # regla daba "Beamng.Drive" y "Dunecrawl" en los posteos.
                "BEAMNGDRIVE": "BeamNG.drive", "DUNECRAWL": "DuneCrawl",
                "GRIMKEEP": "GrimKeep", "CLOVERPIT": "CloverPit",
-               "REFANTAZIO": "ReFantazio", "AEREA": "AereA"}
+               "REFANTAZIO": "ReFantazio", "AEREA": "AereA", "GOLDENERTRAUM": "GoldenerTraum"}
 # Cuando la palabra suelta es ambigua, la excepción va por título completo. "SIN" acá es
 # el nombre del juego de 1998, pero en español es una preposición: si estuviera en
 # CASO_PROPIO, cualquier título con "sin" saldría "SiN".
@@ -203,6 +203,8 @@ TITULO_EXACTO = {
     # medio es sólo de este juego. "is" en minúscula es la grafía oficial de Hell is Us.
     "FREESTYLE FOOTBALL 2": "FreeStyle Football 2",
     "HELL IS US": "Hell is Us",
+    "LOVE IS A ROGUELITE": "Love is a Roguelite",
+    "NO, I'M NOT A HUMAN": "No, I'm not a Human",
 }
 
 

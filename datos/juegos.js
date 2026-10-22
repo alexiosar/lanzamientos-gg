@@ -6528,7 +6528,7 @@ const JUEGOS = [
     fecha: "2026-08-20",
     relanzamiento: "En PC desde 2023 — debut en consolas",
     duracion: "≈ 3,7 h (historia) · 30 h (completo)",
-    plataformas: ["PS5", "PS4"],
+    plataformas: ["PS5", "PS4", "XBOX"],
     genero: ["ACCION", "ROGUELIKE", "INDIE"],
     desarrollador: "AWESOME GAMES STUDIO",
     descripcion: "Un survivors-like de zombis en el que no se maneja un personaje sino un escuadrón de tres, cada uno con su clase y su rama de mejoras. Las oleadas no paran y todo se juega en elegir bien qué potenciar entre nivel y nivel, buscando la combinación que aguante un minuto más. Se puede jugar de a varios.",
@@ -6538,6 +6538,11 @@ const JUEGOS = [
     critica: "Las reseñas arrancan todas por el mismo lado: es otro survivors-like y no pretende ser otra cosa. Lo que rescatan es la cantidad de contenido, los personajes que se van desbloqueando y un sistema de mejoras permanentes que engancha, pero sobre todo el escuadrón de tres, que abre sinergias entre clases que el resto del género no tiene. El reparo también se repite: el escenario es convencional, la progresión se vuelve previsible y en pocas horas ya viste casi todo. En cooperativo aguanta bastante más.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2163330/library_600x900.jpg",
     noticias: [
+      {
+        fecha: "2026-10-22",
+        titulo: "TAMBIÉN ESTÁ EN XBOX",
+        texto: "La tienda de Xbox lo tiene a la venta desde el 20 de agosto, el mismo día que en PlayStation."
+      },
       {
         fecha: "2026-09-11",
         titulo: "DEBUT CON 79 EN METACRITIC",
@@ -13120,6 +13125,142 @@ const JUEGOS = [
         fecha: "2026-10-22",
         titulo: "LLEGA A PS5 EL 29 DE OCTUBRE",
         texto: "Nuggets Entertainment lo anunció para PS5 y Switch 2 el 29 de octubre. La PS Store ya tiene la fecha; la eShop todavía no lista la de Switch 2. En Xbox salió en junio."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-22"
+  },
+  {
+    id: "demons-night-fever",
+    titulo: "DEMONS' NIGHT FEVER",
+    fecha: "2026-10-22",
+    plataformas: ["PS5",  "SWITCH"],
+    genero: ["ESTRATEGIA",  "RPG",  "POR TURNOS"],
+    desarrollador: "DRECOM",
+    descripcion: "Un RPG táctico por turnos sobre grilla donde la estrategia pasa por sacrificar a los propios aliados. Giga Super Death, el demonio más malvado de todos, estaba a un paso de matar a Dios cuando lo convirtieron en un bebé indefenso, y ahora tiene que recuperar su poder y aplastar a un falso dios con máscara de justicia. El sistema de explotación de peones premia la crueldad: cuantas más fechorías, más fuerte se vuelve el ejército.",
+    trailer: "https://youtube.com/embed/3R-wufCoqBE",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3502620/aebc0ad5e44f5e4965989c66f9695ee17c6552d3/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-22",
+        titulo: "SALIÓ HOY EN PS5 Y SWITCH",
+        texto: "Arc System Works lo puso a la venta el 22 de octubre en PS5, Switch y PC. La PS Store y la eShop lo confirman."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-22"
+  },
+  {
+    id: "duskpunk",
+    titulo: "DUSKPUNK",
+    fecha: "2026-10-20",
+    relanzamiento: "En PC desde noviembre de 2025",
+    plataformas: ["PS5"],
+    genero: ["RPG",  "AVENTURA",  "INDIE"],
+    desarrollador: "CLOCKWORK BIRD",
+    descripcion: "Un RPG narrativo inspirado en los juegos de rol de mesa y en Citizen Sleeper. Dredgeport está fuera de control: bandas en los barrios bajos, corrupción por encima de la ley y cadáveres de la guerra quemados como combustible. Un ex soldado dado por muerto llega a la ciudad para ser procesado, escapa por poco y queda solo, con su vida y su cordura como único capital. Hay que cuidar la salud, la energía y el estrés, conseguir trabajo, aprender oficios, hacer alianzas y tomar decisiones que cambian el destino de la ciudad.",
+    trailer: "https://youtube.com/embed/EcXl0rwyjWo",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2610880/04f910e7c308f8bbc46d4a2c1aa5a8fcf0e8b62a/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-22",
+        titulo: "SALIÓ EN PS5 EL 20 DE OCTUBRE",
+        texto: "La PS Store lo tiene a la venta desde el 20 de octubre. En PC salió en noviembre de 2025."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-22"
+  },
+  {
+    id: "gothic-3-classic",
+    titulo: "GOTHIC 3 CLASSIC",
+    fecha: "2026-11-24",
+    relanzamiento: "En PC desde 2006",
+    plataformas: ["PS5",  "XBOX"],
+    genero: ["RPG",  "MUNDO ABIERTO",  "RETRO"],
+    desarrollador: "PIRANHA BYTES",
+    descripcion: "El RPG de mundo abierto de 2006 de Piranha Bytes, la tercera parte de Gothic, adaptado a consolas como el Gothic Classic que salió en julio. Myrtana está tomada por los orcos del norte, el rey Rhobar resiste en Vengard con lo que le queda, los rebeldes pelean y los Hashishin del sur colaboran con el invasor. El héroe sin nombre de Khorinis llega al continente y su bando decide el destino del mundo, con varios caminos para resolver cada situación y un combate de golpes rápidos, giros y magia.",
+    trailer: null,
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39500/library_600x900_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-22",
+        titulo: "SALE EL 24 DE NOVIEMBRE",
+        texto: "La PS Store y la tienda de Xbox lo tienen para el 24 de noviembre."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-22"
+  },
+  {
+    id: "guns-of-eschaton",
+    titulo: "GUNS OF ESCHATON",
+    fecha: "2026-12-08",
+    plataformas: ["PS5",  "XBOX"],
+    genero: ["SHOOTER",  "ACCION",  "HORROR"],
+    desarrollador: "ESCHATOLOGY ENTERTAINMENT",
+    descripcion: "Un shooter en primera persona con estructura de soulslike, en un western apocalíptico con terror ocultista, con dirección de arte de Viktor Antonov, el de Half-Life 2 y Dishonored. El viejo Sur arde y sus leyendas no terminan de morir. Se juega con alguien casi común, frágil y superado por un mundo moribundo lleno de monstruos, con un Colt, instinto de supervivencia y la voluntad de volver a casa. No gana el más rápido: cada bala cuenta y cada arma tiene su propia forma de manejarse.",
+    trailer: "https://youtube.com/embed/dBURYuEi8ss",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/e2af117fbe358809b6c01677796c3e2ddc870912/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-22",
+        titulo: "SALE EL 8 DE DICIEMBRE",
+        texto: "La PS Store lo tiene para el 8 de diciembre; en Xbox, la edición de reserva habilita el juego desde el 6."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-22"
+  },
+  {
+    id: "the-walking-trade",
+    titulo: "THE WALKING TRADE",
+    fecha: "2026-10-23",
+    relanzamiento: "En PC desde marzo de 2026",
+    plataformas: ["PS5",  "XBOX"],
+    genero: ["SIMULACION",  "ACCION",  "INDIE"],
+    desarrollador: "MICROWAVE GAMES",
+    descripcion: "Un simulador de tienda en pleno apocalipsis zombi. Se diseña el local, se ordenan las góndolas, se ponen precios y se atiende a los clientes, mientras de vez en cuando los zombis atacan y hay que defender el negocio con armas cuerpo a cuerpo, de fuego o lo que haya a mano. Se contratan sobrevivientes para buscar suministros, atender o vigilar, se fabrican armas y barricadas, y se elige entre ayudar a la comunidad o aprovecharse con precios abusivos.",
+    trailer: "https://youtube.com/embed/vx4o-TPMU94",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3398110/05a0f5349ab95aa3e7c23b993e690ec373ce73bb/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-22",
+        titulo: "SALE EL 23 DE OCTUBRE",
+        texto: "La PS Store y la tienda de Xbox lo tienen para el 23 de octubre. En PC salió en marzo."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-10-22"
+  },
+  {
+    id: "remothered-red-nuns-legacy-switch-2",
+    titulo: "REMOTHERED: RED NUN'S LEGACY",
+    fecha: "2026-12-03",
+    relanzamiento: "En PS5, Xbox y PC sale el 27 de octubre — esta fecha corresponde a la edición de Switch 2",
+    plataformas: ["SWITCH2"],
+    genero: ["TERROR",  "AVENTURA",  "ACCION"],
+    desarrollador: "STORMIND GAMES",
+    descripcion: "Un survival horror en tercera persona a la manera de los clásicos, pero con controles modernos. La búsqueda de una hija secuestrada lleva a un convento siciliano donde nació el mito de la Monja Roja. Hay que esconderse, escapar y contraatacar en el momento justo frente a los acechadores, resolver acertijos para abrir zonas nuevas y usar poderes de hipnosis para leer recuerdos olvidados y revelar caminos ocultos.",
+    trailer: "https://youtube.com/embed/PEBcT6E6u6c",
+    metacritic: null,
+    imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobrbr.jpg",
+    noticias: [
+      {
+        fecha: "2026-10-22",
+        titulo: "LA VERSIÓN DE SWITCH 2 SALE EL 3 DE DICIEMBRE",
+        texto: "La eShop tiene la versión de Switch 2 para el 3 de diciembre, cinco semanas después que en PS5 y Xbox."
       }
     ],
     gamepass: false,
