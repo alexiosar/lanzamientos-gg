@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -139,6 +140,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">81 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 30 votos">8.0 <span class="badge-quien">USUARIOS</span></span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('back-to-the-dawn')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -166,6 +172,20 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de PC de 2025. Lo reciben como un RPG de fuga carcelaria muy completo: 21 días para organizar el escape administrando tiempo, recursos, relaciones y habilidades, con dos protagonistas, mucha libertad, consecuencias para cada decisión y un elenco de animales antropomórficos bien escritos. Los reparos son menores y van a algunas decisiones narrativas demasiado estereotipadas.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-22</span>
+            <span class="noticia-titulo">▸ LLEGA A PS5 CON 81 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">Salió hoy en PS5, su debut en consola. En Metacritic tiene 81, el promedio de la versión de PC de 2025.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Un RPG de fuga de una prisión de máxima seguridad manejada por tres pandillas. Se elige entre dos protagonistas, Thomas, un periodista atrapado en una red de mentiras, y Bob, un agente encubierto, y cada historia dura más de veinte horas. Hay que sobrevivir, investigar, tratar con 47 presos y destapar una conspiración que puede tumbar a la ciudad entera, con más de cien misiones y varias rutas de escape.</p>

@@ -2024,7 +2024,7 @@ y abrir http://localhost:8080
 
 ### Ideas del usuario del 27/08/2026 (sin empezar)
 
-- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 21/10/2026).**
+- **Anunciados sin respaldo de tienda — revisar en la semanal (actualizado el 22/10/2026).**
   Los trajo Gematsu y **ninguno se cargó**, porque ninguna tienda de consola los lista. No es
   que estén mal: es que todavía no aparecieron. Se revisan de nuevo en cada semanal y entran
   en cuanto la tienda los tome.
@@ -2096,7 +2096,7 @@ y abrir http://localhost:8080
   | holoVillage: Our Cozy Days (Switch 2) | 22 de octubre (Gematsu, 15/10) | La eShop no lo lista. En PC salió en abril |
   | Reverie in the Moonlight | 19 de noviembre en Switch 2 y Switch (Gematsu, 15/10) | La eShop no lo lista. En PC salió en noviembre de 2025 |
   | Hokko Spaces | 29 de octubre en Switch (Gematsu, 15/10) | La eShop no lo lista; Steam confirma el día para PC |
-  | PEAK (PS5) | 22 de octubre (blog de PlayStation, 15/10) | Lo anunciaron sus estudios en el blog oficial, pero la PS Store todavía no tiene la ficha. Entra en cuanto aparezca |
+  | PEAK (PS5) | 22 de octubre (blog de PlayStation, 15/10) | Lo anunciaron sus estudios en el blog oficial, pero la PS Store todavía no tiene la ficha. El 22/10, día del estreno, la PS Store de Argentina y la de EE.UU. todavía no lo listaban. Entra en cuanto aparezca |
   | Usual June (Xbox) | Xbox Series y PC (Gematsu, 16/10); Steam dice 20/01/2027 | La tienda de Xbox no lo lista |
   | Coral Island (Switch 2) | Este invierno boreal, con la versión 1.4 (Gematsu, 16/10) | Sin día ni ficha en la eShop |
   | Vixen 357 (Xbox y Switch) · HorrorVale: Deadluxe Edition (Switch) | 23/10 y 31/10 (Gematsu, 16/10) | **Ya están cargados en PlayStation** (y HorrorVale en Xbox). La eShop no tiene ninguno, y Xbox no lista Vixen 357 |
@@ -2108,7 +2108,8 @@ y abrir http://localhost:8080
   | A Game About Digging a Hole Together · Pit of Goblin (PS5) | 4/12 y 3/11 | **Ya están cargados en Xbox.** La PS Store tiene fichas, pero no dicen para qué consola |
   | Croak | Marzo de 2027 en Xbox y Game Pass (ID@Xbox, 20/10) | La tienda de Xbox no lo encuentra |
   | Pratfall | PS5, Xbox y Switch 2 (Gematsu, 21/10) | Sin fecha. Xbox lo lista sin día |
-  | Console Archives: Raiden Project · Arcade Archives: Ace Driver Victory Lap | 22 de octubre (Gematsu, 21/10) | Como los demás de HAMSTER: se cargan el día que aparecen en las tiendas |
+  | Console Archives: Raiden Project · Arcade Archives 2: Ace Driver Victory Lap (Switch 2) | 22 de octubre (Gematsu, 21/10) | **Ya están cargados**: Raiden en PS5 y Ace Driver en PS5, PS4 y Xbox. La eShop no tiene las de Switch 2 |
+  | Pocket Mirror ~ GoldenerTraum · Do Not Feed the Monkeys 2099 (Switch) · RV There Yet? (Switch 2) · TAMAGOTORI Deluxe (Xbox One) | 21-29 de octubre (Gematsu, 21-22/10) | **Ya están cargados en PlayStation.** La eShop no tiene ninguno y Xbox no encuentra TAMAGOTORI |
   | Console Archives Ripple Island (Switch 2) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en PS5**, que lo lista desde el 8. La eShop no lo tiene |
   | Spyder: Agent 8 (Switch 2) | 11 de febrero de 2027 (Gematsu, 8/10) | **Ya está cargado en PS5 y Xbox**, que confirman el día. La eShop no lo tiene |
   | My Friendly Neighborhood (Switch 2) | 22 de octubre (Gematsu, 6/10) | **No se cargó**: la eShop y Nintendo US no lo listan. Salió en 2025 en las otras consolas, así que entra con `relanzamiento` |

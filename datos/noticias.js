@@ -55,6 +55,14 @@
 
 const NOTICIAS = [
   {
+    id: "ea-cierra-bioware-2026",
+    fecha: "2026-10-21",
+    categoria: "ANUNCIOS",
+    titulo: "ELECTRONIC ARTS CIERRA BIOWARE Y DESPIDE A 400 PERSONAS",
+    texto: "Electronic Arts anunció que cierra BioWare, el estudio de Mass Effect y Dragon Age, como parte de un recorte de unas 400 personas.\n\nBioWare no tenía ningún juego con fecha en el calendario, así que no cambia nada de lo que viene.",
+    fuente: "https://www.gematsu.com/2026/10/electronic-arts-to-lay-off-400-staff-shut-down-bioware"
+  },
+  {
     id: "game-pass-octubre-2026-segunda-tanda",
     fecha: "2026-10-20",
     categoria: "SUSCRIPCIONES",
