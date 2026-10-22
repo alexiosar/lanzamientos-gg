@@ -285,6 +285,39 @@ para fichas de juegos ya salidos **quedó descartado** (el usuario, 15/10: nunca
 los datos de esta semana tampoco lo apoyaban: también se caen fichas de juegos de octubre y
 futuros. Siguen pendientes los enlaces externos.
 
+### Lectura del 22/10/2026: primera semana con más impresiones que la anterior
+
+**Rendimiento:** 3 meses, 146 clics (sin cambios: todavía cero clics desde el 24/09), 19.500
+impresiones, posición 16,9. **Contra la semana anterior, las impresiones subieron por primera vez
+desde la caída**: la portada pasó de 85 a 158, "proximos lanzamientos videojuegos" de 16 a 40 y
+"juegos lanzamientos" de 17 a 40. Siguen siendo números chicos y sin clics, pero es la primera
+semana con la flecha para arriba. Aparecen fichas sueltas con impresiones (Toy Story 3, Valor
+Mortis, Stupid Never Dies, Phantom Blade Zero).
+
+**Indexación (CSV del 22/10; el gráfico de Search Console llega hasta el 15/10):**
+
+| Motivo | 15/10 | 22/10 |
+|---|---|---|
+| Rastreada: actualmente sin indexar | 162 | **144** (−18) |
+| Descubierta: actualmente sin indexar | 114 | 114 |
+
+- **Salieron 33 páginas de las listas y entraron 15.** Es la primera semana en que salen más de
+  las que entran. Muchas salieron **sin pedido a mano**: Ghost of Yōtei Complete Edition,
+  Dragon's Dogma 2: Dark Arisen, Kingdom Hearts Collection, Forever Ago, Once Human, Dodo Duckie.
+- **Día 1 (pedido el 12/10):** siguen 9 de 10 fuera de las listas. Order of the Sinking Star
+  sigue en "descubierta".
+- **Días 2 a 4 (nunca pedidos, control):** 4 de 30 fuera.
+- **Día 6 (pedido el 19/10):** 4 de 10 fuera, pero los datos de la tabla son de antes de que
+  pudiera hacer efecto; se lee la semana que viene.
+- **Día 5:** no sirve para medir. Siete de esas fichas tenían `noindex` hasta el 14/10, así que no
+  figuraban en estas listas, y Ghost of Yōtei, Dragon's Dogma 2 y Kingdom Hearts salieron solas
+  antes de pedirlas.
+
+**Lectura:** la tendencia cambió de signo. Puede ser el efecto acumulado de todo lo hecho (menos
+fichas flacas, descripciones reescritas, contenido nuevo cada día) o el tiempo que pide Google
+después de un spam update; no se puede separar. El pedido a mano sigue siendo la única palanca
+con efecto medible (día 1: 9 de 10).
+
 ## Agosto de 2026: el mes en que el sitio entró a Google
 
 Es el primer salto real desde que existe el registro, y conviene dejar dicho de qué está
