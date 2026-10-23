@@ -2,360 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-22T18:29:19+00:00",
+ "generado": "2026-10-23T18:39:30+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-22",
- "hasta": "2026-11-21",
- "total": 73,
+ "desde": "2026-10-23",
+ "hasta": "2026-11-22",
+ "total": 66,
  "juegos": [
-  {
-   "id": "final-fantasy-resonance",
-   "titulo": "FINAL FANTASY RESONANCE",
-   "fecha": "2026-10-22",
-   "plataformas": [
-    "SWITCH2",
-    "PS5",
-    "SWITCH",
-    "XBOX"
-   ],
-   "genero": [
-    "RPG"
-   ],
-   "desarrollador": "SQUARE ENIX",
-   "descripcion": "Un Final Fantasy nuevo con pixel art que parte del estilo de los clásicos y lo lleva más lejos. El grupo avanza guiado por visiones que ayudan en el combate y revelan la verdad detrás de una fuerza que amenaza con destruirlo todo.",
-   "trailer": "https://youtube.com/embed/wbsfQYI_IIY",
-   "metacritic": 86,
-   "critica": "De los mejor recibidos del año, sobre casi cincuenta reseñas de la versión de PS5. Lo celebran como un Final Fantasy clásico hecho con todo lo aprendido: combate por turnos rápido y con mucho para experimentar, el sistema de Visiones, que suma personajes de toda la saga al grupo, una historia con buenos personajes, el mejor uso del estilo HD-2D hasta ahora y una banda sonora muy elogiada. Rescata a Brave Exvius, el juego de celulares que se apagó, y lo convierte en un RPG completo. Los reparos van a una trama reciclada, a que vive de la nostalgia y a que, con tantas remasterizaciones de los clásicos, aporta menos de lo que promete.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7q4.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/final-fantasy-resonance",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "DEBUTA CON 86 EN METACRITIC",
-     "texto": "Salió hoy en Switch 2, PS5, Switch y Xbox Series, y debutó con 86 sobre casi cincuenta reseñas de PS5: es de los puntajes más altos de octubre. Es el primer Final Fantasy con el estilo HD-2D."
-    },
-    {
-     "fecha": "2026-09-23",
-     "titulo": "ZIDANE, DE FINAL FANTASY IX, PELEA EN EL GRUPO",
-     "texto": "Square Enix mostró cómo funciona Zidane: su Visión se activa en el Santuario de la Luz y desde ahí pelea junto al grupo con sus propias habilidades."
-    },
-    {
-     "fecha": "2026-09-03",
-     "titulo": "HAY DEMO GRATIS CON EL PRIMER CAPÍTULO",
-     "texto": "Square Enix publicó una demo gratuita con el primer capítulo completo, y la partida se pasa al juego final. Es el primer Final Fantasy en HD-2D, la mezcla de pixel art y escenarios en 3D de la compañía."
-    }
-   ]
-  },
-  {
-   "id": "nintendo-switch-sports-resort",
-   "titulo": "NINTENDO SWITCH SPORTS RESORT",
-   "fecha": "2026-10-22",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "DEPORTES",
-    "MULTIJUGADOR",
-    "CASUAL"
-   ],
-   "desarrollador": "NINTENDO",
-   "descripcion": "La secuela de Nintendo Switch Sports, exclusiva de Switch 2: un juego de deportes para jugar con controles de movimiento, que suma disciplinas nuevas y renueva la forma de moverse.",
-   "trailer": "https://youtube.com/embed/XNcXNZJV6IE",
-   "metacritic": 79,
-   "critica": "Más de sesenta reseñas, de la versión de Switch 2. La mayoría ve la vuelta en forma de la serie después de un Switch Sports flojo: el mejor control por movimiento que tuvo la saga, los deportes clásicos más pulidos que nunca y novedades que sorprenden, ideal para jugar en familia o con amigos en la misma habitación. Los reparos van a que algunos de los doce deportes son demasiado seguros, a que no todos funcionan, a que hay poco para jugar solo y a que, sin el impacto de Wii Sports, arriesga poco.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7mb.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/nintendo-switch-sports-resort",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "DEBUTA CON 79 EN METACRITIC",
-     "texto": "Salió hoy en Switch 2 con 79 sobre más de sesenta reseñas. Lo más elogiado es el control por movimiento; lo más discutido, que arriesga poco y tiene poco para un solo jugador."
-    },
-    {
-     "fecha": "2026-09-09",
-     "titulo": "LO QUE MOSTRÓ EL NINTENDO DIRECT",
-     "texto": "En el Direct del 9 de septiembre se presentó el modo Island Crown, para enfrentar a los campeones de la isla, y además se puede personalizar al Mii o al compañero, sacar fotos en los puntos turísticos y recorrer la isla libremente. En el Treehouse de ese día se jugaron, entre otros, el paseo turístico, la lucha de pulgares y el tenis de mesa."
-    }
-   ]
-  },
-  {
-   "id": "azure-striker-gunvolt-trilogy-enhanced",
-   "titulo": "AZURE STRIKER GUNVOLT TRILOGY ENHANCED",
-   "fecha": "2026-10-22",
-   "relanzamiento": "En Switch y PC desde julio de 2025",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "INTI CREATES CO., LTD.",
-   "descripcion": "Los tres Azure Striker Gunvolt juntos, de 2014, 2016 y 2022: plataformas y acción en 2D, con todos sus DLC incluidos por primera vez. La serie cuenta su historia en diálogos durante las misiones y tiene decenas de canciones cantadas por los propios personajes. Esta edición suma ajustes de combate hechos por el director, voces y canciones mejoradas y los dramas de audio que antes solo habían salido en Japón.",
-   "trailer": "https://youtube.com/embed/nR16rAl_vLM",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/74c2332a45194579034d079bd325b62a.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/azure-striker-gunvolt-trilogy-enhanced"
-  },
-  {
-   "id": "back-to-the-dawn",
-   "titulo": "BACK TO THE DAWN",
-   "fecha": "2026-10-22",
-   "relanzamiento": "En PC desde julio de 2025 — debut en consola",
-   "duracion": "≈ 18 h (historia) · 65 h (completo)",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE",
-    "RPG",
-    "SIMULACION",
-    "ESTRATEGIA"
-   ],
-   "desarrollador": "METAL HEAD GAMES",
-   "descripcion": "Un RPG de fuga de una prisión de máxima seguridad manejada por tres pandillas. Se elige entre dos protagonistas, Thomas, un periodista atrapado en una red de mentiras, y Bob, un agente encubierto, y cada historia dura más de veinte horas. Hay que sobrevivir, investigar, tratar con 47 presos y destapar una conspiración que puede tumbar a la ciudad entera, con más de cien misiones y varias rutas de escape.",
-   "trailer": "https://youtube.com/embed/HxXgHF91Hxk",
-   "metacritic": 81,
-   "critica": "Las reseñas son de la versión de PC de 2025. Lo reciben como un RPG de fuga carcelaria muy completo: 21 días para organizar el escape administrando tiempo, recursos, relaciones y habilidades, con dos protagonistas, mucha libertad, consecuencias para cada decisión y un elenco de animales antropomórficos bien escritos. Los reparos son menores y van a algunas decisiones narrativas demasiado estereotipadas.",
-   "metacriticUsuarios": 8.0,
-   "metacriticVotos": 30,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1735700/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/back-to-the-dawn",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "LLEGA A PS5 CON 81 EN METACRITIC",
-     "texto": "Salió hoy en PS5, su debut en consola. En Metacritic tiene 81, el promedio de la versión de PC de 2025."
-    }
-   ]
-  },
-  {
-   "id": "cotton-reboot",
-   "titulo": "COTTON REBOOT!",
-   "duracion": "≈ 1,8 h (historia)",
-   "fecha": "2026-10-22",
-   "relanzamiento": "En Switch, PS4 y PC desde 2021 — esta fecha corresponde a las ediciones de Switch 2 y PS5",
-   "plataformas": [
-    "SWITCH2",
-    "PS5"
-   ],
-   "genero": [
-    "ARCADE",
-    "SHOOTER",
-    "RETRO"
-   ],
-   "desarrollador": "ROCKET-ENGINE",
-   "descripcion": "Remasterización completa de Cotton: Fantastic Night Dreams, el shooter que inauguró el subgénero de las brujas voladoras hace más de treinta años. Tiene tres modos: el original, que emula la versión de 1993 de la computadora X68000 de Sharp; uno arreglado, en pantalla ancha y con gráficos y personajes rediseñados; y una contrarreloj de dos o cinco minutos con tabla de puntajes online. Sale en digital y en físico.",
-   "trailer": "https://youtube.com/embed/gNh21pIs2pA",
-   "metacritic": 81,
-   "critica": "Las reseñas son del Cotton Reboot! original de 2021, en Switch. Lo reciben como una remake ejemplar de un shooter de culto: fiel al tono simpático del original pero con un sistema de puntaje nuevo, un modo Arrange que funciona casi como una secuela, gráficos y música renovados con opción de banda sonora clásica, y una dificultad accesible con desafío para los que lo dominan. El reparo más repetido es que le falta contenido.",
-   "metacriticUsuarios": 6.9,
-   "metacriticVotos": 18,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1656820/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-30",
-   "url": "https://lanzamientos.lat/juegos/cotton-reboot",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "SALIÓ HOY EN SWITCH 2 Y PS5",
-     "texto": "Ya están a la venta las ediciones de Switch 2 y PS5. En Metacritic tiene 81, el promedio del Cotton Reboot! de 2021."
-    }
-   ]
-  },
-  {
-   "id": "fatal-fury-city-of-the-wolves-switch-2",
-   "titulo": "FATAL FURY: CITY OF THE WOLVES",
-   "relanzamiento": "En PS5, PS4, Xbox y PC desde abril de 2025 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 6,7 h (historia) · 25 h (completo)",
-   "fecha": "2026-10-22",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "LUCHA",
-    "ARCADE"
-   ],
-   "desarrollador": "SNK",
-   "descripcion": "La vuelta de Fatal Fury veintiséis años después de Garou: Mark of the Wolves, ahora en Switch 2. Es pelea uno contra uno en South Town con el sistema REV, que da muchas opciones de ataque desde el primer segundo pero se sobrecalienta si se abusa de él. Tiene dos esquemas de control: uno arcade, con comandos precisos, y otro simplificado para quien recién empieza. Rock Howard vuelve a estar en el centro de la historia.",
-   "trailer": "https://youtube.com/embed/ZjjeJMy21Wg",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9z8m.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/fatal-fury-city-of-the-wolves-switch-2"
-  },
-  {
-   "id": "moadra",
-   "titulo": "MOADRA",
-   "fecha": "2026-10-22",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "GLOOMSOFT",
-   "descripcion": "Un metroidvania de ciencia ficción inspirado en Alien. Se recorre Protea VI, un planeta olvidado lleno de criaturas extrañas y peligros mortales, en busca de redención y de un pecado enterrado en sus profundidades.",
-   "trailer": "https://youtube.com/embed/8dXRq1_zVd0",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1713730/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-01",
-   "url": "https://lanzamientos.lat/juegos/moadra",
-   "noticias": [
-    {
-     "fecha": "2026-10-01",
-     "titulo": "SALE EL 22 DE OCTUBRE",
-     "texto": "Gloomsoft puso fecha para PS5, Xbox, Switch y PC."
-    }
-   ]
-  },
-  {
-   "id": "console-archives-raiden-project",
-   "titulo": "CONSOLE ARCHIVES: RAIDEN PROJECT",
-   "fecha": "2026-10-22",
-   "relanzamiento": "La recopilación de SEIBU KAIHATSU es de 1995 — esta es la reedición para consolas actuales",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "SHOOTER",
-    "RETRO",
-    "ARCADE"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "La recopilación de SEIBU KAIHATSU de 1995 para una consola hogareña de 32 bits, en la serie Console Archives. Trae los dos primeros Raiden, los shooters de naves con desplazamiento vertical que salieron en recreativas en 1990 y 1993: se pilotea el cazabombardero Raiden para frenar una invasión alienígena. El juego está sólo en japonés; el menú de opciones y el manual sí vienen en español. Se puede guardar en cualquier momento y cambiar la disposición de los botones.",
-   "trailer": "https://youtube.com/embed/tXjS69SQCeg",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/0907/d38fdc144b3e5442afbe7914a2e558507d137bd5ab5b6d70.jpg?w=600&thumb=false",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-22",
-   "url": "https://lanzamientos.lat/juegos/console-archives-raiden-project",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "SALIÓ HOY EN PS5",
-     "texto": "HAMSTER lo puso a la venta el 22 de octubre en PS5. También lo anunció para Switch 2, que todavía no tiene ficha en la eShop."
-    }
-   ]
-  },
-  {
-   "id": "arcade-archives-2-ace-driver-victory-lap",
-   "titulo": "ARCADE ARCHIVES 2: ACE DRIVER VICTORY LAP",
-   "fecha": "2026-10-22",
-   "relanzamiento": "Original de recreativa de NAMCO, 1996",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX"
-   ],
-   "genero": [
-    "CARRERAS",
-    "RETRO",
-    "ARCADE"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "El juego de carreras de recreativa de NAMCO de 1996, continuación de Ace Driver, con circuitos nuevos, autos rediseñados y trazados más exigentes. Como el resto de la serie, suma ajustes de dificultad y de pantalla, rebobinado, varias ranuras de guardado y rankings online, y Arcade Archives 2 agrega un modo contrarreloj.",
-   "trailer": "https://youtube.com/embed/dR-qPAQsQ3c",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/1303/79c19bffb18ced6338cdbe647b981176e75b830dd732c90a.jpg?w=600&thumb=false",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-22",
-   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-ace-driver-victory-lap",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
-     "texto": "En PS5 y Xbox salió como Arcade Archives 2, y en PS4 dentro de la serie original. HAMSTER lo anunció también para Switch 2, que la eShop todavía no lista."
-    }
-   ]
-  },
-  {
-   "id": "do-not-feed-the-monkeys-2099",
-   "titulo": "DO NOT FEED THE MONKEYS 2099",
-   "fecha": "2026-10-22",
-   "relanzamiento": "En PC desde mayo de 2023",
-   "plataformas": [
-    "PS4"
-   ],
-   "genero": [
-    "SIMULACION",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "FICTIORAMA STUDIOS",
-   "descripcion": "Un simulador de voyeurismo digital en una distopía retrofuturista y absurda del año 2099. Como miembro nuevo del Club de Observación de Primates, se espía a través de cámaras de vigilancia la vida de otros, se investiga y se administra el dinero y los recursos para sobrevivir, con la regla de oro del club: no interactuar con los observados. Mezcla historia, investigación y gestión.",
-   "trailer": "https://youtube.com/embed/3x6iAd486Gw",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1964040/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-22",
-   "url": "https://lanzamientos.lat/juegos/do-not-feed-the-monkeys-2099",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "SALIÓ HOY EN PS4",
-     "texto": "Ya está a la venta en PS4. Se anunció también para Switch, que la eShop todavía no lista."
-    }
-   ]
-  },
-  {
-   "id": "demons-night-fever",
-   "titulo": "DEMONS' NIGHT FEVER",
-   "fecha": "2026-10-22",
-   "plataformas": [
-    "PS5",
-    "SWITCH"
-   ],
-   "genero": [
-    "ESTRATEGIA",
-    "RPG",
-    "POR TURNOS"
-   ],
-   "desarrollador": "DRECOM",
-   "descripcion": "Un RPG táctico por turnos sobre grilla donde la estrategia pasa por sacrificar a los propios aliados. Giga Super Death, el demonio más malvado de todos, estaba a un paso de matar a Dios cuando lo convirtieron en un bebé indefenso, y ahora tiene que recuperar su poder y aplastar a un falso dios con máscara de justicia. El sistema de explotación de peones premia la crueldad: cuantas más fechorías, más fuerte se vuelve el ejército.",
-   "trailer": "https://youtube.com/embed/3R-wufCoqBE",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3502620/aebc0ad5e44f5e4965989c66f9695ee17c6552d3/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-22",
-   "url": "https://lanzamientos.lat/juegos/demons-night-fever",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "SALIÓ HOY EN PS5 Y SWITCH",
-     "texto": "Arc System Works lo puso a la venta el 22 de octubre en PS5, Switch y PC. La PS Store y la eShop lo confirman."
-    }
-   ]
-  },
   {
    "id": "one-piece-grand-gourmet",
    "titulo": "ONE PIECE: GRAND GOURMET",
@@ -371,12 +24,21 @@
    "desarrollador": "KAIROSOFT CO.,LTD",
    "descripcion": "Un simulador de restaurante en el mundo de One Piece: con los Sombrero de Paja hay que convertir el segundo local del Baratie, el restaurante flotante, en el mejor de los mares. Se eligen ingredientes y se cocina con Sanji, se arman menús con platos de la serie y recetas que aprovechan los poderes de las frutas del Diablo, y el local se decora con más de 200 muebles y objetos.",
    "trailer": "https://youtube.com/embed/gaQqFfKj-SA",
-   "metacritic": null,
+   "metacritic": 73,
+   "critica": "Las reseñas son de la versión de Switch 2. Lo reciben como un simulador de restaurante de Kairosoft bien adaptado al mundo de One Piece: personajes queribles, recetas, mucha personalización y la satisfacción de ver crecer el local. Funciona mejor en modo portátil que en el televisor. Los reparos van a que es de nicho, para fans de One Piece y de los juegos de gestión, a algunos problemas de rendimiento en Switch 2, a errores de traducción y a que se juega más solo de lo que se espera de un simulador.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7mu.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/one-piece-grand-gourmet"
+   "url": "https://lanzamientos.lat/juegos/one-piece-grand-gourmet",
+   "noticias": [
+    {
+     "fecha": "2026-10-23",
+     "titulo": "DEBUTA CON 73 EN METACRITIC",
+     "texto": "Salió hoy en Switch 2 y Switch con 73 sobre reseñas de Switch 2. Lo recomiendan sobre todo a fans de One Piece y de los juegos de Kairosoft."
+    }
+   ]
   },
   {
    "id": "call-of-duty-modern-warfare-4",
@@ -396,13 +58,20 @@
    "desarrollador": "INFINITY WARD",
    "descripcion": "La guerra estalla en la península de Corea cuando Corea del Norte lanza una invasión a gran escala. La campaña se juega con el soldado Park, mientras el capitán Price actúa por fuera de los canales oficiales. El multijugador estrena Ballistic Authority, un sistema que busca tiroteos más realistas, y vuelve el modo DMZ.",
    "trailer": "https://youtube.com/embed/jLbst85USN8",
-   "metacritic": null,
+   "metacritic": 87,
+   "critica": "Las reseñas son de la versión de PC y casi todas muy favorables. Lo ven como uno de los Call of Duty más completos: una campaña cinematográfica y dura que cierra casi una década de historia con buenas actuaciones y dilemas morales, un multijugador equilibrado y un modo DMZ de extracción que varias señalan como lo mejor del paquete. Destacan que Infinity Ward tuvo un ciclo de desarrollo completo y se nota. Los reparos van a una trama que trastabilla en algunos tramos y a que podría haber arriesgado más.",
+   "metacriticUsuarios": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/64b2cff442cb6bc7403d5bf5722f8273.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-30",
    "url": "https://lanzamientos.lat/juegos/call-of-duty-modern-warfare-4",
    "noticias": [
+    {
+     "fecha": "2026-10-23",
+     "titulo": "DEBUTA CON 87 EN METACRITIC",
+     "texto": "Salió hoy en PS5, Xbox Series, Switch 2 y PC, y debutó con 87 sobre reseñas de la versión de PC. Lo más elogiado es el modo DMZ."
+    },
     {
      "fecha": "2026-10-05",
      "titulo": "CÓMO FUNCIONA DMZ, EL MODO DE EXTRACCIÓN",
@@ -702,6 +371,67 @@
      "fecha": "2026-10-15",
      "titulo": "SALE EL 27 DE OCTUBRE",
      "texto": "La eShop y Steam lo tienen para el 27 de octubre. La PS Store lo lista para octubre en PS5 y PS4, y la tienda de Xbox sin día."
+    }
+   ]
+  },
+  {
+   "id": "sulfur",
+   "titulo": "SULFUR",
+   "fecha": "2026-10-28",
+   "relanzamiento": "En PC (acceso anticipado) desde octubre de 2024",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "PERFECT RANDOM",
+   "descripcion": "Un shooter roguelike en primera persona con tiroteos rápidos, cocina y decisiones difíciles. Se exploran zonas hostiles, se pelea contra enemigos impredecibles y se junta todo el botín posible; las armas se modifican y se encantan con accesorios y efectos, y se cocinan comidas raras para aguantar un poco más. El inventario es chico, así que cada cosa que se lleva es una decisión.",
+   "trailer": "https://youtube.com/embed/8DS-ExBDSFQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-23",
+   "url": "https://lanzamientos.lat/juegos/sulfur",
+   "noticias": [
+    {
+     "fecha": "2026-10-23",
+     "titulo": "SALE DEL ACCESO ANTICIPADO Y LLEGA A XBOX EL 28",
+     "texto": "La versión 1.0 sale el 28 de octubre junto con las de consola. La tienda de Xbox tiene la fecha; la PS Store lo lista para PS5 y PS4, todavía sin día."
+    }
+   ]
+  },
+  {
+   "id": "gennady",
+   "titulo": "GENNADY",
+   "fecha": "2026-10-28",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "ROGUELIKE",
+    "INDIE"
+   ],
+   "desarrollador": "FEED 64",
+   "descripcion": "Un plataformas roguelike con estilo de historieta sucia. Después de un destello, Gennady aparece en calzoncillos en una fábrica de carne alienígena y tiene que abrirse paso con su propio cuerpo a través de biomasa compacta, entre criaturas salidas de un cómic manchado de moho. Los pasillos cambian, morir da poder, y todo está dibujado cuadro a cuadro en blanco y negro con salpicones de color.",
+   "trailer": "https://youtube.com/embed/coFrt7teOko",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2430010/33b19d6d5a47330c1790fbf4384c4e6503465eb2/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-23",
+   "url": "https://lanzamientos.lat/juegos/gennady",
+   "noticias": [
+    {
+     "fecha": "2026-10-23",
+     "titulo": "SALE EL 28 DE OCTUBRE",
+     "texto": "Steam y la tienda de Xbox lo tienen para el 28 de octubre, y PlayStation publicó el tráiler con la fecha para PS5 y PS4."
     }
    ]
   },
@@ -1112,6 +842,67 @@
      "fecha": "2026-10-22",
      "titulo": "LLEGA A PS5 EL 29 DE OCTUBRE",
      "texto": "Nuggets Entertainment lo anunció para PS5 y Switch 2 el 29 de octubre. La PS Store ya tiene la fecha; la eShop todavía no lista la de Switch 2. En Xbox salió en junio."
+    }
+   ]
+  },
+  {
+   "id": "joe-and-mac-retro-collection",
+   "titulo": "JOE & MAC RETRO COLLECTION",
+   "fecha": "2026-10-29",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "ACCION",
+    "RETRO"
+   ],
+   "desarrollador": "RED ART STUDIOS",
+   "descripcion": "Por primera vez, tres aventuras de los cavernícolas Joe & Mac juntas. Caveman Ninja es el éxito de recreativa original, con una aldea que rescatar de una banda de neandertales y dinosaurios para enfrentar; Congo's Caper, un spin-off lleno de monos traviesos; y Lost in the Tropics, la secuela tropical con armas y enemigos nuevos para defender la aldea Tiki.",
+   "trailer": "https://youtube.com/embed/q5I5p19kI84",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672840/676de2d83c11d5eb199222420a6716a89279dc2e/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-23",
+   "url": "https://lanzamientos.lat/juegos/joe-and-mac-retro-collection",
+   "noticias": [
+    {
+     "fecha": "2026-10-23",
+     "titulo": "SALE EL 29 DE OCTUBRE",
+     "texto": "La PS Store y la tienda de Xbox lo tienen para el 29 de octubre."
+    }
+   ]
+  },
+  {
+   "id": "hyperviolent",
+   "titulo": "HYPERVIOLENT",
+   "fecha": "2026-10-29",
+   "relanzamiento": "En PC desde septiembre de 2025",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "FPS",
+    "HORROR",
+    "RETRO"
+   ],
+   "desarrollador": "NFOPRINCE",
+   "descripcion": "Un shooter de terror retro. En las profundidades de un asteroide minero remoto despertó un mal antiguo, removido por la ambición humana. Al responder una llamada de auxilio se queda varado, rodeado de enemigos monstruosos, y hay que descifrar qué pasó y frenar la locura antes de que se extienda.",
+   "trailer": "https://youtube.com/embed/nZ_Uxd1gB_c",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1409200/34aed467ab0aaec71f992a493c9c4e6b4beff65d/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-23",
+   "url": "https://lanzamientos.lat/juegos/hyperviolent",
+   "noticias": [
+    {
+     "fecha": "2026-10-23",
+     "titulo": "LLEGA A CONSOLAS EL 29 DE OCTUBRE",
+     "texto": "Fulqrum Publishing le puso fecha en PS5 y Xbox Series, y las dos tiendas ya lo tienen. En PC salió en septiembre de 2025."
     }
    ]
   },

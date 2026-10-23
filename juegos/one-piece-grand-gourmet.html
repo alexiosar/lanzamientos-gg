@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">73 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('one-piece-grand-gourmet')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -161,6 +167,20 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de Switch 2. Lo reciben como un simulador de restaurante de Kairosoft bien adaptado al mundo de One Piece: personajes queribles, recetas, mucha personalización y la satisfacción de ver crecer el local. Funciona mejor en modo portátil que en el televisor. Los reparos van a que es de nicho, para fans de One Piece y de los juegos de gestión, a algunos problemas de rendimiento en Switch 2, a errores de traducción y a que se juega más solo de lo que se espera de un simulador.</p>
+      </div>
+      <div class="seccion">
+        <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-23</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 73 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">Salió hoy en Switch 2 y Switch con 73 sobre reseñas de Switch 2. Lo recomiendan sobre todo a fans de One Piece y de los juegos de Kairosoft.</p>
+        </div>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">DESCRIPCIÓN</div>
         <p class="descripcion-page">Un simulador de restaurante en el mundo de One Piece: con los Sombrero de Paja hay que convertir el segundo local del Baratie, el restaurante flotante, en el mejor de los mares. Se eligen ingredientes y se cocina con Sanji, se arman menús con platos de la serie y recetas que aprovechan los poderes de las frutas del Diablo, y el local se decora con más de 200 muebles y objetos.</p>

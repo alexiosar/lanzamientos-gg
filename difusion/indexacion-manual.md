@@ -18,11 +18,12 @@ semanas siguen afuera páginas pedidas a mano, el problema no es que Google no l
 El orden pone primero lo que más se busca ahora: el mes en curso, las suscripciones y los
 estrenos recientes.
 
-**Estado al 20/10/2026:** pedidos el **día 1** (12/10), el **día 6** (19/10) y, del día 5, sólo
-Metroid Ravenous (20/10): la cuota de Search Console se cortó en la segunda URL, porque no
-habían pasado 24 horas desde los diez del 19. **La cuota es de unas 10 por cada 24 horas
-corridas, no por día de calendario**: conviene pedir siempre a la misma hora. Faltan las
-otras 9 del día 5 y los días 2, 3 y 4.
+**Estado al 23/10/2026:** pedidos el **día 1** (12/10), el **día 6** (19/10), Metroid Ravenous
+(20/10) y, el 23/10, el resto del día 5 salvo Ghost of Yōtei, Dragon's Dogma 2 y Kingdom Hearts
+(que salieron solas de "sin indexar") más cuatro del día 2: `/septiembre-2026`,
+`/mejores-juegos-septiembre-2026`, `/enero-2027` y End of Abyss. **La cuota es de unas 10 por cada
+24 horas corridas, no por día de calendario**: conviene pedir siempre a la misma hora. Faltan el
+resto del día 2 y los días 3 y 4.
 
 ## Día 1
 
