@@ -2,241 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-23T18:39:30+00:00",
+ "generado": "2026-10-27T19:59:04+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-23",
- "hasta": "2026-11-22",
- "total": 66,
+ "desde": "2026-10-27",
+ "hasta": "2026-11-26",
+ "total": 62,
  "juegos": [
-  {
-   "id": "one-piece-grand-gourmet",
-   "titulo": "ONE PIECE: GRAND GOURMET",
-   "fecha": "2026-10-23",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "CASUAL",
-    "SIMULACION"
-   ],
-   "desarrollador": "KAIROSOFT CO.,LTD",
-   "descripcion": "Un simulador de restaurante en el mundo de One Piece: con los Sombrero de Paja hay que convertir el segundo local del Baratie, el restaurante flotante, en el mejor de los mares. Se eligen ingredientes y se cocina con Sanji, se arman menús con platos de la serie y recetas que aprovechan los poderes de las frutas del Diablo, y el local se decora con más de 200 muebles y objetos.",
-   "trailer": "https://youtube.com/embed/gaQqFfKj-SA",
-   "metacritic": 73,
-   "critica": "Las reseñas son de la versión de Switch 2. Lo reciben como un simulador de restaurante de Kairosoft bien adaptado al mundo de One Piece: personajes queribles, recetas, mucha personalización y la satisfacción de ver crecer el local. Funciona mejor en modo portátil que en el televisor. Los reparos van a que es de nicho, para fans de One Piece y de los juegos de gestión, a algunos problemas de rendimiento en Switch 2, a errores de traducción y a que se juega más solo de lo que se espera de un simulador.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7mu.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/one-piece-grand-gourmet",
-   "noticias": [
-    {
-     "fecha": "2026-10-23",
-     "titulo": "DEBUTA CON 73 EN METACRITIC",
-     "texto": "Salió hoy en Switch 2 y Switch con 73 sobre reseñas de Switch 2. Lo recomiendan sobre todo a fans de One Piece y de los juegos de Kairosoft."
-    }
-   ]
-  },
-  {
-   "id": "call-of-duty-modern-warfare-4",
-   "titulo": "CALL OF DUTY: MODERN WARFARE 4",
-   "fecha": "2026-10-23",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "SHOOTER",
-    "FPS",
-    "ACCION",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "INFINITY WARD",
-   "descripcion": "La guerra estalla en la península de Corea cuando Corea del Norte lanza una invasión a gran escala. La campaña se juega con el soldado Park, mientras el capitán Price actúa por fuera de los canales oficiales. El multijugador estrena Ballistic Authority, un sistema que busca tiroteos más realistas, y vuelve el modo DMZ.",
-   "trailer": "https://youtube.com/embed/jLbst85USN8",
-   "metacritic": 87,
-   "critica": "Las reseñas son de la versión de PC y casi todas muy favorables. Lo ven como uno de los Call of Duty más completos: una campaña cinematográfica y dura que cierra casi una década de historia con buenas actuaciones y dilemas morales, un multijugador equilibrado y un modo DMZ de extracción que varias señalan como lo mejor del paquete. Destacan que Infinity Ward tuvo un ciclo de desarrollo completo y se nota. Los reparos van a una trama que trastabilla en algunos tramos y a que podría haber arriesgado más.",
-   "metacriticUsuarios": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/64b2cff442cb6bc7403d5bf5722f8273.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-30",
-   "url": "https://lanzamientos.lat/juegos/call-of-duty-modern-warfare-4",
-   "noticias": [
-    {
-     "fecha": "2026-10-23",
-     "titulo": "DEBUTA CON 87 EN METACRITIC",
-     "texto": "Salió hoy en PS5, Xbox Series, Switch 2 y PC, y debutó con 87 sobre reseñas de la versión de PC. Lo más elogiado es el modo DMZ."
-    },
-    {
-     "fecha": "2026-10-05",
-     "titulo": "CÓMO FUNCIONA DMZ, EL MODO DE EXTRACCIÓN",
-     "texto": "DMZ sale el 23 de octubre junto con la campaña y el multijugador. Se arma desde una base de operaciones que crece con cada despliegue en Hajin, con armero, vendedor, impresora 3D y tabla de jefes, y tiene una progresión propia del nivel 1 al 70. Se puede salir a misiones de historia, a operaciones dinámicas para ganar dinero o a explorar libre, y cada zona tiene un nivel de amenaza: hacer ruido trae una respuesta enemiga más violenta."
-    },
-    {
-     "fecha": "2026-08-20",
-     "titulo": "LA BETA ARRANCA EL 21 Y SE ABRE A TODOS EL 28",
-     "texto": "El acceso anticipado a la beta empieza el 21 de agosto y la fase abierta y gratuita el 28. Esta vez también se puede jugar en Switch 2, que es la novedad para el que espera la versión de Nintendo."
-    }
-   ]
-  },
-  {
-   "id": "warrior-cats-clans-of-the-forest",
-   "titulo": "WARRIOR CATS: CLANS OF THE FOREST",
-   "fecha": "2026-10-23",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH",
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "RPG"
-   ],
-   "desarrollador": "TRAILMARK GAMES",
-   "descripcion": "Basado en Los gatos guerreros, la saga de libros: se crea un gato y se juega como miembro de un clan en un bosque salvaje. Hay misiones para ganarse el favor del clan, caza, peleas por el territorio y combates por turnos en los que se aprenden movimientos nuevos para fortalecer al gato, subir de rango y hacerse una leyenda.",
-   "trailer": "https://youtube.com/embed/NlB8mR-bd6E",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmt9.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/warrior-cats-clans-of-the-forest",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "TAMBIÉN SALE EN XBOX",
-     "texto": "La tienda de Xbox lo lista para el 23 de octubre, el mismo día que en las demás consolas, junto con una Feral Edition."
-    }
-   ]
-  },
-  {
-   "id": "vixen-357",
-   "titulo": "VIXEN 357",
-   "fecha": "2026-10-23",
-   "relanzamiento": "Original de Mega Drive",
-   "plataformas": [
-    "PS5",
-    "PS4"
-   ],
-   "genero": [
-    "ESTRATEGIA",
-    "POR TURNOS",
-    "RETRO"
-   ],
-   "desarrollador": "SHINYUDEN",
-   "descripcion": "Un juego de estrategia por turnos con mechas, en el año 2396. Los Vector, unidades blindadas de alta movilidad desarrolladas en secreto para reemplazar a los SERD, son el centro de la historia: una unidad misteriosa ataca la base de la Slash Unit, que se entrenaba para pilotearlos. Son 16 niveles de táctica, cualquier Vector se le puede asignar a cualquier personaje y la muerte es permanente. La reedición suma una galería con ilustraciones del original, rebobinado, avance rápido y trucos.",
-   "trailer": "https://youtube.com/embed/s4wXTrKWVxQ",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202609/3023/eeedf45c13ee59531a583fa961c7d376c36c3eaa9025ffa9.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-16",
-   "url": "https://lanzamientos.lat/juegos/vixen-357",
-   "noticias": [
-    {
-     "fecha": "2026-10-16",
-     "titulo": "SALE EL 23 DE OCTUBRE",
-     "texto": "Ratalaika Games lo anunció para PS5, Xbox Series, PS4, Xbox One, Switch y PC. Por ahora sólo la PS Store tiene la fecha."
-    }
-   ]
-  },
-  {
-   "id": "the-walking-trade",
-   "titulo": "THE WALKING TRADE",
-   "fecha": "2026-10-23",
-   "relanzamiento": "En PC desde marzo de 2026",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SIMULACION",
-    "ACCION",
-    "INDIE"
-   ],
-   "desarrollador": "MICROWAVE GAMES",
-   "descripcion": "Un simulador de tienda en pleno apocalipsis zombi. Se diseña el local, se ordenan las góndolas, se ponen precios y se atiende a los clientes, mientras de vez en cuando los zombis atacan y hay que defender el negocio con armas cuerpo a cuerpo, de fuego o lo que haya a mano. Se contratan sobrevivientes para buscar suministros, atender o vigilar, se fabrican armas y barricadas, y se elige entre ayudar a la comunidad o aprovecharse con precios abusivos.",
-   "trailer": "https://youtube.com/embed/vx4o-TPMU94",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3398110/05a0f5349ab95aa3e7c23b993e690ec373ce73bb/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-22",
-   "url": "https://lanzamientos.lat/juegos/the-walking-trade",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "SALE EL 23 DE OCTUBRE",
-     "texto": "La PS Store y la tienda de Xbox lo tienen para el 23 de octubre. En PC salió en marzo."
-    }
-   ]
-  },
-  {
-   "id": "brave-dungeon-dark-witchs-story-combat",
-   "titulo": "BRAVE DUNGEON + DARK WITCH'S STORY: COMBAT",
-   "fecha": "2026-10-24",
-   "relanzamiento": "En PC desde 2021",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "RPG",
-    "INDIE",
-    "RETRO"
-   ],
-   "desarrollador": "INSIDE SYSTEM",
-   "descripcion": "Dos RPG de mazmorras de INSIDE SYSTEM, los creadores de la saga Legend of Dark Witch, en un solo paquete. En Brave Dungeon, Al recorre los laberintos de la isla Belfer en busca de Objetos Mágicos, recipientes que guardan cristales Syega demasiado poderosos, hasta llegar a Godshill, la mazmorra más temida. El combate es fácil de agarrar, con personajes jugables distintos, mucha personalización, desafíos para quien quiera completarlo todo y un sistema de fabricación con materiales que dejan los enemigos. Lo acompaña Dark Witch's Story: Combat.",
-   "trailer": "https://youtube.com/embed/76rt8tNV-pQ",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1712820/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-16",
-   "url": "https://lanzamientos.lat/juegos/brave-dungeon-dark-witchs-story-combat",
-   "noticias": [
-    {
-     "fecha": "2026-10-16",
-     "titulo": "LLEGA A PS5 EL 24 DE OCTUBRE",
-     "texto": "La PS Store ya lo tiene para el 24 de octubre. En PC salió en 2021."
-    }
-   ]
-  },
-  {
-   "id": "hunters-moon",
-   "titulo": "HUNTER'S MOON",
-   "fecha": "2026-10-26",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "HORROR",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "TWIN SWANS",
-   "descripcion": "Una aventura de terror folclórico en primera persona que transcurre en una sola noche. Se juega con Lilith Thorne, una mujer acusada de brujería que tiene que escapar por una aldea del siglo XVII, bosques y páramos sin que la vean, perseguida por el general cazador de brujas, el magistrado del pueblo y un cazador local. En el camino aparecen personajes enmascarados con ropa de época y se escuchan a escondidas las historias de un pueblo golpeado por la guerra y la desgracia.",
-   "trailer": "https://youtube.com/embed/bKMaeHoJY2A",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202608/1415/bf512cc15feb849e4a36c376c761828391e3f17dad1a99a6.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-15",
-   "url": "https://lanzamientos.lat/juegos/hunters-moon",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALE EL 26 DE OCTUBRE EN PS5",
-     "texto": "Se anunció en el State of Play de septiembre. La PS Store ya lo tiene para el 26 de octubre."
-    }
-   ]
-  },
   {
    "id": "9-rip-sequel",
    "titulo": "9 R.I.P. SEQUEL",
@@ -276,12 +48,21 @@
    "desarrollador": "NIPPON ICHI SOFTWARE",
    "descripcion": "Un simulador de granja con arte pintado a mano en Kagatsu, un pueblo de montaña japonés lleno de secretos. Se cultiva, se arregla la casa, se hacen amigos entre los vecinos y se miran los cerezos en flor. Hay solo unas reglas simples: no hablar con desconocidos, no salir del pueblo y, sobre todo, no salir de noche. Lo que pasa si no se cumplen es parte del juego.",
    "trailer": "https://youtube.com/embed/z0QNuVRSa3M",
-   "metacritic": null,
+   "metacritic": 87,
+   "critica": "Pocas reseñas, de la versión de PC, y muy favorables. Lo reciben como una mezcla lograda de simulador de granja y terror: el trabajo del campo es satisfactorio y alrededor hay un misterio en un pueblo donde no se puede confiar en los vecinos, con mucha atmósfera, historia y temas oscuros. Los reparos son puntuales y no se repiten entre reseñas.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtql.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/village-in-the-shade"
+   "url": "https://lanzamientos.lat/juegos/village-in-the-shade",
+   "noticias": [
+    {
+     "fecha": "2026-10-27",
+     "titulo": "DEBUTA CON 87 EN METACRITIC",
+     "texto": "Salió hoy en PS5, Switch 2 y Switch, con 87 sobre reseñas de la versión de PC."
+    }
+   ]
   },
   {
    "id": "remothered-red-nuns-legacy",
@@ -299,12 +80,21 @@
    "desarrollador": "STORMIND GAMES",
    "descripcion": "Un survival horror en tercera persona a la manera de los clásicos, pero con controles modernos. La búsqueda de una hija secuestrada lleva a un convento siciliano donde nació el mito de la Monja Roja. Hay que esconderse, escapar y contraatacar en el momento justo frente a los acechadores, resolver acertijos para abrir zonas nuevas y usar poderes de hipnosis para leer recuerdos olvidados y revelar caminos ocultos.",
    "trailer": "https://youtube.com/embed/PEBcT6E6u6c",
-   "metacritic": null,
+   "metacritic": 71,
+   "critica": "Pocas reseñas, de la versión de PC. Lo ven como un cierre digno de la trilogía: un terror de persecución sólido, con folk horror de raíz italiana, buenas actuaciones de voz y una campaña de unas seis horas que ata los misterios a través de la historia de Susan. Lo más elogiado es la música de Akira Yamaoka y Aram Shahbazians. Los reparos van a algunos aspectos imperfectos del juego y a que se disfruta más habiendo jugado los anteriores.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobrbr.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-17",
-   "url": "https://lanzamientos.lat/juegos/remothered-red-nuns-legacy"
+   "url": "https://lanzamientos.lat/juegos/remothered-red-nuns-legacy",
+   "noticias": [
+    {
+     "fecha": "2026-10-27",
+     "titulo": "DEBUTA CON 71 EN METACRITIC",
+     "texto": "Salió hoy en PS5, Xbox Series y PC con 71 sobre cuatro reseñas. La versión de Switch 2 llega el 3 de diciembre."
+    }
+   ]
   },
   {
    "id": "the-seance-of-blake-manor",
@@ -323,13 +113,21 @@
    "desarrollador": "RAW FURY",
    "descripcion": "Una investigación sobrenatural en Irlanda, en 1897. El detective privado Declan Ward llega a la mansión Blake, en Connemara, a buscar a Evelyn Deane, una huésped desaparecida, y se encuentra con un grupo de aficionados a lo místico llegados de todo el mundo para una sesión de espiritismo en la noche de Halloween. Se recorre la mansión, se juntan pistas y se habla con los invitados para armar qué pasó.",
    "trailer": "https://youtube.com/embed/lKI7DVrhWL8",
-   "metacritic": null,
+   "metacritic": 89,
+   "critica": "Las reseñas son de la versión de PC de 2025, y de las mejores del año para el género. Lo celebran como una clase magistral de aventura detectivesca: un misterio sobrenatural complejo, invitados llenos de secretos, una investigación que queda enteramente en manos de quien juega y un reloj que hace que cada minuto del fin de semana cuente, todo con una ambientación gótica irlandesa muy cuidada. El único reparo que se repite es que a veces tiene demasiado texto.",
+   "metacriticUsuarios": 8.3,
+   "metacriticVotos": 47,
    "imagen": "https://cdn2.steamgriddb.com/grid/4b21069e4de1d75b74640d2691e9f2d7.png",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-09-10",
    "url": "https://lanzamientos.lat/juegos/the-seance-of-blake-manor",
    "noticias": [
+    {
+     "fecha": "2026-10-27",
+     "titulo": "LLEGA A XBOX Y SWITCH 2 CON 89 EN METACRITIC",
+     "texto": "Salió hoy en Xbox Series, con Game Pass desde el primer día, y en Switch 2. En Metacritic tiene 89, el promedio de la versión de PC de 2025."
+    },
     {
      "fecha": "2026-10-21",
      "titulo": "CONFIRMADO EN GAME PASS EL 27",
@@ -371,6 +169,36 @@
      "fecha": "2026-10-15",
      "titulo": "SALE EL 27 DE OCTUBRE",
      "texto": "La eShop y Steam lo tienen para el 27 de octubre. La PS Store lo lista para octubre en PS5 y PS4, y la tienda de Xbox sin día."
+    }
+   ]
+  },
+  {
+   "id": "minecraft-switch-2",
+   "titulo": "MINECRAFT",
+   "fecha": "2026-10-27",
+   "relanzamiento": "El Minecraft de siempre, en su edición nativa para Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "SUPERVIVENCIA",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "MOJANG",
+   "descripcion": "La edición de Switch 2 del juego de construir y sobrevivir en mundos de bloques generados al azar. Suma los gráficos Vibrant Visuals, con algunas limitaciones como la pantalla dividida, y las partidas del Minecraft de Switch se pasan tal cual. La Ultimate Collection trae además cinco complementos, objetos para el creador de personajes, 1.000 Minecoins y el paquete Super Mario Mash-Up, con un mundo temático, 15 temas musicales y 40 skins.",
+   "trailer": "https://youtube.com/embed/ODHH1nUaOIM",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.17382.13510798885735219.9735d495-578c-4a4c-b892-3eb3a780b3a0.d3792486-cf98-40c0-a2c1-d6443f0e2b70?w=600&h=900&format=jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-27",
+   "url": "https://lanzamientos.lat/juegos/minecraft-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-10-27",
+     "titulo": "SALIÓ LA EDICIÓN DE SWITCH 2",
+     "texto": "Mojang la lanzó el 27 de octubre. Quien tiene el Minecraft de Switch puede pasar a la edición estándar de Switch 2 gratis, o comprar las ediciones Deluxe y Ultimate Collection con descuento, hasta el 31 de enero de 2027."
     }
    ]
   },
@@ -1983,6 +1811,61 @@
      "texto": "Rockstar movió el lanzamiento seis meses, de mayo a noviembre de 2026. Ya se había corrido antes desde el otoño boreal de 2025. El comunicado pidió disculpas por la espera y dijo que los meses extra permitirían terminar el juego con el nivel de pulido esperado."
     }
    ]
+  },
+  {
+   "id": "gothic-3-classic",
+   "titulo": "GOTHIC 3 CLASSIC",
+   "fecha": "2026-11-24",
+   "relanzamiento": "En PC desde 2006",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "MUNDO ABIERTO",
+    "RETRO"
+   ],
+   "desarrollador": "PIRANHA BYTES",
+   "descripcion": "El RPG de mundo abierto de 2006 de Piranha Bytes, la tercera parte de Gothic, adaptado a consolas como el Gothic Classic que salió en julio. Myrtana está tomada por los orcos del norte, el rey Rhobar resiste en Vengard con lo que le queda, los rebeldes pelean y los Hashishin del sur colaboran con el invasor. El héroe sin nombre de Khorinis llega al continente y su bando decide el destino del mundo, con varios caminos para resolver cada situación y un combate de golpes rápidos, giros y magia.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39500/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-22",
+   "url": "https://lanzamientos.lat/juegos/gothic-3-classic",
+   "noticias": [
+    {
+     "fecha": "2026-10-22",
+     "titulo": "SALE EL 24 DE NOVIEMBRE",
+     "texto": "La PS Store y la tienda de Xbox lo tienen para el 24 de noviembre."
+    }
+   ]
+  },
+  {
+   "id": "marupoyo-the-round-chicks-adventure",
+   "titulo": "MARUPOYO: THE ROUND CHICK'S ADVENTURE",
+   "fecha": "2026-11-26",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "ARCADE",
+    "CASUAL",
+    "INDIE"
+   ],
+   "desarrollador": "CASUAL BROTHERS",
+   "descripcion": "Un plataformas de física con un pollito tan redondo que no puede caminar, solo rodar. No se lo maneja a él sino al mundo: se inclina el escenario para que ruede, acelere, frene y salte, aprovechando la gravedad y la inercia para esquivar obstáculos y encontrar secretos mientras busca a sus hermanos perdidos. Es fácil de entender y tiene profundidad para quien quiera dominar cada nivel.",
+   "trailer": "https://youtube.com/embed/K9njOxhigCU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355110/a46c5dfbdf4fcb0b8f2a5e6c0bcca051f8fe8a3f/header.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-25",
+   "url": "https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure"
   }
  ]
 }
