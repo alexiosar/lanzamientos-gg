@@ -37,6 +37,45 @@
 const SUSCRIPCIONES = [
   {
     servicio: "psplus",
+    mes: "2026-11",
+    intro: "Los juegos mensuales de PS Plus de noviembre son Dead Island 2, Tomb Raider IV – VI Remastered y Monster Train 2, para reclamar del martes 3 al lunes 30 de noviembre con cualquier plan.",
+    tandas: [
+      {
+        nombre: "JUEGOS MENSUALES",
+        detalle: "Del martes 3 al lunes 30 de noviembre, con cualquier plan de PS Plus: Essential, Extra o Deluxe. Los de octubre se pueden reclamar hasta el lunes 2.",
+        anunciado: "2026-10-28",
+        fuente: "https://blog.latam.playstation.com/2026/10/28/juegos-mensuales-en-playstation-plus-de-noviembre-dead-island-2-tomb-raider-iv-vi-remastered-monster-train-2/",
+        juegos: [
+          {
+            titulo: "Dead Island 2",
+            id: null,
+            plataformas: ["PS5", "PS4"],
+            entra: null,
+            texto: "Un RPG de acción con zombis en Los Ángeles, convertida en HELL-A. Se recorren lugares famosos de la ciudad, se hacen misiones para sobrevivientes excéntricos y se pelea cuerpo a cuerpo con armas improvisadas. Se juega solo o en cooperativo online para tres.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Tomb Raider IV – VI Remastered",
+            id: null,
+            plataformas: ["PS5", "PS4"],
+            entra: null,
+            texto: "La trilogía oscura de Lara Croft remasterizada: The Last Revelation, Chronicles y The Angel of Darkness. Se puede pasar en cualquier momento de los gráficos nuevos a los modelos poligonales originales.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2525380/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Monster Train 2",
+            id: null,
+            plataformas: ["PS5"],
+            entra: null,
+            texto: "Un roguelite de armar mazos para un jugador: clanes de ángeles y demonios aliados viajan en tren por el Infierno, el Cielo y el Abismo para derrotar a los Titanes. Hay cinco clanes nuevos y tres niveles verticales para defender.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2742830/31030af53f318f6a06566ba3bcb8723b006fd45f/library_600x900_2x.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    servicio: "psplus",
     mes: "2026-10",
     intro: "Los juegos mensuales de PS Plus de octubre son F1 25, Hunt: Showdown 1896 y Earth Defense Force: World Brothers 2, para reclamar del martes 6 de octubre al lunes 2 de noviembre con cualquier plan. El catálogo de Extra y Deluxe suma desde el martes 20 Mafia: The Old Country, Horizon Forbidden West, Tales of Arise con Beyond the Dawn y Mycopunk, que entra el mismo día que sale en PS5. Deluxe agrega Dino Crisis 2 y RollerCoaster Tycoon 3.",
     tandas: [
@@ -89,7 +128,7 @@ const SUSCRIPCIONES = [
           {
             titulo: "Horizon Forbidden West",
             id: null,
-            plataformas: ["PS5",  "PS4"],
+            plataformas: ["PS5", "PS4"],
             entra: null,
             texto: "La segunda aventura de Aloy, en el Oeste Prohibido: un mundo abierto posapocalíptico con máquinas más grandes, tribus nuevas y un enemigo que parece invencible.",
             imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/library_600x900.jpg"
@@ -104,7 +143,7 @@ const SUSCRIPCIONES = [
           {
             titulo: "Poppy Playtime: Capítulo 2",
             id: null,
-            plataformas: ["PS5",  "PS4"],
+            plataformas: ["PS5", "PS4"],
             entra: null,
             texto: "La segunda parte del terror en la fábrica de juguetes Playtime Co.: más abajo, con puzles, una mano extensible para engancharse y colgarse, y juguetes que persiguen.",
             imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202408/2820/a308e999cc0872aac44aa6e95715a5ecc2b0974fc9b7e001.png"
@@ -120,7 +159,7 @@ const SUSCRIPCIONES = [
           {
             titulo: "Tales of Arise – Beyond the Dawn Edition",
             id: null,
-            plataformas: ["PS5",  "PS4"],
+            plataformas: ["PS5", "PS4"],
             entra: null,
             texto: "El JRPG de la saga Tales con la expansión Beyond the Dawn incluida. Dos personas de mundos enfrentados se unen contra Rena, que gobierna Dahna desde hace 300 años.",
             imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/740130/library_600x900.jpg"
@@ -136,7 +175,7 @@ const SUSCRIPCIONES = [
           {
             titulo: "Dino Crisis 2",
             id: null,
-            plataformas: ["PS5",  "PS4"],
+            plataformas: ["PS5", "PS4"],
             entra: null,
             texto: "Sólo Deluxe. Después de un accidente temporal que hace desaparecer un centro de investigación, Regina y Dylan pelean contra más de diez especies de dinosaurios entre junglas, cavernas y lagos del Cretácico.",
             imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4249140/54e18b7c8196fc17aac75dfce6a7d0caca8c1303/library_capsule_2x.jpg"
@@ -144,7 +183,7 @@ const SUSCRIPCIONES = [
           {
             titulo: "RollerCoaster Tycoon 3 Complete Edition",
             id: null,
-            plataformas: ["PS5",  "PS4"],
+            plataformas: ["PS5", "PS4"],
             entra: null,
             texto: "Sólo Deluxe. Se diseña y administra un parque de diversiones: montañas rusas, tiendas, personal y finanzas en decenas de escenarios, o un modo libre sin preocuparse por la plata.",
             imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1368820/library_600x900.jpg"

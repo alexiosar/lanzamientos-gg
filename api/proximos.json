@@ -2,206 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-27T19:59:04+00:00",
+ "generado": "2026-10-28T18:57:28+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-27",
- "hasta": "2026-11-26",
- "total": 62,
+ "desde": "2026-10-28",
+ "hasta": "2026-11-27",
+ "total": 64,
  "juegos": [
-  {
-   "id": "9-rip-sequel",
-   "titulo": "9 R.I.P. SEQUEL",
-   "fecha": "2026-10-27",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "NOVELA VISUAL",
-    "ANIME"
-   ],
-   "desarrollador": "IDEA FACTORY",
-   "descripcion": "La continuación de 9 R.I.P., la novela visual de Idea Factory, que retoma la historia y los personajes del primer juego.",
-   "trailer": "https://youtube.com/embed/HpjxMnOqI4U",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coab2m.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/9-rip-sequel"
-  },
-  {
-   "id": "village-in-the-shade",
-   "titulo": "VILLAGE IN THE SHADE",
-   "fecha": "2026-10-27",
-   "relanzamiento": "En PC desde julio de 2026",
-   "plataformas": [
-    "PS5",
-    "SWITCH",
-    "SWITCH2"
-   ],
-   "genero": [
-    "SIMULACION",
-    "AVENTURA",
-    "HORROR"
-   ],
-   "desarrollador": "NIPPON ICHI SOFTWARE",
-   "descripcion": "Un simulador de granja con arte pintado a mano en Kagatsu, un pueblo de montaña japonés lleno de secretos. Se cultiva, se arregla la casa, se hacen amigos entre los vecinos y se miran los cerezos en flor. Hay solo unas reglas simples: no hablar con desconocidos, no salir del pueblo y, sobre todo, no salir de noche. Lo que pasa si no se cumplen es parte del juego.",
-   "trailer": "https://youtube.com/embed/z0QNuVRSa3M",
-   "metacritic": 87,
-   "critica": "Pocas reseñas, de la versión de PC, y muy favorables. Lo reciben como una mezcla lograda de simulador de granja y terror: el trabajo del campo es satisfactorio y alrededor hay un misterio en un pueblo donde no se puede confiar en los vecinos, con mucha atmósfera, historia y temas oscuros. Los reparos son puntuales y no se repiten entre reseñas.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobtql.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/village-in-the-shade",
-   "noticias": [
-    {
-     "fecha": "2026-10-27",
-     "titulo": "DEBUTA CON 87 EN METACRITIC",
-     "texto": "Salió hoy en PS5, Switch 2 y Switch, con 87 sobre reseñas de la versión de PC."
-    }
-   ]
-  },
-  {
-   "id": "remothered-red-nuns-legacy",
-   "titulo": "REMOTHERED: RED NUN'S LEGACY",
-   "fecha": "2026-10-27",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "TERROR",
-    "AVENTURA",
-    "ACCION"
-   ],
-   "desarrollador": "STORMIND GAMES",
-   "descripcion": "Un survival horror en tercera persona a la manera de los clásicos, pero con controles modernos. La búsqueda de una hija secuestrada lleva a un convento siciliano donde nació el mito de la Monja Roja. Hay que esconderse, escapar y contraatacar en el momento justo frente a los acechadores, resolver acertijos para abrir zonas nuevas y usar poderes de hipnosis para leer recuerdos olvidados y revelar caminos ocultos.",
-   "trailer": "https://youtube.com/embed/PEBcT6E6u6c",
-   "metacritic": 71,
-   "critica": "Pocas reseñas, de la versión de PC. Lo ven como un cierre digno de la trilogía: un terror de persecución sólido, con folk horror de raíz italiana, buenas actuaciones de voz y una campaña de unas seis horas que ata los misterios a través de la historia de Susan. Lo más elogiado es la música de Akira Yamaoka y Aram Shahbazians. Los reparos van a algunos aspectos imperfectos del juego y a que se disfruta más habiendo jugado los anteriores.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobrbr.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-17",
-   "url": "https://lanzamientos.lat/juegos/remothered-red-nuns-legacy",
-   "noticias": [
-    {
-     "fecha": "2026-10-27",
-     "titulo": "DEBUTA CON 71 EN METACRITIC",
-     "texto": "Salió hoy en PS5, Xbox Series y PC con 71 sobre cuatro reseñas. La versión de Switch 2 llega el 3 de diciembre."
-    }
-   ]
-  },
-  {
-   "id": "the-seance-of-blake-manor",
-   "titulo": "THE SÉANCE OF BLAKE MANOR",
-   "fecha": "2026-10-27",
-   "relanzamiento": "En PC desde octubre de 2025",
-   "plataformas": [
-    "SWITCH2",
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "PUZZLE",
-    "HORROR"
-   ],
-   "desarrollador": "RAW FURY",
-   "descripcion": "Una investigación sobrenatural en Irlanda, en 1897. El detective privado Declan Ward llega a la mansión Blake, en Connemara, a buscar a Evelyn Deane, una huésped desaparecida, y se encuentra con un grupo de aficionados a lo místico llegados de todo el mundo para una sesión de espiritismo en la noche de Halloween. Se recorre la mansión, se juntan pistas y se habla con los invitados para armar qué pasó.",
-   "trailer": "https://youtube.com/embed/lKI7DVrhWL8",
-   "metacritic": 89,
-   "critica": "Las reseñas son de la versión de PC de 2025, y de las mejores del año para el género. Lo celebran como una clase magistral de aventura detectivesca: un misterio sobrenatural complejo, invitados llenos de secretos, una investigación que queda enteramente en manos de quien juega y un reloj que hace que cada minuto del fin de semana cuente, todo con una ambientación gótica irlandesa muy cuidada. El único reparo que se repite es que a veces tiene demasiado texto.",
-   "metacriticUsuarios": 8.3,
-   "metacriticVotos": 47,
-   "imagen": "https://cdn2.steamgriddb.com/grid/4b21069e4de1d75b74640d2691e9f2d7.png",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/the-seance-of-blake-manor",
-   "noticias": [
-    {
-     "fecha": "2026-10-27",
-     "titulo": "LLEGA A XBOX Y SWITCH 2 CON 89 EN METACRITIC",
-     "texto": "Salió hoy en Xbox Series, con Game Pass desde el primer día, y en Switch 2. En Metacritic tiene 89, el promedio de la versión de PC de 2025."
-    },
-    {
-     "fecha": "2026-10-21",
-     "titulo": "CONFIRMADO EN GAME PASS EL 27",
-     "texto": "Xbox lo confirmó en la segunda tanda de octubre: entra el 27 a Game Pass Ultimate, Premium y PC Game Pass, el día que sale."
-    },
-    {
-     "fecha": "2026-10-14",
-     "titulo": "TAMBIÉN SALE EN XBOX, Y ENTRA A GAME PASS",
-     "texto": "Raw Fury confirmó en Xbox Wire que llega a Xbox Series el 27 de octubre, el mismo día que en Switch 2, y que entra a Game Pass desde el lanzamiento. La tienda de Xbox ya lo tiene con esa fecha."
-    }
-   ]
-  },
-  {
-   "id": "dog-man-bark-in-action",
-   "titulo": "DOG MAN: BARK IN ACTION",
-   "fecha": "2026-10-27",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "PLATAFORMA",
-    "CASUAL"
-   ],
-   "desarrollador": "FLOOR 84",
-   "descripcion": "Un juego de acción con estética de historieta basado en Dog Man, los cómics de Dav Pilkey, el autor del Capitán Calzoncillos. El Doctor Escoria llenó la ciudad de pantallas hipnóticas para controlar a la gente, y Dog Man, mitad perro y mitad hombre, sale a frenarlo. Se alterna entre Dog Man y sus Superamigos, Peque Pedrito y 80-HD, cada uno con habilidades propias para pasar obstáculos, y se puede llamar a otros personajes de los cómics hasta sumar diez. Hay jefes y artilugios que dan habilidades nuevas.",
-   "trailer": "https://youtube.com/embed/56ztJ_sIF3g",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4782240/dbbf0d6bcb0a7ab40b724d8b57c3a5075a1b4d90/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-15",
-   "url": "https://lanzamientos.lat/juegos/dog-man-bark-in-action",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALE EL 27 DE OCTUBRE",
-     "texto": "La eShop y Steam lo tienen para el 27 de octubre. La PS Store lo lista para octubre en PS5 y PS4, y la tienda de Xbox sin día."
-    }
-   ]
-  },
-  {
-   "id": "minecraft-switch-2",
-   "titulo": "MINECRAFT",
-   "fecha": "2026-10-27",
-   "relanzamiento": "El Minecraft de siempre, en su edición nativa para Switch 2",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "SUPERVIVENCIA",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "MOJANG",
-   "descripcion": "La edición de Switch 2 del juego de construir y sobrevivir en mundos de bloques generados al azar. Suma los gráficos Vibrant Visuals, con algunas limitaciones como la pantalla dividida, y las partidas del Minecraft de Switch se pasan tal cual. La Ultimate Collection trae además cinco complementos, objetos para el creador de personajes, 1.000 Minecoins y el paquete Super Mario Mash-Up, con un mundo temático, 15 temas musicales y 40 skins.",
-   "trailer": "https://youtube.com/embed/ODHH1nUaOIM",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.17382.13510798885735219.9735d495-578c-4a4c-b892-3eb3a780b3a0.d3792486-cf98-40c0-a2c1-d6443f0e2b70?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-27",
-   "url": "https://lanzamientos.lat/juegos/minecraft-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-10-27",
-     "titulo": "SALIÓ LA EDICIÓN DE SWITCH 2",
-     "texto": "Mojang la lanzó el 27 de octubre. Quien tiene el Minecraft de Switch puede pasar a la edición estándar de Switch 2 gratis, o comprar las ediciones Deluxe y Ultimate Collection con descuento, hasta el 31 de enero de 2027."
-    }
-   ]
-  },
   {
    "id": "sulfur",
    "titulo": "SULFUR",
@@ -260,6 +67,65 @@
      "fecha": "2026-10-23",
      "titulo": "SALE EL 28 DE OCTUBRE",
      "texto": "Steam y la tienda de Xbox lo tienen para el 28 de octubre, y PlayStation publicó el tráiler con la fecha para PS5 y PS4."
+    }
+   ]
+  },
+  {
+   "id": "bao-baos-cozy-cleaning-services-switch",
+   "titulo": "BAO BAO'S COZY CLEANING SERVICES",
+   "fecha": "2026-10-28",
+   "relanzamiento": "En Xbox desde el 27 de octubre de 2026 — esta es la versión de Switch",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RELAX",
+    "COOP"
+   ],
+   "desarrollador": "DESTROYER DOGGO",
+   "descripcion": "Un simulador de hidrolavado en 2D, tranquilo y sin apuros. Bao Bao, un panda, limpia la mugre de escenarios en pixel art de colores pastel, con música lo-fi de fondo. Se juega solo o con hasta tres amigos.",
+   "trailer": "https://youtube.com/embed/XQsTnV0Mnu4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832380/77aece73ad25fa8f80c27a7cd20bd1bf8e6b2146/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-28",
+   "url": "https://lanzamientos.lat/juegos/bao-baos-cozy-cleaning-services-switch",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "SALIÓ EN SWITCH",
+     "texto": "Se mostró en el Indie World de Nintendo y salió ese mismo día, el 28 de octubre."
+    }
+   ]
+  },
+  {
+   "id": "cities-skylines-switch-2",
+   "titulo": "CITIES: SKYLINES",
+   "fecha": "2026-10-28",
+   "relanzamiento": "En PC desde 2015 — esta es la edición de Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "ESTRATEGIA"
+   ],
+   "desarrollador": "COLOSSAL ORDER",
+   "descripcion": "El constructor de ciudades de Paradox, en su Expanded Edition para Switch 2: se traza el plano, se reparten zonas, se arman rutas y transporte público, y se manejan impuestos, servicios y el humor de los vecinos mientras la ciudad crece.",
+   "trailer": "https://youtube.com/embed/qvjrThAQwU4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-28",
+   "url": "https://lanzamientos.lat/juegos/cities-skylines-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "SALIÓ EN SWITCH 2",
+     "texto": "Salió el 28 de octubre en Switch 2, en la Expanded Edition."
     }
    ]
   },
@@ -731,6 +597,36 @@
      "fecha": "2026-10-23",
      "titulo": "LLEGA A CONSOLAS EL 29 DE OCTUBRE",
      "texto": "Fulqrum Publishing le puso fecha en PS5 y Xbox Series, y las dos tiendas ya lo tienen. En PC salió en septiembre de 2025."
+    }
+   ]
+  },
+  {
+   "id": "sword-of-the-sea",
+   "titulo": "SWORD OF THE SEA",
+   "fecha": "2026-10-29",
+   "relanzamiento": "En PS5 y PC desde agosto de 2025",
+   "plataformas": [
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "GIANT SQUID",
+   "descripcion": "Una aventura de surf sobre olas de arena y agua, montado en una espada mágica que sirve de tabla, para devolverle la vida a un océano perdido. Lo dirige el artista de Journey, ABZÛ y The Pathless, y el movimiento rápido se inspira en los clásicos de skate y snowboard.",
+   "trailer": "https://youtube.com/embed/NSp6xDEK4FM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/5c3b62a9618ca06ffef07c18da248ba1be2b63d7/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-28",
+   "url": "https://lanzamientos.lat/juegos/sword-of-the-sea",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "LLEGA A XBOX Y SWITCH 2 EL 29 DE OCTUBRE",
+     "texto": "Se anunció en el Indie World de Nintendo, junto con la versión de Xbox Series, para el día siguiente."
     }
    ]
   },
@@ -1507,6 +1403,97 @@
    ]
   },
   {
+   "id": "raccoin-chaos-max-edition",
+   "titulo": "RACCOIN: CHAOS MAX EDITION",
+   "fecha": "2026-11-10",
+   "relanzamiento": "En PC desde marzo de 2026",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ROGUELIKE",
+    "CARTAS",
+    "CASUAL"
+   ],
+   "desarrollador": "DORACCOON",
+   "descripcion": "Un roguelike de armar mazos sobre una máquina de empujar monedas: se combinan monedas especiales con objetos para disparar combos, apilar torres brillantes, girar la ruleta y sacudir la máquina hasta que caiga todo. Esta edición trae ocho personajes y se juega a buscar el puntaje más alto.",
+   "trailer": "https://youtube.com/embed/i_X1If_eHuI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784030/75d93f090fa932324ab3447a5c755c047bbe1256/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-28",
+   "url": "https://lanzamientos.lat/juegos/raccoin-chaos-max-edition",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "LLEGA A SWITCH 2 EL 10 DE NOVIEMBRE",
+     "texto": "Se anunció en el Indie World de Nintendo. Ya se puede reservar y tiene una demo gratuita en la eShop."
+    }
+   ]
+  },
+  {
+   "id": "lost-and-found-co",
+   "titulo": "LOST AND FOUND CO.",
+   "fecha": "2026-11-10",
+   "relanzamiento": "En PC desde marzo de 2026",
+   "plataformas": [
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "PUZZLE",
+    "CASUAL",
+    "POINT AND CLICK"
+   ],
+   "desarrollador": "BIT EGG",
+   "descripcion": "Una aventura de objetos ocultos con estilo point and click: se buscan cosas perdidas por la ciudad de Plumville y otros lugares mágicos, se resuelven acertijos y se ayuda a una pequeña dragona a recuperar su poder.",
+   "trailer": "https://youtube.com/embed/9SITntA2ueU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-28",
+   "url": "https://lanzamientos.lat/juegos/lost-and-found-co",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "SALE EN SWITCH EL 10 DE NOVIEMBRE",
+     "texto": "Se anunció en el Indie World de Nintendo: llega el 10 de noviembre a Switch, con edición para Switch 2."
+    }
+   ]
+  },
+  {
+   "id": "tanuki-pons-summer",
+   "titulo": "TANUKI: PON'S SUMMER",
+   "fecha": "2026-11-10",
+   "plataformas": [
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "AVENTURA",
+    "RELAX"
+   ],
+   "desarrollador": "DENKIWORKS",
+   "descripcion": "Un simulador de vida tranquilo con Pon, un tanuki bienintencionado aunque algo vago, que trabaja medio tiempo en el correo. Falta un mes para el Festival Tanuki y el santuario está venido abajo: hay que repartir paquetes, hacer amigos y dejar todo listo antes de que termine el verano.",
+   "trailer": "https://youtube.com/embed/eSL5Np0yu1A",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/b8137047aa9108a0101280444547300e09835100/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-28",
+   "url": "https://lanzamientos.lat/juegos/tanuki-pons-summer",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "SALE EL 10 DE NOVIEMBRE",
+     "texto": "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 10 de noviembre. También tiene anunciadas versiones de Xbox y PC, que todavía no muestran ese día en las tiendas."
+    }
+   ]
+  },
+  {
    "id": "prinny-party-going-overboard",
    "titulo": "PRINNY PARTY: GOING OVERBOARD!",
    "fecha": "2026-11-11",
@@ -1730,6 +1717,36 @@
    ]
   },
   {
+   "id": "spirit-crossing",
+   "titulo": "SPIRIT CROSSING",
+   "fecha": "2026-11-16",
+   "plataformas": [
+    "SWITCH",
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "MULTIJUGADOR",
+    "RELAX"
+   ],
+   "desarrollador": "SPRY FOX",
+   "descripcion": "Un simulador de vida multijugador masivo, de los creadores de Cozy Grove, que transcurre por encima de las nubes. Se planea entre nubes pastel, se ayuda a espíritus perdidos, se diseña una casa en la cima de una montaña y se hace comunidad con otros jugadores, alrededor de una fogata o pescando en el cielo.",
+   "trailer": "https://youtube.com/embed/8PJE7G4oDgY",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321960/5cc8d9807304faf1fb446b929d645243733bc3bc/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-28",
+   "url": "https://lanzamientos.lat/juegos/spirit-crossing",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "SALE EL 16 DE NOVIEMBRE",
+     "texto": "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 16 de noviembre, el mismo día que en PC. Entre las consolas, es exclusivo de Nintendo."
+    }
+   ]
+  },
+  {
    "id": "rangers-path-national-park-simulator",
    "titulo": "RANGER'S PATH: NATIONAL PARK SIMULATOR",
    "relanzamiento": "En PC, en acceso anticipado, desde marzo de 2026",
@@ -1751,6 +1768,36 @@
    "psplus": false,
    "alta": "2026-09-17",
    "url": "https://lanzamientos.lat/juegos/rangers-path-national-park-simulator"
+  },
+  {
+   "id": "moonlight-peaks-ps5",
+   "titulo": "MOONLIGHT PEAKS",
+   "fecha": "2026-11-17",
+   "relanzamiento": "En Switch, Switch 2 y PC desde julio de 2026 — esta es la versión de PS5",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "RPG",
+    "VAMPIROS"
+   ],
+   "desarrollador": "LITTLE CHICKEN",
+   "descripcion": "Un simulador de vida de pueblo en el que se es un vampiro, hijo del Conde Drácula, que quiere demostrarle a su padre que se puede vivir con compasión incluso estando muerto. Hay granja, pero se cultivan cosechas malditas, como calabazas y belladona, porque es lo que come un vampiro. Se hacen amigos entre hombres lobo, brujas y sirenas, se busca pareja, se desbloquean poderes y se preparan pociones mientras se investiga a las siete familias del pueblo.",
+   "trailer": "https://youtube.com/embed/VL_15TiRRAM",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/73de126df403d8885c6b69d832ef57816fe14bbf/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-28",
+   "url": "https://lanzamientos.lat/juegos/moonlight-peaks-ps5",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "LLEGA A PS5 EL 17 DE NOVIEMBRE",
+     "texto": "XSEED Games y Marvelous Europe anunciaron la versión de PS5."
+    }
+   ]
   },
   {
    "id": "grand-theft-auto-vi",

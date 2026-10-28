@@ -55,6 +55,25 @@
 
 const NOTICIAS = [
   {
+    id: "ps-plus-noviembre-2026",
+    fecha: "2026-10-28",
+    categoria: "SUSCRIPCIONES",
+    titulo: "PS PLUS DE NOVIEMBRE: DEAD ISLAND 2, TOMB RAIDER IV – VI REMASTERED Y MONSTER TRAIN 2",
+    texto: "Sony anunció los juegos mensuales de noviembre: Dead Island 2, en PS5 y PS4, la remasterización de la trilogía oscura de Tomb Raider, también en las dos consolas, y Monster Train 2, sólo en PS5. Se reclaman del martes 3 al lunes 30 de noviembre con cualquier plan.\n\nLos de octubre —F1 25, Hunt: Showdown 1896 y Earth Defense Force: World Brothers 2— se pueden agregar hasta el lunes 2.",
+    fuente: "https://blog.latam.playstation.com/2026/10/28/juegos-mensuales-en-playstation-plus-de-noviembre-dead-island-2-tomb-raider-iv-vi-remastered-monster-train-2/",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/library_600x900_2x.jpg",
+    pagina: "/ps-plus-noviembre-2026"
+  },
+  {
+    id: "indie-world-octubre-2026",
+    fecha: "2026-10-28",
+    categoria: "EVENTOS",
+    titulo: "INDIE WORLD: WITCHBROOK SALE EL 28 DE ENERO Y SLIME RANCHER 2 LLEGA A SWITCH 2",
+    texto: "Nintendo hizo un Indie World con más de veinte juegos para Switch 2 y Switch. Witchbrook, el simulador de vida de brujas de Chucklefish, sale el 28 de enero de 2027 también en PS5 y Xbox Series. Slime Rancher 2 llega a Switch 2 en enero, y Sword of the Sea, a Switch 2 y Xbox Series el 29 de octubre.\n\nCon día: Raccoin, Lost and Found Co. y Tanuki: Pon's Summer el 10 de noviembre, Spirit Crossing el 16, Everything is Crab el 26 de enero, Petal Runner el 8 de marzo, My Arms Are Longer Now el 11 y Super Battle Golf el 25. Bao Bao's Cozy Cleaning Services salió ese mismo día. Se anunciaron además R.E.P.O., City of None, Tenjutsu y Dumpster Gang, entre otros.",
+    fuente: "https://www.nintendo.com/us/whatsnew/new-indie-world-showcase-features-cozy-and-chaotic-fun-for-nintendo-switch-2-and-nintendo-switch/",
+    juegos: ["witchbrook", "slime-rancher-2-switch-2", "sword-of-the-sea", "raccoin-chaos-max-edition", "spirit-crossing", "everything-is-crab", "petal-runner", "my-arms-are-longer-now", "super-battle-golf-switch-2", "repo", "city-of-none", "dumpster-gang"]
+  },
+  {
     id: "ea-cierra-bioware-2026",
     fecha: "2026-10-21",
     categoria: "ANUNCIOS",
