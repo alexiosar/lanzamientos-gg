@@ -2127,7 +2127,7 @@ y abrir http://localhost:8080
   | Floor Plan: Slap Out Of It! · Kowloon's Gate Suzaku (Switch) | Primavera boreal de 2027 (Indie World, 28/10) y 29/10 (eShop) | Floor Plan no tiene ficha propia en Steam ni carátula vertical. Kowloon's Gate falta revisarlo en la semanal |
   | HYPERyuki y Haunted Paws (PS5 y Xbox) · RACCOIN (PS5 y Xbox) · Prehistoric Isle (Xbox) | Xbox o la PS Store los listan; HAMSTER anunció Prehistoric Isle para Xbox | **Cargados sólo donde hay fecha.** Tanuki ya está en las cinco consolas desde el 29/10 (Gematsu) |
   | Lilac (Switch) · TAITO Milestones 5 · AYAKASHI Fishing Folktails · BAKUDO (Switch 2) | 5/11, sin fecha, mediados de 2027 y 2027 (Gematsu, 28-29/10) | Lilac son novelas visuales sin datos claros; falta revisarlos en la semanal |
-  | Console Archives MARL JONG (PS5 y Switch 2) | 29/10 | **No se cargó**: es un mahjong con el texto sólo en japonés, aunque las reglas dicen que los de HAMSTER entran el día que salen. Consultarlo con el usuario |
+  | Console Archives MARL JONG (PS5 y Switch 2) | 29/10 | **Descartado (29/10, decisión del usuario)**: mahjong con el texto sólo en japonés. Los de HAMSTER con texto sólo en japonés no entran |
   | Bad Ice-Cream Resort · Bad Ice-Cream Triple Scoop · Mobile Suit Gundam: Battle Operation 3 | Anunciados el 27 y el 28/10 (Gematsu) | Sin fecha |
   | Frog Sqwad · SNØ: Ultimate Freeriding (Switch 2) · One Turn Kill · The Last Cat in the Universe · Meiji Tokyo Renka Twilight Kiss · The Zibbo Show | eShop, 28-29/10 | Falta ver en la semanal si son relleno o si tienen cobertura |
   | Console Archives Ripple Island (Switch 2) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en PS5**, que lo lista desde el 8. La eShop no lo tiene |
