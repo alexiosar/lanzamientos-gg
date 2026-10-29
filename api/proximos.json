@@ -2,133 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-28T18:57:28+00:00",
+ "generado": "2026-10-29T14:12:42+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-28",
- "hasta": "2026-11-27",
- "total": 64,
+ "desde": "2026-10-29",
+ "hasta": "2026-11-28",
+ "total": 62,
  "juegos": [
-  {
-   "id": "sulfur",
-   "titulo": "SULFUR",
-   "fecha": "2026-10-28",
-   "relanzamiento": "En PC (acceso anticipado) desde octubre de 2024",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "FPS",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "PERFECT RANDOM",
-   "descripcion": "Un shooter roguelike en primera persona con tiroteos rápidos, cocina y decisiones difíciles. Se exploran zonas hostiles, se pelea contra enemigos impredecibles y se junta todo el botín posible; las armas se modifican y se encantan con accesorios y efectos, y se cocinan comidas raras para aguantar un poco más. El inventario es chico, así que cada cosa que se lleva es una decisión.",
-   "trailer": "https://youtube.com/embed/8DS-ExBDSFQ",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-23",
-   "url": "https://lanzamientos.lat/juegos/sulfur",
-   "noticias": [
-    {
-     "fecha": "2026-10-23",
-     "titulo": "SALE DEL ACCESO ANTICIPADO Y LLEGA A XBOX EL 28",
-     "texto": "La versión 1.0 sale el 28 de octubre junto con las de consola. La tienda de Xbox tiene la fecha; la PS Store lo lista para PS5 y PS4, todavía sin día."
-    }
-   ]
-  },
-  {
-   "id": "gennady",
-   "titulo": "GENNADY",
-   "fecha": "2026-10-28",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "FEED 64",
-   "descripcion": "Un plataformas roguelike con estilo de historieta sucia. Después de un destello, Gennady aparece en calzoncillos en una fábrica de carne alienígena y tiene que abrirse paso con su propio cuerpo a través de biomasa compacta, entre criaturas salidas de un cómic manchado de moho. Los pasillos cambian, morir da poder, y todo está dibujado cuadro a cuadro en blanco y negro con salpicones de color.",
-   "trailer": "https://youtube.com/embed/coFrt7teOko",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2430010/33b19d6d5a47330c1790fbf4384c4e6503465eb2/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-23",
-   "url": "https://lanzamientos.lat/juegos/gennady",
-   "noticias": [
-    {
-     "fecha": "2026-10-23",
-     "titulo": "SALE EL 28 DE OCTUBRE",
-     "texto": "Steam y la tienda de Xbox lo tienen para el 28 de octubre, y PlayStation publicó el tráiler con la fecha para PS5 y PS4."
-    }
-   ]
-  },
-  {
-   "id": "bao-baos-cozy-cleaning-services-switch",
-   "titulo": "BAO BAO'S COZY CLEANING SERVICES",
-   "fecha": "2026-10-28",
-   "relanzamiento": "En Xbox desde el 27 de octubre de 2026 — esta es la versión de Switch",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "SIMULACION",
-    "RELAX",
-    "COOP"
-   ],
-   "desarrollador": "DESTROYER DOGGO",
-   "descripcion": "Un simulador de hidrolavado en 2D, tranquilo y sin apuros. Bao Bao, un panda, limpia la mugre de escenarios en pixel art de colores pastel, con música lo-fi de fondo. Se juega solo o con hasta tres amigos.",
-   "trailer": "https://youtube.com/embed/XQsTnV0Mnu4",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832380/77aece73ad25fa8f80c27a7cd20bd1bf8e6b2146/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-28",
-   "url": "https://lanzamientos.lat/juegos/bao-baos-cozy-cleaning-services-switch",
-   "noticias": [
-    {
-     "fecha": "2026-10-28",
-     "titulo": "SALIÓ EN SWITCH",
-     "texto": "Se mostró en el Indie World de Nintendo y salió ese mismo día, el 28 de octubre."
-    }
-   ]
-  },
-  {
-   "id": "cities-skylines-switch-2",
-   "titulo": "CITIES: SKYLINES",
-   "fecha": "2026-10-28",
-   "relanzamiento": "En PC desde 2015 — esta es la edición de Switch 2",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "SIMULACION",
-    "ESTRATEGIA"
-   ],
-   "desarrollador": "COLOSSAL ORDER",
-   "descripcion": "El constructor de ciudades de Paradox, en su Expanded Edition para Switch 2: se traza el plano, se reparten zonas, se arman rutas y transporte público, y se manejan impuestos, servicios y el humor de los vecinos mientras la ciudad crece.",
-   "trailer": "https://youtube.com/embed/qvjrThAQwU4",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-28",
-   "url": "https://lanzamientos.lat/juegos/cities-skylines-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-10-28",
-     "titulo": "SALIÓ EN SWITCH 2",
-     "texto": "Salió el 28 de octubre en Switch 2, en la Expanded Edition."
-    }
-   ]
-  },
   {
    "id": "steins-gate-reboot",
    "titulo": "STEINS;GATE RE:BOOT",
@@ -178,13 +58,20 @@
    "desarrollador": "S-GAME STUDIO",
    "descripcion": "Un juego de acción de S-Game hecho en Unreal Engine 5, que mezcla la narrativa de las historias wuxia con combates muy rápidos. Se juega como Soul, un guerrero al que le quedan 66 días de vida y que se cruza con asesinos y conspiraciones.",
    "trailer": "https://youtube.com/embed/qgJBFa952mY",
-   "metacritic": null,
+   "metacritic": 88,
+   "critica": "Muchas reseñas, de la versión de PC, y varias con nota perfecta. Lo celebran como uno de los mejores juegos de acción de los últimos años: un combate de artes marciales fluido, cinematográfico y exigente, con una enorme variedad de armas, jefes espectaculares y un mundo wuxia muy cuidado, de estructura metroidvania. Algunas lo ponen a la altura de los grandes del género. Los reparos van a una historia que tarda en arrancar, a problemas de balance y técnicos, y a que por momentos le falta variedad.",
+   "metacriticUsuarios": null,
    "imagen": "https://cdn2.steamgriddb.com/grid/c2ca23c951caaa036189141224933bb8.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/phantom-blade-zero",
    "noticias": [
+    {
+     "fecha": "2026-10-29",
+     "titulo": "DEBUTA CON 88 EN METACRITIC",
+     "texto": "Salió hoy en PS5 con 88 sobre 45 reseñas, varias de 100."
+    },
     {
      "fecha": "2026-10-22",
      "titulo": "SALIÓ EL TRÁILER DE LANZAMIENTO",
@@ -217,13 +104,20 @@
    "desarrollador": "FURYU CORPORATION",
    "descripcion": "Un shooter de supervivencia en tercera persona ambientado en un Japón donde aparecen de golpe las Zonas Anómalas. Reona Minazuki, de 17 años, busca a su mejor amiga, Arisa, que desapareció dentro de una, y para eso entra como Buceadora a la oficina del gobierno que las combate. En su primera incursión es la única sobreviviente y despierta un poder extraño. A partir de ahí hay que explorar las zonas, juntar recursos y averiguar de dónde salen.",
    "trailer": "https://youtube.com/embed/1hrRMm5horM",
-   "metacritic": null,
+   "metacritic": 68,
+   "critica": "Pocas reseñas, de la versión de PC, y divididas. Destacan la historia, el mundo y los personajes, un manejo de armas satisfactorio pese a los controles tipo tanque y una buena personalización, en un survival horror con aire de arcade. Los reparos van a decisiones de diseño que chocan entre sí y a momentos frustrantes que lo hacen sentir fuera de época.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc3jf.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-24",
    "url": "https://lanzamientos.lat/juegos/anomalith",
    "noticias": [
+    {
+     "fecha": "2026-10-29",
+     "titulo": "DEBUTA CON 68 EN METACRITIC",
+     "texto": "Salió hoy en PS5 y Switch 2 con 68 sobre cuatro reseñas de PC, que van de 80 a 50."
+    },
     {
      "fecha": "2026-10-08",
      "titulo": "HAY DEMO EN PS5 Y SWITCH 2",
@@ -272,13 +166,20 @@
    "desarrollador": "TELLTALE",
    "descripcion": "La remasterización del policial de Telltale de 2013. Bigby Wolf investiga en Fabletown, donde los personajes del folclore existen de verdad, y las decisiones cambian cómo sigue la historia. Vuelve con el apartado técnico puesto al día.",
    "trailer": "https://youtube.com/embed/AFWTFkneaCo",
-   "metacritic": null,
+   "metacritic": 85,
+   "critica": "Reseñas de la versión de PS5, todas favorables. Lo ven como un remaster ejemplar de una de las mejores aventuras de Telltale: el policial de Bigby en Fabletown sigue atrapando como en 2013, ahora con mejores gráficos, mejor rendimiento y bastante contenido extra. Los reparos son menores: algunos detalles de iluminación y que no suma historia nueva antes de The Wolf Among Us 2.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6r3.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/the-wolf-among-us-remastered",
    "noticias": [
+    {
+     "fecha": "2026-10-29",
+     "titulo": "DEBUTA CON 85 EN METACRITIC",
+     "texto": "Salió hoy en PS5 y Xbox Series con 85 sobre nueve reseñas. La versión de Switch se retrasó sin fecha."
+    },
     {
      "fecha": "2026-10-16",
      "titulo": "LA VERSIÓN DE SWITCH SE RETRASA SIN FECHA",
@@ -397,13 +298,20 @@
    "desarrollador": "WDR STUDIOS",
    "descripcion": "Terror con parkour en primera persona en Dalton's Dinos, un parque de dinosaurios al costado de la Ruta 66, en Nuevo México, en 1992. El auto se rompe lejos de todo, el personal desapareció y una voz en un teléfono pide ayuda para encontrar a un chico perdido. Adentro hay criaturas que cazan y persiguen, y para sobrevivir hay que correr, saltar y trepar sin frenar.",
    "trailer": "https://youtube.com/embed/nAEerNJJwW0",
-   "metacritic": null,
+   "metacritic": 78,
+   "critica": "Pocas reseñas, de la versión de PC, y favorables. Lo ven como un debut ingenioso: un plataformas de parkour fluido, al estilo de Titanfall 2 o Mirror's Edge, mezclado con persecuciones tensas de dinosaurios, buenos momentos armados y mucha nostalgia noventosa de película clase B. Los reparos van a la historia y a los personajes, que no están a la altura del resto.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920220/library_600x900.jpg",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-10-15",
    "url": "https://lanzamientos.lat/juegos/terrible-lizards",
    "noticias": [
+    {
+     "fecha": "2026-10-29",
+     "titulo": "DEBUTA CON 78 EN METACRITIC",
+     "texto": "Salió hoy en Xbox Series, con Game Pass, y tiene 78 sobre cuatro reseñas de PC."
+    },
     {
      "fecha": "2026-10-21",
      "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
@@ -464,13 +372,21 @@
    "desarrollador": "WRONG ORGAN",
    "descripcion": "Un terror psicológico en primera persona a bordo del Tulpar, un carguero espacial varado. El capitán Curly intentó llevarse a toda la tripulación con él y fracasó: quedó mutilado, sin poder hablar y a merced de los cinco tripulantes que condenó a una muerte lenta. No hay rescate posible, la energía dura seis meses y la comida mucho menos. La historia se reconstruye entre lo que pasó en la nave y lo que se ve, que no siempre es confiable. Vendió más de 800.000 copias en PC y ganó premios a la mejor narrativa.",
    "trailer": "https://youtube.com/embed/m2AROQzEl3c",
-   "metacritic": null,
+   "metacritic": 88,
+   "critica": "Las reseñas son de la versión de PC de 2024, y lo consideran uno de los grandes juegos de terror de los últimos años. Lo describen como un terror psicológico corto, sucio e incómodo, con una escritura excelente, imágenes perturbadoras, estética de PS1 y una historia que salta en el tiempo y no se olvida. Los reparos van a la jugabilidad: acertijos flojos, persecuciones molestas y tramos repetitivos.",
+   "metacriticUsuarios": 7.9,
+   "metacriticVotos": 309,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475490/library_600x900_2x.jpg",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-10-21",
    "url": "https://lanzamientos.lat/juegos/mouthwashing",
    "noticias": [
+    {
+     "fecha": "2026-10-29",
+     "titulo": "LLEGA A CONSOLAS CON 88 EN METACRITIC",
+     "texto": "Salió hoy en PS5, PS4 y Xbox Series, con Game Pass. En Metacritic tiene 88, el promedio de la versión de PC de 2024."
+    },
     {
      "fecha": "2026-10-21",
      "titulo": "LLEGA A CONSOLAS EL 29 DE OCTUBRE, Y A GAME PASS",
@@ -616,7 +532,10 @@
    "desarrollador": "GIANT SQUID",
    "descripcion": "Una aventura de surf sobre olas de arena y agua, montado en una espada mágica que sirve de tabla, para devolverle la vida a un océano perdido. Lo dirige el artista de Journey, ABZÛ y The Pathless, y el movimiento rápido se inspira en los clásicos de skate y snowboard.",
    "trailer": "https://youtube.com/embed/NSp6xDEK4FM",
-   "metacritic": null,
+   "metacritic": 88,
+   "critica": "Las reseñas son de la versión de PS5 de 2025. Lo celebran como una experiencia hermosa y relajante: deslizarse sobre arena, agua y piedra se siente fluido y satisfactorio, con escenarios espectaculares, un gran sonido y una historia emotiva. Muchas lo ven como la evolución de Journey. Los reparos van a que es corto, a un sistema de trucos demasiado simple y a que repite la fórmula del estudio.",
+   "metacriticUsuarios": 8.2,
+   "metacriticVotos": 383,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/5c3b62a9618ca06ffef07c18da248ba1be2b63d7/library_600x900_2x.jpg",
    "gamepass": false,
    "psplus": false,
@@ -624,9 +543,45 @@
    "url": "https://lanzamientos.lat/juegos/sword-of-the-sea",
    "noticias": [
     {
+     "fecha": "2026-10-29",
+     "titulo": "LLEGA A XBOX Y SWITCH 2 CON 88 EN METACRITIC",
+     "texto": "Salió hoy en Xbox Series y Switch 2. En Metacritic tiene 88, el promedio de la versión de PS5 de 2025."
+    },
+    {
      "fecha": "2026-10-28",
      "titulo": "LLEGA A XBOX Y SWITCH 2 EL 29 DE OCTUBRE",
      "texto": "Se anunció en el Indie World de Nintendo, junto con la versión de Xbox Series, para el día siguiente."
+    }
+   ]
+  },
+  {
+   "id": "arcade-archives-2-prehistoric-isle",
+   "titulo": "ARCADE ARCHIVES 2: PREHISTORIC ISLE",
+   "fecha": "2026-10-29",
+   "relanzamiento": "El original de SNK es de 1989 — esta es la reedición para consolas actuales",
+   "plataformas": [
+    "PS5",
+    "PS4"
+   ],
+   "genero": [
+    "SHOOTER",
+    "RETRO",
+    "ARCADE"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "La reedición del shooter de SNK de 1989. Una serie de naufragios frente a las Bahamas lleva al protagonista hasta la isla Greenhell, donde lo atacan dragones prehistóricos que se creían extinguidos. El módulo que acompaña a la nave cambia de ataque según dónde se lo ubique: láser de fuego hacia arriba, bombas en diagonal y cinco variantes en total. Trae ajustes de dificultad y pantalla, rebobinado, disparo automático y ranking online.",
+   "trailer": "https://youtube.com/embed/fQLOXfTQyfQ",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/1908/273e4a1762ec5d6b39735ee552bb027d6d4e131a56c12542.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-29",
+   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-prehistoric-isle",
+   "noticias": [
+    {
+     "fecha": "2026-10-29",
+     "titulo": "SALIÓ EN PS5 Y PS4",
+     "texto": "HAMSTER lo lanzó el 29 de octubre: en PS5 como Arcade Archives 2 y en PS4 en la línea Arcade Archives de siempre. También está anunciado para Xbox Series, que todavía no lo lista."
     }
    ]
   },
@@ -911,6 +866,47 @@
      "fecha": "2026-08-07",
      "titulo": "SALE EL 3 DE NOVIEMBRE, CON 32 CANCIONES",
      "texto": "THQ Nordic anunció la versión de Switch 2 para el 3 de noviembre, el mismo día que Let's Sing 2027. Trae 32 canciones de ABBA, entre ellas I Have a Dream, y siete modos de juego, en el año en que Dancing Queen cumple 50. Se vende en una edición con dos micrófonos y en otra digital sin ellos."
+    }
+   ]
+  },
+  {
+   "id": "solo-leveling-arise-overdrive",
+   "titulo": "SOLO LEVELING: ARISE OVERDRIVE",
+   "fecha": "2026-11-03",
+   "relanzamiento": "En PC desde noviembre de 2025",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "ANIME"
+   ],
+   "desarrollador": "NETMARBLE NEO",
+   "descripcion": "Un RPG de acción basado en Solo Leveling, el webtoon con más de 14.000 millones de vistas. Se sigue a Sung Jinwoo desde cazador de rango E hasta el más fuerte del mundo, con la historia original y capítulos nuevos que sólo están en el juego. El combate tiene esquivas al límite y contraataques con parada perfecta, un árbol de habilidades que se abre en ocho especializaciones y el despertar del Monarca de las Sombras. Hay incursiones cooperativas para cuatro y un sistema para fabricar armas del webtoon con lo que dejan los monstruos.",
+   "trailer": "https://youtube.com/embed/B22MqQQK5eE",
+   "gameplay": {
+    "video": "https://youtube.com/embed/X1PIGN_d12s",
+    "canal": "elKate",
+    "canalUrl": "https://www.youtube.com/@elKateYT"
+   },
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2373990/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-27",
+   "url": "https://lanzamientos.lat/juegos/solo-leveling-arise-overdrive",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "SALE EL 3 DE NOVIEMBRE EN PS5 Y XBOX",
+     "texto": "Netmarble le puso día a la versión de consolas: el 3 de noviembre en PS5 y Xbox Series."
+    },
+    {
+     "fecha": "2026-09-24",
+     "titulo": "NO SALIÓ EN EL TERCER TRIMESTRE",
+     "texto": "Netmarble había anunciado las versiones de PS5 y Xbox Series para el tercer trimestre, entre julio y septiembre, y ninguna de las dos apareció todavía en las tiendas. En PC salió en noviembre de 2025."
     }
    ]
   },
@@ -1468,6 +1464,9 @@
    "titulo": "TANUKI: PON'S SUMMER",
    "fecha": "2026-11-10",
    "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
     "SWITCH",
     "SWITCH2"
    ],
@@ -1489,7 +1488,7 @@
     {
      "fecha": "2026-10-28",
      "titulo": "SALE EL 10 DE NOVIEMBRE",
-     "texto": "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 10 de noviembre. También tiene anunciadas versiones de Xbox y PC, que todavía no muestran ese día en las tiendas."
+     "texto": "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 10 de noviembre. Ese mismo día sale en PS5, PS4, Xbox Series y PC."
     }
    ]
   },

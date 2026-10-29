@@ -25,6 +25,10 @@ estrenos recientes.
 24 horas corridas, no por día de calendario**: conviene pedir siempre a la misma hora. Faltan el
 resto del día 2 y los días 3 y 4.
 
+**Pausa del 27/10 al 1/11/2026:** el usuario se tomó esos días y no pidió nada. La próxima lista
+sigue donde quedó: `/febrero-2027` y las cinco fichas que faltan del día 2, más las cuatro primeras
+del día 3.
+
 ## Día 1
 
 **Resultado al 15/10:** 9 de 10 salieron de las listas de "sin indexar". Sigue afuera Order of

@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">88 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('phantom-blade-zero')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -162,7 +168,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Muchas reseñas, de la versión de PC, y varias con nota perfecta. Lo celebran como uno de los mejores juegos de acción de los últimos años: un combate de artes marciales fluido, cinematográfico y exigente, con una enorme variedad de armas, jefes espectaculares y un mundo wuxia muy cuidado, de estructura metroidvania. Algunas lo ponen a la altura de los grandes del género. Los reparos van a una historia que tarda en arrancar, a problemas de balance y técnicos, y a que por momentos le falta variedad.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-29</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 88 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">Salió hoy en PS5 con 88 sobre 45 reseñas, varias de 100.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-10-22</span>
@@ -220,6 +237,14 @@
               <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
             </span>
           </a>
+          <a class="rel-item" href="/juegos/solo-leveling-arise-overdrive">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2373990/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">SOLO LEVELING: ARISE OVERDRIVE</span>
+              <span class="rel-fecha">03 NOV</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
           <a class="rel-item" href="/juegos/warrior-cats-clans-of-the-forest">
             <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocmt9.jpg" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -242,14 +267,6 @@
               <span class="rel-titulo">TALES OF ETERNIA REMASTERED</span>
               <span class="rel-fecha">16 OCT</span>
               <span class="plataformas"><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-PS5">PS5</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/castlevania-belmonts-curse">
-            <img class="rel-portada" src="https://cdn2.steamgriddb.com/grid/36368348f3b5677aacd95ca9c51a0c4b.png" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">CASTLEVANIA: BELMONT&#x27;S CURSE</span>
-              <span class="rel-fecha">15 OCT</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-SWITCH">SWITCH</span><span class="plat plat-XBOX">XBOX</span></span>
             </span>
           </a>
         </div>
