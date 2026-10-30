@@ -2,589 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-29T14:12:42+00:00",
+ "generado": "2026-10-30T14:25:35+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-29",
- "hasta": "2026-11-28",
- "total": 62,
+ "desde": "2026-10-30",
+ "hasta": "2026-11-29",
+ "total": 50,
  "juegos": [
-  {
-   "id": "steins-gate-reboot",
-   "titulo": "STEINS;GATE RE:BOOT",
-   "fecha": "2026-10-29",
-   "relanzamiento": "En PC desde agosto de 2026",
-   "duracion": "≈ 24 h (historia) · 25 h (completo)",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "ANIME",
-    "NOVELA VISUAL"
-   ],
-   "desarrollador": "MAGES. INC.",
-   "descripcion": "La novela visual de viajes en el tiempo vuelve renovada, con los gráficos rehechos por completo. Parte del guion de Steins;Gate Elite, con el ritmo narrativo reajustado y una línea de mundo y un final completamente nuevos. Las ediciones de PS5, Switch 2 y Switch salen en digital y en físico.",
-   "trailer": "https://youtube.com/embed/2X-X5C4jG0A",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/9995b8e98cdbf0889fcde03a245597b9.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-14",
-   "url": "https://lanzamientos.lat/juegos/steins-gate-reboot",
-   "noticias": [
-    {
-     "fecha": "2026-10-05",
-     "titulo": "SALE EL 29 DE OCTUBRE EN CONSOLAS",
-     "texto": "La versión de Xbox estaba anunciada para el 20 de agosto, junto con la de PC, pero se retrasó para salir con las demás consolas: el 29 de octubre llega a Xbox, PS5, PS4, Switch 2 y Switch. En PC está desde agosto. Hay edición física para PS5, Switch 2 y Switch, a 59,99 dólares, y una SteelBook a 69,99."
-    }
-   ]
-  },
-  {
-   "id": "phantom-blade-zero",
-   "titulo": "PHANTOM BLADE ZERO",
-   "fecha": "2026-10-29",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG"
-   ],
-   "desarrollador": "S-GAME STUDIO",
-   "descripcion": "Un juego de acción de S-Game hecho en Unreal Engine 5, que mezcla la narrativa de las historias wuxia con combates muy rápidos. Se juega como Soul, un guerrero al que le quedan 66 días de vida y que se cruza con asesinos y conspiraciones.",
-   "trailer": "https://youtube.com/embed/qgJBFa952mY",
-   "metacritic": 88,
-   "critica": "Muchas reseñas, de la versión de PC, y varias con nota perfecta. Lo celebran como uno de los mejores juegos de acción de los últimos años: un combate de artes marciales fluido, cinematográfico y exigente, con una enorme variedad de armas, jefes espectaculares y un mundo wuxia muy cuidado, de estructura metroidvania. Algunas lo ponen a la altura de los grandes del género. Los reparos van a una historia que tarda en arrancar, a problemas de balance y técnicos, y a que por momentos le falta variedad.",
-   "metacriticUsuarios": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/c2ca23c951caaa036189141224933bb8.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/phantom-blade-zero",
-   "noticias": [
-    {
-     "fecha": "2026-10-29",
-     "titulo": "DEBUTA CON 88 EN METACRITIC",
-     "texto": "Salió hoy en PS5 con 88 sobre 45 reseñas, varias de 100."
-    },
-    {
-     "fecha": "2026-10-22",
-     "titulo": "SALIÓ EL TRÁILER DE LANZAMIENTO",
-     "texto": "S-GAME publicó el tráiler de lanzamiento a una semana del estreno del 29 de octubre. Las ediciones físicas de PS5 llegan recién en 2027."
-    },
-    {
-     "fecha": "2026-08-18",
-     "titulo": "EL STATE OF PLAY MOSTRÓ CÓMO SE JUEGA",
-     "texto": "Sony le dedicó una presentación entera y esta vez se vio jugabilidad y trama en profundidad, no un adelanto de treinta segundos. Sigue en pie para el 29 de octubre en PS5."
-    },
-    {
-     "fecha": "2026-08-14",
-     "titulo": "TIENE SU PROPIO STATE OF PLAY EL 17 DE AGOSTO",
-     "texto": "Sony le dedica una presentación entera el 17 de agosto. Ya se abrieron las reservas y se publicó un tráiler de once minutos, así que lo del 17 debería traer fecha firme de todo lo que falta."
-    }
-   ]
-  },
-  {
-   "id": "anomalith",
-   "titulo": "ANOMALITH",
-   "fecha": "2026-10-29",
-   "plataformas": [
-    "PS5",
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG"
-   ],
-   "desarrollador": "FURYU CORPORATION",
-   "descripcion": "Un shooter de supervivencia en tercera persona ambientado en un Japón donde aparecen de golpe las Zonas Anómalas. Reona Minazuki, de 17 años, busca a su mejor amiga, Arisa, que desapareció dentro de una, y para eso entra como Buceadora a la oficina del gobierno que las combate. En su primera incursión es la única sobreviviente y despierta un poder extraño. A partir de ahí hay que explorar las zonas, juntar recursos y averiguar de dónde salen.",
-   "trailer": "https://youtube.com/embed/1hrRMm5horM",
-   "metacritic": 68,
-   "critica": "Pocas reseñas, de la versión de PC, y divididas. Destacan la historia, el mundo y los personajes, un manejo de armas satisfactorio pese a los controles tipo tanque y una buena personalización, en un survival horror con aire de arcade. Los reparos van a decisiones de diseño que chocan entre sí y a momentos frustrantes que lo hacen sentir fuera de época.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc3jf.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-24",
-   "url": "https://lanzamientos.lat/juegos/anomalith",
-   "noticias": [
-    {
-     "fecha": "2026-10-29",
-     "titulo": "DEBUTA CON 68 EN METACRITIC",
-     "texto": "Salió hoy en PS5 y Switch 2 con 68 sobre cuatro reseñas de PC, que van de 80 a 50."
-    },
-    {
-     "fecha": "2026-10-08",
-     "titulo": "HAY DEMO EN PS5 Y SWITCH 2",
-     "texto": "Ya se puede bajar una demo antes de la salida del 29 de octubre."
-    }
-   ]
-  },
-  {
-   "id": "hello-kitty-party-land",
-   "titulo": "HELLO KITTY PARTY LAND",
-   "fecha": "2026-10-29",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "CASUAL",
-    "MULTIJUGADOR",
-    "COOP"
-   ],
-   "desarrollador": "SANRIO",
-   "descripcion": "Un juego de fiesta con los personajes de Sanrio: más de 45 minijuegos para jugar con amigos, en la misma consola u online, y un modo tablero con juegos cortos para cuando se espera el turno. Hay 16 personajes jugables, más de 145 para coleccionar en figuritas y un avatar propio que se personaliza, del peinado a la ropa.",
-   "trailer": "https://youtube.com/embed/IUhxPbhtDEU",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7oa.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-30",
-   "url": "https://lanzamientos.lat/juegos/hello-kitty-party-land"
-  },
-  {
-   "id": "the-wolf-among-us-remastered",
-   "titulo": "THE WOLF AMONG US REMASTERED",
-   "duracion": "≈ 8,6 h (historia) · 11 h (completo)",
-   "fecha": "2026-10-29",
-   "relanzamiento": "En PC y consolas desde 2013",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "POINT AND CLICK",
-    "GOTICO"
-   ],
-   "desarrollador": "TELLTALE",
-   "descripcion": "La remasterización del policial de Telltale de 2013. Bigby Wolf investiga en Fabletown, donde los personajes del folclore existen de verdad, y las decisiones cambian cómo sigue la historia. Vuelve con el apartado técnico puesto al día.",
-   "trailer": "https://youtube.com/embed/AFWTFkneaCo",
-   "metacritic": 85,
-   "critica": "Reseñas de la versión de PS5, todas favorables. Lo ven como un remaster ejemplar de una de las mejores aventuras de Telltale: el policial de Bigby en Fabletown sigue atrapando como en 2013, ahora con mejores gráficos, mejor rendimiento y bastante contenido extra. Los reparos son menores: algunos detalles de iluminación y que no suma historia nueva antes de The Wolf Among Us 2.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6r3.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/the-wolf-among-us-remastered",
-   "noticias": [
-    {
-     "fecha": "2026-10-29",
-     "titulo": "DEBUTA CON 85 EN METACRITIC",
-     "texto": "Salió hoy en PS5 y Xbox Series con 85 sobre nueve reseñas. La versión de Switch se retrasó sin fecha."
-    },
-    {
-     "fecha": "2026-10-16",
-     "titulo": "LA VERSIÓN DE SWITCH SE RETRASA SIN FECHA",
-     "texto": "Telltale postergó las versiones de Switch, que ya no salen el 29 de octubre y todavía no tienen fecha nueva. En PS5, Xbox Series y PC sigue el 29."
-    },
-    {
-     "fecha": "2026-08-26",
-     "titulo": "FECHA EN LA GAMESCOM, Y UN MODO NOIR",
-     "texto": "Telltale puso fecha en la gamescom: 29 de octubre. El tráiler presentó a los sospechosos del caso y adelantó un Modo Noir."
-    }
-   ]
-  },
-  {
-   "id": "hunting-simulator-3",
-   "titulo": "HUNTING SIMULATOR 3",
-   "fecha": "2026-10-29",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SIMULACION",
-    "MUNDO ABIERTO"
-   ],
-   "desarrollador": "NACON STUDIO GHENT",
-   "descripcion": "Un simulador de caza de mundo abierto, a pie o en un todoterreno, por Colorado y el interior agreste de Texas, con decenas de especies. Con el sistema SimFauna, cada animal reacciona a lo que se hace, envejece y se comporta como en la realidad. Hay armas oficiales de marcas como Remington, Beretta, Winchester y Browning, entre rifles, escopetas, arcos y ballestas, y un perro de caza que rastrea huellas, sigue pistas y trae las presas chicas. Los trofeos se exhiben en un refugio que se puede personalizar.",
-   "trailer": "https://youtube.com/embed/0GH3kg1vRwU",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482760/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-31",
-   "url": "https://lanzamientos.lat/juegos/hunting-simulator-3",
-   "noticias": [
-    {
-     "fecha": "2026-08-20",
-     "titulo": "YA TIENE FECHA: 29 DE OCTUBRE",
-     "texto": "Después de meses sin día confirmado, el estudio anunció que sale el 29 de octubre."
-    }
-   ]
-  },
-  {
-   "id": "pardon-my-french-toast",
-   "titulo": "PARDON MY FRENCH TOAST",
-   "fecha": "2026-10-29",
-   "relanzamiento": "En PC desde diciembre de 2025",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "REROLLED STUDIO",
-   "descripcion": "Un plataformas en tres dimensiones donde el protagonista es una tostada que se unta cosas encima para conseguir habilidades: dulce de leche para pegarse a las paredes, mermelada para rebotar. La idea entera sale de ahí.",
-   "trailer": "https://youtube.com/embed/wzp6lq877KI",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9vev.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/pardon-my-french-toast",
-   "noticias": [
-    {
-     "fecha": "2026-10-05",
-     "titulo": "SE CORRE AL 29 DE OCTUBRE",
-     "texto": "La eShop y la tienda de Nintendo de Estados Unidos lo tienen ahora para el 29 de octubre, dos semanas después de lo anunciado. En PC salió en diciembre de 2025."
-    }
-   ]
-  },
-  {
-   "id": "croc-2-kingdom-of-the-gobbos",
-   "titulo": "CROC 2: KINGDOM OF THE GOBBOS",
-   "fecha": "2026-10-29",
-   "relanzamiento": "Remaster del original de PS1 y PC, 1999",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "AVENTURA",
-    "RETRO"
-   ],
-   "desarrollador": "TITANIUM STUDIOS",
-   "descripcion": "La remasterización de la secuela de Croc, de 1999. Los Dantinis resucitan al Barón Dante, y Croc, que acaba de enterarse de que sus padres biológicos lo están buscando, cruza al continente para encontrarlos. Se recorren libremente cuatro aldeas Gobbo, cada una con su cultura: la marinera, la cosaca, la cavernícola y la inca. Hay que rescatar Gobbos y pelear contra guardianes, y entre medio hay carreras de autos y lanchas, vagonetas y vuelo.",
-   "trailer": "https://youtube.com/embed/hK5P4C3ZzR0",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.47526.13838490530250275.89c94014-1e80-4ace-b914-b356bab45b8d.1fa98497-708e-4760-8ee7-0ef3282bc492?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-02",
-   "url": "https://lanzamientos.lat/juegos/croc-2-kingdom-of-the-gobbos",
-   "noticias": [
-    {
-     "fecha": "2026-10-01",
-     "titulo": "SALE EL 29 DE OCTUBRE",
-     "texto": "Argonaut Games puso fecha a la remasterización: sale el mismo día en PS5, PS4, Xbox y PC."
-    }
-   ]
-  },
-  {
-   "id": "terrible-lizards",
-   "titulo": "TERRIBLE LIZARDS",
-   "fecha": "2026-10-29",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "HORROR",
-    "ACCION",
-    "INDIE"
-   ],
-   "desarrollador": "WDR STUDIOS",
-   "descripcion": "Terror con parkour en primera persona en Dalton's Dinos, un parque de dinosaurios al costado de la Ruta 66, en Nuevo México, en 1992. El auto se rompe lejos de todo, el personal desapareció y una voz en un teléfono pide ayuda para encontrar a un chico perdido. Adentro hay criaturas que cazan y persiguen, y para sobrevivir hay que correr, saltar y trepar sin frenar.",
-   "trailer": "https://youtube.com/embed/nAEerNJJwW0",
-   "metacritic": 78,
-   "critica": "Pocas reseñas, de la versión de PC, y favorables. Lo ven como un debut ingenioso: un plataformas de parkour fluido, al estilo de Titanfall 2 o Mirror's Edge, mezclado con persecuciones tensas de dinosaurios, buenos momentos armados y mucha nostalgia noventosa de película clase B. Los reparos van a la historia y a los personajes, que no están a la altura del resto.",
-   "metacriticUsuarios": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2920220/library_600x900.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-10-15",
-   "url": "https://lanzamientos.lat/juegos/terrible-lizards",
-   "noticias": [
-    {
-     "fecha": "2026-10-29",
-     "titulo": "DEBUTA CON 78 EN METACRITIC",
-     "texto": "Salió hoy en Xbox Series, con Game Pass, y tiene 78 sobre cuatro reseñas de PC."
-    },
-    {
-     "fecha": "2026-10-21",
-     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
-     "texto": "Xbox lo incluyó en la segunda tanda de octubre: el 29 se juega con Game Pass Ultimate y PC Game Pass, el mismo día del estreno."
-    },
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALE EL 29 DE OCTUBRE",
-     "texto": "Steam confirma el 29 de octubre y la tienda de Xbox lo lista. La PS Store tiene la misma fecha pero la ficha no dice para qué consola."
-    }
-   ]
-  },
-  {
-   "id": "planted",
-   "titulo": "PLANTED!",
-   "fecha": "2026-10-29",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "MULTIJUGADOR",
-    "CASUAL",
-    "INDIE"
-   ],
-   "desarrollador": "CLOTH CAT GAMES",
-   "descripcion": "Un juego de fiesta donde las huertas son arenas y las plantas, armas. Se reclama una parcela, se siembra y se defiende el territorio: cada semilla es una decisión entre una cosecha segura o un cultivo arriesgado que puede dar vuelta la partida, o dejar que los demás trabajen y robarles. Se abona con estrategia, se cultivan plantas gigantes y después se les tiran a los rivales, con la advertencia de que cuanto más grande la cosecha, más llama la atención.",
-   "trailer": "https://youtube.com/embed/TMnZTQZ3mYw",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448000/3128a4de9247fb716b6402757f96c74845114e92/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-15",
-   "url": "https://lanzamientos.lat/juegos/planted",
-   "noticias": [
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALE EL 29 DE OCTUBRE",
-     "texto": "La PS Store y Steam lo tienen para el 29 de octubre. La tienda de Xbox lo lista sin día."
-    }
-   ]
-  },
-  {
-   "id": "mouthwashing",
-   "titulo": "MOUTHWASHING",
-   "fecha": "2026-10-29",
-   "relanzamiento": "En PC desde 2024",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX"
-   ],
-   "genero": [
-    "HORROR",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "WRONG ORGAN",
-   "descripcion": "Un terror psicológico en primera persona a bordo del Tulpar, un carguero espacial varado. El capitán Curly intentó llevarse a toda la tripulación con él y fracasó: quedó mutilado, sin poder hablar y a merced de los cinco tripulantes que condenó a una muerte lenta. No hay rescate posible, la energía dura seis meses y la comida mucho menos. La historia se reconstruye entre lo que pasó en la nave y lo que se ve, que no siempre es confiable. Vendió más de 800.000 copias en PC y ganó premios a la mejor narrativa.",
-   "trailer": "https://youtube.com/embed/m2AROQzEl3c",
-   "metacritic": 88,
-   "critica": "Las reseñas son de la versión de PC de 2024, y lo consideran uno de los grandes juegos de terror de los últimos años. Lo describen como un terror psicológico corto, sucio e incómodo, con una escritura excelente, imágenes perturbadoras, estética de PS1 y una historia que salta en el tiempo y no se olvida. Los reparos van a la jugabilidad: acertijos flojos, persecuciones molestas y tramos repetitivos.",
-   "metacriticUsuarios": 7.9,
-   "metacriticVotos": 309,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475490/library_600x900_2x.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-10-21",
-   "url": "https://lanzamientos.lat/juegos/mouthwashing",
-   "noticias": [
-    {
-     "fecha": "2026-10-29",
-     "titulo": "LLEGA A CONSOLAS CON 88 EN METACRITIC",
-     "texto": "Salió hoy en PS5, PS4 y Xbox Series, con Game Pass. En Metacritic tiene 88, el promedio de la versión de PC de 2024."
-    },
-    {
-     "fecha": "2026-10-21",
-     "titulo": "LLEGA A CONSOLAS EL 29 DE OCTUBRE, Y A GAME PASS",
-     "texto": "CRITICAL REFLEX lo anunció para el 29 en Xbox Series, Xbox One, PS5, PS4 y Switch, y entra a Game Pass el día que sale. La tienda de Xbox tiene la fecha; la PS Store lo lista sin día."
-    }
-   ]
-  },
-  {
-   "id": "hatsune-miku-connecting-puzzle-tamagotori-deluxe",
-   "titulo": "HATSUNE MIKU CONNECTING PUZZLE TAMAGOTORI DELUXE",
-   "fecha": "2026-10-29",
-   "plataformas": [
-    "PS5",
-    "PS4"
-   ],
-   "genero": [
-    "PUZZLE",
-    "CASUAL",
-    "ANIME"
-   ],
-   "desarrollador": "CRYPTON FUTURE MEDIA",
-   "descripcion": "Un juego de puzles de unir huevos con el mismo diseño trazando una línea entre ellos, siempre que no tenga más de dos curvas, hasta limpiar el tablero. Cada puzle resuelto descubre un pedazo de una ilustración de Miku y sus amigos hecha especialmente por dibujantes conocidos, y las bayas que se juntan atraen pájaros a una plaza que se va completando en una galería. Esta edición Deluxe suma los dos paquetes de contenido que salieron antes.",
-   "trailer": "https://youtube.com/embed/-EahQj5aOzA",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4971990/1782005fc614b15d628eccbc8eeefb8ffeff6115/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-22",
-   "url": "https://lanzamientos.lat/juegos/hatsune-miku-connecting-puzzle-tamagotori-deluxe",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "SALE EL 29 DE OCTUBRE",
-     "texto": "KOMODO lo anunció para PS5, PS4, Xbox One y PC. La PS Store ya lo tiene para el 29 de octubre."
-    }
-   ]
-  },
-  {
-   "id": "rv-there-yet-ps5",
-   "titulo": "RV THERE YET?",
-   "fecha": "2026-10-29",
-   "relanzamiento": "En Xbox y PC desde junio de 2026 — esta fecha corresponde a la edición de PS5",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "AVENTURA",
-    "ACCION",
-    "INDIE",
-    "COOP"
-   ],
-   "desarrollador": "NUGGETS ENTERTAINMENT",
-   "descripcion": "Un juego cooperativo de manejar una casa rodante con amigos. Volviendo de vacaciones, el grupo tiene que desviarse por el interior y encontrar la salida a la Ruta 65 atravesando el Valle de Mabutts, del que no todos salen vivos. La casa rodante tiene un malacate adelante y otro atrás, con física real, y con eso se pasa por encima, por abajo o a través de casi cualquier obstáculo.",
-   "trailer": "https://youtube.com/embed/H7mXFwVNX6Y",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/d3f351a8f6c457339ae7fcd937a7ade0.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-22",
-   "url": "https://lanzamientos.lat/juegos/rv-there-yet-ps5",
-   "noticias": [
-    {
-     "fecha": "2026-10-22",
-     "titulo": "LLEGA A PS5 EL 29 DE OCTUBRE",
-     "texto": "Nuggets Entertainment lo anunció para PS5 y Switch 2 el 29 de octubre. La PS Store ya tiene la fecha; la eShop todavía no lista la de Switch 2. En Xbox salió en junio."
-    }
-   ]
-  },
-  {
-   "id": "joe-and-mac-retro-collection",
-   "titulo": "JOE & MAC RETRO COLLECTION",
-   "fecha": "2026-10-29",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "ACCION",
-    "RETRO"
-   ],
-   "desarrollador": "RED ART STUDIOS",
-   "descripcion": "Por primera vez, tres aventuras de los cavernícolas Joe & Mac juntas. Caveman Ninja es el éxito de recreativa original, con una aldea que rescatar de una banda de neandertales y dinosaurios para enfrentar; Congo's Caper, un spin-off lleno de monos traviesos; y Lost in the Tropics, la secuela tropical con armas y enemigos nuevos para defender la aldea Tiki.",
-   "trailer": "https://youtube.com/embed/q5I5p19kI84",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672840/676de2d83c11d5eb199222420a6716a89279dc2e/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-23",
-   "url": "https://lanzamientos.lat/juegos/joe-and-mac-retro-collection",
-   "noticias": [
-    {
-     "fecha": "2026-10-23",
-     "titulo": "SALE EL 29 DE OCTUBRE",
-     "texto": "La PS Store y la tienda de Xbox lo tienen para el 29 de octubre."
-    }
-   ]
-  },
-  {
-   "id": "hyperviolent",
-   "titulo": "HYPERVIOLENT",
-   "fecha": "2026-10-29",
-   "relanzamiento": "En PC desde septiembre de 2025",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "FPS",
-    "HORROR",
-    "RETRO"
-   ],
-   "desarrollador": "NFOPRINCE",
-   "descripcion": "Un shooter de terror retro. En las profundidades de un asteroide minero remoto despertó un mal antiguo, removido por la ambición humana. Al responder una llamada de auxilio se queda varado, rodeado de enemigos monstruosos, y hay que descifrar qué pasó y frenar la locura antes de que se extienda.",
-   "trailer": "https://youtube.com/embed/nZ_Uxd1gB_c",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1409200/34aed467ab0aaec71f992a493c9c4e6b4beff65d/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-23",
-   "url": "https://lanzamientos.lat/juegos/hyperviolent",
-   "noticias": [
-    {
-     "fecha": "2026-10-23",
-     "titulo": "LLEGA A CONSOLAS EL 29 DE OCTUBRE",
-     "texto": "Fulqrum Publishing le puso fecha en PS5 y Xbox Series, y las dos tiendas ya lo tienen. En PC salió en septiembre de 2025."
-    }
-   ]
-  },
-  {
-   "id": "sword-of-the-sea",
-   "titulo": "SWORD OF THE SEA",
-   "fecha": "2026-10-29",
-   "relanzamiento": "En PS5 y PC desde agosto de 2025",
-   "plataformas": [
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "GIANT SQUID",
-   "descripcion": "Una aventura de surf sobre olas de arena y agua, montado en una espada mágica que sirve de tabla, para devolverle la vida a un océano perdido. Lo dirige el artista de Journey, ABZÛ y The Pathless, y el movimiento rápido se inspira en los clásicos de skate y snowboard.",
-   "trailer": "https://youtube.com/embed/NSp6xDEK4FM",
-   "metacritic": 88,
-   "critica": "Las reseñas son de la versión de PS5 de 2025. Lo celebran como una experiencia hermosa y relajante: deslizarse sobre arena, agua y piedra se siente fluido y satisfactorio, con escenarios espectaculares, un gran sonido y una historia emotiva. Muchas lo ven como la evolución de Journey. Los reparos van a que es corto, a un sistema de trucos demasiado simple y a que repite la fórmula del estudio.",
-   "metacriticUsuarios": 8.2,
-   "metacriticVotos": 383,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2453160/5c3b62a9618ca06ffef07c18da248ba1be2b63d7/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-28",
-   "url": "https://lanzamientos.lat/juegos/sword-of-the-sea",
-   "noticias": [
-    {
-     "fecha": "2026-10-29",
-     "titulo": "LLEGA A XBOX Y SWITCH 2 CON 88 EN METACRITIC",
-     "texto": "Salió hoy en Xbox Series y Switch 2. En Metacritic tiene 88, el promedio de la versión de PS5 de 2025."
-    },
-    {
-     "fecha": "2026-10-28",
-     "titulo": "LLEGA A XBOX Y SWITCH 2 EL 29 DE OCTUBRE",
-     "texto": "Se anunció en el Indie World de Nintendo, junto con la versión de Xbox Series, para el día siguiente."
-    }
-   ]
-  },
-  {
-   "id": "arcade-archives-2-prehistoric-isle",
-   "titulo": "ARCADE ARCHIVES 2: PREHISTORIC ISLE",
-   "fecha": "2026-10-29",
-   "relanzamiento": "El original de SNK es de 1989 — esta es la reedición para consolas actuales",
-   "plataformas": [
-    "PS5",
-    "PS4"
-   ],
-   "genero": [
-    "SHOOTER",
-    "RETRO",
-    "ARCADE"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "La reedición del shooter de SNK de 1989. Una serie de naufragios frente a las Bahamas lleva al protagonista hasta la isla Greenhell, donde lo atacan dragones prehistóricos que se creían extinguidos. El módulo que acompaña a la nave cambia de ataque según dónde se lo ubique: láser de fuego hacia arriba, bombas en diagonal y cinco variantes en total. Trae ajustes de dificultad y pantalla, rebobinado, disparo automático y ranking online.",
-   "trailer": "https://youtube.com/embed/fQLOXfTQyfQ",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/1908/273e4a1762ec5d6b39735ee552bb027d6d4e131a56c12542.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-29",
-   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-prehistoric-isle",
-   "noticias": [
-    {
-     "fecha": "2026-10-29",
-     "titulo": "SALIÓ EN PS5 Y PS4",
-     "texto": "HAMSTER lo lanzó el 29 de octubre: en PS5 como Arcade Archives 2 y en PS4 en la línea Arcade Archives de siempre. También está anunciado para Xbox Series, que todavía no lo lista."
-    }
-   ]
-  },
   {
    "id": "the-cat-in-the-hat-rainy-day-mayhem",
    "titulo": "THE CAT IN THE HAT: RAINY DAY MAYHEM",
@@ -700,6 +124,7 @@
    "id": "asylum",
    "titulo": "ASYLUM",
    "fecha": "2026-10-30",
+   "relanzamiento": "En PC desde marzo de 2025",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -726,6 +151,36 @@
      "fecha": "2026-09-30",
      "titulo": "SALE EL 30 DE OCTUBRE",
      "texto": "Senscape puso fecha para PS5, Xbox, PS4 y Switch, después de quince años de desarrollo."
+    }
+   ]
+  },
+  {
+   "id": "resonance-of-fate-enhanced-remaster",
+   "titulo": "RESONANCE OF FATE: ENHANCED REMASTER",
+   "fecha": "2026-10-30",
+   "relanzamiento": "El original es de 2010 y se remasterizó en 2018 — esta es la Enhanced Remaster de PS5",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "SHOOTER"
+   ],
+   "desarrollador": "TRI-ACE",
+   "descripcion": "La versión mejorada del RPG de tri-Ace de 2010. En un futuro lejano, lo que queda de la humanidad sobrevive alrededor de Basel, una máquina gigantesca que controla el ambiente, y tres mercenarios al servicio de la clase gobernante se meten en una historia llena de tiroteos acrobáticos. Esta edición suma salida nativa en 4K, HDR, más opciones gráficas y la posibilidad de jugar al doble de velocidad.",
+   "trailer": "https://youtube.com/embed/o37A5GR71uM",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2805/df56e0ac1dd083272cead2cda0ebf969d8255e7b50737ff8.png",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-30",
+   "url": "https://lanzamientos.lat/juegos/resonance-of-fate-enhanced-remaster",
+   "noticias": [
+    {
+     "fecha": "2026-10-30",
+     "titulo": "SALIÓ EN PS5",
+     "texto": "tri-Ace lanzó la Enhanced Remaster en PS5 y PC. Quien tenga la 4K/HD Edition en PC la puede actualizar con un contenido descargable."
     }
    ]
   },
@@ -1261,6 +716,38 @@
    ]
   },
   {
+   "id": "the-slormancer",
+   "titulo": "THE SLORMANCER",
+   "fecha": "2026-11-05",
+   "relanzamiento": "En PC desde mayo de 2025",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "INDIE"
+   ],
+   "desarrollador": "SLORMITE STUDIOS",
+   "descripcion": "Un RPG de acción en 2D, absurdo pero épico: un grupo de marginados enfrenta a las hordas del Slormancer, un brujo malvado del pasado. Se juega como caballero, cazadora o maga, con cientos de habilidades y poderes ancestrales para dominar, mucho botín y pixel art muy cuidado.",
+   "trailer": "https://youtube.com/embed/ZSQDgjwvulc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1104280/3da5d04116be06047c79b39c2805049d91fba419/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-30",
+   "url": "https://lanzamientos.lat/juegos/the-slormancer",
+   "noticias": [
+    {
+     "fecha": "2026-10-30",
+     "titulo": "LLEGA A CONSOLAS EL 5 DE NOVIEMBRE",
+     "texto": "Plug In Digital lo lanza el 5 de noviembre en PS5, Xbox Series y Switch."
+    }
+   ]
+  },
+  {
    "id": "hasbro-games-junior-collection",
    "titulo": "HASBRO GAMES JUNIOR COLLECTION",
    "fecha": "2026-11-06",
@@ -1284,6 +771,35 @@
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/hasbro-games-junior-collection"
+  },
+  {
+   "id": "shelterra-the-skyworld",
+   "titulo": "SHELTERRA THE SKYWORLD",
+   "fecha": "2026-11-06",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "POR TURNOS",
+    "AVENTURA"
+   ],
+   "desarrollador": "MAGITEC",
+   "descripcion": "Un RPG de fantasía clásica en Shelterra, un continente flotante al que todavía no llegó la corrupción llamada Odium. Claude sueña con ser aventurero profesional, pero una simple misión de escolta destapa una amenaza que podría hacer caer su tierra. Hay mundo abierto, mazmorras con combates por turnos, habilidades que se aprenden peleando y artefactos para invocar.",
+   "trailer": "https://youtube.com/embed/Qxx4msmGw6s",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4770220/529b46eb0a5237b2c0bd36313abce2cdc4f8e072/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-30",
+   "url": "https://lanzamientos.lat/juegos/shelterra-the-skyworld",
+   "noticias": [
+    {
+     "fecha": "2026-10-30",
+     "titulo": "SALE EL 6 DE NOVIEMBRE EN XBOX",
+     "texto": "KEMCO lo publica el 6 de noviembre en Xbox Series. La PS Store tiene una ficha con ese día, pero todavía no dice para qué consola."
+    }
+   ]
   },
   {
    "id": "hope-in-the-city",
@@ -1712,6 +1228,67 @@
      "fecha": "2026-10-08",
      "titulo": "LA 1.0 SALE EL 12 DE NOVIEMBRE",
      "texto": "Wales Interactive le puso fecha a la versión terminada, que ese día llega también a PS5 y Xbox Series. Xbox confirma el día; la PS Store dice noviembre."
+    }
+   ]
+  },
+  {
+   "id": "adorable-adventures-switch-2",
+   "titulo": "ADORABLE ADVENTURES",
+   "fecha": "2026-11-12",
+   "relanzamiento": "En PC y PS5 desde 2026 — esta es la edición de Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "RELAX",
+    "CASUAL"
+   ],
+   "desarrollador": "WILD SHEEP STUDIO",
+   "descripcion": "Una aventura tranquila con Boris, un jabalí bebé curioso que tiene que aprender a usar el olfato para reencontrarse con su familia después de un incendio forestal. Se recorren paisajes naturales, se siguen rastros de olor y se descubren secretos.",
+   "trailer": "https://youtube.com/embed/LHpCnSVBUVo",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840230/dfb3ff13ee808c8ad61efc008013cbcdfdf791bc/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-30",
+   "url": "https://lanzamientos.lat/juegos/adorable-adventures-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-10-30",
+     "titulo": "LLEGA A SWITCH 2 EL 12 DE NOVIEMBRE",
+     "texto": "PQube anunció la versión de Switch 2."
+    }
+   ]
+  },
+  {
+   "id": "leaf-blower-co",
+   "titulo": "LEAF BLOWER CO.",
+   "fecha": "2026-11-13",
+   "relanzamiento": "En PC desde noviembre de 2025",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RELAX",
+    "CASUAL"
+   ],
+   "desarrollador": "LIFT GAMES",
+   "descripcion": "Un simulador de trabajo relajado: se soplan hojas para hacer crecer un negocio de jardinería, se compran herramientas nuevas y se desbloquean mejoras mientras las hojas vuelan por el aire.",
+   "trailer": "https://youtube.com/embed/0pZ1Y35y7bk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3571710/cb42aa149410ca366acbc7f512ee1b7a15a92427/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-30",
+   "url": "https://lanzamientos.lat/juegos/leaf-blower-co",
+   "noticias": [
+    {
+     "fecha": "2026-10-30",
+     "titulo": "LLEGA A PS5 Y XBOX EL 13 DE NOVIEMBRE",
+     "texto": "Forklift Interactive le puso día a la versión de consolas, que se había anunciado en el IGN Live."
     }
    ]
   },

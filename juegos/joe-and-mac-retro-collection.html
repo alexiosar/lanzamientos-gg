@@ -20,7 +20,7 @@
   <meta property="og:locale" content="es_LA">
   <meta name="twitter:card" content="summary">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "JOE & MAC RETRO COLLECTION", "url": "https://lanzamientos.lat/juegos/joe-and-mac-retro-collection", "description": "Por primera vez, tres aventuras de los cavernícolas Joe & Mac juntas. Caveman Ninja es el éxito de recreativa original, con una aldea que rescatar de una banda de neandertales y dinosaurios para enfrentar; Congo's Caper, un spin-off lleno de monos traviesos; y Lost in the Tropics, la secuela tropica", "datePublished": "2026-10-29", "gamePlatform": ["PS5", "XBOX"], "genre": ["PLATAFORMA", "ACCION", "RETRO"], "inLanguage": "es", "author": {"@type": "Organization", "name": "RED ART STUDIOS"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672840/676de2d83c11d5eb199222420a6716a89279dc2e/library_600x900_2x.jpg", "trailer": {"@type": "VideoObject", "name": "Joe &amp; Mac Retro Collection - Official Announcement Trailer", "description": "Por primera vez, tres aventuras de los cavernícolas Joe & Mac juntas. Caveman Ninja es el éxito de recreativa original, con una aldea que rescatar de una banda de neandertales y dinosaurios para enfre", "thumbnailUrl": "https://i.ytimg.com/vi/q5I5p19kI84/hqdefault.jpg", "uploadDate": "2025-06-11T12:16:16-07:00", "embedUrl": "https://youtube.com/embed/q5I5p19kI84"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "JOE & MAC RETRO COLLECTION", "url": "https://lanzamientos.lat/juegos/joe-and-mac-retro-collection", "description": "Por primera vez, tres aventuras de los cavernícolas Joe & Mac juntas. Caveman Ninja es el éxito de recreativa original, con una aldea que rescatar de una banda de neandertales y dinosaurios para enfrentar; Congo's Caper, un spin-off lleno de monos traviesos; y Lost in the Tropics, la secuela tropica", "datePublished": "2026-10-29", "gamePlatform": ["PS5", "XBOX", "SWITCH 2", "SWITCH"], "genre": ["PLATAFORMA", "ACCION", "RETRO"], "inLanguage": "es", "author": {"@type": "Organization", "name": "RED ART STUDIOS"}, "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3672840/676de2d83c11d5eb199222420a6716a89279dc2e/library_600x900_2x.jpg", "trailer": {"@type": "VideoObject", "name": "Joe &amp; Mac Retro Collection - Official Announcement Trailer", "description": "Por primera vez, tres aventuras de los cavernícolas Joe & Mac juntas. Caveman Ninja es el éxito de recreativa original, con una aldea que rescatar de una banda de neandertales y dinosaurios para enfre", "thumbnailUrl": "https://i.ytimg.com/vi/q5I5p19kI84/hqdefault.jpg", "uploadDate": "2025-06-11T12:16:16-07:00", "embedUrl": "https://youtube.com/embed/q5I5p19kI84"}}</script>
 
   <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
   <link rel="stylesheet" href="../css/style.css">
@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -124,7 +125,7 @@
               </div>
               <div>
                 <span class="ficha-campo-label">PLATAFORMAS</span>
-                <div class="plataformas" style="margin-top:3px;"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></div>
+                <div class="plataformas" style="margin-top:3px;"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-SWITCH">SWITCH</span></div>
               </div>
               <div>
                 <span class="ficha-campo-label">GÉNERO</span>
@@ -134,6 +135,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">72 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('joe-and-mac-retro-collection')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -162,7 +168,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Pocas reseñas, de la versión de Switch 2. Lo ven como una colección sólida de tres plataformas prehistóricos: el Joe &amp; Mac original, una conversión de arcade simpática pero corta, y sobre todo Congo&#x27;s Caper y Lost in the Tropics, que varias señalan como lo mejor del paquete. Suma rebobinado, guardado rápido, un modo Boss Rush para cada juego y bastante material extra. Los reparos van a que no corrige los defectos de los originales y no tiene juego online.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-10-30</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 72 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">Tiene 72 sobre cinco reseñas de la versión de Switch 2. Salió el 29 de octubre en PS5, Xbox Series, Switch 2 y Switch.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-10-23</span>
@@ -178,7 +195,7 @@
 
       <div class="seccion">
         <div class="seccion-titulo">TAGS</div>
-        <div class="ficha-tags"><span class="tag">PLATAFORMA</span><span class="tag">ACCION</span><span class="tag">RETRO</span><span class="plat plat-PS5" style="font-size:0.6875rem;padding:2px 7px;">PS5</span><span class="plat plat-XBOX" style="font-size:0.6875rem;padding:2px 7px;">XBOX</span></div>
+        <div class="ficha-tags"><span class="tag">PLATAFORMA</span><span class="tag">ACCION</span><span class="tag">RETRO</span><span class="plat plat-PS5" style="font-size:0.6875rem;padding:2px 7px;">PS5</span><span class="plat plat-XBOX" style="font-size:0.6875rem;padding:2px 7px;">XBOX</span><span class="plat plat-SWITCH2" style="font-size:0.6875rem;padding:2px 7px;">SWITCH 2</span><span class="plat plat-SWITCH" style="font-size:0.6875rem;padding:2px 7px;">SWITCH</span></div>
       </div>
 
       <div class="seccion">
@@ -198,30 +215,6 @@
               <span class="plataformas"><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH">SWITCH</span></span>
             </span>
           </a>
-          <a class="rel-item" href="/juegos/croc-2-kingdom-of-the-gobbos">
-            <img class="rel-portada" src="https://store-images.s-microsoft.com/image/apps.47526.13838490530250275.89c94014-1e80-4ace-b914-b356bab45b8d.1fa98497-708e-4760-8ee7-0ef3282bc492?w=600&amp;h=900&amp;format=jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">CROC 2: KINGDOM OF THE GOBBOS</span>
-              <span class="rel-fecha">29 OCT</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/queens-domain">
-            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1799840/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">QUEEN&#x27;S DOMAIN</span>
-              <span class="rel-fecha">30 OCT</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/dog-man-bark-in-action">
-            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4782240/dbbf0d6bcb0a7ab40b724d8b57c3a5075a1b4d90/library_capsule_2x.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">DOG MAN: BARK IN ACTION</span>
-              <span class="rel-fecha">27 OCT</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span></span>
-            </span>
-          </a>
           <a class="rel-item" href="/juegos/toy-story-retro-roundup">
             <img class="rel-portada" src="https://image.api.playstation.com/vulcan/ap/rnd/202605/2922/29e3ecd9dcd397054adce54bf9e89f1bffedfce0283ac772.jpg?w=600&amp;thumb=false" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -230,12 +223,36 @@
               <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
             </span>
           </a>
-          <a class="rel-item" href="/juegos/warhammer-40000-boltgun-2">
-            <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9uam.jpg" alt="" loading="lazy" onerror="this.remove()">
+          <a class="rel-item" href="/juegos/well-dweller">
+            <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coa8qh.jpg" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
-              <span class="rel-titulo">WARHAMMER 40,000: BOLTGUN 2</span>
-              <span class="rel-fecha">14 OCT</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
+              <span class="rel-titulo">WELL DWELLER</span>
+              <span class="rel-fecha">22 SEP</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/aeterna-lucis">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2710920/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">AETERNA LUCIS</span>
+              <span class="rel-fecha">CUARTO TRIMESTRE 2026</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/moss-the-forgotten-relic">
+            <img class="rel-portada" src="https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc2pc.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">MOSS: THE FORGOTTEN RELIC</span>
+              <span class="rel-fecha">16 JUL</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
+          <a class="rel-item" href="/juegos/queens-domain">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1799840/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">QUEEN&#x27;S DOMAIN</span>
+              <span class="rel-fecha">30 OCT</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span><span class="plat plat-SWITCH2">SWITCH 2</span></span>
             </span>
           </a>
         </div>
