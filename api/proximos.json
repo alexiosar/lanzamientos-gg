@@ -2,243 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-10-30T14:25:35+00:00",
+ "generado": "2026-11-02T15:06:44+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-10-30",
- "hasta": "2026-11-29",
- "total": 50,
+ "desde": "2026-11-02",
+ "hasta": "2026-12-02",
+ "total": 47,
  "juegos": [
-  {
-   "id": "the-cat-in-the-hat-rainy-day-mayhem",
-   "titulo": "THE CAT IN THE HAT: RAINY DAY MAYHEM",
-   "fecha": "2026-10-30",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "CASUAL",
-    "MULTIJUGADOR",
-    "COOP"
-   ],
-   "desarrollador": "CASUAL BROTHERS",
-   "descripcion": "Un juego familiar con los personajes del Dr. Seuss: se juega como Sally, Johnny, Cosa 1 y Cosa 2 o el Gatito A, con el Gato Garabato como maestro del caos y el Pez, siempre preocupado, de guía. Hay dos modos, dieciocho minijuegos y una persecución por toda la casa para encontrar al Gato. Se puede jugar solo o contra amigos, y la casa termina patas para arriba.",
-   "trailer": "https://youtube.com/embed/5QlWDB_x9fI",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocb9n.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-30",
-   "url": "https://lanzamientos.lat/juegos/the-cat-in-the-hat-rainy-day-mayhem"
-  },
-  {
-   "id": "goodboy-galaxy",
-   "titulo": "GOODBOY GALAXY",
-   "fecha": "2026-10-30",
-   "relanzamiento": "En PC desde octubre de 2024 — esta fecha corresponde a la edición de Switch",
-   "duracion": "≈ 13 h (historia) · 20 h (completo)",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "GOODBOY GALAXY LTD.",
-   "descripcion": "Un plataformas de ciencia ficción con mucho color. El planeta de Maxwell, un perro, está a punto de colapsar, y en su viaje en busca de ayuda la nave se le rompe en un sistema solar hostil. Para volver va a necesitar a todos los amigos raros que haga en el camino y todas las armas que encuentre: se salta, se dispara y se habla con todo el que aparezca.",
-   "trailer": "https://youtube.com/embed/ohdlL1KNNCc",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2705890/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-30",
-   "url": "https://lanzamientos.lat/juegos/goodboy-galaxy"
-  },
-  {
-   "id": "suri-the-seventh-note",
-   "titulo": "SURI: THE SEVENTH NOTE",
-   "fecha": "2026-10-30",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "MUSICA",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "TATHVAMASI STUDIOS",
-   "descripcion": "Un plataformas de ritmo: cada salto, cada dash y cada truco hay que hacerlo al compás de la música para atravesar una isla hermosa y peligrosa y salvarle la vida a la madre de la protagonista. La isla toma elementos de los fuertes rajput, el theyyam y los monasterios del Himalaya, y cada zona de la isla suena con la tradición musical de una región distinta de la India: el 80% de la música se grabó con instrumentos clásicos.",
-   "trailer": "https://youtube.com/embed/19c7g5VGqAw",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9h35.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-28",
-   "url": "https://lanzamientos.lat/juegos/suri-the-seventh-note",
-   "noticias": [
-    {
-     "fecha": "2026-09-28",
-     "titulo": "SALE EL 30 DE OCTUBRE EN PS5",
-     "texto": "Tathvamasi Studios, que lo hizo con el apoyo del programa Hero Project de PlayStation India, puso fecha después de cuatro años de desarrollo. En PC sale el mismo día."
-    }
-   ]
-  },
-  {
-   "id": "queens-domain",
-   "titulo": "QUEEN'S DOMAIN",
-   "fecha": "2026-10-30",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "RPG",
-    "ACCION",
-    "RETRO",
-    "INDIE"
-   ],
-   "desarrollador": "FRESHLY BAKED GAMES",
-   "descripcion": "Un RPG de acción y fantasía en primera persona, con estética retro e inspirado en King's Field. Después de un naufragio, el protagonista llega a la isla de Neasied a buscar a su padre desaparecido. La isla es un laberinto interconectado que se recorre saltando entre plataformas con Endu, una espada sagrada que permite volar. El combate usa una barra de resistencia a la vieja usanza, ataques cargados, un especial por cada arma y armas arrojadizas: hay más de 50 armas cuerpo a cuerpo, más de 20 arrojadizas y más de 100 enemigos entre comunes, minijefes y jefes.",
-   "trailer": "https://youtube.com/embed/mzTRC1SE69E",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1799840/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-30",
-   "url": "https://lanzamientos.lat/juegos/queens-domain",
-   "noticias": [
-    {
-     "fecha": "2026-09-30",
-     "titulo": "SALE EL 30 DE OCTUBRE",
-     "texto": "Future Friends Games puso fecha y anunció las versiones de consola: PS5, Xbox Series y Switch 2. En PC sale el mismo día."
-    }
-   ]
-  },
-  {
-   "id": "asylum",
-   "titulo": "ASYLUM",
-   "fecha": "2026-10-30",
-   "relanzamiento": "En PC desde marzo de 2025",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "PS4",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "HORROR",
-    "PUZZLE",
-    "INDIE"
-   ],
-   "desarrollador": "SENSCAPE",
-   "descripcion": "Una aventura de terror en primera persona de los creadores de Scratches, ambientada en el Instituto Mental Hanwell, un hospital psiquiátrico enorme y en decadencia. Se juega con un ex paciente que tiene visiones extrañas: hay que explorar el edificio, investigar su pasado y resolver acertijos. Es terror de ritmo pausado, con influencias de Lovecraft, el cine de Hammer y el terror europeo de los ochenta.",
-   "trailer": "https://youtube.com/embed/PdaAAy9069k",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.49180.13915026531015961.22f4f66a-24dd-4f93-bd86-6756e2022410.eb7fabba-8fc2-4351-875d-9acc7fddac59?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-01",
-   "url": "https://lanzamientos.lat/juegos/asylum",
-   "noticias": [
-    {
-     "fecha": "2026-09-30",
-     "titulo": "SALE EL 30 DE OCTUBRE",
-     "texto": "Senscape puso fecha para PS5, Xbox, PS4 y Switch, después de quince años de desarrollo."
-    }
-   ]
-  },
-  {
-   "id": "resonance-of-fate-enhanced-remaster",
-   "titulo": "RESONANCE OF FATE: ENHANCED REMASTER",
-   "fecha": "2026-10-30",
-   "relanzamiento": "El original es de 2010 y se remasterizó en 2018 — esta es la Enhanced Remaster de PS5",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "RPG",
-    "POR TURNOS",
-    "SHOOTER"
-   ],
-   "desarrollador": "TRI-ACE",
-   "descripcion": "La versión mejorada del RPG de tri-Ace de 2010. En un futuro lejano, lo que queda de la humanidad sobrevive alrededor de Basel, una máquina gigantesca que controla el ambiente, y tres mercenarios al servicio de la clase gobernante se meten en una historia llena de tiroteos acrobáticos. Esta edición suma salida nativa en 4K, HDR, más opciones gráficas y la posibilidad de jugar al doble de velocidad.",
-   "trailer": "https://youtube.com/embed/o37A5GR71uM",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2805/df56e0ac1dd083272cead2cda0ebf969d8255e7b50737ff8.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-30",
-   "url": "https://lanzamientos.lat/juegos/resonance-of-fate-enhanced-remaster",
-   "noticias": [
-    {
-     "fecha": "2026-10-30",
-     "titulo": "SALIÓ EN PS5",
-     "texto": "tri-Ace lanzó la Enhanced Remaster en PS5 y PC. Quien tenga la 4K/HD Edition en PC la puede actualizar con un contenido descargable."
-    }
-   ]
-  },
-  {
-   "id": "horrorvale-deadluxe-edition",
-   "titulo": "HORRORVALE: DEADLUXE EDITION",
-   "fecha": "2026-10-31",
-   "relanzamiento": "En PC desde 2024",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX"
-   ],
-   "genero": [
-    "RPG",
-    "POR TURNOS",
-    "HORROR",
-    "INDIE"
-   ],
-   "desarrollador": "BATWORKS SOFTWARE",
-   "descripcion": "Un RPG por turnos de terror con humor: en HorrorVale los vecinos son zombis, el correo lo traen monstruos reanimados y hay fantasmas en el baño. Alice viaja al inframundo para salvar a Scruffy, su perro zombi, de unos monstruos que invadieron el pueblo. La historia tiene cuatro actos y más de 50 horas, con más de 30 compañeros para reclutar, cada uno con habilidades propias, 60 misiones secundarias y experiencia compartida por todo el grupo. Esta es la edición que lo lleva a consolas.",
-   "trailer": "https://youtube.com/embed/q4CRINSfeaw",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1114650/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-16",
-   "url": "https://lanzamientos.lat/juegos/horrorvale-deadluxe-edition",
-   "noticias": [
-    {
-     "fecha": "2026-10-16",
-     "titulo": "SALE EL 31 DE OCTUBRE",
-     "texto": "La PS Store ya tiene la fecha y la tienda de Xbox lo lista sin día. Se anunció también para Switch."
-    }
-   ]
-  },
-  {
-   "id": "tarot-tokens",
-   "titulo": "TAROT TOKENS",
-   "fecha": "2026-11-01",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "TABLERO",
-    "ESTRATEGIA",
-    "INDIE"
-   ],
-   "desarrollador": "TACKORAMA",
-   "descripcion": "Un juego de fichas inspirado en el viaje del Loco por los arcanos mayores del tarot. Cada ficha que se coloca pesa en cuatro aspectos, familia, moral, conflicto y esperanza, y el objetivo es llegar al final con las tres virtudes altas y en equilibrio: si alguna se agota, el viaje termina. Cada pocas jugadas el Loco suma habilidades, y cada partida arma un camino distinto.",
-   "trailer": "https://youtube.com/embed/56MCkSzqvKg",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocvg6.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-10",
-   "url": "https://lanzamientos.lat/juegos/tarot-tokens"
-  },
   {
    "id": "zero-parades-for-dead-spies",
    "titulo": "ZERO PARADES: FOR DEAD SPIES",
@@ -1489,6 +1259,163 @@
    "psplus": false,
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure"
+  },
+  {
+   "id": "grimkeep",
+   "titulo": "GRIMKEEP",
+   "fecha": "2026-11-30",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ROGUELIKE",
+    "ESTRATEGIA",
+    "INDIE"
+   ],
+   "desarrollador": "RESOLUTION GAMES",
+   "descripcion": "Un roguelite de armar una bolsa de dados, inspirado en un cuento de hadas de pesadilla. Se atraviesa una ciudad maldita juntando objetos y tirando dados para encadenar combos que activan sus bonificaciones, se suman dados especiales con veneno, curación u oro y se funden objetos en el Crisol para crear otros nuevos. Al final del camino espera la Princesa, y hay que terminar con ella.",
+   "trailer": "https://youtube.com/embed/Y5VVE-NAwJU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3509380/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-06",
+   "url": "https://lanzamientos.lat/juegos/grimkeep",
+   "noticias": [
+    {
+     "fecha": "2026-10-06",
+     "titulo": "SALE EL 30 DE NOVIEMBRE EN PS5",
+     "texto": "Resolution Games puso fecha para PS5 y PC."
+    }
+   ]
+  },
+  {
+   "id": "hela-of-mice-and-magic",
+   "titulo": "HELA: OF MICE & MAGIC",
+   "fecha": "2026-12-01",
+   "plataformas": [
+    "XBOX",
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PLATAFORMA",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "WINDUP",
+   "descripcion": "Una aventura en 3D de mundo abierto sobre el cuidado y el coraje. La bruja que siempre protegió el bosque está enferma y el mundo empieza a perder la armonía, así que sus familiares más chicos tienen que salir a hacer su trabajo. Se juega como un ratón valiente por paisajes inspirados en la naturaleza del norte de Suecia: se juntan ingredientes, se preparan pociones, se ayuda a quien se cruza y se resuelven puzles, con la magia de la bruja siempre cerca para levantar al ratón cuando se cae. Se puede jugar en cooperativo, en pantalla dividida u online.",
+   "trailer": "https://youtube.com/embed/kqbuJw2J8lQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/hela-of-mice-and-magic",
+   "noticias": [
+    {
+     "fecha": "2026-10-02",
+     "titulo": "YA TIENE DÍA: 1 DE DICIEMBRE",
+     "texto": "La tienda de Xbox confirmó el 1 de diciembre."
+    }
+   ]
+  },
+  {
+   "id": "the-ascent-switch-2",
+   "titulo": "THE ASCENT ULTIMATE EDITION",
+   "relanzamiento": "En PC y Xbox desde julio de 2021 y en PlayStation desde 2022 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 12 h (historia) · 26 h (completo)",
+   "fecha": "2026-12-02",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "SHOOTER",
+    "COOP"
+   ],
+   "desarrollador": "NEON GIANT",
+   "descripcion": "Un RPG de acción y disparos con vista cenital en un mundo ciberpunk, para jugar solo o en cooperativo. En la arcología de The Ascent Group, en el planeta Veles, se juega con un trabajador esclavizado por la corporación que es dueña de todo. Cuando la empresa quiebra de un día para el otro, el distrito queda librado a su suerte. La Ultimate Edition trae todo el contenido que salió después.",
+   "trailer": "https://youtube.com/embed/N5kV5m1uR7A",
+   "metacritic": 74,
+   "critica": "El puntaje es el de la versión de PC, de 2021. Las reseñas destacan el mundo: para varias es de las mejores ambientaciones ciberpunk que se vieron, con muchísimo detalle y una banda sonora que acompaña, y todo hecho por un estudio chico. El combate con armas es sólido y exigente. Los reparos: la historia no se diferencia de otras del género y hay algunas asperezas técnicas.",
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979690/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-24",
+   "url": "https://lanzamientos.lat/juegos/the-ascent-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-09-24",
+     "titulo": "YA TIENE FICHA EN LA ESHOP",
+     "texto": "Nintendo lo lista para el 2 de diciembre en Switch 2, con la campaña completa para jugar solo o en cooperativo con hasta tres amigos, en el televisor o en modo portátil."
+    }
+   ]
+  },
+  {
+   "id": "luma-island",
+   "titulo": "LUMA ISLAND",
+   "fecha": "2026-12-02",
+   "relanzamiento": "En PC desde noviembre de 2024",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "AVENTURA",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "FEEL FREE GAMES",
+   "descripcion": "Una aventura de granja para uno a cuatro jugadores. Se compra la granja abandonada del viejo Jeffrey en Luma Island y se arranca de nuevo: se cultiva, se crían animales, se pesca, se mina y se construye, sin barras de energía ni límites de inventario. Por la isla hay huevos misteriosos de los que nacen Lumas, criaturas mágicas que ayudan a explorar bosques, montañas, junglas, templos y una cueva pirata llena de trampas. Tiene modos tranquilo, aventura y héroe, y juego cruzado entre consolas y PC.",
+   "trailer": "https://youtube.com/embed/v-6aGPwqYvU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2408820/75318192f4cc2181e1f38ba12776701d3e2f231c/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-22",
+   "url": "https://lanzamientos.lat/juegos/luma-island",
+   "noticias": [
+    {
+     "fecha": "2026-10-22",
+     "titulo": "LLEGA A CONSOLAS EL 2 DE DICIEMBRE",
+     "texto": "Feel Free Games le puso fecha en PS5 y Xbox Series, y las dos tiendas ya lo tienen para el 2 de diciembre. En PC salió en noviembre de 2024."
+    }
+   ]
+  },
+  {
+   "id": "the-great-villainess-strategy-of-lily",
+   "titulo": "THE GREAT VILLAINESS: STRATEGY OF LILY",
+   "fecha": "2026-12-02",
+   "relanzamiento": "En PC desde julio de 2025",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "POR TURNOS",
+    "ANIME"
+   ],
+   "desarrollador": "ALLIANCE ARTS",
+   "descripcion": "Un juego de estrategia por turnos con manejo de multitudes. Scarlet, una villana acusada de asesinar al Emperador, y Lily se enfrentan al Imperio como las primeras streamers de la historia. Cada enemigo capturado puede pasar a ser aliado rumbo a un final feliz, o se puede ejecutar a todos y convertirse en la Reina Demonio.",
+   "trailer": "https://youtube.com/embed/E8gGl9jNK1g",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2454960/427de24b6c553902bfe3a600c91889a9c20896bd/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-29",
+   "url": "https://lanzamientos.lat/juegos/the-great-villainess-strategy-of-lily",
+   "noticias": [
+    {
+     "fecha": "2026-10-29",
+     "titulo": "LLEGA A PS5 Y SWITCH 2 EL 2 DE DICIEMBRE",
+     "texto": "Alliance Arts anunció las versiones de consola. La PS Store ya tiene el día."
+    }
+   ]
   }
  ]
 }

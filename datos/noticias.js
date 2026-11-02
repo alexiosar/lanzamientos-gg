@@ -55,6 +55,14 @@
 
 const NOTICIAS = [
   {
+    id: "cierra-nagoshi-studio",
+    fecha: "2026-11-02",
+    categoria: "ANUNCIOS",
+    titulo: "CIERRA NAGOSHI STUDIO, EL ESTUDIO DEL CREADOR DE YAKUZA",
+    texto: "Nagoshi Studio, el estudio de Tokio que fundó Toshihiro Nagoshi, creador de la saga Yakuza, con el respaldo de NetEase, cerró. NetEase había dejado de financiarlo en mayo, y su primer juego, Gang of Dragon, no llegó a salir.\n\nNo tenía ningún juego con fecha en el calendario, así que no cambia nada de lo que viene.",
+    fuente: "https://www.gematsu.com/2026/11/nagoshi-studio-shuts-down"
+  },
+  {
     id: "ps-plus-noviembre-2026",
     fecha: "2026-10-28",
     categoria: "SUSCRIPCIONES",
