@@ -29,6 +29,19 @@ resto del día 2 y los días 3 y 4.
 sigue donde quedó: `/febrero-2027` y las cinco fichas que faltan del día 2, más las cuatro primeras
 del día 3.
 
+**Lista pasada el 02/11:** las tres del día 7 primero (PS Plus de noviembre, `/recomendados`
+que cambió entera con la mensual, y octubre archivado), después `/febrero-2027`, las cinco del
+día 2 y `/abril-2027`. Quedan para la próxima Deltarune, Big Walk, Denshattack y el resto del
+día 3.
+
+## Día 7 (desde el 02/11)
+
+Páginas nuevas o rehechas por la rutina mensual de noviembre.
+
+- [ ] https://lanzamientos.lat/ps-plus-noviembre-2026
+- [ ] https://lanzamientos.lat/recomendados
+- [ ] https://lanzamientos.lat/mejores-juegos-octubre-2026
+
 ## Día 1
 
 **Resultado al 15/10:** 9 de 10 salieron de las listas de "sin indexar". Sigue afuera Order of
