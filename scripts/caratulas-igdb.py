@@ -91,10 +91,18 @@ def es_vertical(url):
     `store-images.s-microsoft.com` es la de Xbox (ImagePurpose "Poster", 2:3 exacto) y se
     agregó el 02/09/2026, el mismo día que se empezó a usar esa fuente. Sin esto el script
     las contaba como faltantes y podía pisar un 2:3 de Xbox con el 3:4 de IGDB, que es peor.
+
+    `library_capsule` es el nombre que usa Steam para la misma 600x900 en las fichas con el
+    formato de assets nuevo (`asset_url_format`). Faltaba hasta el 02/11/2026 y el script las
+    contaba como faltantes: con `--aplicar` hubiera pisado la tapa oficial con arte de comunidad.
+    Las de `assets.nintendo.com` con `c_crop` son tapas oficiales recortadas a 2:3 a mano
+    (Ocarina of Time, 02/11/2026): la caja de My Nintendo Store sin el borde ni la etiqueta.
     """
     if not url:
         return False
-    return ("library_600x900" in url or "image.api.playstation.com" in url
+    return ("library_600x900" in url or "library_capsule" in url
+            or ("assets.nintendo.com" in url and "c_crop" in url)
+            or "image.api.playstation.com" in url
             or "store-images.s-microsoft.com" in url
             or "steamgriddb" in url or "images.igdb.com" in url)
 
@@ -166,6 +174,9 @@ def main():
     ap.add_argument("--aplicar", action="store_true", help="escribe datos/juegos.js")
     ap.add_argument("--limite", type=int, default=0, help="cortar después de N juegos")
     ap.add_argument("--json", metavar="ARCHIVO", help="guarda lo encontrado para revisarlo antes")
+    ap.add_argument("--ids", nargs="+", metavar="ID",
+                    help="sólo estos juegos, aunque ya tengan una imagen que pase por vertical "
+                         "(las cuadradas de la PS Store, por ejemplo)")
     args = ap.parse_args()
 
     if not (CLIENT_ID and CLIENT_SECRET):
@@ -180,7 +191,10 @@ def main():
         sys.exit(f"No se pudo autenticar contra Twitch: {type(e).__name__} {e}")
 
     juegos = cargar_juegos()
-    faltan = [j for j in juegos if not es_vertical(j.get("imagen"))]
+    if args.ids:
+        faltan = [j for j in juegos if j["id"] in set(args.ids)]
+    else:
+        faltan = [j for j in juegos if not es_vertical(j.get("imagen"))]
     if args.limite:
         faltan = faltan[:args.limite]
     print(f"═══ CARÁTULAS EN IGDB ═══  ({len(faltan)} juegos sin vertical)\n")

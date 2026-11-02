@@ -39,7 +39,7 @@
 
 const RECOMENDADOS = {
   mes: "2026-11",
-  intro: "GTA VI el 19, el Ocarina of Time rehecho para Switch 2 el 5 y lo nuevo de los herederos de Disco Elysium el 3. Noviembre trae unos cincuenta lanzamientos al calendario, con varios grandes que llegan por primera vez a Switch 2, y estos doce son los que vale la pena mirar.",
+  intro: "GTA VI el 19, el remake de Ocarina of Time para Switch 2 el 5 y lo nuevo de los herederos de Disco Elysium el 3. Noviembre trae unos cincuenta lanzamientos al calendario, con varios grandes que llegan por primera vez a Switch 2, y estos doce son los que vale la pena mirar.",
   juegos: [
     {
       id: "zero-parades-for-dead-spies",
@@ -47,11 +47,11 @@ const RECOMENDADOS = {
     },
     {
       id: "godzilla-destroy-all-monsters-melee-remastered",
-      texto: "El juego de peleas de monstruos gigantes de GameCube, rehecho por el mismo estudio que lo hizo en 2002. Se revolean rascacielos, se pelea de día y de noche en ciudades reales y, por primera vez, se puede jugar online."
+      texto: "El juego de peleas de monstruos gigantes de GameCube, remasterizado por el mismo estudio que lo hizo en 2002. Se revolean rascacielos, se pelea de día y de noche en ciudades reales y, por primera vez, se puede jugar online."
     },
     {
       id: "the-legend-of-zelda-ocarina-of-time-switch-2",
-      texto: "No es un port: es el Zelda de Nintendo 64 rehecho para Switch 2, con gráficos y música nuevos, cinemáticas dobladas al español y diálogos que antes no estaban. Si nunca lo jugaste, es la mejor forma de entender por qué todas las aventuras en 3D le deben algo."
+      texto: "No es un port: es el remake del Zelda de Nintendo 64 para Switch 2, con gráficos y música nuevos, cinemáticas dobladas al español y diálogos que antes no estaban. Si nunca lo jugaste, es la mejor forma de entender por qué todas las aventuras en 3D le deben algo."
     },
     {
       id: "stellar-blade-switch-2",

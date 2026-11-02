@@ -1861,7 +1861,7 @@ ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
 
    | Juego | Lo que decía releases.com | Lo que dice la tienda |
    |---|---|---|
-   | Warhammer 40,000: Boltgun (Switch 2) · Hell is Us (Switch 2) · Cities: Skylines (Switch 2) · Harold Halibut · Eriksholm · Bubble Bobble 4 Friends: The Baron is Back · Shin chan (los dos) · Castlebound · Tom the Postgirl · Outbreak: Dead City · Piece by Piece | Switch o Switch 2, con día | Ninguno está en la eShop europea |
+   | Warhammer 40,000: Boltgun (Switch 2) · Hell is Us (Switch 2) · Cities: Skylines (Switch 2) · Harold Halibut · Eriksholm · Bubble Bobble 4 Friends: The Baron is Back · Shin chan (los dos) · Castlebound · Outbreak: Dead City · Piece by Piece | Switch o Switch 2, con día | Ninguno está en la eShop europea |
    | Supermarket Simulator · Among Us Story: On Guard · Rogue Reigns (28/10) | Con día | No están en la PS Store ni en la tienda de Xbox |
    | VOID/BREAKER | + Xbox el 4/11 | Xbox lo vende como "versión preliminar" (Game Preview): es acceso anticipado, no un lanzamiento |
    | Arizona Sunshine Remake | PS5, Xbox y Switch 2 el 21/01/2027 | La PS Store tiene un "Arizona Sunshine" de PS5 en preventa para esa fecha, pero en Steam el remake es de realidad virtual y la ficha de PS no lo aclara. Xbox y la eShop no lo listan |
@@ -2082,8 +2082,6 @@ y abrir http://localhost:8080
   | Grave Seasons (Xbox y Switch) | 9 de marzo de 2027 (Gematsu, 30/09) | **Ya está cargado.** La PS Store y Steam confirman el día; Xbox lo lista sin día y la eShop no lo tiene. Gematsu corta la lista de consolas en "Switch…", así que puede haber versión de Switch 2 |
   | Football Manager 27 (PS5) | 10 de noviembre (Gematsu, 30/09) | **Ya está cargado en PS5 y Xbox.** Steam y, desde el 08/10, Xbox confirman el día; la PS Store no lo tiene |
   | Gaelco Sports Collection | 22 de octubre (Gematsu, 1/10) | **No se cargó**: la PS Store y Steam dicen "octubre de 2026" sin día, y el 08/10 Xbox lo lista para el **21 de enero de 2027**. Las fuentes no coinciden; esperar a que la PS Store ponga el día |
-  | Tenebris Somnia (Switch) | 16 de octubre en Switch y Switch 2 (GoNintendo) | **Ya está cargado en PS5, PS4, Xbox y Switch 2.** La eShop y Nintendo US no tienen ficha de ninguna de las dos versiones de Nintendo |
-  | Metro Redux (PS5 y Xbox Series) | 29 de octubre (Gematsu, 1/10) | **No se cargó**: la PS Store sólo tiene la versión de PS4 de 2014 y Xbox no lista la nueva. Cuando aparezca, va con `relanzamiento` como las ediciones de Switch 2 |
   | Croc 2: Kingdom of the Gobbos | 29 de octubre (Gematsu y Steam, 1/10) | **Ya está cargado en PS5, PS4 y Xbox.** Steam confirma el día; la PS Store dice "por determinar" y Xbox lo lista sin día. La eShop no lo tiene |
   | Sturmjäger | 14 de enero de 2027 (releases.com) | **Ya está cargado en PS5, Xbox y Switch**: la eShop lo sumó con el mismo día el 08/10. Se puede sacar de la tabla |
   | Nomad Drive | 20 de octubre en PS5 (releases.com, 08/10) | La PS Store lo tiene "por determinar" y Xbox no lo lista |
@@ -2097,7 +2095,6 @@ y abrir http://localhost:8080
   | Steins;Gate Re:Boot (Xbox, Switch 2 y Switch) | 29 de octubre (Spike Chunsoft; RPG Site, Xbox retrasado desde el 20/08) | **Ya está cargado en las cinco.** La PS Store tiene el día pero no la plataforma; Xbox y las tiendas de Nintendo no lo listan todavía |
   | Geppy-X (Xbox) | Salió el 16/07 en PS5, PS4 y Switch | En Xbox sólo está la demo. Se sacó Xbox de la ficha el 05/10 |
   | BrokenLore: DON'T LIE (Xbox) | Salió el 10/09 en PS5 | La tienda de Xbox no lo tiene. Se sacó Xbox de la ficha el 05/10 |
-  | Warhammer Survivors (Switch 2) | 10 de noviembre (blog de PlayStation y Steam, 6/10) | **Ya está cargado en PS5, Xbox y Switch 2.** Steam confirma el día; la PS Store y Xbox lo listan sin día y la eShop no lo tiene |
   | Angelian Trigger | PS5 en 2027 (Gematsu, 6/10) | **No se cargó**: la PS Store no lo lista. En PC sale el 10/12 |
   | Arcade Archives 2: Fighting Golf (Switch) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en PS5, PS4 y Xbox**, que lo listan desde el 8. La eShop no lo tiene |
   | Arcade Archives 2: Thundercade (Switch 2) | 15 de octubre (Gematsu, 14/10) | **Ya está cargado en PS5, PS4 y Xbox**, las tres a la venta el 15. La eShop no lo tiene |
@@ -2105,7 +2102,6 @@ y abrir http://localhost:8080
   | Red Rooster | PS5, Xbox, Switch 2 y PC (Gematsu, 14/10) | Recién anunciado: sin fecha y sin ficha en ninguna tienda |
   | Forge of the Fae | Marzo de 2027 en PS5, Xbox, PS4 y otras (Gematsu, 15/10) | Ni la PS Store ni Xbox lo listan, y Steam dice "por anunciar" |
   | Lair of the Leviathan · Drova II: Torn Lands | PS5, Xbox, PS4, Xbox One, Switch y PC (Gematsu, 15/10) | Sin fecha, así que no hay fila de calendario que hacer |
-  | holoVillage: Our Cozy Days (Switch 2) | 22 de octubre (Gematsu, 15/10) | La eShop no lo lista. En PC salió en abril |
   | Reverie in the Moonlight | 19 de noviembre en Switch 2 y Switch (Gematsu, 15/10) | La eShop no lo lista. En PC salió en noviembre de 2025 |
   | Hokko Spaces | 29 de octubre en Switch (Gematsu, 15/10) | La eShop no lo lista; Steam confirma el día para PC |
   | PEAK | 22 de octubre en PS5 y Xbox | **Cargado el 23/10 en PS5 y Xbox.** Xbox lo vende desde el 22 (el buscador no lo encuentra por nombre; sí el autosuggest del catálogo, `9NMKF7LPVX44`). La PS Store argentina todavía no lo listaba; el PS5 sale del anuncio de PlayStation |
@@ -2114,26 +2110,24 @@ y abrir http://localhost:8080
   | Vixen 357 (Xbox y Switch) · HorrorVale: Deadluxe Edition (Switch) | 23/10 y 31/10 (Gematsu, 16/10) | **Ya están cargados en PlayStation** (y HorrorVale en Xbox). La eShop no tiene ninguno, y Xbox no lista Vixen 357 |
   | Mortal Sin (PS) | 21 de octubre | **Ya está cargado en Xbox.** La PS Store tiene la fecha pero no dice para qué consola |
   | The Wolf Among Us Remastered (Switch 2 y Switch) | Se retrasó sin fecha (Gematsu, 16/10) | **Se sacaron Switch y Switch 2 de la ficha el 16/10**: sigue el 29/10 en PS5 y Xbox |
-  | Ys VIII: Lacrimosa of DANA (Switch 2) | 25 de febrero de 2027 (Gematsu, 20/10) | La eShop sólo tiene la de Switch de 2018 |
-  | Mouthwashing (Switch) · No, I'm not a Human (Switch) · Arctic Eggs (PS5 y Switch) · Buckshot Roulette (PS5, PS4 y Switch) | CRITICAL REFLEX, 20/10: Mouthwashing el 29/10, el resto sin fecha | **Mouthwashing ya está cargado en PS5, PS4 y Xbox**, y No, I'm not a Human en PS5 y Xbox. La eShop no tiene ninguno; Arctic Eggs y Buckshot Roulette no tienen ficha de consola nueva |
+  | No, I'm not a Human (Switch) · Arctic Eggs (PS5 y Switch) · Buckshot Roulette (PS5, PS4 y Switch) | CRITICAL REFLEX, 20/10, sin fecha | **Mouthwashing ya está en las cuatro** (la eShop sumó la de Switch el 29/10), y No, I'm not a Human en PS5 y Xbox. Arctic Eggs y Buckshot Roulette no tienen ficha de consola nueva |
   | Shrek 2 Remastered (Switch 2 y Switch) · The Apothecary Diaries (Switch 2 y Switch) | 10/11/2026 y 18/03/2027 | **Ya están cargados en PlayStation** (y Shrek en Xbox). La eShop no tiene ninguno |
   | A Game About Digging a Hole Together · Pit of Goblin (PS5) | 4/12 y 3/11 | **Ya están cargados en Xbox.** La PS Store tiene fichas, pero no dicen para qué consola |
   | Croak | Marzo de 2027 en Xbox y Game Pass (ID@Xbox, 20/10) | La tienda de Xbox no lo encuentra |
   | Pratfall | PS5, Xbox y Switch 2 (Gematsu, 21/10) | Sin fecha. Xbox lo lista sin día |
   | Console Archives: Raiden Project · Arcade Archives 2: Ace Driver Victory Lap (Switch 2) | 22 de octubre (Gematsu, 21/10) | **Ya están cargados**: Raiden en PS5 y Ace Driver en PS5, PS4 y Xbox. La eShop no tiene las de Switch 2 |
   | Pocket Mirror ~ GoldenerTraum · Do Not Feed the Monkeys 2099 (Switch) · RV There Yet? (Switch 2) · TAMAGOTORI Deluxe (Xbox One) | 21-29 de octubre (Gematsu, 21-22/10) | **Ya están cargados en PlayStation.** La eShop no tiene ninguno y Xbox no encuentra TAMAGOTORI |
-  | Look Outside | 30 de octubre en PS5, Switch 2, PS4 y Switch (Devolver, Gematsu 23/10) | Ninguna tienda de consola lo lista todavía |
-  | The Outlast Trials (Switch 2) · Blue Prince (Switch 2) | Salieron el 27 y el 28/10 (Gematsu; Blue Prince abrió el Indie World) | **No se cargaron todavía**: Outlast no tiene tráiler oficial de Switch 2 y la eShop no lista Blue Prince. Salieron antes en las otras consolas, así que entran con `relanzamiento` |
-  | Floor Plan: Slap Out Of It! · Kowloon's Gate Suzaku (Switch) | Primavera boreal de 2027 (Indie World, 28/10) y 29/10 (eShop) | Floor Plan no tiene ficha propia en Steam ni carátula vertical. Kowloon's Gate falta revisarlo en la semanal |
-  | HYPERyuki y Haunted Paws (PS5 y Xbox) · RACCOIN (PS5 y Xbox) · Prehistoric Isle (Xbox) | Xbox o la PS Store los listan; HAMSTER anunció Prehistoric Isle para Xbox | **Cargados sólo donde hay fecha.** Tanuki ya está en las cinco consolas desde el 29/10 (Gematsu) |
+  | Blue Prince (Switch 2) | Abrió el Indie World del 28/10 | **No va**: la eShop y Nintendo US lo tienen a la venta desde el 3 de marzo de 2026, antes de que el calendario arrancara. The Outlast Trials (Switch 2) se cargó el 02/11 |
+  | Floor Plan: Slap Out Of It! | Primavera boreal de 2027 (Indie World, 28/10) | Sin ficha propia en Steam ni carátula vertical. Kowloon's Gate Suzaku se cargó el 02/11 (con la imagen cuadrada de la eShop) |
+  | HYPERyuki y Haunted Paws (PS5 y Xbox) | Xbox y la PS Store los listan | **Al 02/11 siguen sin día en las dos.** RACCOIN sumó Xbox y Prehistoric Isle sumó Xbox y Switch el 02/11 |
   | Lilac (Switch) · TAITO Milestones 5 · AYAKASHI Fishing Folktails · BAKUDO (Switch 2) | 5/11, sin fecha, mediados de 2027 y 2027 (Gematsu, 28-29/10) | Lilac son novelas visuales sin datos claros; falta revisarlos en la semanal |
   | Console Archives MARL JONG (PS5 y Switch 2) | 29/10 | **Descartado (29/10, decisión del usuario)**: mahjong con el texto sólo en japonés. Los de HAMSTER con texto sólo en japonés no entran |
-  | Resonance of Fate: Enhanced Remaster (PS5) · Silver Palace (PS5) · Shelterra the Skyworld (PS5) | Cargados el 30/10 y el 1/11 | **Resonance y Silver Palace van con la imagen cuadrada de la PS Store** (Silver Palace no está en Steam). En Resonance: Steam lo vende como contenido descargable, sin carátula, y falta probar SteamGridDB e IGDB con las claves. Shelterra quedó sólo en Xbox: la PS Store tiene el 6/11 sin decir consola |
+  | Silver Palace (PS5) · Shelterra the Skyworld (PS5) | Cargados el 1/11 y el 30/10 | **Silver Palace va con la imagen cuadrada de la PS Store**: no está en Steam, SteamGridDB no lo tiene e IGDB lo lista sin fecha (02/11). Resonance of Fate, Frankenstein y Kowloon's Gate ya tienen la tapa de IGDB. Shelterra quedó sólo en Xbox: la PS Store tiene el 6/11 sin decir consola |
   | The Duskbloods (Switch 2) | FromSoftware la retrasó a 2027 (Gematsu, 29/10) | Nunca estuvo cargada; entra cuando tenga fecha o trimestre, con carátula de SteamGridDB o IGDB |
-  | Petit Planet (Switch 2) · PUCKOFF: RELOADED (Xbox) | 2027 (Gematsu, 1/11) y salido el 1/10 | Petit Planet no está en Steam ni en las tiendas de consola: falta carátula. Puckoff salió hace un mes y nadie lo cubrió |
+  | Petit Planet (Switch 2) | 2027 (Gematsu, 1/11) | No está en Steam ni en las tiendas de consola: falta carátula |
   | Bad Ice-Cream Resort · Bad Ice-Cream Triple Scoop · Mobile Suit Gundam: Battle Operation 3 | Anunciados el 27 y el 28/10 (Gematsu) | Sin fecha |
-  | Frog Sqwad · SNØ: Ultimate Freeriding (Switch 2) · One Turn Kill · The Last Cat in the Universe · Meiji Tokyo Renka Twilight Kiss · The Zibbo Show | eShop, 28-29/10 | Falta ver en la semanal si son relleno o si tienen cobertura |
-  | Console Archives Ripple Island (Switch 2) | 8 de octubre (Gematsu, 7/10) | **Ya está cargado en PS5**, que lo lista desde el 8. La eShop no lo tiene |
+  | Meiji Tokyo Renka Twilight Kiss (Switch) · The Binding of Isaac: Repentance+ (Switch 2) | 29/10 y 19/11 (eShop) | Meiji no tiene tráiler oficial en inglés; Isaac está en la eShop pero sin tráiler ni anuncio de Nicalis. Frog Sqwad, SNØ, One Turn Kill, The Last Cat in the Universe y The Zibbo Show se cargaron el 02/11 |
+  | Next of Kin: Epiphany · Unpetrified · K-Pop Rising · Unicorn Academy: Island of Magic · Lost Sock Simulator 3000 · Pinballoid Crush · Cat-Astrophy · MANIC MINER · PixelHeroScramble Plus · PUCKOFF: RELOADED | eShop o Xbox, 30/10 al 30/11 | **Relleno probable (02/11)**: sin anuncio ni cobertura, y casi todos sólo en Switch. Quedan afuera salvo que aparezca prensa |
   | Spyder: Agent 8 (Switch 2) | 11 de febrero de 2027 (Gematsu, 8/10) | **Ya está cargado en PS5 y Xbox**, que confirman el día. La eShop no lo tiene |
   | My Friendly Neighborhood (Switch 2) | 22 de octubre (Gematsu, 6/10) | **No se cargó**: la eShop y Nintendo US no lo listan. Salió en 2025 en las otras consolas, así que entra con `relanzamiento` |
   | At Fate's End | 2027 (Gematsu, 6/10; antes 2026) | **Ya está cargado como estimado 2027 en PS5 y Xbox.** La PS Store dice "2027"; Xbox lo lista sin día y sin plataforma, pero se presentó en el Xbox Games Showcase 2025 |

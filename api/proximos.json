@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-02T15:28:20+00:00",
+ "generado": "2026-11-02T18:12:07+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-11-02",
  "hasta": "2026-12-02",
- "total": 47,
+ "total": 48,
  "juegos": [
   {
    "id": "zero-parades-for-dead-spies",
@@ -296,10 +296,10 @@
     "RETRO"
    ],
    "desarrollador": "NINTENDO",
-   "descripcion": "El Zelda de Nintendo 64 rehecho para Switch 2: el que definió cómo se juega una aventura en tres dimensiones, ahora con gráficos y banda sonora nuevos. Link cruza dos épocas de Hyrule buscando la Trifuerza, entre templos llenos de puzles y jefes. La edición suma diálogos que antes no estaban, cinemáticas dobladas al español, una habilidad para correr y una cronología para repasar por dónde va la historia.",
+   "descripcion": "El remake del Zelda de Nintendo 64 para Switch 2: el que definió cómo se juega una aventura en tres dimensiones, ahora con gráficos y banda sonora nuevos. Link cruza dos épocas de Hyrule buscando la Trifuerza, entre templos llenos de puzles y jefes. La edición suma diálogos que antes no estaban, cinemáticas dobladas al español, una habilidad para correr y una cronología para repasar por dónde va la historia.",
    "trailer": "https://youtube.com/embed/FrzKHacg1i4",
    "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
+   "imagen": "https://assets.nintendo.com/image/upload/c_crop,x_570,y_300,w_936,h_1404/w_600/f_auto,q_auto/ncom/My%20Nintendo%20Store/EN-US/Nintendo%20Switch%202/Software/The%20Legend%20of%20Zelda%20Ocarina%20of%20Time/125697-nintendo-the-legend-of-zelda-ocarina-of-time-2000x2000",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-25",
@@ -464,7 +464,8 @@
    "fecha": "2026-11-05",
    "plataformas": [
     "PS5",
-    "XBOX"
+    "XBOX",
+    "SWITCH"
    ],
    "genero": [
     "ARCADE",
@@ -481,6 +482,11 @@
    "alta": "2026-10-19",
    "url": "https://lanzamientos.lat/juegos/faraway",
    "noticias": [
+    {
+     "fecha": "2026-11-02",
+     "titulo": "TAMBIÉN SALE EN SWITCH",
+     "texto": "La eShop confirma la versión de Switch para el mismo 5 de noviembre."
+    },
     {
      "fecha": "2026-10-19",
      "titulo": "SALE EL 5 DE NOVIEMBRE",
@@ -633,7 +639,8 @@
    "plataformas": [
     "PS5",
     "XBOX",
-    "SWITCH2"
+    "SWITCH2",
+    "SWITCH"
    ],
    "genero": [
     "ACCION",
@@ -650,6 +657,11 @@
    "alta": "2026-10-06",
    "url": "https://lanzamientos.lat/juegos/warhammer-survivors",
    "noticias": [
+    {
+     "fecha": "2026-11-02",
+     "titulo": "TAMBIÉN SALE EN SWITCH",
+     "texto": "Además de la de Switch 2, la eShop lista una versión de Switch para el mismo 10 de noviembre."
+    },
     {
      "fecha": "2026-10-06",
      "titulo": "SALE EL 10 DE NOVIEMBRE",
@@ -694,7 +706,8 @@
    "fecha": "2026-11-10",
    "relanzamiento": "En PC desde marzo de 2026",
    "plataformas": [
-    "SWITCH2"
+    "SWITCH2",
+    "XBOX"
    ],
    "genero": [
     "ROGUELIKE",
@@ -711,6 +724,11 @@
    "alta": "2026-10-28",
    "url": "https://lanzamientos.lat/juegos/raccoin-chaos-max-edition",
    "noticias": [
+    {
+     "fecha": "2026-11-02",
+     "titulo": "TAMBIÉN SALE EN XBOX",
+     "texto": "La tienda de Xbox confirma el 10 de noviembre, el mismo día que en Switch 2."
+    },
     {
      "fecha": "2026-10-28",
      "titulo": "LLEGA A SWITCH 2 EL 10 DE NOVIEMBRE",
@@ -1262,11 +1280,41 @@
    "descripcion": "Un plataformas de física con un pollito tan redondo que no puede caminar, solo rodar. No se lo maneja a él sino al mundo: se inclina el escenario para que ruede, acelere, frene y salte, aprovechando la gravedad y la inercia para esquivar obstáculos y encontrar secretos mientras busca a sus hermanos perdidos. Es fácil de entender y tiene profundidad para quien quiera dominar cada nivel.",
    "trailer": "https://youtube.com/embed/K9njOxhigCU",
    "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355110/a46c5dfbdf4fcb0b8f2a5e6c0bcca051f8fe8a3f/header.jpg",
+   "imagen": "https://store-images.s-microsoft.com/image/apps.60624.14507719846144326.826439b9-0c8b-4daa-b424-b2fd0adb2186.e1f4f20a-cf50-403e-9fa0-f93c088da4c0",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure"
+  },
+  {
+   "id": "the-last-cat-in-the-universe-xbox",
+   "titulo": "THE LAST CAT IN THE UNIVERSE",
+   "fecha": "2026-11-27",
+   "relanzamiento": "En PC desde abril de 2026 y en Switch desde octubre — esta fecha corresponde a la edición de Xbox",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "CASUAL",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "APAMATE STUDIO",
+   "descripcion": "Un juego incremental corto y narrativo: en una estación espacial que se apaga, se juntan restos para armarle un hogar cómodo al último gato del universo. Va de encontrar paz en medio de la oscuridad, y se termina en una tarde.",
+   "trailer": "https://youtube.com/embed/lVvc9PFdigA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197890/6327d8d3b1ae2a163ba2e9b6230c00d723ecfc51/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-02",
+   "url": "https://lanzamientos.lat/juegos/the-last-cat-in-the-universe-xbox",
+   "noticias": [
+    {
+     "fecha": "2026-11-02",
+     "titulo": "LLEGA A XBOX EL 27 DE NOVIEMBRE",
+     "texto": "La tienda de Xbox confirma el día. En Switch salió el 29 de octubre."
+    }
+   ]
   },
   {
    "id": "grimkeep",

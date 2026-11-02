@@ -19,7 +19,7 @@
 const MESES_INTRO = [
   {
     mes: "2026-06",
-    intro: "El cierre de junio trajo uno de los puntajes más altos del año: el 24 salió Deltarune: Chapter 5 en Switch 2 y PS5, con 96 en la crítica, y el 25 llegó Star Fox, la versión rehecha de Star Fox 64 para Switch 2, con 81. Esa misma semana salieron The Necromancer's Tale, con 77, Gecko Gods, con 73, y el 30 Momento, con 78, en las cuatro consolas."
+    intro: "El cierre de junio trajo uno de los puntajes más altos del año: el 24 salió Deltarune: Chapter 5 en Switch 2 y PS5, con 96 en la crítica, y el 25 llegó Star Fox, el remake de Star Fox 64 para Switch 2, con 81. Esa misma semana salieron The Necromancer's Tale, con 77, Gecko Gods, con 73, y el 30 Momento, con 78, en las cuatro consolas."
   },
   {
     mes: "2026-07",

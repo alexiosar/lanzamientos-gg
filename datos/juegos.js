@@ -3539,7 +3539,7 @@ const JUEGOS = [
     descripcion: "Nueva entrega de la línea Toaplan Arcade Garage de M2: el shoot'em up clásico Fire Shark (Same! Same! Same!) vuelve con los agregados, opciones y modos de práctica que caracterizan a las remasterizaciones arcade del estudio.",
     trailer: "https://youtube.com/embed/8RtI7cfYeko",
     metacritic: null,
-    imagen: "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/poj0vpjjjjth3ruowu1h",
+    imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202608/1312/24cdc7a93e66bcfce77d584e65853320cba899707993682d.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -4304,7 +4304,7 @@ const JUEGOS = [
     descripcion: "Un plataformas de física con un pollito tan redondo que no puede caminar, solo rodar. No se lo maneja a él sino al mundo: se inclina el escenario para que ruede, acelere, frene y salte, aprovechando la gravedad y la inercia para esquivar obstáculos y encontrar secretos mientras busca a sus hermanos perdidos. Es fácil de entender y tiene profundidad para quien quiera dominar cada nivel.",
     trailer: "https://youtube.com/embed/K9njOxhigCU",
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4355110/a46c5dfbdf4fcb0b8f2a5e6c0bcca051f8fe8a3f/header.jpg",
+    imagen: "https://store-images.s-microsoft.com/image/apps.60624.14507719846144326.826439b9-0c8b-4daa-b424-b2fd0adb2186.e1f4f20a-cf50-403e-9fa0-f93c088da4c0",
     gamepass: false,
     psplus: false,
     alta: "2026-08-25"
@@ -4357,10 +4357,10 @@ const JUEGOS = [
     plataformas: ["SWITCH2"],
     genero: ["AVENTURA", "ACCION", "RPG", "RETRO"],
     desarrollador: "NINTENDO",
-    descripcion: "El Zelda de Nintendo 64 rehecho para Switch 2: el que definió cómo se juega una aventura en tres dimensiones, ahora con gráficos y banda sonora nuevos. Link cruza dos épocas de Hyrule buscando la Trifuerza, entre templos llenos de puzles y jefes. La edición suma diálogos que antes no estaban, cinemáticas dobladas al español, una habilidad para correr y una cronología para repasar por dónde va la historia.",
+    descripcion: "El remake del Zelda de Nintendo 64 para Switch 2: el que definió cómo se juega una aventura en tres dimensiones, ahora con gráficos y banda sonora nuevos. Link cruza dos épocas de Hyrule buscando la Trifuerza, entre templos llenos de puzles y jefes. La edición suma diálogos que antes no estaban, cinemáticas dobladas al español, una habilidad para correr y una cronología para repasar por dónde va la historia.",
     trailer: "https://youtube.com/embed/FrzKHacg1i4",
     metacritic: null,
-    imagen: "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
+    imagen: "https://assets.nintendo.com/image/upload/c_crop,x_570,y_300,w_936,h_1404/w_600/f_auto,q_auto/ncom/My%20Nintendo%20Store/EN-US/Nintendo%20Switch%202/Software/The%20Legend%20of%20Zelda%20Ocarina%20of%20Time/125697-nintendo-the-legend-of-zelda-ocarina-of-time-2000x2000",
     gamepass: false,
     psplus: false,
     alta: "2026-08-25",
@@ -5509,7 +5509,7 @@ const JUEGOS = [
     plataformas: ["XBOX", "SWITCH2", "PS5"],
     genero: ["ACCION", "AVENTURA", "CASUAL"],
     desarrollador: "UBISOFT",
-    descripcion: "Una versión rehecha del Rayman Legends de 2013, con gráficos nuevos y la historia contada de otra forma. Suma un reino que no estaba y niveles musicales nuevos, y se sigue pudiendo jugar de a cuatro en la misma consola.",
+    descripcion: "Un remake del Rayman Legends de 2013, con gráficos nuevos y la historia contada de otra forma. Suma un reino que no estaba y niveles musicales nuevos, y se sigue pudiendo jugar de a cuatro en la misma consola.",
     trailer: "https://youtube.com/embed/2_7BQ9hLGkk",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5tb.jpg",
@@ -6202,7 +6202,7 @@ const JUEGOS = [
     id: "tenebris-somnia",
     titulo: "TENEBRIS SOMNIA",
     fecha: "2026-10-16",
-    plataformas: ["PS4", "SWITCH2", "PS5", "XBOX"],
+    plataformas: ["PS4", "SWITCH2", "PS5", "XBOX", "SWITCH"],
     genero: ["AVENTURA", "HORROR", "RETRO", "INDIE"],
     desarrollador: "ANDRÉS BORGHI Y SAIBOT STUDIOS",
     descripcion: "Un survival horror en 2D al estilo de los primeros Resident Evil y Silent Hill, pero con el aspecto de un juego de NES. Se avanza resolviendo acertijos y enfrentando criaturas, y en los momentos clave el juego se corta para dar paso a escenas filmadas con actores, efectos prácticos y escenografía real, rodadas en Buenos Aires por un equipo de cine argentino. Lo crearon Andrés Borghi y Tobías Rusjan, y lo publica New Blood.",
@@ -8029,7 +8029,7 @@ const JUEGOS = [
     descripcion: "Un juego para chicos en el barrio de Plaza Sésamo, con Elmo, Abby, el Conde, el Monstruo de las galletas y el resto. Se arranca en el departamento propio y se van abriendo lugares: se planta un poroto mágico gigante en el jardín de Abby, se buscan herramientas y patitos de goma en la huerta comunitaria, se practican números y puzzles en la mansión del Conde y se cocina en el camión de comida del Monstruo de las galletas. Las recompensas sirven para decorar la casa.",
     trailer: "https://youtube.com/embed/gV_FEcIXG6k",
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3930330/cd60211759658ad9032d6b4950dbb29df2da1262/header_spanish.jpg",
+    imagen: "https://store-images.s-microsoft.com/image/apps.24362.13624093173043073.1bb3db63-b961-4156-a47e-cc00ede192b8.34ec2e1a-8970-40be-91c7-8e399237f4d0",
     gamepass: false,
     psplus: false,
     alta: "2026-07-31"
@@ -9407,7 +9407,7 @@ const JUEGOS = [
     descripcion: "Un juego de puzles con humor negro sobre una asesina serial que la ciudad de New Detroit conoce como Mr. Freezy, después de encontrar cientos de cabezas guardadas en heladeras. No se juega a las víctimas: se juega del otro lado del sótano. Lo hace Aerial_Knight, el estudio de una sola persona detrás de Never Yield.",
     trailer: "https://youtube.com/embed/MZGl4IMvnDA",
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4756010/edee0d22445bfc4685f19fd2ce967710c198efb8/header.jpg",
+    imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202608/0616/d1fffb622153deef8918df532d95a759c422f82223466f5b.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-09-02"
@@ -9576,7 +9576,7 @@ const JUEGOS = [
     plataformas: ["SWITCH2"],
     genero: ["HORROR", "ACCION", "AVENTURA"],
     desarrollador: "CAPCOM CO., LTD.",
-    descripcion: "El rehecho del clásico de 1998, ahora en Switch 2. Leon Kennedy y Claire Redfield llegan a Raccoon City el día que todo se cae a pedazos, con cámara al hombro y munición contada. El Tyrant persigue por los pasillos de la comisaría y no se lo puede matar, sólo demorar. La edición Deluxe suma los trajes y los extras que salieron aparte.",
+    descripcion: "El remake del clásico de 1998, ahora en Switch 2. Leon Kennedy y Claire Redfield llegan a Raccoon City el día que todo se cae a pedazos, con cámara al hombro y munición contada. El Tyrant persigue por los pasillos de la comisaría y no se lo puede matar, sólo demorar. La edición Deluxe suma los trajes y los extras que salieron aparte.",
     trailer: "https://youtube.com/embed/4C10U-O1kZ8",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/library_600x900.jpg",
@@ -9593,7 +9593,7 @@ const JUEGOS = [
     plataformas: ["SWITCH2"],
     genero: ["HORROR", "ACCION", "AVENTURA"],
     desarrollador: "CAPCOM CO., LTD.",
-    descripcion: "Jill Valentine intenta salir de Raccoon City mientras Umbrella le suelta atrás a Nemesis, que la persigue por toda la ciudad y no para. Es más de acción y más corto que el rehecho de Resident Evil 2, con esquive en lugar de aguantar el golpe. Trae adentro Resident Evil Resistance, el multijugador asimétrico de cuatro contra uno.",
+    descripcion: "Jill Valentine intenta salir de Raccoon City mientras Umbrella le suelta atrás a Nemesis, que la persigue por toda la ciudad y no para. Es más de acción y más corto que el remake de Resident Evil 2, con esquive en lugar de aguantar el golpe. Trae adentro Resident Evil Resistance, el multijugador asimétrico de cuatro contra uno.",
     trailer: "https://youtube.com/embed/4C10U-O1kZ8",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/library_600x900.jpg",
@@ -9610,7 +9610,7 @@ const JUEGOS = [
     plataformas: ["SWITCH2"],
     genero: ["HORROR", "ACCION", "AVENTURA"],
     desarrollador: "CAPCOM CO., LTD.",
-    descripcion: "Leon vuelve a la aldea a buscar a la hija del presidente, y el rehecho de 2023 es de los mejor recibidos que hizo Capcom: mantiene el ritmo del original de 2005 y le suma parry con el cuchillo y un sigilo que antes no estaba. La edición Gold trae el juego completo, el episodio de Ada y todo lo que salió después.",
+    descripcion: "Leon vuelve a la aldea a buscar a la hija del presidente, y el remake de 2023 es de los mejor recibidos que hizo Capcom: mantiene el ritmo del original de 2005 y le suma parry con el cuchillo y un sigilo que antes no estaba. La edición Gold trae el juego completo, el episodio de Ada y todo lo que salió después.",
     trailer: "https://youtube.com/embed/4C10U-O1kZ8",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/library_600x900.jpg",
@@ -11846,7 +11846,7 @@ const JUEGOS = [
     id: "warhammer-survivors",
     titulo: "WARHAMMER SURVIVORS",
     fecha: "2026-11-10",
-    plataformas: ["PS5", "XBOX", "SWITCH2"],
+    plataformas: ["PS5", "XBOX", "SWITCH2", "SWITCH"],
     genero: ["ACCION", "ROGUELIKE", "INDIE"],
     desarrollador: "AUROCH DIGITAL",
     descripcion: "Un survivors-like, a la manera de Vampire Survivors, en los universos de Warhammer 40,000 y Age of Sigmar. Se juega con personajes de las dos sagas, incluido Malum Caedo de Boltgun, se juntan y evolucionan armas como el bólter o la espada sierra y se aguantan oleadas interminables de enemigos. Lo hace Auroch Digital, el estudio de Boltgun, junto con poncle, los creadores de Vampire Survivors, en pixel art.",
@@ -11854,6 +11854,11 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://store-images.s-microsoft.com/image/apps.63012.13865289401901694.ec4fd4fe-95aa-4110-a6b3-96d9a78df1a3.0a17bc32-56e3-46a1-8aae-d4edfc5689e8?w=600&h=900&format=jpg",
     noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "TAMBIÉN SALE EN SWITCH",
+        texto: "Además de la de Switch 2, la eShop lista una versión de Switch para el mismo 10 de noviembre."
+      },
       {
         fecha: "2026-10-06",
         titulo: "SALE EL 10 DE NOVIEMBRE",
@@ -11965,7 +11970,7 @@ const JUEGOS = [
     titulo: "CONSOLE ARCHIVES: RIPPLE ISLAND",
     fecha: "2026-10-08",
     relanzamiento: "La versión hogareña de SUNSOFT es de 1988 — esta es la reedición para consolas actuales",
-    plataformas: ["PS5"],
+    plataformas: ["PS5", "SWITCH2"],
     genero: ["AVENTURA", "RETRO"],
     desarrollador: "HAMSTER",
     descripcion: "La aventura de SUNSOFT de 1988 para una consola hogareña de 8 bits, en la serie Console Archives. Kyle tiene que rescatar a la princesa Nasareru, secuestrada por un monstruo que se hace llamar Emperador Groaker, y devolverle la paz a Ripple Island, y se avanza eligiendo entre nueve comandos. El juego está sólo en japonés; el menú de opciones y el manual sí vienen en español. Se puede guardar en cualquier momento y cambiar la disposición de los botones.",
@@ -12046,7 +12051,7 @@ const JUEGOS = [
     descripcion: "Un survival horror en tercera persona en una versión alternativa de 1855. En plena guerra de Crimea, el gobierno británico recurre a los experimentos de Victor Frankenstein para conseguir un arma nueva, y el proyecto sale mal. El protagonista despierta sin memoria en un hospital militar de Edimburgo con la misión de encontrar a Frankenstein y frenarlo, mientras criaturas que parecen reconocerlo y documentos sueltos ponen en duda su pasado. La munición y la curación escasean, se pelea con revólver y armas cuerpo a cuerpo, y hay puzles del entorno y trampas.",
     trailer: "https://youtube.com/embed/vEeht5p2LaU",
     metacritic: null,
-    imagen: null,
+    imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocaq0.jpg",
     noticias: [
       {
         fecha: "2026-10-08",
@@ -12803,7 +12808,7 @@ const JUEGOS = [
     id: "faraway",
     titulo: "FARAWAY",
     fecha: "2026-11-05",
-    plataformas: ["PS5", "XBOX"],
+    plataformas: ["PS5", "XBOX", "SWITCH"],
     genero: ["ARCADE", "PUZZLE", "INDIE"],
     desarrollador: "STEPH THIRION",
     descripcion: "Un arcade de puntaje infinito, generado al azar, sobre una estrella fugaz que arma constelaciones para seguir viva. Se conectan estrellas para recoger su energía, estirar la vida y sumar puntos; las constelaciones se dibujan con libertad y hay técnicas avanzadas que arriesgan más a cambio de más energía. Las reglas son simples y los controles fluidos, pero dominarlo cuesta: cada partida arranca de cero en un universo que se genera según cómo se juega, y con más habilidad llegan más velocidad y regiones más difíciles. Es de Steph Thirion y lo publica Annapurna Interactive.",
@@ -12811,6 +12816,11 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://store-images.s-microsoft.com/image/apps.28996.14200503875502482.80908a4d-7242-450f-b329-0065041d2f49.a47a9068-078b-4f6f-896e-e328034eb827?w=600&h=900&format=jpg",
     noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "TAMBIÉN SALE EN SWITCH",
+        texto: "La eShop confirma la versión de Switch para el mismo 5 de noviembre."
+      },
       {
         fecha: "2026-10-19",
         titulo: "SALE EL 5 DE NOVIEMBRE",
@@ -12827,7 +12837,7 @@ const JUEGOS = [
     fecha: "2026-10-29",
     relanzamiento: "En PC desde 2024",
     duracion: "≈ 2,5 h (historia) · 3,6 h (completo)",
-    plataformas: ["PS5", "PS4", "XBOX"],
+    plataformas: ["PS5", "PS4", "XBOX", "SWITCH"],
     genero: ["HORROR", "AVENTURA", "INDIE"],
     desarrollador: "WRONG ORGAN",
     descripcion: "Un terror psicológico en primera persona a bordo del Tulpar, un carguero espacial varado. El capitán Curly intentó llevarse a toda la tripulación con él y fracasó: quedó mutilado, sin poder hablar y a merced de los cinco tripulantes que condenó a una muerte lenta. No hay rescate posible, la energía dura seis meses y la comida mucho menos. La historia se reconstruye entre lo que pasó en la nave y lo que se ve, que no siempre es confiable. Vendió más de 800.000 copias en PC y ganó premios a la mejor narrativa.",
@@ -12840,6 +12850,11 @@ const JUEGOS = [
     metacriticVotos: 309,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475490/library_600x900_2x.jpg",
     noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "TAMBIÉN SALIÓ EN SWITCH",
+        texto: "La versión de Switch salió el mismo 29 de octubre que las de PlayStation y Xbox."
+      },
       {
         fecha: "2026-10-29",
         titulo: "LLEGA A CONSOLAS CON 88 EN METACRITIC",
@@ -13892,7 +13907,7 @@ const JUEGOS = [
     titulo: "RACCOIN: CHAOS MAX EDITION",
     fecha: "2026-11-10",
     relanzamiento: "En PC desde marzo de 2026",
-    plataformas: ["SWITCH2"],
+    plataformas: ["SWITCH2", "XBOX"],
     genero: ["ROGUELIKE", "CARTAS", "CASUAL"],
     desarrollador: "DORACCOON",
     descripcion: "Un roguelike de armar mazos sobre una máquina de empujar monedas: se combinan monedas especiales con objetos para disparar combos, apilar torres brillantes, girar la ruleta y sacudir la máquina hasta que caiga todo. Esta edición trae ocho personajes y se juega a buscar el puntaje más alto.",
@@ -13900,6 +13915,11 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784030/75d93f090fa932324ab3447a5c755c047bbe1256/library_capsule_2x.jpg",
     noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "TAMBIÉN SALE EN XBOX",
+        texto: "La tienda de Xbox confirma el 10 de noviembre, el mismo día que en Switch 2."
+      },
       {
         fecha: "2026-10-28",
         titulo: "LLEGA A SWITCH 2 EL 10 DE NOVIEMBRE",
@@ -14381,7 +14401,7 @@ const JUEGOS = [
     titulo: "ARCADE ARCHIVES 2: PREHISTORIC ISLE",
     fecha: "2026-10-29",
     relanzamiento: "El original de SNK es de 1989 — esta es la reedición para consolas actuales",
-    plataformas: ["PS5", "PS4"],
+    plataformas: ["PS5", "PS4", "XBOX", "SWITCH"],
     genero: ["SHOOTER", "RETRO", "ARCADE"],
     desarrollador: "HAMSTER",
     descripcion: "La reedición del shooter de SNK de 1989. Una serie de naufragios frente a las Bahamas lleva al protagonista hasta la isla Greenhell, donde lo atacan dragones prehistóricos que se creían extinguidos. El módulo que acompaña a la nave cambia de ataque según dónde se lo ubique: láser de fuego hacia arriba, bombas en diagonal y cinco variantes en total. Trae ajustes de dificultad y pantalla, rebobinado, disparo automático y ranking online.",
@@ -14482,7 +14502,7 @@ const JUEGOS = [
     descripcion: "La versión mejorada del RPG de tri-Ace de 2010. En un futuro lejano, lo que queda de la humanidad sobrevive alrededor de Basel, una máquina gigantesca que controla el ambiente, y tres mercenarios al servicio de la clase gobernante se meten en una historia llena de tiroteos acrobáticos. Esta edición suma salida nativa en 4K, HDR, más opciones gráficas y la posibilidad de jugar al doble de velocidad.",
     trailer: "https://youtube.com/embed/o37A5GR71uM",
     metacritic: null,
-    imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202607/2805/df56e0ac1dd083272cead2cda0ebf969d8255e7b50737ff8.png",
+    imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cod9i4.jpg",
     noticias: [
       {
         fecha: "2026-10-30",
@@ -14678,5 +14698,348 @@ const JUEGOS = [
     gamepass: false,
     psplus: false,
     alta: "2026-11-01"
+  },
+  {
+    id: "metro-redux",
+    titulo: "METRO REDUX",
+    fecha: "2026-10-29",
+    relanzamiento: "Colección de 2014 (PS4, Xbox One y PC) — esta es la edición de PS5 y Xbox Series",
+    plataformas: ["PS5", "XBOX"],
+    genero: ["SHOOTER", "FPS", "HORROR"],
+    desarrollador: "4A GAMES",
+    descripcion: "Metro 2033 y Metro: Last Light, los dos primeros de la saga basada en las novelas de Dmitri Glujovski, en versión nativa para PS5 y Xbox Series. Shooter en primera persona con mucho de supervivencia: los túneles del subte de Moscú después de la guerra nuclear, con mutantes, facciones enfrentadas, balas que también son moneda y una máscara de gas que no hay que perder.",
+    trailer: "https://youtube.com/embed/F2CR_2dv9hc",
+    metacritic: null,
+    imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202610/2111/e2cceef24e491280056a9318ab0f6eaa176bec799f29279d.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN PS5 Y XBOX SERIES",
+        texto: "Deep Silver lanzó el 29 de octubre la versión de nueva generación de la colección, con Metro 2033 Redux y Last Light Redux también a la venta por separado en la PS Store."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "arcade-archives-2-swimmer",
+    titulo: "ARCADE ARCHIVES 2: SWIMMER",
+    fecha: "2026-10-29",
+    relanzamiento: "Arcade de 1982",
+    plataformas: ["PS5", "XBOX", "SWITCH2"],
+    genero: ["ARCADE", "RETRO"],
+    desarrollador: "HAMSTER",
+    descripcion: "La reedición del arcade de Tehkan de 1982. Se nada río arriba esquivando troncos, cangrejos y tortugas, se juntan frutas para sumar puntos y se bucea para escapar de lo que viene de frente. Viene con las opciones de siempre de la serie: modos de pantalla, ajustes del original y tablas de puntaje en línea.",
+    trailer: "https://youtube.com/embed/IPLGemw_lw8",
+    metacritic: null,
+    imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202610/1902/8497002ab0e2b08d75f2de9c16b5beeed75495e80be41748.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN PS5, XBOX Y SWITCH 2",
+        texto: "HAMSTER lo sumó a Arcade Archives 2 el 29 de octubre."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "frog-sqwad",
+    titulo: "FROG SQWAD",
+    fecha: "2026-10-28",
+    relanzamiento: "En Xbox y PC desde junio de 2026 — esta fecha corresponde a las ediciones de PS5 y Switch 2",
+    plataformas: ["PS5", "SWITCH2"],
+    genero: ["ACCION", "PLATAFORMA", "COOP"],
+    desarrollador: "PANIC STATIONS",
+    descripcion: "Plataformas cooperativo para hasta ocho jugadores, con extracción: un escuadrón de ranas baja a las cloacas a robar comida para el Rey del Pantano. Se balancean con la lengua, se catapultan entre ellas y comen hasta convertirse en una Megarana enorme, mientras tratan de salir con el botín.",
+    trailer: "https://youtube.com/embed/_VWvxFkuy9A",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3989960/4d6d678a66216a65a382be4248f714b4a4636b0b/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN PS5 Y SWITCH 2",
+        texto: "Llegó el 28 de octubre junto con la actualización 2.0, que suma juego cruzado entre todas las versiones."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "one-turn-kill",
+    titulo: "ONE TURN KILL",
+    fecha: "2026-10-28",
+    relanzamiento: "En PC desde enero de 2026",
+    plataformas: ["SWITCH", "SWITCH2"],
+    genero: ["CARTAS", "ESTRATEGIA", "INDIE"],
+    desarrollador: "DENDEN",
+    descripcion: "Juego de cartas contra la máquina en el que cada pelea dura un solo turno: hay que robar, encadenar y controlar el mazo para tumbar al rival antes de que termine la jugada. Con pixel art y un páramo postapocalíptico donde el protagonista se mide con los enemigos más fuertes.",
+    trailer: "https://youtube.com/embed/l0pX5DNnDtY",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3151270/daa084b10497db313e7645753dd4ea7852c415cc/library_600x900_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN SWITCH Y SWITCH 2",
+        texto: "Waku Waku Games lo lanzó el 28 de octubre, el día del Indie World."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "the-last-cat-in-the-universe",
+    titulo: "THE LAST CAT IN THE UNIVERSE",
+    fecha: "2026-10-29",
+    relanzamiento: "En PC desde abril de 2026 — esta fecha corresponde a la edición de Switch",
+    plataformas: ["SWITCH"],
+    genero: ["CASUAL", "RELAX", "INDIE"],
+    desarrollador: "APAMATE STUDIO",
+    descripcion: "Un juego incremental corto y narrativo: en una estación espacial que se apaga, se juntan restos para armarle un hogar cómodo al último gato del universo. Va de encontrar paz en medio de la oscuridad, y se termina en una tarde.",
+    trailer: "https://youtube.com/embed/sUZlp7FcIm0",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197890/6327d8d3b1ae2a163ba2e9b6230c00d723ecfc51/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN SWITCH",
+        texto: "Flynn's Arcade lo lanzó el 29 de octubre. La versión de Xbox llega el 27 de noviembre."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "the-last-cat-in-the-universe-xbox",
+    titulo: "THE LAST CAT IN THE UNIVERSE",
+    fecha: "2026-11-27",
+    relanzamiento: "En PC desde abril de 2026 y en Switch desde octubre — esta fecha corresponde a la edición de Xbox",
+    plataformas: ["XBOX"],
+    genero: ["CASUAL", "RELAX", "INDIE"],
+    desarrollador: "APAMATE STUDIO",
+    descripcion: "Un juego incremental corto y narrativo: en una estación espacial que se apaga, se juntan restos para armarle un hogar cómodo al último gato del universo. Va de encontrar paz en medio de la oscuridad, y se termina en una tarde.",
+    trailer: "https://youtube.com/embed/lVvc9PFdigA",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4197890/6327d8d3b1ae2a163ba2e9b6230c00d723ecfc51/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "LLEGA A XBOX EL 27 DE NOVIEMBRE",
+        texto: "La tienda de Xbox confirma el día. En Switch salió el 29 de octubre."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "the-zibbo-show",
+    titulo: "THE ZIBBO SHOW",
+    fecha: "2026-10-29",
+    plataformas: ["PS5", "PS4", "XBOX", "SWITCH"],
+    genero: ["ROGUELIKE", "ESTRATEGIA", "INDIE"],
+    desarrollador: "TESSERA STUDIOS",
+    descripcion: "Un roguelike de dados con forma de programa de concursos: se eligen los dados, se apuesta y se arman combinaciones para seguir en el aire como estrella del show más visto de la tele. Lo que pasa cuando se pierde es mejor no pensarlo demasiado.",
+    trailer: "https://youtube.com/embed/7W_8LzBzZqI",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/972450/2514385a9848519f5b8523cd2c8da0e3f5e7058d/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN CONSOLAS Y PC",
+        texto: "Tessera Studios lo lanzó el 29 de octubre en PS5, PS4, Xbox, Switch y PC."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "sno-ultimate-freeriding",
+    titulo: "SNØ: ULTIMATE FREERIDING",
+    fecha: "2026-10-28",
+    relanzamiento: "En PC desde febrero de 2025",
+    plataformas: ["PS5", "XBOX", "SWITCH2"],
+    genero: ["DEPORTES", "SIMULACION", "INDIE"],
+    desarrollador: "STUDIO GAUNTLET",
+    descripcion: "Freeride en esquí, minimalista: montañas generadas al azar, sin pistas marcadas y sin perdón para el error. Se puede ir a buscar el puntaje más alto con saltos y trucos, o bajar tranquilo por la nieve virgen.",
+    trailer: "https://youtube.com/embed/1SDTYNy8ICQ",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2943150/726e5bf23101f20294934df2078c0a206d960530/library_600x900_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN CONSOLAS",
+        texto: "AMATA lo lanzó el 28 de octubre en PS5, Xbox Series y Switch 2."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "titanium-court",
+    titulo: "TITANIUM COURT",
+    fecha: "2026-10-29",
+    relanzamiento: "En PC desde abril de 2026",
+    plataformas: ["PS5", "SWITCH", "SWITCH2"],
+    genero: ["ESTRATEGIA", "PUZZLE", "INDIE"],
+    desarrollador: "AP THOMSON",
+    descripcion: "Un roguelike difícil de encasillar: puzzle de combinar tres, defensa de torres y algo de cartas, con mejoras que se eligen sobre la marcha y muchísimo texto surrealista. Lo hizo AP Thomson, que en la tienda lo presenta como una treta para que la gente lea su libro. En PC tiene 85 en Metacritic.",
+    trailer: "https://youtube.com/embed/8qhLnxw6CK4",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2364580/ec1d62906afd236b57d69e2cf24bd4b80a08ffeb/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN PS5, SWITCH Y SWITCH 2",
+        texto: "Fellow Traveller lo lanzó en consolas el 29 de octubre. En PC salió en abril con 85 en Metacritic."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "look-outside",
+    titulo: "LOOK OUTSIDE",
+    fecha: "2026-10-30",
+    relanzamiento: "En PC desde marzo de 2025",
+    plataformas: ["PS5", "PS4"],
+    genero: ["HORROR", "RPG", "SUPERVIVENCIA"],
+    desarrollador: "FRANCIS COULOMBE",
+    descripcion: "RPG de terror y supervivencia encerrado en un solo edificio de departamentos: un evento misterioso convierte en monstruo a cualquiera que mire por la ventana. Hay que revisar el edificio en busca de comida, provisiones y armas, y decidir qué hacer con los vecinos raros que siguen ahí. Uno de los éxitos de Devolver en PC.",
+    trailer: "https://youtube.com/embed/6AsZFrfaxr8",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3373660/de4d812972a0fbcc7eaf58ea51bc22da0140a35c/library_600x900_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN PS5 Y PS4",
+        texto: "Devolver lo lanzó el 30 de octubre. Las versiones de Switch y Switch 2 anunciadas todavía no figuran en la eShop."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "the-outlast-trials-switch-2",
+    titulo: "THE OUTLAST TRIALS",
+    fecha: "2026-10-27",
+    relanzamiento: "En PS5, PS4, Xbox y PC desde marzo de 2024 — esta es la edición de Switch 2",
+    plataformas: ["SWITCH2"],
+    genero: ["HORROR", "COOP", "SUPERVIVENCIA"],
+    desarrollador: "RED BARRELS",
+    descripcion: "El Outlast cooperativo: hasta cuatro sujetos de prueba de la Guerra Fría, encerrados en las instalaciones de Murkoff, tienen que superar experimentos de control mental escondiéndose, distrayendo y escapando de enemigos que no se pueden enfrentar de frente. También se juega solo.",
+    trailer: "https://youtube.com/embed/HqElAW8WJp0",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/b511ed32e00d90a15e6d1bf7861fe88f0cdde5db/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN SWITCH 2",
+        texto: "Red Barrels lo lanzó el 27 de octubre."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "tom-the-postgirl",
+    titulo: "TOM THE POSTGIRL",
+    fecha: "2026-10-29",
+    plataformas: ["SWITCH"],
+    genero: ["AVENTURA", "HORROR", "INDIE"],
+    desarrollador: "OOPSIE DAISIES",
+    descripcion: "Tom es la cartera nueva del pueblo y quiere conocer a los vecinos, tal vez demasiado: su método, discutible pero efectivo, es espiarlos de forma obsesiva. Una aventura de apariencia tierna que se va volviendo inquietante, publicada por ARTE.",
+    trailer: "https://youtube.com/embed/0BTHQbnSfqM",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2257440/b2b9b3013dda3b9f132ab1950835d90ba70bec4a/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN SWITCH Y PC",
+        texto: "ARTE lo lanzó el 29 de octubre."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "kowloons-gate-suzaku",
+    titulo: "KOWLOON'S GATE SUZAKU",
+    fecha: "2026-10-29",
+    relanzamiento: "Original de PS1 (1997), nunca editado fuera de Japón",
+    plataformas: ["SWITCH"],
+    genero: ["AVENTURA", "RPG", "RETRO"],
+    desarrollador: "JETMAN",
+    descripcion: "Vuelve Kowloon's Gate, el juego de culto de PS1 de 1997: una aventura surrealista y gótica en una versión imaginaria de la Ciudad Amurallada de Kowloon. Se recorren callejones, se habla con personajes muy raros y se pelea contra demonios para restaurar el equilibrio del feng shui. Por primera vez en inglés.",
+    trailer: "https://youtube.com/embed/sLy68gpdXjI",
+    metacritic: null,
+    imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5lp.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN SWITCH",
+        texto: "JETMAN lo lanzó el 29 de octubre, con textos en inglés, japonés y chino."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "holovillage-our-cozy-days-switch-2",
+    titulo: "HOLOVILLAGE: OUR COZY DAYS",
+    fecha: "2026-10-21",
+    relanzamiento: "En PC desde abril de 2026 — esta es la edición de Switch 2",
+    plataformas: ["SWITCH2"],
+    genero: ["SIMULACION", "RELAX", "RPG"],
+    desarrollador: "ROBOQLO",
+    descripcion: "Vida de granja con las chicas de hololive: se cultiva, se pesca, se mina, se fabrica y se decora la casa, y fuera del pueblo hay mazmorras y jefes para cuando haga falta algo de acción.",
+    trailer: "https://youtube.com/embed/rsvLw9HphlI",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3856280/8a184c3edec03e5543324f5a2b96968641397597/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "YA SALIÓ EN SWITCH 2",
+        texto: "holo Indie lo lanzó el 21 de octubre."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
+  },
+  {
+    id: "ys-viii-lacrimosa-of-dana-switch-2",
+    titulo: "YS VIII: LACRIMOSA OF DANA",
+    fecha: "2027-02-25",
+    relanzamiento: "Salió en 2016 (PS4, Switch y PC) — esta es la edición de Switch 2",
+    plataformas: ["SWITCH2"],
+    genero: ["RPG", "ACCION", "ANIME"],
+    desarrollador: "NIHON FALCOM",
+    descripcion: "Adol naufraga en una isla maldita y tiene que armar una aldea con los sobrevivientes mientras explora selvas, ruinas y criaturas prehistóricas. Muchos lo consideran el mejor Ys moderno: combate rápido y una segunda historia, la de la misteriosa Dana, que se cruza con la de Adol en sueños.",
+    trailer: "https://youtube.com/embed/-Ii8LYe00Fg",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579180/library_600x900_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-02",
+        titulo: "LLEGA A SWITCH 2 EL 25 DE FEBRERO",
+        texto: "NIS America anunció la versión de Switch 2, que ya figura en la eShop con ese día."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-02"
   }
 ];
