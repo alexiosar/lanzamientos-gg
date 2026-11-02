@@ -29,7 +29,7 @@ resto del día 2 y los días 3 y 4.
 sigue donde quedó: `/febrero-2027` y las cinco fichas que faltan del día 2, más las cuatro primeras
 del día 3.
 
-**Lista pasada el 02/11:** las tres del día 7 primero (PS Plus de noviembre, `/recomendados`
+**Pedidas el 02/11:** las tres del día 7 primero (PS Plus de noviembre, `/recomendados`
 que cambió entera con la mensual, y octubre archivado), después `/febrero-2027`, las cinco del
 día 2 y `/abril-2027`. Quedan para la próxima Deltarune, Big Walk, Denshattack y el resto del
 día 3.
@@ -38,9 +38,9 @@ día 3.
 
 Páginas nuevas o rehechas por la rutina mensual de noviembre.
 
-- [ ] https://lanzamientos.lat/ps-plus-noviembre-2026
-- [ ] https://lanzamientos.lat/recomendados
-- [ ] https://lanzamientos.lat/mejores-juegos-octubre-2026
+- [x] https://lanzamientos.lat/ps-plus-noviembre-2026 (02/11)
+- [x] https://lanzamientos.lat/recomendados (02/11)
+- [x] https://lanzamientos.lat/mejores-juegos-octubre-2026 (02/11)
 
 ## Día 1
 
@@ -63,17 +63,17 @@ the Sinking Star, que pasa al día 5.
 - [ ] https://lanzamientos.lat/septiembre-2026
 - [ ] https://lanzamientos.lat/mejores-juegos-septiembre-2026
 - [ ] https://lanzamientos.lat/enero-2027
-- [ ] https://lanzamientos.lat/febrero-2027
+- [x] https://lanzamientos.lat/febrero-2027 (02/11)
 - [ ] https://lanzamientos.lat/juegos/end-of-abyss
-- [ ] https://lanzamientos.lat/juegos/keep-driving
-- [ ] https://lanzamientos.lat/juegos/quern-undying-thoughts
-- [ ] https://lanzamientos.lat/juegos/mewgenics
-- [ ] https://lanzamientos.lat/juegos/middle-earth-shadow-of-mordor-switch-2
-- [ ] https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls
+- [x] https://lanzamientos.lat/juegos/keep-driving (02/11)
+- [x] https://lanzamientos.lat/juegos/quern-undying-thoughts (02/11)
+- [x] https://lanzamientos.lat/juegos/mewgenics (02/11)
+- [x] https://lanzamientos.lat/juegos/middle-earth-shadow-of-mordor-switch-2 (02/11)
+- [x] https://lanzamientos.lat/juegos/marvel-tokon-fighting-souls (02/11)
 
 ## Día 3
 
-- [ ] https://lanzamientos.lat/abril-2027
+- [x] https://lanzamientos.lat/abril-2027 (02/11)
 - [ ] https://lanzamientos.lat/juegos/deltarune-chapter-5
 - [ ] https://lanzamientos.lat/juegos/big-walk
 - [ ] https://lanzamientos.lat/juegos/denshattack
