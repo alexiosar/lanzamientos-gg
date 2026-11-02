@@ -38,55 +38,109 @@
 // URLs con el mismo contenido, que es justo lo que le hace mal a la indexación.
 
 const RECOMENDADOS = {
-  mes: "2026-10",
-  intro: "Gears of War: E-Day el 6, un Castlevania nuevo con los de Dead Cells el 15, Call of Duty el 23 y Phantom Blade Zero cerrando el mes. Octubre trae más de noventa lanzamientos al calendario, y estos once son los que valen el tiempo.",
+  mes: "2026-11",
+  intro: "GTA VI el 19, el Ocarina of Time rehecho para Switch 2 el 5 y lo nuevo de los herederos de Disco Elysium el 3. Noviembre trae unos cincuenta lanzamientos al calendario, con varios grandes que llegan por primera vez a Switch 2, y estos doce son los que vale la pena mirar.",
   juegos: [
     {
-      id: "ace-combat-8-wings-of-theve",
-      texto: "La primera entrega nueva de la saga desde Ace Combat 7, de 2019. Combates aéreos con armamento pesado y una campaña armada alrededor del escuadrón: misiones de alto riesgo, decisiones difíciles y relaciones con los compañeros de vuelo."
+      id: "zero-parades-for-dead-spies",
+      texto: "El RPG de espionaje de ZA/UM, el estudio que hizo Disco Elysium: todo se resuelve con diálogos y tiradas de habilidad, por engaño, violencia o deducción. En PS5 y Xbox llega como Director's Cut, con unas 40.000 palabras de historia nueva y voces completas."
     },
     {
-      id: "gears-of-war-e-day",
-      texto: "Gears vuelve al principio de todo: el Día de la Emergencia, cuando empieza la guerra contra la Horda. The Coalition ya lo tiene terminado y entra en Game Pass el mismo día, así que si tenés el servicio lo jugás sin pagar aparte."
+      id: "godzilla-destroy-all-monsters-melee-remastered",
+      texto: "El juego de peleas de monstruos gigantes de GameCube, rehecho por el mismo estudio que lo hizo en 2002. Se revolean rascacielos, se pelea de día y de noche en ciudades reales y, por primera vez, se puede jugar online."
     },
     {
-      id: "star-wars-galactic-racer",
-      texto: "Carreras de Star Wars con historia propia, después de la caída del Imperio: la Liga Galáctica es un circuito clandestino del Borde Exterior que financian los sindicatos criminales, y ahí se hacen los campeones."
+      id: "the-legend-of-zelda-ocarina-of-time-switch-2",
+      texto: "No es un port: es el Zelda de Nintendo 64 rehecho para Switch 2, con gráficos y música nuevos, cinemáticas dobladas al español y diálogos que antes no estaban. Si nunca lo jugaste, es la mejor forma de entender por qué todas las aventuras en 3D le deben algo."
     },
     {
-      id: "kingdom-hearts-collection",
-      texto: "Los tres juegos principales de Kingdom Hearts con todo lo que se les fue sumando, juntos y en consolas actuales. Para quien nunca la jugó es la forma más directa de entrar a una saga que, de tantas entregas, se volvió difícil de seguir."
+      id: "stellar-blade-switch-2",
+      texto: "El juego de acción de SHIFT UP llega a Switch 2 en la edición Complete, con todo lo que se le sumó desde 2024. Lo que más se elogió en PS5 fue el combate de parry y contraataque, y en la eShop ya hay demo para probar cómo corre."
     },
     {
-      id: "planet-zoo-2",
-      texto: "El simulador de zoológicos de Frontier vuelve con una idea nueva: además de armar el parque, los animales se pueden liberar en reservas naturales abiertas. Es de los que se juegan sin apuro y durante meses."
+      id: "escape-academy-2-back-2-school",
+      texto: "Las salas de escape del primero, ahora dentro de una academia que se recorre libremente, con una campaña nueva del mismo equipo de puzles. Como las salas no son reales, pueden tener techos con pinchos y caídas de treinta metros."
     },
     {
-      id: "castlevania-belmonts-curse",
-      texto: "Un Castlevania nuevo en 2D hecho con Evil Empire y Motion Twin, los de Dead Cells, que es casi la mejor garantía posible para este tipo de juego. Lo protagoniza Rose Belmont, 23 años después de Dracula's Curse, y hay demo desde el 1 de octubre para probarlo antes."
+      id: "football-manager-27",
+      texto: "La entrega anual del simulador de gestión de fútbol, esta vez con la interfaz rediseñada para hacer menos clics y más ambientación en los días de partido. Para quien juega un FM por año, es la cita de siempre."
     },
     {
-      id: "final-fantasy-resonance",
-      texto: "Un Final Fantasy nuevo en pixel art que parte de los clásicos y los lleva más lejos, en todas las consolas, incluida la primera Switch. Para quien extraña los Final Fantasy de antes, es la apuesta del mes."
+      id: "warhammer-survivors",
+      texto: "Un survivors-like al estilo de Vampire Survivors, hecho entre Auroch Digital, el estudio de Boltgun, y poncle, los creadores de Vampire Survivors. Se juega con personajes de Warhammer 40,000 y Age of Sigmar contra oleadas interminables."
     },
     {
-      id: "nintendo-switch-sports-resort",
-      texto: "La secuela de Switch Sports, exclusiva de Switch 2, con deportes nuevos y controles de movimiento renovados. Es el juego del mes para jugar con gente en el living, a cualquier edad."
+      id: "tanuki-pons-summer",
+      texto: "El más tranquilo de la lista: Pon, un tanuki algo vago que trabaja en el correo, tiene un mes para arreglar el santuario antes del festival. Sale el mismo día en todas las consolas."
     },
     {
-      id: "call-of-duty-modern-warfare-4",
-      texto: "El lanzamiento más grande del mes. La campaña pasa en la península de Corea, con el capitán Price actuando por fuera de los canales oficiales, y vuelve el modo DMZ. Quien lo reservó puede jugarlo desde el 16, una semana antes."
+      id: "metaphor-refantazio",
+      texto: "El RPG de fantasía del equipo de Persona llega a Switch 2: un torneo por el trono después del asesinato del rey, combates que mezclan turnos y tiempo real, y días repartidos entre mazmorras y vínculos. Hay una demo del prólogo en la eShop."
     },
     {
-      id: "phantom-blade-zero",
-      texto: "Acción de artes marciales muy rápida, con la narrativa de las historias wuxia de fondo: Soul tiene 66 días de vida y los usa para desenredar una conspiración. Sony le dedicó un State of Play entero en agosto, y es exclusivo de PS5."
+      id: "pikmin-4-switch-2",
+      texto: "La edición de Switch 2 del cuarto Pikmin suma órdenes por voz para Oatchi, el perro del grupo, y la Academia Dandori, un modo aparte para practicar la organización de tareas que es el corazón de la saga."
     },
     {
-      id: "the-wolf-among-us-remastered",
-      texto: "El policial de Telltale de 2013, con Bigby Wolf investigando en Fabletown, donde los personajes del folclore son reales y cada decisión pesa. Vuelve con el apartado técnico al día y en todas las consolas."
+      id: "spirit-crossing",
+      texto: "Un simulador de vida multijugador de los creadores de Cozy Grove, por encima de las nubes: se planea, se ayuda a espíritus perdidos y se arma comunidad con otros jugadores. Entre las consolas, sólo sale en Switch y Switch 2."
+    },
+    {
+      id: "grand-theft-auto-vi",
+      texto: "No necesita presentación: Rockstar vuelve a Vice City, en el estado de Leonida, con Lucia como protagonista. Después de dos retrasos, el 19 de noviembre es la fecha definitiva, en PS5 y Xbox Series."
     }
   ],
   anteriores: [
+    {
+    mes: "2026-10",
+    intro: "Gears of War: E-Day el 6, un Castlevania nuevo con los de Dead Cells el 15, Call of Duty el 23 y Phantom Blade Zero cerrando el mes. Octubre trae más de noventa lanzamientos al calendario, y estos once son los que valen el tiempo.",
+    juegos: [
+      {
+        id: "ace-combat-8-wings-of-theve",
+        texto: "La primera entrega nueva de la saga desde Ace Combat 7, de 2019. Combates aéreos con armamento pesado y una campaña armada alrededor del escuadrón: misiones de alto riesgo, decisiones difíciles y relaciones con los compañeros de vuelo."
+      },
+      {
+        id: "gears-of-war-e-day",
+        texto: "Gears vuelve al principio de todo: el Día de la Emergencia, cuando empieza la guerra contra la Horda. The Coalition ya lo tiene terminado y entra en Game Pass el mismo día, así que si tenés el servicio lo jugás sin pagar aparte."
+      },
+      {
+        id: "star-wars-galactic-racer",
+        texto: "Carreras de Star Wars con historia propia, después de la caída del Imperio: la Liga Galáctica es un circuito clandestino del Borde Exterior que financian los sindicatos criminales, y ahí se hacen los campeones."
+      },
+      {
+        id: "kingdom-hearts-collection",
+        texto: "Los tres juegos principales de Kingdom Hearts con todo lo que se les fue sumando, juntos y en consolas actuales. Para quien nunca la jugó es la forma más directa de entrar a una saga que, de tantas entregas, se volvió difícil de seguir."
+      },
+      {
+        id: "planet-zoo-2",
+        texto: "El simulador de zoológicos de Frontier vuelve con una idea nueva: además de armar el parque, los animales se pueden liberar en reservas naturales abiertas. Es de los que se juegan sin apuro y durante meses."
+      },
+      {
+        id: "castlevania-belmonts-curse",
+        texto: "Un Castlevania nuevo en 2D hecho con Evil Empire y Motion Twin, los de Dead Cells, que es casi la mejor garantía posible para este tipo de juego. Lo protagoniza Rose Belmont, 23 años después de Dracula's Curse, y hay demo desde el 1 de octubre para probarlo antes."
+      },
+      {
+        id: "final-fantasy-resonance",
+        texto: "Un Final Fantasy nuevo en pixel art que parte de los clásicos y los lleva más lejos, en todas las consolas, incluida la primera Switch. Para quien extraña los Final Fantasy de antes, es la apuesta del mes."
+      },
+      {
+        id: "nintendo-switch-sports-resort",
+        texto: "La secuela de Switch Sports, exclusiva de Switch 2, con deportes nuevos y controles de movimiento renovados. Es el juego del mes para jugar con gente en el living, a cualquier edad."
+      },
+      {
+        id: "call-of-duty-modern-warfare-4",
+        texto: "El lanzamiento más grande del mes. La campaña pasa en la península de Corea, con el capitán Price actuando por fuera de los canales oficiales, y vuelve el modo DMZ. Quien lo reservó puede jugarlo desde el 16, una semana antes."
+      },
+      {
+        id: "phantom-blade-zero",
+        texto: "Acción de artes marciales muy rápida, con la narrativa de las historias wuxia de fondo: Soul tiene 66 días de vida y los usa para desenredar una conspiración. Sony le dedicó un State of Play entero en agosto, y es exclusivo de PS5."
+      },
+      {
+        id: "the-wolf-among-us-remastered",
+        texto: "El policial de Telltale de 2013, con Bigby Wolf investigando en Fabletown, donde los personajes del folclore son reales y cada decisión pesa. Vuelve con el apartado técnico al día y en todas las consolas."
+      }
+    ]
+    },
     {
       mes: "2026-09",
       intro: "Marvel's Wolverine el 15, la primera Fire Emblem pensada para Switch 2 el 17, y Control y Silent Hill el mismo día a fin de mes. Septiembre trae 112 lanzamientos al calendario, y estos doce son los que valen el tiempo.",

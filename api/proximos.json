@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-02T15:06:44+00:00",
+ "generado": "2026-11-02T15:28:20+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-11-02",
@@ -99,6 +99,7 @@
    "titulo": "SOLO LEVELING: ARISE OVERDRIVE",
    "fecha": "2026-11-03",
    "relanzamiento": "En PC desde noviembre de 2025",
+   "duracion": "≈ 27 h (historia) · 73 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -195,6 +196,7 @@
    "titulo": "VOID/BREAKER",
    "fecha": "2026-11-04",
    "relanzamiento": "En acceso anticipado en PC desde 2025 y en Game Preview en Xbox",
+   "duracion": "≈ 4 h (historia)",
    "plataformas": [
     "PS5"
    ],
@@ -226,6 +228,7 @@
    "titulo": "THE END OF THE SUN",
    "fecha": "2026-11-04",
    "relanzamiento": "En PC desde enero de 2025",
+   "duracion": "≈ 6,4 h (historia) · 8,6 h (completo)",
    "plataformas": [
     "XBOX"
    ],
@@ -490,6 +493,7 @@
    "titulo": "THE SLORMANCER",
    "fecha": "2026-11-05",
    "relanzamiento": "En PC desde mayo de 2025",
+   "duracion": "≈ 9,6 h (historia) · 64 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -719,6 +723,7 @@
    "titulo": "LOST AND FOUND CO.",
    "fecha": "2026-11-10",
    "relanzamiento": "En PC desde marzo de 2026",
+   "duracion": "≈ 8,5 h (historia) · 18 h (completo)",
    "plataformas": [
     "SWITCH",
     "SWITCH2"
@@ -1006,6 +1011,7 @@
    "titulo": "ADORABLE ADVENTURES",
    "fecha": "2026-11-12",
    "relanzamiento": "En PC y PS5 desde 2026 — esta es la edición de Switch 2",
+   "duracion": "≈ 3 h (historia) · 6,6 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -1036,6 +1042,7 @@
    "titulo": "LEAF BLOWER CO.",
    "fecha": "2026-11-13",
    "relanzamiento": "En PC desde noviembre de 2025",
+   "duracion": "≈ 4,2 h (historia) · 8,2 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -1120,6 +1127,7 @@
    "titulo": "MOONLIGHT PEAKS",
    "fecha": "2026-11-17",
    "relanzamiento": "En Switch, Switch 2 y PC desde julio de 2026 — esta es la versión de PS5",
+   "duracion": "≈ 67 h (historia) · 130 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -1359,6 +1367,7 @@
    "titulo": "LUMA ISLAND",
    "fecha": "2026-12-02",
    "relanzamiento": "En PC desde noviembre de 2024",
+   "duracion": "≈ 31 h (historia) · 64 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -1391,6 +1400,7 @@
    "titulo": "THE GREAT VILLAINESS: STRATEGY OF LILY",
    "fecha": "2026-12-02",
    "relanzamiento": "En PC desde julio de 2025",
+   "duracion": "≈ 15 h (historia) · 30 h (completo)",
    "plataformas": [
     "PS5",
     "SWITCH2"
