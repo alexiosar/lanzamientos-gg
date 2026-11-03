@@ -37,11 +37,16 @@ día 3.
 **Pedidas el 03/11:** las nueve que quedaban del día 3 y Halo: Campaign Evolved, la primera
 del día 4. La próxima lista sigue con Oblivion Remastered y el resto del día 4.
 
+**Rechazada el 03/11:** `/game-pass-noviembre-2026`, la undécima del día y pedida
+justo cuando se publicaba (causa probable: cupo diario o deploy sin terminar). En vivo responde 200, con canonical propio y sin noindex. Va primera en
+la próxima lista.
+
 ## Día 7 (desde el 02/11)
 
 Páginas nuevas o rehechas por la rutina mensual de noviembre.
 
 - [x] https://lanzamientos.lat/ps-plus-noviembre-2026 (02/11)
+- [ ] https://lanzamientos.lat/game-pass-noviembre-2026 (rechazada el 03/11, volver a pedir)
 - [x] https://lanzamientos.lat/recomendados (02/11)
 - [x] https://lanzamientos.lat/mejores-juegos-octubre-2026 (02/11)
 
