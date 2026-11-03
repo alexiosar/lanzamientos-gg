@@ -194,6 +194,212 @@ const SUSCRIPCIONES = [
   },
   {
     servicio: "gamepass",
+    mes: "2026-11",
+    intro: "Lo más fuerte de Game Pass en noviembre son los estrenos del primer día: Football Manager 27 el 3 en PC y el 10 en consolas, Escape Academy 2: Back 2 School el 5, Warhammer Survivors y Tanuki: Pon's Summer el 10, y Hope in the City el 11. Void/Breaker deja el Game Preview el 4, Thronefall llega a Xbox el 11 y Aphelion, de Don't Nod, suma Premium el 17. El 15 entran a Essential ocho clásicos, de Banjo-Kazooie y Perfect Dark a Viva Piñata, y se van 1000xResist, GoldenEye 007, Dragon Ball Xenoverse 2 y Wreckfest, entre otros.",
+    tandas: [
+      {
+        nombre: "PRIMERA TANDA DE NOVIEMBRE",
+        detalle: "Anunciada el 3 de noviembre. Salvo que se aclare otra cosa, cada juego entra a Ultimate y PC Game Pass. El 15 se van 1000xResist, Barbie Horse Trails, Dragon Ball Xenoverse 2, Firefighting Simulator – The Squad, GoldenEye 007, Great God Grove, Moonlighter, Pigeon Simulator, Police Simulator: Patrol Officers, Relic Hunters Legend, Total Chaos, Winter Burrow y Wreckfest.",
+        anunciado: "2026-11-03",
+        fuente: "https://news.xbox.com/en-us/2026/11/03/xbox-game-pass-november-2026-wave-1/",
+        juegos: [
+          {
+            titulo: "Football Manager 27",
+            id: null,
+            plataformas: ["PC"],
+            entra: "2026-11-03",
+            texto: "Sólo PC: entra el día que sale. La entrega anual del simulador de gestión de fútbol de Sports Interactive; la versión de consolas llega el 10.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.47586.13984136076613493.b5146129-a992-4e04-8b43-ffa40460c569.40797f8e-48ea-47e2-aab8-9ea6e13f5a79?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Pit of Goblin",
+            id: "pit-of-goblin",
+            plataformas: ["XBOX"],
+            entra: "2026-11-03",
+            texto: "Entra el día que llega a Xbox, también en Premium. Un cooperativo de terror para cuatro goblins que bajan a mazmorras a buscar comida para su Rey Reina."
+          },
+          {
+            titulo: "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-11-04",
+            texto: "Ya estaba en Ultimate y PC Game Pass, y desde el 4 también se juega con Premium. De los creadores de Vampire Survivors: un dungeon crawler por turnos con cartas, en los escenarios de la saga.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.58093.13753975954973331.f68a6dfe-1345-43d2-9cf7-a4facb1f9857.c7421d49-f1f3-4904-b01e-7a14e4c92e1a?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Void/Breaker",
+            id: "void-breaker",
+            plataformas: ["XBOX"],
+            entra: "2026-11-04",
+            texto: "Entra el día que deja el Game Preview, también en Premium. Un shooter roguelite en primera persona contra máquinas, con armas que se modifican casi sin límite."
+          },
+          {
+            titulo: "Escape Academy 2: Back 2 School",
+            id: "escape-academy-2-back-2-school",
+            plataformas: ["XBOX"],
+            entra: "2026-11-05",
+            texto: "Entra el día que sale. Salas de escape en un mundo abierto: la academia de escapismo se recorre libremente, con cooperativo para dos online o en la misma pantalla."
+          },
+          {
+            titulo: "Firefighting Simulator: Ignite",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-11-05",
+            texto: "También en Premium. Un simulador de bomberos de Estados Unidos: se apagan incendios y se rescata gente con hasta tres amigos o con una dotación manejada por la máquina.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.32408.14039390486448903.600abc2c-9f2a-489a-8d46-0eefc0946576.cabef57c-c072-408a-a400-ef040fd8bca9?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "MySims: Cozy Bundle",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-11-05",
+            texto: "Ya estaba en PC Game Pass y ahora se suma en consola y en la nube. Reúne MySims y MySims Kingdom, los dos juegos de construir y decorar de la serie de EA, en versión renovada.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.7236.13655706602498995.149ae955-10f2-4011-a323-545ac134caef.0f4c4264-87e9-426e-8792-f4956f69b0a5?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Football Manager 27 Console",
+            id: "football-manager-27",
+            plataformas: ["XBOX"],
+            entra: "2026-11-10",
+            texto: "Entra el día que sale. La entrega anual del simulador de gestión de fútbol, esta vez con una interfaz rediseñada para hacer menos clics."
+          },
+          {
+            titulo: "Warhammer Survivors",
+            id: "warhammer-survivors",
+            plataformas: ["XBOX"],
+            entra: "2026-11-10",
+            texto: "Entra el día que sale. Un survivors-like en los universos de Warhammer, hecho junto con los creadores de Vampire Survivors."
+          },
+          {
+            titulo: "Tanuki: Pon's Summer",
+            id: "tanuki-pons-summer",
+            plataformas: ["XBOX"],
+            entra: "2026-11-10",
+            texto: "Entra el día que sale. Un simulador de vida tranquilo: Pon tiene un mes para arreglar el santuario antes del Festival Tanuki, y lo hace repartiendo paquetes en BMX."
+          },
+          {
+            titulo: "Hope in the City",
+            id: "hope-in-the-city",
+            plataformas: ["XBOX"],
+            entra: "2026-11-11",
+            texto: "Entra el día que sale. Un misterio en la ciudad china de Shenyang: una chica de 17 años busca a sus padres desaparecidos y convierte sus dibujos en pistas."
+          },
+          {
+            titulo: "Thronefall",
+            id: "thronefall",
+            plataformas: ["XBOX"],
+            entra: "2026-11-11",
+            texto: "Entra el día que llega a Xbox, también en Premium. Estrategia minimalista: de día se construye un reino chico y de noche se lo defiende de oleadas de enemigos."
+          },
+          {
+            titulo: "John Carpenter's Toxic Commando",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-11-12",
+            texto: "También en Premium. Un cooperativo para cuatro contra hordas de zombis en escenarios semiabiertos, con el sello de John Carpenter. Salió en marzo.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.29766.13813225504277272.60187aa7-cee5-4670-9406-da8555a77e6d.c837b95c-ea53-45ca-8a1d-e10bea8f2ff1?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Aphelion",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: "2026-11-17",
+            texto: "Ya estaba en Ultimate y PC Game Pass, y desde el 17 también se juega con Premium. La aventura de ciencia ficción de Don't Nod: dos astronautas varados en un planeta helado, hecha junto con la Agencia Espacial Europea.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.46058.13661171777966781.f2079bb0-25c3-4356-bff7-576d8707eb18.770e543b-11c7-448c-81b8-71a9af644846?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Paw Patrol: Dino World",
+            id: "paw-patrol-dino-world",
+            plataformas: ["XBOX"],
+            entra: "2026-11-17",
+            texto: "También en Premium. Una aventura para chicos en la Isla de los Dinosaurios con los cachorros de la serie, solo o en cooperativo para dos."
+          },
+          {
+            titulo: "Gravhounds",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: null,
+            texto: "Ya disponible, en Game Preview: un cooperativo para cuatro perros espaciales que juntan todo lo que pueden en un planeta hostil mientras el enjambre se pone cada vez más bravo.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.62712.14119486704236036.abde8f1d-835f-498a-a443-5a7c4d6c7932.5340b529-7333-4472-82f3-634458f9a584?w=600&h=900&format=jpg"
+          }
+        ]
+      },
+      {
+        nombre: "SE SUMAN A ESSENTIAL",
+        detalle: "Desde el 15 de noviembre entran también al catálogo de Game Pass Essential, el plan más barato. Se juegan en consola y en la nube.",
+        anunciado: "2026-11-03",
+        fuente: "https://news.xbox.com/en-us/2026/11/03/xbox-game-pass-november-2026-wave-1/",
+        juegos: [
+          {
+            titulo: "Banjo-Kazooie",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: null,
+            texto: "El plataformas de Rare de 1998, en la versión de Xbox 360: un oso y un pájaro contra la bruja Gruntilda.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.33130.70306648669442933.0ad02883-9547-43ed-a595-2a807684ce15.661619f7-c356-407c-87b7-276750817874?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Banjo-Tooie",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: null,
+            texto: "La secuela de 2000, también de Rare, con mundos más grandes y conectados entre sí.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.51096.63435052096425467.cd1eef72-5707-4f2b-807d-ab3c5baf858c.feb06dbe-5615-42c2-8e26-fa15d1745896?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Banjo-Kazooie: Nuts & Bolts",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: null,
+            texto: "La entrega de 2008 que cambió los saltos por armar vehículos con piezas.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.65096.71100151761088573.88824642-fc7e-4e99-9b5b-32e26f7c27b9.4b7be015-afcd-42ca-9db2-364cd29734df?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Gears of War: Judgment",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: null,
+            texto: "La precuela de 2013 con el escuadrón Kilo de Baird y Cole, contada como un juicio militar.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.38790.70323071690757883.aa344172-c923-4b38-a055-9ce9a093bc86.fa2e3328-f1d7-4b43-b5e3-cfd7c69ee9d2?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Halo: Spartan Assault",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: null,
+            texto: "Un Halo de disparos con vista desde arriba, de 2013, ambientado entre Halo 3 y Halo 4. Es el único de la lista que también se juega en PC.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.20431.70634858521726340.aed5ca97-d1dc-4d71-ae1f-b3f94bf8b727.1e47fef5-905e-40b4-8765-f294f6bbff1f?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Perfect Dark",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: null,
+            texto: "La remasterización para Xbox 360 del shooter de Rare de Nintendo 64, con la agente Joanna Dark.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.24811.65049759038650156.9c9f4a81-e21a-4dcb-b819-b75ab00b696e.7461a932-7d28-4f09-b6c8-695ccfc367bb?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Viva Piñata",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: null,
+            texto: "El juego de Rare de 2006 en el que se arma un jardín para atraer piñatas vivas.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.29775.71972951279590291.af9c2fdb-151a-4c1d-8ae7-d7bfb2a756ee.62ce58fd-eccf-4da7-8c33-bc66f5175dbd?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Viva Piñata: Trouble in Paradise",
+            id: null,
+            plataformas: ["XBOX"],
+            entra: null,
+            texto: "La secuela de 2008, con más especies y excursiones fuera del jardín para atraparlas.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.13926.69467662407886849.eb318d40-1e77-4848-b633-b9ee445d2f63.c32b9b59-01cd-43fd-b374-d60e0217acb2?w=600&h=900&format=jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    servicio: "gamepass",
     mes: "2026-10",
     intro: "Lo más fuerte de Game Pass en octubre son los estrenos del primer día: Gears of War: E-Day el 6, Echo Weaver, Forever Ago y Neon Abyss 2 el 8, Valor Mortis y Deep Dish Dungeon el 13, Bluey's Happy Snaps y Chained Beasts el 15, The Séance of Blake Manor el 27, Mouthwashing y Terrible Lizards el 29, y Pit of Goblin el 3 de noviembre. Además entran Battlefield 6 el 13 y Final Fantasy VII Remake Intergrade el 29. El 15 se fueron Clair Obscur: Expedition 33 y A Plague Tale: Requiem, entre otros, y el 31 se van Grim Fandango Remastered, Deep Rock Galactic y Lego Star Wars: The Skywalker Saga.",
     tandas: [

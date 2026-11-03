@@ -55,6 +55,16 @@
 
 const NOTICIAS = [
   {
+    id: "game-pass-noviembre-2026-primera-tanda",
+    fecha: "2026-11-03",
+    categoria: "SUSCRIPCIONES",
+    titulo: "GAME PASS SUMA FOOTBALL MANAGER 27, ESCAPE ACADEMY 2 Y WARHAMMER SURVIVORS EL DÍA UNO",
+    texto: "Xbox anunció la primera tanda de noviembre. Entran el día que salen Football Manager 27, hoy en PC y el 10 en consolas, Escape Academy 2: Back 2 School el 5, Warhammer Survivors y Tanuki: Pon's Summer el 10, y Hope in the City el 11. Void/Breaker deja el Game Preview el 4, Thronefall llega a Xbox el 11 y John Carpenter's Toxic Commando se suma el 12.\n\nEl 15 entran a Essential ocho clásicos, entre ellos Banjo-Kazooie, Banjo-Tooie, Perfect Dark y los dos Viva Piñata, y se van 1000xResist, GoldenEye 007, Dragon Ball Xenoverse 2, Moonlighter y Wreckfest, entre otros.",
+    fuente: "https://news.xbox.com/en-us/2026/11/03/xbox-game-pass-november-2026-wave-1/",
+    juegos: ["football-manager-27", "escape-academy-2-back-2-school", "warhammer-survivors", "tanuki-pons-summer", "hope-in-the-city", "void-breaker", "thronefall"],
+    pagina: "/game-pass-noviembre-2026"
+  },
+  {
     id: "the-elder-scrolls-vi-sentinel",
     fecha: "2026-11-03",
     categoria: "ANUNCIOS",

@@ -2481,12 +2481,17 @@ const JUEGOS = [
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobxhw.jpg",
     noticias: [
       {
+        fecha: "2026-11-03",
+        titulo: "ENTRA A GAME PASS EL 17 DE NOVIEMBRE",
+        texto: "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: entra a Ultimate, Premium y PC Game Pass."
+      },
+      {
         fecha: "2026-10-06",
         titulo: "LA CRÍTICA LE PONE 76",
         texto: "Con cuatro reseñas de PS5, la prensa lo recomienda para los más chicos por su fidelidad a la serie y su falta de frustraciones, y avisa que a los más grandes les va a quedar simple."
       }
     ],
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-07-10"
   },
@@ -4245,7 +4250,7 @@ const JUEGOS = [
   {
     id: "hope-in-the-city",
     titulo: "HOPE IN THE CITY",
-    fecha: "2026-11-10",
+    fecha: "2026-11-11",
     plataformas: ["XBOX"],
     genero: ["AVENTURA", "INDIE"],
     desarrollador: "LOFTY SKY ENTERTAINMENT",
@@ -4253,7 +4258,14 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/aeSj0-tQqxY",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9y32.jpg",
-    gamepass: false,
+    noticias: [
+      {
+        fecha: "2026-11-03",
+        titulo: "SALE EL 11 DE NOVIEMBRE, CON GAME PASS",
+        texto: "Xbox lo incluyó en la primera tanda de Game Pass de noviembre para el 11, un día más tarde de lo anunciado, y la tienda de Xbox y Steam también lo tienen para ese día. Entra a Ultimate y PC Game Pass."
+      }
+    ],
+    gamepass: true,
     psplus: false,
     alta: "2026-09-17"
   },
@@ -11403,12 +11415,17 @@ const JUEGOS = [
     imagen: "https://store-images.s-microsoft.com/image/apps.47586.13984136076613493.b5146129-a992-4e04-8b43-ffa40460c569.40797f8e-48ea-47e2-aab8-9ea6e13f5a79?w=600&h=900&format=jpg",
     noticias: [
       {
+        fecha: "2026-11-03",
+        titulo: "ENTRA A GAME PASS EL DÍA QUE SALE",
+        texto: "La versión de consolas entra a Ultimate y PC Game Pass el 10 de noviembre. La de PC salió hoy y ya está en Game Pass."
+      },
+      {
         fecha: "2026-09-30",
         titulo: "SALE EL 10 DE NOVIEMBRE",
         texto: "SEGA puso fecha para PS5, Xbox, PC y celulares."
       }
     ],
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-10-01"
   },
@@ -11511,7 +11528,7 @@ const JUEGOS = [
     fecha: "2026-11-04",
     relanzamiento: "En acceso anticipado en PC desde 2025 y en Game Preview en Xbox",
     duracion: "≈ 4 h (historia)",
-    plataformas: ["PS5"],
+    plataformas: ["PS5", "XBOX"],
     genero: ["SHOOTER", "FPS", "ROGUELIKE", "INDIE"],
     desarrollador: "STUBBY GAMES",
     descripcion: "Un shooter roguelite en primera persona, rápido y con mucha movilidad. Una IA hostil tiene al protagonista atrapado en un ciclo sin fin de peleas contra máquinas, y la única forma de escapar es romper el sistema. Las armas se modifican casi sin límite combinando mods para armar sinergias, y los escenarios se pueden destruir.",
@@ -11520,12 +11537,17 @@ const JUEGOS = [
     imagen: "https://store-images.s-microsoft.com/image/apps.20544.13536036111571877.589d3b26-235b-491c-b54b-52bb688c551a.75e42099-ab23-4790-9d28-58ea2fa9077d?w=600&h=900&format=jpg",
     noticias: [
       {
+        fecha: "2026-11-03",
+        titulo: "LLEGA A XBOX Y A GAME PASS EL 4 DE NOVIEMBRE",
+        texto: "Xbox lo sumó a la primera tanda de Game Pass de noviembre: el 4 deja el Game Preview y entra a Ultimate, Premium y PC Game Pass, el mismo día que sale en PS5."
+      },
+      {
         fecha: "2026-10-01",
         titulo: "SALE EL 4 DE NOVIEMBRE Y DEBUTA EN PS5",
         texto: "Ese día deja el acceso anticipado de PC y el Game Preview de Xbox, y llega por primera vez a PS5."
       }
     ],
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-10-02"
   },
@@ -11916,6 +11938,11 @@ const JUEGOS = [
     imagen: "https://store-images.s-microsoft.com/image/apps.63012.13865289401901694.ec4fd4fe-95aa-4110-a6b3-96d9a78df1a3.0a17bc32-56e3-46a1-8aae-d4edfc5689e8?w=600&h=900&format=jpg",
     noticias: [
       {
+        fecha: "2026-11-03",
+        titulo: "ENTRA A GAME PASS EL DÍA QUE SALE",
+        texto: "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 10 entra a Ultimate y PC Game Pass."
+      },
+      {
         fecha: "2026-11-02",
         titulo: "TAMBIÉN SALE EN SWITCH",
         texto: "Además de la de Switch 2, la eShop lista una versión de Switch para el mismo 10 de noviembre."
@@ -11926,7 +11953,7 @@ const JUEGOS = [
         texto: "Auroch Digital puso fecha y presentó personajes nuevos. Sale en PS5, Xbox, Switch 2 y PC, y en Xbox ya hay demo."
       }
     ],
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-10-06"
   },
@@ -12295,6 +12322,11 @@ const JUEGOS = [
     imagen: "https://store-images.s-microsoft.com/image/apps.32075.14607328992338706.a7a9f492-6e2c-4b94-ab21-d3b4889e76fe.303a41a4-14bb-4486-a564-6e3cc7dbf83a?w=600&h=900&format=jpg",
     noticias: [
       {
+        fecha: "2026-11-03",
+        titulo: "ENTRA A GAME PASS EL DÍA QUE SALE",
+        texto: "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 5 entra a Ultimate y PC Game Pass."
+      },
+      {
         fecha: "2026-10-15",
         titulo: "TAMBIÉN SALE EN XBOX",
         texto: "La tienda de Xbox ya tiene la edición Deluxe para el 5 de noviembre, el mismo día que en PS5."
@@ -12305,7 +12337,7 @@ const JUEGOS = [
         texto: "Se anunció en el blog de PlayStation, con un tráiler. La PS Store todavía no tiene el día y la tienda de Xbox lo lista sin fecha."
       }
     ],
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-10-13"
   },
@@ -12907,8 +12939,6 @@ const JUEGOS = [
     metacriticUsuarios: 7.9,
     metacriticVotos: 317,
     critica: "Las reseñas son de la versión de PC de 2024, y lo consideran uno de los grandes juegos de terror de los últimos años. Lo describen como un terror psicológico corto, sucio e incómodo, con una escritura excelente, imágenes perturbadoras, estética de PS1 y una historia que salta en el tiempo y no se olvida. Los reparos van a la jugabilidad: acertijos flojos, persecuciones molestas y tramos repetitivos.",
-    metacriticUsuarios: 7.9,
-    metacriticVotos: 309,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2475490/library_600x900_2x.jpg",
     noticias: [
       {
@@ -14400,12 +14430,17 @@ const JUEGOS = [
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/b8137047aa9108a0101280444547300e09835100/library_capsule_2x.jpg",
     noticias: [
       {
+        fecha: "2026-11-03",
+        titulo: "ENTRA A GAME PASS EL DÍA QUE SALE",
+        texto: "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 10 entra a Ultimate y PC Game Pass."
+      },
+      {
         fecha: "2026-10-28",
         titulo: "SALE EL 10 DE NOVIEMBRE",
         texto: "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 10 de noviembre. Ese mismo día sale en PS5, PS4, Xbox Series y PC."
       }
     ],
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-10-28"
   },
@@ -15169,6 +15204,29 @@ const JUEGOS = [
       }
     ],
     gamepass: false,
+    psplus: false,
+    alta: "2026-11-03"
+  },
+  {
+    id: "thronefall",
+    titulo: "THRONEFALL",
+    fecha: "2026-11-11",
+    relanzamiento: "En PC y Switch desde octubre de 2024",
+    plataformas: ["XBOX"],
+    genero: ["ESTRATEGIA", "INDIE"],
+    desarrollador: "GRIZZLY GAMES",
+    descripcion: "Un juego de estrategia minimalista: de día se construye un reino chico y de noche se lo defiende de oleadas de enemigos cada vez más fuertes. Hay que repartir el oro entre casas, minas y molinos que dan ganancias cada mañana y murallas, torres y cuarteles que lo protegen, y además el rey pelea en persona con una de nueve armas. Son diez mapas, más de cincuenta ventajas para desbloquear y partidas cortas, una vuelta simple al tower defense.",
+    trailer: "https://youtube.com/embed/bHMSu6iMIYI",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239150/c9ea108e7630468c60a604ffc61f92237b83a35b/library_600x900_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-03",
+        titulo: "LLEGA A XBOX Y A GAME PASS EL 11 DE NOVIEMBRE",
+        texto: "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 11 entra a Ultimate, Premium y PC Game Pass. La PS Store también tiene una ficha para ese día, sin consola confirmada."
+      }
+    ],
+    gamepass: true,
     psplus: false,
     alta: "2026-11-03"
   }

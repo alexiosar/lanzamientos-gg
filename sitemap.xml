@@ -86,8 +86,15 @@
   </url>
 
   <url>
+    <loc>https://lanzamientos.lat/game-pass-noviembre-2026</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://lanzamientos.lat/game-pass-octubre-2026</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -948,7 +955,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/paw-patrol-dino-world</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1410,7 +1417,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/hope-in-the-city</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1508,7 +1515,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/paperhead</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3496,7 +3503,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/football-manager-27</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3524,7 +3531,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/void-breaker</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3643,7 +3650,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/warhammer-survivors</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3762,7 +3769,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/escape-academy-2-back-2-school</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4154,7 +4161,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/sulfur</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4175,7 +4182,7 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/gennady</loc>
-    <lastmod>2026-11-02</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4588,6 +4595,13 @@
 
   <url>
     <loc>https://lanzamientos.lat/juegos/duck-side-of-the-moon</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lanzamientos.lat/juegos/thronefall</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

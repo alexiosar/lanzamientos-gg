@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-03T16:17:57+00:00",
+ "generado": "2026-11-03T19:15:26+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-11-03",
  "hasta": "2026-12-03",
- "total": 61,
+ "total": 62,
  "juegos": [
   {
    "id": "zero-parades-for-dead-spies",
@@ -229,7 +229,8 @@
    "relanzamiento": "En acceso anticipado en PC desde 2025 y en Game Preview en Xbox",
    "duracion": "≈ 4 h (historia)",
    "plataformas": [
-    "PS5"
+    "PS5",
+    "XBOX"
    ],
    "genero": [
     "SHOOTER",
@@ -242,11 +243,16 @@
    "trailer": "https://youtube.com/embed/kSkke3Bv84o",
    "metacritic": null,
    "imagen": "https://store-images.s-microsoft.com/image/apps.20544.13536036111571877.589d3b26-235b-491c-b54b-52bb688c551a.75e42099-ab23-4790-9d28-58ea2fa9077d?w=600&h=900&format=jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-10-02",
    "url": "https://lanzamientos.lat/juegos/void-breaker",
    "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "LLEGA A XBOX Y A GAME PASS EL 4 DE NOVIEMBRE",
+     "texto": "Xbox lo sumó a la primera tanda de Game Pass de noviembre: el 4 deja el Game Preview y entra a Ultimate, Premium y PC Game Pass, el mismo día que sale en PS5."
+    },
     {
      "fecha": "2026-10-01",
      "titulo": "SALE EL 4 DE NOVIEMBRE Y DEBUTA EN PS5",
@@ -443,11 +449,16 @@
    "trailer": "https://youtube.com/embed/Aer93YCNrRI",
    "metacritic": null,
    "imagen": "https://store-images.s-microsoft.com/image/apps.32075.14607328992338706.a7a9f492-6e2c-4b94-ab21-d3b4889e76fe.303a41a4-14bb-4486-a564-6e3cc7dbf83a?w=600&h=900&format=jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-10-13",
    "url": "https://lanzamientos.lat/juegos/escape-academy-2-back-2-school",
    "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
+     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 5 entra a Ultimate y PC Game Pass."
+    },
     {
      "fecha": "2026-10-15",
      "titulo": "TAMBIÉN SALE EN XBOX",
@@ -613,27 +624,6 @@
    ]
   },
   {
-   "id": "hope-in-the-city",
-   "titulo": "HOPE IN THE CITY",
-   "fecha": "2026-11-10",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "LOFTY SKY ENTERTAINMENT",
-   "descripcion": "Un misterio narrativo en la ciudad china de Shenyang. Hope Song, de 17 años, vuelve del colegio y encuentra la casa revuelta y a sus padres desaparecidos, sin una nota. Con su mirada de artista junta pistas y destapa lo que se esconde debajo de la calma de su ciudad, en una investigación que no sigue un camino fijo. Lo hace el equipo de Sky of Tides y Eternal Spring.",
-   "trailer": "https://youtube.com/embed/aeSj0-tQqxY",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9y32.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/hope-in-the-city"
-  },
-  {
    "id": "ova-magica",
    "titulo": "OVA MAGICA",
    "fecha": "2026-11-10",
@@ -691,11 +681,16 @@
    "trailer": "https://youtube.com/embed/9rdMzTr0sAg",
    "metacritic": null,
    "imagen": "https://store-images.s-microsoft.com/image/apps.47586.13984136076613493.b5146129-a992-4e04-8b43-ffa40460c569.40797f8e-48ea-47e2-aab8-9ea6e13f5a79?w=600&h=900&format=jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-10-01",
    "url": "https://lanzamientos.lat/juegos/football-manager-27",
    "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
+     "texto": "La versión de consolas entra a Ultimate y PC Game Pass el 10 de noviembre. La de PC salió hoy y ya está en Game Pass."
+    },
     {
      "fecha": "2026-09-30",
      "titulo": "SALE EL 10 DE NOVIEMBRE",
@@ -723,11 +718,16 @@
    "trailer": "https://youtube.com/embed/XvvWBS2uMw8",
    "metacritic": null,
    "imagen": "https://store-images.s-microsoft.com/image/apps.63012.13865289401901694.ec4fd4fe-95aa-4110-a6b3-96d9a78df1a3.0a17bc32-56e3-46a1-8aae-d4edfc5689e8?w=600&h=900&format=jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-10-06",
    "url": "https://lanzamientos.lat/juegos/warhammer-survivors",
    "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
+     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 10 entra a Ultimate y PC Game Pass."
+    },
     {
      "fecha": "2026-11-02",
      "titulo": "TAMBIÉN SALE EN SWITCH",
@@ -860,15 +860,48 @@
    "trailer": "https://youtube.com/embed/eSL5Np0yu1A",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/b8137047aa9108a0101280444547300e09835100/library_capsule_2x.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-10-28",
    "url": "https://lanzamientos.lat/juegos/tanuki-pons-summer",
    "noticias": [
     {
+     "fecha": "2026-11-03",
+     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
+     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 10 entra a Ultimate y PC Game Pass."
+    },
+    {
      "fecha": "2026-10-28",
      "titulo": "SALE EL 10 DE NOVIEMBRE",
      "texto": "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 10 de noviembre. Ese mismo día sale en PS5, PS4, Xbox Series y PC."
+    }
+   ]
+  },
+  {
+   "id": "hope-in-the-city",
+   "titulo": "HOPE IN THE CITY",
+   "fecha": "2026-11-11",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "LOFTY SKY ENTERTAINMENT",
+   "descripcion": "Un misterio narrativo en la ciudad china de Shenyang. Hope Song, de 17 años, vuelve del colegio y encuentra la casa revuelta y a sus padres desaparecidos, sin una nota. Con su mirada de artista junta pistas y destapa lo que se esconde debajo de la calma de su ciudad, en una investigación que no sigue un camino fijo. Lo hace el equipo de Sky of Tides y Eternal Spring.",
+   "trailer": "https://youtube.com/embed/aeSj0-tQqxY",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9y32.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/hope-in-the-city",
+   "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "SALE EL 11 DE NOVIEMBRE, CON GAME PASS",
+     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre para el 11, un día más tarde de lo anunciado, y la tienda de Xbox y Steam también lo tienen para ese día. Entra a Ultimate y PC Game Pass."
     }
    ]
   },
@@ -894,6 +927,35 @@
    "psplus": false,
    "alta": "2026-09-17",
    "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard"
+  },
+  {
+   "id": "thronefall",
+   "titulo": "THRONEFALL",
+   "fecha": "2026-11-11",
+   "relanzamiento": "En PC y Switch desde octubre de 2024",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "INDIE"
+   ],
+   "desarrollador": "GRIZZLY GAMES",
+   "descripcion": "Un juego de estrategia minimalista: de día se construye un reino chico y de noche se lo defiende de oleadas de enemigos cada vez más fuertes. Hay que repartir el oro entre casas, minas y molinos que dan ganancias cada mañana y murallas, torres y cuarteles que lo protegen, y además el rey pelea en persona con una de nueve armas. Son diez mapas, más de cincuenta ventajas para desbloquear y partidas cortas, una vuelta simple al tower defense.",
+   "trailer": "https://youtube.com/embed/bHMSu6iMIYI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239150/c9ea108e7630468c60a604ffc61f92237b83a35b/library_600x900_2x.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-11-03",
+   "url": "https://lanzamientos.lat/juegos/thronefall",
+   "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "LLEGA A XBOX Y A GAME PASS EL 11 DE NOVIEMBRE",
+     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 11 entra a Ultimate, Premium y PC Game Pass. La PS Store también tiene una ficha para ese día, sin consola confirmada."
+    }
+   ]
   },
   {
    "id": "sonic-pico-park",
