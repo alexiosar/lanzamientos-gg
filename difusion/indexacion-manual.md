@@ -34,6 +34,9 @@ que cambió entera con la mensual, y octubre archivado), después `/febrero-2027
 día 2 y `/abril-2027`. Quedan para la próxima Deltarune, Big Walk, Denshattack y el resto del
 día 3.
 
+**Pedidas el 03/11:** las nueve que quedaban del día 3 y Halo: Campaign Evolved, la primera
+del día 4. La próxima lista sigue con Oblivion Remastered y el resto del día 4.
+
 ## Día 7 (desde el 02/11)
 
 Páginas nuevas o rehechas por la rutina mensual de noviembre.
@@ -74,19 +77,19 @@ the Sinking Star, que pasa al día 5.
 ## Día 3
 
 - [x] https://lanzamientos.lat/abril-2027 (02/11)
-- [ ] https://lanzamientos.lat/juegos/deltarune-chapter-5
-- [ ] https://lanzamientos.lat/juegos/big-walk
-- [ ] https://lanzamientos.lat/juegos/denshattack
-- [ ] https://lanzamientos.lat/juegos/star-wars-zero-company
-- [ ] https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2
-- [ ] https://lanzamientos.lat/juegos/splatoon-raiders
-- [ ] https://lanzamientos.lat/juegos/the-sinking-city-2
-- [ ] https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy
-- [ ] https://lanzamientos.lat/juegos/doom-the-dark-ages-revelations
+- [x] https://lanzamientos.lat/juegos/deltarune-chapter-5 (03/11)
+- [x] https://lanzamientos.lat/juegos/big-walk (03/11)
+- [x] https://lanzamientos.lat/juegos/denshattack (03/11)
+- [x] https://lanzamientos.lat/juegos/star-wars-zero-company (03/11)
+- [x] https://lanzamientos.lat/juegos/metal-gear-solid-master-collection-vol-2 (03/11)
+- [x] https://lanzamientos.lat/juegos/splatoon-raiders (03/11)
+- [x] https://lanzamientos.lat/juegos/the-sinking-city-2 (03/11)
+- [x] https://lanzamientos.lat/juegos/resonance-a-plague-tale-legacy (03/11)
+- [x] https://lanzamientos.lat/juegos/doom-the-dark-ages-revelations (03/11)
 
 ## Día 4
 
-- [ ] https://lanzamientos.lat/juegos/halo-campaign-evolved
+- [x] https://lanzamientos.lat/juegos/halo-campaign-evolved (03/11)
 - [ ] https://lanzamientos.lat/juegos/the-elder-scrolls-iv-oblivion-remastered
 - [ ] https://lanzamientos.lat/juegos/kynseed
 - [ ] https://lanzamientos.lat/juegos/palworld
