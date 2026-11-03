@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-02T18:12:07+00:00",
+ "generado": "2026-11-03T16:17:57+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-02",
- "hasta": "2026-12-02",
- "total": 48,
+ "desde": "2026-11-03",
+ "hasta": "2026-12-03",
+ "total": 61,
  "juegos": [
   {
    "id": "zero-parades-for-dead-spies",
@@ -27,13 +27,21 @@
    "desarrollador": "ZA/UM",
    "descripcion": "El RPG de espionaje de ZA/UM, el estudio que hizo Disco Elysium. El protagonismo es de Hershel Wilk, alias Cascade, que carga desde hace cinco años con una misión en la que perdió a todo su equipo, hasta que llega un encargo misterioso. Todo se resuelve con tiradas de habilidad, por engaño, violencia o deducción, en una ciudad partida entre tres bandos. En PS5 llega como Director's Cut, con la actualización del mismo nombre.",
    "trailer": "https://youtube.com/embed/C_acH7Wx1Ew",
-   "metacritic": null,
+   "metacritic": 83,
+   "critica": "Muchas reseñas, de la versión de PC, y varias con nota perfecta. La mayoría lo recibe como un sucesor digno de Disco Elysium que se gana su propia identidad: un RPG de mucho texto y tiradas de dados, un thriller de espías con política, filosofía y humor negro, muy bien escrito y con gran actuación de voces. Los reparos van a un ritmo lento que pide paciencia, a una segunda mitad caótica, a problemas técnicos y, en las notas más bajas, a que la prosa se vuelve recargada y el espionaje no termina de convencer.",
+   "metacriticUsuarios": 6.7,
+   "metacriticVotos": 108,
    "imagen": "https://cdn2.steamgriddb.com/grid/26ba856ac2a18ce42499c6053aa678e4.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
    "url": "https://lanzamientos.lat/juegos/zero-parades-for-dead-spies",
    "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "DEBUTA CON 83 EN METACRITIC",
+     "texto": "Salió hoy en PS5, Xbox y PC con 83 sobre 62 reseñas de la versión de PC, tres de ellas de 100."
+    },
     {
      "fecha": "2026-10-21",
      "titulo": "TAMBIÉN SALE EN XBOX EL 3 DE NOVIEMBRE",
@@ -80,13 +88,20 @@
    "desarrollador": "VOXLER",
    "descripcion": "Un Let's Sing dedicado entero a ABBA, con el repertorio del grupo sueco en vez de la lista variada de la entrega anual. Mismo formato: se canta de a varios, con micrófonos o usando el celular.",
    "trailer": "https://youtube.com/embed/A0ZONw-vPmE",
-   "metacritic": null,
+   "metacritic": 70,
+   "critica": "Pocas reseñas, de la reedición de PS5. Coinciden en que es el Let's Sing de siempre con canciones de ABBA: bien presentado, con modos de sobra y una lista de temas que no falla en una reunión. Los reparos van a que no trae nada nuevo más allá de la música y los avatares, y a que cuesta justificarlo si ya se tiene la versión de 2022.",
+   "metacriticUsuarios": null,
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1w.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/lets-sing-abba",
    "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "DEBUTA CON 70 EN METACRITIC",
+     "texto": "Tiene 70 sobre cinco reseñas de la reedición de PS5."
+    },
     {
      "fecha": "2026-08-07",
      "titulo": "SALE EL 3 DE NOVIEMBRE, CON 32 CANCIONES",
@@ -117,13 +132,21 @@
     "canal": "elKate",
     "canalUrl": "https://www.youtube.com/@elKateYT"
    },
-   "metacritic": null,
+   "metacritic": 64,
+   "critica": "Reseñas de la versión de PC de 2025, entre tibias y mixtas. Valoran el combate espectacular, la fidelidad al webtoon y la sensación de ser Sung Jinwoo convirtiéndose en el cazador más fuerte. Los reparos van al contenido secundario repetitivo, a una progresión que se vuelve rutina y a que, como adaptación, se queda con la fantasía de poder y pierde buena parte de lo que hacía interesante a la historia.",
+   "metacriticUsuarios": 5.0,
+   "metacriticVotos": 12,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2373990/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-27",
    "url": "https://lanzamientos.lat/juegos/solo-leveling-arise-overdrive",
    "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "DEBUTA CON 64 EN METACRITIC",
+     "texto": "Llega hoy a PS5 y Xbox con 64 sobre 11 reseñas de la versión de PC."
+    },
     {
      "fecha": "2026-10-28",
      "titulo": "SALE EL 3 DE NOVIEMBRE EN PS5 Y XBOX",
@@ -154,12 +177,20 @@
    "desarrollador": "PIPEWORKS STUDIOS",
    "descripcion": "La remasterización del juego de peleas de monstruos gigantes de 2002, hecha por Pipeworks, el estudio original, junto con Atari. Se elige un monstruo y se pelea en ocho escenarios, cada uno de día y de noche: ciudades reales, la Isla de los Monstruos y la nave nodriza alienígena. Cada monstruo tiene sus golpes, sus rayos y un modo furia, y el escenario también se usa: se puede revolear un rascacielos. Al multijugador local le suma uno online.",
    "trailer": "https://youtube.com/embed/8N9QN4X1pIk",
-   "metacritic": null,
+   "metacritic": 73,
+   "critica": "Reseñas de la versión de PS5, positivas sin entusiasmo. Celebran que el juego de peleas de kaijus de GameCube vuelva con gráficos hechos de nuevo, escenarios para destruir y un multijugador caótico y divertido. Los reparos van a un plantel corto, a que hay que repetir mucho para desbloquear personajes, a controles algo toscos y a que, más allá de lo visual, suma poco.",
    "imagen": "https://cdn2.steamgriddb.com/grid/49a971f590a2340c314be8d59a676c7f.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/godzilla-destroy-all-monsters-melee-remastered"
+   "url": "https://lanzamientos.lat/juegos/godzilla-destroy-all-monsters-melee-remastered",
+   "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "DEBUTA CON 73 EN METACRITIC",
+     "texto": "Salió hoy con 73 sobre siete reseñas de la versión de PS5."
+    }
+   ]
   },
   {
    "id": "pit-of-goblin",
@@ -603,6 +634,46 @@
    "url": "https://lanzamientos.lat/juegos/hope-in-the-city"
   },
   {
+   "id": "ova-magica",
+   "titulo": "OVA MAGICA",
+   "fecha": "2026-11-10",
+   "relanzamiento": "En PC desde mayo de 2026",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "SIMULACION",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "CLAUDIATHEDEV",
+   "descripcion": "Un simulador de granja con colección de criaturas, en el campo de Pueblo Trébol. Se arranca de nuevo en una granja abandonada y se cría a los blobs, criaturas que ayudan a regar, dan leche y otros productos, salen a explorar y entrenan para la Copa Trébol; también se pueden cruzar para sacar blobs propios. Los vecinos tienen historias que cambian a medida que se los ayuda, y puede haber romance. Las estaciones transforman el pueblo, con fiestas y tradiciones a lo largo del año.",
+   "trailer": "https://youtube.com/embed/nPSI0okfs5E",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299170/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-28",
+   "url": "https://lanzamientos.lat/juegos/ova-magica",
+   "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "SALE EL 10 DE NOVIEMBRE EN CONSOLAS",
+     "texto": "Top Hat Studios confirmó el día para PS5, PS4, Xbox, Switch 2 y Switch, y la tienda de Xbox ya lo tiene."
+    },
+    {
+     "fecha": "2026-10-05",
+     "titulo": "LAS VERSIONES DE CONSOLA TODAVÍA NO SALIERON",
+     "texto": "Estaban anunciadas para el 8 de septiembre, pero no aparecieron: la PS Store lo lista para 2026, sin día, y la tienda de Xbox y la eShop todavía no lo tienen. En PC está desde mayo."
+    }
+   ]
+  },
+  {
    "id": "football-manager-27",
    "titulo": "FOOTBALL MANAGER 27",
    "fecha": "2026-11-10",
@@ -991,7 +1062,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/pikmin-4-switch-2"
+   "url": "https://lanzamientos.lat/juegos/pikmin-4-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "NINTENDO MOSTRÓ CUATRO MINUTOS DE LA EDICIÓN",
+     "texto": "El tráiler de presentación repasa lo que suma la edición de Switch 2, con la Academia Dandori, antes de que salga el 12 de noviembre."
+    }
+   ]
   },
   {
    "id": "hazard-levels",
@@ -1088,6 +1166,37 @@
    ]
   },
   {
+   "id": "derelikt",
+   "titulo": "DERELIKT",
+   "fecha": "2026-11-13",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SHOOTER",
+    "FPS",
+    "HORROR",
+    "RETRO"
+   ],
+   "desarrollador": "VISUWYG",
+   "descripcion": "Un FPS narrativo de terror y ciencia ficción con el aspecto de un juego de fines de PS1. Se llega como contratista externo al Puesto Von Neumann, montado sobre un asteroide extraño en la órbita de Saturno, para averiguar qué le pasó a un equipo de excavación que desapareció en la superficie. Pasillos estrechos, poca munición y un dron misterioso que tiene a todos al borde.",
+   "trailer": "https://youtube.com/embed/TTugbawfiN8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/2728f0a55f1f55e0212425862181ef79b1617a6d/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-03",
+   "url": "https://lanzamientos.lat/juegos/derelikt",
+   "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "SALE EL 13 DE NOVIEMBRE",
+     "texto": "Hyperstrange lo anunció en el blog de PlayStation para PS5, y la tienda de Xbox lo tiene para el mismo día. También sale en PC."
+    }
+   ]
+  },
+  {
    "id": "spirit-crossing",
    "titulo": "SPIRIT CROSSING",
    "fecha": "2026-11-16",
@@ -1172,6 +1281,36 @@
    ]
   },
   {
+   "id": "duck-side-of-the-moon",
+   "titulo": "DUCK SIDE OF THE MOON",
+   "fecha": "2026-11-17",
+   "relanzamiento": "En Switch y PC desde mayo de 2026 — esta fecha corresponde a la edición de PS5",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "STARBREW GAMES",
+   "descripcion": "Una aventura tranquila en el espacio, en la piel de un pato que camina y vuela por la galaxia. Se exploran planetas, se encuentran criaturas curiosas y materiales, se fabrican aparatos y se mejora la nave, sin apuro.",
+   "trailer": "https://youtube.com/embed/0bFlFEC77zg",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2959770/177dcf703b1af06dba8bb6de5f31fd99078b4bf2/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-03",
+   "url": "https://lanzamientos.lat/juegos/duck-side-of-the-moon",
+   "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "LLEGA A PS5 EL 17 DE NOVIEMBRE",
+     "texto": "Starbrew Games anunció la versión de PS5 junto con Homegrown, una actualización gratis para todas las versiones."
+    }
+   ]
+  },
+  {
    "id": "grand-theft-auto-vi",
    "titulo": "GRAND THEFT AUTO VI",
    "fecha": "2026-11-19",
@@ -1194,6 +1333,11 @@
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi",
    "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "LA PREDESCARGA ARRANCA EL 10 DE NOVIEMBRE",
+     "texto": "PlayStation confirmó que en PS5 se puede descargar desde el 10, nueve días antes del lanzamiento del 19."
+    },
     {
      "fecha": "2026-10-15",
      "titulo": "SALIÓ EL TRÁILER DE LANZAMIENTO",
@@ -1472,6 +1616,303 @@
      "fecha": "2026-10-29",
      "titulo": "LLEGA A PS5 Y SWITCH 2 EL 2 DE DICIEMBRE",
      "texto": "Alliance Arts anunció las versiones de consola. La PS Store ya tiene el día."
+    }
+   ]
+  },
+  {
+   "id": "edge-of-memories",
+   "titulo": "EDGE OF MEMORIES",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "RPG",
+    "ACCION"
+   ],
+   "desarrollador": "MIDGAR STUDIO",
+   "descripcion": "Un RPG de acción de Midgar Studio, los de Edge of Eternity. Una plaga llamada corrosión arrasó un continente y ahora amenaza a los pueblos nómadas de Avaris. Eline, una susurradora de almas, descubre que puede controlar la corrosión dentro de su propio cuerpo, y con Ysoris, su mentor, y Kanta, un príncipe chamán, sale a frenarla.",
+   "trailer": "https://youtube.com/embed/WsbT4fnsCMU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2738170/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-17",
+   "url": "https://lanzamientos.lat/juegos/edge-of-memories",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "SE RETRASA AL 3 DE DICIEMBRE",
+     "texto": "Nacon lo movió del 5 de noviembre al 3 de diciembre en PS5, Xbox Series y PC. La tienda de Xbox ya tiene la fecha nueva, y la edición Digital Deluxe deja jugar desde el 1. Midgar Studio, el estudio que lo hizo, cerró a mitad de año por los problemas financieros de Nacon, que siguió adelante con el lanzamiento."
+    }
+   ]
+  },
+  {
+   "id": "rayman-legends-retold",
+   "titulo": "RAYMAN LEGENDS RETOLD",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "XBOX",
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "CASUAL"
+   ],
+   "desarrollador": "UBISOFT",
+   "descripcion": "Un remake del Rayman Legends de 2013, con gráficos nuevos y la historia contada de otra forma. Suma un reino que no estaba y niveles musicales nuevos, y se sigue pudiendo jugar de a cuatro en la misma consola.",
+   "trailer": "https://youtube.com/embed/2_7BQ9hLGkk",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc5tb.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-24",
+   "url": "https://lanzamientos.lat/juegos/rayman-legends-retold",
+   "noticias": [
+    {
+     "fecha": "2026-10-28",
+     "titulo": "LA VERSIÓN DE PS5 TRAE UN TRAJE DE ASTRO BOT",
+     "texto": "Ubisoft mostró un traje exclusivo de PS5 basado en Astro Bot. El juego sale el 3 de diciembre."
+    },
+    {
+     "fecha": "2026-09-14",
+     "titulo": "SE RETRASA DOS MESES: SALE EL 3 DE DICIEMBRE",
+     "texto": "Ubisoft movió la salida del 1 de octubre al 3 de diciembre, en las tres consolas a la vez. La PS Store y Steam ya muestran la fecha nueva, y la reserva sigue abierta."
+    }
+   ]
+  },
+  {
+   "id": "xenoblade-chronicles-3-switch-2",
+   "titulo": "XENOBLADE CHRONICLES 3 — NINTENDO SWITCH 2 EDITION",
+   "fecha": "2026-12-03",
+   "relanzamiento": "En Switch desde 2022 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 62 h (historia) · 174 h (completo)",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "AVENTURA",
+    "ACCION",
+    "ANIME"
+   ],
+   "desarrollador": "MONOLITH SOFT",
+   "descripcion": "La edición de Switch 2 del tercer Xenoblade suma resolución 4K y hasta 60 imágenes por segundo, y trae contenido nuevo: un héroe con su misión, escenas con voces que antes no las tenían y un modo roguelike en el que el grupo aguanta oleadas de enemigos. Quien tenga la versión de Switch puede comprar el pack de mejora.",
+   "trailer": "https://youtube.com/embed/vTaD8maruNs",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7ms.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-30",
+   "url": "https://lanzamientos.lat/juegos/xenoblade-chronicles-3-switch-2"
+  },
+  {
+   "id": "dragon-quest-monsters-the-withered-world",
+   "titulo": "DRAGON QUEST MONSTERS: EL REINO MARCHITO",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "SWITCH2",
+    "SWITCH",
+    "PS5"
+   ],
+   "genero": [
+    "RPG",
+    "AVENTURA",
+    "POR TURNOS",
+    "ANIME"
+   ],
+   "desarrollador": "SQUARE ENIX",
+   "descripcion": "Un RPG de la rama de monstruos de Dragon Quest: se hacen amigos monstruos de toda la saga, se los entrena y se combinan de a dos para crear criaturas más fuertes, a veces nunca vistas. Cada monstruo tiene rasgos propios y puede aprender talentos, así que el equipo se ajusta a la forma de jugar de cada uno, y los monstruos acompañan en la exploración. La historia sigue a Bianca y Nera, dos domadoras novatas que salen de aventura por un mundo con un estilo visual propio, donde cada paso descubre algo nuevo.",
+   "trailer": "https://youtube.com/embed/NWngPjqMKUk",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc7pv.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-30",
+   "url": "https://lanzamientos.lat/juegos/dragon-quest-monsters-the-withered-world",
+   "noticias": [
+    {
+     "fecha": "2026-09-24",
+     "titulo": "MÁS DETALLES: SCOUT RUN, COMBATES EN CONJUNTO Y MONSTRUOS NUEVOS",
+     "texto": "Square Enix y TOSE mostraron el reclutamiento rápido de monstruos (Quick Scouting y Scout Run), los combates en conjunto, el personaje de Almira y un grupo de monstruos nuevos."
+    }
+   ]
+  },
+  {
+   "id": "sombras-negative-frames",
+   "titulo": "SOMBRAS: NEGATIVE FRAMES",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "SWITCH2",
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "HORROR",
+    "INDIE"
+   ],
+   "desarrollador": "MABOROSHI ARTWORKS",
+   "descripcion": "Un juego narrativo en primera persona, con toques de terror, construido alrededor de la fotografía. Shiomi Alterio, estudiante de fotografía de origen japonés y español, vive con su padre en un barrio tranquilo de Japón después del divorcio de sus padres. Una noche queda atrapada en una dimensión paralela de calles conocidas, sombras hambrientas y chicas que se parecen demasiado a ella. Para volver hay que fotografiar escenas extrañas y juntar los pedazos de su identidad.",
+   "trailer": "https://youtube.com/embed/Tcd3gF2jAVM",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc9g1.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-30",
+   "url": "https://lanzamientos.lat/juegos/sombras-negative-frames"
+  },
+  {
+   "id": "thief-the-dark-project-remastered",
+   "titulo": "THIEF: THE DARK PROJECT REMASTERED",
+   "duracion": "≈ 13 h (historia) · 29 h (completo)",
+   "fecha": "2026-12-03",
+   "relanzamiento": "El original de PC es de 1998",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RETRO",
+    "GOTICO"
+   ],
+   "desarrollador": "NIGHTDIVE STUDIOS",
+   "descripcion": "La remasterización de Nightdive del Thief de Looking Glass, de 1998, el juego de sigilo en primera persona que usó por primera vez la luz y el sonido para esconderse y acercarse sin pelear. Garrett, un huérfano rescatado de la calle por la orden secreta de los Keepers, roba en niveles laberínticos sin un camino fijo, con guardias que oyen, hablan y dan la alarma. Cada misión tiene tres dificultades con objetivos distintos, e incluye las misiones y agregados de Thief Gold, de 1999.",
+   "trailer": "https://youtube.com/embed/QuclsDMslyQ",
+   "metacritic": null,
+   "imagen": "https://cdn2.steamgriddb.com/grid/7703de3826577efd144f0367e82f3103.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/thief-the-dark-project-remastered",
+   "noticias": [
+    {
+     "fecha": "2026-11-03",
+     "titulo": "SALE EL 3 DE DICIEMBRE",
+     "texto": "Nightdive y Atari le pusieron fecha a la remasterización. La PS Store y la tienda de Xbox ya la confirman."
+    }
+   ]
+  },
+  {
+   "id": "fall-up",
+   "titulo": "FALL UP",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "UNICELLULAR GAMES",
+   "descripcion": "Un plataformas donde el personaje es un robot al que le instalaron un módulo equivocado: Labi tiene las piernas más cortas y más potentes de toda la fábrica, y se dispara como una bala de cañón. Todo el juego sale de ahí — pisotear enemigos desde el aire, rebotar contra las paredes y encadenar saltos para encontrar la ruta buena. Más adelante aparece una bola que se puede tirar para teletransportarse adonde caiga, y el asunto pasa a ser tanto de planear como de reflejos.",
+   "trailer": "https://youtube.com/embed/nI4grkd3v_E",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1835670/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-03",
+   "url": "https://lanzamientos.lat/juegos/fall-up"
+  },
+  {
+   "id": "freestyle-football-2",
+   "titulo": "FREESTYLE FOOTBALL 2",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "DEPORTES",
+    "MULTIJUGADOR",
+    "ARCADE"
+   ],
+   "desarrollador": "WOORE",
+   "descripcion": "Fútbol online de cinco contra cinco, con jugadas de lucimiento y personajes con habilidades propias. Cada posición tiene su rol, y el equipo puede salir a presionar con una formación ofensiva o esperar atrás y salir de contra. Las canchas van del centro de una ciudad a lugares famosos del mundo, y cada gol se festeja con una celebración propia. Hay que comprarlo y además tiene compras dentro del juego.",
+   "trailer": "https://youtube.com/embed/EC2ahOJNTGc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004820/405c9ccbef4224fa52954a7062f0ce0ff46ef95c/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-14",
+   "url": "https://lanzamientos.lat/juegos/freestyle-football-2",
+   "noticias": [
+    {
+     "fecha": "2026-10-14",
+     "titulo": "SALE EL 3 DE DICIEMBRE",
+     "texto": "Joycity lo puso en preventa en PS5, Xbox Series y PC. Las ediciones Deluxe y Ultimate se pueden jugar desde el 30 de noviembre."
+    }
+   ]
+  },
+  {
+   "id": "remothered-red-nuns-legacy-switch-2",
+   "titulo": "REMOTHERED: RED NUN'S LEGACY",
+   "fecha": "2026-12-03",
+   "relanzamiento": "En PS5, Xbox y PC sale el 27 de octubre — esta fecha corresponde a la edición de Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "TERROR",
+    "AVENTURA",
+    "ACCION"
+   ],
+   "desarrollador": "STORMIND GAMES",
+   "descripcion": "Un survival horror en tercera persona a la manera de los clásicos, pero con controles modernos. La búsqueda de una hija secuestrada lleva a un convento siciliano donde nació el mito de la Monja Roja. Hay que esconderse, escapar y contraatacar en el momento justo frente a los acechadores, resolver acertijos para abrir zonas nuevas y usar poderes de hipnosis para leer recuerdos olvidados y revelar caminos ocultos.",
+   "trailer": "https://youtube.com/embed/PEBcT6E6u6c",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobrbr.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-22",
+   "url": "https://lanzamientos.lat/juegos/remothered-red-nuns-legacy-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-10-22",
+     "titulo": "LA VERSIÓN DE SWITCH 2 SALE EL 3 DE DICIEMBRE",
+     "texto": "La eShop tiene la versión de Switch 2 para el 3 de diciembre, cinco semanas después que en PS5 y Xbox."
+    }
+   ]
+  },
+  {
+   "id": "the-dark-queen-of-mortholme",
+   "titulo": "THE DARK QUEEN OF MORTHOLME",
+   "fecha": "2026-12-03",
+   "relanzamiento": "En PC desde agosto de 2025",
+   "duracion": "≈ 0,5 h (historia) · 1,1 h (completo)",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "MOSU",
+   "descripcion": "Una aventura de acción de desplazamiento lateral en la que se juega como la jefa final: la Reina Oscura de Mortholme, de un poder sin rival. Un héroe invade su castillo y lo aplasta sin esfuerzo, pero vuelve una y otra vez. Es un juego corto sobre un vínculo inusual, los puntos de vista y la belleza del cambio.",
+   "trailer": "https://youtube.com/embed/qOuyZcc86WU",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3587610/7ff38bdfb57cb5cf90d233ccda91e614b30318e5/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-30",
+   "url": "https://lanzamientos.lat/juegos/the-dark-queen-of-mortholme",
+   "noticias": [
+    {
+     "fecha": "2026-10-30",
+     "titulo": "LLEGA A CONSOLAS EL 3 DE DICIEMBRE",
+     "texto": "Rhine Games lo lanza el 3 de diciembre en PS5, Xbox Series y Switch, con descuento la primera semana."
     }
    ]
   }

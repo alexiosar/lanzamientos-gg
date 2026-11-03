@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -135,6 +136,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">83 <span class="badge-quien">CRÍTICA</span></span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de los usuarios de Metacritic, de 0 a 10, sobre 1109 votos">8.1 <span class="badge-quien">USUARIOS</span></span>
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('metro-redux')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -163,7 +169,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la colección original de 2014, en PS4: esta versión de PS5 y Xbox Series no tiene críticas propias todavía. En su momento se la recibió como una de las mejores remasterizaciones: dos shooters de supervivencia de los más atmosféricos del género, con Metro 2033 vuelto a hacer casi por completo y mejoras de todo tipo. Los reparos iban a que no corrige los problemas de fondo de los originales, sobre todo lo tosco de 2033.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-11-03</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 83 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">La ficha toma el 83 de la colección de 2014, sobre 30 reseñas de PS4. La edición nueva todavía no tiene críticas propias.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-11-02</span>
@@ -191,6 +208,14 @@
       <div class="seccion">
         <div class="seccion-titulo">JUEGOS RELACIONADOS</div>
         <div class="rel-grid">
+          <a class="rel-item" href="/juegos/derelikt">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/2728f0a55f1f55e0212425862181ef79b1617a6d/library_600x900_2x.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">DERELIKT</span>
+              <span class="rel-fecha">13 NOV</span>
+              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-XBOX">XBOX</span></span>
+            </span>
+          </a>
           <a class="rel-item" href="/juegos/cultic">
             <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1684930/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -229,14 +254,6 @@
               <span class="rel-titulo">HAIL TO THE RAINBOW</span>
               <span class="rel-fecha">21 OCT</span>
               <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-XBOX">XBOX</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/sin-reloaded">
-            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632950/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">SIN: RELOADED</span>
-              <span class="rel-fecha">24 SEP</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-PS4">PS4</span><span class="plat plat-SWITCH">SWITCH</span></span>
             </span>
           </a>
         </div>

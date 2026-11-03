@@ -55,6 +55,14 @@
 
 const NOTICIAS = [
   {
+    id: "the-elder-scrolls-vi-sentinel",
+    fecha: "2026-11-03",
+    categoria: "ANUNCIOS",
+    titulo: "THE ELDER SCROLLS VI SE LLAMA SENTINEL",
+    texto: "Ocho años después del anuncio de 2018, Bethesda le puso nombre al sexto Elder Scrolls: The Elder Scrolls VI: Sentinel. Lo reveló en el festejo por los 40 años de Bethesda Game Studios. No hay fecha ni consolas confirmadas.",
+    fuente: "https://news.xbox.com/en-us/2026/11/03/the-elder-scrolls-vi-official-name-reveal/"
+  },
+  {
     id: "cierra-nagoshi-studio",
     fecha: "2026-11-02",
     categoria: "ANUNCIOS",
