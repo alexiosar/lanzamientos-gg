@@ -2,223 +2,40 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-03T19:15:26+00:00",
+ "generado": "2026-11-04T14:00:30+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-03",
- "hasta": "2026-12-03",
- "total": 62,
+ "desde": "2026-11-04",
+ "hasta": "2026-12-04",
+ "total": 59,
  "juegos": [
   {
-   "id": "zero-parades-for-dead-spies",
-   "titulo": "ZERO PARADES: FOR DEAD SPIES",
-   "relanzamiento": "En PC desde mayo de 2026 — esta fecha corresponde a la edición de PS5",
-   "duracion": "≈ 21 h (historia) · 38 h (completo)",
-   "fecha": "2026-11-03",
+   "id": "crymelight",
+   "titulo": "CRYMELIGHT",
+   "fecha": "2026-11-04",
    "plataformas": [
     "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "RPG",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "ZA/UM",
-   "descripcion": "El RPG de espionaje de ZA/UM, el estudio que hizo Disco Elysium. El protagonismo es de Hershel Wilk, alias Cascade, que carga desde hace cinco años con una misión en la que perdió a todo su equipo, hasta que llega un encargo misterioso. Todo se resuelve con tiradas de habilidad, por engaño, violencia o deducción, en una ciudad partida entre tres bandos. En PS5 llega como Director's Cut, con la actualización del mismo nombre.",
-   "trailer": "https://youtube.com/embed/C_acH7Wx1Ew",
-   "metacritic": 83,
-   "critica": "Muchas reseñas, de la versión de PC, y varias con nota perfecta. La mayoría lo recibe como un sucesor digno de Disco Elysium que se gana su propia identidad: un RPG de mucho texto y tiradas de dados, un thriller de espías con política, filosofía y humor negro, muy bien escrito y con gran actuación de voces. Los reparos van a un ritmo lento que pide paciencia, a una segunda mitad caótica, a problemas técnicos y, en las notas más bajas, a que la prosa se vuelve recargada y el espionaje no termina de convencer.",
-   "metacriticUsuarios": 6.7,
-   "metacriticVotos": 108,
-   "imagen": "https://cdn2.steamgriddb.com/grid/26ba856ac2a18ce42499c6053aa678e4.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/zero-parades-for-dead-spies",
-   "noticias": [
-    {
-     "fecha": "2026-11-03",
-     "titulo": "DEBUTA CON 83 EN METACRITIC",
-     "texto": "Salió hoy en PS5, Xbox y PC con 83 sobre 62 reseñas de la versión de PC, tres de ellas de 100."
-    },
-    {
-     "fecha": "2026-10-21",
-     "titulo": "TAMBIÉN SALE EN XBOX EL 3 DE NOVIEMBRE",
-     "texto": "ZA/UM anunció en el ID@Xbox Showcase que la Director's Cut llega también a Xbox Series el 3 de noviembre, el mismo día que en PS5. Suma unas 40.000 palabras de historia nueva, un modo Backstage y voces completas en inglés."
-    }
-   ]
-  },
-  {
-   "id": "lets-sing-2027",
-   "titulo": "LET'S SING 2027",
-   "fecha": "2026-11-03",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "MUSICA",
-    "CASUAL",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "VOXLER",
-   "descripcion": "La entrega anual del karaoke de Ravenscourt, con la lista de temas actualizada y los modos de siempre para cantar de a varios. Se juega con micrófonos o con el celular como micrófono, que es lo que lo hace fácil de sacar en una juntada.",
-   "trailer": "https://youtube.com/embed/d16zccHDscM",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1s.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-25",
-   "url": "https://lanzamientos.lat/juegos/lets-sing-2027"
-  },
-  {
-   "id": "lets-sing-abba",
-   "titulo": "LET'S SING ABBA",
-   "relanzamiento": "El original salió en octubre de 2022 — esta es la edición de Switch 2",
-   "fecha": "2026-11-03",
-   "plataformas": [
     "SWITCH2"
-   ],
-   "genero": [
-    "MUSICA",
-    "CASUAL",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "VOXLER",
-   "descripcion": "Un Let's Sing dedicado entero a ABBA, con el repertorio del grupo sueco en vez de la lista variada de la entrega anual. Mismo formato: se canta de a varios, con micrófonos o usando el celular.",
-   "trailer": "https://youtube.com/embed/A0ZONw-vPmE",
-   "metacritic": 70,
-   "critica": "Pocas reseñas, de la reedición de PS5. Coinciden en que es el Let's Sing de siempre con canciones de ABBA: bien presentado, con modos de sobra y una lista de temas que no falla en una reunión. Los reparos van a que no trae nada nuevo más allá de la música y los avatares, y a que cuesta justificarlo si ya se tiene la versión de 2022.",
-   "metacriticUsuarios": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocn1w.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-25",
-   "url": "https://lanzamientos.lat/juegos/lets-sing-abba",
-   "noticias": [
-    {
-     "fecha": "2026-11-03",
-     "titulo": "DEBUTA CON 70 EN METACRITIC",
-     "texto": "Tiene 70 sobre cinco reseñas de la reedición de PS5."
-    },
-    {
-     "fecha": "2026-08-07",
-     "titulo": "SALE EL 3 DE NOVIEMBRE, CON 32 CANCIONES",
-     "texto": "THQ Nordic anunció la versión de Switch 2 para el 3 de noviembre, el mismo día que Let's Sing 2027. Trae 32 canciones de ABBA, entre ellas I Have a Dream, y siete modos de juego, en el año en que Dancing Queen cumple 50. Se vende en una edición con dos micrófonos y en otra digital sin ellos."
-    }
-   ]
-  },
-  {
-   "id": "solo-leveling-arise-overdrive",
-   "titulo": "SOLO LEVELING: ARISE OVERDRIVE",
-   "fecha": "2026-11-03",
-   "relanzamiento": "En PC desde noviembre de 2025",
-   "duracion": "≈ 27 h (historia) · 73 h (completo)",
-   "plataformas": [
-    "PS5",
-    "XBOX"
    ],
    "genero": [
     "ACCION",
-    "RPG",
-    "ANIME"
-   ],
-   "desarrollador": "NETMARBLE NEO",
-   "descripcion": "Un RPG de acción basado en Solo Leveling, el webtoon con más de 14.000 millones de vistas. Se sigue a Sung Jinwoo desde cazador de rango E hasta el más fuerte del mundo, con la historia original y capítulos nuevos que sólo están en el juego. El combate tiene esquivas al límite y contraataques con parada perfecta, un árbol de habilidades que se abre en ocho especializaciones y el despertar del Monarca de las Sombras. Hay incursiones cooperativas para cuatro y un sistema para fabricar armas del webtoon con lo que dejan los monstruos.",
-   "trailer": "https://youtube.com/embed/B22MqQQK5eE",
-   "gameplay": {
-    "video": "https://youtube.com/embed/X1PIGN_d12s",
-    "canal": "elKate",
-    "canalUrl": "https://www.youtube.com/@elKateYT"
-   },
-   "metacritic": 64,
-   "critica": "Reseñas de la versión de PC de 2025, entre tibias y mixtas. Valoran el combate espectacular, la fidelidad al webtoon y la sensación de ser Sung Jinwoo convirtiéndose en el cazador más fuerte. Los reparos van al contenido secundario repetitivo, a una progresión que se vuelve rutina y a que, como adaptación, se queda con la fantasía de poder y pierde buena parte de lo que hacía interesante a la historia.",
-   "metacriticUsuarios": 5.0,
-   "metacriticVotos": 12,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2373990/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-27",
-   "url": "https://lanzamientos.lat/juegos/solo-leveling-arise-overdrive",
-   "noticias": [
-    {
-     "fecha": "2026-11-03",
-     "titulo": "DEBUTA CON 64 EN METACRITIC",
-     "texto": "Llega hoy a PS5 y Xbox con 64 sobre 11 reseñas de la versión de PC."
-    },
-    {
-     "fecha": "2026-10-28",
-     "titulo": "SALE EL 3 DE NOVIEMBRE EN PS5 Y XBOX",
-     "texto": "Netmarble le puso día a la versión de consolas: el 3 de noviembre en PS5 y Xbox Series."
-    },
-    {
-     "fecha": "2026-09-24",
-     "titulo": "NO SALIÓ EN EL TERCER TRIMESTRE",
-     "texto": "Netmarble había anunciado las versiones de PS5 y Xbox Series para el tercer trimestre, entre julio y septiembre, y ninguna de las dos apareció todavía en las tiendas. En PC salió en noviembre de 2025."
-    }
-   ]
-  },
-  {
-   "id": "godzilla-destroy-all-monsters-melee-remastered",
-   "titulo": "GODZILLA: DESTROY ALL MONSTERS MELEE REMASTERED",
-   "duracion": "≈ 1,1 h (historia) · 4,1 h (completo)",
-   "fecha": "2026-11-03",
-   "relanzamiento": "Remaster del clásico de GameCube y Xbox (2002)",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2"
-   ],
-   "genero": [
-    "LUCHA",
-    "ACCION"
-   ],
-   "desarrollador": "PIPEWORKS STUDIOS",
-   "descripcion": "La remasterización del juego de peleas de monstruos gigantes de 2002, hecha por Pipeworks, el estudio original, junto con Atari. Se elige un monstruo y se pelea en ocho escenarios, cada uno de día y de noche: ciudades reales, la Isla de los Monstruos y la nave nodriza alienígena. Cada monstruo tiene sus golpes, sus rayos y un modo furia, y el escenario también se usa: se puede revolear un rascacielos. Al multijugador local le suma uno online.",
-   "trailer": "https://youtube.com/embed/8N9QN4X1pIk",
-   "metacritic": 73,
-   "critica": "Reseñas de la versión de PS5, positivas sin entusiasmo. Celebran que el juego de peleas de kaijus de GameCube vuelva con gráficos hechos de nuevo, escenarios para destruir y un multijugador caótico y divertido. Los reparos van a un plantel corto, a que hay que repetir mucho para desbloquear personajes, a controles algo toscos y a que, más allá de lo visual, suma poco.",
-   "imagen": "https://cdn2.steamgriddb.com/grid/49a971f590a2340c314be8d59a676c7f.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/godzilla-destroy-all-monsters-melee-remastered",
-   "noticias": [
-    {
-     "fecha": "2026-11-03",
-     "titulo": "DEBUTA CON 73 EN METACRITIC",
-     "texto": "Salió hoy con 73 sobre siete reseñas de la versión de PS5."
-    }
-   ]
-  },
-  {
-   "id": "pit-of-goblin",
-   "titulo": "PIT OF GOBLIN",
-   "fecha": "2026-11-03",
-   "relanzamiento": "En PC desde diciembre de 2024",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "HORROR",
-    "COOP",
+    "ROGUELIKE",
     "INDIE"
    ],
-   "desarrollador": "FRIENDLY FOE",
-   "descripcion": "Un cooperativo de terror para hasta cuatro jugadores en el que se juega como un goblin miserable. Hay que bajar a criptas, cavernas y ruinas embrujadas a juntar comida para el estómago sin fondo del Rey Reina, esquivando trampas y escapando de monstruos, y después encontrar el camino de vuelta. Cada bajada es distinta y más difícil cuanto más hondo se va, y se puede jugar en equipo o traicionar al grupo. Si no se lo alimenta, el próximo plato puede ser uno.",
-   "trailer": "https://youtube.com/embed/INTiwldYalc",
+   "desarrollador": "FURYU",
+   "descripcion": "Un roguelike de acción ambientado en el más allá. Alice despierta sin recuerdos y tiene que bajar hasta la última capa del Purgatorio para ganarse su Renacimiento. El combate es veloz y se alimenta de los gritos de agonía de los enemigos; las habilidades se juntan en forma de cartas y se arman en manos al estilo del póker.",
+   "trailer": "https://youtube.com/embed/Rgelk7T3qtw",
    "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3253530/3849a983fb4ae2d3bdcbbaa5d78531447ca0b927/library_capsule_2x.jpg",
-   "gamepass": true,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobz5q.jpg",
+   "gamepass": false,
    "psplus": false,
-   "alta": "2026-10-21",
-   "url": "https://lanzamientos.lat/juegos/pit-of-goblin",
+   "alta": "2026-08-10",
+   "url": "https://lanzamientos.lat/juegos/crymelight",
    "noticias": [
     {
-     "fecha": "2026-10-21",
-     "titulo": "LLEGA A XBOX Y GAME PASS EL 3 DE NOVIEMBRE",
-     "texto": "Xbox lo incluyó en la segunda tanda de Game Pass de octubre: el 3 de noviembre entra a Ultimate, Premium y PC Game Pass. La PS Store también tiene una ficha, sin fecha ni consola."
+     "fecha": "2026-11-04",
+     "titulo": "SALE HOY, UN DÍA ANTES",
+     "texto": "La PS Store y la eShop lo tienen para el 4 de noviembre, no para el 5 como se había anunciado."
     }
    ]
   },
@@ -277,13 +94,20 @@
    "desarrollador": "THE END OF THE SUN FORGE",
    "descripcion": "Una aventura de exploración en primera persona en un mundo de fantasía eslava. Se encarna a un Ashter, un mago de fuego que maneja el tiempo y llega a una aldea donde la realidad está distorsionada y de los habitantes sólo quedan fogones humeantes. A través del fuego se ven rastros, seres míticos y espíritus de lo que pasó, y con eso hay que resolver acertijos y cambiar el destino del pueblo.",
    "trailer": "https://youtube.com/embed/9kCB2tUoTts",
-   "metacritic": null,
+   "metacritic": 63,
+   "critica": "Las reseñas son de la versión de PC de 2025, y son apenas cuatro, muy repartidas. A favor, destacan el mundo de la mitología eslava, la recreación de una aldea de época con objetos escaneados de verdad y las historias íntimas de sus habitantes, que se descubren viajando en el tiempo. En contra, la reseña más dura lo ve como un walking simulator sin alma y con acertijos sin desafío, una historia que funcionaría mejor como película.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/912840/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-10-15",
    "url": "https://lanzamientos.lat/juegos/the-end-of-the-sun",
    "noticias": [
+    {
+     "fecha": "2026-11-04",
+     "titulo": "SALE HOY EN XBOX CON 63 EN METACRITIC",
+     "texto": "Llega a Xbox Series con 63 sobre cuatro reseñas de la versión de PC de 2025, que van de 20 a 93."
+    },
     {
      "fecha": "2026-10-15",
      "titulo": "LLEGA A XBOX EL 4 DE NOVIEMBRE",
@@ -353,29 +177,6 @@
      "texto": "Nintendo lo confirmó en el Direct por los 40 años de la saga, donde Eiji Aonuma lo mostró jugado durante un cuarto de hora. Es un remake, no un port: gráficos y banda sonora rehechos, cinemáticas dobladas al español, diálogos nuevos y una habilidad para correr. Se estrena junto a una Switch 2 con diseño de la edición 40.º aniversario."
     }
    ]
-  },
-  {
-   "id": "crymelight",
-   "titulo": "CRYMELIGHT",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "PS5",
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "FURYU",
-   "descripcion": "Un roguelike de acción ambientado en el más allá. Alice despierta sin recuerdos y tiene que bajar hasta la última capa del Purgatorio para ganarse su Renacimiento. El combate es veloz y se alimenta de los gritos de agonía de los enemigos; las habilidades se juntan en forma de cartas y se arman en manos al estilo del póker.",
-   "trailer": "https://youtube.com/embed/Rgelk7T3qtw",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobz5q.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/crymelight"
   },
   {
    "id": "marvels-guardians-of-the-galaxy-switch-2",
@@ -1373,6 +1174,36 @@
    ]
   },
   {
+   "id": "popucom",
+   "titulo": "POPUCOM",
+   "fecha": "2026-11-17",
+   "relanzamiento": "En PC desde junio de 2025 y en Switch desde diciembre de 2025 — esta fecha corresponde a la edición de PS5",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "PUZZLE",
+    "COOP"
+   ],
+   "desarrollador": "HYPERGRYPH",
+   "descripcion": "Una aventura de plataformas cooperativa de los creadores de Arknights. Un grupo de aventureros llega a un planeta desconocido y tiene que devolverle los colores: todo gira alrededor de cambiar de color para activar mecanismos y de disparar gelatina de colores para combinar tres y derrotar enemigos. Hay objetos especiales que dan poderes, como bombas o barreras, desafíos pensados para resolver en equipo y mucha ropa para personalizar al personaje.",
+   "trailer": "https://youtube.com/embed/aIgoMJcXCzA",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2543180/672790a9ec0ad29c3a2d7a8879282217dbcde09e/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-04",
+   "url": "https://lanzamientos.lat/juegos/popucom",
+   "noticias": [
+    {
+     "fecha": "2026-11-04",
+     "titulo": "LLEGA A PS5 EL 17 DE NOVIEMBRE",
+     "texto": "Fireshine Games anunció la fecha con un tráiler, y la PS Store ya tiene el día."
+    }
+   ]
+  },
+  {
    "id": "grand-theft-auto-vi",
    "titulo": "GRAND THEFT AUTO VI",
    "fecha": "2026-11-19",
@@ -1975,6 +1806,66 @@
      "fecha": "2026-10-30",
      "titulo": "LLEGA A CONSOLAS EL 3 DE DICIEMBRE",
      "texto": "Rhine Games lo lanza el 3 de diciembre en PS5, Xbox Series y Switch, con descuento la primera semana."
+    }
+   ]
+  },
+  {
+   "id": "monster-hunter-wilds-switch-2",
+   "titulo": "MONSTER HUNTER WILDS",
+   "relanzamiento": "En PS5, Xbox y PC desde febrero de 2025 — esta fecha corresponde a la edición de Switch 2",
+   "duracion": "≈ 18 h (historia) · 115 h (completo)",
+   "fecha": "2026-12-04",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "COOP"
+   ],
+   "desarrollador": "CAPCOM CO., LTD.",
+   "descripcion": "El Monster Hunter de 2025 llega a Switch 2. Lo que lo separa de los anteriores es que el mundo cambia solo: las tormentas y las estaciones alteran el terreno y el comportamiento de los monstruos en medio de la cacería. Se juega en cooperativo de hasta cuatro y el ciclo de siempre sigue intacto — cazar, hacerse el equipo con lo que dejó el monstruo, cazar algo más grande.",
+   "trailer": "https://youtube.com/embed/4vEnGRYRFS4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-09-09",
+   "url": "https://lanzamientos.lat/juegos/monster-hunter-wilds-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-10-15",
+     "titulo": "DEMO DEL PRÓLOGO EN SWITCH 2 EL 19 DE OCTUBRE",
+     "texto": "Capcom anunció que la demo del prólogo, que ya estaba en PS5, Xbox y PC, llega a Switch 2 el 19 de octubre."
+    }
+   ]
+  },
+  {
+   "id": "a-game-about-digging-a-hole-together",
+   "titulo": "A GAME ABOUT DIGGING A HOLE TOGETHER",
+   "fecha": "2026-12-04",
+   "plataformas": [
+    "XBOX"
+   ],
+   "genero": [
+    "SIMULACION",
+    "COOP",
+    "INDIE"
+   ],
+   "desarrollador": "MI'PU'MI GAMES",
+   "descripcion": "La secuela de A Game About Digging a Hole, el juego minimalista de cavar un pozo en la playa, ahora con amigos. Se cava, se juntan y venden los recursos que aparecen, se mejora el equipo y se sigue bajando en busca de un tesoro prometido enterrado bajo la arena. Mantiene la fórmula del primero y suma lo que más pedían los jugadores: más para cavar y la posibilidad de hacerlo en grupo, aunque se puede jugar solo.",
+   "trailer": "https://youtube.com/embed/zxUD-JFtaNc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4018610/23f6608b04c474c2657741e2c067979ed74337aa/library_capsule_2x.jpg",
+   "gamepass": true,
+   "psplus": false,
+   "alta": "2026-10-21",
+   "url": "https://lanzamientos.lat/juegos/a-game-about-digging-a-hole-together",
+   "noticias": [
+    {
+     "fecha": "2026-10-21",
+     "titulo": "SALE EL 4 DE DICIEMBRE, CON GAME PASS",
+     "texto": "Se anunció en el ID@Xbox Showcase: llega a Xbox Series y Game Pass el 4 de diciembre. La PS Store también lo tiene para ese día, pero la ficha no dice para qué consola."
     }
    ]
   }
