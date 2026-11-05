@@ -285,6 +285,35 @@ para fichas de juegos ya salidos **quedó descartado** (el usuario, 15/10: nunca
 los datos de esta semana tampoco lo apoyaban: también se caen fichas de juegos de octubre y
 futuros. Siguen pendientes los enlaces externos.
 
+### Lectura del 05/11/2026: la semana bajó, el pedido a mano sigue funcionando
+
+**Rendimiento (últimos 7 días contra los 7 anteriores):** cero clics. La portada bajó de 176 a
+111 impresiones y las consultas genéricas cayeron más o menos un tercio ("juegos lanzamientos"
+y "proximos lanzamientos videojuegos" a 24 y 22). **Mariachi Legends es la ficha que más
+crece** (25 → 28), con búsquedas que nombran la consola ("mariachi legends switch", "... ps5"):
+en consolas todavía no tiene fecha. Aparecen fichas sueltas con 2 o 3 impresiones (Stupid Never
+Dies, Zero Parades, Tarot Tokens, Neverway, MXGP 26). Una semana para abajo después de una para
+arriba: con estos volúmenes no alcanza para hablar de tendencia.
+
+**Indexación (CSV del 05/11; el gráfico de Search Console llega sólo hasta el 22/10):**
+
+| Motivo | 22/10 (lectura anterior) | 05/11 |
+|---|---|---|
+| Rastreada: actualmente sin indexar | 144 | 152 |
+| Descubierta: actualmente sin indexar | 114 | 152 |
+
+- **"Descubierta" crece porque el sitio crece:** son URLs que Google conoce y todavía no fue a
+  buscar, y casi todos los días se suman fichas nuevas.
+- **Día 6 (pedido el 19/10): 10 de 10 fuera de las listas** (la semana pasada eran 4: no había
+  pasado el tiempo). **Día 1 (12/10): sigue 9 de 10.** **Día 5: 9 de 10.**
+- **Días 2 a 4:** 11 de 30 fuera (eran 4 el 22/10). Se pidieron entre el 2 y el 5/11, y no se
+  sabe de qué día son los datos de la tabla, así que la lectura limpia es la de la semana que
+  viene. Las cuatro del día 7 no figuran en ninguna lista, pero
+  son páginas nuevas: puede ser que estén indexadas o que Google todavía no las haya visto.
+
+**Lectura:** el pedido a mano sigue siendo lo único con efecto medible: de los dos días que ya
+tuvieron tiempo (1 y 6), salieron 19 de 20. Las impresiones generales todavía no lo reflejan.
+
 ### Lectura del 22/10/2026: primera semana con más impresiones que la anterior
 
 **Rendimiento:** 3 meses, 146 clics (sin cambios: todavía cero clics desde el 24/09), 19.500

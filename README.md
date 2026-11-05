@@ -290,6 +290,14 @@ si están en `null` o ausentes — no rompen nada.
 Dos o tres frases en español contando qué elogia y qué le reprocha la prensa a un juego,
 escritas **leyendo las reseñas**, no copiándolas. Sale en la ficha, arriba de las novedades.
 
+**Va después de `metacriticUsuarios` y `metacriticVotos`, nunca entre ellos y `metacritic`.**
+Hasta el 05/11/2026 se cargaba pegado a `metacritic:`, y `actualizar.py`, que buscaba el
+puntaje de usuarios justo en esa posición, escribía uno nuevo y dejaba el viejo más abajo: 53
+fichas terminaron con dos `metacriticUsuarios`, y como en JavaScript gana el último, unas 30
+mostraban "sin puntaje" teniendo uno. Ese día se limpiaron y el script pasó a borrar todos
+los de la ficha antes de escribir el suyo, así que el orden ya no rompe nada, pero conviene
+respetarlo.
+
 **Por qué escrito y no copiado** (decidido el 18/08/2026): copiar los extractos de Metacritic
 o las reseñas de sus usuarios tiene tres problemas. Los extractos los redacta Metacritic y las
 reseñas de usuarios las escriben personas, y sus términos prohíben reproducirlas: hoy les

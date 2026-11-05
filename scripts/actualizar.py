@@ -306,14 +306,22 @@ def main():
         patron = re.compile(r'(id: "' + re.escape(gid) + r'",.*?)metacritic: \d+,', re.S)
         src = patron.sub(lambda m: m.group(1) + f"metacritic: {score},", src, count=1)
 
+    # Antes se reemplazaba sólo la línea que estuviera pegada a `metacritic:`. Si había otro
+    # campo en el medio (un `critica` cargado a mano), el viejo quedaba más abajo y la ficha
+    # terminaba con dos `metacriticUsuarios`: en JavaScript gana el último, que era el viejo
+    # y casi siempre null. Pasó en 53 fichas hasta el 05/11/2026. Ahora se borran todos los
+    # de la ficha y se escribe uno solo, pegado a `metacritic:`.
     for gid, (nota, votos) in usuarios.items():
-        bloque = re.compile(r'(id: "' + re.escape(gid) + r'",.*?metacritic: (?:null|\d+),)'
-                            r'(\n\s*metacriticUsuarios: (?:null|[\d.]+),)?'
-                            r'(\n\s*metacriticVotos: (?:null|\d+),)?', re.S)
+        inicio = src.find(f'id: "{gid}",')
+        if inicio < 0:
+            continue
+        fin = src.find("\n  }", inicio)
+        ficha = re.sub(r'\n\s*metacritic(?:Usuarios|Votos): (?:null|[\d.]+),', "", src[inicio:fin])
         linea = f"\n    metacriticUsuarios: {nota},"
         if nota != "null":
             linea += f"\n    metacriticVotos: {votos if votos is not None else 'null'},"
-        src = bloque.sub(lambda m: m.group(1) + linea, src, count=1)
+        ficha = re.sub(r'(metacritic: (?:null|\d+),)', lambda m: m.group(1) + linea, ficha, count=1)
+        src = src[:inicio] + ficha + src[fin:]
 
     # 1 bis) Fecha de alta de los juegos cargados a mano desde la última corrida.
     # El badge ★ NUEVO sale de este campo, así que si nadie lo sella el juego
