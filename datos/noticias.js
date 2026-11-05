@@ -55,6 +55,15 @@
 
 const NOTICIAS = [
   {
+    id: "god-of-war-laufey-mayo-2027",
+    fecha: "2026-11-05",
+    categoria: "RETRASOS",
+    titulo: "GOD OF WAR LAUFEY SE VA AL 20 DE MAYO DE 2027",
+    texto: "El nuevo God of War de Santa Monica Studio, protagonizado por Faye, la madre de Atreus, ya no sale el 16 de febrero: la nueva fecha es el 20 de mayo de 2027, sólo en PS5, y la PS Store ya la muestra.",
+    fuente: "https://www.gematsu.com/2026/11/god-of-war-laufey-delayed-to-may-20-2027",
+    juegos: ["god-of-war-laufey"]
+  },
+  {
     id: "game-pass-noviembre-2026-primera-tanda",
     fecha: "2026-11-03",
     categoria: "SUSCRIPCIONES",

@@ -51,7 +51,7 @@ const MESES_INTRO = [
   },
   {
     mes: "2027-02",
-    intro: "Febrero de 2027 es de los meses más fuertes del año. El 16 sale God of War: Laufey en PS5, el mismo día que Romancing SaGa 3: Destinies United, y una semana después, el 23, llega Fable a Xbox y PS5. Antes, el 4 sale Metro 2039 y el 12 Tomb Raider: Legacy of Atlantis. El 18 es el turno de Persona 4 Revival, y el 25 cierran la edición de Switch 2 de Hyrule Warriors: La era del cataclismo y Atelier Karia."
+    intro: "Febrero de 2027 es de los meses más fuertes del año. El 23 llega Fable a Xbox y PS5, y antes, el 4, sale Metro 2039 y el 12 Tomb Raider: Legacy of Atlantis. El 16 es el turno de Romancing SaGa 3: Destinies United, el 18 de Persona 4 Revival, y el 25 cierran la edición de Switch 2 de Hyrule Warriors: La era del cataclismo y Atelier Karia."
   },
   {
     mes: "2027-03",

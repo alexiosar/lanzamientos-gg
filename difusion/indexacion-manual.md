@@ -41,12 +41,15 @@ del día 4. La próxima lista sigue con Oblivion Remastered y el resto del día 
 justo cuando se publicaba (causa probable: cupo diario o deploy sin terminar). En vivo responde 200, con canonical propio y sin noindex. Va primera en
 la próxima lista.
 
+**Pedidas el 05/11:** `/game-pass-noviembre-2026` de nuevo y las nueve que quedaban del día 4.
+Con eso se terminaron los días 1 a 4.
+
 ## Día 7 (desde el 02/11)
 
 Páginas nuevas o rehechas por la rutina mensual de noviembre.
 
 - [x] https://lanzamientos.lat/ps-plus-noviembre-2026 (02/11)
-- [ ] https://lanzamientos.lat/game-pass-noviembre-2026 (rechazada el 03/11, volver a pedir)
+- [x] https://lanzamientos.lat/game-pass-noviembre-2026 (rechazada el 03/11, pedida de nuevo el 05/11)
 - [x] https://lanzamientos.lat/recomendados (02/11)
 - [x] https://lanzamientos.lat/mejores-juegos-octubre-2026 (02/11)
 
@@ -95,15 +98,15 @@ the Sinking Star, que pasa al día 5.
 ## Día 4
 
 - [x] https://lanzamientos.lat/juegos/halo-campaign-evolved (03/11)
-- [ ] https://lanzamientos.lat/juegos/the-elder-scrolls-iv-oblivion-remastered
-- [ ] https://lanzamientos.lat/juegos/kynseed
-- [ ] https://lanzamientos.lat/juegos/palworld
-- [ ] https://lanzamientos.lat/juegos/dispatch
-- [ ] https://lanzamientos.lat/juegos/final-fantasy-xiv-online
-- [ ] https://lanzamientos.lat/juegos/final-fantasy-x-x-2-hd-remaster
-- [ ] https://lanzamientos.lat/juegos/star-ocean-the-second-story-r
-- [ ] https://lanzamientos.lat/juegos/buckshot-roulette
-- [ ] https://lanzamientos.lat/juegos/xenoblade-chronicles-2
+- [x] https://lanzamientos.lat/juegos/the-elder-scrolls-iv-oblivion-remastered (05/11)
+- [x] https://lanzamientos.lat/juegos/kynseed (05/11)
+- [x] https://lanzamientos.lat/juegos/palworld (05/11)
+- [x] https://lanzamientos.lat/juegos/dispatch (05/11)
+- [x] https://lanzamientos.lat/juegos/final-fantasy-xiv-online (05/11)
+- [x] https://lanzamientos.lat/juegos/final-fantasy-x-x-2-hd-remaster (05/11)
+- [x] https://lanzamientos.lat/juegos/star-ocean-the-second-story-r (05/11)
+- [x] https://lanzamientos.lat/juegos/buckshot-roulette (05/11)
+- [x] https://lanzamientos.lat/juegos/xenoblade-chronicles-2 (05/11)
 
 ## Día 5 (desde el 16/10)
 

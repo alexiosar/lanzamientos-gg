@@ -2,119 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-04T14:00:30+00:00",
+ "generado": "2026-11-05T16:29:02+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-04",
- "hasta": "2026-12-04",
- "total": 59,
+ "desde": "2026-11-05",
+ "hasta": "2026-12-05",
+ "total": 58,
  "juegos": [
-  {
-   "id": "crymelight",
-   "titulo": "CRYMELIGHT",
-   "fecha": "2026-11-04",
-   "plataformas": [
-    "PS5",
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "FURYU",
-   "descripcion": "Un roguelike de acción ambientado en el más allá. Alice despierta sin recuerdos y tiene que bajar hasta la última capa del Purgatorio para ganarse su Renacimiento. El combate es veloz y se alimenta de los gritos de agonía de los enemigos; las habilidades se juntan en forma de cartas y se arman en manos al estilo del póker.",
-   "trailer": "https://youtube.com/embed/Rgelk7T3qtw",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cobz5q.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/crymelight",
-   "noticias": [
-    {
-     "fecha": "2026-11-04",
-     "titulo": "SALE HOY, UN DÍA ANTES",
-     "texto": "La PS Store y la eShop lo tienen para el 4 de noviembre, no para el 5 como se había anunciado."
-    }
-   ]
-  },
-  {
-   "id": "void-breaker",
-   "titulo": "VOID/BREAKER",
-   "fecha": "2026-11-04",
-   "relanzamiento": "En acceso anticipado en PC desde 2025 y en Game Preview en Xbox",
-   "duracion": "≈ 4 h (historia)",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SHOOTER",
-    "FPS",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "STUBBY GAMES",
-   "descripcion": "Un shooter roguelite en primera persona, rápido y con mucha movilidad. Una IA hostil tiene al protagonista atrapado en un ciclo sin fin de peleas contra máquinas, y la única forma de escapar es romper el sistema. Las armas se modifican casi sin límite combinando mods para armar sinergias, y los escenarios se pueden destruir.",
-   "trailer": "https://youtube.com/embed/kSkke3Bv84o",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.20544.13536036111571877.589d3b26-235b-491c-b54b-52bb688c551a.75e42099-ab23-4790-9d28-58ea2fa9077d?w=600&h=900&format=jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-10-02",
-   "url": "https://lanzamientos.lat/juegos/void-breaker",
-   "noticias": [
-    {
-     "fecha": "2026-11-03",
-     "titulo": "LLEGA A XBOX Y A GAME PASS EL 4 DE NOVIEMBRE",
-     "texto": "Xbox lo sumó a la primera tanda de Game Pass de noviembre: el 4 deja el Game Preview y entra a Ultimate, Premium y PC Game Pass, el mismo día que sale en PS5."
-    },
-    {
-     "fecha": "2026-10-01",
-     "titulo": "SALE EL 4 DE NOVIEMBRE Y DEBUTA EN PS5",
-     "texto": "Ese día deja el acceso anticipado de PC y el Game Preview de Xbox, y llega por primera vez a PS5."
-    }
-   ]
-  },
-  {
-   "id": "the-end-of-the-sun",
-   "titulo": "THE END OF THE SUN",
-   "fecha": "2026-11-04",
-   "relanzamiento": "En PC desde enero de 2025",
-   "duracion": "≈ 6,4 h (historia) · 8,6 h (completo)",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "PUZZLE",
-    "INDIE"
-   ],
-   "desarrollador": "THE END OF THE SUN FORGE",
-   "descripcion": "Una aventura de exploración en primera persona en un mundo de fantasía eslava. Se encarna a un Ashter, un mago de fuego que maneja el tiempo y llega a una aldea donde la realidad está distorsionada y de los habitantes sólo quedan fogones humeantes. A través del fuego se ven rastros, seres míticos y espíritus de lo que pasó, y con eso hay que resolver acertijos y cambiar el destino del pueblo.",
-   "trailer": "https://youtube.com/embed/9kCB2tUoTts",
-   "metacritic": 63,
-   "critica": "Las reseñas son de la versión de PC de 2025, y son apenas cuatro, muy repartidas. A favor, destacan el mundo de la mitología eslava, la recreación de una aldea de época con objetos escaneados de verdad y las historias íntimas de sus habitantes, que se descubren viajando en el tiempo. En contra, la reseña más dura lo ve como un walking simulator sin alma y con acertijos sin desafío, una historia que funcionaría mejor como película.",
-   "metacriticUsuarios": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/912840/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-15",
-   "url": "https://lanzamientos.lat/juegos/the-end-of-the-sun",
-   "noticias": [
-    {
-     "fecha": "2026-11-04",
-     "titulo": "SALE HOY EN XBOX CON 63 EN METACRITIC",
-     "texto": "Llega a Xbox Series con 63 sobre cuatro reseñas de la versión de PC de 2025, que van de 20 a 93."
-    },
-    {
-     "fecha": "2026-10-15",
-     "titulo": "LLEGA A XBOX EL 4 DE NOVIEMBRE",
-     "texto": "Se anunció para Xbox Series en un tráiler de ID@Xbox, y la tienda ya lo tiene para el 4 de noviembre. En PC salió en enero de 2025."
-    }
-   ]
-  },
   {
    "id": "kingdom-of-night",
    "titulo": "KINGDOM OF NIGHT",
@@ -134,12 +28,21 @@
    "desarrollador": "FRIENDS OF SAFETY",
    "descripcion": "Un RPG de acción en un pueblo de Arizona en 1987, la noche en que una secta invoca por accidente a Baphomet. John sale a pelear contra la invasión demoníaca y a rescatar a sus amigos, y la aventura avanza hora por hora durante lo que puede ser la última noche del mundo, entre demonios, vecinos poseídos y matones del colegio.",
    "trailer": "https://youtube.com/embed/H2eeqQDleSo",
-   "metacritic": null,
+   "metacritic": 79,
+   "critica": "Las reseñas son de la versión de PC de 2025, y son apenas cuatro. Lo reciben como un action RPG oscuro y con mucha nostalgia ochentosa, en la línea de Stranger Things: un pueblo con un misterio que engancha, buen aspecto y buena música, y un combate flexible y satisfactorio que se adapta a distintos gustos. Los reparos van a la falta de originalidad, a personajes con poca profundidad y a algunas decisiones de interfaz poco felices.",
+   "metacriticUsuarios": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1094600/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/kingdom-of-night"
+   "url": "https://lanzamientos.lat/juegos/kingdom-of-night",
+   "noticias": [
+    {
+     "fecha": "2026-11-05",
+     "titulo": "SALE HOY CON 79 EN METACRITIC",
+     "texto": "Llega a Xbox y Switch con 79 sobre cuatro reseñas de la versión de PC de 2025."
+    }
+   ]
   },
   {
    "id": "the-legend-of-zelda-ocarina-of-time-switch-2",
@@ -248,13 +151,20 @@
    "desarrollador": "COIN CREW GAMES",
    "descripcion": "La secuela de Escape Academy, que convierte sus salas de escape en un juego de mundo abierto: la academia clandestina de escapismo se recorre libremente, con una campaña nueva de salas diseñadas por el equipo de puzles del primero. Como no son salas reales, no tienen que respetar ninguna norma de seguridad, así que hay techos con pinchos, caídas de treinta metros y, lo peor de todo, exámenes finales.",
    "trailer": "https://youtube.com/embed/Aer93YCNrRI",
-   "metacritic": null,
+   "metacritic": 73,
+   "critica": "Las reseñas, todas de PS5, coinciden en que los puzles son excelentes, ingeniosos y gratificantes, y que la historia engancha, sobre todo en cooperativo. Lo que divide es el mundo abierto: a algunos les suma explorar la academia y a otros les parece que estira el juego sin aportar mucho. El reparo que más se repite son los problemas técnicos y de rendimiento, y también hay saltos de dificultad entre algunas salas.",
+   "metacriticUsuarios": null,
    "imagen": "https://store-images.s-microsoft.com/image/apps.32075.14607328992338706.a7a9f492-6e2c-4b94-ab21-d3b4889e76fe.303a41a4-14bb-4486-a564-6e3cc7dbf83a?w=600&h=900&format=jpg",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-10-13",
    "url": "https://lanzamientos.lat/juegos/escape-academy-2-back-2-school",
    "noticias": [
+    {
+     "fecha": "2026-11-05",
+     "titulo": "SALE HOY CON 73 EN METACRITIC",
+     "texto": "Debuta con 73 sobre cinco reseñas de PS5, y entra a Game Pass el mismo día."
+    },
     {
      "fecha": "2026-11-03",
      "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
@@ -318,13 +228,20 @@
    "desarrollador": "STEPH THIRION",
    "descripcion": "Un arcade de puntaje infinito, generado al azar, sobre una estrella fugaz que arma constelaciones para seguir viva. Se conectan estrellas para recoger su energía, estirar la vida y sumar puntos; las constelaciones se dibujan con libertad y hay técnicas avanzadas que arriesgan más a cambio de más energía. Las reglas son simples y los controles fluidos, pero dominarlo cuesta: cada partida arranca de cero en un universo que se genera según cómo se juega, y con más habilidad llegan más velocidad y regiones más difíciles. Es de Steph Thirion y lo publica Annapurna Interactive.",
    "trailer": "https://youtube.com/embed/rqoOKaOrgoI",
-   "metacritic": null,
+   "metacritic": 72,
+   "critica": "Las reseñas son de la versión de PC. Lo describen como un juego de puzles con física disfrazado de experiencia relajada: se juega con un solo botón, se arman constelaciones y dominar la técnica da mucho gusto, con el minimalismo como bandera. Los reparos: si no se le agarra la mano al timing no es tan divertido, los modos son simples y se vuelve repetitivo.",
+   "metacriticUsuarios": null,
    "imagen": "https://store-images.s-microsoft.com/image/apps.28996.14200503875502482.80908a4d-7242-450f-b329-0065041d2f49.a47a9068-078b-4f6f-896e-e328034eb827?w=600&h=900&format=jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-10-19",
    "url": "https://lanzamientos.lat/juegos/faraway",
    "noticias": [
+    {
+     "fecha": "2026-11-05",
+     "titulo": "SALE HOY CON 72 EN METACRITIC",
+     "texto": "Llega a PS5, Xbox y Switch con 72 sobre cinco reseñas de la versión de PC."
+    },
     {
      "fecha": "2026-11-02",
      "titulo": "TAMBIÉN SALE EN SWITCH",
@@ -367,6 +284,67 @@
      "fecha": "2026-10-30",
      "titulo": "LLEGA A CONSOLAS EL 5 DE NOVIEMBRE",
      "texto": "Plug In Digital lo lanza el 5 de noviembre en PS5, Xbox Series y Switch."
+    }
+   ]
+  },
+  {
+   "id": "console-archives-elevator-action",
+   "titulo": "CONSOLE ARCHIVES: ELEVATOR ACTION",
+   "fecha": "2026-11-05",
+   "relanzamiento": "El original de TAITO es de 1985 — esta es la reedición para consolas actuales",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "RETRO"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "La versión para consola de 8 bits del Elevator Action de TAITO de 1985, en la serie Console Archives. Se maneja a un espía que entra a un edificio para robar todos los documentos secretos y escapar en el auto que lo espera en el subsuelo, usando los ascensores para esquivar a los agentes enemigos. Las armas son una pistola y una patada voladora. Todo el texto del juego está en inglés.",
+   "trailer": "https://youtube.com/embed/aYPmpVSyGKM",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2703/9ef44a7de94106d1d467205fb588fff111f2c5a6ddc5c0de.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-05",
+   "url": "https://lanzamientos.lat/juegos/console-archives-elevator-action",
+   "noticias": [
+    {
+     "fecha": "2026-11-05",
+     "titulo": "SALIÓ HOY EN PS5",
+     "texto": "HAMSTER lo puso a la venta el 5 de noviembre en PS5. La eShop todavía no tiene la versión de Switch 2."
+    }
+   ]
+  },
+  {
+   "id": "arcade-archives-2-exzisus",
+   "titulo": "ARCADE ARCHIVES 2: EXZISUS",
+   "fecha": "2026-11-05",
+   "relanzamiento": "Arcade de 1987",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX"
+   ],
+   "genero": [
+    "SHOOTER",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "La reedición del shooter de TAITO de 1987. Se pilotea el Cosmo Fighter Robin contra un ejército misterioso que invadió la Cuarta Galaxia, con un bláster y misiles. Cada objeto que se junta lo mejora: puede transformarse en un modo Turbo Jet o llamar a robots con forma de pájaro y de perro que ayudan a atacar, y al final de cada nivel esperan robots gigantes con puntos débiles. Trae las opciones de siempre de la serie: ajustes del original, modos de pantalla y tablas de puntaje en línea.",
+   "trailer": "https://youtube.com/embed/SgbeuylxIvk",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2702/398771bd2e83a7f59850dcfd05aac001311c5b502b66c31d.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-05",
+   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-exzisus",
+   "noticias": [
+    {
+     "fecha": "2026-11-05",
+     "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
+     "texto": "HAMSTER lo sumó a Arcade Archives 2 el 5 de noviembre. En la PS Store también está la edición clásica de Arcade Archives para PS4."
     }
    ]
   },
