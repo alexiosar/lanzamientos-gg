@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-05T16:29:02+00:00",
+ "generado": "2026-11-05T17:05:23+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-11-05",
  "hasta": "2026-12-05",
- "total": 58,
+ "total": 60,
  "juegos": [
   {
    "id": "kingdom-of-night",
@@ -345,6 +345,35 @@
      "fecha": "2026-11-05",
      "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
      "texto": "HAMSTER lo sumó a Arcade Archives 2 el 5 de noviembre. En la PS Store también está la edición clásica de Arcade Archives para PS4."
+    }
+   ]
+  },
+  {
+   "id": "where-the-seeds-fall",
+   "titulo": "WHERE THE SEEDS FALL",
+   "fecha": "2026-11-05",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PLATAFORMA"
+   ],
+   "desarrollador": "CYGAMESEDGE",
+   "descripcion": "Una aventura de plataformas corta de Cygames. La Plaga arrasó la tierra y la humanidad vive en las ramas del Árbol del Mundo, donde a los Niños Caídos se los ve como presagio de desastres. Un soldado desobedece las órdenes y decide escoltar a uno hasta la superficie. Hay que saltar entre plataformas que se desmoronan, aguantar ráfagas de viento y caer bien: las flores que crecen en el árbol se arrojan donde se quiere aterrizar para que amortigüen la caída. La historia dura unas tres horas, y después quedan mapas más difíciles y un modo contrarreloj.",
+   "trailer": "https://youtube.com/embed/zdDJlYAVe-c",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4139580/4c2af0ffe7c2c38d4cfebd25931d22b412f8ce4c/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-05",
+   "url": "https://lanzamientos.lat/juegos/where-the-seeds-fall",
+   "noticias": [
+    {
+     "fecha": "2026-11-05",
+     "titulo": "SALIÓ HOY EN PS5 Y SWITCH 2",
+     "texto": "Cygames lo puso a la venta el 5 de noviembre en PS5 y Switch 2, un día después que en PC."
     }
    ]
   },
@@ -1262,7 +1291,7 @@
    ],
    "desarrollador": "PIRANHA BYTES",
    "descripcion": "El RPG de mundo abierto de 2006 de Piranha Bytes, la tercera parte de Gothic, adaptado a consolas como el Gothic Classic que salió en julio. Myrtana está tomada por los orcos del norte, el rey Rhobar resiste en Vengard con lo que le queda, los rebeldes pelean y los Hashishin del sur colaboran con el invasor. El héroe sin nombre de Khorinis llega al continente y su bando decide el destino del mundo, con varios caminos para resolver cada situación y un combate de golpes rápidos, giros y magia.",
-   "trailer": null,
+   "trailer": "https://youtube.com/embed/53jrtvGoSnE",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39500/library_600x900_2x.jpg",
    "gamepass": false,
@@ -1784,6 +1813,36 @@
      "fecha": "2026-10-30",
      "titulo": "LLEGA A CONSOLAS EL 3 DE DICIEMBRE",
      "texto": "Rhine Games lo lanza el 3 de diciembre en PS5, Xbox Series y Switch, con descuento la primera semana."
+    }
+   ]
+  },
+  {
+   "id": "waltz-and-jam",
+   "titulo": "WALTZ AND JAM",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "PUZZLE"
+   ],
+   "desarrollador": "FLYWAY GAMES",
+   "descripcion": "Un plataformas de acción y aventura en el más allá, con Waltz, un alma de buen corazón, y Jam, un perro que cambia de forma. Los siete pecados capitales se convierten en siete mundos con aspecto de libro de cuentos pintado a mano, desde un restaurante caótico hasta un desierto que parece un mar, con puzles metidos en el escenario y jefes enormes. El objetivo es completar el boleto para entrar a Uptown. Lo publica KRAFTON.",
+   "trailer": "https://youtube.com/embed/Dq71PsfFrK4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/d8a9dd6859581b42610f16aa076cc502b9df916f/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-05",
+   "url": "https://lanzamientos.lat/juegos/waltz-and-jam",
+   "noticias": [
+    {
+     "fecha": "2026-11-05",
+     "titulo": "SALE EL 3 DE DICIEMBRE",
+     "texto": "PlayStation y Nintendo publicaron el tráiler con la fecha para PS5 y Switch 2, y la eShop ya lo tiene para el 3. La ficha de la PS Store tiene el día pero todavía no dice qué consola."
     }
    ]
   },

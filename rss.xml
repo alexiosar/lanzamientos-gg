@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 05 Nov 2026 16:29:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 17:05:23 +0000</lastBuildDate>
     <item>
       <title>MARVEL'S WOLVERINE: SUPERÓ LOS 2,4 MILLONES DE COPIAS</title>
       <link>https://lanzamientos.lat/juegos/marvels-wolverine</link>
@@ -69,6 +69,41 @@
       <guid isPermaLink="false">megs-monster-2026-11-05</guid>
       <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
       <description>Odencat anunció la versión de PS5, y la PS Store ya tiene el día. — MEG'S MONSTER para PS5.</description>
+    </item>
+    <item>
+      <title>WHERE THE SEEDS FALL: SALIÓ HOY EN PS5 Y SWITCH 2</title>
+      <link>https://lanzamientos.lat/juegos/where-the-seeds-fall</link>
+      <guid isPermaLink="false">where-the-seeds-fall-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Cygames lo puso a la venta el 5 de noviembre en PS5 y Switch 2, un día después que en PC. — WHERE THE SEEDS FALL para PS5 / SWITCH 2.</description>
+    </item>
+    <item>
+      <title>WALTZ AND JAM: SALE EL 3 DE DICIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/waltz-and-jam</link>
+      <guid isPermaLink="false">waltz-and-jam-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+      <description>PlayStation y Nintendo publicaron el tráiler con la fecha para PS5 y Switch 2, y la eShop ya lo tiene para el 3. La ficha de la PS Store tiene el día pero todavía no dice qué consola. — WALTZ AND JAM para PS5 / SWITCH 2.</description>
+    </item>
+    <item>
+      <title>AERUTA: LLEGA A SWITCH EL 9 DE DICIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/aeruta</link>
+      <guid isPermaLink="false">aeruta-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+      <description>La eShop y Nintendo US lo tienen para el 9. También se anunció para PS5, pero la PS Store todavía no tiene la fecha. — AERUTA para SWITCH.</description>
+    </item>
+    <item>
+      <title>ASTONISHIA STORY: SALE EL 11 DE FEBRERO DE 2027</title>
+      <link>https://lanzamientos.lat/juegos/astonishia-story</link>
+      <guid isPermaLink="false">astonishia-story-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+      <description>NIS America lo anunció con un tráiler. La eShop y Nintendo US lo tienen para el 11 de febrero; la PS Store también tiene una ficha para ese día, pero sin consola. — ASTONISHIA STORY para SWITCH.</description>
+    </item>
+    <item>
+      <title>GENNADY: LLEGA A SWITCH ANTES DE FIN DE AÑO</title>
+      <link>https://lanzamientos.lat/juegos/gennady-switch</link>
+      <guid isPermaLink="false">gennady-switch-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+      <description>La eShop lo lista para 2026, sin día. — GENNADY para SWITCH.</description>
     </item>
     <item>
       <title>GOD OF WAR LAUFEY SE VA AL 20 DE MAYO DE 2027</title>
@@ -251,43 +286,6 @@
       <guid isPermaLink="false">look-outside-2026-11-03</guid>
       <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
       <description>Llegó a PS5 y PS4 con 83 sobre 14 reseñas de la versión de PC. — LOOK OUTSIDE para PS5 / PS4.</description>
-    </item>
-    <item>
-      <title>DERELIKT: SALE EL 13 DE NOVIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/derelikt</link>
-      <guid isPermaLink="false">derelikt-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Hyperstrange lo anunció en el blog de PlayStation para PS5, y la tienda de Xbox lo tiene para el mismo día. También sale en PC. — DERELIKT para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>DUCK SIDE OF THE MOON: LLEGA A PS5 EL 17 DE NOVIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/duck-side-of-the-moon</link>
-      <guid isPermaLink="false">duck-side-of-the-moon-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Starbrew Games anunció la versión de PS5 junto con Homegrown, una actualización gratis para todas las versiones. — DUCK SIDE OF THE MOON para PS5.</description>
-    </item>
-    <item>
-      <title>THRONEFALL: LLEGA A XBOX Y A GAME PASS EL 11 DE NOVIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/thronefall</link>
-      <guid isPermaLink="false">thronefall-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 11 entra a Ultimate, Premium y PC Game Pass. La PS Store también tiene una ficha para ese día, sin consola confirmada. — THRONEFALL para XBOX.</description>
-    </item>
-    <item>
-      <title>GAME PASS SUMA FOOTBALL MANAGER 27, ESCAPE ACADEMY 2 Y WARHAMMER SURVIVORS EL DÍA UNO</title>
-      <link>https://lanzamientos.lat/game-pass-noviembre-2026</link>
-      <guid isPermaLink="false">game-pass-noviembre-2026-primera-tanda</guid>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Xbox anunció la primera tanda de noviembre. Entran el día que salen Football Manager 27, hoy en PC y el 10 en consolas, Escape Academy 2: Back 2 School el 5, Warhammer Survivors y Tanuki: Pon's Summer el 10, y Hope in the City el 11. Void/Breaker deja el Game Preview el 4, Thronefall llega a Xbox el 11 y John Carpenter's Toxic Commando se suma el 12.
-
-El 15 entran a Essential ocho clásicos, entre ellos Banjo-Kazooie, Banjo-Tooie, Perfect Dark y los dos Viva Piñata, y se van 1000xResist, GoldenEye 007, Dragon Ball Xenoverse 2, Moonlighter y Wreckfest, entre otros.</description>
-    </item>
-    <item>
-      <title>THE ELDER SCROLLS VI SE LLAMA SENTINEL</title>
-      <link>https://lanzamientos.lat/noticias</link>
-      <guid isPermaLink="false">the-elder-scrolls-vi-sentinel</guid>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Ocho años después del anuncio de 2018, Bethesda le puso nombre al sexto Elder Scrolls: The Elder Scrolls VI: Sentinel. Lo reveló en el festejo por los 40 años de Bethesda Game Studios. No hay fecha ni consolas confirmadas.</description>
     </item>
   </channel>
 </rss>

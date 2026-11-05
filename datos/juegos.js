@@ -13633,7 +13633,7 @@ const JUEGOS = [
     genero: ["RPG", "MUNDO ABIERTO", "RETRO"],
     desarrollador: "PIRANHA BYTES",
     descripcion: "El RPG de mundo abierto de 2006 de Piranha Bytes, la tercera parte de Gothic, adaptado a consolas como el Gothic Classic que salió en julio. Myrtana está tomada por los orcos del norte, el rey Rhobar resiste en Vengard con lo que le queda, los rebeldes pelean y los Hashishin del sur colaboran con el invasor. El héroe sin nombre de Khorinis llega al continente y su bando decide el destino del mundo, con varios caminos para resolver cada situación y un combate de golpes rápidos, giros y magia.",
-    trailer: null,
+    trailer: "https://youtube.com/embed/53jrtvGoSnE",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39500/library_600x900_2x.jpg",
     noticias: [
@@ -15440,6 +15440,121 @@ const JUEGOS = [
         fecha: "2026-11-05",
         titulo: "LLEGA A PS5 EL 1 DE MARZO DE 2027",
         texto: "Odencat anunció la versión de PS5, y la PS Store ya tiene el día."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-05"
+  },
+  {
+    id: "where-the-seeds-fall",
+    titulo: "WHERE THE SEEDS FALL",
+    fecha: "2026-11-05",
+    plataformas: ["PS5", "SWITCH2"],
+    genero: ["AVENTURA", "PLATAFORMA"],
+    desarrollador: "CYGAMESEDGE",
+    descripcion: "Una aventura de plataformas corta de Cygames. La Plaga arrasó la tierra y la humanidad vive en las ramas del Árbol del Mundo, donde a los Niños Caídos se los ve como presagio de desastres. Un soldado desobedece las órdenes y decide escoltar a uno hasta la superficie. Hay que saltar entre plataformas que se desmoronan, aguantar ráfagas de viento y caer bien: las flores que crecen en el árbol se arrojan donde se quiere aterrizar para que amortigüen la caída. La historia dura unas tres horas, y después quedan mapas más difíciles y un modo contrarreloj.",
+    trailer: "https://youtube.com/embed/zdDJlYAVe-c",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4139580/4c2af0ffe7c2c38d4cfebd25931d22b412f8ce4c/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-05",
+        titulo: "SALIÓ HOY EN PS5 Y SWITCH 2",
+        texto: "Cygames lo puso a la venta el 5 de noviembre en PS5 y Switch 2, un día después que en PC."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-05"
+  },
+  {
+    id: "waltz-and-jam",
+    titulo: "WALTZ AND JAM",
+    fecha: "2026-12-03",
+    plataformas: ["PS5", "SWITCH2"],
+    genero: ["PLATAFORMA", "AVENTURA", "PUZZLE"],
+    desarrollador: "FLYWAY GAMES",
+    descripcion: "Un plataformas de acción y aventura en el más allá, con Waltz, un alma de buen corazón, y Jam, un perro que cambia de forma. Los siete pecados capitales se convierten en siete mundos con aspecto de libro de cuentos pintado a mano, desde un restaurante caótico hasta un desierto que parece un mar, con puzles metidos en el escenario y jefes enormes. El objetivo es completar el boleto para entrar a Uptown. Lo publica KRAFTON.",
+    trailer: "https://youtube.com/embed/Dq71PsfFrK4",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/d8a9dd6859581b42610f16aa076cc502b9df916f/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-05",
+        titulo: "SALE EL 3 DE DICIEMBRE",
+        texto: "PlayStation y Nintendo publicaron el tráiler con la fecha para PS5 y Switch 2, y la eShop ya lo tiene para el 3. La ficha de la PS Store tiene el día pero todavía no dice qué consola."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-05"
+  },
+  {
+    id: "aeruta",
+    titulo: "AERUTA",
+    fecha: "2026-12-09",
+    relanzamiento: "En PC desde noviembre de 2025",
+    plataformas: ["SWITCH"],
+    genero: ["ACCION", "RPG", "INDIE"],
+    desarrollador: "FROMDAWN GAMES",
+    descripcion: "Un RPG de acción en 2D mezclado con la administración de una panadería, en un mundo donde el pan se está olvidando. Chaya queda varada en un pueblo venido abajo y, después de una explosión accidental en un horno, se pone a reconstruir la panadería de Effie. De día sale a juntar ingredientes peleando con varias armas, cada una con su árbol de habilidades; después hornea, arma los estantes y atiende a los clientes, y con lo que gana va levantando el pueblo.",
+    trailer: "https://youtube.com/embed/8JngoFe9LA8",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2286780/d176505507c0f03bcc32c058e260c5c44679be34/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-05",
+        titulo: "LLEGA A SWITCH EL 9 DE DICIEMBRE",
+        texto: "La eShop y Nintendo US lo tienen para el 9. También se anunció para PS5, pero la PS Store todavía no tiene la fecha."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-05"
+  },
+  {
+    id: "astonishia-story",
+    titulo: "ASTONISHIA STORY",
+    fecha: "2027-02-11",
+    relanzamiento: "El original coreano es de 1994",
+    plataformas: ["SWITCH"],
+    genero: ["RPG", "ESTRATEGIA"],
+    desarrollador: "DAEWON MEDIA",
+    descripcion: "La versión renovada de un RPG coreano de culto, con gráficos rehechos en alta resolución y mecánicas ajustadas. Lloyd von Reuental tiene que recuperar una reliquia robada para limpiar su honor, en una historia de prejuicios, manipulación y deber que termina con la Reina Elfa queriendo apoderarse del poder de un dios antiguo. Las peleas son tácticas, por turnos y en grilla, y hay un montón de mercenarios opcionales para sumar al grupo. Lo publica NIS America.",
+    trailer: "https://youtube.com/embed/DNKBaK3Af_w",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5097820/70066cfe06b92b41ff1d34a2a74922ce0667229d/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-05",
+        titulo: "SALE EL 11 DE FEBRERO DE 2027",
+        texto: "NIS America lo anunció con un tráiler. La eShop y Nintendo US lo tienen para el 11 de febrero; la PS Store también tiene una ficha para ese día, pero sin consola."
+      }
+    ],
+    gamepass: false,
+    psplus: false,
+    alta: "2026-11-05"
+  },
+  {
+    id: "gennady-switch",
+    titulo: "GENNADY",
+    fecha: "2026-12-31",
+    estimado: true,
+    fechaEstimada: "CUARTO TRIMESTRE 2026",
+    relanzamiento: "En PS5, PS4, Xbox y PC desde octubre de 2026 — esta fecha corresponde a la edición de Switch",
+    plataformas: ["SWITCH"],
+    genero: ["PLATAFORMA", "ROGUELIKE", "INDIE"],
+    desarrollador: "FEED 64",
+    descripcion: "Un plataformas roguelike con estilo de historieta sucia. Después de un destello, Gennady aparece en calzoncillos en una fábrica de carne alienígena y tiene que abrirse paso con su propio cuerpo a través de biomasa compacta, entre criaturas salidas de un cómic manchado de moho. Los pasillos cambian, morir da poder, y todo está dibujado cuadro a cuadro en blanco y negro con salpicones de color.",
+    trailer: "https://youtube.com/embed/coFrt7teOko",
+    metacritic: null,
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2430010/33b19d6d5a47330c1790fbf4384c4e6503465eb2/library_capsule_2x.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-05",
+        titulo: "LLEGA A SWITCH ANTES DE FIN DE AÑO",
+        texto: "La eShop lo lista para 2026, sin día."
       }
     ],
     gamepass: false,

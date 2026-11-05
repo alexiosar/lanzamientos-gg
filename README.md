@@ -1882,6 +1882,20 @@ ampliarlas**: si en un mes no reciben impresiones, se revisa si valen la pena.
    número de paquete (7007) sin decir qué trae: el Definitive Edition ya está en Switch 2 desde
    noviembre de 2025, y Rise y Shadow no tienen ficha propia. Revisar en la próxima semanal.
 
+   **Barrido del 05/11/2026: releases.com estaba caído** (error 524 de Cloudflare: el servidor
+   de origen no respondía, ni la portada ni el endpoint de los días). Se hizo sólo la parte de
+   Nintendo, con la consulta por rango de la eShop europea del 5/11 al 30/06/2027 (63 juegos).
+   **Se cargaron 5**, todos confirmados también en Nintendo US: Where the Seeds Fall (PS5 y
+   Switch 2, 5/11), Waltz and Jam (PS5 y Switch 2, 3/12: el PS5 lo respalda el tráiler del
+   canal de PlayStation, aunque la ficha de la PS Store todavía no diga la consola), Aeruta
+   (Switch, 9/12), Astonishia Story (Switch, 11/02/2027) y la edición de Switch de Gennady
+   (estimada para el cuarto trimestre: la eShop la lista para 2026 sin día). **No se cargaron**:
+   DECAPOLICE (la eShop lo tiene en 2026 pero sin `nsuid`, o sea sin producto), Pocket Wheels
+   (2026 sin día en la eShop europea; Nintendo US no lo tiene), Gloomgrave, Plinko Plonko Plunko
+   y 28 Days Train Wreck Survivor (relleno). La fecha de la eShop europea para Dragon Quest
+   Monsters (1/12) es la del acceso anticipado de la Deluxe; la normal sigue el 3/12. **PS Store
+   y Xbox quedaron sin barrer: repetir el barrido completo en la semanal del 12/11.**
+
    **Las reediciones de HAMSTER que faltaban** (unas cuarenta entre junio y septiembre, con
    cuatro cargadas) **no se van a buscar**: el usuario decidió el 24/09 cargarlas sólo de
    ahí en adelante. Está explicado en "Fuentes de datos habituales".
