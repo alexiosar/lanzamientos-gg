@@ -6,7 +6,7 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Thu, 05 Nov 2026 17:34:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 17:48:44 +0000</lastBuildDate>
     <item>
       <title>MARVEL'S WOLVERINE: SUPERÓ LOS 2,4 MILLONES DE COPIAS</title>
       <link>https://lanzamientos.lat/juegos/marvels-wolverine</link>
@@ -20,6 +20,13 @@
       <guid isPermaLink="false">kingdom-of-night-2026-11-05</guid>
       <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
       <description>Llega a Xbox y Switch con 79 sobre cuatro reseñas de la versión de PC de 2025. — KINGDOM OF NIGHT para XBOX / SWITCH.</description>
+    </item>
+    <item>
+      <title>MARIACHI LEGENDS: SALE EL 27 DE ABRIL DE 2027 EN CONSOLAS, CON GAME PASS</title>
+      <link>https://lanzamientos.lat/juegos/mariachi-legends</link>
+      <guid isPermaLink="false">mariachi-legends-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Halberd Studios lo confirmó en Gamescom: sale el 27 de abril de 2027 en PS5, Xbox Series, Switch y PC, y entra a Game Pass desde el primer día. Las tiendas de consola todavía no tienen el día cargado. — MARIACHI LEGENDS para PS5 / SWITCH / XBOX.</description>
     </item>
     <item>
       <title>GOD OF WAR: LAUFEY: SE RETRASA AL 20 DE MAYO DE 2027</title>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">titanium-court-2026-11-03</guid>
       <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
       <description>Llegó a consolas con 85 sobre 16 reseñas de la versión de PC. — TITANIUM COURT para PS5 / SWITCH / SWITCH 2.</description>
-    </item>
-    <item>
-      <title>LOOK OUTSIDE: DEBUTA CON 83 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/look-outside</link>
-      <guid isPermaLink="false">look-outside-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Llegó a PS5 y PS4 con 83 sobre 14 reseñas de la versión de PC. — LOOK OUTSIDE para PS5 / PS4.</description>
     </item>
   </channel>
 </rss>

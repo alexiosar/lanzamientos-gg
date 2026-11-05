@@ -2794,7 +2794,7 @@ const JUEGOS = [
     descripcion: "La vuelta de Route-16 Turbo, un juego de NES de hace más de cuarenta años, con la jugabilidad original intacta, gráficos rehechos por completo y la música remezclada. Se maneja el MAD X-R, que ahora tiene poderes nuevos, para frenar a una organización malvada que volvió a la vida, y suma un modo versus local.",
     trailer: "https://youtube.com/embed/Gi-5BgQe9yU",
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4307330/58a63a96dbcbaff8701765d3e26e1a1dce96b902/header.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4307330/b71247e76bbdedd201661b2f0a00b97c3a5ba31e/library_capsule_2x.jpg",
     gamepass: false,
     psplus: false,
     alta: "2026-07-14"
@@ -4182,6 +4182,11 @@ const JUEGOS = [
     desarrollador: "ZA/UM",
     descripcion: "El RPG de espionaje de ZA/UM, el estudio que hizo Disco Elysium. El protagonismo es de Hershel Wilk, alias Cascade, que carga desde hace cinco años con una misión en la que perdió a todo su equipo, hasta que llega un encargo misterioso. Todo se resuelve con tiradas de habilidad, por engaño, violencia o deducción, en una ciudad partida entre tres bandos. En PS5 llega como Director's Cut, con la actualización del mismo nombre.",
     trailer: "https://youtube.com/embed/C_acH7Wx1Ew",
+    gameplay: {
+      video: "https://youtube.com/embed/Isf_QvKc8Qc",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 83,
     metacriticUsuarios: 6.7,
     metacriticVotos: 112,
@@ -6264,6 +6269,11 @@ const JUEGOS = [
     desarrollador: "SQUARE ENIX",
     descripcion: "Un Final Fantasy nuevo con pixel art que parte del estilo de los clásicos y lo lleva más lejos. El grupo avanza guiado por visiones que ayudan en el combate y revelan la verdad detrás de una fuerza que amenaza con destruirlo todo.",
     trailer: "https://youtube.com/embed/wbsfQYI_IIY",
+    gameplay: {
+      video: "https://youtube.com/embed/_uCOz--Wb40",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 86,
     metacriticUsuarios: 9.0,
     metacriticVotos: 334,
@@ -6402,6 +6412,11 @@ const JUEGOS = [
     desarrollador: "S-GAME STUDIO",
     descripcion: "Un juego de acción de S-Game hecho en Unreal Engine 5, que mezcla la narrativa de las historias wuxia con combates muy rápidos. Se juega como Soul, un guerrero al que le quedan 66 días de vida y que se cruza con asesinos y conspiraciones.",
     trailer: "https://youtube.com/embed/qgJBFa952mY",
+    gameplay: {
+      video: "https://youtube.com/embed/l3kv3gvw_JU",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 88,
     metacriticUsuarios: 8.7,
     metacriticVotos: 1335,
@@ -6926,6 +6941,11 @@ const JUEGOS = [
     desarrollador: "ARTEFACTS STUDIO",
     descripcion: "El juego oficial del campeonato de motocross de 2026, con los circuitos y los pilotos de la temporada. Apuesta por la simulación: se siente cada salto, cada surco y cada impacto. Los modos son Gran Premio y Campeonato, y las reseñas marcaron que no tiene un modo carrera para empezar desde abajo y crecer con un equipo. En Xbox, la Fox Holeshot Edition daba acceso anticipado.",
     trailer: "https://youtube.com/embed/gXnWAOR3HPQ",
+    gameplay: {
+      video: "https://youtube.com/embed/CHKuOWovxD8",
+      canal: "GrenitaP",
+      canalUrl: "https://www.youtube.com/@Grenitaplay"
+    },
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocjkc.jpg",
     noticias: [
@@ -7313,24 +7333,27 @@ const JUEGOS = [
   {
     id: "mariachi-legends",
     titulo: "MARIACHI LEGENDS",
-    fecha: "2027-04-30",
-    estimado: true,
-    fechaEstimada: "ABRIL 2027",
+    fecha: "2027-04-27",
     plataformas: ["PS5", "SWITCH", "XBOX"],
     genero: ["ACCION", "PLATAFORMA", "INDIE", "ARCADE"],
     desarrollador: "HALBERD STUDIOS",
     descripcion: "Un metroidvania de acción en pixel art ambientado en México. Pablo Cruz es un detective que hizo un trato con la Muerte: ella le da el poder de transformarse en La Sombra para enfrentar a los criminales de Santa Mascota, su pueblo, y él promete entregarle al único que se le escapó, un hombre que desafió su poder y se volvió inmortal. El combate gira alrededor de la defensa y los remates, con pistolas, espadas, látigos y hechizos para armar un estilo propio.",
-    trailer: "https://youtube.com/embed/jOaIduUeX3U",
+    trailer: "https://youtube.com/embed/S8FxDXI6Rb4",
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2376260/library_600x900.jpg",
     noticias: [
       {
+        fecha: "2026-11-05",
+        titulo: "SALE EL 27 DE ABRIL DE 2027 EN CONSOLAS, CON GAME PASS",
+        texto: "Halberd Studios lo confirmó en Gamescom: sale el 27 de abril de 2027 en PS5, Xbox Series, Switch y PC, y entra a Game Pass desde el primer día. Las tiendas de consola todavía no tienen el día cargado."
+      },
+      {
         fecha: "2026-10-07",
         titulo: "EN PC SALE EL 27 DE ABRIL DE 2027",
-        texto: "Steam ya tiene el día para PC. En consolas todavía no hay fecha: la tienda de Xbox lo lista sin día y la PS Store no lo tiene, así que en PS5, Xbox y Switch queda estimado para el mismo mes."
+        texto: "Steam ya tiene el día para PC."
       }
     ],
-    gamepass: false,
+    gamepass: true,
     psplus: false,
     alta: "2026-07-31"
   },
@@ -8391,6 +8414,11 @@ const JUEGOS = [
     desarrollador: "GPTRACK50 INC.",
     descripcion: "Un RPG de acción en 3D con un protagonista particular: Davy, el zombi más débil del mundo, que se enamora de Julia, una universitaria que murió congelada durante la Gran Guerra. Para revivirla tiene que bajar a una mazmorra y derrotar a KOM, el Rey de los Monstruos. En cada incursión se hace más fuerte: modifica su cuerpo y devora monstruos de élite para robarles los poderes, siempre contra reloj.",
     trailer: "https://youtube.com/embed/vPqRLWnV4jk",
+    gameplay: {
+      video: "https://youtube.com/embed/UQwWC2dttb4",
+      canal: "AdayCanarioWTF",
+      canalUrl: "https://www.youtube.com/@AdayCanarioWTF"
+    },
     metacritic: 66,
     metacriticUsuarios: 6.3,
     metacriticVotos: 12,
@@ -8549,7 +8577,7 @@ const JUEGOS = [
     descripcion: "Un plataformas de acción en 2D con Danger Mouse y su compañero Penfold. El barón Greenback, nostálgico de sus viejos tiempos, arma su plan más audaz: obligarlos a revivir todos sus enfrentamientos, a ver si esta vez gana él. Se juega con cualquiera de los dos a lo largo de 15 niveles de scroll lateral, con acción al estilo arcade.",
     trailer: "https://youtube.com/embed/zSdGKM3TckQ",
     metacritic: null,
-    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3975060/ab93b539814a85f3bbefdb55e00f01f5081c4b03/header.jpg",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3975060/e75d5b3f8739dfd1f51c07ae34dd282877abc0c0/library_capsule_2x.jpg",
     noticias: [
       {
         fecha: "2026-09-24",
@@ -14782,7 +14810,7 @@ const JUEGOS = [
     descripcion: "Un RPG de acción de mundo abierto y gratuito, con combates rápidos de estilo animé y misterios en un mundo de aire victoriano.",
     trailer: "https://youtube.com/embed/HdbINn5ciIs",
     metacritic: null,
-    imagen: "https://image.api.playstation.com/vulcan/ap/rnd/202608/1812/4b2d090b2c7ce548d9ee69ca01ec992cc747c245a1b022d5.png",
+    imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocikv.jpg",
     noticias: [
       {
         fecha: "2026-11-01",

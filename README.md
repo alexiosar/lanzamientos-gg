@@ -2144,7 +2144,7 @@ y abrir http://localhost:8080
   | HYPERyuki y Haunted Paws (PS5 y Xbox) | Xbox y la PS Store los listan | **Al 02/11 siguen sin día en las dos.** RACCOIN sumó Xbox y Prehistoric Isle sumó Xbox y Switch el 02/11 |
   | Lilac (Switch) · TAITO Milestones 5 · AYAKASHI Fishing Folktails · BAKUDO (Switch 2) | 5/11, sin fecha, mediados de 2027 y 2027 (Gematsu, 28-29/10) | Lilac son novelas visuales sin datos claros; falta revisarlos en la semanal |
   | Console Archives MARL JONG (PS5 y Switch 2) | 29/10 | **Descartado (29/10, decisión del usuario)**: mahjong con el texto sólo en japonés. Los de HAMSTER con texto sólo en japonés no entran |
-  | Silver Palace (PS5) · Shelterra the Skyworld (PS5) | Cargados el 1/11 y el 30/10 | **Silver Palace va con la imagen cuadrada de la PS Store**: no está en Steam, SteamGridDB no lo tiene e IGDB lo lista sin fecha (02/11). Resonance of Fate, Frankenstein y Kowloon's Gate ya tienen la tapa de IGDB. Shelterra quedó sólo en Xbox: la PS Store tiene el 6/11 sin decir consola |
+  | Silver Palace (PS5) · Shelterra the Skyworld (PS5) | Cargados el 1/11 y el 30/10 | **Silver Palace ya tiene su tapa vertical de IGDB** (05/11). Resonance of Fate, Frankenstein y Kowloon's Gate ya tienen la tapa de IGDB. Shelterra quedó sólo en Xbox: la PS Store tiene el 6/11 sin decir consola |
   | The Duskbloods (Switch 2) | FromSoftware la retrasó a 2027 (Gematsu, 29/10) | Nunca estuvo cargada; entra cuando tenga fecha o trimestre, con carátula de SteamGridDB o IGDB |
   | Petit Planet (Switch 2) | 2027 (Gematsu, 1/11) | No está en Steam ni en las tiendas de consola: falta carátula |
   | Silly Polly Beast (Switch 2) · Bill & Ted's Excellent Adventure: Arcade · Tales of Tuscany · The Backworld | Noviembre, sin fecha, 22/02/2027 y segundo trimestre de 2027 (Gematsu, 2-3/11) | Silly Polly Beast salió en Xbox en octubre de 2025 y la eShop no tiene la de Switch 2; Bill & Ted no tiene fecha; Tales of Tuscany y The Backworld no figuran en ninguna tienda de consola |
@@ -2219,8 +2219,11 @@ y abrir http://localhost:8080
     eShop, que casi nunca suben uno; Rainbow Islands CS es de Taito y puede aparecer cerca del
     estreno del 8 de octubre.
 
-  **Carátulas cuadradas.** Down Pit y Rally & Hypercar Bundle quedaron con la imagen cuadrada
-  de la eShop y de IGDB: se probaron Steam, SteamGridDB, IGDB y la eShop y no hay vertical en
+  **Carátulas cuadradas.** Down Pit, Rally & Hypercar Bundle, Power Racing Bundle 4 y Spooky
+  Spirit Shooting Gallery quedaron con la imagen cuadrada de la eShop (revisado de nuevo el
+  05/11/2026; la página de Nintendo US sólo tiene la imagen apaisada, con el logo demasiado
+  ancho para recortarla). Route 16R y Danger Mouse sí la consiguieron ese día: Steam les sumó
+  la `library_capsule`. Las otras: se probaron Steam, SteamGridDB, IGDB y la eShop y no hay vertical en
   ninguno. Xbox no aplica, porque son juegos que sólo salen en Switch. La caja de la ficha las muestra
   enteras, con márgenes arriba y abajo.
 - Duraciones (HLTB): quedan 23 ports sin cargar, todos porque HLTB todavía no tiene tiempos
