@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-06T14:18:37+00:00",
+ "generado": "2026-11-06T14:23:34+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 650,
@@ -55,6 +55,11 @@
    "desarrollador": "FANGAMER",
    "descripcion": "La historia paralela de Undertale, con el mismo sistema de siempre: en cada pelea se puede luchar o perdonar. Se recorre un mundo misterioso junto a personajes nuevos y otros que ya estaban de los capítulos anteriores.",
    "trailer": "https://youtube.com/embed/n5y22LUfetA",
+   "gameplay": {
+    "video": "https://youtube.com/embed/dh8Cx6JKrsg",
+    "canal": "Pepe el Mago Juega",
+    "canalUrl": "https://www.youtube.com/@PepeelMagoJuega"
+   },
    "metacritic": 96,
    "metacriticUsuarios": 8.1,
    "metacriticVotos": 28,
@@ -653,6 +658,11 @@
    "desarrollador": "ID SOFTWARE",
    "descripcion": "Una expansión de la campaña de DOOM: The Dark Ages. Herido y traicionado, el Slayer queda atrapado en un purgatorio del que sólo sale enfrentando verdades incómodas, con la ayuda de un aliado misterioso, y tiene que pelear contra una abominación de los dioses. Suma niveles nuevos con puzles, demonios y misterios, y la lanza de cadenas, un arma que premia la destreza con más potencia y movilidad. Incluye además el Desgarratorio 3.0, con tres mapas, demonios y armas mejoradas.",
    "trailer": "https://youtube.com/embed/nL_JF1ZNllI",
+   "gameplay": {
+    "video": "https://youtube.com/embed/kvIzBBL7mb8",
+    "canal": "GENuINE993",
+    "canalUrl": "https://www.youtube.com/@GENuINE993"
+   },
    "metacritic": 91,
    "metacriticUsuarios": 8.6,
    "metacriticVotos": 166,
@@ -1316,6 +1326,11 @@
    "desarrollador": "UNDERCODERS",
    "descripcion": "Un juego de trucos sobre rieles: se maneja un tren personalizado que desafía la gravedad y se hacen ollies, kickflips y grinds para sumar puntos y buscar el récord. Junto a un grupo de marginados hay que frenar a la corporación Miraidō, que encerró bajo cúpulas a Osaka, Tokio y otras ciudades. El recorrido va del campo de Kyushu a las grandes ciudades y a los campos nevados de Hokkaido, con rivales que se vuelven aliados y jefes cada vez más delirantes: chicas mágicas en mechas, castillos que caminan y gusanos mecánicos.",
    "trailer": "https://youtube.com/embed/1MUuSW4g0Bc",
+   "gameplay": {
+    "video": "https://youtube.com/embed/YFqeGcUHb8g",
+    "canal": "L0k0hGaming",
+    "canalUrl": "https://www.youtube.com/@l0k0hgaming"
+   },
    "metacritic": 88,
    "metacriticUsuarios": 8.5,
    "metacriticVotos": 176,
@@ -3599,6 +3614,11 @@
    "desarrollador": "HOUSE HOUSE",
    "descripcion": "Un juego cooperativo online de salir a caminar con amigos por un mundo abierto lleno de desafíos, puzles y cosas para descubrir, de los creadores de Untitled Goose Game. Todo gira alrededor de hablar: con el chat de voz por proximidad las voces se apagan con la distancia, rebotan en los pasillos y se oyen por walkie-talkie, y cuando no se puede hablar hay que hacerse entender con gestos, punteros láser, bengalas o pizarras. Se juega de dos a doce, con juego cruzado entre plataformas, y tiene un final: está pensado para recorrerse de punta a punta en grupo.",
    "trailer": "https://youtube.com/embed/xfzapBQssa0",
+   "gameplay": {
+    "video": "https://youtube.com/embed/zhAkB3x_WPA",
+    "canal": "Menos Trece",
+    "canalUrl": "https://www.youtube.com/@MenosTrece"
+   },
    "metacritic": 91,
    "metacriticUsuarios": 8.1,
    "metacriticVotos": 417,
@@ -3642,6 +3662,11 @@
    "desarrollador": "PIXELCOUNT STUDIOS",
    "descripcion": "Un juego de simulación de vida con rol, hecho por ex integrantes del equipo de Fable. El personaje envejece, forma una familia y su legado sigue en sus descendientes. Se personalizan la granja y la casa, se maneja un negocio, como herrería, botica o almacén, se fabrican objetos y se pelea contra criaturas de cuentos de hadas oscuros y contra el ejército Hob, que levanta tótems y destruye cultivos. Los vecinos recuerdan lo que se les hace, bromas incluidas, y una actualización gratuita sumó una taberna para administrar.",
    "trailer": "https://youtube.com/embed/H-VIZ65gxKU",
+   "gameplay": {
+    "video": "https://youtube.com/embed/7AgbxWPTzqQ",
+    "canal": "elwyx",
+    "canalUrl": "https://www.youtube.com/@AkaWyx"
+   },
    "metacritic": 89,
    "metacriticUsuarios": 7.5,
    "metacriticVotos": 28,
@@ -5235,6 +5260,7 @@
    "titulo": "TOUHOU KOUMAKYOU: NEW CLASSIC",
    "fecha": "2026-09-09",
    "relanzamiento": "Remake del original de PC de 2002",
+   "duracion": "≈ 3,2 h (historia)",
    "plataformas": [
     "SWITCH",
     "SWITCH2",
@@ -5513,6 +5539,11 @@
    "desarrollador": "NIHON FALCOM",
    "descripcion": "El segundo capítulo de Trails in the Sky, de Nihon Falcom. Estelle Bright sale otra vez a recorrer Liberl para averiguar qué pasó con Joshua y enfrentar a la organización Uroboros.",
    "trailer": "https://youtube.com/embed/4fEzsQ6Hv8Y",
+   "gameplay": {
+    "video": "https://youtube.com/embed/Yg4V2Mx8jXw",
+    "canal": "Know",
+    "canalUrl": "https://www.youtube.com/@Know_2K"
+   },
    "metacritic": 90,
    "metacriticUsuarios": 8.8,
    "metacriticVotos": 283,
@@ -6381,6 +6412,11 @@
    "desarrollador": "SQUARE ENIX",
    "descripcion": "La edición definitiva de Dragon Quest XI: el juego completo más escenarios adicionales, banda sonora orquestal y el modo 2D, que permite recorrer toda la aventura con el estilo de los primeros juegos de la saga.",
    "trailer": "https://youtube.com/embed/73FRi8W1oCM",
+   "gameplay": {
+    "video": "https://youtube.com/embed/coJtk6cyO5Q",
+    "canal": "RetroRiders",
+    "canalUrl": "https://www.youtube.com/@RetroRidersMx"
+   },
    "metacriticSlug": "dragon-quest-xi-s-echoes-of-an-elusive-age",
    "metacritic": 91,
    "metacriticUsuarios": 8.8,
@@ -8139,6 +8175,11 @@
    "desarrollador": "KEEN GAMES GMBH",
    "descripcion": "Un RPG de acción y supervivencia cooperativo para hasta dieciséis jugadores. Se es un Flameborn, la última esperanza de una raza que se muere, en un reino tapado por una niebla corrupta: se pelea contra enemigos, se construyen edificaciones y se va recuperando el mundo.",
    "trailer": "https://youtube.com/embed/qygf4aICf34",
+   "gameplay": {
+    "video": "https://youtube.com/embed/TNR3g6g-HoU",
+    "canal": "Menos Trece",
+    "canalUrl": "https://www.youtube.com/@MenosTrece"
+   },
    "metacritic": 88,
    "metacriticUsuarios": 7.4,
    "metacriticVotos": 77,
@@ -11819,6 +11860,11 @@
    "desarrollador": "MELOS HAN-TANI",
    "descripcion": "Una aventura de acción en 3D donde cada nivel se esconde a plena vista. Se recorre una tierra llena de secretos que se revelan mirando distinto lo que ya se tenía delante.",
    "trailer": "https://youtube.com/embed/JkK6X_LWMr0",
+   "gameplay": {
+    "video": "https://youtube.com/embed/Rgkn3cQtLmo",
+    "canal": "Recordstopia",
+    "canalUrl": "https://www.youtube.com/@Recordstopia"
+   },
    "metacritic": 88,
    "metacriticUsuarios": null,
    "critica": "El puntaje más alto de la semana, pero armado con cuatro reseñas: hay que tomarlo como un primer indicio. Lo que elogian es el combate, que abandona la esquiva y el parry por el choque cuerpo a cuerpo al estilo de los Ys viejos de Falcom, donde moverse bien y elegir a quién pegarle primero importa más que los reflejos. También el mundo no lineal, la historia y una autoría que se nota. Nadie le marca un defecto, pero sí queda claro para quién es: pide aprender un sistema de combate poco común, te deja encontrar el camino solo y mira al RPG de acción de hace treinta años sin disimularlo.",
@@ -12282,6 +12328,7 @@
    "titulo": "SAMSON: A TYNDALSTON STORY",
    "relanzamiento": "En PC desde abril de 2026 — esta fecha corresponde a las ediciones de PS5 y Xbox",
    "fecha": "2026-09-21",
+   "duracion": "≈ 9,5 h (historia) · 28 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -12437,6 +12484,11 @@
    "desarrollador": "CD PROJEKT RED",
    "descripcion": "La remasterización de uno de los RPG de mundo abierto más premiados de la década llega a Switch 2. Geralt de Rivia, el Continente entero y las dos expansiones grandes, Hearts of Stone y Blood and Wine. El mismo día la remasterización llega también a PS5, Xbox y PC, pero ahí no se vende aparte: es una actualización gratuita para quien ya tenga el juego.",
    "trailer": "https://youtube.com/embed/IGk17XQ7IrQ",
+   "gameplay": {
+    "video": "https://youtube.com/embed/hI55aAcoeDE",
+    "canal": "Menos Trece",
+    "canalUrl": "https://www.youtube.com/@MenosTrece"
+   },
    "metacritic": 92,
    "metacriticUsuarios": 8.6,
    "metacriticVotos": 655,
@@ -14416,6 +14468,11 @@
    "desarrollador": "RAW FURY",
    "descripcion": "Una investigación sobrenatural en Irlanda, en 1897. El detective privado Declan Ward llega a la mansión Blake, en Connemara, a buscar a Evelyn Deane, una huésped desaparecida, y se encuentra con un grupo de aficionados a lo místico llegados de todo el mundo para una sesión de espiritismo en la noche de Halloween. Se recorre la mansión, se juntan pistas y se habla con los invitados para armar qué pasó.",
    "trailer": "https://youtube.com/embed/lKI7DVrhWL8",
+   "gameplay": {
+    "video": "https://youtube.com/embed/k8oIgIHnoSM",
+    "canal": "VorvekTV",
+    "canalUrl": "https://www.youtube.com/@Vorvek"
+   },
    "metacritic": 89,
    "metacriticUsuarios": 8.3,
    "metacriticVotos": 54,
@@ -15508,6 +15565,7 @@
    "titulo": "CROC 2: KINGDOM OF THE GOBBOS",
    "fecha": "2026-10-29",
    "relanzamiento": "Remaster del original de PS1 y PC, 1999",
+   "duracion": "≈ 7,9 h (historia) · 16 h (completo)",
    "plataformas": [
     "PS5",
     "PS4",
@@ -17591,6 +17649,7 @@
    "titulo": "SHREK 2 REMASTERED",
    "fecha": "2026-11-10",
    "relanzamiento": "Remasterización del juego de 2004",
+   "duracion": "≈ 5,1 h (historia) · 8,9 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -18286,6 +18345,7 @@
    "titulo": "GOTHIC 3 CLASSIC",
    "fecha": "2026-11-24",
    "relanzamiento": "En PC desde 2006",
+   "duracion": "≈ 45 h (historia) · 111 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -18690,6 +18750,11 @@
    "desarrollador": "MOJANG",
    "descripcion": "La edición de Switch 2 del juego de construir y sobrevivir en mundos de bloques generados al azar. Suma los gráficos Vibrant Visuals, con algunas limitaciones como la pantalla dividida, y las partidas del Minecraft de Switch se pasan tal cual. La Ultimate Collection trae además cinco complementos, objetos para el creador de personajes, 1.000 Minecoins y el paquete Super Mario Mash-Up, con un mundo temático, 15 temas musicales y 40 skins.",
    "trailer": "https://youtube.com/embed/ODHH1nUaOIM",
+   "gameplay": {
+    "video": "https://youtube.com/embed/ejL28cKgq9I",
+    "canal": "Ray Bacon",
+    "canalUrl": "https://www.youtube.com/@RayBacon"
+   },
    "metacriticSlug": "minecraft",
    "metacritic": 93,
    "critica": "Las reseñas son de la versión de PC de 2011. Es uno de los juegos más influyentes de la historia: un mundo abierto hecho de bloques donde se explora, se sobrevive y se construye lo que uno imagine, solo o con amigos, y que inventó un género entero. Las propias reseñas de entonces le marcaban detalles sin terminar, que con los años y las actualizaciones quedaron atrás.",
@@ -19285,6 +19350,7 @@
    "titulo": "EVERYTHING IS CRAB",
    "fecha": "2027-01-26",
    "relanzamiento": "En PC desde mayo de 2026",
+   "duracion": "≈ 6,3 h (historia) · 95 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -19927,6 +19993,7 @@
    "titulo": "METRO REDUX",
    "fecha": "2026-10-29",
    "relanzamiento": "Colección de 2014 (PS4, Xbox One y PC) — esta es la edición de PS5 y Xbox Series",
+   "duracion": "≈ 17 h (historia) · 52 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -20028,6 +20095,7 @@
    "titulo": "ONE TURN KILL",
    "fecha": "2026-10-28",
    "relanzamiento": "En PC desde enero de 2026",
+   "duracion": "≈ 4,8 h (historia) · 5,8 h (completo)",
    "plataformas": [
     "SWITCH",
     "SWITCH2"
@@ -20059,6 +20127,7 @@
    "titulo": "THE LAST CAT IN THE UNIVERSE",
    "fecha": "2026-10-29",
    "relanzamiento": "En PC desde abril de 2026 — esta fecha corresponde a la edición de Switch",
+   "duracion": "≈ 1,9 h (historia) · 2,5 h (completo)",
    "plataformas": [
     "SWITCH"
    ],
@@ -20089,6 +20158,7 @@
    "titulo": "THE LAST CAT IN THE UNIVERSE",
    "fecha": "2026-11-27",
    "relanzamiento": "En PC desde abril de 2026 y en Switch desde octubre — esta fecha corresponde a la edición de Xbox",
+   "duracion": "≈ 1,9 h (historia) · 2,5 h (completo)",
    "plataformas": [
     "XBOX"
    ],
@@ -20151,6 +20221,7 @@
    "titulo": "SNØ: ULTIMATE FREERIDING",
    "fecha": "2026-10-28",
    "relanzamiento": "En PC desde febrero de 2025",
+   "duracion": "≈ 0,8 h (historia)",
    "plataformas": [
     "PS5",
     "XBOX",
@@ -20183,6 +20254,7 @@
    "titulo": "TITANIUM COURT",
    "fecha": "2026-10-29",
    "relanzamiento": "En PC desde abril de 2026",
+   "duracion": "≈ 7 h (historia) · 33 h (completo)",
    "plataformas": [
     "PS5",
     "SWITCH",
@@ -20223,6 +20295,7 @@
    "titulo": "LOOK OUTSIDE",
    "fecha": "2026-10-30",
    "relanzamiento": "En PC desde marzo de 2025",
+   "duracion": "≈ 14 h (historia) · 52 h (completo)",
    "plataformas": [
     "PS5",
     "PS4"
@@ -20262,6 +20335,7 @@
    "titulo": "THE OUTLAST TRIALS",
    "fecha": "2026-10-27",
    "relanzamiento": "En PS5, PS4, Xbox y PC desde marzo de 2024 — esta es la edición de Switch 2",
+   "duracion": "≈ 13 h (historia) · 83 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -20390,6 +20464,7 @@
    "titulo": "YS VIII: LACRIMOSA OF DANA",
    "fecha": "2027-02-25",
    "relanzamiento": "Salió en 2016 (PS4, Switch y PC) — esta es la edición de Switch 2",
+   "duracion": "≈ 37 h (historia) · 69 h (completo)",
    "plataformas": [
     "SWITCH2"
    ],
@@ -20451,6 +20526,7 @@
    "titulo": "DUCK SIDE OF THE MOON",
    "fecha": "2026-11-17",
    "relanzamiento": "En Switch y PC desde mayo de 2026 — esta fecha corresponde a la edición de PS5",
+   "duracion": "≈ 2,5 h (historia) · 5,1 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -20481,6 +20557,7 @@
    "titulo": "THRONEFALL",
    "fecha": "2026-11-11",
    "relanzamiento": "En PC y Switch desde octubre de 2024",
+   "duracion": "≈ 8,2 h (historia) · 34 h (completo)",
    "plataformas": [
     "XBOX"
    ],
@@ -20541,6 +20618,7 @@
    "titulo": "POPUCOM",
    "fecha": "2026-11-17",
    "relanzamiento": "En PC desde junio de 2025 y en Switch desde diciembre de 2025 — esta fecha corresponde a la edición de PS5",
+   "duracion": "≈ 12 h (historia) · 18 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -20667,6 +20745,7 @@
    "titulo": "MEG'S MONSTER",
    "fecha": "2027-03-01",
    "relanzamiento": "En PC, Switch y Xbox desde marzo de 2023 — esta fecha corresponde a la edición de PS5",
+   "duracion": "≈ 4,6 h (historia) · 5,4 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -20755,6 +20834,7 @@
    "titulo": "AERUTA",
    "fecha": "2026-12-09",
    "relanzamiento": "En PC desde noviembre de 2025",
+   "duracion": "≈ 14 h (historia) · 28 h (completo)",
    "plataformas": [
     "SWITCH"
    ],
@@ -20785,6 +20865,7 @@
    "titulo": "ASTONISHIA STORY",
    "fecha": "2027-02-11",
    "relanzamiento": "El original coreano es de 1994",
+   "duracion": "≈ 15 h (historia) · 21 h (completo)",
    "plataformas": [
     "SWITCH"
    ],
@@ -20846,6 +20927,7 @@
    "titulo": "HARD WEST 2",
    "fecha": "2026-11-10",
    "relanzamiento": "En PC desde agosto de 2022",
+   "duracion": "≈ 17 h (historia) · 25 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"

@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-06T14:18:37+00:00",
+ "generado": "2026-11-06T14:23:34+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-11-06",
@@ -214,6 +214,7 @@
    "titulo": "SHREK 2 REMASTERED",
    "fecha": "2026-11-10",
    "relanzamiento": "Remasterización del juego de 2004",
+   "duracion": "≈ 5,1 h (historia) · 8,9 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -351,6 +352,7 @@
    "titulo": "HARD WEST 2",
    "fecha": "2026-11-10",
    "relanzamiento": "En PC desde agosto de 2022",
+   "duracion": "≈ 17 h (historia) · 25 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -432,6 +434,7 @@
    "titulo": "THRONEFALL",
    "fecha": "2026-11-11",
    "relanzamiento": "En PC y Switch desde octubre de 2024",
+   "duracion": "≈ 8,2 h (historia) · 34 h (completo)",
    "plataformas": [
     "XBOX"
    ],
@@ -846,6 +849,7 @@
    "titulo": "DUCK SIDE OF THE MOON",
    "fecha": "2026-11-17",
    "relanzamiento": "En Switch y PC desde mayo de 2026 — esta fecha corresponde a la edición de PS5",
+   "duracion": "≈ 2,5 h (historia) · 5,1 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -876,6 +880,7 @@
    "titulo": "POPUCOM",
    "fecha": "2026-11-17",
    "relanzamiento": "En PC desde junio de 2025 y en Switch desde diciembre de 2025 — esta fecha corresponde a la edición de PS5",
+   "duracion": "≈ 12 h (historia) · 18 h (completo)",
    "plataformas": [
     "PS5"
    ],
@@ -971,6 +976,7 @@
    "titulo": "GOTHIC 3 CLASSIC",
    "fecha": "2026-11-24",
    "relanzamiento": "En PC desde 2006",
+   "duracion": "≈ 45 h (historia) · 111 h (completo)",
    "plataformas": [
     "PS5",
     "XBOX"
@@ -1026,6 +1032,7 @@
    "titulo": "THE LAST CAT IN THE UNIVERSE",
    "fecha": "2026-11-27",
    "relanzamiento": "En PC desde abril de 2026 y en Switch desde octubre — esta fecha corresponde a la edición de Xbox",
+   "duracion": "≈ 1,9 h (historia) · 2,5 h (completo)",
    "plataformas": [
     "XBOX"
    ],
