@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-06T14:23:34+00:00",
+ "generado": "2026-11-06T14:39:28+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "desde": "2026-11-06",
  "hasta": "2026-12-06",
- "total": 52,
+ "total": 51,
  "juegos": [
   {
    "id": "hasbro-games-junior-collection",
@@ -412,7 +412,8 @@
    "fecha": "2026-11-11",
    "plataformas": [
     "PS5",
-    "SWITCH"
+    "SWITCH",
+    "SWITCH2"
    ],
    "genero": [
     "CASUAL",
@@ -427,7 +428,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard"
+   "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "SALE EL 11 DE NOVIEMBRE, TAMBIÉN EN SWITCH 2",
+     "texto": "Nintendo US tiene la versión de Switch y una edición de Switch 2 para el 11 de noviembre, las dos con demo gratis. La PS Store también tiene el día."
+    }
+   ]
   },
   {
    "id": "thronefall",
@@ -512,7 +520,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-24",
-   "url": "https://lanzamientos.lat/juegos/moomin-midsummer-madness"
+   "url": "https://lanzamientos.lat/juegos/moomin-midsummer-madness",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "SALE EL 12 DE NOVIEMBRE",
+     "texto": "La eShop tiene las versiones de Switch y Switch 2 para el 12 de noviembre."
+    }
+   ]
   },
   {
    "id": "metaphor-refantazio",
@@ -567,41 +582,12 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/barbie-rewind"
-  },
-  {
-   "id": "whirlight-no-time-to-trip",
-   "titulo": "WHIRLIGHT - NO TIME TO TRIP",
-   "fecha": "2026-11-12",
-   "plataformas": [
-    "SWITCH",
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "CASUAL",
-    "INDIE"
-   ],
-   "desarrollador": "IMAGINARYLAB",
-   "descripcion": "Una aventura gráfica point and click en Verice Bay, protagonizada por Margaret, una artista, y Hector, un inventor. Un invento suyo los lleva a los límites del espacio y del tiempo para evitar un desastre.",
-   "trailer": "https://youtube.com/embed/_dekbtZxs9w",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2706980/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-10",
-   "url": "https://lanzamientos.lat/juegos/whirlight-no-time-to-trip",
+   "url": "https://lanzamientos.lat/juegos/barbie-rewind",
    "noticias": [
     {
-     "fecha": "2026-10-15",
-     "titulo": "LAS VERSIONES DE CONSOLA SALEN EL 12 DE NOVIEMBRE",
-     "texto": "La eShop ya tiene la versión de Switch para el 12 de noviembre. La tienda de Xbox lo lista sin día y la PS Store todavía no lo tiene."
-    },
-    {
-     "fecha": "2026-09-24",
-     "titulo": "NO SALIÓ EN EL TERCER TRIMESTRE",
-     "texto": "En PC está desde mayo, pero las versiones de consola no llegaron en el tercer trimestre. La tienda de Xbox lo lista sin día."
+     "fecha": "2026-11-06",
+     "titulo": "SALE EL 12 DE NOVIEMBRE",
+     "texto": "La tienda de Xbox lo tiene para el 12 de noviembre."
     }
    ]
   },
@@ -811,7 +797,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/rangers-path-national-park-simulator"
+   "url": "https://lanzamientos.lat/juegos/rangers-path-national-park-simulator",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "SALE EL 17 DE NOVIEMBRE",
+     "texto": "La tienda de Xbox lo tiene para el 17 de noviembre."
+    }
+   ]
   },
   {
    "id": "moonlight-peaks-ps5",

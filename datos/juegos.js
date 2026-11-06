@@ -4343,13 +4343,20 @@ const JUEGOS = [
     id: "prinny-party-going-overboard",
     titulo: "PRINNY PARTY: GOING OVERBOARD!",
     fecha: "2026-11-11",
-    plataformas: ["PS5", "SWITCH"],
+    plataformas: ["PS5", "SWITCH", "SWITCH2"],
     genero: ["CASUAL", "TABLERO", "MULTIJUGADOR"],
     desarrollador: "NIPPON ICHI SOFTWARE",
     descripcion: "Un juego de tablero con los Prinny de Disgaea. Se avanza por el tablero juntando experiencia y equipo para derrotar al Supremo Overboard, pero el mérito se lo lleva sólo quien entrega al jefe, así que la cooperación dura poco: se vale agarrar y tirar a los amigos. Si mueren todos a la vez, pierden todos.",
     trailer: "https://youtube.com/embed/XinU3Iy6lek",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocje8.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "SALE EL 11 DE NOVIEMBRE, TAMBIÉN EN SWITCH 2",
+        texto: "Nintendo US tiene la versión de Switch y una edición de Switch 2 para el 11 de noviembre, las dos con demo gratis. La PS Store también tiene el día."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-17"
@@ -4365,6 +4372,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/q7myAcZfmEQ",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6tu.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "SALE EL 12 DE NOVIEMBRE",
+        texto: "La eShop tiene las versiones de Switch y Switch 2 para el 12 de noviembre."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-08-24"
@@ -7037,6 +7051,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/psdgBxit-Ak",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coafye.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "SALE EL 17 DE NOVIEMBRE",
+        texto: "La tienda de Xbox lo tiene para el 17 de noviembre."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-17"
@@ -7358,6 +7379,13 @@ const JUEGOS = [
     trailer: "https://youtube.com/embed/zBymaS2mCaI",
     metacritic: null,
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc771.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "SALE EL 12 DE NOVIEMBRE",
+        texto: "La tienda de Xbox lo tiene para el 12 de noviembre."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-07-28"
@@ -8802,7 +8830,7 @@ const JUEGOS = [
   {
     id: "whirlight-no-time-to-trip",
     titulo: "WHIRLIGHT - NO TIME TO TRIP",
-    fecha: "2026-11-12",
+    fecha: "2027-01-21",
     plataformas: ["SWITCH", "PS5", "XBOX"],
     genero: ["AVENTURA", "CASUAL", "INDIE"],
     desarrollador: "IMAGINARYLAB",
@@ -8811,6 +8839,11 @@ const JUEGOS = [
     metacritic: null,
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2706980/library_600x900.jpg",
     noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "EN AMÉRICA SE VA AL 21 DE ENERO DE 2027",
+        texto: "La eShop de América, la que se usa en Latinoamérica, pasó la versión de Switch al 21 de enero de 2027. La europea todavía muestra el 12 de noviembre, la tienda de Xbox lo lista sin día y la PS Store no tiene fecha."
+      },
       {
         fecha: "2026-10-15",
         titulo: "LAS VERSIONES DE CONSOLA SALEN EL 12 DE NOVIEMBRE",

@@ -2,7 +2,7 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-06T14:23:34+00:00",
+ "generado": "2026-11-06T14:39:28+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
  "total": 650,
@@ -5763,7 +5763,8 @@
    "fecha": "2026-11-11",
    "plataformas": [
     "PS5",
-    "SWITCH"
+    "SWITCH",
+    "SWITCH2"
    ],
    "genero": [
     "CASUAL",
@@ -5778,7 +5779,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard"
+   "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "SALE EL 11 DE NOVIEMBRE, TAMBIÉN EN SWITCH 2",
+     "texto": "Nintendo US tiene la versión de Switch y una edición de Switch 2 para el 11 de noviembre, las dos con demo gratis. La PS Store también tiene el día."
+    }
+   ]
   },
   {
    "id": "moomin-midsummer-madness",
@@ -5802,7 +5810,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-08-24",
-   "url": "https://lanzamientos.lat/juegos/moomin-midsummer-madness"
+   "url": "https://lanzamientos.lat/juegos/moomin-midsummer-madness",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "SALE EL 12 DE NOVIEMBRE",
+     "texto": "La eShop tiene las versiones de Switch y Switch 2 para el 12 de noviembre."
+    }
+   ]
   },
   {
    "id": "marupoyo-the-round-chicks-adventure",
@@ -9287,7 +9302,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/rangers-path-national-park-simulator"
+   "url": "https://lanzamientos.lat/juegos/rangers-path-national-park-simulator",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "SALE EL 17 DE NOVIEMBRE",
+     "texto": "La tienda de Xbox lo tiene para el 17 de noviembre."
+    }
+   ]
   },
   {
    "id": "grand-theft-auto-vi",
@@ -9719,7 +9741,14 @@
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/barbie-rewind"
+   "url": "https://lanzamientos.lat/juegos/barbie-rewind",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "SALE EL 12 DE NOVIEMBRE",
+     "texto": "La tienda de Xbox lo tiene para el 12 de noviembre."
+    }
+   ]
   },
   {
    "id": "turok-origins",
@@ -11687,7 +11716,7 @@
   {
    "id": "whirlight-no-time-to-trip",
    "titulo": "WHIRLIGHT - NO TIME TO TRIP",
-   "fecha": "2026-11-12",
+   "fecha": "2027-01-21",
    "plataformas": [
     "SWITCH",
     "PS5",
@@ -11708,6 +11737,11 @@
    "alta": "2026-08-10",
    "url": "https://lanzamientos.lat/juegos/whirlight-no-time-to-trip",
    "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "EN AMÉRICA SE VA AL 21 DE ENERO DE 2027",
+     "texto": "La eShop de América, la que se usa en Latinoamérica, pasó la versión de Switch al 21 de enero de 2027. La europea todavía muestra el 12 de noviembre, la tienda de Xbox lo lista sin día y la PS Store no tiene fecha."
+    },
     {
      "fecha": "2026-10-15",
      "titulo": "LAS VERSIONES DE CONSOLA SALEN EL 12 DE NOVIEMBRE",
