@@ -44,6 +44,24 @@ la próxima lista.
 **Pedidas el 05/11:** `/game-pass-noviembre-2026` de nuevo y las nueve que quedaban del día 4.
 Con eso se terminaron los días 1 a 4.
 
+## Día 8 (desde el 06/11)
+
+Salen del CSV del 05/11: juegos con día en noviembre y diciembre que figuran como "rastreada" o
+"descubierta: actualmente sin indexar". Primero los que salen antes.
+
+- [ ] https://lanzamientos.lat/juegos/ova-magica
+- [ ] https://lanzamientos.lat/juegos/football-manager-27
+- [ ] https://lanzamientos.lat/juegos/shrek-2-remastered
+- [ ] https://lanzamientos.lat/juegos/warhammer-survivors
+- [ ] https://lanzamientos.lat/juegos/pikmin-4-switch-2
+- [ ] https://lanzamientos.lat/juegos/hazard-levels
+- [ ] https://lanzamientos.lat/juegos/monster-hunter-wilds-switch-2
+- [ ] https://lanzamientos.lat/juegos/the-ascent-switch-2
+- [ ] https://lanzamientos.lat/juegos/freestyle-football-2
+- [ ] https://lanzamientos.lat/juegos/fall-up
+- [ ] https://lanzamientos.lat/juegos/grimkeep
+- [ ] https://lanzamientos.lat/juegos/a-game-about-digging-a-hole-together
+
 ## Día 7 (desde el 02/11)
 
 Páginas nuevas o rehechas por la rutina mensual de noviembre.

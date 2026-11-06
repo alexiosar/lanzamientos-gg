@@ -2,381 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-05T17:48:44+00:00",
+ "generado": "2026-11-06T13:55:27+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-05",
- "hasta": "2026-12-05",
- "total": 60,
+ "desde": "2026-11-06",
+ "hasta": "2026-12-06",
+ "total": 52,
  "juegos": [
-  {
-   "id": "kingdom-of-night",
-   "titulo": "KINGDOM OF NIGHT",
-   "relanzamiento": "En PC desde diciembre de 2025",
-   "duracion": "≈ 12 h (historia) · 18 h (completo)",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG",
-    "RETRO",
-    "INDIE"
-   ],
-   "desarrollador": "FRIENDS OF SAFETY",
-   "descripcion": "Un RPG de acción en un pueblo de Arizona en 1987, la noche en que una secta invoca por accidente a Baphomet. John sale a pelear contra la invasión demoníaca y a rescatar a sus amigos, y la aventura avanza hora por hora durante lo que puede ser la última noche del mundo, entre demonios, vecinos poseídos y matones del colegio.",
-   "trailer": "https://youtube.com/embed/H2eeqQDleSo",
-   "metacritic": 79,
-   "critica": "Las reseñas son de la versión de PC de 2025, y son apenas cuatro. Lo reciben como un action RPG oscuro y con mucha nostalgia ochentosa, en la línea de Stranger Things: un pueblo con un misterio que engancha, buen aspecto y buena música, y un combate flexible y satisfactorio que se adapta a distintos gustos. Los reparos van a la falta de originalidad, a personajes con poca profundidad y a algunas decisiones de interfaz poco felices.",
-   "metacriticUsuarios": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1094600/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/kingdom-of-night",
-   "noticias": [
-    {
-     "fecha": "2026-11-05",
-     "titulo": "SALE HOY CON 79 EN METACRITIC",
-     "texto": "Llega a Xbox y Switch con 79 sobre cuatro reseñas de la versión de PC de 2025."
-    }
-   ]
-  },
-  {
-   "id": "the-legend-of-zelda-ocarina-of-time-switch-2",
-   "titulo": "THE LEGEND OF ZELDA: OCARINA OF TIME",
-   "relanzamiento": "El original de Nintendo 64 es de 1998 — esta es la edición de Switch 2",
-   "duracion": "≈ 27 h (historia) · 37 h (completo)",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "ACCION",
-    "RPG",
-    "RETRO"
-   ],
-   "desarrollador": "NINTENDO",
-   "descripcion": "El remake del Zelda de Nintendo 64 para Switch 2: el que definió cómo se juega una aventura en tres dimensiones, ahora con gráficos y banda sonora nuevos. Link cruza dos épocas de Hyrule buscando la Trifuerza, entre templos llenos de puzles y jefes. La edición suma diálogos que antes no estaban, cinemáticas dobladas al español, una habilidad para correr y una cronología para repasar por dónde va la historia.",
-   "trailer": "https://youtube.com/embed/FrzKHacg1i4",
-   "metacritic": null,
-   "imagen": "https://assets.nintendo.com/image/upload/c_crop,x_570,y_300,w_936,h_1404/w_600/f_auto,q_auto/ncom/My%20Nintendo%20Store/EN-US/Nintendo%20Switch%202/Software/The%20Legend%20of%20Zelda%20Ocarina%20of%20Time/125697-nintendo-the-legend-of-zelda-ocarina-of-time-2000x2000",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-25",
-   "url": "https://lanzamientos.lat/juegos/the-legend-of-zelda-ocarina-of-time-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-10-14",
-     "titulo": "UN TRÁILER DE CINCO MINUTOS",
-     "texto": "Nintendo publicó un tráiler general que repasa el juego durante cinco minutos, a tres semanas del lanzamiento."
-    },
-    {
-     "fecha": "2026-09-08",
-     "titulo": "YA TIENE FECHA: 5 DE NOVIEMBRE",
-     "texto": "Nintendo lo confirmó en el Direct por los 40 años de la saga, donde Eiji Aonuma lo mostró jugado durante un cuarto de hora. Es un remake, no un port: gráficos y banda sonora rehechos, cinemáticas dobladas al español, diálogos nuevos y una habilidad para correr. Se estrena junto a una Switch 2 con diseño de la edición 40.º aniversario."
-    }
-   ]
-  },
-  {
-   "id": "marvels-guardians-of-the-galaxy-switch-2",
-   "titulo": "MARVEL'S GUARDIANS OF THE GALAXY: ENCORE EDITION",
-   "duracion": "≈ 18 h (historia) · 26 h (completo)",
-   "relanzamiento": "En PS5, PS4, Xbox y PC desde octubre de 2021 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA"
-   ],
-   "desarrollador": "EIDOS-MONTRÉAL",
-   "descripcion": "Se juega solamente como Star-Lord y a los otros cuatro Guardianes se los manda en combate, que es lo que lo hace distinto de un juego de superhéroes común. La otra mitad son las decisiones de diálogo, que cambian cómo te trata el equipo. Salió en 2021 con muy buenas críticas y quedó como una de las sorpresas de aquel año.",
-   "trailer": "https://youtube.com/embed/y6W0u0eAdv8",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088850/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/marvels-guardians-of-the-galaxy-switch-2"
-  },
-  {
-   "id": "stellar-blade-switch-2",
-   "titulo": "STELLAR BLADE: COMPLETE EDITION",
-   "duracion": "≈ 23 h (historia) · 57 h (completo)",
-   "relanzamiento": "En PS5 desde abril de 2024 y en PC desde junio de 2025 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "RPG"
-   ],
-   "desarrollador": "SHIFT UP CORPORATION",
-   "descripcion": "EVE baja a una Tierra arrasada a pelearle a los Naytiba. El combate es de parry y contraataque, más cerca de un Nier o un Bayonetta que de un soulslike, y fue lo más elogiado cuando salió en PS5 en 2024. La edición Complete trae el juego con todo lo que se le agregó después.",
-   "trailer": "https://youtube.com/embed/r7FaHEZZaAo",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9wcx.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/stellar-blade-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-09-20",
-     "titulo": "YA SE PUEDE PROBAR EN SWITCH 2, Y LLEGA EL CRUCE CON BAYONETTA",
-     "texto": "La demo de la edición de Switch 2 ya está en la eShop. SHIFT UP además mostró un video de la colaboración con Bayonetta, que es una actualización gratuita, y Nintendo publicó su propio tráiler para la consola."
-    }
-   ]
-  },
-  {
-   "id": "escape-academy-2-back-2-school",
-   "titulo": "ESCAPE ACADEMY 2: BACK 2 SCHOOL",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "PUZZLE",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "COIN CREW GAMES",
-   "descripcion": "La secuela de Escape Academy, que convierte sus salas de escape en un juego de mundo abierto: la academia clandestina de escapismo se recorre libremente, con una campaña nueva de salas diseñadas por el equipo de puzles del primero. Como no son salas reales, no tienen que respetar ninguna norma de seguridad, así que hay techos con pinchos, caídas de treinta metros y, lo peor de todo, exámenes finales.",
-   "trailer": "https://youtube.com/embed/Aer93YCNrRI",
-   "metacritic": 73,
-   "critica": "Las reseñas, todas de PS5, coinciden en que los puzles son excelentes, ingeniosos y gratificantes, y que la historia engancha, sobre todo en cooperativo. Lo que divide es el mundo abierto: a algunos les suma explorar la academia y a otros les parece que estira el juego sin aportar mucho. El reparo que más se repite son los problemas técnicos y de rendimiento, y también hay saltos de dificultad entre algunas salas.",
-   "metacriticUsuarios": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.32075.14607328992338706.a7a9f492-6e2c-4b94-ab21-d3b4889e76fe.303a41a4-14bb-4486-a564-6e3cc7dbf83a?w=600&h=900&format=jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-10-13",
-   "url": "https://lanzamientos.lat/juegos/escape-academy-2-back-2-school",
-   "noticias": [
-    {
-     "fecha": "2026-11-05",
-     "titulo": "SALE HOY CON 73 EN METACRITIC",
-     "texto": "Debuta con 73 sobre cinco reseñas de PS5, y entra a Game Pass el mismo día."
-    },
-    {
-     "fecha": "2026-11-03",
-     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
-     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 5 entra a Ultimate y PC Game Pass."
-    },
-    {
-     "fecha": "2026-10-15",
-     "titulo": "TAMBIÉN SALE EN XBOX",
-     "texto": "La tienda de Xbox ya tiene la edición Deluxe para el 5 de noviembre, el mismo día que en PS5."
-    },
-    {
-     "fecha": "2026-10-13",
-     "titulo": "LLEGA A PS5 EL 5 DE NOVIEMBRE",
-     "texto": "Se anunció en el blog de PlayStation, con un tráiler. La PS Store todavía no tiene el día y la tienda de Xbox lo lista sin fecha."
-    }
-   ]
-  },
-  {
-   "id": "chivalware",
-   "titulo": "CHIVALWARE",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ROGUELIKE",
-    "ESTRATEGIA",
-    "INDIE"
-   ],
-   "desarrollador": "REGAL PIGEON",
-   "descripcion": "Un roguelite de acción rápida con estrategia de emparejar casillas. Un disqueballero, guerrero capaz de usar armas de disquete, sale a terminar con un rey enloquecido por el poder y la soledad, mientras unos fallos técnicos extraños sugieren que hay algo más en juego. Se llevan hasta tres armas de colores distintos y, en un campo de batalla cuadriculado, se emparejan casillas del mismo color para cargarlas: cuantas más, más ataques, mientras hay que esquivar los golpes enemigos. Tiene cinco personajes, ochenta armas, más de 150 mejoras y cuatro biomas con sus jefes.",
-   "trailer": "https://youtube.com/embed/a3oWY6e_ROM",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3591900/bfaf3c4f62c982f00ab090872d6fb13932579be2/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-13",
-   "url": "https://lanzamientos.lat/juegos/chivalware",
-   "noticias": [
-    {
-     "fecha": "2026-10-12",
-     "titulo": "SALE EL 5 DE NOVIEMBRE EN SWITCH 2",
-     "texto": "Dotemu y The Arcade Crew le pusieron fecha a la versión de Switch 2, que sale junto con la de PC. La eShop ya confirma el día."
-    }
-   ]
-  },
-  {
-   "id": "faraway",
-   "titulo": "FARAWAY",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "ARCADE",
-    "PUZZLE",
-    "INDIE"
-   ],
-   "desarrollador": "STEPH THIRION",
-   "descripcion": "Un arcade de puntaje infinito, generado al azar, sobre una estrella fugaz que arma constelaciones para seguir viva. Se conectan estrellas para recoger su energía, estirar la vida y sumar puntos; las constelaciones se dibujan con libertad y hay técnicas avanzadas que arriesgan más a cambio de más energía. Las reglas son simples y los controles fluidos, pero dominarlo cuesta: cada partida arranca de cero en un universo que se genera según cómo se juega, y con más habilidad llegan más velocidad y regiones más difíciles. Es de Steph Thirion y lo publica Annapurna Interactive.",
-   "trailer": "https://youtube.com/embed/rqoOKaOrgoI",
-   "metacritic": 72,
-   "critica": "Las reseñas son de la versión de PC. Lo describen como un juego de puzles con física disfrazado de experiencia relajada: se juega con un solo botón, se arman constelaciones y dominar la técnica da mucho gusto, con el minimalismo como bandera. Los reparos: si no se le agarra la mano al timing no es tan divertido, los modos son simples y se vuelve repetitivo.",
-   "metacriticUsuarios": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.28996.14200503875502482.80908a4d-7242-450f-b329-0065041d2f49.a47a9068-078b-4f6f-896e-e328034eb827?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-19",
-   "url": "https://lanzamientos.lat/juegos/faraway",
-   "noticias": [
-    {
-     "fecha": "2026-11-05",
-     "titulo": "SALE HOY CON 72 EN METACRITIC",
-     "texto": "Llega a PS5, Xbox y Switch con 72 sobre cinco reseñas de la versión de PC."
-    },
-    {
-     "fecha": "2026-11-02",
-     "titulo": "TAMBIÉN SALE EN SWITCH",
-     "texto": "La eShop confirma la versión de Switch para el mismo 5 de noviembre."
-    },
-    {
-     "fecha": "2026-10-19",
-     "titulo": "SALE EL 5 DE NOVIEMBRE",
-     "texto": "Annapurna Interactive le puso fecha en PS5, Xbox Series, Switch 2, Switch y PC. La PS Store y la tienda de Xbox ya lo tienen para el 5 de noviembre; la eShop todavía no."
-    }
-   ]
-  },
-  {
-   "id": "the-slormancer",
-   "titulo": "THE SLORMANCER",
-   "fecha": "2026-11-05",
-   "relanzamiento": "En PC desde mayo de 2025",
-   "duracion": "≈ 9,6 h (historia) · 64 h (completo)",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "RPG",
-    "INDIE"
-   ],
-   "desarrollador": "SLORMITE STUDIOS",
-   "descripcion": "Un RPG de acción en 2D, absurdo pero épico: un grupo de marginados enfrenta a las hordas del Slormancer, un brujo malvado del pasado. Se juega como caballero, cazadora o maga, con cientos de habilidades y poderes ancestrales para dominar, mucho botín y pixel art muy cuidado.",
-   "trailer": "https://youtube.com/embed/ZSQDgjwvulc",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1104280/3da5d04116be06047c79b39c2805049d91fba419/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-30",
-   "url": "https://lanzamientos.lat/juegos/the-slormancer",
-   "noticias": [
-    {
-     "fecha": "2026-10-30",
-     "titulo": "LLEGA A CONSOLAS EL 5 DE NOVIEMBRE",
-     "texto": "Plug In Digital lo lanza el 5 de noviembre en PS5, Xbox Series y Switch."
-    }
-   ]
-  },
-  {
-   "id": "console-archives-elevator-action",
-   "titulo": "CONSOLE ARCHIVES: ELEVATOR ACTION",
-   "fecha": "2026-11-05",
-   "relanzamiento": "El original de TAITO es de 1985 — esta es la reedición para consolas actuales",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "ACCION",
-    "RETRO"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "La versión para consola de 8 bits del Elevator Action de TAITO de 1985, en la serie Console Archives. Se maneja a un espía que entra a un edificio para robar todos los documentos secretos y escapar en el auto que lo espera en el subsuelo, usando los ascensores para esquivar a los agentes enemigos. Las armas son una pistola y una patada voladora. Todo el texto del juego está en inglés.",
-   "trailer": "https://youtube.com/embed/aYPmpVSyGKM",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2703/9ef44a7de94106d1d467205fb588fff111f2c5a6ddc5c0de.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-05",
-   "url": "https://lanzamientos.lat/juegos/console-archives-elevator-action",
-   "noticias": [
-    {
-     "fecha": "2026-11-05",
-     "titulo": "SALIÓ HOY EN PS5",
-     "texto": "HAMSTER lo puso a la venta el 5 de noviembre en PS5. La eShop todavía no tiene la versión de Switch 2."
-    }
-   ]
-  },
-  {
-   "id": "arcade-archives-2-exzisus",
-   "titulo": "ARCADE ARCHIVES 2: EXZISUS",
-   "fecha": "2026-11-05",
-   "relanzamiento": "Arcade de 1987",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX"
-   ],
-   "genero": [
-    "SHOOTER",
-    "ARCADE",
-    "RETRO"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "La reedición del shooter de TAITO de 1987. Se pilotea el Cosmo Fighter Robin contra un ejército misterioso que invadió la Cuarta Galaxia, con un bláster y misiles. Cada objeto que se junta lo mejora: puede transformarse en un modo Turbo Jet o llamar a robots con forma de pájaro y de perro que ayudan a atacar, y al final de cada nivel esperan robots gigantes con puntos débiles. Trae las opciones de siempre de la serie: ajustes del original, modos de pantalla y tablas de puntaje en línea.",
-   "trailer": "https://youtube.com/embed/SgbeuylxIvk",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2702/398771bd2e83a7f59850dcfd05aac001311c5b502b66c31d.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-05",
-   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-exzisus",
-   "noticias": [
-    {
-     "fecha": "2026-11-05",
-     "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
-     "texto": "HAMSTER lo sumó a Arcade Archives 2 el 5 de noviembre. En la PS Store también está la edición clásica de Arcade Archives para PS4."
-    }
-   ]
-  },
-  {
-   "id": "where-the-seeds-fall",
-   "titulo": "WHERE THE SEEDS FALL",
-   "fecha": "2026-11-05",
-   "plataformas": [
-    "PS5",
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "PLATAFORMA"
-   ],
-   "desarrollador": "CYGAMESEDGE",
-   "descripcion": "Una aventura de plataformas corta de Cygames. La Plaga arrasó la tierra y la humanidad vive en las ramas del Árbol del Mundo, donde a los Niños Caídos se los ve como presagio de desastres. Un soldado desobedece las órdenes y decide escoltar a uno hasta la superficie. Hay que saltar entre plataformas que se desmoronan, aguantar ráfagas de viento y caer bien: las flores que crecen en el árbol se arrojan donde se quiere aterrizar para que amortigüen la caída. La historia dura unas tres horas, y después quedan mapas más difíciles y un modo contrarreloj.",
-   "trailer": "https://youtube.com/embed/zdDJlYAVe-c",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4139580/4c2af0ffe7c2c38d4cfebd25931d22b412f8ce4c/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-05",
-   "url": "https://lanzamientos.lat/juegos/where-the-seeds-fall",
-   "noticias": [
-    {
-     "fecha": "2026-11-05",
-     "titulo": "SALIÓ HOY EN PS5 Y SWITCH 2",
-     "texto": "Cygames lo puso a la venta el 5 de noviembre en PS5 y Switch 2, un día después que en PC."
-    }
-   ]
-  },
   {
    "id": "hasbro-games-junior-collection",
    "titulo": "HASBRO GAMES JUNIOR COLLECTION",
@@ -428,6 +60,35 @@
      "fecha": "2026-10-30",
      "titulo": "SALE EL 6 DE NOVIEMBRE EN XBOX",
      "texto": "KEMCO lo publica el 6 de noviembre en Xbox Series. La PS Store tiene una ficha con ese día, pero todavía no dice para qué consola."
+    }
+   ]
+  },
+  {
+   "id": "japanese-rural-life-adventure",
+   "titulo": "JAPANESE RURAL LIFE ADVENTURE",
+   "fecha": "2026-11-06",
+   "relanzamiento": "En Switch y PC desde marzo de 2026",
+   "plataformas": [
+    "PS4"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RELAX"
+   ],
+   "desarrollador": "G-MODE",
+   "descripcion": "Un simulador de vida tranquila en el campo japonés, en pixel art. Hay que arreglar una casa vieja, ordenar el jardín y cultivar lo propio hasta vivir de lo que uno produce: el arroz, la sal, la salsa de soja y el miso se hacen a mano, y se cocina en el irori, el fogón tradicional de la casa. Las estaciones marcan el año, con los cerezos en flor en primavera, el festival de verano, las batatas asadas en otoño y la campana del templo en invierno. Tiene textos en español.",
+   "trailer": "https://youtube.com/embed/j7Qtx7Xr-24",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4158870/b478c406dc411160703100a2a26b3a714134c834/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-06",
+   "url": "https://lanzamientos.lat/juegos/japanese-rural-life-adventure",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "SALIÓ EN PS4",
+     "texto": "G-MODE lo puso a la venta en PS4 el 6 de noviembre."
     }
    ]
   },
@@ -682,6 +343,36 @@
      "fecha": "2026-10-28",
      "titulo": "SALE EL 10 DE NOVIEMBRE",
      "texto": "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 10 de noviembre. Ese mismo día sale en PS5, PS4, Xbox Series y PC."
+    }
+   ]
+  },
+  {
+   "id": "hard-west-2",
+   "titulo": "HARD WEST 2",
+   "fecha": "2026-11-10",
+   "relanzamiento": "En PC desde agosto de 2022",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "ESTRATEGIA",
+    "RPG"
+   ],
+   "desarrollador": "ICE CODE GAMES",
+   "descripcion": "Táctica por turnos en un Lejano Oeste sobrenatural. Se maneja a una banda de forajidos con poderes que quiere asaltar el Tren Fantasma, un tren misterioso que cruza un Oeste donde nada es lo que parece. Las peleas premian la audacia: cada baja recarga los puntos de acción del pistolero, así que una buena jugada encadena varias, y se puede hacer rebotar las balas en el escenario. Entre misión y misión se recorre un mapa del Oeste lleno de eventos y decisiones.",
+   "trailer": "https://youtube.com/embed/hJoMsc_ejO0",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282410/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-06",
+   "url": "https://lanzamientos.lat/juegos/hard-west-2",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "LLEGA A PS5 Y XBOX EL 10 DE NOVIEMBRE",
+     "texto": "Good Shepherd lo anunció para consolas con tráileres en los canales de PlayStation y Xbox, y la tienda de Xbox y la PS Store ya tienen el día."
     }
    ]
   },
@@ -1357,6 +1048,36 @@
      "fecha": "2026-11-02",
      "titulo": "LLEGA A XBOX EL 27 DE NOVIEMBRE",
      "texto": "La tienda de Xbox confirma el día. En Switch salió el 29 de octubre."
+    }
+   ]
+  },
+  {
+   "id": "mr-elevator",
+   "titulo": "MR. ELEVATOR",
+   "fecha": "2026-11-27",
+   "relanzamiento": "En PC y Switch desde octubre de 2025",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "GIFT TEN INDUSTRY",
+   "descripcion": "Una aventura de puzles en un otro mundo misterioso, dibujado con el estilo de los primeros Paint de Windows. Cinco hombres y mujeres suben a un ascensor que habla, el Señor Ascensor, y terminan perdidos del otro lado, cada uno buscando algo. Se explora libremente, se golpean puertas para ver cuál se abre y se usan los objetos que se encuentran de formas poco obvias, como un celular roto que sirve para girar tornillos. Ganó el premio de PlayStation en BitSummit 2024.",
+   "trailer": "https://youtube.com/embed/3_C7ZU7qdqk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2387470/ab8df009bd5e2b8bece1faaf0deeffa8c7e06396/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-06",
+   "url": "https://lanzamientos.lat/juegos/mr-elevator",
+   "noticias": [
+    {
+     "fecha": "2026-11-06",
+     "titulo": "LLEGA A PS5 EL 27 DE NOVIEMBRE",
+     "texto": "La PS Store ya tiene el día."
     }
    ]
   },
