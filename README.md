@@ -290,6 +290,17 @@ si están en `null` o ausentes — no rompen nada.
 Dos o tres frases en español contando qué elogia y qué le reprocha la prensa a un juego,
 escritas **leyendo las reseñas**, no copiándolas. Sale en la ficha, arriba de las novedades.
 
+**Las ediciones nuevas de un juego viejo llevan el puntaje del original, con la aclaración**
+(decidido por el usuario el 06/11/2026). Elden Ring en Switch 2 muestra el 96 de PS5 de 2022 y
+la crítica empieza diciendo "Las reseñas son de la versión de PS5 de 2022". Si la edición
+principal está en el calendario, se copia su crítica con una frase adelante ("El puntaje es el
+de la versión de PS5, que salió en julio"). En los dos casos va `metacriticSlug` con la
+dirección del original, porque el id de la ficha tiene sufijo (`-switch-2`, `-xbox`…) y en
+Metacritic no existe. Ese día se cargaron así 23 ediciones. Si Metacritic después le abre
+página propia a la edición, como hizo con el remake de Ocarina of Time
+(`the-legend-of-zelda-ocarina-of-time-2026`), se cambia el slug. **Al cargar una edición con
+sufijo, poner `metacriticSlug` desde el alta**: sin él, `actualizar.py` no encuentra la página.
+
 **Va después de `metacriticUsuarios` y `metacriticVotos`, nunca entre ellos y `metacritic`.**
 Hasta el 05/11/2026 se cargaba pegado a `metacritic:`, y `actualizar.py`, que buscaba el
 puntaje de usuarios justo en esa posición, escribía uno nuevo y dejaba el viejo más abajo: 53

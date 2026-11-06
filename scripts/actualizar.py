@@ -184,9 +184,12 @@ def main():
     aplicados = {}
     por_id = {j["id"]: j for j in juegos}
     sospechosos = []
+    # Hasta el 06/11/2026 este paso pedía siempre /game/<id>/ e ignoraba metacriticSlug: el
+    # remake de Ocarina of Time (id con sufijo -switch-2) debutó con 96 y no entró, porque
+    # esa URL da 404 y el error se traga en silencio. Ahora usa el slug cuando lo hay.
     for gid in pendientes:
         try:
-            html = get(f"https://www.metacritic.com/game/{gid}/")
+            html = get(f"https://www.metacritic.com/game/{por_id[gid]['slug']}/")
             rv = re.search(r'"ratingValue":(\d+)', html)
             if not rv:
                 continue

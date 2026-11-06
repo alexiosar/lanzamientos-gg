@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .noticia-cat       { font-size: 0.5625rem; letter-spacing: 2px; border: 1px solid; padding: 1px 6px; margin-left: 0.5rem; color: var(--gris-6); border-color: var(--gris-4); white-space: nowrap; }
     .cat-suscripciones { color: var(--xbox); border-color: var(--xbox); }
     .cat-retrasos      { color: var(--switch); border-color: var(--switch); }
@@ -148,6 +149,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">96 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('the-legend-of-zelda-ocarina-of-time-switch-2')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -176,7 +182,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son casi unánimes: más de ochenta, y buena parte con 100. Lo reciben como la mejor forma de jugar uno de los juegos más importantes de la historia, con un salto visual enorme, la banda sonora reorquestada, controles más cómodos, mejoras inteligentes en el manejo del equipo y voces en algunas escenas, sin tocar el diseño de mazmorras y acertijos que lo hizo clásico. El único reparo que se repite es que es demasiado fiel: suma pocas cosas nuevas, y a algunos el estilo de los personajes les costó al principio.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-11-06</span>
+            <span class="noticia-titulo">▸ DEBUTA CON 96 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">Tiene 96 sobre más de 80 reseñas, y muchas le ponen 100. Comparte con Deltarune el puntaje más alto del calendario.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-10-14</span>

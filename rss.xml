@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 06 Nov 2026 13:55:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 14:13:33 +0000</lastBuildDate>
+    <item>
+      <title>THE LEGEND OF ZELDA: OCARINA OF TIME: DEBUTA CON 96 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/the-legend-of-zelda-ocarina-of-time-switch-2</link>
+      <guid isPermaLink="false">the-legend-of-zelda-ocarina-of-time-switch-2-2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Tiene 96 sobre más de 80 reseñas, y muchas le ponen 100. Comparte con Deltarune el puntaje más alto del calendario. — THE LEGEND OF ZELDA: OCARINA OF TIME para SWITCH 2.</description>
+    </item>
     <item>
       <title>CRYMELIGHT: DEBUTA CON 69 EN METACRITIC</title>
       <link>https://lanzamientos.lat/juegos/crymelight</link>
@@ -279,13 +286,6 @@
       <guid isPermaLink="false">football-manager-27-2026-11-03</guid>
       <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
       <description>La versión de consolas entra a Ultimate y PC Game Pass el 10 de noviembre. La de PC salió hoy y ya está en Game Pass. — FOOTBALL MANAGER 27 para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>VOID/BREAKER: LLEGA A XBOX Y A GAME PASS EL 4 DE NOVIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/void-breaker</link>
-      <guid isPermaLink="false">void-breaker-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Xbox lo sumó a la primera tanda de Game Pass de noviembre: el 4 deja el Game Preview y entra a Ultimate, Premium y PC Game Pass, el mismo día que sale en PS5. — VOID/BREAKER para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

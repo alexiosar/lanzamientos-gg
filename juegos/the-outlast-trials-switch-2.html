@@ -43,6 +43,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -135,6 +136,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-alto" title="Puntaje de la crítica en Metacritic, de 0 a 100">75 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('the-outlast-trials-switch-2')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -162,6 +168,10 @@
         <p class="votos-aviso" hidden>No se pudo registrar el voto. Probá de nuevo en un rato.</p>
       </div>
 
+      <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de PS5 de 2024. Lo ven como un giro distinto para la saga: terror y sigilo en cooperativo, con mapas grandes, psicópatas memorables y la crudeza de siempre. Los reparos: se vuelve repetitivo, está pensado para jugar en grupo y quien lo juega solo se pierde buena parte de la gracia.</p>
+      </div>
       <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
         <div class="noticia">
