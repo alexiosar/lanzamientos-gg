@@ -285,6 +285,47 @@ para fichas de juegos ya salidos **quedó descartado** (el usuario, 15/10: nunca
 los datos de esta semana tampoco lo apoyaban: también se caen fichas de juegos de octubre y
 futuros. Siguen pendientes los enlaces externos.
 
+### Línea de base del 06/11/2026: CSV de Rendimiento, últimos 3 meses
+
+Desde el 06/11 la medición se hace con el **CSV de Rendimiento** de Search Console (últimos 3
+meses → Exportar → Descargar CSV), no con capturas: trae las mil consultas y las cuatrocientas
+páginas, no las diez que entran en pantalla. Esta tabla se continúa cada semana.
+
+| Semana (lunes) | Clics | Impresiones | Posición media |
+|---|---|---|---|
+| 03/08 (6 días) | 8 | 754 | 28.2 |
+| 10/08 | 4 | 1120 | 29.8 |
+| 17/08 | 9 | 1191 | 25.2 |
+| 24/08 | 14 | 1957 | 18.0 |
+| 31/08 | 24 | 4026 | 13.5 |
+| 07/09 | 30 | 3865 | 11.6 |
+| 14/09 | 41 | 3684 | 10.8 |
+| 21/09 | 15 | 1821 | 11.1 |
+| 28/09 | 0 | 214 | 56.9 |
+| 05/10 | 0 | 150 | 60.2 |
+| 12/10 | 0 | 277 | 59.4 |
+| 19/10 | 0 | 230 | 49.9 |
+| 26/10 | 0 | 172 | 38.6 |
+| 02/11 (2 días) | 0 | 36 | 42.9 |
+
+**La caída fue un corte de un día, no un declive:** el 23/09 hubo 487 impresiones con posición
+9,4 y el 24/09, 30 impresiones con posición 61. Desde entonces el sitio vive entre 150 y 280
+impresiones por semana, con la posición entre 40 y 60.
+
+**De dónde venía el tráfico cuando andaba bien (los tres meses juntos):**
+- **Las fichas, no la portada.** 388 fichas tuvieron impresiones: el 70% de todas (13.722) y
+  94 clics. La portada sumó 3.807 impresiones y 42 clics, con una posición media de 29.
+- **Búsquedas de un juego más una consola, en posición 6 a 10:** "nascar 26 ps5", "stage tour
+  ps5", "solo leveling arise overdrive ps5", "kernel hearts ps5", "tenebris somnia switch".
+  Juegos chicos o medianos que llegan a consola y de los que casi nadie escribe en español.
+- **Las genéricas casi no rinden:** "proximos lanzamientos videojuegos" (480 impresiones) y
+  "juegos lanzamientos" (460) estaban en posición 44 y 51, fuera de la primera página. Las que
+  sí traían clics eran las de "calendario ... 2026", en posición 7.
+- **Las páginas de mes rinden bien:** `/noviembre-2026` está en posición 4,9 y "juegos que
+  salen en noviembre 2026" en 5,3.
+- **España da más impresiones que Latinoamérica** (8.439 contra 3.968 de México y 1.020 de
+  Argentina) y el móvil rinde mejor que la computadora (posición 11,9 contra 24,1).
+
 ### Lectura del 05/11/2026: la semana bajó, el pedido a mano sigue funcionando
 
 **Rendimiento (últimos 7 días contra los 7 anteriores):** cero clics. La portada bajó de 176 a
