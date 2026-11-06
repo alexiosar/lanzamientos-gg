@@ -293,8 +293,9 @@ escritas **leyendo las reseñas**, no copiándolas. Sale en la ficha, arriba de 
 **Las ediciones nuevas de un juego viejo llevan el puntaje del original, con la aclaración**
 (decidido por el usuario el 06/11/2026). Elden Ring en Switch 2 muestra el 96 de PS5 de 2022 y
 la crítica empieza diciendo "Las reseñas son de la versión de PS5 de 2022". Si la edición
-principal está en el calendario, se copia su crítica con una frase adelante ("El puntaje es el
-de la versión de PS5, que salió en julio"). En los dos casos va `metacriticSlug` con la
+principal está en el calendario, la crítica NO se copia: va una versión corta y propia ("El
+puntaje es el de la versión de PS5, que salió en julio: ..."), ver "Un juego que sale en
+varias fechas". En los dos casos va `metacriticSlug` con la
 dirección del original, porque el id de la ficha tiene sufijo (`-switch-2`, `-xbox`…) y en
 Metacritic no existe. Ese día se cargaron así 23 ediciones. Si Metacritic después le abre
 página propia a la edición, como hizo con el remake de Ocarina of Time
@@ -627,6 +628,16 @@ entrada fechada en el primer lanzamiento, ese juego desaparece del mes que le im
 
 **Casos ya normalizados con esta regla:** Steins;Gate Re:Boot, Avatar Legends: The Fighting
 Game y PAW Patrol: Dino World.
+
+**La entrada de cada edición lleva texto propio, nunca copiado de la otra** (desde el
+06/11/2026). Dos páginas con la misma descripción y la misma crítica son, para Google,
+contenido duplicado a escala, justo lo que vigila la actualización contra spam que nos tiró
+el 24/09. La descripción de la edición arranca por lo suyo (qué consola, cuándo llega respecto
+de las demás, qué trae) y cuenta el juego con otras palabras; la crítica, si el puntaje es el
+de otra versión, va en una o dos frases propias que lo aclaren. Ese día se reescribieron 11
+descripciones y 9 críticas que estaban copiadas. Para revisarlo: comparar los primeros 120
+caracteres de `descripcion` y un tramo de `critica` entre todas las fichas; no tiene que haber
+repetidos.
 
 ### Y el mismo juego cargado dos veces (regla decidida el 26/08/2026)
 
