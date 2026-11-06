@@ -3492,6 +3492,11 @@ const JUEGOS = [
     desarrollador: "FROMSOFTWARE, INC.",
     descripcion: "El RPG de acción de mundo abierto de FromSoftware, en su edición para Switch 2. En las Tierras Intermedias, un continente donde campos abiertos y mazmorras enormes se conectan, el Sinluz busca el poder del Círculo de Elden para convertirse en su señor. El combate es fácil de aprender y difícil de dominar, con armas, hechizos e invocaciones, y el personaje se arma a gusto, del cuerpo a cuerpo a la magia o el sigilo. La mitología la escribió George R. R. Martin.",
     trailer: "https://youtube.com/embed/AKXiKBnzpBQ",
+    gameplay: {
+      video: "https://youtube.com/embed/uDMIpN0Ip2w",
+      canal: "Puerta al Sótano",
+      canalUrl: "https://www.youtube.com/@Dan-PuertaAlSotano"
+    },
     metacriticSlug: "elden-ring",
     metacritic: 96,
     critica: "Las reseñas son de la versión de PS5 de 2022. Es de los juegos mejor puntuados de la historia: la prensa lo recibió como la cumbre de FromSoftware, la fórmula de Dark Souls llevada a un mundo abierto enorme que no deja de sorprender, con un combate exigente y libertad total para elegir el camino. Los reparos son pocos: un mundo que castiga a quien se sale del camino marcado y algunas zonas más desparejas que otras.",
@@ -7265,6 +7270,11 @@ const JUEGOS = [
     desarrollador: "PIPEWORKS STUDIOS",
     descripcion: "La remasterización del juego de peleas de monstruos gigantes de 2002, hecha por Pipeworks, el estudio original, junto con Atari. Se elige un monstruo y se pelea en ocho escenarios, cada uno de día y de noche: ciudades reales, la Isla de los Monstruos y la nave nodriza alienígena. Cada monstruo tiene sus golpes, sus rayos y un modo furia, y el escenario también se usa: se puede revolear un rascacielos. Al multijugador local le suma uno online.",
     trailer: "https://youtube.com/embed/8N9QN4X1pIk",
+    gameplay: {
+      video: "https://youtube.com/embed/2_pvvyEWSSE",
+      canal: "SpiderBlack",
+      canalUrl: "https://www.youtube.com/@SpiderBlackyt"
+    },
     metacritic: 75,
     metacriticUsuarios: 8.7,
     metacriticVotos: 14,
@@ -9689,10 +9699,22 @@ const JUEGOS = [
     desarrollador: "CAPCOM CO., LTD.",
     descripcion: "El remake del clásico de 1998, ahora en Switch 2. Leon Kennedy y Claire Redfield llegan a Raccoon City el día que todo se cae a pedazos, con cámara al hombro y munición contada. El Tyrant persigue por los pasillos de la comisaría y no se lo puede matar, sólo demorar. La edición Deluxe suma los trajes y los extras que salieron aparte.",
     trailer: "https://youtube.com/embed/4C10U-O1kZ8",
+    gameplay: {
+      video: "https://youtube.com/embed/gBAVwzTWLeU",
+      canal: "Puerta al Sótano",
+      canalUrl: "https://www.youtube.com/@Dan-PuertaAlSotano"
+    },
     metacriticSlug: "resident-evil-2",
     metacritic: 91,
     critica: "Las reseñas son de la versión de PS4 de 2019. La prensa lo considera uno de los mejores remakes que se hicieron: lleva el clásico de 1998 a la actualidad con un terror genuino, acertijos a la vieja usanza, mucha acción y un Mr. X que persigue por la comisaría. Los pocos reparos dicen que, al querer conformar a todos, a los veteranos les puede resultar menos fiel de lo esperado.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "SALIÓ EN SWITCH 2, EN VERSIÓN NATIVA",
+        texto: "Capcom sacó los remakes de Resident Evil 2, 3 y 4 en Switch 2 el 16 de octubre, sólo en digital y en versión nativa: en la Switch original se jugaban por la nube. Esta es la Deluxe Edition."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
@@ -9708,10 +9730,22 @@ const JUEGOS = [
     desarrollador: "CAPCOM CO., LTD.",
     descripcion: "Jill Valentine intenta salir de Raccoon City mientras Umbrella le suelta atrás a Nemesis, que la persigue por toda la ciudad y no para. Es más de acción y más corto que el remake de Resident Evil 2, con esquive en lugar de aguantar el golpe. Trae adentro Resident Evil Resistance, el multijugador asimétrico de cuatro contra uno.",
     trailer: "https://youtube.com/embed/4C10U-O1kZ8",
+    gameplay: {
+      video: "https://youtube.com/embed/s8zriVXvRLY",
+      canal: "Puerta al Sótano",
+      canalUrl: "https://www.youtube.com/@Dan-PuertaAlSotano"
+    },
     metacriticSlug: "resident-evil-3",
     metacritic: 79,
     critica: "Las reseñas son de la versión de PS4 de 2020. Divide más que el de Resident Evil 2: unos lo ven como un sucesor digno, más volcado a la acción y con un Némesis intimidante, y otros como un paso atrás. Los reparos se repiten: dura unas seis horas, recorta partes del original de 1999 y el miedo pesa menos en el diseño.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "SALIÓ EN SWITCH 2, EN VERSIÓN NATIVA",
+        texto: "Capcom sacó los remakes de Resident Evil 2, 3 y 4 en Switch 2 el 16 de octubre, sólo en digital y en versión nativa: en la Switch original se jugaban por la nube."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
@@ -9727,10 +9761,22 @@ const JUEGOS = [
     desarrollador: "CAPCOM CO., LTD.",
     descripcion: "Leon vuelve a la aldea a buscar a la hija del presidente, y el remake de 2023 es de los mejor recibidos que hizo Capcom: mantiene el ritmo del original de 2005 y le suma parry con el cuchillo y un sigilo que antes no estaba. La edición Gold trae el juego completo, el episodio de Ada y todo lo que salió después.",
     trailer: "https://youtube.com/embed/4C10U-O1kZ8",
+    gameplay: {
+      video: "https://youtube.com/embed/ojHeS6ga5bo",
+      canal: "Puerta al Sótano",
+      canalUrl: "https://www.youtube.com/@Dan-PuertaAlSotano"
+    },
     metacriticSlug: "resident-evil-4",
     metacritic: 93,
     critica: "Las reseñas son de la versión de PS5 de 2023. Para casi toda la prensa es la mejor versión de uno de los mejores juegos de la historia: fiel al original de 2005, más cohesivo, con contenido nuevo y una tensión que se maneja muy bien. Los reparos vienen de quienes extrañan el tono más ridículo del original y lo ven como un remake demasiado prolijo, con menos inventiva que el de Resident Evil 2.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "SALIÓ EN SWITCH 2, EN VERSIÓN NATIVA",
+        texto: "Capcom sacó los remakes de Resident Evil 2, 3 y 4 en Switch 2 el 16 de octubre, sólo en digital y en versión nativa: en la Switch original se jugaban por la nube. Esta es la Gold Edition, con la expansión Separate Ways."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
@@ -9750,6 +9796,13 @@ const JUEGOS = [
     metacritic: 80,
     critica: "Las reseñas son de la versión de PS5 de 2021. Lo celebran por los personajes y la historia, de lo mejor que se escribió en un juego de superhéroes, con humor constante, un gran doblaje y mucho universo Marvel poco conocido. Los reparos van al juego en sí: el combate es simple y repetitivo, es bastante lineal y salió con errores; más de una reseña dice que es mejor mirarlo que jugarlo.",
     imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1088850/library_600x900.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "LA ENCORE EDITION TRAE TRAJES OCHENTOSOS",
+        texto: "La edición de Switch 2, a cargo del propio Eidos-Montréal, suma un conjunto de trajes de glam rock de los 80 para los cinco Guardianes. En el televisor tiene un modo calidad a 1440p y 30 cuadros y uno de rendimiento a 1080p y 40 cuadros; en modo portátil va a 30. La versión de la Switch original era sólo por la nube."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-09"
@@ -9862,6 +9915,11 @@ const JUEGOS = [
     desarrollador: "SHIFT UP CORPORATION",
     descripcion: "EVE baja a una Tierra arrasada a pelearle a los Naytiba. El combate es de parry y contraataque, más cerca de un Nier o un Bayonetta que de un soulslike, y fue lo más elogiado cuando salió en PS5 en 2024. La edición Complete trae el juego con todo lo que se le agregó después.",
     trailer: "https://youtube.com/embed/r7FaHEZZaAo",
+    gameplay: {
+      video: "https://youtube.com/embed/Eqm1Qyq_p3g",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacriticSlug: "stellar-blade",
     metacritic: 81,
     critica: "Las reseñas son de la versión de PS5 de 2024. Elogian sobre todo el combate, profundo y con jefes excelentes, además del apartado visual y una gran banda sonora. Las críticas van a una historia y unos personajes sin vida, y a que copia a los grandes del género sin llegar a su nivel; la protagonista y su vestuario fueron tema en varias reseñas.",
@@ -10681,6 +10739,13 @@ const JUEGOS = [
     metacritic: 80,
     critica: "Las reseñas son de la versión de PS5 de 2025. Celebran el regreso de la saga después de 26 años con un sistema de pelea profundo y muy bien pensado, que entretiene a veteranos y recién llegados, y un apartado técnico impecable. Los reparos: el plantel es chico, los modos para un jugador son pobres y a los que recién empiezan les cuesta entrar.",
     imagen: "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9z8m.jpg",
+    noticias: [
+      {
+        fecha: "2026-11-06",
+        titulo: "SALIÓ EN SWITCH 2, CON JUEGO CRUZADO",
+        texto: "SNK lo lanzó en digital el 22 de octubre, con juego cruzado con las demás consolas y PC. Llegó junto con Mikey y Draken, de Tokyo Revengers, como luchadores de pago, y la Starter Edition trae los tres pases de temporada."
+      }
+    ],
     gamepass: false,
     psplus: false,
     alta: "2026-09-10"
@@ -12371,6 +12436,11 @@ const JUEGOS = [
     desarrollador: "COIN CREW GAMES",
     descripcion: "La secuela de Escape Academy, que convierte sus salas de escape en un juego de mundo abierto: la academia clandestina de escapismo se recorre libremente, con una campaña nueva de salas diseñadas por el equipo de puzles del primero. Como no son salas reales, no tienen que respetar ninguna norma de seguridad, así que hay techos con pinchos, caídas de treinta metros y, lo peor de todo, exámenes finales.",
     trailer: "https://youtube.com/embed/Aer93YCNrRI",
+    gameplay: {
+      video: "https://youtube.com/embed/AEPE-dloOEA",
+      canal: "Julen",
+      canalUrl: "https://www.youtube.com/@julsverse"
+    },
     metacritic: 73,
     critica: "Las reseñas, todas de PS5, coinciden en que los puzles son excelentes, ingeniosos y gratificantes, y que la historia engancha, sobre todo en cooperativo. Lo que divide es el mundo abierto: a algunos les suma explorar la academia y a otros les parece que estira el juego sin aportar mucho. El reparo que más se repite son los problemas técnicos y de rendimiento, y también hay saltos de dificultad entre algunas salas.",
     metacriticUsuarios: null,
