@@ -1247,10 +1247,19 @@ entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención a
 
 - **Va en minúsculas** (`comun.titulo`): en una lista de resultados, un título todo en
   mayúsculas se lee como si gritara. El H1 de la página sigue en mayúsculas, que es el diseño.
-- **Máximo dos consolas y "salida" en vez de "lanzamiento"**, porque Google corta cerca de los
-  60 caracteres. Medido sobre los 331 juegos, esa fórmula deja la mediana en 56 y baja de 316
-  a 76 los títulos que se pasan. Lo único que nunca se recorta es el nombre del juego: es el
-  término por el que la gente busca.
+- **Dos consolas, o tres si entran, y "salida" en vez de "lanzamiento"**, porque Google corta
+  cerca de los 60 caracteres. Medido sobre los 331 juegos, esa fórmula deja la mediana en 56 y
+  baja de 316 a 76 los títulos que se pasan. Lo único que nunca se recorta es el nombre del
+  juego: es el término por el que la gente busca.
+- **Las consolas van en orden de lo que se busca: PS5, Switch, Xbox, Switch 2, PS4**
+  (`ORDEN_TITULO` en `generar-fichas.py`, desde el 09/11/2026). Antes iban las dos primeras en
+  el orden de carga, y 36 fichas que salen en PS5 no lo nombraban mientras 43 ponían PS4 antes
+  que Xbox o Switch. El orden sale del CSV de Search Console de agosto a noviembre: las
+  consultas con "ps5" sumaron 2.718 impresiones; con "switch", 746; "xbox", 442; "switch 2",
+  316, y "ps4", 285. Si la tercera consola entra en 60 caracteres, se nombra aunque eso deje
+  afuera el nombre del sitio: la consola es parte de la búsqueda y la marca no. Cambiaron 215
+  títulos; ahora los 422 juegos con PS5 la nombran. **Medir en el CSV de las semanas
+  siguientes** si suben las impresiones de búsquedas "juego + xbox" y "juego + switch".
 - **La portada y las páginas de plataforma no se tocaron.** Compiten por las búsquedas
   amplias, esa pelea está perdida por ahora y cambiarles el título no mueve nada.
 

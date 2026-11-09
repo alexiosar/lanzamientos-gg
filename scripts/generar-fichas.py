@@ -88,11 +88,27 @@ NOTICIAS_PROPIAS = indice_noticias_propias()
 # Lo que nunca se recorta es el nombre del juego: es el término de la consulta.
 SUFIJO = " — LANZAMIENTOS.LAT"
 
+# Qué consolas nombra el título, en orden de lo que se busca. Hasta el 09/11/2026 iban las
+# dos primeras en el orden en que estaban cargadas, y 36 fichas que salen en PS5 no lo
+# decían (Denshattack, Trails in the Sky 2nd Chapter…) mientras 43 nombraban PS4 antes que
+# Xbox o Switch. El orden sale del CSV de Search Console de agosto a noviembre: las
+# consultas con "ps5" sumaron 2.718 impresiones, "switch" 746, "xbox" 442, "switch 2" 316
+# y "ps4" 285. Si entra una tercera consola en los 60 caracteres, se nombra.
+ORDEN_TITULO = ["PS5", "SWITCH", "XBOX", "SWITCH2", "PS4"]
+
 
 def titulo_pestania(j):
-    plats = [plat(p) for p in j["plataformas"]][:2]
-    en = f"{plats[0]} y {plats[1]}" if len(plats) > 1 else plats[0]
-    base = f"{titulo_normal(j)} en {en}: fecha de salida"
+    orden = sorted(j["plataformas"],
+                   key=lambda p: ORDEN_TITULO.index(p) if p in ORDEN_TITULO else 99)
+    plats = [plat(p) for p in orden]
+
+    def armar(elegidas):
+        en = elegidas[0] if len(elegidas) == 1 else ", ".join(elegidas[:-1]) + " y " + elegidas[-1]
+        return f"{titulo_normal(j)} en {en}: fecha de salida"
+
+    base = armar(plats[:2])
+    if len(plats) > 2 and len(armar(plats[:3])) <= 60:
+        base = armar(plats[:3])
     return base + SUFIJO if len(base + SUFIJO) <= 60 else base
 
 
