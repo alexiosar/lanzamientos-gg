@@ -6,7 +6,28 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 06 Nov 2026 14:45:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:24:32 +0000</lastBuildDate>
+    <item>
+      <title>LET'S SING 2027: DEBUTA CON 71 EN METACRITIC, Y TAMBIÉN SALIÓ EN PS5</title>
+      <link>https://lanzamientos.lat/juegos/lets-sing-2027</link>
+      <guid isPermaLink="false">lets-sing-2027-2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Tiene 71 sobre cuatro reseñas de la versión de PS5, que la PS Store tiene a la venta desde el 3 de noviembre, el mismo día que en Switch. — LET'S SING 2027 para SWITCH 2 / SWITCH / PS5.</description>
+    </item>
+    <item>
+      <title>DEMONS' NIGHT FEVER: DEBUTA CON 59 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/demons-night-fever</link>
+      <guid isPermaLink="false">demons-night-fever-2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Tiene 59 sobre cuatro reseñas de la versión de PC, que van de 40 a 70. — DEMONS' NIGHT FEVER para PS5 / SWITCH.</description>
+    </item>
+    <item>
+      <title>HOZY: SALIÓ HOY EN PS5 Y XBOX</title>
+      <link>https://lanzamientos.lat/juegos/hozy</link>
+      <guid isPermaLink="false">hozy-2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Llegó a consolas el 9 de noviembre, anunciado en el blog de PlayStation y en el resumen semanal de Xbox. En PC salió en marzo. — HOZY para PS5 / XBOX.</description>
+    </item>
     <item>
       <title>PRINNY PARTY: GOING OVERBOARD!: SALE EL 11 DE NOVIEMBRE, TAMBIÉN EN SWITCH 2</title>
       <link>https://lanzamientos.lat/juegos/prinny-party-going-overboard</link>
@@ -265,27 +286,6 @@
       <guid isPermaLink="false">popucom-2026-11-04</guid>
       <pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
       <description>Fireshine Games anunció la fecha con un tráiler, y la PS Store ya tiene el día. — POPUCOM para PS5.</description>
-    </item>
-    <item>
-      <title>HYPERSPACE NEPTUNIA: UNLIMITED: LLEGA A OCCIDENTE EN 2027</title>
-      <link>https://lanzamientos.lat/juegos/hyperspace-neptunia-unlimited</link>
-      <guid isPermaLink="false">hyperspace-neptunia-unlimited-2026-11-04</guid>
-      <pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Idea Factory International lo anunció con el nombre en inglés y un tráiler: sale en 2027 en PS5, PS4, Switch 2, Switch y PC. En Japón salió el 27 de agosto. — HYPERSPACE NEPTUNIA: UNLIMITED para PS5 / PS4 / SWITCH 2 / SWITCH.</description>
-    </item>
-    <item>
-      <title>PAW PATROL: DINO WORLD: ENTRA A GAME PASS EL 17 DE NOVIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/paw-patrol-dino-world</link>
-      <guid isPermaLink="false">paw-patrol-dino-world-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Xbox lo incluyó en la primera tanda de Game Pass de noviembre: entra a Ultimate, Premium y PC Game Pass. — PAW PATROL: DINO WORLD para PS5 / XBOX / PS4.</description>
-    </item>
-    <item>
-      <title>ZERO PARADES: FOR DEAD SPIES: DEBUTA CON 83 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/zero-parades-for-dead-spies</link>
-      <guid isPermaLink="false">zero-parades-for-dead-spies-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Salió hoy en PS5, Xbox y PC con 83 sobre 62 reseñas de la versión de PC, tres de ellas de 100. — ZERO PARADES: FOR DEAD SPIES para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

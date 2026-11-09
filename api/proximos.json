@@ -2,93 +2,41 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-06T14:45:23+00:00",
+ "generado": "2026-11-09T13:24:32+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-06",
- "hasta": "2026-12-06",
+ "desde": "2026-11-09",
+ "hasta": "2026-12-09",
  "total": 51,
  "juegos": [
   {
-   "id": "hasbro-games-junior-collection",
-   "titulo": "HASBRO GAMES JUNIOR COLLECTION",
-   "fecha": "2026-11-06",
+   "id": "hozy",
+   "titulo": "HOZY",
+   "fecha": "2026-11-09",
+   "relanzamiento": "En PC desde marzo de 2026",
    "plataformas": [
-    "XBOX",
     "PS5",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "TABLERO",
-    "CASUAL",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "CASUAL BROTHERS",
-   "descripcion": "Tres juegos de mesa clásicos de Hasbro en versión para los más chicos: Monopoly Junior, para comprar lugares y ganar plata con solo tirar el dado; Cluedo Junior, para buscar pistas y descartar sospechosos; y The Game of Life Junior, para girar la ruleta y elegir el camino juntando estrellas. Se juega solo o con otros en la misma consola.",
-   "trailer": "https://youtube.com/embed/OhYII4UeVzY",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocm0w.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/hasbro-games-junior-collection"
-  },
-  {
-   "id": "shelterra-the-skyworld",
-   "titulo": "SHELTERRA THE SKYWORLD",
-   "fecha": "2026-11-06",
-   "plataformas": [
     "XBOX"
    ],
    "genero": [
-    "RPG",
-    "POR TURNOS",
-    "AVENTURA"
-   ],
-   "desarrollador": "MAGITEC",
-   "descripcion": "Un RPG de fantasía clásica en Shelterra, un continente flotante al que todavía no llegó la corrupción llamada Odium. Claude sueña con ser aventurero profesional, pero una simple misión de escolta destapa una amenaza que podría hacer caer su tierra. Hay mundo abierto, mazmorras con combates por turnos, habilidades que se aprenden peleando y artefactos para invocar.",
-   "trailer": "https://youtube.com/embed/Qxx4msmGw6s",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4770220/529b46eb0a5237b2c0bd36313abce2cdc4f8e072/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-30",
-   "url": "https://lanzamientos.lat/juegos/shelterra-the-skyworld",
-   "noticias": [
-    {
-     "fecha": "2026-10-30",
-     "titulo": "SALE EL 6 DE NOVIEMBRE EN XBOX",
-     "texto": "KEMCO lo publica el 6 de noviembre en Xbox Series. La PS Store tiene una ficha con ese día, pero todavía no dice para qué consola."
-    }
-   ]
-  },
-  {
-   "id": "japanese-rural-life-adventure",
-   "titulo": "JAPANESE RURAL LIFE ADVENTURE",
-   "fecha": "2026-11-06",
-   "relanzamiento": "En Switch y PC desde marzo de 2026",
-   "plataformas": [
-    "PS4"
-   ],
-   "genero": [
     "SIMULACION",
-    "RELAX"
+    "RELAX",
+    "INDIE"
    ],
-   "desarrollador": "G-MODE",
-   "descripcion": "Un simulador de vida tranquila en el campo japonés, en pixel art. Hay que arreglar una casa vieja, ordenar el jardín y cultivar lo propio hasta vivir de lo que uno produce: el arroz, la sal, la salsa de soja y el miso se hacen a mano, y se cocina en el irori, el fogón tradicional de la casa. Las estaciones marcan el año, con los cerezos en flor en primavera, el festival de verano, las batatas asadas en otoño y la campana del templo en invierno. Tiene textos en español.",
-   "trailer": "https://youtube.com/embed/j7Qtx7Xr-24",
+   "desarrollador": "COME ON STUDIO",
+   "descripcion": "Un juego tranquilo de restaurar casas en el pueblo de Littleville, sin relojes, puntajes ni apuros. Cada nivel es un espacio con su propia historia: primero se limpia y se arregla, del trapeador a la barreta para arrancar azulejos viejos, y después se amuebla con un juego de muebles y adornos elegido para ese lugar, así el resultado siempre queda de revista. Casi todo se puede tocar: abrir la ventana para que el viento mueva el polvo, prender una lámpara, tocar el piano o encontrar mensajes escondidos en los cajones. Lo publica tinyBuild.",
+   "trailer": "https://youtube.com/embed/Fe_SGiMlyXc",
    "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4158870/b478c406dc411160703100a2a26b3a714134c834/library_capsule_2x.jpg",
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/39d05ca20f3a2c0e6694458042df2a4e87c781b5/library_capsule_2x.jpg",
    "gamepass": false,
    "psplus": false,
-   "alta": "2026-11-06",
-   "url": "https://lanzamientos.lat/juegos/japanese-rural-life-adventure",
+   "alta": "2026-11-09",
+   "url": "https://lanzamientos.lat/juegos/hozy",
    "noticias": [
     {
-     "fecha": "2026-11-06",
-     "titulo": "SALIÓ EN PS4",
-     "texto": "G-MODE lo puso a la venta en PS4 el 6 de noviembre."
+     "fecha": "2026-11-09",
+     "titulo": "SALIÓ HOY EN PS5 Y XBOX",
+     "texto": "Llegó a consolas el 9 de noviembre, anunciado en el blog de PlayStation y en el resumen semanal de Xbox. En PC salió en marzo."
     }
    ]
   },
@@ -1624,6 +1572,67 @@
      "fecha": "2026-10-21",
      "titulo": "SALE EL 4 DE DICIEMBRE, CON GAME PASS",
      "texto": "Se anunció en el ID@Xbox Showcase: llega a Xbox Series y Game Pass el 4 de diciembre. La PS Store también lo tiene para ese día, pero la ficha no dice para qué consola."
+    }
+   ]
+  },
+  {
+   "id": "guns-of-eschaton",
+   "titulo": "GUNS OF ESCHATON",
+   "fecha": "2026-12-08",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "SHOOTER",
+    "ACCION",
+    "HORROR"
+   ],
+   "desarrollador": "ESCHATOLOGY ENTERTAINMENT",
+   "descripcion": "Un shooter en primera persona con estructura de soulslike, en un western apocalíptico con terror ocultista, con dirección de arte de Viktor Antonov, el de Half-Life 2 y Dishonored. El viejo Sur arde y sus leyendas no terminan de morir. Se juega con alguien casi común, frágil y superado por un mundo moribundo lleno de monstruos, con un Colt, instinto de supervivencia y la voluntad de volver a casa. No gana el más rápido: cada bala cuenta y cada arma tiene su propia forma de manejarse.",
+   "trailer": "https://youtube.com/embed/dBURYuEi8ss",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734220/e2af117fbe358809b6c01677796c3e2ddc870912/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-22",
+   "url": "https://lanzamientos.lat/juegos/guns-of-eschaton",
+   "noticias": [
+    {
+     "fecha": "2026-10-22",
+     "titulo": "SALE EL 8 DE DICIEMBRE",
+     "texto": "La PS Store lo tiene para el 8 de diciembre; en Xbox, la edición de reserva habilita el juego desde el 6."
+    }
+   ]
+  },
+  {
+   "id": "aeruta",
+   "titulo": "AERUTA",
+   "fecha": "2026-12-09",
+   "relanzamiento": "En PC desde noviembre de 2025",
+   "duracion": "≈ 14 h (historia) · 28 h (completo)",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "INDIE"
+   ],
+   "desarrollador": "FROMDAWN GAMES",
+   "descripcion": "Un RPG de acción en 2D mezclado con la administración de una panadería, en un mundo donde el pan se está olvidando. Chaya queda varada en un pueblo venido abajo y, después de una explosión accidental en un horno, se pone a reconstruir la panadería de Effie. De día sale a juntar ingredientes peleando con varias armas, cada una con su árbol de habilidades; después hornea, arma los estantes y atiende a los clientes, y con lo que gana va levantando el pueblo.",
+   "trailer": "https://youtube.com/embed/8JngoFe9LA8",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2286780/d176505507c0f03bcc32c058e260c5c44679be34/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-05",
+   "url": "https://lanzamientos.lat/juegos/aeruta",
+   "noticias": [
+    {
+     "fecha": "2026-11-05",
+     "titulo": "LLEGA A SWITCH EL 9 DE DICIEMBRE",
+     "texto": "La eShop y Nintendo US lo tienen para el 9. También se anunció para PS5, pero la PS Store todavía no tiene la fecha."
     }
    ]
   }
