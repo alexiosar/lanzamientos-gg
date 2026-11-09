@@ -19,7 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import cargar_juegos, ficha_flaca, leer_noticias_propias, plat, titulo as titulo_normal
+from comun import MINIMO_MES, cargar_juegos, ficha_flaca, leer_noticias_propias, plat, titulo as titulo_normal
 import plantilla
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -112,6 +112,46 @@ def titulo_pestania(j):
     return base + SUFIJO if len(base + SUFIJO) <= 60 else base
 
 
+
+# La descripción que Google muestra debajo del título. Hasta el 09/11/2026 decía "Ova Magica:
+# fecha de salida, plataformas, puntaje y trailer." y seguía con la sinopsis: prometía la
+# fecha sin darla, y quien busca "ova magica ps5 cuándo sale" tenía que entrar para saberlo.
+# Ahora arranca con la respuesta y con todas las consolas, en el orden del título.
+def fecha_estimada_texto(texto):
+    """'CUARTO TRIMESTRE 2026' -> 'cuarto trimestre de 2026'; '2027' queda igual."""
+    m = re.match(r"^(.*\D)\s+(\d{4})$", texto.strip())
+    return f"{m.group(1).lower()} de {m.group(2)}" if m else texto.lower()
+
+
+def descripcion_meta(j, hoy):
+    orden = sorted(j["plataformas"],
+                   key=lambda p: ORDEN_TITULO.index(p) if p in ORDEN_TITULO else 99)
+    nombres = [plat(p) for p in orden]
+    en = nombres[0] if len(nombres) == 1 else ", ".join(nombres[:-1]) + " y " + nombres[-1]
+    if j.get("estimado"):
+        cuando = f"se espera para {fecha_estimada_texto(j.get('fechaEstimada') or j['fecha'][:4])}"
+    else:
+        y, m, d = map(int, j["fecha"].split("-"))
+        verbo = "salió" if j["fecha"] <= hoy else "sale"
+        cuando = f"{verbo} el {d} de {MESES_ES[m - 1].lower()} de {y}"
+    frase = f"{titulo_normal(j)} {cuando} en {en}. "
+    resto = max(160 - len(frase), 40)
+    sinopsis = j["descripcion"]
+    if len(sinopsis) > resto:
+        sinopsis = sinopsis[:resto].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+    return frase + sinopsis
+
+
+def meses_con_pagina(juegos):
+    """Los meses que tienen página propia, con el mismo criterio que generar-meses.py: al
+    menos MINIMO_MES juegos con día confirmado."""
+    cuenta = {}
+    for j in juegos:
+        if not j.get("estimado"):
+            cuenta[j["fecha"][:7]] = cuenta.get(j["fecha"][:7], 0) + 1
+    return {mk for mk, n in cuenta.items() if n >= MINIMO_MES}
+
+
 def plat_slug(p):
     return {"PS5": "/ps5", "PS4": "/ps4", "XBOX": "/xbox",
             "SWITCH2": "/switch-2", "SWITCH": "/switch"}.get(p, "/")
@@ -195,7 +235,7 @@ def bloque_rel(titulo, items):
       </div>'''
 
 
-def generar(j, juegos):
+def generar(j, juegos, meses=None, hoy=None):
     gid = j["id"]
     y, m, d = map(int, j["fecha"].split("-"))
     estimado = bool(j.get("estimado"))
@@ -381,7 +421,7 @@ def generar(j, juegos):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{e(titulo_normal(j))}: fecha de salida, plataformas, puntaje y trailer. {e(desc_corta)}">
+  <meta name="description" content="{e(descripcion_meta(j, hoy or datetime.date.today().isoformat()))}">
   <title>{e(titulo_pestania(j))}</title>
   <link rel="canonical" href="{url}">{robots}
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -481,7 +521,8 @@ def generar(j, juegos):
             <div class="meta-grid">
               <div>
                 <span class="ficha-campo-label">{"FECHA ESTIMADA" if estimado else "FECHA DE LANZAMIENTO"}</span>
-                <span class="ficha-campo-valor">{fecha_str}</span>
+                <span class="ficha-campo-valor">{fecha_str}</span>{f'''
+                <a class="ficha-mes" href="/{MESES_ES[m-1].lower()}-{y}">MÁS JUEGOS DE {MESES_ES[m-1]} {y} →</a>''' if not estimado and f"{y}-{m:02d}" in (meses if meses is not None else meses_con_pagina(juegos)) else ""}
                 {'<span class="relanzamiento">◔ FECHA EXACTA SIN CONFIRMAR</span>' if estimado else f'<span class="cuenta-regresiva" id="regresiva" data-fecha="{j["fecha"]}"></span>'}{f'''
                 <span class="relanzamiento">↺ {e(j["relanzamiento"])}</span>''' if j.get("relanzamiento") else ""}
               </div>
@@ -648,10 +689,12 @@ def generar(j, juegos):
 
 def main():
     juegos = cargar_juegos()
+    meses = meses_con_pagina(juegos)
+    hoy = datetime.date.today().isoformat()
     destino = RAIZ / "juegos"
     generadas = 0
     for j in juegos:
-        (destino / f'{j["id"]}.html').write_text(generar(j, juegos), encoding="utf-8")
+        (destino / f'{j["id"]}.html').write_text(generar(j, juegos, meses, hoy), encoding="utf-8")
         generadas += 1
     # limpiar fichas de juegos que ya no existen
     #

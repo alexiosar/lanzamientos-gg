@@ -1260,6 +1260,16 @@ entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención a
   afuera el nombre del sitio: la consola es parte de la búsqueda y la marca no. Cambiaron 215
   títulos; ahora los 422 juegos con PS5 la nombran. **Medir en el CSV de las semanas
   siguientes** si suben las impresiones de búsquedas "juego + xbox" y "juego + switch".
+- **La descripción (`<meta name="description">`) arranca con la respuesta** (desde el
+  09/11/2026): "Ova Magica sale el 10 de noviembre de 2026 en PS5, Switch, Xbox, Switch 2 y
+  PS4." y después la sinopsis, hasta unos 160 caracteres. Antes decía "fecha de salida,
+  plataformas, puntaje y trailer": prometía la fecha sin darla. Pasa sola a "salió" el día del
+  lanzamiento, y con fecha estimada dice "se espera para el cuarto trimestre de 2026".
+- **Cada ficha enlaza a su página de mes** ("MÁS JUEGOS DE NOVIEMBRE 2026 →", debajo de la
+  fecha), sólo si el juego tiene día y el mes tiene página, con el mismo criterio que
+  `generar-meses.py`. Las páginas de mes son lo mejor posicionado que tenemos ("juegos que
+  salen en noviembre 2026", posición 5) y ninguna ficha las enlazaba: desde ese día son 575
+  enlaces internos.
 - **La portada y las páginas de plataforma no se tocaron.** Compiten por las búsquedas
   amplias, esa pelea está perdida por ahora y cambiarles el título no mueve nada.
 
