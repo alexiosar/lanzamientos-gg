@@ -2190,7 +2190,8 @@ y abrir http://localhost:8080
   | Petit Planet (Switch 2) | 2027 (Gematsu, 1/11) | No está en Steam ni en las tiendas de consola: falta carátula |
   | Silly Polly Beast (Switch 2) · Bill & Ted's Excellent Adventure: Arcade · Tales of Tuscany · The Backworld | Noviembre, sin fecha, 22/02/2027 y segundo trimestre de 2027 (Gematsu, 2-3/11) | Silly Polly Beast salió en Xbox en octubre de 2025 y la eShop no tiene la de Switch 2; Bill & Ted no tiene fecha; Tales of Tuscany y The Backworld no figuran en ninguna tienda de consola |
   | Thrifty Business (Switch) · DAMON and BABY (Switch 2) · Wonderfall | Sin fecha, sin fecha y 9 de diciembre (Gematsu, 4-5/11) | Thrifty Business y la de Switch 2 de DAMON and BABY no tienen día ni ficha en la eShop; Wonderfall sale sólo en PC |
-  | Lost and Found Co. (Switch y Switch 2) | 10 de noviembre (Indie World, 28/10) | Al 06/11 ni la eShop europea ni Nintendo US lo listan. Si no aparece antes del 10, revisar la fecha |
+  | Lost and Found Co. (Switch y Switch 2) | 10 de noviembre (Indie World, 28/10) | El 10/11 no apareció en ninguna eShop: quedó estimado para noviembre. Cargarle el día cuando aparezca |
+  | Wish Upon a Llama (PS5, Xbox, PS4, Switch) | 9 de diciembre (Gematsu, 9/11) | Al 10/11 ninguna tienda de consola lo lista |
   | Whirlight (PS5 y Xbox) | — | El 06/11 pasó al 21/01/2027 por la eShop de América (la europea sigue con el 12/11). Xbox lo lista sin día y la PS Store no tiene fecha |
   | Console Archives Elevator Action (Switch 2) · Arcade Archives 2 Exzisus (Switch 2) | 5 de noviembre | **Ya están cargados** en PS5 (Elevator Action) y en PS5, PS4 y Xbox (Exzisus). La eShop no tiene las de Switch 2 |
   | Hyperspace Neptunia: Unlimited (carátula) | 2027 (Idea Factory International, 3/11) | Cargado con la portada japonesa de la PS Store: cambiarla cuando salga la occidental |
