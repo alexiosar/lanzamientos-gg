@@ -19,7 +19,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import MINIMO_MES, cargar_juegos, ficha_flaca, leer_noticias_propias, plat, titulo as titulo_normal
+from comun import (MINIMO_MES, cargar_juegos, ficha_flaca, leer_noticias_propias, migas_ld, plat,
+                   titulo as titulo_normal)
 import plantilla
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -413,6 +414,14 @@ def generar(j, juegos, meses=None, hoy=None):
             "embedUrl": j["trailer"],
         }
 
+    # La página del mes, si existe (una ficha con fecha estimada o de un mes con menos de
+    # MINIMO_MES juegos no tiene a dónde apuntar). Sirve al enlace bajo la fecha y a los
+    # breadcrumbs: Lanzamientos › Noviembre 2026 › Juego, o Lanzamientos › Juego sin mes.
+    tiene_mes = not estimado and f"{y}-{m:02d}" in (meses if meses is not None else meses_con_pagina(juegos))
+    mes_ruta = f"/{MESES_ES[m-1].lower()}-{y}" if tiene_mes else None
+    migas = ([(f"{MESES_ES[m-1].title()} {y}", mes_ruta)] if mes_ruta else []) + \
+        [(titulo_normal(j), f"/juegos/{gid}")]
+
     # Ficha casi vacía: visible para la gente, fuera del índice de Google (ver ficha_flaca).
     robots = '\n  <meta name="robots" content="noindex, follow">' if ficha_flaca(j) else ""
 
@@ -439,6 +448,7 @@ def generar(j, juegos, meses=None, hoy=None):
   <meta name="twitter:card" content="{tarjeta}">
 
   <script type="application/ld+json">{json.dumps(datos_ld, ensure_ascii=False)}</script>
+  {migas_ld(migas)}
 
   <link rel="alternate" type="application/rss+xml" title="Novedades de LANZAMIENTOS.LAT" href="/rss.xml">
   <link rel="stylesheet" href="../css/style.css">
@@ -522,7 +532,7 @@ def generar(j, juegos, meses=None, hoy=None):
               <div>
                 <span class="ficha-campo-label">{"FECHA ESTIMADA" if estimado else "FECHA DE LANZAMIENTO"}</span>
                 <span class="ficha-campo-valor">{fecha_str}</span>{f'''
-                <a class="ficha-mes" href="/{MESES_ES[m-1].lower()}-{y}">MÁS JUEGOS DE {MESES_ES[m-1]} {y} →</a>''' if not estimado and f"{y}-{m:02d}" in (meses if meses is not None else meses_con_pagina(juegos)) else ""}
+                <a class="ficha-mes" href="{mes_ruta}">MÁS JUEGOS DE {MESES_ES[m-1]} {y} →</a>''' if mes_ruta else ""}
                 {'<span class="relanzamiento">◔ FECHA EXACTA SIN CONFIRMAR</span>' if estimado else f'<span class="cuenta-regresiva" id="regresiva" data-fecha="{j["fecha"]}"></span>'}{f'''
                 <span class="relanzamiento">↺ {e(j["relanzamiento"])}</span>''' if j.get("relanzamiento") else ""}
               </div>

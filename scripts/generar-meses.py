@@ -30,8 +30,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import (MINIMO_MES, PLATS, cargar_juegos, paginas_plataforma_mes, ruta_plataforma_mes,
-                   ruta_recomendados)
+from comun import (MINIMO_MES, PLATS, cargar_juegos, migas_ld, paginas_plataforma_mes,
+                   ruta_plataforma_mes, ruta_recomendados)
 
 import plantilla
 
@@ -226,6 +226,7 @@ def generar(mes_key, juegos_mes, anterior, siguiente, pasado, primero=False,
   <meta property="og:url" content="{DOMINIO}{ruta}">
   <meta property="og:image" content="{DOMINIO}/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
+  {migas_ld([(f"{nombre.title()} {y}", f"/{slug(mes_key)}")] + ([(consola, ruta)] if plataforma else []))}
   <link rel="stylesheet" href="css/style.css">
   <style>
     .pagina-titulo  {{ font-size: 1.25rem; color: var(--blanco); letter-spacing: 3px; margin-bottom: 0.25rem; }}

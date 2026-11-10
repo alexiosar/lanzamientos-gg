@@ -162,6 +162,21 @@ def paginas_plataforma_mes(juegos):
 
 def ruta_plataforma_mes(plataforma, mes_key):
     return f"/{PLAT_SLUG[plataforma]}-{MESES_ES[int(mes_key[5:7]) - 1].lower()}-{mes_key[:4]}"
+
+
+def migas_ld(pasos):
+    """El marcado de breadcrumbs para Google: `pasos` es una lista de (nombre, ruta)
+    desde la portada hasta la página. Google muestra esa ruta en el resultado en lugar
+    de la URL (Lanzamientos › Noviembre 2026 › Juego)."""
+    datos = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": i, "name": nombre, "item": "https://lanzamientos.lat" + ruta}
+            for i, (nombre, ruta) in enumerate([("Lanzamientos", "/")] + pasos, 1)
+        ],
+    }
+    return f'<script type="application/ld+json">{json.dumps(datos, ensure_ascii=False)}</script>'
 # Palabras que no se capitalizan en medio de un título
 MINUSCULAS = {"of", "the", "and", "in", "on", "a", "an", "to", "for", "from", "at", "by",
               "de", "del", "la", "el", "los", "las", "y", "en", "un", "una", "por", "con",

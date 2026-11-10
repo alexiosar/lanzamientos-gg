@@ -1270,6 +1270,12 @@ entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención a
   `generar-meses.py`. Las páginas de mes son lo mejor posicionado que tenemos ("juegos que
   salen en noviembre 2026", posición 5) y ninguna ficha las enlazaba: desde ese día son 575
   enlaces internos.
+- **Breadcrumbs para Google (10/11/2026).** Fichas y páginas de mes llevan un
+  `BreadcrumbList` (lo arma `migas_ld()` en `comun.py`): *Lanzamientos › Noviembre 2026 ›
+  Juego* en las fichas, *Lanzamientos › Noviembre 2026 › PS5* en las de consola y mes. Una
+  ficha sin página de mes (fecha estimada o mes flaco) queda en *Lanzamientos › Juego*, con
+  el mismo criterio que el enlace de arriba. Google muestra esa ruta en el resultado en
+  lugar de la URL.
 - **La portada y las páginas de plataforma no se tocaron.** Compiten por las búsquedas
   amplias, esa pelea está perdida por ahora y cambiarles el título no mueve nada.
 
