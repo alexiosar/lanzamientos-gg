@@ -321,6 +321,10 @@ Con día: Raccoin, Lost and Found Co. y Tanuki: Pon&#x27;s Summer el 10 de novie
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">NOVIEMBRE 2026 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/xbox-noviembre-2026">JUEGOS DE XBOX EN NOVIEMBRE</a> <a class="filtro-btn" href="/switch-2-noviembre-2026">JUEGOS DE SWITCH 2 EN NOVIEMBRE</a></p>
+      </div>
     </div>
   </main>
 
@@ -332,7 +336,7 @@ Con día: Raccoin, Lost and Found Co. y Tanuki: Pon&#x27;s Summer el 10 de novie
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "raccoin-chaos-max-edition", "titulo": "RACCOIN: CHAOS MAX EDITION", "fecha": "2026-11-10", "plataformas": ["SWITCH2", "XBOX"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -397,7 +401,7 @@ Con día: Raccoin, Lost and Found Co. y Tanuki: Pon&#x27;s Summer el 10 de novie
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -413,7 +417,7 @@ Con día: Raccoin, Lost and Found Co. y Tanuki: Pon&#x27;s Summer el 10 de novie
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

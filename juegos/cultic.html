@@ -321,7 +321,7 @@
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "cultic", "titulo": "CULTIC", "fecha": "2026-07-23", "plataformas": ["PS5", "XBOX", "PS4"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -386,7 +386,7 @@
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -402,7 +402,7 @@
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

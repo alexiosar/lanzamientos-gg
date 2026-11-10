@@ -49,8 +49,9 @@ function favTiene(id) {
 // a alguien por un problema de red. Se filtra al mostrar, que no rompe nada.
 //
 // Ese mismo caso pasa a propósito en las páginas que sólo necesitan el menú —las de
-// plataforma, las de mes, /acerca y compañía—: cargan este archivo (8 KB) pero no
-// datos/juegos.js (411 KB), que sería mucho peso sólo para validar un contador. Ahí el
+// plataforma, las de mes, /acerca y compañía, y desde el 10/11/2026 las fichas—: cargan
+// este archivo (8 KB) pero no datos/juegos.js (287 KB comprimido), que sería mucho peso
+// sólo para validar un contador. Ahí el
 // número del menú es el de ids guardados, sin filtrar. La diferencia aparece únicamente
 // si un juego guardado salió del calendario, y es de uno o dos.
 function favIds() {

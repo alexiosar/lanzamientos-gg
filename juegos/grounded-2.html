@@ -336,7 +336,7 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "grounded-2", "titulo": "GROUNDED 2", "fecha": "2026-08-11", "plataformas": ["PS5"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -401,7 +401,7 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -417,7 +417,7 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

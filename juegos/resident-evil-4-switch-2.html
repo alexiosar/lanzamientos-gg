@@ -335,6 +335,10 @@ Lo de 2027 fue más largo todavía: Metroid Ravenous el 28 de enero, Danganronpa
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">OCTUBRE 2026 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/switch-2-octubre-2026">JUEGOS DE SWITCH 2 EN OCTUBRE</a></p>
+      </div>
     </div>
   </main>
 
@@ -346,7 +350,7 @@ Lo de 2027 fue más largo todavía: Metroid Ravenous el 28 de enero, Danganronpa
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "resident-evil-4-switch-2", "titulo": "RESIDENT EVIL 4: GOLD EDITION", "fecha": "2026-10-16", "plataformas": ["SWITCH2"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -411,7 +415,7 @@ Lo de 2027 fue más largo todavía: Metroid Ravenous el 28 de enero, Danganronpa
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -427,7 +431,7 @@ Lo de 2027 fue más largo todavía: Metroid Ravenous el 28 de enero, Danganronpa
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

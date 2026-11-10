@@ -323,6 +323,10 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">OCTUBRE 2026 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/xbox-octubre-2026">JUEGOS DE XBOX EN OCTUBRE</a></p>
+      </div>
     </div>
   </main>
 
@@ -334,7 +338,7 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "deep-dish-dungeon", "titulo": "DEEP DISH DUNGEON", "fecha": "2026-10-13", "plataformas": ["XBOX"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -399,7 +403,7 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -415,7 +419,7 @@ El 15 se van, entre otros, Clair Obscur: Expedition 33, A Plague Tale: Requiem, 
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

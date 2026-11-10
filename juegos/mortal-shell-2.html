@@ -338,7 +338,7 @@ El estreno es Mycopunk: ese mismo 20 deja el acceso anticipado en PC, debuta en 
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "mortal-shell-2", "titulo": "MORTAL SHELL II", "fecha": "2026-08-20", "plataformas": ["PS5", "XBOX"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -403,7 +403,7 @@ El estreno es Mycopunk: ese mismo 20 deja el acceso anticipado en PC, debuta en 
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -419,7 +419,7 @@ El estreno es Mycopunk: ese mismo 20 deja el acceso anticipado en PC, debuta en 
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

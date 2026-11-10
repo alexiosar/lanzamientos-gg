@@ -306,6 +306,10 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">FEBRERO 2027 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/ps5-febrero-2027">JUEGOS DE PS5 EN FEBRERO</a> <a class="filtro-btn" href="/xbox-febrero-2027">JUEGOS DE XBOX EN FEBRERO</a></p>
+      </div>
     </div>
   </main>
 
@@ -317,7 +321,7 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "fable", "titulo": "FABLE", "fecha": "2027-02-23", "plataformas": ["XBOX", "PS5"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -382,7 +386,7 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -398,7 +402,7 @@ Lo más grave es Ninja Theory, la de Hellblade: se cayeron dos acuerdos de venta
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

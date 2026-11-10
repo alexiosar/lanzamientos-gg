@@ -324,7 +324,7 @@ Los otros tres ya tienen día. Neon Abyss 2 deja el acceso anticipado el 8 de oc
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "lufia-i-ii-the-sinistrals-saga", "titulo": "LUFIA I & II: THE SINISTRALS SAGA", "fecha": "2027-12-31", "plataformas": ["PS5", "SWITCH2", "SWITCH"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -389,7 +389,7 @@ Los otros tres ya tienen día. Neon Abyss 2 deja el acceso anticipado el 8 de oc
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -405,7 +405,7 @@ Los otros tres ya tienen día. Neon Abyss 2 deja el acceso anticipado el 8 de oc
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

@@ -286,6 +286,10 @@
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">OCTUBRE 2026 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/ps5-octubre-2026">JUEGOS DE PS5 EN OCTUBRE</a> <a class="filtro-btn" href="/ps4-octubre-2026">JUEGOS DE PS4 EN OCTUBRE</a> <a class="filtro-btn" href="/xbox-octubre-2026">JUEGOS DE XBOX EN OCTUBRE</a></p>
+      </div>
     </div>
   </main>
 
@@ -297,7 +301,7 @@
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "creepy-tale-snow-child", "titulo": "CREEPY TALE: SNOW CHILD", "fecha": "2026-10-15", "plataformas": ["PS5", "PS4", "XBOX"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -362,7 +366,7 @@
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -378,7 +382,7 @@
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

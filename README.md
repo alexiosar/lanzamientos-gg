@@ -1276,6 +1276,16 @@ entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención a
   ficha sin página de mes (fecha estimada o mes flaco) queda en *Lanzamientos › Juego*, con
   el mismo criterio que el enlace de arriba. Google muestra esa ruta en el resultado en
   lugar de la URL.
+- **Las fichas no cargan `datos/juegos.js` (10/11/2026).** Lo bajaban entero —287 KB
+  comprimido, 37 veces la ficha— sólo para compartir, agendar y el contador de MIS JUEGOS.
+  Ahora cada ficha lleva escritos sus cuatro datos (`const JUEGO = {...}`) y
+  `favoritos.js` funciona sin la lista, como en las páginas de mes. Si una ficha nueva
+  necesita otro dato del juego, va en `juego_js` de `generar-fichas.py`, no volviendo a
+  cargar el archivo entero.
+- **Cada ficha enlaza a las páginas de su consola en ese mes (10/11/2026)**, en una
+  sección "NOVIEMBRE 2026 POR CONSOLA" al pie ("JUEGOS DE PS5 EN NOVIEMBRE"). Sólo las que
+  existen (`paginas_plataforma_mes`) y sólo con día confirmado: 408 fichas, 804 enlaces a
+  las 27 páginas de consola y mes, que antes casi no recibían enlaces.
 - **La portada y las páginas de plataforma no se tocaron.** Compiten por las búsquedas
   amplias, esa pelea está perdida por ahora y cambiarles el título no mueve nada.
 

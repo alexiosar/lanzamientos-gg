@@ -310,6 +310,10 @@
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">OCTUBRE 2026 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/switch-2-octubre-2026">JUEGOS DE SWITCH 2 EN OCTUBRE</a></p>
+      </div>
     </div>
   </main>
 
@@ -321,7 +325,7 @@
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "shadow-of-the-tomb-raider-switch-2", "titulo": "SHADOW OF THE TOMB RAIDER: DEFINITIVE EDITION", "fecha": "2026-10-22", "plataformas": ["SWITCH2"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -386,7 +390,7 @@
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -402,7 +406,7 @@
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

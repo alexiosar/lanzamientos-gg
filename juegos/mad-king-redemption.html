@@ -314,6 +314,10 @@ El resto son juegos que ya estaban a la venta y se suman al plan Premium, como N
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">SEPTIEMBRE 2026 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/xbox-septiembre-2026">JUEGOS DE XBOX EN SEPTIEMBRE</a></p>
+      </div>
     </div>
   </main>
 
@@ -325,7 +329,7 @@ El resto son juegos que ya estaban a la venta y se suman al plan Premium, como N
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "mad-king-redemption", "titulo": "MAD KING REDEMPTION", "fecha": "2026-09-23", "plataformas": ["XBOX"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -390,7 +394,7 @@ El resto son juegos que ya estaban a la venta y se suman al plan Premium, como N
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -406,7 +410,7 @@ El resto son juegos que ya estaban a la venta y se suman al plan Premium, como N
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

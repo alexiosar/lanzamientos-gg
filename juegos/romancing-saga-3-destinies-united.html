@@ -286,6 +286,10 @@
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">FEBRERO 2027 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/ps5-febrero-2027">JUEGOS DE PS5 EN FEBRERO</a> <a class="filtro-btn" href="/xbox-febrero-2027">JUEGOS DE XBOX EN FEBRERO</a> <a class="filtro-btn" href="/switch-2-febrero-2027">JUEGOS DE SWITCH 2 EN FEBRERO</a></p>
+      </div>
     </div>
   </main>
 
@@ -297,7 +301,7 @@
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "romancing-saga-3-destinies-united", "titulo": "ROMANCING SAGA 3: DESTINIES UNITED", "fecha": "2027-02-16", "plataformas": ["SWITCH2", "SWITCH", "PS5", "XBOX"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -362,7 +366,7 @@
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -378,7 +382,7 @@
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

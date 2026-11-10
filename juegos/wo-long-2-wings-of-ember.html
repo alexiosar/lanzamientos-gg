@@ -306,6 +306,10 @@ Antes hubo tráiler de la campaña de Call of Duty: Modern Warfare 4, que sale e
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">MARZO 2027 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/ps5-marzo-2027">JUEGOS DE PS5 EN MARZO</a> <a class="filtro-btn" href="/xbox-marzo-2027">JUEGOS DE XBOX EN MARZO</a></p>
+      </div>
     </div>
   </main>
 
@@ -317,7 +321,7 @@ Antes hubo tráiler de la campaña de Call of Duty: Modern Warfare 4, que sale e
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "wo-long-2-wings-of-ember", "titulo": "WO LONG 2: WINGS OF EMBER", "fecha": "2027-03-04", "plataformas": ["PS5", "XBOX"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -382,7 +386,7 @@ Antes hubo tráiler de la campaña de Call of Duty: Modern Warfare 4, que sale e
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -398,7 +402,7 @@ Antes hubo tráiler de la campaña de Call of Duty: Modern Warfare 4, que sale e
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

@@ -341,7 +341,7 @@ El 31 se van varios clásicos de LucasArts —Day of the Tentacle, Full Throttle
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "dodo-duckie", "titulo": "DODO DUCKIE", "fecha": "2026-07-23", "plataformas": ["XBOX"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -406,7 +406,7 @@ El 31 se van varios clásicos de LucasArts —Day of the Tentacle, Full Throttle
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -422,7 +422,7 @@ El 31 se van varios clásicos de LucasArts —Day of the Tentacle, Full Throttle
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");

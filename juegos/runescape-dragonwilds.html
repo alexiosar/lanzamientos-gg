@@ -335,6 +335,10 @@ El que interesa acá es RuneScape: Dragonwilds, porque sale ese mismo 15 de sept
           </a>
         </div>
       </div>
+      <div class="seccion">
+        <div class="seccion-titulo">SEPTIEMBRE 2026 POR CONSOLA</div>
+        <p class="ficha-plats-mes"><a class="filtro-btn" href="/ps5-septiembre-2026">JUEGOS DE PS5 EN SEPTIEMBRE</a> <a class="filtro-btn" href="/xbox-septiembre-2026">JUEGOS DE XBOX EN SEPTIEMBRE</a> <a class="filtro-btn" href="/switch-2-septiembre-2026">JUEGOS DE SWITCH 2 EN SEPTIEMBRE</a></p>
+      </div>
     </div>
   </main>
 
@@ -346,7 +350,7 @@ El que interesa acá es RuneScape: Dragonwilds, porque sale ese mismo 15 de sept
     </div>
   </footer>
 
-  <script src="../datos/juegos.js"></script>
+  <script>const JUEGO = {"id": "runescape-dragonwilds", "titulo": "RUNESCAPE: DRAGONWILDS", "fecha": "2026-09-15", "plataformas": ["SWITCH2", "PS5", "XBOX"]};</script>
   <script src="../js/favoritos.js"></script>
   <script src="../js/votos.js" defer></script>
   <script>
@@ -411,7 +415,7 @@ El que interesa acá es RuneScape: Dragonwilds, porque sale ese mismo 15 de sept
     })();
 
     function compartirJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const url = location.origin + "/juegos/" + id;
       if (navigator.share) {
@@ -427,7 +431,7 @@ El que interesa acá es RuneScape: Dragonwilds, porque sale ese mismo 15 de sept
     }
 
     function agendarJuego(id) {
-      const j = JUEGOS.find(x => x.id === id);
+      const j = JUEGO.id === id ? JUEGO : null;
       if (!j) return;
       const [y, m, d] = j.fecha.split("-").map(Number);
       const inicio = j.fecha.replace(/-/g, "");
