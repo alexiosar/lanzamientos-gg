@@ -55,6 +55,16 @@
 
 const NOTICIAS = [
   {
+    id: "ps-plus-catalogo-noviembre-2026",
+    fecha: "2026-11-10",
+    categoria: "SUSCRIPCIONES",
+    titulo: "EL CATÁLOGO DE PS PLUS DE NOVIEMBRE TRAE DEATH STRANDING 2, PIRATE YAKUZA IN HAWAII Y ATOMFALL",
+    texto: "Sony anunció la tanda de noviembre para los planes Extra y Deluxe, que se juega desde el martes 17. Entran Death Stranding 2: On the Beach, Atomfall y Dragon Quest III HD-2D Remake, y el 24 se suman Like a Dragon: Pirate Yakuza in Hawaii, Trepang2, MotoGP 26 y Cricket 26. Hell Let Loose se adelanta y entra el 11.\n\nDeluxe agrega dos juegos más: el clásico Soul Reaver 2, de la saga Legacy of Kain, y Freedom Wars Remastered.",
+    fuente: "https://blog.latam.playstation.com/2026/11/10/catalogo-de-juegos-de-playstation-plus-para-noviembre-death-stranding-2-on-the-beach-like-a-dragon-pirate-yakuza-in-hawaii-atomfall-dr/",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/9b523fd411eeaefe80f238489745325a1cd2317f/library_capsule_2x.jpg",
+    pagina: "/ps-plus-noviembre-2026"
+  },
+  {
     id: "god-of-war-laufey-mayo-2027",
     fecha: "2026-11-05",
     categoria: "RETRASOS",

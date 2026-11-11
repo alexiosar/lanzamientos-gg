@@ -38,7 +38,7 @@ const SUSCRIPCIONES = [
   {
     servicio: "psplus",
     mes: "2026-11",
-    intro: "Los juegos mensuales de PS Plus de noviembre son Dead Island 2, Tomb Raider IV – VI Remastered y Monster Train 2, para reclamar del martes 3 al lunes 30 de noviembre con cualquier plan.",
+    intro: "Los juegos mensuales de PS Plus de noviembre son Dead Island 2, Tomb Raider IV – VI Remastered y Monster Train 2, para reclamar del martes 3 al lunes 30 de noviembre con cualquier plan. El catálogo de Extra y Deluxe suma desde el martes 17 Death Stranding 2: On the Beach, Atomfall y Dragon Quest III HD-2D Remake, el 24 Like a Dragon: Pirate Yakuza in Hawaii y MotoGP 26, y Hell Let Loose ya el 11. Deluxe agrega Soul Reaver 2 y Freedom Wars Remastered.",
     tandas: [
       {
         nombre: "JUEGOS MENSUALES",
@@ -69,6 +69,94 @@ const SUSCRIPCIONES = [
             entra: null,
             texto: "Un roguelite de armar mazos para un jugador: clanes de ángeles y demonios aliados viajan en tren por el Infierno, el Cielo y el Abismo para derrotar a los Titanes. Hay cinco clanes nuevos y tres niveles verticales para defender.",
             imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2742830/31030af53f318f6a06566ba3bcb8723b006fd45f/library_600x900_2x.jpg"
+          }
+        ]
+      },
+      {
+        nombre: "CATÁLOGO EXTRA Y DELUXE",
+        detalle: "Desde el martes 17 de noviembre, con PS Plus Extra o Deluxe, salvo los que tienen otra fecha; los dos últimos son sólo para Deluxe. Las fechas del 24 son las que Sony da para Estados Unidos, y avisa que la lista puede cambiar según la región.",
+        anunciado: "2026-11-10",
+        fuente: "https://blog.latam.playstation.com/2026/11/10/catalogo-de-juegos-de-playstation-plus-para-noviembre-death-stranding-2-on-the-beach-like-a-dragon-pirate-yakuza-in-hawaii-atomfall-dr/",
+        juegos: [
+          {
+            titulo: "Death Stranding 2: On the Beach",
+            id: null,
+            plataformas: ["PS5"],
+            entra: null,
+            texto: "El segundo viaje de Sam Porter Bridges, ahora para conectar Australia a la red quiral. Se arma infraestructura y se cargan paquetes entre terremotos, tormentas de arena, incendios y la lluvia que envejece todo lo que toca.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3280350/9b523fd411eeaefe80f238489745325a1cd2317f/library_capsule_2x.jpg"
+          },
+          {
+            titulo: "Like a Dragon: Pirate Yakuza in Hawaii",
+            id: null,
+            plataformas: ["PS5", "PS4"],
+            entra: "2026-11-24",
+            texto: "Entra el 24. Goro Majima despierta sin memoria en una isla y se hace capitán pirata: peleas en tierra y batallas navales en alta mar, en busca de sus recuerdos y de un tesoro.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3061810/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Atomfall",
+            id: null,
+            plataformas: ["PS5", "PS4"],
+            entra: null,
+            texto: "Acción y supervivencia de Rebellion, los de Sniper Elite, en la zona de cuarentena del norte de Inglaterra, cinco años después del desastre nuclear de Windscale. Se explora libremente entre sectas, búnkeres y agencias del gobierno.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/2b7ed6a84485e94108c4cedd2388040858302242/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Dragon Quest III HD-2D Remake",
+            id: null,
+            plataformas: ["PS5"],
+            entra: null,
+            texto: "El remake del RPG que abre la trilogía de Erdrick, con el estilo de pixel art y escenarios 3D de Octopath Traveler. El hijo del héroe Ortega cumple 16 y sale a terminar la misión de su padre contra Baramos.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2701660/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Trepang2",
+            id: null,
+            plataformas: ["PS5"],
+            entra: "2026-11-24",
+            texto: "Entra el 24. Un shooter en primera persona frenético, con cámara lenta, invisibilidad y patadas: un soldado sin memoria escapa de un laboratorio y se venga de quienes lo encerraron.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1164940/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "MotoGP 26",
+            id: null,
+            plataformas: ["PS5"],
+            entra: "2026-11-24",
+            texto: "Entra el 24. El juego oficial del campeonato 2026, con pilotos, equipos y circuitos reales. Por primera vez los resultados de las carreras reales cambian el rendimiento de cada piloto en el juego durante la temporada.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3875050/d1fa1483cd16f54f14060da35ecfe9ce166c3e4e/library_capsule_2x.jpg"
+          },
+          {
+            titulo: "Hell Let Loose",
+            id: null,
+            plataformas: ["PS5"],
+            entra: "2026-11-11",
+            texto: "Entra antes que el resto, el 11. Un shooter de la Segunda Guerra Mundial con batallas de 50 contra 50 en mapas enormes, tanques, artillería y catorce roles distintos, que premia jugar en equipo.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/4f69ae652d90d488bc09fcb0f12893a0e2bc2be1/library_capsule_2x.jpg"
+          },
+          {
+            titulo: "Cricket 26 – The Official Game of the Ashes",
+            id: null,
+            plataformas: ["PS5", "PS4"],
+            entra: "2026-11-24",
+            texto: "Entra el 24. El juego oficial de The Ashes, la serie entre Inglaterra y Australia, con una carrera de gestión nueva y más equipos profesionales.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3468650/a0a0e8bd57ff492637f49973f310838306c59315/library_capsule_2x.jpg"
+          },
+          {
+            titulo: "Soul Reaver 2",
+            id: null,
+            plataformas: ["PS5", "PS4"],
+            entra: null,
+            texto: "Sólo Deluxe. El clásico de 2001 de la saga Legacy of Kain: Raziel viaja por distintas épocas de Nosgoth persiguiendo a Kain y desentraña quién corrompió los Pilares.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/224940/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Freedom Wars Remastered",
+            id: null,
+            plataformas: ["PS5", "PS4"],
+            entra: null,
+            texto: "Sólo Deluxe. El juego de acción de PS Vita, remasterizado: en un futuro sin recursos cada persona nace condenada a un millón de años de cárcel y los reduce cumpliendo misiones contra máquinas gigantes, solo o en cooperativo.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3004100/5afef40644eee5d48ff6f577005b953737324c21/library_600x900_2x.jpg"
           }
         ]
       }

@@ -2,296 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-10T15:16:09+00:00",
+ "generado": "2026-11-11T14:56:24+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-10",
- "hasta": "2026-12-10",
- "total": 53,
+ "desde": "2026-11-11",
+ "hasta": "2026-12-11",
+ "total": 47,
  "juegos": [
-  {
-   "id": "ova-magica",
-   "titulo": "OVA MAGICA",
-   "fecha": "2026-11-10",
-   "relanzamiento": "En PC desde mayo de 2026",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "RPG",
-    "SIMULACION",
-    "RELAX",
-    "INDIE"
-   ],
-   "desarrollador": "CLAUDIATHEDEV",
-   "descripcion": "Un simulador de granja con colección de criaturas, en el campo de Pueblo Trébol. Se arranca de nuevo en una granja abandonada y se cría a los blobs, criaturas que ayudan a regar, dan leche y otros productos, salen a explorar y entrenan para la Copa Trébol; también se pueden cruzar para sacar blobs propios. Los vecinos tienen historias que cambian a medida que se los ayuda, y puede haber romance. Las estaciones transforman el pueblo, con fiestas y tradiciones a lo largo del año.",
-   "trailer": "https://youtube.com/embed/nPSI0okfs5E",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299170/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/ova-magica",
-   "noticias": [
-    {
-     "fecha": "2026-11-03",
-     "titulo": "SALE EL 10 DE NOVIEMBRE EN CONSOLAS",
-     "texto": "Top Hat Studios confirmó el día para PS5, PS4, Xbox, Switch 2 y Switch, y la tienda de Xbox ya lo tiene."
-    },
-    {
-     "fecha": "2026-10-05",
-     "titulo": "LAS VERSIONES DE CONSOLA TODAVÍA NO SALIERON",
-     "texto": "Estaban anunciadas para el 8 de septiembre, pero no aparecieron: la PS Store lo lista para 2026, sin día, y la tienda de Xbox y la eShop todavía no lo tienen. En PC está desde mayo."
-    }
-   ]
-  },
-  {
-   "id": "football-manager-27",
-   "titulo": "FOOTBALL MANAGER 27",
-   "fecha": "2026-11-10",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "DEPORTES",
-    "SIMULACION",
-    "ESTRATEGIA"
-   ],
-   "desarrollador": "SPORTS INTERACTIVE",
-   "descripcion": "La entrega anual del simulador de gestión de fútbol de Sports Interactive. Esta vez el foco está en la interfaz, con menos clics, una navegación más directa y pantallas rediseñadas, y en la ambientación de los días de partido.",
-   "trailer": "https://youtube.com/embed/9rdMzTr0sAg",
-   "metacritic": 82,
-   "metacriticUsuarios": null,
-   "critica": "Las reseñas son de la versión de PC, que salió el 3 de noviembre. Casi todas lo reciben como la redención de la serie después del desastre de Football Manager 26: más pulido, con una interfaz más ágil y un sistema de tácticas renovado que da más control. Los reparos: todavía no vuelve al nivel de FM 2024, innova poco, el motor de partido sigue siendo su punto débil y quedan errores de la inteligencia artificial.",
-   "imagen": "https://store-images.s-microsoft.com/image/apps.47586.13984136076613493.b5146129-a992-4e04-8b43-ffa40460c569.40797f8e-48ea-47e2-aab8-9ea6e13f5a79?w=600&h=900&format=jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-10-01",
-   "url": "https://lanzamientos.lat/juegos/football-manager-27",
-   "noticias": [
-    {
-     "fecha": "2026-11-10",
-     "titulo": "SALE HOY EN CONSOLAS CON 82 EN METACRITIC",
-     "texto": "La versión de consolas sale hoy en PS5 y Xbox, con Game Pass, y llega con 82 sobre siete reseñas de la versión de PC."
-    },
-    {
-     "fecha": "2026-11-03",
-     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
-     "texto": "La versión de consolas entra a Ultimate y PC Game Pass el 10 de noviembre. La de PC salió hoy y ya está en Game Pass."
-    },
-    {
-     "fecha": "2026-09-30",
-     "titulo": "SALE EL 10 DE NOVIEMBRE",
-     "texto": "SEGA puso fecha para PS5, Xbox, PC y celulares."
-    }
-   ]
-  },
-  {
-   "id": "warhammer-survivors",
-   "titulo": "WARHAMMER SURVIVORS",
-   "fecha": "2026-11-10",
-   "plataformas": [
-    "PS5",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "ACCION",
-    "ROGUELIKE",
-    "INDIE"
-   ],
-   "desarrollador": "AUROCH DIGITAL",
-   "descripcion": "Un survivors-like, a la manera de Vampire Survivors, en los universos de Warhammer 40,000 y Age of Sigmar. Se juega con personajes de las dos sagas, incluido Malum Caedo de Boltgun, se juntan y evolucionan armas como el bólter o la espada sierra y se aguantan oleadas interminables de enemigos. Lo hace Auroch Digital, el estudio de Boltgun, junto con poncle, los creadores de Vampire Survivors, en pixel art.",
-   "trailer": "https://youtube.com/embed/XvvWBS2uMw8",
-   "metacritic": 79,
-   "metacriticUsuarios": null,
-   "critica": "Las reseñas son de la versión de PC. Lo ven tan adictivo como Vampire Survivors, con el estilo recargado de Warhammer, mucho contenido y un precio muy bajo, y para varios es de los juegos en los que más horas van a meter este año. Los reparos: sigue demasiado de cerca la fórmula de su modelo, y las notas más bajas lo tratan como una gran expansión de Vampire Survivors más que como un juego con ideas propias.",
-   "imagen": "https://store-images.s-microsoft.com/image/apps.63012.13865289401901694.ec4fd4fe-95aa-4110-a6b3-96d9a78df1a3.0a17bc32-56e3-46a1-8aae-d4edfc5689e8?w=600&h=900&format=jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-10-06",
-   "url": "https://lanzamientos.lat/juegos/warhammer-survivors",
-   "noticias": [
-    {
-     "fecha": "2026-11-10",
-     "titulo": "SALE HOY CON 79 EN METACRITIC",
-     "texto": "Llega a PS5, Xbox, Switch y Switch 2 con 79 sobre nueve reseñas de la versión de PC, y entra a Game Pass el mismo día."
-    },
-    {
-     "fecha": "2026-11-03",
-     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
-     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 10 entra a Ultimate y PC Game Pass."
-    },
-    {
-     "fecha": "2026-11-02",
-     "titulo": "TAMBIÉN SALE EN SWITCH",
-     "texto": "Además de la de Switch 2, la eShop lista una versión de Switch para el mismo 10 de noviembre."
-    },
-    {
-     "fecha": "2026-10-06",
-     "titulo": "SALE EL 10 DE NOVIEMBRE",
-     "texto": "Auroch Digital puso fecha y presentó personajes nuevos. Sale en PS5, Xbox, Switch 2 y PC, y en Xbox ya hay demo."
-    }
-   ]
-  },
-  {
-   "id": "shrek-2-remastered",
-   "titulo": "SHREK 2 REMASTERED",
-   "fecha": "2026-11-10",
-   "relanzamiento": "Remasterización del juego de 2004",
-   "duracion": "≈ 5,1 h (historia) · 8,9 h (completo)",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "COOP"
-   ],
-   "desarrollador": "ASPYR",
-   "descripcion": "La remasterización del juego de Shrek 2 de 2004, una aventura de acción cooperativa basada en la película de DreamWorks. Se recorre el reino de Muy Muy Lejano, del pantano de Shrek al castillo de Fiona, con los personajes de la saga a golpes, tirando y pateando enemigos. Tiene gráficos rehechos en 4K, un modo foto, un modo de trucos y cooperativo para hasta cuatro, en la misma pantalla, online o mezclado.",
-   "trailer": "https://youtube.com/embed/6qjCMqy1fAk",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523740/c2ab691a8ed252da54eee927f37d5aa86e54e79e/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-21",
-   "url": "https://lanzamientos.lat/juegos/shrek-2-remastered",
-   "noticias": [
-    {
-     "fecha": "2026-10-21",
-     "titulo": "SALE EL 10 DE NOVIEMBRE",
-     "texto": "Aspyr lo anunció para PS5, Xbox Series, Switch 2, Switch y PC. La PS Store y la tienda de Xbox ya lo tienen en preventa para el 10 de noviembre; la eShop todavía no."
-    }
-   ]
-  },
-  {
-   "id": "raccoin-chaos-max-edition",
-   "titulo": "RACCOIN: CHAOS MAX EDITION",
-   "fecha": "2026-11-10",
-   "relanzamiento": "En PC desde marzo de 2026",
-   "plataformas": [
-    "SWITCH2",
-    "XBOX"
-   ],
-   "genero": [
-    "ROGUELIKE",
-    "CARTAS",
-    "CASUAL"
-   ],
-   "desarrollador": "DORACCOON",
-   "descripcion": "Un roguelike de armar mazos sobre una máquina de empujar monedas: se combinan monedas especiales con objetos para disparar combos, apilar torres brillantes, girar la ruleta y sacudir la máquina hasta que caiga todo. Esta edición trae ocho personajes y se juega a buscar el puntaje más alto.",
-   "trailer": "https://youtube.com/embed/i_X1If_eHuI",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784030/75d93f090fa932324ab3447a5c755c047bbe1256/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-28",
-   "url": "https://lanzamientos.lat/juegos/raccoin-chaos-max-edition",
-   "noticias": [
-    {
-     "fecha": "2026-11-02",
-     "titulo": "TAMBIÉN SALE EN XBOX",
-     "texto": "La tienda de Xbox confirma el 10 de noviembre, el mismo día que en Switch 2."
-    },
-    {
-     "fecha": "2026-10-28",
-     "titulo": "LLEGA A SWITCH 2 EL 10 DE NOVIEMBRE",
-     "texto": "Se anunció en el Indie World de Nintendo. Ya se puede reservar y tiene una demo gratuita en la eShop."
-    }
-   ]
-  },
-  {
-   "id": "tanuki-pons-summer",
-   "titulo": "TANUKI: PON'S SUMMER",
-   "fecha": "2026-11-10",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH",
-    "SWITCH2"
-   ],
-   "genero": [
-    "SIMULACION",
-    "AVENTURA",
-    "RELAX"
-   ],
-   "desarrollador": "DENKIWORKS",
-   "descripcion": "Un simulador de vida tranquilo con Pon, un tanuki bienintencionado aunque algo vago, que trabaja medio tiempo en el correo. Falta un mes para el Festival Tanuki y el santuario está venido abajo: hay que repartir paquetes, hacer amigos y dejar todo listo antes de que termine el verano.",
-   "trailer": "https://youtube.com/embed/eSL5Np0yu1A",
-   "metacritic": 80,
-   "metacriticUsuarios": null,
-   "critica": "Las reseñas son de la versión de PC, y son apenas cuatro, todas a favor. Lo describen como una aventura encantadora y nostálgica sobre los veranos de la infancia, con un recorrido en BMX que da gusto, personajes simpáticos, muchísimos minijuegos y una gran banda sonora. El único reparo es que los minijuegos a veces disimulan que el núcleo, repartir paquetes, es bastante simple.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3218570/b8137047aa9108a0101280444547300e09835100/library_capsule_2x.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-10-28",
-   "url": "https://lanzamientos.lat/juegos/tanuki-pons-summer",
-   "noticias": [
-    {
-     "fecha": "2026-11-10",
-     "titulo": "SALE HOY CON 80 EN METACRITIC",
-     "texto": "Llega a PS5, PS4, Xbox, Switch y Switch 2 con 80 sobre cuatro reseñas de la versión de PC, y entra a Game Pass el mismo día."
-    },
-    {
-     "fecha": "2026-11-03",
-     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
-     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 10 entra a Ultimate y PC Game Pass."
-    },
-    {
-     "fecha": "2026-10-28",
-     "titulo": "SALE EL 10 DE NOVIEMBRE",
-     "texto": "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 10 de noviembre. Ese mismo día sale en PS5, PS4, Xbox Series y PC."
-    }
-   ]
-  },
-  {
-   "id": "hard-west-2",
-   "titulo": "HARD WEST 2",
-   "fecha": "2026-11-10",
-   "relanzamiento": "En PC desde agosto de 2022",
-   "duracion": "≈ 17 h (historia) · 25 h (completo)",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ESTRATEGIA",
-    "RPG"
-   ],
-   "desarrollador": "ICE CODE GAMES",
-   "descripcion": "Táctica por turnos en un Lejano Oeste sobrenatural. Se maneja a una banda de forajidos con poderes que quiere asaltar el Tren Fantasma, un tren misterioso que cruza un Oeste donde nada es lo que parece. Las peleas premian la audacia: cada baja recarga los puntos de acción del pistolero, así que una buena jugada encadena varias, y se puede hacer rebotar las balas en el escenario. Entre misión y misión se recorre un mapa del Oeste lleno de eventos y decisiones.",
-   "trailer": "https://youtube.com/embed/hJoMsc_ejO0",
-   "metacritic": 77,
-   "metacriticUsuarios": 7.1,
-   "metacriticVotos": 49,
-   "critica": "Las reseñas son de la versión de PC de 2022. La mayoría lo recibe como una secuela que supera al original: táctica por turnos a la manera de XCOM con una idea propia, la bravuconería, que recarga los puntos de acción con cada baja y premia las jugadas arriesgadas, más una gran ambientación, buenas voces y exploración entre misiones. Las notas más bajas dicen que perdió variedad respecto del primero y que no engancha más allá de una partida.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282410/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-06",
-   "url": "https://lanzamientos.lat/juegos/hard-west-2",
-   "noticias": [
-    {
-     "fecha": "2026-11-10",
-     "titulo": "SALE HOY CON 77 EN METACRITIC",
-     "texto": "Llega a PS5 y Xbox con 77, el promedio de la versión de PC de 2022."
-    },
-    {
-     "fecha": "2026-11-06",
-     "titulo": "LLEGA A PS5 Y XBOX EL 10 DE NOVIEMBRE",
-     "texto": "Good Shepherd lo anunció para consolas con tráileres en los canales de PlayStation y Xbox, y la tienda de Xbox y la PS Store ya tienen el día."
-    }
-   ]
-  },
   {
    "id": "hope-in-the-city",
    "titulo": "HOPE IN THE CITY",
@@ -337,13 +54,20 @@
    "desarrollador": "NIPPON ICHI SOFTWARE",
    "descripcion": "Un juego de tablero con los Prinny de Disgaea. Se avanza por el tablero juntando experiencia y equipo para derrotar al Supremo Overboard, pero el mérito se lo lleva sólo quien entrega al jefe, así que la cooperación dura poco: se vale agarrar y tirar a los amigos. Si mueren todos a la vez, pierden todos.",
    "trailer": "https://youtube.com/embed/XinU3Iy6lek",
-   "metacritic": null,
+   "metacritic": 69,
+   "metacriticUsuarios": null,
+   "critica": "Las reseñas son de la versión de PS5. Lo describen como un juego de tablero cooperativo con progresión de RPG táctico, caótico y divertido con amigos en el mismo sillón, sobre todo para fans de Disgaea. Los reparos: no tiene multijugador online tradicional, le falta contenido para lo que cuesta y la presentación es pobre.",
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocje8.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
    "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard",
    "noticias": [
+    {
+     "fecha": "2026-11-11",
+     "titulo": "SALIÓ CON 69 EN METACRITIC",
+     "texto": "Salió hoy en PS5, Switch y Switch 2 con 69 sobre cuatro reseñas de la versión de PS5."
+    },
     {
      "fecha": "2026-11-06",
      "titulo": "SALE EL 11 DE NOVIEMBRE, TAMBIÉN EN SWITCH 2",
@@ -367,13 +91,21 @@
    "desarrollador": "GRIZZLY GAMES",
    "descripcion": "Un juego de estrategia minimalista: de día se construye un reino chico y de noche se lo defiende de oleadas de enemigos cada vez más fuertes. Hay que repartir el oro entre casas, minas y molinos que dan ganancias cada mañana y murallas, torres y cuarteles que lo protegen, y además el rey pelea en persona con una de nueve armas. Son diez mapas, más de cincuenta ventajas para desbloquear y partidas cortas, una vuelta simple al tower defense.",
    "trailer": "https://youtube.com/embed/bHMSu6iMIYI",
-   "metacritic": null,
+   "metacritic": 92,
+   "metacriticUsuarios": 8.0,
+   "metacriticVotos": 42,
+   "critica": "Las reseñas son de la versión de PC de 2024. Lo celebran como un tower defense minimalista y adictivo, simple de jugar pero con mucha profundidad, ideal para quien quiere estrategia sin pasarse horas: cada partida tiene el efecto de una más y las mutaciones de dificultad le dan variedad. El reparo: el diseño fijo del castillo limita las opciones y puede frustrar.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239150/c9ea108e7630468c60a604ffc61f92237b83a35b/library_600x900_2x.jpg",
    "gamepass": true,
    "psplus": false,
    "alta": "2026-11-03",
    "url": "https://lanzamientos.lat/juegos/thronefall",
    "noticias": [
+    {
+     "fecha": "2026-11-11",
+     "titulo": "LLEGÓ A XBOX Y A GAME PASS CON 92 EN METACRITIC",
+     "texto": "Salió hoy en Xbox Series y entra a Game Pass el mismo día. En PC tiene 92 sobre cuatro reseñas."
+    },
     {
      "fecha": "2026-11-03",
      "titulo": "LLEGA A XBOX Y A GAME PASS EL 11 DE NOVIEMBRE",
@@ -836,6 +568,11 @@
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi",
    "noticias": [
+    {
+     "fecha": "2026-11-10",
+     "titulo": "EN XBOX ONE SE VA A PODER JUGAR POR LA NUBE",
+     "texto": "Xbox confirmó que el 19 se podrá jugar en Xbox One mediante Xbox Cloud Gaming, con la calidad gráfica de Series S. Hay que comprar el juego aparte, y desde el 11 se puede comprar tiempo de juego en la nube sin tener Game Pass, en los países donde el servicio está disponible."
+    },
     {
      "fecha": "2026-11-10",
      "titulo": "YA SE PUEDE PREDESCARGAR, CON SOPORTE PARA PS5 PRO",
@@ -1574,6 +1311,35 @@
      "fecha": "2026-10-21",
      "titulo": "SALE EL 4 DE DICIEMBRE, CON GAME PASS",
      "texto": "Se anunció en el ID@Xbox Showcase: llega a Xbox Series y Game Pass el 4 de diciembre. La PS Store también lo tiene para ese día, pero la ficha no dice para qué consola."
+    }
+   ]
+  },
+  {
+   "id": "mouse-work",
+   "titulo": "MOUSE WORK",
+   "fecha": "2026-12-07",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "PUZZLE",
+    "CASUAL",
+    "MULTIJUGADOR"
+   ],
+   "desarrollador": "NITROME",
+   "descripcion": "Un juego de Nitrome, los de Bomb Chicken, pensado para el modo mouse de los Joy-Con 2. Unos ratones buscan trabajo en la bolsa de empleo del barrio para ganarse el queso, y cada trabajo es una mecánica distinta que se juega con el cursor. La campaña dura más de diez horas, con más de cincuenta niveles, jefes y desafíos secundarios en cada nivel. Se juega solo o con hasta cuatro personas en la misma consola u online con GameShare. Lo publica PM Studios.",
+   "trailer": "https://youtube.com/embed/Rr9VM-F26n0",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9n48.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-11",
+   "url": "https://lanzamientos.lat/juegos/mouse-work",
+   "noticias": [
+    {
+     "fecha": "2026-11-10",
+     "titulo": "SALE EL 7 DE DICIEMBRE",
+     "texto": "Nitrome anunció la fecha con un tráiler, y la eShop de América ya lo tiene en preventa a 19,99 dólares. Es exclusivo de Switch 2."
     }
    ]
   },

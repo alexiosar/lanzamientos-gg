@@ -2208,6 +2208,8 @@ y abrir http://localhost:8080
   | Thrifty Business (Switch) · DAMON and BABY (Switch 2) · Wonderfall | Sin fecha, sin fecha y 9 de diciembre (Gematsu, 4-5/11) | Thrifty Business y la de Switch 2 de DAMON and BABY no tienen día ni ficha en la eShop; Wonderfall sale sólo en PC |
   | Lost and Found Co. (Switch y Switch 2) | 10 de noviembre (Indie World, 28/10) | El 10/11 no apareció en ninguna eShop: quedó estimado para noviembre. Cargarle el día cuando aparezca |
   | Wish Upon a Llama (PS5, Xbox, PS4, Switch) | 9 de diciembre (Gematsu, 9/11) | Al 10/11 ninguna tienda de consola lo lista |
+  | Arcade Archives 2 Shot Rider (PS5, Xbox, Switch 2) · Console Archives Nobunaga Oda den (PS5, Switch 2) | 12 de noviembre (Gematsu, 11/11) | El 11/11 ninguna tienda los listaba. Cargarlos el 12 si aparecen; antes, mirar en la PS Store si Nobunaga Oda den tiene el texto sólo en japonés (si es así, no entra) |
+  | Crystals of Irm · Shade of the Marionette | 21/01/2027 y sin fecha (Gematsu, 10-11/11) | Crystals of Irm sale sólo en PC; Shade of the Marionette sólo tiene tráiler, sin consolas ni fecha |
   | Whirlight (PS5 y Xbox) | — | El 06/11 pasó al 21/01/2027 por la eShop de América (la europea sigue con el 12/11). Xbox lo lista sin día y la PS Store no tiene fecha |
   | Console Archives Elevator Action (Switch 2) · Arcade Archives 2 Exzisus (Switch 2) | 5 de noviembre | **Ya están cargados** en PS5 (Elevator Action) y en PS5, PS4 y Xbox (Exzisus). La eShop no tiene las de Switch 2 |
   | Hyperspace Neptunia: Unlimited (carátula) | 2027 (Idea Factory International, 3/11) | Cargado con la portada japonesa de la PS Store: cambiarla cuando salga la occidental |
