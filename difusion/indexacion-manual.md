@@ -45,7 +45,35 @@ la próxima lista.
 Con eso se terminaron los días 1 a 4.
 
 **Pedidas el 09/11:** las diez primeras del día 8. Quedan Grimkeep y A Game About Digging a Hole
-Together; la próxima lista se arma del CSV de la semanal del 12/11.
+Together, que pasan al día 9.
+
+**Día 9 (11/11):** no hace falta esperar al CSV para pedir: el cupo es de 24 horas corridas y
+un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las ya pedidas) no
+cambia por pedir otras.
+
+## Día 9 (desde el 11/11)
+
+Fichas que se crearon desde el 01/11 y por eso no estaban en el CSV del 05/11, ordenadas por
+fecha de salida, más las dos que quedaban del día 8. Va primero `/ps-plus-noviembre-2026`, que
+el 11/11 sumó el catálogo de Extra y Deluxe: ésa se pide aunque ya esté en Google, porque
+cambió entera. En las demás, si la inspección dice "La URL está en Google", no hace falta
+pedirla: se saltea y se sigue con la próxima (inspeccionar no gasta cupo, pedir sí).
+
+- [ ] https://lanzamientos.lat/ps-plus-noviembre-2026
+- [ ] https://lanzamientos.lat/juegos/grimkeep
+- [ ] https://lanzamientos.lat/juegos/a-game-about-digging-a-hole-together
+- [ ] https://lanzamientos.lat/juegos/derelikt
+- [ ] https://lanzamientos.lat/juegos/popucom
+- [ ] https://lanzamientos.lat/juegos/duck-side-of-the-moon
+- [ ] https://lanzamientos.lat/juegos/mr-elevator
+- [ ] https://lanzamientos.lat/juegos/the-falconeer-revolution-remaster
+- [ ] https://lanzamientos.lat/juegos/waltz-and-jam
+- [ ] https://lanzamientos.lat/juegos/mouse-work
+- [ ] https://lanzamientos.lat/juegos/aeruta
+- [ ] https://lanzamientos.lat/juegos/silver-palace
+- [ ] https://lanzamientos.lat/juegos/warhammer-40000-dark-heresy
+- [ ] https://lanzamientos.lat/juegos/hard-west-2
+- [ ] https://lanzamientos.lat/juegos/hozy
 
 ## Día 8 (desde el 06/11)
 
