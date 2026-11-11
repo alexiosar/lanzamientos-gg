@@ -49,7 +49,8 @@ Together, que pasan al día 9.
 
 **Día 9 (11/11):** no hace falta esperar al CSV para pedir: el cupo es de 24 horas corridas y
 un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las ya pedidas) no
-cambia por pedir otras.
+cambia por pedir otras. **Pedidas el 11/11:** las once primeras (de PS Plus a Aeruta); quedan
+Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
 ## Día 9 (desde el 11/11)
 
@@ -59,17 +60,17 @@ el 11/11 sumó el catálogo de Extra y Deluxe: ésa se pide aunque ya esté en G
 cambió entera. En las demás, si la inspección dice "La URL está en Google", no hace falta
 pedirla: se saltea y se sigue con la próxima (inspeccionar no gasta cupo, pedir sí).
 
-- [ ] https://lanzamientos.lat/ps-plus-noviembre-2026
-- [ ] https://lanzamientos.lat/juegos/grimkeep
-- [ ] https://lanzamientos.lat/juegos/a-game-about-digging-a-hole-together
-- [ ] https://lanzamientos.lat/juegos/derelikt
-- [ ] https://lanzamientos.lat/juegos/popucom
-- [ ] https://lanzamientos.lat/juegos/duck-side-of-the-moon
-- [ ] https://lanzamientos.lat/juegos/mr-elevator
-- [ ] https://lanzamientos.lat/juegos/the-falconeer-revolution-remaster
-- [ ] https://lanzamientos.lat/juegos/waltz-and-jam
-- [ ] https://lanzamientos.lat/juegos/mouse-work
-- [ ] https://lanzamientos.lat/juegos/aeruta
+- [x] https://lanzamientos.lat/ps-plus-noviembre-2026 (11/11)
+- [x] https://lanzamientos.lat/juegos/grimkeep (11/11)
+- [x] https://lanzamientos.lat/juegos/a-game-about-digging-a-hole-together (11/11)
+- [x] https://lanzamientos.lat/juegos/derelikt (11/11)
+- [x] https://lanzamientos.lat/juegos/popucom (11/11)
+- [x] https://lanzamientos.lat/juegos/duck-side-of-the-moon (11/11)
+- [x] https://lanzamientos.lat/juegos/mr-elevator (11/11)
+- [x] https://lanzamientos.lat/juegos/the-falconeer-revolution-remaster (11/11)
+- [x] https://lanzamientos.lat/juegos/waltz-and-jam (11/11)
+- [x] https://lanzamientos.lat/juegos/mouse-work (11/11)
+- [x] https://lanzamientos.lat/juegos/aeruta (11/11)
 - [ ] https://lanzamientos.lat/juegos/silver-palace
 - [ ] https://lanzamientos.lat/juegos/warhammer-40000-dark-heresy
 - [ ] https://lanzamientos.lat/juegos/hard-west-2

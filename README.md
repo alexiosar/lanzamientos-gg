@@ -404,6 +404,12 @@ que corresponde. Al 08/09/2026 hay 13: los 8 de agosto y 5 de septiembre.
 salieron, los canales ya subieron sus series completas y no hay que volver. Agosto se hizo así
 el 08/09/2026 — seis búsquedas al canal de Loko y dos a mano para lo que no había jugado.
 
+**Tanda del 11/11/2026: todos los juegos ya lanzados con 85 o más** (23, de Thronefall a
+Titanium Court). Quedan 77 fichas con gameplay. Para los ports y ediciones vale un video de
+cualquier versión, porque el juego es el mismo. DarkPlayer GamingTV se descartó otra vez para
+Call of Duty: Modern Warfare 4 (sin comentarios); fue el directo de TATA. La próxima tanda
+sigue por los de 80 a 84 (unos 65).
+
 `verificar-enlaces.py` los revisa junto con los trailers, en su propia sección. Se caen más
 seguido que los oficiales: un canal se pasa a privado, hace limpieza o le cae un strike, y el
 video desaparece sin que nadie avise.

@@ -527,6 +527,11 @@ const JUEGOS = [
     desarrollador: "MIKE KLUBNIKA",
     descripcion: "Ruleta rusa con una escopeta calibre 12, en un club nocturno subterráneo. Se juega contra el Crupier, tres rondas en partidas de quince a veinte minutos, o en la mesa para cuatro, donde se negocia, se ruega y se traiciona hasta que queda uno solo. El modo Doble o Nada sirve para estirar la suerte todo lo que se pueda. Es el fenómeno indie de terror de Mike Klubnika, y esta versión lo lleva a Xbox.",
     trailer: "https://youtube.com/embed/epucEJY8Auo",
+    gameplay: {
+      video: "https://youtube.com/embed/HJPAYHbBALo",
+      canal: "Menos Trece",
+      canalUrl: "https://www.youtube.com/@MenosTrece"
+    },
     metacritic: 85,
     metacriticUsuarios: 7.5,
     metacriticVotos: 298,
@@ -1156,6 +1161,11 @@ const JUEGOS = [
     desarrollador: "SFB GAMES",
     descripcion: "Una aventura de apuntar y clic con un asesinato imposible en un cuarto cerrado: el Capitán Mortuga aparece muerto frente a un caldero, en un submarino lleno de sospechosos. La resuelven el Detective Grimoire y su compañera Sally, con humor y puzles, y la firman los creadores de Tangle Tower y Crow Country.",
     trailer: "https://youtube.com/embed/ljJMXZUEiT8",
+    gameplay: {
+      video: "https://youtube.com/embed/RGG4jFB3Pc4",
+      canal: "Azel_Dragoon",
+      canalUrl: "https://www.youtube.com/@azel_dragoon"
+    },
     metacritic: 85,
     metacriticUsuarios: 7.8,
     metacriticVotos: 24,
@@ -1920,6 +1930,11 @@ const JUEGOS = [
     desarrollador: "SQUARE ENIX",
     descripcion: "Las aventuras de Tidus y Yuna en Spira llegan a Switch 2: la remasterización en HD de dos de los RPG más queridos de Square Enix, ahora con mejoras para la nueva consola.",
     trailer: "https://youtube.com/embed/jsdxLwqUH6g",
+    gameplay: {
+      video: "https://youtube.com/embed/GE33q2uodZc",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 85,
     metacriticUsuarios: 8.3,
     metacriticVotos: 769,
@@ -3226,6 +3241,11 @@ const JUEGOS = [
     desarrollador: "POCKET TRAP",
     descripcion: "Una aventura de plataformas en dos dimensiones y vista cenital donde el arma es un yoyó. Sos Pippit, heredero de una familia venida a menos, y te toca recuperar el imperio de tu tía a los yoyazos, enfrentando a cuatro jefes del crimen repartidos por los barrios de la ciudad. Cada truco nuevo cambia la forma de leer el escenario: lo que era una pared se vuelve un atajo, y casi todos los desafíos tienen más de una solución. La edición de Switch 2 corre a 120 cuadros por segundo en modo portátil a 1080p, llega a 4K en el dock y suma HDR.",
     trailer: "https://youtube.com/embed/Xvtfx9WccCg",
+    gameplay: {
+      video: "https://youtube.com/embed/5vfs9Lp_Tjw",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 87,
     metacriticUsuarios: 8.3,
     metacriticVotos: 72,
@@ -4937,6 +4957,11 @@ const JUEGOS = [
     desarrollador: "SEGA",
     descripcion: "La vuelta de Shinobi, la saga de ninjas de SEGA, como juego de acción y plataformas en 2D dibujado a mano. Lo hizo Lizardcube, el estudio detrás de Streets of Rage 4: el combate se arma con combos que se van aprendiendo solos, y las habilidades nuevas abren caminos en niveles con algo de metroidvania.",
     trailer: "https://youtube.com/embed/QGLvm8hASbw",
+    gameplay: {
+      video: "https://youtube.com/embed/HrVj1vpHrSU",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 87,
     metacriticUsuarios: 8.3,
     metacriticVotos: 264,
@@ -5436,6 +5461,11 @@ const JUEGOS = [
     desarrollador: "SQUARE ENIX",
     descripcion: "La remake en 2.5D del RPG de PlayStation que mezcla fantasía y ciencia ficción. Se elige entre Claude y Rena, y la historia se ve desde el punto de vista del elegido.",
     trailer: "https://youtube.com/embed/9hSoFKn8cTk",
+    gameplay: {
+      video: "https://youtube.com/embed/cljTO_TvU3w",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 86,
     metacriticUsuarios: 8.2,
     metacriticVotos: 210,
@@ -5532,6 +5562,11 @@ const JUEGOS = [
     desarrollador: "ADHOC STUDIO",
     descripcion: "Una comedia de oficina sobre superhéroes, de los guionistas y directores de Tales from the Borderlands y The Wolf Among Us. En Los Ángeles, Robert Robertson, alias Mecha Man, pierde su traje en una pelea contra su némesis y termina trabajando en un centro de despacho de héroes, a cargo de un grupo de ex supervillanos. Desde un mapa se manda a cada héroe a las emergencias, cada uno con sus mañas y problemas, y las decisiones, de la charla en la cocina a la misión de vida o muerte, cambian la historia.",
     trailer: "https://youtube.com/embed/jK0cGKMDMPE",
+    gameplay: {
+      video: "https://youtube.com/embed/ydnswJ6Ra6A",
+      canal: "IlloJuan",
+      canalUrl: "https://www.youtube.com/@IlloJuan_"
+    },
     metacritic: 87,
     metacriticUsuarios: 8.8,
     metacriticVotos: 2893,
@@ -6793,6 +6828,11 @@ const JUEGOS = [
     desarrollador: "SQUARE ENIX",
     descripcion: "La versión de Switch 2 del MMORPG de Square Enix. La prueba gratuita trae el juego base, A Realm Reborn, y las expansiones Heavensward, Stormblood y Shadowbringers. Se puede jugar en grupo o solo, porque las mazmorras de la historia principal se hacen también con aliados que maneja la máquina. Cada expansión suma regiones y clases: Heavensward lleva a Ishgard, en guerra eterna con los dragones, y agrega Astrólogo, Maquinista y Caballero Oscuro; Stormblood viaja al Este contra el Imperio Garlean.",
     trailer: "https://youtube.com/embed/2XbxPsWFyU8",
+    gameplay: {
+      video: "https://youtube.com/embed/T3AJ7yBUo80",
+      canal: "La Orden del Panda",
+      canalUrl: "https://www.youtube.com/@LaOrdenDelPanda"
+    },
     metacritic: 86,
     metacriticUsuarios: 7.0,
     metacriticVotos: 813,
@@ -7168,6 +7208,11 @@ const JUEGOS = [
     desarrollador: "INFINITY WARD",
     descripcion: "La guerra estalla en la península de Corea cuando Corea del Norte lanza una invasión a gran escala. La campaña se juega con el soldado Park, mientras el capitán Price actúa por fuera de los canales oficiales. El multijugador estrena Ballistic Authority, un sistema que busca tiroteos más realistas, y vuelve el modo DMZ.",
     trailer: "https://youtube.com/embed/jLbst85USN8",
+    gameplay: {
+      video: "https://youtube.com/embed/UxLFE3dXwX4",
+      canal: "TATA (taticaos)",
+      canalUrl: "https://www.youtube.com/@Taticaos"
+    },
     metacritic: 85,
     metacriticUsuarios: 7.6,
     metacriticVotos: 908,
@@ -7507,6 +7552,11 @@ const JUEGOS = [
     desarrollador: "TELLTALE",
     descripcion: "La remasterización del policial de Telltale de 2013. Bigby Wolf investiga en Fabletown, donde los personajes del folclore existen de verdad, y las decisiones cambian cómo sigue la historia. Vuelve con el apartado técnico puesto al día.",
     trailer: "https://youtube.com/embed/AFWTFkneaCo",
+    gameplay: {
+      video: "https://youtube.com/embed/r_kyqIGdfzM",
+      canal: "Tetsuso",
+      canalUrl: "https://www.youtube.com/@tetsuso1646"
+    },
     metacritic: 85,
     metacriticUsuarios: 7.8,
     metacriticVotos: 41,
@@ -7811,6 +7861,11 @@ const JUEGOS = [
     desarrollador: "NIPPON ICHI SOFTWARE",
     descripcion: "Un simulador de granja con arte pintado a mano en Kagatsu, un pueblo de montaña japonés lleno de secretos. Se cultiva, se arregla la casa, se hacen amigos entre los vecinos y se miran los cerezos en flor. Hay solo unas reglas simples: no hablar con desconocidos, no salir del pueblo y, sobre todo, no salir de noche. Lo que pasa si no se cumplen es parte del juego.",
     trailer: "https://youtube.com/embed/z0QNuVRSa3M",
+    gameplay: {
+      video: "https://youtube.com/embed/V1P9g5mEOao",
+      canal: "DSimphony",
+      canalUrl: "https://www.youtube.com/@DSimphony"
+    },
     metacritic: 85,
     metacriticUsuarios: 9.2,
     metacriticVotos: 10,
@@ -8935,6 +8990,11 @@ const JUEGOS = [
     desarrollador: "SUCKER PUNCH",
     descripcion: "La edición completa del juego de Sucker Punch reúne la aventura original de Atsu con todo lo que se le sumó después. Trae la expansión narrativa Echoes of Sekigahara, centrada en el pasado de la protagonista, y Most Wanted, un modo de supervivencia para un jugador con estructura de roguelike. Sale justo el día que el juego base cumple un año.",
     trailer: "https://youtube.com/embed/2bQrrWCRkMY",
+    gameplay: {
+      video: "https://youtube.com/embed/TRORMGKPjVk",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 86,
     metacriticUsuarios: 7.4,
     metacriticVotos: 78,
@@ -9133,6 +9193,11 @@ const JUEGOS = [
     desarrollador: "SUNSET VISITOR",
     descripcion: "Una aventura de ciencia ficción en un año que nadie sabe cuál es, con la humanidad encerrada bajo tierra por una enfermedad que trajo una invasión alienígena. Se juega como Watcher, una de las hermanas clonadas que sirven a la Todopoderosa.",
     trailer: "https://youtube.com/embed/ISmiWUpiDs4",
+    gameplay: {
+      video: "https://youtube.com/embed/386J93ZUuQM",
+      canal: "Señor Caracoles World",
+      canalUrl: "https://www.youtube.com/@senorcaracoles6249"
+    },
     metacritic: 86,
     metacriticUsuarios: 7.9,
     metacriticVotos: 134,
@@ -9739,6 +9804,11 @@ const JUEGOS = [
     desarrollador: "EDMUND MCMILLEN GAMES",
     descripcion: "Lo nuevo de Edmund McMillen, el de The Binding of Isaac y Super Meat Boy, con Tyler Glaiel. Es un roguelike táctico por turnos donde criás gatos —literalmente, con genética de por medio— para armar el escuadrón que mandás a la mazmorra. Los que sobreviven se cruzan entre sí y las camadas heredan lo bueno y lo horrible, así que cada partida arrastra a la siguiente.",
     trailer: "https://youtube.com/embed/kNKoHJKs20A",
+    gameplay: {
+      video: "https://youtube.com/embed/LZS7Xw1VJNI",
+      canal: "alexelcapo",
+      canalUrl: "https://www.youtube.com/@alexelcapo"
+    },
     metacritic: 88,
     metacriticUsuarios: 8.2,
     metacriticVotos: 393,
@@ -11452,6 +11522,11 @@ const JUEGOS = [
     desarrollador: "FRESHLY BAKED GAMES",
     descripcion: "Un RPG de acción y fantasía en primera persona, con estética retro e inspirado en King's Field. Después de un naufragio, el protagonista llega a la isla de Neasied a buscar a su padre desaparecido. La isla es un laberinto interconectado que se recorre saltando entre plataformas con Endu, una espada sagrada que permite volar. El combate usa una barra de resistencia a la vieja usanza, ataques cargados, un especial por cada arma y armas arrojadizas: hay más de 50 armas cuerpo a cuerpo, más de 20 arrojadizas y más de 100 enemigos entre comunes, minijefes y jefes.",
     trailer: "https://youtube.com/embed/mzTRC1SE69E",
+    gameplay: {
+      video: "https://youtube.com/embed/kqDiZNefBwY",
+      canal: "GeneracionActual",
+      canalUrl: "https://www.youtube.com/@GeneracionActual"
+    },
     metacritic: 85,
     metacriticUsuarios: 8.8,
     metacriticVotos: 6,
@@ -11482,6 +11557,11 @@ const JUEGOS = [
     desarrollador: "FUNDAY GAMES",
     descripcion: "Un auto-shooter de supervivencia para un jugador, derivado de Deep Rock Galactic y con vista cenital. Las armas disparan solas: el trabajo es moverse entre las oleadas de alienígenas del planeta Hoxxes, excavar las paredes de las cuevas en busca de minerales y juntar mejoras. Cada misión tiene objetivos que cumplir antes de volver a tiempo a la cápsula, y las cuevas y las oleadas se generan al azar en cada partida.",
     trailer: "https://youtube.com/embed/rsfKZS-rgo4",
+    gameplay: {
+      video: "https://youtube.com/embed/If1jMxtX5qg",
+      canal: "alexelcapo",
+      canalUrl: "https://www.youtube.com/@alexelcapo"
+    },
     metacritic: 86,
     metacriticUsuarios: 7.0,
     metacriticVotos: 72,
@@ -11514,6 +11594,11 @@ const JUEGOS = [
     desarrollador: "CICADA GAMES",
     descripcion: "Una aventura de puzzles de mundo abierto en medio del océano. El protagonista despierta como náufrago en una isla sin saber cómo llegó, y desde ahí se recorren islas antiguas resolviendo puzzles de empujar bloques al estilo sokoban. No hay un orden fijo: si un puzzle se traba, se puede ir a otra zona y volver más tarde, y los poderes y compañeros que se consiguen en el camino cambian la forma de encarar los rompecabezas.",
     trailer: "https://youtube.com/embed/euaG9rsGrfA",
+    gameplay: {
+      video: "https://youtube.com/embed/LmcNWy0Fl1U",
+      canal: "yaggTV",
+      canalUrl: "https://www.youtube.com/@yagg_x"
+    },
     metacritic: 85,
     metacriticUsuarios: 6.9,
     metacriticVotos: 16,
@@ -11726,6 +11811,11 @@ const JUEGOS = [
     desarrollador: "SUMMITSPHERE",
     descripcion: "Un plataformas de acción a toda velocidad en el que lo importante es romper todo. Se juega con Dynamite Anton, o con su compañera Annie, y un martillo enorme para demoler mundos raros, pelear con jefes que ocupan toda la pantalla y recuperar los espíritus que les robó Satán.",
     trailer: "https://youtube.com/embed/6nnjueEx8Gw",
+    gameplay: {
+      video: "https://youtube.com/embed/QfdGvfe2gJ0",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 87,
     metacriticUsuarios: 8.6,
     metacriticVotos: 39,
@@ -13269,6 +13359,11 @@ const JUEGOS = [
     desarrollador: "WRONG ORGAN",
     descripcion: "Un terror psicológico en primera persona a bordo del Tulpar, un carguero espacial varado. El capitán Curly intentó llevarse a toda la tripulación con él y fracasó: quedó mutilado, sin poder hablar y a merced de los cinco tripulantes que condenó a una muerte lenta. No hay rescate posible, la energía dura seis meses y la comida mucho menos. La historia se reconstruye entre lo que pasó en la nave y lo que se ve, que no siempre es confiable. Vendió más de 800.000 copias en PC y ganó premios a la mejor narrativa.",
     trailer: "https://youtube.com/embed/m2AROQzEl3c",
+    gameplay: {
+      video: "https://youtube.com/embed/MTHXyzNlbYk",
+      canal: "IlloJuan",
+      canalUrl: "https://www.youtube.com/@IlloJuan_"
+    },
     metacritic: 88,
     metacriticUsuarios: 7.9,
     metacriticVotos: 324,
@@ -14631,6 +14726,11 @@ const JUEGOS = [
     desarrollador: "GIANT SQUID",
     descripcion: "Una aventura de surf sobre olas de arena y agua, montado en una espada mágica que sirve de tabla, para devolverle la vida a un océano perdido. Lo dirige el artista de Journey, ABZÛ y The Pathless, y el movimiento rápido se inspira en los clásicos de skate y snowboard.",
     trailer: "https://youtube.com/embed/NSp6xDEK4FM",
+    gameplay: {
+      video: "https://youtube.com/embed/2BvVmXahCvg",
+      canal: "L0k0hGaming",
+      canalUrl: "https://www.youtube.com/@l0k0hgaming"
+    },
     metacritic: 88,
     metacriticUsuarios: 8.2,
     metacriticVotos: 390,
@@ -14858,6 +14958,11 @@ const JUEGOS = [
     descripcion: "El constructor de ciudades de Paradox, en su Expanded Edition para Switch 2: se traza el plano, se reparten zonas, se arman rutas y transporte público, y se manejan impuestos, servicios y el humor de los vecinos mientras la ciudad crece.",
     trailer: "https://youtube.com/embed/qvjrThAQwU4",
     metacriticSlug: "cities-skylines",
+    gameplay: {
+      video: "https://youtube.com/embed/LWeWW7kOGpE",
+      canal: "R4pela",
+      canalUrl: "https://www.youtube.com/@R4pela"
+    },
     metacritic: 85,
     metacriticUsuarios: 8.5,
     metacriticVotos: 2748,
@@ -15388,6 +15493,11 @@ const JUEGOS = [
     desarrollador: "AP THOMSON",
     descripcion: "Un roguelike difícil de encasillar: puzzle de combinar tres, defensa de torres y algo de cartas, con mejoras que se eligen sobre la marcha y muchísimo texto surrealista. Lo hizo AP Thomson, que en la tienda lo presenta como una treta para que la gente lea su libro. En PC tiene 85 en Metacritic.",
     trailer: "https://youtube.com/embed/8qhLnxw6CK4",
+    gameplay: {
+      video: "https://youtube.com/embed/Y_IgmZtgbhM",
+      canal: "Sailor Satan",
+      canalUrl: "https://www.youtube.com/@sailorsatanarg"
+    },
     metacritic: 85,
     critica: "Las reseñas son de la versión de PC. La prensa lo celebra como uno de los indies más originales del año: un roguelike que mezcla puzzle de combinar tres con batallas de estrategia, absurdo y muy bien escrito, con un humor que no da respiro. Ganó el último IGF. Los reparos son pocos: que hay que disfrutar mucho el combinar tres para quedarse, que algunos puzzles se estiran y que no es para cualquiera.",
     metacriticUsuarios: 6.3,
@@ -15625,6 +15735,11 @@ const JUEGOS = [
     desarrollador: "GRIZZLY GAMES",
     descripcion: "Un juego de estrategia minimalista: de día se construye un reino chico y de noche se lo defiende de oleadas de enemigos cada vez más fuertes. Hay que repartir el oro entre casas, minas y molinos que dan ganancias cada mañana y murallas, torres y cuarteles que lo protegen, y además el rey pelea en persona con una de nueve armas. Son diez mapas, más de cincuenta ventajas para desbloquear y partidas cortas, una vuelta simple al tower defense.",
     trailer: "https://youtube.com/embed/bHMSu6iMIYI",
+    gameplay: {
+      video: "https://youtube.com/embed/nW6WWCpbl4U",
+      canal: "alexelcapo",
+      canalUrl: "https://www.youtube.com/@alexelcapo"
+    },
     metacritic: 92,
     metacriticUsuarios: 8.0,
     metacriticVotos: 42,
