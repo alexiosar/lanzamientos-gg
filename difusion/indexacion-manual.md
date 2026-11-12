@@ -52,6 +52,25 @@ un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las
 cambia por pedir otras. **Pedidas el 11/11:** las once primeras (de PS Plus a Aeruta); quedan
 Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
+## Día 10 (desde el 12/11)
+
+Las cuatro que quedaban del día 9, las fichas nuevas del 12/11 y dos que cambiaron de fecha ese
+día (Don't Fret pasó de "cuarto trimestre" al 8 de diciembre y Romancing SaGa 3 se adelantó al 4
+de febrero): ésas dos se piden aunque ya estén en Google, para que el resultado muestre la
+fecha nueva.
+
+- [ ] https://lanzamientos.lat/juegos/arcade-archives-2-shot-rider
+- [ ] https://lanzamientos.lat/juegos/dont-fret
+- [ ] https://lanzamientos.lat/juegos/romancing-saga-3-destinies-united
+- [ ] https://lanzamientos.lat/juegos/station-to-station
+- [ ] https://lanzamientos.lat/juegos/the-spectrum-retreat-redux
+- [ ] https://lanzamientos.lat/juegos/silver-palace
+- [ ] https://lanzamientos.lat/juegos/hard-west-2
+- [ ] https://lanzamientos.lat/juegos/hozy
+- [ ] https://lanzamientos.lat/juegos/the-road-of-dust-and-sorrow
+- [ ] https://lanzamientos.lat/juegos/warhammer-40000-dark-heresy
+- [ ] https://lanzamientos.lat/juegos/the-spectrum-retreat-redux-switch-2
+
 ## Día 9 (desde el 11/11)
 
 Fichas que se crearon desde el 01/11 y por eso no estaban en el CSV del 05/11, ordenadas por

@@ -2,122 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-11T15:38:02+00:00",
+ "generado": "2026-11-12T14:20:53+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-11",
- "hasta": "2026-12-11",
- "total": 47,
+ "desde": "2026-11-12",
+ "hasta": "2026-12-12",
+ "total": 48,
  "juegos": [
-  {
-   "id": "hope-in-the-city",
-   "titulo": "HOPE IN THE CITY",
-   "fecha": "2026-11-11",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "LOFTY SKY ENTERTAINMENT",
-   "descripcion": "Un misterio narrativo en la ciudad china de Shenyang. Hope Song, de 17 años, vuelve del colegio y encuentra la casa revuelta y a sus padres desaparecidos, sin una nota. Con su mirada de artista junta pistas y destapa lo que se esconde debajo de la calma de su ciudad, en una investigación que no sigue un camino fijo. Lo hace el equipo de Sky of Tides y Eternal Spring.",
-   "trailer": "https://youtube.com/embed/aeSj0-tQqxY",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co9y32.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/hope-in-the-city",
-   "noticias": [
-    {
-     "fecha": "2026-11-03",
-     "titulo": "SALE EL 11 DE NOVIEMBRE, CON GAME PASS",
-     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre para el 11, un día más tarde de lo anunciado, y la tienda de Xbox y Steam también lo tienen para ese día. Entra a Ultimate y PC Game Pass."
-    }
-   ]
-  },
-  {
-   "id": "prinny-party-going-overboard",
-   "titulo": "PRINNY PARTY: GOING OVERBOARD!",
-   "fecha": "2026-11-11",
-   "plataformas": [
-    "PS5",
-    "SWITCH",
-    "SWITCH2"
-   ],
-   "genero": [
-    "CASUAL",
-    "TABLERO",
-    "MULTIJUGADOR"
-   ],
-   "desarrollador": "NIPPON ICHI SOFTWARE",
-   "descripcion": "Un juego de tablero con los Prinny de Disgaea. Se avanza por el tablero juntando experiencia y equipo para derrotar al Supremo Overboard, pero el mérito se lo lleva sólo quien entrega al jefe, así que la cooperación dura poco: se vale agarrar y tirar a los amigos. Si mueren todos a la vez, pierden todos.",
-   "trailer": "https://youtube.com/embed/XinU3Iy6lek",
-   "metacritic": 69,
-   "metacriticUsuarios": null,
-   "critica": "Las reseñas son de la versión de PS5. Lo describen como un juego de tablero cooperativo con progresión de RPG táctico, caótico y divertido con amigos en el mismo sillón, sobre todo para fans de Disgaea. Los reparos: no tiene multijugador online tradicional, le falta contenido para lo que cuesta y la presentación es pobre.",
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocje8.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/prinny-party-going-overboard",
-   "noticias": [
-    {
-     "fecha": "2026-11-11",
-     "titulo": "SALIÓ CON 69 EN METACRITIC",
-     "texto": "Salió hoy en PS5, Switch y Switch 2 con 69 sobre cuatro reseñas de la versión de PS5."
-    },
-    {
-     "fecha": "2026-11-06",
-     "titulo": "SALE EL 11 DE NOVIEMBRE, TAMBIÉN EN SWITCH 2",
-     "texto": "Nintendo US tiene la versión de Switch y una edición de Switch 2 para el 11 de noviembre, las dos con demo gratis. La PS Store también tiene el día."
-    }
-   ]
-  },
-  {
-   "id": "thronefall",
-   "titulo": "THRONEFALL",
-   "fecha": "2026-11-11",
-   "relanzamiento": "En PC y Switch desde octubre de 2024",
-   "duracion": "≈ 8,2 h (historia) · 34 h (completo)",
-   "plataformas": [
-    "XBOX"
-   ],
-   "genero": [
-    "ESTRATEGIA",
-    "INDIE"
-   ],
-   "desarrollador": "GRIZZLY GAMES",
-   "descripcion": "Un juego de estrategia minimalista: de día se construye un reino chico y de noche se lo defiende de oleadas de enemigos cada vez más fuertes. Hay que repartir el oro entre casas, minas y molinos que dan ganancias cada mañana y murallas, torres y cuarteles que lo protegen, y además el rey pelea en persona con una de nueve armas. Son diez mapas, más de cincuenta ventajas para desbloquear y partidas cortas, una vuelta simple al tower defense.",
-   "trailer": "https://youtube.com/embed/bHMSu6iMIYI",
-   "gameplay": {
-    "video": "https://youtube.com/embed/nW6WWCpbl4U",
-    "canal": "alexelcapo",
-    "canalUrl": "https://www.youtube.com/@alexelcapo"
-   },
-   "metacritic": 92,
-   "metacriticUsuarios": 8.0,
-   "metacriticVotos": 42,
-   "critica": "Las reseñas son de la versión de PC de 2024. Lo celebran como un tower defense minimalista y adictivo, simple de jugar pero con mucha profundidad, ideal para quien quiere estrategia sin pasarse horas: cada partida tiene el efecto de una más y las mutaciones de dificultad le dan variedad. El reparo: el diseño fijo del castillo limita las opciones y puede frustrar.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2239150/c9ea108e7630468c60a604ffc61f92237b83a35b/library_600x900_2x.jpg",
-   "gamepass": true,
-   "psplus": false,
-   "alta": "2026-11-03",
-   "url": "https://lanzamientos.lat/juegos/thronefall",
-   "noticias": [
-    {
-     "fecha": "2026-11-11",
-     "titulo": "LLEGÓ A XBOX Y A GAME PASS CON 92 EN METACRITIC",
-     "texto": "Salió hoy en Xbox Series y entra a Game Pass el mismo día. En PC tiene 92 sobre cuatro reseñas."
-    },
-    {
-     "fecha": "2026-11-03",
-     "titulo": "LLEGA A XBOX Y A GAME PASS EL 11 DE NOVIEMBRE",
-     "texto": "Xbox lo incluyó en la primera tanda de Game Pass de noviembre: el 11 entra a Ultimate, Premium y PC Game Pass. La PS Store también tiene una ficha para ese día, sin consola confirmada."
-    }
-   ]
-  },
   {
    "id": "sonic-pico-park",
    "titulo": "SONIC PICO PARK",
@@ -135,13 +26,20 @@
    "desarrollador": "TECOPARK",
    "descripcion": "PICO PARK, la saga de puzles cooperativos en 2D, se cruza con Sonic. La regla es simple, llegar a la meta, pero ningún nivel se pasa sin coordinarse con los demás. Todos los personajes pueden hacer el giro de Sonic y aparecen mecánicas de sus juegos. Se juega de dos a ocho, en local u online.",
    "trailer": "https://youtube.com/embed/RFg-S2seDqU",
-   "metacritic": null,
+   "metacritic": 79,
+   "metacriticUsuarios": null,
+   "critica": "Las reseñas son de la versión de PS5. Lo describen como un cooperativo corto y encantador, con puzzles simples que obligan a hablar y coordinarse, ideal para jugar con amigos o en familia y con un buen homenaje por los 35 años de Sonic. Los reparos: no tiene modo para un jugador, es fácil y se termina rápido.",
    "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocowo.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-09-17",
    "url": "https://lanzamientos.lat/juegos/sonic-pico-park",
    "noticias": [
+    {
+     "fecha": "2026-11-12",
+     "titulo": "SALIÓ CON 79 EN METACRITIC",
+     "texto": "Salió hoy en PS5 y Xbox Series con 79 sobre seis reseñas de la versión de PS5."
+    },
     {
      "fecha": "2026-10-15",
      "titulo": "SALE EL 12 DE NOVIEMBRE",
@@ -197,13 +95,21 @@
    "desarrollador": "ATLUS",
    "descripcion": "El RPG de fantasía de ATLUS, del equipo de Persona 3, 4 y 5, llega a Switch 2. Después del asesinato del rey, el próximo monarca se elige en el Torneo por el Trono, y el protagonista entra a disputarlo junto a un grupo de personajes. El combate mezcla turnos y acción en tiempo real, y el grupo se personaliza con arquetipos, poderes mágicos que cada uno despierta. Se viaja en un surcador acorazado entre mazmorras y pueblos, y el tiempo se reparte entre misiones y mazmorras de día y los vínculos con el grupo.",
    "trailer": "https://youtube.com/embed/SjbgJaYi4NE",
-   "metacritic": null,
+   "metacritic": 94,
+   "metacriticUsuarios": 8.5,
+   "metacriticVotos": 3050,
+   "critica": "El puntaje y las reseñas son de la versión original de 2024 para PS5, Xbox y PC; la edición de Switch 2 todavía no tiene las suyas. Lo consagran como uno de los mejores RPG en años: el combate por turnos de Atlus con el sistema de Arquetipos, una historia de fantasía política con un elenco que se quiere y un viaje de casi cien horas con menos tiempos muertos que Persona. El único reparo que aparece es que le falta sutileza.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/library_600x900.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/metaphor-refantazio",
    "noticias": [
+    {
+     "fecha": "2026-11-12",
+     "titulo": "LLEGÓ A SWITCH 2",
+     "texto": "Salió hoy la edición de Switch 2 del RPG de Atlus, que en 2024 sacó 94 en Metacritic en su versión original."
+    },
     {
      "fecha": "2026-10-13",
      "titulo": "DEMO DEL PRÓLOGO EN SWITCH 2",
@@ -331,6 +237,38 @@
      "fecha": "2026-10-30",
      "titulo": "LLEGA A SWITCH 2 EL 12 DE NOVIEMBRE",
      "texto": "PQube anunció la versión de Switch 2."
+    }
+   ]
+  },
+  {
+   "id": "arcade-archives-2-shot-rider",
+   "titulo": "ARCADE ARCHIVES 2: SHOT RIDER",
+   "fecha": "2026-11-12",
+   "relanzamiento": "Arcade de 1985",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX"
+   ],
+   "genero": [
+    "CARRERAS",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "La reedición del juego de carreras de motos de SEIBU KAIHATSU de 1985. Se corre hacia la meta chocando a los pilotos rivales para sacarlos del camino, sin pegarle a los autos ni a los obstáculos, que gastan mucha nafta. En los cruces la ruta se divide y cada camino lleva a un recorrido distinto: autopista, rocas o nieve. Trae las opciones de siempre de la serie: ajustes del original, modos de pantalla y tablas de puntaje en línea.",
+   "trailer": "https://youtube.com/embed/-A4w6fuGi2o",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2908/9a84eb9df9a5001c0324426c462bba915413ce06f063323f.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-12",
+   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-shot-rider",
+   "noticias": [
+    {
+     "fecha": "2026-11-12",
+     "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
+     "texto": "HAMSTER lo sumó a Arcade Archives 2 el 12 de noviembre. En la PS Store también está la edición clásica de Arcade Archives para PS4, y la de Switch 2 todavía no figura en la eShop."
     }
    ]
   },
@@ -680,6 +618,68 @@
    "psplus": false,
    "alta": "2026-08-25",
    "url": "https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure"
+  },
+  {
+   "id": "station-to-station",
+   "titulo": "STATION TO STATION",
+   "fecha": "2026-11-26",
+   "relanzamiento": "En PC desde octubre de 2023",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "PUZZLE",
+    "ESTRATEGIA",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "GALAXY GROVE",
+   "descripcion": "Un juego tranquilo de armar redes de trenes en un mundo de vóxeles. Cada nivel arranca con un puñado de casas y fábricas: se ponen estaciones y se tienden vías para unirlas, y a medida que se conectan, el lugar crece y se llena de plantas, animales y color. Detrás de lo relajado hay un puzzle de logística: optimizar recorridos con pocos recursos, cumplir desafíos opcionales y encadenar bonificaciones para sumar puntaje. Cada bioma, del desierto a la montaña, tiene mecánicas propias. Lo publica Engine Software.",
+   "trailer": "https://youtube.com/embed/n5py_Rf9t3M",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2272400/7ff798500badb820e488c3633fe2daaaa055259b/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-12",
+   "url": "https://lanzamientos.lat/juegos/station-to-station",
+   "noticias": [
+    {
+     "fecha": "2026-11-12",
+     "titulo": "LLEGA A PS5 EL 26 DE NOVIEMBRE",
+     "texto": "Engine Software lo anunció para PS5 y Switch 2 con un tráiler, y la PS Store ya tiene el día. La eShop todavía no lista la versión de Switch 2."
+    }
+   ]
+  },
+  {
+   "id": "the-spectrum-retreat-redux",
+   "titulo": "THE SPECTRUM RETREAT: REDUX",
+   "fecha": "2026-11-26",
+   "relanzamiento": "Remasterización del original de 2018",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "PUZZLE",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "DAN SMITH STUDIOS",
+   "descripcion": "La remasterización de un thriller de puzzles en primera persona de 2018, obra de Dan Smith, que ganó un BAFTA a joven diseñador. Se es Alex, que se despierta en el Penrose, un hotel art déco aislado del mundo, donde el personal es atentísimo y cada día repite la misma rutina. Guiado por una voz misteriosa, hay que resolver desafíos de lógica con colores que cambian de lugar para descubrir por qué está ahí y cómo salir. Lo publica Ripstone.",
+   "trailer": "https://youtube.com/embed/ZXXk5qhhPp4",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.48596.14636665365406557.f6a8f2bf-4190-4c94-a4c4-fe1d963fdd41.0329132e-a146-4192-ac11-8682e9353fee",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-12",
+   "url": "https://lanzamientos.lat/juegos/the-spectrum-retreat-redux",
+   "noticias": [
+    {
+     "fecha": "2026-11-12",
+     "titulo": "SALE EL 26 DE NOVIEMBRE EN PS5 Y XBOX",
+     "texto": "Ripstone anunció la fecha para PS5, Xbox Series y PC, y las dos tiendas de consola ya la tienen. En Switch 2 salió el 29 de octubre."
+    }
+   ]
   },
   {
    "id": "the-last-cat-in-the-universe-xbox",
@@ -1349,6 +1349,42 @@
    ]
   },
   {
+   "id": "dont-fret",
+   "titulo": "DON'T FRET",
+   "fecha": "2026-12-08",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "HORROR",
+    "AVENTURA",
+    "PUZZLE",
+    "INDIE"
+   ],
+   "desarrollador": "SCARY KID STUDIOS",
+   "descripcion": "Sos una guitarra con conciencia atrapada en una escuela de música que se volvió pesadilla. Hay que esconderse, distraer a lo que anda suelto y resolver puzzles musicales para ir juntando los pedazos de una memoria rota y entender qué pasó ahí adentro.",
+   "trailer": "https://youtube.com/embed/H1yn3lkikFQ",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2716830/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-19",
+   "url": "https://lanzamientos.lat/juegos/dont-fret",
+   "noticias": [
+    {
+     "fecha": "2026-11-12",
+     "titulo": "SALE EL 8 DE DICIEMBRE",
+     "texto": "Scary Kid Studios puso fecha con un tráiler: sale el 8 de diciembre en PS5, Xbox Series y PC. Hasta ahora sólo se sabía que llegaba en el último trimestre del año."
+    },
+    {
+     "fecha": "2026-08-12",
+     "titulo": "SE RETRASÓ: AHORA SALE EN EL INVIERNO DE 2026",
+     "texto": "Digital Pajamas lo retrasó el 12 de agosto, siete semanas antes del 1 de octubre que tenía anunciado. La nueva ventana es el invierno de 2026, sin día: la PS Store dice «por determinar» y Xbox no muestra fecha."
+    }
+   ]
+  },
+  {
    "id": "guns-of-eschaton",
    "titulo": "GUNS OF ESCHATON",
    "fecha": "2026-12-08",
@@ -1433,6 +1469,11 @@
    "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor",
    "noticias": [
+    {
+     "fecha": "2026-11-12",
+     "titulo": "YA SE PUEDE RESERVAR EN LA PS STORE",
+     "texto": "Desde hoy se puede comprar por adelantado la versión digital de PS5, y Level-5 presentó las voces del doblaje en inglés. Sale el 10 de diciembre."
+    },
     {
      "fecha": "2026-09-09",
      "titulo": "YA TIENE DÍA: 10 DE DICIEMBRE",
