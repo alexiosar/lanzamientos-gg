@@ -310,7 +310,8 @@ páginas, no las diez que entran en pantalla. Esta tabla se continúa cada seman
 | 12/10 | 0 | 277 | 59.4 |
 | 19/10 | 0 | 230 | 49.9 |
 | 26/10 | 0 | 172 | 38.6 |
-| 02/11 (2 días) | 0 | 36 | 42.9 |
+| 02/11 | 1 | 114 | 53.5 |
+| 09/11 (2 días) | 0 | 28 | 65.9 |
 
 **La caída fue un corte de un día, no un declive:** el 23/09 hubo 487 impresiones con posición
 9,4 y el 24/09, 30 impresiones con posición 61. Desde entonces el sitio vive entre 150 y 280
@@ -329,6 +330,90 @@ impresiones por semana, con la posición entre 40 y 60.
   salen en noviembre 2026" en 5,3.
 - **España da más impresiones que Latinoamérica** (8.439 contra 3.968 de México y 1.020 de
   Argentina) y el móvil rinde mejor que la computadora (posición 11,9 contra 24,1).
+
+### Lectura del 13/11/2026: las fichas nuevas no reciben ni una impresión
+
+CSV de Rendimiento del 13/11, que llega hasta el 10/11 (Search Console va dos o tres días
+atrasado).
+
+- **La semana del 02/11 siguió floja:** 114 impresiones y un clic, contra 172 de la anterior, y
+  la posición empeoró de 38,6 a 53,5. Desde el 03/11 el sitio vive entre 14 y 21 impresiones
+  por día.
+- **Los cambios de esta semana todavía no se pueden medir.** Los títulos y las descripciones
+  (09/11), los breadcrumbs, el archivo más liviano y los enlaces a consola y mes (10/11) se
+  publicaron justo donde terminan los datos, y Google tarda días o semanas en volver a
+  rastrear. Se leen el jueves 19/11.
+- **El dato importante: de las 208 fichas creadas desde el 24/09, sólo una tuvo alguna
+  impresión en tres meses** (Quern, cargada justo el 24/09, con 2). De las 456 anteriores, casi
+  todas tienen. El CSV trae 370 páginas, lejos del tope de mil, así que no es un recorte del
+  informe: las fichas nuevas no aparecen en ninguna búsqueda.
+- Eso apunta a algo que pesa sobre todo el sitio desde la actualización de spam del 24/09, y no
+  a que Google no encuentre las páginas: el pedido a mano saca 9 de cada 10 URLs de "sin
+  indexar", pero indexar no es posicionar. **Falta el CSV de cobertura para confirmarlo**: si
+  las fichas nuevas figuran como indexadas y aun así no tienen impresiones, el problema es de
+  confianza en el sitio y cargar más fichas no lo va a mover.
+- Una política de spam de Google, el "contenido a escala" (*scaled content abuse*), apunta justo
+  a sitios que crean muchas páginas parecidas en poco tiempo. Desde el 24/09 se sumaron 208
+  fichas en siete semanas. No prueba nada, pero es la hipótesis a mirar con el CSV de cobertura.
+
+### Cobertura al 13/11/2026: Google no rastrea las fichas nuevas
+
+Resumen del informe de Páginas (exportado sin abrir cada motivo, así que no trae URLs):
+
+| Fecha | Indexadas | Sin indexar |
+|---|---|---|
+| 16/09 | 417 | 670 |
+| 21/09 | 404 | 760 |
+| 11/10 | 276 | 878 |
+| 21/10 | 294 | 911 |
+| 08/11 | 282 | 1009 |
+
+- **Las indexadas están clavadas en unas 280 desde octubre**, con el calendario pasando de 450
+  a 664 juegos. Los pedidos a mano meten URLs, pero el total no crece: entran unas y salen
+  otras.
+- Motivos al 13/11: 310 "Página con redirección", 261 "Excluida por noindex", **228
+  "Descubierta: actualmente sin indexar"**, **200 "Rastreada: actualmente sin indexar"**, 5 errores
+  de redirección y 5 404.
+- **Cruce con las listas del 05/11** (las de cada motivo, que exportan hasta 152 URLs): de las
+  149 fichas en "Descubierta", **100 eran fichas creadas desde el 24/09**; en "Rastreada" no había
+  ninguna nueva. O sea: Google sabe que las fichas nuevas existen pero **ni siquiera las visita**.
+  Por eso no tienen impresiones. Es el síntoma de un sitio al que Google le bajó la prioridad
+  de rastreo: decide cuánto rastrear según cuánto valora el sitio.
+
+**Con las listas completas del 13/11** (las cuatro exportaciones: indexadas, "descubierta",
+"rastreada" y redirecciones), cruzadas con las 688 URLs del sitemap:
+
+| Fichas por fecha de alta | Total | Indexadas | Descubierta (nunca visitada) | Rastreada sin indexar |
+|---|---|---|---|---|
+| Antes del 24/09 | 448 | 243 (54%) | 45 | 158 |
+| 24/09 al 31/10 | 160 | 10 (6%) | 150 | 0 |
+| Noviembre | 48 | 0 | 31 | 0 (17 todavía sin registrar) |
+
+- **Desde el 24/09 Google no visita por su cuenta ninguna URL nueva.** De las 10 fichas nuevas
+  indexadas, 8 son de los pedidos a mano; las otras dos (Deep Rock Galactic Survivor e Isles of
+  Sea and Sky) entraron solas en octubre. Las "descubiertas" figuran con último rastreo
+  "1969-12-31": nunca las leyó.
+- **El pedido a mano funciona en un 85%, con tres o cuatro días de demora:** 10 de 10 de las
+  del 02/11, 8 de 11 del 03/11, 7 de 9 del 05/11 y 9 de 10 del 09/11. Las del 11 y el 13 todavía
+  no tuvieron tiempo. Las que no entraron quedaron en "rastreada sin indexar": Google las
+  leyó y las descartó (Denshattack, Halo: Campaign Evolved, MGS Master Collection Vol. 2,
+  Final Fantasy XIV y Star Ocean 2R).
+- **Google suelta las fichas de juegos que ya salieron.** Las 158 "rastreadas sin indexar"
+  antiguas son todas de juegos ya lanzados, y cuanto más viejo el lanzamiento, más probable que
+  esté afuera: de los de julio y agosto queda indexado el 37%, de los de octubre el 80% y de los
+  de noviembre el 100%. Tener crítica o puntaje no cambia nada (53% contra 54%); el gameplay
+  sí se asocia a más indexación (74% contra 48%), aunque se cargó primero en los juegos
+  grandes. Ninguna ficha por salir figura como "rastreada sin indexar".
+- **Las 310 redirecciones son las direcciones `.html` viejas** (297) y el `index.html?plat=` de
+  la portada. Ningún archivo del sitio las enlaza desde el 09/08; Google las sigue revisando
+  porque las conoció antes (71 visitas en noviembre). No hay nada que corregir: se van solas.
+- Páginas de sección sin indexar: `/junio-2026` y `/julio-2026` (descubiertas), `/agosto-2026` y
+  los recomendados de agosto y septiembre (rastreadas sin indexar). Todas de meses cerrados.
+
+**Qué se decide con esto:** el único camino que tienen las fichas nuevas para entrar a Google es
+el pedido a mano, y el cupo es de unas 10 por día. Conviene gastarlo en la ventana en que la
+gente busca el juego: fichas de juegos que salen en las próximas semanas, y no en juegos que
+ya salieron hace meses ni en los de 2027.
 
 ### Lectura del 05/11/2026: la semana bajó, el pedido a mano sigue funcionando
 

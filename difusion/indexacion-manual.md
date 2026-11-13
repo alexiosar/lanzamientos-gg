@@ -18,6 +18,12 @@ semanas siguen afuera páginas pedidas a mano, el problema no es que Google no l
 El orden pone primero lo que más se busca ahora: el mes en curso, las suscripciones y los
 estrenos recientes.
 
+**Regla desde el 13/11/2026:** Google no visita por su cuenta ninguna URL nueva desde el 24/09, y
+el pedido a mano entra en un 85% de los casos con tres o cuatro días de demora. El cupo se gasta
+así, en este orden: (1) fichas nuevas de juegos que salen en las próximas seis semanas, (2)
+fichas que cambiaron de fecha, (3) páginas de suscripciones del mes. No se piden juegos que
+salieron hace más de un mes (Google los suelta igual) ni fichas de 2027 sin día.
+
 **Estado al 23/10/2026:** pedidos el **día 1** (12/10), el **día 6** (19/10), Metroid Ravenous
 (20/10) y, el 23/10, el resto del día 5 salvo Ghost of Yōtei, Dragon's Dogma 2 y Kingdom Hearts
 (que salieron solas de "sin indexar") más cuatro del día 2: `/septiembre-2026`,
@@ -54,17 +60,22 @@ Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
 ## Día 11 (desde el 13/11)
 
-Fichas nuevas del 13/11 y los tres debuts en Metacritic de ese día, que sumaron crítica y
-noticia. Si la inspección dice "La URL está en Google", se saltea.
+Rehecha con el cruce de cobertura del 13/11 (ver `metricas.md`): todas las fichas de juegos que
+salen entre el 14/11 y fin de diciembre que no estaban indexadas ni pedidas. Son las únicas que
+quedaban en esa ventana. Las de juegos ya lanzados (Moomin, Barbie Rewind, 9 R.I.P. Sequel) se
+sacaron: los de noviembre ya figuran indexados.
 
 - [ ] https://lanzamientos.lat/juegos/god-of-war-sons-of-sparta-ps4
-- [ ] https://lanzamientos.lat/juegos/herdling-switch-2
+- [ ] https://lanzamientos.lat/juegos/spirit-crossing
+- [ ] https://lanzamientos.lat/juegos/moonlight-peaks-ps5
+- [ ] https://lanzamientos.lat/juegos/gothic-3-classic
+- [ ] https://lanzamientos.lat/juegos/the-last-cat-in-the-universe-xbox
+- [ ] https://lanzamientos.lat/juegos/luma-island
+- [ ] https://lanzamientos.lat/juegos/the-great-villainess-strategy-of-lily
+- [ ] https://lanzamientos.lat/juegos/remothered-red-nuns-legacy-switch-2
+- [ ] https://lanzamientos.lat/juegos/the-dark-queen-of-mortholme
+- [ ] https://lanzamientos.lat/juegos/guns-of-eschaton
 - [ ] https://lanzamientos.lat/juegos/shikhondo-blue-pieta
-- [ ] https://lanzamientos.lat/juegos/moomin-midsummer-madness
-- [ ] https://lanzamientos.lat/juegos/barbie-rewind
-- [ ] https://lanzamientos.lat/juegos/9-rip-sequel
-- [ ] https://lanzamientos.lat/juegos/leaf-blower-co
-- [ ] https://lanzamientos.lat/juegos/guild-saga-vanished-worlds
 
 ## Día 10 (desde el 12/11)
 
