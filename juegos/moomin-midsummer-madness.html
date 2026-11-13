@@ -44,6 +44,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -136,6 +137,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">68 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('moomin-midsummer-madness')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -164,7 +170,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de Switch 2. Lo describen como una aventura de point and click encantadora y tranquila, con un estilo de libro ilustrado precioso, que recrea con cariño la novela de Tove Jansson de 1954. Los reparos: es muy corto, el sistema de pistas ayuda poco y como juego de puzzles no aporta nada nuevo.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-11-13</span>
+            <span class="noticia-titulo">▸ DEBUTÓ CON 68 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">Las cinco reseñas de la versión de Switch 2 lo dejan en 68. Salió ayer en Switch 2 y Switch.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-11-06</span>
@@ -208,6 +225,14 @@
               <span class="plataformas"><span class="plat plat-PS5">PS5</span><span class="plat plat-SWITCH2">SWITCH 2</span><span class="plat plat-SWITCH">SWITCH</span></span>
             </span>
           </a>
+          <a class="rel-item" href="/juegos/herdling-switch-2">
+            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3047750/library_600x900_2x.jpg" alt="" loading="lazy" onerror="this.remove()">
+            <span class="rel-info">
+              <span class="rel-titulo">HERDLING</span>
+              <span class="rel-fecha">12 NOV</span>
+              <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
+            </span>
+          </a>
           <a class="rel-item" href="/juegos/hela-of-mice-and-magic">
             <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/library_600x900.jpg" alt="" loading="lazy" onerror="this.remove()">
             <span class="rel-info">
@@ -230,14 +255,6 @@
               <span class="rel-titulo">BOTANY MANOR</span>
               <span class="rel-fecha">03 JUL</span>
               <span class="plataformas"><span class="plat plat-SWITCH2">SWITCH 2</span></span>
-            </span>
-          </a>
-          <a class="rel-item" href="/juegos/duck-side-of-the-moon">
-            <img class="rel-portada" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2959770/177dcf703b1af06dba8bb6de5f31fd99078b4bf2/library_capsule_2x.jpg" alt="" loading="lazy" onerror="this.remove()">
-            <span class="rel-info">
-              <span class="rel-titulo">DUCK SIDE OF THE MOON</span>
-              <span class="rel-fecha">17 NOV</span>
-              <span class="plataformas"><span class="plat plat-PS5">PS5</span></span>
             </span>
           </a>
         </div>

@@ -55,6 +55,15 @@
 
 const NOTICIAS = [
   {
+    id: "wolfenstein-3-anunciado",
+    fecha: "2026-11-12",
+    categoria: "ANUNCIOS",
+    titulo: "MACHINEGAMES ANUNCIÓ WOLFENSTEIN 3",
+    texto: "En el festejo por los 25 años de Xbox, Bethesda y MachineGames confirmaron que Wolfenstein 3, la continuación de The New Colossus de 2017, ya está en producción. Por ahora no tiene consolas ni fecha anunciadas.\n\nEs lo próximo de MachineGames después de Indiana Jones y el Gran Círculo.",
+    fuente: "https://news.xbox.com/en-us/2026/11/12/xbox-25th-anniversary-news-recap/",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/612880/library_600x900_2x.jpg"
+  },
+  {
     id: "ps-plus-catalogo-noviembre-2026",
     fecha: "2026-11-10",
     categoria: "SUSCRIPCIONES",

@@ -52,6 +52,20 @@ un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las
 cambia por pedir otras. **Pedidas el 11/11:** las once primeras (de PS Plus a Aeruta); quedan
 Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
+## Día 11 (desde el 13/11)
+
+Fichas nuevas del 13/11 y los tres debuts en Metacritic de ese día, que sumaron crítica y
+noticia. Si la inspección dice "La URL está en Google", se saltea.
+
+- [ ] https://lanzamientos.lat/juegos/god-of-war-sons-of-sparta-ps4
+- [ ] https://lanzamientos.lat/juegos/herdling-switch-2
+- [ ] https://lanzamientos.lat/juegos/shikhondo-blue-pieta
+- [ ] https://lanzamientos.lat/juegos/moomin-midsummer-madness
+- [ ] https://lanzamientos.lat/juegos/barbie-rewind
+- [ ] https://lanzamientos.lat/juegos/9-rip-sequel
+- [ ] https://lanzamientos.lat/juegos/leaf-blower-co
+- [ ] https://lanzamientos.lat/juegos/guild-saga-vanished-worlds
+
 ## Día 10 (desde el 12/11)
 
 Las cuatro que quedaban del día 9, las fichas nuevas del 12/11 y dos que cambiaron de fecha ese
@@ -59,17 +73,17 @@ día (Don't Fret pasó de "cuarto trimestre" al 8 de diciembre y Romancing SaGa 
 de febrero): ésas dos se piden aunque ya estén en Google, para que el resultado muestre la
 fecha nueva.
 
-- [ ] https://lanzamientos.lat/juegos/arcade-archives-2-shot-rider
-- [ ] https://lanzamientos.lat/juegos/dont-fret
-- [ ] https://lanzamientos.lat/juegos/romancing-saga-3-destinies-united
-- [ ] https://lanzamientos.lat/juegos/station-to-station
-- [ ] https://lanzamientos.lat/juegos/the-spectrum-retreat-redux
-- [ ] https://lanzamientos.lat/juegos/silver-palace
-- [ ] https://lanzamientos.lat/juegos/hard-west-2
-- [ ] https://lanzamientos.lat/juegos/hozy
-- [ ] https://lanzamientos.lat/juegos/the-road-of-dust-and-sorrow
-- [ ] https://lanzamientos.lat/juegos/warhammer-40000-dark-heresy
-- [ ] https://lanzamientos.lat/juegos/the-spectrum-retreat-redux-switch-2
+- [x] https://lanzamientos.lat/juegos/arcade-archives-2-shot-rider (13/11)
+- [x] https://lanzamientos.lat/juegos/dont-fret (13/11)
+- [x] https://lanzamientos.lat/juegos/romancing-saga-3-destinies-united (13/11)
+- [x] https://lanzamientos.lat/juegos/station-to-station (13/11)
+- [x] https://lanzamientos.lat/juegos/the-spectrum-retreat-redux (13/11)
+- [x] https://lanzamientos.lat/juegos/silver-palace (13/11)
+- [x] https://lanzamientos.lat/juegos/hard-west-2 (13/11)
+- [x] https://lanzamientos.lat/juegos/hozy (13/11)
+- [x] https://lanzamientos.lat/juegos/the-road-of-dust-and-sorrow (13/11)
+- [x] https://lanzamientos.lat/juegos/warhammer-40000-dark-heresy (13/11)
+- [x] https://lanzamientos.lat/juegos/the-spectrum-retreat-redux-switch-2 (13/11)
 
 ## Día 9 (desde el 11/11)
 

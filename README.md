@@ -2216,6 +2216,8 @@ y abrir http://localhost:8080
   | Wish Upon a Llama (PS5, Xbox, PS4, Switch) | 9 de diciembre (Gematsu, 9/11) | Al 10/11 ninguna tienda de consola lo lista |
   | Arcade Archives 2 Shot Rider (Switch 2) · Console Archives Nobunaga Oda den (PS5, Switch 2) | 12 de noviembre (Gematsu, 11/11) | **Shot Rider ya está cargado** en PS5, PS4 y Xbox; la eShop no tiene la de Switch 2. **Nobunaga Oda den queda afuera**: la PS Store avisa que el texto es sólo en japonés |
   | Station to Station (Switch 2) | 26 de noviembre (Gematsu, 12/11) | Cargado en PS5, que ya tiene el día. La eShop todavía no lista la de Switch 2: sumarla cuando aparezca |
+  | Commandos: Origins (Switch 2) · Forest Escape: Last Train (PS5) · Lucky Luke: The Lonesome Cowboy Collection | 15 de diciembre, sin fecha y sin fecha (Gematsu, 12-13/11) | La eShop de América no tiene Commandos; Forest Escape y Lucky Luke figuran en las tiendas sin día. Wolfenstein 3 va como noticia hasta que tenga año |
+  | Next Week on Xbox del 16 al 20/11 | — | Fuera por relleno: Unicorn Academy, Dark Rail, Vice: Magic City Mayhem, Time Machine: Hidden Objects, Cats in Wonderland, Drill Drill Drill, Geo Book, ReactorX 4, Ritebound y Tanks Sweet Tanks |
   | Renai, Hajimemashite · Sakuna Chronicles | 25/03/2027 sólo en Japón y sin fecha (Gematsu, 12/11) | Novela visual sólo para Japón; Sakuna Chronicles sólo tiene teasers |
   | Crystals of Irm · Shade of the Marionette | 21/01/2027 y sin fecha (Gematsu, 10-11/11) | Crystals of Irm sale sólo en PC; Shade of the Marionette sólo tiene tráiler, sin consolas ni fecha |
   | Whirlight (PS5 y Xbox) | — | El 06/11 pasó al 21/01/2027 por la eShop de América (la europea sigue con el 12/11). Xbox lo lista sin día y la PS Store no tiene fecha |

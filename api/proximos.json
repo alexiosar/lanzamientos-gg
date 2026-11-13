@@ -2,276 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-12T14:20:53+00:00",
+ "generado": "2026-11-13T19:14:07+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-12",
- "hasta": "2026-12-12",
- "total": 48,
+ "desde": "2026-11-13",
+ "hasta": "2026-12-13",
+ "total": 42,
  "juegos": [
-  {
-   "id": "sonic-pico-park",
-   "titulo": "SONIC PICO PARK",
-   "fecha": "2026-11-12",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "PUZZLE",
-    "PLATAFORMA",
-    "COOP",
-    "CASUAL"
-   ],
-   "desarrollador": "TECOPARK",
-   "descripcion": "PICO PARK, la saga de puzles cooperativos en 2D, se cruza con Sonic. La regla es simple, llegar a la meta, pero ningún nivel se pasa sin coordinarse con los demás. Todos los personajes pueden hacer el giro de Sonic y aparecen mecánicas de sus juegos. Se juega de dos a ocho, en local u online.",
-   "trailer": "https://youtube.com/embed/RFg-S2seDqU",
-   "metacritic": 79,
-   "metacriticUsuarios": null,
-   "critica": "Las reseñas son de la versión de PS5. Lo describen como un cooperativo corto y encantador, con puzzles simples que obligan a hablar y coordinarse, ideal para jugar con amigos o en familia y con un buen homenaje por los 35 años de Sonic. Los reparos: no tiene modo para un jugador, es fácil y se termina rápido.",
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocowo.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/sonic-pico-park",
-   "noticias": [
-    {
-     "fecha": "2026-11-12",
-     "titulo": "SALIÓ CON 79 EN METACRITIC",
-     "texto": "Salió hoy en PS5 y Xbox Series con 79 sobre seis reseñas de la versión de PS5."
-    },
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALE EL 12 DE NOVIEMBRE",
-     "texto": "La PS Store lo tiene para el 12 de noviembre, un día después de lo que figuraba. La tienda de Xbox lo lista sin día."
-    }
-   ]
-  },
-  {
-   "id": "moomin-midsummer-madness",
-   "titulo": "MOOMIN: MIDSUMMER MADNESS",
-   "fecha": "2026-11-12",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "AVENTURA",
-    "POINT AND CLICK",
-    "RELAX",
-    "INDIE"
-   ],
-   "desarrollador": "CROSSBRIDGE GAME STUDIOS",
-   "descripcion": "Una aventura gráfica tranquila para todas las edades, con los Mumin. Mumintroll y la Pequeña My tienen que escapar de una gran inundación y encontrar el camino de vuelta a su casa, en el Valle de los Mumin. El viaje pasa por lugares pintados a mano, con amigos conocidos y caras nuevas, y es una historia sobre la sinceridad, la compasión y la curiosidad.",
-   "trailer": "https://youtube.com/embed/q7myAcZfmEQ",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6tu.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-24",
-   "url": "https://lanzamientos.lat/juegos/moomin-midsummer-madness",
-   "noticias": [
-    {
-     "fecha": "2026-11-06",
-     "titulo": "SALE EL 12 DE NOVIEMBRE",
-     "texto": "La eShop tiene las versiones de Switch y Switch 2 para el 12 de noviembre."
-    }
-   ]
-  },
-  {
-   "id": "metaphor-refantazio",
-   "titulo": "METAPHOR: REFANTAZIO",
-   "fecha": "2026-11-12",
-   "relanzamiento": "En PS5, PS4, Xbox y PC desde 2024 — esta fecha corresponde a la edición de Switch 2",
-   "duracion": "≈ 60 h (historia) · 100 h (completo)",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "RPG",
-    "POR TURNOS",
-    "AVENTURA"
-   ],
-   "desarrollador": "ATLUS",
-   "descripcion": "El RPG de fantasía de ATLUS, del equipo de Persona 3, 4 y 5, llega a Switch 2. Después del asesinato del rey, el próximo monarca se elige en el Torneo por el Trono, y el protagonista entra a disputarlo junto a un grupo de personajes. El combate mezcla turnos y acción en tiempo real, y el grupo se personaliza con arquetipos, poderes mágicos que cada uno despierta. Se viaja en un surcador acorazado entre mazmorras y pueblos, y el tiempo se reparte entre misiones y mazmorras de día y los vínculos con el grupo.",
-   "trailer": "https://youtube.com/embed/SjbgJaYi4NE",
-   "metacritic": 94,
-   "metacriticUsuarios": 8.5,
-   "metacriticVotos": 3050,
-   "critica": "El puntaje y las reseñas son de la versión original de 2024 para PS5, Xbox y PC; la edición de Switch 2 todavía no tiene las suyas. Lo consagran como uno de los mejores RPG en años: el combate por turnos de Atlus con el sistema de Arquetipos, una historia de fantasía política con un elenco que se quiere y un viaje de casi cien horas con menos tiempos muertos que Persona. El único reparo que aparece es que le falta sutileza.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2679460/library_600x900.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/metaphor-refantazio",
-   "noticias": [
-    {
-     "fecha": "2026-11-12",
-     "titulo": "LLEGÓ A SWITCH 2",
-     "texto": "Salió hoy la edición de Switch 2 del RPG de Atlus, que en 2024 sacó 94 en Metacritic en su versión original."
-    },
-    {
-     "fecha": "2026-10-13",
-     "titulo": "DEMO DEL PRÓLOGO EN SWITCH 2",
-     "texto": "Ya se puede bajar la demo \"Prologue\" en Switch 2, un mes antes del lanzamiento del 12 de noviembre."
-    }
-   ]
-  },
-  {
-   "id": "barbie-rewind",
-   "titulo": "BARBIE REWIND",
-   "fecha": "2026-11-12",
-   "plataformas": [
-    "XBOX",
-    "PS4",
-    "PS5"
-   ],
-   "genero": [
-    "CASUAL",
-    "AVENTURA",
-    "RETRO"
-   ],
-   "desarrollador": "DIGITAL ECLIPSE",
-   "descripcion": "Un juego tranquilo de decorar la DreamHouse de Barbie con objetos de los más de 65 años de historia de la muñeca, en pixel art de estilo retro. Se elige entre tres diseños para la fachada, las paredes y los pisos, que se pueden mezclar habitación por habitación, y además trae una colección de juegos clásicos de Barbie para volver a jugar.",
-   "trailer": "https://youtube.com/embed/zBymaS2mCaI",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc771.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/barbie-rewind",
-   "noticias": [
-    {
-     "fecha": "2026-11-06",
-     "titulo": "SALE EL 12 DE NOVIEMBRE",
-     "texto": "La tienda de Xbox lo tiene para el 12 de noviembre."
-    }
-   ]
-  },
-  {
-   "id": "pikmin-4-switch-2",
-   "titulo": "PIKMIN 4 — NINTENDO SWITCH 2 EDITION + ACADEMIA DANDORI",
-   "duracion": "≈ 18 h (historia) · 40 h (completo)",
-   "relanzamiento": "En Switch desde julio de 2023 — esta fecha corresponde a la edición de Switch 2",
-   "fecha": "2026-11-12",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "ESTRATEGIA",
-    "AVENTURA"
-   ],
-   "desarrollador": "NINTENDO",
-   "descripcion": "La edición de Switch 2 del cuarto Pikmin, el que sumó a Oatchi, el perro que carga y pelea. Lo nuevo acá es que a Oatchi se le dan órdenes con la voz, usando el micrófono de la consola, y que viene Academia Dandori, un modo aparte para practicar la organización de tareas que es el corazón de la saga.",
-   "trailer": "https://youtube.com/embed/DcXX_Ic1aR8",
-   "metacritic": null,
-   "imagen": "https://cdn2.steamgriddb.com/grid/2e43c4664011d4b9c90d583a4897beb6.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-09",
-   "url": "https://lanzamientos.lat/juegos/pikmin-4-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-11-03",
-     "titulo": "NINTENDO MOSTRÓ CUATRO MINUTOS DE LA EDICIÓN",
-     "texto": "El tráiler de presentación repasa lo que suma la edición de Switch 2, con la Academia Dandori, antes de que salga el 12 de noviembre."
-    }
-   ]
-  },
-  {
-   "id": "hazard-levels",
-   "titulo": "HAZARD LEVELS",
-   "fecha": "2026-11-12",
-   "relanzamiento": "En PC, en acceso anticipado — esta fecha es la de la versión terminada y la de consolas",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "TERROR",
-    "COOP",
-    "INDIE"
-   ],
-   "desarrollador": "WALES INTERACTIVE",
-   "descripcion": "Un survival horror cooperativo para uno a cuatro jugadores, basado en físicas. Debajo de un pub británico funciona una cervecería secreta, y para abastecerla hay que bajar a grietas inestables que llevan a otras dimensiones, juntar ingredientes raros y volver antes de la última ronda. Cada grieta se genera al azar, con biomas, peligros y criaturas distintos; un guante gravitatorio sirve para agarrar y lanzar varios objetos a la vez, y con lo que se junta se preparan tragos que dan habilidades o desatan el caos. Tiene chat de voz por proximidad.",
-   "trailer": "https://youtube.com/embed/RAwpbhynS0M",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.43354.14251935469670557.27dc1ecf-941c-4e6e-bfac-73935ff464dd.d14b7513-c468-4e87-bd77-c77d86fca44a?w=600&h=900&format=jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-08",
-   "url": "https://lanzamientos.lat/juegos/hazard-levels",
-   "noticias": [
-    {
-     "fecha": "2026-10-08",
-     "titulo": "LA 1.0 SALE EL 12 DE NOVIEMBRE",
-     "texto": "Wales Interactive le puso fecha a la versión terminada, que ese día llega también a PS5 y Xbox Series. Xbox confirma el día; la PS Store dice noviembre."
-    }
-   ]
-  },
-  {
-   "id": "adorable-adventures-switch-2",
-   "titulo": "ADORABLE ADVENTURES",
-   "fecha": "2026-11-12",
-   "relanzamiento": "En PC y PS5 desde 2026 — esta es la edición de Switch 2",
-   "duracion": "≈ 3 h (historia) · 6,6 h (completo)",
-   "plataformas": [
-    "SWITCH2"
-   ],
-   "genero": [
-    "AVENTURA",
-    "RELAX",
-    "CASUAL"
-   ],
-   "desarrollador": "WILD SHEEP STUDIO",
-   "descripcion": "Una aventura tranquila con Boris, un jabalí bebé curioso que tiene que aprender a usar el olfato para reencontrarse con su familia después de un incendio forestal. Se recorren paisajes naturales, se siguen rastros de olor y se descubren secretos.",
-   "trailer": "https://youtube.com/embed/LHpCnSVBUVo",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3840230/dfb3ff13ee808c8ad61efc008013cbcdfdf791bc/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-30",
-   "url": "https://lanzamientos.lat/juegos/adorable-adventures-switch-2",
-   "noticias": [
-    {
-     "fecha": "2026-10-30",
-     "titulo": "LLEGA A SWITCH 2 EL 12 DE NOVIEMBRE",
-     "texto": "PQube anunció la versión de Switch 2."
-    }
-   ]
-  },
-  {
-   "id": "arcade-archives-2-shot-rider",
-   "titulo": "ARCADE ARCHIVES 2: SHOT RIDER",
-   "fecha": "2026-11-12",
-   "relanzamiento": "Arcade de 1985",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX"
-   ],
-   "genero": [
-    "CARRERAS",
-    "ARCADE",
-    "RETRO"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "La reedición del juego de carreras de motos de SEIBU KAIHATSU de 1985. Se corre hacia la meta chocando a los pilotos rivales para sacarlos del camino, sin pegarle a los autos ni a los obstáculos, que gastan mucha nafta. En los cruces la ruta se divide y cada camino lleva a un recorrido distinto: autopista, rocas o nieve. Trae las opciones de siempre de la serie: ajustes del original, modos de pantalla y tablas de puntaje en línea.",
-   "trailer": "https://youtube.com/embed/-A4w6fuGi2o",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202610/2908/9a84eb9df9a5001c0324426c462bba915413ce06f063323f.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-12",
-   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-shot-rider",
-   "noticias": [
-    {
-     "fecha": "2026-11-12",
-     "titulo": "SALIÓ HOY EN PS5, PS4 Y XBOX",
-     "texto": "HAMSTER lo sumó a Arcade Archives 2 el 12 de noviembre. En la PS Store también está la edición clásica de Arcade Archives para PS4, y la de Switch 2 todavía no figura en la eShop."
-    }
-   ]
-  },
   {
    "id": "leaf-blower-co",
    "titulo": "LEAF BLOWER CO.",
@@ -362,6 +99,39 @@
      "fecha": "2026-10-28",
      "titulo": "SALE EL 16 DE NOVIEMBRE",
      "texto": "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 16 de noviembre, el mismo día que en PC. Entre las consolas, es exclusivo de Nintendo."
+    }
+   ]
+  },
+  {
+   "id": "god-of-war-sons-of-sparta-ps4",
+   "titulo": "GOD OF WAR SONS OF SPARTA",
+   "fecha": "2026-11-16",
+   "relanzamiento": "En PS5 desde febrero de 2026 — esta fecha corresponde a la versión de PS4",
+   "plataformas": [
+    "PS4"
+   ],
+   "genero": [
+    "ACCION",
+    "PLATAFORMA",
+    "AVENTURA",
+    "RETRO"
+   ],
+   "desarrollador": "MEGA CAT STUDIOS",
+   "descripcion": "Una aventura de acción en 2D y pixel art que cuenta la juventud de Kratos, antes de ser dios, durante el duro entrenamiento espartano junto a su hermano Deimos. Cuando un compañero cadete desaparece, los dos salen a buscarlo por niveles variados con combates, puzzles del entorno y jefes mitológicos, al estilo de un metroidvania. Se juega solo o de a dos en la misma consola. Lo hizo Mega Cat Studios con Santa Monica Studio.",
+   "trailer": "https://youtube.com/embed/eFhOo6NTt70",
+   "metacritic": 64,
+   "critica": "El puntaje y las reseñas son de la versión de PS5 de febrero. Lo ven como un metroidvania correcto, con combate enérgico, buenas peleas contra jefes, mucho contenido y una historia de hermanos que muestra otra cara de Kratos. Los reparos: juega demasiado a lo seguro, la exploración se hace pesada, tarda en levantar y el cambio de tono puede no convencer a los fans de la saga.",
+   "metacriticSlug": "god-of-war-sons-of-sparta",
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202602/0618/213fb06ade46c1d0d6d3ba2c54c4020b451512e0c7a0e3b5.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-13",
+   "url": "https://lanzamientos.lat/juegos/god-of-war-sons-of-sparta-ps4",
+   "noticias": [
+    {
+     "fecha": "2026-11-13",
+     "titulo": "LLEGA A PS4 EL 16 DE NOVIEMBRE",
+     "texto": "Sony anunció la versión de PS4 para el 16, junto con una actualización gratuita de contenido para las dos consolas. En PS5 salió en febrero."
     }
    ]
   },
@@ -1537,6 +1307,38 @@
      "fecha": "2026-08-25",
      "titulo": "UN MODO GIRA ROGUELITE, KARAOKE Y SE PUEDE JUGAR SIN INSTRUMENTO",
      "texto": "La novedad es el modo gira: una campaña roguelite donde cada recorrido trae decisiones y desafíos distintos para la banda. Aparte están la partida rápida, la práctica y el karaoke. Se juega con guitarra, bajo, batería o micrófono en cuatro dificultades, más un nivel Experto Plus exclusivo de la batería, y el modo arcade permite usar el joystick con cuatro o cinco carriles. El multijugador es cooperativo, local u online, con juego cruzado entre plataformas y cualquier combinación de instrumentos."
+    }
+   ]
+  },
+  {
+   "id": "shikhondo-blue-pieta",
+   "titulo": "SHIKHONDO: BLUE PIETA",
+   "fecha": "2026-12-10",
+   "relanzamiento": "En PC desde mayo de 2026",
+   "plataformas": [
+    "PS5",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "SHOOTER",
+    "ARCADE",
+    "ANIME"
+   ],
+   "desarrollador": "DEERFARM",
+   "descripcion": "La continuación de Shikhondo: Soul Eater, ahora un shoot 'em up de desplazamiento lateral en el que dos cazadoras persiguen youkais por una ciudad moderna, entre rascacielos, un parque de diversiones y una estación de subte. Es un bullet hell con lluvias de balas muy dibujadas y el sistema Soul Collect: pasar rozando los disparos enemigos carga una barra que después se descarga en un ataque potente, así que cuanto más se arriesga, más se gana.",
+   "trailer": "https://youtube.com/embed/lkf94fQY-Gk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4445060/28a569d60b984adc45c6c9928186f22b24e0a9b3/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-13",
+   "url": "https://lanzamientos.lat/juegos/shikhondo-blue-pieta",
+   "noticias": [
+    {
+     "fecha": "2026-11-13",
+     "titulo": "SALE EL 10 DE DICIEMBRE EN CONSOLAS",
+     "texto": "Llega a PS5, Switch 2 y Switch el 10 de diciembre, y la PS Store y la eShop de América ya lo tienen con fecha. En PC salió en mayo."
     }
    ]
   }
