@@ -66,17 +66,24 @@ el 06/11, y las fichas de enero más buscadas que se cargaron antes del 24/09 (�
 ya en Google: si la inspección lo dice, se saltean). Las exportaciones de cobertura del 13/11 ya
 no estaban en Descargas, así que este orden sale de la fecha de alta y no del estado real.
 
-- [ ] https://lanzamientos.lat/juegos/forza-horizon-6-ps5
-- [ ] https://lanzamientos.lat/juegos/witchbrook
-- [ ] https://lanzamientos.lat/juegos/everything-is-crab
-- [ ] https://lanzamientos.lat/juegos/sturmjager
-- [ ] https://lanzamientos.lat/juegos/hollow-home
-- [ ] https://lanzamientos.lat/juegos/whirlight-no-time-to-trip
-- [ ] https://lanzamientos.lat/juegos/until-dawn-2
-- [ ] https://lanzamientos.lat/juegos/stranger-than-heaven
-- [ ] https://lanzamientos.lat/juegos/danganronpa-2x2
-- [ ] https://lanzamientos.lat/juegos/fate-extra-record
-- [ ] https://lanzamientos.lat/juegos/tropico-7
+- [x] https://lanzamientos.lat/juegos/forza-horizon-6-ps5 (16/11)
+- [x] https://lanzamientos.lat/juegos/witchbrook (16/11)
+- [x] https://lanzamientos.lat/juegos/everything-is-crab (16/11)
+- [x] https://lanzamientos.lat/juegos/sturmjager (16/11)
+- [x] https://lanzamientos.lat/juegos/hollow-home (16/11)
+- [x] https://lanzamientos.lat/juegos/whirlight-no-time-to-trip (ya en Google al 16/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/until-dawn-2 (ya en Google al 16/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/stranger-than-heaven (ya en Google al 16/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/danganronpa-2x2 (16/11)
+- [x] https://lanzamientos.lat/juegos/fate-extra-record (ya en Google al 16/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/tropico-7 (ya en Google al 16/11, no se pidió)
+
+Con el cupo que sobró (seis pedidas de diez), las fichas de febrero creadas después del 24/09:
+
+- [x] https://lanzamientos.lat/juegos/elta-defy-all-gods (16/11)
+- [x] https://lanzamientos.lat/juegos/spyder-agent-8 (16/11)
+- [x] https://lanzamientos.lat/juegos/astonishia-story (16/11)
+- [ ] https://lanzamientos.lat/juegos/ys-viii-lacrimosa-of-dana-switch-2 (el 16/11 se agotó el cupo: va primera en la próxima)
 
 ## Día 11 (desde el 13/11)
 
