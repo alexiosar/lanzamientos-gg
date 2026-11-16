@@ -1288,10 +1288,11 @@ entra. Antes era `NOMBRE — LANZAMIENTOS.LAT`: ni la consola ni la intención a
   `favoritos.js` funciona sin la lista, como en las páginas de mes. Si una ficha nueva
   necesita otro dato del juego, va en `juego_js` de `generar-fichas.py`, no volviendo a
   cargar el archivo entero.
-- **Cada ficha enlaza a las páginas de su consola en ese mes (10/11/2026)**, en una
-  sección "NOVIEMBRE 2026 POR CONSOLA" al pie ("JUEGOS DE PS5 EN NOVIEMBRE"). Sólo las que
-  existen (`paginas_plataforma_mes`) y sólo con día confirmado: 408 fichas, 804 enlaces a
-  las 27 páginas de consola y mes, que antes casi no recibían enlaces.
+- **Las fichas NO enlazan a las páginas de consola y mes.** Se probó el 10/11/2026 (804
+  enlaces) y se sacó el 16/11: esas páginas llevan `noindex` desde el 05/10 por parecerse a
+  "páginas puerta", y llenarlas de enlaces internos hacía que Google gastara rastreo en
+  páginas que no puede indexar, justo cuando el sitio no consigue que le rastreen las fichas
+  nuevas. Antes de enlazar algo en masa, mirar que no tenga `noindex`.
 - **La portada y las páginas de plataforma no se tocaron.** Compiten por las búsquedas
   amplias, esa pelea está perdida por ahora y cambiarles el título no mueve nada.
 
@@ -2217,6 +2218,7 @@ y abrir http://localhost:8080
   | Arcade Archives 2 Shot Rider (Switch 2) · Console Archives Nobunaga Oda den (PS5, Switch 2) | 12 de noviembre (Gematsu, 11/11) | **Shot Rider ya está cargado** en PS5, PS4 y Xbox; la eShop no tiene la de Switch 2. **Nobunaga Oda den queda afuera**: la PS Store avisa que el texto es sólo en japonés |
   | Station to Station (Switch 2) | 26 de noviembre (Gematsu, 12/11) | Cargado en PS5, que ya tiene el día. La eShop todavía no lista la de Switch 2: sumarla cuando aparezca |
   | Commandos: Origins (Switch 2) · Forest Escape: Last Train (PS5) · Lucky Luke: The Lonesome Cowboy Collection | 15 de diciembre, sin fecha y sin fecha (Gematsu, 12-13/11) | La eShop de América no tiene Commandos; Forest Escape y Lucky Luke figuran en las tiendas sin día. Wolfenstein 3 va como noticia hasta que tenga año |
+  | Netcode Warriors (PS5) · Girls und Panzer Hakunetsu! Mahjong Tag Battle Desu! | 2027 sin fecha y sin fecha (Gematsu, 14-15/11) | Netcode Warriors todavía no tiene trimestre; el de Girls und Panzer es un mahjong anunciado sólo para Japón |
   | Next Week on Xbox del 16 al 20/11 | — | Fuera por relleno: Unicorn Academy, Dark Rail, Vice: Magic City Mayhem, Time Machine: Hidden Objects, Cats in Wonderland, Drill Drill Drill, Geo Book, ReactorX 4, Ritebound y Tanks Sweet Tanks |
   | Renai, Hajimemashite · Sakuna Chronicles | 25/03/2027 sólo en Japón y sin fecha (Gematsu, 12/11) | Novela visual sólo para Japón; Sakuna Chronicles sólo tiene teasers |
   | Crystals of Irm · Shade of the Marionette | 21/01/2027 y sin fecha (Gematsu, 10-11/11) | Crystals of Irm sale sólo en PC; Shade of the Marionette sólo tiene tráiler, sin consolas ni fecha |

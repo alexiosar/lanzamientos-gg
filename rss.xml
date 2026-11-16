@@ -6,7 +6,21 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 13 Nov 2026 19:14:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 13:37:25 +0000</lastBuildDate>
+    <item>
+      <title>MINECRAFT DUNGEONS II: THE HUMBLERS AWAKEN LLEGA EL 1 DE DICIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/minecraft-dungeons-2</link>
+      <guid isPermaLink="false">minecraft-dungeons-2-2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Xbox anunció que The Humblers Awaken, contenido nuevo para el juego, sale el 1 de diciembre. — MINECRAFT DUNGEONS II para SWITCH / XBOX / SWITCH 2 / PS5.</description>
+    </item>
+    <item>
+      <title>DERELIKT: SALIÓ CON 79 EN METACRITIC</title>
+      <link>https://lanzamientos.lat/juegos/derelikt</link>
+      <guid isPermaLink="false">derelikt-2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Salió el 13 de noviembre en PS5 y Xbox Series. Tiene 79 sobre cinco reseñas de la versión de PC. — DERELIKT para PS5 / XBOX.</description>
+    </item>
     <item>
       <title>MOOMIN: MIDSUMMER MADNESS: DEBUTÓ CON 68 EN METACRITIC</title>
       <link>https://lanzamientos.lat/juegos/moomin-midsummer-madness</link>
@@ -276,20 +290,6 @@ Deluxe agrega dos juegos más: el clásico Soul Reaver 2, de la saga Legacy of K
       <guid isPermaLink="false">lets-sing-2027-2026-11-09</guid>
       <pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
       <description>Tiene 71 sobre cuatro reseñas de la versión de PS5, que la PS Store tiene a la venta desde el 3 de noviembre, el mismo día que en Switch. — LET'S SING 2027 para SWITCH 2 / SWITCH / PS5.</description>
-    </item>
-    <item>
-      <title>DEMONS' NIGHT FEVER: DEBUTA CON 59 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/demons-night-fever</link>
-      <guid isPermaLink="false">demons-night-fever-2026-11-09</guid>
-      <pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Tiene 59 sobre cuatro reseñas de la versión de PC, que van de 40 a 70. — DEMONS' NIGHT FEVER para PS5 / SWITCH.</description>
-    </item>
-    <item>
-      <title>HOZY: SALIÓ HOY EN PS5 Y XBOX</title>
-      <link>https://lanzamientos.lat/juegos/hozy</link>
-      <guid isPermaLink="false">hozy-2026-11-09</guid>
-      <pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Llegó a consolas el 9 de noviembre, anunciado en el blog de PlayStation y en el resumen semanal de Xbox. En PC salió en marzo. — HOZY para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

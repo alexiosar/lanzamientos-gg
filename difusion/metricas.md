@@ -126,6 +126,7 @@ Ninguno de los dos hace que Google indexe más páginas de golpe.
 | 09/11/2026 | **La descripción de cada ficha arranca con la fecha y las consolas** ("Ova Magica sale el 10 de noviembre de 2026 en PS5, Switch…") y **575 fichas enlazan a su página de mes**. Mirar el CTR de las fichas y las impresiones de las páginas de mes |
 | 10/11/2026 | **Breadcrumbs en fichas y páginas de mes** (Lanzamientos › Noviembre 2026 › Juego). Mirar en el informe de mejoras de Search Console que aparezcan sin errores y si el CTR de las fichas sube |
 | 10/11/2026 | **Las fichas dejan de bajar el archivo de datos completo** (287 KB comprimido menos por visita) y **408 fichas enlazan a las páginas de su consola en ese mes** (804 enlaces). Mirar las impresiones de "juegos de ps5/switch/xbox + mes" y las de las páginas de consola y mes |
+| 16/11/2026 | **Se sacan los 804 enlaces de las fichas a las páginas de consola y mes**: esas páginas tienen `noindex` desde el 05/10 y no se habían tenido en cuenta. Queda el archivo más liviano del mismo día |
 
 Además, a lo largo de septiembre la rutina diaria sumó críticas y noticias a los estrenos del
 día. Al 31/08 había 131 fichas con noticias y 103 con resumen de crítica; al 16/09 son 174 y

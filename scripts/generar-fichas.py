@@ -19,8 +19,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from comun import (MINIMO_MES, PLATS, cargar_juegos, ficha_flaca, leer_noticias_propias, migas_ld,
-                   paginas_plataforma_mes, plat, ruta_plataforma_mes, titulo as titulo_normal)
+from comun import (MINIMO_MES, cargar_juegos, ficha_flaca, leer_noticias_propias, migas_ld, plat,
+                   titulo as titulo_normal)
 import plantilla
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -236,7 +236,7 @@ def bloque_rel(titulo, items):
       </div>'''
 
 
-def generar(j, juegos, meses=None, hoy=None, plat_meses=None):
+def generar(j, juegos, meses=None, hoy=None):
     gid = j["id"]
     y, m, d = map(int, j["fecha"].split("-"))
     estimado = bool(j.get("estimado"))
@@ -422,20 +422,6 @@ def generar(j, juegos, meses=None, hoy=None, plat_meses=None):
     migas = ([(f"{MESES_ES[m-1].title()} {y}", mes_ruta)] if mes_ruta else []) + \
         [(titulo_normal(j), f"/juegos/{gid}")]
 
-    # Las páginas de su consola en ese mes ("juegos de PS5 que salen en noviembre"), las
-    # que existan: es una búsqueda real y hasta el 10/11/2026 casi ninguna ficha las
-    # enlazaba. Mismo criterio que el enlace al mes: sólo con día confirmado.
-    if plat_meses is None:
-        plat_meses = paginas_plataforma_mes(juegos)
-    mk = f"{y}-{m:02d}"
-    plats_mes = [] if estimado else [p for p in PLATS if p in j["plataformas"] and (p, mk) in plat_meses]
-    plats_mes_html = f'''
-      <div class="seccion">
-        <div class="seccion-titulo">{MESES_ES[m-1]} {y} POR CONSOLA</div>
-        <p class="ficha-plats-mes">{" ".join(
-            f'<a class="filtro-btn" href="{ruta_plataforma_mes(p, mk)}">JUEGOS DE {PLATS[p].upper()} EN {MESES_ES[m-1]}</a>'
-            for p in plats_mes)}</p>
-      </div>''' if plats_mes else ""
 
     # Lo único que el JavaScript de la ficha necesita del juego (compartir y agendar).
     # Hasta el 10/11/2026 cada ficha bajaba datos/juegos.js entero —287 KB comprimido,
@@ -611,7 +597,7 @@ def generar(j, juegos, meses=None, hoy=None, plat_meses=None):
         <div class="seccion-titulo">TAGS</div>
         <div class="ficha-tags">{tags_html}</div>
       </div>
-{trailer_html}{gameplay_html}{rel_html}{plats_mes_html}
+{trailer_html}{gameplay_html}{rel_html}
     </div>
   </main>
 
@@ -723,12 +709,11 @@ def generar(j, juegos, meses=None, hoy=None, plat_meses=None):
 def main():
     juegos = cargar_juegos()
     meses = meses_con_pagina(juegos)
-    plat_meses = paginas_plataforma_mes(juegos)
     hoy = datetime.date.today().isoformat()
     destino = RAIZ / "juegos"
     generadas = 0
     for j in juegos:
-        (destino / f'{j["id"]}.html').write_text(generar(j, juegos, meses, hoy, plat_meses), encoding="utf-8")
+        (destino / f'{j["id"]}.html').write_text(generar(j, juegos, meses, hoy), encoding="utf-8")
         generadas += 1
     # limpiar fichas de juegos que ya no existen
     #

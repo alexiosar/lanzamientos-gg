@@ -2,76 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-13T19:14:07+00:00",
+ "generado": "2026-11-16T13:37:25+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-13",
- "hasta": "2026-12-13",
- "total": 42,
+ "desde": "2026-11-16",
+ "hasta": "2026-12-16",
+ "total": 41,
  "juegos": [
-  {
-   "id": "leaf-blower-co",
-   "titulo": "LEAF BLOWER CO.",
-   "fecha": "2026-11-13",
-   "relanzamiento": "En PC desde noviembre de 2025",
-   "duracion": "≈ 4,2 h (historia) · 8,2 h (completo)",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SIMULACION",
-    "RELAX",
-    "CASUAL"
-   ],
-   "desarrollador": "LIFT GAMES",
-   "descripcion": "Un simulador de trabajo relajado: se soplan hojas para hacer crecer un negocio de jardinería, se compran herramientas nuevas y se desbloquean mejoras mientras las hojas vuelan por el aire.",
-   "trailer": "https://youtube.com/embed/0pZ1Y35y7bk",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3571710/cb42aa149410ca366acbc7f512ee1b7a15a92427/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-30",
-   "url": "https://lanzamientos.lat/juegos/leaf-blower-co",
-   "noticias": [
-    {
-     "fecha": "2026-10-30",
-     "titulo": "LLEGA A PS5 Y XBOX EL 13 DE NOVIEMBRE",
-     "texto": "Forklift Interactive le puso día a la versión de consolas, que se había anunciado en el IGN Live."
-    }
-   ]
-  },
-  {
-   "id": "derelikt",
-   "titulo": "DERELIKT",
-   "fecha": "2026-11-13",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SHOOTER",
-    "FPS",
-    "HORROR",
-    "RETRO"
-   ],
-   "desarrollador": "VISUWYG",
-   "descripcion": "Un FPS narrativo de terror y ciencia ficción con el aspecto de un juego de fines de PS1. Se llega como contratista externo al Puesto Von Neumann, montado sobre un asteroide extraño en la órbita de Saturno, para averiguar qué le pasó a un equipo de excavación que desapareció en la superficie. Pasillos estrechos, poca munición y un dron misterioso que tiene a todos al borde.",
-   "trailer": "https://youtube.com/embed/TTugbawfiN8",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3810510/2728f0a55f1f55e0212425862181ef79b1617a6d/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-03",
-   "url": "https://lanzamientos.lat/juegos/derelikt",
-   "noticias": [
-    {
-     "fecha": "2026-11-03",
-     "titulo": "SALE EL 13 DE NOVIEMBRE",
-     "texto": "Hyperstrange lo anunció en el blog de PlayStation para PS5, y la tienda de Xbox lo tiene para el mismo día. También sale en PC."
-    }
-   ]
-  },
   {
    "id": "spirit-crossing",
    "titulo": "SPIRIT CROSSING",
@@ -120,6 +57,8 @@
    "descripcion": "Una aventura de acción en 2D y pixel art que cuenta la juventud de Kratos, antes de ser dios, durante el duro entrenamiento espartano junto a su hermano Deimos. Cuando un compañero cadete desaparece, los dos salen a buscarlo por niveles variados con combates, puzzles del entorno y jefes mitológicos, al estilo de un metroidvania. Se juega solo o de a dos en la misma consola. Lo hizo Mega Cat Studios con Santa Monica Studio.",
    "trailer": "https://youtube.com/embed/eFhOo6NTt70",
    "metacritic": 64,
+   "metacriticUsuarios": 6.0,
+   "metacriticVotos": 902,
    "critica": "El puntaje y las reseñas son de la versión de PS5 de febrero. Lo ven como un metroidvania correcto, con combate enérgico, buenas peleas contra jefes, mucho contenido y una historia de hermanos que muestra otra cara de Kratos. Los reparos: juega demasiado a lo seguro, la exploración se hace pesada, tarda en levantar y el cambio de tono puede no convencer a los fans de la saga.",
    "metacriticSlug": "god-of-war-sons-of-sparta",
    "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202602/0618/213fb06ade46c1d0d6d3ba2c54c4020b451512e0c7a0e3b5.jpg",
@@ -1339,6 +1278,35 @@
      "fecha": "2026-11-13",
      "titulo": "SALE EL 10 DE DICIEMBRE EN CONSOLAS",
      "texto": "Llega a PS5, Switch 2 y Switch el 10 de diciembre, y la PS Store y la eShop de América ya lo tienen con fecha. En PC salió en mayo."
+    }
+   ]
+  },
+  {
+   "id": "silver-palace",
+   "titulo": "SILVER PALACE",
+   "fecha": "2026-12-14",
+   "plataformas": [
+    "PS5"
+   ],
+   "genero": [
+    "ACCION",
+    "RPG",
+    "MUNDO ABIERTO"
+   ],
+   "desarrollador": "SILVER STUDIO",
+   "descripcion": "Un RPG de acción de mundo abierto y gratuito, con combates rápidos de estilo animé y misterios en un mundo de aire victoriano.",
+   "trailer": "https://youtube.com/embed/HdbINn5ciIs",
+   "metacritic": null,
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/cocikv.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-01",
+   "url": "https://lanzamientos.lat/juegos/silver-palace",
+   "noticias": [
+    {
+     "fecha": "2026-11-01",
+     "titulo": "SALE EL 14 DE DICIEMBRE",
+     "texto": "Elementa anunció la salida mundial para el 14 de diciembre en PS5, PC y celulares. Es gratuito."
     }
    ]
   }
