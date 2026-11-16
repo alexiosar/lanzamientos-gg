@@ -58,6 +58,26 @@ un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las
 cambia por pedir otras. **Pedidas el 11/11:** las once primeras (de PS Plus a Aeruta); quedan
 Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
+## Día 12 (desde el 16/11)
+
+Con diciembre cubierto, la ventana se corre a enero de 2027. Primero las cinco fichas de enero
+creadas después del 24/09, que seguro no están indexadas; después Whirlight, que cambió de fecha
+el 06/11, y las fichas de enero más buscadas que se cargaron antes del 24/09 (ésas pueden estar
+ya en Google: si la inspección lo dice, se saltean). Las exportaciones de cobertura del 13/11 ya
+no estaban en Descargas, así que este orden sale de la fecha de alta y no del estado real.
+
+- [ ] https://lanzamientos.lat/juegos/forza-horizon-6-ps5
+- [ ] https://lanzamientos.lat/juegos/witchbrook
+- [ ] https://lanzamientos.lat/juegos/everything-is-crab
+- [ ] https://lanzamientos.lat/juegos/sturmjager
+- [ ] https://lanzamientos.lat/juegos/hollow-home
+- [ ] https://lanzamientos.lat/juegos/whirlight-no-time-to-trip
+- [ ] https://lanzamientos.lat/juegos/until-dawn-2
+- [ ] https://lanzamientos.lat/juegos/stranger-than-heaven
+- [ ] https://lanzamientos.lat/juegos/danganronpa-2x2
+- [ ] https://lanzamientos.lat/juegos/fate-extra-record
+- [ ] https://lanzamientos.lat/juegos/tropico-7
+
 ## Día 11 (desde el 13/11)
 
 Rehecha con el cruce de cobertura del 13/11 (ver `metricas.md`): todas las fichas de juegos que
@@ -65,17 +85,17 @@ salen entre el 14/11 y fin de diciembre que no estaban indexadas ni pedidas. Son
 quedaban en esa ventana. Las de juegos ya lanzados (Moomin, Barbie Rewind, 9 R.I.P. Sequel) se
 sacaron: los de noviembre ya figuran indexados.
 
-- [ ] https://lanzamientos.lat/juegos/god-of-war-sons-of-sparta-ps4
-- [ ] https://lanzamientos.lat/juegos/spirit-crossing
-- [ ] https://lanzamientos.lat/juegos/moonlight-peaks-ps5
-- [ ] https://lanzamientos.lat/juegos/gothic-3-classic
-- [ ] https://lanzamientos.lat/juegos/the-last-cat-in-the-universe-xbox
-- [ ] https://lanzamientos.lat/juegos/luma-island
-- [ ] https://lanzamientos.lat/juegos/the-great-villainess-strategy-of-lily
-- [ ] https://lanzamientos.lat/juegos/remothered-red-nuns-legacy-switch-2
-- [ ] https://lanzamientos.lat/juegos/the-dark-queen-of-mortholme
-- [ ] https://lanzamientos.lat/juegos/guns-of-eschaton
-- [ ] https://lanzamientos.lat/juegos/shikhondo-blue-pieta
+- [x] https://lanzamientos.lat/juegos/god-of-war-sons-of-sparta-ps4 (13/11)
+- [x] https://lanzamientos.lat/juegos/spirit-crossing (13/11)
+- [x] https://lanzamientos.lat/juegos/moonlight-peaks-ps5 (13/11)
+- [x] https://lanzamientos.lat/juegos/gothic-3-classic (13/11)
+- [x] https://lanzamientos.lat/juegos/the-last-cat-in-the-universe-xbox (13/11)
+- [x] https://lanzamientos.lat/juegos/luma-island (13/11)
+- [x] https://lanzamientos.lat/juegos/the-great-villainess-strategy-of-lily (13/11)
+- [x] https://lanzamientos.lat/juegos/remothered-red-nuns-legacy-switch-2 (13/11)
+- [x] https://lanzamientos.lat/juegos/the-dark-queen-of-mortholme (13/11)
+- [x] https://lanzamientos.lat/juegos/guns-of-eschaton (13/11)
+- [x] https://lanzamientos.lat/juegos/shikhondo-blue-pieta (13/11)
 
 ## Día 10 (desde el 12/11)
 
