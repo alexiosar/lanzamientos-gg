@@ -65,20 +65,26 @@ segunda tanda: se pide aunque esté en Google) y Hela, que pasó a Game Pass. De
 juegos de diciembre cargadas antes del 24/09 que nunca se pidieron: muchas ya deben estar en
 Google, así que se inspeccionan y se saltean las que lo estén.
 
-- [ ] https://lanzamientos.lat/juegos/ys-viii-lacrimosa-of-dana-switch-2
-- [ ] https://lanzamientos.lat/juegos/machine-party
-- [ ] https://lanzamientos.lat/game-pass-noviembre-2026
-- [ ] https://lanzamientos.lat/juegos/hela-of-mice-and-magic
-- [ ] https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure
-- [ ] https://lanzamientos.lat/juegos/edge-of-memories
-- [ ] https://lanzamientos.lat/juegos/rayman-legends-retold
-- [ ] https://lanzamientos.lat/juegos/thief-the-dark-project-remastered
-- [ ] https://lanzamientos.lat/juegos/xenoblade-chronicles-3-switch-2
-- [ ] https://lanzamientos.lat/juegos/dragon-quest-monsters-the-withered-world
-- [ ] https://lanzamientos.lat/juegos/sombras-negative-frames
-- [ ] https://lanzamientos.lat/juegos/attack-on-titan-3
-- [ ] https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor
-- [ ] https://lanzamientos.lat/juegos/stage-tour
+- [x] https://lanzamientos.lat/juegos/ys-viii-lacrimosa-of-dana-switch-2 (17/11)
+- [x] https://lanzamientos.lat/juegos/machine-party (17/11)
+- [x] https://lanzamientos.lat/game-pass-noviembre-2026 (17/11)
+- [x] https://lanzamientos.lat/juegos/hela-of-mice-and-magic (17/11)
+- [x] https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure (17/11)
+- [x] https://lanzamientos.lat/juegos/edge-of-memories (ya en Google al 17/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/rayman-legends-retold (ya en Google al 17/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/thief-the-dark-project-remastered (ya en Google al 17/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/xenoblade-chronicles-3-switch-2 (ya en Google al 17/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/dragon-quest-monsters-the-withered-world (ya en Google al 17/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/sombras-negative-frames (ya en Google al 17/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/attack-on-titan-3 (ya en Google al 17/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor (ya en Google al 17/11, no se pidió)
+- [x] https://lanzamientos.lat/juegos/stage-tour (ya en Google al 17/11, no se pidió)
+
+**Resultado:** las nueve fichas de diciembre cargadas antes del 24/09 ya estaban en Google, igual
+que cinco de las seis de enero del 16/11. Las fichas de juegos por salir que se cargaron antes del
+24/09 están indexadas: **desde ahora las listas llevan sólo fichas nuevas** (alta desde el 24/09),
+páginas que cambiaron entera y fichas que cambiaron de fecha. Con todo lo nuevo hasta febrero ya
+pedido, el cupo que sobre no se gasta en fichas viejas.
 
 ## Día 12 (desde el 16/11)
 
