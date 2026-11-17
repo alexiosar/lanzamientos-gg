@@ -283,7 +283,7 @@ const SUSCRIPCIONES = [
   {
     servicio: "gamepass",
     mes: "2026-11",
-    intro: "Lo más fuerte de Game Pass en noviembre son los estrenos del primer día: Football Manager 27 el 3 en PC y el 10 en consolas, Escape Academy 2: Back 2 School el 5, Warhammer Survivors y Tanuki: Pon's Summer el 10, y Hope in the City el 11. Void/Breaker deja el Game Preview el 4, Thronefall llega a Xbox el 11 y Aphelion, de Don't Nod, suma Premium el 17. El 15 entran a Essential ocho clásicos, de Banjo-Kazooie y Perfect Dark a Viva Piñata, y se van 1000xResist, GoldenEye 007, Dragon Ball Xenoverse 2 y Wreckfest, entre otros.",
+    intro: "Lo más fuerte de Game Pass en noviembre son los estrenos del primer día: Football Manager 27 el 3 en PC y el 10 en consolas, Escape Academy 2: Back 2 School el 5, Warhammer Survivors y Tanuki: Pon's Summer el 10, y Hope in the City el 11. Void/Breaker deja el Game Preview el 4, Thronefall llega a Xbox el 11 y Aphelion, de Don't Nod, suma Premium el 17. El 15 entran a Essential ocho clásicos, de Banjo-Kazooie y Perfect Dark a Viva Piñata, y se van 1000xResist, GoldenEye 007, Dragon Ball Xenoverse 2 y Wreckfest, entre otros. La segunda tanda suma Paw Patrol: Dino World, Sniper Ghost Warrior Contracts 2 el 24, Arkheron el 27 y, el 1 de diciembre, The Outlast Trials y Hela: of Mice & Magic, que entra el día que sale.",
     tandas: [
       {
         nombre: "PRIMERA TANDA DE NOVIEMBRE",
@@ -481,6 +481,91 @@ const SUSCRIPCIONES = [
             entra: null,
             texto: "La secuela de 2008, con más especies y excursiones fuera del jardín para atraparlas.",
             imagen: "https://store-images.s-microsoft.com/image/apps.13926.69467662407886849.eb318d40-1e77-4848-b633-b9ee445d2f63.c32b9b59-01cd-43fd-b374-d60e0217acb2?w=600&h=900&format=jpg"
+          }
+        ]
+      },
+      {
+        nombre: "SEGUNDA TANDA DE NOVIEMBRE",
+        detalle: "Anunciada el 17 de noviembre. Salvo que se aclare otra cosa, cada juego entra a Ultimate, Premium y PC Game Pass. El 30 se van Aliens: Dark Descent, Banishers: Ghosts of New Eden, Gabby's Dollhouse: Ready to Party, Generation Zero, Kill It With Fire! 2, Moving Out 2, Star Trucker y Totally Reliable Delivery Service.",
+        anunciado: "2026-11-17",
+        fuente: "https://news.xbox.com/en-us/2026/11/17/xbox-game-pass-november-2026-wave-2/",
+        juegos: [
+          {
+            titulo: "Paw Patrol: Dino World",
+            id: "paw-patrol-dino-world",
+            plataformas: ["XBOX", "PC"],
+            entra: null,
+            texto: "Ya disponible. Una aventura de Paw Patrol en la Isla Dino: se rescatan dinosaurios y se superan obstáculos con las habilidades de cada cachorro, solo o en cooperativo para dos."
+          },
+          {
+            titulo: "Call of the Elder Gods",
+            id: null,
+            plataformas: ["XBOX", "PC"],
+            entra: "2026-11-18",
+            texto: "Una aventura de puzzles lovecraftiana, secuela de Call of the Sea, que lleva a los rincones más lejanos del mundo detrás de horrores antiguos.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.5422.14206254537148158.e93ed201-c1eb-4f42-89ea-0d9ad5b233de.8eebdb4b-de0e-4c42-a01b-347e594b69ed?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "High on Life 2",
+            id: "high-on-life-2",
+            plataformas: ["XBOX", "PC"],
+            entra: "2026-11-18",
+            texto: "La secuela del shooter de humor de Squanch Games, con armas alienígenas que hablan, que salió en julio."
+          },
+          {
+            titulo: "Roadside Research (Game Preview)",
+            id: null,
+            plataformas: ["XBOX", "PC"],
+            entra: "2026-11-18",
+            texto: "En acceso anticipado. Alienígenas que atienden una estación de servicio para estudiar a los humanos sin levantar sospechas, solo o con hasta cuatro jugadores.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.5635.14201145446258372.6505701a-9e34-4340-9a72-11d5e60dd04f.399a6df9-976b-4ae5-9b51-b6531f5d5e32?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Black Jacket",
+            id: null,
+            plataformas: ["XBOX", "PC"],
+            entra: "2026-11-19",
+            texto: "Blackjack en un purgatorio, de la editora de Tiny Bookshop: almas en pena apuestan sus monedas y hacer trampa está más que permitido.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.58955.14405259644338008.f21b8d19-b15c-4c53-8317-578bc22237ab.bc677eca-50dd-4529-99bd-9e2ceaee798a?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Motorslice",
+            id: null,
+            plataformas: ["XBOX", "PC"],
+            entra: "2026-11-24",
+            texto: "Acción y parkour por las ruinas de una megaestructura brutalista, escalando jefes gigantes que son máquinas de construcción vivas.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.19220.14466459603902368.94000ad1-2280-40cc-85d1-f09f87b75c3f.131b996c-ba0c-43dd-8cea-1e1b8bbb0d58?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Sniper Ghost Warrior Contracts 2",
+            id: null,
+            plataformas: ["XBOX", "PC"],
+            entra: "2026-11-24",
+            texto: "Shooter de francotirador en Medio Oriente, con disparos a más de mil metros.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.26838.14403486953530579.8b4d5859-c0ba-42f4-a4b1-7157a546eaa8.89013b87-c493-4a18-9bd4-700b28776012?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Arkheron (Game Preview)",
+            id: null,
+            plataformas: ["XBOX", "PC"],
+            entra: "2026-11-27",
+            texto: "Entra el día que sale, en acceso anticipado. Acción PvP para equipos de tres que suben una torre misteriosa, donde los objetos definen las habilidades de cada jugador. Sólo Ultimate y PC.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.7462.14207820980714950.9f951679-7f41-4ae7-868c-b2570f15edde.d11f27e6-b37b-4e38-8618-b1f52585586d?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "The Outlast Trials",
+            id: null,
+            plataformas: ["XBOX", "PC"],
+            entra: "2026-12-01",
+            texto: "Terror en primera persona: conejillos de indias de la corporación Murkoff sobreviven a experimentos de control mental, solos o en cooperativo.",
+            imagen: "https://store-images.s-microsoft.com/image/apps.39196.13759164993259851.afe3e81c-3f73-456d-8531-4dcf681989bc.32da26ec-0ccb-4a9d-a041-1eb79584da9c?w=600&h=900&format=jpg"
+          },
+          {
+            titulo: "Hela: of Mice & Magic",
+            id: "hela-of-mice-and-magic",
+            plataformas: ["XBOX", "PC"],
+            entra: "2026-12-01",
+            texto: "Entra el día que sale. Una aventura cooperativa en 3D con una ratoncita valiente, entre paisajes inspirados en el norte de Suecia. Sólo Ultimate y PC."
           }
         ]
       }

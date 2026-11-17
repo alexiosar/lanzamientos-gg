@@ -58,6 +58,28 @@ un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las
 cambia por pedir otras. **Pedidas el 11/11:** las once primeras (de PS Plus a Aeruta); quedan
 Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
+## Día 13 (desde el 17/11)
+
+Ys VIII (quedó del 16/11 por cupo), Machine Party (nueva), `/game-pass-noviembre-2026` (sumó la
+segunda tanda: se pide aunque esté en Google) y Hela, que pasó a Game Pass. Después, fichas de
+juegos de diciembre cargadas antes del 24/09 que nunca se pidieron: muchas ya deben estar en
+Google, así que se inspeccionan y se saltean las que lo estén.
+
+- [ ] https://lanzamientos.lat/juegos/ys-viii-lacrimosa-of-dana-switch-2
+- [ ] https://lanzamientos.lat/juegos/machine-party
+- [ ] https://lanzamientos.lat/game-pass-noviembre-2026
+- [ ] https://lanzamientos.lat/juegos/hela-of-mice-and-magic
+- [ ] https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure
+- [ ] https://lanzamientos.lat/juegos/edge-of-memories
+- [ ] https://lanzamientos.lat/juegos/rayman-legends-retold
+- [ ] https://lanzamientos.lat/juegos/thief-the-dark-project-remastered
+- [ ] https://lanzamientos.lat/juegos/xenoblade-chronicles-3-switch-2
+- [ ] https://lanzamientos.lat/juegos/dragon-quest-monsters-the-withered-world
+- [ ] https://lanzamientos.lat/juegos/sombras-negative-frames
+- [ ] https://lanzamientos.lat/juegos/attack-on-titan-3
+- [ ] https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor
+- [ ] https://lanzamientos.lat/juegos/stage-tour
+
 ## Día 12 (desde el 16/11)
 
 Con diciembre cubierto, la ventana se corre a enero de 2027. Primero las cinco fichas de enero

@@ -55,6 +55,25 @@
 
 const NOTICIAS = [
   {
+    id: "game-pass-noviembre-2026-segunda-tanda",
+    fecha: "2026-11-17",
+    categoria: "SUSCRIPCIONES",
+    titulo: "GAME PASS SUMA THE OUTLAST TRIALS, SNIPER GHOST WARRIOR CONTRACTS 2 Y HELA EL DÍA QUE SALE",
+    texto: "Xbox anunció la segunda tanda de noviembre. Hoy entra Paw Patrol: Dino World; el 24, Sniper Ghost Warrior Contracts 2; el 27, Arkheron en acceso anticipado y el día que sale, y el 1 de diciembre The Outlast Trials y Hela: of Mice & Magic, también de estreno. Entre el 18 y el 24 se suman High on Life 2, Call of the Elder Gods, Black Jacket y Motorslice.\n\nEl 30 se van Aliens: Dark Descent, Banishers: Ghosts of New Eden, Moving Out 2 y Star Trucker, entre otros.",
+    fuente: "https://news.xbox.com/en-us/2026/11/17/xbox-game-pass-november-2026-wave-2/",
+    juegos: ["paw-patrol-dino-world", "high-on-life-2", "hela-of-mice-and-magic"],
+    pagina: "/game-pass-noviembre-2026"
+  },
+  {
+    id: "firaxis-despidos-noviembre-2026",
+    fecha: "2026-11-17",
+    categoria: "ANUNCIOS",
+    titulo: "FIRAXIS, EL ESTUDIO DE CIVILIZATION Y XCOM, DESPIDE A UN TERCIO DE SU GENTE",
+    texto: "Firaxis Games, el estudio de 2K detrás de las sagas Civilization y XCOM, despidió a cerca de un tercio de su plantel.\n\nNo tenía ningún juego con fecha en el calendario.",
+    fuente: "https://www.gematsu.com/2026/11/firaxis-games-lays-off-a-third-of-staff",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/library_600x900_2x.jpg"
+  },
+  {
     id: "wolfenstein-3-anunciado",
     fecha: "2026-11-12",
     categoria: "ANUNCIOS",

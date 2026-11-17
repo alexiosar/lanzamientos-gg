@@ -2,78 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-16T13:37:25+00:00",
+ "generado": "2026-11-17T17:16:15+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-16",
- "hasta": "2026-12-16",
- "total": 41,
+ "desde": "2026-11-17",
+ "hasta": "2026-12-17",
+ "total": 40,
  "juegos": [
-  {
-   "id": "spirit-crossing",
-   "titulo": "SPIRIT CROSSING",
-   "fecha": "2026-11-16",
-   "plataformas": [
-    "SWITCH",
-    "SWITCH2"
-   ],
-   "genero": [
-    "SIMULACION",
-    "MULTIJUGADOR",
-    "RELAX"
-   ],
-   "desarrollador": "SPRY FOX",
-   "descripcion": "Un simulador de vida multijugador masivo, de los creadores de Cozy Grove, que transcurre por encima de las nubes. Se planea entre nubes pastel, se ayuda a espíritus perdidos, se diseña una casa en la cima de una montaña y se hace comunidad con otros jugadores, alrededor de una fogata o pescando en el cielo.",
-   "trailer": "https://youtube.com/embed/8PJE7G4oDgY",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2321960/5cc8d9807304faf1fb446b929d645243733bc3bc/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-28",
-   "url": "https://lanzamientos.lat/juegos/spirit-crossing",
-   "noticias": [
-    {
-     "fecha": "2026-10-28",
-     "titulo": "SALE EL 16 DE NOVIEMBRE",
-     "texto": "Se anunció en el Indie World de Nintendo: llega a Switch 2 y Switch el 16 de noviembre, el mismo día que en PC. Entre las consolas, es exclusivo de Nintendo."
-    }
-   ]
-  },
-  {
-   "id": "god-of-war-sons-of-sparta-ps4",
-   "titulo": "GOD OF WAR SONS OF SPARTA",
-   "fecha": "2026-11-16",
-   "relanzamiento": "En PS5 desde febrero de 2026 — esta fecha corresponde a la versión de PS4",
-   "plataformas": [
-    "PS4"
-   ],
-   "genero": [
-    "ACCION",
-    "PLATAFORMA",
-    "AVENTURA",
-    "RETRO"
-   ],
-   "desarrollador": "MEGA CAT STUDIOS",
-   "descripcion": "Una aventura de acción en 2D y pixel art que cuenta la juventud de Kratos, antes de ser dios, durante el duro entrenamiento espartano junto a su hermano Deimos. Cuando un compañero cadete desaparece, los dos salen a buscarlo por niveles variados con combates, puzzles del entorno y jefes mitológicos, al estilo de un metroidvania. Se juega solo o de a dos en la misma consola. Lo hizo Mega Cat Studios con Santa Monica Studio.",
-   "trailer": "https://youtube.com/embed/eFhOo6NTt70",
-   "metacritic": 64,
-   "metacriticUsuarios": 6.0,
-   "metacriticVotos": 902,
-   "critica": "El puntaje y las reseñas son de la versión de PS5 de febrero. Lo ven como un metroidvania correcto, con combate enérgico, buenas peleas contra jefes, mucho contenido y una historia de hermanos que muestra otra cara de Kratos. Los reparos: juega demasiado a lo seguro, la exploración se hace pesada, tarda en levantar y el cambio de tono puede no convencer a los fans de la saga.",
-   "metacriticSlug": "god-of-war-sons-of-sparta",
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202602/0618/213fb06ade46c1d0d6d3ba2c54c4020b451512e0c7a0e3b5.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-13",
-   "url": "https://lanzamientos.lat/juegos/god-of-war-sons-of-sparta-ps4",
-   "noticias": [
-    {
-     "fecha": "2026-11-13",
-     "titulo": "LLEGA A PS4 EL 16 DE NOVIEMBRE",
-     "texto": "Sony anunció la versión de PS4 para el 16, junto con una actualización gratuita de contenido para las dos consolas. En PS5 salió en febrero."
-    }
-   ]
-  },
   {
    "id": "rangers-path-national-park-simulator",
    "titulo": "RANGER'S PATH: NATIONAL PARK SIMULATOR",
@@ -152,13 +87,20 @@
    "desarrollador": "STARBREW GAMES",
    "descripcion": "Una aventura tranquila en el espacio, en la piel de un pato que camina y vuela por la galaxia. Se exploran planetas, se encuentran criaturas curiosas y materiales, se fabrican aparatos y se mejora la nave, sin apuro.",
    "trailer": "https://youtube.com/embed/0bFlFEC77zg",
-   "metacritic": null,
+   "metacritic": 73,
+   "metacriticUsuarios": null,
+   "critica": "Las reseñas son de la versión de PC de mayo. Lo describen como una aventura espacial tranquila y tierna, una mezcla de juego relajado y recolección a la vieja usanza, con un pato astronauta que hay que querer, humor tonto y algún momento que emociona. Los reparos: dura muy poco, es fácil y el humor a veces se fuerza.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2959770/177dcf703b1af06dba8bb6de5f31fd99078b4bf2/library_capsule_2x.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-11-03",
    "url": "https://lanzamientos.lat/juegos/duck-side-of-the-moon",
    "noticias": [
+    {
+     "fecha": "2026-11-17",
+     "titulo": "LLEGÓ A PS5 CON 73 EN METACRITIC",
+     "texto": "Salió hoy en PS5. La versión de PC de mayo tiene 73 sobre siete reseñas."
+    },
     {
      "fecha": "2026-11-03",
      "titulo": "LLEGA A PS5 EL 17 DE NOVIEMBRE",
@@ -183,13 +125,21 @@
    "desarrollador": "HYPERGRYPH",
    "descripcion": "Una aventura de plataformas cooperativa de los creadores de Arknights. Un grupo de aventureros llega a un planeta desconocido y tiene que devolverle los colores: todo gira alrededor de cambiar de color para activar mecanismos y de disparar gelatina de colores para combinar tres y derrotar enemigos. Hay objetos especiales que dan poderes, como bombas o barreras, desafíos pensados para resolver en equipo y mucha ropa para personalizar al personaje.",
    "trailer": "https://youtube.com/embed/aIgoMJcXCzA",
-   "metacritic": null,
+   "metacritic": 83,
+   "metacriticUsuarios": 7.9,
+   "metacriticVotos": 15,
+   "critica": "El puntaje y las reseñas son de la versión de PC de 2025. Lo celebran como uno de los cooperativos más divertidos y originales de los últimos tiempos: mezcla plataformas, puzzles, disparos y combinar colores de a tres en un mundo precioso, con desafíos que obligan a coordinarse y una dificultad bien medida. Los reparos: algunas partes confunden, le falta botón para correr y el modo fiesta se agota rápido.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2543180/672790a9ec0ad29c3a2d7a8879282217dbcde09e/library_600x900_2x.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-11-04",
    "url": "https://lanzamientos.lat/juegos/popucom",
    "noticias": [
+    {
+     "fecha": "2026-11-17",
+     "titulo": "LLEGÓ A PS5 CON 83 EN METACRITIC",
+     "texto": "Salió hoy en PS5. La versión de PC del año pasado tiene 83 sobre diez reseñas."
+    },
     {
      "fecha": "2026-11-04",
      "titulo": "LLEGA A PS5 EL 17 DE NOVIEMBRE",
@@ -391,6 +341,37 @@
    ]
   },
   {
+   "id": "machine-party",
+   "titulo": "MACHINE PARTY",
+   "fecha": "2026-11-26",
+   "relanzamiento": "En PC desde julio de 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX"
+   ],
+   "genero": [
+    "HORROR",
+    "MULTIJUGADOR",
+    "INDIE"
+   ],
+   "desarrollador": "MIKE KLUBNIKA",
+   "descripcion": "Una colección de juegos de fiesta violentos donde perder es letal, de Mike Klubnika, el autor de Buckshot Roulette. De dos a cuatro jugadores se encierran en pruebas peligrosas, y algo ilegales, con formatos clásicos de juego de fiesta retorcidos hacia el terror: hay que hacer cualquier truco para sobrevivir y, de paso, arruinarles la partida a los demás. Tiene banda sonora industrial de Alex Peipman y sujetos de prueba personalizables. Lo publica Oro Interactive.",
+   "trailer": "https://youtube.com/embed/85KBnx5OHxc",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/d7697088fbd22ff29e38383923dc7c7053b23fd9/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-17",
+   "url": "https://lanzamientos.lat/juegos/machine-party",
+   "noticias": [
+    {
+     "fecha": "2026-11-17",
+     "titulo": "LLEGA A CONSOLAS EL 26 DE NOVIEMBRE",
+     "texto": "Oro Interactive lo anunció para PS5, Xbox Series y Switch, y la PS Store y la tienda de Xbox ya tienen el día. La eShop todavía no lista la versión de Switch."
+    }
+   ]
+  },
+  {
    "id": "the-last-cat-in-the-universe-xbox",
    "titulo": "THE LAST CAT IN THE UNIVERSE",
    "fecha": "2026-11-27",
@@ -500,11 +481,16 @@
    "trailer": "https://youtube.com/embed/kqbuJw2J8lQ",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3161310/library_600x900.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/hela-of-mice-and-magic",
    "noticias": [
+    {
+     "fecha": "2026-11-17",
+     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
+     "texto": "Xbox confirmó que el 1 de diciembre llega a Game Pass Ultimate y PC el mismo día del lanzamiento."
+    },
     {
      "fecha": "2026-10-02",
      "titulo": "YA TIENE DÍA: 1 DE DICIEMBRE",
