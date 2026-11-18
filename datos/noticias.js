@@ -55,6 +55,15 @@
 
 const NOTICIAS = [
   {
+    id: "the-game-awards-2026-nominados",
+    fecha: "2026-11-17",
+    categoria: "EVENTOS",
+    titulo: "THE GAME AWARDS 2026: GTA VI, RESIDENT EVIL REQUIEM, CONTROL RESONANT Y 007 FIRST LIGHT, NOMINADOS A JUEGO DEL AÑO",
+    texto: "Se conocieron los nominados de The Game Awards 2026, que se entregan el 10 de diciembre. Entre los candidatos a juego del año están Grand Theft Auto VI, que todavía no salió y suma ocho nominaciones, Resident Evil Requiem, Control Resonant y 007 First Light. Para juego más esperado compiten Fable, Final Fantasy VII Revelation y Resident Evil Veronica, entre otros.\n\nEn otras categorías aparecen Gears of War: E-Day, Forza Horizon 6, Ace Combat 8: Wings of Theve, Onimusha: Way of the Sword, Mewgenics y Denshattack. La votación del público ya está abierta en el sitio oficial de la ceremonia.",
+    fuente: "https://news.xbox.com/en-us/2026/11/17/the-game-awards-2026-nominees-on-xbox/",
+    juegos: ["grand-theft-auto-vi", "control-resonant", "007-first-light", "fable", "final-fantasy-vii-revelation", "resident-evil-veronica", "gears-of-war-e-day", "ace-combat-8-wings-of-theve", "onimusha-way-of-the-sword", "mewgenics", "denshattack"]
+  },
+  {
     id: "game-pass-noviembre-2026-segunda-tanda",
     fecha: "2026-11-17",
     categoria: "SUSCRIPCIONES",

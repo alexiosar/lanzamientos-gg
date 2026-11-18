@@ -2,151 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-17T17:16:15+00:00",
+ "generado": "2026-11-18T13:23:38+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-17",
- "hasta": "2026-12-17",
- "total": 40,
+ "desde": "2026-11-18",
+ "hasta": "2026-12-18",
+ "total": 36,
  "juegos": [
-  {
-   "id": "rangers-path-national-park-simulator",
-   "titulo": "RANGER'S PATH: NATIONAL PARK SIMULATOR",
-   "relanzamiento": "En PC, en acceso anticipado, desde marzo de 2026",
-   "fecha": "2026-11-17",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "SIMULACION",
-    "AVENTURA"
-   ],
-   "desarrollador": "TO-GO GAMES",
-   "descripcion": "Un simulador de guardaparques en el Parque Nacional Faremont. Se mantienen senderos, se controlan permisos, se ayuda a los visitantes y se atienden emergencias, desde excursionistas perdidos hasta avisos por animales salvajes, en bosques, praderas y ríos que se recorren con los vehículos del parque.",
-   "trailer": "https://youtube.com/embed/psdgBxit-Ak",
-   "metacritic": null,
-   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coafye.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-09-17",
-   "url": "https://lanzamientos.lat/juegos/rangers-path-national-park-simulator",
-   "noticias": [
-    {
-     "fecha": "2026-11-06",
-     "titulo": "SALE EL 17 DE NOVIEMBRE",
-     "texto": "La tienda de Xbox lo tiene para el 17 de noviembre."
-    }
-   ]
-  },
-  {
-   "id": "moonlight-peaks-ps5",
-   "titulo": "MOONLIGHT PEAKS",
-   "fecha": "2026-11-17",
-   "relanzamiento": "En Switch, Switch 2 y PC desde julio de 2026 — esta es la versión de PS5",
-   "duracion": "≈ 67 h (historia) · 130 h (completo)",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "AVENTURA",
-    "RPG",
-    "VAMPIROS"
-   ],
-   "desarrollador": "LITTLE CHICKEN",
-   "descripcion": "Llega a PS5 cuatro meses después que a Switch, Switch 2 y PC el simulador de vida con vampiros de XSEED y Marvelous. Se juega como el hijo del Conde Drácula, que quiere probarle a su padre que se puede vivir con compasión estando muerto: se cultivan cosechas malditas como la belladona, se hacen amigos y pareja entre hombres lobo, brujas y sirenas, se preparan pociones y se desbloquean poderes mientras se investiga a las siete familias del pueblo.",
-   "trailer": "https://youtube.com/embed/VL_15TiRRAM",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2209900/73de126df403d8885c6b69d832ef57816fe14bbf/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-28",
-   "url": "https://lanzamientos.lat/juegos/moonlight-peaks-ps5",
-   "noticias": [
-    {
-     "fecha": "2026-10-28",
-     "titulo": "LLEGA A PS5 EL 17 DE NOVIEMBRE",
-     "texto": "XSEED Games y Marvelous Europe anunciaron la versión de PS5."
-    }
-   ]
-  },
-  {
-   "id": "duck-side-of-the-moon",
-   "titulo": "DUCK SIDE OF THE MOON",
-   "fecha": "2026-11-17",
-   "relanzamiento": "En Switch y PC desde mayo de 2026 — esta fecha corresponde a la edición de PS5",
-   "duracion": "≈ 2,5 h (historia) · 5,1 h (completo)",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "AVENTURA",
-    "RELAX",
-    "INDIE"
-   ],
-   "desarrollador": "STARBREW GAMES",
-   "descripcion": "Una aventura tranquila en el espacio, en la piel de un pato que camina y vuela por la galaxia. Se exploran planetas, se encuentran criaturas curiosas y materiales, se fabrican aparatos y se mejora la nave, sin apuro.",
-   "trailer": "https://youtube.com/embed/0bFlFEC77zg",
-   "metacritic": 73,
-   "metacriticUsuarios": null,
-   "critica": "Las reseñas son de la versión de PC de mayo. Lo describen como una aventura espacial tranquila y tierna, una mezcla de juego relajado y recolección a la vieja usanza, con un pato astronauta que hay que querer, humor tonto y algún momento que emociona. Los reparos: dura muy poco, es fácil y el humor a veces se fuerza.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2959770/177dcf703b1af06dba8bb6de5f31fd99078b4bf2/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-03",
-   "url": "https://lanzamientos.lat/juegos/duck-side-of-the-moon",
-   "noticias": [
-    {
-     "fecha": "2026-11-17",
-     "titulo": "LLEGÓ A PS5 CON 73 EN METACRITIC",
-     "texto": "Salió hoy en PS5. La versión de PC de mayo tiene 73 sobre siete reseñas."
-    },
-    {
-     "fecha": "2026-11-03",
-     "titulo": "LLEGA A PS5 EL 17 DE NOVIEMBRE",
-     "texto": "Starbrew Games anunció la versión de PS5 junto con Homegrown, una actualización gratis para todas las versiones."
-    }
-   ]
-  },
-  {
-   "id": "popucom",
-   "titulo": "POPUCOM",
-   "fecha": "2026-11-17",
-   "relanzamiento": "En PC desde junio de 2025 y en Switch desde diciembre de 2025 — esta fecha corresponde a la edición de PS5",
-   "duracion": "≈ 12 h (historia) · 18 h (completo)",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "PUZZLE",
-    "COOP"
-   ],
-   "desarrollador": "HYPERGRYPH",
-   "descripcion": "Una aventura de plataformas cooperativa de los creadores de Arknights. Un grupo de aventureros llega a un planeta desconocido y tiene que devolverle los colores: todo gira alrededor de cambiar de color para activar mecanismos y de disparar gelatina de colores para combinar tres y derrotar enemigos. Hay objetos especiales que dan poderes, como bombas o barreras, desafíos pensados para resolver en equipo y mucha ropa para personalizar al personaje.",
-   "trailer": "https://youtube.com/embed/aIgoMJcXCzA",
-   "metacritic": 83,
-   "metacriticUsuarios": 7.9,
-   "metacriticVotos": 15,
-   "critica": "El puntaje y las reseñas son de la versión de PC de 2025. Lo celebran como uno de los cooperativos más divertidos y originales de los últimos tiempos: mezcla plataformas, puzzles, disparos y combinar colores de a tres en un mundo precioso, con desafíos que obligan a coordinarse y una dificultad bien medida. Los reparos: algunas partes confunden, le falta botón para correr y el modo fiesta se agota rápido.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2543180/672790a9ec0ad29c3a2d7a8879282217dbcde09e/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-04",
-   "url": "https://lanzamientos.lat/juegos/popucom",
-   "noticias": [
-    {
-     "fecha": "2026-11-17",
-     "titulo": "LLEGÓ A PS5 CON 83 EN METACRITIC",
-     "texto": "Salió hoy en PS5. La versión de PC del año pasado tiene 83 sobre diez reseñas."
-    },
-    {
-     "fecha": "2026-11-04",
-     "titulo": "LLEGA A PS5 EL 17 DE NOVIEMBRE",
-     "texto": "Fireshine Games anunció la fecha con un tráiler, y la PS Store ya tiene el día."
-    }
-   ]
-  },
   {
    "id": "grand-theft-auto-vi",
    "titulo": "GRAND THEFT AUTO VI",
@@ -163,13 +25,25 @@
    "desarrollador": "ROCKSTAR GAMES",
    "descripcion": "El regreso de Rockstar a Vice City: Lucia y su compañero protagonizan la nueva entrega de la saga más influyente del mundo abierto, en un estado de Leonida inspirado en la Florida moderna. Tras dos retrasos, Rockstar confirmó el 19 de noviembre como fecha definitiva, exclusivo de PS5 y Xbox Series X|S en su estreno (la versión de PC todavía no fue anunciada).",
    "trailer": "https://youtube.com/embed/rz1B4B2yBZY",
-   "metacritic": null,
+   "metacritic": 99,
+   "metacriticUsuarios": null,
+   "critica": "Las reseñas son de la versión de PS5, y son 153. Lo llaman la obra maestra de Rockstar y la cima de esta generación de consolas: un mundo abierto en Leonida con un nivel de detalle y de vida nunca visto, una historia de amor entre Jason y Lucia que emociona, misiones memorables, mucho humor y sistemas de policía y combate renovados. Los pocos reparos que aparecen: el arranque tarda en abrirse, hay tramos más lentos y no reinventa la fórmula, la perfecciona.",
    "imagen": "https://cdn2.steamgriddb.com/grid/a55e72542860596de2ef8c0d847b6f03.png",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi",
    "noticias": [
+    {
+     "fecha": "2026-11-18",
+     "titulo": "DEBUTÓ CON 99 EN METACRITIC",
+     "texto": "Con 153 reseñas de la versión de PS5, iguala el puntaje más alto de la historia de Metacritic, el 99 de The Legend of Zelda: Ocarina of Time de 1998. Sale mañana, 19 de noviembre, en PS5 y Xbox Series."
+    },
+    {
+     "fecha": "2026-11-17",
+     "titulo": "OCHO NOMINACIONES EN THE GAME AWARDS",
+     "texto": "Antes de salir ya compite por juego del año, dirección, narrativa, dirección de arte, música, sonido, aventura de acción y actuación. Los premios se entregan el 10 de diciembre."
+    },
     {
      "fecha": "2026-11-10",
      "titulo": "EN XBOX ONE SE VA A PODER JUGAR POR LA NUBE",
