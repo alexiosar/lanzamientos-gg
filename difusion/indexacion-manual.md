@@ -58,6 +58,15 @@ un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las
 cambia por pedir otras. **Pedidas el 11/11:** las once primeras (de PS Plus a Aeruta); quedan
 Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
+## 19/11
+
+- [ ] https://lanzamientos.lat/juegos/thysiastery
+- [ ] https://lanzamientos.lat/juegos/coral-island-switch-2
+
+## 18/11
+
+- [x] https://lanzamientos.lat/juegos/grand-theft-auto-vi (18/11; ya estaba en Google, se pidió igual porque sumó el 99 de Metacritic, la crítica y la noticia)
+
 ## Día 13 (desde el 17/11)
 
 Ys VIII (quedó del 16/11 por cupo), Machine Party (nueva), `/game-pass-noviembre-2026` (sumó la

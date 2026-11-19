@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-18T13:23:38+00:00",
+ "generado": "2026-11-19T14:26:28+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-18",
- "hasta": "2026-12-18",
- "total": 36,
+ "desde": "2026-11-19",
+ "hasta": "2026-12-19",
+ "total": 38,
  "juegos": [
   {
    "id": "grand-theft-auto-vi",
@@ -34,6 +34,11 @@
    "alta": "2026-07-28",
    "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi",
    "noticias": [
+    {
+     "fecha": "2026-11-19",
+     "titulo": "SALIÓ HOY EN PS5 Y XBOX",
+     "texto": "Ya está a la venta en PS5 y Xbox Series, y desde la 1 de la mañana (hora del este de Estados Unidos) se puede jugar en Xbox One y Series por Xbox Cloud Gaming. Llegó con 99 en Metacritic."
+    },
     {
      "fecha": "2026-11-18",
      "titulo": "DEBUTÓ CON 99 EN METACRITIC",
@@ -829,6 +834,40 @@
    ]
   },
   {
+   "id": "thysiastery",
+   "titulo": "THYSIASTERY",
+   "fecha": "2026-12-03",
+   "relanzamiento": "En PC desde marzo de 2026",
+   "plataformas": [
+    "PS5",
+    "XBOX",
+    "PS4",
+    "SWITCH"
+   ],
+   "genero": [
+    "RPG",
+    "ROGUELIKE",
+    "POR TURNOS",
+    "RETRO"
+   ],
+   "desarrollador": "DIRGA",
+   "descripcion": "Un dungeon crawler por turnos con alma de roguelike clásico y gráficos de estilo retro. Se maneja un grupo de portadores de la Marca, arrastrados a un Laberinto enorme y misterioso del que hay que encontrar la salida. Mientras se baja, se rescatan y se suman personajes que enseñan habilidades a los demás, y aparecen bosques enterrados y ciudades sumergidas. Tiene muerte permanente, zonas generadas al azar y personajes aleatorios, y el combate premia aprovechar el azar y las debilidades del enemigo.",
+   "trailer": "https://youtube.com/embed/QF-LO21m7fo",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3140180/326a707dea3c67ec9d6fca5f01c8311c32720b70/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-19",
+   "url": "https://lanzamientos.lat/juegos/thysiastery",
+   "noticias": [
+    {
+     "fecha": "2026-11-19",
+     "titulo": "LLEGA A CONSOLAS EL 3 DE DICIEMBRE",
+     "texto": "DIRGA anunció las versiones de PS5, Xbox Series, PS4, Xbox One y Switch para el 3 de diciembre. La tienda de Xbox y la eShop de América ya tienen el día; en PC salió en marzo."
+    }
+   ]
+  },
+  {
    "id": "monster-hunter-wilds-switch-2",
    "titulo": "MONSTER HUNTER WILDS",
    "relanzamiento": "En PS5, Xbox y PC desde febrero de 2025 — esta fecha corresponde a la edición de Switch 2",
@@ -914,6 +953,38 @@
      "fecha": "2026-11-10",
      "titulo": "SALE EL 7 DE DICIEMBRE",
      "texto": "Nitrome anunció la fecha con un tráiler, y la eShop de América ya lo tiene en preventa a 19,99 dólares. Es exclusivo de Switch 2."
+    }
+   ]
+  },
+  {
+   "id": "coral-island-switch-2",
+   "titulo": "CORAL ISLAND",
+   "fecha": "2026-12-07",
+   "relanzamiento": "En PC, PS5 y Xbox desde noviembre de 2023 — esta fecha corresponde a la edición de Switch 2",
+   "plataformas": [
+    "SWITCH2"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RELAX",
+    "COOP"
+   ],
+   "desarrollador": "STAIRWAY GAMES",
+   "descripcion": "La versión de Switch 2 del simulador de granja del estudio indonesio Stairway Games. Se deja la ciudad de Pokyo para empezar de cero en una isla tropical: se cultiva, se crían animales, se decora la granja y se arman relaciones con más de setenta vecinos, con bodas incluidas. Hay que ayudar a revivir el pueblo y limpiar los arrecifes de coral, bucear y visitar el reino de las sirenas, y se puede jugar con amigos. Sale junto con la actualización 1.4, en la que los hijos crecen.",
+   "trailer": "https://youtube.com/embed/Z4V4VGgS7_c",
+   "metacritic": 82,
+   "critica": "El puntaje y las reseñas son de la versión de PC de 2023. Lo celebran como un simulador de granja muy cuidado y lleno de detalles, una alternativa fresca para los cansados de Stardew Valley, con una isla viva, buenos personajes y muchísimas cosas para hacer. Los reparos: algunas mecánicas son lentas, los primeros días cuestan y no tiene mucha personalidad propia.",
+   "metacriticSlug": "coral-island",
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/library_600x900_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-19",
+   "url": "https://lanzamientos.lat/juegos/coral-island-switch-2",
+   "noticias": [
+    {
+     "fecha": "2026-11-19",
+     "titulo": "LLEGA A SWITCH 2 EL 7 DE DICIEMBRE",
+     "texto": "Sale junto con la actualización 1.4, en la que los hijos crecen, y la eShop de América ya lo tiene a 29,99 dólares."
     }
    ]
   },

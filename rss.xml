@@ -6,7 +6,28 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Wed, 18 Nov 2026 13:23:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 14:26:28 +0000</lastBuildDate>
+    <item>
+      <title>GRAND THEFT AUTO VI: SALIÓ HOY EN PS5 Y XBOX</title>
+      <link>https://lanzamientos.lat/juegos/grand-theft-auto-vi</link>
+      <guid isPermaLink="false">grand-theft-auto-vi-2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Ya está a la venta en PS5 y Xbox Series, y desde la 1 de la mañana (hora del este de Estados Unidos) se puede jugar en Xbox One y Series por Xbox Cloud Gaming. Llegó con 99 en Metacritic. — GRAND THEFT AUTO VI para PS5 / XBOX.</description>
+    </item>
+    <item>
+      <title>THYSIASTERY: LLEGA A CONSOLAS EL 3 DE DICIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/thysiastery</link>
+      <guid isPermaLink="false">thysiastery-2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+      <description>DIRGA anunció las versiones de PS5, Xbox Series, PS4, Xbox One y Switch para el 3 de diciembre. La tienda de Xbox y la eShop de América ya tienen el día; en PC salió en marzo. — THYSIASTERY para PS5 / XBOX / PS4 / SWITCH.</description>
+    </item>
+    <item>
+      <title>CORAL ISLAND: LLEGA A SWITCH 2 EL 7 DE DICIEMBRE</title>
+      <link>https://lanzamientos.lat/juegos/coral-island-switch-2</link>
+      <guid isPermaLink="false">coral-island-switch-2-2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Sale junto con la actualización 1.4, en la que los hijos crecen, y la eShop de América ya lo tiene a 29,99 dólares. — CORAL ISLAND para SWITCH 2.</description>
+    </item>
     <item>
       <title>GRAND THEFT AUTO VI: DEBUTÓ CON 99 EN METACRITIC</title>
       <link>https://lanzamientos.lat/juegos/grand-theft-auto-vi</link>
@@ -271,27 +292,6 @@ No tenía ningún juego con fecha en el calendario.</description>
       <guid isPermaLink="false">the-spectrum-retreat-redux-2026-11-12</guid>
       <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
       <description>Ripstone anunció la fecha para PS5, Xbox Series y PC, y las dos tiendas de consola ya la tienen. En Switch 2 salió el 29 de octubre. — THE SPECTRUM RETREAT: REDUX para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>THE SPECTRUM RETREAT: REDUX: YA ESTÁ EN SWITCH 2</title>
-      <link>https://lanzamientos.lat/juegos/the-spectrum-retreat-redux-switch-2</link>
-      <guid isPermaLink="false">the-spectrum-retreat-redux-switch-2-2026-11-12</guid>
-      <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Salió el 29 de octubre en la eShop de América a 12,99 dólares, casi un mes antes que en PS5 y Xbox Series, que reciben la remasterización el 26 de noviembre. — THE SPECTRUM RETREAT: REDUX para SWITCH 2.</description>
-    </item>
-    <item>
-      <title>VINDICTUS: DEFYING FATE: CONFIRMADO PARA PS5 EN 2027</title>
-      <link>https://lanzamientos.lat/juegos/vindictus-defying-fate</link>
-      <guid isPermaLink="false">vindictus-defying-fate-2026-11-12</guid>
-      <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Nexon confirmó la versión de PS5 junto a la de PC con un tráiler en el canal de PlayStation. Sale el año que viene, todavía sin fecha. — VINDICTUS: DEFYING FATE para PS5.</description>
-    </item>
-    <item>
-      <title>THE ROAD OF DUST AND SORROW: SE RETRASA AL 19 DE FEBRERO DE 2027</title>
-      <link>https://lanzamientos.lat/juegos/the-road-of-dust-and-sorrow</link>
-      <guid isPermaLink="false">the-road-of-dust-and-sorrow-2026-11-12</guid>
-      <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Silver Lining Interactive lo pasó al 19 de febrero de 2027, y la PS Store ya tiene esa fecha. También sale en Xbox Series y PC. — THE ROAD OF DUST AND SORROW para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>
