@@ -55,6 +55,15 @@
 
 const NOTICIAS = [
   {
+    id: "ubisoft-despidos-noviembre-2026",
+    fecha: "2026-11-19",
+    categoria: "ANUNCIOS",
+    titulo: "UBISOFT DESPIDE A 166 PERSONAS EN SUS ESTUDIOS DE MONTREAL Y QUEBEC",
+    texto: "Ubisoft despidió a 166 personas entre Ubisoft Montreal y Ubisoft Quebec, dos de sus estudios más grandes, responsables de las sagas Assassin's Creed y Far Cry.",
+    fuente: "https://www.gematsu.com/2026/11/ubisoft-lays-off-166-staff-at-montreal-and-quebec-studios",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2208920/library_600x900_2x.jpg"
+  },
+  {
     id: "the-game-awards-2026-nominados",
     fecha: "2026-11-17",
     categoria: "EVENTOS",

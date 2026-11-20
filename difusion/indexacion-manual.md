@@ -58,6 +58,12 @@ un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las
 cambia por pedir otras. **Pedidas el 11/11:** las once primeras (de PS Plus a Aeruta); quedan
 Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
+## 20/11
+
+- [ ] https://lanzamientos.lat/juegos/mr-magpies-harmless-card-game
+- [ ] https://lanzamientos.lat/juegos/baptiste
+- [ ] https://lanzamientos.lat/juegos/psycho-dead
+
 ## 19/11
 
 - [ ] https://lanzamientos.lat/juegos/thysiastery

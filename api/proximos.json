@@ -2,105 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-19T14:26:28+00:00",
+ "generado": "2026-11-20T21:52:47+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-19",
- "hasta": "2026-12-19",
- "total": 38,
+ "desde": "2026-11-20",
+ "hasta": "2026-12-20",
+ "total": 37,
  "juegos": [
-  {
-   "id": "grand-theft-auto-vi",
-   "titulo": "GRAND THEFT AUTO VI",
-   "fecha": "2026-11-19",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "ACCION",
-    "AVENTURA",
-    "MUNDO ABIERTO"
-   ],
-   "desarrollador": "ROCKSTAR GAMES",
-   "descripcion": "El regreso de Rockstar a Vice City: Lucia y su compañero protagonizan la nueva entrega de la saga más influyente del mundo abierto, en un estado de Leonida inspirado en la Florida moderna. Tras dos retrasos, Rockstar confirmó el 19 de noviembre como fecha definitiva, exclusivo de PS5 y Xbox Series X|S en su estreno (la versión de PC todavía no fue anunciada).",
-   "trailer": "https://youtube.com/embed/rz1B4B2yBZY",
-   "metacritic": 99,
-   "metacriticUsuarios": null,
-   "critica": "Las reseñas son de la versión de PS5, y son 153. Lo llaman la obra maestra de Rockstar y la cima de esta generación de consolas: un mundo abierto en Leonida con un nivel de detalle y de vida nunca visto, una historia de amor entre Jason y Lucia que emociona, misiones memorables, mucho humor y sistemas de policía y combate renovados. Los pocos reparos que aparecen: el arranque tarda en abrirse, hay tramos más lentos y no reinventa la fórmula, la perfecciona.",
-   "imagen": "https://cdn2.steamgriddb.com/grid/a55e72542860596de2ef8c0d847b6f03.png",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-07-28",
-   "url": "https://lanzamientos.lat/juegos/grand-theft-auto-vi",
-   "noticias": [
-    {
-     "fecha": "2026-11-19",
-     "titulo": "SALIÓ HOY EN PS5 Y XBOX",
-     "texto": "Ya está a la venta en PS5 y Xbox Series, y desde la 1 de la mañana (hora del este de Estados Unidos) se puede jugar en Xbox One y Series por Xbox Cloud Gaming. Llegó con 99 en Metacritic."
-    },
-    {
-     "fecha": "2026-11-18",
-     "titulo": "DEBUTÓ CON 99 EN METACRITIC",
-     "texto": "Con 153 reseñas de la versión de PS5, iguala el puntaje más alto de la historia de Metacritic, el 99 de The Legend of Zelda: Ocarina of Time de 1998. Sale mañana, 19 de noviembre, en PS5 y Xbox Series."
-    },
-    {
-     "fecha": "2026-11-17",
-     "titulo": "OCHO NOMINACIONES EN THE GAME AWARDS",
-     "texto": "Antes de salir ya compite por juego del año, dirección, narrativa, dirección de arte, música, sonido, aventura de acción y actuación. Los premios se entregan el 10 de diciembre."
-    },
-    {
-     "fecha": "2026-11-10",
-     "titulo": "EN XBOX ONE SE VA A PODER JUGAR POR LA NUBE",
-     "texto": "Xbox confirmó que el 19 se podrá jugar en Xbox One mediante Xbox Cloud Gaming, con la calidad gráfica de Series S. Hay que comprar el juego aparte, y desde el 11 se puede comprar tiempo de juego en la nube sin tener Game Pass, en los países donde el servicio está disponible."
-    },
-    {
-     "fecha": "2026-11-10",
-     "titulo": "YA SE PUEDE PREDESCARGAR, CON SOPORTE PARA PS5 PRO",
-     "texto": "Desde hoy se puede descargar antes del lanzamiento del 19 de noviembre, y Rockstar confirmó mejoras para PS5 Pro. Además, el 21 de noviembre hay un evento en vivo llamado The Festival."
-    },
-    {
-     "fecha": "2026-11-03",
-     "titulo": "LA PREDESCARGA ARRANCA EL 10 DE NOVIEMBRE",
-     "texto": "PlayStation confirmó que en PS5 se puede descargar desde el 10, nueve días antes del lanzamiento del 19."
-    },
-    {
-     "fecha": "2026-10-15",
-     "titulo": "SALIÓ EL TRÁILER DE LANZAMIENTO",
-     "texto": "Rockstar publicó el tráiler de lanzamiento, a poco más de un mes del estreno del 19 de noviembre en PS5 y Xbox Series."
-    },
-    {
-     "fecha": "2026-10-08",
-     "titulo": "SEIS RADIOS Y, POR PRIMERA VEZ, PODCASTS",
-     "texto": "Rockstar presentó seis de las emisoras: Cocoteo FM, de música latina actual, de la bachata y el merengue al dembow y el reguetón; Back Country Radio, de country; AfroBank FM, de música africana; The Chamber 106.6, de metal; Flash FM, la de pop de siempre en Vice City, y Dirty South Classics, de rap del sur. Por primera vez en la saga habrá podcasts a demanda, y la radio también se va a poder escuchar caminando, con auriculares conectados al teléfono de Jason y Lucía."
-    },
-    {
-     "fecha": "2026-10-02",
-     "titulo": "LOS MIAMI HEAT JUEGAN COMO VICE CITY UN DÍA ANTES DEL ESTRENO",
-     "texto": "El 18 de noviembre, la noche anterior al lanzamiento, los Miami Heat reciben a los Milwaukee Bucks con uniformes y una cancha de Vice City, la versión de Miami del juego. La noche se llama «A Night in Vice City» y el partido se transmite por ESPN. El equipo además sacó una colección de 14 prendas inspirada en el juego."
-    },
-    {
-     "fecha": "2026-08-27",
-     "titulo": "UNA MIRADA EXTENDIDA SE ESTRENÓ EN NETFLIX, NO EN YOUTUBE",
-     "texto": "Rockstar estrenó hoy Grand Theft Auto VI: Una mirada extendida, y eligió Netflix para estrenarlo: al canal oficial de YouTube y al sitio del juego llegó unas horas después, esa misma noche. Está capturado enteramente con imágenes del juego corriendo en PS5, un detalle que Rockstar remarca en el anuncio. La fecha de salida no se movió: sigue el 19 de noviembre en PS5 y Xbox Series X|S."
-    },
-    {
-     "fecha": "2026-06-25",
-     "titulo": "PRECIO OFICIAL Y ARRANCA LA PREVENTA",
-     "texto": "La edición estándar cuesta 79,99 dólares y la Ultimate 99,99. La Ultimate suma vehículos como el Vapid Dominator Buggy del 67, el Grotti Cheetah del 95, la moto Dinka Enduro y el bote Shitzu Squalo, las armas Hawk & Little Morgan y acceso a locaciones como Paradise Garage y el taller Rideout Customs. Quien reserve antes del 20 de noviembre recibe el Pack Vintage, y la preventa digital regala un mes de GTA+."
-    },
-    {
-     "fecha": "2026-06-25",
-     "titulo": "LA EDICIÓN FÍSICA VIENE SIN DISCO",
-     "texto": "La versión en caja sale el 12 de noviembre, una semana antes que la digital, pero las cajas van vacías: adentro solo hay un código de descarga para PS5 o Xbox. No hay disco."
-    },
-    {
-     "fecha": "2025-11-06",
-     "titulo": "SE RETRASÓ POR SEGUNDA VEZ, AHORA AL 19 DE NOVIEMBRE",
-     "texto": "Rockstar movió el lanzamiento seis meses, de mayo a noviembre de 2026. Ya se había corrido antes desde el otoño boreal de 2025. El comunicado pidió disculpas por la espera y dijo que los meses extra permitirían terminar el juego con el nivel de pulido esperado."
-    }
-   ]
-  },
   {
    "id": "gothic-3-classic",
    "titulo": "GOTHIC 3 CLASSIC",
@@ -1109,6 +1017,11 @@
    "alta": "2026-07-31",
    "url": "https://lanzamientos.lat/juegos/professor-layton-nuevo-mundo-a-vapor",
    "noticias": [
+    {
+     "fecha": "2026-11-19",
+     "titulo": "YA SE PUEDE RESERVAR EN SWITCH 2 Y SWITCH",
+     "texto": "Después de PS5 y PC, abrieron las reservas digitales en la eShop. Sale el 10 de diciembre."
+    },
     {
      "fecha": "2026-11-12",
      "titulo": "YA SE PUEDE RESERVAR EN LA PS STORE",
