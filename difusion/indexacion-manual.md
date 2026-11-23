@@ -60,14 +60,14 @@ Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
 ## 20/11
 
-- [ ] https://lanzamientos.lat/juegos/mr-magpies-harmless-card-game
-- [ ] https://lanzamientos.lat/juegos/baptiste
-- [ ] https://lanzamientos.lat/juegos/psycho-dead
+- [x] https://lanzamientos.lat/juegos/mr-magpies-harmless-card-game (23/11)
+- [x] https://lanzamientos.lat/juegos/baptiste (23/11)
+- [x] https://lanzamientos.lat/juegos/psycho-dead (23/11)
 
 ## 19/11
 
-- [ ] https://lanzamientos.lat/juegos/thysiastery
-- [ ] https://lanzamientos.lat/juegos/coral-island-switch-2
+- [x] https://lanzamientos.lat/juegos/thysiastery (23/11)
+- [x] https://lanzamientos.lat/juegos/coral-island-switch-2 (23/11)
 
 ## 18/11
 

@@ -6,7 +6,14 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Fri, 20 Nov 2026 21:52:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 17:21:13 +0000</lastBuildDate>
+    <item>
+      <title>ACTS OF BLOOD: LA VERSIÓN DE PC SE RETRASA A LA PRIMAVERA DE 2027</title>
+      <link>https://lanzamientos.lat/juegos/acts-of-blood</link>
+      <guid isPermaLink="false">acts-of-blood-2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Big Fan Games pasó la versión de PC a la primavera del hemisferio norte de 2027, o sea entre marzo y junio. Las de PS5 y Xbox Series siguen sin fecha. — ACTS OF BLOOD para PS5 / XBOX.</description>
+    </item>
     <item>
       <title>GRAND THEFT AUTO VI: 3.790 MILLONES DE DÓLARES EN SU PRIMER DÍA</title>
       <link>https://lanzamientos.lat/juegos/grand-theft-auto-vi</link>
@@ -285,13 +292,6 @@ No tenía ningún juego con fecha en el calendario.</description>
       <guid isPermaLink="false">doom-the-dark-ages-revelations-2026-11-12</guid>
       <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
       <description>id Software anunció Slaughter Mode, una actualización gratuita para Revelations que sale el 16 de noviembre. — DOOM: THE DARK AGES | REVELATIONS para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>DON'T FRET: SALE EL 8 DE DICIEMBRE</title>
-      <link>https://lanzamientos.lat/juegos/dont-fret</link>
-      <guid isPermaLink="false">dont-fret-2026-11-12</guid>
-      <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Scary Kid Studios puso fecha con un tráiler: sale el 8 de diciembre en PS5, Xbox Series y PC. Hasta ahora sólo se sabía que llegaba en el último trimestre del año. — DON'T FRET para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>
