@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-23T17:21:13+00:00",
+ "generado": "2026-11-24T18:25:11+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-23",
- "hasta": "2026-12-23",
- "total": 37,
+ "desde": "2026-11-24",
+ "hasta": "2026-12-24",
+ "total": 39,
  "juegos": [
   {
    "id": "gothic-3-classic",
@@ -27,13 +27,21 @@
    "desarrollador": "PIRANHA BYTES",
    "descripcion": "El RPG de mundo abierto de 2006 de Piranha Bytes, la tercera parte de Gothic, adaptado a consolas como el Gothic Classic que salió en julio. Myrtana está tomada por los orcos del norte, el rey Rhobar resiste en Vengard con lo que le queda, los rebeldes pelean y los Hashishin del sur colaboran con el invasor. El héroe sin nombre de Khorinis llega al continente y su bando decide el destino del mundo, con varios caminos para resolver cada situación y un combate de golpes rápidos, giros y magia.",
    "trailer": "https://youtube.com/embed/53jrtvGoSnE",
-   "metacritic": null,
+   "metacritic": 63,
+   "metacriticUsuarios": 7.3,
+   "metacriticVotos": 937,
+   "critica": "El puntaje es el del original de PC de 2006, que salió lleno de errores. En su momento elogiaban el mundo enorme y libre, los paisajes y la cantidad de cosas para hacer, y criticaban la inteligencia artificial, un combate de apretar botones sin parar y los problemas técnicos. Esta versión es esa misma, adaptada a consolas.",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39500/library_600x900_2x.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-10-22",
    "url": "https://lanzamientos.lat/juegos/gothic-3-classic",
    "noticias": [
+    {
+     "fecha": "2026-11-24",
+     "titulo": "SALIÓ HOY EN PS5 Y XBOX",
+     "texto": "Llegó a PS5 y Xbox Series. El original de PC de 2006 tiene 63 en Metacritic."
+    },
     {
      "fecha": "2026-10-22",
      "titulo": "SALE EL 24 DE NOVIEMBRE",
@@ -216,6 +224,38 @@
      "fecha": "2026-11-06",
      "titulo": "LLEGA A PS5 EL 27 DE NOVIEMBRE",
      "texto": "La PS Store ya tiene el día."
+    }
+   ]
+  },
+  {
+   "id": "the-wolf-among-us-remastered-switch",
+   "titulo": "THE WOLF AMONG US REMASTERED",
+   "fecha": "2026-11-29",
+   "relanzamiento": "En PS5, Xbox y PC desde el 29 de octubre de 2026 — esta fecha corresponde a la versión de Switch",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "POINT AND CLICK",
+    "GOTICO"
+   ],
+   "desarrollador": "TELLTALE",
+   "descripcion": "La versión de Switch de la remasterización de la aventura policial de Telltale, que llega un mes después que en las demás consolas. Bigby Wolf, el sheriff de Fabletown, el barrio escondido de Nueva York donde viven los personajes de los cuentos de hadas, investiga una serie de asesinatos. Cada diálogo y cada decisión cambian cómo lo tratan los demás y cómo sigue la historia en los cinco episodios. Trae gráficos e iluminación renovados y un Modo Noir en blanco y negro.",
+   "trailer": "https://youtube.com/embed/bgHk8FEAkis",
+   "metacritic": 84,
+   "critica": "El puntaje y las reseñas son de la versión de PS5 de octubre. Lo celebran como una remasterización ejemplar de una de las mejores aventuras de Telltale, con el policial de Bigby igual de atrapante que en 2013, mejores gráficos y contenido extra. Los reparos son menores: algún detalle de iluminación y que no agrega historia nueva.",
+   "metacriticSlug": "the-wolf-among-us-remastered",
+   "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/coc6r3.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-24",
+   "url": "https://lanzamientos.lat/juegos/the-wolf-among-us-remastered-switch",
+   "noticias": [
+    {
+     "fecha": "2026-11-24",
+     "titulo": "SALE EL 29 DE NOVIEMBRE EN SWITCH",
+     "texto": "Después de retrasarse en octubre, la versión de Switch ya tiene día y figura en la eShop de América a 24,99 dólares."
     }
    ]
   },
@@ -1122,6 +1162,44 @@
      "fecha": "2026-11-13",
      "titulo": "SALE EL 10 DE DICIEMBRE EN CONSOLAS",
      "texto": "Llega a PS5, Switch 2 y Switch el 10 de diciembre, y la PS Store y la eShop de América ya lo tienen con fecha. En PC salió en mayo."
+    }
+   ]
+  },
+  {
+   "id": "stardust-wish-of-witch",
+   "titulo": "STARDUST: WISH OF WITCH",
+   "fecha": "2026-12-14",
+   "relanzamiento": "En PC desde mayo de 2026",
+   "duracion": "≈ 11 h (historia) · 31 h (completo)",
+   "plataformas": [
+    "PS5",
+    "SWITCH2"
+   ],
+   "genero": [
+    "RPG",
+    "ESTRATEGIA",
+    "POR TURNOS",
+    "INDIE"
+   ],
+   "desarrollador": "KNIV STUDIO",
+   "descripcion": "Un RPG táctico por turnos en pixel art, hecho a la manera de los clásicos del género. Star, una guerrera, y Yu, su amigo de la infancia y mago, salen de viaje detrás del secreto de una estrella que concede deseos. A los combates por turnos se les suma un sistema de cartas, y hay que leer al rival para encadenar contraataques y combos; las habilidades más fuertes se disparan con animaciones 2D dedicadas.",
+   "trailer": "https://youtube.com/embed/kqX94CpABA4",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936730/34d2383e787a0c659bdac03fb3f8eb3333932361/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-10-14",
+   "url": "https://lanzamientos.lat/juegos/stardust-wish-of-witch",
+   "noticias": [
+    {
+     "fecha": "2026-11-24",
+     "titulo": "SALE EL 14 DE DICIEMBRE",
+     "texto": "Ya tiene día: sale el 14 de diciembre en PS5 y Switch 2. Hasta ahora sólo se sabía que llegaba a comienzos de 2027."
+    },
+    {
+     "fecha": "2026-10-14",
+     "titulo": "LLEGA A PS5 Y SWITCH 2 EN EL PRIMER TRIMESTRE DE 2027",
+     "texto": "Silver Lining Interactive lo anunció para consolas con un tráiler. La PS Store ya tiene la ficha, sin fecha. En PC salió en mayo."
     }
    ]
   },

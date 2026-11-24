@@ -44,6 +44,7 @@
     /* CRÍTICA / USUARIOS adentro de cada badge: sin la aclaración, un 86 y un 8.0
        uno al lado del otro no se entienden (uno va sobre 100 y el otro sobre 10). */
     .badge-quien       { font-size: 0.5625rem; letter-spacing: 1px; opacity: 0.7; }
+    .critica-texto     { color: var(--gris-7); font-size: 0.8125rem; line-height: 1.9; border-left: 2px solid var(--gris-3); padding-left: 1rem; }
     .juego-hero        { display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; }
     .juego-hero-info   { flex: 1; min-width: 260px; }
     /* Caja de tamaño fijo: el alto tiene que estar reservado ANTES de que la imagen
@@ -137,6 +138,11 @@
                 <span class="ficha-campo-label">INCLUIDO EN</span>
                 <span class="ficha-campo-valor">—</span>
               </div>
+            <div>
+              <span class="ficha-campo-label">METACRITIC</span>
+              <span class="badge-metacritic meta-medio" title="Puntaje de la crítica en Metacritic, de 0 a 100">61 <span class="badge-quien">CRÍTICA</span></span>
+              
+            </div>
             </div>
             <div style="margin-top:1rem; display:flex; gap:1rem; flex-wrap:wrap;">
               <button class="btn-trailer" id="btn-agendar" onclick="agendarJuego('ova-magica')" style="display:none">◷ AGENDAR LANZAMIENTO</button>
@@ -165,7 +171,18 @@
       </div>
 
       <div class="seccion">
+        <div class="seccion-titulo">QUÉ DICE LA CRÍTICA</div>
+        <p class="critica-texto">Las reseñas son de la versión de Switch 2. Le reconocen encanto: los Blobs para criar, los festivales y los vecinos del pueblo le dan calidez a la rutina de granja. Los reparos pesan más: mezcla granja y entrenamiento de criaturas sin profundizar en ninguna, los combates y los romances se quedan cortos, se vuelve repetitivo y promete más de lo que da.</p>
+      </div>
+      <div class="seccion">
         <div class="seccion-titulo">ÚLTIMAS NOVEDADES</div>
+        <div class="noticia">
+          <div class="noticia-linea">
+            <span class="noticia-fecha">2026-11-24</span>
+            <span class="noticia-titulo">▸ DEBUTÓ CON 61 EN METACRITIC</span>
+          </div>
+          <p class="noticia-texto">Las cuatro reseñas de la versión de Switch 2 lo dejan en 61. Salió el 10 de noviembre en consolas.</p>
+        </div>
         <div class="noticia">
           <div class="noticia-linea">
             <span class="noticia-fecha">2026-11-03</span>
