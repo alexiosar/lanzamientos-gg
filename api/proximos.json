@@ -2,53 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-24T18:25:11+00:00",
+ "generado": "2026-11-25T18:30:18+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-24",
- "hasta": "2026-12-24",
+ "desde": "2026-11-25",
+ "hasta": "2026-12-25",
  "total": 39,
  "juegos": [
-  {
-   "id": "gothic-3-classic",
-   "titulo": "GOTHIC 3 CLASSIC",
-   "fecha": "2026-11-24",
-   "relanzamiento": "En PC desde 2006",
-   "duracion": "≈ 45 h (historia) · 111 h (completo)",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "RPG",
-    "MUNDO ABIERTO",
-    "RETRO"
-   ],
-   "desarrollador": "PIRANHA BYTES",
-   "descripcion": "El RPG de mundo abierto de 2006 de Piranha Bytes, la tercera parte de Gothic, adaptado a consolas como el Gothic Classic que salió en julio. Myrtana está tomada por los orcos del norte, el rey Rhobar resiste en Vengard con lo que le queda, los rebeldes pelean y los Hashishin del sur colaboran con el invasor. El héroe sin nombre de Khorinis llega al continente y su bando decide el destino del mundo, con varios caminos para resolver cada situación y un combate de golpes rápidos, giros y magia.",
-   "trailer": "https://youtube.com/embed/53jrtvGoSnE",
-   "metacritic": 63,
-   "metacriticUsuarios": 7.3,
-   "metacriticVotos": 937,
-   "critica": "El puntaje es el del original de PC de 2006, que salió lleno de errores. En su momento elogiaban el mundo enorme y libre, los paisajes y la cantidad de cosas para hacer, y criticaban la inteligencia artificial, un combate de apretar botones sin parar y los problemas técnicos. Esta versión es esa misma, adaptada a consolas.",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/39500/library_600x900_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-10-22",
-   "url": "https://lanzamientos.lat/juegos/gothic-3-classic",
-   "noticias": [
-    {
-     "fecha": "2026-11-24",
-     "titulo": "SALIÓ HOY EN PS5 Y XBOX",
-     "texto": "Llegó a PS5 y Xbox Series. El original de PC de 2006 tiene 63 en Metacritic."
-    },
-    {
-     "fecha": "2026-10-22",
-     "titulo": "SALE EL 24 DE NOVIEMBRE",
-     "texto": "La PS Store y la tienda de Xbox lo tienen para el 24 de noviembre."
-    }
-   ]
-  },
   {
    "id": "marupoyo-the-round-chicks-adventure",
    "titulo": "MARUPOYO: THE ROUND CHICK'S ADVENTURE",
@@ -1231,6 +1191,28 @@
      "texto": "Elementa anunció la salida mundial para el 14 de diciembre en PS5, PC y celulares. Es gratuito."
     }
    ]
+  },
+  {
+   "id": "power-racing-bundle-4",
+   "titulo": "POWER RACING BUNDLE 4",
+   "fecha": "2026-12-25",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "DEPORTES",
+    "SIMULACION"
+   ],
+   "desarrollador": "SUPERPOWERUPGAMES",
+   "descripcion": "Cuatro juegos de carreras en un solo paquete, el cuarto de una serie que SuperPowerUpGames viene armando desde 2020. Es de los baratos de la eShop, sin pretensiones: sirve para tener algo rápido a mano.",
+   "trailer": null,
+   "metacritic": null,
+   "imagen": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/powerracingbundle4/1x1_PowerRacingBundle4_image500w.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-08-31",
+   "url": "https://lanzamientos.lat/juegos/power-racing-bundle-4"
   }
  ]
 }

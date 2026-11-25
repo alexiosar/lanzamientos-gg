@@ -37,6 +37,45 @@
 const SUSCRIPCIONES = [
   {
     servicio: "psplus",
+    mes: "2026-12",
+    intro: "Los juegos mensuales de PS Plus de diciembre son Tony Hawk's Pro Skater 3+4, Dragon Ball Xenoverse 2 y Amnesia: The Bunker, para reclamar del martes 1 de diciembre al lunes 4 de enero con cualquier plan.",
+    tandas: [
+      {
+        nombre: "JUEGOS MENSUALES",
+        detalle: "Del martes 1 de diciembre al lunes 4 de enero, con cualquier plan de PS Plus: Essential, Extra o Deluxe. Los de noviembre se pueden reclamar hasta el lunes 30. Sony avisa que la lista puede cambiar según la región.",
+        anunciado: "2026-11-25",
+        fuente: "https://blog.latam.playstation.com/2026/11/25/juegos-mensuales-de-playstation-plus-de-diciembre-tony-hawks-pro-skater-34-dragon-ball-xenoverse-2-amnesia-the-bunker/",
+        juegos: [
+          {
+            titulo: "Tony Hawk's Pro Skater 3+4",
+            id: null,
+            plataformas: ["PS5", "PS4"],
+            entra: null,
+            texto: "El regreso de dos clásicos del skate, rehechos con más skaters, parques nuevos, los escenarios de siempre en 4K y el formato de sesiones de dos minutos. Suma creadores de skater y de pistas más completos, con objetivos propios para compartir.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2545710/9f78c849aa30728f62953b8dbedb05634027a169/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Dragon Ball Xenoverse 2",
+            id: null,
+            plataformas: ["PS5", "PS4"],
+            entra: null,
+            texto: "Peleas de Dragon Ball con un personaje propio: se crea un guerrero, se recorre Conton City y se entrena con los personajes de la serie para corregir la historia. Tiene peleas en línea y misiones cooperativas contra enemigos gigantes.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/454650/library_600x900_2x.jpg"
+          },
+          {
+            titulo: "Amnesia: The Bunker",
+            id: null,
+            plataformas: ["PS4"],
+            entra: null,
+            texto: "Terror en primera persona de los creadores de SOMA: un soldado francés atrapado en un búnker de la Primera Guerra Mundial, con un revólver, una linterna que hace ruido y una criatura que reacciona a cada sonido. Cada partida cambia.",
+            imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1944430/library_600x900_2x.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    servicio: "psplus",
     mes: "2026-11",
     intro: "Los juegos mensuales de PS Plus de noviembre son Dead Island 2, Tomb Raider IV – VI Remastered y Monster Train 2, para reclamar del martes 3 al lunes 30 de noviembre con cualquier plan. El catálogo de Extra y Deluxe suma desde el martes 17 Death Stranding 2: On the Beach, Atomfall y Dragon Quest III HD-2D Remake, el 24 Like a Dragon: Pirate Yakuza in Hawaii y MotoGP 26, y Hell Let Loose ya el 11. Deluxe agrega Soul Reaver 2 y Freedom Wars Remastered.",
     tandas: [

@@ -6,7 +6,23 @@
     <atom:link href="https://lanzamientos.lat/rss.xml" rel="self" type="application/rss+xml"/>
     <description>Novedades del calendario de lanzamientos de videojuegos en español: debuts, puntajes, retrasos y anuncios para PS5, PS4, Xbox, Switch y Switch 2.</description>
     <language>es</language>
-    <lastBuildDate>Tue, 24 Nov 2026 18:25:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 18:30:18 +0000</lastBuildDate>
+    <item>
+      <title>PS PLUS DE DICIEMBRE: TONY HAWK'S PRO SKATER 3+4, DRAGON BALL XENOVERSE 2 Y AMNESIA: THE BUNKER</title>
+      <link>https://lanzamientos.lat/ps-plus-diciembre-2026</link>
+      <guid isPermaLink="false">ps-plus-diciembre-2026</guid>
+      <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Sony anunció los juegos mensuales de diciembre: Tony Hawk's Pro Skater 3+4 y Dragon Ball Xenoverse 2, en PS5 y PS4, y Amnesia: The Bunker, en PS4. Se reclaman del martes 1 de diciembre al lunes 4 de enero con cualquier plan.
+
+Los de noviembre —Dead Island 2, Tomb Raider IV – VI Remastered y Monster Train 2— se pueden agregar hasta el lunes 30.</description>
+    </item>
+    <item>
+      <title>LORDS OF THE FALLEN II: SALE EN ABRIL DE 2027</title>
+      <link>https://lanzamientos.lat/juegos/lords-of-the-fallen-ii</link>
+      <guid isPermaLink="false">lords-of-the-fallen-ii-2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+      <description>CI Games pasó el lanzamiento a abril de 2027, todavía sin día. Sale en PS5, Xbox Series, Switch 2 y PC. — LORDS OF THE FALLEN II para PS5 / XBOX / SWITCH 2.</description>
+    </item>
     <item>
       <title>OVA MAGICA: DEBUTÓ CON 61 EN METACRITIC</title>
       <link>https://lanzamientos.lat/juegos/ova-magica</link>
@@ -278,20 +294,6 @@ No tenía ningún juego con fecha en el calendario.</description>
       <guid isPermaLink="false">minecraft-dungeons-2-2026-11-16</guid>
       <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
       <description>Xbox anunció que The Humblers Awaken, contenido nuevo para el juego, sale el 1 de diciembre. — MINECRAFT DUNGEONS II para SWITCH / XBOX / SWITCH 2 / PS5.</description>
-    </item>
-    <item>
-      <title>STAR WARS: GALACTIC RACER: EN 2027 SUMA UN MODO LIBRE CON PANTALLA DIVIDIDA</title>
-      <link>https://lanzamientos.lat/juegos/star-wars-galactic-racer</link>
-      <guid isPermaLink="false">star-wars-galactic-racer-2026-11-16</guid>
-      <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Secret Mode anunció Free Play, un modo nuevo que se puede jugar de a varios en pantalla dividida. Llega a principios de 2027. — STAR WARS: GALACTIC RACER para PS5 / XBOX.</description>
-    </item>
-    <item>
-      <title>DERELIKT: SALIÓ CON 79 EN METACRITIC</title>
-      <link>https://lanzamientos.lat/juegos/derelikt</link>
-      <guid isPermaLink="false">derelikt-2026-11-16</guid>
-      <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
-      <description>Salió el 13 de noviembre en PS5 y Xbox Series. Tiene 79 sobre cinco reseñas de la versión de PC. — DERELIKT para PS5 / XBOX.</description>
     </item>
   </channel>
 </rss>

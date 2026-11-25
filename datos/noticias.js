@@ -55,6 +55,16 @@
 
 const NOTICIAS = [
   {
+    id: "ps-plus-diciembre-2026",
+    fecha: "2026-11-25",
+    categoria: "SUSCRIPCIONES",
+    titulo: "PS PLUS DE DICIEMBRE: TONY HAWK'S PRO SKATER 3+4, DRAGON BALL XENOVERSE 2 Y AMNESIA: THE BUNKER",
+    texto: "Sony anunció los juegos mensuales de diciembre: Tony Hawk's Pro Skater 3+4 y Dragon Ball Xenoverse 2, en PS5 y PS4, y Amnesia: The Bunker, en PS4. Se reclaman del martes 1 de diciembre al lunes 4 de enero con cualquier plan.\n\nLos de noviembre —Dead Island 2, Tomb Raider IV – VI Remastered y Monster Train 2— se pueden agregar hasta el lunes 30.",
+    fuente: "https://blog.latam.playstation.com/2026/11/25/juegos-mensuales-de-playstation-plus-de-diciembre-tony-hawks-pro-skater-34-dragon-ball-xenoverse-2-amnesia-the-bunker/",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2545710/9f78c849aa30728f62953b8dbedb05634027a169/library_600x900_2x.jpg",
+    pagina: "/ps-plus-diciembre-2026"
+  },
+  {
     id: "ubisoft-despidos-noviembre-2026",
     fecha: "2026-11-19",
     categoria: "ANUNCIOS",
