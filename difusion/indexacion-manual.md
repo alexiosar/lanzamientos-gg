@@ -60,8 +60,8 @@ Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
 ## 25/11
 
-- [ ] https://lanzamientos.lat/ps-plus-diciembre-2026
-- [ ] https://lanzamientos.lat/juegos/lords-of-the-fallen-ii
+- [x] https://lanzamientos.lat/ps-plus-diciembre-2026 (25/11)
+- [x] https://lanzamientos.lat/juegos/lords-of-the-fallen-ii (25/11)
 
 ## 24/11
 
