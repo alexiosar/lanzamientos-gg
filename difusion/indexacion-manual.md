@@ -58,12 +58,26 @@ un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las
 cambia por pedir otras. **Pedidas el 11/11:** las once primeras (de PS Plus a Aeruta); quedan
 Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
+## 26/11
+
+Las cuatro del 24/11 no se pidieron y van primeras. Después, las fichas nuevas de hoy.
+
+- [ ] https://lanzamientos.lat/juegos/the-wolf-among-us-remastered-switch
+- [ ] https://lanzamientos.lat/juegos/stardust-wish-of-witch
+- [ ] https://lanzamientos.lat/juegos/hark-the-ghoul
+- [ ] https://lanzamientos.lat/juegos/demon-tides
+- [ ] https://lanzamientos.lat/juegos/nioh-3-xbox
+- [ ] https://lanzamientos.lat/juegos/origament-a-paper-adventure
+- [ ] https://lanzamientos.lat/juegos/station-to-station (sumó el 80 de Metacritic y la crítica)
+
 ## 25/11
 
 - [x] https://lanzamientos.lat/ps-plus-diciembre-2026 (25/11)
 - [x] https://lanzamientos.lat/juegos/lords-of-the-fallen-ii (25/11)
 
 ## 24/11
+
+No se pidieron: pasaron a la lista del 26/11.
 
 - [ ] https://lanzamientos.lat/juegos/the-wolf-among-us-remastered-switch
 - [ ] https://lanzamientos.lat/juegos/stardust-wish-of-witch

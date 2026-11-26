@@ -2,12 +2,12 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-25T18:30:18+00:00",
+ "generado": "2026-11-26T19:50:54+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-25",
- "hasta": "2026-12-25",
- "total": 39,
+ "desde": "2026-11-26",
+ "hasta": "2026-12-26",
+ "total": 42,
  "juegos": [
   {
    "id": "marupoyo-the-round-chicks-adventure",
@@ -50,13 +50,22 @@
    "desarrollador": "GALAXY GROVE",
    "descripcion": "Un juego tranquilo de armar redes de trenes en un mundo de vóxeles. Cada nivel arranca con un puñado de casas y fábricas: se ponen estaciones y se tienden vías para unirlas, y a medida que se conectan, el lugar crece y se llena de plantas, animales y color. Detrás de lo relajado hay un puzzle de logística: optimizar recorridos con pocos recursos, cumplir desafíos opcionales y encadenar bonificaciones para sumar puntaje. Cada bioma, del desierto a la montaña, tiene mecánicas propias. Lo publica Engine Software.",
    "trailer": "https://youtube.com/embed/n5py_Rf9t3M",
-   "metacritic": null,
+   "metacritic": 80,
+   "metacriticUsuarios": 7.8,
+   "metacriticVotos": 13,
+   "critica": "El puntaje y las reseñas son de la versión de PC de 2023. Lo describen como un constructor de vías ferroviarias tranquilo y encantador, con un mundo de vóxeles precioso y buena música: la premisa parece simple, pero los puzzles se ponen exigentes, sobre todo cuando hay que combinar pasajeros y carga. Los reparos: es corto, le falta contenido y no deja deshacer un paso.",
+   "metacriticSlug": "station-to-station",
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2272400/7ff798500badb820e488c3633fe2daaaa055259b/library_capsule_2x.jpg",
    "gamepass": false,
    "psplus": false,
    "alta": "2026-11-12",
    "url": "https://lanzamientos.lat/juegos/station-to-station",
    "noticias": [
+    {
+     "fecha": "2026-11-26",
+     "titulo": "80 EN METACRITIC",
+     "texto": "Las diez reseñas son de la versión de PC de 2023 y van de 75 a 86: coinciden en que es un juego de trenes relajado y lindo de mirar que se pone más difícil de lo que parece. IGN destaca que tiene la dosis justa de desafío; el reparo más repetido es que se termina rápido. La versión de PS5 sale hoy."
+    },
     {
      "fecha": "2026-11-12",
      "titulo": "LLEGA A PS5 EL 26 DE NOVIEMBRE",
@@ -123,6 +132,101 @@
      "fecha": "2026-11-17",
      "titulo": "LLEGA A CONSOLAS EL 26 DE NOVIEMBRE",
      "texto": "Oro Interactive lo anunció para PS5, Xbox Series y Switch, y la PS Store y la tienda de Xbox ya tienen el día. La eShop todavía no lista la versión de Switch."
+    }
+   ]
+  },
+  {
+   "id": "thrifty-business",
+   "titulo": "THRIFTY BUSINESS",
+   "fecha": "2026-11-26",
+   "relanzamiento": "En PC desde mayo de 2026",
+   "plataformas": [
+    "SWITCH"
+   ],
+   "genero": [
+    "SIMULACION",
+    "RELAX",
+    "INDIE"
+   ],
+   "desarrollador": "SPELLGARDEN GAMES",
+   "descripcion": "Un juego de gestión tranquilo en el que te hacés cargo de una tienda de ropa usada inspirada en los años 90. Hay que revisar cajas llenas de cosas, encontrar tesoros y acomodar ropa, reliquias y juguetes en estantes y vidrieras, agrupados por color, por temática o como prefieras: cuanto más ordenado está el local, más muebles, empapelados y adornos se desbloquean, y con el tiempo se puede agrandar. Los clientes tienen sus historias y sus pedidos, y se pueden organizar eventos para que la tienda sea el punto de encuentro del barrio. Tiene más de 500 objetos distintos.",
+   "trailer": "https://youtube.com/embed/dbEetLPwBGs",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3693650/f53e3319be9a041c2928e8efff87638603ce30ab/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-26",
+   "url": "https://lanzamientos.lat/juegos/thrifty-business",
+   "noticias": [
+    {
+     "fecha": "2026-11-26",
+     "titulo": "YA SALIÓ EN SWITCH",
+     "texto": "Thrifty Business, que estaba en PC desde mayo, ya está a la venta en Switch."
+    }
+   ]
+  },
+  {
+   "id": "origament-a-paper-adventure",
+   "titulo": "ORIGAMENT: A PAPER ADVENTURE",
+   "fecha": "2026-11-26",
+   "relanzamiento": "En PC desde abril de 2026",
+   "plataformas": [
+    "PS5",
+    "SWITCH"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "AVENTURA",
+    "INDIE"
+   ],
+   "desarrollador": "SPACE SAUCE STUDIO",
+   "descripcion": "Un plataformas de aventuras en el que sos una carta de papel. Despertó en el Archivo de la Memoria, donde duermen las palabras que nunca se enviaron, y se escapó para llegar a quien todavía la espera. El viaje cruza épocas y continentes, de un jardín a la luz de la luna a los tornados del Lejano Oeste, y la carta vuela, navega y rueda según lo que pida cada tramo. Cada mundo tiene su propia historia y cada misión deja una pista sobre un secreto mayor. Es una aventura liviana, con puzzles sencillos y algunos pasajes que piden más habilidad.",
+   "trailer": "https://youtube.com/embed/m8Y0a_zn1xk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448430/dbb86080ccf74193e309c06d1da76f95abd9a2ac/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-26",
+   "url": "https://lanzamientos.lat/juegos/origament-a-paper-adventure",
+   "noticias": [
+    {
+     "fecha": "2026-11-26",
+     "titulo": "YA SALIÓ EN PS5 Y SWITCH",
+     "texto": "Origament: A Paper Adventure, que estaba en PC desde abril, ya está a la venta en PS5 y Switch."
+    }
+   ]
+  },
+  {
+   "id": "arcade-archives-2-dirt-dash",
+   "titulo": "ARCADE ARCHIVES 2: DIRT DASH",
+   "fecha": "2026-11-26",
+   "relanzamiento": "Arcade de 1995",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH2",
+    "SWITCH"
+   ],
+   "genero": [
+    "CARRERAS",
+    "ARCADE",
+    "RETRO"
+   ],
+   "desarrollador": "HAMSTER",
+   "descripcion": "La reedición del juego de carreras todoterreno de Namco de 1995. Cada etapa es un recorrido distinto: la de nieve baja por pistas de esquí, la de montaña va por caminos de cornisa al borde de precipicios y la de ciudad se mete por callejones. Un sistema de navegación marca el camino, y en el trayecto aparecen eventos de acción que hay que resolver antes de llegar a la meta. Trae las opciones de siempre de la serie: dificultad, modos de pantalla, rebobinar y varias ranuras de guardado.",
+   "trailer": "https://youtube.com/embed/dbovF0PJOl4",
+   "metacritic": null,
+   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202611/1703/952598d7aed8b23020ef7d5287cd08e4833bb0c135172b9b.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-26",
+   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-dirt-dash",
+   "noticias": [
+    {
+     "fecha": "2026-11-26",
+     "titulo": "SALIÓ HOY EN PS5, XBOX Y SWITCH 2",
+     "texto": "HAMSTER lo sumó a Arcade Archives 2 el 26 de noviembre. El mismo día salió la edición clásica de Arcade Archives para PS4 y Switch."
     }
    ]
   },
