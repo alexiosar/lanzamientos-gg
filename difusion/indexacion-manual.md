@@ -58,6 +58,13 @@ un día sin pedir es cupo perdido. Lo que se mide (si salen de "sin indexar" las
 cambia por pedir otras. **Pedidas el 11/11:** las once primeras (de PS Plus a Aeruta); quedan
 Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
+## 27/11
+
+- [ ] https://lanzamientos.lat/juegos/rayman-origins-enhanced-edition
+- [ ] https://lanzamientos.lat/juegos/winx-club-moonlight-quest
+- [ ] https://lanzamientos.lat/juegos/aeterna-lucis (pasó de "cuarto trimestre" al 3/12)
+- [ ] https://lanzamientos.lat/juegos/dragon-quest-monsters-the-withered-world (sumó Xbox)
+
 ## 26/11
 
 Las cuatro del 24/11 no se pidieron y van primeras. Después, las fichas nuevas de hoy.

@@ -2,234 +2,13 @@
  "sitio": "LANZAMIENTOS.LAT",
  "descripcion": "Calendario de lanzamientos de videojuegos en español para PS5, PS4, Xbox, Switch y Switch 2.",
  "url": "https://lanzamientos.lat",
- "generado": "2026-11-26T19:50:54+00:00",
+ "generado": "2026-11-27T22:46:23+00:00",
  "licencia": "Uso libre citando la fuente con un enlace a lanzamientos.lat",
  "contacto": "contacto@lanzamientos.lat",
- "desde": "2026-11-26",
- "hasta": "2026-12-26",
- "total": 42,
+ "desde": "2026-11-27",
+ "hasta": "2026-12-27",
+ "total": 38,
  "juegos": [
-  {
-   "id": "marupoyo-the-round-chicks-adventure",
-   "titulo": "MARUPOYO: THE ROUND CHICK'S ADVENTURE",
-   "fecha": "2026-11-26",
-   "plataformas": [
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "ARCADE",
-    "CASUAL",
-    "INDIE"
-   ],
-   "desarrollador": "CASUAL BROTHERS",
-   "descripcion": "Un plataformas de física con un pollito tan redondo que no puede caminar, solo rodar. No se lo maneja a él sino al mundo: se inclina el escenario para que ruede, acelere, frene y salte, aprovechando la gravedad y la inercia para esquivar obstáculos y encontrar secretos mientras busca a sus hermanos perdidos. Es fácil de entender y tiene profundidad para quien quiera dominar cada nivel.",
-   "trailer": "https://youtube.com/embed/K9njOxhigCU",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.60624.14507719846144326.826439b9-0c8b-4daa-b424-b2fd0adb2186.e1f4f20a-cf50-403e-9fa0-f93c088da4c0",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-08-25",
-   "url": "https://lanzamientos.lat/juegos/marupoyo-the-round-chicks-adventure"
-  },
-  {
-   "id": "station-to-station",
-   "titulo": "STATION TO STATION",
-   "fecha": "2026-11-26",
-   "relanzamiento": "En PC desde octubre de 2023",
-   "plataformas": [
-    "PS5"
-   ],
-   "genero": [
-    "PUZZLE",
-    "ESTRATEGIA",
-    "RELAX",
-    "INDIE"
-   ],
-   "desarrollador": "GALAXY GROVE",
-   "descripcion": "Un juego tranquilo de armar redes de trenes en un mundo de vóxeles. Cada nivel arranca con un puñado de casas y fábricas: se ponen estaciones y se tienden vías para unirlas, y a medida que se conectan, el lugar crece y se llena de plantas, animales y color. Detrás de lo relajado hay un puzzle de logística: optimizar recorridos con pocos recursos, cumplir desafíos opcionales y encadenar bonificaciones para sumar puntaje. Cada bioma, del desierto a la montaña, tiene mecánicas propias. Lo publica Engine Software.",
-   "trailer": "https://youtube.com/embed/n5py_Rf9t3M",
-   "metacritic": 80,
-   "metacriticUsuarios": 7.8,
-   "metacriticVotos": 13,
-   "critica": "El puntaje y las reseñas son de la versión de PC de 2023. Lo describen como un constructor de vías ferroviarias tranquilo y encantador, con un mundo de vóxeles precioso y buena música: la premisa parece simple, pero los puzzles se ponen exigentes, sobre todo cuando hay que combinar pasajeros y carga. Los reparos: es corto, le falta contenido y no deja deshacer un paso.",
-   "metacriticSlug": "station-to-station",
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2272400/7ff798500badb820e488c3633fe2daaaa055259b/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-12",
-   "url": "https://lanzamientos.lat/juegos/station-to-station",
-   "noticias": [
-    {
-     "fecha": "2026-11-26",
-     "titulo": "80 EN METACRITIC",
-     "texto": "Las diez reseñas son de la versión de PC de 2023 y van de 75 a 86: coinciden en que es un juego de trenes relajado y lindo de mirar que se pone más difícil de lo que parece. IGN destaca que tiene la dosis justa de desafío; el reparo más repetido es que se termina rápido. La versión de PS5 sale hoy."
-    },
-    {
-     "fecha": "2026-11-12",
-     "titulo": "LLEGA A PS5 EL 26 DE NOVIEMBRE",
-     "texto": "Engine Software lo anunció para PS5 y Switch 2 con un tráiler, y la PS Store ya tiene el día. La eShop todavía no lista la versión de Switch 2."
-    }
-   ]
-  },
-  {
-   "id": "the-spectrum-retreat-redux",
-   "titulo": "THE SPECTRUM RETREAT: REDUX",
-   "fecha": "2026-11-26",
-   "relanzamiento": "Remasterización del original de 2018",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "PUZZLE",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "DAN SMITH STUDIOS",
-   "descripcion": "La remasterización de un thriller de puzzles en primera persona de 2018, obra de Dan Smith, que ganó un BAFTA a joven diseñador. Se es Alex, que se despierta en el Penrose, un hotel art déco aislado del mundo, donde el personal es atentísimo y cada día repite la misma rutina. Guiado por una voz misteriosa, hay que resolver desafíos de lógica con colores que cambian de lugar para descubrir por qué está ahí y cómo salir. Lo publica Ripstone.",
-   "trailer": "https://youtube.com/embed/ZXXk5qhhPp4",
-   "metacritic": null,
-   "imagen": "https://store-images.s-microsoft.com/image/apps.48596.14636665365406557.f6a8f2bf-4190-4c94-a4c4-fe1d963fdd41.0329132e-a146-4192-ac11-8682e9353fee",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-12",
-   "url": "https://lanzamientos.lat/juegos/the-spectrum-retreat-redux",
-   "noticias": [
-    {
-     "fecha": "2026-11-12",
-     "titulo": "SALE EL 26 DE NOVIEMBRE EN PS5 Y XBOX",
-     "texto": "Ripstone anunció la fecha para PS5, Xbox Series y PC, y las dos tiendas de consola ya la tienen. En Switch 2 salió el 29 de octubre."
-    }
-   ]
-  },
-  {
-   "id": "machine-party",
-   "titulo": "MACHINE PARTY",
-   "fecha": "2026-11-26",
-   "relanzamiento": "En PC desde julio de 2026",
-   "plataformas": [
-    "PS5",
-    "XBOX"
-   ],
-   "genero": [
-    "HORROR",
-    "MULTIJUGADOR",
-    "INDIE"
-   ],
-   "desarrollador": "MIKE KLUBNIKA",
-   "descripcion": "Una colección de juegos de fiesta violentos donde perder es letal, de Mike Klubnika, el autor de Buckshot Roulette. De dos a cuatro jugadores se encierran en pruebas peligrosas, y algo ilegales, con formatos clásicos de juego de fiesta retorcidos hacia el terror: hay que hacer cualquier truco para sobrevivir y, de paso, arruinarles la partida a los demás. Tiene banda sonora industrial de Alex Peipman y sujetos de prueba personalizables. Lo publica Oro Interactive.",
-   "trailer": "https://youtube.com/embed/85KBnx5OHxc",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/d7697088fbd22ff29e38383923dc7c7053b23fd9/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-17",
-   "url": "https://lanzamientos.lat/juegos/machine-party",
-   "noticias": [
-    {
-     "fecha": "2026-11-17",
-     "titulo": "LLEGA A CONSOLAS EL 26 DE NOVIEMBRE",
-     "texto": "Oro Interactive lo anunció para PS5, Xbox Series y Switch, y la PS Store y la tienda de Xbox ya tienen el día. La eShop todavía no lista la versión de Switch."
-    }
-   ]
-  },
-  {
-   "id": "thrifty-business",
-   "titulo": "THRIFTY BUSINESS",
-   "fecha": "2026-11-26",
-   "relanzamiento": "En PC desde mayo de 2026",
-   "plataformas": [
-    "SWITCH"
-   ],
-   "genero": [
-    "SIMULACION",
-    "RELAX",
-    "INDIE"
-   ],
-   "desarrollador": "SPELLGARDEN GAMES",
-   "descripcion": "Un juego de gestión tranquilo en el que te hacés cargo de una tienda de ropa usada inspirada en los años 90. Hay que revisar cajas llenas de cosas, encontrar tesoros y acomodar ropa, reliquias y juguetes en estantes y vidrieras, agrupados por color, por temática o como prefieras: cuanto más ordenado está el local, más muebles, empapelados y adornos se desbloquean, y con el tiempo se puede agrandar. Los clientes tienen sus historias y sus pedidos, y se pueden organizar eventos para que la tienda sea el punto de encuentro del barrio. Tiene más de 500 objetos distintos.",
-   "trailer": "https://youtube.com/embed/dbEetLPwBGs",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3693650/f53e3319be9a041c2928e8efff87638603ce30ab/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-26",
-   "url": "https://lanzamientos.lat/juegos/thrifty-business",
-   "noticias": [
-    {
-     "fecha": "2026-11-26",
-     "titulo": "YA SALIÓ EN SWITCH",
-     "texto": "Thrifty Business, que estaba en PC desde mayo, ya está a la venta en Switch."
-    }
-   ]
-  },
-  {
-   "id": "origament-a-paper-adventure",
-   "titulo": "ORIGAMENT: A PAPER ADVENTURE",
-   "fecha": "2026-11-26",
-   "relanzamiento": "En PC desde abril de 2026",
-   "plataformas": [
-    "PS5",
-    "SWITCH"
-   ],
-   "genero": [
-    "PLATAFORMA",
-    "AVENTURA",
-    "INDIE"
-   ],
-   "desarrollador": "SPACE SAUCE STUDIO",
-   "descripcion": "Un plataformas de aventuras en el que sos una carta de papel. Despertó en el Archivo de la Memoria, donde duermen las palabras que nunca se enviaron, y se escapó para llegar a quien todavía la espera. El viaje cruza épocas y continentes, de un jardín a la luz de la luna a los tornados del Lejano Oeste, y la carta vuela, navega y rueda según lo que pida cada tramo. Cada mundo tiene su propia historia y cada misión deja una pista sobre un secreto mayor. Es una aventura liviana, con puzzles sencillos y algunos pasajes que piden más habilidad.",
-   "trailer": "https://youtube.com/embed/m8Y0a_zn1xk",
-   "metacritic": null,
-   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3448430/dbb86080ccf74193e309c06d1da76f95abd9a2ac/library_capsule_2x.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-26",
-   "url": "https://lanzamientos.lat/juegos/origament-a-paper-adventure",
-   "noticias": [
-    {
-     "fecha": "2026-11-26",
-     "titulo": "YA SALIÓ EN PS5 Y SWITCH",
-     "texto": "Origament: A Paper Adventure, que estaba en PC desde abril, ya está a la venta en PS5 y Switch."
-    }
-   ]
-  },
-  {
-   "id": "arcade-archives-2-dirt-dash",
-   "titulo": "ARCADE ARCHIVES 2: DIRT DASH",
-   "fecha": "2026-11-26",
-   "relanzamiento": "Arcade de 1995",
-   "plataformas": [
-    "PS5",
-    "PS4",
-    "XBOX",
-    "SWITCH2",
-    "SWITCH"
-   ],
-   "genero": [
-    "CARRERAS",
-    "ARCADE",
-    "RETRO"
-   ],
-   "desarrollador": "HAMSTER",
-   "descripcion": "La reedición del juego de carreras todoterreno de Namco de 1995. Cada etapa es un recorrido distinto: la de nieve baja por pistas de esquí, la de montaña va por caminos de cornisa al borde de precipicios y la de ciudad se mete por callejones. Un sistema de navegación marca el camino, y en el trayecto aparecen eventos de acción que hay que resolver antes de llegar a la meta. Trae las opciones de siempre de la serie: dificultad, modos de pantalla, rebobinar y varias ranuras de guardado.",
-   "trailer": "https://youtube.com/embed/dbovF0PJOl4",
-   "metacritic": null,
-   "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202611/1703/952598d7aed8b23020ef7d5287cd08e4833bb0c135172b9b.jpg",
-   "gamepass": false,
-   "psplus": false,
-   "alta": "2026-11-26",
-   "url": "https://lanzamientos.lat/juegos/arcade-archives-2-dirt-dash",
-   "noticias": [
-    {
-     "fecha": "2026-11-26",
-     "titulo": "SALIÓ HOY EN PS5, XBOX Y SWITCH 2",
-     "texto": "HAMSTER lo sumó a Arcade Archives 2 el 26 de noviembre. El mismo día salió la edición clásica de Arcade Archives para PS4 y Switch."
-    }
-   ]
-  },
   {
    "id": "the-last-cat-in-the-universe-xbox",
    "titulo": "THE LAST CAT IN THE UNIVERSE",
@@ -349,6 +128,37 @@
      "fecha": "2026-10-06",
      "titulo": "SALE EL 30 DE NOVIEMBRE EN PS5",
      "texto": "Resolution Games puso fecha para PS5 y PC."
+    }
+   ]
+  },
+  {
+   "id": "winx-club-moonlight-quest",
+   "titulo": "WINX CLUB: MOONLIGHT QUEST",
+   "fecha": "2026-11-30",
+   "plataformas": [
+    "PS5",
+    "PS4",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "AVENTURA",
+    "ACCION"
+   ],
+   "desarrollador": "BALIO STUDIO",
+   "descripcion": "Una aventura nueva de Winx Club en mundo abierto, con Bloom de protagonista. Te transformás cuando querés, desplegás las alas y volás por lugares de la serie como Alfea, la Torre Nube, la Fuente Roja y Magix City. La historia es inédita, escrita para el juego: el Festival de las 100 Lunas se arruina cuando una amenaza misteriosa cae sobre la Dimensión Mágica. Además de la campaña hay 32 desafíos en cuatro modos para jugar en familia o con amigos, y hasta 24 personajes de la serie para desbloquear.",
+   "trailer": "https://youtube.com/embed/1pCyezdVtaI",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5189950/24f629103ab4874c79f1daff305045a034a77a09/library_capsule_2x.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-27",
+   "url": "https://lanzamientos.lat/juegos/winx-club-moonlight-quest",
+   "noticias": [
+    {
+     "fecha": "2026-11-27",
+     "titulo": "SALE EL 30 DE NOVIEMBRE",
+     "texto": "Balio Studio lo lanza el lunes 30 de noviembre en PS5, PS4, Xbox Series y Switch; en PC sale un día antes. Es el segundo juego de Winx Club del año, después de The Magic is Back."
     }
    ]
   },
@@ -572,6 +382,11 @@
    "url": "https://lanzamientos.lat/juegos/rayman-legends-retold",
    "noticias": [
     {
+     "fecha": "2026-11-27",
+     "titulo": "TRAE GRATIS RAYMAN ORIGINS: ENHANCED EDITION",
+     "texto": "Cualquier edición de Legends Retold incluye Rayman Origins: Enhanced Edition, la remasterización del juego de 2011 a 4K y 60 cuadros por segundo, con mejoras de comodidad y coleccionables nuevos. También se vende por separado y sale el mismo 3 de diciembre."
+    },
+    {
      "fecha": "2026-10-28",
      "titulo": "LA VERSIÓN DE PS5 TRAE UN TRAJE DE ASTRO BOT",
      "texto": "Ubisoft mostró un traje exclusivo de PS5 basado en Astro Bot. El juego sale el 3 de diciembre."
@@ -615,7 +430,8 @@
    "plataformas": [
     "SWITCH2",
     "SWITCH",
-    "PS5"
+    "PS5",
+    "XBOX"
    ],
    "genero": [
     "RPG",
@@ -633,6 +449,11 @@
    "alta": "2026-07-30",
    "url": "https://lanzamientos.lat/juegos/dragon-quest-monsters-the-withered-world",
    "noticias": [
+    {
+     "fecha": "2026-11-27",
+     "titulo": "TAMBIÉN SALE EN XBOX",
+     "texto": "Xbox lo incluyó entre los lanzamientos de la semana que viene: sale el mismo 3 de diciembre en Xbox Series, con Xbox Play Anywhere. Hasta ahora estaba anunciado para Switch 2, Switch y PS5."
+    },
     {
      "fecha": "2026-09-24",
      "titulo": "MÁS DETALLES: SCOUT RUN, COMBATES EN CONJUNTO Y MONSTRUOS NUEVOS",
@@ -662,6 +483,40 @@
    "psplus": false,
    "alta": "2026-07-30",
    "url": "https://lanzamientos.lat/juegos/sombras-negative-frames"
+  },
+  {
+   "id": "aeterna-lucis",
+   "titulo": "AETERNA LUCIS",
+   "fecha": "2026-12-03",
+   "plataformas": [
+    "SWITCH2",
+    "PS5",
+    "XBOX",
+    "SWITCH"
+   ],
+   "genero": [
+    "ACCION",
+    "AVENTURA",
+    "RPG",
+    "PLATAFORMA",
+    "INDIE"
+   ],
+   "desarrollador": "AETERNUM GAME STUDIOS",
+   "descripcion": "La secuela de Aeterna Noctis, un metroidvania de combate rápido con un mapa grande e interconectado, muchos secretos y desafíos opcionales. Esta vez la protagonista es la Reina de la Luz, la otra monarca maldita por el Dios Supremo Caos. El final del primer juego rompió el equilibrio entre la Luz y la Oscuridad, y ella despierta sola, con habilidades nuevas, en un mundo al borde del abismo: tiene que frenar el fin de todo mientras busca a su antiguo enemigo.",
+   "trailer": "https://youtube.com/embed/Pinhqvy0-Pk",
+   "metacritic": null,
+   "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2710920/library_600x900.jpg",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-07-31",
+   "url": "https://lanzamientos.lat/juegos/aeterna-lucis",
+   "noticias": [
+    {
+     "fecha": "2026-11-27",
+     "titulo": "SALE EL 3 DE DICIEMBRE",
+     "texto": "Aeternum Game Studios le puso día: sale el 3 de diciembre. Hasta ahora sólo se sabía que llegaba en el último trimestre del año. La PS Store, la eShop y la tienda de Xbox ya lo tienen."
+    }
+   ]
   },
   {
    "id": "thief-the-dark-project-remastered",
@@ -740,11 +595,16 @@
    "trailer": "https://youtube.com/embed/EC2ahOJNTGc",
    "metacritic": null,
    "imagen": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4004820/405c9ccbef4224fa52954a7062f0ce0ff46ef95c/library_capsule_2x.jpg",
-   "gamepass": false,
+   "gamepass": true,
    "psplus": false,
    "alta": "2026-10-14",
    "url": "https://lanzamientos.lat/juegos/freestyle-football-2",
    "noticias": [
+    {
+     "fecha": "2026-11-27",
+     "titulo": "ENTRA A GAME PASS EL DÍA QUE SALE",
+     "texto": "Xbox confirmó que FreeStyle Football 2 se suma a Game Pass el 3 de diciembre, el mismo día que sale."
+    },
     {
      "fecha": "2026-10-14",
      "titulo": "SALE EL 3 DE DICIEMBRE",
@@ -876,6 +736,36 @@
      "fecha": "2026-11-19",
      "titulo": "LLEGA A CONSOLAS EL 3 DE DICIEMBRE",
      "texto": "DIRGA anunció las versiones de PS5, Xbox Series, PS4, Xbox One y Switch para el 3 de diciembre. La tienda de Xbox y la eShop de América ya tienen el día; en PC salió en marzo."
+    }
+   ]
+  },
+  {
+   "id": "rayman-origins-enhanced-edition",
+   "titulo": "RAYMAN ORIGINS: ENHANCED EDITION",
+   "fecha": "2026-12-03",
+   "relanzamiento": "Remasterización del original de 2011",
+   "plataformas": [
+    "XBOX",
+    "SWITCH2"
+   ],
+   "genero": [
+    "PLATAFORMA",
+    "COOP"
+   ],
+   "desarrollador": "UBISOFT",
+   "descripcion": "La remasterización del plataformas 2D de 2011 con el que volvió Rayman. Los Darktoons invaden el Claro de los Sueños y el Consejo de las Hadas convoca a Rayman para salvarlo, a lo largo de más de 60 niveles dibujados a mano que se juegan solo o de a cuatro en cooperativo. Ahora corre a 4K y 60 cuadros por segundo, con mejoras de comodidad y coleccionables nuevos. Viene incluido en cualquier edición de Rayman Legends Retold, que sale el mismo día, y también se vende por separado.",
+   "trailer": "https://youtube.com/embed/qresYv8AuzI",
+   "metacritic": null,
+   "imagen": "https://store-images.s-microsoft.com/image/apps.30166.14235737447858279.df56875e-0fb3-4b0a-9c89-69a8ca9cdbad.0025d212-7481-48bb-bbbe-662bc9dc2ef4",
+   "gamepass": false,
+   "psplus": false,
+   "alta": "2026-11-27",
+   "url": "https://lanzamientos.lat/juegos/rayman-origins-enhanced-edition",
+   "noticias": [
+    {
+     "fecha": "2026-11-27",
+     "titulo": "SALE EL 3 DE DICIEMBRE, JUNTO CON LEGENDS RETOLD",
+     "texto": "Ubisoft lo lanza el mismo día que Rayman Legends Retold, que lo trae de regalo. La tienda de Xbox y la eShop ya lo tienen por separado; la PS Store de Estados Unidos todavía no lo lista solo."
     }
    ]
   },

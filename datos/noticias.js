@@ -55,6 +55,15 @@
 
 const NOTICIAS = [
   {
+    id: "silksong-sea-of-sorrow-11-diciembre",
+    fecha: "2026-11-27",
+    categoria: "ANUNCIOS",
+    titulo: "HOLLOW KNIGHT: SILKSONG RECIBE SU PRIMERA EXPANSIÓN GRATIS EL 11 DE DICIEMBRE",
+    texto: "Team Cherry anunció que Sea of Sorrow, la primera gran expansión de Silksong, sale el 11 de diciembre y es gratis para todos los que tengan el juego. Hornet sale a explorar islas, fuertes y cavernas por encima y por debajo de un océano abandonado de Pharloom, con personajes y jefes nuevos, y en el tráiler se la ve pescando y saliendo disparada de un cañón. La música vuelve a ser de Christopher Larkin.\n\nSilksong está en PS5, PS4, Xbox Series, Xbox One, Switch, Switch 2 y PC, y también en Game Pass.",
+    fuente: "https://www.gematsu.com/2026/11/hollow-knight-silksong-free-expansion-sea-of-sorrow-launches-december-11",
+    imagen: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/library_600x900_2x.jpg"
+  },
+  {
     id: "ps-plus-diciembre-2026",
     fecha: "2026-11-25",
     categoria: "SUSCRIPCIONES",
