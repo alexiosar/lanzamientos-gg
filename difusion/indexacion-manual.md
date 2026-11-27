@@ -60,12 +60,14 @@ Silver Palace, Dark Heresy, Hard West 2 y Hozy.
 
 ## 27/11
 
-- [ ] https://lanzamientos.lat/juegos/rayman-origins-enhanced-edition
-- [ ] https://lanzamientos.lat/juegos/winx-club-moonlight-quest
-- [ ] https://lanzamientos.lat/juegos/aeterna-lucis (pasó de "cuarto trimestre" al 3/12)
-- [ ] https://lanzamientos.lat/juegos/dragon-quest-monsters-the-withered-world (sumó Xbox)
+- [x] https://lanzamientos.lat/juegos/rayman-origins-enhanced-edition (27/11)
+- [x] https://lanzamientos.lat/juegos/winx-club-moonlight-quest (27/11)
+- [x] https://lanzamientos.lat/juegos/aeterna-lucis (pasó de "cuarto trimestre" al 3/12) (27/11)
+- [x] https://lanzamientos.lat/juegos/dragon-quest-monsters-the-withered-world (sumó Xbox) (27/11)
 
 ## 26/11
+
+No se pidieron el 26: pasan a la próxima lista.
 
 Las cuatro del 24/11 no se pidieron y van primeras. Después, las fichas nuevas de hoy.
 
